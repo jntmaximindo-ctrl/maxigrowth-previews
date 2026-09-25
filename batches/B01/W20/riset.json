@@ -1,30 +1,18 @@
 {
   "id": "W20",
-  "batch": "B01",
-  "nama": "Rumah Sakit Khusus Gigi dan Mulut (RSKGM) Kota Bandung",
-  "slug": "rumah-sakit-khusus-dan-mulut",
+  "nama": {
+    "v": "Rumah Sakit Khusus Gigi dan Mulut (RSKGM) Kota Bandung",
+    "src": "https://www.lapor.go.id/instansi/rumah-sakit-khusus-gigi-dan-mulut-rskgm-kota-bandung",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
   "kota": "Bandung",
-  "prioritas": "Tinggi",
-  "tingkat": "Penuh",
-  "url": "https://rskgm.bandung.go.id/",
-  "tgl_riset": "2026-09-25",
-  "alamat": {
-    "v": "Jl. L.L.R.E Martadinata 45, Kota Bandung",
-    "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "@rskgm.bandung",
+    "src": "https://fliphtml5.com/clbnf/BUKU-SAKU/",
     "tgl": "2026-09-25",
     "yakin": "tinggi"
-  },
-  "telepon": {
-    "v": "0224234058",
-    "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "wa": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-09-25",
-    "yakin": "rendah"
   },
   "email": {
     "v": "rskgm.bandung@gmail.com",
@@ -32,153 +20,152 @@
     "tgl": "2026-09-25",
     "yakin": "sedang"
   },
-  "instagram": {
-    "v": "@rskgm.bandung",
-    "src": "https://fliphtml5.com/clbnf/BUKU-SAKU/",
-    "tgl": "2026-09-25",
-    "yakin": "sedang"
-  },
-  "jam": {
-    "v": {
-      "sen": "07:30-14:00",
-      "sel": "07:30-14:00",
-      "rab": "07:30-14:00",
-      "kam": "07:30-14:00",
-      "jum": "07:30-14:00",
-      "sab": "07:30-11:00",
-      "min": "tutup"
-    },
-    "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/rumah-sakit-khusus-gigi-dan-mu-ciha-imp1",
-    "tgl": "2026-09-25",
-    "yakin": "rendah",
-    "catatan": "Jam dari direktori pihak ketiga; belum terkonfirmasi sebagai jam seluruh layanan. Profil Kemenkes mencantumkan pelayanan gawat darurat umum 24 jam, tujuh hari seminggu."
-  },
-  "dokter": [
+  "cabang": [
     {
-      "v": "drg. Marlyn Artalina, Sp.KGA",
-      "src": "https://medicastore.com/dokter/detail/38755/marlyn-artalina",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
+      "nama": "RSKGM Kota Bandung",
+      "alamat": {
+        "v": "Jl. L.L.R.E. Martadinata No. 45, Kota Bandung",
+        "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0224234058",
+        "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "07:30-14:00",
+          "sel": "07:30-14:00",
+          "rab": "07:30-14:00",
+          "kam": "07:30-14:00",
+          "jum": "07:30-14:00",
+          "sab": "07:30-11:00",
+          "min": "tutup"
+        },
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/rumah-sakit-khusus-gigi-dan-mu-ciha-imp1",
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      }
     }
   ],
-  "layanan": {
-    "v": [
-      "Bedah mulut",
-      "Konservasi gigi/endodonsi",
-      "Ortodonti",
-      "Periodonti",
-      "Prostodonsi",
-      "Kedokteran gigi anak",
-      "Radiologi kedokteran gigi",
-      "Pelayanan gawat darurat umum 24 jam, tujuh hari seminggu"
-    ],
-    "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "pendaftaran_online": {
-    "v": "Portal pendaftaran online tersedia; halaman yang dapat dibuka menampilkan masuk dan daftar akun.",
-    "src": "https://www.pendaftaranonline.rskgm.bandung.go.id/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "rating_maps": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-09-25",
-    "yakin": "rendah"
-  },
-  "ulasan_maps": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-09-25",
-    "yakin": "rendah"
-  },
-  "harga": {
-    "jenis": "resmi_klinik",
-    "catatan": "Angka berikut berasal dari dokumen tarif RSKGM bertahun 2024 yang diunggah pihak ketiga atau diberitakan media. Tarif scaling dan implan berasal dari lampiran tarif bertahun 2018. Tidak satu pun boleh dianggap tarif berlaku pada 2026 tanpa konfirmasi rumah sakit; jenis bahan behel tidak disebutkan dalam dokumen yang ditemukan.",
-    "scaling": {
-      "v": "Rp160.000 per rahang (tertulis sebagai 'Skeling'; tarif 2018, belum terverifikasi untuk 2026)",
-      "src": "https://id.scribd.com/document/488966780/tarif-periodonti",
-      "tgl": "2026-09-25",
-      "yakin": "rendah"
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Dewi Hermalia",
+        "src": "https://jabarprov.go.id/berita/periksa-gigi-gratis-rskgm-gelar-safari-dental-care-keliling-30-kecamatan-kota-bandung-25861",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "cabang": "RSKGM Kota Bandung"
     },
-    "tambal": {
-      "v": "Restorasi komposit tingkat 3 Rp300.000 per gigi; tingkat 4 Rp400.000 per gigi (tarif 2024)",
-      "src": "https://voi.id/kesehatan/486625/biaya-perawatan-saluran-akar-gigi",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    },
-    "cabut": {
-      "v": "Pencabutan gigi dewasa dengan anestesi lokal di klinik pedodontia Rp200.000 per gigi (tarif 2024)",
-      "src": "https://id.scribd.com/document/733057759/Pedodontia",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    },
-    "behel_metal": {
-      "v": null,
-      "src": null,
-      "tgl": "2026-09-25",
-      "yakin": "rendah",
-      "catatan": "Dokumen tarif 2024 mencantumkan alat ortodonti cekat Rp6.660.000 untuk rahang atas dan bawah, tetapi tidak menyebut bahannya metal."
-    },
-    "bleaching": {
-      "v": "Bleaching ekstrakoronal Rp3.500.000 per kunjungan (tarif 2024 yang diberitakan media)",
-      "src": "https://voi.id/kesehatan/486625/biaya-perawatan-saluran-akar-gigi",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    },
-    "veneer": {
-      "v": "Direct veneer komposit Rp400.000 per gigi; indirect veneer all porcelain Rp3.000.000 per gigi (tarif 2024 yang diberitakan media)",
-      "src": "https://voi.id/kesehatan/486625/biaya-perawatan-saluran-akar-gigi",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    },
-    "implan": {
-      "v": "Dental implant Rp8.000.000 per gigi, dengan crown implant tercantum terpisah Rp2.500.000 per gigi (tarif 2018, belum terverifikasi untuk 2026)",
-      "src": "https://id.scribd.com/document/488966780/tarif-periodonti",
-      "tgl": "2026-09-25",
-      "yakin": "rendah"
+    {
+      "nama": {
+        "v": "drg. Eko Rotary Nurtito, Sp.PM",
+        "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Sp.PM",
+        "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "cabang": "RSKGM Kota Bandung"
     }
-  },
-  "situs_lama": {
-    "v": "Beranda rskgm.bandung.go.id mengalami timeout saat diperiksa; informasi layanan, dokter, jam praktik, dan tarif di situs utama tidak dapat diperiksa. Portal pendaftaran online dapat dibuka, tetapi halaman awalnya hanya menampilkan formulir masuk/daftar akun.",
-    "src": "https://rskgm.bandung.go.id/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "keunggulan": {
-    "v": "Rumah sakit khusus gigi dan mulut kelas B milik Pemerintah Kota Bandung; profil Kemenkes mencantumkan layanan kedokteran gigi anak, ortodonti, bedah mulut, dan radiologi kedokteran gigi, serta pelayanan gawat darurat umum 24 jam.",
-    "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "ide_fitur_khas": {
-    "v": "Pemilih poli interaktif berdasarkan kebutuhan pasien—misalnya perawatan anak, behel, gusi, atau bedah mulut—yang menjelaskan layanan terkait dan mengarahkan pasien ke portal pendaftaran online; sediakan jalur informasi gawat darurat terpisah.",
-    "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
+  ],
+  "layanan": [
+    "Bedah mulut",
+    "Konservasi gigi dan endodonsi",
+    "Ortodonti",
+    "Periodonti",
+    "Prostodonsi",
+    "Kedokteran gigi anak",
+    "Radiologi kedokteran gigi",
+    "Pelayanan gawat darurat umum 24 jam",
+    "Safari Dental Care: pemeriksaan, scaling, penambalan, dan pencabutan gigi ringan di unit bergerak"
+  ],
+  "harga": [
+    {
+      "perawatan": "Pencabutan gigi dewasa dengan anestesi lokal per gigi; tarif RSKGM tahun 2024, belum terverifikasi berlaku pada 2026",
+      "jenis": "resmi_klinik",
+      "min": 200000,
+      "max": 200000,
+      "src": "https://id.scribd.com/document/733057759/Pedodontia"
+    },
+    {
+      "perawatan": "Tambalan komposit tingkat 3 pada anak per gigi; tarif RSKGM tahun 2024, belum terverifikasi berlaku pada 2026",
+      "jenis": "resmi_klinik",
+      "min": 300000,
+      "max": 300000,
+      "src": "https://id.scribd.com/document/733057759/Pedodontia"
+    },
+    {
+      "perawatan": "Alat ortodonti cekat, rahang atas dan bawah; tarif RSKGM tahun 2024. Jenis bracket, termasuk apakah metal, tidak disebutkan",
+      "jenis": "resmi_klinik",
+      "min": 6660000,
+      "max": 6660000,
+      "src": "https://id.scribd.com/document/722023589/Orthodonti"
+    }
+  ],
+  "fasilitas": [
+    "Instalasi gawat darurat",
+    "Radiologi kedokteran gigi",
+    "Farmasi",
+    "Sterilisasi/CSSD",
+    "Unit Dental Care bergerak dengan dental unit, scaler, peralatan penambalan, AC, dan televisi"
+  ],
+  "asuransi": [],
+  "keunggulan": [
+    "Rumah sakit khusus gigi dan mulut kelas B milik Pemerintah Kota Bandung.",
+    "Data Kementerian Kesehatan mencatat layanan spesialistik ortodonti, bedah mulut, kedokteran gigi anak, konservasi gigi, prostodonsi, penyakit mulut, periodonsia, dan radiologi kedokteran gigi.",
+    "Memiliki pelayanan gawat darurat umum 24 jam menurut profil Kementerian Kesehatan.",
+    "Pada September 2026 menyelenggarakan Safari Dental Care yang dijadwalkan berkeliling ke 30 kecamatan Kota Bandung hingga Oktober."
+  ],
+  "situs_lama": [
+    "Beranda https://rskgm.bandung.go.id/ menghasilkan Internal Error saat diperiksa pada 25 September 2026; isi beranda, halaman dokter, tarif, dan kontak tidak dapat diaudit dari situs utama.",
+    "Halaman pendaftaran online yang dapat dibuka menampilkan formulir masuk/daftar akun, tetapi tidak menampilkan jadwal dokter atau tarif tanpa masuk."
+  ],
+  "ide_fitur_khas": "Pencari layanan dan dokter berdasarkan spesialisasi, terhubung ke pendaftaran online, dengan kalender lokasi Safari Dental Care yang dibedakan jelas dari layanan di rumah sakit.",
+  "catatan": "✎ Verifikasi jam rawat jalan langsung ke rumah sakit: jam yang ditemukan berasal dari direktori pihak ketiga dan tidak mencakup IGD 24 jam. Nomor WA PIPP yang terlihat pada balasan ulasan adalah kanal pengaduan, bukan nomor reservasi, sehingga WA cabang dikosongkan. Profil Kementerian Kesehatan menyebut drg. Eko Rotary Nurtito, Sp.PM sebagai direktur; jadwal praktiknya belum ditemukan. Dokumen tarif yang ditemukan bertahun 2024 dan diunggah ulang ke Scribd, bukan konfirmasi tarif berlaku pada 2026. Harga scaling, behel metal secara spesifik, bleaching, veneer, dan implan tidak dicantumkan karena tarif RSKGM terkini maupun kisaran dari sedikitnya tiga sumber publik di Kota Bandung belum dapat diverifikasi. Rating 4,4 dan 2.548 ulasan dari input Sheet tidak dimasukkan: angka pada direktori yang dibuka berbeda dan halaman Google Maps yang dibuka tidak menampilkan angka yang dapat diverifikasi.",
   "sumber": [
     "https://rskgm.bandung.go.id/",
-    "https://www.rskgm.bandung.go.id/",
     "https://www.pendaftaranonline.rskgm.bandung.go.id/",
     "https://sirs.kemkes.go.id/fo/home/profile_rs/3273540",
     "https://www.lapor.go.id/instansi/rumah-sakit-khusus-gigi-dan-mulut-rskgm-kota-bandung",
     "https://fliphtml5.com/clbnf/BUKU-SAKU/",
-    "https://medicastore.com/dokter/detail/38755/marlyn-artalina",
+    "https://jabarprov.go.id/berita/periksa-gigi-gratis-rskgm-gelar-safari-dental-care-keliling-30-kecamatan-kota-bandung-25861",
     "https://caribisnis.id/dokter-gigi/bandung/cihampelas/rumah-sakit-khusus-gigi-dan-mu-ciha-imp1",
-    "https://id.scribd.com/document/722023589/Orthodonti",
     "https://id.scribd.com/document/733057759/Pedodontia",
-    "https://id.scribd.com/document/488966780/tarif-periodonti",
-    "https://voi.id/kesehatan/486625/biaya-perawatan-saluran-akar-gigi",
+    "https://id.scribd.com/document/722023589/Orthodonti",
     "https://id.scribd.com/document/756792461/Prosthodonti",
-    "https://id.scribd.com/document/525632070/tarif-eksodonti",
-    "https://id.scribd.com/document/850626018/Penyakit-Mulut",
-    "https://id.scribd.com/document/383000242/Daftar-Tarif-Perawatan-Gigi-Dan-Mulut",
-    "https://id.scribd.com/document/617360135/Tarif-Gigi-New",
-    "https://jdih.bandung.go.id/media/1729?download=true",
-    "https://ppid.bandung.go.id/storage/ppid_pembantu/informasi_setiap_saat/cXTkYPV5O7pbg9nsfutj1ItvFpAAWZJoSVDEN7DI.pdf",
-    "https://standarpelayanan.bandung.go.id/"
+    "https://www.google.com/maps/place/Rumah%2BSakit%2BKhusus%2BGigi%2Bdan%2BMulut/%40-6.9062335%2C107.6141054%2C1066m/data%3D%213m2%211e3%214b1%214m6%213m5%211s0x2e68e649c02204a1%3A0xce7b66a289ede465%218m2%213d-6.9062335%214d107.6141054%2116s%2Fg%2F1pty2q70m?authuser=0&entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D&hl=id"
   ]
 }

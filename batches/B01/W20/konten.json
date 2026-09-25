@@ -1,0 +1,141 @@
+{
+  "id": "W20",
+  "hero": {
+    "judul": {
+      "id": "Layanan kesehatan gigi dan mulut di Kota Bandung",
+      "en": "Dental and oral care in Bandung"
+    },
+    "sub": {
+      "id": "Kenali layanan RSKGM Kota Bandung, dari perawatan gigi anak hingga layanan spesialistik. Hubungi rumah sakit untuk memastikan jadwal dan alur pendaftaran.",
+      "en": "Explore RSKGM Kota Bandung’s services, from children’s dental care to specialist care. Contact the hospital to confirm schedules and registration steps."
+    },
+    "cta": {
+      "id": "Hubungi rumah sakit",
+      "en": "Contact the hospital"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Bedah mulut",
+        "en": "Oral surgery"
+      },
+      "ringkas": {
+        "id": "Penanganan masalah gigi dan mulut yang memerlukan tindakan bedah. Jenis tindakan ditentukan setelah pemeriksaan.",
+        "en": "Care for dental and oral conditions that may require surgery. The appropriate procedure is determined after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Bagian dari layanan konservasi gigi dan endodonsi. Dokter akan menilai kondisi gigi sebelum menyarankan perawatan.",
+        "en": "Part of the hospital’s restorative dentistry and endodontic services. A dentist will assess the tooth before recommending care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti",
+        "en": "Orthodontics"
+      },
+      "ringkas": {
+        "id": "Layanan untuk menilai dan menangani susunan gigi serta rahang, termasuk kebutuhan perawatan behel.",
+        "en": "Assessment and care for the alignment of teeth and jaws, including braces."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kedokteran gigi anak",
+        "en": "Children’s dentistry"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi untuk anak sesuai kondisi dan kebutuhannya.",
+        "en": "Dental examinations and care tailored to each child’s needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Radiologi kedokteran gigi",
+        "en": "Dental imaging"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan pencitraan gigi dan rahang untuk membantu dokter menilai kondisi pasien.",
+        "en": "Imaging of the teeth and jaws to support a dentist’s assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan layanan dan informasi Safari Dental Care",
+      "en": "Find services and Safari Dental Care updates"
+    },
+    "penjelasan": {
+      "id": "Rancangan website ini memudahkan pengunjung mencari layanan berdasarkan bidang perawatan dan menuju pendaftaran online. Kalender lokasi Safari Dental Care ditampilkan terpisah dari layanan di rumah sakit, dengan jadwal yang perlu diperbarui oleh pihak RSKGM.",
+      "en": "This proposed website helps visitors explore services by specialty and access online registration. A separate Safari Dental Care calendar can show mobile-service locations, with dates maintained by RSKGM."
+    },
+    "alasan_dipilih": "RSKGM memiliki beragam layanan spesialistik dan pernah menjadwalkan Safari Dental Care keliling kecamatan di Kota Bandung. Pemisahan informasi membantu pengunjung membedakan layanan rumah sakit dari kegiatan unit bergerak."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan jam pelayanan RSKGM?",
+        "en": "What are RSKGM’s opening hours?"
+      },
+      "a": {
+        "id": "Jam rawat jalan perlu dikonfirmasi langsung ke rumah sakit karena informasi yang tersedia belum terverifikasi. Profil Kementerian Kesehatan mencatat pelayanan gawat darurat umum 24 jam. Hubungi 0224234058 untuk memastikan layanan yang Anda perlukan.",
+        "en": "Please confirm outpatient hours directly with the hospital, as the available schedule has not been verified. The Ministry of Health lists a 24-hour general emergency service. Call 0224234058 to check the service you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan gigi?",
+        "en": "How much does dental care cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tarif terbaru belum dapat dipastikan dari informasi yang tersedia. Tanyakan perkiraan biaya langsung kepada RSKGM sebelum perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Current fees could not be confirmed from the available information. Ask RSKGM for an estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah RSKGM menerima asuransi?",
+        "en": "Does RSKGM accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi yang diterima belum dapat dipastikan. Hubungi rumah sakit dan sebutkan jenis kepesertaan Anda untuk menanyakan ketentuan yang berlaku.",
+        "en": "Accepted insurance plans could not be confirmed. Contact the hospital with your coverage details to ask about current arrangements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Is braces treatment available?"
+      },
+      "a": {
+        "id": "RSKGM memiliki layanan ortodonti. Konsultasikan kondisi gigi Anda untuk mengetahui pilihan perawatan, jadwal, dan biaya yang berlaku.",
+        "en": "RSKGM provides orthodontic services. Book a consultation to discuss treatment options, availability, and current fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa diperiksa di RSKGM?",
+        "en": "Can children receive dental care at RSKGM?"
+      },
+      "a": {
+        "id": "Ya, RSKGM memiliki layanan kedokteran gigi anak. Hubungi rumah sakit untuk menanyakan alur pendaftaran dan jadwal layanan.",
+        "en": "Yes. RSKGM provides children’s dental care. Contact the hospital to ask about registration and appointment availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang layanan atau pendaftaran? Hubungi RSKGM Kota Bandung di 0224234058.",
+    "en": "Questions about services or registration? Call RSKGM Kota Bandung at 0224234058."
+  },
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu Manajemen RSKGM Kota Bandung. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat RSKGM memiliki program Safari Dental Care yang menjangkau kecamatan di Kota Bandung. Kami sudah menyiapkan konsep website tanpa biaya untuk Bapak/Ibu lihat: https://maxigrowthstudio.com/rumah-sakit-khusus-dan-mulut. Konsep ini memisahkan informasi layanan rumah sakit dan kegiatan keliling. Bila berkenan, saya siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk RSKGM Kota Bandung",
+    "email_isi": "Yth. Bapak/Ibu Manajemen RSKGM Kota Bandung,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pengunjung mengenali layanan RSKGM dan menemukan akses pendaftaran online. Kami juga mengusulkan ruang informasi Safari Dental Care yang terpisah dari layanan di rumah sakit agar lokasi kegiatan keliling dapat disampaikan dengan jelas.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/rumah-sakit-khusus-dan-mulut. Proposal PDF terlampir untuk Bapak/Ibu tinjau. Bila ada informasi yang perlu diperbaiki, kami terbuka menerima masukan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
