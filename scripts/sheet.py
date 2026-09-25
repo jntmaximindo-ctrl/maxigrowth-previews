@@ -100,6 +100,8 @@ def status():
         r = by_id.get(f.parent.name)
         if not r:
             continue
+        if r.get("Status", "").strip().lower() in ("skip", "batal", "dilewati"):
+            continue  # keputusan pemilik di Sheet tidak ditimpa sistem
         if st.get("status") and st["status"] != r.get("Status"):
             ups.append((r["_row"], "Status", st["status"]))
         if st.get("preview") and st["preview"] != r.get("Link preview"):
