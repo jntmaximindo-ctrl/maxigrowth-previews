@@ -53,9 +53,17 @@ def next_batch_name():
 
 
 def slugify(name):
-    name = re.sub(r"\(.*?\)|\[.*?\]", "", name).lower()
-    name = re.sub(r"\b(klinik|clinic|praktek|dokter|gigi|pt)\b", " ", name)
-    return re.sub(r"[^a-z0-9]+", "-", name).strip("-")[:28] or "klinik"
+    """Slug pendek: pakai singkatan dalam kurung (mis. RSKGM, BDC) bila ada, jika tidak 2 kata pertama yang bermakna."""
+    m = re.search(r"[\(\[]([A-Z]{2,6})[\)\]]", name)
+    if m:
+        return m.group(1).lower()
+    base = re.sub(r"\(.*?\)|\[.*?\]", " ", name).lower()
+    generik = {"klinik", "clinic", "praktek", "praktik", "dokter", "gigi", "pt", "utama", "dental", "care", "the", "dan", "&"}
+    kata = [w for w in re.split(r"[^a-z0-9]+", base) if w and w not in generik]
+    if not kata:
+        kata = [w for w in re.split(r"[^a-z0-9]+", base) if w]
+    kata = list(dict.fromkeys(kata))
+    return "-".join(kata[:2])[:28] or "klinik"
 
 
 def intake(size=10):

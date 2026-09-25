@@ -107,8 +107,14 @@ def main(job_dir: str) -> int:
         print("SKEMA KONTEN GAGAL:", *kerr[:20], sep="\n  ")
         return 2
     if not cek.get("kritis_ok", False):
-        print("CEK FAKTA: ada beda kritis → perlu ditinjau", json.dumps(cek.get("beda", [])[:10], ensure_ascii=False))
-        return 2
+        # Fakta yang dipersoalkan pemeriksa tidak memblokir alur: ditandai agar tampil sebagai "✎ verifikasi"
+        # di website dan masuk kolom Verifikasi untuk dicek manusia.
+        riset["verifikasi_manual"] = [
+            {"path": b.get("path"), "tercatat": b.get("tercatat"), "catatan": b.get("di_sumber") or b.get("catatan")}
+            for b in cek.get("beda", [])]
+        (d / "riset.json").write_text(json.dumps(riset, ensure_ascii=False, indent=2))
+        print("CEK FAKTA: ada fakta dipersoalkan → ditandai ✎ verifikasi:",
+              json.dumps(riset["verifikasi_manual"][:10], ensure_ascii=False))
     print("OK", job["id"], "beda non-kritis:", len(cek.get("beda", [])))
     return 0
 
