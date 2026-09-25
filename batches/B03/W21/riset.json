@@ -1,0 +1,187 @@
+{
+  "id": "W21",
+  "nama": {
+    "v": "Infinite Dental Care",
+    "src": "https://linktr.ee/infinitedentalcare",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-25",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-25",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Jl. Sunda",
+      "alamat": {
+        "v": "Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",
+        "src": "https://idalamat.com/alamat/1060668/infinite-dental-care-bandung-jawa-barat",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0877-7776-6040",
+        "src": "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-maret-2026.pdf",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-20",
+          "sel": "09-20",
+          "rab": "09-20",
+          "kam": "09-20",
+          "jum": "09-20",
+          "sab": "09-20",
+          "min": "09-20"
+        },
+        "src": "https://idalamat.com/alamat/1060668/infinite-dental-care-bandung-jawa-barat",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi",
+    "Veneer",
+    "Bleaching",
+    "Implan gigi",
+    "Perawatan saluran akar",
+    "Gigi tiruan",
+    "Dental spa"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 231000,
+      "max": 650000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+        "https://hdmall.id/passion-dental-care/products",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 330000,
+      "max": 849000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://hdmall.id/passion-dental-care/products",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi dewasa, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 203000,
+      "max": 899000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/infinite-dental-care-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Behel metal, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 5000000,
+      "max": 8000000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Bleaching, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 1400000,
+      "max": 3200000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Veneer porselen per gigi, perkiraan pasar Bandung; bukan tarif Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 1900000,
+      "max": 4300000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+        "https://hdmall.id/passion-dental-care/products",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Implan gigi, perkiraan pasar Bandung; bukan tarif terkonfirmasi Infinite Dental Care",
+      "jenis": "kisaran_pasar",
+      "min": 11300000,
+      "max": 17900000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/infinite-dental-care-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1"
+      ]
+    }
+  ],
+  "fasilitas": [
+    "Akses kursi roda",
+    "Toilet",
+    "Menerima pembayaran kartu"
+  ],
+  "asuransi": [
+    "Terdaftar sebagai rekanan Admedika dalam daftar pemegang kartu grup Maret 2026"
+  ],
+  "maps": {
+    "rating": 4.9,
+    "ulasan": 457,
+    "src": "https://indonesiaknowledge.com/directory/dental/bandung/infinite-dental-care-bandung",
+    "tgl": "2026-09-25"
+  },
+  "keunggulan": [
+    "Tercantum buka setiap hari, termasuk Minggu, pukul 09.00–20.00 pada direktori; konfirmasi ulang sebelum dipublikasikan.",
+    "Tercantum sebagai klinik pratama rekanan Admedika dalam daftar pemegang kartu grup Maret 2026."
+  ],
+  "situs_lama": [
+    "URL yang diberikan membuka Linktree, bukan situs klinik dengan halaman layanan dan kontak tersendiri.",
+    "Pada tampilan Linktree yang dapat dibaca, alamat, jam praktik, daftar dokter, dan harga tidak tercantum."
+  ],
+  "ide_fitur_khas": "Pilih hari kunjungan—termasuk Minggu—untuk melihat jam praktik, petunjuk arah, dan tombol menghubungi klinik; tampilkan jadwal dokter hanya setelah diverifikasi.",
+  "catatan": "✎ Verifikasi akun Instagram, nomor WhatsApp, identitas serta jadwal dokter, layanan, fasilitas, cakupan Admedika, dan tarif langsung ke klinik. Nomor telepon belum dipastikan sebagai nomor WhatsApp. Direktori mencantumkan jumlah ulasan berbeda: 453 dan 457, sedangkan input Sheet menyebut 466; angka 457 di kolom maps adalah cuplikan direktori yang terakhir menyatakan pemeriksaan pada 2026-08-06, bukan hitungan Google Maps langsung pada 2026-09-25. Kisaran harga bersifat pembanding pasar, bukan penawaran Infinite Dental Care; beberapa kisaran direktori tidak terkonfirmasi oleh penyedia layanan. Untuk behel metal dan implan, belum ditemukan tiga sumber harga pembanding yang cukup untuk memenuhi syarat riset; jangan publikasikan kisaran tersebut sebelum riset tambahan.",
+  "sumber": [
+    "https://linktr.ee/infinitedentalcare",
+    "https://idalamat.com/alamat/1060668/infinite-dental-care-bandung-jawa-barat",
+    "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-maret-2026.pdf",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/infinite-dental-care-ciha-imp1",
+    "https://indonesiaknowledge.com/directory/dental/bandung/infinite-dental-care-bandung",
+    "https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4",
+    "https://hdmall.id/passion-dental-care/products",
+    "https://hdmall.id/klinik-gigi/omdc-healthcare",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1"
+  ]
+}

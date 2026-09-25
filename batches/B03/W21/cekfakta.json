@@ -1,0 +1,17 @@
+{
+  "id": "W21",
+  "diperiksa": 41,
+  "beda": [
+    {
+      "path": "harga[2].max",
+      "tercatat": "Rp899.000 sebagai batas atas kisaran cabut gigi dewasa",
+      "di_sumber": "Rp899.000 adalah harga normal «Cabut Gigi Komplikasi» di OMDC; harga normal «Cabut Gigi Standar» tercantum Rp699.000.",
+      "src": "https://hdmall.id/klinik-gigi/omdc-healthcare",
+      "catatan": "Angka Rp899.000 tertulis, tetapi sumber tidak melabelinya sebagai harga cabut gigi dewasa biasa. ([hdmall.id](https://hdmall.id/klinik-gigi/omdc-healthcare))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4"
+  ],
+  "kritis_ok": true
+}

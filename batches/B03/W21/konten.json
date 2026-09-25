@@ -1,0 +1,152 @@
+{
+  "id": "W21",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di Infinite Dental Care Bandung",
+      "en": "Dental care at Infinite Dental Care Bandung"
+    },
+    "sub": {
+      "id": "Kenali pilihan perawatan di Jl. Sunda No.55. Hubungi klinik untuk memastikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore dental care options at Jl. Sunda No.55. Contact the clinic to confirm availability before your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about visiting hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Dokter gigi dapat menjelaskan kebutuhan perawatan setelah pemeriksaan.",
+        "en": "Removal of tartar. A dentist can explain what care you may need after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang atau rusak, sesuai hasil pemeriksaan.",
+        "en": "Care for a damaged or decayed tooth, based on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi susunan gigi dan pilihan perawatan yang sesuai.",
+        "en": "Discuss your tooth alignment and suitable treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi yang kebutuhannya ditentukan melalui pemeriksaan.",
+        "en": "Care for the inside of a tooth, when an examination shows it is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pengganti gigi yang hilang sesuai kondisi mulut Anda.",
+        "en": "Ask about options for replacing missing teeth based on your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Konsultasikan perawatan untuk mencerahkan warna gigi dan kecocokannya bagi Anda.",
+        "en": "Discuss teeth whitening and whether it is suitable for you."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan hari kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari, termasuk Minggu, untuk melihat jam yang tercantum di direktori, petunjuk arah, dan cara menghubungi klinik. Konfirmasi jam praktik langsung sebelum berangkat.",
+      "en": "Choose a day, including Sunday, to see directory-listed hours, directions, and how to contact the clinic. Please confirm opening hours before you travel."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam praktik setiap hari, termasuk Minggu, tetapi jadwal tersebut perlu dikonfirmasi langsung ke klinik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Jam berapa klinik buka?",
+        "en": "What are the clinic’s opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan pukul 09.00–20.00 setiap hari, termasuk Minggu. Mohon konfirmasi langsung ke klinik karena jam dapat berubah.",
+        "en": "A directory lists the clinic as open from 9 a.m. to 8 p.m. daily, including Sundays. Please confirm with the clinic, as hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif Infinite Dental Care belum terkonfirmasi. Hubungi klinik untuk menanyakan biaya sesuai perawatan yang Anda perlukan.",
+        "en": "Infinite Dental Care’s fees have not been confirmed. Contact the clinic to ask about the cost of the care you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima Admedika?",
+        "en": "Does the clinic accept Admedika?"
+      },
+      "a": {
+        "id": "Infinite Dental Care tercantum sebagai rekanan dalam daftar pemegang kartu grup Admedika Maret 2026. Konfirmasi cakupan kartu dan prosedur penggunaannya kepada klinik sebelum berkunjung.",
+        "en": "Infinite Dental Care appears on Admedika’s March 2026 group cardholder provider list. Check your card’s coverage and how to use it with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum dalam daftar layanan. Hubungi klinik untuk memastikan ketersediaan konsultasi dan pilihan perawatannya.",
+        "en": "Braces are listed among the services. Contact the clinic to confirm consultation availability and treatment options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa berobat di sini?",
+        "en": "Can children receive care here?"
+      },
+      "a": {
+        "id": "Ketersediaan perawatan untuk anak belum terkonfirmasi. Sampaikan usia anak dan keluhannya saat menghubungi klinik.",
+        "en": "Dental care for children has not been confirmed. Share your child’s age and concern when contacting the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Ada pertanyaan sebelum berkunjung? Hubungi Infinite Dental Care untuk memastikan jadwal, layanan, dan biaya.",
+    "en": "Have a question before your visit? Contact Infinite Dental Care to confirm hours, services, and fees."
+  },
+  "pesan_wa_default": "Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan [nama layanan]. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen Infinite Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya melihat klinik tercantum berlokasi di Jl. Sunda, Bandung. Kami telah menyiapkan konsep website tanpa biaya untuk Bapak/Ibu lihat: https://maxigrowthstudio.com/infinite. Jika berkenan, saya dapat mengirimkan penjelasan singkatnya. Terima kasih. Muhammad Rizqi Tri Andika | 082141004400",
+    "email_subjek": "Konsep website untuk Infinite Dental Care",
+    "email_isi": "Yth. Bapak/Ibu manajemen Infinite Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi klinik saat ini tersedia melalui Linktree. Kami menyiapkan konsep website yang mengelompokkan informasi layanan, lokasi, dan pertanyaan umum agar mudah ditemukan calon pasien.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/infinite. Proposal PDF juga saya lampirkan untuk Bapak/Ibu tinjau. Informasi seperti jam praktik dan layanan dalam konsep ini perlu dikonfirmasi bersama tim klinik sebelum dipublikasikan.\n\nJika berkenan berdiskusi, silakan balas email ini atau hubungi saya di 082141004400.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com"
+  }
+}
