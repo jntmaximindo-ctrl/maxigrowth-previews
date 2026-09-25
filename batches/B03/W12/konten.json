@@ -1,0 +1,152 @@
+{
+  "id": "W12",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di BW Dental Aesthetic Bandung",
+      "en": "Dental Care at BW Dental Aesthetic Bandung"
+    },
+    "sub": {
+      "id": "Kunjungi kami di Pasirkaliki. Buka setiap hari pukul 09.00–21.00 WIB, dengan reservasi daring untuk memilih dokter, tanggal, dan jam.",
+      "en": "Visit us in Pasirkaliki. We’re open daily from 9 am to 9 pm WIB, with online booking to choose a dentist, date, and time."
+    },
+    "cta": {
+      "id": "Lihat pilihan reservasi",
+      "en": "Explore booking options"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Dokter dapat membantu menentukan waktu perawatan sesuai kondisi Anda.",
+        "en": "Removal of tartar buildup. Your dentist can advise when a cleaning may be appropriate for you."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi yang berlubang atau rusak. Pilihannya ditentukan setelah pemeriksaan.",
+        "en": "Care for a tooth with a cavity or damage. Treatment options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi dan pilihan perawatannya dengan dokter.",
+        "en": "Talk with a dentist about tooth alignment and available treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan untuk warna gigi setelah kondisi gigi diperiksa.",
+        "en": "Discuss options for tooth colour after a dentist checks your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi sesuai kebutuhan anak.",
+        "en": "Dental check-ups and care tailored to a child’s needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saraf gigi",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi yang dapat dipertimbangkan setelah pemeriksaan dokter.",
+        "en": "Treatment for the inside of a tooth, considered after a dental examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan dokter sesuai kebutuhan",
+      "en": "Find a dentist for your needs"
+    },
+    "penjelasan": {
+      "id": "Konsep pencari dokter ini membantu Anda menelusuri jenis perawatan dan kebutuhan spesialis, lalu melanjutkan ke pilihan tanggal dan jam reservasi.",
+      "en": "This proposed dentist finder would let you explore care types and specialist needs before choosing a booking date and time."
+    },
+    "alasan_dipilih": "Halaman reservasi klinik sudah menampilkan pilihan dokter, termasuk dokter dengan gelar spesialis, serta pilihan tanggal dan jam. Fitur pencari dokter diusulkan agar pasien lebih mudah menelusuri pilihan tersebut; fitur ini belum dinyatakan tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "BW Dental Aesthetic buka jam berapa?",
+        "en": "What are BW Dental Aesthetic’s opening hours?"
+      },
+      "a": {
+        "id": "Cabang Pasirkaliki buka setiap hari, termasuk Minggu, pukul 09.00–21.00 WIB.",
+        "en": "The Pasirkaliki clinic is open every day, including Sundays, from 9 am to 9 pm WIB."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan gigi?",
+        "en": "How much does dental treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada jenis perawatan dan kondisi gigi. Tanyakan rincian biaya kepada klinik sebelum membuat keputusan.",
+        "en": "Costs depend on the treatment and your dental needs. Ask the clinic for a cost breakdown before deciding."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia dalam riset ini. Hubungi klinik untuk memastikan apakah polis Anda dapat digunakan.",
+        "en": "Insurance information was not available in the research provided. Please contact the clinic to check whether your policy can be used."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa berkonsultasi tentang behel?",
+        "en": "Can I book a consultation about braces?"
+      },
+      "a": {
+        "id": "Ya, behel tercantum sebagai layanan. Anda dapat memilih dokter dan waktu melalui halaman reservasi. Jenis perawatan yang sesuai perlu dibahas saat konsultasi.",
+        "en": "Yes. Braces are listed as a service. You can choose a dentist and time on the booking page, then discuss suitable options during your consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi anak?",
+        "en": "Is dental care available for children?"
+      },
+      "a": {
+        "id": "Ya, perawatan gigi anak tercantum sebagai layanan. Sampaikan usia dan kebutuhan anak saat membuat reservasi agar klinik dapat membantu Anda memilih jadwal.",
+        "en": "Yes. Children’s dental care is listed as a service. Share your child’s age and needs when booking so the clinic can help with scheduling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan? Hubungi BW Dental Aesthetic atau pilih jadwal reservasi.",
+    "en": "Questions about dental care? Contact BW Dental Aesthetic or choose a booking time."
+  },
+  "pesan_wa_default": "Halo BW Dental Aesthetic, saya ingin bertanya tentang perawatan gigi dan ketersediaan jadwal di cabang Pasirkaliki. Boleh dibantu? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen BW Dental Aesthetic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat halaman reservasi klinik sudah menyediakan pilihan dokter, tanggal, dan jam. Kami telah membuat konsep website tanpa biaya untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/bw-aesthetic. Jika berkenan, saya terbuka untuk mendengar masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk BW Dental Aesthetic",
+    "email_isi": "Yth. Bapak/Ibu manajemen BW Dental Aesthetic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat halaman reservasi klinik sudah menyediakan pilihan dokter, tanggal, dan jam. Kami menyiapkan konsep website yang menyajikan informasi layanan dan menjajaki cara agar pasien lebih mudah menemukan pilihan dokter sesuai kebutuhannya.\n\nKonsep ini dapat dilihat tanpa biaya di https://maxigrowthstudio.com/bw-aesthetic. Proposal PDF juga terlampir untuk bahan pertimbangan. Jika Bapak/Ibu berkenan memberikan masukan, saya dapat dihubungi melalui WhatsApp 082141004400 atau info@maxigrowthstudio.com.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

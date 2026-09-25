@@ -1,0 +1,111 @@
+{
+  "url": "https://bw-dental.com/",
+  "captured": "2026-09-25T23:15:43.397Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#47788a",
+      "share": 0.56,
+      "kinds": {
+        "bg": 6,
+        "cta": 3,
+        "text": 36,
+        "svg": 2
+      }
+    },
+    {
+      "hex": "#c3f4e2",
+      "share": 0.274,
+      "kinds": {
+        "bg": 5,
+        "text": 13
+      }
+    },
+    {
+      "hex": "#22333b",
+      "share": 0.054,
+      "kinds": {
+        "text": 37
+      }
+    },
+    {
+      "hex": "#2f4149",
+      "share": 0.045,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#5c757e",
+      "share": 0.039,
+      "kinds": {
+        "text": 33
+      }
+    },
+    {
+      "hex": "#355a67",
+      "share": 0.024,
+      "kinds": {
+        "text": 18
+      }
+    },
+    {
+      "hex": "#e8b34b",
+      "share": 0.004,
+      "kinds": {
+        "text": 3
+      }
+    },
+    {
+      "hex": "#4f7a8b",
+      "share": 0.002,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Instrument Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.webp",
+      "src": "https://bw-dental.com/assets/logo-bw.webp?v=18cc9626",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.webp",
+      "src": "https://bw-dental.com/assets/logo-bw-white.webp?v=7b0eae43",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.svg",
+      "src": "https://bw-dental.com/assets/icon/erm-mark.svg?v=639fba9b",
+      "why": "icon"
+    },
+    {
+      "file": "logo-4.png",
+      "src": "https://bw-dental.com/assets/icon/mono-32.png?v=bc437ba1",
+      "why": "icon"
+    },
+    {
+      "file": "logo-5.png",
+      "src": "https://bw-dental.com/assets/icon/mono-48.png?v=a5e47d10",
+      "why": "icon"
+    },
+    {
+      "file": "logo-6.png",
+      "src": "https://bw-dental.com/assets/icon/apple-touch.png?v=26d69057",
+      "why": "apple-touch-icon"
+    }
+  ],
+  "errors": [],
+  "title": "BW Dental Aesthetic",
+  "theme_color": null,
+  "neutrals": [
+    "#edf8fb",
+    "#ffffff",
+    "#dfeaef",
+    "#000000"
+  ]
+}
