@@ -3,7 +3,8 @@
 
 python scripts/sheet.py intake [--size 10]   → ambil batch berikutnya dari Sheet, tulis batches/Bxx/<ID>/job.json,
                                                cetak daftar ID (untuk dibuatkan issue), tandai Sheet: Batch + Status.
-python scripts/sheet.py status               → tulis Status + Link preview dari batches/*/*/status.json ke Sheet.
+python scripts/sheet.py status               → gabungkan preview.json (hasil rakit) ke status.json, cerminkan Skip dari
+                                               Sheet, lalu tulis Status + Link preview ke Sheet.
 
 Env: GOOGLE_SA_JSON (isi JSON service account), SHEET_ID. Sheet harus dibagikan (Editor) ke email service account.
 Kolom yang dibaca/ditulis mengikuti header baris 1 (urutan kolom boleh berubah).
@@ -90,6 +91,28 @@ def intake(size=10):
     write(s, tab, hdr, ups)
 
 
+SKIP = ("skip", "batal", "dilewati")
+AKHIR = ("Disetujui", "Terkirim", "Skip")  # status yang tidak boleh ditimpa preview.json
+
+
+def merge_preview(f: pathlib.Path, st: dict) -> dict:
+    """preview.json ditulis perakit (Claude) di Drive lalu ditarik sync-drive → gabungkan ke status.json."""
+    p = f.parent / "preview.json"
+    if not p.exists():
+        return st
+    try:
+        pv = json.loads(p.read_text())
+    except Exception:
+        return st
+    if st.get("status") in AKHIR:
+        return st
+    new = dict(st, status=pv.get("status") or "Siap review")
+    for k in ("preview", "slug", "built", "catatan"):
+        if pv.get(k):
+            new[k] = pv[k]
+    return new
+
+
 def status():
     s = svc()
     tab, hdr, recs = read(s)
@@ -100,8 +123,15 @@ def status():
         r = by_id.get(f.parent.name)
         if not r:
             continue
-        if r.get("Status", "").strip().lower() in ("skip", "batal", "dilewati"):
-            continue  # keputusan pemilik di Sheet tidak ditimpa sistem
+        if r.get("Status", "").strip().lower() in SKIP:
+            # keputusan pemilik di Sheet tidak ditimpa sistem; dicerminkan ke status.json agar gate intake tahu
+            if st.get("status") != "Skip":
+                f.write_text(json.dumps(dict(st, status="Skip"), ensure_ascii=False))
+            continue
+        merged = merge_preview(f, st)
+        if merged != st:
+            f.write_text(json.dumps(merged, ensure_ascii=False))
+            st = merged
         if st.get("status") and st["status"] != r.get("Status"):
             ups.append((r["_row"], "Status", st["status"]))
         if st.get("preview") and st["preview"] != r.get("Link preview"):
