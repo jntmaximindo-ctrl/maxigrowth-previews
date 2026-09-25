@@ -1,0 +1,132 @@
+{
+  "id": "N02",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di Bandung Smile Studio",
+      "en": "Dental care at Bandung Smile Studio"
+    },
+    "sub": {
+      "id": "Cari informasi scaling dan pemasangan behel di Buah Batu, Bandung. Hubungi klinik untuk memastikan jadwal dan rincian perawatan.",
+      "en": "Explore scaling and braces at the Buah Batu practice in Bandung. Contact the clinic to confirm availability and treatment details."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about an appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan jadwal dan biaya kepada klinik.",
+        "en": "Removal of tartar buildup. Ask the clinic about availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemasangan behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan behel, tahapan perawatan, dan perkiraan biayanya kepada klinik.",
+        "en": "Ask the clinic about braces options, treatment steps, and estimated fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan gigi lainnya",
+        "en": "Other dental care enquiries"
+      },
+      "ringkas": {
+        "id": "Butuh perawatan selain scaling atau behel? Tanyakan dahulu apakah tersedia di klinik.",
+        "en": "Need care beyond cleaning or braces? Check with the clinic to see what is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi kunjungan anak",
+        "en": "Children’s visit enquiries"
+      },
+      "ringkas": {
+        "id": "Ingin membawa anak untuk pemeriksaan? Tanyakan dahulu apakah klinik menerima pasien anak.",
+        "en": "Planning a visit for a child? Ask the clinic whether it sees children."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konsep pemilih jadwal kunjungan",
+      "en": "Appointment planner concept"
+    },
+    "penjelasan": {
+      "id": "Fitur website yang diusulkan untuk membantu pengunjung memilih hari kunjungan, termasuk Minggu. Jadwal dokter dan janji temu tetap perlu dikonfirmasi langsung dengan klinik.",
+      "en": "A proposed website feature to help visitors choose a day, including Sunday. Doctor availability and appointments would still need confirmation from the clinic."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam 09.00–21.00 setiap hari, termasuk Minggu. Fitur ini masih berupa konsep; jadwal dokter belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan pukul 09.00–21.00 WIB setiap hari, termasuk Minggu. Hubungi klinik untuk memastikan jam kunjungan terbaru.",
+        "en": "A directory lists 9 am–9 pm WIB daily, including Sundays. Contact the clinic to confirm its current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau pemasangan behel?",
+        "en": "How much do cleaning and braces cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum terverifikasi. Tanyakan biaya dan apa saja yang termasuk di dalamnya sebelum membuat janji.",
+        "en": "The clinic’s current fees have not been verified. Ask about the cost and what it includes before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia asuransi Anda saat menghubungi klinik.",
+        "en": "Insurance information is not available. Mention your provider when contacting the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa bertanya tentang pemasangan behel?",
+        "en": "Can I ask about getting braces?"
+      },
+      "a": {
+        "id": "Pemasangan behel tercantum sebagai layanan. Hubungi klinik untuk menanyakan pilihan, jadwal, dan tahapan perawatannya.",
+        "en": "Braces are listed as a service. Contact the clinic to ask about options, availability, and treatment steps."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima pasien anak?",
+        "en": "Does the clinic see children?"
+      },
+      "a": {
+        "id": "Layanan untuk anak belum terverifikasi. Tanyakan usia anak dan kebutuhan kunjungannya langsung kepada klinik.",
+        "en": "Care for children has not been verified. Ask the clinic about your child’s age and reason for visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Bandung Smile Studio untuk memastikan jadwal dan informasi perawatan.",
+    "en": "Contact Bandung Smile Studio to confirm availability and treatment details."
+  },
+  "pesan_wa_default": "Halo Bandung Smile Studio, saya ingin menanyakan jadwal kunjungan dan informasi perawatan. Apakah saya bisa mendapatkan rinciannya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen Bandung Smile Studio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat direktori mencantumkan jam praktik cabang Buah Batu hingga pukul 21.00, termasuk Minggu. Kami telah membuat konsep website untuk Bapak/Ibu tinjau tanpa biaya di https://maxigrowthstudio.com/bandung-smile. Jika berkenan, saya terbuka untuk mendengar masukan. Terima kasih.",
+    "email_subjek": "Konsep website Bandung Smile Studio",
+    "email_isi": "Yth. Manajemen Bandung Smile Studio,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat direktori mencantumkan jam praktik cabang Buah Batu hingga pukul 21.00 setiap hari, termasuk Minggu. Informasi jadwal seperti ini dapat ditampilkan dengan jelas agar pengunjung mudah menyiapkan kunjungan.\n\nKami telah menyiapkan konsep website untuk Bapak/Ibu tinjau tanpa biaya: https://maxigrowthstudio.com/bandung-smile. Konsep tersebut masih perlu disesuaikan dengan informasi resmi dari klinik. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika Bapak/Ibu berkenan memberikan masukan, silakan balas email ini atau hubungi saya di 082141004400.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com"
+  }
+}

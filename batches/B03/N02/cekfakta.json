@@ -1,0 +1,27 @@
+{
+  "id": "N02",
+  "diperiksa": 25,
+  "beda": [
+    {
+      "path": "cabang[0].nama",
+      "tercatat": "Buah Batu",
+      "di_sumber": "Buah Batu tertulis sebagai bagian dari alamat, bukan sebagai nama cabang.",
+      "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+      "catatan": "Penamaan cabang ini tidak dinyatakan secara eksplisit di halaman. ([mediasehat.id](https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/))"
+    },
+    {
+      "path": "harga[3].src[1]",
+      "tercatat": "https://hdmall.id/apotik-online/meiact-200mg-tab",
+      "di_sumber": "URL dialihkan ke beranda HDmall; halaman tujuan tidak mencantumkan harga behel metal Rp5.500.000.",
+      "src": "https://hdmall.id/apotik-online/meiact-200mg-tab",
+      "catatan": "Rujukan ini tidak mendukung batas atas kisaran harga yang dicatat. ([hdmall.id](https://hdmall.id/apotik-online/meiact-200mg-tab))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/bandungsmilestudio/",
+    "https://tamidentalcare.com/link-tree/",
+    "https://www.sozodental.com/artikel/berapa-biaya-cabut-gigi-bungsu/",
+    "https://www.sozodental.com/layanan/veneer-gigi/"
+  ],
+  "kritis_ok": true
+}

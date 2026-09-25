@@ -1,0 +1,157 @@
+{
+  "id": "N02",
+  "nama": {
+    "v": "Bandung Smile Studio (Praktek Dokter Gigi Bandung)",
+    "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/bandungsmilestudio/",
+    "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+    "tgl": "2026-09-25",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-25",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Buah Batu",
+      "alamat": {
+        "v": "Jl. Buah Batu No.302, Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265",
+        "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0852-8000-6191",
+        "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-21",
+          "sel": "09-21",
+          "rab": "09-21",
+          "kam": "09-21",
+          "jum": "09-21",
+          "sab": "09-21",
+          "min": "09-21"
+        },
+        "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      }
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Pemasangan behel"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling; pembanding klinik lain di Bandung, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 249000,
+      "max": 650000,
+      "src": [
+        "https://tamidentalcare.com/link-tree/",
+        "https://hdmall.id/passion-dental-care/products"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi; pembanding Passion Dental Care di Bandung, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 388000,
+      "max": 600000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi biasa; estimasi publik Sozo Dental, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 449000,
+      "max": 1500000,
+      "src": [
+        "https://www.sozodental.com/artikel/berapa-biaya-cabut-gigi-bungsu/"
+      ]
+    },
+    {
+      "perawatan": "Behel metal; pembanding klinik lain di Bandung, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 2890000,
+      "max": 5500000,
+      "src": [
+        "https://tamidentalcare.com/link-tree/",
+        "https://hdmall.id/apotik-online/meiact-200mg-tab"
+      ]
+    },
+    {
+      "perawatan": "Bleaching satu orang; pembanding Senyum Keluarga Dental Care Bandung, paket termasuk scaling, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 1500000,
+      "max": 1500000,
+      "src": [
+        "https://www.senyumkeluargadentalcare.com/promo"
+      ]
+    },
+    {
+      "perawatan": "Veneer porselen per gigi; pembanding klinik lain yang melayani Bandung, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 3152500,
+      "max": 5000000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://www.sozodental.com/layanan/veneer-gigi/"
+      ]
+    },
+    {
+      "perawatan": "Implan per gigi; kisaran ODAC Family yang memiliki cabang Bandung, bukan harga Bandung Smile Studio",
+      "jenis": "kisaran_pasar",
+      "min": 15000000,
+      "max": 25000000,
+      "src": [
+        "https://www.odac-corp.com/layanan/klinik/implan-gigi"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Jam yang tercantum pada direktori adalah 09.00–21.00 setiap hari, termasuk Minggu.",
+    "Ulasan pasien yang ditampilkan direktori menyebut gigi difoto sebelum tindakan; perlu konfirmasi apakah ini prosedur rutin."
+  ],
+  "situs_lama": [
+    "Tautan website pada direktori mengarah ke Instagram, bukan situs klinik dengan halaman dokter, layanan, harga, dan kontak yang dapat ditelusuri.",
+    "Profil Instagram tidak dapat dimuat saat pemeriksaan, sehingga informasi dokter dan harga resmi tidak dapat diverifikasi dari kanal tersebut."
+  ],
+  "ide_fitur_khas": "Pemilih jadwal kunjungan harian, termasuk Minggu, dengan informasi dokter yang tersedia dan tombol konfirmasi janji.",
+  "catatan": "✎ Verifikasi nomor WhatsApp, nama dan jadwal dokter, layanan selain scaling dan behel, serta tarif langsung ke klinik. Nomor telepon tidak otomatis dianggap nomor WhatsApp. Angka 5,0 dan 497 ulasan dari Sheet tidak dimasukkan sebagai rating Maps terkini karena halaman Google Maps tidak berhasil dibuka; artikel Agustus 2026 menyebut 483 ulasan. Kisaran harga adalah pembanding dari klinik lain, bukan penawaran Bandung Smile Studio; komponen paket, jenis tindakan, dan masa berlaku promo berbeda-beda. Tautan Instagram dicoba tetapi tidak berhasil dimuat.",
+  "sumber": [
+    "https://www.instagram.com/bandungsmilestudio/",
+    "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-kota-bandung/",
+    "https://yandex.com/maps/org/bandung_smile_studio/116829022801/",
+    "https://tamidentalcare.com/link-tree/",
+    "https://hdmall.id/passion-dental-care/products",
+    "https://hdmall.id/apotik-online/meiact-200mg-tab",
+    "https://www.senyumkeluargadentalcare.com/promo",
+    "https://www.sozodental.com/artikel/berapa-biaya-cabut-gigi-bungsu/",
+    "https://www.sozodental.com/layanan/veneer-gigi/",
+    "https://www.odac-corp.com/layanan/klinik/implan-gigi"
+  ]
+}
