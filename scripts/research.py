@@ -62,11 +62,12 @@ def main(job_dir: str) -> int:
     log = {"model": MODEL, "usage": {}}
     prompts = ROOT / "prompts"
 
-    # 1. riset (maks. 2 percobaan bila skema gagal)
-    errs, riset = ["belum"], {}
-    for _ in range(2):
-        text, u = call(fill((prompts / "riset.md").read_text(), JOB_JSON=json.dumps(job, ensure_ascii=False)))
-        log["usage"]["riset"] = u
+    # 1. riset. Skema dimasukkan ke prompt; jika tidak valid, model diminta memperbaiki (tanpa web, murah).
+    schema_txt = (ROOT / "schemas" / "riset.schema.json").read_text()
+    text, u = call(fill((prompts / "riset.md").read_text(), JOB_JSON=json.dumps(job, ensure_ascii=False), SCHEMA=schema_txt))
+    log["usage"]["riset"] = u
+    riset, errs = {}, ["belum"]
+    for attempt in range(3):
         try:
             riset = extract_json(text)
             errs = validate(riset, "riset.schema.json")
@@ -74,8 +75,15 @@ def main(job_dir: str) -> int:
             errs = [str(e)]
         if not errs:
             break
+        repair = ("Perbaiki JSON di bawah agar valid terhadap skema. Jangan menambah fakta baru, jangan menghapus sumber; "
+                  "hanya ubah struktur/nama field. Fakta yang tidak cocok ke field mana pun pindahkan ke 'catatan'. "
+                  "Keluarkan HANYA JSON.\n\nSKEMA:\n" + schema_txt + "\n\nKESALAHAN:\n" + "\n".join(errs[:30]) +
+                  "\n\nJSON:\n" + (json.dumps(riset, ensure_ascii=False) if riset else text))
+        text, u = call(repair, web=False)
+        log["usage"][f"riset_perbaikan_{attempt+1}"] = u
     (d / "riset.json").write_text(json.dumps(riset, ensure_ascii=False, indent=2))
     if errs:
+        (d / "research-log.json").write_text(json.dumps(log, indent=2))
         print("SKEMA RISET GAGAL:", *errs[:20], sep="\n  ")
         return 2
 
@@ -87,7 +95,8 @@ def main(job_dir: str) -> int:
 
     # 3. konten ID/EN + outreach (tanpa web search)
     text, u = call(fill((prompts / "konten.md").read_text(), RISET_JSON=json.dumps(riset, ensure_ascii=False),
-                        SLUG=job.get("slug", job["id"].lower())), web=False)
+                        SLUG=job.get("slug", job["id"].lower()),
+                        SCHEMA=(ROOT / "schemas" / "konten.schema.json").read_text()), web=False)
     log["usage"]["konten"] = u
     konten = extract_json(text)
     kerr = validate(konten, "konten.schema.json")
