@@ -1,0 +1,114 @@
+{
+  "url": "https://www.sozodental.com/",
+  "captured": "2026-09-25T05:48:30.715Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#132573",
+      "share": 0.385,
+      "kinds": {
+        "bg": 8,
+        "text": 16
+      }
+    },
+    {
+      "hex": "#6ec1e4",
+      "share": 0.246,
+      "kinds": {
+        "bg": 3,
+        "svg": 10,
+        "text": 3
+      }
+    },
+    {
+      "hex": "#1a2080",
+      "share": 0.178,
+      "kinds": {
+        "bg": 8,
+        "cta": 7,
+        "text": 18,
+        "svg": 18
+      }
+    },
+    {
+      "hex": "#e5f7ff",
+      "share": 0.177,
+      "kinds": {
+        "bg": 2
+      }
+    },
+    {
+      "hex": "#25d366",
+      "share": 0.008,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#69727d",
+      "share": 0.004,
+      "kinds": {
+        "bg": 3,
+        "svg": 1
+      }
+    },
+    {
+      "hex": "#1a4699",
+      "share": 0,
+      "kinds": {
+        "svg": 4
+      }
+    },
+    {
+      "hex": "#2b4162",
+      "share": 0,
+      "kinds": {
+        "bg": 5
+      }
+    }
+  ],
+  "fonts": [
+    "Poppins",
+    "-apple-system"
+  ],
+  "logos": [
+    {
+      "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+      "why": "img[logo]",
+      "error": "apiRequestContext.get: Protocol \"data:\" not supported. Expected \"http:\""
+    },
+    {
+      "file": "logo-2.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-3.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-4.jpg",
+      "src": "https://www.sozodental.com/wp-content/uploads/2023/10/sozo-dental-cozy-place-scaled.jpg",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-5.png",
+      "src": "https://www.sozodental.com/wp-content/uploads/2026/04/logo-sozo-dental-favicon-512-new.png",
+      "why": "icon"
+    },
+    {
+      "file": "logo-6.png",
+      "src": "https://www.sozodental.com/wp-content/uploads/2026/04/cropped-logo-sozo-dental-favicon-512-new-32x32.png",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Klinik Gigi Terdekat | Sozo Dental - Perawatan Gigi Terbaik",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#333333",
+    "#eeeeee",
+    "#fefeff"
+  ]
+}
