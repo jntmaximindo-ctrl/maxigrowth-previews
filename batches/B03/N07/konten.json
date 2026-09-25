@@ -1,0 +1,152 @@
+{
+  "id": "N07",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di KEVA Dental Care",
+      "en": "Dental care at KEVA Dental Care"
+    },
+    "sub": {
+      "id": "Cari informasi untuk cabang Cibaduyut atau Dago, lalu hubungi cabang yang Anda tuju. Ketersediaan layanan perlu dikonfirmasi langsung ke klinik.",
+      "en": "Find information for the Cibaduyut or Dago branch, then contact the branch you plan to visit. Please confirm service availability with the clinic."
+    },
+    "cta": {
+      "id": "Pilih cabang dan hubungi KEVA",
+      "en": "Choose a branch and contact KEVA"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan dan biaya tindakan kepada cabang tujuan.",
+        "en": "Removal of tartar buildup. Ask your preferred branch about availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang. Dokter gigi dapat menilai tindakan yang sesuai saat pemeriksaan.",
+        "en": "Care for a cavity. A dentist can assess the appropriate treatment during an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pencabutan gigi dilakukan bila diperlukan berdasarkan pemeriksaan dokter gigi. Konfirmasi ketersediaannya kepada klinik.",
+        "en": "A tooth may be removed when a dentist determines it is necessary. Please check availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan perawatan untuk susunan gigi. Tanyakan jenis layanan yang tersedia di cabang tujuan.",
+        "en": "Discuss options for tooth alignment. Ask your preferred branch which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Lapisan pada permukaan gigi untuk kebutuhan tertentu. Kesesuaiannya perlu dinilai saat konsultasi.",
+        "en": "A covering placed on a tooth for specific needs. A consultation can help determine whether it is suitable."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk mencerahkan warna gigi. Tanyakan pilihan dan ketersediaannya kepada klinik.",
+        "en": "Treatment to lighten the shade of teeth. Ask the clinic about available options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih cabang sebelum menghubungi KEVA",
+      "en": "Choose your branch before contacting KEVA"
+    },
+    "penjelasan": {
+      "id": "Konsep pemilih cabang menampilkan tombol WhatsApp yang sesuai untuk Cibaduyut atau Dago. Alamat dan jam Cibaduyut dapat ditampilkan dengan catatan untuk konfirmasi ulang; informasi Dago menunggu verifikasi klinik.",
+      "en": "The proposed branch selector provides a separate WhatsApp button for Cibaduyut and Dago. Cibaduyut’s listed address and hours can be shown with a reminder to reconfirm; Dago’s details await confirmation from the clinic."
+    },
+    "alasan_dipilih": "KEVA mencantumkan dua cabang dengan nomor WhatsApp terpisah. Pemilih cabang membantu pengunjung menghubungi nomor yang tepat tanpa mengisi alamat atau jam Dago yang belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan KEVA Cibaduyut buka? Bagaimana dengan KEVA Dago?",
+        "en": "What are KEVA Cibaduyut’s hours? What about KEVA Dago?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Cibaduyut buka Senin–Sabtu pukul 10.00–20.00 dan Minggu pukul 11.00–16.00 WIB. Konfirmasi jam sebelum datang. Jam Dago belum terverifikasi; silakan tanyakan langsung ke cabang tersebut.",
+        "en": "A directory lists Cibaduyut’s hours as Monday–Saturday, 10 am–8 pm, and Sunday, 11 am–4 pm WIB. Please confirm before visiting. Dago’s hours have not been verified; contact that branch directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif KEVA belum terverifikasi. Hubungi cabang tujuan untuk menanyakan biaya sesuai perawatan yang Anda perlukan.",
+        "en": "KEVA’s fees have not been verified. Contact your preferred branch to ask about the cost of the care you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah KEVA menerima asuransi?",
+        "en": "Does KEVA accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia asuransi Anda saat menghubungi cabang tujuan.",
+        "en": "Insurance information has not been verified. Mention your provider when contacting your preferred branch."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa konsultasi kawat gigi?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum sebagai layanan di direktori pihak ketiga. Hubungi cabang tujuan untuk memastikan ketersediaan konsultasi dan jadwalnya.",
+        "en": "A third-party directory lists braces as a service. Contact your preferred branch to confirm consultation availability and scheduling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah KEVA menerima pasien anak?",
+        "en": "Does KEVA see children?"
+      },
+      "a": {
+        "id": "Informasi perawatan untuk anak belum terverifikasi. Sampaikan usia dan kebutuhan anak saat menghubungi klinik agar tim dapat memberi informasi yang sesuai.",
+        "en": "Children’s care has not been verified. Share your child’s age and needs when contacting the clinic so the team can advise you."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan? Pilih cabang Cibaduyut atau Dago dan tanyakan langsung melalui WhatsApp.",
+    "en": "Have a question? Choose Cibaduyut or Dago and ask the branch directly on WhatsApp."
+  },
+  "pesan_wa_default": "Halo, KEVA Dental Care. Saya ingin bertanya tentang layanan dan jadwal di cabang [Cibaduyut/Dago]. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen KEVA Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat KEVA memiliki nomor WhatsApp terpisah untuk cabang Cibaduyut dan Dago. Kami sudah membuat konsep website dengan pemilih cabang yang dapat Bapak/Ibu lihat tanpa biaya di https://maxigrowthstudio.com/keva. Jika berkenan, saya siap menerima masukan; tidak perlu ada keputusan sekarang. Terima kasih.",
+    "email_subjek": "Konsep website untuk KEVA Dental Care",
+    "email_isi": "Yth. Bapak/Ibu manajemen KEVA Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat KEVA mencantumkan nomor WhatsApp terpisah untuk cabang Cibaduyut dan Dago. Agar pengunjung lebih mudah menghubungi cabang yang dituju, kami menyiapkan konsep website dengan pemilih cabang.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/keva. Proposal PDF juga saya lampirkan untuk Bapak/Ibu tinjau. Informasi yang belum terverifikasi kami tandai agar dapat diperiksa bersama sebelum digunakan.\n\nBila ada masukan atau Bapak/Ibu ingin berdiskusi, saya dapat dihubungi melalui WhatsApp 082141004400 atau info@maxigrowthstudio.com. Tidak perlu memberi keputusan sekarang.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

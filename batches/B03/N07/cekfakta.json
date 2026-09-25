@@ -1,0 +1,32 @@
+{
+  "id": "N07",
+  "diperiksa": 29,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/keva_dentalcare/",
+      "di_sumber": "Halaman menampilkan tautan berlabel Instagram, tetapi URL tujuan tidak tertulis pada teks yang dapat diperiksa.",
+      "src": "https://linktr.ee/kevadentalcare188",
+      "catatan": "Nilai URL belum dapat dipastikan dari halaman; pembukaan tautannya gagal. Ini bukan bukti bahwa URL tercatat salah. ([linktr.ee](https://linktr.ee/kevadentalcare188))"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285943055000",
+      "di_sumber": "Halaman menampilkan tautan berlabel WhatsApp - KEVA Cibaduyut, tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/kevadentalcare188",
+      "catatan": "Nomor tidak dapat dicocokkan karena pembukaan tautannya gagal; bukan bukti nomor berbeda. ([linktr.ee](https://linktr.ee/kevadentalcare188))"
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6285861553972",
+      "di_sumber": "Halaman menampilkan tautan berlabel WhatsApp - KEVA Dago, tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/kevadentalcare188",
+      "catatan": "Nomor tidak dapat dicocokkan karena pembukaan tautannya gagal; bukan bukti nomor berbeda. ([linktr.ee](https://linktr.ee/kevadentalcare188))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/keva-dental-care-0859-4305-5000",
+    "https://www.google.com/maps/place/?q=place_id:ChIJZw0TUK_paC4ROd1nJqlMGis"
+  ],
+  "kritis_ok": false
+}
