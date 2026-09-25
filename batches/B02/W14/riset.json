@@ -1,239 +1,245 @@
 {
   "id": "W14",
-  "batch": "B02",
-  "nama": "Sozo Dental (PT Pohon Biru Jaya / Seven Retail Group)",
-  "url": "https://www.sozodental.com/",
-  "kota": "Bandung",
-  "prioritas": "Tinggi",
-  "tingkat": "Penuh",
-  "slug": "sozo-dental",
-  "tgl_riset": "2026-09-25",
-  "badan_usaha": {
-    "v": "PT. Pohon Biru Jaya / Seven Retail Group",
-    "src": "https://www.sozodental.com/lokasi/bandung/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "cabang_bandung": [
-    {
-      "v": "Bandung 1 - Pajajaran, Jl. Pajajaran No.122 B, Pajajaran, Kecamatan Cicendo, Kota Bandung, Jawa Barat",
-      "src": "https://www.sozodental.com/lokasi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    {
-      "v": "Bandung 2 - Buah Batu, Jl. Buah Batu No. 77, Malabar, Kec. Lengkong, Bandung, Jawa Barat",
-      "src": "https://www.sozodental.com/lokasi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    {
-      "v": "Bandung 3 - Mekarwangi, Jl. Mekar Utama No.9, Mekarwangi, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40235",
-      "src": "https://www.sozodental.com/lokasi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    }
-  ],
-  "jumlah_cabang_bandung": {
-    "v": 3,
-    "src": "https://www.sozodental.com/lokasi/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "wa": {
-    "v": "6285182016877",
-    "src": "https://www.sozodental.com/lokasi/bandung/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "wa_pajajaran": {
-    "v": "6282125890837",
-    "src": "https://msha.ke/drg.adira/",
-    "tgl": "2026-09-25",
-    "yakin": "sedang"
-  },
-  "telepon": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-09-25",
-    "yakin": null
-  },
-  "instagram": {
-    "v": "https://www.instagram.com/sozo.dental/",
-    "src": "https://www.sozodental.com/lokasi/bandung/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
-  "jam": {
-    "v": {
-      "sen": "10-21",
-      "sel": "10-21",
-      "rab": "10-21",
-      "kam": "10-21",
-      "jum": "10-21",
-      "sab": "10-21",
-      "min": "10-21"
-    },
+  "nama": {
+    "v": "Sozo Dental (PT Pohon Biru Jaya / Seven Retail Group)",
     "src": "https://www.sozodental.com/",
     "tgl": "2026-09-25",
-    "yakin": "sedang",
-    "catatan": "Situs menyebut jam tersebut berlaku secara umum untuk klinik Sozo Dental; jam masing-masing cabang Bandung belum terverifikasi."
+    "yakin": "tinggi"
   },
-  "dokter": [
-    {
-      "v": "drg. Adira Khansa M.",
-      "src": "https://msha.ke/drg.adira/",
-      "tgl": "2026-09-25",
-      "yakin": "sedang",
-      "catatan": "Halaman profil dokter mencantumkan Admin Sozo Dental Pajajaran sebagai kontak praktik; jadwal praktik tidak dapat dibaca dari tautan yang tersedia."
-    }
-  ],
-  "layanan": {
-    "v": [
-      "scaling",
-      "tambal gigi",
-      "cabut gigi",
-      "behel",
-      "bleaching",
-      "veneer",
-      "implan gigi",
-      "perawatan saluran akar",
-      "aligner",
-      "gigi palsu"
-    ],
-    "src": "https://www.sozodental.com/lokasi/bandung/",
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/sozo.dental/",
+    "src": "https://www.sozodental.com/",
     "tgl": "2026-09-25",
     "yakin": "tinggi"
   },
-  "harga": {
-    "scaling": {
-      "jenis": "resmi_klinik",
-      "v": "Basic Scaling mulai Rp129.000",
-      "src": "https://www.sozodental.com/layanan/scaling-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "tambal": {
-      "jenis": "resmi_klinik",
-      "v": "Tambal 1 gigi belakang kelas 1 mulai Rp379.000",
-      "src": "https://www.sozodental.com/layanan/tambal-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "cabut": {
-      "jenis": "resmi_klinik",
-      "v": "Cabut gigi dewasa mulai Rp449.000",
-      "src": "https://www.sozodental.com/layanan/cabut-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "behel_metal": {
-      "jenis": "resmi_klinik",
-      "v": "Behel Metal (Umum) mulai Rp1.799.000",
-      "src": "https://www.sozodental.com/layanan/behel-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "bleaching": {
-      "jenis": "resmi_klinik",
-      "v": "Bleaching Lite Rp599.000 menurut artikel klinik bertanggal 4 September 2025",
-      "src": "https://www.sozodental.com/artikel/biaya-memutihkan-gigi-di-klinik/",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    },
-    "veneer": {
-      "jenis": "resmi_klinik",
-      "v": "Veneer direct komposit mulai Rp599.000 per gigi untuk pemasangan 4 gigi",
-      "src": "https://www.sozodental.com/layanan/veneer-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "implan": {
-      "jenis": "resmi_klinik",
-      "v": "Implan dengan screw asal Korea Selatan mulai Rp9,9 juta; pilihan crown perlu dikonfirmasi",
-      "src": "https://www.sozodental.com/layanan/implan-gigi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    "catatan": "Harga yang dipublikasikan berlaku sebagai harga mulai atau promo jaringan Sozo Dental, bukan harga pasti cabang Bandung. Situs menyatakan harga dapat berbeda menurut cabang atau kota; konfirmasi sebelum digunakan sebagai penawaran."
-  },
-  "maps": {
-    "rating": {
-      "v": null,
-      "src": null,
-      "tgl": "2026-09-25",
-      "yakin": null
-    },
-    "ulasan": {
-      "v": null,
-      "src": null,
-      "tgl": "2026-09-25",
-      "yakin": null
-    },
-    "catatan": "Input Sheet mencantumkan rating 4.9 dan 2189 ulasan, tetapi tidak menyebut cabang atau URL profil Maps yang memungkinkan keduanya diverifikasi."
-  },
-  "tahun_berdiri": {
+  "email": {
     "v": null,
     "src": null,
     "tgl": "2026-09-25",
-    "yakin": null
+    "yakin": "rendah"
   },
-  "situs_lama": [
+  "cabang": [
     {
-      "v": "Halaman Bandung menyebut dua cabang utama dan FAQ-nya menyebut Pajajaran serta Buah Batu, tetapi pada halaman yang sama juga tercantum Mekarwangi; daftar lokasi utama menamai ketiganya sebagai cabang Bandung.",
-      "src": "https://www.sozodental.com/lokasi/bandung/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
+      "nama": "Bandung 1 - Pajajaran",
+      "alamat": {
+        "v": "Jl. Pajajaran No.122 B, Pajajaran, Kec. Cicendo, Bandung, Jawa Barat 40172",
+        "src": "https://www.sozodental.com/lokasi/bandung/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "6282125890837",
+        "src": "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-pajajaran-5400319803680",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "6282125890837",
+        "src": "https://msha.ke/drg.adira/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "10-21",
+          "sel": "10-21",
+          "rab": "10-21",
+          "kam": "10-21",
+          "jum": "10-21",
+          "sab": "10-21",
+          "min": "10-21"
+        },
+        "src": "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-pajajaran-5400319803680",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://maps.app.goo.gl/ahypV8vczW5eH1ds5"
     },
     {
-      "v": "Halaman Bandung tidak mencantumkan jam praktik tersendiri untuk setiap cabang.",
-      "src": "https://www.sozodental.com/lokasi/bandung/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
+      "nama": "Bandung 2 - Buah Batu",
+      "alamat": {
+        "v": "Jl. Buah Batu No.77, Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40262",
+        "src": "https://www.sozodental.com/lokasi/bandung/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "6285602013377",
+        "src": "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-buah-batu-3143249048741",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "10-21",
+          "sel": "10-21",
+          "rab": "10-21",
+          "kam": "10-21",
+          "jum": "10-21",
+          "sab": "10-21",
+          "min": "10-21"
+        },
+        "src": "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-buah-batu-3143249048741",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://maps.app.goo.gl/aQehKjb8VdBmzZuo9"
     },
     {
-      "v": "Beranda menampilkan bagian hasil perawatan sebelum dan sesudah serta testimoni pasien; materi ini perlu ditinjau sebelum digunakan ulang dalam rancangan pemasaran.",
-      "src": "https://www.sozodental.com/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
+      "nama": "Bandung 3 - Mekarwangi",
+      "alamat": {
+        "v": "Jl. Mekar Utama No.9, Mekarwangi, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40235",
+        "src": "https://www.sozodental.com/lokasi/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://maps.app.goo.gl/FFfFBgE1PuFZKggD7"
     }
   ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Adira Khansa M.",
+        "src": "https://msha.ke/drg.adira/",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "cabang": "Bandung 1 - Pajajaran"
+    }
+  ],
+  "layanan": [
+    "Konsultasi dan pemeriksaan gigi",
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Behel metal",
+    "Behel self-ligating",
+    "Bleaching",
+    "Veneer",
+    "Implan gigi",
+    "Gigi palsu",
+    "Perawatan saluran akar",
+    "Aligner",
+    "Perawatan gigi anak"
+  ],
+  "harga": [
+    {
+      "perawatan": "Basic scaling; harga mulai, dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 129000,
+      "src": "https://www.sozodental.com/layanan/scaling-gigi/"
+    },
+    {
+      "perawatan": "Tambal satu gigi belakang kelas 1; harga mulai, dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 379000,
+      "src": "https://www.sozodental.com/layanan/tambal-gigi/"
+    },
+    {
+      "perawatan": "Cabut gigi dewasa; harga mulai, bergantung pada kesulitan kasus",
+      "jenis": "resmi_klinik",
+      "min": 449000,
+      "src": "https://www.sozodental.com/layanan/cabut-gigi/"
+    },
+    {
+      "perawatan": "Behel Metal (Umum); harga promo tercantum, dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 1799000,
+      "src": "https://www.sozodental.com/layanan/behel-gigi/"
+    },
+    {
+      "perawatan": "Bleaching Lite; harga mulai, dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 699000,
+      "src": "https://www.sozodental.com/layanan/bleaching-gigi/"
+    },
+    {
+      "perawatan": "Veneer komposit/direct; harga mulai per gigi dengan pemasangan empat gigi, dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 599000,
+      "src": "https://www.sozodental.com/layanan/veneer-gigi/"
+    },
+    {
+      "perawatan": "Implan dengan screw Korea Selatan; harga mulai, pilihan crown dan harga dapat berbeda menurut cabang/kota",
+      "jenis": "resmi_klinik",
+      "min": 9900000,
+      "src": "https://www.sozodental.com/layanan/implan-gigi/"
+    }
+  ],
+  "fasilitas": [
+    "Kamera intraoral untuk pemeriksaan",
+    "Toilet dan area parkir pada cabang Pajajaran dan Buah Batu, menurut halaman Traveloka"
+  ],
+  "asuransi": [],
   "keunggulan": [
-    {
-      "v": "Daftar lokasi resmi mencantumkan tiga cabang di Kota Bandung: Pajajaran, Buah Batu, dan Mekarwangi.",
-      "src": "https://www.sozodental.com/lokasi/",
-      "tgl": "2026-09-25",
-      "yakin": "tinggi"
-    },
-    {
-      "v": "Halaman Bandung menawarkan perawatan behel oleh dokter gigi spesialis ortodonti.",
-      "src": "https://www.sozodental.com/lokasi/bandung/",
-      "tgl": "2026-09-25",
-      "yakin": "sedang"
-    }
+    "Tiga lokasi Bandung tercantum pada daftar lokasi situs: Pajajaran, Buah Batu, dan Mekarwangi.",
+    "Cabang Pajajaran dan Buah Batu tercantum buka pada hari Minggu pukul 10.00–21.00 di Traveloka.",
+    "Situs menerbitkan harga awal untuk tujuh kelompok perawatan, dengan catatan harga dapat berbeda menurut cabang atau kondisi."
   ],
-  "ide_fitur_khas": {
-    "v": "Pemilih cabang Bandung interaktif yang membandingkan Pajajaran, Buah Batu, dan Mekarwangi, lalu menampilkan alamat, jam cabang yang telah diverifikasi, dan tombol reservasi ke kontak cabang yang tepat.",
-    "src": "https://www.sozodental.com/lokasi/",
-    "tgl": "2026-09-25",
-    "yakin": "tinggi"
-  },
+  "situs_lama": [
+    "Halaman Bandung menyebut dua cabang utama dan pada bagian lain menyebut dua cabang, tetapi menampilkan tiga lokasi termasuk Mekarwangi.",
+    "Halaman dokter gigi yang dibuka tidak menampilkan dokter dengan penempatan cabang Bandung.",
+    "Daftar lokasi pada situs tidak menampilkan jam operasional dan nomor kontak khusus untuk tiap cabang Bandung.",
+    "Beranda menampilkan testimoni pasien serta bagian hasil perawatan sebelum dan sesudah; materi ini perlu ditinjau sebelum digunakan ulang."
+  ],
+  "ide_fitur_khas": "Pemilih tiga cabang Bandung yang menampilkan alamat, jam terverifikasi, dokter yang sudah terkonfirmasi, dan tombol kontak sesuai cabang.",
+  "catatan": "✎ Verifikasi langsung jam dan kontak Mekarwangi, apakah nomor Buah Batu menerima WhatsApp, jadwal drg. Adira, serta dokter lain di Bandung. Nomor 6285182016877 pada situs adalah kontak WhatsApp umum, bukan nomor yang terbukti khusus cabang. Situs menyatakan bekerja sama dengan provider asuransi, tetapi daftar nama provider tidak terbaca pada halaman yang dibuka; konfirmasi penerimaan per cabang. Harga adalah publikasi Sozo, bukan kepastian tarif Bandung. Angka rating 4,9 dan 2.189 ulasan berasal dari input Sheet tanpa tautan Maps yang dapat memverifikasinya, sehingga tidak dimasukkan sebagai fakta Maps.",
   "sumber": [
     "https://www.sozodental.com/",
     "https://www.sozodental.com/lokasi/",
     "https://www.sozodental.com/lokasi/bandung/",
+    "https://www.sozodental.com/dokter-gigi/",
+    "https://www.sozodental.com/asuransi/",
     "https://www.sozodental.com/promo/",
     "https://www.sozodental.com/layanan/scaling-gigi/",
     "https://www.sozodental.com/layanan/tambal-gigi/",
     "https://www.sozodental.com/layanan/cabut-gigi/",
     "https://www.sozodental.com/layanan/behel-gigi/",
+    "https://www.sozodental.com/layanan/bleaching-gigi/",
     "https://www.sozodental.com/layanan/veneer-gigi/",
     "https://www.sozodental.com/layanan/implan-gigi/",
-    "https://www.sozodental.com/artikel/biaya-memutihkan-gigi-di-klinik/",
+    "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-pajajaran-5400319803680",
+    "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-buah-batu-3143249048741",
     "https://msha.ke/drg.adira/",
     "https://drive.google.com/drive/folders/1-wX0C16VBKXOjviMiTOdEj8niArmtgq1",
-    "https://www.sozodental.com/dokter-gigi/",
-    "https://www.sozodental.com/tentang-kami/",
-    "https://www.sozodental.com/layanan/bleaching-gigi/"
+    "https://xpert.sozodental.com/lokasi/"
   ]
 }

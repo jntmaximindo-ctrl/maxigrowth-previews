@@ -1,0 +1,142 @@
+{
+  "id": "W14",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Sozo Dental Bandung",
+      "en": "Dental Care at Sozo Dental Bandung"
+    },
+    "sub": {
+      "id": "Temukan layanan gigi dan pilih lokasi yang sesuai di Pajajaran, Buah Batu, atau Mekarwangi. Hubungi klinik untuk memastikan jadwal dan ketersediaan perawatan.",
+      "en": "Explore dental services and choose a location in Pajajaran, Buah Batu, or Mekarwangi. Contact the clinic to confirm hours and treatment availability."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About an Appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan dan periksakan kondisi gigi sebelum menentukan langkah perawatan.",
+        "en": "Discuss your concerns and have your teeth checked before deciding on care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Dokter dapat membantu menilai kebutuhan perawatan Anda.",
+        "en": "Removal of tartar buildup. A dentist can assess the care you need."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang, dengan pilihan tindakan sesuai hasil pemeriksaan.",
+        "en": "Care for a cavity, with the treatment determined after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tersedia behel metal dan self-ligating. Konsultasi membantu menentukan pilihan yang sesuai.",
+        "en": "Metal and self-ligating braces are available. A consultation can help you explore your options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi anak sesuai kebutuhan yang ditemukan saat kunjungan.",
+        "en": "Dental checkups and care for children based on their needs at the visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Cabang Bandung",
+      "en": "Choose a Bandung Location"
+    },
+    "penjelasan": {
+      "id": "Lihat alamat Pajajaran, Buah Batu, dan Mekarwangi dalam satu tempat. Informasi jam dan kontak ditampilkan hanya jika sudah terkonfirmasi; tanyakan langsung kepada klinik untuk informasi yang belum tersedia.",
+      "en": "Find the addresses of Pajajaran, Buah Batu, and Mekarwangi in one place. Hours and contact details appear only when confirmed; ask the clinic about any details not yet available."
+    },
+    "alasan_dipilih": "Situs mencantumkan tiga lokasi Bandung, sementara informasi jam dan kontak khusus tiap cabang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Jam buka cabang Bandung kapan?",
+        "en": "What are the opening hours in Bandung?"
+      },
+      "a": {
+        "id": "Pajajaran dan Buah Batu tercantum buka setiap hari pukul 10.00–21.00 WIB di Traveloka. Jam Mekarwangi belum terkonfirmasi. Pastikan kembali sebelum berkunjung.",
+        "en": "Traveloka lists Pajajaran and Buah Batu as open daily from 10 a.m. to 9 p.m. WIB. Mekarwangi’s hours have not been confirmed. Please check before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does teeth cleaning cost?"
+      },
+      "a": {
+        "id": "Situs Sozo Dental mencantumkan basic scaling mulai Rp129.000. Biaya di cabang Bandung dapat berbeda. Tanyakan perkiraan biaya sebelum perawatan.",
+        "en": "Sozo Dental lists basic scaling from Rp129,000. Prices at Bandung locations may differ. Ask for a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Situs Sozo Dental menyebut kerja sama dengan penyedia asuransi, tetapi daftar penyedia dan ketentuan per cabang belum terkonfirmasi. Hubungi klinik dengan menyebut nama asuransi Anda.",
+        "en": "Sozo Dental mentions insurance partnerships, but providers and branch-specific terms have not been confirmed. Contact the clinic with your insurer’s name."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia behel gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Sozo Dental mencantumkan behel metal dan self-ligating. Dokter perlu memeriksa kondisi gigi sebelum membahas pilihan dan biaya yang sesuai.",
+        "en": "Sozo Dental lists metal and self-ligating braces. A dentist will need to examine your teeth before discussing suitable options and costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa periksa gigi?",
+        "en": "Can children have a dental checkup?"
+      },
+      "a": {
+        "id": "Sozo Dental mencantumkan perawatan gigi anak. Hubungi cabang pilihan Anda untuk menanyakan jadwal dan layanan yang tersedia.",
+        "en": "Sozo Dental lists children’s dental care. Contact your preferred location to ask about appointments and available services."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Pilih cabang dan tanyakan jadwal yang tersedia.",
+    "en": "Choose a location and ask about available appointments."
+  },
+  "pesan_wa_default": "Halo Sozo Dental, saya ingin menanyakan jadwal pemeriksaan gigi di cabang [Pajajaran/Buah Batu/Mekarwangi]. Apakah ada jadwal yang tersedia pada [tanggal]? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, tim Sozo Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat situs Sozo mencantumkan tiga lokasi di Bandung: Pajajaran, Buah Batu, dan Mekarwangi. Kami sudah menyiapkan konsep website agar informasi cabang lebih mudah ditemukan. Konsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/sozo-dental. Jika berkenan, saya terbuka untuk mendengar masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Sozo Dental Bandung",
+    "email_isi": "Yth. Manajemen Sozo Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat Sozo Dental mencantumkan tiga lokasi di Bandung: Pajajaran, Buah Batu, dan Mekarwangi. Kami menyiapkan konsep website yang membantu pengunjung menemukan informasi tiap cabang dan mengajukan pertanyaan sebelum berkunjung.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/sozo-dental. Proposal PDF juga saya lampirkan sebagai bahan pertimbangan. Informasi jam, kontak, dan layanan per cabang tentu perlu ditinjau bersama sebelum digunakan.\n\nJika berkenan memberi masukan, saya dapat dihubungi melalui WA 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
