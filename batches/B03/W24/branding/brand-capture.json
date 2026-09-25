@@ -1,0 +1,84 @@
+{
+  "url": "https://tivaza.co.id/",
+  "captured": "2026-09-25T23:17:11.178Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#dae0f0",
+      "share": 0.472,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#0f172a",
+      "share": 0.202,
+      "kinds": {
+        "text": 30
+      }
+    },
+    {
+      "hex": "#667085",
+      "share": 0.121,
+      "kinds": {
+        "text": 14
+      }
+    },
+    {
+      "hex": "#454f5e",
+      "share": 0.082,
+      "kinds": {
+        "text": 8
+      }
+    },
+    {
+      "hex": "#985bcd",
+      "share": 0.066,
+      "kinds": {
+        "bg": 2,
+        "cta": 2
+      }
+    },
+    {
+      "hex": "#101828",
+      "share": 0.037,
+      "kinds": {
+        "text": 6
+      }
+    },
+    {
+      "hex": "#800080",
+      "share": 0.021,
+      "kinds": {
+        "text": 6
+      }
+    }
+  ],
+  "fonts": [
+    "Satoshi",
+    "Inter",
+    "Manrope",
+    "Plus Jakarta Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.webp",
+      "src": "https://tivaza.co.id/wp-content/uploads/2025/09/Logo-Tivaza-baru-lagi-ya-mudah2an-bisa-1536x442.webp",
+      "why": "img[logo]"
+    },
+    {
+      "src": "https://tivaza.site/wp-content/uploads/2025/08/Coolsculpting.webp",
+      "why": "og:image",
+      "error": "apiRequestContext.get: getaddrinfo ENOTFOUND tivaza.site\nCall log:\n  - → GET https://tivaza.site/wp-content/uploads/2025/08/Coolsculpting.webp\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n"
+    }
+  ],
+  "errors": [],
+  "title": "Home - Tivaza",
+  "theme_color": null,
+  "neutrals": [
+    "#e8e0ef",
+    "#ffffff",
+    "#454141",
+    "#3b3b3b"
+  ]
+}
