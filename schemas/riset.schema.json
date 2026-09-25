@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "riset.json — fakta klinik (setiap fakta membawa sumber)",
+  "type": "object",
+  "$defs": {
+    "fakta": {
+      "type": "object",
+      "required": ["v", "src"],
+      "properties": {
+        "v": {},
+        "src": {"type": ["string", "null"], "description": "URL halaman yang benar-benar dibuka; null = tidak ditemukan → ✎ verifikasi"},
+        "tgl": {"type": "string", "description": "YYYY-MM-DD saat dicek"},
+        "yakin": {"enum": ["tinggi", "sedang", "rendah"]}
+      }
+    }
+  },
+  "required": ["id", "nama", "kota", "cabang", "layanan", "situs_lama", "sumber"],
+  "properties": {
+    "id": {"type": "string", "description": "ID dari Sheet, mis. W14"},
+    "nama": {"$ref": "#/$defs/fakta"},
+    "kota": {"type": "string"},
+    "zona_waktu": {"enum": ["WIB", "WITA", "WIT"]},
+    "instagram": {"$ref": "#/$defs/fakta"},
+    "email": {"$ref": "#/$defs/fakta"},
+    "cabang": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["nama", "alamat"],
+        "properties": {
+          "nama": {"type": "string"},
+          "alamat": {"$ref": "#/$defs/fakta"},
+          "telepon": {"$ref": "#/$defs/fakta"},
+          "wa": {"$ref": "#/$defs/fakta", "description": "format 62…"},
+          "jam": {"$ref": "#/$defs/fakta", "description": "v = {sen:'09-20', sel:..., min:'tutup'}"},
+          "maps_url": {"type": "string"}
+        }
+      }
+    },
+    "dokter": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nama"],
+        "properties": {
+          "nama": {"$ref": "#/$defs/fakta", "description": "lengkap dengan gelar persis seperti sumber"},
+          "spesialis": {"$ref": "#/$defs/fakta"},
+          "jadwal": {"$ref": "#/$defs/fakta"},
+          "cabang": {"type": "string"}
+        }
+      }
+    },
+    "layanan": {"type": "array", "items": {"type": "string"}},
+    "harga": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["perawatan", "jenis"],
+        "properties": {
+          "perawatan": {"type": "string"},
+          "jenis": {"enum": ["resmi_klinik", "kisaran_pasar"]},
+          "min": {"type": "number"}, "max": {"type": "number"},
+          "src": {"type": ["string", "array"]}
+        }
+      }
+    },
+    "fasilitas": {"type": "array", "items": {"type": "string"}},
+    "asuransi": {"type": "array", "items": {"type": "string"}},
+    "maps": {
+      "type": "object",
+      "properties": {"rating": {"type": "number"}, "ulasan": {"type": "integer"}, "src": {"type": "string"}, "tgl": {"type": "string"}}
+    },
+    "keunggulan": {"type": "array", "items": {"type": "string"}, "description": "fakta pembeda yang bisa dibuktikan, bukan klaim superlatif"},
+    "situs_lama": {"type": "array", "items": {"type": "string"}, "description": "masalah spesifik: 'tidak ada tombol WA di mobile', 'testimoni pasien di beranda (Permenkes)'"},
+    "ide_fitur_khas": {"type": "string"},
+    "catatan": {"type": "string"},
+    "sumber": {"type": "array", "items": {"type": "string"}, "minItems": 2}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "konten.json — teks website ID + EN dan outreach",
+  "type": "object",
+  "required": ["id", "hero", "layanan", "faq", "cta", "outreach"],
+  "$defs": {
+    "dwi": {"type": "object", "required": ["id", "en"], "properties": {"id": {"type": "string"}, "en": {"type": "string"}}}
+  },
+  "properties": {
+    "id": {"type": "string"},
+    "hero": {
+      "type": "object",
+      "required": ["judul", "sub"],
+      "properties": {"judul": {"$ref": "#/$defs/dwi"}, "sub": {"$ref": "#/$defs/dwi"}, "cta": {"$ref": "#/$defs/dwi"}}
+    },
+    "layanan": {
+      "type": "array", "minItems": 4,
+      "items": {"type": "object", "required": ["nama", "ringkas"], "properties": {"nama": {"$ref": "#/$defs/dwi"}, "ringkas": {"$ref": "#/$defs/dwi"}}}
+    },
+    "fitur_khas": {
+      "type": "object",
+      "properties": {"judul": {"$ref": "#/$defs/dwi"}, "penjelasan": {"$ref": "#/$defs/dwi"}, "alasan_dipilih": {"type": "string"}}
+    },
+    "faq": {
+      "type": "array", "minItems": 5, "maxItems": 6,
+      "items": {"type": "object", "required": ["q", "a"], "properties": {"q": {"$ref": "#/$defs/dwi"}, "a": {"$ref": "#/$defs/dwi"}}}
+    },
+    "cta": {"$ref": "#/$defs/dwi"},
+    "pesan_wa_default": {"type": "string", "description": "Teks WA siap kirim dari pasien ke klinik (bisa diedit pengunjung)"},
+    "outreach": {
+      "type": "object",
+      "required": ["wa", "email_subjek", "email_isi"],
+      "properties": {
+        "wa": {"type": "string", "description": "≤ 90 kata, sebut 1 hal spesifik klinik, link https://maxigrowthstudio.com/<slug>"},
+        "email_subjek": {"type": "string"},
+        "email_isi": {"type": "string", "description": "≤ 170 kata, menyebut lampiran proposal PDF"}
+      }
+    }
+  }
+}
