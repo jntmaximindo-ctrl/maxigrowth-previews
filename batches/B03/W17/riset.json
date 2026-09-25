@@ -1,0 +1,198 @@
+{
+  "id": "W17",
+  "nama": {
+    "v": "Integrity Dental Care",
+    "src": "https://integritydentalindonesia.com/",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/integrity.dental/",
+    "src": "https://integritydentalindonesia.com/",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "email": {
+    "v": "integritydental.idc@gmail.com",
+    "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+    "tgl": "2026-09-25",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "Wastukencana",
+      "alamat": {
+        "v": "Jalan Wastukencana 50 A, Kota Bandung (lantai 2 bengkel Kencana Motor)",
+        "src": "https://integritydentalindonesia.com/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "085179655137; 081320348288",
+        "src": "https://integritydentalindonesia.com/contact-us/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": "6285179655137",
+        "src": "https://integritydentalindonesia.com/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "13-21",
+          "sel": "13-21",
+          "rab": "11-21",
+          "kam": "11-21",
+          "jum": "11-20",
+          "sab": "09-21",
+          "min": "08-16"
+        },
+        "src": "https://integritydentalindonesia.com/",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/place/Integrity%2BDental%2BCare%2BKlinik%2BDokter%2BGigi/@-6.9039519,107.6024685,17z/data=!4m8!3m7!1s0x2e68e73652f7dc35:0xc2e5b2bf178e3e1a!8m2!3d-6.9039519!4d107.6050434!9m1!1b1!16s%2Fg%2F11k2hwk_8h"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Perawatan saluran akar",
+    "Gigi tiruan",
+    "Bleaching",
+    "Perawatan gigi anak",
+    "Mahkota gigi",
+    "Penggantian tambalan rusak",
+    "Perbaikan gigi patah",
+    "Behel gigi"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling dua rahang; kisaran pembanding Bandung, bukan harga IDC",
+      "jenis": "kisaran_pasar",
+      "min": 232000,
+      "max": 650000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi komposit; kisaran pembanding Bandung, bukan harga IDC",
+      "jenis": "kisaran_pasar",
+      "min": 330000,
+      "max": 762000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi dewasa; kisaran pembanding Bandung, bukan harga IDC",
+      "jenis": "kisaran_pasar",
+      "min": 199000,
+      "max": 626000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Pemasangan behel metal; kisaran pembanding Bandung, bukan harga IDC",
+      "jenis": "kisaran_pasar",
+      "min": 4700000,
+      "max": 8400000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Bleaching in-office; kisaran pembanding Bandung, bukan harga IDC",
+      "jenis": "kisaran_pasar",
+      "min": 1400000,
+      "max": 2600000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Veneer porselen per gigi; kisaran pembanding Bandung, bukan layanan atau harga terkonfirmasi IDC",
+      "jenis": "kisaran_pasar",
+      "min": 2100000,
+      "max": 4300000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Implan gigi; kisaran pembanding Bandung, bukan layanan atau harga terkonfirmasi IDC",
+      "jenis": "kisaran_pasar",
+      "min": 11300000,
+      "max": 17900000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/icare-dental-bandung-ciha-imp1"
+      ]
+    }
+  ],
+  "fasilitas": [
+    "Toilet (menurut direktori pihak ketiga)",
+    "Menerima kartu pembayaran (menurut direktori pihak ketiga)"
+  ],
+  "asuransi": [
+    "Chubb (tercantum dalam daftar provider November 2025; status kerja sama saat ini perlu diverifikasi)"
+  ],
+  "maps": {
+    "rating": 5,
+    "ulasan": 851,
+    "src": "https://indonesiaknowledge.com/directory/dental/bandung/integrity-dental-care-klinik-dokter-gigi-bandung",
+    "tgl": "2026-09-25"
+  },
+  "keunggulan": [
+    "Beranda mencantumkan jam buka setiap hari, termasuk Minggu pukul 08.00–16.00.",
+    "Beranda mencantumkan dua nomor WhatsApp untuk reservasi.",
+    "Situs memuat layanan perawatan gigi anak serta pilihan behel metal, ceramic dan self-ligating.",
+    "Situs menyediakan artikel edukasi kesehatan gigi."
+  ],
+  "situs_lama": [
+    "Jam buka tidak konsisten: beranda memuat jadwal berbeda per hari, sedangkan halaman Layanan dan Hubungi Kami masih menyebut setiap hari pukul 16.30–21.30.",
+    "Tombol «Info Harga» pada beranda dan halaman Layanan mengarah ke WhatsApp; daftar harga tindakan tidak ditampilkan di halaman tersebut.",
+    "Halaman testimoni menampilkan kutipan pasien dengan label «Verified Patient»; konten promosi ini perlu ditinjau sebelum digunakan ulang."
+  ],
+  "ide_fitur_khas": "Pemilih jadwal kunjungan per hari yang menampilkan jam buka terbaru dan langsung membuka WhatsApp reservasi.",
+  "catatan": "Tanggal pengecekan 2026-09-25. Angka 851 ulasan berasal dari direktori pihak ketiga yang menyatakan pemeriksaan terakhirnya 2026-08-06, bukan pembacaan langsung Google Maps hari ini; angka 880 dari input Sheet belum dapat diverifikasi. Nama lengkap dokter dan jadwal per dokter tidak ditemukan, sehingga dokter dikosongkan. Nomor WA kedua yang juga tercantum di situs adalah 6281320348288. Situs IDC tidak menerbitkan harga tindakan pada halaman yang diperiksa. Seluruh kisaran pasar adalah pembanding dari publikasi pihak lain, sebagian berupa estimasi direktori yang belum dikonfirmasi ke masing-masing klinik; jangan ditampilkan sebagai tarif IDC. Layanan veneer dan implan di IDC juga belum terkonfirmasi. Status kerja sama asuransi, fasilitas, dan jam operasional perlu dikonfirmasi langsung.",
+  "sumber": [
+    "https://integritydentalindonesia.com/",
+    "https://integritydentalindonesia.com/layanan/",
+    "https://integritydentalindonesia.com/contact-us/",
+    "https://integritydentalindonesia.com/galeri/",
+    "https://integritydentalindonesia.com/dental-education/",
+    "https://integritydentalindonesia.com/reviews/",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+    "https://indonesiaknowledge.com/directory/dental/bandung/integrity-dental-care-klinik-dokter-gigi-bandung",
+    "https://www.google.com/maps/place/Integrity%2BDental%2BCare%2BKlinik%2BDokter%2BGigi/@-6.9039519,107.6024685,17z/data=!4m8!3m7!1s0x2e68e73652f7dc35:0xc2e5b2bf178e3e1a!8m2!3d-6.9039519!4d107.6050434!9m1!1b1!16s%2Fg%2F11k2hwk_8h",
+    "https://hdmall.id/passion-dental-care/products",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-apotek-ran-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/icare-dental-bandung-ciha-imp1"
+  ]
+}
