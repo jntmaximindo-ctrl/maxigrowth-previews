@@ -1,0 +1,56 @@
+# Issue berlabel "riset" → riset + cek fakta + konten (OpenAI API) dan branding (Playwright) → commit ke main.
+name: riset-dan-branding
+on:
+  issues: { types: [labeled] }
+  workflow_dispatch:
+    inputs:
+      job: { description: "Path job, mis. B01/W14", required: true }
+      issue: { description: "Nomor issue untuk laporan (opsional)", required: false }
+permissions: { contents: write, issues: write }
+concurrency:
+  group: riset-${{ github.event.inputs.job || github.event.issue.number }}
+jobs:
+  run:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'riset'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: pip install jsonschema && npm i playwright@1 && npx playwright install --with-deps chromium
+      - name: Tentukan job
+        id: j
+        run: |
+          JOB="${{ github.event.inputs.job }}"
+          [ -z "$JOB" ] && JOB=$(echo "${{ github.event.issue.title }}" | sed -E 's/^\[([^]]+)\].*/\1/')
+          echo "dir=batches/$JOB" >> $GITHUB_OUTPUT
+      - name: Branding situs lama (tanpa AI)
+        run: |
+          URL=$(python -c "import json;print(json.load(open('${{ steps.j.outputs.dir }}/job.json'))['url'])")
+          node scripts/brand_capture.mjs "$URL" "${{ steps.j.outputs.dir }}/branding" || true
+      - name: Riset + cek fakta + konten
+        id: r
+        env: { OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}" }
+        run: |
+          set +e; python scripts/research.py "${{ steps.j.outputs.dir }}" | tee research.out; code=${PIPESTATUS[0]}; set -e
+          python scripts/lint_permenkes.py "${{ steps.j.outputs.dir }}/konten.json" | tee -a research.out || true
+          if [ $code -eq 0 ]; then st="Siap rakit"; else st="Butuh cek riset"; fi
+          echo "{\"status\": \"$st\"}" > "${{ steps.j.outputs.dir }}/status.json"
+          echo "status=$st" >> $GITHUB_OUTPUT
+      - name: Commit
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches && git commit -m "riset: ${{ steps.j.outputs.dir }} (${{ steps.r.outputs.status }})" || exit 0
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Lapor di issue
+        if: github.event.issue.number || github.event.inputs.issue
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh issue comment ${{ github.event.issue.number || github.event.inputs.issue }} --body "Status: **${{ steps.r.outputs.status }}**
+          \`\`\`
+          $(tail -30 research.out)
+          \`\`\`"
+          gh issue edit ${{ github.event.issue.number || github.event.inputs.issue }} --remove-label riset --add-label "$( [ '${{ steps.r.outputs.status }}' = 'Siap rakit' ] && echo siap-rakit || echo cek-riset )" 2>/dev/null || true

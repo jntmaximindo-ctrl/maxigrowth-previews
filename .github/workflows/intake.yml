@@ -1,0 +1,50 @@
+# Ambil batch 10 klinik berikutnya dari Sheet → folder job + issue per klinik.
+# Jalan tiap hari 06:00 WIB, hanya jika batch terakhir sudah "Siap review" semua (atau manual).
+name: intake-batch
+on:
+  schedule: [{ cron: "0 23 * * *" }]
+  workflow_dispatch:
+    inputs:
+      size: { description: "Jumlah klinik", default: "10" }
+      force: { description: "Paksa walau batch sebelumnya belum selesai (ya/tidak)", default: "tidak" }
+permissions: { contents: write, issues: write, actions: write }
+concurrency: intake
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install google-api-python-client google-auth
+      - name: Cek batch sebelumnya
+        id: gate
+        run: |
+          last=$(ls -d batches/B* 2>/dev/null | sort | tail -1 || true)
+          open=0
+          if [ -n "$last" ]; then
+            open=$(grep -L '"Siap review"\|"Disetujui"\|"Butuh kamu"' $last/*/status.json 2>/dev/null | wc -l)
+          fi
+          echo "open=$open" >> $GITHUB_OUTPUT
+          echo "Batch terakhir: ${last:-tidak ada}, belum selesai: $open"
+      - name: Intake
+        if: steps.gate.outputs.open == '0' || github.event.inputs.force == 'ya'
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/sheet.py intake --size "${{ github.event.inputs.size || '10' }}" > intake.txt
+          cat intake.txt
+          grep -q KOSONG intake.txt && exit 0
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches && git commit -m "intake: $(head -1 intake.txt | cut -d/ -f1)" && git push
+          gh label create riset --color 1f6feb 2>/dev/null || true
+          # Catatan: event dari GITHUB_TOKEN tidak memicu workflow lain, kecuali workflow_dispatch.
+          # Jadi riset dipanggil langsung lewat `gh workflow run`, bukan lewat label issue.
+          while IFS=$'\t' read -r path nama; do
+            url=$(gh issue create --title "[$path] $nama" --label riset \
+              --body "Job: \`batches/$path/job.json\`. Riset + branding otomatis sedang berjalan. Status tercatat di Sheet.")
+            gh workflow run research.yml -f job="$path" -f issue="${url##*/}"
+            sleep 20   # beri jeda agar tidak membebani rate limit API
+          done < intake.txt

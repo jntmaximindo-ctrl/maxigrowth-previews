@@ -1,0 +1,39 @@
+# Setiap Claude mendorong site/index.html → QA teknis + lint Permenkes → laporan di folder qa/.
+name: qa-otomatis
+on:
+  push:
+    branches: [main]
+    paths: ["batches/**/site/index.html"]
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm i playwright@1 && npx playwright install --with-deps chromium
+      - name: QA berkas yang berubah
+        run: |
+          files=$(git diff --name-only HEAD~1 HEAD -- 'batches/**/site/index.html' || true)
+          [ -z "$files" ] && files=$(ls batches/*/*/site/index.html 2>/dev/null)
+          for f in $files; do
+            d=$(dirname $(dirname $f))
+            set +e
+            node scripts/qa.mjs "$f" "$d/qa" > "$d/qa/ringkas.txt" 2>&1; a=$?
+            python scripts/lint_permenkes.py "$f" >> "$d/qa/ringkas.txt" 2>&1; b=$?
+            set -e
+            if [ $a -eq 0 ] && [ $b -eq 0 ]; then st="QC visual"; else st="QA gagal"; fi
+            python - "$d" "$st" <<'EOF'
+          import json,sys,pathlib
+          p=pathlib.Path(sys.argv[1])/"status.json"; s=json.loads(p.read_text()) if p.exists() else {}
+          s["status"]=sys.argv[2]; p.write_text(json.dumps(s,ensure_ascii=False))
+          EOF
+            echo "$f → $st"
+          done
+      - run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches && git commit -m "qa: laporan otomatis" || exit 0
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
