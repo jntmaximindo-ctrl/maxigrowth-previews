@@ -1,0 +1,257 @@
+{
+  "id": "N01",
+  "nama": {
+    "v": "Klinik Utama Bandung Dental Center",
+    "src": "https://bdc.co.id/",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "@bandungdentalcenter",
+    "src": "https://linktr.ee/bandungdentalcenter",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "email": {
+    "v": "bandungdentalcenter@gmail.com",
+    "src": "https://www.semuabis.com/klinik-utama-bandung-dental-center-022-4262852",
+    "tgl": "2026-09-25",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "Bandung Dental Center — Karapitan",
+      "alamat": {
+        "v": "Jl. Karapitan No. 88 C, Cikawao, Kec. Lengkong, Kota Bandung, Jawa Barat 40261",
+        "src": "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0224262852",
+        "src": "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "6281320096077",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      }
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg Daisy Wulansari, drg.,M.Kes.,Sp Prost",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter Gigi Spesialis Prostodonti",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      }
+    },
+    {
+      "nama": {
+        "v": "drg Anna Muryani, SP.KG, SUBSP. KE(K)",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter Gigi Spesialis Konservasi",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      }
+    },
+    {
+      "nama": {
+        "v": "Dr. Gilang Yubiliana.drg.,CH-t ,M.Kes., FISDPH, FISPD",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter Gigi Ahli Hipnodontik",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      }
+    },
+    {
+      "nama": {
+        "v": "drg Aldilla Miranda, SP.PERIO.,SUBSP.RPI(K)",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter Gigi Spesialis Periodonti",
+        "src": "https://bdc.co.id/",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      }
+    }
+  ],
+  "layanan": [
+    "Pemeriksaan gigi dan mulut",
+    "Scaling dan pembersihan gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Bleaching",
+    "Veneer dan mahkota gigi",
+    "Behel",
+    "Clear aligner",
+    "Implan gigi",
+    "Perawatan saluran akar",
+    "Perawatan gigi anak",
+    "Odontektomi",
+    "Perawatan gusi",
+    "Dental hypnosis bagi pasien dengan kecemasan"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 234000,
+      "max": 600000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi komposit per gigi; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 348000,
+      "max": 762000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+        "https://coterieclinic.com/price-list/",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/biru-dental-care-praktek-dokte-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi dewasa; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 205000,
+      "max": 750000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+        "https://coterieclinic.com/price-list/",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Behel metal; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 4700000,
+      "max": 10000000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/asia-afrika-dental-clinic-ciha-imp1",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Bleaching; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 1400000,
+      "max": 2600000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/biru-dental-care-praktek-dokte-ciha-imp1"
+      ]
+    },
+    {
+      "perawatan": "Veneer porselen per gigi; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 1800000,
+      "max": 4900000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/asia-afrika-dental-clinic-ciha-imp1",
+        "https://coterieclinic.com/price-list/"
+      ]
+    },
+    {
+      "perawatan": "Implan gigi; kisaran pembanding Bandung, bukan tarif BDC",
+      "jenis": "kisaran_pasar",
+      "min": 11500000,
+      "max": 19300000,
+      "src": [
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://coterieclinic.com/price-list/",
+        "https://caribisnis.id/dokter-gigi/bandung/cihampelas/asia-afrika-dental-clinic-ciha-imp1"
+      ]
+    }
+  ],
+  "fasilitas": [
+    "Fasilitas rontgen gigi, sebagaimana tercantum di situs klinik"
+  ],
+  "asuransi": [
+    "Tercantum dalam daftar provider AdMedika untuk pemegang kartu Chubb, Juni 2026; kelayakan manfaat perlu dikonfirmasi menurut polis"
+  ],
+  "keunggulan": [
+    "Situs klinik menampilkan dokter spesialis prostodonti, konservasi gigi, dan periodonti.",
+    "Situs klinik mencantumkan dental hypnosis bagi pasien dengan kecemasan.",
+    "Situs klinik mencantumkan perawatan gigi anak, clear aligner, dan implan gigi."
+  ],
+  "situs_lama": [
+    "Alamat di situs klinik tertulis Jl. Sunda No. 27D, sedangkan daftar provider Chubb Juni 2026 dan direktori bisnis mencatat Jl. Karapitan No. 88C; lokasi perlu dikonfirmasi.",
+    "Beranda menulis jam Senin–Sabtu 09:00–10:00 dan Minggu tutup, sementara situs demo terkait menulis Senin–Minggu 08:00–20:00; jam praktik belum dapat dipastikan.",
+    "Tautan 'Lihat Semua Layanan' dan 'Lihat Semua Dokter' di beranda mengarah ke domain bdc.tanami.co, bukan bdc.co.id.",
+    "Beranda masih menampilkan teks contoh pada FAQ dan testimoni berbahasa Inggris dengan identitas berulang 'Mark Steven'.",
+    "Halaman janji temu menampilkan nomor hotline +945 888 8889 yang berbeda dari nomor kontak di beranda."
+  ],
+  "ide_fitur_khas": "Pencari dokter berdasarkan jenis perawatan dan kebutuhan pasien, termasuk opsi pendampingan untuk kecemasan; tampilkan jadwal hanya setelah dikonfirmasi klinik.",
+  "catatan": "Gelar dokter disalin persis seperti yang tampil di situs, termasuk ejaan dan tanda bacanya. Alamat Karapitan dipilih berdasarkan daftar provider Juni 2026, tetapi bertentangan dengan situs klinik; jangan publikasikan sebagai lokasi terkonfirmasi sebelum menghubungi klinik. PDF jadwal dokter bertajuk 2025 pada Linktree tidak memberikan jadwal yang dapat diverifikasi untuk 2026. Rating 4,7 dan 802 ulasan dari input Sheet tidak dimasukkan sebagai data Maps karena tidak ditemukan halaman Maps yang memverifikasinya. Harga seluruhnya pembanding pasar, bukan harga resmi BDC; sebagian kisaran direktori pihak ketiga belum dikonfirmasi oleh klinik pembanding.",
+  "sumber": [
+    "https://www.bdc.co.id/",
+    "https://bdc.co.id/",
+    "https://bdc.co.id/appointment/",
+    "https://bdc.co.id/doctors/drg-daisy-wulansari-drg-m-kes-sp-prost/",
+    "https://bdc.tanami.co/services/",
+    "https://linktr.ee/bandungdentalcenter",
+    "https://drive.google.com/file/d/18tZk1fcNaee4yYrxakAfbaQDkPVYNUlh/view?usp=sharing",
+    "https://drive.google.com/file/d/1ifpqXTAgmpkbDQ3jM0z5GxMVKX9aTK5O/view?usp=sharing",
+    "https://bisnis.solmet.id/bdc/",
+    "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf",
+    "https://www.semuabis.com/klinik-utama-bandung-dental-center-022-4262852",
+    "https://coterieclinic.com/price-list/",
+    "https://doktertanya.com/dokter-gigi-bandung/",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-pasang-beh-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/asia-afrika-dental-clinic-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/biru-dental-care-praktek-dokte-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/dokter-gigi-bandung-sarijadi-d-ciha-imp1",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/bandung-dental-center-ciha-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Karapitan No. 88 C, Cikawao, Kec. Lengkong, Kota Bandung, Jawa Barat 40261",
+      "catatan": "JL. KARAPITAN NOMOR 88 C, DESA/KELURAHAN CIKAWAO, KEC. LENGKONG, KOTA BANDUNG, PROVINSI JAWA BARAT"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "@bandungdentalcenter",
+      "catatan": "bandungdentalcenter; halaman menyebut adanya akun Instagram yang tertaut, tetapi tidak mencetak handle dengan awalan @."
+    }
+  ]
+}

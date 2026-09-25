@@ -1,0 +1,142 @@
+{
+  "id": "N01",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Bandung Dental Center",
+      "en": "Dental Care at Bandung Dental Center"
+    },
+    "sub": {
+      "id": "Dari pemeriksaan rutin hingga perawatan gigi anak dan implan. Ceritakan kebutuhan Anda, lalu tanyakan pilihan perawatan yang sesuai.",
+      "en": "From routine check-ups to children’s dental care and implants. Tell us what you need and ask about your treatment options."
+    },
+    "cta": {
+      "id": "Tanya melalui WhatsApp",
+      "en": "Ask Us on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan pembersihan gigi",
+        "en": "Dental check-ups and cleaning"
+      },
+      "ringkas": {
+        "id": "Periksa kondisi gigi dan mulut, atau tanyakan tentang scaling untuk membersihkan karang gigi.",
+        "en": "Have your teeth and mouth checked, or ask about scaling to remove tartar."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan perawatan saluran akar",
+        "en": "Fillings and root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan untuk gigi yang rusak atau memerlukan pemeriksaan lebih lanjut.",
+        "en": "Ask about care options for a damaged tooth or one that needs further assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel dan clear aligner",
+        "en": "Braces and clear aligners"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan untuk merapikan susunan gigi sesuai kondisi Anda.",
+        "en": "Discuss options for straightening your teeth based on your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan perawatan gigi yang tersedia untuk anak.",
+        "en": "Ask about available dental check-ups and care for children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Implan, mahkota, dan veneer",
+        "en": "Implants, crowns, and veneers"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan untuk kebutuhan penggantian atau pemulihan bentuk gigi.",
+        "en": "Discuss options for replacing a tooth or restoring its shape."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Cari perawatan sesuai kebutuhan Anda",
+      "en": "Explore care based on your needs"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan perawatan, termasuk bila Anda merasa cemas saat ke dokter gigi. Lihat informasi layanan terkait dan tanyakan pilihan pendampingan melalui WhatsApp. Jadwal dokter perlu dikonfirmasi langsung ke klinik.",
+      "en": "Choose what you need help with, including concerns about dental visits. Explore related services and ask the clinic about support options on WhatsApp. Please confirm doctor schedules directly with the clinic."
+    },
+    "alasan_dipilih": "Situs klinik mencantumkan beragam layanan dan dental hypnosis bagi pasien dengan kecemasan. Fitur ini membantu pengunjung menemukan informasi terkait tanpa menampilkan jadwal yang belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan jam praktik klinik?",
+        "en": "What are the clinic’s opening hours?"
+      },
+      "a": {
+        "id": "Informasi jam praktik yang tersedia belum konsisten. Silakan konfirmasi jam dan ketersediaan kunjungan melalui WhatsApp sebelum datang.",
+        "en": "The available opening-hours information is inconsistent. Please confirm hours and appointment availability on WhatsApp before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan gigi?",
+        "en": "How much does dental treatment cost?"
+      },
+      "a": {
+        "id": "Tarif klinik belum terkonfirmasi. Hubungi klinik untuk menanyakan perkiraan biaya sesuai perawatan yang Anda butuhkan.",
+        "en": "The clinic’s fees have not been confirmed. Contact the clinic to ask about costs for the care you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam daftar provider AdMedika untuk pemegang kartu Chubb edisi Juni 2026. Konfirmasi kelayakan manfaat sesuai polis Anda kepada pihak asuransi dan klinik.",
+        "en": "The clinic appears on the June 2026 AdMedika provider list for Chubb cardholders. Check your policy benefits with your insurer and the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia behel dan clear aligner?",
+        "en": "Are braces and clear aligners available?"
+      },
+      "a": {
+        "id": "Keduanya tercantum dalam daftar layanan klinik. Konsultasikan kondisi gigi Anda untuk membahas pilihan perawatan.",
+        "en": "Both are listed among the clinic’s services. Arrange a consultation to discuss which options may suit your teeth."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa menjalani perawatan gigi di sini?",
+        "en": "Does the clinic provide dental care for children?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum dalam layanan klinik. Hubungi klinik untuk menanyakan jenis perawatan dan ketersediaan dokter.",
+        "en": "Children’s dental care is listed among the clinic’s services. Contact the clinic to ask about treatments and doctor availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan? Hubungi Bandung Dental Center melalui WhatsApp.",
+    "en": "Have a question about dental care? Message Bandung Dental Center on WhatsApp."
+  },
+  "pesan_wa_default": "Halo, Bandung Dental Center. Saya ingin bertanya tentang perawatan gigi dan ketersediaan jadwal. Mohon informasinya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu Manajemen Bandung Dental Center. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat klinik mencantumkan dental hypnosis untuk pasien yang merasa cemas. Kami sudah menyiapkan konsep website untuk Bapak/Ibu lihat tanpa biaya di https://maxigrowthstudio.com/bdc. Jika berkenan, saya dapat menjelaskan konsepnya. Terima kasih. Muhammad Rizqi Tri Andika | 082141004400",
+    "email_subjek": "Konsep website untuk Bandung Dental Center",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Bandung Dental Center,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat bahwa klinik mencantumkan dental hypnosis bagi pasien yang merasa cemas saat menjalani perawatan gigi.\n\nKami menyiapkan konsep website yang membantu pengunjung menemukan informasi layanan dan menghubungi klinik. Bapak/Ibu dapat melihatnya di https://maxigrowthstudio.com/bdc tanpa biaya atau kewajiban. Proposal PDF juga saya lampirkan untuk ditinjau.\n\nJika konsep ini relevan, saya siap mendengar masukan Bapak/Ibu. Informasi seperti lokasi dan jam praktik perlu dikonfirmasi oleh tim klinik sebelum dipublikasikan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

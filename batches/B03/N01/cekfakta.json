@@ -1,0 +1,24 @@
+{
+  "id": "N01",
+  "diperiksa": 37,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Karapitan No. 88 C, Cikawao, Kec. Lengkong, Kota Bandung, Jawa Barat 40261",
+      "di_sumber": "JL. KARAPITAN NOMOR 88 C, DESA/KELURAHAN CIKAWAO, KEC. LENGKONG, KOTA BANDUNG, PROVINSI JAWA BARAT",
+      "src": "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf",
+      "catatan": "Alamat jalan dan wilayah sesuai secara substansi, tetapi kode pos 40261 tidak tertulis pada baris PDF yang dijadikan src. PDF juga menggolongkan Bandung Dental Center sebagai 'KLINIK PRATAMA', bukan 'Klinik Utama'. ([chubb.com](https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf))"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "@bandungdentalcenter",
+      "di_sumber": "bandungdentalcenter; halaman menyebut adanya akun Instagram yang tertaut, tetapi tidak mencetak handle dengan awalan @.",
+      "src": "https://linktr.ee/bandungdentalcenter",
+      "catatan": "Nama akun cocok, tetapi nilai persis yang dicatat tidak tertulis sebagai teks pada halaman src. ([linktr.ee](https://linktr.ee/bandungdentalcenter))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://coterieclinic.com/price-list/"
+  ],
+  "kritis_ok": false
+}
