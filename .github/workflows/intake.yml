@@ -23,7 +23,12 @@ jobs:
           last=$(ls -d batches/B* 2>/dev/null | sort | tail -1 || true)
           open=0
           if [ -n "$last" ]; then
-            open=$(grep -L '"Siap review"\|"Disetujui"\|"Butuh kamu"' $last/*/status.json 2>/dev/null | wc -l)
+            # job dianggap selesai jika sudah dirakit (preview.json ada) atau statusnya final/di tangan pemilik
+            for d in $last/*/; do
+              [ -f "$d/preview.json" ] && continue
+              grep -q '"Siap review"\|"Disetujui"\|"Terkirim"\|"Butuh kamu"\|"Skip"' "$d/status.json" 2>/dev/null && continue
+              open=$((open+1)); echo "belum selesai: $d"
+            done
           fi
           echo "open=$open" >> $GITHUB_OUTPUT
           echo "Batch terakhir: ${last:-tidak ada}, belum selesai: $open"

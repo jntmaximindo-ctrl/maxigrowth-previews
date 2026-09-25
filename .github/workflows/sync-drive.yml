@@ -1,10 +1,12 @@
-# Setiap perubahan di main → salin batches/ dan library/ ke Google Drive (bank data) + tulis status ke Sheet.
+# Dua arah dengan Google Drive (bank data):
+#  1. TARIK preview.json (ditulis perakit/Claude di Drive) → repo, gabung ke status.json, tulis Status + Link ke Sheet.
+#  2. SALIN batches/ dan library/ dari repo ke Drive.
 name: sinkron-drive
 on:
   push: { branches: [main] }
   schedule: [{ cron: "30 * * * *" }]
   workflow_dispatch:
-permissions: { contents: read }
+permissions: { contents: write }
 concurrency: sync-drive
 jobs:
   sync:
@@ -15,7 +17,7 @@ jobs:
         run: curl -fsSL https://rclone.org/install.sh | sudo bash
       # Upload ke Drive memakai token OAuth akun Google pemilik (bukan service account):
       # service account tidak punya kuota penyimpanan di My Drive pribadi, jadi upload file baru akan ditolak.
-      # Service account tetap dipakai untuk membaca/menulis Sheet (langkah terakhir).
+      # Service account tetap dipakai untuk membaca/menulis Sheet.
       - name: Konfigurasi rclone (token OAuth pemilik)
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}" }
         run: |
@@ -26,16 +28,28 @@ jobs:
           conf = "[gd]\ntype = drive\nscope = drive\ntoken = " + json.dumps(tok) + "\n"
           pathlib.Path(os.path.expanduser("~/.config/rclone/rclone.conf")).write_text(conf)
           EOF
+      - name: Tarik hasil rakit (preview.json) dari Drive
+        run: |
+          mkdir -p batches
+          rclone copy gd: batches --drive-root-folder-id "${{ vars.DRIVE_BATCH_ID }}" \
+            --include "/B*/*/preview.json" -v || true
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Gabung status + tulis ke Sheet
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: pip install google-api-python-client google-auth && python scripts/sheet.py status
+      - name: Commit perubahan status
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches
+          git diff --cached --quiet && exit 0
+          git commit -m "sinkron: hasil rakit dari Drive"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
       - name: Salin ke Drive
         run: |
           rclone copy batches gd: --drive-root-folder-id "${{ vars.DRIVE_BATCH_ID }}" --exclude "**/node_modules/**" -v
           [ -d library ] && rclone copy library gd: --drive-root-folder-id "${{ vars.DRIVE_LIBRARY_ID }}" -v || true
           # salinan kode repo (skrip, prompt, skema, workflow) untuk dokumentasi di Drive
           rclone copy . gd: --drive-root-folder-id "${{ vars.DRIVE_REPO_ID }}" --exclude "batches/**" --exclude "library/**" --exclude ".git/**" -v
-      - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - name: Tulis status ke Sheet
-        env:
-          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
-          SHEET_ID: ${{ vars.SHEET_ID }}
-        run: pip install google-api-python-client google-auth && python scripts/sheet.py status

@@ -20,7 +20,7 @@ jobs:
         with: { python-version: "3.12" }
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
-      - run: pip install jsonschema && npm i playwright@1 && npx playwright install --with-deps chromium
+      - run: pip install jsonschema pillow && npm i playwright@1 && npx playwright install --with-deps chromium
       - name: Tentukan job
         id: j
         run: |
@@ -31,6 +31,7 @@ jobs:
         run: |
           URL=$(python -c "import json;print(json.load(open('${{ steps.j.outputs.dir }}/job.json'))['url'])")
           node scripts/brand_capture.mjs "$URL" "${{ steps.j.outputs.dir }}/branding" || true
+          python scripts/thumbs.py "${{ steps.j.outputs.dir }}" || true
       - name: Riset + cek fakta + konten
         id: r
         env: { OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}" }
