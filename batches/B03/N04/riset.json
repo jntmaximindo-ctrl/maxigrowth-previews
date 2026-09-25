@@ -1,0 +1,201 @@
+{
+  "id": "N04",
+  "nama": {
+    "v": "Eversmile Dental | Dokter Gigi Jamika",
+    "src": "https://www.hotfrog.co.id/company/f30de93dfb1edf465c1358760c17aca6",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/eversmile_dentalaesthetic/",
+    "src": "https://www.waze.com/live-map/directions/id/jawa-barat/eversmile-dental-or-dokter-gigi-bandung?to=place.ChIJbc1Nnt3naC4RPrwHAkYEYAU",
+    "tgl": "2026-09-25",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": "eversmiledentalaesthetic@gmail.com",
+    "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-july-2025.pdf",
+    "tgl": "2026-09-25",
+    "yakin": "tinggi"
+  },
+  "cabang": [
+    {
+      "nama": "Jamika",
+      "alamat": {
+        "v": "Jl. Jamika No.99e, Babakan Tarogong, Kec. Bojongloa Kaler, Kota Bandung, Jawa Barat 40231",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/eversmile-dental-or-dokter-gigi-bandung?to=place.ChIJbc1Nnt3naC4RPrwHAkYEYAU",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0823-6163-6161",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/eversmile-dental-or-dokter-gigi-bandung?to=place.ChIJbc1Nnt3naC4RPrwHAkYEYAU",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-20",
+          "sel": "09-20",
+          "rab": "09-20",
+          "kam": "09-20",
+          "jum": "09-20",
+          "sab": "09-20",
+          "min": "13-20"
+        },
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/eversmile-dental-or-dokter-gigi-bandung?to=place.ChIJbc1Nnt3naC4RPrwHAkYEYAU",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      }
+    },
+    {
+      "nama": "Ibu Inggit Garnasih",
+      "alamat": {
+        "v": "Jl. Ibu Inggit Garnasih No.46, Pungkur, Kec. Regol, Kota Bandung, Jawa Barat 40252",
+        "src": "https://www.waze.com/id/live-map/directions/id/jawa-barat/eversmile-dental-clinic?to=place.ChIJkaxVV1TpaC4RVj0CeKzrreQ",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0812-9393-6161",
+        "src": "https://www.waze.com/id/live-map/directions/id/jawa-barat/eversmile-dental-clinic?to=place.ChIJkaxVV1TpaC4RVj0CeKzrreQ",
+        "tgl": "2026-09-25",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-20",
+          "sel": "09-20",
+          "rab": "09-20",
+          "kam": "09-20",
+          "jum": "09-20",
+          "sab": "09-20",
+          "min": "13-20"
+        },
+        "src": "https://www.waze.com/id/live-map/directions/id/jawa-barat/eversmile-dental-clinic?to=place.ChIJkaxVV1TpaC4RVj0CeKzrreQ",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      }
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "DRG STELLA LISTYANI",
+        "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-july-2025.pdf",
+        "tgl": "2026-09-25",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-25",
+        "yakin": "rendah"
+      },
+      "cabang": "Jamika"
+    }
+  ],
+  "layanan": [
+    "Veneer",
+    "Cabut gigi",
+    "Tambal gigi",
+    "Pasang behel"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling, dua rahang; pembanding harga klinik lain di Bandung, bukan tarif Eversmile",
+      "jenis": "kisaran_pasar",
+      "min": 504400,
+      "max": 630500,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi; pembanding harga klinik lain di Bandung, bukan tarif Eversmile",
+      "jenis": "kisaran_pasar",
+      "min": 388000,
+      "max": 849000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi standar; pembanding harga klinik lain di Bandung, bukan tarif Eversmile",
+      "jenis": "kisaran_pasar",
+      "min": 657060,
+      "max": 699000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Bleaching; pembanding harga klinik lain di Bandung, bukan tarif Eversmile",
+      "jenis": "kisaran_pasar",
+      "min": 1500000,
+      "max": 3200000,
+      "src": [
+        "https://www.senyumkeluargadentalcare.com/promo",
+        "https://hdmall.id/klinik-gigi/omdc-healthcare"
+      ]
+    },
+    {
+      "perawatan": "Veneer per gigi; pembanding direct veneer dan veneer porselen di klinik lain di Bandung, bukan tarif Eversmile",
+      "jenis": "kisaran_pasar",
+      "min": 1080060,
+      "max": 3250000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/omdc-healthcare",
+        "https://hdmall.id/passion-dental-care/products"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [
+    "Terdaftar dalam daftar provider dental Chubb; cakupan manfaat perlu dikonfirmasi menurut polis"
+  ],
+  "keunggulan": [
+    "Dua lokasi di Bandung tercantum dalam direktori provider dental Chubb.",
+    "Kedua lokasi mencantumkan jam buka hari Minggu pukul 13.00–20.00 di Waze."
+  ],
+  "situs_lama": [
+    "Direktori yang diperiksa mencantumkan Google Maps sebagai situs web, bukan alamat situs klinik mandiri.",
+    "Jadwal praktik dokter dan daftar harga resmi Eversmile tidak ditemukan pada halaman yang dapat diakses."
+  ],
+  "ide_fitur_khas": "Pemilih cabang interaktif yang menampilkan alamat, jam buka hari Minggu, dan kontak masing-masing lokasi.",
+  "catatan": "Profil Instagram tidak dapat dibuka melalui alat riset. Nomor telepon belum terverifikasi sebagai WhatsApp. Nama dokter berasal dari daftar provider Juli 2025; status praktiknya pada 2026 perlu dikonfirmasi. Rating 5 dan 680 ulasan dari input Sheet tidak dimasukkan karena belum terverifikasi dari halaman Maps yang dibuka. Harga resmi Eversmile tidak ditemukan. Lima kisaran harga yang dicantumkan hanya pembanding dari klinik lain; jumlah sumber per tindakan belum memenuhi target minimal tiga sumber. Kisaran behel metal dan implan tidak dicantumkan karena belum dapat diverifikasi secara memadai dari tiga sumber harga publik di Bandung.",
+  "sumber": [
+    "https://www.instagram.com/eversmile_dentalaesthetic/",
+    "https://www.waze.com/live-map/directions/id/jawa-barat/eversmile-dental-or-dokter-gigi-bandung?to=place.ChIJbc1Nnt3naC4RPrwHAkYEYAU",
+    "https://www.waze.com/id/live-map/directions/id/jawa-barat/eversmile-dental-clinic?to=place.ChIJkaxVV1TpaC4RVj0CeKzrreQ",
+    "https://www.semuabis.com/eversmile-dental-%7C-dokter-gigi-bandung-0823-6163-6161",
+    "https://www.hotfrog.co.id/company/f30de93dfb1edf465c1358760c17aca6",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-july-2025.pdf",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+    "https://hdmall.id/passion-dental-care/products",
+    "https://hdmall.id/klinik-gigi/omdc-healthcare",
+    "https://www.senyumkeluargadentalcare.com/promo"
+  ]
+}

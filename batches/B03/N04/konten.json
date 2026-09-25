@@ -1,0 +1,132 @@
+{
+  "id": "N04",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di dua lokasi Eversmile, Bandung",
+      "en": "Dental care at two Eversmile locations in Bandung"
+    },
+    "sub": {
+      "id": "Temukan lokasi Eversmile di Jamika atau Ibu Inggit Garnasih. Hubungi klinik untuk menanyakan perawatan dan membuat janji.",
+      "en": "Find Eversmile in Jamika or on Ibu Inggit Garnasih Street. Contact the clinic to ask about treatments and appointments."
+    },
+    "cta": {
+      "id": "Lihat lokasi dan kontak",
+      "en": "View locations and contact details"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan veneer dan kesesuaiannya dengan kondisi gigi Anda saat konsultasi.",
+        "en": "Ask about veneer options and whether they suit your teeth during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter gigi perlu memeriksa kondisi gigi sebelum menentukan tindakan yang sesuai.",
+        "en": "A dentist will need to examine your tooth before recommending the appropriate care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan gigi yang berlubang atau rusak untuk mengetahui pilihan perawatannya.",
+        "en": "Have a dentist assess a cavity or damaged tooth to discuss your care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pasang behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal, pilihan perawatan, dan perkiraan biayanya kepada klinik.",
+        "en": "Ask the clinic about an initial assessment, treatment options, and estimated costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi yang ingin Anda kunjungi",
+      "en": "Choose the location you’d like to visit"
+    },
+    "penjelasan": {
+      "id": "Jamika: Jl. Jamika No.99e, Bandung, telepon 0823-6163-6161. Ibu Inggit Garnasih: Jl. Ibu Inggit Garnasih No.46, Bandung, telepon 0812-9393-6161. Menurut Waze, keduanya buka Minggu pukul 13.00–20.00 WIB. Konfirmasi jam sebelum berkunjung.",
+      "en": "Jamika: Jl. Jamika No.99e, Bandung, phone 0823-6163-6161. Ibu Inggit Garnasih: Jl. Ibu Inggit Garnasih No.46, Bandung, phone 0812-9393-6161. Waze lists Sunday hours of 1–8 pm WIB for both locations. Please confirm before visiting."
+    },
+    "alasan_dipilih": "Dua lokasi memiliki alamat dan kontak berbeda. Pemilih lokasi membantu pengunjung menemukan informasi cabang yang ingin dituju."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah Eversmile buka pada hari Minggu?",
+        "en": "Is Eversmile open on Sundays?"
+      },
+      "a": {
+        "id": "Menurut Waze, lokasi Jamika dan Ibu Inggit Garnasih buka Minggu pukul 13.00–20.00 WIB. Jam dapat berubah, jadi konfirmasi kepada klinik sebelum datang.",
+        "en": "Waze lists Sunday hours of 1–8 pm WIB for both Jamika and Ibu Inggit Garnasih. Hours may change, so please check with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan di Eversmile?",
+        "en": "How much does treatment at Eversmile cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia dalam informasi yang kami periksa. Hubungi lokasi pilihan Anda untuk menanyakan perkiraan biaya sesuai perawatan yang dibutuhkan.",
+        "en": "An official price list was not available in the information we reviewed. Contact your preferred location for an estimate based on the care you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah Eversmile menerima asuransi Chubb?",
+        "en": "Does Eversmile accept Chubb dental coverage?"
+      },
+      "a": {
+        "id": "Eversmile tercantum dalam daftar provider dental Chubb. Tanyakan kepada klinik dan penyedia asuransi tentang status kerja sama serta cakupan manfaat polis Anda.",
+        "en": "Eversmile appears on a Chubb dental provider list. Check with the clinic and your insurer about current provider status and what your policy covers."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu konsultasi sebelum pasang behel?",
+        "en": "Do I need a consultation before getting braces?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal pemeriksaan awal kepada klinik. Dokter gigi dapat menilai kondisi gigi dan menjelaskan pilihan perawatan yang sesuai.",
+        "en": "Ask the clinic about an initial assessment. A dentist can evaluate your teeth and explain suitable treatment options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak-anak bisa diperiksa di Eversmile?",
+        "en": "Can children have a dental check-up at Eversmile?"
+      },
+      "a": {
+        "id": "Informasi layanan untuk anak belum tersedia dalam riset ini. Hubungi klinik untuk menanyakan ketersediaan pemeriksaan sesuai usia dan kebutuhan anak.",
+        "en": "Information about children’s dental care was not available in our research. Contact the clinic to ask about appointments for your child’s age and needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan? Pilih lokasi, lalu hubungi klinik untuk informasi dan jadwal.",
+    "en": "Have a question about treatment? Choose a location and contact the clinic for details and appointments."
+  },
+  "pesan_wa_default": "Halo, Eversmile. Saya ingin menanyakan jadwal konsultasi dan informasi perawatan di lokasi [Jamika/Ibu Inggit Garnasih]. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat siang, Tim Eversmile. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Eversmile memiliki dua lokasi di Bandung, yaitu Jamika dan Ibu Inggit Garnasih. Kami sudah membuat konsep website tanpa biaya untuk Bapak/Ibu lihat, dengan ide pemilih lokasi: https://maxigrowthstudio.com/eversmile-aesthetic. Silakan dilihat kapan saja; tidak ada kewajiban untuk menindaklanjuti. Terima kasih.",
+    "email_subjek": "Konsep website untuk Eversmile Dental",
+    "email_isi": "Yth. Tim Manajemen Eversmile Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pengunjung melihat informasi dua lokasi Eversmile di Bandung, termasuk alamat dan kontak masing-masing.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/eversmile-aesthetic. Proposal PDF juga saya lampirkan sebagai bahan pertimbangan. Informasi pada konsep ini dapat Bapak/Ibu tinjau dan koreksi sebelum digunakan.\n\nJika ingin berdiskusi, silakan hubungi saya melalui WA 082141004400 atau info@maxigrowthstudio.com. Tidak ada kewajiban untuk melanjutkan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
