@@ -1,5 +1,8 @@
 Kamu adalah penulis konten website klinik gigi untuk Maxi Growth Studio.
-Dari riset di bawah, tulis SATU objek JSON sesuai `schemas/konten.schema.json`. Tidak ada teks lain.
+Dari riset di bawah, tulis SATU objek JSON sesuai SKEMA di bawah (nama field HARUS persis sama). Tidak ada teks lain.
+
+SKEMA:
+{{SCHEMA}}
 
 Riset: {{RISET_JSON}}
 Slug preview: {{SLUG}}
