@@ -1,0 +1,152 @@
+{
+  "id": "N08",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di Smile Dental Studio",
+      "en": "Dental care at Smile Dental Studio"
+    },
+    "sub": {
+      "id": "Temukan informasi layanan dan lokasi Antapani, Bojongsoang, atau Cinunuk. Hubungi klinik untuk memastikan jadwal dan membuat janji.",
+      "en": "Explore services and locations in Antapani, Bojongsoang, and Cinunuk. Contact the clinic to confirm hours and arrange a visit."
+    },
+    "cta": {
+      "id": "Tanya jadwal lewat WhatsApp",
+      "en": "Ask about availability on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi rutin",
+        "en": "Routine dental checkups"
+      },
+      "ringkas": {
+        "id": "Periksa kondisi gigi dan gusi, lalu diskusikan langkah perawatan yang sesuai.",
+        "en": "Have your teeth and gums checked, then discuss suitable next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tindakan untuk membersihkan karang gigi. Tanyakan kebutuhan perawatan saat pemeriksaan.",
+        "en": "A treatment to remove tartar. Ask about your needs during a checkup."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi yang berlubang atau rusak, sesuai hasil pemeriksaan.",
+        "en": "Care for a tooth with a cavity or damage, depending on the examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi terlebih dahulu sebelum membahas pilihan tindakan.",
+        "en": "A dentist assesses the tooth before discussing whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan ortodontik",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan perawatan untuk susunan gigi, termasuk behel.",
+        "en": "Discuss options for tooth alignment, including braces."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi anak sesuai kebutuhan yang ditemukan dokter.",
+        "en": "Dental checkups and care based on your child’s needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi yang ingin dikunjungi",
+      "en": "Choose the location you plan to visit"
+    },
+    "penjelasan": {
+      "id": "Lihat alamat dan petunjuk arah Antapani, Bojongsoang, atau Cinunuk. Tombol WhatsApp menyiapkan pesan dengan nama lokasi pilihan Anda. Alamat dan jam praktik ditampilkan setelah dikonfirmasi oleh klinik.",
+      "en": "Find addresses and directions for Antapani, Bojongsoang, or Cinunuk. The WhatsApp button prepares a message with your chosen location. Addresses and hours will be shown once confirmed by the clinic."
+    },
+    "alasan_dipilih": "Linktree klinik menautkan tiga lokasi dan WhatsApp, tetapi belum menampilkan jam praktik masing-masing lokasi. Pemilih lokasi membantu pasien menyampaikan cabang tujuan tanpa menganggap data direktori pihak ketiga sudah terkonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Jam praktiknya kapan?",
+        "en": "What are your opening hours?"
+      },
+      "a": {
+        "id": "Direktori pihak ketiga mencantumkan pukul 09.00–20.00 WIB setiap hari untuk ketiga lokasi. Silakan konfirmasi jam praktik lokasi tujuan melalui WhatsApp sebelum berkunjung.",
+        "en": "Third-party directories list 9 am–8 pm WIB daily for all three locations. Please confirm the hours for your chosen location on WhatsApp before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia dalam informasi yang kami temukan. Hubungi klinik untuk menanyakan perkiraan biaya sesuai perawatan yang dibutuhkan.",
+        "en": "We could not find an official price list. Contact the clinic to ask about costs for the care you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia asuransi Anda saat menghubungi klinik untuk menanyakan ketentuannya.",
+        "en": "Insurance information is not currently available. When contacting the clinic, mention your provider and ask about coverage."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Do you offer braces?"
+      },
+      "a": {
+        "id": "Perawatan ortodontik tercantum dalam layanan. Tanyakan pilihan behel dan jadwal konsultasi kepada klinik; rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "Orthodontic care is listed among the services. Ask the clinic about braces and consultation times; a treatment plan follows an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa diperiksa di sini?",
+        "en": "Can my child have a dental checkup here?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum dalam layanan. Hubungi klinik untuk menanyakan jadwal yang tersedia dan menyampaikan kebutuhan anak Anda.",
+        "en": "Children’s dental care is listed among the services. Contact the clinic about availability and your child’s needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan atau jadwal? Hubungi Smile Dental Studio lewat WhatsApp.",
+    "en": "Questions about treatment or availability? Message Smile Dental Studio on WhatsApp."
+  },
+  "pesan_wa_default": "Halo Smile Dental Studio, saya ingin bertanya tentang jadwal dan layanan di lokasi [Antapani/Bojongsoang/Cinunuk]. Apakah bisa dibantu? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Smile Dental Studio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Linktree klinik menautkan lokasi Antapani, Bojongsoang, dan Cinunuk. Kami sudah membuat konsep website untuk Bapak/Ibu tinjau tanpa biaya di https://maxigrowthstudio.com/smile-studio. Jika berkenan, saya terbuka untuk masukan dan konfirmasi informasi lokasi. Terima kasih.",
+    "email_subjek": "Konsep website Smile Dental Studio",
+    "email_isi": "Yth. Bapak/Ibu pengelola Smile Dental Studio,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Linktree klinik menautkan tiga lokasi: Antapani, Bojongsoang, dan Cinunuk. Kami menyiapkan konsep website agar pengunjung dapat melihat informasi layanan dan memilih lokasi sebelum menghubungi klinik.\n\nKonsepnya dapat ditinjau tanpa biaya di https://maxigrowthstudio.com/smile-studio. Proposal PDF terlampir. Sebelum informasi dipublikasikan, kami ingin meminta konfirmasi alamat dan jam praktik tiap lokasi.\n\nJika Bapak/Ibu berkenan memberi masukan, saya dapat dihubungi melalui WhatsApp 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

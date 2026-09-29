@@ -1,0 +1,55 @@
+{
+  "id": "N08",
+  "diperiksa": 21,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/smile_dental.studio/",
+      "di_sumber": "Linktree tidak menampilkan tautan Instagram tersebut.",
+      "src": "https://linktr.ee/Smile_dental.studio",
+      "catatan": "URL Instagram yang dicatat tidak dapat diverifikasi dari src. ([linktr.ee](https://linktr.ee/Smile_dental.studio))"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628995242631",
+      "di_sumber": "Tautan berlabel «Whatsapp CS Smile Dental Studio»; nomor tidak tertulis pada halaman yang terbaca.",
+      "src": "https://linktr.ee/Smile_dental.studio",
+      "catatan": "Nomor WA tidak dapat diverifikasi dari src; ini bukan bukti bahwa nomornya salah. ([linktr.ee](https://linktr.ee/Smile_dental.studio))"
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "628995242631",
+      "di_sumber": "Tautan berlabel «Whatsapp CS Smile Dental Studio»; nomor tidak tertulis pada halaman yang terbaca.",
+      "src": "https://linktr.ee/Smile_dental.studio",
+      "catatan": "Nomor WA tidak dapat diverifikasi dari src. ([linktr.ee](https://linktr.ee/Smile_dental.studio))"
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "628995242631",
+      "di_sumber": "Tautan berlabel «Whatsapp CS Smile Dental Studio»; nomor tidak tertulis pada halaman yang terbaca.",
+      "src": "https://linktr.ee/Smile_dental.studio",
+      "catatan": "Nomor WA tidak dapat diverifikasi dari src. ([linktr.ee](https://linktr.ee/Smile_dental.studio))"
+    },
+    {
+      "path": "cabang[1].alamat",
+      "tercatat": "Jl. Raya Bojongsoang No.131B, Bojongsoang, Kabupaten Bandung, Jawa Barat 40278",
+      "di_sumber": "PDF menyebut «Jl. Raya Bojongsoang No.131B», tanpa rincian alamat selebihnya. Halaman Waze yang juga tercantum dalam riset menyebut No.79.",
+      "src": "https://openlibrary.telkomuniversity.ac.id/pustaka/files/210404/jurnal_eproc/perancangan-sistem-informasi-pencatatan-data-rekam-medis-pasien-berbasis-website-dengan-menggunakan-metode-waterfall-studi-kasus-pada-klinik-smile-dental-studio-dalam-bentuk-buku-karya-ilmiah.pdf",
+      "catatan": "Nomor 131B didukung src PDF, tetapi alamat lengkap tidak tertulis di sana; terdapat pertentangan nomor jalan dengan Waze. ([openlibrary.telkomuniversity.ac.id](https://openlibrary.telkomuniversity.ac.id/pustaka/files/210404/jurnal_eproc/perancangan-sistem-informasi-pencatatan-data-rekam-medis-pasien-berbasis-website-dengan-menggunakan-metode-waterfall-studi-kasus-pada-klinik-smile-dental-studio-dalam-bentuk-buku-karya-ilmiah.pdf))"
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": "Implan gigi: Rp12.000.000–Rp24.630.000",
+      "di_sumber": "Halaman Alodokter yang terbaca menyebut kisaran umum rumah sakit swasta di Indonesia mulai Rp5.000.000 hingga lebih dari Rp25.000.000 per implan, bukan kedua angka yang dicatat.",
+      "src": "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung",
+      "catatan": "Src ini tidak mendukung batas harga persis yang dicatat; src pembanding lainnya tidak berhasil dibuka. ([alodokter.com](https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/smile_dental.studio/",
+    "https://tamidentalcare.com/harga/",
+    "https://www.edental.id/",
+    "https://passiondentalcare.com/artikel/harga-behel-gigi/"
+  ],
+  "kritis_ok": false
+}
