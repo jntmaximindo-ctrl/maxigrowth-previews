@@ -1,86 +1,86 @@
-# Setiap Codex push ke branch codex/* → cek otomatis hasilnya (tanpa AI).
-# Lulus → merge ke main, update status, lanjut ke tahap berikutnya.
-# Gagal → minta Codex memperbaiki (maks 2x), lalu label "butuh-claude".
+# Pemeriksa hasil Codex — berjalan TERJADWAL (tiap 15 menit), bukan dipicu PR,
+# sehingga tidak pernah butuh tombol "Approve workflows to run".
+# Untuk setiap PR terbuka dari branch codex/*: cek otomatis (tanpa AI).
+#   Lulus → merge ke main, update status, lanjut tahap berikutnya.
+#   Gagal → minta Codex perbaiki (maks 2x), lalu label "butuh-claude".
+# Setiap commit (SHA) hanya diperiksa sekali.
 name: codex-check
 on:
-  pull_request: { types: [opened, synchronize, reopened, ready_for_review] }
+  schedule: [{ cron: "*/15 * * * *" }]
+  workflow_dispatch:
 permissions: { contents: write, pull-requests: write, issues: write, actions: write }
-concurrency: { group: "codex-check-${{ github.event.pull_request.number }}", cancel-in-progress: true }
+concurrency: codex-check
 jobs:
-  check:
-    if: startsWith(github.head_ref, 'codex/')
+  scan:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with: { ref: "${{ github.head_ref }}", fetch-depth: 0 }
+        with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install jsonschema
-      - name: Tentukan job & tahap dari file yang berubah
-        id: s
-        run: |
-          git diff --name-only origin/main...HEAD > changed.txt; cat changed.txt
-          python scripts/codex_check.py detect changed.txt >> $GITHUB_OUTPUT
-      - name: Cek hasil
-        id: c
-        if: steps.s.outputs.stage != 'none'
-        run: |
-          set +e; python scripts/codex_check.py check "${{ steps.s.outputs.dir }}" "${{ steps.s.outputs.stage }}" > check.out 2>&1; code=$?; set -e
-          cat check.out
-          echo "ok=$([ $code -eq 0 ] && echo ya || echo tidak)" >> $GITHUB_OUTPUT
-      - name: Gagal → minta Codex perbaiki (maks 2x)
-        if: steps.c.outputs.ok == 'tidak'
+      - name: Periksa semua PR Codex yang terbuka
         env:
           GH_TOKEN: ${{ github.token }}
-          PAT: ${{ steps.s.outputs.stage == 'cekfakta' && secrets.CODEX_PAT_B || secrets.CODEX_PAT_A }}
-          PR: ${{ github.event.pull_request.number }}
+          PAT_A: ${{ secrets.CODEX_PAT_A }}
+          PAT_B: ${{ secrets.CODEX_PAT_B }}
+          REPO: ${{ github.repository }}
         run: |
-          n=$(gh pr view $PR --json comments -q '[.comments[].body | select(contains("<!-- codex-check -->"))] | length')
-          if [ "$n" -ge 2 ]; then
-            gh label create butuh-claude --color d93f0b 2>/dev/null || true
-            gh pr edit $PR --add-label butuh-claude
-            gh pr comment $PR --body "Sudah 2x diperbaiki Codex tapi masih gagal. Menunggu review Claude.
-          \`\`\`
-          $(tail -40 check.out)
-          \`\`\`"
-            exit 0
-          fi
-          GH_TOKEN=$PAT gh pr comment $PR --body "<!-- codex-check -->
-          @codex Cek otomatis GAGAL. Perbaiki file di \`${{ steps.s.outputs.dir }}\` lalu push ke branch ini. Jangan menambah fakta tanpa sumber.
-          \`\`\`
-          $(tail -40 check.out)
-          \`\`\`"
-      - name: Lulus → merge + lanjut tahap berikutnya
-        if: steps.c.outputs.ok == 'ya'
-        env:
-          GH_TOKEN: ${{ secrets.CODEX_PAT_A }}   # pakai PAT agar push ke main memicu sync-drive
-          PR: ${{ github.event.pull_request.number }}
-          DIR: ${{ steps.s.outputs.dir }}
-          STAGE: ${{ steps.s.outputs.stage }}
-        run: |
-          JOB=${DIR#batches/}; SLUG=$(echo "$JOB" | tr '/' '-')
-          gh pr ready $PR 2>/dev/null || true
-          gh pr merge $PR --squash --delete-branch
-          # tutup PR surat-tugas lama bila Codex membuat PR terpisah
-          for p in $(gh pr list --state open --json number,headRefName -q ".[] | select(.headRefName==\"codex/$STAGE-$SLUG\") | .number"); do
-            gh pr close $p --comment "Selesai lewat PR #$PR." --delete-branch || true
-          done
-          git fetch origin main && git checkout -B main origin/main
-          python scripts/codex_check.py finish "$DIR" "$STAGE"
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
-          git add "$DIR" && git commit -m "codex-check: $JOB $STAGE lulus" || true
-          for i in 1 2 3; do git pull --rebase origin main && git push origin main && break; sleep 5; done
-          ISSUE=$(gh issue list --state open --limit 200 --json number,title -q ".[] | select(.title | startswith(\"[$JOB]\")) | .number" | head -1)
-          if [ "$STAGE" = "rakit" ]; then
-            [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue comment $ISSUE --body "Preview dirakit Codex & lulus cek otomatis → **Siap review**. File: \`$DIR/site/index.html\`" || true
-            [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue edit $ISSUE --remove-label siap-rakit --add-label siap-review || true
-          elif [ "$STAGE" = "riset" ]; then
-            [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue comment $ISSUE --body "Riset + konten (Codex GPT-A) lulus cek otomatis. Lanjut cek fakta (Codex GPT-B)."
-            GH_TOKEN=${{ github.token }} gh workflow run codex-dispatch.yml -f job="$JOB" -f tugas=cekfakta -f issue="$ISSUE"
-          else
-            if [ -n "$ISSUE" ]; then
-              GH_TOKEN=${{ github.token }} gh issue comment $ISSUE --body "Cek fakta (Codex GPT-B) selesai. Status: **$(python -c "import json;print(json.load(open('$DIR/status.json'))['status'])")**"
-              GH_TOKEN=${{ github.token }} gh issue edit $ISSUE --remove-label riset --add-label siap-rakit || true
+          cp -r scripts /tmp/scripts-main     # pakai skrip pengecek versi main, bukan versi di branch PR
+          gh pr list --state open --limit 50 --json number,headRefName,headRefOid \
+            -q '.[] | select(.headRefName | startswith("codex/")) | "\(.number) \(.headRefName) \(.headRefOid)"' > prs.txt
+          cat prs.txt
+          while read -r PR BR SHA; do
+            [ -z "$PR" ] && continue
+            echo "::group::PR #$PR ($BR @ ${SHA:0:7})"
+            if gh pr view $PR --json comments -q '.comments[].body' | grep -q "codex-check sha=$SHA"; then
+              echo "commit ini sudah diperiksa, lewati"; echo "::endgroup::"; continue
             fi
-          fi
+            git fetch -q origin "$BR" && git checkout -q -f "origin/$BR"
+            git diff --name-only origin/main...HEAD > changed.txt
+            eval "$(python /tmp/scripts-main/codex_check.py detect changed.txt | sed 's/^/S_/')"
+            if [ "$S_stage" = "none" ]; then echo "belum ada hasil Codex"; git checkout -q -f origin/main; echo "::endgroup::"; continue; fi
+            cp -r /tmp/scripts-main/. scripts/
+            set +e; python scripts/codex_check.py check "$S_dir" "$S_stage" > check.out 2>&1; code=$?; set -e
+            cat check.out
+            PAT=$PAT_A; [ "$S_stage" = "cekfakta" ] && [ -n "$PAT_B" ] && PAT=$PAT_B
+            JOB=${S_dir#batches/}
+            if [ $code -ne 0 ]; then
+              n=$(gh pr view $PR --json comments -q '[.comments[].body | select(contains("codex-check sha="))] | length')
+              if [ "$n" -ge 2 ]; then
+                gh label create butuh-claude --color d93f0b 2>/dev/null || true
+                gh pr edit $PR --add-label butuh-claude
+                gh pr comment $PR --body "<!-- codex-check sha=$SHA -->
+          Sudah 2x diperbaiki Codex tapi masih gagal. Menunggu review Claude.
+          \`\`\`
+          $(tail -40 check.out)
+          \`\`\`"
+              else
+                GH_TOKEN=$PAT gh pr comment $PR --body "<!-- codex-check sha=$SHA -->
+          @codex Cek otomatis GAGAL. Perbaiki file di \`$S_dir\`, jalankan \`python scripts/codex_check.py check $S_dir $S_stage\` sampai LULUS, lalu commit dan \`git push origin HEAD:$BR\`.
+          \`\`\`
+          $(tail -40 check.out)
+          \`\`\`"
+              fi
+            else
+              gh pr comment $PR --body "<!-- codex-check sha=$SHA --> Cek otomatis LULUS — merge."
+              gh pr ready $PR 2>/dev/null || true
+              GH_TOKEN=$PAT_A gh pr merge $PR --squash --delete-branch
+              git fetch -q origin main && git checkout -q -B main origin/main
+              cp -r /tmp/scripts-main/. scripts/
+              python scripts/codex_check.py finish "$S_dir" "$S_stage"
+              git add "$S_dir" && git commit -q -m "codex-check: $JOB $S_stage lulus" || true
+              git remote set-url origin "https://x-access-token:${PAT_A}@github.com/${REPO}.git"
+              for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
+              git remote set-url origin "https://github.com/${REPO}.git"
+              ISSUE=$(gh issue list --state open --limit 200 --json number,title -q ".[] | select(.title | startswith(\"[$JOB]\")) | .number" | head -1)
+              case "$S_stage" in
+                riset)    gh workflow run codex-dispatch.yml -f job="$JOB" -f tugas=cekfakta -f issue="$ISSUE" ;;
+                cekfakta) [ -n "$ISSUE" ] && gh issue edit $ISSUE --remove-label riset --add-label siap-rakit || true ;;
+                rakit)    [ -n "$ISSUE" ] && { gh issue comment $ISSUE --body "Preview dirakit Codex & lulus cek otomatis → **Siap review**: \`$S_dir/site/index.html\`"; gh issue edit $ISSUE --remove-label siap-rakit --add-label siap-review || true; } ;;
+              esac
+            fi
+            git checkout -q -f origin/main 2>/dev/null || git checkout -q -f main
+            echo "::endgroup::"
+          done < prs.txt
