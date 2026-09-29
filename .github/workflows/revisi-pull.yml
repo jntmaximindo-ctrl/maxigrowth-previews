@@ -1,0 +1,55 @@
+# Tiap 15 menit: ambil permintaan revisi yang ditulis Claude (dari chat pemilik) di Drive
+# "07 Klinik-Bus/04 Revisi" (nama file: Bxx-Wyy_revisi*.txt) → simpan ke batches/Bxx/Wyy/revisi/
+# → serahkan ke Codex (codex-dispatch tugas=revisi) → hasil dicek & di-merge oleh codex-check.
+name: revisi-pull
+on:
+  schedule: [{ cron: "7,22,37,52 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write, actions: write }
+concurrency: revisi-pull
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+      - name: Konfigurasi rclone
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: python3 scripts/bus.py rclone-conf
+      - name: Ambil permintaan revisi
+        id: r
+        run: |
+          mkdir -p /tmp/rev
+          rclone copy "bus:04 Revisi (dari chat Claude)" /tmp/rev --include "B*-W*_revisi*" --drive-export-formats txt -v || true
+          ls -la /tmp/rev
+          TS=$(date -u +%Y%m%d-%H%M)
+          : > /tmp/jobs.txt
+          for f in /tmp/rev/*; do
+            [ -f "$f" ] || continue
+            name=$(basename "$f"); key=${name%%_revisi*}; B=${key%%-*}; W=${key#*-}
+            d="batches/$B/$W"
+            if [ ! -f "$d/job.json" ]; then echo "job tidak ada: $d"; continue; fi
+            mkdir -p "$d/revisi"; cp "$f" "$d/revisi/$TS.md"
+            echo "$B/$W" >> /tmp/jobs.txt
+            echo "$name" >> /tmp/done.txt
+          done
+          sort -u /tmp/jobs.txt -o /tmp/jobs.txt; cat /tmp/jobs.txt
+      - name: Commit + serahkan ke Codex
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          [ -s /tmp/jobs.txt ] || exit 0
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches && git commit -m "revisi dari pemilik: $(tr '\n' ' ' < /tmp/jobs.txt)"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          while read -r job; do gh workflow run codex-dispatch.yml -f job="$job" -f tugas=revisi; sleep 5; done < /tmp/jobs.txt
+      - name: Arsipkan file revisi di Drive
+        run: |
+          [ -f /tmp/done.txt ] || exit 0
+          TS=$(date -u +%Y%m%d-%H%M)
+          while read -r name; do
+            rclone lsf "bus:04 Revisi (dari chat Claude)" --drive-export-formats txt --include "${name%.txt}*" | while read -r f; do
+              rclone moveto "bus:04 Revisi (dari chat Claude)/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
+            done
+          done < /tmp/done.txt
