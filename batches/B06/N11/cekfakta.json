@@ -1,0 +1,87 @@
+{
+  "id": "N11",
+  "diperiksa": 21,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://instagram.com/enadentalaesthetic",
+      "di_sumber": "Tautan berlabel «instagram»; URL lengkapnya tidak tertulis pada teks halaman yang dapat diperiksa.",
+      "src": "https://msha.ke/enadentalaesthetic/",
+      "catatan": "Nilai URL belum dapat dipastikan dari halaman src ini. ([msha.ke](https://msha.ke/enadentalaesthetic/))"
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6287769187715",
+      "di_sumber": "Tautan berlabel «Whatsapp Cijerah Bandung»; nomor tidak tertulis pada teks halaman yang dapat diperiksa.",
+      "src": "https://msha.ke/enadentalaesthetic/",
+      "catatan": "Tujuan tautan tidak berhasil dibuka, sehingga nomor tersebut belum terverifikasi dari src. ([msha.ke](https://msha.ke/enadentalaesthetic/))"
+    },
+    {
+      "path": "cabang[1].wa.v",
+      "tercatat": "6281223238778",
+      "di_sumber": "Tautan berlabel «whatsapp Cimahi»; nomor tidak tertulis pada teks halaman yang dapat diperiksa.",
+      "src": "https://msha.ke/enadentalaesthetic/",
+      "catatan": "Tujuan tautan tidak berhasil dibuka. Nomor yang setara tercantum di idalamat, tetapi itu bukan src untuk nilai WA ini. ([msha.ke](https://msha.ke/enadentalaesthetic/))"
+    },
+    {
+      "path": "cabang[2].jam.v",
+      "tercatat": "Senin–Sabtu 07.00–12.00, 13.00–20.00; Minggu 10.00–17.00",
+      "di_sumber": "Senin–Kamis dan Sabtu 08.00–12.00, 15.30–20.00; Jumat 08.00–11.30, 15.30–20.00; Minggu 10.00–17.00",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-ena-dental-care-0852-7702-2231",
+      "catatan": "Jam Senin–Sabtu yang tercatat berbeda dari halaman src; jam Minggu cocok. ([semuabis.com](https://www.semuabis.com/praktek-dokter-gigi-ena-dental-care-0852-7702-2231?utm_source=openai))"
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": "Scaling: Rp232.000–Rp600.000",
+      "di_sumber": "Salah satu src mencantumkan Rp232.000–Rp464.000; DokterTanya mencantumkan Rp400.000–Rp575.000 untuk scaling.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+      "catatan": "Kisaran Rp232.000–Rp600.000 tidak tertulis sebagai satu nilai pada src yang diperiksa; batas atas Rp600.000 tidak terverifikasi untuk scaling. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1))"
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": "Tambal gigi komposit: Rp330.000–Rp710.000",
+      "di_sumber": "Src Molars MTC mencantumkan Rp330.000–Rp660.000; src Apotek Ranca Farma mencantumkan Rp355.000–Rp710.000.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1",
+      "catatan": "Kisaran tercatat merupakan gabungan batas dari sumber berbeda, bukan kisaran yang tertulis utuh pada src ini. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-mtc-k-ciha-imp1))"
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": "Cabut gigi dewasa: Rp189.000–Rp750.000",
+      "di_sumber": "Src FDC Kopo mencantumkan cabut gigi dewasa Rp189.000–Rp568.000; DokterTanya mencantumkan pencabutan Rp450.000–Rp750.000 pada daftar klinik lain.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/klinik-gigi-bandung-fdc-kopo-ciha-imp1",
+      "catatan": "Kisaran tercatat tidak tertulis utuh pada satu src. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/klinik-gigi-bandung-fdc-kopo-ciha-imp1))"
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": "Behel metal: Rp5.200.000–Rp10.000.000",
+      "di_sumber": "Src Molars PASKAL mencantumkan bracket metal Rp5.200.000–Rp8.300.000; DokterTanya memuat harga behel pada daftar klinik lain.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-paska-ciha-imp1",
+      "catatan": "Kisaran tercatat tidak tertulis utuh pada src ini. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-paska-ciha-imp1))"
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": "Bleaching: Rp1.400.000–Rp2.600.000",
+      "di_sumber": "Src FDC Kopo mencantumkan Rp1.400.000–Rp2.300.000; src Molars MTC mencantumkan Rp1.600.000–Rp2.600.000.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/klinik-gigi-bandung-fdc-kopo-ciha-imp1",
+      "catatan": "Kisaran tercatat menggabungkan batas dari dua sumber, bukan tertulis utuh pada src ini. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/klinik-gigi-bandung-fdc-kopo-ciha-imp1))"
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": "Veneer porselen per gigi: Rp1.800.000–Rp4.300.000",
+      "di_sumber": "Src Ena mencantumkan Rp1.800.000–Rp3.600.000 per gigi; src Apotek Ranca Farma mencantumkan Rp2.200.000–Rp4.300.000 per gigi.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-ena-dental-ciha-imp1",
+      "catatan": "Kisaran tercatat tidak tertulis utuh pada satu src. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-ena-dental-ciha-imp1))"
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": "Implan gigi: Rp11.000.000–Rp17.900.000",
+      "di_sumber": "Src Molars PASKAL mencantumkan Rp11.000.000–Rp16.600.000; src Apotek Ranca Farma mencantumkan Rp11.900.000–Rp17.900.000.",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-paska-ciha-imp1",
+      "catatan": "Kisaran tercatat menggabungkan batas dari sumber berbeda, bukan tertulis utuh pada src ini. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/molars-dental-aesthetics-paska-ciha-imp1))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://enadentalaesthetic.com/portofolio-ena-dental-aesthetic/"
+  ],
+  "kritis_ok": false
+}

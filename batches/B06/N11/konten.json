@@ -1,0 +1,152 @@
+{
+  "id": "N11",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi sesuai kebutuhan Anda",
+      "en": "Dental care that starts with your needs"
+    },
+    "sub": {
+      "id": "Kenali layanan Ena Dental Aesthetic, lalu hubungi klinik untuk menanyakan jadwal dan pilihan perawatan.",
+      "en": "Explore Ena Dental Aesthetic’s services, then contact the clinic to ask about appointments and treatment options."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan jadwal pemeriksaan sebelum berkunjung.",
+        "en": "Removal of tartar buildup. Ask about an examination before your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi yang berlubang atau rusak. Pilihannya ditentukan setelah pemeriksaan.",
+        "en": "Care for a tooth with a cavity or damage. Treatment options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi dan susunan gigi sebelum memulai perawatan behel.",
+        "en": "Discuss your teeth and alignment before starting braces treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah veneer sesuai dengan kondisi gigi dan kebutuhan Anda.",
+        "en": "Ask whether veneers are suitable for your teeth and what you have in mind."
+      }
+    },
+    {
+      "nama": {
+        "id": "Mahkota gigi",
+        "en": "Dental crowns"
+      },
+      "ringkas": {
+        "id": "Mahkota menutup bagian gigi yang memerlukan perawatan. Dokter perlu memeriksa kondisi gigi terlebih dahulu.",
+        "en": "A crown covers a tooth that needs care. A dentist will need to examine the tooth first."
+      }
+    },
+    {
+      "nama": {
+        "id": "Operasi gigi bungsu",
+        "en": "Wisdom tooth surgery"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan diperlukan untuk menilai kondisi gigi bungsu dan langkah perawatannya.",
+        "en": "An examination helps determine the condition of a wisdom tooth and the appropriate next steps."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan lokasi praktik",
+      "en": "Find a practice location"
+    },
+    "penjelasan": {
+      "id": "Pilih Cijerah atau Cimahi untuk melihat alamat, petunjuk arah, dan cara menghubungi lokasi yang dituju. Konfirmasikan jam praktik sebelum berangkat.",
+      "en": "Choose Cijerah or Cimahi to find the address, directions, and contact details for that location. Please confirm opening hours before you go."
+    },
+    "alasan_dipilih": "Informasi lokasi tersebar di beberapa tautan. Pemilih lokasi membantu pengunjung menemukan cabang yang dituju tanpa menampilkan jam praktik yang belum terkonfirmasi. Hubungan lokasi Tasikmalaya dengan merek perlu dikonfirmasi sebelum lokasi itu ditambahkan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik dapat berbeda menurut lokasi dan hari. Hubungi lokasi yang ingin Anda kunjungi untuk memastikan jam terbaru dan ketersediaan jadwal.",
+        "en": "Hours may vary by location and day. Contact your preferred location to confirm its current hours and appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia dalam informasi yang kami tinjau. Hubungi klinik untuk menanyakan perkiraan biaya sesuai perawatan dan kondisi gigi Anda.",
+        "en": "An official price list was not available in the information we reviewed. Contact the clinic for an estimate based on the treatment and your dental needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia. Tanyakan kepada klinik apakah polis Anda dapat digunakan dan dokumen apa yang perlu dibawa.",
+        "en": "Insurance information is not yet available. Ask the clinic whether your plan can be used and what documents to bring."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa berkonsultasi tentang behel?",
+        "en": "Can I book a consultation about braces?"
+      },
+      "a": {
+        "id": "Behel tercantum sebagai layanan. Hubungi klinik untuk menanyakan jadwal konsultasi. Pilihan perawatan dibahas setelah pemeriksaan.",
+        "en": "Braces are listed among the services. Contact the clinic to ask about a consultation. Treatment options can be discussed after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi untuk anak?",
+        "en": "Is dental care for children available?"
+      },
+      "a": {
+        "id": "Informasi layanan khusus anak belum tersedia. Sebutkan usia anak dan keluhannya saat menghubungi klinik agar tim dapat menjelaskan ketersediaan layanan.",
+        "en": "Information about children’s dental services is not yet available. Share your child’s age and concern when contacting the clinic so the team can advise on availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Ada pertanyaan tentang perawatan atau jadwal? Hubungi lokasi yang ingin Anda kunjungi.",
+    "en": "Questions about treatment or appointments? Contact the location you’d like to visit."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di Ena Dental Aesthetic. Lokasi yang saya tuju: [Cijerah/Cimahi]. Keluhan atau perawatan yang ingin ditanyakan: [isi]. Mohon informasi jadwal yang tersedia dan perkiraan biayanya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Ena Dental Aesthetic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat situs klinik mencantumkan layanan operasi gigi bungsu. Kami sudah menyiapkan konsep website yang dapat Bapak/Ibu lihat tanpa biaya di https://maxigrowthstudio.com/ena-aesthetic. Jika berkenan, saya terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Ena Dental Aesthetic",
+    "email_isi": "Yth. Bapak/Ibu pengelola Ena Dental Aesthetic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat situs klinik mencantumkan layanan operasi gigi bungsu. Kami telah menyiapkan konsep website yang menyajikan layanan dan membantu pengunjung menemukan informasi lokasi praktik.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/ena-aesthetic. Proposal PDF juga saya lampirkan untuk bahan pertimbangan. Informasi lokasi, kontak, dan jam praktik dalam konsep ini tentu perlu dikonfirmasi bersama tim klinik sebelum digunakan.\n\nJika Bapak/Ibu ingin memberi masukan, silakan balas email ini atau hubungi saya melalui WhatsApp di 082141004400.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com"
+  }
+}
