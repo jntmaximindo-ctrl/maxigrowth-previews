@@ -1,0 +1,152 @@
+{
+  "id": "W25",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi Anak dan Keluarga di Bandung",
+      "en": "Dental Care for Children and Families in Bandung"
+    },
+    "sub": {
+      "id": "Kidz Dental Care & Orthodontic Clinic Bandung melayani kebutuhan gigi anak dan dewasa di Antapani. Tanyakan jadwal dokter dan pilihan perawatan kepada admin.",
+      "en": "Kidz Dental Care & Orthodontic Clinic Bandung welcomes children and adults in Antapani. Ask the team about doctor availability and treatment options."
+    },
+    "cta": {
+      "id": "Tanya jadwal melalui WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi Bayi",
+        "en": "Infant Dental Checkups"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kesehatan gigi bayi dan kebiasaan merawatnya sejak dini.",
+        "en": "Talk with a dentist about your baby’s teeth and early dental care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Pilihan layanan mencakup tambal gigi, pencabutan gigi susu, fluoride, dan pelapis celah gigi.",
+        "en": "Services include fillings, baby tooth extraction, fluoride, and protective coatings for tooth grooves."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Anak Berkebutuhan Khusus",
+        "en": "Dental Care for Children with Special Needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan anak kepada admin agar kunjungan dapat direncanakan bersama tim klinik.",
+        "en": "Share your child’s needs with the team so you can plan the visit together."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tersedia pembersihan karang gigi untuk anak dan scaling untuk dewasa, sesuai pemeriksaan dokter.",
+        "en": "Cleaning is available for children and adults, subject to a dentist’s assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti dan Kawat Gigi",
+        "en": "Orthodontics and Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi dan pilihan perawatan kawat gigi dengan dokter.",
+        "en": "Discuss tooth alignment and braces options with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Dewasa",
+        "en": "Adult Dental Care"
+      },
+      "ringkas": {
+        "id": "Layanan yang tercantum meliputi tambal gigi, bleaching, veneer, dan implan gigi. Kesesuaian tindakan ditentukan melalui konsultasi.",
+        "en": "Listed services include fillings, whitening, veneers, and dental implants. A consultation can help determine which treatment is suitable."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Cari Jadwal Dokter Bandung",
+      "en": "Explore Bandung Doctor Schedules"
+    },
+    "penjelasan": {
+      "id": "Konsep pencarian jadwal berdasarkan hari, dokter gigi anak atau ortodonti, dan kebutuhan perawatan anak. Pilihan jadwal tetap perlu dikonfirmasi kepada admin.",
+      "en": "A proposed schedule finder lets visitors browse by day, pediatric dentistry or orthodontics, and children’s care needs. Please confirm availability with the team."
+    },
+    "alasan_dipilih": "Cabang Bandung mencantumkan dokter bergelar Sp.KGA dan Sp.Ort. dengan jadwal pada beberapa hari, termasuk Minggu. Pencarian terarah dapat membantu pasien memilih waktu untuk ditanyakan kepada admin."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik cabang Bandung buka?",
+        "en": "What are the Bandung clinic’s opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional cabang belum terkonfirmasi. Hubungi admin untuk memastikan jam buka dan ketersediaan dokter sebelum datang.",
+        "en": "The branch’s opening hours have not been confirmed. Please contact the team to check hours and doctor availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada jenis perawatan dan kebutuhan pasien. Tanyakan perkiraan biaya kepada admin; dokter dapat menjelaskan tindakan yang sesuai setelah pemeriksaan.",
+        "en": "Costs depend on the treatment and your needs. Ask the team for an estimate; a dentist can discuss suitable care after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terkonfirmasi. Sebutkan penyedia asuransi Anda saat menghubungi admin untuk menanyakan ketentuannya.",
+        "en": "Insurance arrangements have not been confirmed. Tell the team your insurance provider when asking about coverage."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa konsultasi kawat gigi?",
+        "en": "Can I book a braces consultation?"
+      },
+      "a": {
+        "id": "Cabang Bandung mencantumkan layanan ortodonti dan dokter bergelar Sp.Ort. Hubungi admin untuk memastikan jadwal konsultasi yang tersedia.",
+        "en": "The Bandung branch lists orthodontic care and an orthodontic specialist. Contact the team to check consultation availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak berkebutuhan khusus bisa diperiksa?",
+        "en": "Can a child with special needs have a dental visit?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak berkebutuhan khusus tercantum dalam layanan klinik. Ceritakan kebutuhan anak kepada admin sebelum membuat janji agar kunjungan dapat direncanakan.",
+        "en": "The clinic lists dental care for children with special needs. Share your child’s needs with the team before booking so the visit can be planned."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk merencanakan kunjungan",
+    "en": "Contact the team to plan your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal dokter dan layanan di Kidz Dental cabang Bandung. Apakah ada waktu konsultasi yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu Manajemen Kidz Dental Bandung. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat cabang Bandung mencantumkan jadwal dokter gigi anak dan ortodonti. Kami sudah menyiapkan konsep website yang dapat Bapak/Ibu lihat di https://maxigrowthstudio.com/kidz-bandung. Jika berkenan, saya siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website Kidz Dental Bandung",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Kidz Dental Bandung,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat cabang Bandung mencantumkan dokter gigi anak dan ortodonti dengan jadwal praktik yang berbeda. Kami menyiapkan konsep website yang membantu pengunjung menemukan informasi layanan dan menanyakan ketersediaan jadwal kepada admin.\n\nKonsepnya dapat dilihat di https://maxigrowthstudio.com/kidz-bandung. Proposal PDF juga saya lampirkan untuk Bapak/Ibu tinjau. Kontennya masih berupa konsep dan memerlukan konfirmasi klinik sebelum digunakan.\n\nJika ada masukan, saya dapat dihubungi melalui WA 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

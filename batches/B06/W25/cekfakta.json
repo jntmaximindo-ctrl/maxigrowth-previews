@@ -1,0 +1,24 @@
+{
+  "id": "W25",
+  "diperiksa": 30,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281330299191",
+      "di_sumber": "081330299191",
+      "src": "https://doktertanya.com/dokter-gigi-anak-bandung/",
+      "catatan": "Angka yang tercatat tidak tertulis persis di halaman. Ini perbedaan format kode negara dan awalan 0, bukan perbedaan nomor tujuan. ([doktertanya.com](https://doktertanya.com/dokter-gigi-anak-bandung/))"
+    },
+    {
+      "path": "harga[6].perawatan",
+      "tercatat": "Kisaran jaringan klinik lain yang memiliki cabang Bandung",
+      "di_sumber": "URL cabang Bandung mengalihkan ke daftar tujuh cabang aktif; Bandung tidak tercantum.",
+      "src": "https://www.odac-corp.com/cabang/odac-family-signature-bandung",
+      "catatan": "Kisaran harga implan tertulis di URL daftar harga, tetapi klaim bahwa jaringan tersebut memiliki cabang Bandung tidak didukung halaman cabang yang terbuka. ([odac-corp.com](https://www.odac-corp.com/cabang/odac-family-signature-bandung))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://kidzdental.co.id/location/kidz-dental-bandung/"
+  ],
+  "kritis_ok": false
+}
