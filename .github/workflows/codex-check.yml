@@ -72,7 +72,10 @@ jobs:
           git add "$DIR" && git commit -m "codex-check: $JOB $STAGE lulus" || true
           for i in 1 2 3; do git pull --rebase origin main && git push origin main && break; sleep 5; done
           ISSUE=$(gh issue list --state open --limit 200 --json number,title -q ".[] | select(.title | startswith(\"[$JOB]\")) | .number" | head -1)
-          if [ "$STAGE" = "riset" ]; then
+          if [ "$STAGE" = "rakit" ]; then
+            [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue comment $ISSUE --body "Preview dirakit Codex & lulus cek otomatis → **Siap review**. File: \`$DIR/site/index.html\`" || true
+            [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue edit $ISSUE --remove-label siap-rakit --add-label siap-review || true
+          elif [ "$STAGE" = "riset" ]; then
             [ -n "$ISSUE" ] && GH_TOKEN=${{ github.token }} gh issue comment $ISSUE --body "Riset + konten (Codex GPT-A) lulus cek otomatis. Lanjut cek fakta (Codex GPT-B)."
             GH_TOKEN=${{ github.token }} gh workflow run codex-dispatch.yml -f job="$JOB" -f tugas=cekfakta -f issue="$ISSUE"
           else

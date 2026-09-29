@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       job:   { description: "Path job, mis. B04/W14", required: true }
-      tugas: { description: "riset / cekfakta", required: true, default: "riset" }
+      tugas: { description: "riset / cekfakta / rakit", required: true, default: "riset" }
       issue: { description: "Nomor issue klinik (opsional)", required: false }
 permissions: { contents: write, pull-requests: write, issues: write }
 concurrency: { group: "codex-${{ github.event.inputs.job }}-${{ github.event.inputs.tugas }}" }
@@ -24,7 +24,7 @@ jobs:
           TUGAS: ${{ github.event.inputs.tugas }}
           ISSUE: ${{ github.event.inputs.issue }}
         run: |
-          case "$TUGAS" in riset|cekfakta) ;; *) echo "tugas tidak dikenal: $TUGAS"; exit 1;; esac
+          case "$TUGAS" in riset|cekfakta|rakit) ;; *) echo "tugas tidak dikenal: $TUGAS"; exit 1;; esac
           [ -f "batches/$JOB/job.json" ] || { echo "job tidak ada: batches/$JOB"; exit 1; }
           SLUG=$(echo "$JOB" | tr '/' '-')
           BR="codex/$TUGAS-$SLUG"

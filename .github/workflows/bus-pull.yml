@@ -6,7 +6,7 @@ name: bus-pull
 on:
   schedule: [{ cron: "15 * * * *" }]
   workflow_dispatch:
-permissions: { contents: write }
+permissions: { contents: write, actions: write }
 concurrency: bus-pull
 jobs:
   pull:
@@ -19,6 +19,11 @@ jobs:
       - name: Konfigurasi rclone
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: python3 scripts/bus.py rclone-conf
+      - name: Pindahkan hasil GPT dari root My Drive ke folder bus
+        run: |
+          F="--max-depth 1 --drive-server-side-across-configs -v"
+          rclone move root: "bus:02 Hasil Riset" $F --include "B*-W*_riset.json*" --include "B*-W*_konten.json*" || true
+          rclone move root: "bus:03 Hasil Cek Fakta" $F --include "B*-W*_cekfakta.json*" || true
       - name: Unduh hasil GPT
         run: |
           rclone copy "bus:02 Hasil Riset" /tmp/bus/riset --drive-export-formats txt -v || true
@@ -39,6 +44,8 @@ jobs:
                   done
                 done
               done
+            elif [ "$act" = "RAKIT" ]; then
+              echo "$a" >> /tmp/rakit.txt
             elif [ "$act" = "REVISI" ]; then
               B=${a%%-*}; W=${a#*-}
               { echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "batches/$B/$W/job.json"; echo; cat "$b"; } > /tmp/surat.txt
@@ -51,3 +58,12 @@ jobs:
           git add batches && git diff --cached --quiet && exit 0
           git commit -m "bus-pull: hasil GPT scheduled task"
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Serahkan perakitan ke Codex (RAKIT_ENGINE=codex)
+        if: vars.RAKIT_ENGINE == 'codex'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          [ -f /tmp/rakit.txt ] || exit 0
+          while read -r job; do
+            gh workflow run codex-dispatch.yml -f job="$job" -f tugas=rakit
+            sleep 5
+          done < /tmp/rakit.txt
