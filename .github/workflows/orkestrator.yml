@@ -194,7 +194,7 @@ jobs:
             [ "$JALAN" -ge 5 ] && break
             BR="codex/rakit-$(echo "$job" | tr '/' '-')"
             echo "$OPEN" | grep -qx "$BR" && continue
-            GAGAL=$(gh pr list --state closed --head "$BR" --limit 20 --json mergedAt,createdAt -q '[.[] | select(.mergedAt == null and .createdAt > "2026-09-29T10:00:00Z")] | length')
+            GAGAL=$(gh pr list --state closed --head "$BR" --limit 20 --json mergedAt,createdAt -q '[.[] | select(.mergedAt == null and .createdAt > "2026-09-30T00:00:00Z")] | length')
             if [ "${GAGAL:-0}" -ge 2 ]; then echo "SKIP $job: sudah $GAGAL kali gagal, butuh dicek"; continue; fi
             gh workflow run codex-dispatch.yml -f job="$job" -f tugas=rakit; JALAN=$((JALAN+1)); sleep 3
           done
