@@ -62,8 +62,13 @@ jobs:
         if: vars.RAKIT_ENGINE == 'codex'
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
-          [ -f /tmp/rakit.txt ] || exit 0
-          while read -r job; do
+          # tambah semua klinik "Siap rakit" yang belum dirakit (jalur API maupun bus), maks 5 per jam
+          python3 scripts/bus.py pending-rakit 5 >> /tmp/rakit.txt
+          [ -s /tmp/rakit.txt ] || exit 0
+          OPEN=$(gh pr list --state open --limit 100 --json headRefName -q '.[].headRefName' | grep '^codex/rakit-' || true)
+          sort -u /tmp/rakit.txt | while read -r job; do
+            [ -z "$job" ] && continue
+            echo "$OPEN" | grep -qx "codex/rakit-$(echo "$job" | tr '/' '-')" && { echo "sudah ada PR: $job"; continue; }
             gh workflow run codex-dispatch.yml -f job="$job" -f tugas=rakit
             sleep 5
-          done < /tmp/rakit.txt
+          done
