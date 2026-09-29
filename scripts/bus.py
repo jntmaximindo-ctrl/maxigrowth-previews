@@ -129,6 +129,21 @@ def pull(dir_riset, dir_cek):
     return 0
 
 
+def pending_rakit(limit="5"):
+    """Klinik berstatus 'Siap rakit' yang belum punya site/index.html (dari jalur API maupun bus)."""
+    out = []
+    for st in sorted((ROOT / "batches").glob("B*/*/status.json")):
+        d = st.parent
+        try:
+            s = json.loads(st.read_text()).get("status")
+        except Exception:
+            continue
+        if s == "Siap rakit" and not (d / "site" / "index.html").exists() and (d / "riset.json").exists():
+            out.append(str(d.relative_to(ROOT / "batches")))
+    print("\n".join(out[: int(limit)]))
+    return 0
+
+
 if __name__ == "__main__":
     cmd, *a = sys.argv[1:]
-    sys.exit({"rclone-conf": rclone_conf, "pull": pull}[cmd](*a))
+    sys.exit({"rclone-conf": rclone_conf, "pull": pull, "pending-rakit": pending_rakit}[cmd](*a))
