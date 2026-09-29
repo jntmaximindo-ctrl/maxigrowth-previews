@@ -10,17 +10,21 @@ import json, pathlib, re, subprocess, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 JOB_RE = re.compile(r"^(batches/B\d+/[^/]+)/(riset|konten|cekfakta)\.json$")
 SITE_RE = re.compile(r"^(batches/B\d+/[^/]+)/site/index\.html$")
+CARI_RE = re.compile(r"^(sourcing/[^/]+)/hasil\.json$")
 
 
 def detect(changed_file):
     dirs, files = set(), set()
     for line in pathlib.Path(changed_file).read_text().split():
+        mc = CARI_RE.match(line.strip())
+        if mc:
+            dirs.add(mc.group(1)); files.add("cari"); continue
         m = JOB_RE.match(line.strip()) or SITE_RE.match(line.strip())
         if m:
             dirs.add(m.group(1)); files.add(m.group(2) if m.re is JOB_RE else "site")
     if len(dirs) != 1:
         print("dir="); print("stage=none"); return 0
-    stage = "rakit" if "site" in files else ("cekfakta" if "cekfakta" in files else "riset")
+    stage = "cari" if "cari" in files else "rakit" if "site" in files else ("cekfakta" if "cekfakta" in files else "riset")
     print(f"dir={dirs.pop()}"); print(f"stage={stage}")
     return 0
 
@@ -80,6 +84,24 @@ def check(d, stage):
                 errs.append("cekfakta.json: 'beda' harus list")
             if isinstance(obj.get("diperiksa"), int) and obj["diperiksa"] < 5:
                 errs.append("cekfakta.json: terlalu sedikit fakta diperiksa (<5) — buka ulang semua src di riset.json")
+    elif stage == "cari":
+        obj, e = load(d / "hasil.json")
+        if e:
+            errs.append(e)
+        else:
+            kl = obj.get("klinik")
+            if not isinstance(kl, list):
+                errs.append("hasil.json: 'klinik' harus list")
+            else:
+                if not kl and not obj.get("habis"):
+                    errs.append("hasil.json: daftar klinik kosong padahal habis=false")
+                for i, k in enumerate(kl):
+                    for f_ in ("nama", "url", "rating", "ulasan", "punya_website"):
+                        if f_ not in k:
+                            errs.append(f"klinik[{i}]: field '{f_}' wajib ada (boleh null)")
+                    if k.get("punya_website") and k.get("skor_jadul") is None:
+                        errs.append(f"klinik[{i}] ({k.get('nama')}): punya website tapi skor_jadul kosong — jalankan scripts/skor_jadul.mjs")
+                errs[:] = errs[:25]
     elif stage == "rakit":
         f = d / "site" / "index.html"
         if not f.exists():
@@ -121,6 +143,9 @@ def check(d, stage):
 
 def finish(d, stage, oleh="codex"):
     d = ROOT / d
+    if stage == "cari":
+        print("hasil pencarian diterapkan ke Sheet oleh orkestrator")
+        return 0
     if stage == "rakit":
         import datetime
         job = json.loads((d / "job.json").read_text(encoding="utf-8"))
