@@ -1,0 +1,41 @@
+{
+  "model": "gpt-6-sol",
+  "usage": {
+    "riset": {
+      "input_tokens": 71675,
+      "input_tokens_details": {
+        "cache_write_tokens": 1600,
+        "cached_tokens": 4370
+      },
+      "output_tokens": 4525,
+      "output_tokens_details": {
+        "reasoning_tokens": 2127
+      },
+      "total_tokens": 76200
+    },
+    "cekfakta": {
+      "input_tokens": 54450,
+      "input_tokens_details": {
+        "cache_write_tokens": 2330,
+        "cached_tokens": 4370
+      },
+      "output_tokens": 3129,
+      "output_tokens_details": {
+        "reasoning_tokens": 2241
+      },
+      "total_tokens": 57579
+    },
+    "konten": {
+      "input_tokens": 3115,
+      "input_tokens_details": {
+        "cache_write_tokens": 3112,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2059,
+      "output_tokens_details": {
+        "reasoning_tokens": 248
+      },
+      "total_tokens": 5174
+    }
+  }
+}
