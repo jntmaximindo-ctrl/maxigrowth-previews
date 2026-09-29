@@ -155,6 +155,14 @@ jobs:
           python3 scripts/sourcing.py known
           python3 scripts/sourcing.py mark-diminta "$SLUG"
           echo "$SLUG|$KOTA|$NEGARA" > /tmp/cari.txt
+      - name: 4b · Intake otomatis (maks 20 klinik/hari, hanya bila antrean riset sepi)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          N=$(python3 scripts/auto_intake.py || echo 0)
+          if [ "${N:-0}" -gt 0 ]; then gh workflow run intake.yml -f size="$N"; echo "intake $N klinik"; fi
       - name: 5 · Commit perubahan
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
@@ -207,3 +215,29 @@ jobs:
               rclone moveto "bus:04 Revisi (dari chat Claude)/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
             done
           done < /tmp/done.txt
+      - name: 8 · Deploy preview ke Cloudflare Pages + isi Link preview di Sheet
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+          PROYEK: maxigrowth-previews
+        run: |
+          [ -n "$CLOUDFLARE_API_TOKEN" ] && [ -n "$CLOUDFLARE_ACCOUNT_ID" ] || { echo "secret Cloudflare belum ada — lewati"; exit 0; }
+          git pull -q --rebase origin main || true
+          NEW=$(python3 scripts/deploy_prep.py); OLD=$(cat data/deploy-hash.txt 2>/dev/null || true)
+          API="https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/pages/projects/$PROYEK"
+          if ! curl -sf -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$API" >/dev/null; then
+            npx -y wrangler@4 pages project create "$PROYEK" --production-branch main
+          fi
+          if [ "$NEW" != "$OLD" ]; then
+            npx -y wrangler@4 pages deploy dist --project-name "$PROYEK" --branch main --commit-dirty=true
+            echo "$NEW" > data/deploy-hash.txt
+          else
+            echo "tidak ada preview baru — deploy dilewati"
+          fi
+          SUB=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$API" | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['subdomain'])")
+          PREVIEW_BASE="https://$SUB" python3 scripts/sheet_sync.py links
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/deploy-hash.txt data/preview-links.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -q -m "deploy preview"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
