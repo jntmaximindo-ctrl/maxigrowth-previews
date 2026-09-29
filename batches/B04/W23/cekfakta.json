@@ -1,0 +1,101 @@
+{
+  "id": "W23",
+  "diperiksa": 28,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/astaridentalcare/",
+      "di_sumber": "URL Instagram tidak tercantum pada halaman Linktree yang dapat dibaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Akun Instagram tersebut tidak dapat diverifikasi dari src. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281213305959",
+      "di_sumber": "Tautan «Admin Astari Panghegar» tampil tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Tujuan tautan WhatsApp tidak dapat dibuka; ini kekurangan bukti, bukan nomor lain yang terkonfirmasi. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6281213305959",
+      "di_sumber": "Tautan «Admin Astari Dago» tampil tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Tujuan tautan WhatsApp tidak dapat dibuka. Nomor yang sama tercantum di Waze, tetapi tidak terbaca pada src yang dicatat untuk WA. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "6281213305959",
+      "di_sumber": "Tautan «Admin Astari Cimahi» tampil tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Tujuan tautan WhatsApp tidak dapat dibuka; nomor tersebut tidak terverifikasi dari src. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "cabang[3].wa",
+      "tercatat": "6281213305959",
+      "di_sumber": "Tautan «Admin Astari Kopo» tampil tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Tujuan tautan WhatsApp tidak dapat dibuka; nomor tersebut tidak terverifikasi dari src. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "cabang[4].wa",
+      "tercatat": "6281213305959",
+      "di_sumber": "Tautan «Admin Astari Margacinta» tampil tanpa nomor yang terbaca.",
+      "src": "https://linktr.ee/astaridentalcare",
+      "catatan": "Tujuan tautan WhatsApp tidak dapat dibuka; nomor tersebut tidak terverifikasi dari src. ([linktr.ee](https://linktr.ee/astaridentalcare))"
+    },
+    {
+      "path": "harga[0].min",
+      "tercatat": "229080",
+      "di_sumber": "Rp229.080 tidak ditemukan pada halaman cabut gigi HDmall; halaman DokterTanya mencantumkan scaling Rp600.000.",
+      "src": "https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care; https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Batas bawah tidak tertulis pada kedua src. ([hdmall.id](https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": "368000",
+      "di_sumber": "Halaman HDmall mencantumkan cabut gigi ringan Rp455.400; Rp368.000 tidak ditemukan pada kedua src.",
+      "src": "https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care; https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Batas bawah tidak terdukung. Batas atas Rp750.000 tercantum di DokterTanya. ([hdmall.id](https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[4].min",
+      "tercatat": "1150000",
+      "di_sumber": "Rp1.150.000 muncul pada halaman veneer sebagai harga layanan diastema closure milik penyedia lain, bukan bleaching; DokterTanya mencantumkan bleaching Rp1.600.000.",
+      "src": "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care; https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Nominal batas bawah ada di halaman, tetapi dikaitkan dengan perawatan yang berbeda. ([hdmall.id](https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": "625600",
+      "di_sumber": "Harga veneer direct pada halaman HDmall adalah mulai Rp917.700.",
+      "src": "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+      "catatan": "Rp625.600 tidak ditemukan sebagai harga perawatan tersebut. ([hdmall.id](https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[5].max",
+      "tercatat": "850000",
+      "di_sumber": "Halaman HDmall menampilkan Rp917.700 dan Rp1.050.000 untuk veneer direct, serta menyebut harga tertinggi kondisi terparah Rp2.200.000.",
+      "src": "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+      "catatan": "Rp850.000 tidak tercantum sebagai batas atas perawatan tersebut. ([hdmall.id](https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": "16100000",
+      "di_sumber": "Halaman yang dirujuk membahas veneer direct, bukan harga implan gigi.",
+      "src": "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+      "catatan": "Rp16.100.000 tidak ditemukan pada src. ([hdmall.id](https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care))"
+    },
+    {
+      "path": "harga[6].max",
+      "tercatat": "20160000",
+      "di_sumber": "Halaman yang dirujuk membahas veneer direct, bukan harga implan gigi.",
+      "src": "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+      "catatan": "Rp20.160.000 tidak ditemukan pada src. ([hdmall.id](https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/astaridentalcare/"
+  ],
+  "kritis_ok": false
+}

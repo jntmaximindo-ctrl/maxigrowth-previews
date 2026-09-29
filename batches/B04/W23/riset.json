@@ -1,0 +1,322 @@
+{
+  "id": "W23",
+  "nama": {
+    "v": "Astari Dental Care",
+    "src": "https://astaridentalcare.com/",
+    "tgl": "2026-09-29",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/astaridentalcare/",
+    "src": "https://linktr.ee/astaridentalcare",
+    "tgl": "2026-09-29",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-29",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Panghegar",
+      "alamat": {
+        "v": "Jl. Pamekar Raya No.24A, Mekar Mulya, Kec. Panyileukan, Kota Bandung, Jawa Barat 40614",
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/astari-dental-care-ciha-imp1",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-29",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": "6281213305959",
+        "src": "https://linktr.ee/astaridentalcare",
+        "tgl": "2026-09-29",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-21",
+          "sel": "09-21",
+          "rab": "09-21",
+          "kam": "09-21",
+          "jum": "09-21",
+          "sab": "09-22",
+          "min": "10-21"
+        },
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/astari-dental-care-ciha-imp1",
+        "tgl": "2026-09-29",
+        "yakin": "rendah"
+      }
+    },
+    {
+      "nama": "Dago",
+      "alamat": {
+        "v": "Jl. Tubagus Ismail No.15, Sekeloa, Kec. Coblong, Kota Bandung, Jawa Barat",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/astari-dental-care-dago?to=place.ChIJP8S1ozTnaC4RtZ2XRF5vYoY",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0812-1330-5959",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/astari-dental-care-dago?to=place.ChIJP8S1ozTnaC4RtZ2XRF5vYoY",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "6281213305959",
+        "src": "https://linktr.ee/astaridentalcare",
+        "tgl": "2026-09-29",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "08-20",
+          "sel": "08-12,14-20",
+          "rab": "08-12,14-20",
+          "kam": "08-12,14-20",
+          "jum": "08-12,14-20",
+          "sab": "08-12,14-20",
+          "min": "08-12,14-20"
+        },
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/astari-dental-care-dago?to=place.ChIJP8S1ozTnaC4RtZ2XRF5vYoY",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      }
+    },
+    {
+      "nama": "Cimahi",
+      "alamat": {
+        "v": "Jl. Lurah No.212, Karangmekar, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat",
+        "src": "https://idalamat.com/alamat/astari-dental-care-cimahi-1060794",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0822-2361-6159",
+        "src": "https://idalamat.com/alamat/astari-dental-care-cimahi-1060794",
+        "tgl": "2026-09-29",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "6281213305959",
+        "src": "https://linktr.ee/astaridentalcare",
+        "tgl": "2026-09-29",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-29",
+        "yakin": "rendah"
+      }
+    },
+    {
+      "nama": "Kopo",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-29",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": "6281213305959",
+        "src": "https://linktr.ee/astaridentalcare",
+        "tgl": "2026-09-29",
+        "yakin": "tinggi"
+      }
+    },
+    {
+      "nama": "Margacinta",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-29",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": "6281213305959",
+        "src": "https://linktr.ee/astaridentalcare",
+        "tgl": "2026-09-29",
+        "yakin": "tinggi"
+      }
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Behel",
+    "Bleaching",
+    "Veneer",
+    "Perawatan saluran akar",
+    "Implan gigi"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling dua rahang",
+      "jenis": "kisaran_pasar",
+      "min": 229080,
+      "max": 600000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Tambal gigi",
+      "jenis": "kisaran_pasar",
+      "min": 388000,
+      "max": 520000,
+      "src": [
+        "https://hdmall.id/passion-dental-care/products"
+      ]
+    },
+    {
+      "perawatan": "Cabut gigi",
+      "jenis": "kisaran_pasar",
+      "min": 368000,
+      "max": 750000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Pasang behel metal",
+      "jenis": "kisaran_pasar",
+      "min": 6000000,
+      "max": 10000000,
+      "src": [
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Bleaching",
+      "jenis": "kisaran_pasar",
+      "min": 1150000,
+      "max": 1600000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "Veneer direct",
+      "jenis": "kisaran_pasar",
+      "min": 625600,
+      "max": 850000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care"
+      ]
+    },
+    {
+      "perawatan": "Implan gigi",
+      "jenis": "kisaran_pasar",
+      "min": 16100000,
+      "max": 20160000,
+      "src": [
+        "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Linktree klinik menyediakan jalur kontak untuk lima cabang: Dago, Panghegar, Cimahi, Kopo, dan Margacinta.",
+    "Cabang Dago tercantum buka pada hari Minggu."
+  ],
+  "situs_lama": [
+    "Konten beranda yang dapat diekstrak hanya menampilkan label menu serta judul testimonials dan locations; rincian alamat, dokter, dan tarif tidak terbaca dari halaman tersebut."
+  ],
+  "ide_fitur_khas": "Pemilih cabang interaktif yang menampilkan alamat terverifikasi, jam praktik, dan tombol WhatsApp sesuai cabang.",
+  "catatan": "✎ Verifikasi alamat Kopo dan Margacinta, daftar dokter, email, fasilitas, asuransi, serta jam setiap cabang langsung ke klinik. Linktree menggunakan nomor WhatsApp yang sama untuk kelima cabang. Direktori Cimahi mencantumkan jam dalam deskripsi tetapi menyatakan jam operasional belum tersedia pada bagian informasi; jam tidak diisikan. Alamat cabang Dago pada direktori lain berbeda dari Waze; konfirmasi sebelum dipublikasikan. Angka 543 ulasan dari Sheet tidak dapat diverifikasi terhadap satu listing Maps yang jelas, sehingga maps tidak diisi. Seluruh harga adalah pembanding dari penyedia lain di Kota Bandung, bukan tarif Astari; ketiga sumber publik yang dipakai untuk riset harga adalah HDmall, situs Passion Dental Care, dan DokterTanya.",
+  "sumber": [
+    "https://astaridentalcare.com/",
+    "https://linktr.ee/astaridentalcare",
+    "https://www.instagram.com/astaridentalcare/",
+    "https://www.waze.com/live-map/directions/id/jawa-barat/astari-dental-care-dago?to=place.ChIJP8S1ozTnaC4RtZ2XRF5vYoY",
+    "https://idalamat.com/alamat/astari-dental-care-cimahi-1060794",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/astari-dental-care-ciha-imp1",
+    "https://hdmall.id/passion-dental-care/products",
+    "https://hdmall.id/klinik-gigi/cabut-gigi-di-tami-dental-care",
+    "https://hdmall.id/klinik-gigi/veneer-direct-di-tami-dental-care",
+    "https://passiondentalcare.com/layanan/behel-gigi/",
+    "https://doktertanya.com/dokter-gigi-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/astaridentalcare/",
+      "catatan": "URL Instagram tidak tercantum pada halaman Linktree yang dapat dibaca."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281213305959",
+      "catatan": "Tautan «Admin Astari Panghegar» tampil tanpa nomor yang terbaca."
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6281213305959",
+      "catatan": "Tautan «Admin Astari Dago» tampil tanpa nomor yang terbaca."
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "6281213305959",
+      "catatan": "Tautan «Admin Astari Cimahi» tampil tanpa nomor yang terbaca."
+    },
+    {
+      "path": "cabang[3].wa",
+      "tercatat": "6281213305959",
+      "catatan": "Tautan «Admin Astari Kopo» tampil tanpa nomor yang terbaca."
+    },
+    {
+      "path": "cabang[4].wa",
+      "tercatat": "6281213305959",
+      "catatan": "Tautan «Admin Astari Margacinta» tampil tanpa nomor yang terbaca."
+    },
+    {
+      "path": "harga[0].min",
+      "tercatat": "229080",
+      "catatan": "Rp229.080 tidak ditemukan pada halaman cabut gigi HDmall; halaman DokterTanya mencantumkan scaling Rp600.000."
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": "368000",
+      "catatan": "Halaman HDmall mencantumkan cabut gigi ringan Rp455.400; Rp368.000 tidak ditemukan pada kedua src."
+    },
+    {
+      "path": "harga[4].min",
+      "tercatat": "1150000",
+      "catatan": "Rp1.150.000 muncul pada halaman veneer sebagai harga layanan diastema closure milik penyedia lain, bukan bleaching; DokterTanya mencantumkan bleaching Rp1.600.000."
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": "625600",
+      "catatan": "Harga veneer direct pada halaman HDmall adalah mulai Rp917.700."
+    },
+    {
+      "path": "harga[5].max",
+      "tercatat": "850000",
+      "catatan": "Halaman HDmall menampilkan Rp917.700 dan Rp1.050.000 untuk veneer direct, serta menyebut harga tertinggi kondisi terparah Rp2.200.000."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": "16100000",
+      "catatan": "Halaman yang dirujuk membahas veneer direct, bukan harga implan gigi."
+    },
+    {
+      "path": "harga[6].max",
+      "tercatat": "20160000",
+      "catatan": "Halaman yang dirujuk membahas veneer direct, bukan harga implan gigi."
+    }
+  ]
+}
