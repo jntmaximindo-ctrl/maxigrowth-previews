@@ -1,0 +1,51 @@
+# Serahkan satu tugas ke Codex (kuota ChatGPT Plus) lewat komentar @codex di PR.
+#   tugas=riset    → GPT-A (akun GitHub utama, secret CODEX_PAT_A)  : riset.json + konten.json
+#   tugas=cekfakta → GPT-B (akun GitHub kedua, secret CODEX_PAT_B)  : cekfakta.json (pemeriksa independen)
+# Dipanggil otomatis oleh research.yml / codex-check.yml, atau manual dari tab Actions.
+name: codex-dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      job:   { description: "Path job, mis. B04/W14", required: true }
+      tugas: { description: "riset / cekfakta", required: true, default: "riset" }
+      issue: { description: "Nomor issue klinik (opsional)", required: false }
+permissions: { contents: write, pull-requests: write, issues: write }
+concurrency: { group: "codex-${{ github.event.inputs.job }}-${{ github.event.inputs.tugas }}" }
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Siapkan surat tugas + PR
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          JOB: ${{ github.event.inputs.job }}
+          TUGAS: ${{ github.event.inputs.tugas }}
+          ISSUE: ${{ github.event.inputs.issue }}
+        run: |
+          case "$TUGAS" in riset|cekfakta) ;; *) echo "tugas tidak dikenal: $TUGAS"; exit 1;; esac
+          [ -f "batches/$JOB/job.json" ] || { echo "job tidak ada: batches/$JOB"; exit 1; }
+          SLUG=$(echo "$JOB" | tr '/' '-')
+          BR="codex/$TUGAS-$SLUG"
+          NAMA=$(python -c "import json;print(json.load(open('batches/$JOB/job.json')).get('nama',''))")
+          mkdir -p .codex/tugas
+          sed -e "s#{{JOB}}#$JOB#g" -e "s#{{DIR}}#batches/$JOB#g" "prompts/codex-$TUGAS.md" > ".codex/tugas/$SLUG-$TUGAS.md"
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git push origin --delete "$BR" 2>/dev/null || true
+          git checkout -b "$BR"
+          git add .codex && git commit -m "tugas codex: $TUGAS $JOB"
+          git push -u origin "$BR"
+          URL=$(gh pr create --draft --base main --head "$BR" \
+            --title "[$JOB] $TUGAS · $NAMA" \
+            --body "Tugas otomatis untuk Codex. Instruksi lengkap: \`.codex/tugas/$SLUG-$TUGAS.md\`. Issue klinik: #${ISSUE:-?}")
+          echo "url=$URL" >> $GITHUB_OUTPUT
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+      - name: Panggil Codex (@codex)
+        env:
+          # riset → akun A, cekfakta → akun B (akun berbeda = kuota Plus berbeda + pemeriksa independen)
+          GH_TOKEN: ${{ github.event.inputs.tugas == 'cekfakta' && secrets.CODEX_PAT_B || secrets.CODEX_PAT_A }}
+          JOB: ${{ github.event.inputs.job }}
+          TUGAS: ${{ github.event.inputs.tugas }}
+        run: |
+          gh pr comment "${{ steps.pr.outputs.url }}" --body "@codex Kerjakan tugas di file \`.codex/tugas/${{ steps.pr.outputs.slug }}-$TUGAS.md\` untuk job \`batches/$JOB\`. Ikuti AGENTS.md. Push hasilnya ke branch PR ini (jangan buat PR baru bila bisa)."

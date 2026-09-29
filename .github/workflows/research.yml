@@ -1,4 +1,7 @@
-# Issue berlabel "riset" → riset + cek fakta + konten (OpenAI API) dan branding (Playwright) → commit ke main.
+# Issue berlabel "riset" → branding (Playwright) lalu riset.
+# RISET_ENGINE=codex (Variable repo) → riset diserahkan ke Codex lewat codex-dispatch.yml (kuota ChatGPT Plus).
+# RISET_ENGINE=bus   → surat tugas dikirim ke Drive "07 Klinik-Bus", dikerjakan scheduled task ChatGPT (kuota Plus), ditarik bus-pull.yml.
+# Selain itu → riset + cek fakta + konten lewat OpenAI API (berbayar), seperti semula.
 name: riset-dan-branding
 on:
   issues: { types: [labeled] }
@@ -6,7 +9,7 @@ on:
     inputs:
       job: { description: "Path job, mis. B01/W14", required: true }
       issue: { description: "Nomor issue untuk laporan (opsional)", required: false }
-permissions: { contents: write, issues: write }
+permissions: { contents: write, issues: write, actions: write }
 concurrency:
   group: riset-${{ github.event.inputs.job || github.event.issue.number }}
 jobs:
@@ -32,8 +35,9 @@ jobs:
           URL=$(python -c "import json;print(json.load(open('${{ steps.j.outputs.dir }}/job.json'))['url'])")
           node scripts/brand_capture.mjs "$URL" "${{ steps.j.outputs.dir }}/branding" || true
           python scripts/thumbs.py "${{ steps.j.outputs.dir }}" || true
-      - name: Riset + cek fakta + konten
+      - name: Riset + cek fakta + konten (OpenAI API — cadangan, aktif bila RISET_ENGINE != codex)
         id: r
+        if: vars.RISET_ENGINE != 'codex' && vars.RISET_ENGINE != 'bus'
         env: { OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}" }
         run: |
           set +e; python scripts/research.py "${{ steps.j.outputs.dir }}" | tee research.out; code=${PIPESTATUS[0]}; set -e
@@ -41,13 +45,33 @@ jobs:
           if [ $code -eq 0 ]; then st="Siap rakit"; else st="Butuh cek riset"; fi
           echo "{\"status\": \"$st\"}" > "${{ steps.j.outputs.dir }}/status.json"
           echo "status=$st" >> $GITHUB_OUTPUT
+      - name: Tandai diserahkan ke Codex
+        if: vars.RISET_ENGINE == 'codex'
+        run: |
+          echo '{"status": "Riset di Codex"}' > "${{ steps.j.outputs.dir }}/status.json"
+      - name: Kirim surat tugas ke Klinik-Bus (GPT scheduled task, kuota Plus)
+        if: vars.RISET_ENGINE == 'bus'
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}" }
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+          python3 scripts/bus.py rclone-conf
+          D="${{ steps.j.outputs.dir }}"; KEY=$(echo "${D#batches/}" | tr '/' '-')
+          { echo "SURAT TUGAS RISET — ${D#batches/}"; cat "$D/job.json"; } > surat.txt
+          rclone copyto surat.txt "bus:01 Antrean Riset/${KEY}_riset" -v
+          echo '{"status": "Riset di GPT"}' > "$D/status.json"
       - name: Commit
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add batches && git commit -m "riset: ${{ steps.j.outputs.dir }} (${{ steps.r.outputs.status }})" || exit 0
+          git add batches && git commit -m "riset: ${{ steps.j.outputs.dir }} (${{ steps.r.outputs.status || 'branding; riset diserahkan' }})" || exit 0
           for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Serahkan riset ke Codex GPT-A
+        if: vars.RISET_ENGINE == 'codex'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          JOB="${{ steps.j.outputs.dir }}"; JOB="${JOB#batches/}"
+          gh workflow run codex-dispatch.yml -f job="$JOB" -f tugas=riset -f issue="${{ github.event.issue.number || github.event.inputs.issue }}"
       - name: Lapor di issue
-        if: github.event.issue.number || github.event.inputs.issue
+        if: vars.RISET_ENGINE != 'codex' && vars.RISET_ENGINE != 'bus' && (github.event.issue.number || github.event.inputs.issue)
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           gh issue comment ${{ github.event.issue.number || github.event.inputs.issue }} --body "Status: **${{ steps.r.outputs.status }}**

@@ -1,0 +1,53 @@
+# Tiap jam: tarik hasil scheduled task ChatGPT dari Drive "07 Klinik-Bus" → cek otomatis → pasang ke batches/.
+#   02 Hasil Riset (GPT-A) lulus  → status "Menunggu cek fakta" (GPT-B mengambilnya sendiri dari Drive)
+#   03 Hasil Cek Fakta (GPT-B)    → status "Siap rakit", file bus dipindah ke 99 Arsip
+#   gagal → hasil diarsip + surat tugas ditulis ulang berisi catatan revisi (maks 2x, lalu "Butuh cek riset")
+name: bus-pull
+on:
+  schedule: [{ cron: "15 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: bus-pull
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install jsonschema && curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+      - name: Konfigurasi rclone
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}" }
+        run: python3 scripts/bus.py rclone-conf
+      - name: Unduh hasil GPT
+        run: |
+          rclone copy "bus:02 Hasil Riset" /tmp/bus/riset --drive-export-formats txt -v || true
+          rclone copy "bus:03 Hasil Cek Fakta" /tmp/bus/cek --drive-export-formats txt -v || true
+          mkdir -p /tmp/bus/riset /tmp/bus/cek; ls -la /tmp/bus/riset /tmp/bus/cek
+      - name: Cek + pasang ke repo
+        run: python3 scripts/bus.py pull /tmp/bus/riset /tmp/bus/cek | tee bus.log
+      - name: Terapkan aksi di Drive
+        run: |
+          TS=$(date +%Y%m%d-%H%M)
+          while read -r act a b c; do
+            [ -z "$act" ] && continue
+            if [ "$act" = "ARSIP" ]; then
+              for pola in $a $b $c; do
+                for src in "02 Hasil Riset" "03 Hasil Cek Fakta" "01 Antrean Riset"; do
+                  rclone lsf "bus:$src" --drive-export-formats txt --include "$pola" | while read -r f; do
+                    rclone moveto "bus:$src/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
+                  done
+                done
+              done
+            elif [ "$act" = "REVISI" ]; then
+              B=${a%%-*}; W=${a#*-}
+              { echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "batches/$B/$W/job.json"; echo; cat "$b"; } > /tmp/surat.txt
+              rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset" -v
+            fi
+          done < bus-actions.txt
+      - name: Commit
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches && git diff --cached --quiet && exit 0
+          git commit -m "bus-pull: hasil GPT scheduled task"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
