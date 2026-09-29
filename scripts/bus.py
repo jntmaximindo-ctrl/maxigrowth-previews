@@ -19,7 +19,11 @@ def rclone_conf():
     tok = json.loads(os.environ["RCLONE_DRIVE_TOKEN"])
     p = pathlib.Path(os.path.expanduser("~/.config/rclone/rclone.conf"))
     p.parent.mkdir(parents=True, exist_ok=True)
-    p.write_text(f"[bus]\ntype = drive\nscope = drive\nroot_folder_id = {BUS_ROOT}\ntoken = {json.dumps(tok)}\n")
+    conf = f"[bus]\ntype = drive\nscope = drive\nroot_folder_id = {BUS_ROOT}\n"
+    # token dibuat dengan client ID milik sendiri → wajib pakai client ID/secret yang sama (seperti sync-drive_1.yml)
+    if os.environ.get("RCLONE_CLIENT_ID") and os.environ.get("RCLONE_CLIENT_SECRET"):
+        conf += f"client_id = {os.environ['RCLONE_CLIENT_ID'].strip()}\nclient_secret = {os.environ['RCLONE_CLIENT_SECRET'].strip()}\n"
+    p.write_text(conf + f"token = {json.dumps(tok)}\n")
     return 0
 
 
