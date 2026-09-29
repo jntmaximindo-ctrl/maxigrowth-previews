@@ -23,7 +23,11 @@ def rclone_conf():
     # token dibuat dengan client ID milik sendiri → wajib pakai client ID/secret yang sama (seperti sync-drive_1.yml)
     if os.environ.get("RCLONE_CLIENT_ID") and os.environ.get("RCLONE_CLIENT_SECRET"):
         conf += f"client_id = {os.environ['RCLONE_CLIENT_ID'].strip()}\nclient_secret = {os.environ['RCLONE_CLIENT_SECRET'].strip()}\n"
-    p.write_text(conf + f"token = {json.dumps(tok)}\n")
+    conf += f"token = {json.dumps(tok)}\n"
+    # remote kedua: root My Drive. Scheduled task ChatGPT hanya bisa MEMBUAT file di root (memindah diblokir),
+    # jadi robot yang memindahkan hasilnya ke folder bus.
+    root = conf.replace("[bus]", "[root]").replace(f"root_folder_id = {BUS_ROOT}\n", "")
+    p.write_text(conf + "\n" + root)
     return 0
 
 
@@ -114,6 +118,7 @@ def pull(dir_riset, dir_cek):
                 subprocess.run([sys.executable, str(ROOT / "scripts/codex_check.py"), "finish",
                                 str(d.relative_to(ROOT)), "cekfakta", "gpt-bus"], check=True, cwd=ROOT)
                 acts.append(f"ARSIP {key}_*")
+                acts.append(f"RAKIT {b}/{w}")
                 log.append(f"{key}: cek fakta LULUS → Siap rakit")
             else:
                 (d / "cekfakta.json").unlink(missing_ok=True)

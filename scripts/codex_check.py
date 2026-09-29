@@ -9,17 +9,18 @@ import json, pathlib, re, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 JOB_RE = re.compile(r"^(batches/B\d+/[^/]+)/(riset|konten|cekfakta)\.json$")
+SITE_RE = re.compile(r"^(batches/B\d+/[^/]+)/site/index\.html$")
 
 
 def detect(changed_file):
     dirs, files = set(), set()
     for line in pathlib.Path(changed_file).read_text().split():
-        m = JOB_RE.match(line.strip())
+        m = JOB_RE.match(line.strip()) or SITE_RE.match(line.strip())
         if m:
-            dirs.add(m.group(1)); files.add(m.group(2))
+            dirs.add(m.group(1)); files.add(m.group(2) if m.re is JOB_RE else "site")
     if len(dirs) != 1:
         print("dir="); print("stage=none"); return 0
-    stage = "cekfakta" if "cekfakta" in files else "riset"
+    stage = "rakit" if "site" in files else ("cekfakta" if "cekfakta" in files else "riset")
     print(f"dir={dirs.pop()}"); print(f"stage={stage}")
     return 0
 
@@ -79,6 +80,37 @@ def check(d, stage):
                 errs.append("cekfakta.json: 'beda' harus list")
             if isinstance(obj.get("diperiksa"), int) and obj["diperiksa"] < 5:
                 errs.append("cekfakta.json: terlalu sedikit fakta diperiksa (<5) — buka ulang semua src di riset.json")
+    elif stage == "rakit":
+        f = d / "site" / "index.html"
+        if not f.exists():
+            errs.append("site/index.html tidak ada")
+        else:
+            html = f.read_text(encoding="utf-8", errors="ignore")
+            low = html.lower()
+            job = json.loads((d / "job.json").read_text(encoding="utf-8"))
+            nama = str(job.get("nama", "")).split("(")[0].strip()
+            if len(html) < 30000:
+                errs.append(f"site/index.html terlalu kecil ({len(html)} byte) — kemungkinan disederhanakan; ikuti kualitas contoh baku")
+            if "atabara" not in nama.lower() and "atabara" in low:
+                errs.append("masih ada sisa teks 'Atabara' dari contoh baku")
+            if "malaysia" not in str(job.get("kota", "")).lower():
+                for w in (r"temujanji", r"pergigian", r"\brm\s?\d"):
+                    if re.search(w, low):
+                        errs.append(f"masih ada istilah Melayu/Malaysia: '{w}'")
+            if nama and nama.split()[0].lower() not in low:
+                errs.append(f"nama klinik '{nama}' tidak ditemukan di halaman")
+            try:
+                riset = json.loads((d / "riset.json").read_text(encoding="utf-8"))
+                for c in riset.get("cabang", []):
+                    wa = (c.get("wa") or {}).get("v")
+                    if wa and re.sub(r"\D", "", str(wa)) not in re.sub(r"\D", "", html):
+                        errs.append(f"nomor WA {wa} dari riset tidak ada di halaman")
+            except Exception:
+                pass
+            r = subprocess.run([sys.executable, str(ROOT / "scripts/lint_permenkes.py"), str(f)], capture_output=True, text=True)
+            print(r.stdout)
+            if r.returncode != 0:
+                errs.append("site/index.html melanggar aturan Permenkes (lihat ✗ di atas)")
     else:
         errs.append(f"tahap tidak dikenal: {stage}")
     for e in errs:
@@ -89,7 +121,15 @@ def check(d, stage):
 
 def finish(d, stage, oleh="codex"):
     d = ROOT / d
-    if stage == "riset":
+    if stage == "rakit":
+        import datetime
+        job = json.loads((d / "job.json").read_text(encoding="utf-8"))
+        (d / "preview.json").write_text(json.dumps({
+            "preview": None, "slug": job.get("slug"), "status": "Siap review", "oleh": oleh,
+            "built": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "file": "site/index.html"}, ensure_ascii=False), encoding="utf-8")
+        status = "Siap review"
+    elif stage == "riset":
         status = "Menunggu cek fakta"
     else:
         cek = json.loads((d / "cekfakta.json").read_text(encoding="utf-8"))
