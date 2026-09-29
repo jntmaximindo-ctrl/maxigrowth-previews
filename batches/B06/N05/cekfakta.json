@@ -1,0 +1,29 @@
+{
+  "id": "N05",
+  "diperiksa": 24,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "VDC - Valerio Dental Care / Evo Dental Care (VDC)",
+      "di_sumber": "Evo Dental Care (VDC) / Dokter Gigi Spesialis Prosto",
+      "src": "https://indonesiaknowledge.com/directory/dental/bandung/evo-dental-care-vdc-dokter-gigi-spesialis-prosto-bandung",
+      "catatan": "Nama gabungan yang tercatat tidak tertulis sebagai nama klinik pada halaman. Valerio Dental Care hanya muncul dalam kutipan ulasan; halaman tidak secara eksplisit menyatakan kedua nama itu identik. ([indonesiaknowledge.com](https://indonesiaknowledge.com/directory/dental/bandung/evo-dental-care-vdc-dokter-gigi-spesialis-prosto-bandung))"
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/valeriodental/",
+      "di_sumber": "@valeriodental",
+      "src": "https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Halaman mencantumkan nama akun, bukan URL Instagram tersebut. ([doktertanya.com](https://doktertanya.com/dokter-gigi-bandung/))"
+    },
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Prostodonsia",
+      "di_sumber": "Judul menyebut «Spesialis Prosto»; kutipan ulasan menyebut «drg. Irham Sp. Prost».",
+      "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/evo-dental-care-vdc-dokter-gig-ciha-imp1",
+      "catatan": "Kata «Prostodonsia» tidak tertulis di halaman; nilai tersebut merupakan penafsiran dari gelar dalam ulasan, bukan keterangan spesialisasi dokter yang dinyatakan tersendiri. ([caribisnis.id](https://caribisnis.id/dokter-gigi/bandung/cihampelas/evo-dental-care-vdc-dokter-gig-ciha-imp1))"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

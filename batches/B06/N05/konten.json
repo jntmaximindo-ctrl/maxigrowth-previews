@@ -1,0 +1,152 @@
+{
+  "id": "N05",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di VDC Valerio Dental Care, Bandung",
+      "en": "Dental care at VDC Valerio Dental Care in Bandung"
+    },
+    "sub": {
+      "id": "Dari perawatan rutin hingga pilihan penggantian gigi, temukan informasi awal sebelum berkonsultasi di klinik Jl. Gajah.",
+      "en": "Explore routine care and tooth replacement options before visiting the clinic on Jl. Gajah."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal lewat WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan kebutuhan perawatan Anda saat konsultasi.",
+        "en": "Removal of tartar buildup. Ask about your care needs during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi yang berlubang atau rusak, sesuai hasil pemeriksaan.",
+        "en": "Care for a cavity or damaged tooth, based on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Penanganan bagian dalam gigi bila diperlukan setelah pemeriksaan.",
+        "en": "Treatment of the inside of a tooth when an examination shows it is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan penggantian gigi",
+        "en": "Tooth replacement options"
+      },
+      "ringkas": {
+        "id": "Tersedia informasi tentang gigi tiruan lepasan, bridge, dan implan. Pilihan perawatan ditentukan melalui konsultasi.",
+        "en": "Learn about removable dentures, bridges, and implants. A consultation helps determine which option may suit you."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel dan Invisalign",
+        "en": "Braces and Invisalign"
+      },
+      "ringkas": {
+        "id": "Pilihan untuk merapikan susunan gigi. Pemeriksaan diperlukan sebelum menentukan rencana perawatan.",
+        "en": "Options for aligning teeth. An examination is needed before planning treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Layanan pemeriksaan dan perawatan gigi untuk anak. Hubungi klinik untuk menanyakan ketersediaan jadwal.",
+        "en": "Dental check-ups and care for children. Contact the clinic to ask about appointment availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Kenali pilihan penggantian gigi",
+      "en": "Explore tooth replacement options"
+    },
+    "penjelasan": {
+      "id": "Pilih jumlah dan posisi gigi yang hilang untuk membaca gambaran umum konsultasi gigi tiruan, bridge, atau implan. Panduan ini tidak menggantikan pemeriksaan dokter gigi.",
+      "en": "Select the number and position of missing teeth to see a general overview of consultations for dentures, bridges, or implants. This guide does not replace a dental examination."
+    },
+    "alasan_dipilih": "Daftar layanan VDC mencakup gigi tiruan, bridge, dan implan; panduan ini membantu pasien menyiapkan pertanyaan sebelum berkonsultasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the clinic’s opening hours?"
+      },
+      "a": {
+        "id": "Informasi jam operasional di direktori berbeda. Hubungi klinik untuk memastikan jam buka dan jadwal kunjungan.",
+        "en": "Published opening hours differ between directories. Please contact the clinic to confirm its hours and appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia dalam informasi yang kami temukan. Tanyakan perkiraan biaya kepada admin; biaya dapat bergantung pada hasil pemeriksaan dan rencana perawatan.",
+        "en": "We could not find an official price list. Ask the clinic for an estimate; costs may depend on the examination and treatment plan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia asuransi Anda saat menghubungi klinik untuk memastikannya.",
+        "en": "Insurance information is not currently available. Mention your provider when contacting the clinic to check coverage."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Behel dan Invisalign tercantum dalam daftar layanan. Konsultasikan kondisi gigi Anda untuk mengetahui pilihan yang sesuai.",
+        "en": "Braces and Invisalign are listed among the clinic’s services. A consultation can help you discuss suitable options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa diperiksa di sini?",
+        "en": "Can children have dental check-ups here?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum dalam daftar layanan. Hubungi klinik untuk menanyakan jadwal yang tersedia.",
+        "en": "Children’s dental care is listed among the services. Contact the clinic to ask about available appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan? Hubungi VDC lewat WhatsApp.",
+    "en": "Questions about dental care? Message VDC on WhatsApp."
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu Manajemen VDC Valerio Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat VDC mencantumkan layanan penggantian gigi, termasuk gigi tiruan, bridge, dan implan. Kami sudah menyiapkan konsep website yang dapat Bapak/Ibu lihat tanpa biaya di https://maxigrowthstudio.com/evo-bandung. Jika berkenan, saya siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk VDC Valerio Dental Care",
+    "email_isi": "Yth. Bapak/Ibu Manajemen VDC Valerio Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi layanan VDC, termasuk gigi tiruan, bridge, dan implan, saat menyiapkan konsep website untuk klinik.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/evo-bandung. Kami menyusun halaman layanan dan panduan awal agar calon pasien lebih mudah menyiapkan pertanyaan sebelum menghubungi klinik. Informasi seperti jam operasional, identitas dokter, dan tarif masih perlu konfirmasi Bapak/Ibu sebelum dipublikasikan.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Bila ada masukan, silakan balas email ini atau hubungi saya di 082141004400.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com"
+  }
+}
