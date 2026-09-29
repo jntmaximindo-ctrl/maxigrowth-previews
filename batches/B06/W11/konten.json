@@ -1,0 +1,142 @@
+{
+  "id": "W11",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi untuk Keluarga di Bandung",
+      "en": "Dental Care for Families in Bandung"
+    },
+    "sub": {
+      "id": "Dentco Family Dental Clinic melayani perawatan gigi anak dan dewasa di Sadang Sari, Bandung. Ceritakan kebutuhan Anda, lalu tanyakan jadwal kunjungan melalui WhatsApp.",
+      "en": "Dentco Family Dental Clinic welcomes children and adults in Sadang Sari, Bandung. Tell us what you need and ask about available appointments via WhatsApp."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi anak sesuai kebutuhan setelah konsultasi.",
+        "en": "Dental check-ups and care for children, guided by a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi untuk membantu menjaga kebersihan gigi dan gusi.",
+        "en": "Removal of tartar to support everyday dental and gum care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang. Dokter akan memeriksa kondisi gigi sebelum menyarankan tindakan.",
+        "en": "Care for a cavity. A dentist will examine the tooth before recommending treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi yang dipertimbangkan berdasarkan hasil pemeriksaan.",
+        "en": "Treatment of the inside of a tooth, considered after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemasangan Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi dan pilihan perawatan behel dengan dokter.",
+        "en": "Discuss tooth alignment and braces options with a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Cari Dokter Sesuai Kebutuhan",
+      "en": "Find a Dentist for Your Needs"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan perawatan gigi anak atau konservasi gigi, lalu tulis keluhan Anda. Kirim permintaan jadwal melalui WhatsApp; ketersediaan dokter dikonfirmasi oleh klinik.",
+      "en": "Choose children’s dental care or tooth restoration, then describe your concern. Send an appointment request via WhatsApp; the clinic will confirm dentist availability."
+    },
+    "alasan_dipilih": "Situs klinik menampilkan dokter spesialis kedokteran gigi anak dan spesialis konservasi gigi, tetapi tidak mencantumkan jadwal masing-masing dokter."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan Dentco buka?",
+        "en": "When is Dentco open?"
+      },
+      "a": {
+        "id": "Menurut situs klinik, Senin–Sabtu pukul 08.00–20.00 dan Minggu pukul 09.00–17.00 WIB. Konfirmasikan jam layanan sebelum berkunjung.",
+        "en": "The clinic website lists Monday–Saturday, 8 a.m.–8 p.m., and Sunday, 9 a.m.–5 p.m. WIB. Please confirm the hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada jenis perawatan dan kondisi gigi. Hubungi klinik untuk menanyakan tarif yang berlaku.",
+        "en": "Fees depend on the treatment and your dental needs. Please contact the clinic for current pricing."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah Dentco menerima asuransi?",
+        "en": "Does Dentco accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tercantum dalam riset ini. Tanyakan langsung kepada klinik dan sebutkan nama penyedia asuransi Anda.",
+        "en": "Insurance information was not available in the research provided. Please ask the clinic directly and mention your insurer."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemasangan behel?",
+        "en": "Can I get braces at Dentco?"
+      },
+      "a": {
+        "id": "Ya, pemasangan behel tercantum sebagai layanan. Konsultasi diperlukan untuk membahas kondisi gigi dan pilihan perawatan.",
+        "en": "Yes, braces are listed among the clinic’s services. A consultation can help you discuss your teeth and treatment options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak-anak bisa diperiksa di Dentco?",
+        "en": "Can children have dental check-ups at Dentco?"
+      },
+      "a": {
+        "id": "Ya. Dentco mencantumkan perawatan gigi anak dan dokter spesialis kedokteran gigi anak. Tanyakan ketersediaan jadwal saat menghubungi klinik.",
+        "en": "Yes. Dentco lists children’s dental care and pediatric dental specialists. Please ask the clinic about appointment availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Ada pertanyaan tentang perawatan? Hubungi Dentco untuk menanyakan jadwal konsultasi.",
+    "en": "Have a question about dental care? Contact Dentco to ask about a consultation."
+  },
+  "pesan_wa_default": "Halo Dentco, saya ingin menanyakan jadwal konsultasi di cabang Sadang Sari. Keluhan atau kebutuhan saya: [tulis di sini]. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen Dentco. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat situs Dentco menampilkan dokter spesialis kedokteran gigi anak. Kami sudah membuat konsep website untuk Dentco yang dapat dilihat tanpa biaya di https://maxigrowthstudio.com/dentco-family. Jika berkenan, silakan ditinjau saat ada waktu. Tidak ada kewajiban untuk menindaklanjuti. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dentco Family Dental Clinic",
+    "email_isi": "Yth. Bapak/Ibu manajemen Dentco,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Dentco mencantumkan layanan perawatan gigi anak serta dokter spesialis kedokteran gigi anak di situsnya.\n\nKami telah menyiapkan konsep website yang menata informasi layanan, pertanyaan umum pasien, dan permintaan jadwal melalui WhatsApp. Konsepnya dapat Bapak/Ibu lihat tanpa biaya di https://maxigrowthstudio.com/dentco-family. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nSilakan ditinjau saat berkenan. Jika ada pertanyaan, saya dapat dihubungi melalui WA 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

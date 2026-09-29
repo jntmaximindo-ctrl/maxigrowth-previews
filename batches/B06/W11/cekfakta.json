@@ -1,0 +1,25 @@
+{
+  "id": "W11",
+  "diperiksa": 52,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentcodentalclinic/",
+      "di_sumber": "Halaman menampilkan tautan berlabel «Instagram», tetapi URL tujuannya tidak terbaca saat pemeriksaan.",
+      "src": "https://dent.co.id/linktree/",
+      "catatan": "Alamat Instagram yang tercatat tidak dapat dikonfirmasi dari halaman yang terbaca; ini bukan bukti bahwa alamatnya salah. ([dent.co.id](https://dent.co.id/linktree/))"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285722116161",
+      "di_sumber": "Halaman menampilkan tautan berlabel «Make Appointment», tetapi nomor tujuan WhatsApp tidak terbaca saat pemeriksaan.",
+      "src": "https://dent.co.id/linktree/",
+      "catatan": "Nomor WA yang tercatat tidak dapat dikonfirmasi dari URL src tersebut. Nomor telepon dengan digit yang sama tercantum di halaman kontak, tetapi itu tidak memverifikasi tujuan tautan WA. ([dent.co.id](https://dent.co.id/linktree/))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://dent.co.id/about/",
+    "https://www.google.com/maps/place/?q=place_id:ChIJAfQlqrrnaC4RWQUHMkEaPdc"
+  ],
+  "kritis_ok": false
+}
