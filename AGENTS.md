@@ -14,3 +14,7 @@ Pekerjaan datang lewat komentar `@codex` di PR draft, dengan surat tugas di `.co
 6. Jangan pernah menghubungi klinik, deploy, atau menyentuh secrets/kredensial.
 7. Sebelum push, jalankan `python scripts/codex_check.py check <folder job> <tahap>` sampai LULUS.
 8. Ringkasan PR: apa yang dikerjakan + bagian "UNTUK CLAUDE" untuk hal yang ragu/gagal.
+
+## Tugas "cari" (Pencari Klinik)
+Tulis hanya `sourcing/<kota>/hasil.json` sesuai surat tugas. Jangan menyentuh folder batches/.
+Setelah commit, WAJIB `git push origin HEAD:<branch PR tempat kamu dipanggil>`.
