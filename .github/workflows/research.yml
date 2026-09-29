@@ -51,7 +51,7 @@ jobs:
           echo '{"status": "Riset di Codex"}' > "${{ steps.j.outputs.dir }}/status.json"
       - name: Kirim surat tugas ke Klinik-Bus (GPT scheduled task, kuota Plus)
         if: vars.RISET_ENGINE == 'bus'
-        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}" }
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: |
           curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
           python3 scripts/bus.py rclone-conf

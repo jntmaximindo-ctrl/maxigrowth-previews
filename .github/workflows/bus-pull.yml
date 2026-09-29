@@ -17,7 +17,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: pip install jsonschema && curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
       - name: Konfigurasi rclone
-        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}" }
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: python3 scripts/bus.py rclone-conf
       - name: Unduh hasil GPT
         run: |
