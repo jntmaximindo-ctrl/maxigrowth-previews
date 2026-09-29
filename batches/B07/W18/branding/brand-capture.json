@@ -1,0 +1,115 @@
+{
+  "url": "https://casadienta.co.id/",
+  "captured": "2026-09-29T22:35:06.827Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#efb21d",
+      "share": 0.617,
+      "kinds": {
+        "bg": 13,
+        "cta": 10,
+        "svg": 70
+      }
+    },
+    {
+      "hex": "#2d6192",
+      "share": 0.267,
+      "kinds": {
+        "text": 16,
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#da1d7d",
+      "share": 0.029,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#3b5998",
+      "share": 0.029,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#cd201f",
+      "share": 0.029,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#ccd6df",
+      "share": 0.022,
+      "kinds": {
+        "svg": 70
+      }
+    },
+    {
+      "hex": "#25d366",
+      "share": 0.006,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#eb7d00",
+      "share": 0.001,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Rubik",
+    "Tenor Sans",
+    "Source Sans Pro",
+    "Poppins"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://casadienta.co.id/wp-content/uploads/2025/05/cropped-cropped-Logo-Casadienta-01-scaled-1-e1748860616951-140x60.png",
+      "why": "img[logo]"
+    },
+    {
+      "src": "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=",
+      "why": "img[logo]",
+      "error": "apiRequestContext.get: Protocol \"data:\" not supported. Expected \"http:\""
+    },
+    {
+      "file": "logo-3.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-4.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-5.png",
+      "src": "https://casadienta.co.id/wp-content/uploads/2025/10/cropped-Logo-Casadienta-01-scaled-e1759993717964.png",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-6.png",
+      "src": "https://casadienta.co.id/wp-content/uploads/2025/10/cropped-Logo-Casadienta-01-scaled-e1759993717964-32x32.png",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Home - Casadienta Dental Clinic",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#000000",
+    "#fafafa",
+    "#f4f1ef"
+  ]
+}
