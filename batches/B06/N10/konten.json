@@ -1,0 +1,142 @@
+{
+  "id": "N10",
+  "hero": {
+    "judul": {
+      "id": "Kenali Layanan Alinea Dental",
+      "en": "Explore Alinea Dental"
+    },
+    "sub": {
+      "id": "Informasi layanan gigi anak dan dewasa di area Bandung. Status cabang, jam, dan ketersediaan perawatan perlu dikonfirmasi langsung ke klinik.",
+      "en": "Information on dental care for children and adults in the Bandung area. Please confirm branch status, hours, and treatment availability with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan informasi cabang",
+      "en": "Ask about a branch"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan dan biaya sebelum berkunjung.",
+        "en": "Removal of tartar buildup. Ask about availability and fees before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi anak sesuai kebutuhan setelah evaluasi dokter gigi.",
+        "en": "Dental checkups and care for children, based on a dentist’s assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang ditentukan setelah pemeriksaan.",
+        "en": "Treatment for a cavity is determined after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan untuk merapikan susunan gigi. Kebutuhannya dinilai melalui konsultasi.",
+        "en": "An option for aligning teeth. A consultation helps determine whether it is suitable."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi bila diperlukan berdasarkan pemeriksaan.",
+        "en": "Care for the inside of a tooth when an examination shows it is needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Cari informasi cabang",
+      "en": "Find branch information"
+    },
+    "penjelasan": {
+      "id": "Konsep pemilih cabang untuk melihat lokasi yang tercantum dan menanyakan status operasional serta jam langsung ke klinik. Informasi cabang belum diverifikasi langsung.",
+      "en": "A proposed branch selector showing listed locations and a way to ask the clinic about current status and hours. Branch details have not been confirmed directly."
+    },
+    "alasan_dipilih": "Direktori mencantumkan Pajajaran, Cihampelas, Padalarang, dan Antapani 2, tetapi status operasional dan jamnya belum dikonfirmasi langsung. Alamat Cihampelas juga berbeda antarsumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Cabang mana yang buka dan bagaimana jamnya?",
+        "en": "Which branches are open, and what are their hours?"
+      },
+      "a": {
+        "id": "Status operasional dan jam tiap cabang belum dikonfirmasi langsung. Hubungi klinik untuk memastikan sebelum berkunjung.",
+        "en": "Current branch status and hours have not been confirmed directly. Please check with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi Alinea Dental belum terverifikasi. Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan; tanyakan langsung kepada klinik.",
+        "en": "Alinea Dental’s official fees have not been verified. Costs depend on the examination and care needed; please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi anak?",
+        "en": "Is dental care available for children?"
+      },
+      "a": {
+        "id": "Listing Pajajaran dan Cihampelas menyebut layanan gigi anak. Konfirmasikan ketersediaannya di cabang tujuan.",
+        "en": "Listings for Pajajaran and Cihampelas mention children’s dental care. Please confirm availability at your preferred branch."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa berkonsultasi tentang behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Behel tercantum dalam daftar layanan. Tanyakan ketersediaan konsultasi; pilihan perawatan ditentukan setelah pemeriksaan.",
+        "en": "Braces appear on the service list. Ask whether consultations are available; treatment options depend on an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia asuransi Anda saat menghubungi klinik untuk menanyakan ketentuannya.",
+        "en": "Insurance information has not been verified. Mention your provider when contacting the clinic to ask about coverage."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi status cabang dan layanan langsung ke Alinea Dental",
+    "en": "Confirm branch status and services with Alinea Dental"
+  },
+  "pesan_wa_default": "Halo, Alinea Dental. Saya ingin menanyakan apakah cabang [nama cabang] sedang beroperasi, jam layanannya, serta ketersediaan dan perkiraan biaya untuk [perawatan]. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu tim Alinea Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi lokasi Alinea Dental tercantum untuk Pajajaran, Cihampelas, Padalarang, dan Antapani 2. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/alinea. Detail cabang dalam konsep ini masih menunggu konfirmasi dari tim klinik. Jika berkenan, saya dapat mengirimkan penjelasannya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Alinea Dental",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Alinea Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami membuat konsep website Alinea Dental yang dapat dilihat di https://maxigrowthstudio.com/alinea.\n\nKonsep ini membantu pengunjung memahami layanan dan menanyakan informasi cabang. Kami melihat beberapa lokasi tercantum di direktori, tetapi status operasional, jam, dan sejumlah detailnya masih perlu konfirmasi dari tim klinik sebelum dipublikasikan sebagai informasi resmi.\n\nProposal PDF terlampir untuk Bapak/Ibu tinjau. Jika berkenan memberi masukan, saya siap menyesuaikan konsepnya. Tidak ada kewajiban untuk melanjutkan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

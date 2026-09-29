@@ -1,0 +1,12 @@
+{
+  "url": "https://alineadental.id/",
+  "captured": "2026-09-29T06:35:09.347Z",
+  "ok": false,
+  "colors": [],
+  "fonts": [],
+  "logos": [],
+  "errors": [
+    "desktop: page.goto: net::ERR_NAME_NOT_RESOLVED at https://alineadental.id/\nCall log:\n  - navigating to \"https://alineadental.id/\", waiting until \"domcontentloaded\"\n",
+    "mobile: page.goto: net::ERR_NAME_NOT_RESOLVED at https://alineadental.id/\nCall log:\n  - navigating to \"https://alineadental.id/\", waiting until \"domcontentloaded\"\n"
+  ]
+}
