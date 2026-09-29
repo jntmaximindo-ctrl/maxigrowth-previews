@@ -57,7 +57,7 @@ jobs:
           python3 scripts/bus.py rclone-conf
           D="${{ steps.j.outputs.dir }}"; KEY=$(echo "${D#batches/}" | tr '/' '-')
           { echo "SURAT TUGAS RISET — ${D#batches/}"; cat "$D/job.json"; } > surat.txt
-          rclone copyto surat.txt "bus:01 Antrean Riset/${KEY}_riset" -v
+          rclone copyto surat.txt "bus:01 Antrean Riset/${KEY}_riset.txt" -v
           echo '{"status": "Riset di GPT"}' > "$D/status.json"
       - name: Commit
         run: |

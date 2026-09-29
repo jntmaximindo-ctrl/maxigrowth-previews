@@ -42,7 +42,7 @@ jobs:
             elif [ "$act" = "REVISI" ]; then
               B=${a%%-*}; W=${a#*-}
               { echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "batches/$B/$W/job.json"; echo; cat "$b"; } > /tmp/surat.txt
-              rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset" -v
+              rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset.txt" -v
             fi
           done < bus-actions.txt
       - name: Commit
