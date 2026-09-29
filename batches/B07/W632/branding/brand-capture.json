@@ -1,0 +1,79 @@
+{
+  "url": "https://www.google.com/maps/search/?api=1&query=GIGI%20KITA%20PEJATEN%20Jakarta%20Selatan",
+  "captured": "2026-09-29T22:40:25.796Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.976,
+      "kinds": {
+        "bg": 1,
+        "text": 2
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.009,
+      "kinds": {
+        "text": 4
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.008,
+      "kinds": {
+        "bg": 2
+      }
+    },
+    {
+      "hex": "#2b7f3f",
+      "share": 0.005,
+      "kinds": {
+        "text": 1
+      }
+    },
+    {
+      "hex": "#d32f28",
+      "share": 0.002,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=33.2766146%2C-112.1874899&zoom=7&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=NWoQEDQnBb1x3FaDCakvZMXoNEw",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "GIGI KITA PEJATEN Jakarta Selatan - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#000000",
+    "#f2f2f2"
+  ]
+}
