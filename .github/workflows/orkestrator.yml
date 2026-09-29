@@ -1,0 +1,209 @@
+# ORKESTRATOR — satu robot terjadwal (tiap 30 menit) menggantikan codex-check, bus-pull, revisi-pull.
+# Hemat menit GitHub Actions. Urutan: cek hasil Codex → bus GPT → revisi → pencari klinik → kirim rakit.
+name: orkestrator
+on:
+  schedule: [{ cron: "*/30 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write, pull-requests: write, issues: write, actions: write }
+concurrency: orkestrator
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q jsonschema google-api-python-client google-auth && curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+      - name: Konfigurasi rclone
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: python3 scripts/bus.py rclone-conf
+      - name: 1 · Cek hasil Codex (merge / minta perbaikan)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAT_A: ${{ secrets.CODEX_PAT_A }}
+          PAT_B: ${{ secrets.CODEX_PAT_B }}
+          REPO: ${{ github.repository }}
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          cp -r scripts /tmp/scripts-main     # pakai skrip pengecek versi main, bukan versi di branch PR
+          gh pr list --state open --limit 50 --json number,headRefName,headRefOid \
+            -q '.[] | select(.headRefName | startswith("codex/")) | "\(.number) \(.headRefName) \(.headRefOid)"' > prs.txt
+          cat prs.txt
+          while read -r PR BR SHA; do
+            [ -z "$PR" ] && continue
+            echo "::group::PR #$PR ($BR @ ${SHA:0:7})"
+            if gh pr view $PR --json comments -q '.comments[].body' | grep -q "codex-check sha=$SHA"; then
+              echo "commit ini sudah diperiksa, lewati"; echo "::endgroup::"; continue
+            fi
+            git fetch -q origin "$BR" && git checkout -q -f "origin/$BR"
+            git diff --name-only origin/main...HEAD > changed.txt
+            eval "$(python /tmp/scripts-main/codex_check.py detect changed.txt | sed 's/^/S_/')"
+            if [ "$S_stage" = "none" ]; then echo "belum ada hasil Codex"; git checkout -q -f origin/main; echo "::endgroup::"; continue; fi
+            cp -r /tmp/scripts-main/. scripts/
+            set +e; python scripts/codex_check.py check "$S_dir" "$S_stage" > check.out 2>&1; code=$?; set -e
+            cat check.out
+            PAT=$PAT_A; [ "$S_stage" = "cekfakta" ] && [ -n "$PAT_B" ] && PAT=$PAT_B
+            JOB=${S_dir#batches/}
+            if [ $code -ne 0 ]; then
+              n=$(gh pr view $PR --json comments -q '[.comments[].body | select(contains("codex-check sha="))] | length')
+              if [ "$n" -ge 2 ]; then
+                gh label create butuh-claude --color d93f0b 2>/dev/null || true
+                gh pr edit $PR --add-label butuh-claude
+                gh pr comment $PR --body "<!-- codex-check sha=$SHA -->
+          Sudah 2x diperbaiki Codex tapi masih gagal. Menunggu review Claude.
+          \`\`\`
+          $(tail -40 check.out)
+          \`\`\`"
+              else
+                GH_TOKEN=$PAT gh pr comment $PR --body "<!-- codex-check sha=$SHA -->
+          @codex Cek otomatis GAGAL. Perbaiki file di \`$S_dir\`, jalankan \`python scripts/codex_check.py check $S_dir $S_stage\` sampai LULUS, lalu commit dan \`git push origin HEAD:$BR\`.
+          \`\`\`
+          $(tail -40 check.out)
+          \`\`\`"
+              fi
+            else
+              gh pr comment $PR --body "<!-- codex-check sha=$SHA --> Cek otomatis LULUS — merge."
+              gh pr ready $PR 2>/dev/null || true
+              GH_TOKEN=$PAT_A gh pr merge $PR --squash --delete-branch
+              git fetch -q origin main && git checkout -q -B main origin/main
+              cp -r /tmp/scripts-main/. scripts/
+              python scripts/codex_check.py finish "$S_dir" "$S_stage"
+              git add "$S_dir" && git commit -q -m "codex-check: $JOB $S_stage lulus" || true
+              git remote set-url origin "https://x-access-token:${PAT_A}@github.com/${REPO}.git"
+              for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
+              git remote set-url origin "https://github.com/${REPO}.git"
+              ISSUE=$(gh issue list --state open --limit 200 --json number,title -q ".[] | select(.title | startswith(\"[$JOB]\")) | .number" | head -1)
+              case "$S_stage" in
+                riset)    gh workflow run codex-dispatch.yml -f job="$JOB" -f tugas=cekfakta -f issue="$ISSUE" ;;
+                cekfakta) [ -n "$ISSUE" ] && gh issue edit $ISSUE --remove-label riset --add-label siap-rakit || true ;;
+                rakit)    [ -n "$ISSUE" ] && { gh issue comment $ISSUE --body "Preview dirakit Codex & lulus cek otomatis → **Siap review**: \`$S_dir/site/index.html\`"; gh issue edit $ISSUE --remove-label siap-rakit --add-label siap-review || true; } ;;
+              esac
+            fi
+            git checkout -q -f origin/main 2>/dev/null || git checkout -q -f main
+            echo "::endgroup::"
+          done < prs.txt
+          git fetch -q origin main && git checkout -q -B main origin/main
+      - name: 2 · Bus GPT · Pindahkan hasil GPT dari root My Drive ke folder bus
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          F="--max-depth 1 --drive-server-side-across-configs -v"
+          rclone move root: "bus:02 Hasil Riset" $F --include "B*-W*_riset.json*" --include "B*-W*_konten.json*" || true
+          rclone move root: "bus:03 Hasil Cek Fakta" $F --include "B*-W*_cekfakta.json*" || true
+      - name: 2 · Bus GPT · Unduh hasil GPT
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          rclone copy "bus:02 Hasil Riset" /tmp/bus/riset --drive-export-formats txt -v || true
+          rclone copy "bus:03 Hasil Cek Fakta" /tmp/bus/cek --drive-export-formats txt -v || true
+          mkdir -p /tmp/bus/riset /tmp/bus/cek; ls -la /tmp/bus/riset /tmp/bus/cek
+      - name: 2 · Bus GPT · Cek + pasang ke repo
+        if: vars.RISET_ENGINE == 'bus'
+        run: python3 scripts/bus.py pull /tmp/bus/riset /tmp/bus/cek | tee bus.log
+      - name: 2 · Bus GPT · Terapkan aksi di Drive
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          TS=$(date +%Y%m%d-%H%M)
+          while read -r act a b c; do
+            [ -z "$act" ] && continue
+            if [ "$act" = "ARSIP" ]; then
+              for pola in $a $b $c; do
+                for src in "02 Hasil Riset" "03 Hasil Cek Fakta" "01 Antrean Riset"; do
+                  rclone lsf "bus:$src" --drive-export-formats txt --include "$pola" | while read -r f; do
+                    rclone moveto "bus:$src/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
+                  done
+                done
+              done
+            elif [ "$act" = "RAKIT" ]; then
+              echo "$a" >> /tmp/rakit.txt
+            elif [ "$act" = "REVISI" ]; then
+              B=${a%%-*}; W=${a#*-}
+              { echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "batches/$B/$W/job.json"; echo; cat "$b"; } > /tmp/surat.txt
+              rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset.txt" -v
+            fi
+          done < bus-actions.txt
+      - name: 3 · Revisi dari chat · ambil
+        id: r
+        run: |
+          mkdir -p /tmp/rev
+          rclone copy "bus:04 Revisi (dari chat Claude)" /tmp/rev --include "B*-W*_revisi*" --drive-export-formats txt -v || true
+          ls -la /tmp/rev
+          TS=$(date -u +%Y%m%d-%H%M)
+          : > /tmp/jobs.txt
+          for f in /tmp/rev/*; do
+            [ -f "$f" ] || continue
+            name=$(basename "$f"); key=${name%%_revisi*}; B=${key%%-*}; W=${key#*-}
+            d="batches/$B/$W"
+            if [ ! -f "$d/job.json" ]; then echo "job tidak ada: $d"; continue; fi
+            mkdir -p "$d/revisi"; cp "$f" "$d/revisi/$TS.md"
+            echo "$B/$W" >> /tmp/jobs.txt
+            echo "$name" >> /tmp/done.txt
+          done
+          sort -u /tmp/jobs.txt -o /tmp/jobs.txt; cat /tmp/jobs.txt
+      - name: 4 · Pencari klinik
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          python3 scripts/sourcing.py apply
+          if gh pr list --state open --json headRefName -q '.[].headRefName' | grep -q '^codex/cari-'; then
+            echo "pencarian kota sedang berjalan"; exit 0; fi
+          NEXT=$(python3 scripts/sourcing.py next)
+          [ -z "$NEXT" ] && exit 0
+          IFS=$'\t' read -r SLUG KOTA NEGARA <<< "$NEXT"
+          python3 scripts/sourcing.py known
+          python3 scripts/sourcing.py mark-diminta "$SLUG"
+          echo "$SLUG|$KOTA|$NEGARA" > /tmp/cari.txt
+      - name: 5 · Commit perubahan
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches data 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -q -m "orkestrator: pembaruan otomatis"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
+      - name: 5b · Sinkron status ke Sheet
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          git pull -q --rebase origin main || true
+          python3 scripts/sheet_sync.py || echo "sinkron Sheet gagal (lanjut)"
+      - name: 6 · Kirim tugas ke Codex (cari / revisi / rakit)
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          if [ -f /tmp/cari.txt ]; then
+            IFS='|' read -r SLUG KOTA NEGARA < /tmp/cari.txt
+            gh workflow run codex-dispatch.yml -f job="$SLUG" -f tugas=cari -f info="$KOTA|$NEGARA"
+          fi
+          if [ -s /tmp/jobs.txt ]; then
+            while read -r job; do gh workflow run codex-dispatch.yml -f job="$job" -f tugas=revisi; sleep 3; done < /tmp/jobs.txt
+          fi
+          [ "${{ vars.RAKIT_ENGINE }}" = "codex" ] || exit 0
+          # PR rakit yang macet >3 jam tanpa hasil Codex → tutup (dihitung 1x gagal) supaya bisa dikirim ulang
+          CUT=$(date -u -d '3 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          gh pr list --state open --limit 100 --json number,headRefName,createdAt,commits \
+            -q ".[] | select(.headRefName | startswith(\"codex/rakit-\")) | select(.createdAt < \"$CUT\") | select(([.commits[].messageHeadline] | map(startswith(\"tugas codex\") | not) | any) | not) | .number" \
+            | while read -r n; do [ -n "$n" ] && gh pr close "$n" --comment "Ditutup otomatis: >3 jam tanpa hasil Codex. Akan dikirim ulang (maks 2x)." --delete-branch; done
+          python3 scripts/bus.py pending-rakit 100 >> /tmp/rakit.txt || true
+          [ -s /tmp/rakit.txt ] || exit 0
+          OPEN=$(gh pr list --state open --limit 100 --json headRefName -q '.[].headRefName' | grep '^codex/rakit-' || true)
+          JALAN=$(echo "$OPEN" | grep -c . || true)
+          sort -u /tmp/rakit.txt | while read -r job; do
+            [ -z "$job" ] && continue
+            [ "$JALAN" -ge 5 ] && break
+            BR="codex/rakit-$(echo "$job" | tr '/' '-')"
+            echo "$OPEN" | grep -qx "$BR" && continue
+            GAGAL=$(gh pr list --state closed --head "$BR" --limit 20 --json mergedAt,createdAt -q '[.[] | select(.mergedAt == null and .createdAt > "2026-09-29T10:00:00Z")] | length')
+            if [ "${GAGAL:-0}" -ge 2 ]; then echo "SKIP $job: sudah $GAGAL kali gagal, butuh dicek"; continue; fi
+            gh workflow run codex-dispatch.yml -f job="$job" -f tugas=rakit; JALAN=$((JALAN+1)); sleep 3
+          done
+      - name: 7 · Revisi dari chat · arsipkan file di Drive
+        run: |
+          [ -f /tmp/done.txt ] || exit 0
+          TS=$(date -u +%Y%m%d-%H%M)
+          while read -r name; do
+            rclone lsf "bus:04 Revisi (dari chat Claude)" --drive-export-formats txt --include "${name%.txt}*" | while read -r f; do
+              rclone moveto "bus:04 Revisi (dari chat Claude)/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
+            done
+          done < /tmp/done.txt
