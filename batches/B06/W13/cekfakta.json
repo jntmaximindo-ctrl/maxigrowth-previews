@@ -1,0 +1,24 @@
+{
+  "id": "W13",
+  "diperiksa": 25,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/oratioclinic/",
+      "di_sumber": "Tautan berlabel „Instagram”; URL lengkapnya tidak tertulis dalam teks halaman yang terbaca.",
+      "src": "https://www.oratioclinic.com/oratio-fide/",
+      "catatan": "Tujuan tautan tidak berhasil diverifikasi, sehingga URL yang tercatat belum dapat dinyatakan benar atau salah. ([oratioclinic.com](https://www.oratioclinic.com/oratio-fide/))"
+    },
+    {
+      "path": "harga[3].perawatan",
+      "tercatat": "Pemasangan behel metal; harga pembanding Bandung, bukan tarif Oratio",
+      "di_sumber": "Niti mencantumkan bracket metal mulai dari Rp5,5 juta, tetapi cabang yang dicantumkannya berada di Bekasi, Jakarta, dan Tangerang.",
+      "src": "https://www.niti.co.id/promo",
+      "catatan": "Angka batas atas memang tertulis, tetapi sumber ini bukan pembanding klinik di Bandung. Keterbatasan tersebut juga sudah diakui dalam catatan riset. ([niti.co.id](https://www.niti.co.id/promo))"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.oratioclinic.com/jadwal-dokter-oratio/"
+  ],
+  "kritis_ok": true
+}

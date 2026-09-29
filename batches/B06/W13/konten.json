@@ -1,0 +1,172 @@
+{
+  "id": "W13",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi untuk keluarga di Bandung",
+      "en": "Dental care for your family in Bandung"
+    },
+    "sub": {
+      "id": "Kenali layanan gigi di Klinik Utama Oratio dan Klinik Utama Oratio Fide. Pilih cabang yang sesuai, lalu hubungi tim klinik untuk menanyakan jadwal.",
+      "en": "Explore dental services at Klinik Utama Oratio and Klinik Utama Oratio Fide. Choose a location and contact the clinic to check availability."
+    },
+    "cta": {
+      "id": "Tanya jadwal via WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi umum",
+        "en": "General dental check-up"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kondisi gigi Anda untuk mengetahui pilihan perawatan yang sesuai.",
+        "en": "Talk through your concerns and dental health to understand the care options available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sebagai bagian dari perawatan kesehatan mulut.",
+        "en": "Removal of tartar as part of routine oral care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan perawatan saluran akar",
+        "en": "Fillings and root canal care"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan untuk gigi yang berlubang atau mengalami masalah pada bagian dalamnya, sesuai hasil pemeriksaan.",
+        "en": "Care options for cavities or problems inside a tooth, based on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi untuk anak. Oratio Fide juga memiliki area bermain anak.",
+        "en": "Dental check-ups and care for children. Oratio Fide also has a children’s play area."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel dan Invisalign",
+        "en": "Braces and Invisalign"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan perawatan untuk merapikan susunan gigi sesuai kebutuhan Anda.",
+        "en": "Discuss options for aligning your teeth based on your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi dan bedah gigi bungsu",
+        "en": "Tooth extraction and wisdom tooth surgery"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan sebelum tindakan pencabutan atau bedah gigi bungsu.",
+        "en": "Ask about the assessment needed before an extraction or wisdom tooth surgery."
+      }
+    },
+    {
+      "nama": {
+        "id": "Implan dan pengganti gigi",
+        "en": "Dental implants and tooth replacement"
+      },
+      "ringkas": {
+        "id": "Tersedia pilihan implan, crown, bridge, dan gigi palsu lepasan untuk didiskusikan saat konsultasi.",
+        "en": "Ask about implants, crowns, bridges, and removable dentures during your consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gusi",
+        "en": "Gum care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan gusi agar dokter dapat menilai langkah perawatan yang sesuai.",
+        "en": "Discuss gum concerns so a dentist can assess suitable next steps."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan cabang dan layanan yang Anda cari",
+      "en": "Find the location and service you need"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis perawatan, lalu lihat cabang dan dokter yang relevan. Jadwal ditampilkan setelah dikonfirmasi klinik, dengan tombol WhatsApp sesuai cabang untuk menanyakan ketersediaan.",
+      "en": "Choose a treatment to see relevant locations and dentists. Once confirmed by the clinic, schedules can appear alongside a WhatsApp button for the selected location."
+    },
+    "alasan_dipilih": "Oratio memiliki dua cabang di Bandung dan beragam layanan gigi. Pemilih cabang dan dokter dapat membantu pengunjung menemukan kontak yang tepat tanpa menampilkan jadwal yang belum dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the clinic hours?"
+      },
+      "a": {
+        "id": "Menurut halaman kontak, kedua cabang buka Senin–Jumat: Oratio Fide pukul 07.00–20.00 WIB dan Oratio pukul 08.00–20.00 WIB. Mohon konfirmasi jam Sabtu dan ketersediaan dokter langsung ke cabang tujuan.",
+        "en": "The contact page lists weekday hours of 7 a.m.–8 p.m. for Oratio Fide and 8 a.m.–8 p.m. for Oratio. Please check Saturday hours and dentist availability with your chosen location."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada kondisi gigi dan tindakan yang diperlukan. Hubungi cabang tujuan untuk menanyakan informasi biaya; dokter dapat menjelaskan pilihan perawatan setelah pemeriksaan.",
+        "en": "Costs depend on your dental condition and the care needed. Contact your preferred location for pricing information; a dentist can explain treatment options after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah Oratio Fide menerima asuransi?",
+        "en": "Does Oratio Fide accept insurance?"
+      },
+      "a": {
+        "id": "Oratio Fide tercantum dalam jaringan rekanan BCA Life dan daftar provider Chubb/Admedika yang diriset. Sebelum berkunjung, konfirmasi ke klinik dan penyedia asuransi apakah polis serta tindakan Anda termasuk dalam cakupan.",
+        "en": "Oratio Fide appears in the BCA Life network and a Chubb/Admedika provider list reviewed for this page. Before visiting, check with the clinic and your insurer whether your policy and planned care are covered."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia behel dan Invisalign?",
+        "en": "Are braces and Invisalign available?"
+      },
+      "a": {
+        "id": "Ya, keduanya tercantum dalam layanan Oratio. Konsultasikan kondisi gigi Anda untuk mengetahui pilihan perawatan dan jadwal dokter yang tersedia.",
+        "en": "Yes, both are listed among Oratio’s services. Arrange a consultation to discuss suitable options and dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak bisa periksa gigi di sini?",
+        "en": "Can children have a dental check-up here?"
+      },
+      "a": {
+        "id": "Ya, tersedia layanan perawatan gigi anak. Oratio Fide memiliki area bermain anak. Hubungi cabang tujuan untuk menanyakan jadwal pemeriksaan.",
+        "en": "Yes, children’s dental care is available. Oratio Fide has a children’s play area. Contact your preferred location to ask about appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Punya pertanyaan tentang perawatan? Hubungi cabang Oratio yang Anda tuju.",
+    "en": "Questions about dental care? Contact your preferred Oratio location."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi gigi di [Oratio Fide / Oratio] untuk [keluhan atau perawatan]. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, tim Oratio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Oratio memiliki dua cabang di Bandung, di Dr. Cipto dan Trunojoyo. Kami sudah membuat konsep website tanpa biaya untuk tim lihat: https://maxigrowthstudio.com/oratio-fide. Konsepnya membantu pengunjung memilih cabang sebelum menghubungi klinik. Jika berkenan, saya siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Oratio",
+    "email_isi": "Yth. Manajemen Oratio,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Oratio melayani pasien melalui dua cabang di Kota Bandung. Kami telah menyiapkan konsep website yang membantu pengunjung mengenali layanan dan memilih cabang sebelum menghubungi klinik.\n\nKonsepnya dapat dilihat tanpa biaya di https://maxigrowthstudio.com/oratio-fide. Proposal PDF juga saya lampirkan sebagai bahan tinjauan. Ini masih berupa konsep; informasi jadwal dan operasional perlu dikonfirmasi bersama tim Oratio sebelum digunakan.\n\nJika berkenan, saya terbuka untuk menerima masukan atau berdiskusi singkat.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

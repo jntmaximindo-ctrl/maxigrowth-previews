@@ -1,0 +1,95 @@
+{
+  "url": "https://www.oratioclinic.com/",
+  "captured": "2026-09-29T06:34:57.916Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#f8f0e1",
+      "share": 0.299,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#e4b357",
+      "share": 0.299,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#fbf3e2",
+      "share": 0.111,
+      "kinds": {
+        "bg": 2
+      }
+    },
+    {
+      "hex": "#5d3c17",
+      "share": 0.109,
+      "kinds": {
+        "text": 21
+      }
+    },
+    {
+      "hex": "#432b10",
+      "share": 0.072,
+      "kinds": {
+        "text": 6
+      }
+    },
+    {
+      "hex": "#754d1f",
+      "share": 0.056,
+      "kinds": {
+        "text": 4
+      }
+    },
+    {
+      "hex": "#23356c",
+      "share": 0.048,
+      "kinds": {
+        "bg": 2,
+        "cta": 2,
+        "text": 3
+      }
+    },
+    {
+      "hex": "#69727d",
+      "share": 0.007,
+      "kinds": {
+        "bg": 4
+      }
+    }
+  ],
+  "fonts": [
+    "PH Handbook",
+    "DM Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.oratioclinic.com/wp-content/uploads/2026/09/Logo-Oratio-Group-Original-1.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.webp",
+      "src": "https://www.oratioclinic.com/wp-content/uploads/2026/09/Frame-4.webp",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-3.svg",
+      "src": "https://www.oratioclinic.com/wp-content/uploads/2023/03/Logo_Oratio_Group.svg",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Homepage - Oratio Group",
+  "theme_color": null,
+  "neutrals": [
+    "#f8f8f8",
+    "#000000",
+    "#ffffff",
+    "#4f4c47"
+  ]
+}
