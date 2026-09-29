@@ -62,5 +62,33 @@ def main():
     return 0
 
 
+def links():
+    """Isi kolom 'Link preview' yang masih kosong dari data/preview-links.json (butuh env PREVIEW_BASE)."""
+    base = os.environ.get("PREVIEW_BASE", "").rstrip("/")
+    f = ROOT / "data" / "preview-links.json"
+    if not base or not f.exists():
+        print("PREVIEW_BASE / preview-links.json belum ada"); return 0
+    m = json.loads(f.read_text(encoding="utf-8"))
+    s = svc()
+    tab, hdr, _ = read(s)
+    sid = os.environ["SHEET_ID"]
+    rows = s.values().get(spreadsheetId=sid, range=f"'{tab}'!A1:ZZ").execute().get("values", [])
+    ci = {h: i for i, h in enumerate(rows[0])}
+    if "Link preview" not in ci:
+        print("kolom Link preview tidak ada"); return 1
+    get = lambda r, h: (r[ci[h]] if ci[h] < len(r) else "").strip()
+    data, log = [], []
+    for n, r in enumerate(rows[1:], start=2):
+        kid = get(r, "ID")
+        if kid in m and not get(r, "Link preview"):
+            url = f"{base}/{m[kid]}/"
+            data.append({"range": f"'{tab}'!{col(ci['Link preview'])}{n}", "values": [[url]]})
+            log.append(f"{kid}: {url}")
+    if data:
+        s.values().batchUpdate(spreadsheetId=sid, body={"valueInputOption": "RAW", "data": data}).execute()
+    print("\n".join(log) or "semua link sudah terisi")
+    return 0
+
+
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(links() if sys.argv[1:] == ["links"] else main())
