@@ -1,4 +1,4 @@
-# Serahkan satu tugas ke Codex (kuota ChatGPT Plus) lewat komentar @codex di PR.
+# Serahkan satu tugas ke Codex (kuota ChatGPT Plus, akun dipilih Codex pool) lewat komentar @codex di PR.
 #   tugas=riset    → GPT-A (akun GitHub utama, secret CODEX_PAT_A)  : riset.json + konten.json
 #   tugas=cekfakta → GPT-B (akun GitHub kedua, secret CODEX_PAT_B)  : cekfakta.json (pemeriksa independen)
 # Dipanggil otomatis oleh research.yml / codex-check.yml, atau manual dari tab Actions.
@@ -37,6 +37,11 @@ jobs:
             -q '[.[] | select(.mergedAt == null and .createdAt > "2026-09-30T00:00:00Z")] | length')
           if [ "${GAGAL:-0}" -ge 2 ]; then
             echo "STOP $BR: sudah $GAGAL kali gagal. Perlu dicek manual."; exit 0; fi
+          # CODEX POOL: pilih akun ChatGPT yang kuotanya masih ada (cek fakta menghindari slot A = beda pemeriksa)
+          SLOT=$(python3 scripts/codex_pool.py pilih $([ "$TUGAS" = "cekfakta" ] && echo A))
+          [ -n "$SLOT" ] || { echo "Semua slot Codex sedang habis kuota — tugas ditunda, akan dicoba lagi otomatis."; exit 0; }
+          echo "slot=${SLOT%% *}" >> $GITHUB_OUTPUT
+          echo "secret=${SLOT#* }" >> $GITHUB_OUTPUT
           mkdir -p .codex/tugas
           if [ "$TUGAS" = "cari" ]; then
             KOTA="${INFO%%|*}"; NEGARA="${INFO#*|}"; NAMA="$KOTA"
@@ -49,7 +54,7 @@ jobs:
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           git push origin --delete "$BR" 2>/dev/null || true
           git checkout -b "$BR"
-          git add .codex && git commit -m "tugas codex: $TUGAS $JOB"
+          git add .codex && git commit --allow-empty -m "tugas codex: $TUGAS $JOB"
           git push -u origin "$BR"
           URL=$(gh pr create --draft --base main --head "$BR" \
             --title "[$JOB] $TUGAS · $NAMA" \
@@ -59,9 +64,10 @@ jobs:
       - name: Panggil Codex (@codex)
         if: steps.pr.outputs.url != ''
         env:
-          # riset → akun A, cekfakta → akun B (akun berbeda = kuota Plus berbeda + pemeriksa independen)
-          GH_TOKEN: ${{ github.event.inputs.tugas == 'cekfakta' && secrets.CODEX_PAT_B || secrets.CODEX_PAT_A }}
+          # akun dipilih Codex pool (data/codex-pool.json); fallback ke slot A
+          GH_TOKEN: ${{ secrets[steps.pr.outputs.secret] || secrets.CODEX_PAT_A }}
           JOB: ${{ github.event.inputs.job }}
           TUGAS: ${{ github.event.inputs.tugas }}
         run: |
-          gh pr comment "${{ steps.pr.outputs.url }}" --body "@codex Kerjakan tugas di file \`.codex/tugas/${{ steps.pr.outputs.slug }}-$TUGAS.md\` untuk job \`batches/$JOB\`. Ikuti AGENTS.md. Push hasilnya ke branch PR ini (jangan buat PR baru bila bisa)."
+          gh pr comment "${{ steps.pr.outputs.url }}" --body "<!-- slot=${{ steps.pr.outputs.slot }} t=$(date -u +%Y-%m-%dT%H:%M:%SZ) -->
+          @codex Kerjakan tugas di file \`.codex/tugas/${{ steps.pr.outputs.slug }}-$TUGAS.md\` untuk job \`batches/$JOB\`. Ikuti AGENTS.md. Push hasilnya ke branch PR ini (jangan buat PR baru bila bisa)."

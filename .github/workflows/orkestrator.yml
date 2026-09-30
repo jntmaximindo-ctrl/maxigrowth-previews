@@ -15,7 +15,7 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install -q jsonschema google-api-python-client google-auth && curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+      - run: pip install -q jsonschema pyyaml google-api-python-client google-auth && curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
       - name: Konfigurasi rclone
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: python3 scripts/bus.py rclone-conf
@@ -42,7 +42,8 @@ jobs:
           git add -A -- . ':!dist'
           if ! git diff --cached --quiet; then
             git commit -q -F /tmp/jb/pesan.txt
-            git push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+            git -c http.https://github.com/.extraheader= push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+            git rev-parse HEAD > /tmp/jb/commit.txt
           fi
           while IFS=$'\t' read -r k v; do [ -n "$k" ] && gh variable set "$k" --body "$v"; done < /tmp/jb/vars.tsv
           while IFS= read -r r; do
@@ -58,6 +59,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PAT_A: ${{ secrets.CODEX_PAT_A }}
           PAT_B: ${{ secrets.CODEX_PAT_B }}
+          CODEX_PAT_A: ${{ secrets.CODEX_PAT_A }}
+          CODEX_PAT_B: ${{ secrets.CODEX_PAT_B }}
           REPO: ${{ github.repository }}
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
@@ -78,7 +81,9 @@ jobs:
             cp -r /tmp/scripts-main/. scripts/
             set +e; python scripts/codex_check.py check "$S_dir" "$S_stage" > check.out 2>&1; code=$?; set -e
             cat check.out
-            PAT=$PAT_A; [ "$S_stage" = "cekfakta" ] && [ -n "$PAT_B" ] && PAT=$PAT_B
+            # slot Codex dari pool (cek fakta menghindari slot A supaya pemeriksa beda akun)
+            SL=$(python3 /tmp/scripts-main/codex_pool.py pilih $([ "$S_stage" = "cekfakta" ] && echo A))
+            SLID=${SL%% *}; SEC=${SL#* }; [ -n "$SL" ] || SEC=CODEX_PAT_A; PAT=${!SEC:-$PAT_A}
             JOB=${S_dir#batches/}
             if [ $code -ne 0 ]; then
               n=$(gh pr view $PR --json comments -q '[.comments[].body | select(contains("codex-check sha="))] | length')
@@ -90,8 +95,10 @@ jobs:
           \`\`\`
           $(tail -40 check.out)
           \`\`\`"
+              elif [ -z "$SL" ]; then
+                echo "semua slot Codex habis kuota — permintaan perbaikan ditunda ke run berikutnya"
               else
-                GH_TOKEN=$PAT gh pr comment $PR --body "<!-- codex-check sha=$SHA -->
+                GH_TOKEN=$PAT gh pr comment $PR --body "<!-- codex-check sha=$SHA --><!-- slot=${SLID:-A} t=$(date -u +%Y-%m-%dT%H:%M:%SZ) -->
           @codex Cek otomatis GAGAL. Perbaiki file di \`$S_dir\`, jalankan \`python scripts/codex_check.py check $S_dir $S_stage\` sampai LULUS, lalu commit dan \`git push origin HEAD:$BR\`.
           \`\`\`
           $(tail -40 check.out)
@@ -119,6 +126,22 @@ jobs:
             echo "::endgroup::"
           done < prs.txt
           git fetch -q origin main && git checkout -q -B main origin/main
+      - name: 1b · Codex pool — slot kena limit/gagal/diam → pindah ke akun lain
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODEX_PAT_A: ${{ secrets.CODEX_PAT_A }}
+          CODEX_PAT_B: ${{ secrets.CODEX_PAT_B }}
+        run: |
+          python3 scripts/codex_pool.py pindai || true
+          [ -f /tmp/pool/aksi.tsv ] || exit 0
+          while IFS=$'\t' read -r PR SL SEC F; do
+            [ -n "$PR" ] || continue
+            if [ "$F" = "butuh-claude" ]; then
+              gh label create butuh-claude --color d93f0b 2>/dev/null || true
+              gh pr edit "$PR" --add-label butuh-claude || true; continue
+            fi
+            GH_TOKEN="${!SEC}" gh pr comment "$PR" --body-file "$F" || true
+          done < /tmp/pool/aksi.tsv
       - name: 2 · Bus GPT · Pindahkan hasil GPT dari root My Drive ke folder bus
         if: vars.RISET_ENGINE == 'bus'
         run: |
@@ -197,6 +220,12 @@ jobs:
         run: |
           N=$(python3 scripts/auto_intake.py || echo 0)
           if [ "${N:-0}" -gt 0 ]; then gh workflow run intake.yml -f size="$N"; echo "intake $N klinik"; fi
+      - name: 4c · Failover GPT → Codex (klinik tertahan di jalur GPT)
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          [ -n "$(python3 scripts/codex_pool.py pilih)" ] || { echo "semua slot Codex habis — failover ditunda"; exit 0; }
+          python3 scripts/failover.py > /tmp/failover.txt || true
+          cat /tmp/failover.txt
       - name: 5 · Commit perubahan
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
@@ -217,6 +246,9 @@ jobs:
           if [ -f /tmp/cari.txt ]; then
             IFS='|' read -r SLUG KOTA NEGARA < /tmp/cari.txt
             gh workflow run codex-dispatch.yml -f job="$SLUG" -f tugas=cari -f info="$KOTA|$NEGARA"
+          fi
+          if [ -s /tmp/failover.txt ]; then
+            while IFS=$'\t' read -r job tg; do [ -n "$job" ] && gh workflow run codex-dispatch.yml -f job="$job" -f tugas="$tg"; sleep 3; done < /tmp/failover.txt
           fi
           if [ -s /tmp/jobs.txt ]; then
             while read -r job; do gh workflow run codex-dispatch.yml -f job="$job" -f tugas=revisi; sleep 3; done < /tmp/jobs.txt
@@ -275,6 +307,17 @@ jobs:
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           git add data/deploy-hash.txt data/preview-links.json 2>/dev/null || true
           git diff --cached --quiet || { git commit -q -m "deploy preview"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
+      - name: 8b · Batalkan perubahan Claude bila run ini gagal
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.CLAUDE_PAT }}
+        run: |
+          [ -s /tmp/jb/commit.txt ] || exit 0
+          C=$(cat /tmp/jb/commit.txt)
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git fetch -q origin main && git checkout -q -f -B main origin/main
+          git revert --no-edit "$C" && git -c http.https://github.com/.extraheader= push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+          echo "- ⏪ perubahan Claude ${C:0:7} DIBATALKAN otomatis karena run ini gagal" >> /tmp/jb/hasil.md
       - name: 9 · Laporan robot ke Drive (dibaca Claude)
         if: always()
         env:
@@ -284,3 +327,17 @@ jobs:
         run: |
           python3 scripts/jembatan.py laporan > /dev/null || true
           [ -f /tmp/jb/laporan.md ] && rclone copyto /tmp/jb/laporan.md "bus:09 Laporan Robot/laporan-terakhir.md" || true
+      - name: 9b · Eskalasi ke pemilik (hanya hal yang tidak bisa diperbaiki robot/Claude)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          NUM=$(gh issue list --state open --label butuh-rizqi --json number -q '.[0].number' 2>/dev/null || true)
+          if [ -s /tmp/jb/alarm-manusia.md ]; then
+            [ -n "$NUM" ] && exit 0
+            gh label create butuh-rizqi --color b60205 2>/dev/null || true
+            { echo "@${{ github.repository_owner }} Robot butuh bantuanmu untuk hal yang tidak bisa diperbaiki otomatis:"; echo; cat /tmp/jb/alarm-manusia.md; echo; echo "Balas saja di chat Claude — Claude akan memandu langkahnya."; } > /tmp/esk.md
+            gh issue create --title "🚨 Butuh bantuan pemilik" --label butuh-rizqi --body-file /tmp/esk.md
+          elif [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Sudah normal kembali — ditutup otomatis."
+          fi
