@@ -1,0 +1,1002 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>VDC Valerio Dental Care — Bandung</title>
+    <meta
+      name="description"
+      content="Konsep website VDC Valerio Dental Care di Bandung: layanan, panduan penggantian gigi, dan informasi kunjungan."
+    />
+    <style>
+      :root {
+        --navy: #071c35;
+        --blue: #176b9b;
+        --aqua: #6fe1d5;
+        --ice: #eefbfa;
+        --ink: #10283b;
+        --muted: #5d7180;
+        --white: #fff;
+        --r: 26px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          sans-serif;
+        color: var(--ink);
+        background: #fbfefd;
+      }
+      button,
+      a {
+        font: inherit;
+      }
+      .preview {
+        padding: 9px 5%;
+        text-align: center;
+        background: var(--aqua);
+        color: var(--navy);
+        font-size: 13px;
+        font-weight: 750;
+      }
+      .nav {
+        height: 76px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1180px;
+        margin: auto;
+        padding: 0 24px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 11px;
+        text-decoration: none;
+        color: var(--navy);
+        font-weight: 900;
+      }
+      .mark {
+        width: 43px;
+        height: 43px;
+        border-radius: 14px;
+        background: var(--navy);
+        color: var(--aqua);
+        display: grid;
+        place-items: center;
+        letter-spacing: -2px;
+      }
+      .links {
+        display: flex;
+        gap: 26px;
+        align-items: center;
+      }
+      .links a {
+        color: var(--ink);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .lang,
+      .burger {
+        border: 1px solid #ccdadd;
+        background: white;
+        border-radius: 999px;
+        padding: 9px 13px;
+        cursor: pointer;
+      }
+      .burger {
+        display: none;
+      }
+      .hero {
+        position: relative;
+        overflow: hidden;
+        background: var(--navy);
+        color: white;
+        min-height: 650px;
+      }
+      .hero:before,
+      .hero:after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(1px);
+      }
+      .hero:before {
+        width: 520px;
+        height: 520px;
+        background: radial-gradient(circle, #176b9b, transparent 67%);
+        right: -90px;
+        top: -110px;
+      }
+      .hero:after {
+        width: 280px;
+        height: 280px;
+        border: 1px solid #63dcd266;
+        right: 12%;
+        bottom: -120px;
+      }
+      .hero-in {
+        max-width: 1180px;
+        margin: auto;
+        padding: 92px 24px;
+        display: grid;
+        grid-template-columns: 1.08fr 0.92fr;
+        gap: 70px;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+      }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--aqua);
+        font-size: 12px;
+        font-weight: 800;
+      }
+      .hero h1 {
+        font-size: clamp(43px, 6vw, 76px);
+        line-height: 0.98;
+        letter-spacing: -0.055em;
+        margin: 18px 0 24px;
+        max-width: 800px;
+      }
+      .hero p {
+        color: #c9d9e2;
+        font-size: 18px;
+        line-height: 1.7;
+        max-width: 640px;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 32px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 20px;
+        border-radius: 999px;
+        text-decoration: none;
+        font-weight: 800;
+        border: 0;
+        cursor: pointer;
+      }
+      .primary {
+        background: var(--aqua);
+        color: var(--navy);
+      }
+      .ghost {
+        border: 1px solid #ffffff55;
+        color: white;
+      }
+      .orb {
+        width: min(390px, 85vw);
+        aspect-ratio: 1;
+        margin: auto;
+        border-radius: 46% 54% 63% 37%;
+        background: linear-gradient(145deg, #72e2d6, #19769f 60%, #0a2c4e);
+        display: grid;
+        place-items: center;
+        box-shadow: 0 35px 80px #0008;
+        animation: float 5s ease-in-out infinite;
+        position: relative;
+      }
+      .orb svg {
+        width: 62%;
+        filter: drop-shadow(0 20px 18px #07213a99);
+      }
+      @keyframes float {
+        50% {
+          transform: translateY(-15px) rotate(2deg);
+        }
+      }
+      .section {
+        padding: 95px 24px;
+      }
+      .wrap {
+        max-width: 1180px;
+        margin: auto;
+      }
+      .head {
+        max-width: 700px;
+        margin-bottom: 45px;
+      }
+      .head h2 {
+        font-size: clamp(34px, 4vw, 54px);
+        letter-spacing: -0.045em;
+        line-height: 1.04;
+        margin: 10px 0 16px;
+      }
+      .head p,
+      .card p {
+        color: var(--muted);
+        line-height: 1.65;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid #deebe9;
+        border-radius: var(--r);
+        padding: 28px;
+      }
+      .icon {
+        width: 45px;
+        height: 45px;
+        border-radius: 14px;
+        background: var(--ice);
+        display: grid;
+        place-items: center;
+        color: var(--blue);
+        font-weight: 900;
+      }
+      .card h3 {
+        margin: 20px 0 8px;
+      }
+      .check {
+        background: var(--ice);
+      }
+      .checkbox {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        background: white;
+        border-radius: 34px;
+        overflow: hidden;
+        border: 1px solid #d8ebe8;
+      }
+      .checkintro {
+        padding: 45px;
+        background: var(--navy);
+        color: white;
+      }
+      .checkintro p {
+        color: #cbd9e1;
+        line-height: 1.7;
+      }
+      .checkform {
+        padding: 45px;
+      }
+      .choices {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin: 14px 0 25px;
+      }
+      .choice {
+        padding: 10px 14px;
+        border: 1px solid #b9d4d1;
+        background: #fff;
+        border-radius: 99px;
+        cursor: pointer;
+      }
+      .choice.on {
+        background: var(--navy);
+        color: white;
+      }
+      .result {
+        padding: 18px;
+        border-radius: 18px;
+        background: var(--ice);
+        line-height: 1.55;
+        min-height: 86px;
+      }
+      .feature {
+        background: var(--navy);
+        color: white;
+      }
+      .feature .head p {
+        color: #bed0db;
+      }
+      .guide {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 34px;
+      }
+      .panel {
+        background: #102d4b;
+        border: 1px solid #ffffff1c;
+        padding: 30px;
+        border-radius: 28px;
+      }
+      .panel label {
+        display: block;
+        color: #bcd0da;
+        margin: 18px 0 8px;
+      }
+      .panel select {
+        width: 100%;
+        padding: 14px;
+        border-radius: 12px;
+        border: 0;
+      }
+      .steps {
+        display: grid;
+        gap: 12px;
+      }
+      .step {
+        display: flex;
+        gap: 15px;
+        background: #fff;
+        color: var(--ink);
+        padding: 19px;
+        border-radius: 18px;
+      }
+      .num {
+        flex: 0 0 33px;
+        height: 33px;
+        background: var(--aqua);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        font-weight: 900;
+      }
+      .visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+      }
+      .map {
+        min-height: 360px;
+        border-radius: 30px;
+        background: linear-gradient(135deg, #dcefed, #f9ffff);
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 25px;
+        position: relative;
+        overflow: hidden;
+      }
+      .map:before {
+        content: "";
+        position: absolute;
+        inset: -20%;
+        background: repeating-linear-gradient(
+          35deg,
+          transparent 0 30px,
+          #c6dfdc 31px 33px
+        );
+        opacity: 0.6;
+      }
+      .map > * {
+        position: relative;
+      }
+      .detail {
+        padding: 25px;
+      }
+      .status {
+        display: inline-flex;
+        gap: 8px;
+        align-items: center;
+        font-weight: 800;
+      }
+      .dot {
+        width: 9px;
+        height: 9px;
+        background: #36bd75;
+        border-radius: 50%;
+      }
+      .verify {
+        font-size: 11px;
+        color: #ad7843;
+        white-space: nowrap;
+      }
+      .wa-builder {
+        margin-top: 25px;
+        padding: 23px;
+        border-radius: 22px;
+        background: var(--ice);
+      }
+      textarea {
+        width: 100%;
+        min-height: 90px;
+        border: 1px solid #c6d9d6;
+        border-radius: 13px;
+        padding: 13px;
+        margin: 10px 0;
+        resize: vertical;
+      }
+      .faq {
+        max-width: 820px;
+        margin: auto;
+      }
+      .faq button {
+        width: 100%;
+        text-align: left;
+        border: 0;
+        background: white;
+        padding: 20px 0;
+        font-weight: 800;
+        font-size: 17px;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+      .faq-item {
+        border-bottom: 1px solid #dce7e6;
+      }
+      .answer {
+        display: none;
+        color: var(--muted);
+        line-height: 1.6;
+        padding: 0 30px 20px 0;
+      }
+      .faq-item.open .answer {
+        display: block;
+      }
+      .cta {
+        margin: 20px auto 90px;
+        max-width: 1132px;
+        background: linear-gradient(120deg, var(--blue), var(--navy));
+        color: white;
+        border-radius: 36px;
+        padding: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+      }
+      .cta h2 {
+        font-size: clamp(30px, 4vw, 50px);
+        margin: 0;
+        max-width: 700px;
+      }
+      .sources {
+        font-size: 12px;
+        color: var(--muted);
+        padding: 25px 24px 50px;
+      }
+      .sources a {
+        color: var(--blue);
+      }
+      footer {
+        background: var(--navy);
+        color: #bcd0dc;
+        padding: 35px 24px;
+      }
+      footer .wrap {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      body.en [data-id],
+      body:not(.en) [data-en] {
+        display: none;
+      }
+      @media (max-width: 800px) {
+        .links {
+          display: none;
+          position: absolute;
+          z-index: 20;
+          right: 18px;
+          top: 117px;
+          background: white;
+          padding: 20px;
+          border-radius: 20px;
+          box-shadow: 0 15px 40px #0015;
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .links.open {
+          display: flex;
+        }
+        .burger {
+          display: block;
+        }
+        .hero-in,
+        .checkbox,
+        .guide,
+        .visit {
+          grid-template-columns: 1fr;
+        }
+        .hero-in {
+          padding-top: 60px;
+          gap: 35px;
+        }
+        .orb {
+          width: 270px;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .section {
+          padding: 70px 20px;
+        }
+        .checkintro,
+        .checkform {
+          padding: 28px;
+        }
+        .cta {
+          margin: 15px 15px 70px;
+          padding: 35px 25px;
+          display: block;
+        }
+        .cta .btn {
+          margin-top: 25px;
+        }
+      footer .wrap {
+        display: block;
+      }
+        .nav {
+          padding: 0 16px;
+        }
+        .brand span:last-child {
+        font-size: 13px;
+      }
+    }
+    /* Accessibility: retain a visible keyboard path and respect motion settings. */
+    :focus-visible {
+      outline: 3px solid var(--aqua);
+      outline-offset: 4px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div class="preview" data-lint-ok>
+      Konsep website oleh Maxi Growth Studio — pratinjau, bukan situs resmi
+      klinik
+    </div>
+    <nav class="nav">
+      <a class="brand" href="#top"
+        ><span class="mark">VDC</span
+        ><span
+          >Valerio Dental Care <small class="verify">✎ verifikasi</small></span
+        ></a
+      >
+      <div class="links" id="menu">
+        <a href="#layanan"
+          ><span data-id>Layanan</span><span data-en>Services</span></a
+        ><a href="#panduan"
+          ><span data-id>Panduan gigi</span><span data-en>Tooth guide</span></a
+        ><a href="#kunjungan"
+          ><span data-id>Kunjungan</span><span data-en>Visit</span></a
+        ><a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <button class="lang" id="lang">ID / EN</button>
+        <button class="burger" id="burger" aria-label="Buka menu">☰</button>
+      </div>
+    </nav>
+    <main id="top">
+      <section class="hero">
+        <div class="hero-in">
+          <div>
+            <div class="eyebrow">Bandung · dental care</div>
+            <h1 data-id>Rawat senyum, mulai dari informasi yang jelas.</h1>
+            <h1 data-en>
+              Care for your smile, starting with clear information.
+            </h1>
+            <p data-id>
+              Dari perawatan rutin hingga pilihan penggantian gigi, temukan
+              informasi awal sebelum berkonsultasi di klinik Jl. Gajah.
+            </p>
+            <p data-en>
+              Explore routine care and tooth replacement options before visiting
+              the clinic on Jl. Gajah.
+            </p>
+            <div class="actions">
+              <a class="btn primary" href="#pesan"
+                ><span data-id>Tanyakan jadwal lewat WhatsApp</span
+                ><span data-en>Ask about appointments</span></a
+              ><a class="btn ghost" href="#layanan"
+                ><span data-id>Lihat layanan</span
+                ><span data-en>View services</span></a
+              >
+            </div>
+          </div>
+          <div class="orb" aria-hidden="true">
+            <svg viewBox="0 0 220 260">
+              <path
+                fill="#fff"
+                d="M110 16c-27-20-75-10-87 35-9 35 15 57 22 91 8 39 11 99 38 100 17 1 13-68 27-68s10 69 27 68c27-1 30-61 38-100 7-34 31-56 22-91-12-45-60-55-87-35z"
+              />
+              <path
+                fill="#d8f6f2"
+                d="M63 52c12-18 31-22 47-11 16-11 35-7 47 11-18-8-29 4-47 4s-29-12-47-4z"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="layanan">
+        <div class="wrap">
+          <div class="head">
+            <div class="eyebrow">Care directory</div>
+            <h2 data-id>Layanan untuk berbagai tahap perawatan</h2>
+            <h2 data-en>Care across different treatment stages</h2>
+            <p data-id>
+              Rencana perawatan ditentukan setelah pemeriksaan dan konsultasi
+              dengan dokter gigi.
+            </p>
+            <p data-en>
+              Treatment plans are determined after an examination and dental
+              consultation.
+            </p>
+          </div>
+          <div class="grid" id="services"></div>
+        </div>
+      </section>
+      <section class="section check">
+        <div class="wrap checkbox">
+          <div class="checkintro">
+            <div class="eyebrow">Quick check</div>
+            <h2 data-id>Cek gigi 30 detik</h2>
+            <h2 data-en>30-second dental check</h2>
+            <p data-id>
+              Pilih keluhan utama untuk menyiapkan pertanyaan saat menghubungi
+              klinik. Ini bukan diagnosis.
+            </p>
+            <p data-en>
+              Select your main concern to prepare questions for the clinic. This
+              is not a diagnosis.
+            </p>
+          </div>
+          <div class="checkform">
+            <strong data-id>Apa yang sedang Anda rasakan?</strong
+            ><strong data-en>What are you experiencing?</strong>
+            <div class="choices" id="symptoms">
+              <button
+                class="choice"
+                data-result="Tanyakan jadwal pemeriksaan untuk menilai penyebab nyeri dan pilihan penanganannya."
+              >
+                Nyeri gigi</button
+              ><button
+                class="choice"
+                data-result="Tanyakan apakah pembersihan karang gigi sesuai untuk kondisi Anda."
+              >
+                Karang gigi</button
+              ><button
+                class="choice"
+                data-result="Sampaikan lokasi gigi yang hilang dan tanyakan tahapan konsultasi penggantian gigi."
+              >
+                Gigi hilang</button
+              ><button
+                class="choice"
+                data-result="Tanyakan jadwal pemeriksaan susunan gigi sebelum membahas pilihan perawatan."
+              >
+                Susunan gigi
+              </button>
+            </div>
+            <div class="result" id="checkResult">
+              Pilih satu keluhan untuk melihat pertanyaan yang dapat disiapkan.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section feature" id="panduan">
+        <div class="wrap">
+          <div class="head">
+            <div class="eyebrow">Interactive guide</div>
+            <h2 data-id>Kenali pilihan penggantian gigi</h2>
+            <h2 data-en>Explore tooth replacement options</h2>
+            <p data-id>
+              Pilih jumlah dan posisi gigi yang hilang untuk melihat gambaran
+              umum konsultasi. Panduan ini tidak menggantikan pemeriksaan dokter
+              gigi.
+            </p>
+            <p data-en>
+              Select the number and position of missing teeth for a general
+              consultation overview. This guide does not replace a dental
+              examination.
+            </p>
+          </div>
+          <div class="guide">
+            <div class="panel">
+              <label for="count" data-id>Jumlah gigi yang hilang</label
+              ><label for="count" data-en>Number of missing teeth</label
+              ><select id="count">
+                <option value="one">1 gigi / tooth</option>
+                <option value="few">2–3 gigi / teeth</option>
+                <option value="many">Lebih dari 3 / More than 3</option></select
+              ><label for="position" data-id>Posisi</label
+              ><label for="position" data-en>Position</label
+              ><select id="position">
+                <option value="front">Depan / Front</option>
+                <option value="back">Belakang / Back</option>
+                <option value="mixed">
+                  Beberapa area / Multiple areas
+                </option></select
+              ><button
+                class="btn primary"
+                id="guideBtn"
+                style="margin-top: 22px"
+              >
+                <span data-id>Lihat panduan</span
+                ><span data-en>View guide</span>
+              </button>
+            </div>
+            <div class="steps" id="guideResult">
+              <div class="step">
+                <span class="num">1</span>
+                <div>
+                  <b>Mulai dengan pemeriksaan</b><br /><small
+                    >Kondisi gusi, tulang, dan gigi sekitar perlu
+                    dinilai.</small
+                  >
+                </div>
+              </div>
+              <div class="step">
+                <span class="num">2</span>
+                <div>
+                  <b>Bahas pilihan</b><br /><small
+                    >Tanyakan tentang gigi tiruan lepasan, bridge, atau
+                    implan.</small
+                  >
+                </div>
+              </div>
+              <div class="step">
+                <span class="num">3</span>
+                <div>
+                  <b>Susun rencana</b><br /><small
+                    >Dokter menjelaskan tahapan berdasarkan hasil
+                    pemeriksaan.</small
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="kunjungan">
+        <div class="wrap">
+          <div class="head">
+            <div class="eyebrow">Plan your visit</div>
+            <h2 data-id>Informasi kunjungan</h2>
+            <h2 data-en>Visit information</h2>
+          </div>
+          <div class="visit">
+            <div class="map">
+              <div>
+                <div style="font-size: 45px">⌖</div>
+                <h3>
+                  Jl. Gajah No.20A, Malabar, Kec. Lengkong, Kota Bandung, Jawa
+                  Barat 40264
+                </h3>
+                <a
+                  class="btn primary"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://www.google.com/maps/place/?q=place_id%3AChIJSxiCIbnpaC4RdXSpx1L5xuE"
+                  >Google Maps ↗</a
+                >
+              </div>
+            </div>
+            <div class="detail">
+              <div class="status">
+                <span class="dot"></span
+                ><span id="status">Memeriksa jam operasional…</span>
+                <small class="verify">✎ verifikasi</small>
+              </div>
+              <h3>
+                Senin–Sabtu · 09.00–20.00 WIB
+                <small class="verify">✎ verifikasi</small>
+              </h3>
+              <p>
+                Minggu tutup. Informasi jam berbeda antar-direktori; hubungi
+                klinik sebelum berkunjung.
+              </p>
+              <p><b>Telepon / WhatsApp:</b> 0821-2921-8400</p>
+              <div class="wa-builder" id="pesan">
+                <b data-id>Buat pesan WhatsApp</b
+                ><b data-en>Build a WhatsApp message</b
+                ><textarea id="waText">
+Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.</textarea
+                ><a
+                  class="btn primary"
+                  id="waLink"
+                  target="_blank"
+                  rel="noopener"
+                  href="https://wa.me/6282129218400"
+                  ><span data-id>Kirim ke WhatsApp</span
+                  ><span data-en>Open WhatsApp</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section check" id="faq">
+        <div class="faq">
+          <div class="head">
+            <div class="eyebrow">FAQ</div>
+            <h2 data-id>Pertanyaan sebelum berkunjung</h2>
+            <h2 data-en>Questions before your visit</h2>
+          </div>
+          <div id="faqList"></div>
+        </div>
+      </section>
+      <section class="cta">
+        <h2 data-id>
+          Punya pertanyaan tentang perawatan? Hubungi VDC lewat WhatsApp.
+        </h2>
+        <h2 data-en>Questions about dental care? Message VDC on WhatsApp.</h2>
+        <a
+          class="btn primary"
+          href="https://wa.me/6282129218400"
+          target="_blank"
+          rel="noopener"
+          >WhatsApp ↗</a
+        >
+      </section>
+    </main>
+    <div class="sources">
+      <div class="wrap">
+        <b>Sumber informasi publik:</b>
+        <a
+          href="https://bukutelepon.cybo.com/ID-biz/vdc-valerio-dental-care-dokter-gigi"
+          >Cybo</a
+        >
+        ·
+        <a
+          href="https://indonesiaknowledge.com/directory/dental/bandung/evo-dental-care-vdc-dokter-gigi-spesialis-prosto-bandung"
+          >Indonesia Knowledge</a
+        >
+        ·
+        <a href="https://doktertanya.com/dokter-gigi-bandung/">DokterTanya</a>.
+        Identitas akun Instagram
+        <a href="https://www.instagram.com/valeriodental/">@valeriodental</a>
+        <span class="verify">✎ verifikasi</span>.
+      </div>
+    </div>
+    <footer>
+      <div class="wrap">
+        <b>VDC — Valerio Dental Care <span class="verify">✎ verifikasi</span></b
+        ><span>Konsep independen oleh Maxi Growth Studio · 2026</span>
+      </div>
+    </footer>
+    <script>
+      const services = [
+        [
+          "Scaling",
+          "Teeth cleaning",
+          "Pembersihan karang gigi. Tanyakan kebutuhan perawatan Anda saat konsultasi.",
+          "Removal of tartar buildup. Ask about your care needs during a consultation.",
+        ],
+        [
+          "Tambal gigi",
+          "Dental fillings",
+          "Perawatan untuk gigi berlubang atau rusak, sesuai hasil pemeriksaan.",
+          "Care for a cavity or damaged tooth, based on an examination.",
+        ],
+        [
+          "Perawatan saluran akar",
+          "Root canal treatment",
+          "Penanganan bagian dalam gigi bila diperlukan setelah pemeriksaan.",
+          "Treatment inside a tooth when an examination shows it is needed.",
+        ],
+        [
+          "Pilihan penggantian gigi",
+          "Tooth replacement options",
+          "Informasi gigi tiruan lepasan, bridge, dan implan.",
+          "Information about removable dentures, bridges, and implants.",
+        ],
+        [
+          "Behel dan Invisalign",
+          "Braces and Invisalign",
+          "Pilihan untuk merapikan susunan gigi setelah pemeriksaan.",
+          "Options for aligning teeth following an examination.",
+        ],
+        [
+          "Perawatan gigi anak",
+          "Children’s dental care",
+          "Pemeriksaan dan perawatan gigi untuk anak.",
+          "Dental check-ups and care for children.",
+        ],
+      ];
+      document.querySelector("#services").innerHTML = services
+        .map(
+          (s, i) =>
+            `<article class="card"><div class="icon">0${i + 1}</div><h3><span data-id>${s[0]}</span><span data-en>${s[1]}</span></h3><p data-id>${s[2]}</p><p data-en>${s[3]}</p></article>`,
+        )
+        .join("");
+      const faqs = [
+        [
+          "Kapan klinik buka?",
+          "What are the clinic’s opening hours?",
+          "Informasi jam operasional di direktori berbeda. Hubungi klinik untuk memastikan jam buka dan jadwal kunjungan.",
+          "Published opening hours differ between directories. Contact the clinic to confirm.",
+        ],
+        [
+          "Berapa biaya perawatan?",
+          "How much does treatment cost?",
+          "Tarif resmi belum tersedia. Tanyakan perkiraan biaya kepada admin karena biaya bergantung pada pemeriksaan.",
+          "No official price list was found. Ask the clinic for an estimate.",
+        ],
+        [
+          "Apakah klinik menerima asuransi?",
+          "Does the clinic accept insurance?",
+          "Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia Anda saat menghubungi klinik.",
+          "Insurance information is not available. Mention your provider when contacting the clinic.",
+        ],
+        [
+          "Apakah tersedia perawatan behel?",
+          "Are braces available?",
+          "Behel dan Invisalign tercantum dalam daftar layanan. Konsultasikan kondisi gigi untuk membahas pilihan.",
+          "Braces and Invisalign are listed. Arrange a consultation to discuss options.",
+        ],
+        [
+          "Apakah anak bisa diperiksa di sini?",
+          "Can children have dental check-ups here?",
+          "Perawatan gigi anak tercantum dalam daftar layanan. Hubungi klinik untuk menanyakan jadwal.",
+          "Children’s dental care is listed. Contact the clinic about availability.",
+        ],
+      ];
+      document.querySelector("#faqList").innerHTML = faqs
+        .map(
+          (f) =>
+            `<div class="faq-item"><button><span data-id>${f[0]}</span><span data-en>${f[1]}</span><span>＋</span></button><div class="answer"><span data-id>${f[2]}</span><span data-en>${f[3]}</span></div></div>`,
+        )
+        .join("");
+      document
+        .querySelectorAll(".faq-item button")
+        .forEach(
+          (b) => (b.onclick = () => b.parentElement.classList.toggle("open")),
+        );
+      document.querySelectorAll(".choice").forEach(
+        (b) =>
+          (b.onclick = () => {
+            document
+              .querySelectorAll(".choice")
+              .forEach((x) => x.classList.remove("on"));
+            b.classList.add("on");
+            checkResult.textContent = b.dataset.result;
+          }),
+      );
+      lang.onclick = () => document.body.classList.toggle("en");
+      burger.onclick = () => menu.classList.toggle("open");
+      waText.oninput = () =>
+        (waLink.href =
+          "https://wa.me/6282129218400?text=" +
+          encodeURIComponent(waText.value));
+      waText.oninput();
+      guideBtn.onclick = () => {
+        const c = count.options[count.selectedIndex].text.split("/")[0],
+          p = position.options[position.selectedIndex].text.split("/")[0];
+        guideResult.querySelector("small").textContent =
+          `Catat bahwa ${c.toLowerCase()} hilang di area ${p.toLowerCase()}; kondisi gusi, tulang, dan gigi sekitar perlu diperiksa.`;
+      };
+      function opening() {
+        const parts = new Intl.DateTimeFormat("en-US", {
+          timeZone: "Asia/Jakarta",
+          weekday: "short",
+          hour: "numeric",
+          hour12: false,
+        }).formatToParts(new Date());
+        const day = parts.find((x) => x.type === "weekday").value,
+          h = +parts.find((x) => x.type === "hour").value;
+        status.textContent =
+          day !== "Sun" && h >= 9 && h < 20
+            ? "Buka sekarang"
+            : "Tutup sekarang";
+      }
+      opening();
+    </script>
+  </body>
+</html>
