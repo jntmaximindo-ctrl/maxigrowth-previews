@@ -1,0 +1,17 @@
+{
+ "catatan": "Codex pool: urutan = prioritas. secret = nama secret GitHub berisi PAT akun GitHub yang tersambung ke akun ChatGPT itu. aktif=false untuk menonaktifkan slot.",
+ "slot": [
+  {
+   "id": "A",
+   "secret": "CODEX_PAT_A",
+   "akun": "ChatGPT #3 · GitHub jntmaximindo-ctrl",
+   "aktif": true
+  },
+  {
+   "id": "B",
+   "secret": "CODEX_PAT_B",
+   "akun": "ChatGPT #2 · GitHub kedua (nonaktif sampai environment Codex akun ini disiapkan)",
+   "aktif": false
+  }
+ ]
+}

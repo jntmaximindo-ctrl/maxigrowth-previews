@@ -33,6 +33,19 @@ def aman(p):
     return p, full
 
 
+def valid(p, isi):
+    if p.endswith((".yml", ".yaml")):
+        try:
+            import yaml
+        except ImportError:
+            return
+        yaml.safe_load(isi)
+    elif p.endswith(".py"):
+        compile(isi, p, "exec")
+    elif p.endswith(".json"):
+        json.loads(isi)
+
+
 def terapkan(folder):
     OUT.mkdir(exist_ok=True)
     vars_, runs, pesan, hasil = [], [], [], []
@@ -45,6 +58,9 @@ def terapkan(folder):
                 raw = raw.strip("`").split("\n", 1)[1]
             cmd = json.loads(raw)
             ok = []
+            for p, isi in (cmd.get("tulis") or {}).items():
+                p, full = aman(p)
+                valid(p, isi)  # sintaks salah → perintah ditolak utuh, repo tidak disentuh
             for p, isi in (cmd.get("tulis") or {}).items():
                 p, full = aman(p)
                 full.parent.mkdir(parents=True, exist_ok=True)
@@ -64,8 +80,8 @@ def terapkan(folder):
             hasil.append(f"- ✅ {f.name} ({cmd.get('id','')}): " + "; ".join(ok))
         except Exception as e:  # satu perintah gagal tidak menghentikan yang lain
             hasil.append(f"- ❌ {f.name}: {e}")
-    (OUT / "vars.tsv").write_text("\n".join(vars_))
-    (OUT / "runs.jsonl").write_text("\n".join(runs))
+    (OUT / "vars.tsv").write_text("".join(v + "\n" for v in vars_))
+    (OUT / "runs.jsonl").write_text("".join(r + "\n" for r in runs))
     (OUT / "pesan.txt").write_text("claude: " + " | ".join(pesan)[:300] if pesan else "")
     (OUT / "hasil.md").write_text("\n".join(hasil))
     print("\n".join(hasil) or "tidak ada perintah")
@@ -76,6 +92,13 @@ def sh(*a):
         return subprocess.run(a, capture_output=True, text=True, timeout=60).stdout
     except Exception as e:
         return f"(gagal: {e})"
+
+
+def js(*a):
+    try:
+        return json.loads(sh(*a) or "[]")
+    except Exception:
+        return []
 
 
 def laporan():
@@ -90,8 +113,8 @@ def laporan():
         k = "(tidak ada)"
     L += ["## Saklar (data/kontrol.json)", "```", k.strip(), "```", ""]
     L += ["## Variable", "```", sh("gh", "variable", "list").strip(), "```", ""]
-    runs = json.loads(sh("gh", "run", "list", "--limit", "25", "--json",
-                         "databaseId,workflowName,status,conclusion,createdAt,displayTitle") or "[]")
+    runs = js("gh", "run", "list", "--limit", "25", "--json",
+               "databaseId,workflowName,status,conclusion,createdAt,displayTitle")
     L += ["## 25 run terakhir", "| waktu (UTC) | workflow | hasil | judul |", "|---|---|---|---|"]
     for r in runs:
         L.append(f"| {r['createdAt'][5:16]} | {r['workflowName']} | {r.get('conclusion') or r['status']} | {r['displayTitle'][:60]} |")
@@ -102,8 +125,8 @@ def laporan():
         for r in gagal:
             log = sh("gh", "run", "view", str(r["databaseId"]), "--log-failed")
             L += [f"### {r['workflowName']} #{r['databaseId']}", "```", "\n".join(log.strip().splitlines()[-40:]), "```"]
-    prs = json.loads(sh("gh", "pr", "list", "--state", "open", "--limit", "30", "--json",
-                        "number,title,createdAt,headRefName,comments,commits") or "[]")
+    prs = js("gh", "pr", "list", "--state", "open", "--limit", "30", "--json",
+              "number,title,createdAt,headRefName,comments,commits")
     L += ["", "## PR terbuka", "| # | judul | dibuat | commit | komentar terakhir |", "|---|---|---|---|---|"]
     for p in prs:
         last = (p.get("comments") or [{}])[-1].get("body", "")[:120].replace("\n", " ").replace("|", "/")
@@ -117,6 +140,35 @@ def laporan():
         L += ["", "## Antrean Sheet", ", ".join(f"{k}: {v}" for k, v in c.most_common())]
     except Exception as e:
         L += ["", f"## Antrean Sheet\n(gagal dibaca: {e})"]
+    # --- ALARM ---
+    alarm = []  # (tingkat, pesan) tingkat: claude = Claude memperbaiki sendiri; manusia = butuh pemilik
+    ork = [r for r in runs if r["workflowName"] == "orkestrator" and r.get("conclusion") in ("success", "failure")][:4]
+    if len(ork) >= 2 and all(r["conclusion"] == "failure" for r in ork[:2]):
+        alarm.append(("claude", "orkestrator gagal 2x berturut-turut"))
+    for p in prs:
+        if p["headRefName"].startswith("codex/") and p["createdAt"] < (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ"):
+            alarm.append(("claude", f"PR #{p['number']} terbuka > 6 jam: {p['title'][:50]}"))
+    pool = sh("python3", str(ROOT / "scripts" / "codex_pool.py"), "status")
+    L += ["", "## Codex pool", pool.strip() or "(tidak terbaca)"]
+    try:
+        pst = json.loads((ROOT / "data" / "codex-pool-state.json").read_text())
+        for sid, x in pst.items():
+            if x.get("gagal_berturut", 0) >= 3:
+                alarm.append(("manusia", f"Codex slot {sid} gagal {x['gagal_berturut']}x berturut-turut (bukan kuota) — kemungkinan environment/koneksi GitHub akun itu bermasalah"))
+    except Exception:
+        pass
+    exp = sh("bash", "-c", "curl -sI -H \"Authorization: Bearer $GH_TOKEN\" https://api.github.com/repos/$GITHUB_REPOSITORY | grep -i token-expiration | cut -d' ' -f2-")
+    if exp.strip():
+        try:
+            sisa = (datetime.datetime.strptime(exp.strip()[:19], "%Y-%m-%d %H:%M:%S") - now).days
+            L += ["", f"## Token CLAUDE_PAT kedaluwarsa: {exp.strip()} (sisa {sisa} hari)"]
+            if sisa <= 30:
+                alarm.append(("manusia", f"Token CLAUDE_PAT kedaluwarsa dalam {sisa} hari — perlu diperpanjang"))
+        except Exception:
+            pass
+    tingkat = "MERAH" if any(a[0] == "manusia" for a in alarm) else "KUNING" if alarm else "HIJAU"
+    L.insert(1, f"STATUS: {tingkat}" + "".join(f"\n- [{a[0]}] {a[1]}" for a in alarm))
+    (OUT / "alarm-manusia.md").write_text("\n".join(f"- {a[1]}" for a in alarm if a[0] == "manusia"))
     OUT.mkdir(exist_ok=True)
     (OUT / "laporan.md").write_text("\n".join(L), encoding="utf-8")
     print("\n".join(L)[:3000])
