@@ -281,6 +281,13 @@ jobs:
             git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
             git pull -q --rebase origin main || true
             python3 scripts/rakit_template.py --antre 30 2>&1 | tee /tmp/jb-template.txt || echo "rakit template error (lanjut)"
+            # aturan: klinik yang sudah lulus template → PR rakit Codex yang masih terbuka ditutup (hemat kuota, tanpa konflik)
+            grep '^✅' /tmp/jb-template.txt | awk '{print $2}' | while read -r job; do
+              BR="codex/rakit-$(echo "$job" | tr '/' '-')"
+              for n in $(gh pr list --head "$BR" --state open --json number -q '.[].number' 2>/dev/null); do
+                gh pr close "$n" --comment "Ditutup otomatis: klinik ini sudah dirakit template tanpa AI & lulus cek." --delete-branch || true
+              done
+            done
             git add batches data 2>/dev/null || true
             git diff --cached --quiet || { git commit -q -m "rakit template (tanpa AI)"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
           fi

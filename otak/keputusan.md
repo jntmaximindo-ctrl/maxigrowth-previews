@@ -7,3 +7,4 @@
 | 2026-09-30 | Preview online otomatis tanpa persetujuan; persetujuan hanya untuk pengiriman ke klinik | pemilik minta publish tanpa persetujuan | pemilik | ya |
 | 2026-09-30 | Setiap error = aturan + penjaga + pelajaran | pemilik: masalah yang sama tidak boleh terulang | pemilik | tidak |
 | 2026-09-30 | Tes jalur hibrida: rakit dari template tanpa AI (scripts/rakit_template.py); Codex hanya untuk yang gagal cek & fitur kreatif/revisi | Codex terlalu mahal untuk 100 klinik/hari; rakit = tahap termahal | pemilik ("kita coba tes ... hybrid") | ya |
+| 2026-09-30 | PR rakit Codex untuk klinik yang sudah lulus template otomatis ditutup | PR Codex tanpa push berulang (#97/#98/#100) buang kuota; template lebih cepat | Claude | ya |
