@@ -138,7 +138,21 @@ def check(d, stage):
     for e in errs:
         print("✗", e)
     print("LULUS" if not errs else f"GAGAL ({len(errs)} masalah)")
+    _bersihkan_salinan_skrip()
     return 1 if errs else 0
+
+
+def _bersihkan_salinan_skrip():
+    """Orkestrator menyalin skrip versi main ke checkout branch PR (HEAD terlepas) sebelum cek.
+    Kembalikan folder scripts/ ke versi branch supaya checkout berikutnya tidak gagal
+    ('local changes would be overwritten'). Hanya saat HEAD terlepas (checkout PR), bukan di main."""
+    try:
+        head = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        if head == "HEAD":
+            subprocess.run(["git", "checkout", "-q", "--", "scripts"], cwd=ROOT, capture_output=True)
+            subprocess.run(["git", "clean", "-fdq", "--", "scripts"], cwd=ROOT, capture_output=True)
+    except Exception:
+        pass
 
 
 def finish(d, stage, oleh="codex"):

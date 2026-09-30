@@ -149,6 +149,35 @@ def _():
     assert "too complex" in (d / "pool" / "galat.txt").read_text()
 
 
+@uji("#11 codex_pool dijalankan dari salinan skrip (tanpa folder data) → tidak crash, pakai slot A")
+def _():
+    d = pathlib.Path(tempfile.mkdtemp()); shutil.copytree(ROOT / "scripts", d / "scripts-main")
+    r = subprocess.run([sys.executable, str(d / "scripts-main" / "codex_pool.py"), "pilih", "A"], capture_output=True, text=True)
+    assert r.returncode == 0 and r.stdout.strip().startswith("A "), r.stdout + r.stderr
+
+
+@uji("#13 cek PR di checkout terlepas → salinan skrip dibersihkan (checkout berikutnya tidak gagal)")
+def _():
+    d = pathlib.Path(tempfile.mkdtemp()); g = lambda *a: subprocess.run(["git", *a], cwd=d, capture_output=True, text=True)
+    g("init", "-q"); g("config", "user.email", "t@t"); g("config", "user.name", "t")
+    (d / "scripts").mkdir(); shutil.copy(ROOT / "scripts/codex_check.py", d / "scripts/codex_check.py")
+    g("add", "."); g("commit", "-qm", "a"); g("checkout", "-q", "--detach")
+    (d / "scripts/codex_check.py").write_text((d / "scripts/codex_check.py").read_text() + "\n# ubah\n"); (d / "scripts/baru.py").write_text("x=1")
+    m = modul(d, "codex_check"); m.ROOT = d; m._bersihkan_salinan_skrip()
+    assert g("status", "--porcelain").stdout.strip() == "", g("status", "--porcelain").stdout
+
+
+@uji("#14 hasil sudah ada & lulus cek tapi status tertinggal → status dimajukan otomatis")
+def _():
+    d = salin(); b = d / "batches/B1/W1"; b.mkdir(parents=True)
+    (b / "status.json").write_text('{"status": "Riset di Codex"}'); (b / "riset.json").write_text("{}"); (b / "konten.json").write_text("{}")
+    (d / "scripts/codex_check.py").write_text(
+        "import sys,json,pathlib\nR=pathlib.Path(__file__).resolve().parents[1]\n"
+        "if sys.argv[1]=='finish': (R/sys.argv[2]/'status.json').write_text(json.dumps({'status':'Menunggu cek fakta'}))\n")
+    m = modul(d, "failover"); m.ROOT = d; m.pulihkan()
+    assert "Menunggu cek fakta" in (b / "status.json").read_text()
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

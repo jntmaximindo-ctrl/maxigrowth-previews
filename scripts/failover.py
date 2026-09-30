@@ -25,7 +25,33 @@ def umur_jam(p):
     return (datetime.datetime.utcnow().timestamp() - int(out)) / 3600
 
 
+TAHAP_HASIL = {  # status macet → (tahap, file wajib) : hasil sudah ada di main tapi status tidak maju (mis. crash setelah merge)
+    "Riset di GPT": ("riset", ("riset.json", "konten.json")), "Riset di Codex": ("riset", ("riset.json", "konten.json")),
+    "Menunggu cek fakta": ("cekfakta", ("cekfakta.json",)), "Cek fakta di Codex": ("cekfakta", ("cekfakta.json",)),
+}
+
+
+def pulihkan():
+    """Hasil sudah ada & lulus cek, tapi status tertinggal → majukan status (tanpa AI, tanpa kirim ulang)."""
+    for st in sorted((ROOT / "batches").glob("B*/*/status.json")):
+        try:
+            cur = json.loads(st.read_text(encoding="utf-8")).get("status", "")
+        except Exception:
+            continue
+        if cur not in TAHAP_HASIL:
+            continue
+        tahap, wajib = TAHAP_HASIL[cur]
+        if not all((st.parent / w).exists() for w in wajib):
+            continue
+        rel = str(st.parent.relative_to(ROOT))
+        cek = subprocess.run([sys.executable, str(ROOT / "scripts/codex_check.py"), "check", rel, tahap], capture_output=True, text=True, cwd=ROOT)
+        if cek.returncode == 0:
+            subprocess.run([sys.executable, str(ROOT / "scripts/codex_check.py"), "finish", rel, tahap], capture_output=True, text=True, cwd=ROOT)
+            print(f"pulih {rel}: {cur} → hasil {tahap} sudah ada & lulus cek, status dimajukan", file=sys.stderr)
+
+
 def main():
+    pulihkan()
     n = 0
     for st in sorted((ROOT / "batches").glob("B*/*/status.json")):
         try:
