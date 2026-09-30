@@ -83,8 +83,35 @@ def terapkan(folder):
     (OUT / "vars.tsv").write_text("".join(v + "\n" for v in vars_))
     (OUT / "runs.jsonl").write_text("".join(r + "\n" for r in runs))
     (OUT / "pesan.txt").write_text("claude: " + " | ".join(pesan)[:300] if pesan else "")
+    if pesan:
+        hasil.append(simpan("claude: " + " | ".join(pesan)[:300]))
     (OUT / "hasil.md").write_text("\n".join(hasil))
     print("\n".join(hasil) or "tidak ada perintah")
+
+
+def simpan(msg):
+    """Commit + push sendiri dengan CLAUDE_PAT. Header GITHUB_TOKEN dari actions/checkout dikosongkan,
+    karena header itu menimpa PAT dan GitHub App tidak boleh mengubah file workflow."""
+    tok, repo = os.environ.get("GH_TOKEN", ""), os.environ.get("GITHUB_REPOSITORY", "")
+    g = lambda *a: subprocess.run(["git", *a], cwd=ROOT, capture_output=True, text=True, timeout=120)
+    g("config", "user.name", "maxigrowth-bot"); g("config", "user.email", "bot@maxigrowthstudio.com")
+    g("add", "-A", "--", ".", ":!dist")
+    if g("diff", "--cached", "--quiet").returncode == 0:
+        return "- ℹ️ tidak ada perubahan file"
+    c = g("commit", "-q", "-m", msg)
+    if c.returncode:
+        return f"- ❌ commit gagal: {c.stderr.strip()[:200]}"
+    url = f"https://x-access-token:{tok}@github.com/{repo}.git"
+    for _ in range(3):
+        r = g("-c", "http.https://github.com/.extraheader=", "push", "-q", url, "HEAD:main")
+        if r.returncode == 0:
+            h = g("rev-parse", "HEAD").stdout.strip()
+            (OUT / "commit.txt").write_text(h)
+            return f"- ✅ push {h[:7]}"
+        g("-c", "http.https://github.com/.extraheader=", "pull", "-q", "--rebase", url, "main")
+    g("reset", "--hard", "HEAD~1")
+    err = r.stderr.replace(tok, "***") if tok else r.stderr
+    return f"- ❌ push gagal (perubahan dibatalkan): {err.strip()[:300]}"
 
 
 def sh(*a):
