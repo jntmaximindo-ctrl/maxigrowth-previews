@@ -62,15 +62,21 @@ def pilih(hindari=""):
     print(f"{pref[0]['id']} {pref[0]['secret']}" if pref else "")
 
 
+GALAT = []   # error panggilan luar dicatat (jangan pernah ditelan diam-diam jadi "kosong")
+
+
 def gh(*a):
-    return subprocess.run(("gh",) + a, capture_output=True, text=True).stdout
+    r = subprocess.run(("gh",) + a, capture_output=True, text=True)
+    if r.returncode != 0:
+        GALAT.append(f"gh {' '.join(a[:3])} gagal: {r.stderr.strip()[:300]}")
+    return r.stdout
 
 
 def pindai():
     OUT.mkdir(exist_ok=True)
     st, slots = state(), conf()
     by_id = {s["id"]: s for s in slots}
-    prs = json.loads(gh("pr", "list", "--state", "open", "--limit", "60", "--json",
+    prs = json.loads(gh("pr", "list", "--state", "open", "--limit", "30", "--json",
                         "number,headRefName,createdAt,comments,commits") or "[]")
     aksi, log, dihitung = [], [], set()
     for p in prs:
@@ -139,7 +145,9 @@ def pindai():
     st["_diproses"] = dict(list(st.get("_diproses", {}).items())[-300:])
     save(st)
     (OUT / "aksi.tsv").write_text("".join(a + "\n" for a in aksi))
-    teks = "\n".join(log) or f"pool: {len(prs)} PR diperiksa, tidak ada yang perlu dipindah"
+    teks = "\n".join(GALAT + log) or f"pool: {len(prs)} PR diperiksa, tidak ada yang perlu dipindah"
+    if GALAT:
+        (OUT / "galat.txt").write_text("\n".join(GALAT))
     (OUT / "log.txt").write_text(teks)
     print(teks)
 

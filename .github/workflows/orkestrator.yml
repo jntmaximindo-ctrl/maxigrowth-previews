@@ -107,6 +107,7 @@ jobs:
               fi
             else
               gh pr comment $PR --body "<!-- codex-check sha=$SHA --> Cek otomatis LULUS — merge."
+              python3 /tmp/scripts-main/belajar.py lulus "$S_stage" "$JOB" || true
               gh pr ready $PR 2>/dev/null || true
               GH_TOKEN=$PAT_A gh pr merge $PR --squash --delete-branch
               git fetch -q origin main && git checkout -q -B main origin/main
@@ -185,6 +186,7 @@ jobs:
           for f in bus-notes/*; do [ -f "$f" ] && python3 scripts/belajar.py catat riset-gpt "$f" "$(basename "$f")"; done || true
           python3 scripts/belajar.py gabung || true
           python3 scripts/belajar.py perbarui || true
+          python3 scripts/belajar.py rapor > /dev/null || true
           A="bus:00 ATURAN KLINIK-BUS (baca tiap run)"
           if rclone copyto "$A" /tmp/aturan.txt --drive-export-formats txt 2>/dev/null && python3 scripts/belajar.py sisip /tmp/aturan.txt; then
             rclone copyto /tmp/aturan.txt "$A" || true

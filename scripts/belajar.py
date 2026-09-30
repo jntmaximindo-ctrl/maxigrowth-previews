@@ -52,6 +52,45 @@ def catat(tahap, out, job):
     print(f"{len(baris)} kesalahan dicatat")
 
 
+def lulus(tahap, job):
+    TMP.mkdir(exist_ok=True)
+    t = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    with open(TMP / "qa.jsonl", "a") as f:
+        f.write(json.dumps({"t": t, "tahap": tahap, "job": job, "kat": "LULUS", "contoh": ""}) + "\n")
+
+
+def rapor():
+    """Rapor pekerja per peran (7 & 30 hari): klinik lulus, klinik pernah gagal, lulus sekali jalan."""
+    if not LOG.exists():
+        return
+    now = datetime.datetime.utcnow()
+    rows = []
+    for ln in LOG.read_text().splitlines():
+        try:
+            rows.append(json.loads(ln))
+        except Exception:
+            pass
+    L = ["# Rapor pekerja (otomatis)", "", "| peran/tahap | periode | klinik lulus | klinik pernah gagal | lulus sekali jalan | kesalahan terbanyak |", "|---|---|---|---|---|---|"]
+    for hari in (7, 30):
+        batas = (now - datetime.timedelta(days=hari)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        per = {}
+        for r in rows:
+            if r["t"] < batas:
+                continue
+            x = per.setdefault(r["tahap"], {"lulus": set(), "gagal": set(), "kat": {}})
+            if r["kat"] == "LULUS":
+                x["lulus"].add(r["job"])
+            else:
+                x["gagal"].add(r["job"]); x["kat"][r["kat"]] = x["kat"].get(r["kat"], 0) + 1
+        for tahap, x in sorted(per.items()):
+            sekali = len(x["lulus"] - x["gagal"])
+            pct = f"{100 * sekali // len(x['lulus'])}%" if x["lulus"] else "-"
+            top = max(x["kat"], key=x["kat"].get)[:60] if x["kat"] else "-"
+            L.append(f"| {tahap} | {hari} hari | {len(x['lulus'])} | {len(x['gagal'])} | {pct} | {top} |")
+    (ROOT / "data" / "rapor.md").write_text("\n".join(L) + "\n", encoding="utf-8")
+    print("\n".join(L))
+
+
 def gabung():
     src = TMP / "qa.jsonl"
     if src.exists() and src.read_text().strip():
@@ -111,4 +150,4 @@ def sisip(f):
 
 if __name__ == "__main__":
     cmd, *a = sys.argv[1:]
-    {"catat": catat, "gabung": gabung, "perbarui": perbarui, "sisip": sisip}[cmd](*a)
+    {"catat": catat, "lulus": lulus, "gabung": gabung, "perbarui": perbarui, "sisip": sisip, "rapor": rapor}[cmd](*a)

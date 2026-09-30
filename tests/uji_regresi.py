@@ -139,6 +139,27 @@ def _():
     assert at.read_text().count(m.MULAI) == 1 and "src" in at.read_text()
 
 
+@uji("#9 panggilan gh gagal → dicatat sebagai galat (bukan dianggap 0 PR)")
+def _():
+    d = salin()
+    m = modul(d, "codex_pool"); m.OUT = d / "pool"
+    import types
+    m.subprocess = types.SimpleNamespace(run=lambda *a, **k: types.SimpleNamespace(returncode=1, stdout="", stderr="GraphQL: too complex"))
+    m.pindai()
+    assert "too complex" in (d / "pool" / "galat.txt").read_text()
+
+
+@uji("rapor pekerja: lulus sekali jalan dihitung benar")
+def _():
+    d = salin(); (d / "AGENTS.md").write_text("#\n")
+    m = modul(d, "belajar"); m.TMP = d / "tmp"
+    f = d / "o.txt"; f.write_text("✗ site/index.html tidak ada\n")
+    m.catat("rakit", str(f), "B1/W1"); m.lulus("rakit", "B1/W1"); m.lulus("rakit", "B1/W2")
+    m.gabung(); m.rapor()
+    r = (d / "data" / "rapor.md").read_text()
+    assert "| rakit | 7 hari | 2 | 1 | 50% |" in r, r
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

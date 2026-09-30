@@ -193,6 +193,9 @@ def laporan():
         if p["headRefName"].startswith("codex/") and akhir < (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ"):
             alarm.append(("claude", f"PR #{p['number']} tanpa aktivitas > 6 jam: {p['title'][:50]}"))
     pool = sh("python3", str(ROOT / "scripts" / "codex_pool.py"), "status")
+    rp = ROOT / "data" / "rapor.md"
+    if rp.exists():
+        L += ["", "## Rapor pekerja", "\n".join(rp.read_text(encoding="utf-8").splitlines()[2:])]
     L += ["", "## Codex pool", pool.strip() or "(tidak terbaca)"]
     if pathlib.Path("/tmp/pool/log.txt").exists():
         L += ["", "### Aksi pool run ini", pathlib.Path("/tmp/pool/log.txt").read_text().strip()]
@@ -212,6 +215,9 @@ def laporan():
                 alarm.append(("manusia", f"Token CLAUDE_PAT kedaluwarsa dalam {sisa} hari — perlu diperpanjang"))
         except Exception:
             pass
+    gp = pathlib.Path("/tmp/pool/galat.txt")
+    if gp.exists() and gp.read_text().strip():
+        alarm.append(("claude", "Codex pool tidak bisa membaca GitHub (galat): " + gp.read_text().strip()[:300]))
     uji = pathlib.Path("/tmp/jb/uji.txt")
     if uji.exists() and uji.read_text().strip():
         alarm.append(("claude", "uji regresi GAGAL (aturan lama rusak/terlewat) → perbaiki ATURAN-nya: " + uji.read_text().strip()[:400]))
