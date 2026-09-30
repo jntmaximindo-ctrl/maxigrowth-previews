@@ -178,6 +178,34 @@ def _():
     assert "Menunggu cek fakta" in (b / "status.json").read_text()
 
 
+@uji("rakit template tanpa AI: klinik contoh → halaman lengkap, WA ada, tanpa placeholder/sisa contoh baku")
+def _():
+    d = pathlib.Path(tempfile.mkdtemp())
+    for x in ("scripts", "templates", "library"):
+        shutil.copytree(ROOT / x, d / x)
+    j = d / "job"; j.mkdir()
+    fakta = lambda x: {"v": x, "src": "https://contoh.id"}
+    cab = lambda n, wa: {"nama": n, "alamat": fakta(f"Jl. {n} No. 1, Bandung"), "telepon": fakta("0" + wa[2:]), "wa": fakta(wa),
+                         "jam": fakta({"sen": "09.00-21.00", "sel": "09-21", "rab": "09-21", "kam": "09-21", "jum": "13-21", "sab": "09-17", "min": "tutup"})}
+    (j / "job.json").write_text(json.dumps({"nama": "Klinik Contoh Sehat", "kota": "Bandung"}))
+    (j / "riset.json").write_text(json.dumps({"nama": fakta("Klinik Contoh Sehat"), "kota": "Bandung", "zona_waktu": "WIB",
+        "cabang": [cab("Contoh Dago", "6281111111111"), cab("Contoh Buah Batu", "6282222222222")], "dokter": [],
+        "layanan": ["Scaling", "Tambal Gigi", "Behel", "Perawatan Gigi Anak", "Rontgen Panoramik", "Veneer"],
+        "harga": [{"perawatan": "scaling", "jenis": "resmi_klinik", "min": 300000, "max": 300000}, {"perawatan": "behel", "jenis": "kisaran_pasar", "min": 5000000, "max": 9000000}]}))
+    (j / "konten.json").write_text(json.dumps({"hero": {"judul": {"id": "Klinik gigi keluarga di Bandung", "en": "Family dental clinic in Bandung"}, "sub": {"id": "Dua cabang.", "en": "Two branches."}},
+        "layanan": [{"nama": {"id": "Scaling", "en": "Scaling"}, "ringkas": {"id": "Bersihkan karang gigi.", "en": "Remove tartar."}}],
+        "faq": [{"q": {"id": "Buka hari Minggu?", "en": "Open Sunday?"}, "a": {"id": "Tidak, Minggu tutup.", "en": "No, closed on Sunday."}}]}))
+    m = modul(d, "rakit_template"); out = m.bangun(j)
+    assert not m.periksa(out, j), m.periksa(out, j)
+    assert "6281111111111" in out and "6282222222222" in out and "{{" not in out and "@@CFG" not in out
+    assert "Rp300 rb" in out and "5 jt" not in out, "harga resmi tampil, kisaran pasar tidak"
+    r = json.loads((j / "riset.json").read_text()); r["cabang"] = []; (j / "riset.json").write_text(json.dumps(r))
+    try:
+        m.bangun(j); raise AssertionError("riset tanpa cabang/WA harus ditolak")
+    except SystemExit:
+        pass
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

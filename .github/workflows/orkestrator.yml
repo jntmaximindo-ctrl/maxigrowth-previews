@@ -276,7 +276,15 @@ jobs:
           if [ -s /tmp/jobs.txt ]; then
             while read -r job; do gh workflow run codex-dispatch.yml -f job="$job" -f tugas=revisi; sleep 3; done < /tmp/jobs.txt
           fi
-          [ "${{ vars.RAKIT_ENGINE }}" = "codex" ] || exit 0
+          # Jalur hibrida: rakit TANPA AI dari template dulu (gratis, instan); yang gagal cek → baru Codex.
+          if [ "${{ vars.RAKIT_ENGINE }}" = "hibrida" ] || [ "${{ vars.RAKIT_ENGINE }}" = "template" ]; then
+            git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+            git pull -q --rebase origin main || true
+            python3 scripts/rakit_template.py --antre 30 2>&1 | tee /tmp/jb-template.txt || echo "rakit template error (lanjut)"
+            git add batches data 2>/dev/null || true
+            git diff --cached --quiet || { git commit -q -m "rakit template (tanpa AI)"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
+          fi
+          case "${{ vars.RAKIT_ENGINE }}" in codex|hibrida) ;; *) exit 0 ;; esac
           # PR rakit yang macet >3 jam tanpa hasil Codex → tutup (dihitung 1x gagal) supaya bisa dikirim ulang
           CUT=$(date -u -d '3 hours ago' +%Y-%m-%dT%H:%M:%SZ)
           gh pr list --state open --limit 100 --json number,headRefName,createdAt,commits,comments \

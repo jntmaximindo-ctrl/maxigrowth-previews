@@ -59,6 +59,14 @@ def terapkan(folder):
                 raw = raw.strip("`").split("\n", 1)[1]
             cmd = json.loads(raw)
             ok = []
+            if cmd.get("paket"):  # file besar: base64 dari tar.gz (hemat token & CRC menjamin utuh); isinya digabung ke "tulis"
+                import base64, io, tarfile
+                tf = tarfile.open(fileobj=io.BytesIO(base64.b64decode(cmd["paket"])), mode="r:gz")
+                tulis = dict(cmd.get("tulis") or {})
+                for m in tf.getmembers():
+                    if m.isfile():
+                        tulis[m.name] = tf.extractfile(m).read().decode("utf-8")
+                cmd["tulis"] = tulis
             for p, isi in (cmd.get("tulis") or {}).items():
                 p, full = aman(p)
                 valid(p, isi)  # sintaks salah → perintah ditolak utuh, repo tidak disentuh
