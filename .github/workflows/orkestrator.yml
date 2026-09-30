@@ -65,7 +65,6 @@ jobs:
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           cp -r scripts /tmp/scripts-main     # pakai skrip pengecek versi main, bukan versi di branch PR
-          mkdir -p /tmp/data && cp data/codex-pool*.json /tmp/data/ 2>/dev/null || true   # skrip di /tmp/scripts-main membaca /tmp/data
           gh pr list --state open --limit 50 --json number,headRefName,headRefOid \
             -q '.[] | select(.headRefName | startswith("codex/")) | "\(.number) \(.headRefName) \(.headRefOid)"' > prs.txt
           cat prs.txt
@@ -239,15 +238,6 @@ jobs:
         run: |
           [ -n "$(python3 scripts/codex_pool.py pilih)" ] || { echo "semua slot Codex habis — failover ditunda"; exit 0; }
           python3 scripts/failover.py > /tmp/failover.txt || true
-          # klinik yang dialihkan ke Codex: arsipkan surat tugas GPT supaya tidak dikerjakan dobel
-          TS=$(date -u +%Y%m%d-%H%M)
-          while IFS=$'\t' read -r job tg; do
-            [ "$tg" = "riset" ] || continue
-            key=$(echo "$job" | tr '/' '-')
-            rclone lsf "bus:01 Antrean Riset" --include "${key}_riset*" 2>/dev/null | while read -r f; do
-              rclone moveto "bus:01 Antrean Riset/$f" "bus:99 Arsip/${TS}_dialihkan-codex_$f" || true
-            done
-          done < /tmp/failover.txt
           cat /tmp/failover.txt
       - name: 5 · Commit perubahan
         run: |
@@ -348,12 +338,6 @@ jobs:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           SHEET_ID: ${{ vars.SHEET_ID }}
         run: |
-          # detak pekerja GPT (dari waktu file hasil yang mereka buat) untuk alarm "GPT diam"
-          rclone lsjson "bus:02 Hasil Riset" --files-only > /tmp/jb/gpt_r1.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_r1.json
-          rclone lsjson "bus:99 Arsip" --files-only --include "*_riset.json*" > /tmp/jb/gpt_r2.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_r2.json
-          rclone lsjson "bus:03 Hasil Cek Fakta" --files-only > /tmp/jb/gpt_c1.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_c1.json
-          rclone lsjson "bus:99 Arsip" --files-only --include "*_cekfakta.json*" > /tmp/jb/gpt_c2.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_c2.json
-          rclone lsjson "bus:01 Antrean Riset" --files-only > /tmp/jb/gpt_antre.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_antre.json
           python3 scripts/jembatan.py laporan > /dev/null || true
           [ -f /tmp/jb/laporan.md ] && rclone copyto /tmp/jb/laporan.md "bus:09 Laporan Robot/laporan-terakhir.md" || true
       - name: 9b · Eskalasi ke pemilik (hanya hal yang tidak bisa diperbaiki robot/Claude)
