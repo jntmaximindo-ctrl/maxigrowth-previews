@@ -36,7 +36,11 @@ def parse(s):
 
 
 def conf():
-    return [s for s in json.loads(CONF.read_text())["slot"] if s.get("aktif", True)]
+    try:
+        return [s for s in json.loads(CONF.read_text())["slot"] if s.get("aktif", True)]
+    except Exception as e:  # file konfigurasi tidak ada/rusak → jangan crash; pakai slot A, catat galat
+        print(f"codex_pool: konfigurasi tidak terbaca ({e}) → pakai slot A", file=sys.stderr)
+        return [{"id": "A", "secret": "CODEX_PAT_A", "akun": "default"}]
 
 
 def state():

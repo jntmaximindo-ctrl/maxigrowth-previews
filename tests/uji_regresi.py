@@ -149,6 +149,13 @@ def _():
     assert "too complex" in (d / "pool" / "galat.txt").read_text()
 
 
+@uji("#11 codex_pool dijalankan dari salinan skrip (tanpa folder data) → tidak crash, pakai slot A")
+def _():
+    d = pathlib.Path(tempfile.mkdtemp()); shutil.copytree(ROOT / "scripts", d / "scripts-main")
+    r = subprocess.run([sys.executable, str(d / "scripts-main" / "codex_pool.py"), "pilih", "A"], capture_output=True, text=True)
+    assert r.returncode == 0 and r.stdout.strip().startswith("A "), r.stdout + r.stderr
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

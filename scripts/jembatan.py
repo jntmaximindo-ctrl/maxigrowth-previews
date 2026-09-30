@@ -215,6 +215,26 @@ def laporan():
                 alarm.append(("manusia", f"Token CLAUDE_PAT kedaluwarsa dalam {sisa} hari — perlu diperpanjang"))
         except Exception:
             pass
+    # --- GPT diam? (detak = waktu file hasil terbaru buatan GPT) ---
+    def _baca(n):
+        try:
+            return json.loads(pathlib.Path(f"/tmp/jb/{n}.json").read_text() or "[]")
+        except Exception:
+            return None
+    def _terbaru(*ns):
+        ts = [f.get("ModTime", "")[:19] for n in ns for f in (_baca(n) or [])]
+        return max(ts) if ts else ""
+    antre = _baca("gpt_antre")
+    if antre is not None:
+        batas6 = (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%S")
+        r_akhir, c_akhir = _terbaru("gpt_r1", "gpt_r2"), _terbaru("gpt_c1", "gpt_c2")
+        tunggu_cek = sum(1 for st in (ROOT / "batches").glob("B*/*/status.json")
+                         if '"Menunggu cek fakta"' in st.read_text(encoding="utf-8", errors="ignore"))
+        L += ["", f"## Detak GPT: antrean riset {len(antre)} surat · hasil riset terakhir {r_akhir or '-'} UTC · cek fakta terakhir {c_akhir or '-'} UTC · menunggu cek fakta {tunggu_cek}"]
+        if antre and r_akhir < batas6:
+            alarm.append(("manusia", f"GPT-A (riset) tidak menghasilkan file >6 jam padahal ada {len(antre)} surat tugas — kemungkinan tugas terjadwal ChatGPT ter-pause. Cek & resume di https://chatgpt.com/schedules"))
+        if tunggu_cek and c_akhir < batas6:
+            alarm.append(("manusia", f"GPT-B (cek fakta) tidak menghasilkan file >6 jam padahal {tunggu_cek} klinik menunggu — cek & resume di https://chatgpt.com/schedules"))
     gp = pathlib.Path("/tmp/pool/galat.txt")
     if gp.exists() and gp.read_text().strip():
         alarm.append(("claude", "Codex pool tidak bisa membaca GitHub (galat): " + gp.read_text().strip()[:300]))
