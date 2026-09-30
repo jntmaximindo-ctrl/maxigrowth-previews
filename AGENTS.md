@@ -18,3 +18,8 @@ Pekerjaan datang lewat komentar `@codex` di PR draft, dengan surat tugas di `.co
 ## Tugas "cari" (Pencari Klinik)
 Tulis hanya `sourcing/<kota>/hasil.json` sesuai surat tugas. Jangan menyentuh folder batches/.
 Setelah commit, WAJIB `git push origin HEAD:<branch PR tempat kamu dipanggil>`.
+
+<!-- BELAJAR:MULAI (otomatis, jangan diedit manual) -->
+## Kesalahan yang sering terjadi (dipelajari otomatis dari cek gagal — WAJIB dihindari)
+- [rakit] Hindari:  (terjadi di 2 klinik)
+<!-- BELAJAR:SELESAI -->
