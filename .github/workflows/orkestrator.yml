@@ -19,6 +19,40 @@ jobs:
       - name: Konfigurasi rclone
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: python3 scripts/bus.py rclone-conf
+      - name: 0 · Jembatan Claude (perintah dari Drive → repo, variable, workflow)
+        env:
+          GH_TOKEN: ${{ secrets.CLAUDE_PAT }}
+          D: "08 Perintah Claude (repo)"
+        run: |
+          [ -n "$GH_TOKEN" ] || { echo "secret CLAUDE_PAT belum ada — jembatan dilewati"; exit 0; }
+          mkdir -p /tmp/perintah /tmp/jb
+          rclone lsjson "bus:$D" -M --files-only > /tmp/pl.json 2>/dev/null || { echo "folder perintah belum ada"; exit 0; }
+          python3 - > /tmp/pnames.txt <<'PY'
+          import json
+          for f in json.load(open("/tmp/pl.json")):
+              own = (f.get("Metadata") or {}).get("owner", "")
+              if own and own.lower() != "kudakuda9292@gmail.com":
+                  continue  # hanya perintah dari akun pemilik
+              print(f["Name"])
+          PY
+          [ -s /tmp/pnames.txt ] || { echo "tidak ada perintah baru"; exit 0; }
+          while IFS= read -r n; do rclone copyto "bus:$D/$n" "/tmp/perintah/$n" --drive-export-formats txt; done < /tmp/pnames.txt
+          python3 scripts/jembatan.py terapkan /tmp/perintah
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add -A -- . ':!dist'
+          if ! git diff --cached --quiet; then
+            git commit -q -F /tmp/jb/pesan.txt
+            git push -q "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" HEAD:main
+          fi
+          while IFS=$'\t' read -r k v; do [ -n "$k" ] && gh variable set "$k" --body "$v"; done < /tmp/jb/vars.tsv
+          while IFS= read -r r; do
+            [ -n "$r" ] || continue
+            wf=$(echo "$r" | python3 -c "import json,sys;print(json.load(sys.stdin)['workflow'])")
+            args=$(echo "$r" | python3 -c "import json,sys;print(' '.join('-f %s=%s' % kv for kv in (json.load(sys.stdin).get('input') or {}).items()))")
+            gh workflow run "$wf" $args || true
+          done < /tmp/jb/runs.jsonl
+          TS=$(date -u +%Y%m%d-%H%M)
+          while IFS= read -r n; do rclone moveto "bus:$D/$n" "bus:99 Arsip/${TS}_perintah_$n" || true; done < /tmp/pnames.txt
       - name: 1 · Cek hasil Codex (merge / minta perbaikan)
         env:
           GH_TOKEN: ${{ github.token }}
@@ -241,3 +275,12 @@ jobs:
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           git add data/deploy-hash.txt data/preview-links.json 2>/dev/null || true
           git diff --cached --quiet || { git commit -q -m "deploy preview"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
+      - name: 9 · Laporan robot ke Drive (dibaca Claude)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.CLAUDE_PAT || github.token }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          python3 scripts/jembatan.py laporan > /dev/null || true
+          [ -f /tmp/jb/laporan.md ] && rclone copyto /tmp/jb/laporan.md "bus:09 Laporan Robot/laporan-terakhir.md" || true

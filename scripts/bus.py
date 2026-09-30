@@ -118,7 +118,8 @@ def pull(dir_riset, dir_cek):
                 subprocess.run([sys.executable, str(ROOT / "scripts/codex_check.py"), "finish",
                                 str(d.relative_to(ROOT)), "cekfakta", "gpt-bus"], check=True, cwd=ROOT)
                 acts.append(f"ARSIP {key}_*")
-                acts.append(f"RAKIT {b}/{w}")
+                if rakit_boleh():
+                    acts.append(f"RAKIT {b}/{w}")
                 log.append(f"{key}: cek fakta LULUS → Siap rakit")
             else:
                 (d / "cekfakta.json").unlink(missing_ok=True)
@@ -129,9 +130,27 @@ def pull(dir_riset, dir_cek):
     return 0
 
 
+def rakit_boleh():
+    """Saklar rakit di data/kontrol.json (diubah Claude lewat repo): {"rakit": "codex"|"stop", "jeda_sampai": ISO-UTC}."""
+    import datetime
+    try:
+        k = json.loads((ROOT / "data" / "kontrol.json").read_text(encoding="utf-8"))
+    except Exception:
+        return True
+    if str(k.get("rakit", "codex")).strip().lower() != "codex":
+        print("rakit dimatikan lewat data/kontrol.json", file=sys.stderr); return False
+    jeda = str(k.get("jeda_sampai", "")).strip()
+    now = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    if jeda and now < jeda:
+        print(f"rakit dijeda sampai {jeda} (kuota Codex)", file=sys.stderr); return False
+    return True
+
+
 def pending_rakit(limit="5"):
     """Klinik berstatus 'Siap rakit' yang belum punya site/index.html (dari jalur API maupun bus)."""
     out = []
+    if not rakit_boleh():
+        return 0
     for st in sorted((ROOT / "batches").glob("B*/*/status.json")):
         d = st.parent
         try:
