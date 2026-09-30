@@ -16,6 +16,7 @@ CONF, STATE = ROOT / "data" / "codex-pool.json", ROOT / "data" / "codex-pool-sta
 OUT = pathlib.Path("/tmp/pool")
 JEDA_JAM = 5            # lama slot dianggap habis bila Codex tidak menyebut jam reset
 DIAM_MENIT = 75         # Codex diam (tanpa balasan & tanpa commit) selama ini → pindah slot
+TANPA_PUSH_MENIT = 30    # Codex membalas tapi tidak push selama ini → panggil ulang
 MAKS_PANGGIL = 3        # total panggilan @codex per PR sebelum diserahkan ke Claude
 LIMIT_RE = re.compile(r"usage limit|reached your codex usage|out of codex|rate limit", re.I)
 GAGAL_RE = re.compile(r"couldn.t complete|environment setup failed|try again later", re.I)
@@ -71,7 +72,7 @@ def pindai():
     by_id = {s["id"]: s for s in slots}
     prs = json.loads(gh("pr", "list", "--state", "open", "--limit", "60", "--json",
                         "number,headRefName,createdAt,comments,commits") or "[]")
-    aksi, log = [], []
+    aksi, log, dihitung = [], [], set()
     for p in prs:
         if not p["headRefName"].startswith("codex/"):
             continue
@@ -97,11 +98,18 @@ def pindai():
                 st.setdefault(slot, {})["habis_sampai"] = iso(max(now(), t_balas + datetime.timedelta(hours=JEDA_JAM)))
             alasan = "limit"
         elif GAGAL_RE.search(balas):
-            if baru:
+            if baru and slot not in dihitung:
+                dihitung.add(slot)
                 st.setdefault(slot, {})["gagal_berturut"] = st.get(slot, {}).get("gagal_berturut", 0) + 1
             alasan = "gagal"
         elif not balas and not commit_baru and now() - t > datetime.timedelta(minutes=DIAM_MENIT):
             alasan = "diam"
+        elif balas and not commit_baru and now() - t_balas > datetime.timedelta(minutes=TANPA_PUSH_MENIT):
+            # Codex bilang selesai tapi tidak ada commit di branch → hasil hilang; panggil ulang
+            if baru and slot not in dihitung:  # maks +1 per slot per run (banyak PR lama sekaligus ≠ banyak kegagalan)
+                dihitung.add(slot)
+                st.setdefault(slot, {})["gagal_berturut"] = st.get(slot, {}).get("gagal_berturut", 0) + 1
+            alasan = "tanpa_push"
         elif commit_baru:
             st.setdefault(slot, {})["gagal_berturut"] = 0
         if not alasan:
@@ -121,7 +129,9 @@ def pindai():
         if "@codex" not in body:
             body = "@codex " + body
         f = OUT / f"pr{p['number']}.md"
-        f.write_text(f"<!-- slot={s['id']} t={iso(now())} -->\n{body}\n\n(dipindah dari slot {slot}: {alasan})")
+        catatan = ("\n\nPENTING: jawaban sebelumnya tidak menghasilkan commit di branch PR ini. "
+                   "Kerjakan ulang, lalu WAJIB commit dan push ke branch PR ini.") if alasan == "tanpa_push" else ""
+        f.write_text(f"<!-- slot={s['id']} t={iso(now())} -->\n{body}{catatan}\n\n(dipindah dari slot {slot}: {alasan})")
         aksi.append(f"{p['number']}\t{s['id']}\t{s['secret']}\t{f}")
         log.append(f"PR #{p['number']}: slot {slot} {alasan} → pindah ke slot {s['id']}")
     st["_diproses"] = dict(list(st.get("_diproses", {}).items())[-300:])

@@ -11,13 +11,14 @@ Format perintah (satu file .json/.txt, isi JSON):
   "id": "2026-09-30-01",                 # bebas, untuk laporan
   "pesan": "commit message",
   "tulis": {"path/di/repo": "isi file teks", ...},
+  "ganti": {"path/di/repo": [["teks lama (unik)", "teks baru"], ...]},   # edit kecil, hemat token
   "hapus": ["path/di/repo", ...],
   "variabel": {"RAKIT_ENGINE": "codex"},
   "jalankan": [{"workflow": "orkestrator.yml", "input": {}}]
 }
 Keluaran untuk langkah workflow berikutnya: /tmp/jb/vars.tsv, /tmp/jb/runs.jsonl, /tmp/jb/pesan.txt, /tmp/jb/hasil.md
 """
-import datetime, json, os, pathlib, subprocess, sys
+import datetime, json, os, pathlib, re, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = pathlib.Path("/tmp/jb")
@@ -61,11 +62,24 @@ def terapkan(folder):
             for p, isi in (cmd.get("tulis") or {}).items():
                 p, full = aman(p)
                 valid(p, isi)  # sintaks salah → perintah ditolak utuh, repo tidak disentuh
+            ganti = {}
+            for p, pasangan in (cmd.get("ganti") or {}).items():  # edit kecil: [[teks_lama, teks_baru], ...]
+                p, full = aman(p)
+                isi = full.read_text(encoding="utf-8")
+                for lama, baru in pasangan:
+                    if isi.count(lama) != 1:
+                        raise ValueError(f"ganti {p}: teks lama ditemukan {isi.count(lama)}x (harus tepat 1)")
+                    isi = isi.replace(lama, baru)
+                valid(p, isi)
+                ganti[p] = (full, isi, len(pasangan))
             for p, isi in (cmd.get("tulis") or {}).items():
                 p, full = aman(p)
                 full.parent.mkdir(parents=True, exist_ok=True)
                 full.write_text(isi, encoding="utf-8")
                 ok.append(f"tulis {p} ({len(isi)} B)")
+            for p, (full, isi, n) in ganti.items():
+                full.write_text(isi, encoding="utf-8")
+                ok.append(f"ganti {p} ({n} bagian)")
             for p in cmd.get("hapus") or []:
                 p, full = aman(p)
                 if full.is_file():
@@ -150,8 +164,10 @@ def laporan():
     if gagal:
         L += ["", "## Log error (run gagal 3 jam terakhir)"]
         for r in gagal:
-            log = sh("gh", "run", "view", str(r["databaseId"]), "--log-failed")
-            L += [f"### {r['workflowName']} #{r['databaseId']}", "```", "\n".join(log.strip().splitlines()[-40:]), "```"]
+            log = sh("gh", "run", "view", str(r["databaseId"]), "--log-failed").strip().splitlines()
+            # ringkas (hemat token Claude): hanya baris error + 5 baris terakhir sebelum cleanup
+            pent = [x.split("Z ", 1)[-1] for x in log if re.search(r"error|rejected|fatal|Traceback|Exception|❌", x, re.I)]
+            L += [f"### {r['workflowName']} #{r['databaseId']}", "```", "\n".join(pent[-15:]) or "\n".join(log[-10:]), "```"]
     prs = js("gh", "pr", "list", "--state", "open", "--limit", "30", "--json",
               "number,title,createdAt,headRefName,comments,commits")
     L += ["", "## PR terbuka", "| # | judul | dibuat | commit | komentar terakhir |", "|---|---|---|---|---|"]
@@ -173,8 +189,9 @@ def laporan():
     if len(ork) >= 2 and all(r["conclusion"] == "failure" for r in ork[:2]):
         alarm.append(("claude", "orkestrator gagal 2x berturut-turut"))
     for p in prs:
-        if p["headRefName"].startswith("codex/") and p["createdAt"] < (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ"):
-            alarm.append(("claude", f"PR #{p['number']} terbuka > 6 jam: {p['title'][:50]}"))
+        akhir = max([c.get("createdAt", "") for c in (p.get("comments") or [])] + [p["createdAt"]])
+        if p["headRefName"].startswith("codex/") and akhir < (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ"):
+            alarm.append(("claude", f"PR #{p['number']} tanpa aktivitas > 6 jam: {p['title'][:50]}"))
     pool = sh("python3", str(ROOT / "scripts" / "codex_pool.py"), "status")
     L += ["", "## Codex pool", pool.strip() or "(tidak terbaca)"]
     try:
