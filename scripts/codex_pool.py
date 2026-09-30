@@ -77,8 +77,10 @@ def pindai():
         if not p["headRefName"].startswith("codex/"):
             continue
         cs = p.get("comments") or []
-        panggil = [(i, c) for i, c in enumerate(cs) if "@codex" in c.get("body", "") and "Kerjakan tugas" in c.get("body", "")
-                   or MARK_RE.search(c.get("body", ""))]
+        # panggilan = komentar berisi @codex yang BUKAN dari bot Codex (teks lama/baru, huruf besar/kecil apa pun)
+        panggil = [(i, c) for i, c in enumerate(cs)
+                   if ("@codex" in c.get("body", "").lower() or MARK_RE.search(c.get("body", "")))
+                   and "codex" not in ((c.get("author") or {}).get("login") or "").lower()]
         if not panggil:
             continue
         i, last = panggil[-1]
@@ -137,7 +139,9 @@ def pindai():
     st["_diproses"] = dict(list(st.get("_diproses", {}).items())[-300:])
     save(st)
     (OUT / "aksi.tsv").write_text("".join(a + "\n" for a in aksi))
-    print("\n".join(log) or "pool: tidak ada yang perlu dipindah")
+    teks = "\n".join(log) or f"pool: {len(prs)} PR diperiksa, tidak ada yang perlu dipindah"
+    (OUT / "log.txt").write_text(teks)
+    print(teks)
 
 
 def status():

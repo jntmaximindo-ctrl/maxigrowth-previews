@@ -81,6 +81,7 @@ jobs:
             cp -r /tmp/scripts-main/. scripts/
             set +e; python scripts/codex_check.py check "$S_dir" "$S_stage" > check.out 2>&1; code=$?; set -e
             cat check.out
+            [ $code -ne 0 ] && python3 /tmp/scripts-main/belajar.py catat "$S_stage" check.out "${S_dir#batches/}" || true
             # slot Codex dari pool (cek fakta menghindari slot A supaya pemeriksa beda akun)
             SL=$(python3 /tmp/scripts-main/codex_pool.py pilih $([ "$S_stage" = "cekfakta" ] && echo A))
             SLID=${SL%% *}; SEC=${SL#* }; [ -n "$SL" ] || SEC=CODEX_PAT_A; PAT=${!SEC:-$PAT_A}
@@ -179,6 +180,16 @@ jobs:
               rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset.txt" -v
             fi
           done < bus-actions.txt
+      - name: 2b · Loop belajar (kesalahan berulang → aturan pekerja) + uji regresi (aturan lama tetap jalan)
+        run: |
+          for f in bus-notes/*; do [ -f "$f" ] && python3 scripts/belajar.py catat riset-gpt "$f" "$(basename "$f")"; done || true
+          python3 scripts/belajar.py gabung || true
+          python3 scripts/belajar.py perbarui || true
+          A="bus:00 ATURAN KLINIK-BUS (baca tiap run)"
+          if rclone copyto "$A" /tmp/aturan.txt --drive-export-formats txt 2>/dev/null && python3 scripts/belajar.py sisip /tmp/aturan.txt; then
+            rclone copyto /tmp/aturan.txt "$A" || true
+          fi
+          python3 tests/uji_regresi.py || echo "::warning::uji regresi ada yang gagal (lihat laporan)"
       - name: 3 · Revisi dari chat · ambil
         id: r
         run: |
@@ -229,7 +240,7 @@ jobs:
       - name: 5 · Commit perubahan
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add batches data 2>/dev/null || true
+          git add batches data AGENTS.md 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "orkestrator: pembaruan otomatis"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
@@ -256,8 +267,8 @@ jobs:
           [ "${{ vars.RAKIT_ENGINE }}" = "codex" ] || exit 0
           # PR rakit yang macet >3 jam tanpa hasil Codex → tutup (dihitung 1x gagal) supaya bisa dikirim ulang
           CUT=$(date -u -d '3 hours ago' +%Y-%m-%dT%H:%M:%SZ)
-          gh pr list --state open --limit 100 --json number,headRefName,createdAt,commits \
-            -q ".[] | select(.headRefName | startswith(\"codex/rakit-\")) | select(.createdAt < \"$CUT\") | select(([.commits[].messageHeadline] | map(startswith(\"tugas codex\") | not) | any) | not) | .number" \
+          gh pr list --state open --limit 100 --json number,headRefName,createdAt,commits,comments \
+            -q ".[] | select(.headRefName | startswith(\"codex/rakit-\")) | select(([.comments[].createdAt] + [.createdAt] | max) < \"$CUT\") | select(([.commits[].messageHeadline] | map(startswith(\"tugas codex\") | not) | any) | not) | .number" \
             | while read -r n; do [ -n "$n" ] && gh pr close "$n" --comment "Ditutup otomatis: >3 jam tanpa hasil Codex. Akan dikirim ulang (maks 2x)." --delete-branch; done
           python3 scripts/bus.py pending-rakit 100 >> /tmp/rakit.txt || true
           [ -s /tmp/rakit.txt ] || exit 0

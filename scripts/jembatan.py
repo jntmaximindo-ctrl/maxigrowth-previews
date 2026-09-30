@@ -194,6 +194,8 @@ def laporan():
             alarm.append(("claude", f"PR #{p['number']} tanpa aktivitas > 6 jam: {p['title'][:50]}"))
     pool = sh("python3", str(ROOT / "scripts" / "codex_pool.py"), "status")
     L += ["", "## Codex pool", pool.strip() or "(tidak terbaca)"]
+    if pathlib.Path("/tmp/pool/log.txt").exists():
+        L += ["", "### Aksi pool run ini", pathlib.Path("/tmp/pool/log.txt").read_text().strip()]
     try:
         pst = json.loads((ROOT / "data" / "codex-pool-state.json").read_text())
         for sid, x in pst.items():
@@ -210,6 +212,9 @@ def laporan():
                 alarm.append(("manusia", f"Token CLAUDE_PAT kedaluwarsa dalam {sisa} hari — perlu diperpanjang"))
         except Exception:
             pass
+    uji = pathlib.Path("/tmp/jb/uji.txt")
+    if uji.exists() and uji.read_text().strip():
+        alarm.append(("claude", "uji regresi GAGAL (aturan lama rusak/terlewat) → perbaiki ATURAN-nya: " + uji.read_text().strip()[:400]))
     tingkat = "MERAH" if any(a[0] == "manusia" for a in alarm) else "KUNING" if alarm else "HIJAU"
     L.insert(1, f"STATUS: {tingkat}" + "".join(f"\n- [{a[0]}] {a[1]}" for a in alarm))
     (OUT / "alarm-manusia.md").write_text("\n".join(f"- {a[1]}" for a in alarm if a[0] == "manusia"))
