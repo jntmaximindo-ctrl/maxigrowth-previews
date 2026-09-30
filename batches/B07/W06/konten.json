@@ -1,0 +1,132 @@
+{
+  "id": "W06",
+  "hero": {
+    "judul": {
+      "id": "Rawat Kesehatan Gigi Anda di EDental",
+      "en": "Support Your Dental Health at EDental"
+    },
+    "sub": {
+      "id": "Klinik gigi di Sarijadi, Sukasari, Bandung untuk konsultasi, pemeriksaan, dan perencanaan perawatan.",
+      "en": "A dental clinic in Sarijadi, Sukasari, Bandung for consultations, examinations, and treatment planning."
+    },
+    "cta": {
+      "id": "Rencanakan Kunjungan",
+      "en": "Plan a Visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Kesehatan Gigi",
+        "en": "Dental Health Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan kebutuhan Anda untuk memperoleh informasi awal sebelum perawatan.",
+        "en": "Discuss your concerns and needs to receive initial information before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan membantu dokter memahami kondisi gigi dan mulut Anda.",
+        "en": "An examination helps the dentist understand your oral health condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perencanaan Perawatan",
+        "en": "Treatment Planning"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dibahas berdasarkan hasil pemeriksaan dan kebutuhan pasien.",
+        "en": "Care options are discussed based on examination findings and each patient's needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontrol Perawatan",
+        "en": "Follow-up Care"
+      },
+      "ringkas": {
+        "id": "Jadwalkan kunjungan kontrol sesuai arahan dokter setelah perawatan.",
+        "en": "Arrange follow-up visits according to the dentist's guidance after treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencana Kunjungan",
+      "en": "Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan konsultasi dan waktu yang diinginkan, lalu siapkan pesan untuk menghubungi klinik.",
+      "en": "Choose your consultation need and preferred time, then prepare a message to contact the clinic."
+    },
+    "alasan_dipilih": "Membantu pasien menyiapkan kunjungan ketika informasi jadwal lengkap belum tersedia di situs."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi EDental?",
+        "en": "Where is EDental located?"
+      },
+      "a": {
+        "id": "EDental berlokasi di Jl. Sarirasa No.2, Sarijadi, Kecamatan Sukasari, Kota Bandung, Jawa Barat 40151.",
+        "en": "EDental is located at Jl. Sarirasa No.2, Sarijadi, Sukasari, Bandung, West Java 40151."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan EDental buka?",
+        "en": "When is EDental open?"
+      },
+      "a": {
+        "id": "Jadwal mingguan lengkap belum dapat kami verifikasi. Silakan hubungi klinik untuk memastikan jam layanan sebelum datang.",
+        "en": "The full weekly schedule could not be verified. Please contact the clinic to confirm opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya belum tercantum pada sumber yang kami periksa. Klinik dapat memberikan informasi setelah mengetahui kebutuhan dan hasil pemeriksaan Anda.",
+        "en": "Fees were not listed in the sources we checked. The clinic can provide details after learning about your needs and examination findings."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah EDental menerima asuransi?",
+        "en": "Does EDental accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum dapat kami verifikasi. Tanyakan langsung kepada klinik dengan menyebutkan penyedia dan jenis manfaat Anda.",
+        "en": "Insurance information could not be verified. Please ask the clinic and mention your provider and benefit type."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji sebelum datang?",
+        "en": "Do I need an appointment before visiting?"
+      },
+      "a": {
+        "id": "Hubungi klinik terlebih dahulu untuk memastikan jadwal kunjungan dan ketersediaan layanan yang Anda perlukan.",
+        "en": "Contact the clinic first to confirm a visit time and availability for the care you need."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan Kunjungan Anda ke EDental",
+    "en": "Prepare for Your Visit to EDental"
+  },
+  "pesan_wa_default": "Halo EDental, saya ingin menanyakan jadwal konsultasi dan membuat rencana kunjungan. Mohon informasi waktu yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen EDental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya memperhatikan informasi dokter, layanan, dan jadwal lengkap belum mudah diakses melalui situs EDental saat kami mengeceknya. Kami sudah membuat konsep website agar informasi kunjungan lebih terstruktur. Konsepnya dapat dilihat di https://maxigrowthstudio.com/edental. Silakan ditinjau tanpa kewajiban. Jika berkenan, saya siap menjelaskan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website untuk EDental",
+    "email_isi": "Yth. Manajemen EDental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saat meninjau kehadiran digital EDental, saya melihat informasi dokter, layanan, harga, asuransi, dan jadwal mingguan belum mudah diverifikasi melalui situs. Kami kemudian menyiapkan konsep website yang menata informasi lokasi, rencana kunjungan, dan pertanyaan umum agar lebih mudah dipahami calon pasien.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/edental. Saya juga melampirkan proposal PDF sebagai bahan pertimbangan. Tidak ada kewajiban untuk melanjutkan. Jika konsep ini relevan, saya siap berdiskusi dan menyesuaikannya dengan informasi resmi EDental.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

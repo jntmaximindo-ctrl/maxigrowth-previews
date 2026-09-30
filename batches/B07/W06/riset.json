@@ -1,0 +1,82 @@
+{
+  "id": "W06",
+  "nama": {
+    "v": "EDental",
+    "src": "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung",
+    "tgl": "2026-09-30",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-30",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-09-30",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "EDental Sarijadi",
+      "alamat": {
+        "v": "Jl. Sarirasa No.2, Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat 40151",
+        "src": "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung",
+        "tgl": "2026-09-30",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "081288364747",
+        "src": "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung",
+        "tgl": "2026-09-30",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-30",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-09-30",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Konsultasi kesehatan gigi",
+    "Pemeriksaan gigi",
+    "Perencanaan perawatan gigi",
+    "Kontrol perawatan gigi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": 4.9,
+    "src": "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung",
+    "tgl": "2026-09-30"
+  },
+  "keunggulan": [
+    "Berlokasi di Sarijadi, Kecamatan Sukasari, Kota Bandung",
+    "Profil Google Maps mencantumkan jam tutup pukul 20.00 pada hari saat pengecekan"
+  ],
+  "situs_lama": [
+    "Situs https://www.edental.id/ tidak dapat diakses saat pengecekan karena permintaan ditolak dengan respons HTTP 403",
+    "Informasi dokter, rincian layanan, harga, asuransi, serta jam operasional lengkap tidak dapat diverifikasi dari situs saat pengecekan"
+  ],
+  "ide_fitur_khas": "Formulir rencana kunjungan yang membantu pasien memilih kebutuhan konsultasi dan waktu kunjungan sebelum menghubungi klinik.",
+  "catatan": "Google Maps menampilkan telepon 0812-8836-4747, rating 4,9, alamat, dan kategori dokter gigi. Nomor tersebut tidak ditandai sebagai WhatsApp sehingga field wa dibiarkan null. Google Maps hanya menampilkan jam parsial untuk hari saat pengecekan; jadwal mingguan dibiarkan null. Angka 439 ulasan dari input job tidak dipakai karena URL sumbernya tidak tersedia. Empat label layanan bersifat umum sesuai kategori dokter gigi dan tidak menyatakan prosedur spesifik.",
+  "sumber": [
+    "https://www.edental.id/",
+    "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung"
+  ]
+}
