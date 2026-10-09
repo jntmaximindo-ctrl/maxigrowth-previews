@@ -13,15 +13,14 @@ jobs:
         run: |
           exec > >(tee data/cf-inspect.txt) 2>&1
           api(){ curl -s -H "Authorization: Bearer $T" "https://api.cloudflare.com/client/v4/$1"; }
-          echo "== token"; api user/tokens/verify | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),d.get('result',{}).get('status'),d.get('errors'))"
-          echo "== workers scripts"; api accounts/$A/workers/scripts | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[ (s['id'],s.get('modified_on')) for s in d.get('result',[]) ],d.get('errors'))"
-          echo "== worker maxigrowth settings"; api accounts/$A/workers/scripts/maxigrowth/settings | python3 -c "import json,sys;d=json.load(sys.stdin);r=d.get('result') or {};print(d.get('success'),{k:r.get(k) for k in ('bindings','compatibility_date','usage_model','placement')},d.get('errors'))" | cut -c1-1500
-          echo "== workers custom domains"; api accounts/$A/workers/domains | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(x.get('hostname'),x.get('service'),x.get('environment')) for x in (d.get('result') or [])],d.get('errors'))"
-          echo "== zones"; api "zones?name=maxigrowthstudio.com" | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(z['id'],z['name'],z['status']) for z in d.get('result',[])],d.get('errors'))"
-          Z=$(api "zones?name=maxigrowthstudio.com" | python3 -c "import json,sys;r=json.load(sys.stdin).get('result',[]);print(r[0]['id'] if r else '')")
-          [ -n "$Z" ] && { echo "== worker routes"; api zones/$Z/workers/routes | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(x.get('pattern'),x.get('script')) for x in (d.get('result') or [])],d.get('errors'))"; echo "== dns"; api "zones/$Z/dns_records?per_page=50" | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(x['type'],x['name'],x['content'][:40],x.get('proxied')) for x in (d.get('result') or [])],d.get('errors'))"; }
-          echo "== pages project"; api accounts/$A/pages/projects/maxigrowth-previews | python3 -c "import json,sys;d=json.load(sys.stdin);r=d.get('result') or {};print(d.get('success'),r.get('subdomain'),r.get('domains'),(r.get('source') or {}).get('type'),d.get('errors'))"
-          echo "== atabara header"; curl -sI https://maxigrowthstudio.com/atabara/ | head -12
+          echo "== settings keys"; api accounts/$A/workers/scripts/maxigrowth/settings | python3 -c "import json,sys;d=json.load(sys.stdin);r=d.get('result') or {};print(list(r.keys()));print(json.dumps(r.get('assets'))[:600]);print(json.dumps(r.get('bindings'))[:300])"
+          echo "== script content (awal)"; api accounts/$A/workers/scripts/maxigrowth/content/v2 | head -c 2500; echo
+          echo "== versions"; api accounts/$A/workers/scripts/maxigrowth/versions | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),json.dumps(d.get('result'))[:900],d.get('errors'))"
+          echo "== script (alt)"; api accounts/$A/workers/scripts/maxigrowth | head -c 1500; echo
+          echo "== homepage"; curl -s https://maxigrowthstudio.com/ | head -c 700; echo; curl -s https://maxigrowthstudio.com/ | grep -oE '(src|href)="[^"]+"' | sort -u | head -40
+          echo "== 404 test"; curl -s -o /dev/null -w "%{http_code}\n" https://maxigrowthstudio.com/zzz-tidak-ada/
+          echo "== atabara refs"; curl -s https://maxigrowthstudio.com/atabara/ | grep -oE '(src|href)="[^"]+"' | sort -u | head -20
+          echo "== token perms probe (routes write dry-run tidak dijalankan)"
       - name: Simpan hasil
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
