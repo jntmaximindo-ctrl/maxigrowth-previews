@@ -1,0 +1,62 @@
+name: worker-deploy
+# Menyajikan preview di maxigrowthstudio.com/<nama>/ lewat worker "maxigrowth" (aset statis):
+# halaman studio + /atabara/ (disimpan di site-root/) + semua preview lolos QA (dist dari deploy_prep.py).
+on:
+  workflow_dispatch:
+  workflow_call:
+permissions: { contents: write }
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Cadangkan halaman yang sekarang live (sekali saja)
+        run: |
+          set -e
+          if [ ! -f site-root/index.html ]; then
+            mkdir -p site-root/atabara
+            curl -fsS https://maxigrowthstudio.com/ -o site-root/index.html
+            curl -fsS https://maxigrowthstudio.com/atabara/ -o site-root/atabara/index.html
+            [ "$(stat -c%s site-root/index.html)" -gt 1000 ] && [ "$(stat -c%s site-root/atabara/index.html)" -gt 1000 ]
+            git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+            git add site-root && git commit -qm "cadangan: halaman studio + atabara dari worker maxigrowth" && git push -q origin HEAD:main
+          fi
+      - name: Susun folder public
+        run: |
+          set -e
+          rm -rf public && mkdir public && cp -r site-root/. public/
+          python3 scripts/deploy_prep.py >/dev/null
+          : > public/_headers
+          for d in dist/*/; do
+            s=$(basename "$d"); [ -f "$d/index.html" ] || continue
+            [ "$s" = "atabara" ] && continue
+            mkdir -p "public/$s" && cp -r "$d/." "public/$s/"
+            printf '/%s/*\n  X-Robots-Tag: noindex, nofollow\n' "$s" >> public/_headers
+          done
+          printf '/atabara/*\n  X-Robots-Tag: noindex, nofollow\n' >> public/_headers
+          ls public | head -50; du -sh public
+      - name: Deploy worker maxigrowth
+        run: npx -y wrangler@4 deploy --name maxigrowth --assets public --compatibility-date 2026-09-24
+      - name: Verifikasi (rollback otomatis bila halaman lama berubah / preview tidak live)
+        run: |
+          sleep 15
+          fail=0
+          for p in "" atabara; do
+            want=$(sha256sum "site-root/${p:+$p/}index.html" | cut -d' ' -f1)
+            got=$(curl -fsS "https://maxigrowthstudio.com/${p:+$p/}" | sha256sum | cut -d' ' -f1)
+            [ "$want" = "$got" ] && echo "OK  /$p" || { echo "BEDA /$p"; fail=1; }
+          done
+          for d in dist/*/; do
+            s=$(basename "$d"); [ "$s" = "atabara" ] && continue; [ -f "$d/index.html" ] || continue
+            c=$(curl -s -o /dev/null -w "%{http_code}" "https://maxigrowthstudio.com/$s/")
+            [ "$c" = "200" ] && echo "OK  /$s/" || { echo "GAGAL /$s/ ($c)"; fail=1; }
+          done
+          if [ $fail -ne 0 ]; then npx -y wrangler@4 rollback --name maxigrowth -y || true; exit 1; fi
+          echo "$(date -u +%FT%TZ) semua OK" > data/worker-deploy-ok.txt
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/worker-deploy-ok.txt && git commit -qm "worker-deploy: terverifikasi" && for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 4; done
