@@ -201,10 +201,11 @@ jobs:
           for st in batches/B*/*/status.json; do
             grep -q '"Riset di GPT"' "$st" || continue
             d=$(dirname "$st"); B=$(basename "$(dirname "$d")"); W=$(basename "$d"); k="$B-$W"
-            [ -f "$d/job.json" ] || continue
-            if rclone lsf "bus:01 Antrean Riset" --include "${k}_riset*" | grep -q .; then continue; fi
-            if rclone lsf "bus:02 Hasil Riset" --include "${k}_riset.json*" | grep -q .; then continue; fi
-            if rclone lsf root: --max-depth 1 --include "${k}_riset.json*" | grep -q .; then continue; fi
+            [ -f "$d/job.json" ] || { echo "$k: tanpa job.json" >> /tmp/2e.log; continue; }
+            if rclone lsf "bus:01 Antrean Riset" --include "${k}_riset*" | grep -q .; then echo "$k: surat sudah ada di 01" >> /tmp/2e.log; continue; fi
+            if rclone lsf "bus:02 Hasil Riset" --include "${k}_riset.json*" | grep -q .; then echo "$k: riset ada di 02" >> /tmp/2e.log; continue; fi
+            if rclone lsf root: --max-depth 1 --include "${k}_riset.json*" | grep -q .; then echo "$k: riset ada di root" >> /tmp/2e.log; continue; fi
+            echo "$k: membuat surat" >> /tmp/2e.log
             {
               echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "$d/job.json"; echo
               if [ -f "bus-notes/$k" ]; then cat "bus-notes/$k"; else
@@ -213,10 +214,11 @@ jobs:
                 if [ -n "$C" ]; then echo; echo "RISET LAMA:"; git show "$C^:$d/riset.json" || true; fi
               fi
             } > /tmp/surat-p.txt
-            rclone copyto /tmp/surat-p.txt "bus:01 Antrean Riset/${k}_riset.txt" -v || true
+            rclone copyto /tmp/surat-p.txt "bus:01 Antrean Riset/${k}_riset.txt" -v >> /tmp/2e.log 2>&1 || echo "$k: GAGAL upload" >> /tmp/2e.log
           done
       - name: 2c · R&D fitur · ide dari GPT → library/fitur (+ katalog ke Drive untuk GPT)
         run: |
+          [ -f /tmp/2e.log ] || echo "2e: tidak ada klinik berstatus Riset di GPT" > /tmp/2e.log; rclone copyto /tmp/2e.log "bus:09 Laporan Robot/2e-log.txt" || true
           mkdir -p /tmp/bus/fitur; rm -f /tmp/fitur-arsip.txt
           rclone copy root: /tmp/bus/fitur --max-depth 1 --include "FITUR-*_ide.json*" --drive-export-formats txt -v || true
           python3 scripts/fitur.py pull /tmp/bus/fitur || echo "pull fitur error (tidak fatal)"
