@@ -1,94 +1,1175 @@
 <!doctype html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="Konsep website Infinite Dental Care Bandung dengan informasi layanan, jam kunjungan, lokasi, dan pertanyaan umum.">
-  <meta name="theme-color" content="#163c59">
-  <title>Infinite Dental Care — Bandung</title>
-  <style>
-    :root{--navy:#163c59;--navy2:#0d2d43;--blue:#4796c7;--sky:#dff3ff;--mist:#f3f8fb;--paper:#fff;--ink:#102735;--muted:#58707e;--line:#d9e5eb;--green:#237b54;--amber:#aa6a16;--shadow:0 24px 65px -35px rgba(13,45,67,.38);--ease:cubic-bezier(.2,.7,.2,1)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--mist);color:var(--ink);font-family:Inter,"Segoe UI",Arial,sans-serif;line-height:1.6;overflow-x:hidden}body.lock{overflow:hidden}button,input,textarea{font:inherit}button,a{color:inherit}a{text-decoration:none}button{cursor:pointer}.wrap{width:min(1180px,calc(100% - 34px));margin:auto}.serif{font-family:Georgia,"Times New Roman",serif}section{padding:clamp(72px,9vw,120px) 0}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.eyebrow:before{content:"";width:34px;height:2px;background:currentColor}.title{font-size:clamp(34px,5vw,62px);line-height:1.03;letter-spacing:-.045em;margin:14px 0 18px}.lead{font-size:clamp(16px,1.6vw,19px);color:var(--muted);max-width:650px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:99px;min-height:50px;padding:0 22px;font-weight:750;transition:.25s var(--ease)}.btn:hover{transform:translateY(-2px)}.btn.primary{background:var(--navy);color:#fff;box-shadow:0 15px 30px -18px var(--navy)}.btn.light{background:white;border:1px solid var(--line)}.btn.blue{background:var(--blue);color:#071f2d}.btn.disabled{background:#e4eaed;color:#677983;cursor:not-allowed}.verify{display:inline-flex;margin-left:5px;padding:2px 7px;border:1px dashed #cf963e;border-radius:6px;background:#fff7e8;color:#855311;font-size:10px;font-weight:800;white-space:nowrap;vertical-align:middle}.icon{width:20px;height:20px;display:inline-block}
-    .preview{background:#071c29;color:#d7e2e8;font-size:12px;text-align:center;padding:8px 15px;letter-spacing:.01em}.preview b{color:#fff}
-    nav{height:72px;position:sticky;top:0;z-index:50;background:rgba(243,248,251,.9);backdrop-filter:blur(16px);border-bottom:1px solid rgba(217,229,235,.75)}.navin{height:100%;display:flex;align-items:center;gap:22px}.brand{display:flex;align-items:center;gap:11px;margin-right:auto}.brandmark{width:42px;height:42px;border-radius:13px;background:var(--navy);color:white;display:grid;place-items:center;font-family:Georgia,serif;font-size:23px;font-style:italic}.brandtext{line-height:1.05;font-weight:850;letter-spacing:-.02em}.brandtext small{display:block;color:var(--blue);font-size:9px;letter-spacing:.18em;margin-top:5px}.links{display:flex;gap:4px}.links a{padding:10px;font-size:13px;color:var(--muted);font-weight:650}.links a:hover{color:var(--navy)}.lang{display:flex;border:1px solid var(--line);border-radius:99px;padding:3px}.lang button{border:0;background:transparent;border-radius:99px;padding:7px 10px;font-size:11px;font-weight:800}.lang button.on{background:var(--navy);color:white}.burger{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:white;position:relative}.burger i{position:absolute;left:13px;right:13px;height:2px;background:var(--navy);transition:.25s}.burger i:first-child{top:17px}.burger i:last-child{top:24px}.burger.open i:first-child{transform:translateY(3.5px) rotate(45deg)}.burger.open i:last-child{transform:translateY(-3.5px) rotate(-45deg)}.drawer{position:fixed;z-index:49;inset:108px 0 auto;background:var(--mist);padding:18px 20px 30px;transform:translateY(-120%);transition:.35s var(--ease);box-shadow:var(--shadow)}.drawer.open{transform:none}.drawer a{display:flex;justify-content:space-between;padding:16px 0;border-bottom:1px solid var(--line);font-size:20px;font-weight:800}.drawer .lang{margin-top:20px;width:max-content}
-    .hero{padding:clamp(42px,6vw,80px) 0 55px;position:relative}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:50px}.hero h1{font-size:clamp(44px,6.2vw,82px);line-height:.95;letter-spacing:-.06em;margin:17px 0 24px;max-width:760px}.hero h1 em{font-weight:400;color:var(--blue)}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.status{margin-top:25px;background:white;border:1px solid var(--line);border-radius:18px;padding:16px 18px;max-width:560px;box-shadow:var(--shadow)}.status-top{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:750}.dot{width:9px;height:9px;border-radius:50%;background:var(--green);box-shadow:0 0 0 6px rgba(35,123,84,.1)}.status-top small{margin-left:auto;color:var(--muted);font-weight:500}.timeline{height:7px;background:#e5edf1;border-radius:10px;margin:15px 0 8px;position:relative;overflow:hidden}.timeline span{position:absolute;left:37.5%;width:45.8%;height:100%;background:var(--blue);border-radius:10px}.times{display:flex;justify-content:space-between;font-size:10px;color:var(--muted)}
-    .stage{position:relative;aspect-ratio:1;display:grid;place-items:center}.orb{position:absolute;inset:4%;border:1px solid rgba(71,150,199,.4);border-radius:50%;animation:spin 28s linear infinite}.orb:before,.orb:after{content:"";position:absolute;width:13px;height:13px;border-radius:50%;background:var(--blue);top:8%;left:17%}.orb:after{background:var(--navy);top:auto;left:auto;right:5%;bottom:31%}.bubble{position:absolute;inset:13%;border-radius:50%;background:radial-gradient(circle at 34% 24%,white 0,var(--sky) 47%,#bddff2 100%);box-shadow:inset -24px -28px 55px rgba(22,60,89,.12),0 40px 80px -45px var(--navy)}.tooth{width:48%;z-index:2;filter:drop-shadow(0 25px 18px rgba(13,45,67,.18));animation:float 5s ease-in-out infinite}.mini-card{position:absolute;z-index:3;background:white;border:1px solid var(--line);border-radius:16px;padding:12px 16px;box-shadow:var(--shadow);font-size:12px}.mini-card b{display:block;font-size:14px}.mc1{left:0;bottom:17%}.mc2{right:0;top:20%}@keyframes spin{to{transform:rotate(360deg)}}@keyframes float{50%{transform:translateY(-12px) rotate(2deg)}}
-    .facts{display:grid;grid-template-columns:repeat(4,1fr);background:white;border:1px solid var(--line);border-radius:22px;overflow:hidden;margin-top:50px;box-shadow:var(--shadow)}.fact{padding:20px;min-height:110px}.fact+.fact{border-left:1px solid var(--line)}.fact b{display:block;margin:7px 0 2px}.fact small{color:var(--muted)}
-    .ticker{height:58px;background:var(--navy);color:white;overflow:hidden;display:flex;align-items:center}.track{display:flex;width:max-content;animation:marquee 30s linear infinite}.tickgroup{display:flex}.tick{white-space:nowrap;padding:0 24px;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.tick:after{content:"✦";color:var(--blue);margin-left:48px}@keyframes marquee{to{transform:translateX(-50%)}}
-    .checker{background:white}.section-head{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:end}.checker-box{margin-top:40px;display:grid;grid-template-columns:.85fr 1.15fr;border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}.check-intro{padding:35px;background:var(--navy);color:white}.check-intro p{color:#bdd0db}.steps{display:flex;gap:5px;margin:28px 0}.steps i{height:4px;flex:1;background:rgba(255,255,255,.22);border-radius:4px}.steps i.on{background:var(--blue)}.result{padding:35px;min-height:420px}.question{font-size:25px;font-weight:850;line-height:1.2;margin:10px 0 22px}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choice{border:1px solid var(--line);background:var(--mist);border-radius:15px;padding:17px;text-align:left;font-weight:700;transition:.2s}.choice:hover,.choice.on{border-color:var(--blue);background:var(--sky)}.check-note{margin-top:22px;padding:14px;border-left:3px solid var(--blue);background:var(--mist);font-size:13px;color:var(--muted)}
-    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:42px}.service{background:white;border:1px solid var(--line);border-radius:20px;padding:25px;min-height:220px;transition:.3s var(--ease)}.service:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.num{color:var(--blue);font:italic 24px Georgia}.service h3{font-size:21px;margin:35px 0 10px}.service p{font-size:14px;color:var(--muted)}
-    .visit{background:var(--navy);color:white}.visit .eyebrow{color:#76bde5}.visit .lead{color:#c2d4de}.visit-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px}.day-card{background:white;color:var(--ink);border-radius:26px;padding:28px}.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.day{border:1px solid var(--line);background:white;border-radius:10px;padding:12px 4px;font-size:11px;font-weight:850}.day.on{background:var(--blue);border-color:var(--blue);color:#071f2d}.visit-output{margin:25px 0;padding:20px;background:var(--mist);border-radius:16px}.visit-output strong{font-size:24px;display:block}.visit-links{display:flex;gap:9px;flex-wrap:wrap}.tiny{font-size:12px;color:var(--muted);margin-top:16px}
-    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:40px}.map{min-height:440px;border-radius:24px;overflow:hidden;position:relative;background:linear-gradient(135deg,#deedf4,#c8e1ed);border:1px solid var(--line)}.roads{position:absolute;inset:0;background:linear-gradient(25deg,transparent 45%,rgba(255,255,255,.8) 46% 50%,transparent 51%),linear-gradient(-55deg,transparent 32%,rgba(255,255,255,.8) 33% 38%,transparent 39%)}.pin{position:absolute;left:52%;top:45%;width:52px;height:52px;border-radius:50% 50% 50% 0;background:var(--navy);transform:rotate(-45deg);box-shadow:0 15px 25px rgba(13,45,67,.3)}.pin:after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--blue)}.map-label{position:absolute;left:24px;right:24px;bottom:24px;background:white;border-radius:18px;padding:18px;box-shadow:var(--shadow)}.map-label b{display:block}.map-label span{font-size:13px;color:var(--muted)}.contact-card{border:1px solid var(--line);background:white;border-radius:24px;padding:30px}.contact-row{padding:17px 0;border-bottom:1px solid var(--line)}.contact-row small{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.13em}.contact-row b{display:block;margin-top:4px}.builder{margin-top:25px}.builder label{display:block;font-size:12px;font-weight:800;margin:12px 0 6px}.builder select,.builder textarea{width:100%;border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--mist);color:var(--ink)}.builder textarea{height:105px;resize:vertical}.builder-actions{display:flex;gap:8px;margin-top:10px}.copy-note{font-size:11px;color:var(--green);min-height:18px;margin-top:6px}
-    .faq{background:white}.faq-list{margin-top:40px;border-top:1px solid var(--line)}.faq-item{border-bottom:1px solid var(--line)}.faq-q{width:100%;border:0;background:white;text-align:left;padding:23px 44px 23px 0;position:relative;font-size:18px;font-weight:800}.faq-q:after{content:"+";position:absolute;right:5px;font-size:27px;color:var(--blue);top:16px}.faq-item.open .faq-q:after{content:"−"}.faq-a{display:none;color:var(--muted);max-width:800px;padding:0 40px 24px 0}.faq-item.open .faq-a{display:block}.closing{background:linear-gradient(135deg,var(--sky),white);text-align:center}.closing .lead{margin:0 auto 28px}.closing .title{max-width:850px;margin-left:auto;margin-right:auto}.footer{background:#071c29;color:#bbccd5;padding:42px 0}.foot{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end}.foot b{color:white}.foot small{display:block;margin-top:10px;max-width:600px}.footlinks{display:flex;gap:18px;font-size:12px}.to-top{position:fixed;right:18px;bottom:18px;width:46px;height:46px;border:0;border-radius:50%;background:var(--navy);color:white;z-index:20;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.2s}.to-top.show{opacity:1;transform:none}
-    [data-en]{display:none}body.en [data-id]{display:none}body.en [data-en]{display:revert}
-    @media(max-width:900px){.links,.navin>.lang{display:none}.burger{display:block}.hero-grid,.section-head,.checker-box,.visit-grid,.contact-grid{grid-template-columns:1fr}.stage{max-width:520px;width:85%;margin:auto}.facts{grid-template-columns:1fr 1fr}.fact:nth-child(3){border-left:0}.fact:nth-child(n+3){border-top:1px solid var(--line)}.services-grid{grid-template-columns:1fr 1fr}.checker-box{gap:0}.result{min-height:380px}.visit-grid{gap:30px}}
-    @media(max-width:560px){.wrap{width:min(100% - 24px,1180px)}.brandtext{font-size:13px}.preview{font-size:10px}.hero{padding-top:30px}.hero h1{font-size:43px}.actions{display:grid}.actions .btn{width:100%}.stage{width:90%}.mc2{right:0}.mc1{left:0}.facts{margin-top:30px}.fact{padding:15px;min-height:100px}.services-grid{grid-template-columns:1fr}.service{min-height:auto}.choices{grid-template-columns:1fr}.check-intro,.result,.day-card,.contact-card{padding:23px}.days{grid-template-columns:repeat(4,1fr)}.map{min-height:390px}.foot{grid-template-columns:1fr}.footlinks{flex-wrap:wrap}.title{font-size:36px}}
-    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Infinite Dental Care Bandung — Konsep Website</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta property="og:title" content="Infinite Dental Care Bandung — Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta name="theme-color" content="#4796c7">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Capriola&family=Figtree:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js")</script>
+<style>
+/* ============ TOKENS — warna dari brand Infinite (biru #4796c7, netral #fbfaf9/#e7e5e4); aksen hangat pelengkap ============ */
+:root{--navy:#222a35;--navy2:#151b24;--ink:#1a212b;--cy:#4796c7;--cy-t:#25688f;--cy-d:#a6d3ee;--sky:#8fc3e4;--ice:#e7f1f8;--ice2:#f3f8fc;--bg:#fbfaf9;--line:#e7e5e4;--line2:#cdc8c3;--muted:#58616c;--muted2:#858c95;--sun:#f2b134;--sun-d:#8a5a00;
+--ok:#1b8a4c;--warn:#a96a00;--bad:#c2410c;--wa:#0f8a4a;--ease:cubic-bezier(.22,1,.36,1);--r:30px 30px 8px 30px;--r-s:18px 18px 6px 18px;
+--sh1:0 1px 2px rgba(26,33,43,.06),0 8px 24px -12px rgba(26,33,43,.18);--sh2:0 2px 4px rgba(26,33,43,.05),0 30px 60px -30px rgba(26,33,43,.35);
+--hf:Capriola,"Trebuchet MS","Segoe UI",Arial,sans-serif;--bf:Figtree,"Segoe UI",Arial,sans-serif;--mf:"DM Mono",ui-monospace,Menlo,monospace}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--bf);color:var(--ink);background:var(--bg);font-size:16px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+textarea,input{font:inherit;color:inherit}
+:focus-visible{outline:2.5px solid var(--cy);outline-offset:3px;border-radius:6px}
+h1,h2,h3,h4{font-family:var(--hf);line-height:1.15;letter-spacing:-.01em;font-weight:400;color:var(--navy)}
+*{font-synthesis-weight:none}
+h2{font-size:clamp(28px,3.6vw,44px);text-wrap:balance}
+.wrap{width:min(1200px,100%);margin:0 auto;padding:0 max(16px,env(safe-area-inset-left))}
+section{padding:clamp(64px,8vw,112px) 0}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.lead{font-size:17px;color:var(--muted);max-width:560px}
+.chk{display:inline-block;font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--warn);background:#fff3dc;border:1px dashed #e0b25a;border-radius:6px;padding:1px 6px;margin-left:4px;letter-spacing:0;white-space:nowrap;vertical-align:middle;line-height:1.5}
+.nw{white-space:nowrap}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* section head: nomor stasiun + judul (tanpa pill) */
+.shd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:16px 48px;align-items:end;margin-bottom:34px}
+.stn{display:flex;align-items:center;gap:10px;font-family:var(--mf);font-size:12px;color:var(--cy-t);font-weight:700;letter-spacing:.04em;margin-bottom:12px;text-transform:uppercase}
+.stn b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);color:var(--navy);font-size:12px;background:#fff}
+.stn::after{content:"";height:2px;width:46px;background:linear-gradient(90deg,var(--cy),var(--sun))}
+@media(max-width:899px){.shd{grid-template-columns:1fr;margin-bottom:24px}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s var(--ease),background .2s,box-shadow .2s,border-color .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff;box-shadow:0 10px 24px -12px rgba(26,33,43,.7)}
+.btn-navy:hover{background:var(--navy2)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 10px 24px -12px rgba(15,138,74,.8)}
+.btn-wa:hover{background:#0c7a41}
+.btn-gh{border:1.5px solid var(--line2);background:#fff;color:var(--navy)}
+.btn-gh:hover{border-color:var(--navy)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:14px}
+.wai{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;margin-left:-10px}
+/* ============ PREVIEW BAR ============ */
+.pv{background:var(--ink);color:#e4e8ee;font-size:13px;line-height:1.45}
+.pv-in{display:flex;align-items:center;gap:10px;min-height:44px;padding-top:6px;padding-bottom:6px}
+.pv-t{flex:1;min-width:0}.pv-t b{color:#fff}
+.pv .chk{background:transparent;color:#f6c866;border-color:#8a7440}
+.pv-x{width:44px;height:44px;display:grid;place-items:center;color:#fff;flex:none;margin-right:-10px}
+/* ============ NAV ============ */
+nav{position:sticky;top:0;z-index:50;background:rgba(251,250,249,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+nav.sc{border-color:var(--line);box-shadow:0 6px 20px -16px rgba(26,33,43,.4)}
+.nav-in{display:flex;align-items:center;gap:20px;min-height:70px}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{height:40px;width:auto}
+.brand .city{font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--cy-t);border-left:1.5px solid var(--line2);padding-left:10px;line-height:1.3;letter-spacing:.06em}
+.links{display:flex;gap:4px;margin-left:auto}
+.links a{padding:10px 12px;border-radius:10px;font-weight:600;font-size:14.5px;color:var(--muted);transition:color .2s,background .2s}
+.links a:hover,.links a[aria-current=true]{color:var(--navy);background:var(--ice)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;padding:3px;background:#fff}
+.lang button{min-width:40px;min-height:36px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted);font-family:var(--mf)}
+.lang button[aria-pressed=true]{background:var(--navy);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:14px;border:1.5px solid var(--line);background:#fff;flex-direction:column;align-items:center;justify-content:center}
+.burger i{display:block;width:18px;height:2px;background:var(--navy);border-radius:2px;transition:transform .3s var(--ease)}
+.burger i+i{margin-top:5px}
+.burger[aria-expanded=true] i:first-child{transform:translateY(3.5px) rotate(45deg)}.burger[aria-expanded=true] i+i{transform:translateY(-3.5px) rotate(-45deg);margin-top:0}
+.sheet{display:none}
+.scrim{position:fixed;inset:0;background:rgba(26,33,43,.35);opacity:0;pointer-events:none;transition:opacity .3s;z-index:40}
+.scrim.open{opacity:1;pointer-events:auto}
+@media(max-width:1060px){.links,.nav-cta{display:none}.burger{display:flex}
+ .sheet{display:block;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 18px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .3s var(--ease),visibility .3s;box-shadow:0 20px 40px -20px rgba(26,33,43,.35)}
+ .sheet.open{opacity:1;transform:none;visibility:visible}
+ .sheet a.sl{display:flex;justify-content:space-between;align-items:center;min-height:52px;border-bottom:1px solid var(--line);font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy)}
+ .sheet a.sl small{font-family:var(--mf);font-size:11px;color:var(--cy-t)}
+ .srow{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap}}
+@media(max-width:600px){.nav-r .lang{display:none}.brand svg{height:34px}.nav-in{min-height:62px}}
+/* ============ HERO ============ */
+.hero{padding:clamp(24px,4.4vw,60px) 0 clamp(40px,5vw,70px);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-8%;top:-30%;width:62%;aspect-ratio:1;border-radius:50%;border:2px dashed rgba(71,150,199,.25);pointer-events:none}
+.hg{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:32px;align-items:center;position:relative}
+.hl0{display:flex;align-items:center;gap:8px;font-family:var(--mf);font-size:12.5px;font-weight:700;color:var(--cy-t);margin-bottom:16px;letter-spacing:.03em;flex-wrap:wrap}
+.hl0 span{display:inline-flex;align-items:center;gap:6px}
+.hl0 span+span::before{content:"";width:16px;height:2px;background:var(--cy);border-radius:1px}
+.hero h1{font-size:clamp(38px,5vw,66px);letter-spacing:-.035em;line-height:1.04;margin-bottom:20px;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--cy-t);position:relative;white-space:nowrap}
+.hero h1 em svg{position:absolute;left:-2%;right:0;bottom:-.14em;width:104%;height:.3em}
+.hero .lead{font-size:18px}
+.today{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px 16px;margin-top:26px;max-width:540px;box-shadow:var(--sh1)}
+.today-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.brs{display:grid;gap:2px}
+.brs a{display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:44px;border-radius:12px;padding:0 6px;margin:0 -6px;transition:background .2s}
+.brs a:hover{background:var(--ice2)}
+.brs .no{width:28px;height:28px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--navy)}
+.brs .nm{font-weight:700;font-size:14.5px;min-width:0}
+.brs .st{font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:6px;color:var(--muted);text-align:right}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:none}
+.st-open .dot{animation:pl 2s infinite}
+.st-closed .dot{background:var(--muted2)}.st-unk .dot{background:#fff;border:2px dashed var(--warn)}
+@keyframes pl{0%{box-shadow:0 0 0 0 rgba(27,138,76,.45)}70%{box-shadow:0 0 0 8px rgba(27,138,76,0)}100%{box-shadow:0 0 0 0 rgba(27,138,76,0)}}
+.intent{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.intent span{font-size:12.5px;color:var(--muted);font-weight:700;width:100%;margin-bottom:2px}
+.intent button{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);font-size:13.5px;font-weight:700;color:var(--navy);transition:all .15s}
+.intent button:hover{border-color:var(--navy)}
+.intent button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.btn-pri{min-height:58px;padding:0 26px 0 12px}
+.btn-pri .bl{display:flex;flex-direction:column;align-items:flex-start;line-height:1.2}
+.btn-pri small{font-size:12px;font-weight:600;opacity:.8}
+#hctal{transition:opacity .2s}
+.stage{position:relative;aspect-ratio:1;width:100%;max-width:520px;justify-self:center}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.halo{position:absolute;inset:9%;border-radius:50%;background:radial-gradient(circle at 40% 36%,#fff 0,var(--ice) 58%,rgba(229,247,255,0) 72%)}
+.orbit{position:absolute;inset:3%;border-radius:50%;border:1.5px solid rgba(71,150,199,.4);animation:spin 70s linear infinite}
+.orbit::before{content:"";position:absolute;inset:8%;border-radius:50%;border:1px dashed rgba(26,33,43,.14)}
+.orbit i{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;border:3px solid var(--cy)}
+.orbit i:nth-child(1){left:50%;top:0}.orbit i:nth-child(2){left:6.7%;top:75%;border-color:var(--navy)}.orbit i:nth-child(3){left:93.3%;top:75%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fb{position:absolute;inset:20%;display:none;z-index:1;animation:float 6s ease-in-out 1s infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+.badge{position:absolute;left:3%;bottom:7%;width:92px;height:92px;border-radius:50%;background:#fff;box-shadow:0 18px 36px -18px rgba(26,33,43,.5);outline:1.5px solid rgba(71,150,199,.6);outline-offset:4px;z-index:3;padding:8px}
+.zap{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);z-index:4;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap;box-shadow:var(--sh1);display:none}
+.zap.on{display:block}.zap b{color:var(--navy);font-family:var(--mf)}
+.zap.pop b{animation:pop .4s var(--ease)}@keyframes pop{50%{transform:scale(1.5);color:var(--cy-t)}}
+.proof{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;border:1px solid var(--line);border-radius:var(--r);margin-top:clamp(28px,4vw,52px);overflow:hidden;box-shadow:var(--sh1)}
+.pf{display:flex;gap:14px;padding:20px;align-items:flex-start;transition:background .2s}
+.pf+.pf{border-left:1px solid var(--line)}
+.pf:hover{background:var(--ice2)}
+.pf .ic{width:42px;height:42px;border-radius:14px 14px 14px 4px;background:var(--ice);color:var(--navy);display:grid;place-items:center;flex:none}
+.pf b{display:block;font-family:var(--hf);font-size:15.5px;color:var(--navy);line-height:1.25}
+.pf span.s{display:block;font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
+@media(max-width:1179px){.proof{grid-template-columns:repeat(2,minmax(0,1fr))}.pf:nth-child(3){border-left:0}.pf:nth-child(n+3){border-top:1px solid var(--line)}}
+@media(max-width:899px){.hg{grid-template-columns:minmax(0,1fr);gap:0}.hero h1{font-size:clamp(34px,9.6vw,46px)}.hero .lead{font-size:16px}
+ .ctas{flex-direction:column}.ctas .btn{width:100%}.btn-pri{justify-content:center}
+ .stage{width:78%;max-width:320px;margin-top:26px}.badge{width:62px;height:62px;padding:5px}
+ .pf{flex-direction:column;gap:10px;padding:14px}.pf .ic{width:34px;height:34px}}
+/* ============ CEK GIGI ============ */
+#cek{background:linear-gradient(180deg,var(--bg),#fff 40%)}
+.prog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.ps{text-align:left;padding:8px 0 4px;min-height:44px;display:block;width:100%}
+.ps i{display:block;height:4px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.ps i::after{content:"";position:absolute;inset:0;background:var(--navy);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease),background .3s}
+.ps.on i::after{transform:scaleX(1)}.ps.done i::after{transform:scaleX(1);background:var(--cy)}
+.ps span{display:flex;gap:8px;align-items:baseline;margin-top:10px;font-size:13.5px;color:var(--muted2);font-weight:600;white-space:nowrap}
+.ps b{font-family:var(--mf);font-size:11px}
+.ps.on span,.ps.done span{color:var(--navy);font-weight:800}
+.ps em{font-style:normal}
+.console{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);background:#fff;border:1px solid var(--line);border-radius:30px 30px 30px 10px;box-shadow:var(--sh2);margin-top:14px}
+.c-l{padding:clamp(20px,3vw,34px);border-right:1px solid var(--line)}
+.c-l-in{position:sticky;top:96px}
+.c-r{padding:clamp(20px,3vw,34px);min-width:0}
+.step{font-family:var(--mf);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cy-t)}
+.ptitle{font-size:clamp(20px,2vw,24px);margin:6px 0 16px}
+.c-head{display:flex;align-items:flex-end;justify-content:space-between;gap:4px 12px;flex-wrap:wrap}
+.seg{display:inline-flex;background:var(--ice2);border:1px solid var(--line);border-radius:999px;padding:3px;margin-bottom:14px}
+.seg button{min-height:38px;padding:0 13px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted)}
+.seg button[aria-pressed=true]{background:#fff;color:var(--navy);box-shadow:0 1px 3px rgba(26,33,43,.18)}
+.aw{position:relative;border-radius:22px;background:radial-gradient(ellipse at 50% 50%,var(--ice2) 0,#fff 70%)}
+.arch{width:100%;height:auto;display:block;user-select:none;-webkit-user-select:none;overflow:visible;touch-action:manipulation}
+.arch .t{cursor:pointer;outline:none}.arch .hit{fill:transparent}
+.arch .tb{transform-box:fill-box;transform-origin:center;transition:transform .3s var(--ease)}
+.arch .body{fill:url(#toothG);stroke:#9fb6c8;stroke-width:1.1;transition:fill .25s,stroke .25s}
+.arch .gr{fill:none;stroke:#b8cad8;stroke-width:1;stroke-linecap:round}
+.arch .halo2{fill:none;stroke:var(--cy);stroke-width:1.4;opacity:0;transform:scale(.6);transform-box:fill-box;transform-origin:center;transition:opacity .3s,transform .3s var(--ease)}
+.arch .t:hover .tb,.arch .t:focus-visible .tb{transform:scale(1.07)}
+.arch .t:hover .body{stroke:var(--cy)}
+.arch .t:focus-visible .halo2{opacity:1;transform:none;stroke-dasharray:3 2}
+.arch .t.on .body{fill:var(--navy);stroke:var(--navy)}.arch .t.on .gr{stroke:var(--cy)}.arch .t.on .halo2{opacity:1;transform:none}
+.arch.pre .tb{transform:scale(0)}
+.arch .nb{opacity:0;transition:opacity .2s;pointer-events:none}.arch .nb.on{opacity:1}
+.arch .nb circle{fill:var(--cy);stroke:#fff;stroke-width:1.2}
+.arch .nb text{fill:var(--ink);font-family:var(--mf);font-size:7px;font-weight:700}
+.arch text.jl{font-family:var(--mf);font-size:8.5px;fill:var(--muted2);font-weight:700;letter-spacing:.2em}
+.arch.zu,.arch.zl{overflow:hidden}
+.arch.zu .t[data-jaw="1"],.arch.zl .t[data-jaw="0"],.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"]{visibility:hidden}
+.side{position:absolute;bottom:2px;font-family:var(--mf);font-size:9.5px;font-weight:700;text-transform:uppercase;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 8px;white-space:nowrap;pointer-events:none}
+.side.r{left:0}.side.l{right:0}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:52%;pointer-events:none;display:flex;flex-direction:column;align-items:center}
+.aw.zm .ctr{position:static;transform:none;width:auto;padding:14px 0 0}
+.ctr .big{font-family:var(--hf);font-weight:700;font-size:clamp(30px,3.6vw,40px);line-height:1;color:var(--navy)}
+.ctr .sm{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.35;text-wrap:balance}
+.tapme{width:44px;height:44px;margin:0 auto 8px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;position:relative;color:var(--cy-t)}
+.tapme::after{content:"";position:absolute;inset:-2px;border-radius:50%;border:2px solid var(--cy);animation:ring 2.2s var(--ease) infinite}
+@keyframes ring{to{transform:scale(1.6);opacity:0}}
+.skip{pointer-events:auto;margin-top:6px;font-size:12.5px;font-weight:800;color:var(--cy-t);min-height:40px;text-decoration:underline;text-underline-offset:4px}
+.mchips{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.mchip{display:inline-flex;align-items:center;gap:2px;font-size:11px;font-weight:700;background:var(--ice);color:var(--navy);border-radius:99px;padding:0 0 0 9px;pointer-events:auto;line-height:1.2}
+.mchip button{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:15px;color:var(--cy-t)}
+.mchip.plus{padding:6px 9px}
+.clr{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:1.5px solid var(--line2);border-radius:99px;font-size:12.5px;font-weight:800;margin-top:10px;pointer-events:auto;background:#fff;color:var(--navy)}
+.clr .i{width:14px;height:14px}
+.tip{position:absolute;pointer-events:none;background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 10px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .15s;z-index:3}
+.tip.on{opacity:1}
+.toast{position:absolute;left:50%;top:6px;transform:translate(-50%,-4px);background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:99px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;white-space:nowrap;z-index:3}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.orient{font-size:12px;color:var(--muted);margin-top:12px;text-align:center;text-wrap:balance}
+.kl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:26px}
+@media(min-width:1100px){.kl{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:90px;padding:12px 8px;border-radius:var(--r-s);border:1.5px solid var(--line);background:#fff;text-align:center;font-size:13.5px;font-weight:700;line-height:1.25;color:var(--navy);transition:all .2s var(--ease)}
+.k .ki{width:38px;height:38px;border-radius:50%;background:var(--ice);display:grid;place-items:center}
+.k svg{width:21px;height:21px;stroke:var(--navy);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.k:hover{border-color:var(--navy);transform:translateY(-1px)}
+.k[aria-checked=true]{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:inset 0 -4px 0 var(--cy)}
+.k[aria-checked=true] .ki{background:rgba(71,150,199,.2)}.k[aria-checked=true] svg{stroke:var(--cy-d)}
+.ud{position:absolute;top:10px;right:10px;width:7px;height:7px;border-radius:50%;background:var(--warn)}.ud.u3{background:var(--bad)}
+.res{border-radius:24px 24px 24px 8px;position:relative;overflow:hidden;scroll-margin-top:140px}
+.res.empty{background:var(--ice2);border:1px dashed var(--line2);padding:22px;min-height:200px;display:flex;flex-direction:column;gap:10px}
+.res .skl{height:8px;border-radius:4px;background:linear-gradient(90deg,#e9e6e3 0,#f5f3f1 50%,#e9e6e3 100%);background-size:200% 100%;animation:shim 1.6s linear infinite}@keyframes shim{to{background-position:-200% 0}}
+.res .gbtn{height:48px;border-radius:999px;background:#e9e6e3;margin-top:auto;display:grid;place-items:center;font-size:13px;font-weight:800;color:#a39e99}
+.res.empty p{font-size:14px;color:var(--muted);text-align:center;text-wrap:balance}
+.res.empty p b{display:block;font-family:var(--hf);color:var(--navy);font-size:15.5px;margin-bottom:2px}
+.res.full{background:var(--ink);color:#fff;padding:clamp(20px,3vw,30px)}
+.res.full::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;border:26px solid rgba(71,150,199,.14);pointer-events:none}
+.res.anim{animation:rin .45s var(--ease)}@keyframes rin{from{opacity:0;transform:translateY(12px)}}
+.r-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.rk{font-family:var(--mf);font-size:11px;letter-spacing:.14em;color:var(--cy-d);font-weight:700}
+.urg{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;padding:4px 11px;border-radius:99px}
+.urg i{width:7px;height:7px;border-radius:50%;background:currentColor}
+.urg.u1{color:#9fe0b8;background:rgba(159,224,184,.14)}.urg.u2{color:#f6c866;background:rgba(255,213,138,.14)}.urg.u3{color:#ffb199;background:rgba(255,177,153,.16)}
+.res h3{font-size:22px;margin:12px 0 10px;color:#fff;outline:none;text-wrap:balance}
+.rteeth{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.rteeth span{font-size:11.5px;border:1px solid rgba(127,224,242,.5);color:var(--cy-d);border-radius:99px;padding:2px 10px}
+.res p.ex{color:#d3dae3;font-size:14.5px;margin-bottom:18px}
+.rtl-h{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#a9b3c0;font-weight:700;margin-bottom:4px}
+.tl{list-style:none;counter-reset:n}
+.tl li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:14.5px}
+.tl li span:first-child::before{content:counter(n,decimal-leading-zero);counter-increment:n;color:var(--cy-d);font-family:var(--mf);font-weight:700;font-size:11px;margin-right:10px}
+.tl li span:last-child{white-space:nowrap;font-weight:700;font-family:var(--mf);font-size:13px;text-align:right}
+.tl em{font-style:normal;color:#a9b3c0;font-weight:400;font-family:var(--bf);font-size:13px}
+.est{font-size:12px;color:#a9b3c0;margin:10px 0 20px}
+.est .chk,.pv .chk{margin-left:0}
+.bub-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.mrst{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:800;color:var(--cy-d);min-height:36px;text-decoration:underline;text-underline-offset:4px}.mrst .i{width:13px;height:13px}
+.bub-c{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#a9b3c0}
+.bub{display:block;width:100%;background:#2a3441;border:1px solid rgba(255,255,255,.1);border-radius:16px 16px 4px 16px;color:#f1f4ff;font-size:14px;line-height:1.5;padding:12px 14px;resize:none;min-height:84px;max-height:160px;outline:none}
+.bub:focus{border-color:var(--cy)}
+.pref{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:12px 0 16px;font-size:12.5px;color:#a9b3c0}
+.pref button{min-height:38px;padding:0 13px;border-radius:99px;border:1px solid rgba(255,255,255,.25);color:#fff;font-size:12.5px;font-weight:700}
+.pref button[aria-pressed=true]{background:#fff;color:var(--navy);border-color:#fff}
+.res .btn-wa{width:100%;min-height:54px}
+.copy{display:flex;align-items:center;gap:6px;margin:8px auto 0;font-size:13px;font-weight:700;color:var(--cy-d);min-height:44px}
+.copy .i{width:15px;height:15px}
+.disc{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:899px){.prog{position:sticky;top:61px;z-index:20;background:rgba(255,255,255,.95);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);margin:0 -16px;padding:2px 16px 6px;display:flex}.ps:not(.on) em{display:none}.ps{flex:1 1 0;min-width:0;transition:flex-grow .4s var(--ease)}.ps.on{flex-grow:2.4}
+ .console{grid-template-columns:minmax(0,1fr)}.c-l{border-right:0;border-bottom:1px solid var(--line);padding:18px 10px 16px}.c-l .c-head{padding:0 6px}.c-l-in{position:static}.c-r{padding:20px 14px 18px}}
+@media(max-width:600px){.ctr{width:62%}.ctr .big{font-size:30px}.tapme{width:38px;height:38px;margin-bottom:4px}.ctr .sm{font-size:12px}}
+/* ============ RENCANA KUNJUNGAN (fitur khas) ============ */
+#kunjungan{background:var(--ink);color:#e4e8ee;position:relative;overflow:hidden}
+#kunjungan h2{color:#fff}#kunjungan .lead{color:#d3dae3}
+#kunjungan .stn{color:var(--cy-d)}#kunjungan .stn b{background:var(--ink);color:#fff}
+.jg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.mapc{position:sticky;top:96px;background:#222b37;border:1px solid rgba(255,255,255,.1);border-radius:var(--r);padding:20px}
+.wk{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.wd{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:78px;border-radius:16px;border:1.5px solid rgba(255,255,255,.14);background:rgba(255,255,255,.04);color:#e4e8ee;transition:all .2s var(--ease);position:relative}
+.wd small{font-family:var(--mf);font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:#a9b3c0}
+.wd b{font-family:var(--hf);font-weight:400;font-size:21px;line-height:1;color:#fff}
+.wd i{font-style:normal;font-family:var(--mf);font-size:9px;color:#a9b3c0}
+.wd:hover{border-color:var(--cy);transform:translateY(-2px)}
+.wd[aria-checked=true]{background:#fff;border-color:#fff;color:var(--ink);box-shadow:0 12px 24px -14px rgba(0,0,0,.6),inset 0 -4px 0 var(--sun)}
+.wd[aria-checked=true] small,.wd[aria-checked=true] i{color:var(--muted)}.wd[aria-checked=true] b{color:var(--ink)}
+.wd.tdy::before{content:"";position:absolute;top:7px;right:7px;width:7px;height:7px;border-radius:50%;background:var(--ok)}
+.wd.sun small{color:var(--sun)}.wd[aria-checked=true].sun small{color:var(--sun-d)}
+.tlb{margin-top:22px}
+.tlb-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-family:var(--mf);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:#a9b3c0;margin-bottom:10px}
+.bar{position:relative;height:34px;border-radius:12px;background:rgba(255,255,255,.07);overflow:hidden}
+.bar .op{position:absolute;top:0;bottom:0;background:linear-gradient(90deg,var(--cy),#6bb0d8);border-radius:12px;transition:left .5s var(--ease),width .5s var(--ease)}
+.bar .nw2{position:absolute;top:-3px;bottom:-3px;width:3px;background:var(--sun);border-radius:2px;box-shadow:0 0 0 3px rgba(242,177,52,.25)}
+.bar .pk{position:absolute;top:5px;bottom:5px;width:24px;margin-left:-12px;border-radius:8px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.4);transition:left .35s var(--ease)}
+.tick{display:flex;justify-content:space-between;font-family:var(--mf);font-size:10px;color:#a9b3c0;margin-top:6px}
+.cinfo{display:grid;gap:12px;margin-top:22px;padding-top:18px;border-top:1px dashed rgba(255,255,255,.18);font-size:14px}
+.cinfo .r{display:flex;gap:10px;align-items:flex-start;color:#d3dae3}.cinfo .r svg{color:var(--cy-d);margin-top:3px}
+.cinfo .lk{margin-top:6px;display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:var(--sun);min-height:40px;text-decoration:underline;text-underline-offset:4px}
+.docnote{display:flex;gap:10px;align-items:flex-start;padding:12px 14px;border-radius:14px;background:rgba(242,177,52,.1);border:1px dashed rgba(242,177,52,.5);color:#f6dca2;font-size:13px;line-height:1.45}
+.docnote svg{flex:none;margin-top:2px}
+.plan{display:grid;gap:14px}
+.pbox{background:#fff;color:var(--ink);border-radius:var(--r);padding:18px}
+.pbox h3{font-size:17px;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{min-height:40px;padding:0 13px;border-radius:999px;border:1.5px solid var(--line);font-size:13px;font-weight:700;color:var(--navy);background:#fff;transition:all .15s}
+.chips button:hover{border-color:var(--navy)}
+.chips button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.chips button:disabled{opacity:.4;cursor:not-allowed}
+.sumline{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.sumline b{font-family:var(--hf);font-weight:400;font-size:21px;color:var(--navy)}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:800;padding:4px 11px;border-radius:99px;background:var(--ice);color:var(--cy-t)}
+.pill.st-open{background:#e3f5ea;color:var(--ok)}.pill.st-closed{background:#efedeb;color:var(--muted)}
+.lab{font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin:14px 0 6px}
+.lab:first-child{margin-top:0}
+.pbox .bub{background:var(--ice2);color:var(--ink);border-color:var(--line)}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.acts .btn-wa{flex:1 1 220px}
+@media(max-width:899px){.jg{grid-template-columns:minmax(0,1fr)}.mapc{padding:14px;position:static}.wk{gap:4px}.wd{min-height:72px;border-radius:12px}.wd b{font-size:18px}}
+@media(min-width:1180px){.svg-g{grid-template-columns:repeat(5,minmax(0,1fr))}}
+/* ============ LAYANAN & HARGA ============ */
+.svg-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.sv{background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:18px;position:relative;transition:border-color .2s,transform .2s var(--ease)}
+.sv:hover{border-color:var(--cy);transform:translateY(-2px)}
+.sv .n{font-family:var(--mf);font-size:11px;color:var(--cy-t);font-weight:700}
+.sv h3{font-size:16px;margin:8px 0 4px}
+.sv p{font-size:13.5px;color:var(--muted);line-height:1.5}
+.sv svg.g{position:absolute;right:14px;top:14px;width:26px;height:26px;opacity:.9}
+@media(max-width:1000px){.svg-g{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.sv{padding:14px}.sv svg.g{display:none}}
+.pr{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:24px;margin-top:40px;align-items:start}
+.ptab{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.ptab .ph{display:flex;justify-content:space-between;gap:10px;padding:16px 20px;background:var(--navy);color:#fff;font-family:var(--hf);font-weight:600;font-size:15px;align-items:center;flex-wrap:wrap}
+.ptab .ph .chk{background:transparent;color:#f6c866;border-color:#8a7440}
+.prw{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
+.prw:first-of-type{border-top:0}
+.prw span{font-weight:700;color:var(--navy);font-size:15px}
+.prw span small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.prw b{font-family:var(--mf);font-size:14px;white-space:nowrap;color:var(--navy)}
+.prw b small{font-family:var(--bf);font-size:11px;color:var(--muted);font-weight:600;margin-right:4px}
+.pnote{padding:14px 20px;background:var(--ice2);font-size:12.5px;color:var(--muted);border-top:1px solid var(--line)}
+.pside{background:var(--ice);border-radius:var(--r);padding:22px}
+.pside h3{font-size:19px;margin-bottom:8px}
+.pside p{font-size:14.5px;color:var(--muted);margin-bottom:14px}
+.pside ul{list-style:none;display:grid;gap:8px;margin-bottom:16px}
+.pside li{display:flex;gap:10px;font-size:14px;font-weight:600}
+.pside li::before{content:"";width:8px;height:8px;border-radius:50%;border:2px solid var(--cy);margin-top:7px;flex:none}
+@media(max-width:899px){.pr{grid-template-columns:1fr}.prw{padding:13px 16px}}
+/* ============ DOKTER ============ */
+.dg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.dc{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.dc .ph{aspect-ratio:5/4;position:relative;background:var(--ice)}
+.dc .ph svg{width:100%;height:100%}
+.dc .ph .il{position:absolute;left:10px;top:10px;font-family:var(--mf);font-size:10px;background:rgba(255,255,255,.9);border-radius:6px;padding:2px 7px;color:var(--muted);font-weight:700}
+.dc .bd{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.dc h3{font-size:17px}
+.dc p{font-size:13.5px;color:var(--muted)}
+.dc .loc{font-family:var(--mf);font-size:11.5px;color:var(--cy-t);font-weight:700}
+.dc a{margin-top:auto;padding-top:8px;font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.dc.ph0 .ph{background:repeating-linear-gradient(135deg,var(--ice2) 0 12px,#fff 12px 24px)}
+@media(max-width:899px){.dg{grid-template-columns:1fr}.dc{display:grid;grid-template-columns:120px minmax(0,1fr)}.dc .ph{aspect-ratio:auto;min-height:100%}}
+/* ============ FASILITAS ============ */
+.fg{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.fc{border-top:3px solid var(--cy);background:#fff;padding:16px;border-radius:0 0 var(--r-s)}
+.fc svg{width:26px;height:26px;color:var(--navy);margin-bottom:10px}
+.fc b{display:block;font-family:var(--hf);color:var(--navy);font-size:15px;line-height:1.3}
+.fc>span{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+@media(max-width:1000px){.fg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* ============ LOKASI ============ */
+#lokasi{background:#fff}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tabs button{min-height:46px;padding:0 16px;border-radius:14px 14px 14px 4px;border:1.5px solid var(--line);font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:8px}
+.tabs button i{font-style:normal;font-family:var(--mf);font-size:11px;width:24px;height:24px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center}
+.tabs button[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.lg{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px}
+.linfo{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:16px;align-content:start}
+.linfo h3{font-size:21px}
+.lrow{display:flex;gap:12px;font-size:14.5px}
+.lrow svg{color:var(--cy-t);margin-top:2px}
+.lrow small{display:block;font-family:var(--mf);font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.hrs{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:6px}
+.hrs div{background:#fff;border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 2px;font-size:12px;font-weight:800;color:var(--navy)}
+.hrs div small{display:block;font-family:var(--mf);font-size:9.5px;color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+.hrs div.td{background:var(--navy);color:#fff;border-color:var(--navy)}.hrs div.td small{color:#cfd6df}
+.lbtns{display:flex;gap:8px;flex-wrap:wrap}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;background:var(--ice);position:relative;border:1px solid var(--line)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map .mph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);font-size:14px}
+.map .mph button{margin-top:10px}
+@media(max-width:899px){.lg{grid-template-columns:1fr}.map{min-height:280px}.hrs{gap:3px}.hrs div{font-size:11px;padding:6px 0}.hrs div small{font-size:8.5px}}
+/* ============ FAQ ============ */
+.fq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:64px;padding:14px 0;font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy);cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary i{width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);flex:none;position:relative}
+summary i::before,summary i::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:2px;background:var(--navy);transform:translate(-50%,-50%);transition:transform .25s}
+summary i::after{transform:translate(-50%,-50%) rotate(90deg)}
+details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+details p{padding:0 0 18px;color:var(--muted);font-size:15px;max-width:640px}
+@media(max-width:899px){.fq{grid-template-columns:1fr;gap:10px}summary{font-size:16px}}
+/* ============ CTA + FOOTER ============ */
+.close{background:var(--navy);color:#e4e8ee;border-radius:40px 40px 40px 12px;padding:clamp(28px,5vw,60px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:30px;align-items:center;position:relative;overflow:hidden}
+.close h2{color:#fff}
+.close p{color:#d3dae3;margin-top:12px;max-width:520px}
+.close .acts{margin-top:0;flex-direction:column}
+.close .acts .btn{width:100%;flex:none}
+.close svg.big{position:absolute;right:-40px;bottom:-60px;width:260px;opacity:.08;color:#fff}
+@media(max-width:899px){.close{grid-template-columns:1fr}}
+footer{padding:56px 0 110px;font-size:14px;color:var(--muted)}
+.fg2{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:28px}
+footer h4{font-family:var(--mf);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy);margin-bottom:10px}
+footer li{list-style:none;margin-bottom:6px}
+footer a:hover{color:var(--navy);text-decoration:underline}
+.fdisc{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:899px){.fg2{grid-template-columns:1fr 1fr}.fg2>div:first-child{grid-column:1/-1}}
+/* ============ FAB ============ */
+.fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:45;display:flex;align-items:center;gap:10px;min-height:56px;padding:0 20px 0 8px;border-radius:999px;background:var(--wa);color:#fff;font-weight:800;box-shadow:0 14px 30px -12px rgba(15,138,74,.7);transition:transform .3s var(--ease),opacity .3s}
+.fab .wai{margin-left:0;width:40px;height:40px}
+.fab.hide{transform:translateY(120%);opacity:0;pointer-events:none}
+@media(max-width:600px){.fab{padding:0 8px;min-width:56px;justify-content:center}.fab .l{display:none}}
+.gtoast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,10px);background:var(--navy);color:#fff;padding:9px 16px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:all .25s;z-index:60;pointer-events:none}
+.gtoast.on{opacity:1;transform:translate(-50%,0)}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+
+/* ============ POLES ============ */
+@media(min-width:1180px){.svg-g{grid-template-columns:repeat(5,minmax(0,1fr))}}
+.sprog{position:absolute;left:0;bottom:-1px;height:3px;width:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--cy),var(--sun));pointer-events:none}
+html.js .rv{opacity:0;transform:translateY(18px)}
+html.js .rv.in{opacity:1;transform:none}
+.sv,.pf,.fc,.dc,.k{will-change:transform}
+.btn:active,.k:active,.chips button:active{transform:scale(.97)}
+.btn-wa::after,.btn-navy::after{content:"";position:absolute;inset:0;border-radius:inherit;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s var(--ease);pointer-events:none}
+.btn-wa:hover::after,.btn-navy:hover::after{transform:translateX(120%)}
+.btn{position:relative;overflow:hidden}
+.sv svg.g,.fc svg{transition:transform .35s var(--ease)}
+.sv:hover svg.g,.fc:hover svg{transform:rotate(-8deg) scale(1.12)}
+.pf .ic{transition:transform .3s var(--ease),background .2s}.pf:hover .ic{transform:translateY(-2px);background:#fff3d6}
+.hero::after{content:"";position:absolute;left:-6%;bottom:-10%;width:34%;aspect-ratio:2/1;background:radial-gradient(closest-side,rgba(242,177,52,.16),transparent);pointer-events:none}
+.inf-bg{position:absolute;right:-6%;top:6%;width:min(70%,640px);opacity:.07;pointer-events:none;color:var(--cy)}
+@media(prefers-reduced-motion:reduce){html.js .rv{opacity:1;transform:none}.skl{animation:none}}
+</style>
 <style id="qa-touch">@media(max-width:700px){a[href],button,[role=button],[role=tab],[role=radio],[role=checkbox],summary{min-height:44px!important}.lang button,.pv-x,button[aria-label]{min-width:44px!important}}</style></head>
 <body>
-  <div class="preview" data-lint-ok><b>Konsep website oleh Maxi Growth Studio</b> — pratinjau, bukan situs resmi klinik</div>
-  <nav aria-label="Navigasi utama"><div class="wrap navin">
-    <a class="brand" href="#home" aria-label="Infinite Dental Care"><span class="brandmark">∞</span><span class="brandtext">INFINITE DENTAL<small>CARE · BANDUNG</small></span></a>
-    <div class="links"><a href="#layanan" data-id>Layanan</a><a href="#layanan" data-en>Services</a><a href="#cek" data-id>Cek gigi</a><a href="#cek" data-en>Dental check</a><a href="#kunjungan" data-id>Kunjungan</a><a href="#kunjungan" data-en>Visit</a><a href="#lokasi" data-id>Lokasi</a><a href="#lokasi" data-en>Location</a><a href="#faq">FAQ</a></div>
-    <div class="lang" aria-label="Pilihan bahasa"><button class="on" data-lang="id">ID</button><button data-lang="en">EN</button></div>
-    <button class="burger" aria-label="Buka menu" aria-expanded="false"><i></i><i></i></button>
-  </div></nav>
-  <div class="drawer"><a href="#layanan"><span data-id>Layanan</span><span data-en>Services</span><span>01</span></a><a href="#cek"><span data-id>Cek gigi 30 detik</span><span data-en>30-second dental check</span><span>02</span></a><a href="#kunjungan"><span data-id>Rencana kunjungan</span><span data-en>Plan a visit</span><span>03</span></a><a href="#lokasi"><span data-id>Lokasi & kontak</span><span data-en>Location & contact</span><span>04</span></a><div class="lang"><button class="on" data-lang="id">ID</button><button data-lang="en">EN</button></div></div>
-  <main>
-    <header class="hero" id="home"><div class="wrap">
-      <div class="hero-grid"><div><div class="eyebrow"><span data-id>Klinik gigi di Bandung</span><span data-en>Dental clinic in Bandung</span></div>
-        <h1 data-id>Perawatan gigi dengan langkah yang <em>lebih jelas.</em></h1><h1 data-en>Dental care with a <em>clearer path.</em></h1>
-        <p class="lead" data-id>Kenali pilihan perawatan di Jl. Sunda No.55. Hubungi klinik untuk memastikan jadwal dan layanan sebelum berkunjung.</p><p class="lead" data-en>Explore dental care options at Jl. Sunda No.55. Contact the clinic to confirm availability before your visit.</p>
-        <div class="status"><div class="status-top"><span class="dot"></span><span class="open-label">Memuat status…</span><small>09.00—20.00 <span class="verify">✎ verifikasi</span></small></div><div class="timeline"><span></span></div><div class="times"><span>00.00</span><span>09.00</span><span>20.00</span><span>24.00</span></div></div>
-        <div class="actions"><a href="#kunjungan" class="btn primary"><span data-id>Rencanakan kunjungan</span><span data-en>Plan your visit</span> →</a><a href="#cek" class="btn light"><span data-id>Cek gigi 30 detik</span><span data-en>30-second dental check</span></a></div>
-      </div><div class="stage" aria-label="Ilustrasi gigi tiga dimensi"><div class="orb"></div><div class="bubble"></div>
-        <svg class="tooth" viewBox="0 0 230 280" role="img" aria-label="Ilustrasi gigi"><defs><linearGradient id="tg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#eefaff"/><stop offset="1" stop-color="#9ccce5"/></linearGradient></defs><path fill="url(#tg)" stroke="#8fbcd3" stroke-width="3" d="M45 16C73 1 92 17 115 17s42-16 70-1c38 20 39 72 23 111-11 28-16 52-22 94-7 51-37 62-49 10l-10-49c-3-14-21-14-24 0l-10 49c-12 52-42 41-49-10-6-42-11-66-22-94C6 88 7 36 45 16Z"/><path fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".8" d="M47 46c14-18 31-13 46-8"/></svg>
-        <div class="mini-card mc1"><b data-id>Buka setiap hari</b><b data-en>Open daily</b><span>09.00—20.00 <span class="verify">✎</span></span></div><div class="mini-card mc2"><b>Bandung</b><span>Jl. Sunda No.55</span></div>
-      </div></div>
-      <div class="facts"><div class="fact"><span>01</span><b data-id>Setiap hari</b><b data-en>Every day</b><small>09.00—20.00 <span class="verify">✎ verifikasi</span></small></div><div class="fact"><span>02</span><b data-id>10 layanan tercantum</b><b data-en>10 listed services</b><small><span data-id>Konfirmasi ketersediaan</span><span data-en>Confirm availability</span> <span class="verify">✎</span></small></div><div class="fact"><span>03</span><b>Admedika</b><small><span data-id>Rekanan dalam daftar Maret 2026</span><span data-en>Listed provider in March 2026</span> <span class="verify">✎</span></small></div><div class="fact"><span>04</span><b>Jl. Sunda, Bandung</b><small data-id>Petunjuk arah tersedia</small><small data-en>Directions available</small></div></div>
-    </div></header>
-    <div class="ticker" aria-hidden="true"><div class="track"><div class="tickgroup"><span class="tick">Scaling</span><span class="tick">Tambal gigi</span><span class="tick">Kawat gigi</span><span class="tick">Perawatan saluran akar</span><span class="tick">Gigi tiruan</span><span class="tick">Bleaching</span></div><div class="tickgroup"><span class="tick">Scaling</span><span class="tick">Tambal gigi</span><span class="tick">Kawat gigi</span><span class="tick">Perawatan saluran akar</span><span class="tick">Gigi tiruan</span><span class="tick">Bleaching</span></div></div></div>
-    <section class="checker" id="cek"><div class="wrap"><div class="section-head"><div><div class="eyebrow"><span data-id>Panduan awal</span><span data-en>Starting guide</span></div><h2 class="title" data-id>Cek gigi dalam 30 detik</h2><h2 class="title" data-en>A 30-second dental check</h2></div><p class="lead" data-id>Pilih keluhan untuk mendapat saran langkah berikutnya. Ini bukan diagnosis dan tidak menggantikan pemeriksaan dokter gigi.</p><p class="lead" data-en>Select a concern to see a suggested next step. This is not a diagnosis and does not replace a dentist’s examination.</p></div>
-      <div class="checker-box"><div class="check-intro"><div class="eyebrow"><span data-id>3 langkah singkat</span><span data-en>3 quick steps</span></div><h3 data-id>Kenali kebutuhan kunjungan Anda</h3><h3 data-en>Consider what your visit may need</h3><p data-id>Jawaban hanya tersimpan di perangkat ini dan akan dihapus saat halaman ditutup.</p><p data-en>Your answers stay on this device and are cleared when the page closes.</p><div class="steps"><i class="on"></i><i></i><i></i></div><button class="btn blue reset" type="button"><span data-id>Mulai ulang</span><span data-en>Start over</span></button></div><div class="result"><span class="eyebrow"><span class="step-label">LANGKAH 1 / 3</span></span><div class="question" data-id>Apa yang paling terasa saat ini?</div><div class="question" data-en>What are you noticing right now?</div><div class="choices"></div><div class="check-note"><b data-id>Catatan:</b><b data-en>Note:</b> <span data-id>Jika ada perdarahan yang tidak berhenti, bengkak yang mengganggu napas, atau cedera berat, cari pertolongan medis segera.</span><span data-en>If bleeding does not stop, swelling affects breathing, or there is serious injury, seek urgent medical care.</span></div></div></div>
-    </div></section>
-    <section id="layanan"><div class="wrap"><div class="section-head"><div><div class="eyebrow"><span data-id>Pilihan perawatan</span><span data-en>Care options</span></div><h2 class="title" data-id>Mulai dari pemeriksaan.</h2><h2 class="title" data-en>Start with an examination.</h2></div><p class="lead" data-id>Kebutuhan perawatan ditentukan dokter gigi setelah pemeriksaan. Ketersediaan layanan berikut perlu dikonfirmasi kepada klinik.</p><p class="lead" data-en>A dentist determines care needs after an examination. Please confirm the availability of these services with the clinic.</p></div><div class="services-grid" id="services"></div></div></section>
-    <section class="visit" id="kunjungan"><div class="wrap visit-grid"><div><div class="eyebrow"><span data-id>Fitur rencana kunjungan</span><span data-en>Visit planner</span></div><h2 class="title" data-id>Pilih hari yang sesuai.</h2><h2 class="title" data-en>Choose a suitable day.</h2><p class="lead" data-id>Pilih hari, termasuk Minggu, untuk melihat jam yang tercantum di direktori dan petunjuk arah. Konfirmasi jam praktik sebelum berangkat.</p><p class="lead" data-en>Choose a day, including Sunday, to see directory-listed hours and directions. Confirm opening hours before you travel.</p></div><div class="day-card"><div class="days"></div><div class="visit-output"><small data-id>Jam yang tercantum untuk</small><small data-en>Listed hours for</small><strong><span id="chosen-day">Senin</span> · 09.00—20.00</strong><span class="verify">✎ verifikasi</span></div><div class="visit-links"><a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4"><span data-id>Buka petunjuk arah</span><span data-en>Open directions</span> ↗</a><a class="btn light" href="tel:+6287777766040"><span data-id>Telepon klinik</span><span data-en>Call the clinic</span></a></div><p class="tiny" data-id>Nomor telepon 0877-7776-6040 tercantum dalam sumber. Nomor WhatsApp belum terverifikasi.</p><p class="tiny" data-en>Phone number 0877-7776-6040 appears in a source. The WhatsApp number has not been verified.</p></div></div></section>
-    <section id="lokasi"><div class="wrap"><div class="section-head"><div><div class="eyebrow"><span data-id>Lokasi & kontak</span><span data-en>Location & contact</span></div><h2 class="title" data-id>Temukan klinik di pusat Bandung.</h2><h2 class="title" data-en>Find the clinic in central Bandung.</h2></div><p class="lead" data-id>Periksa petunjuk arah dan konfirmasi informasi kunjungan langsung kepada klinik.</p><p class="lead" data-en>Check directions and confirm visit information directly with the clinic.</p></div><div class="contact-grid"><a class="map" target="_blank" rel="noopener" href="https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4" aria-label="Buka lokasi di Google Maps"><div class="roads"></div><div class="pin"></div><div class="map-label"><b>Infinite Dental Care</b><span>Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112</span></div></a><div class="contact-card"><div class="contact-row"><small data-id>Alamat</small><small data-en>Address</small><b>Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112</b></div><div class="contact-row"><small data-id>Telepon</small><small data-en>Phone</small><b><a href="tel:+6287777766040">0877-7776-6040</a></b></div><div class="contact-row"><small>WhatsApp</small><b><span data-id>Belum terverifikasi</span><span data-en>Not verified</span> <span class="verify">✎ verifikasi</span></b></div><div class="builder"><h3 data-id>Susun pesan untuk klinik</h3><h3 data-en>Prepare a message for the clinic</h3><label for="care"><span data-id>Pilih layanan</span><span data-en>Select a service</span></label><select id="care"></select><label for="message"><span data-id>Pesan</span><span data-en>Message</span></label><textarea id="message"></textarea><div class="builder-actions"><button class="btn primary" id="copy" type="button"><span data-id>Salin pesan</span><span data-en>Copy message</span></button><button class="btn disabled" type="button" disabled>WhatsApp <span class="verify">✎</span></button></div><div class="copy-note" aria-live="polite"></div></div></div></div></div></section>
-    <section class="faq" id="faq"><div class="wrap"><div class="eyebrow">FAQ</div><h2 class="title" data-id>Sebelum Anda berkunjung.</h2><h2 class="title" data-en>Before you visit.</h2><div class="faq-list" id="faq-list"></div></div></section>
-    <section class="closing"><div class="wrap"><div class="eyebrow" style="justify-content:center"><span data-id>Langkah berikutnya</span><span data-en>Next step</span></div><h2 class="title" data-id>Ada pertanyaan sebelum berkunjung?</h2><h2 class="title" data-en>Have a question before your visit?</h2><p class="lead" data-id>Hubungi Infinite Dental Care untuk memastikan jadwal, layanan, dan biaya.</p><p class="lead" data-en>Contact Infinite Dental Care to confirm hours, services, and fees.</p><a href="tel:+6287777766040" class="btn primary"><span data-id>Telepon klinik</span><span data-en>Call the clinic</span></a></div></section>
-  </main>
-  <footer class="footer"><div class="wrap foot"><div><b>Infinite Dental Care</b><small data-id>Konsep informatif berdasarkan sumber publik. Informasi layanan, jam, dan ketersediaan perlu dikonfirmasi sebelum publikasi atau kunjungan.</small><small data-en>Informational concept based on public sources. Services, hours, and availability should be confirmed before publication or a visit.</small></div><div class="footlinks"><a href="#layanan" data-id>Layanan</a><a href="#layanan" data-en>Services</a><a href="#lokasi" data-id>Lokasi</a><a href="#lokasi" data-en>Location</a><a href="#faq">FAQ</a></div></div></footer>
-  <button class="to-top" aria-label="Kembali ke atas">↑</button>
-  <script>
-  (()=>{'use strict';
-    const services=[
-      {id:'Scaling',en:'Scaling',di:'Pembersihan karang gigi. Dokter gigi dapat menjelaskan kebutuhan perawatan setelah pemeriksaan.',de:'Removal of tartar. A dentist can explain what care you may need after an examination.'},
-      {id:'Tambal gigi',en:'Dental fillings',di:'Perawatan untuk gigi berlubang atau rusak, sesuai hasil pemeriksaan.',de:'Care for a damaged or decayed tooth, based on an examination.'},
-      {id:'Kawat gigi',en:'Braces',di:'Konsultasikan kondisi susunan gigi dan pilihan perawatan yang sesuai.',de:'Discuss your tooth alignment and suitable treatment options.'},
-      {id:'Perawatan saluran akar',en:'Root canal treatment',di:'Perawatan bagian dalam gigi yang kebutuhannya ditentukan melalui pemeriksaan.',de:'Care for the inside of a tooth, when an examination shows it is needed.'},
-      {id:'Gigi tiruan',en:'Dentures',di:'Tanyakan pilihan pengganti gigi yang hilang sesuai kondisi mulut Anda.',de:'Ask about options for replacing missing teeth based on your oral health.'},
-      {id:'Bleaching',en:'Teeth whitening',di:'Konsultasikan perawatan untuk mencerahkan warna gigi dan kecocokannya bagi Anda.',de:'Discuss teeth whitening and whether it is suitable for you.'}
-    ];
-    const faqs=[
-      {qi:'Jam berapa klinik buka?',qe:'What are the clinic’s opening hours?',ai:'Direktori mencantumkan pukul 09.00–20.00 setiap hari, termasuk Minggu. Mohon konfirmasi langsung ke klinik karena jam dapat berubah.',ae:'A directory lists the clinic as open from 9 a.m. to 8 p.m. daily, including Sundays. Please confirm with the clinic, as hours may change.'},
-      {qi:'Berapa biaya perawatan?',qe:'How much does treatment cost?',ai:'Tarif Infinite Dental Care belum terkonfirmasi. Hubungi klinik untuk menanyakan biaya sesuai perawatan yang Anda perlukan.',ae:'Infinite Dental Care’s fees have not been confirmed. Contact the clinic to ask about the cost of the care you need.'},
-      {qi:'Apakah klinik menerima Admedika?',qe:'Does the clinic accept Admedika?',ai:'Infinite Dental Care tercantum sebagai rekanan dalam daftar pemegang kartu grup Admedika Maret 2026. Konfirmasi cakupan kartu dan prosedur penggunaannya kepada klinik sebelum berkunjung.',ae:'Infinite Dental Care appears on Admedika’s March 2026 group cardholder provider list. Check your card’s coverage and how to use it with the clinic before visiting.'},
-      {qi:'Apakah tersedia perawatan kawat gigi?',qe:'Are braces available?',ai:'Kawat gigi tercantum dalam daftar layanan. Hubungi klinik untuk memastikan ketersediaan konsultasi dan pilihan perawatannya.',ae:'Braces are listed among the services. Contact the clinic to confirm consultation availability and treatment options.'},
-      {qi:'Apakah anak bisa berobat di sini?',qe:'Can children receive care here?',ai:'Ketersediaan perawatan untuk anak belum terkonfirmasi. Sampaikan usia anak dan keluhannya saat menghubungi klinik.',ae:'Dental care for children has not been confirmed. Share your child’s age and concern when contacting the clinic.'}
-    ];
-    let lang='id';
-    function renderServices(){document.querySelector('#services').innerHTML=services.map((s,i)=>`<article class="service"><span class="num">0${i+1}</span><h3>${lang==='id'?s.id:s.en} <span class="verify">✎ ${lang==='id'?'verifikasi':'verify'}</span></h3><p>${lang==='id'?s.di:s.de}</p></article>`).join('');const sel=document.querySelector('#care');sel.innerHTML=services.map(s=>`<option>${lang==='id'?s.id:s.en}</option>`).join('');updateMessage()}
-    function renderFaq(){document.querySelector('#faq-list').innerHTML=faqs.map((f,i)=>`<div class="faq-item${i===0?' open':''}"><button class="faq-q" aria-expanded="${i===0}">${lang==='id'?f.qi:f.qe}${i===2||i===3||i===4?' <span class="verify">✎ '+(lang==='id'?'verifikasi':'verify')+'</span>':''}</button><div class="faq-a">${lang==='id'?f.ai:f.ae}</div></div>`).join('');document.querySelectorAll('.faq-q').forEach(q=>q.onclick=()=>{const item=q.parentElement;item.classList.toggle('open');q.setAttribute('aria-expanded',item.classList.contains('open'))})}
-    function setLang(l){lang=l;document.body.classList.toggle('en',l==='en');document.documentElement.lang=l;document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));renderServices();renderFaq();renderDays();renderCheck();setStatus()}
-    document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>setLang(b.dataset.lang));
-    const burger=document.querySelector('.burger'),drawer=document.querySelector('.drawer');burger.onclick=()=>{const o=drawer.classList.toggle('open');burger.classList.toggle('open',o);burger.setAttribute('aria-expanded',o)};drawer.querySelectorAll('a').forEach(a=>a.onclick=()=>{drawer.classList.remove('open');burger.classList.remove('open');burger.setAttribute('aria-expanded','false')});
-    function setStatus(){const h=new Date().getHours(),open=h>=9&&h<20;const el=document.querySelector('.open-label');el.textContent=open?(lang==='id'?'Buka sekarang':'Open now'):(lang==='id'?'Tutup sekarang':'Closed now');document.querySelector('.dot').style.background=open?'var(--green)':'#87969e'}setStatus();setInterval(setStatus,60000);
-    const days={id:['Senin','Selasa','Rabu','Kamis','Jumat','Sabtu','Minggu'],en:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']};let day=0;function renderDays(){document.querySelector('.days').innerHTML=days[lang].map((d,i)=>`<button class="day${i===day?' on':''}" data-day="${i}">${d.slice(0,3)}</button>`).join('');document.querySelector('#chosen-day').textContent=days[lang][day];document.querySelectorAll('.day').forEach(b=>b.onclick=()=>{day=+b.dataset.day;renderDays()})}renderDays();
-    const checkData={id:[['Nyeri atau ngilu','Gusi terasa tidak nyaman','Gigi rusak atau berlubang','Ingin pemeriksaan rutin'],['Hari ini','1–3 hari','Lebih dari 3 hari','Tidak ada keluhan'],['Mengganggu makan atau tidur','Terasa tetapi masih ringan','Hanya ingin berkonsultasi','Belum yakin']],en:[['Pain or sensitivity','Gum discomfort','Damaged or decayed tooth','Routine examination'],['Today','1–3 days','More than 3 days','No concern'],['Affects eating or sleep','Noticeable but mild','I only want to consult','Not sure yet']]};let step=0;function renderCheck(){const labels=checkData[lang][step];document.querySelector('.step-label').textContent=(lang==='id'?'LANGKAH ':'STEP ')+(step+1)+' / 3';document.querySelector('.question[data-id]').textContent=['Apa yang paling terasa saat ini?','Sejak kapan Anda merasakannya?','Seberapa besar pengaruhnya?'][step];document.querySelector('.question[data-en]').textContent=['What are you noticing right now?','How long have you noticed it?','How much is it affecting you?'][step];document.querySelector('.choices').innerHTML=labels.map(x=>`<button class="choice">${x}</button>`).join('');document.querySelectorAll('.steps i').forEach((e,i)=>e.classList.toggle('on',i<=step));document.querySelectorAll('.choice').forEach(c=>c.onclick=()=>{c.classList.add('on');if(step<2){setTimeout(()=>{step++;renderCheck()},180)}else{setTimeout(()=>{document.querySelector('.choices').innerHTML=`<div style="grid-column:1/-1;padding:22px;background:var(--sky);border-radius:15px"><b>${lang==='id'?'Pertimbangkan untuk menghubungi klinik.':'Consider contacting the clinic.'}</b><p>${lang==='id'?'Ceritakan keluhan dan durasinya agar tim klinik dapat mengarahkan jadwal konsultasi. Hasil ini bukan diagnosis.':'Describe your concern and how long you have had it so the clinic can help arrange a consultation. This result is not a diagnosis.'}</p></div>`},180)}})}document.querySelector('.reset').onclick=()=>{step=0;renderCheck()};renderCheck();
-    function updateMessage(){const care=document.querySelector('#care').value;document.querySelector('#message').value=lang==='id'?`Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan ${care}. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.`:`Hello Infinite Dental Care, I would like to ask about visiting hours and the availability of ${care}. Could I also receive information about the fee? Thank you.`}document.querySelector('#care').onchange=updateMessage;document.querySelector('#copy').onclick=async()=>{const t=document.querySelector('#message');try{await navigator.clipboard.writeText(t.value)}catch(e){t.select();document.execCommand('copy')}document.querySelector('.copy-note').textContent=lang==='id'?'Pesan disalin. Tempelkan di kanal kontak yang sudah Anda verifikasi.':'Message copied. Paste it into a contact channel you have verified.'};
-    document.querySelector('.to-top').onclick=()=>scrollTo({top:0,behavior:'smooth'});addEventListener('scroll',()=>document.querySelector('.to-top').classList.toggle('show',scrollY>600),{passive:true});
-    renderServices();renderFaq();
-  })();
-  </script>
-</body></html>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-inf" viewBox="-2 0 70 68"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#4796c7"/><path d="M19 23c0-6 7-6 13 0s13 6 13 0-7-6-13 0-13 6-13 0z" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" transform="translate(0 4)"/></symbol>
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8c-1-.4-1.9-1.3-2.3-2.3l.8-1-1-2z"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+ <symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+ <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></symbol>
+ <symbol id="i-cam" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/></symbol>
+ <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16V11l2-5h10l2 5v5M3 16h18v3H3zM7 19v2M17 19v2"/><circle cx="7.5" cy="13.5" r="1"/><circle cx="16.5" cy="13.5" r="1"/></symbol>
+ <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+ <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5"/><path d="M3 10h18M7 15h4"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+ <symbol id="i-tap" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V12m0-1a1.5 1.5 0 0 1 3 0v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L3.6 15a1.5 1.5 0 0 1 2.4-1.8L9 16"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+ <symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2-8z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><path d="M17.2 6.8v.1"/></symbol>
+ <symbol id="i-geo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+<symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11M7 11l5 5 5-5M5 20h14"/></symbol><symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="10" cy="6" r="2"/><path d="M10 9v6h6l2 5M10 12h5"/><path d="M7 11a6 6 0 1 0 8 7"/></symbol><symbol id="i-wc" viewBox="0 0 24 24"><circle cx="7" cy="5" r="1.8"/><circle cx="17" cy="5" r="1.8"/><path d="M4.5 21v-7l-1-3a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2l-1 3v7M14.5 21v-5h-2l2-6a2 2 0 0 1 2-1h1a2 2 0 0 1 2 1l2 6h-2v5M12 8v13"/></symbol><symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></symbol>
+<div class="pv" id="pv"><div class="wrap pv-in">
+  <div class="pv-t" data-i="pv"></div>
+  <button class="pv-x" id="pvx" type="button" data-ia="pv_x"><svg class="i"><use href="#i-x"/></svg></button>
+</div></div>
+
+<nav id="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand" data-ia="home"><svg viewBox="0 0 300 80" style="height:40px;width:auto" role="img" aria-label="Infinite Dental Care"><use href="#i-inf" x="4" y="8" width="66" height="64"/><text x="78" y="45" font-family="Capriola,'Trebuchet MS',Arial,sans-serif" font-size="36" fill="#222a35">infinite</text><text x="80" y="66" font-family="Figtree,Arial,sans-serif" font-weight="800" font-size="14" letter-spacing="3.6" fill="#25688f">DENTAL CARE</text></svg><span class="city">BANDUNG<br>JL. SUNDA 55</span></a>
+  <div class="links" id="links"><a href="#cek" data-i="n1"></a><a href="#kunjungan" data-i="n2"></a><a href="#layanan" data-i="n3"></a><a href="#dokter" data-i="n4"></a><a href="#lokasi" data-i="n5"></a><a href="#faq" data-i="n6"></a></div>
+  <div class="nav-r">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-navy btn-sm nav-cta" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" data-ia="menu"><i></i><i></i></button>
+  </div>
+</div>
+<div class="sheet" id="sheet" inert>
+  <a class="sl" href="#cek"><span data-i="n1"></span><small>01</small></a>
+  <a class="sl" href="#kunjungan"><span data-i="n2"></span><small>02</small></a>
+  <a class="sl" href="#layanan"><span data-i="n3"></span><small>03</small></a>
+  <a class="sl" href="#dokter"><span data-i="n4"></span><small>04</small></a>
+  <a class="sl" href="#lokasi"><span data-i="n5"></span><small>05</small></a>
+  <a class="sl" href="#faq"><span data-i="n6"></span><small>06</small></a>
+  <div class="srow">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-wa btn-sm" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+  </div>
+</div>
+<span class="sprog" id="sprog" aria-hidden="true"></span>
+</nav>
+<div class="scrim" id="scrim"></div>
+
+<header class="hero" id="top"><div class="wrap">
+  <svg class="inf-bg" viewBox="0 0 200 100" aria-hidden="true"><path d="M100 50C86 22 40 12 22 36s0 52 34 44 38-26 44-30 10-8 44-30 56-12 34 14-48 28-78-34z" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" transform="translate(0 -2)"/></svg>
+  <div class="hg">
+    <div>
+      <p class="hl0"><span data-i="hl0a"></span><span data-i="hl0b"></span></p>
+      <h1 id="h1"></h1>
+      <p class="lead" data-i="hl"></p>
+      <div class="today">
+        <div class="today-h"><span data-i="td_h"></span><span id="clock"></span></div>
+        <div class="brs" id="brs"></div>
+        <div class="intent" id="intent"></div>
+      </div>
+      <div class="ctas">
+        <a class="btn btn-wa btn-pri" id="hcta" href="#" target="_blank" rel="noopener"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="bl"><span id="hctal"></span><small>0877-7776-6040 <span class="chk">✎</span></small></span></a>
+        <a class="btn btn-gh" href="#cek" style="min-height:58px"><span data-i="c2"></span><svg class="i"><use href="#i-ar"/></svg></a>
+      </div>
+    </div>
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="halo"></div><div class="orbit"><i></i><i></i><i></i></div>
+      <svg class="fb" id="fb" viewBox="-6 -4 76 76"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#fff" stroke="#222a35" stroke-width="1.6"/><path d="M19 23c0-6 7-6 13 0s13 6 13 0-7-6-13 0-13 6-13 0z" fill="none" stroke="#4796c7" stroke-width="3.4" stroke-linecap="round" transform="translate(0 4)"/></svg>
+      <svg class="badge" viewBox="-2 0 70 68"><use href="#i-inf"/></svg>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b> <span data-i="zap2"></span></div>
+    </div>
+  </div>
+  <div class="proof">
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-pin"/></svg></span><span><b data-i="p1a"></b><span class="s" data-i="p1b"></span></span></a>
+    <a class="pf" href="#kunjungan"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><span><b data-i="p2a"></b><span class="s" data-i="p2b"></span></span></a>
+    <a class="pf" href="https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#i-star"/></svg></span><span><b data-i="p3a"></b><span class="s" data-i="p3b"></span></span></a>
+    <a class="pf" href="#faq"><span class="ic"><svg class="i"><use href="#i-shield"/></svg></span><span><b data-i="p4a"></b><span class="s" data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<section id="cek"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>01</b><span data-i="n1"></span></div><h2 data-i="sh"></h2></div><p class="lead" data-i="sl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i></i><span><b>01</b><em data-i="st1"></em></span></button>
+    <button class="ps" type="button" data-s="1"><i></i><span><b>02</b><em data-i="st2"></em></span></button>
+    <button class="ps" type="button" data-s="2"><i></i><span><b>03</b><em id="st3l" data-i="st3"></em></span></button>
+  </div>
+  <div class="console">
+    <div class="c-l"><div class="c-l-in">
+      <div class="c-head"><div><div class="step" data-i="s1"></div><h3 class="ptitle" data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch pre" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="toothG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef4f8"/></linearGradient><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dfe2"/><stop offset="1" stop-color="#efd3d8"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#222a35" flood-opacity=".16"/></filter></defs></svg>
+        <span class="side r" data-i="sd_r" aria-hidden="true"></span><span class="side l" data-i="sd_l" aria-hidden="true"></span>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div></div>
+    <div class="c-r">
+      <div class="step" data-i="s2"></div><h3 class="ptitle" id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3" style="margin-bottom:10px"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="kunjungan"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>02</b><span data-i="n2"></span></div><h2 data-i="jh"></h2></div><p class="lead" data-i="jl"></p></div>
+  <div class="jg">
+    <div class="mapc">
+      <div class="tlb-h" style="margin-bottom:12px"><span data-i="q1"></span><span class="chk" data-i="chk"></span></div>
+      <div class="wk" id="wk" role="radiogroup" data-ia="q1"></div>
+      <div class="tlb"><div class="tlb-h"><span data-i="tl_h"></span><span id="tlv"></span></div>
+        <div class="bar" id="bar" aria-hidden="true"><div class="op" id="barop"></div><div class="nw2" id="barnow" hidden></div><div class="pk" id="barpk"></div></div>
+        <div class="tick" aria-hidden="true"><span>08.00</span><span>11.00</span><span>14.00</span><span>17.00</span><span>20.00</span></div></div>
+      <div class="cinfo">
+        <div class="r"><svg class="i"><use href="#i-pin"/></svg><span id="cadr"></span></div>
+        <div class="docnote"><svg class="i"><use href="#i-lock"/></svg><span data-i="docnote"></span></div>
+      </div>
+    </div>
+    <div class="plan">
+      <div class="pbox">
+        <div class="sumline"><b id="sumd"></b><span class="pill" id="sumst"></span></div>
+        <div class="lab" data-i="q2"></div><div class="chips" id="ptm" role="radiogroup" data-ia="q2"></div>
+        <div class="lab" data-i="q3"></div><div class="chips" id="psv"></div>
+      </div>
+      <div class="pbox" id="pmsg">
+        <div class="bub-h"><label class="lab" for="pbub" style="margin:0" data-i="yourmsg"></label><button type="button" class="mrst" id="prst" hidden style="color:var(--cy-t)"><svg class="i"><use href="#i-reset"/></svg><span data-i="msg_rst"></span></button></div>
+        <textarea class="bub" id="pbub" rows="4"></textarea>
+        <div class="acts"><a class="btn btn-wa" id="psend" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="send"></span></a><button type="button" class="btn btn-gh btn-sm" id="pcp"><svg class="i"><use href="#i-copy"/></svg><span data-i="copy"></span></button><button type="button" class="btn btn-gh btn-sm" id="pics"><svg class="i"><use href="#i-dl"/></svg><span data-i="ics"></span></button></div>
+        <div class="acts" style="margin-top:8px"><a class="btn btn-gh btn-sm" id="ptel" href="tel:+6287777766040"><svg class="i"><use href="#i-phone"/></svg><span data-i="call"></span></a><a class="btn btn-gh btn-sm" id="pmaps" target="_blank" rel="noopener" href="#">Maps ↗</a><a class="btn btn-gh btn-sm" id="pwaze" target="_blank" rel="noopener" href="#">Waze ↗</a></div>
+        <p class="disc" data-i="wanote"></p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>03</b><span data-i="n3"></span></div><h2 data-i="lh"></h2></div><p class="lead" data-i="ll"></p></div>
+  <div class="svg-g" id="svc"></div>
+  <div class="pr" id="harga">
+    <div class="ptab"><div class="ph"><span data-i="ph"></span><span class="chk" data-i="chk_p"></span></div><div id="prl"></div><div class="pnote" data-i="pnote"></div></div>
+    <div class="pside"><h3 data-i="ps_h"></h3><p data-i="ps_p"></p><ul id="psl"></ul><a class="btn btn-wa" data-wa="price" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="ps_b"></span></a></div>
+  </div>
+</div></section>
+
+<section id="dokter" style="padding-top:0"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>04</b><span data-i="n4"></span></div><h2 data-i="dh"></h2></div><p class="lead"><span data-i="dl"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="dg" id="dg"></div>
+  <div class="fg" id="fas" style="margin-top:44px"></div>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>05</b><span data-i="n5"></span></div><h2 data-i="loh"></h2></div><p class="lead" data-i="lol"></p></div>
+  <div class="tabs" id="tabs" role="tablist" data-ia="n5"></div>
+  <div class="lg"><div class="linfo" id="linfo" role="tabpanel"></div><div class="map" id="map"><div class="mph"><div><span data-i="map_ph"></span><br><button type="button" class="btn btn-gh btn-sm" id="mapBtn" data-i="map_b"></button></div></div></div></div>
+</div></section>
+
+<section id="faq"><div class="wrap fq">
+  <div><div class="stn"><b>06</b><span data-i="n6"></span></div><h2 data-i="fh"></h2><p class="lead" style="margin-top:12px" data-i="fl"></p><a class="btn btn-gh" data-wa="q" href="#" style="margin-top:18px"><svg class="i"><use href="#i-wa"/></svg><span data-i="fb"></span></a></div>
+  <div id="fql"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="close">
+    <div><h2 data-i="ch"></h2><p data-i="cp"></p></div>
+    <div class="acts"><a class="btn btn-wa" data-wa="book" href="#" style="min-height:58px"><svg class="i"><use href="#i-wa"/></svg><span data-i="cb1"></span></a><a class="btn btn-gh" href="#kunjungan"><span data-i="cb2"></span><svg class="i"><use href="#i-ar"/></svg></a></div>
+    <svg class="big" viewBox="-2 0 70 68" aria-hidden="true"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="currentColor"/></svg>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fg2">
+    <div><svg viewBox="0 0 300 80" style="height:40px;width:auto" role="img" aria-label="Infinite Dental Care"><use href="#i-inf" x="4" y="8" width="66" height="64"/><text x="78" y="45" font-family="Capriola,'Trebuchet MS',Arial,sans-serif" font-size="36" fill="#222a35">infinite</text><text x="80" y="66" font-family="Figtree,Arial,sans-serif" font-weight="800" font-size="14" letter-spacing="3.6" fill="#25688f">DENTAL CARE</text></svg><p style="margin-top:12px;max-width:340px" data-i="ft_p"></p></div>
+    <div><h4 data-i="ft_b"></h4><ul><li data-i="ft_addr"></li></ul></div>
+    <div><h4 data-i="ft_c"></h4><ul><li><a href="tel:+6287777766040">0877-7776-6040</a> <span class="chk">✎</span></li><li><a href="https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4" target="_blank" rel="noopener">Google Maps ↗</a></li><li><a href="https://linktr.ee/infinitedentalcare" target="_blank" rel="noopener" data-lint-ok>Linktree klinik ↗</a></li></ul></div>
+    <div><h4 data-i="ft_h"></h4><ul><li><a href="#cek" data-i="n1"></a></li><li><a href="#kunjungan" data-i="n2"></a></li><li><a href="#harga" data-i="ph"></a></li><li><a href="#faq" data-i="n6"></a></li></ul></div>
+  </div>
+  <div class="fdisc"><span data-i="ft_disc"></span><span data-i="ft_cr"></span></div>
+</div></footer>
+
+<a class="fab" id="fab" data-wa="book" href="#" data-ia="fab_a"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="l" data-i="fab"></span></a>
+<div class="gtoast" id="gtoast" role="status"></div>
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev / domain klinik) skrip ini tidak melakukan apa-apa. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    /* tombol "Muat peta" di pratinjau langsung dipicu, supaya kartu peta tampil tanpa klik */
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+
+<script>
+/* ================= DATA ================= */
+const WA="6287777766040",MAPS="https://www.google.com/maps/place/?q=place_id:ChIJuTuMWTPnaC4R8QuXJrHiNV4",ADDR="Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",GQ="Infinite Dental Care, Jl. Sunda No.55, Bandung",HR=[9,20];
+const BR=[{k:"snd",no:"1",n:"Jl. Sunda",a:ADDR,tel:"0877-7776-6040",th:"+6287777766040",h:HR,maps:MAPS,q:GQ}];
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23M4.2 4.2l1.8 1.8M18 18l1.8 1.8M4.2 19.8 6 18M18 6l1.8-1.8",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",mis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",sparkle:"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z",impl:"M9 3h6l-1 6h-4zM10 9h4l-.5 3h-3zM10.5 12h3l-.3 3h-2.4zM11 15h2l-.2 3h-1.6zM11.5 18h1l-.5 3z",brace:"M3 12h18M6 9v6M10 9v6M14 9v6M18 9v6",root:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 8v9",dent:"M4 10c0-3 3-5 8-5s8 2 8 5v4H4zM6 14v3M10 14v3M14 14v3M18 14v3",spa:"M12 4c2 3 5 4 8 4-1 5-4 9-8 12-4-3-7-7-8-12 3 0 6-1 8-4zM12 8v9"};
+const SC=[231000,650000],TM=[330000,849000],EX=[203000,899000],BL=[1400000,3200000],VN=[1900000,4300000];
+// [chip, icon, title, text, urgency 1-3, [[treatment, price]]]  price: [min,max] = kisaran pasar Bandung · "?" = tanya klinik · null = setelah pemeriksaan
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling",SC],["Tambal gigi",TM]]],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan bisa membesar sampai ke saraf. Makin awal ditangani, biasanya makin sederhana perawatannya.",2,[["Tambal gigi",TM],["Perawatan saluran akar, bila sudah dalam",null]]],
+ ["Sakit berdenyut","thr","Sakit berdenyut atau bengkak","Bisa jadi tanda peradangan saraf gigi. Sebaiknya segera diperiksa dokter gigi.",3,[["Pemeriksaan segera","?"],["Perawatan saluran akar",null],["Cabut gigi, bila perlu",EX]]],
+ ["Gigi bungsu","wis","Sakit di ujung rahang","Gigi bungsu yang tumbuh miring dapat menimbulkan nyeri dan bengkak. Rontgen membantu dokter melihat posisinya.",2,[["Rontgen gigi","?"],["Cabut gigi bungsu, bila perlu",null]]],
+ ["Gusi berdarah","gum","Gusi bengkak atau berdarah","Umumnya dipicu karang gigi dan plak. Pembersihan profesional sering jadi langkah pertama.",1,[["Scaling",SC]]],
+ ["Gigi kuning","yel","Gigi kusam atau kekuningan","Sering karena noda kopi, teh, atau rokok. Dokter menilai apakah cukup dibersihkan atau perlu pemutihan.",1,[["Scaling",SC],["Bleaching",BL],["Veneer porselen (per gigi)",VN]]],
+ ["Tidak rapi","cro","Gigi berjejal atau tidak rapi","Posisi gigi dapat dirapikan bertahap. Pemeriksaan dan rencana perawatan diperlukan lebih dulu.",1,[["Konsultasi kawat gigi","?"],["Kawat gigi",null]]],
+ ["Gigi hilang","mis","Ada gigi yang hilang","Gigi yang hilang bisa diganti. Dokter menjelaskan pilihannya setelah pemeriksaan.",1,[["Gigi tiruan",null],["Implan gigi",null]]]],
+en:[
+ ["Sensitive","sens","Sensitive to cold or sweets","Often linked to worn enamel, small cavities or tartar near the gums.",1,[["Examination","?"],["Scaling",SC],["Filling",TM]]],
+ ["Cavity","cav","A hole, even if it doesn't hurt","An untreated cavity can reach the nerve. The earlier it's treated, the simpler the treatment usually is.",2,[["Filling",TM],["Root canal, if deep",null]]],
+ ["Throbbing pain","thr","Throbbing pain or swelling","May be a sign of nerve inflammation. It's best to see a dentist soon.",3,[["Urgent examination","?"],["Root canal",null],["Extraction, if needed",EX]]],
+ ["Wisdom tooth","wis","Pain at the back of the jaw","A tilted wisdom tooth can cause pain and swelling. An X-ray helps the dentist see its position.",2,[["Dental X-ray","?"],["Wisdom tooth removal, if needed",null]]],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually caused by tartar and plaque. Professional cleaning is often the first step.",1,[["Scaling",SC]]],
+ ["Yellow teeth","yel","Dull or yellowish teeth","Often stains from coffee, tea or smoking. The dentist checks whether cleaning is enough or whitening is needed.",1,[["Scaling",SC],["Whitening",BL],["Porcelain veneer (per tooth)",VN]]],
+ ["Crooked","cro","Crowded or crooked teeth","Teeth can be aligned step by step. An examination and treatment plan come first.",1,[["Braces consultation","?"],["Braces",null]]],
+ ["Missing tooth","mis","A missing tooth","A missing tooth can be replaced. The dentist explains the options after an examination.",1,[["Dentures",null],["Dental implant",null]]]]};
+const SVC=[
+ ["gum",{id:["Scaling","Pembersihan karang gigi. Dokter gigi dapat menjelaskan kebutuhan perawatan setelah pemeriksaan."],en:["Scaling","Removal of tartar. A dentist can explain what care you may need after an examination."]}],
+ ["cav",{id:["Tambal gigi","Perawatan untuk gigi berlubang atau rusak, sesuai hasil pemeriksaan."],en:["Dental fillings","Care for a damaged or decayed tooth, based on an examination."]}],
+ ["mis",{id:["Cabut gigi","Tindakan pencabutan bila diperlukan. Tercantum di direktori ✎"],en:["Tooth extraction","Removal of a tooth when needed. Listed in a directory ✎"]}],
+ ["brace",{id:["Kawat gigi","Konsultasikan kondisi susunan gigi dan pilihan perawatan yang sesuai."],en:["Braces","Discuss your tooth alignment and suitable treatment options."]}],
+ ["yel",{id:["Veneer","Tanyakan pilihan perawatan untuk bentuk atau warna gigi depan. Tercantum di direktori ✎"],en:["Veneers","Ask about options for the shape or colour of front teeth. Listed in a directory ✎"]}],
+ ["sparkle",{id:["Bleaching","Konsultasikan perawatan untuk mencerahkan warna gigi dan kecocokannya bagi Anda."],en:["Teeth whitening","Discuss teeth whitening and whether it is suitable for you."]}],
+ ["impl",{id:["Implan gigi","Tanyakan pilihan pengganti gigi hilang dengan implan. Tercantum di direktori ✎"],en:["Dental implants","Ask about replacing a missing tooth with an implant. Listed in a directory ✎"]}],
+ ["root",{id:["Perawatan saluran akar","Perawatan bagian dalam gigi yang kebutuhannya ditentukan melalui pemeriksaan."],en:["Root canal treatment","Care for the inside of a tooth, when an examination shows it is needed."]}],
+ ["dent",{id:["Gigi tiruan","Tanyakan pilihan pengganti gigi yang hilang sesuai kondisi mulut Anda."],en:["Dentures","Ask about options for replacing missing teeth based on your oral health."]}],
+ ["spa",{id:["Dental spa","Tanyakan isi layanan dental spa langsung ke klinik. Tercantum di direktori ✎"],en:["Dental spa","Ask the clinic what the dental spa service includes. Listed in a directory ✎"]}]];
+const PRL=[[SC,{id:["Scaling","Pembersihan karang gigi"],en:["Scaling","Tartar removal"]}],[TM,{id:["Tambal gigi","Tergantung gigi dan tingkat kerusakan"],en:["Filling","Depends on the tooth and damage"]}],[EX,{id:["Cabut gigi dewasa","Tergantung tingkat kesulitan"],en:["Adult extraction","Depends on case difficulty"]}],[BL,{id:["Bleaching","Perawatan di klinik"],en:["Whitening","In-clinic treatment"]}],[VN,{id:["Veneer porselen","Per gigi"],en:["Porcelain veneer","Per tooth"]}],[null,{id:["Kawat gigi","Kisaran belum diriset cukup"],en:["Braces","Range not researched enough yet"]}],[null,{id:["Implan gigi","Kisaran belum diriset cukup"],en:["Dental implant","Range not researched enough yet"]}]];
+const DR=[{g:"f"},{g:"m"},{g:"f2"}];
+const FAS=[["wheel",{id:["Akses kursi roda","Tercantum di direktori."],en:["Wheelchair access","Listed in a directory."]},1],["wc",{id:["Toilet","Tercantum di direktori."],en:["Restroom","Listed in a directory."]},1],["card",{id:["Pembayaran kartu","Menerima pembayaran kartu, menurut direktori."],en:["Card payments","Accepts card payments, per a directory."]},1],["shield",{id:["Rekanan Admedika","Tercantum pada daftar pemegang kartu grup Maret 2026."],en:["Admedika provider","Listed on the March 2026 group cardholder list."]},1],["cal",{id:["Buka setiap hari","09.00–20.00 termasuk Minggu, menurut direktori."],en:["Open every day","9 a.m.–8 p.m. including Sundays, per a directory."]},1]];
+const FAQ={id:[
+ ["Jam berapa klinik buka?","Direktori mencantumkan pukul 09.00–20.00 setiap hari, termasuk Minggu. Mohon konfirmasi langsung ke klinik karena jam dapat berubah."],
+ ["Berapa biaya perawatan?","Tarif Infinite Dental Care belum terkonfirmasi. Hubungi klinik untuk menanyakan biaya sesuai perawatan yang Anda perlukan."],
+ ["Apakah klinik menerima Admedika?","Infinite Dental Care tercantum sebagai rekanan dalam daftar pemegang kartu grup Admedika Maret 2026. Konfirmasi cakupan kartu dan prosedur penggunaannya kepada klinik sebelum berkunjung."],
+ ["Apakah tersedia perawatan kawat gigi?","Kawat gigi tercantum dalam daftar layanan. Hubungi klinik untuk memastikan ketersediaan konsultasi dan pilihan perawatannya."],
+ ["Apakah anak bisa berobat di sini?","Ketersediaan perawatan untuk anak belum terkonfirmasi. Sampaikan usia anak dan keluhannya saat menghubungi klinik."]],
+en:[
+ ["What are the clinic’s opening hours?","A directory lists the clinic as open from 9 a.m. to 8 p.m. daily, including Sundays. Please confirm with the clinic, as hours may change."],
+ ["How much does treatment cost?","Infinite Dental Care’s fees have not been confirmed. Contact the clinic to ask about the cost of the care you need."],
+ ["Does the clinic accept Admedika?","Infinite Dental Care appears on Admedika’s March 2026 group cardholder provider list. Check your card’s coverage and how to use it with the clinic before visiting."],
+ ["Are braces available?","Braces are listed among the services. Contact the clinic to confirm consultation availability and treatment options."],
+ ["Can children receive care here?","Dental care for children has not been confirmed. Share your child’s age and concern when contacting the clinic."]]};
+const PSV={id:["pemeriksaan gigi","scaling","tambal gigi","kawat gigi","bleaching","cabut gigi"],en:["a check-up","scaling","fillings","braces","teeth whitening","tooth extraction"]};
+const DN={id:["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],en:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]};
+const MN={id:["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"],en:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]};
+
+const T={
+id:{pv:"<b>Konsep pratinjau oleh Maxi Growth Studio</b> · bukan website resmi Infinite Dental Care · <span class='chk'>✎ verifikasi</span> = info perlu dikonfirmasi klinik",pv_x:"Tutup",home:"Infinite Dental Care Bandung — beranda",menu:"Menu",ttl:"Infinite Dental Care Bandung — Konsep Website",
+n1:"Cek gigi",n2:"Rencana kunjungan",n3:"Layanan & harga",n4:"Dokter",n5:"Lokasi",n6:"FAQ",cta:"Tanya jadwal",
+hl0a:"Jl. Sunda No.55",hl0b:"Sumur Bandung",
+h1:"Perawatan gigi di <em>Jl. Sunda<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#f2b134' stroke-width='4' stroke-linecap='round'/></svg></em>, Bandung.",
+hl:"Kenali pilihan perawatan di Jl. Sunda No.55. Tandai gigi yang dikeluhkan, rencanakan hari kunjungan, lalu hubungi klinik untuk memastikan jadwal dan layanan sebelum berkunjung.",
+td_h:"Status klinik hari ini",c1:"Tanyakan jadwal kunjungan",c2:"Cek gigi 30 detik",it_l:"Perlu apa hari ini?",it:["Periksa gigi","Sakit gigi","Scaling","Kawat gigi"],it_c:["Tanya jadwal periksa","Tanya soal sakit gigi","Tanya jadwal scaling","Tanya soal kawat gigi"],
+w_it:["Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan pemeriksaan gigi. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.","Halo Infinite Dental Care, gigi saya sakit dan saya ingin diperiksa. Apakah ada jadwal kunjungan yang tersedia hari ini? Apakah saya bisa mendapat informasi biaya juga? Terima kasih.","Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan scaling. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.","Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan konsultasi kawat gigi. Apakah saya bisa mendapat informasi biaya juga? Terima kasih."],
+st_open:"Buka · tutup 20.00",st_before:"Tutup · buka 09.00",st_after:"Tutup · buka besok 09.00",st_unk:"Jam belum dikonfirmasi",
+zap1:"Putar gigi · ketuk bakteri untuk mengusirnya ·",zap2:"terusir",
+p1a:"Jl. Sunda No.55",p1b:"Kb. Pisang, Sumur Bandung",p2a:"Setiap hari 09.00–20.00",p2b:"Termasuk Minggu · menurut direktori <span class='chk'>✎</span>",p3a:"4,9 ★ rating Google",p3b:"±457 ulasan, cuplikan direktori <span class='chk'>✎</span>",p4a:"Rekanan Admedika",p4b:"Daftar kartu grup Maret 2026 <span class='chk'>✎</span>",
+sh:"Gigi mana yang terasa tidak nyaman?",sl:"Tandai giginya, pilih keluhannya. Kami jelaskan kemungkinan perawatan dengan bahasa sederhana, dan pesan WhatsApp Anda langsung tertulis.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim ke klinik",st3d:"Terkirim ✓",s1:"Langkah 1 · Gigi",s1t:"Gigi yang mana?",s2:"Langkah 2 · Keluhan",s2t:"Apa yang Anda rasakan?",s3:"Langkah 3 · Kirim",
+jw_g:"Tampilan rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",jw_hint:"Tip: coba juga rahang bawah",sd_r:"← Kanan Anda",sd_l:"Kiri Anda →",orient:"Seperti orang lain melihat mulut Anda — sisi kanan Anda ada di kiri layar.",
+amap:"Denah gigi",tap:"Ketuk gigi yang tidak nyaman",skip:"Lewati — saya tidak yakin",mk_l:"gigi ditandai",clr:"Hapus semua",rm:"Hapus",skipped:"Tidak ada gigi ditandai",
+pick:"Pilih keluhan untuk melihat penjelasan & kisaran biaya",pickp:"Pesan WhatsApp Anda akan tertulis di sini.",likely:"KEMUNGKINAN",urg:["","Tidak mendesak","Sedang","Periksakan segera"],ask_c:"Tanya klinik",r_upd:"Hasil diperbarui: ",msg_rst:"Perbarui pesan",
+tr_usual:"Perawatan yang biasa dipertimbangkan",after_ex:"Setelah pemeriksaan",from:"kisaran",est_src:"Kisaran pasar Bandung dari klinik lain, bukan tarif Infinite Dental Care. Tarif klinik belum terkonfirmasi.",yourmsg:"Pesan Anda · bisa diubah",pref_l:"Waktu pilihan:",pf:["Siang","Sore","Malam"],w_pref:"Waktu yang saya inginkan: ",send:"Kirim lewat WhatsApp",copy:"Salin pesan",copied:"Tersalin ✓",
+w_k1:"Halo Infinite Dental Care, saya ada keluhan: ",w_k2:" — ",w_k3:"Apakah saya bisa menanyakan jadwal kunjungan dan informasi biaya? Terima kasih.",sd:"Informasi umum, bukan diagnosis. Rencana perawatan ditentukan dokter gigi setelah pemeriksaan.",chk:"✎ verifikasi",
+jh:"Rencanakan hari kunjungan Anda.",jl:"Pilih hari, termasuk Minggu, lalu jam yang Anda inginkan. Lihat jam yang tercantum di direktori, petunjuk arah, dan pesan WhatsApp yang sudah tertulis. Konfirmasi jam praktik langsung ke klinik sebelum berangkat.",
+q1:"7 hari ke depan",q2:"Perkiraan jam datang",q3:"Perawatan yang ingin ditanyakan",tl_h:"Jam yang tercantum",docnote:"Jadwal dokter ditampilkan setelah diverifikasi klinik. Sampai saat itu, tanyakan dokter yang bertugas lewat WhatsApp.",
+days_s:["Min","Sen","Sel","Rab","Kam","Jum","Sab"],today:"hari ini",tms_none:"Jam hari ini sudah lewat — pilih hari lain",
+sumst_open:"Buka sekarang",sumst_closed:"Tutup saat ini",sumst_plan:"Tercantum buka 09.00–20.00",
+w_p1:"Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan ",w_p2:" pada ",w_p3:" WIB. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.",at:"sekitar pukul",
+send2:"Kirim lewat WhatsApp",call:"Telepon",ics:"Simpan ke kalender",ics_ok:"Kalender diunduh",ics_t:"Rencana kunjungan Infinite Dental Care (belum dikonfirmasi)",wanote:"Nomor 0877-7776-6040 tercantum sebagai telepon klinik; belum dipastikan sebagai nomor WhatsApp ✎. Rencana ini bukan janji temu — klinik yang mengonfirmasi.",
+lh:"Layanan yang tercantum, kisaran biaya sebagai pembanding.",ll:"Layanan di bawah tercantum untuk Infinite Dental Care. Dokter menjelaskan rencana dan biaya akhir setelah pemeriksaan.",
+ph:"Kisaran biaya pasar",chk_p:"✎ bukan tarif klinik",pnote:"Kisaran dibandingkan dari beberapa klinik lain di Bandung (direktori & situs klinik), bukan tarif Infinite Dental Care. Tarif klinik belum terkonfirmasi — tanyakan sebelum perawatan.",ask_row:"Tanya klinik",
+ps_h:"Belum yakin perlu perawatan apa?",ps_p:"Ceritakan keluhan Anda. Dokter menjelaskan pilihan dan perkiraan biaya sebelum perawatan dimulai.",ps_b:"Tanya perkiraan biaya",
+dh:"Dokter gigi di Infinite Dental Care.",dl:"Ilustrasi, bukan foto asli. Nama, gelar, dan jadwal dokter diisi setelah dikonfirmasi klinik.",d_unk:"Profil dokter diisi klinik",d_sp2:"Dokter gigi · jadwal praktik",d_ask:"Tanya dokter yang bertugas",d_ill:"ILUSTRASI",
+loh:"Satu alamat, mudah dijangkau.",lol:"Lihat alamat, jam, dan rute. Tombol Maps dan Waze membuka petunjuk arah dari lokasi Anda.",a_adr:"Alamat",a_hrs:"Jam praktik",a_tel:"Telepon",a_wa:"WhatsApp",hrs_unk:"Jam belum dikonfirmasi.",
+wa_unk:"Belum dipastikan sebagai nomor WhatsApp",
+map_ph:"Peta Google dimuat saat bagian ini terlihat.",map_b:"Muat peta",
+fh:"Sebelum Anda datang.",fl:"Belum menemukan jawabannya? Tanyakan langsung.",fb:"Tanya lewat WhatsApp",
+ch:"Ada pertanyaan sebelum berkunjung?",cp:"Hubungi Infinite Dental Care untuk memastikan jadwal, layanan, dan biaya.",cb1:"Tanya lewat WhatsApp",cb2:"Rencanakan kunjungan",
+ft_p:"Klinik gigi di Jl. Sunda, Sumur Bandung.",ft_b:"Alamat",ft_addr:"Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",ft_c:"Kontak",ft_h:"Jelajahi",ft_disc:"Konsep pratinjau — bukan website resmi Infinite Dental Care. Info bertanda ✎ perlu dikonfirmasi klinik. Logo digambar ulang sebagai konsep ✎.",ft_cr:"Konsep oleh Maxi Growth Studio",fab:"Tanya jadwal",fab_a:"Tanya jadwal lewat WhatsApp",
+w_book:"Halo Infinite Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan pemeriksaan gigi. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.",w_price:"Halo Infinite Dental Care, saya ingin menanyakan jadwal dan informasi biaya perawatan gigi. Apakah saya bisa mendapat informasi biaya juga? Terima kasih.",w_q:"Halo Infinite Dental Care, saya ada pertanyaan sebelum berkunjung: ",w_doc:"Halo Infinite Dental Care, dokter siapa yang bertugas dan bagaimana jadwalnya? Terima kasih.",copied_a:"Alamat tersalin",cp_a:"Salin alamat"},
+en:{pv:"<b>Concept preview by Maxi Growth Studio</b> · not the official Infinite Dental Care website · <span class='chk'>✎ verify</span> = details to be confirmed by the clinic",pv_x:"Close",home:"Infinite Dental Care Bandung — home",menu:"Menu",ttl:"Infinite Dental Care Bandung — Website Concept",
+n1:"Tooth check",n2:"Plan your visit",n3:"Services & fees",n4:"Dentists",n5:"Location",n6:"FAQ",cta:"Ask schedule",
+hl0a:"Jl. Sunda No.55",hl0b:"Sumur Bandung",
+h1:"Dental care on <em>Jl. Sunda<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#f2b134' stroke-width='4' stroke-linecap='round'/></svg></em>, Bandung.",
+hl:"Explore dental care options at Jl. Sunda No.55. Mark the tooth that bothers you, plan your visit day, then contact the clinic to confirm availability before you go.",
+td_h:"Clinic status today",c1:"Ask about visiting hours",c2:"30-second tooth check",it_l:"What do you need today?",it:["Check-up","Toothache","Scaling","Braces"],it_c:["Ask about a check-up","Ask about toothache","Ask about scaling","Ask about braces"],
+w_it:["Hello Infinite Dental Care, I'd like to ask about visiting hours and availability of a check-up. Could I also get information on fees? Thank you.","Hello Infinite Dental Care, I have a toothache and would like an examination. Is a visiting slot available today? Could I also get information on fees? Thank you.","Hello Infinite Dental Care, I'd like to ask about visiting hours and availability of scaling. Could I also get information on fees? Thank you.","Hello Infinite Dental Care, I'd like to ask about visiting hours and a braces consultation. Could I also get information on fees? Thank you."],
+st_open:"Open · closes 20:00",st_before:"Closed · opens 09:00",st_after:"Closed · opens tomorrow 09:00",st_unk:"Hours not yet confirmed",
+zap1:"Spin the tooth · tap a bacterium to clear it ·",zap2:"cleared",
+p1a:"Jl. Sunda No.55",p1b:"Kb. Pisang, Sumur Bandung",p2a:"Daily 09:00–20:00",p2b:"Sundays included · per a directory <span class='chk'>✎</span>",p3a:"4.9 ★ Google rating",p3b:"±457 reviews, directory snapshot <span class='chk'>✎</span>",p4a:"Admedika provider",p4b:"March 2026 group card list <span class='chk'>✎</span>",
+sh:"Which tooth feels uncomfortable?",sl:"Mark the tooth, choose the concern. We explain likely treatments in plain words, and your WhatsApp message is written for you.",
+st1:"Mark teeth",st2:"Pick concern",st3:"Send to clinic",st3d:"Sent ✓",s1:"Step 1 · Teeth",s1t:"Which tooth?",s2:"Step 2 · Concern",s2t:"What do you feel?",s3:"Step 3 · Send",
+jw_g:"Jaw view",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",jw_hint:"Tip: try the lower jaw too",sd_r:"← Your right",sd_l:"Your left →",orient:"As others see your mouth — your right side is on the left of the screen.",
+amap:"Tooth map",tap:"Tap the tooth that feels uncomfortable",skip:"Skip — I'm not sure",mk_l:"teeth marked",clr:"Clear all",rm:"Remove",skipped:"No tooth marked",
+pick:"Pick a concern to see the explanation & fee range",pickp:"Your WhatsApp message will be written here.",likely:"LIKELY",urg:["","Not urgent","Moderate","See a dentist soon"],ask_c:"Ask the clinic",r_upd:"Result updated: ",msg_rst:"Update message",
+tr_usual:"Treatments usually considered",after_ex:"After examination",from:"range",est_src:"Bandung market range from other clinics, not Infinite Dental Care's fees. The clinic's fees are not confirmed.",yourmsg:"Your message · editable",pref_l:"Preferred time:",pf:["Midday","Afternoon","Evening"],w_pref:"Preferred time: ",send:"Send via WhatsApp",copy:"Copy message",copied:"Copied ✓",
+w_k1:"Hello Infinite Dental Care, I have this concern: ",w_k2:" — ",w_k3:"Could I ask about visiting hours and fee information? Thank you.",sd:"General information, not a diagnosis. The treatment plan is decided by the dentist after an examination.",chk:"✎ verify",
+jh:"Plan your visit day.",jl:"Pick a day, Sundays included, then the time you prefer. See the hours listed in a directory, directions, and a ready-written WhatsApp message. Please confirm opening hours with the clinic before you travel.",
+q1:"Next 7 days",q2:"Approximate arrival time",q3:"Treatment you want to ask about",tl_h:"Listed hours",docnote:"Dentist schedules are shown once the clinic has verified them. Until then, ask who is on duty via WhatsApp.",
+days_s:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],today:"today",tms_none:"Today's hours have passed — pick another day",
+sumst_open:"Open now",sumst_closed:"Closed right now",sumst_plan:"Listed open 09:00–20:00",
+w_p1:"Hello Infinite Dental Care, I'd like to ask about visiting hours and availability of ",w_p2:" on ",w_p3:" WIB. Could I also get information on fees? Thank you.",at:"around",
+send2:"Send via WhatsApp",call:"Call",ics:"Save to calendar",ics_ok:"Calendar file downloaded",ics_t:"Planned visit to Infinite Dental Care (unconfirmed)",wanote:"0877-7776-6040 is listed as the clinic's phone; it is not confirmed as a WhatsApp number ✎. This plan is not an appointment — the clinic confirms it.",
+lh:"Listed services, fee ranges for comparison.",ll:"The services below are listed for Infinite Dental Care. The dentist explains the plan and final cost after an examination.",
+ph:"Market fee ranges",chk_p:"✎ not clinic fees",pnote:"Ranges compared from other Bandung clinics (directories & clinic sites), not Infinite Dental Care's fees. The clinic's fees are not confirmed — ask before treatment.",ask_row:"Ask the clinic",
+ps_h:"Not sure which treatment you need?",ps_p:"Tell us your concern. The dentist explains the options and estimated cost before treatment starts.",ps_b:"Ask for an estimate",
+dh:"Dentists at Infinite Dental Care.",dl:"Illustrations, not real photos. Names, degrees and schedules are filled in once the clinic confirms them.",d_unk:"Dentist profile from clinic",d_sp2:"Dentist · practice schedule",d_ask:"Ask who's on duty",d_ill:"ILLUSTRATION",
+loh:"One address, easy to reach.",lol:"See the address, hours and route. The Maps and Waze buttons open directions from your location.",a_adr:"Address",a_hrs:"Opening hours",a_tel:"Phone",a_wa:"WhatsApp",hrs_unk:"Hours not confirmed yet.",
+wa_unk:"Not confirmed as a WhatsApp number",
+map_ph:"The Google map loads when this section is visible.",map_b:"Load map",
+fh:"Before you visit.",fl:"Can't find your answer? Just ask.",fb:"Ask on WhatsApp",
+ch:"Have a question before your visit?",cp:"Contact Infinite Dental Care to confirm hours, services, and fees.",cb1:"Ask on WhatsApp",cb2:"Plan your visit",
+ft_p:"Dental clinic on Jl. Sunda, Sumur Bandung.",ft_b:"Address",ft_addr:"Jl. Sunda No.55, RW.61, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",ft_c:"Contact",ft_h:"Explore",ft_disc:"Concept preview — not the official Infinite Dental Care website. Items marked ✎ are to be confirmed by the clinic. Logo redrawn as a concept ✎.",ft_cr:"Concept by Maxi Growth Studio",fab:"Ask schedule",fab_a:"Ask the schedule via WhatsApp",
+w_book:"Hello Infinite Dental Care, I'd like to ask about visiting hours and availability of a check-up. Could I also get information on fees? Thank you.",w_price:"Hello Infinite Dental Care, I'd like to ask about schedules and fee information for dental care. Thank you.",w_q:"Hello Infinite Dental Care, I have a question before visiting: ",w_doc:"Hello Infinite Dental Care, which dentist is on duty and what is their schedule? Thank you.",copied_a:"Address copied",cp_a:"Copy address"}};
+
+/* ================= CORE ================= */
+let L="id";
+const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const t=k=>T[L][k];
+const wa=x=>"https://wa.me/"+WA+"?text="+encodeURIComponent(x);
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth",mob=()=>innerWidth<900;
+const ic=n=>'<svg class="i"><use href="#i-'+n+'"/></svg>';
+const rp=n=>"Rp"+n.toLocaleString(L==="id"?"id-ID":"en-US");
+const rr=r=>{const j=L==="id"?" jt":"M",k=L==="id"?" rb":"k",f=n=>(n/1e6).toFixed(1).replace(/\.0$/,"").replace(".",L==="id"?",":".");
+ return r[0]>=1e6?"Rp"+f(r[0])+"–"+f(r[1])+j:"Rp"+Math.round(r[0]/1000)+"–"+Math.round(r[1]/1000)+k};
+function gtoast(m){const g=$("#gtoast");g.textContent=m;g.classList.add("on");clearTimeout(g._t);g._t=setTimeout(()=>g.classList.remove("on"),1800)}
+function copyText(txt,done){const fb=()=>{const a=document.createElement("textarea");a.value=txt;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()};
+ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(txt).then(done,fb);else fb()}
+
+/* waktu WIB (UTC+7) */
+function wib(){const n=new Date(Date.now()+7*3600e3);return{day:n.getUTCDay(),h:n.getUTCHours()+n.getUTCMinutes()/60,hh:n.getUTCHours(),mm:n.getUTCMinutes()}}
+function bst(b){if(!b.h)return{c:"st-unk",tx:t("st_unk")};const {h}=wib();if(h>=b.h[0]&&h<b.h[1])return{c:"st-open",tx:t("st_open")};return{c:"st-closed",tx:h<b.h[0]?t("st_before"):t("st_after")}}
+
+function applyLang(){
+ document.documentElement.lang=L;document.title=t("ttl");
+ $$("[data-i]").forEach(e=>{const v=T[L][e.dataset.i];if(v!==undefined)e.innerHTML=v});
+ $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",T[L][e.dataset.ia]));
+ $$("[data-wa]").forEach(a=>{a.href=wa(t("w_"+a.dataset.wa));a.target="_blank";a.rel="noopener"});
+ $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+ $("#h1").innerHTML=t("h1");
+ status();buildIntent();buildKel();updArea();renderRes();stepper();buildPlan();buildSvc();buildDocs();buildLoc();buildFaq();
+}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("inf-lang",L)}catch(e){};applyLang()});
+try{const s=localStorage.getItem("inf-lang");if(s==="en"||s==="id")L=s}catch(e){}
+
+/* preview bar */
+try{if(localStorage.getItem("inf-pv")==="x")$("#pv").hidden=true}catch(e){}
+$("#pvx").onclick=()=>{$("#pv").hidden=true;try{localStorage.setItem("inf-pv","x")}catch(e){}};
+
+/* nav */
+const nav=$("#nav"),sprog=$("#sprog");
+function onScroll(){nav.classList.toggle("sc",scrollY>8);const m=document.documentElement.scrollHeight-innerHeight;sprog.style.transform="scaleX("+(m>0?Math.min(1,scrollY/m):0)+")"}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+const burger=$("#burger"),sheet=$("#sheet"),scrim=$("#scrim");let sheetOpen=false;
+function setSheet(o,refocus){sheetOpen=o;sheet.classList.toggle("open",o);scrim.classList.toggle("open",o);burger.setAttribute("aria-expanded",o);sheet.inert=!o;if(o)setTimeout(()=>sheet.querySelector("a").focus(),60);else if(refocus)burger.focus()}
+burger.onclick=()=>setSheet(!sheetOpen);scrim.onclick=()=>setSheet(false);
+$$("#sheet a").forEach(a=>a.addEventListener("click",()=>setSheet(false)));
+document.addEventListener("keydown",e=>{if(sheetOpen&&e.key==="Escape")setSheet(false,true)});
+addEventListener("resize",()=>{if(sheetOpen&&innerWidth>1060)setSheet(false)});
+if("IntersectionObserver" in window){const spy=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;$$(".links a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});["cek","kunjungan","layanan","dokter","lokasi","faq"].forEach(id=>spy.observe(document.getElementById(id)))}
+
+/* hero status + intent */
+function status(){const {hh,mm}=wib();$("#clock").textContent=String(hh).padStart(2,"0")+"."+String(mm).padStart(2,"0")+" WIB";
+ $("#brs").innerHTML=BR.map(b=>{const s=bst(b);return '<a href="#kunjungan"><span class="no">∞</span><span class="nm">'+b.n+' No.55</span><span class="st '+s.c+'"><i class="dot"></i>'+s.tx+' <span class="chk">✎</span></span></a>'}).join("");
+ if($("#sumst"))sumStatus()}
+setInterval(status,60000);
+let intent=-1;
+function buildIntent(){const c=$("#intent");c.innerHTML='<span>'+t("it_l")+'</span>'+t("it").map((x,i)=>'<button type="button" aria-pressed="'+(intent===i)+'" data-n="'+i+'">'+x+'</button>').join("");
+ $$("button",c).forEach(b=>b.onclick=()=>{const n=+b.dataset.n;intent=intent===n?-1:n;$$("button",c).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.n===intent));setIntent(true)});setIntent(false)}
+function setIntent(anim){const a=$("#hcta"),l=$("#hctal"),go=()=>{l.textContent=intent>=0?t("it_c")[intent]:t("c1");a.href=wa(intent>=0?t("w_it")[intent]:t("w_book"))};
+ if(anim&&!RM){l.style.opacity=0;setTimeout(()=>{go();l.style.opacity=1},180)}else go()}
+
+/* ================= CEK GIGI (mekanik dari Atabara #semak) ================= */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+ [["url(#gg)",46],["#fff7f8",2]].forEach(([c,w],j)=>{const p=el("path",{d,fill:"none","stroke-linecap":"round",stroke:c,"stroke-width":w});if(j)p.setAttribute("transform","translate(0 "+(up?10:-10)+")");arch.appendChild(p)})}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+ for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+  const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+  const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+  g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));
+  const tb=el("g",{class:"tb",filter:"url(#sh)"});tb.style.transitionDelay=(RM?0:(up?i:16+i)*18)+"ms";
+  tb.appendChild(el("circle",{class:"halo2",r:k==="m"?"16.5":"15"}));
+  SHAPE[k].forEach((d,j)=>tb.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+  g.appendChild(tb);g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+  const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+  const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.5"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+  g.onclick=()=>{rove(g,true);tg(g)};
+  g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;
+   if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+   if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];
+   else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];else if(e.key==="Home")m=[J,0];else if(e.key==="End")m=[J,15];
+   if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+  g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;g.onfocus=()=>{if(g.matches(":focus-visible"))tipShow(g)};g.onblur=tipHide;
+  teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);badges.forEach(b=>arch.appendChild(b));
+[["ATAS","UPPER",200,76],["BAWAH","LOWER",200,270]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+if("IntersectionObserver" in window)new IntersectionObserver(([e],o)=>{if(e.isIntersecting){arch.classList.remove("pre");setTimeout(()=>$$(".tb",arch).forEach(x=>x.style.transitionDelay="0ms"),1200);o.disconnect()}},{threshold:.2}).observe(arch);else arch.classList.remove("pre");
+function fdi(g){const j=+g.dataset.jaw,sd=+g.dataset.side,i=+g.dataset.ix;return ""+(j===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+ return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdi(g)+")"}
+const lc=n=>/^(\p{Lu}{2}|X-)/u.test(n)?n:n.charAt(0).toLowerCase()+n.slice(1);
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1600)}
+let hinted=false,skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}
+ skipped=false;syncTeeth();updArea();renderRes();tipHide();
+ if(sel.length===1&&jawM==="u"&&!hinted){hinted=true;setTimeout(()=>toast(t("jw_hint")),1700)}}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on);if(on)x._nb.querySelector("text").textContent=fdi(x)})}
+function areaTxt(){return sel.map(g=>tName(g).toLowerCase()).join(", ")}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));
+ arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+ const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+ (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0)}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);
+ teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+ const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:3;
+ if(sel.length){const list=sel.slice(-lim);
+  c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+tName(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip plus">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+ic("reset")+t("clr")+'</button>';
+  $$(".mchip button",c).forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+  $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes();stepper()};
+ }else{c.innerHTML='<div class="tapme">'+ic("tap")+'</div><div class="sm">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+  const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}
+ stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+ s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+ s.forEach(b=>b.setAttribute("aria-current",b.classList.contains("on")?"step":"false"));
+ const l=$("#st3l");if(l)l.textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;(n===0?$("#aw"):n===1?$("#kl"):$("#res")).scrollIntoView({behavior:SB,block:"center"})});
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+ b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+ b.onclick=()=>pickK(i,false);
+ b.onkeydown=e=>{const n=KEL[L].length;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();pickK(j,true)}};
+ kl.appendChild(b)})}
+function pickK(i,kb){if(i!==ki)sent=false;ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();
+ if(kb){$$("#kl .k")[i].focus();return}
+ const h=$("#res h3");if(h)h.focus({preventScroll:true});if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let lastKi=-2,pref=-1,msgEdited=false;
+const feeTx=p=>p==="?"?'<em>'+t("ask_c")+'</em>':p===null?'<em>'+t("after_ex")+'</em>':'<small style="font-family:var(--bf);font-size:11px;color:#98a6cf;font-weight:600">'+t("from")+'</small> '+rr(p);
+function renderRes(){const r=$("#res");
+ if(ki<0){r.className="res empty";r.dataset.k="";
+  r.innerHTML='<div class="skl" style="width:38%"></div><div class="skl" style="width:86%"></div><div class="skl" style="width:64%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+ const o=KEL[L][ki],names=sel.map(tName),key=ki+L;
+ if(r.classList.contains("full")&&r.dataset.k===key){const rt=$("#rteeth");rt.innerHTML=names.map(n=>'<span>'+n+'</span>').join("");rt.hidden=!names.length;compose();return}
+ const changed=lastKi!==ki,prev=$("#msg")?$("#msg").value:"";lastKi=ki;r.dataset.k=key;if(changed)msgEdited=false;
+ r.className="res full"+(changed&&!RM?" anim":"");
+ r.innerHTML='<div class="r-top"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div>'+
+  '<h3 tabindex="-1">'+o[2]+'</h3><div class="rteeth" id="rteeth"'+(names.length?'':' hidden')+'>'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>'+
+  '<p class="ex">'+o[3]+'</p><div class="rtl-h">'+t("tr_usual")+'</div>'+
+  '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+feeTx(p)+'</span></li>').join("")+'</ul>'+
+  '<p class="est">'+t("est_src")+' <span class="chk">'+t("chk")+'</span></p>'+
+  '<div class="bub-h"><label class="bub-c" for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+ic("reset")+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="3"></textarea>'+
+  '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+  '<a class="btn btn-wa" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a>'+
+  '<button type="button" class="copy" id="copy">'+ic("copy")+'<span>'+t("copy")+'</span></button>';
+ const m=$("#msg");if(msgEdited)m.value=prev;compose();
+ m.oninput=()=>{msgEdited=true;sent=false;stepper();$("#mrst").hidden=false;fit(m);$("#send").href=wa(m.value)};
+ $("#mrst").onclick=()=>{msgEdited=false;compose();m.focus()};
+ $$(".pref button",r).forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;$$(".pref button",r).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+ $("#send").addEventListener("click",()=>{sent=true;stepper()});
+ $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+ if(changed)$("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],a=areaTxt(),m=$("#msg");if(!m)return;
+ const v=t("w_k1")+lc(o[2])+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_k3");
+ if(!msgEdited&&m.value!==v){m.value=v;sent=false}
+ $("#mrst").hidden=!msgEdited||m.value===v;fit(m);$("#send").href=wa(m.value);stepper()}
+function fit(m){m.style.height="auto";m.style.height=Math.min(160,m.scrollHeight+2)+"px"}
+
+
+/* ================= RENCANA KUNJUNGAN (fitur khas) ================= */
+function wkDays(){const n=new Date(Date.now()+7*3600e3);return Array.from({length:7},(_,i)=>{const d=new Date(n.getTime()+i*864e5);return{i,dow:d.getUTCDay(),dt:d.getUTCDate(),mo:d.getUTCMonth(),y:d.getUTCFullYear()}})}
+const P={d:0,tm:10,sv:0,edited:false};
+const pad=n=>String(n).padStart(2,"0"),hh=h=>pad(h)+".00";
+function hoursFor(d){const w=wib(),from=d===0?Math.max(HR[0],Math.ceil(w.h+.01)):HR[0],a=[];for(let h=from;h<HR[1];h++)a.push(h);return a}
+function initPlan(){if(!hoursFor(0).length)P.d=1;const a=hoursFor(P.d);P.tm=a.includes(10)?10:a[0]}
+function dayLabel(d){return DN[L][d.dow]+", "+d.dt+" "+MN[L][d.mo]}
+function sumStatus(){const el=$("#sumst");if(!el)return;const d=wkDays()[P.d];
+ if(P.d===0){const s=bst(BR[0]);el.className="pill "+s.c;el.textContent=s.c==="st-open"?t("sumst_open"):t("sumst_closed")}else{el.className="pill";el.textContent=t("sumst_plan")}
+ el.innerHTML+=' <span class="chk">✎</span>'}
+function buildPlan(){const days=wkDays();
+ $("#wk").innerHTML=days.map(d=>'<button type="button" class="wd'+(d.i===0?" tdy":"")+(d.dow===0?" sun":"")+'" role="radio" data-d="'+d.i+'" aria-checked="'+(P.d===d.i)+'" aria-label="'+dayLabel(d)+(d.i===0?" ("+t("today")+")":"")+'"><small>'+t("days_s")[d.dow]+'</small><b>'+d.dt+'</b><i>'+hh(HR[0]).slice(0,2)+'–'+hh(HR[1]).slice(0,2)+'</i></button>').join("");
+ $$("#wk .wd").forEach(b=>b.onclick=()=>{P.d=+b.dataset.d;const a=hoursFor(P.d);if(!a.includes(P.tm))P.tm=a.includes(10)?10:a[0];P.edited=false;buildPlan()});
+ const hs=hoursFor(P.d);
+ $("#ptm").innerHTML=hs.length?hs.map(h=>'<button type="button" role="radio" data-h="'+h+'" aria-checked="'+(P.tm===h)+'" aria-pressed="'+(P.tm===h)+'">'+hh(h)+'</button>').join(""):'<span style="font-size:13px;color:var(--muted)">'+t("tms_none")+'</span>';
+ $$("#ptm button").forEach(b=>b.onclick=()=>{P.tm=+b.dataset.h;P.edited=false;buildPlan()});
+ $("#psv").innerHTML=PSV[L].map((x,i)=>'<button type="button" data-v="'+i+'" aria-pressed="'+(P.sv===i)+'">'+x.charAt(0).toUpperCase()+x.slice(1)+'</button>').join("");
+ $$("#psv button").forEach(b=>b.onclick=()=>{P.sv=+b.dataset.v;P.edited=false;buildPlan()});
+ const d=days[P.d];$("#sumd").textContent=dayLabel(d)+(hs.length?" · "+hh(P.tm):"");sumStatus();
+ $("#cadr").textContent=ADDR;
+ /* timeline */
+ const span=12,pct=h=>((h-8)/span*100)+"%";
+ $("#barop").style.left=pct(HR[0]);$("#barop").style.width=((HR[1]-HR[0])/span*100)+"%";
+ const w=wib(),nw=$("#barnow");nw.hidden=!(P.d===0&&w.h>=8&&w.h<=20);nw.style.left=pct(w.h);
+ $("#barpk").style.left=pct(P.tm+.5);$("#barpk").style.display=hs.length?"":"none";
+ $("#tlv").innerHTML=hh(HR[0])+"–"+hh(HR[1])+" WIB <span class='chk'>✎</span>";
+ compP()}
+function compP(){const m=$("#pbub"),d=wkDays()[P.d],hs=hoursFor(P.d);
+ const v=t("w_p1")+PSV[L][P.sv]+t("w_p2")+dayLabel(d)+(hs.length?" "+t("at")+" "+hh(P.tm):"")+t("w_p3");
+ if(!P.edited)m.value=v;$("#prst").hidden=!P.edited;fit(m);$("#psend").href=wa(m.value);
+ $("#pmaps").href=MAPS;$("#pwaze").href="https://waze.com/ul?q="+encodeURIComponent(GQ)+"&navigate=yes"}
+$("#pbub").oninput=()=>{P.edited=true;$("#prst").hidden=false;fit($("#pbub"));$("#psend").href=wa($("#pbub").value)};
+$("#prst").onclick=()=>{P.edited=false;compP()};
+$("#pcp").onclick=()=>copyText($("#pbub").value,()=>gtoast(t("copied")));
+$("#pics").onclick=()=>{const d=wkDays()[P.d],h=hoursFor(P.d).length?P.tm:HR[0],z=n=>String(n).padStart(2,"0"),ds=d.y+z(d.mo+1)+z(d.dt);
+ const ics=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Maxi Growth Studio//Konsep//ID","BEGIN:VEVENT","UID:inf-"+ds+h+"@konsep","DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z","DTSTART;TZID=Asia/Jakarta:"+ds+"T"+z(h)+"0000","DTEND;TZID=Asia/Jakarta:"+ds+"T"+z(h+1)+"0000","SUMMARY:"+t("ics_t"),"LOCATION:"+ADDR.replace(/,/g,"\\,"),"DESCRIPTION:0877-7776-6040","END:VEVENT","END:VCALENDAR"].join("\r\n");
+ try{const u=URL.createObjectURL(new Blob([ics],{type:"text/calendar"})),a=document.createElement("a");a.href=u;a.download="kunjungan-infinite.ics";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);gtoast(t("ics_ok"))}catch(e){}};
+
+/* ================= LAYANAN / HARGA ================= */
+function buildSvc(){$("#svc").innerHTML=SVC.map(([k,o],i)=>{const [n,d]=o[L];return '<div class="sv"><span class="n">'+String(i+1).padStart(2,"0")+'</span><svg class="g" viewBox="0 0 24 24" fill="none" stroke="#4796c7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+ICO[k]+'"/></svg><h3>'+n+'</h3><p>'+d.replace("✎",'<span class="chk">✎</span>')+'</p></div>'}).join("");
+ $("#prl").innerHTML=PRL.map(([p,o])=>'<div class="prw"><span>'+o[L][0]+'<small>'+o[L][1]+'</small></span><b>'+(p?rr(p):'<small>'+t("ask_row")+'</small><span class="chk">✎</span>')+'</b></div>').join("");
+ $("#psl").innerHTML=(L==="id"?["Kisaran pasar Bandung sebagai pembanding","Rincian biaya dijelaskan sebelum perawatan","Tanya dulu lewat WhatsApp sebelum berkunjung"]:["Bandung market range for comparison","Costs explained before treatment","Ask on WhatsApp before you visit"]).map(x=>'<li>'+x+'</li>').join("")}
+
+/* ================= DOKTER + FASILITAS ================= */
+function av(i,g,ghost){const sk=["#e6c2a2","#c8946f","#f0d0b4"][i%3],hr=["#2a1e18","#3b2a20","#1d1a18"][i%3],bg=["#e7f1f8","#f6efe3","#eaf3ee"][i%3];
+ const hair=g==="f"?'<path d="M34 44c-2-16 8-26 26-26s28 10 26 26c-1 6 0 16 3 22-8 2-12-4-13-12-3-8-10-12-16-12s-13 4-16 12c-1 8-5 14-13 12 3-6 4-16 3-22z" fill="'+hr+'"/>':g==="f2"?'<path d="M36 46c-2-17 8-27 24-27s26 10 24 27c-4-7-12-12-24-12s-20 5-24 12z" fill="'+hr+'"/><circle cx="60" cy="19" r="7" fill="'+hr+'"/>':'<path d="M36 46c-1-17 9-26 24-26s25 9 24 26c-3-6-9-10-12-11-7 4-18 5-27 2-4 2-7 5-9 9z" fill="'+hr+'"/>';
+ return '<svg viewBox="0 0 120 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="96" fill="'+bg+'"/><path d="M20 70c20-26 60-26 80 0" fill="none" stroke="#4796c7" stroke-opacity=".25" stroke-width="2"/><g opacity=".5"><path d="M22 96c2-18 16-28 38-28s36 10 38 28z" fill="#fff"/><path d="M50 70l10 14 10-14" fill="none" stroke="#222a35" stroke-width="3"/><rect x="53" y="58" width="14" height="14" rx="6" fill="'+sk+'"/><ellipse cx="60" cy="44" rx="17" ry="20" fill="'+sk+'"/>'+hair+'<circle cx="53.5" cy="46" r="1.6" fill="#2a1e18"/><circle cx="66.5" cy="46" r="1.6" fill="#2a1e18"/><path d="M55 54c3 2 7 2 10 0" fill="none" stroke="#8c5a44" stroke-width="1.6" stroke-linecap="round"/></g><path d="M86 14c3 0 6 1.6 8 4s3 6 1 9" fill="none" stroke="#f2b134" stroke-width="2.4" stroke-linecap="round"/></svg>'}
+function buildDocs(){$("#dg").innerHTML=DR.map((d,i)=>'<article class="dc ph0"><div class="ph">'+av(i,d.g)+'<span class="il">'+t("d_ill")+'</span></div><div class="bd"><span class="loc">BDG · JL. SUNDA</span><h3>'+t("d_unk")+'</h3><p>'+t("d_sp2")+' <span class="chk">✎</span></p><a href="'+wa(t("w_doc"))+'" target="_blank" rel="noopener">'+t("d_ask")+' '+ic("ar")+'</a></div></article>').join("");
+ $("#fas").innerHTML=FAS.map(([k,o,v])=>'<div class="fc"><svg class="i"><use href="#i-'+k+'"/></svg><b>'+o[L][0]+'</b><span>'+o[L][1]+(v?' <span class="chk">✎</span>':'')+'</span></div>').join("")}
+
+/* ================= LOKASI ================= */
+let mapOn=false;
+function buildLoc(){$("#tabs").innerHTML=BR.map(b=>'<button type="button" role="tab" aria-selected="true"><i>'+b.no+'</i>'+b.n+'</button>').join("");
+ const b=BR[0],s=bst(b),{day}=wib();
+ const hrs='<div class="hrs">'+[1,2,3,4,5,6,0].map(d=>'<div class="'+(d===day?"td":"")+'">'+t("days_s")[d]+'<small>'+hh(b.h[0]).slice(0,2)+'–'+hh(b.h[1]).slice(0,2)+'</small></div>').join("")+'</div>';
+ $("#linfo").innerHTML='<div><span class="stn" style="margin-bottom:6px"><b>'+b.no+'</b>Infinite Dental Care</span><h3>'+b.n+' No.55</h3><p class="st '+s.c+'" style="display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-top:6px;color:var(--muted)"><i class="dot"></i>'+s.tx+' <span class="chk">✎</span></p></div>'+
+  '<div class="lrow">'+ic("pin")+'<span><small>'+t("a_adr")+'</small>'+b.a+'<br><button type="button" id="cpa" style="font-weight:800;color:var(--cy-t);font-size:13px;min-height:36px;text-decoration:underline;text-underline-offset:3px">'+t("cp_a")+'</button></span></div>'+
+  '<div class="lrow">'+ic("clock")+'<span style="flex:1;min-width:0"><small>'+t("a_hrs")+' <span class="chk">✎</span></small>'+hrs+'</span></div>'+
+  '<div class="lrow">'+ic("phone")+'<span><small>'+t("a_tel")+' <span class="chk">✎</span></small><a href="tel:'+b.th+'" style="font-weight:700;text-decoration:underline;display:inline-flex;align-items:center;min-height:44px">'+b.tel+'</a><br><small style="margin-top:6px">'+t("a_wa")+'</small><span style="font-size:13px;color:var(--muted)">'+t("wa_unk")+' <span class="chk">✎</span></span></span></div>'+
+  '<div class="lbtns"><a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="'+wa(t("w_book"))+'">'+ic("wa")+'WhatsApp</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="'+b.maps+'">Google Maps ↗</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q='+encodeURIComponent(b.q)+'&navigate=yes">Waze ↗</a></div>';
+ $("#cpa").onclick=()=>copyText(b.a,()=>gtoast(t("copied_a")))}
+function loadMap(){mapOn=true;$("#map").innerHTML='<iframe loading="lazy" title="Google Maps — Infinite Dental Care Jl. Sunda" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q='+encodeURIComponent(GQ)+'&z=16&output=embed"></iframe>'}
+$("#mapBtn").onclick=loadMap;
+if("IntersectionObserver" in window){const mo=new IntersectionObserver(e=>{if(e[0].isIntersecting){loadMap();mo.disconnect()}},{rootMargin:"200px"});mo.observe($("#map"))}
+
+/* ================= FAQ ================= */
+function buildFaq(){$("#fql").innerHTML=FAQ[L].map((q,i)=>'<details'+(i===0?" open":"")+'><summary>'+q[0]+'<i aria-hidden="true"></i></summary><p>'+q[1]+([0,1,2,4].includes(i)?' <span class="chk">'+t("chk")+'</span>':'')+'</p></details>').join("")}
+
+/* ================= FAB ================= */
+if("IntersectionObserver" in window){const seen=new Set();const fo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?seen.add(e.target):seen.delete(e.target));$("#fab").classList.toggle("hide",seen.size>0)});[$("#hcta"),$(".close"),$("#pmsg"),$("#res"),$("#linfo")].forEach(x=>fo.observe(x))}
+
+/* ================= REVEAL ================= */
+if("IntersectionObserver" in window&&!RM){const rv=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const x=e.target;x.classList.add("in");rv.unobserve(x);setTimeout(()=>{x.classList.remove("rv","in");x.style.transitionDelay=""},1300)}}),{rootMargin:"0px 0px -6% 0px",threshold:.08});
+ $$(".shd,.proof,.console,.mapc,.plan>.pbox,.svg-g .sv,.ptab,.pside,.dc,.fc,.linfo,.map,details,.close").forEach((e,i)=>{e.classList.add("rv");e.style.transitionDelay=((i%5)*60)+"ms";rv.observe(e)})}
+
+initPlan();
+applyLang();
+
+</script>
+<script>
+/* ================= HERO 3D — gigi Infinite + cincin nama + emblem logo + bakteri (Three.js r128, lazy) ================= */
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{document.getElementById("fb").style.display="block"};document.head.appendChild(s)});
+function init3d(){
+ const stage=document.getElementById("stage");let R;
+ try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){document.getElementById("fb").style.display="block";return}
+ R.setPixelRatio(Math.min(devicePixelRatio,2));stage.appendChild(R.domElement);document.getElementById("zap").classList.add("on");
+ const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+ const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+ const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+ const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+ const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+ const NAVY=0x222a35,CY=0x4796c7;
+
+ /* tooth — smooth & rounded like the Infinite mark */
+ const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.28,metalness:.04});
+ const tooth=new THREE.Group();
+ const cg=new THREE.SphereGeometry(1.2,56,40),p=cg.attributes.position;
+ for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.08;v.z*=.9;
+  if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.72+.12*Math.cos(2*th)*(r/1.2)-.22*Math.max(0,1-r/.6)}else v.y*=.6;p.setXYZ(i,v.x,v.y,v.z)}
+ cg.computeVertexNormals();const crown=new THREE.Mesh(cg,mat);crown.position.y=.55;tooth.add(crown);
+ [-1,1].forEach(sd=>{const rg=new THREE.CylinderGeometry(.46,.16,1.9,32,6);const rp=rg.attributes.position;for(let i=0;i<rp.count;i++){v.fromBufferAttribute(rp,i);const k=(v.y+.95)/1.9;v.x+=sd*(1-k)*.12;rp.setXYZ(i,v.x,v.y,v.z)}rg.computeVertexNormals();
+  const m=new THREE.Mesh(rg,mat);m.position.set(sd*.5,-.7,0);m.rotation.z=sd*.08;tooth.add(m)});
+ // cyan glint (the white stroke in the logo, turned into a highlight arc)
+ const gl=new THREE.Mesh(new THREE.TorusGeometry(.72,.05,10,40,1.4),new THREE.MeshBasicMaterial({color:CY}));gl.position.set(-.18,.95,.98);gl.rotation.set(-.35,.1,1.7);tooth.add(gl);
+ tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.05);sc.add(tooth);
+
+ /* text ring + orbiting emblem */
+ const RING=2.0,SHIELD=2.08;
+ const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+ function bandTexture(){const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+  x.font="42px Capriola, 'Trebuchet MS', Arial, sans-serif";x.fillStyle="#222a35";x.textBaseline="middle";
+  const unit="INFINITE DENTAL CARE   ∞   JL. SUNDA NO.55 BANDUNG   ∞   ";
+  const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+  x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+  x.fillStyle="#4796c7";x.fillRect(0,4,c.width,4);x.fillRect(0,c.height-8,c.width,4);
+  const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+ const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+ const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+ const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+ ring.add(new THREE.Mesh(bandGeo,bandBack),new THREE.Mesh(bandGeo,bandFront));
+ const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+ setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+ const EMB='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="96" fill="#fff"/><circle cx="100" cy="100" r="88" fill="none" stroke="#222a35" stroke-width="7"/><g transform="translate(62 40) scale(1.18)"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#4796c7"/><path d="M19 23c0-6 7-6 13 0s13 6 13 0-7-6-13 0-13 6-13 0z" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" transform="translate(0 4)"/></g><text x="100" y="152" text-anchor="middle" font-family="Trebuchet MS,Arial,sans-serif" font-weight="700" font-size="28" fill="#222a35">infinite</text></svg>';
+ const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+ logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;c.getContext("2d").drawImage(logoImg,0,0,512,512);logoTex.image=c;logoTex.needsUpdate=true};
+ logoImg.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(EMB);
+ const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+ const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,2),new THREE.MeshBasicMaterial({color:CY,wireframe:true,transparent:true,opacity:.05,depthWrite:false}));sc.add(shell);
+ const ripples=[],rippleGeo=new THREE.RingGeometry(.12,.17,40);let flash=0;
+ function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:CY,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+  m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+
+ /* bacteria — varied shapes */
+ const ink=new THREE.MeshStandardMaterial({color:NAVY,roughness:.45,metalness:.1});
+ const cyan=new THREE.MeshStandardMaterial({color:CY,roughness:.35,metalness:.2});
+ const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,2),m);
+ const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,6,false),m);
+ const MAKERS=[
+  m=>{const g=new THREE.Group();g.add(ball(.17,m));for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,cyan);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g},
+  m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});return g},
+  m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g},
+  m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g},
+  m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,12),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+   const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,cyan,30));return g},
+  m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)},
+  m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+   const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,cyan,20));return g}];
+ const bugs=[];
+ function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+  b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+ const N=innerWidth<700?7:10;
+ for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length](i%4===3?cyan:ink);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+ const bits=[],bitGeo=new THREE.TetrahedronGeometry(.045);
+ function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?cyan:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+ sc.add(new THREE.HemisphereLight(0xffffff,0xcfe6f3,.95));
+ const k=new THREE.DirectionalLight(0xffffff,.85);k.position.set(3,4,5);sc.add(k);
+ const c2=new THREE.PointLight(CY,1,14);c2.position.set(-3,-1,3);sc.add(c2);
+ function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+ let mx=0,my=0,vis=true,drag=null,yaw=0,vy=0,cleared=0;
+ const ray=new THREE.Raycaster(),ndc=new THREE.Vector2(),zap=document.getElementById("zapc");
+ function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+  const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+ addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+ cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+ cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+ cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+ addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+  if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+   setTimeout(()=>spawn(b,false),1600)}}});
+ new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+ const clk=new THREE.Clock();let emA=0;
+ (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+  if(!reduce){
+   if(!drag){yaw+=vy;vy*=.94}
+   tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+   ring.rotation.y-=dt*.35;emA+=dt*.55;
+   if(bandFront.map)bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1;
+   emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+   const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+   shell.rotation.y+=dt*.05;
+   bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+    if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+    if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+    u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+    const d=b.position.length();
+    if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+    if(d>3.8)spawn(b,false);
+    b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+  }else{emblem.position.set(0,0,RING+.02)}
+  for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+  for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+  flash*=.9;shell.material.opacity=.05+flash*.1;
+  R.render(sc,cam)})();
+}
+</script>
+</body>
+</html>

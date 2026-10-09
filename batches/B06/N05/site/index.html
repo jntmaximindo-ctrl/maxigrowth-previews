@@ -1,1002 +1,1334 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>VDC Valerio Dental Care — Bandung</title>
-    <meta
-      name="description"
-      content="Konsep website VDC Valerio Dental Care di Bandung: layanan, panduan penggantian gigi, dan informasi kunjungan."
-    />
-    <style>
-      :root {
-        --navy: #071c35;
-        --blue: #176b9b;
-        --aqua: #6fe1d5;
-        --ice: #eefbfa;
-        --ink: #10283b;
-        --muted: #5d7180;
-        --white: #fff;
-        --r: 26px;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        margin: 0;
-        font-family:
-          Inter,
-          ui-sans-serif,
-          system-ui,
-          -apple-system,
-          Segoe UI,
-          sans-serif;
-        color: var(--ink);
-        background: #fbfefd;
-      }
-      button,
-      a {
-        font: inherit;
-      }
-      .preview {
-        padding: 9px 5%;
-        text-align: center;
-        background: var(--aqua);
-        color: var(--navy);
-        font-size: 13px;
-        font-weight: 750;
-      }
-      .nav {
-        height: 76px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 1180px;
-        margin: auto;
-        padding: 0 24px;
-      }
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 11px;
-        text-decoration: none;
-        color: var(--navy);
-        font-weight: 900;
-      }
-      .mark {
-        width: 43px;
-        height: 43px;
-        border-radius: 14px;
-        background: var(--navy);
-        color: var(--aqua);
-        display: grid;
-        place-items: center;
-        letter-spacing: -2px;
-      }
-      .links {
-        display: flex;
-        gap: 26px;
-        align-items: center;
-      }
-      .links a {
-        color: var(--ink);
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 700;
-      }
-      .lang,
-      .burger {
-        border: 1px solid #ccdadd;
-        background: white;
-        border-radius: 999px;
-        padding: 9px 13px;
-        cursor: pointer;
-      }
-      .burger {
-        display: none;
-      }
-      .hero {
-        position: relative;
-        overflow: hidden;
-        background: var(--navy);
-        color: white;
-        min-height: 650px;
-      }
-      .hero:before,
-      .hero:after {
-        content: "";
-        position: absolute;
-        border-radius: 50%;
-        filter: blur(1px);
-      }
-      .hero:before {
-        width: 520px;
-        height: 520px;
-        background: radial-gradient(circle, #176b9b, transparent 67%);
-        right: -90px;
-        top: -110px;
-      }
-      .hero:after {
-        width: 280px;
-        height: 280px;
-        border: 1px solid #63dcd266;
-        right: 12%;
-        bottom: -120px;
-      }
-      .hero-in {
-        max-width: 1180px;
-        margin: auto;
-        padding: 92px 24px;
-        display: grid;
-        grid-template-columns: 1.08fr 0.92fr;
-        gap: 70px;
-        align-items: center;
-        position: relative;
-        z-index: 1;
-      }
-      .eyebrow {
-        text-transform: uppercase;
-        letter-spacing: 0.15em;
-        color: var(--aqua);
-        font-size: 12px;
-        font-weight: 800;
-      }
-      .hero h1 {
-        font-size: clamp(43px, 6vw, 76px);
-        line-height: 0.98;
-        letter-spacing: -0.055em;
-        margin: 18px 0 24px;
-        max-width: 800px;
-      }
-      .hero p {
-        color: #c9d9e2;
-        font-size: 18px;
-        line-height: 1.7;
-        max-width: 640px;
-      }
-      .actions {
-        display: flex;
-        gap: 12px;
-        flex-wrap: wrap;
-        margin-top: 32px;
-      }
-      .btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 20px;
-        border-radius: 999px;
-        text-decoration: none;
-        font-weight: 800;
-        border: 0;
-        cursor: pointer;
-      }
-      .primary {
-        background: var(--aqua);
-        color: var(--navy);
-      }
-      .ghost {
-        border: 1px solid #ffffff55;
-        color: white;
-      }
-      .orb {
-        width: min(390px, 85vw);
-        aspect-ratio: 1;
-        margin: auto;
-        border-radius: 46% 54% 63% 37%;
-        background: linear-gradient(145deg, #72e2d6, #19769f 60%, #0a2c4e);
-        display: grid;
-        place-items: center;
-        box-shadow: 0 35px 80px #0008;
-        animation: float 5s ease-in-out infinite;
-        position: relative;
-      }
-      .orb svg {
-        width: 62%;
-        filter: drop-shadow(0 20px 18px #07213a99);
-      }
-      @keyframes float {
-        50% {
-          transform: translateY(-15px) rotate(2deg);
-        }
-      }
-      .section {
-        padding: 95px 24px;
-      }
-      .wrap {
-        max-width: 1180px;
-        margin: auto;
-      }
-      .head {
-        max-width: 700px;
-        margin-bottom: 45px;
-      }
-      .head h2 {
-        font-size: clamp(34px, 4vw, 54px);
-        letter-spacing: -0.045em;
-        line-height: 1.04;
-        margin: 10px 0 16px;
-      }
-      .head p,
-      .card p {
-        color: var(--muted);
-        line-height: 1.65;
-      }
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 18px;
-      }
-      .card {
-        background: #fff;
-        border: 1px solid #deebe9;
-        border-radius: var(--r);
-        padding: 28px;
-      }
-      .icon {
-        width: 45px;
-        height: 45px;
-        border-radius: 14px;
-        background: var(--ice);
-        display: grid;
-        place-items: center;
-        color: var(--blue);
-        font-weight: 900;
-      }
-      .card h3 {
-        margin: 20px 0 8px;
-      }
-      .check {
-        background: var(--ice);
-      }
-      .checkbox {
-        display: grid;
-        grid-template-columns: 0.8fr 1.2fr;
-        background: white;
-        border-radius: 34px;
-        overflow: hidden;
-        border: 1px solid #d8ebe8;
-      }
-      .checkintro {
-        padding: 45px;
-        background: var(--navy);
-        color: white;
-      }
-      .checkintro p {
-        color: #cbd9e1;
-        line-height: 1.7;
-      }
-      .checkform {
-        padding: 45px;
-      }
-      .choices {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 9px;
-        margin: 14px 0 25px;
-      }
-      .choice {
-        padding: 10px 14px;
-        border: 1px solid #b9d4d1;
-        background: #fff;
-        border-radius: 99px;
-        cursor: pointer;
-      }
-      .choice.on {
-        background: var(--navy);
-        color: white;
-      }
-      .result {
-        padding: 18px;
-        border-radius: 18px;
-        background: var(--ice);
-        line-height: 1.55;
-        min-height: 86px;
-      }
-      .feature {
-        background: var(--navy);
-        color: white;
-      }
-      .feature .head p {
-        color: #bed0db;
-      }
-      .guide {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 34px;
-      }
-      .panel {
-        background: #102d4b;
-        border: 1px solid #ffffff1c;
-        padding: 30px;
-        border-radius: 28px;
-      }
-      .panel label {
-        display: block;
-        color: #bcd0da;
-        margin: 18px 0 8px;
-      }
-      .panel select {
-        width: 100%;
-        padding: 14px;
-        border-radius: 12px;
-        border: 0;
-      }
-      .steps {
-        display: grid;
-        gap: 12px;
-      }
-      .step {
-        display: flex;
-        gap: 15px;
-        background: #fff;
-        color: var(--ink);
-        padding: 19px;
-        border-radius: 18px;
-      }
-      .num {
-        flex: 0 0 33px;
-        height: 33px;
-        background: var(--aqua);
-        border-radius: 50%;
-        display: grid;
-        place-items: center;
-        font-weight: 900;
-      }
-      .visit {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 22px;
-      }
-      .map {
-        min-height: 360px;
-        border-radius: 30px;
-        background: linear-gradient(135deg, #dcefed, #f9ffff);
-        display: grid;
-        place-items: center;
-        text-align: center;
-        padding: 25px;
-        position: relative;
-        overflow: hidden;
-      }
-      .map:before {
-        content: "";
-        position: absolute;
-        inset: -20%;
-        background: repeating-linear-gradient(
-          35deg,
-          transparent 0 30px,
-          #c6dfdc 31px 33px
-        );
-        opacity: 0.6;
-      }
-      .map > * {
-        position: relative;
-      }
-      .detail {
-        padding: 25px;
-      }
-      .status {
-        display: inline-flex;
-        gap: 8px;
-        align-items: center;
-        font-weight: 800;
-      }
-      .dot {
-        width: 9px;
-        height: 9px;
-        background: #36bd75;
-        border-radius: 50%;
-      }
-      .verify {
-        font-size: 11px;
-        color: #ad7843;
-        white-space: nowrap;
-      }
-      .wa-builder {
-        margin-top: 25px;
-        padding: 23px;
-        border-radius: 22px;
-        background: var(--ice);
-      }
-      textarea {
-        width: 100%;
-        min-height: 90px;
-        border: 1px solid #c6d9d6;
-        border-radius: 13px;
-        padding: 13px;
-        margin: 10px 0;
-        resize: vertical;
-      }
-      .faq {
-        max-width: 820px;
-        margin: auto;
-      }
-      .faq button {
-        width: 100%;
-        text-align: left;
-        border: 0;
-        background: white;
-        padding: 20px 0;
-        font-weight: 800;
-        font-size: 17px;
-        display: flex;
-        justify-content: space-between;
-        cursor: pointer;
-      }
-      .faq-item {
-        border-bottom: 1px solid #dce7e6;
-      }
-      .answer {
-        display: none;
-        color: var(--muted);
-        line-height: 1.6;
-        padding: 0 30px 20px 0;
-      }
-      .faq-item.open .answer {
-        display: block;
-      }
-      .cta {
-        margin: 20px auto 90px;
-        max-width: 1132px;
-        background: linear-gradient(120deg, var(--blue), var(--navy));
-        color: white;
-        border-radius: 36px;
-        padding: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 30px;
-      }
-      .cta h2 {
-        font-size: clamp(30px, 4vw, 50px);
-        margin: 0;
-        max-width: 700px;
-      }
-      .sources {
-        font-size: 12px;
-        color: var(--muted);
-        padding: 25px 24px 50px;
-      }
-      .sources a {
-        color: var(--blue);
-      }
-      footer {
-        background: var(--navy);
-        color: #bcd0dc;
-        padding: 35px 24px;
-      }
-      footer .wrap {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-      }
-      body.en [data-id],
-      body:not(.en) [data-en] {
-        display: none;
-      }
-      @media (max-width: 800px) {
-        .links {
-          display: none;
-          position: absolute;
-          z-index: 20;
-          right: 18px;
-          top: 117px;
-          background: white;
-          padding: 20px;
-          border-radius: 20px;
-          box-shadow: 0 15px 40px #0015;
-          flex-direction: column;
-          align-items: flex-start;
-        }
-        .links.open {
-          display: flex;
-        }
-        .burger {
-          display: block;
-        }
-        .hero-in,
-        .checkbox,
-        .guide,
-        .visit {
-          grid-template-columns: 1fr;
-        }
-        .hero-in {
-          padding-top: 60px;
-          gap: 35px;
-        }
-        .orb {
-          width: 270px;
-        }
-        .grid {
-          grid-template-columns: 1fr;
-        }
-        .section {
-          padding: 70px 20px;
-        }
-        .checkintro,
-        .checkform {
-          padding: 28px;
-        }
-        .cta {
-          margin: 15px 15px 70px;
-          padding: 35px 25px;
-          display: block;
-        }
-        .cta .btn {
-          margin-top: 25px;
-        }
-      footer .wrap {
-        display: block;
-      }
-        .nav {
-          padding: 0 16px;
-        }
-        .brand span:last-child {
-        font-size: 13px;
-      }
-    }
-    /* Accessibility: retain a visible keyboard path and respect motion settings. */
-    :focus-visible {
-      outline: 3px solid var(--aqua);
-      outline-offset: 4px;
-    }
-    @media (prefers-reduced-motion: reduce) {
-      html {
-        scroll-behavior: auto;
-      }
-      *,
-      *::before,
-      *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-      }
-    }
-  </style>
-  </head>
-  <body>
-    <div class="preview" data-lint-ok>
-      Konsep website oleh Maxi Growth Studio — pratinjau, bukan situs resmi
-      klinik
-    </div>
-    <nav class="nav">
-      <a class="brand" href="#top"
-        ><span class="mark">VDC</span
-        ><span
-          >Valerio Dental Care <small class="verify">✎ verifikasi</small></span
-        ></a
-      >
-      <div class="links" id="menu">
-        <a href="#layanan"
-          ><span data-id>Layanan</span><span data-en>Services</span></a
-        ><a href="#panduan"
-          ><span data-id>Panduan gigi</span><span data-en>Tooth guide</span></a
-        ><a href="#kunjungan"
-          ><span data-id>Kunjungan</span><span data-en>Visit</span></a
-        ><a href="#faq">FAQ</a>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>VDC Valerio Dental Care Bandung — Konsep Website</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta property="og:title" content="VDC Valerio Dental Care Bandung — Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta name="theme-color" content="#3b1648">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS — dari logo & CSS situs Sozo (navy #3b1648, cyan #f08a4b, es #fbeee3) ============ */
+:root{--navy:#3b1648;--navy2:#51205f;--ink:#27102f;--cy:#f08a4b;--cy-t:#a3480f;--cy-d:#ffc59b;--sky:#e8a6cf;--ice:#fbeee3;--ice2:#fff6ee;--bg:#fffaf5;--line:#ead9cf;--line2:#d7bfb2;--muted:#6a5260;--muted2:#9a8592;
+--ok:#1b8a4c;--warn:#b7791f;--bad:#c2410c;--wa:#0f8a4a;--ease:cubic-bezier(.22,1,.36,1);--r:26px 26px 26px 8px;--r-s:16px 16px 16px 5px;
+--sh1:0 1px 2px rgba(59,22,72,.06),0 8px 24px -12px rgba(59,22,72,.18);--sh2:0 2px 4px rgba(59,22,72,.05),0 30px 60px -30px rgba(59,22,72,.35);
+--hf:Fraunces,Georgia,"Times New Roman",serif;--bf:Figtree,"Segoe UI",Arial,sans-serif;--mf:"JetBrains Mono",ui-monospace,Menlo,monospace}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--bf);color:var(--ink);background:var(--bg);font-size:16px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+textarea,input{font:inherit;color:inherit}
+:focus-visible{outline:2.5px solid var(--cy);outline-offset:3px;border-radius:6px}
+h1,h2,h3,h4{font-family:var(--hf);line-height:1.15;letter-spacing:-.02em;font-weight:700;color:var(--navy)}
+h2{font-size:clamp(28px,3.6vw,44px);text-wrap:balance}
+.wrap{width:min(1200px,100%);margin:0 auto;padding:0 max(16px,env(safe-area-inset-left))}
+section{padding:clamp(64px,8vw,112px) 0}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.lead{font-size:17px;color:var(--muted);max-width:560px}
+.chk{display:inline-block;font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--warn);background:#fff6e5;border:1px dashed #e4b867;border-radius:6px;padding:1px 6px;margin-left:4px;letter-spacing:0;white-space:nowrap;vertical-align:middle;line-height:1.5}
+.nw{white-space:nowrap}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* section head: nomor stasiun + judul (tanpa pill) */
+.shd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:16px 48px;align-items:end;margin-bottom:34px}
+.stn{display:flex;align-items:center;gap:10px;font-family:var(--mf);font-size:12px;color:var(--cy-t);font-weight:700;letter-spacing:.04em;margin-bottom:12px;text-transform:uppercase}
+.stn b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);color:var(--navy);font-size:12px;background:#fff}
+.stn::after{content:"";height:2px;width:46px;background:repeating-linear-gradient(90deg,var(--cy) 0 8px,transparent 8px 14px)}
+@media(max-width:899px){.shd{grid-template-columns:1fr;margin-bottom:24px}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s var(--ease),background .2s,box-shadow .2s,border-color .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff;box-shadow:0 10px 24px -12px rgba(59,22,72,.7)}
+.btn-navy:hover{background:var(--navy2)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 10px 24px -12px rgba(15,138,74,.8)}
+.btn-wa:hover{background:#0c7a41}
+.btn-gh{border:1.5px solid var(--line2);background:#fff;color:var(--navy)}
+.btn-gh:hover{border-color:var(--navy)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:14px}
+.wai{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;margin-left:-10px}
+/* ============ PREVIEW BAR ============ */
+.pv{background:var(--ink);color:#f1e3f4;font-size:13px;line-height:1.45}
+.pv-in{display:flex;align-items:center;gap:10px;min-height:44px;padding-top:6px;padding-bottom:6px}
+.pv-t{flex:1;min-width:0}.pv-t b{color:#fff}
+.pv .chk{background:transparent;color:#ffd58a;border-color:#8f7a4a}
+.pv-x{width:44px;height:44px;display:grid;place-items:center;color:#fff;flex:none;margin-right:-10px}
+/* ============ NAV ============ */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,250,245,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+nav.sc{border-color:var(--line);box-shadow:0 6px 20px -16px rgba(59,22,72,.4)}
+.nav-in{display:flex;align-items:center;gap:20px;min-height:70px}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{height:40px;width:auto}
+.brand .city{font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--cy-t);border-left:1.5px solid var(--line2);padding-left:10px;line-height:1.3;letter-spacing:.06em}
+.links{display:flex;gap:4px;margin-left:auto}
+.links a{padding:10px 12px;border-radius:10px;font-weight:600;font-size:14.5px;color:var(--muted);transition:color .2s,background .2s}
+.links a:hover,.links a[aria-current=true]{color:var(--navy);background:var(--ice)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;padding:3px;background:#fff}
+.lang button{min-width:40px;min-height:36px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted);font-family:var(--mf)}
+.lang button[aria-pressed=true]{background:var(--navy);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:14px;border:1.5px solid var(--line);background:#fff;flex-direction:column;align-items:center;justify-content:center}
+.burger i{display:block;width:18px;height:2px;background:var(--navy);border-radius:2px;transition:transform .3s var(--ease)}
+.burger i+i{margin-top:5px}
+.burger[aria-expanded=true] i:first-child{transform:translateY(3.5px) rotate(45deg)}.burger[aria-expanded=true] i+i{transform:translateY(-3.5px) rotate(-45deg);margin-top:0}
+.sheet{display:none}
+.scrim{position:fixed;inset:0;background:rgba(15,27,77,.35);opacity:0;pointer-events:none;transition:opacity .3s;z-index:40}
+.scrim.open{opacity:1;pointer-events:auto}
+@media(max-width:1060px){.links,.nav-cta{display:none}.burger{display:flex}
+ .sheet{display:block;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 18px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .3s var(--ease),visibility .3s;box-shadow:0 20px 40px -20px rgba(59,22,72,.35)}
+ .sheet.open{opacity:1;transform:none;visibility:visible}
+ .sheet a.sl{display:flex;justify-content:space-between;align-items:center;min-height:52px;border-bottom:1px solid var(--line);font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy)}
+ .sheet a.sl small{font-family:var(--mf);font-size:11px;color:var(--cy-t)}
+ .srow{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap}}
+@media(max-width:600px){.nav-r .lang{display:none}.brand svg{height:34px}.nav-in{min-height:62px}}
+/* ============ HERO ============ */
+.hero{padding:clamp(24px,4.4vw,60px) 0 clamp(40px,5vw,70px);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-8%;top:-30%;width:62%;aspect-ratio:1;border-radius:50%;border:2px dashed rgba(240,138,75,.25);pointer-events:none}
+.hg{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:32px;align-items:center;position:relative}
+.hl0{display:flex;align-items:center;gap:8px;font-family:var(--mf);font-size:12.5px;font-weight:700;color:var(--cy-t);margin-bottom:16px;letter-spacing:.03em;flex-wrap:wrap}
+.hl0 span{display:inline-flex;align-items:center;gap:6px}
+.hl0 span+span::before{content:"";width:16px;height:2px;background:var(--cy);border-radius:1px}
+.hero h1{font-size:clamp(38px,5vw,66px);letter-spacing:-.035em;line-height:1.04;margin-bottom:20px;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--cy-t);position:relative;white-space:nowrap}
+.hero h1 em svg{position:absolute;left:-2%;right:0;bottom:-.14em;width:104%;height:.3em}
+.hero .lead{font-size:18px}
+.today{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px 16px;margin-top:26px;max-width:540px;box-shadow:var(--sh1)}
+.today-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.brs{display:grid;gap:2px}
+.brs a{display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:44px;border-radius:12px;padding:0 6px;margin:0 -6px;transition:background .2s}
+.brs a:hover{background:var(--ice2)}
+.brs .no{width:28px;height:28px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--navy)}
+.brs .nm{font-weight:700;font-size:14.5px;min-width:0}
+.brs .st{font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:6px;color:var(--muted);text-align:right}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:none}
+.st-open .dot{animation:pl 2s infinite}
+.st-closed .dot{background:var(--muted2)}.st-unk .dot{background:#fff;border:2px dashed var(--warn)}
+@keyframes pl{0%{box-shadow:0 0 0 0 rgba(27,138,76,.45)}70%{box-shadow:0 0 0 8px rgba(27,138,76,0)}100%{box-shadow:0 0 0 0 rgba(27,138,76,0)}}
+.intent{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.intent span{font-size:12.5px;color:var(--muted);font-weight:700;width:100%;margin-bottom:2px}
+.intent button{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);font-size:13.5px;font-weight:700;color:var(--navy);transition:all .15s}
+.intent button:hover{border-color:var(--navy)}
+.intent button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.btn-pri{min-height:58px;padding:0 26px 0 12px}
+.btn-pri .bl{display:flex;flex-direction:column;align-items:flex-start;line-height:1.2}
+.btn-pri small{font-size:12px;font-weight:600;opacity:.8}
+#hctal{transition:opacity .2s}
+.stage{position:relative;aspect-ratio:1;width:100%;max-width:520px;justify-self:center}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.halo{position:absolute;inset:9%;border-radius:50%;background:radial-gradient(circle at 40% 36%,#fff 0,var(--ice) 58%,rgba(251,238,227,0) 72%)}
+.orbit{position:absolute;inset:3%;border-radius:50%;border:1.5px solid rgba(240,138,75,.4);animation:spin 70s linear infinite}
+.orbit::before{content:"";position:absolute;inset:8%;border-radius:50%;border:1px dashed rgba(59,22,72,.14)}
+.orbit i{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;border:3px solid var(--cy)}
+.orbit i:nth-child(1){left:50%;top:0}.orbit i:nth-child(2){left:6.7%;top:75%;border-color:var(--navy)}.orbit i:nth-child(3){left:93.3%;top:75%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fb{position:absolute;inset:20%;display:none;z-index:1;animation:float 6s ease-in-out 1s infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+.badge{position:absolute;left:3%;bottom:7%;width:92px;height:92px;border-radius:50%;background:#fff;box-shadow:0 18px 36px -18px rgba(59,22,72,.5);outline:1.5px solid rgba(240,138,75,.6);outline-offset:4px;z-index:3;padding:8px}
+.zap{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);z-index:4;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap;box-shadow:var(--sh1);display:none}
+.zap.on{display:block}.zap b{color:var(--navy);font-family:var(--mf)}
+.zap.pop b{animation:pop .4s var(--ease)}@keyframes pop{50%{transform:scale(1.5);color:var(--cy-t)}}
+.proof{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;border:1px solid var(--line);border-radius:var(--r);margin-top:clamp(28px,4vw,52px);overflow:hidden;box-shadow:var(--sh1)}
+.pf{display:flex;gap:14px;padding:20px;align-items:flex-start;transition:background .2s}
+.pf+.pf{border-left:1px solid var(--line)}
+.pf:hover{background:var(--ice2)}
+.pf .ic{width:42px;height:42px;border-radius:14px 14px 14px 4px;background:var(--ice);color:var(--navy);display:grid;place-items:center;flex:none}
+.pf b{display:block;font-family:var(--hf);font-size:15.5px;color:var(--navy);line-height:1.25}
+.pf span.s{display:block;font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
+@media(max-width:1179px){.proof{grid-template-columns:repeat(2,minmax(0,1fr))}.pf:nth-child(3){border-left:0}.pf:nth-child(n+3){border-top:1px solid var(--line)}}
+@media(max-width:899px){.hg{grid-template-columns:minmax(0,1fr);gap:0}.hero h1{font-size:clamp(34px,9.6vw,46px)}.hero .lead{font-size:16px}
+ .ctas{flex-direction:column}.ctas .btn{width:100%}.btn-pri{justify-content:center}
+ .stage{width:78%;max-width:320px;margin-top:26px}.badge{width:62px;height:62px;padding:5px}
+ .pf{flex-direction:column;gap:10px;padding:14px}.pf .ic{width:34px;height:34px}}
+/* ============ CEK GIGI ============ */
+#cek{background:linear-gradient(180deg,var(--bg),#fff 40%)}
+.prog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.ps{text-align:left;padding:8px 0 4px;min-height:44px;display:block;width:100%}
+.ps i{display:block;height:4px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.ps i::after{content:"";position:absolute;inset:0;background:var(--navy);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease),background .3s}
+.ps.on i::after{transform:scaleX(1)}.ps.done i::after{transform:scaleX(1);background:var(--cy)}
+.ps span{display:flex;gap:8px;align-items:baseline;margin-top:10px;font-size:13.5px;color:var(--muted2);font-weight:600;white-space:nowrap}
+.ps b{font-family:var(--mf);font-size:11px}
+.ps.on span,.ps.done span{color:var(--navy);font-weight:800}
+.ps em{font-style:normal}
+.console{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);background:#fff;border:1px solid var(--line);border-radius:30px 30px 30px 10px;box-shadow:var(--sh2);margin-top:14px}
+.c-l{padding:clamp(20px,3vw,34px);border-right:1px solid var(--line)}
+.c-l-in{position:sticky;top:96px}
+.c-r{padding:clamp(20px,3vw,34px);min-width:0}
+.step{font-family:var(--mf);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cy-t)}
+.ptitle{font-size:clamp(20px,2vw,24px);margin:6px 0 16px}
+.c-head{display:flex;align-items:flex-end;justify-content:space-between;gap:4px 12px;flex-wrap:wrap}
+.seg{display:inline-flex;background:var(--ice2);border:1px solid var(--line);border-radius:999px;padding:3px;margin-bottom:14px}
+.seg button{min-height:38px;padding:0 13px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted)}
+.seg button[aria-pressed=true]{background:#fff;color:var(--navy);box-shadow:0 1px 3px rgba(59,22,72,.18)}
+.aw{position:relative;border-radius:22px;background:radial-gradient(ellipse at 50% 50%,var(--ice2) 0,#fff 70%)}
+.arch{width:100%;height:auto;display:block;user-select:none;-webkit-user-select:none;overflow:visible;touch-action:manipulation}
+.arch .t{cursor:pointer;outline:none}.arch .hit{fill:transparent}
+.arch .tb{transform-box:fill-box;transform-origin:center;transition:transform .3s var(--ease)}
+.arch .body{fill:url(#toothG);stroke:#c9b3bb;stroke-width:1.1;transition:fill .25s,stroke .25s}
+.arch .gr{fill:none;stroke:#d9c6d0;stroke-width:1;stroke-linecap:round}
+.arch .halo2{fill:none;stroke:var(--cy);stroke-width:1.4;opacity:0;transform:scale(.6);transform-box:fill-box;transform-origin:center;transition:opacity .3s,transform .3s var(--ease)}
+.arch .t:hover .tb,.arch .t:focus-visible .tb{transform:scale(1.07)}
+.arch .t:hover .body{stroke:var(--cy)}
+.arch .t:focus-visible .halo2{opacity:1;transform:none;stroke-dasharray:3 2}
+.arch .t.on .body{fill:var(--navy);stroke:var(--navy)}.arch .t.on .gr{stroke:var(--cy)}.arch .t.on .halo2{opacity:1;transform:none}
+.arch.pre .tb{transform:scale(0)}
+.arch .nb{opacity:0;transition:opacity .2s;pointer-events:none}.arch .nb.on{opacity:1}
+.arch .nb circle{fill:var(--cy);stroke:#fff;stroke-width:1.2}
+.arch .nb text{fill:var(--ink);font-family:var(--mf);font-size:7px;font-weight:700}
+.arch text.jl{font-family:var(--mf);font-size:8.5px;fill:var(--muted2);font-weight:700;letter-spacing:.2em}
+.arch.zu,.arch.zl{overflow:hidden}
+.arch.zu .t[data-jaw="1"],.arch.zl .t[data-jaw="0"],.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"]{visibility:hidden}
+.side{position:absolute;bottom:2px;font-family:var(--mf);font-size:9.5px;font-weight:700;text-transform:uppercase;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 8px;white-space:nowrap;pointer-events:none}
+.side.r{left:0}.side.l{right:0}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:52%;pointer-events:none;display:flex;flex-direction:column;align-items:center}
+.aw.zm .ctr{position:static;transform:none;width:auto;padding:14px 0 0}
+.ctr .big{font-family:var(--hf);font-weight:700;font-size:clamp(30px,3.6vw,40px);line-height:1;color:var(--navy)}
+.ctr .sm{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.35;text-wrap:balance}
+.tapme{width:44px;height:44px;margin:0 auto 8px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;position:relative;color:var(--cy-t)}
+.tapme::after{content:"";position:absolute;inset:-2px;border-radius:50%;border:2px solid var(--cy);animation:ring 2.2s var(--ease) infinite}
+@keyframes ring{to{transform:scale(1.6);opacity:0}}
+.skip{pointer-events:auto;margin-top:6px;font-size:12.5px;font-weight:800;color:var(--cy-t);min-height:40px;text-decoration:underline;text-underline-offset:4px}
+.mchips{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.mchip{display:inline-flex;align-items:center;gap:2px;font-size:11px;font-weight:700;background:var(--ice);color:var(--navy);border-radius:99px;padding:0 0 0 9px;pointer-events:auto;line-height:1.2}
+.mchip button{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:15px;color:var(--cy-t)}
+.mchip.plus{padding:6px 9px}
+.clr{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:1.5px solid var(--line2);border-radius:99px;font-size:12.5px;font-weight:800;margin-top:10px;pointer-events:auto;background:#fff;color:var(--navy)}
+.clr .i{width:14px;height:14px}
+.tip{position:absolute;pointer-events:none;background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 10px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .15s;z-index:3}
+.tip.on{opacity:1}
+.toast{position:absolute;left:50%;top:6px;transform:translate(-50%,-4px);background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:99px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;white-space:nowrap;z-index:3}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.orient{font-size:12px;color:var(--muted);margin-top:12px;text-align:center;text-wrap:balance}
+.kl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:26px}
+@media(min-width:1100px){.kl{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:90px;padding:12px 8px;border-radius:var(--r-s);border:1.5px solid var(--line);background:#fff;text-align:center;font-size:13.5px;font-weight:700;line-height:1.25;color:var(--navy);transition:all .2s var(--ease)}
+.k .ki{width:38px;height:38px;border-radius:50%;background:var(--ice);display:grid;place-items:center}
+.k svg{width:21px;height:21px;stroke:var(--navy);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.k:hover{border-color:var(--navy);transform:translateY(-1px)}
+.k[aria-checked=true]{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:inset 0 -4px 0 var(--cy)}
+.k[aria-checked=true] .ki{background:rgba(240,138,75,.2)}.k[aria-checked=true] svg{stroke:var(--cy-d)}
+.ud{position:absolute;top:10px;right:10px;width:7px;height:7px;border-radius:50%;background:var(--warn)}.ud.u3{background:var(--bad)}
+.res{border-radius:24px 24px 24px 8px;position:relative;overflow:hidden;scroll-margin-top:140px}
+.res.empty{background:var(--ice2);border:1px dashed var(--line2);padding:22px;min-height:200px;display:flex;flex-direction:column;gap:10px}
+.res .skl{height:8px;border-radius:4px;background:#f0ddd0}
+.res .gbtn{height:48px;border-radius:999px;background:#f0ddd0;margin-top:auto;display:grid;place-items:center;font-size:13px;font-weight:800;color:#a8919f}
+.res.empty p{font-size:14px;color:var(--muted);text-align:center;text-wrap:balance}
+.res.empty p b{display:block;font-family:var(--hf);color:var(--navy);font-size:15.5px;margin-bottom:2px}
+.res.full{background:var(--ink);color:#fff;padding:clamp(20px,3vw,30px)}
+.res.full::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;border:26px solid rgba(240,138,75,.14);pointer-events:none}
+.res.anim{animation:rin .45s var(--ease)}@keyframes rin{from{opacity:0;transform:translateY(12px)}}
+.r-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.rk{font-family:var(--mf);font-size:11px;letter-spacing:.14em;color:var(--cy-d);font-weight:700}
+.urg{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;padding:4px 11px;border-radius:99px}
+.urg i{width:7px;height:7px;border-radius:50%;background:currentColor}
+.urg.u1{color:#9fe0b8;background:rgba(159,224,184,.14)}.urg.u2{color:#ffd58a;background:rgba(255,213,138,.14)}.urg.u3{color:#ffb199;background:rgba(255,177,153,.16)}
+.res h3{font-size:22px;margin:12px 0 10px;color:#fff;outline:none;text-wrap:balance}
+.rteeth{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.rteeth span{font-size:11.5px;border:1px solid rgba(127,224,242,.5);color:var(--cy-d);border-radius:99px;padding:2px 10px}
+.res p.ex{color:#e0d0e6;font-size:14.5px;margin-bottom:18px}
+.rtl-h{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#9a8592;font-weight:700;margin-bottom:4px}
+.tl{list-style:none;counter-reset:n}
+.tl li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:14.5px}
+.tl li span:first-child::before{content:counter(n,decimal-leading-zero);counter-increment:n;color:var(--cy-d);font-family:var(--mf);font-weight:700;font-size:11px;margin-right:10px}
+.tl li span:last-child{white-space:nowrap;font-weight:700;font-family:var(--mf);font-size:13px;text-align:right}
+.tl em{font-style:normal;color:#9a8592;font-weight:400;font-family:var(--bf);font-size:13px}
+.est{font-size:12px;color:#9a8592;margin:10px 0 20px}
+.est .chk,.pv .chk{margin-left:0}
+.bub-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.mrst{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:800;color:var(--cy-d);min-height:36px;text-decoration:underline;text-underline-offset:4px}.mrst .i{width:13px;height:13px}
+.bub-c{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#9a8592}
+.bub{display:block;width:100%;background:#16255f;border:1px solid rgba(255,255,255,.1);border-radius:16px 16px 4px 16px;color:#fdf3ec;font-size:14px;line-height:1.5;padding:12px 14px;resize:none;min-height:84px;max-height:160px;outline:none}
+.bub:focus{border-color:var(--cy)}
+.pref{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:12px 0 16px;font-size:12.5px;color:#9a8592}
+.pref button{min-height:38px;padding:0 13px;border-radius:99px;border:1px solid rgba(255,255,255,.25);color:#fff;font-size:12.5px;font-weight:700}
+.pref button[aria-pressed=true]{background:#fff;color:var(--navy);border-color:#fff}
+.res .btn-wa{width:100%;min-height:54px}
+.copy{display:flex;align-items:center;gap:6px;margin:8px auto 0;font-size:13px;font-weight:700;color:var(--cy-d);min-height:44px}
+.copy .i{width:15px;height:15px}
+.disc{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:899px){.prog{position:sticky;top:61px;z-index:20;background:rgba(255,255,255,.95);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);margin:0 -16px;padding:2px 16px 6px;display:flex}.ps:not(.on) em{display:none}.ps{flex:1 1 0;min-width:0;transition:flex-grow .4s var(--ease)}.ps.on{flex-grow:2.4}
+ .console{grid-template-columns:minmax(0,1fr)}.c-l{border-right:0;border-bottom:1px solid var(--line);padding:18px 10px 16px}.c-l .c-head{padding:0 6px}.c-l-in{position:static}.c-r{padding:20px 14px 18px}}
+@media(max-width:600px){.ctr{width:62%}.ctr .big{font-size:30px}.tapme{width:38px;height:38px;margin-bottom:4px}.ctr .sm{font-size:12px}}
+/* ============ JALUR SOZO (fitur khas) ============ */
+#cabang{background:var(--ink);color:#f1e3f4;position:relative;overflow:hidden}
+#cabang h2{color:#fff}#cabang .lead{color:#d9c6e0}
+#cabang .stn{color:var(--cy-d)}#cabang .stn b{background:var(--ink);color:#fff}
+.jg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.mapc{position:sticky;top:96px;background:#2b0f35;border:1px solid rgba(255,255,255,.1);border-radius:30px 30px 30px 10px;padding:14px;position:relative}
+.lm{width:100%;height:auto}
+.lm .area{cursor:pointer}
+.lm .area circle{fill:#27102f;stroke:#9a6aa8;stroke-width:1.2;transition:all .2s}
+.lm .area text{font-family:var(--bf);font-size:8.6px;fill:#d9c6e0;font-weight:700}
+.lm .area:hover circle,.lm .area.on circle{fill:var(--cy);stroke:#fff}
+.lm .area.on text{fill:#fff}
+.lm .stn2 circle.o{fill:#fff;stroke:var(--cy);stroke-width:4}
+.lm .stn2 text{font-family:var(--mf);font-size:9.5px;font-weight:700;fill:#fff}
+.lm .stn2 .num{fill:var(--navy);font-size:9px}
+.lm .stn2.best circle.o{stroke:#ffd58a}
+.lm .rt{stroke:var(--cy);stroke-width:2;stroke-dasharray:4 4;fill:none;opacity:.9}
+.lm .rt.best{stroke:#ffd58a;stroke-width:2.6}
+.lm .dl{font-family:var(--mf);font-size:8.5px;font-weight:700;fill:#fff;paint-order:stroke;stroke:#2b0f35;stroke-width:3px}
+.mapn{font-size:11.5px;color:#d9c6e0;margin-top:8px;padding:0 6px}
+.plan{display:grid;gap:14px}
+.pbox{background:#fff;color:var(--ink);border-radius:var(--r);padding:18px}
+.pbox h3{font-size:17px;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{min-height:40px;padding:0 13px;border-radius:999px;border:1.5px solid var(--line);font-size:13px;font-weight:700;color:var(--navy);background:#fff;transition:all .15s}
+.chips button:hover{border-color:var(--navy)}
+.chips button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.chips .geo{border-style:dashed;color:var(--cy-t)}
+.bl2{display:grid;gap:8px}
+.bc{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:12px;align-items:center;text-align:left;width:100%;border:1.5px solid var(--line);border-radius:var(--r-s);padding:12px;background:#fff;transition:all .2s}
+.bc:hover{border-color:var(--navy)}
+.bc[aria-checked=true]{border-color:var(--navy);box-shadow:inset 4px 0 0 var(--cy);background:var(--ice2)}
+.bc .no{width:40px;height:40px;border-radius:50%;border:3px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-weight:700;color:var(--navy);font-size:12px}
+.bc b{display:block;font-family:var(--hf);font-size:15px;color:var(--navy);line-height:1.25}
+.bc .ad{display:block;font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:2px}
+.bc .km{font-family:var(--mf);font-size:12px;font-weight:700;color:var(--navy);text-align:right;white-space:nowrap}
+.bc .km small{display:block;font-family:var(--bf);font-weight:700;font-size:11px;margin-top:2px}
+.bc .km .st-open{color:var(--ok)}.bc .km .st-closed{color:var(--muted2)}.bc .km .st-unk{color:var(--warn)}
+.bc .tag{display:inline-block;font-family:var(--mf);font-size:10px;background:#fff3d6;color:#8a5a00;border-radius:6px;padding:1px 6px;margin-top:4px}
+.row3{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lab{font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin:12px 0 6px}
+.lab:first-child{margin-top:0}
+.pbox .bub{background:var(--ice2);color:var(--ink);border-color:var(--line)}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.acts .btn-wa{flex:1 1 220px}
+@media(max-width:899px){.jg{grid-template-columns:minmax(0,1fr)}.row3{grid-template-columns:1fr}.mapc{padding:8px;position:static}.lm .area text{font-size:11.5px}.lm .stn2 text{font-size:11px}.lm .dl{font-size:11px}}
+@media(max-width:600px){.bc{grid-template-columns:40px minmax(0,1fr)}.bc .km{grid-column:2;text-align:left}.bc .km small{display:inline;margin-left:8px}}
+/* ============ LAYANAN & HARGA ============ */
+.svg-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.sv{background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:18px;position:relative;transition:border-color .2s,transform .2s var(--ease)}
+.sv:hover{border-color:var(--cy);transform:translateY(-2px)}
+.sv .n{font-family:var(--mf);font-size:11px;color:var(--cy-t);font-weight:700}
+.sv h3{font-size:16px;margin:8px 0 4px}
+.sv p{font-size:13.5px;color:var(--muted);line-height:1.5}
+.sv svg.g{position:absolute;right:14px;top:14px;width:26px;height:26px;opacity:.9}
+@media(max-width:1000px){.svg-g{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.sv{padding:14px}.sv svg.g{display:none}}
+.pr{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:24px;margin-top:40px;align-items:start}
+.ptab{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.ptab .ph{display:flex;justify-content:space-between;gap:10px;padding:16px 20px;background:var(--navy);color:#fff;font-family:var(--hf);font-weight:600;font-size:15px;align-items:center;flex-wrap:wrap}
+.ptab .ph .chk{background:transparent;color:#ffd58a;border-color:#8f7a4a}
+.prw{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
+.prw:first-of-type{border-top:0}
+.prw span{font-weight:700;color:var(--navy);font-size:15px}
+.prw span small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.prw b{font-family:var(--mf);font-size:14px;white-space:nowrap;color:var(--navy)}
+.prw b small{font-family:var(--bf);font-size:11px;color:var(--muted);font-weight:600;margin-right:4px}
+.pnote{padding:14px 20px;background:var(--ice2);font-size:12.5px;color:var(--muted);border-top:1px solid var(--line)}
+.pside{background:var(--ice);border-radius:var(--r);padding:22px}
+.pside h3{font-size:19px;margin-bottom:8px}
+.pside p{font-size:14.5px;color:var(--muted);margin-bottom:14px}
+.pside ul{list-style:none;display:grid;gap:8px;margin-bottom:16px}
+.pside li{display:flex;gap:10px;font-size:14px;font-weight:600}
+.pside li::before{content:"";width:8px;height:8px;border-radius:50%;border:2px solid var(--cy);margin-top:7px;flex:none}
+@media(max-width:899px){.pr{grid-template-columns:1fr}.prw{padding:13px 16px}}
+/* ============ DOKTER ============ */
+.dg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.dc{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.dc .ph{aspect-ratio:5/4;position:relative;background:var(--ice)}
+.dc .ph svg{width:100%;height:100%}
+.dc .ph .il{position:absolute;left:10px;top:10px;font-family:var(--mf);font-size:10px;background:rgba(255,255,255,.9);border-radius:6px;padding:2px 7px;color:var(--muted);font-weight:700}
+.dc .bd{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.dc h3{font-size:17px}
+.dc p{font-size:13.5px;color:var(--muted)}
+.dc .loc{font-family:var(--mf);font-size:11.5px;color:var(--cy-t);font-weight:700}
+.dc a{margin-top:auto;padding-top:8px;font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.dc.ph0 .ph{background:repeating-linear-gradient(135deg,var(--ice2) 0 12px,#fff 12px 24px)}
+@media(max-width:899px){.dg{grid-template-columns:1fr}.dc{display:grid;grid-template-columns:120px minmax(0,1fr)}.dc .ph{aspect-ratio:auto;min-height:100%}}
+/* ============ FASILITAS ============ */
+.fg{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.fc{border-top:3px solid var(--cy);background:#fff;padding:16px;border-radius:0 0 var(--r-s)}
+.fc svg{width:26px;height:26px;color:var(--navy);margin-bottom:10px}
+.fc b{display:block;font-family:var(--hf);color:var(--navy);font-size:15px;line-height:1.3}
+.fc>span{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+@media(max-width:1000px){.fg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* ============ LOKASI ============ */
+#lokasi{background:#fff}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tabs button{min-height:46px;padding:0 16px;border-radius:14px 14px 14px 4px;border:1.5px solid var(--line);font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:8px}
+.tabs button i{font-style:normal;font-family:var(--mf);font-size:11px;width:24px;height:24px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center}
+.tabs button[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.lg{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px}
+.linfo{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:16px;align-content:start}
+.linfo h3{font-size:21px}
+.lrow{display:flex;gap:12px;font-size:14.5px}
+.lrow svg{color:var(--cy-t);margin-top:2px}
+.lrow small{display:block;font-family:var(--mf);font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.hrs{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:6px}
+.hrs div{background:#fff;border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 2px;font-size:12px;font-weight:800;color:var(--navy)}
+.hrs div small{display:block;font-family:var(--mf);font-size:9.5px;color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+.hrs div.td{background:var(--navy);color:#fff;border-color:var(--navy)}.hrs div.td small{color:#f0dff0}
+.lbtns{display:flex;gap:8px;flex-wrap:wrap}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;background:var(--ice);position:relative;border:1px solid var(--line)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map .mph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);font-size:14px}
+.map .mph button{margin-top:10px}
+@media(max-width:899px){.lg{grid-template-columns:1fr}.map{min-height:280px}.hrs{gap:3px}.hrs div{font-size:11px;padding:6px 0}.hrs div small{font-size:8.5px}}
+/* ============ FAQ ============ */
+.fq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:64px;padding:14px 0;font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy);cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary i{width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);flex:none;position:relative}
+summary i::before,summary i::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:2px;background:var(--navy);transform:translate(-50%,-50%);transition:transform .25s}
+summary i::after{transform:translate(-50%,-50%) rotate(90deg)}
+details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+details p{padding:0 0 18px;color:var(--muted);font-size:15px;max-width:640px}
+@media(max-width:899px){.fq{grid-template-columns:1fr;gap:10px}summary{font-size:16px}}
+/* ============ CTA + FOOTER ============ */
+.close{background:var(--navy);color:#f1e3f4;border-radius:40px 40px 40px 12px;padding:clamp(28px,5vw,60px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:30px;align-items:center;position:relative;overflow:hidden}
+.close h2{color:#fff}
+.close p{color:#d9c6e0;margin-top:12px;max-width:520px}
+.close .acts{margin-top:0;flex-direction:column}
+.close .acts .btn{width:100%;flex:none}
+.close svg.big{position:absolute;right:-40px;bottom:-60px;width:260px;opacity:.08;color:#fff}
+@media(max-width:899px){.close{grid-template-columns:1fr}}
+footer{padding:56px 0 110px;font-size:14px;color:var(--muted)}
+.fg2{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:28px}
+footer h4{font-family:var(--mf);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy);margin-bottom:10px}
+footer li{list-style:none;margin-bottom:6px}
+footer a:hover{color:var(--navy);text-decoration:underline}
+.fdisc{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:899px){.fg2{grid-template-columns:1fr 1fr}.fg2>div:first-child{grid-column:1/-1}}
+/* ============ FAB ============ */
+.fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:45;display:flex;align-items:center;gap:10px;min-height:56px;padding:0 20px 0 8px;border-radius:999px;background:var(--wa);color:#fff;font-weight:800;box-shadow:0 14px 30px -12px rgba(15,138,74,.7);transition:transform .3s var(--ease),opacity .3s}
+.fab .wai{margin-left:0;width:40px;height:40px}
+.fab.hide{transform:translateY(120%);opacity:0;pointer-events:none}
+@media(max-width:600px){.fab{padding:0 8px;min-width:56px;justify-content:center}.fab .l{display:none}}
+.gtoast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,10px);background:var(--navy);color:#fff;padding:9px 16px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:all .25s;z-index:60;pointer-events:none}
+.gtoast.on{opacity:1;transform:translate(-50%,0)}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+/* ============ N05 — tambahan (VDC Valerio Dental Care) ============ */
+.sp{position:fixed;left:0;top:0;right:0;height:3px;background:linear-gradient(90deg,var(--cy),var(--navy));transform:scaleX(0);transform-origin:0 50%;z-index:90;pointer-events:none}
+.btn:active{transform:scale(.97)}
+.stage.flat .mb{display:grid}
+.mb{display:none;position:absolute;z-index:4;width:64px;height:64px;place-items:center;border-radius:50%;color:var(--navy);transition:transform .25s var(--ease),opacity .25s}
+.mb svg{width:100%;height:100%;filter:drop-shadow(0 8px 8px rgba(59,22,72,.25))}
+.mb1{left:8%;top:14%;animation:wob 4.5s ease-in-out infinite}.mb2{right:6%;top:58%;color:#a3480f;animation:wob 5.5s ease-in-out .8s infinite}
+.mb:hover{transform:scale(1.12) rotate(-6deg)}.mb.gone{opacity:0;transform:scale(.2);pointer-events:none}
+@keyframes wob{50%{transform:translateY(-10px) rotate(6deg)}}
+.stage.flat .fb{inset:22%}
+/* ganti gigi */
+.gd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;align-items:start}
+.gl2{display:grid;gap:14px}
+.gvis{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:var(--sh1)}
+.gvh{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font-family:var(--mf);font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted2);text-transform:uppercase;margin-bottom:6px}
+.gpl{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);font-family:var(--bf);font-size:12.5px;font-weight:700;color:var(--navy);text-transform:none;letter-spacing:0;transition:all .15s}
+.gpl:hover{border-color:var(--navy)}.gpl[aria-pressed=true]{background:var(--navy);color:#fff;border-color:var(--navy)}
+#gsv{width:100%;height:auto;overflow:visible}
+#gsv.pop .ovl{animation:ovin .5s var(--ease) both}
+@keyframes ovin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.tt0{fill:#fff;stroke:#d7bfb2;stroke-width:1.5;transition:fill .3s,stroke .3s}
+.tm{fill:rgba(240,138,75,.1);stroke:var(--cy);stroke-width:1.6;stroke-dasharray:4 4}
+.td{fill:#fff;stroke:#e58aa5;stroke-width:2}
+.tp{fill:#fde3cf;stroke:var(--cy);stroke-width:2}
+.tk{fill:none;stroke:var(--cy);stroke-width:3.5}
+.ti{fill:#fde3cf;stroke:var(--cy);stroke-width:2}
+.gnote{font-size:13.5px;color:var(--muted);margin-top:10px;line-height:1.5}
+.gnote b{color:var(--navy)}
+.gtabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.gtabs button{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 14px;border-radius:14px 14px 14px 4px;border:1.5px solid var(--line);background:#fff;font-weight:800;font-size:14px;color:var(--navy);transition:all .2s;position:relative}
+.gtabs button:hover{border-color:var(--navy)}
+.gtabs button[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.gtabs button em{font-style:normal;font-family:var(--mf);font-size:10px;background:#fff3d6;color:#8a5a00;border-radius:6px;padding:1px 6px}
+.gpanel{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh1);display:grid;gap:10px;animation:ovin .4s var(--ease)}
+.gpanel h3{font-size:22px}.gdesc{color:var(--muted);font-size:15px}
+.glab{font-family:var(--mf);font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--cy-t);text-transform:uppercase;margin-bottom:2px}
+.gul{list-style:none;display:grid;gap:6px}.gul li{position:relative;padding-left:22px;font-size:14.5px}
+.gul li::before{content:"";position:absolute;left:2px;top:.55em;width:10px;height:10px;border-radius:50% 50% 50% 2px;background:var(--cy)}
+.gmt{font-size:13.5px;color:var(--muted);display:grid;gap:6px}.gmt b{color:var(--navy);font-family:var(--mf)}
+.gmt i{display:block;height:6px;border-radius:3px;background:var(--ice)}.gmt i s{display:block;height:100%;border-radius:3px;background:var(--cy);transition:width .5s var(--ease)}
+.gwarn{font-size:13.5px;color:var(--warn);background:#fff6e5;border-radius:10px;padding:8px 12px}
+.gpr{border-top:1px dashed var(--line);padding-top:10px;font-size:13.5px;display:grid;gap:2px;color:var(--muted)}
+.gmsg{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:20px;margin-top:20px;background:#fff;border:1px solid var(--line);border-radius:30px 30px 30px 10px;padding:clamp(18px,3vw,32px);box-shadow:var(--sh2)}
+.gmsg.flash{animation:fl .9s}@keyframes fl{30%{box-shadow:0 0 0 4px rgba(240,138,75,.35)}}
+.gmsg h3{font-size:18px;margin-bottom:6px}.lead2{font-size:12.5px;color:var(--muted);margin-bottom:12px}
+.gst{list-style:none;display:grid;gap:10px}
+.gst li{display:flex;gap:12px;font-size:14px;color:var(--muted);line-height:1.45}
+.gst li>span{flex:none;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;display:grid;place-items:center;font-family:var(--mf);font-size:12px;font-weight:700}
+.gst b{display:block;color:var(--navy);font-family:var(--hf);font-size:15px}
+.gsp{font-size:13px;color:var(--muted);margin-top:14px}
+@media(max-width:899px){.gd,.gmsg{grid-template-columns:minmax(0,1fr)}}
+/* layanan */
+.svf{background:#fff;border:1px solid var(--line);border-radius:30px 30px 30px 10px;padding:clamp(14px,2.4vw,26px);box-shadow:var(--sh2)}
+.svtools{display:flex;gap:10px 14px;align-items:center;flex-wrap:wrap;margin-bottom:18px}
+#svcats{flex:1 1 360px}
+#svcats button{display:inline-flex;align-items:center;gap:8px}
+#svcats button i{font-style:normal;font-family:var(--mf);font-size:10.5px;background:var(--ice);color:var(--navy);border-radius:999px;padding:1px 7px;min-width:22px;text-align:center}
+#svcats button[aria-pressed=true] i{background:rgba(255,255,255,.2);color:#fff}
+.svs{display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);border-radius:999px;padding:0 14px;min-height:44px;background:var(--bg);flex:0 1 240px}
+.svs:focus-within{border-color:var(--navy)}.svs svg{color:var(--muted2)}
+.svs input{border:0;background:none;outline:0;min-width:0;width:100%;min-height:40px;font-size:14.5px}
+#svn{font-family:var(--mf);font-size:11.5px;color:var(--muted2);font-weight:700}
+.svlg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:start}
+.svc{background:var(--bg);border:1px solid var(--line);border-radius:var(--r-s);overflow:hidden;transition:border-color .2s,box-shadow .25s,transform .25s var(--ease);animation:ovin .45s var(--ease) both;animation-delay:var(--d,0ms)}
+.svc:hover{border-color:var(--cy);transform:translateY(-2px);box-shadow:var(--sh1)}
+.svc.open{grid-column:1/-1;background:#fff;border-color:var(--navy);box-shadow:var(--sh1);transform:none}
+.svh{display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"n tt g" "sd sd sd" "mo mo mo";gap:6px 12px;width:100%;text-align:left;padding:16px 18px;align-items:center}
+.svh .n{grid-area:n;font-family:var(--mf);font-size:11px;color:var(--cy-t);font-weight:700}
+.svh .g{grid-area:g;width:28px;height:28px;color:var(--cy-t)}
+.svh .tt{grid-area:tt;display:block}.svh .tt b{display:block;font-family:var(--hf);font-size:16.5px;color:var(--navy);line-height:1.2}
+.svh .tt small{font-family:var(--mf);font-size:10.5px;color:var(--muted2);letter-spacing:.04em}
+.svh .sd{grid-area:sd;font-size:13.5px;color:var(--muted);line-height:1.5}
+.svh .more{grid-area:mo;display:flex;align-items:center;gap:8px;font-size:13px;font-weight:800;color:var(--navy);margin-top:4px}
+.svh .more i{width:9px;height:9px;border-right:2.5px solid var(--cy);border-bottom:2.5px solid var(--cy);transform:rotate(45deg) translateY(-2px);transition:transform .3s var(--ease)}
+.svc.open .more i{transform:rotate(-135deg) translateY(-2px)}
+.svp{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease)}
+.svc.open .svp{grid-template-rows:1fr}
+.svi{overflow:hidden;min-height:0}
+.svi>*{margin:0 18px}.svi>*:last-child{margin-bottom:18px}
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;border-top:1px dashed var(--line);padding-top:16px}
+.cols h4{font-family:var(--mf);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--cy-t);margin-bottom:8px}
+.cols ul,.cols ol{padding-left:18px;display:grid;gap:5px;font-size:14px;color:var(--ink)}.cols ul.q{list-style:"? "}
+.sva{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px}
+.prc{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border-radius:999px;background:var(--ice);font-size:13px;font-weight:700;color:var(--navy)}
+.svempty{padding:30px;text-align:center;color:var(--muted);grid-column:1/-1}
+@media(max-width:1000px){.svlg{grid-template-columns:repeat(2,minmax(0,1fr))}.cols{grid-template-columns:1fr}}
+@media(max-width:600px){.svlg{grid-template-columns:minmax(0,1fr)}}
+/* harga rentang */
+.prw{flex-wrap:wrap}.prw .rg{display:block;position:relative;flex:1 0 100%;height:6px;border-radius:3px;background:var(--ice)}
+.prw .rg s{position:absolute;top:0;bottom:0;border-radius:3px;background:linear-gradient(90deg,var(--cy),var(--navy))}
+.prw b{white-space:normal;text-align:right}
+/* dokter, alur */
+.dc.info{background:var(--navy);color:#e9d8ef}.dc.info h3{color:#fff}.dc.info p{color:#d9c6e0}.dc.info .loc{color:var(--cy-d)}.dc.info a{color:#fff}
+.flow{margin-top:44px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:clamp(18px,3vw,30px)}
+.flh{display:flex;justify-content:space-between;align-items:baseline;gap:8px 20px;flex-wrap:wrap;margin-bottom:16px}.flh span{font-size:12.5px;color:var(--muted)}
+.flow ol{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;counter-reset:f}
+.flow li{position:relative;display:grid;gap:4px;font-size:13.5px;color:var(--muted);padding-top:6px}
+.flow li b{font-family:var(--hf);color:var(--navy);font-size:15.5px}
+.flow .fn{width:38px;height:38px;border-radius:50%;border:3px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-weight:700;color:var(--navy);margin-bottom:6px;background:#fff}
+.flow li:not(:last-child)::after{content:"";position:absolute;left:44px;right:-10px;top:25px;height:2px;background:repeating-linear-gradient(90deg,var(--cy) 0 6px,transparent 6px 12px)}
+@media(max-width:899px){.flow ol{grid-template-columns:minmax(0,1fr)}.flow li{padding-left:52px}.flow .fn{position:absolute;left:0;top:0}.flow li:not(:last-child)::after{display:none}}
+.hrs .cl{color:var(--muted2)}
+@media(hover:hover){.fc{transition:transform .25s var(--ease),box-shadow .25s}.fc:hover{transform:translateY(-3px);box-shadow:var(--sh1)}.dc{transition:transform .25s var(--ease),box-shadow .25s}.dc:hover{transform:translateY(-3px);box-shadow:var(--sh2)}}
+
+</style>
+<style id="qa-touch">@media(max-width:700px){a[href],button,[role=button],[role=tab],[role=radio],[role=checkbox],summary{min-height:44px!important}.lang button,.pv-x,button[aria-label]{min-width:44px!important}}</style></head>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-vdc" viewBox="-2 0 70 68"><path d="M32 5c-5 0-9 3-14 3C9 8 3 12 3 22c0 7 3 11 4 19 1 9 2 23 8 23 5 0 5-9 7-15 1-4 4-6 10-6s9 2 10 6c2 6 2 15 7 15 6 0 7-14 8-23 1-8 4-12 4-19 0-10-6-14-15-14-5 0-9-3-14-3z" fill="#f08a4b"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/><path d="M26 44c2-2 4-3 6-3" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".7"/></symbol>
+ <symbol id="i-vdc2" viewBox="-6 -4 76 76"><path d="M32 5c-5 0-9 3-14 3C9 8 3 12 3 22c0 7 3 11 4 19 1 9 2 23 8 23 5 0 5-9 7-15 1-4 4-6 10-6s9 2 10 6c2 6 2 15 7 15 6 0 7-14 8-23 1-8 4-12 4-19 0-10-6-14-15-14-5 0-9-3-14-3z" fill="#fff" stroke="#3b1648" stroke-width="1.6"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#f08a4b" stroke-width="3" stroke-linecap="round"/></symbol>
+ <symbol id="i-bug" viewBox="0 0 64 64"><g fill="#f08a4b"><circle cx="32" cy="6" r="4.5"/><circle cx="32" cy="58" r="4.5"/><circle cx="6" cy="32" r="4.5"/><circle cx="58" cy="32" r="4.5"/><circle cx="13.6" cy="13.6" r="4"/><circle cx="50.4" cy="13.6" r="4"/><circle cx="13.6" cy="50.4" r="4"/><circle cx="50.4" cy="50.4" r="4"/></g><circle cx="32" cy="32" r="21" fill="currentColor"/><circle cx="25" cy="28" r="5.5" fill="#fff"/><circle cx="39" cy="28" r="5.5" fill="#fff"/><circle cx="26" cy="29" r="2.6" fill="#27102f"/><circle cx="40" cy="29" r="2.6" fill="#27102f"/><path d="M24 38c4 5 12 5 16 0" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></symbol>
+ <symbol id="i-acc" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="1.8"/><path d="M12 8v6h5l2 5M12 11h5M8.5 12.5a5.5 5.5 0 1 0 6 8"/></symbol>
+ <symbol id="i-wc" viewBox="0 0 24 24"><circle cx="7" cy="4.5" r="1.8"/><circle cx="17" cy="4.5" r="1.8"/><path d="M4.5 9h5l-1 6v6M7 15v6M14.5 21v-6h-2l2-6h5l2 6h-2v6M17 9v0"/></symbol>
+ <symbol id="i-sit" viewBox="0 0 24 24"><path d="M6 4v8h10l2 7M6 12v8M16 12v8M6 16h10"/></symbol>
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8c-1-.4-1.9-1.3-2.3-2.3l.8-1-1-2z"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+ <symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+ <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></symbol>
+ <symbol id="i-cam" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/></symbol>
+ <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16V11l2-5h10l2 5v5M3 16h18v3H3zM7 19v2M17 19v2"/><circle cx="7.5" cy="13.5" r="1"/><circle cx="16.5" cy="13.5" r="1"/></symbol>
+ <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+ <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5"/><path d="M3 10h18M7 15h4"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+ <symbol id="i-tap" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V12m0-1a1.5 1.5 0 0 1 3 0v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L3.6 15a1.5 1.5 0 0 1 2.4-1.8L9 16"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+ <symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2-8z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><path d="M17.2 6.8v.1"/></symbol>
+ <symbol id="i-geo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+</svg>
+
+<div class="sp" id="sp" aria-hidden="true"></div>
+<div class="pv" id="pv"><div class="wrap pv-in">
+  <div class="pv-t" data-i="pv"></div>
+  <button class="pv-x" id="pvx" type="button" data-ia="pv_x"><svg class="i"><use href="#i-x"/></svg></button>
+</div></div>
+
+<nav id="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand" data-ia="home">
+    <svg viewBox="0 0 300 80" role="img" aria-label="VDC Valerio Dental Care"><use href="#i-vdc" x="4" y="6" width="66" height="66"/><text x="80" y="42" font-family="Fraunces, Georgia, serif" font-weight="800" font-size="40" fill="#3b1648" letter-spacing="1">VDC</text><text x="82" y="66" font-family="Figtree, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="15" fill="#a3480f" letter-spacing="1.1">VALERIO DENTAL CARE</text></svg>
+    <span class="city">BANDUNG<br>JL. GAJAH</span>
+  </a>
+  <div class="links" id="links"><a href="#cek" data-i="n1"></a><a href="#ganti" data-i="n2"></a><a href="#layanan" data-i="n3"></a><a href="#dokter" data-i="n4"></a><a href="#lokasi" data-i="n5"></a><a href="#faq" data-i="n6"></a></div>
+  <div class="nav-r">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-navy btn-sm nav-cta" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" data-ia="menu"><i></i><i></i></button>
+  </div>
+</div>
+<div class="sheet" id="sheet" inert>
+  <a class="sl" href="#cek"><span data-i="n1"></span><small>01</small></a>
+  <a class="sl" href="#ganti"><span data-i="n2"></span><small>02</small></a>
+  <a class="sl" href="#layanan"><span data-i="n3"></span><small>03</small></a>
+  <a class="sl" href="#dokter"><span data-i="n4"></span><small>04</small></a>
+  <a class="sl" href="#lokasi"><span data-i="n5"></span><small>05</small></a>
+  <a class="sl" href="#faq"><span data-i="n6"></span><small>06</small></a>
+  <div class="srow">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-wa btn-sm" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+  </div>
+</div>
+</nav>
+<div class="scrim" id="scrim"></div>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="hg">
+    <div>
+      <p class="hl0"><span>VDC Valerio Dental Care</span><span>Jl. Gajah</span><span>Bandung</span></p>
+      <h1 id="h1"></h1>
+      <p class="lead" data-i="hl"></p>
+      <div class="today">
+        <div class="today-h"><span data-i="td_h"></span><span id="clock"></span></div>
+        <div class="brs" id="brs"></div>
+        <div class="intent" id="intent"></div>
       </div>
-      <div>
-        <button class="lang" id="lang">ID / EN</button>
-        <button class="burger" id="burger" aria-label="Buka menu">☰</button>
-      </div>
-    </nav>
-    <main id="top">
-      <section class="hero">
-        <div class="hero-in">
-          <div>
-            <div class="eyebrow">Bandung · dental care</div>
-            <h1 data-id>Rawat senyum, mulai dari informasi yang jelas.</h1>
-            <h1 data-en>
-              Care for your smile, starting with clear information.
-            </h1>
-            <p data-id>
-              Dari perawatan rutin hingga pilihan penggantian gigi, temukan
-              informasi awal sebelum berkonsultasi di klinik Jl. Gajah.
-            </p>
-            <p data-en>
-              Explore routine care and tooth replacement options before visiting
-              the clinic on Jl. Gajah.
-            </p>
-            <div class="actions">
-              <a class="btn primary" href="#pesan"
-                ><span data-id>Tanyakan jadwal lewat WhatsApp</span
-                ><span data-en>Ask about appointments</span></a
-              ><a class="btn ghost" href="#layanan"
-                ><span data-id>Lihat layanan</span
-                ><span data-en>View services</span></a
-              >
-            </div>
-          </div>
-          <div class="orb" aria-hidden="true">
-            <svg viewBox="0 0 220 260">
-              <path
-                fill="#fff"
-                d="M110 16c-27-20-75-10-87 35-9 35 15 57 22 91 8 39 11 99 38 100 17 1 13-68 27-68s10 69 27 68c27-1 30-61 38-100 7-34 31-56 22-91-12-45-60-55-87-35z"
-              />
-              <path
-                fill="#d8f6f2"
-                d="M63 52c12-18 31-22 47-11 16-11 35-7 47 11-18-8-29 4-47 4s-29-12-47-4z"
-              />
-            </svg>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="layanan">
-        <div class="wrap">
-          <div class="head">
-            <div class="eyebrow">Care directory</div>
-            <h2 data-id>Layanan untuk berbagai tahap perawatan</h2>
-            <h2 data-en>Care across different treatment stages</h2>
-            <p data-id>
-              Rencana perawatan ditentukan setelah pemeriksaan dan konsultasi
-              dengan dokter gigi.
-            </p>
-            <p data-en>
-              Treatment plans are determined after an examination and dental
-              consultation.
-            </p>
-          </div>
-          <div class="grid" id="services"></div>
-        </div>
-      </section>
-      <section class="section check">
-        <div class="wrap checkbox">
-          <div class="checkintro">
-            <div class="eyebrow">Quick check</div>
-            <h2 data-id>Cek gigi 30 detik</h2>
-            <h2 data-en>30-second dental check</h2>
-            <p data-id>
-              Pilih keluhan utama untuk menyiapkan pertanyaan saat menghubungi
-              klinik. Ini bukan diagnosis.
-            </p>
-            <p data-en>
-              Select your main concern to prepare questions for the clinic. This
-              is not a diagnosis.
-            </p>
-          </div>
-          <div class="checkform">
-            <strong data-id>Apa yang sedang Anda rasakan?</strong
-            ><strong data-en>What are you experiencing?</strong>
-            <div class="choices" id="symptoms">
-              <button
-                class="choice"
-                data-result="Tanyakan jadwal pemeriksaan untuk menilai penyebab nyeri dan pilihan penanganannya."
-              >
-                Nyeri gigi</button
-              ><button
-                class="choice"
-                data-result="Tanyakan apakah pembersihan karang gigi sesuai untuk kondisi Anda."
-              >
-                Karang gigi</button
-              ><button
-                class="choice"
-                data-result="Sampaikan lokasi gigi yang hilang dan tanyakan tahapan konsultasi penggantian gigi."
-              >
-                Gigi hilang</button
-              ><button
-                class="choice"
-                data-result="Tanyakan jadwal pemeriksaan susunan gigi sebelum membahas pilihan perawatan."
-              >
-                Susunan gigi
-              </button>
-            </div>
-            <div class="result" id="checkResult">
-              Pilih satu keluhan untuk melihat pertanyaan yang dapat disiapkan.
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section feature" id="panduan">
-        <div class="wrap">
-          <div class="head">
-            <div class="eyebrow">Interactive guide</div>
-            <h2 data-id>Kenali pilihan penggantian gigi</h2>
-            <h2 data-en>Explore tooth replacement options</h2>
-            <p data-id>
-              Pilih jumlah dan posisi gigi yang hilang untuk melihat gambaran
-              umum konsultasi. Panduan ini tidak menggantikan pemeriksaan dokter
-              gigi.
-            </p>
-            <p data-en>
-              Select the number and position of missing teeth for a general
-              consultation overview. This guide does not replace a dental
-              examination.
-            </p>
-          </div>
-          <div class="guide">
-            <div class="panel">
-              <label for="count" data-id>Jumlah gigi yang hilang</label
-              ><label for="count" data-en>Number of missing teeth</label
-              ><select id="count">
-                <option value="one">1 gigi / tooth</option>
-                <option value="few">2–3 gigi / teeth</option>
-                <option value="many">Lebih dari 3 / More than 3</option></select
-              ><label for="position" data-id>Posisi</label
-              ><label for="position" data-en>Position</label
-              ><select id="position">
-                <option value="front">Depan / Front</option>
-                <option value="back">Belakang / Back</option>
-                <option value="mixed">
-                  Beberapa area / Multiple areas
-                </option></select
-              ><button
-                class="btn primary"
-                id="guideBtn"
-                style="margin-top: 22px"
-              >
-                <span data-id>Lihat panduan</span
-                ><span data-en>View guide</span>
-              </button>
-            </div>
-            <div class="steps" id="guideResult">
-              <div class="step">
-                <span class="num">1</span>
-                <div>
-                  <b>Mulai dengan pemeriksaan</b><br /><small
-                    >Kondisi gusi, tulang, dan gigi sekitar perlu
-                    dinilai.</small
-                  >
-                </div>
-              </div>
-              <div class="step">
-                <span class="num">2</span>
-                <div>
-                  <b>Bahas pilihan</b><br /><small
-                    >Tanyakan tentang gigi tiruan lepasan, bridge, atau
-                    implan.</small
-                  >
-                </div>
-              </div>
-              <div class="step">
-                <span class="num">3</span>
-                <div>
-                  <b>Susun rencana</b><br /><small
-                    >Dokter menjelaskan tahapan berdasarkan hasil
-                    pemeriksaan.</small
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="kunjungan">
-        <div class="wrap">
-          <div class="head">
-            <div class="eyebrow">Plan your visit</div>
-            <h2 data-id>Informasi kunjungan</h2>
-            <h2 data-en>Visit information</h2>
-          </div>
-          <div class="visit">
-            <div class="map">
-              <div>
-                <div style="font-size: 45px">⌖</div>
-                <h3>
-                  Jl. Gajah No.20A, Malabar, Kec. Lengkong, Kota Bandung, Jawa
-                  Barat 40264
-                </h3>
-                <a
-                  class="btn primary"
-                  target="_blank"
-                  rel="noopener"
-                  href="https://www.google.com/maps/place/?q=place_id%3AChIJSxiCIbnpaC4RdXSpx1L5xuE"
-                  >Google Maps ↗</a
-                >
-              </div>
-            </div>
-            <div class="detail">
-              <div class="status">
-                <span class="dot"></span
-                ><span id="status">Memeriksa jam operasional…</span>
-                <small class="verify">✎ verifikasi</small>
-              </div>
-              <h3>
-                Senin–Sabtu · 09.00–20.00 WIB
-                <small class="verify">✎ verifikasi</small>
-              </h3>
-              <p>
-                Minggu tutup. Informasi jam berbeda antar-direktori; hubungi
-                klinik sebelum berkunjung.
-              </p>
-              <p><b>Telepon / WhatsApp:</b> 0821-2921-8400</p>
-              <div class="wa-builder" id="pesan">
-                <b data-id>Buat pesan WhatsApp</b
-                ><b data-en>Build a WhatsApp message</b
-                ><textarea id="waText">
-Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.</textarea
-                ><a
-                  class="btn primary"
-                  id="waLink"
-                  target="_blank"
-                  rel="noopener"
-                  href="https://wa.me/6282129218400"
-                  ><span data-id>Kirim ke WhatsApp</span
-                  ><span data-en>Open WhatsApp</span></a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section check" id="faq">
-        <div class="faq">
-          <div class="head">
-            <div class="eyebrow">FAQ</div>
-            <h2 data-id>Pertanyaan sebelum berkunjung</h2>
-            <h2 data-en>Questions before your visit</h2>
-          </div>
-          <div id="faqList"></div>
-        </div>
-      </section>
-      <section class="cta">
-        <h2 data-id>
-          Punya pertanyaan tentang perawatan? Hubungi VDC lewat WhatsApp.
-        </h2>
-        <h2 data-en>Questions about dental care? Message VDC on WhatsApp.</h2>
-        <a
-          class="btn primary"
-          href="https://wa.me/6282129218400"
-          target="_blank"
-          rel="noopener"
-          >WhatsApp ↗</a
-        >
-      </section>
-    </main>
-    <div class="sources">
-      <div class="wrap">
-        <b>Sumber informasi publik:</b>
-        <a
-          href="https://bukutelepon.cybo.com/ID-biz/vdc-valerio-dental-care-dokter-gigi"
-          >Cybo</a
-        >
-        ·
-        <a
-          href="https://indonesiaknowledge.com/directory/dental/bandung/evo-dental-care-vdc-dokter-gigi-spesialis-prosto-bandung"
-          >Indonesia Knowledge</a
-        >
-        ·
-        <a href="https://doktertanya.com/dokter-gigi-bandung/">DokterTanya</a>.
-        Identitas akun Instagram
-        <a href="https://www.instagram.com/valeriodental/">@valeriodental</a>
-        <span class="verify">✎ verifikasi</span>.
+      <div class="ctas">
+        <a class="btn btn-wa btn-pri" id="hcta" href="#" target="_blank" rel="noopener"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="bl"><span id="hctal"></span><small>+62 821-2921-8400 ✎</small></span></a>
+        <a class="btn btn-gh" href="#cek" style="min-height:58px"><span data-i="c2"></span><svg class="i"><use href="#i-ar"/></svg></a>
       </div>
     </div>
-    <footer>
-      <div class="wrap">
-        <b>VDC — Valerio Dental Care <span class="verify">✎ verifikasi</span></b
-        ><span>Konsep independen oleh Maxi Growth Studio · 2026</span>
-      </div>
-    </footer>
-    <script>
-      const services = [
-        [
-          "Scaling",
-          "Teeth cleaning",
-          "Pembersihan karang gigi. Tanyakan kebutuhan perawatan Anda saat konsultasi.",
-          "Removal of tartar buildup. Ask about your care needs during a consultation.",
-        ],
-        [
-          "Tambal gigi",
-          "Dental fillings",
-          "Perawatan untuk gigi berlubang atau rusak, sesuai hasil pemeriksaan.",
-          "Care for a cavity or damaged tooth, based on an examination.",
-        ],
-        [
-          "Perawatan saluran akar",
-          "Root canal treatment",
-          "Penanganan bagian dalam gigi bila diperlukan setelah pemeriksaan.",
-          "Treatment inside a tooth when an examination shows it is needed.",
-        ],
-        [
-          "Pilihan penggantian gigi",
-          "Tooth replacement options",
-          "Informasi gigi tiruan lepasan, bridge, dan implan.",
-          "Information about removable dentures, bridges, and implants.",
-        ],
-        [
-          "Behel dan Invisalign",
-          "Braces and Invisalign",
-          "Pilihan untuk merapikan susunan gigi setelah pemeriksaan.",
-          "Options for aligning teeth following an examination.",
-        ],
-        [
-          "Perawatan gigi anak",
-          "Children’s dental care",
-          "Pemeriksaan dan perawatan gigi untuk anak.",
-          "Dental check-ups and care for children.",
-        ],
-      ];
-      document.querySelector("#services").innerHTML = services
-        .map(
-          (s, i) =>
-            `<article class="card"><div class="icon">0${i + 1}</div><h3><span data-id>${s[0]}</span><span data-en>${s[1]}</span></h3><p data-id>${s[2]}</p><p data-en>${s[3]}</p></article>`,
-        )
-        .join("");
-      const faqs = [
-        [
-          "Kapan klinik buka?",
-          "What are the clinic’s opening hours?",
-          "Informasi jam operasional di direktori berbeda. Hubungi klinik untuk memastikan jam buka dan jadwal kunjungan.",
-          "Published opening hours differ between directories. Contact the clinic to confirm.",
-        ],
-        [
-          "Berapa biaya perawatan?",
-          "How much does treatment cost?",
-          "Tarif resmi belum tersedia. Tanyakan perkiraan biaya kepada admin karena biaya bergantung pada pemeriksaan.",
-          "No official price list was found. Ask the clinic for an estimate.",
-        ],
-        [
-          "Apakah klinik menerima asuransi?",
-          "Does the clinic accept insurance?",
-          "Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia Anda saat menghubungi klinik.",
-          "Insurance information is not available. Mention your provider when contacting the clinic.",
-        ],
-        [
-          "Apakah tersedia perawatan behel?",
-          "Are braces available?",
-          "Behel dan Invisalign tercantum dalam daftar layanan. Konsultasikan kondisi gigi untuk membahas pilihan.",
-          "Braces and Invisalign are listed. Arrange a consultation to discuss options.",
-        ],
-        [
-          "Apakah anak bisa diperiksa di sini?",
-          "Can children have dental check-ups here?",
-          "Perawatan gigi anak tercantum dalam daftar layanan. Hubungi klinik untuk menanyakan jadwal.",
-          "Children’s dental care is listed. Contact the clinic about availability.",
-        ],
-      ];
-      document.querySelector("#faqList").innerHTML = faqs
-        .map(
-          (f) =>
-            `<div class="faq-item"><button><span data-id>${f[0]}</span><span data-en>${f[1]}</span><span>＋</span></button><div class="answer"><span data-id>${f[2]}</span><span data-en>${f[3]}</span></div></div>`,
-        )
-        .join("");
-      document
-        .querySelectorAll(".faq-item button")
-        .forEach(
-          (b) => (b.onclick = () => b.parentElement.classList.toggle("open")),
-        );
-      document.querySelectorAll(".choice").forEach(
-        (b) =>
-          (b.onclick = () => {
-            document
-              .querySelectorAll(".choice")
-              .forEach((x) => x.classList.remove("on"));
-            b.classList.add("on");
-            checkResult.textContent = b.dataset.result;
-          }),
-      );
-      lang.onclick = () => document.body.classList.toggle("en");
-      burger.onclick = () => menu.classList.toggle("open");
-      waText.oninput = () =>
-        (waLink.href =
-          "https://wa.me/6282129218400?text=" +
-          encodeURIComponent(waText.value));
-      waText.oninput();
-      guideBtn.onclick = () => {
-        const c = count.options[count.selectedIndex].text.split("/")[0],
-          p = position.options[position.selectedIndex].text.split("/")[0];
-        guideResult.querySelector("small").textContent =
-          `Catat bahwa ${c.toLowerCase()} hilang di area ${p.toLowerCase()}; kondisi gusi, tulang, dan gigi sekitar perlu diperiksa.`;
-      };
-      function opening() {
-        const parts = new Intl.DateTimeFormat("en-US", {
-          timeZone: "Asia/Jakarta",
-          weekday: "short",
-          hour: "numeric",
-          hour12: false,
-        }).formatToParts(new Date());
-        const day = parts.find((x) => x.type === "weekday").value,
-          h = +parts.find((x) => x.type === "hour").value;
-        status.textContent =
-          day !== "Sun" && h >= 9 && h < 20
-            ? "Buka sekarang"
-            : "Tutup sekarang";
-      }
-      opening();
-    </script>
-  </body>
+    <div class="stage" id="stage">
+      <div class="halo" aria-hidden="true"></div><div class="orbit" aria-hidden="true"><i></i><i></i><i></i></div>
+      <svg class="fb" id="fb" viewBox="-6 -4 76 76" aria-hidden="true"><use href="#i-vdc2"/></svg>
+      <button class="mb mb1" type="button" data-ia="mas"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-bug"/></svg></button>
+      <button class="mb mb2" type="button" data-ia="mas"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#i-bug"/></svg></button>
+      <svg class="badge" viewBox="-2 0 70 68" aria-hidden="true"><use href="#i-vdc"/></svg>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b> <span data-i="zap2"></span></div>
+    </div>
+  </div>
+  <div class="proof">
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-pin"/></svg></span><span><b data-i="p1a"></b><span class="s" data-i="p1b"></span></span></a>
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><span><b data-i="p2a"></b><span class="s" data-i="p2b"></span></span></a>
+    <a class="pf" id="pfg" href="https://www.google.com/maps/place/?q=place_id%3AChIJSxiCIbnpaC4RdXSpx1L5xuE" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#i-star"/></svg></span><span><b data-i="p3a"></b><span class="s" data-i="p3b"></span></span></a>
+    <a class="pf" href="#harga"><span class="ic"><svg class="i"><use href="#i-tag"/></svg></span><span><b data-i="p4a"></b><span class="s" data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<section id="cek"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>01</b><span data-i="n1"></span></div><h2 data-i="sh"></h2></div><p class="lead" data-i="sl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i></i><span><b>01</b><em data-i="st1"></em></span></button>
+    <button class="ps" type="button" data-s="1"><i></i><span><b>02</b><em data-i="st2"></em></span></button>
+    <button class="ps" type="button" data-s="2"><i></i><span><b>03</b><em id="st3l" data-i="st3"></em></span></button>
+  </div>
+  <div class="console">
+    <div class="c-l"><div class="c-l-in">
+      <div class="c-head"><div><div class="step" data-i="s1"></div><h3 class="ptitle" data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch pre" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="toothG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f6ece4"/></linearGradient><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dfe2"/><stop offset="1" stop-color="#efd3d8"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#3b1648" flood-opacity=".16"/></filter></defs></svg>
+        <span class="side r" data-i="sd_r" aria-hidden="true"></span><span class="side l" data-i="sd_l" aria-hidden="true"></span>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div></div>
+    <div class="c-r">
+      <div class="step" data-i="s2"></div><h3 class="ptitle" id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3" style="margin-bottom:10px"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="ganti"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>02</b><span data-i="n2"></span></div><h2 data-i="gh"></h2></div><p class="lead" data-i="gl"></p></div>
+  <div class="gd">
+    <div class="gl2">
+      <div class="pbox"><h3 data-i="g_q1"></h3><div class="chips" id="gc" role="group"></div>
+        <div id="gpw"><h3 data-i="g_q2" style="margin-top:16px"></h3><div class="chips" id="gp" role="group"></div></div>
+        <h3 data-i="g_q3" style="margin-top:16px"></h3><div class="chips" id="gw" role="group"></div></div>
+      <div class="gvis"><div class="gvh"><span data-i="g_vis"></span><button type="button" id="gplain" class="gpl" aria-pressed="false"></button></div>
+        <svg id="gsv" viewBox="0 0 480 130" role="img"></svg><p class="gnote" id="gnote"></p></div>
+    </div>
+    <div class="gr2">
+      <div class="gtabs" id="gtabs" role="tablist" data-ia="n2"></div>
+      <div class="gpanel" id="gpanel" role="tabpanel"></div>
+      <p class="disc" data-i="g_disc" style="margin-top:12px"></p>
+    </div>
+  </div>
+  <div class="gmsg" id="gmsgbox">
+    <div><h3 data-i="g_st"></h3><p class="lead2" data-i="g_st_n"></p><ol class="gst" id="gst"></ol></div>
+    <div><h3 data-i="g_qs"></h3><div class="chips" id="gqs" role="group"></div>
+      <div class="bub-h" style="margin-top:16px"><label class="lab" for="gbub" style="margin:0" data-i="g_msg"></label><button type="button" class="mrst" id="grst" hidden><svg class="i"><use href="#i-reset"/></svg><span data-i="msg_rst"></span></button></div>
+      <textarea class="bub" id="gbub" rows="5"></textarea>
+      <div class="acts"><a class="btn btn-wa" id="gsend" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="send"></span></a><button type="button" class="btn btn-gh" id="gcopy"><svg class="i"><use href="#i-copy"/></svg><span data-i="copy"></span></button></div>
+    </div>
+  </div>
+  <p class="gsp"><span data-i="g_sp"></span></p>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>03</b><span data-i="n3"></span></div><h2 data-i="lh"></h2></div><p class="lead" data-i="ll"></p></div>
+  <div class="svf">
+    <div class="svtools"><div class="chips" id="svcats" role="group"></div><label class="svs"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg><input id="svq" type="search" autocomplete="off"></label><span id="svn" aria-live="polite"></span></div>
+    <div class="svlg" id="svc"></div>
+    <p style="margin-top:14px;font-size:12.5px;color:var(--muted)"><span class="chk" data-i="sv_chk"></span></p>
+  </div>
+  <div class="pr" id="harga">
+    <div class="ptab"><div class="ph"><span data-i="ph"></span><span class="chk" data-i="chk_p"></span></div><div id="prl"></div><div class="pnote" data-i="pnote"></div></div>
+    <div class="pside"><h3 data-i="ps_h"></h3><p data-i="ps_p"></p><ul id="psl"></ul><a class="btn btn-wa" data-wa="price" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="ps_b"></span></a></div>
+  </div>
+</div></section>
+
+<section id="dokter" style="padding-top:0"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>04</b><span data-i="n4"></span></div><h2 data-i="dh"></h2></div><p class="lead"><span data-i="dl"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="dg" id="dg"></div>
+  <div class="fg" id="fas" style="margin-top:44px"></div>
+  <div class="flow" id="flow"></div>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>05</b><span data-i="n5"></span></div><h2 data-i="loh"></h2></div><p class="lead" data-i="lol"></p></div>
+  <div class="tabs" id="tabs" role="tablist" data-ia="n5"></div>
+  <div class="lg"><div class="linfo" id="linfo" role="tabpanel"></div><div class="map" id="map"><div class="mph"><div><span data-i="map_ph"></span><br><button type="button" class="btn btn-gh btn-sm" id="mapBtn" data-i="map_b"></button></div></div></div></div>
+</div></section>
+
+<section id="faq"><div class="wrap fq">
+  <div><div class="stn"><b>06</b><span data-i="n6"></span></div><h2 data-i="fh"></h2><p class="lead" style="margin-top:12px" data-i="fl"></p><a class="btn btn-gh" data-wa="q" href="#" style="margin-top:18px"><svg class="i"><use href="#i-wa"/></svg><span data-i="fb"></span></a></div>
+  <div id="fql"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="close">
+    <div><h2 data-i="ch"></h2><p data-i="cp"></p></div>
+    <div class="acts"><a class="btn btn-wa" data-wa="book" href="#" style="min-height:58px"><svg class="i"><use href="#i-wa"/></svg><span data-i="cb1"></span></a><a class="btn btn-gh" href="#ganti"><span data-i="cb2"></span><svg class="i"><use href="#i-ar"/></svg></a></div>
+    <svg class="big" viewBox="-2 0 70 68" aria-hidden="true"><use href="#i-vdc2"/></svg>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fg2">
+    <div><svg viewBox="0 0 300 80" style="height:40px;width:auto" role="img" aria-label="VDC Valerio Dental Care"><use href="#i-vdc" x="4" y="6" width="66" height="66"/><text x="80" y="42" font-family="Fraunces, Georgia, serif" font-weight="800" font-size="40" fill="#3b1648" letter-spacing="1">VDC</text><text x="82" y="66" font-family="Figtree, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="15" fill="#a3480f" letter-spacing="1.1">VALERIO DENTAL CARE</text></svg><p style="margin-top:12px;max-width:340px" data-i="ft_p"></p></div>
+    <div><h4 data-i="ft_b"></h4><ul id="fbr"></ul></div>
+    <div><h4 data-i="ft_c"></h4><ul><li><a href="https://wa.me/6282129218400" target="_blank" rel="noopener">WA +62 821-2921-8400</a></li><li><a href="https://www.instagram.com/valeriodental/" target="_blank" rel="noopener">Instagram @valeriodental <span class="chk">✎</span></a></li></ul></div>
+    <div><h4 data-i="ft_h"></h4><ul><li><a href="#cek" data-i="n1"></a></li><li><a href="#ganti" data-i="n2"></a></li><li><a href="#harga" data-i="ph"></a></li><li><a href="#faq" data-i="n6"></a></li></ul></div>
+  </div>
+  <div class="fdisc"><span data-i="ft_disc"></span><span data-i="ft_cr"></span></div>
+</div></footer>
+
+<a class="fab" id="fab" data-wa="book" href="#" data-ia="fab_a"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="l" data-i="fab"></span></a>
+<div class="gtoast" id="gtoast" role="status"></div>
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev / domain klinik) skrip ini tidak melakukan apa-apa. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    /* tombol "Muat peta" di pratinjau langsung dipicu, supaya kartu peta tampil tanpa klik */
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+<script>
+/* ================= DATA — hanya dari riset.json / konten.json / situs lama ================= */
+const WA="6282129218400";
+const MAPS="https://www.google.com/maps/place/?q=place_id%3AChIJSxiCIbnpaC4RdXSpx1L5xuE";
+const BR=[{k:"gjh",no:"1",n:"Jl. Gajah",a:"Jl. Gajah No.20A, Malabar, Kec. Lengkong, Kota Bandung, Jawa Barat 40264",tel:"0821-2921-8400",th:"+6282129218400",hd:{1:[9,20],2:[9,20],3:[9,20],4:[9,20],5:[9,20],6:[9,20],0:null},maps:MAPS,q:"VDC Valerio Dental Care, Jl. Gajah No.20A, Malabar, Lengkong, Bandung"}];
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23M4.2 4.2l1.8 1.8M18 18l1.8 1.8M4.2 19.8 6 18M18 6l1.8-1.8",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",mis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",kid:"M12 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 21v-3a6 6 0 0 1 12 0v3",sparkle:"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z",impl:"M9 3h6l-1 6h-4zM10 9h4l-.5 3h-3zM10.5 12h3l-.3 3h-2.4zM11 15h2l-.2 3h-1.6zM11.5 18h1l-.5 3z",brace:"M3 12h18M6 9v6M10 9v6M14 9v6M18 9v6",root:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 8v9",dent:"M4 10c0-3 3-5 8-5s8 2 8 5v4H4zM6 14v3M10 14v3M14 14v3M18 14v3",aln:"M4 9c0-2 3-4 8-4s8 2 8 4v4c0 2-3 4-8 4s-8-2-8-4zM4 11h16",chk:"M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM8.5 12l2.5 2.5 4.5-5",bridge:"M3 15h18M5 15V9a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v6M14 15V9a2 2 0 0 1 2-2h1a2 2 0 0 1 2 2v6M10 11h4",jaw:"M4 7c0 7 3 12 8 12s8-5 8-12M8 11h8M12 11v4",brux:"M5 9h14M5 15h14M8 7v10M12 7v10M16 7v10"};
+// [chip, icon, title, text, urgency 1-3, [[treatment, price]]]  price: [min,max] = kisaran PEMBANDING klinik lain (bukan tarif VDC) · "?" = tanya klinik · null = setelah pemeriksaan
+const R_SC=[252080,650000],R_TB=[388000,825000],R_CB=[455400,750000],R_BH=[6935500,9000000],R_VN=[917700,1200000],R_IM=[17000000,20424000];
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling",R_SC],["Tambal gigi",R_TB]]],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan dapat membesar sampai ke saraf. Makin awal diperiksa, biasanya makin sederhana perawatannya.",2,[["Tambal gigi",R_TB],["Perawatan saluran akar, bila sudah dalam",null]]],
+ ["Sakit berdenyut","thr","Sakit berdenyut atau bengkak","Bisa jadi tanda peradangan pada saraf gigi. Sebaiknya segera diperiksa dokter gigi.",3,[["Pemeriksaan segera","?"],["Perawatan saluran akar",null],["Cabut gigi, bila diperlukan",R_CB]]],
+ ["Gigi bungsu","wis","Sakit di ujung rahang","Gigi bungsu yang tumbuh miring dapat menimbulkan nyeri dan bengkak. Pemeriksaan penunjang membantu dokter melihat posisinya.",2,[["Pemeriksaan penunjang","?"],["Odontektomi (bedah gigi bungsu)",null]]],
+ ["Gusi berdarah","gum","Gusi bengkak atau berdarah","Umumnya dipicu karang gigi dan plak. Pembersihan oleh dokter gigi sering menjadi langkah pertama.",1,[["Scaling",R_SC]]],
+ ["Gigi kuning","yel","Gigi kusam atau kekuningan","Sering karena noda kopi, teh, atau rokok. Dokter menilai apakah cukup dibersihkan atau perlu penanganan lain.",1,[["Scaling",R_SC],["Veneer direct composite (per gigi)",R_VN]]],
+ ["Tidak rapi","cro","Gigi berjejal atau tidak rapi","Posisi gigi dapat dirapikan bertahap. Pemeriksaan dan rencana perawatan diperlukan lebih dulu.",1,[["Konsultasi behel / Invisalign","?"],["Behel metal dua rahang",R_BH],["Invisalign",null]]],
+ ["Gigi hilang","mis","Ada gigi yang hilang","Gigi yang hilang dapat diganti. Pilihannya dibahas setelah pemeriksaan; lihat panduan penggantian gigi di bawah.",1,[["Gigi tiruan lepasan",null],["Crown dan bridge",null],["Implan gigi",R_IM]]]],
+en:[
+ ["Sensitive","sens","Sensitive to cold or sweets","Often linked to worn enamel, small cavities or tartar near the gums.",1,[["Examination","?"],["Scaling",R_SC],["Filling",R_TB]]],
+ ["Cavity","cav","A hole, even if it doesn't hurt","An untreated cavity can reach the nerve. The earlier it is checked, the simpler the treatment usually is.",2,[["Filling",R_TB],["Root canal treatment, if deep",null]]],
+ ["Throbbing pain","thr","Throbbing pain or swelling","May be a sign of nerve inflammation. It is best to see a dentist soon.",3,[["Urgent examination","?"],["Root canal treatment",null],["Extraction, if needed",R_CB]]],
+ ["Wisdom tooth","wis","Pain at the back of the jaw","A tilted wisdom tooth can cause pain and swelling. Supporting tests help the dentist see its position.",2,[["Supporting tests","?"],["Odontectomy (wisdom tooth surgery)",null]]],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually caused by tartar and plaque. Professional cleaning is often the first step.",1,[["Scaling",R_SC]]],
+ ["Yellow teeth","yel","Dull or yellowish teeth","Often stains from coffee, tea or smoking. The dentist checks whether cleaning is enough or something else is needed.",1,[["Scaling",R_SC],["Direct composite veneer (per tooth)",R_VN]]],
+ ["Crooked","cro","Crowded or crooked teeth","Teeth can be aligned step by step. An examination and treatment plan come first.",1,[["Braces / Invisalign consultation","?"],["Metal braces, both jaws",R_BH],["Invisalign",null]]],
+ ["Missing tooth","mis","A missing tooth","A missing tooth can be replaced. The options are discussed after an examination; see the tooth replacement guide below.",1,[["Removable dentures",null],["Crown and bridge",null],["Dental implant",R_IM]]]]};
+
+/* layanan: [kunci, ikon, kategori, {id:[nama,ringkas,[untuk],[kunjungan],[tanya]],en:[...]}, harga? (indeks PRL)] */
+const CATS=[["all",{id:"Semua",en:"All"}],["umum",{id:"Umum & bedah",en:"General & surgical"}],["ganti",{id:"Ganti gigi",en:"Replace teeth"}],["rapi",{id:"Rapi & estetik",en:"Alignment & looks"}],["khusus",{id:"Anak & rahang",en:"Kids & jaw"}]];
+const SVC=[
+ ["gum","gum","umum",{id:["Scaling","Pembersihan karang gigi. Tanyakan kebutuhan perawatan Anda saat konsultasi.",["Karang gigi di sela gigi atau dekat gusi","Gusi mudah berdarah saat menyikat gigi","Perawatan rutin berkala"],["Dokter memeriksa kondisi gigi dan gusi","Karang gigi dibersihkan dengan alat khusus","Anda mendapat saran perawatan di rumah"],["Berapa kali sebaiknya scaling dilakukan?","Apakah ada kondisi gusi yang perlu perhatian?"]],en:["Scaling","Removal of tartar buildup. Ask about your care needs during a consultation.",["Tartar between teeth or near the gums","Gums that bleed easily when brushing","Routine periodic care"],["The dentist checks your teeth and gums","Tartar is cleaned with special instruments","You get home-care advice"],["How often should scaling be done?","Are there gum conditions that need attention?"]]},0],
+ ["cav","cav","umum",{id:["Tambal gigi","Perawatan untuk gigi yang berlubang atau rusak, sesuai hasil pemeriksaan.",["Gigi berlubang atau retak kecil","Ngilu yang berasal dari lubang","Tambalan lama yang perlu diperiksa"],["Dokter menilai kedalaman lubang","Bagian yang rusak dibersihkan","Gigi ditutup dengan bahan tambal yang dipilih dokter"],["Bahan tambal apa yang sesuai gigi saya?","Apakah gigi ini perlu perawatan lanjutan?"]],en:["Dental fillings","Care for a cavity or damaged tooth, based on an examination.",["A cavity or small crack","Sensitivity coming from a cavity","An old filling that needs checking"],["The dentist assesses how deep the cavity is","The damaged part is cleaned","The tooth is restored with a material the dentist selects"],["Which filling material suits my tooth?","Does this tooth need further treatment?"]]},1],
+ ["root","root","umum",{id:["Perawatan saluran akar","Penanganan bagian dalam gigi bila diperlukan setelah pemeriksaan.",["Sakit berdenyut atau gigi sensitif lama","Lubang yang sudah dalam","Gigi yang pernah terbentur"],["Pemeriksaan dan pemeriksaan penunjang bila perlu","Bagian dalam gigi dibersihkan bertahap","Gigi ditutup; dokter menjelaskan tahap berikutnya"],["Berapa kali kunjungan yang biasanya diperlukan?","Apa yang perlu dijaga setelah perawatan?"]],en:["Root canal treatment","Treatment of the inside of a tooth when an examination shows it is needed.",["Throbbing pain or long-lasting sensitivity","A cavity that has become deep","A tooth that was knocked"],["Examination and supporting tests if needed","The inside of the tooth is cleaned in stages","The tooth is sealed; the dentist explains the next step"],["How many visits are usually needed?","What should I look after afterwards?"]]},null],
+ ["wis","wis","umum",{id:["Odontektomi","Tindakan bedah mengangkat gigi, misalnya gigi bungsu yang tumbuh miring atau tertanam.",["Gigi bungsu miring atau tertanam","Nyeri atau bengkak di ujung rahang","Gigi yang sulit dicabut biasa"],["Pemeriksaan dan pemeriksaan penunjang","Dokter menjelaskan rencana tindakan","Tindakan dan arahan perawatan setelahnya"],["Apakah gigi saya perlu diangkat?","Apa yang perlu disiapkan sebelum tindakan?"]],en:["Odontectomy","A surgical procedure to remove a tooth, for example a tilted or impacted wisdom tooth.",["A tilted or impacted wisdom tooth","Pain or swelling at the back of the jaw","A tooth too difficult for a routine extraction"],["Examination and supporting tests","The dentist explains the plan","The procedure and aftercare instructions"],["Does my tooth need to be removed?","What should I prepare beforehand?"]]},null],
+ ["impl","impl","ganti",{id:["Implan gigi","Penyangga mirip akar dipasang pada tulang rahang untuk menopang gigi pengganti. Pilihan ditentukan melalui konsultasi.",["Mengganti satu atau beberapa gigi","Ingin pengganti yang tidak dilepas-pasang","Tidak ingin melibatkan gigi di sebelahnya"],["Pemeriksaan gigi, gusi, dan tulang rahang","Rencana bertahap dijelaskan dokter","Pemasangan dan pemasangan mahkota pada tahap akhir"],["Apakah kondisi tulang rahang saya memungkinkan?","Berapa lama seluruh tahapan berlangsung?"]],en:["Dental implants","A root-like support is placed in the jawbone to hold a replacement tooth. Options are decided through a consultation.",["Replacing one or several teeth","Wanting a replacement that is not removable","Not wanting to involve the neighbouring teeth"],["Examination of teeth, gums and jawbone","The dentist explains a staged plan","Placement, with the crown fitted at the final stage"],["Does my jawbone condition allow it?","How long does the whole process take?"]]},5],
+ ["bridge","bridge","ganti",{id:["Crown dan bridge","Mahkota menutup gigi yang rusak; bridge menggantikan gigi hilang dengan bertumpu pada gigi sebelahnya.",["Gigi yang sudah banyak rusak","Mengganti gigi hilang tanpa operasi","Gigi di sebelah celah masih kuat"],["Pemeriksaan gigi penyangga","Gigi disiapkan dan dicetak","Mahkota atau bridge dipasang"],["Apakah gigi penyangga saya memadai?","Bagaimana cara membersihkannya?"]],en:["Crown and bridge","A crown covers a damaged tooth; a bridge replaces a missing tooth by resting on the neighbouring teeth.",["A tooth with extensive damage","Replacing a missing tooth without surgery","Neighbouring teeth that are still strong"],["Examination of the supporting teeth","Teeth are prepared and impressions taken","The crown or bridge is fitted"],["Are my supporting teeth suitable?","How do I clean it?"]]},null],
+ ["dent","dent","ganti",{id:["Gigi tiruan lepasan","Gigi pengganti yang dapat dipasang dan dilepas sendiri, sebagian maupun penuh.",["Mengganti beberapa atau banyak gigi","Menginginkan pengganti yang dapat dilepas","Gigi di sekitarnya terbatas"],["Pemeriksaan dan pencetakan","Uji pasang untuk menyesuaikan","Penyerahan dan arahan perawatan"],["Berapa kali penyesuaian biasanya diperlukan?","Bagaimana merawat gigi tiruan sehari-hari?"]],en:["Removable dentures","Replacement teeth you can put in and take out yourself, partial or full.",["Replacing several or many teeth","Wanting a removable replacement","Limited remaining teeth nearby"],["Examination and impressions","Try-in to adjust the fit","Fitting and care instructions"],["How many adjustments are usually needed?","How do I look after dentures daily?"]]},null],
+ ["brace","brace","rapi",{id:["Behel","Pilihan untuk merapikan susunan gigi. Pemeriksaan diperlukan sebelum menentukan rencana perawatan.",["Gigi berjejal atau renggang","Gigitan yang tidak pas","Ingin gigi tersusun lebih rapi"],["Pemeriksaan dan pemeriksaan penunjang","Rencana perawatan dijelaskan","Pemasangan dan kontrol berkala"],["Berapa lama perawatan biasanya berjalan?","Berapa sering kontrol dilakukan?"]],en:["Braces","Options for aligning teeth. An examination is needed before planning treatment.",["Crowded or gapped teeth","A bite that does not fit well","Wanting neater teeth"],["Examination and supporting tests","The treatment plan is explained","Fitting and regular check-ups"],["How long does treatment usually take?","How often are check-ups?"]]},4],
+ ["aln","aln","rapi",{id:["Invisalign","Alternatif untuk merapikan gigi menggunakan aligner bening. Kecocokannya dinilai dokter.",["Ingin merapikan gigi dengan alat bening","Kasus yang dinilai dokter sesuai"],["Pemeriksaan dan rencana digital bila tersedia","Aligner diserahkan bertahap","Kontrol berkala"],["Apakah kondisi gigi saya cocok?","Berapa jam sehari aligner dipakai?"]],en:["Invisalign","An option for aligning teeth with clear aligners. Suitability is assessed by the dentist.",["Wanting clear aligners","Cases the dentist finds suitable"],["Examination and a digital plan where available","Aligners are provided in stages","Regular check-ups"],["Is my case suitable?","How many hours a day are aligners worn?"]]},null],
+ ["yel","yel","rapi",{id:["Veneer direct composite","Lapisan bahan komposit pada gigi untuk memperbaiki bentuk atau warna, sesuai penilaian dokter.",["Gigi depan yang patah kecil","Bentuk atau warna yang ingin diperbaiki","Celah kecil antargigi"],["Pemeriksaan dan pemilihan warna","Bahan dibentuk langsung pada gigi","Penghalusan dan arahan perawatan"],["Apakah gigi saya sesuai untuk veneer?","Bagaimana merawat hasilnya?"]],en:["Direct composite veneer","A composite layer on the tooth to improve shape or colour, as the dentist sees fit.",["A small chip on a front tooth","Shape or colour you want to improve","Small gaps between teeth"],["Examination and shade selection","The material is shaped directly on the tooth","Polishing and care instructions"],["Is my tooth suitable for a veneer?","How do I look after the result?"]]},3],
+ ["kid","kid","khusus",{id:["Perawatan gigi anak","Layanan pemeriksaan dan perawatan gigi untuk anak. Hubungi klinik untuk menanyakan ketersediaan jadwal.",["Pemeriksaan rutin anak","Gigi susu berlubang","Anak takut ke dokter gigi"],["Anak berkenalan dengan suasana klinik","Pemeriksaan sesuai usia anak","Orang tua mendapat arahan perawatan di rumah"],["Usia berapa sebaiknya mulai diperiksa?","Jadwal apa yang tersedia untuk anak?"]],en:["Children's dental care","Dental check-ups and care for children. Contact the clinic to ask about appointment availability.",["Routine check-ups for children","Cavities in baby teeth","A child nervous about the dentist"],["The child gets used to the clinic","An age-appropriate check-up","Parents get home-care guidance"],["From what age should check-ups start?","What slots are available for children?"]]},null],
+ ["jaw","jaw","khusus",{id:["Perawatan gangguan sendi rahang","Penanganan keluhan sendi rahang, misalnya bunyi saat membuka mulut atau nyeri saat mengunyah.",["Rahang berbunyi atau terasa kaku","Nyeri di depan telinga saat mengunyah","Sulit membuka mulut lebar"],["Dokter menanyakan keluhan dan kebiasaan","Pemeriksaan sendi dan otot rahang","Rencana perawatan dijelaskan"],["Apa kemungkinan penyebabnya?","Perawatan apa yang biasanya dipertimbangkan?"]],en:["Jaw joint disorder care","Care for jaw joint complaints, such as clicking when opening the mouth or pain when chewing.",["A jaw that clicks or feels stiff","Pain in front of the ear when chewing","Difficulty opening wide"],["The dentist asks about symptoms and habits","The jaw joint and muscles are examined","A treatment plan is explained"],["What could be causing it?","Which treatments are usually considered?"]]},null],
+ ["brux","brux","khusus",{id:["Perawatan bruxism","Penanganan kebiasaan menggertakkan atau mengerat gigi, sering tanpa disadari saat tidur.",["Gigi terlihat aus","Rahang pegal saat bangun tidur","Sering menggertakkan gigi"],["Dokter memeriksa tanda keausan gigi","Kebiasaan dan pemicunya dibahas","Pilihan perlindungan gigi dijelaskan"],["Apa tanda gigi saya sudah aus?","Perlindungan apa yang dapat dipertimbangkan?"]],en:["Bruxism care","Care for teeth grinding or clenching, often unnoticed during sleep.",["Teeth that look worn","A sore jaw on waking","Frequent grinding"],["The dentist checks for signs of wear","Habits and triggers are discussed","Protective options are explained"],["What are the signs my teeth are worn?","What protection can be considered?"]]},null]];
+
+/* harga: kisaran PEMBANDING klinik lain di Bandung (riset.json) — bukan tarif VDC */
+const PRL=[[252080,650000,{id:["Scaling","Pembanding klinik lain di Bandung"],en:["Scaling","Other Bandung clinics, for comparison"]}],[388000,825000,{id:["Tambal gigi","Pembanding klinik lain di Bandung"],en:["Fillings","Other Bandung clinics, for comparison"]}],[455400,750000,{id:["Cabut gigi","Pembanding; ketersediaan di VDC perlu dikonfirmasi"],en:["Extraction","For comparison; availability at VDC to be confirmed"]}],[917700,1200000,{id:["Veneer direct composite","Per gigi, pembanding"],en:["Direct composite veneer","Per tooth, for comparison"]}],[6935500,9000000,{id:["Behel metal","Dua rahang, pembanding"],en:["Metal braces","Both jaws, for comparison"]}],[17000000,20424000,{id:["Implan gigi","Pembanding klinik lain di Bandung"],en:["Dental implant","Other Bandung clinics, for comparison"]}]];
+const DR=[{n:"drg. Irham Sp. Prost",g:"m",real:1},{n:null,g:"f",real:0}];
+const FAS=[["acc",{id:["Akses kursi roda","Tercantum di direktori."],en:["Wheelchair access","Listed in directories."]},1],["wc",{id:["Toilet","Tercantum di direktori."],en:["Restroom","Listed in directories."]},1],["sit",{id:["Tempat duduk","Area tunggu dengan tempat duduk."],en:["Seating","A waiting area with seating."]},1],["card",{id:["Kartu debit & kredit","Pembayaran kartu tercantum di direktori."],en:["Debit & credit cards","Card payment listed in directories."]},1],["wa",{id:["Reservasi lewat WhatsApp","Disebutkan dalam direktori."],en:["Booking via WhatsApp","Mentioned in directories."]},1]];
+const FAQ={id:[
+ ["Kapan klinik buka?","Direktori mencantumkan Senin–Sabtu 09.00–20.00 WIB dan Minggu tutup, tetapi jam di direktori berbeda-beda. Hubungi klinik untuk memastikan jam buka dan jadwal kunjungan."],
+ ["Berapa biaya perawatan?","Tarif resmi belum tersedia dalam informasi yang kami temukan. Angka di situs ini hanya pembanding dari klinik lain di Bandung. Tanyakan perkiraan biaya kepada admin; biaya dapat bergantung pada hasil pemeriksaan dan rencana perawatan."],
+ ["Apakah klinik menerima asuransi?","Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia asuransi Anda saat menghubungi klinik untuk memastikannya."],
+ ["Apakah tersedia perawatan behel?","Behel dan Invisalign tercantum dalam daftar layanan. Konsultasikan kondisi gigi Anda untuk mengetahui pilihan yang sesuai."],
+ ["Apakah anak bisa diperiksa di sini?","Perawatan gigi anak tercantum dalam daftar layanan. Hubungi klinik untuk menanyakan jadwal yang tersedia."]],
+en:[
+ ["What are the clinic's opening hours?","Directories list Monday–Saturday 09:00–20:00 WIB and closed on Sundays, but published hours differ between directories. Please contact the clinic to confirm hours and appointment availability."],
+ ["How much does treatment cost?","We could not find an official price list. Figures on this site are only comparisons from other Bandung clinics. Ask the clinic for an estimate; costs may depend on the examination and treatment plan."],
+ ["Does the clinic accept insurance?","Insurance information is not currently available. Mention your provider when contacting the clinic to check coverage."],
+ ["Are braces available?","Braces and Invisalign are listed among the services. A consultation can help you discuss suitable options."],
+ ["Can children have dental check-ups here?","Children's dental care is listed among the services. Contact the clinic to ask about available appointments."]]};
+
+/* ganti gigi (fitur khas) */
+const GC={id:["1 gigi","2–3 gigi berdekatan","4 gigi atau lebih","Satu rahang penuh"],en:["1 tooth","2–3 adjacent teeth","4 or more teeth","A full jaw"]};
+const GP={id:["Depan","Samping","Belakang"],en:["Front","Side","Back"]};
+const GW={id:["Bisa dilepas-pasang","Tidak melibatkan gigi sebelah","Tampak alami","Biaya lebih terukur","Sebisa mungkin permanen"],en:["Removable","Not involving neighbouring teeth","Natural look","More modest cost","As permanent as possible"]};
+const GQ={id:["Pilihan mana yang sesuai kondisi saya?","Berapa kali kunjungan dan berapa lama?","Perkiraan biaya dan apa saja yang termasuk?","Apa risiko dan cara merawatnya?","Apakah perlu pemeriksaan penunjang lebih dulu?"],en:["Which option suits my condition?","How many visits and how long?","Estimated cost and what is included?","What are the risks and how do I care for it?","Are supporting tests needed first?"]};
+// atribut tiap opsi: [dilepas, tanpa-gigi-sebelah, alami, biaya-terukur, permanen]
+const GO=[
+ {k:"dent",ic:"dent",at:[1,0,0,1,0],id:["Gigi tiruan lepasan","Gigi pengganti pada landasan yang dapat dilepas dan dipasang sendiri.",["Dapat dibersihkan di luar mulut","Bisa untuk satu hingga banyak gigi","Umumnya perlu masa adaptasi saat bicara dan mengunyah"],"Tidak ada pembanding harga di data kami; dijelaskan setelah pemeriksaan."],en:["Removable dentures","Replacement teeth on a base you can put in and take out yourself.",["Can be cleaned outside the mouth","Works for one to many teeth","Usually needs time to adapt when speaking and chewing"],"No comparison price in our data; explained after an examination."]},
+ {k:"bridge",ic:"bridge",at:[0,0,1,0,1],id:["Bridge","Gigi pengganti yang direkatkan dan bertumpu pada gigi di kedua sisi celah.",["Tidak dilepas-pasang","Gigi penyangga perlu disiapkan (dikikis)","Membutuhkan gigi penyangga yang kuat"],"Tidak ada pembanding harga di data kami; dijelaskan setelah pemeriksaan."],en:["Bridge","A replacement tooth cemented to rest on the teeth on both sides of the gap.",["Not removable","Supporting teeth need to be prepared (shaped)","Needs strong supporting teeth"],"No comparison price in our data; explained after an examination."]},
+ {k:"impl",ic:"impl",at:[0,1,1,0,1],id:["Implan gigi","Penyangga mirip akar dipasang pada tulang rahang, lalu dihubungkan ke mahkota gigi.",["Tidak melibatkan gigi di sebelahnya","Dokter menilai kondisi tulang rahang dan gusi lebih dulu","Berlangsung bertahap dengan masa penyembuhan"],"Pembanding klinik lain di Bandung: Rp17.000.000–Rp20.424.000 (bukan tarif VDC)."],en:["Dental implant","A root-like support is placed in the jawbone and connected to a crown.",["Does not involve the neighbouring teeth","The dentist first assesses jawbone and gum condition","Happens in stages with a healing period"],"Other Bandung clinics for comparison: Rp17,000,000–Rp20,424,000 (not VDC's price)."]}];
+// urutan opsi yang sering dibahas per jumlah gigi
+const GOR=[[2,1,0],[1,2,0],[0,1,2],[0,2,1]];
+const GNOTE={c:{id:["Satu gigi hilang: dokter biasanya menilai gigi di kiri-kanan celah dan tulang rahang di area itu.","Dua sampai tiga gigi berdekatan: panjang celah dan kekuatan gigi sekitar memengaruhi pilihan.","Beberapa gigi hilang: pilihan sering dikombinasikan sesuai area dan kondisi tiap sisi rahang.","Satu rahang penuh: biasanya dibahas gigi tiruan penuh atau penopang implan secara bertahap."],en:["One missing tooth: the dentist usually assesses the teeth beside the gap and the jawbone there.","Two to three adjacent teeth: gap length and the strength of nearby teeth affect the choice.","Several missing teeth: options are often combined according to each area and side of the jaw.","A full jaw: full dentures or implant-supported options are usually discussed in stages."]},
+ p:{id:["Di depan, penampilan dan warna gigi biasanya menjadi pertimbangan utama.","Di samping, bentuk gigi dan fungsi mengunyah sama-sama dipertimbangkan.","Geraham menahan beban kunyah paling besar; kekuatan penopang dinilai dokter."],en:["At the front, appearance and tooth colour are usually the main concerns.","At the side, tooth shape and chewing function are both considered.","Molars take the most chewing load; the dentist assesses the strength of the support."]}};
+const GST={id:[["Ceritakan keluhan","Sampaikan gigi yang hilang, sejak kapan, dan harapan Anda."],["Pemeriksaan","Dokter memeriksa gigi, gusi, gigitan, dan pemeriksaan penunjang bila perlu."],["Penjelasan pilihan","Pilihan, tahapan, jumlah kunjungan, dan perkiraan biaya dijelaskan."],["Keputusan Anda","Anda memutuskan; jadwal perawatan disusun bersama klinik."]],en:[["Share your concern","Tell the clinic which tooth is missing, since when, and what you hope for."],["Examination","The dentist checks teeth, gums, bite, and supporting tests if needed."],["Options explained","Options, stages, number of visits and estimated cost are explained."],["Your decision","You decide; treatment is scheduled with the clinic."]]};
+const FLOW={id:[["Kirim pesan WhatsApp","Tulis keluhan atau layanan yang ditanyakan."],["Konfirmasi jadwal","Admin klinik menyampaikan jadwal yang tersedia."],["Datang & diperiksa","Dokter gigi memeriksa dan menjelaskan kondisi."],["Rencana & biaya","Pilihan perawatan dan perkiraan biaya dibahas sebelum dimulai."]],en:[["Send a WhatsApp message","Write your concern or the service you are asking about."],["Confirm a slot","Clinic admin shares the available schedule."],["Visit & examination","The dentist examines and explains the condition."],["Plan & cost","Treatment options and estimated cost are discussed before starting."]]};
+
+const T={
+id:{pv:"<b>Konsep pratinjau oleh Maxi Growth Studio</b> · bukan website resmi VDC Valerio Dental Care · <span class='chk'>✎ verifikasi</span> = info perlu dikonfirmasi klinik",pv_x:"Tutup",home:"VDC Valerio Dental Care — beranda",menu:"Menu",ttl:"VDC Valerio Dental Care Bandung — Konsep Website",
+n1:"Cek gigi",n2:"Ganti gigi",n3:"Layanan & harga",n4:"Dokter",n5:"Lokasi",n6:"FAQ",cta:"Tanya jadwal",
+h1:"Perawatan gigi dari scaling sampai <em>ganti gigi<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#f08a4b' stroke-width='4' stroke-linecap='round'/></svg></em> di Bandung.",
+hl:"VDC Valerio Dental Care (Evo Dental Care) ada di Jl. Gajah, Lengkong. Tandai gigi yang dikeluhkan, baca gambaran pilihan ganti gigi, lalu kirim pesan WhatsApp yang sudah tertulis.",
+td_h:"Status klinik hari ini",c1:"Tanyakan jadwal lewat WhatsApp",c2:"Cek gigi 30 detik",it_l:"Perlu apa hari ini?",it:["Periksa gigi","Sakit gigi","Scaling","Ganti gigi"],it_c:["Tanya jadwal periksa","Tanya soal sakit gigi","Tanya jadwal scaling","Tanya soal ganti gigi"],
+w_it:["Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal periksa gigi yang tersedia? Terima kasih.","Halo, gigi saya sakit dan saya ingin bertanya tentang jadwal di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.","Halo, saya ingin bertanya tentang jadwal scaling di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.","Halo, saya ingin bertanya tentang pilihan ganti gigi dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih."],
+st_open:"Buka · tutup 20.00",st_before:"Tutup · buka 09.00",st_after:"Tutup · buka besok 09.00",st_sun:"Tutup hari Minggu · buka Senin 09.00",st_unk:"Jam belum dikonfirmasi",
+zap1:"Putar gigi · ketuk bakteri untuk mengusirnya ·",zap2:"terusir",mas:"Ketuk bakteri",
+p1a:"Jl. Gajah No.20A",p1b:"Malabar, Lengkong, Bandung",p2a:"Senin–Sabtu 09.00–20.00",p2b:"Minggu tutup <span class='chk'>✎</span>",p3a:"5,0 ★ · 271 ulasan",p3b:"Menurut direktori pihak ketiga <span class='chk'>✎</span>",p4a:"Pembanding harga terbuka",p4b:"6 perawatan, dari klinik lain di Bandung",
+sh:"Gigi mana yang terasa tidak nyaman?",sl:"Tandai giginya, pilih keluhannya. Kami jelaskan kemungkinan perawatan dengan bahasa sederhana, dan pesan WhatsApp Anda langsung tertulis.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim ke klinik",st3d:"Terkirim ✓",s1:"Langkah 1 · Gigi",s1t:"Gigi yang mana?",s2:"Langkah 2 · Keluhan",s2t:"Apa yang Anda rasakan?",s3:"Langkah 3 · Kirim",
+jw_g:"Tampilan rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",jw_hint:"Tip: coba juga rahang bawah",sd_r:"← Kanan Anda",sd_l:"Kiri Anda →",orient:"Seperti orang lain melihat mulut Anda — sisi kanan Anda ada di kiri layar.",
+amap:"Denah gigi",tap:"Ketuk gigi yang tidak nyaman",skip:"Lewati — saya tidak yakin",mk_l:"gigi ditandai",clr:"Hapus semua",rm:"Hapus",skipped:"Tidak ada gigi ditandai",
+pick:"Pilih keluhan untuk melihat penjelasan & kisaran harga",pickp:"Pesan WhatsApp Anda akan tertulis di sini.",likely:"KEMUNGKINAN",urg:["","Tidak mendesak","Sedang","Periksakan segera"],ask_c:"Tanya klinik",r_upd:"Hasil diperbarui: ",msg_rst:"Perbarui pesan",
+tr_usual:"Perawatan yang biasa dipertimbangkan",after_ex:"Setelah pemeriksaan",from:"kisaran",est_src:"Kisaran harga adalah pembanding klinik lain di Bandung, bukan tarif VDC.",yourmsg:"Pesan Anda · bisa diubah",pref_l:"Waktu pilihan:",pf:["Siang","Sore","Malam"],w_pref:"Waktu yang saya inginkan: ",send:"Kirim lewat WhatsApp",copy:"Salin pesan",copied:"Tersalin ✓",
+w_k1:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Keluhan saya: ",w_k2:" — ",w_k3:"Apakah ada jadwal yang tersedia? Terima kasih.",sd:"Informasi umum, bukan diagnosis. Rencana perawatan ditentukan dokter gigi setelah pemeriksaan.",chk:"✎ verifikasi",see_g:"Lihat panduan ganti gigi",
+gh:"Ganti gigi yang hilang: kenali pilihannya dulu.",gl:"Pilih jumlah dan posisi gigi yang hilang untuk membaca gambaran umum gigi tiruan lepasan, bridge, dan implan. Panduan ini tidak menggantikan pemeriksaan dokter gigi.",
+g_q1:"1 · Berapa gigi yang hilang?",g_q2:"2 · Di bagian mana?",g_q3:"3 · Yang Anda pertimbangkan (boleh lebih dari satu)",g_vis:"Gambaran celah",g_vis_a:"Gambar skematis gigi: celah menunjukkan gigi yang hilang",g_ov:"Lihat sebagai:",g_none:"Polos",
+g_often:"Sering dibahas",g_match:"sesuai",g_of:"dari",g_pref:"preferensi Anda",g_pr:"Pembanding harga",g_con:"Yang biasa dipertimbangkan",g_nb:"Bridge kurang lazim untuk celah yang panjang; dokter menilai kecocokannya.",g_st:"Tahapan konsultasi",g_st_n:"Gambaran umum; urutan di VDC dikonfirmasi klinik ✎",g_qs:"Pertanyaan untuk dokter (pilih untuk dimasukkan ke pesan)",g_note:"Catatan",g_msg:"Pesan WhatsApp Anda",g_disc:"Informasi umum, bukan saran medis maupun rekomendasi perawatan. Kecocokan hanya ditentukan dokter setelah pemeriksaan.",g_sp:"Dokter spesialis prostodonsia ✎ tercantum di direktori; bidang ini berkaitan dengan penggantian gigi.",
+w_g1:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Saya ingin berkonsultasi soal penggantian gigi. Gigi hilang: ",w_g2:", posisi: ",w_g3:". Pilihan yang ingin saya bahas: ",w_g4:". Yang saya pertimbangkan: ",w_g5:"Pertanyaan saya: ",w_g6:"Apakah ada jadwal yang tersedia? Terima kasih.",
+lh:"13 layanan, bisa disaring dan dibuka satu per satu.",ll:"Daftar layanan dari direktori; ketuk kartu untuk melihat kapan biasanya dibutuhkan, apa yang terjadi saat kunjungan, dan pertanyaan untuk dokter.",sv_chk:"Daftar layanan dari direktori ✎ konfirmasi ke klinik",sv_n:"layanan",sv_s:"Cari layanan…",sv_empty:"Tidak ada layanan yang cocok. Coba kata lain.",sv_for:"Biasanya dipertimbangkan bila",sv_vis:"Gambaran kunjungan",sv_ask:"Bisa ditanyakan ke dokter",sv_wa:"Tanya layanan ini",sv_pr:"Pembanding harga",sv_open:"Lihat detail",sv_close:"Tutup",
+ph:"Pembanding harga",chk_p:"✎ bukan tarif VDC",pnote:"Kisaran dikumpulkan dari klinik lain di Bandung (hdmall.id, doktertanya.com). Tarif resmi VDC belum tersedia; tanyakan kepada admin klinik.",
+ps_h:"Belum yakin perlu perawatan apa?",ps_p:"Ceritakan keluhan Anda. Dokter menjelaskan pilihan dan perkiraan biaya sebelum perawatan dimulai.",ps_b:"Tanya perkiraan biaya",
+dh:"Dokter gigi di VDC.",dl:"Ilustrasi, bukan foto asli. Nama dokter bersumber dari kutipan ulasan di direktori; gelar dan jadwal perlu dikonfirmasi klinik.",d_unk:"Dokter gigi lainnya",d_sp:"Dokter gigi spesialis prostodonsia · jadwal diisi klinik",d_sp2:"Profil & jadwal diisi klinik",d_book:"Tanya jadwal dokter ini",d_ask:"Tanya dokter yang bertugas",d_ill:"ILUSTRASI",d_pr_h:"Apa itu prostodonsia?",d_pr_p:"Bidang kedokteran gigi yang berfokus pada penggantian gigi: gigi tiruan, bridge, dan implan.",d_pr_l:"Buka panduan ganti gigi",
+fl_h:"Alur kunjungan pertama",fl_n:"Gambaran umum; alur di VDC dikonfirmasi klinik ✎",
+loh:"Satu alamat, satu nomor WhatsApp.",lol:"Lihat alamat, jam, dan rute. Pesan WhatsApp diterima nomor klinik.",a_adr:"Alamat",a_hrs:"Jam praktik",a_tel:"Telepon",a_wa:"WhatsApp",a_nav:"Rute",hrs_unk:"Jam belum dikonfirmasi — tanyakan lewat WhatsApp.",tel_unk:"Belum tersedia",days_s:["Min","Sen","Sel","Rab","Kam","Jum","Sab"],closed:"Tutup",
+map_ph:"Peta Google dimuat saat bagian ini terlihat.",map_b:"Muat peta",
+fh:"Sebelum Anda datang.",fl:"Belum menemukan jawabannya? Tanyakan langsung.",fb:"Tanya lewat WhatsApp",
+ch:"Punya pertanyaan tentang perawatan? Hubungi VDC lewat WhatsApp.",cp:"Ceritakan keluhan Anda dan waktu yang cocok. Tim klinik menyampaikan jadwal yang tersedia.",cb1:"WhatsApp VDC",cb2:"Panduan ganti gigi",
+ft_p:"VDC Valerio Dental Care (Evo Dental Care), Jl. Gajah No.20A, Lengkong, Bandung.",ft_b:"Klinik",ft_c:"Kontak",ft_h:"Jelajahi",ft_disc:"Konsep pratinjau — bukan website resmi VDC Valerio Dental Care. Info bertanda ✎ perlu dikonfirmasi klinik. Logo digambar ulang sebagai wordmark ✎.",ft_cr:"Konsep oleh Maxi Growth Studio",fab:"Tanya jadwal",fab_a:"Tanya jadwal lewat WhatsApp",
+w_book:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Apakah ada jadwal yang tersedia? Terima kasih.",w_price:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Boleh saya tahu perkiraan biaya perawatan saya? Terima kasih.",w_q:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Pertanyaan saya: ",w_doc:"Halo, saya ingin bertanya jadwal konsultasi dengan ",w_docq:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. Dokter siapa yang bertugas dan apakah ada jadwal tersedia? Terima kasih.",w_br:"Halo, saya ingin bertanya tentang layanan dan jadwal konsultasi di VDC Valerio Dental Care, Jl. Gajah. ",copied_a:"Alamat tersalin",cp_a:"Salin alamat"},
+en:{pv:"<b>Concept preview by Maxi Growth Studio</b> · not the official VDC Valerio Dental Care website · <span class='chk'>✎ verify</span> = details to be confirmed by the clinic",pv_x:"Close",home:"VDC Valerio Dental Care — home",menu:"Menu",ttl:"VDC Valerio Dental Care Bandung — Website Concept",
+n1:"Tooth check",n2:"Replace teeth",n3:"Services & fees",n4:"Dentists",n5:"Location",n6:"FAQ",cta:"Ask schedule",
+h1:"Dental care from scaling to <em>tooth replacement<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#f08a4b' stroke-width='4' stroke-linecap='round'/></svg></em> in Bandung.",
+hl:"VDC Valerio Dental Care (Evo Dental Care) is on Jl. Gajah, Lengkong. Mark the tooth that bothers you, read an overview of tooth replacement options, and send a ready-written WhatsApp message.",
+td_h:"Clinic status today",c1:"Ask about appointments on WhatsApp",c2:"30-second tooth check",it_l:"What do you need today?",it:["Check-up","Toothache","Scaling","Replace a tooth"],it_c:["Ask about a check-up","Ask about toothache","Ask about scaling","Ask about tooth replacement"],
+w_it:["Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. Is there an available slot for a check-up? Thank you.","Hello, I have a toothache and would like to ask about schedules at VDC Valerio Dental Care, Jl. Gajah. Is there an available slot? Thank you.","Hello, I would like to ask about scaling schedules at VDC Valerio Dental Care, Jl. Gajah. Is there an available slot? Thank you.","Hello, I would like to ask about tooth replacement options and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. Is there an available slot? Thank you."],
+st_open:"Open · closes 20:00",st_before:"Closed · opens 09:00",st_after:"Closed · opens tomorrow 09:00",st_sun:"Closed Sundays · opens Monday 09:00",st_unk:"Hours not yet confirmed",
+zap1:"Spin the tooth · tap a bacterium to clear it ·",zap2:"cleared",mas:"Tap the bacterium",
+p1a:"Jl. Gajah No.20A",p1b:"Malabar, Lengkong, Bandung",p2a:"Mon–Sat 09:00–20:00",p2b:"Closed Sundays <span class='chk'>✎</span>",p3a:"5.0 ★ · 271 reviews",p3b:"Per third-party directory <span class='chk'>✎</span>",p4a:"Open price comparisons",p4b:"6 treatments, from other Bandung clinics",
+sh:"Which tooth feels uncomfortable?",sl:"Mark the tooth, choose the concern. We explain likely treatments in plain words, and your WhatsApp message is written for you.",
+st1:"Mark teeth",st2:"Pick concern",st3:"Send to clinic",st3d:"Sent ✓",s1:"Step 1 · Teeth",s1t:"Which tooth?",s2:"Step 2 · Concern",s2t:"What do you feel?",s3:"Step 3 · Send",
+jw_g:"Jaw view",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",jw_hint:"Tip: try the lower jaw too",sd_r:"← Your right",sd_l:"Your left →",orient:"As others see your mouth — your right side is on the left of the screen.",
+amap:"Tooth map",tap:"Tap the tooth that feels uncomfortable",skip:"Skip — I'm not sure",mk_l:"teeth marked",clr:"Clear all",rm:"Remove",skipped:"No tooth marked",
+pick:"Pick a concern to see the explanation & price ranges",pickp:"Your WhatsApp message will be written here.",likely:"LIKELY",urg:["","Not urgent","Moderate","See a dentist soon"],ask_c:"Ask the clinic",r_upd:"Result updated: ",msg_rst:"Update message",
+tr_usual:"Treatments usually considered",after_ex:"After examination",from:"range",est_src:"Price ranges are comparisons from other Bandung clinics, not VDC's prices.",yourmsg:"Your message · editable",pref_l:"Preferred time:",pf:["Midday","Afternoon","Evening"],w_pref:"Preferred time: ",send:"Send via WhatsApp",copy:"Copy message",copied:"Copied ✓",
+w_k1:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. My concern: ",w_k2:" — ",w_k3:"Is there an available slot? Thank you.",sd:"General information, not a diagnosis. The treatment plan is decided by the dentist after an examination.",chk:"✎ verify",see_g:"See the tooth replacement guide",
+gh:"Replacing a missing tooth: know your options first.",gl:"Choose how many teeth are missing and where, to read a general overview of removable dentures, bridges and implants. This guide does not replace a dental examination.",
+g_q1:"1 · How many teeth are missing?",g_q2:"2 · Where?",g_q3:"3 · What you are considering (pick any)",g_vis:"Gap overview",g_vis_a:"Schematic teeth: gaps show missing teeth",g_ov:"View as:",g_none:"Plain",
+g_often:"Often discussed",g_match:"match",g_of:"of",g_pref:"of your preferences",g_pr:"Price comparison",g_con:"Usually considered",g_nb:"Bridges are less common for long gaps; the dentist assesses suitability.",g_st:"Consultation stages",g_st_n:"A general outline; the order at VDC is to be confirmed ✎",g_qs:"Questions for the dentist (select to add to the message)",g_note:"Note",g_msg:"Your WhatsApp message",g_disc:"General information, not medical advice or a treatment recommendation. Suitability is decided by the dentist after an examination.",g_sp:"A prosthodontics specialist ✎ is listed in directories; this field relates to tooth replacement.",
+w_g1:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. I would like a consultation about tooth replacement. Missing: ",w_g2:", position: ",w_g3:". Options I would like to discuss: ",w_g4:". What I am considering: ",w_g5:"My questions: ",w_g6:"Is there an available slot? Thank you.",
+lh:"13 services, filterable and open one by one.",ll:"Services listed in directories; tap a card to see when it is usually needed, what happens at a visit, and questions for the dentist.",sv_chk:"Service list from directories ✎ confirm with the clinic",sv_n:"services",sv_s:"Search services…",sv_empty:"No matching service. Try another word.",sv_for:"Usually considered when",sv_vis:"What a visit looks like",sv_ask:"Ask the dentist",sv_wa:"Ask about this service",sv_pr:"Price comparison",sv_open:"See details",sv_close:"Close",
+ph:"Price comparison",chk_p:"✎ not VDC's price list",pnote:"Ranges collected from other clinics in Bandung (hdmall.id, doktertanya.com). VDC's official prices are not available; ask the clinic admin.",
+ps_h:"Not sure which treatment you need?",ps_p:"Tell us your concern. The dentist explains the options and estimated cost before treatment starts.",ps_b:"Ask for an estimate",
+dh:"Dentists at VDC.",dl:"Illustrations, not real photos. The dentist's name comes from a review quote in a directory; degree and schedule need confirming by the clinic.",d_unk:"Other dentists",d_sp:"Prosthodontics specialist · schedule from clinic",d_sp2:"Profile & schedule from clinic",d_book:"Ask about this dentist's schedule",d_ask:"Ask who's on duty",d_ill:"ILLUSTRATION",d_pr_h:"What is prosthodontics?",d_pr_p:"The field of dentistry focused on replacing teeth: dentures, bridges and implants.",d_pr_l:"Open the replacement guide",
+fl_h:"Your first visit",fl_n:"A general outline; the flow at VDC is to be confirmed ✎",
+loh:"One address, one WhatsApp number.",lol:"See the address, hours and directions. WhatsApp messages go to the clinic's number.",a_adr:"Address",a_hrs:"Opening hours",a_tel:"Phone",a_wa:"WhatsApp",a_nav:"Directions",hrs_unk:"Hours not confirmed yet — ask on WhatsApp.",tel_unk:"Not available yet",days_s:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],closed:"Closed",
+map_ph:"The Google map loads when this section is visible.",map_b:"Load map",
+fh:"Before you visit.",fl:"Can't find your answer? Just ask.",fb:"Ask on WhatsApp",
+ch:"Questions about dental care? Message VDC on WhatsApp.",cp:"Tell us your concern and a time that suits you. The clinic team shares available slots.",cb1:"WhatsApp VDC",cb2:"Replacement guide",
+ft_p:"VDC Valerio Dental Care (Evo Dental Care), Jl. Gajah No.20A, Lengkong, Bandung.",ft_b:"Clinic",ft_c:"Contact",ft_h:"Explore",ft_disc:"Concept preview — not the official VDC Valerio Dental Care website. Items marked ✎ are to be confirmed by the clinic. Logo redrawn as a wordmark ✎.",ft_cr:"Concept by Maxi Growth Studio",fab:"Ask schedule",fab_a:"Ask about schedule via WhatsApp",
+w_book:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. Is there an available slot? Thank you.",w_price:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. Could I get an estimate for my treatment? Thank you.",w_q:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. My question: ",w_doc:"Hello, I would like to ask about a consultation schedule with ",w_docq:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. Which dentist is on duty and is there an available slot? Thank you.",w_br:"Hello, I would like to ask about services and consultation schedules at VDC Valerio Dental Care, Jl. Gajah. ",copied_a:"Address copied",cp_a:"Copy address"}};
+
+/* ================= CORE ================= */
+let L="id";
+const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const t=k=>T[L][k];
+const wa=x=>"https://wa.me/"+WA+"?text="+encodeURIComponent(x);
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth",mob=()=>innerWidth<900;
+const ic=n=>'<svg class="i"><use href="#i-'+n+'"/></svg>';
+const rp=n=>"Rp"+n.toLocaleString(L==="id"?"id-ID":"en-US");
+function gtoast(m){const g=$("#gtoast");g.textContent=m;g.classList.add("on");clearTimeout(g._t);g._t=setTimeout(()=>g.classList.remove("on"),1800)}
+function copyText(txt,done){const fb=()=>{const a=document.createElement("textarea");a.value=txt;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()};
+ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(txt).then(done,fb);else fb()}
+
+/* time in WIB (UTC+7) */
+function wib(){const n=new Date(Date.now()+7*3600e3);return{day:n.getUTCDay(),h:n.getUTCHours()+n.getUTCMinutes()/60,hh:n.getUTCHours(),mm:n.getUTCMinutes()}}
+function bst(b){const {day,h}=wib(),r=b.hd[day];
+ if(!r)return{c:"st-closed",tx:day===0?t("st_sun"):t("st_after")};
+ if(h>=r[0]&&h<r[1])return{c:"st-open",tx:t("st_open")};
+ if(h<r[0])return{c:"st-closed",tx:t("st_before")};
+ return{c:"st-closed",tx:day===6?t("st_sun"):t("st_after")}}
+
+function applyLang(){
+ document.documentElement.lang=L;document.title=t("ttl");
+ $$("[data-i]").forEach(e=>{const v=T[L][e.dataset.i];if(v!==undefined)e.innerHTML=v});
+ $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",T[L][e.dataset.ia]));
+ $$("[data-wa]").forEach(a=>{a.href=wa(t("w_"+a.dataset.wa));a.target="_blank";a.rel="noopener"});
+ $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+ $("#h1").innerHTML=t("h1");
+ status();buildIntent();buildKel();updArea();renderRes();stepper();buildGuide();buildSvc();buildPrice();buildDocs();buildLoc();buildFaq();
+}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("vdc-lang",L)}catch(e){};applyLang()});
+try{const s=localStorage.getItem("vdc-lang");if(s==="en"||s==="id")L=s}catch(e){}
+
+/* preview bar */
+try{if(localStorage.getItem("vdc-pv")==="x")$("#pv").hidden=true}catch(e){}
+$("#pvx").onclick=()=>{$("#pv").hidden=true;try{localStorage.setItem("vdc-pv","x")}catch(e){}};
+
+/* nav */
+const nav=$("#nav");addEventListener("scroll",()=>nav.classList.toggle("sc",scrollY>8),{passive:true});
+const burger=$("#burger"),sheet=$("#sheet"),scrim=$("#scrim");let sheetOpen=false;
+function setSheet(o,refocus){sheetOpen=o;sheet.classList.toggle("open",o);scrim.classList.toggle("open",o);burger.setAttribute("aria-expanded",o);sheet.inert=!o;if(o)setTimeout(()=>sheet.querySelector("a").focus(),60);else if(refocus)burger.focus()}
+burger.onclick=()=>setSheet(!sheetOpen);scrim.onclick=()=>setSheet(false);
+$$("#sheet a").forEach(a=>a.addEventListener("click",()=>setSheet(false)));
+document.addEventListener("keydown",e=>{if(sheetOpen&&e.key==="Escape")setSheet(false,true)});
+addEventListener("resize",()=>{if(sheetOpen&&innerWidth>1060)setSheet(false)});
+if("IntersectionObserver" in window){const spy=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;$$(".links a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});["cek","ganti","layanan","dokter","lokasi","faq"].forEach(id=>spy.observe(document.getElementById(id)))}
+
+/* hero status + intent */
+function status(){const {hh,mm}=wib();$("#clock").textContent=String(hh).padStart(2,"0")+"."+String(mm).padStart(2,"0")+" WIB";
+ $("#brs").innerHTML=BR.map(b=>{const s=bst(b);return '<a href="#lokasi"><span class="no">'+b.no+'</span><span class="nm">VDC · '+b.n+'</span><span class="st '+s.c+'"><i class="dot"></i>'+s.tx+' <span class="chk">✎</span></span></a>'}).join("")}
+setInterval(()=>{status();if($("#linfo"))buildLoc()},60000);
+let intent=-1;
+function buildIntent(){const c=$("#intent");c.innerHTML='<span>'+t("it_l")+'</span>'+t("it").map((x,i)=>'<button type="button" aria-pressed="'+(intent===i)+'" data-n="'+i+'">'+x+'</button>').join("");
+ $$("button",c).forEach(b=>b.onclick=()=>{const n=+b.dataset.n;intent=intent===n?-1:n;$$("button",c).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.n===intent));setIntent(true)});setIntent(false)}
+function setIntent(anim){const a=$("#hcta"),l=$("#hctal"),go=()=>{l.textContent=intent>=0?t("it_c")[intent]:t("c1");a.href=wa(intent>=0?t("w_it")[intent]:t("w_book"))};
+ if(anim&&!RM){l.style.opacity=0;setTimeout(()=>{go();l.style.opacity=1},180)}else go()}
+
+
+/* ================= CEK GIGI (mekanik dari Atabara #semak) ================= */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+ [["url(#gg)",46],["#fff7f8",2]].forEach(([c,w],j)=>{const p=el("path",{d,fill:"none","stroke-linecap":"round",stroke:c,"stroke-width":w});if(j)p.setAttribute("transform","translate(0 "+(up?10:-10)+")");arch.appendChild(p)})}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+ for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+  const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+  const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+  g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));
+  const tb=el("g",{class:"tb",filter:"url(#sh)"});tb.style.transitionDelay=(RM?0:(up?i:16+i)*18)+"ms";
+  tb.appendChild(el("circle",{class:"halo2",r:k==="m"?"16.5":"15"}));
+  SHAPE[k].forEach((d,j)=>tb.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+  g.appendChild(tb);g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+  const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+  const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.5"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+  g.onclick=()=>{rove(g,true);tg(g)};
+  g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;
+   if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+   if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];
+   else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];else if(e.key==="Home")m=[J,0];else if(e.key==="End")m=[J,15];
+   if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+  g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;g.onfocus=()=>{if(g.matches(":focus-visible"))tipShow(g)};g.onblur=tipHide;
+  teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);badges.forEach(b=>arch.appendChild(b));
+[["ATAS","UPPER",200,76],["BAWAH","LOWER",200,270]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+if("IntersectionObserver" in window)new IntersectionObserver(([e],o)=>{if(e.isIntersecting){arch.classList.remove("pre");setTimeout(()=>$$(".tb",arch).forEach(x=>x.style.transitionDelay="0ms"),1200);o.disconnect()}},{threshold:.2}).observe(arch);else arch.classList.remove("pre");
+function fdi(g){const j=+g.dataset.jaw,sd=+g.dataset.side,i=+g.dataset.ix;return ""+(j===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+ return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdi(g)+")"}
+const lc=n=>/^(\p{Lu}{2}|X-)/u.test(n)?n:n.charAt(0).toLowerCase()+n.slice(1);
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1600)}
+let hinted=false,skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}
+ skipped=false;syncTeeth();updArea();renderRes();tipHide();
+ if(sel.length===1&&jawM==="u"&&!hinted){hinted=true;setTimeout(()=>toast(t("jw_hint")),1700)}}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on);if(on)x._nb.querySelector("text").textContent=fdi(x)})}
+function areaTxt(){return sel.map(g=>tName(g).toLowerCase()).join(", ")}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));
+ arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+ const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+ (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0)}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);
+ teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+ const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:3;
+ if(sel.length){const list=sel.slice(-lim);
+  c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+tName(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip plus">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+ic("reset")+t("clr")+'</button>';
+  $$(".mchip button",c).forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+  $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes();stepper()};
+ }else{c.innerHTML='<div class="tapme">'+ic("tap")+'</div><div class="sm">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+  const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}
+ stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+ s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+ s.forEach(b=>b.setAttribute("aria-current",b.classList.contains("on")?"step":"false"));
+ const l=$("#st3l");if(l)l.textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;(n===0?$("#aw"):n===1?$("#kl"):$("#res")).scrollIntoView({behavior:SB,block:"center"})});
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+ b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+ b.onclick=()=>pickK(i,false);
+ b.onkeydown=e=>{const n=KEL[L].length;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();pickK(j,true)}};
+ kl.appendChild(b)})}
+function pickK(i,kb){if(i!==ki)sent=false;ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();
+ if(kb){$$("#kl .k")[i].focus();return}
+ const h=$("#res h3");if(h)h.focus({preventScroll:true});if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let lastKi=-2,pref=-1,msgEdited=false;
+const feeTx=p=>p==="?"?'<em>'+t("ask_c")+'</em>':p===null?'<em>'+t("after_ex")+'</em>':'<small style="font-family:var(--bf);font-size:11px;color:var(--muted2);font-weight:600">'+t("from")+'</small> '+rp(p[0])+"–"+rp(p[1]).replace("Rp","");
+function renderRes(){const r=$("#res");
+ if(ki<0){r.className="res empty";r.dataset.k="";
+  r.innerHTML='<div class="skl" style="width:38%"></div><div class="skl" style="width:86%"></div><div class="skl" style="width:64%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+ const o=KEL[L][ki],names=sel.map(tName),key=ki+L;
+ if(r.classList.contains("full")&&r.dataset.k===key){const rt=$("#rteeth");rt.innerHTML=names.map(n=>'<span>'+n+'</span>').join("");rt.hidden=!names.length;compose();return}
+ const changed=lastKi!==ki,prev=$("#msg")?$("#msg").value:"";lastKi=ki;r.dataset.k=key;if(changed)msgEdited=false;
+ r.className="res full"+(changed&&!RM?" anim":"");
+ r.innerHTML='<div class="r-top"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div>'+
+  '<h3 tabindex="-1">'+o[2]+'</h3><div class="rteeth" id="rteeth"'+(names.length?'':' hidden')+'>'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>'+
+  '<p class="ex">'+o[3]+'</p><div class="rtl-h">'+t("tr_usual")+'</div>'+
+  '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+feeTx(p)+'</span></li>').join("")+'</ul>'+
+  '<p class="est">'+t("est_src")+' <span class="chk">'+t("chk")+'</span></p>'+(ki===7?'<a class="btn btn-gh btn-sm" href="#ganti" style="margin-bottom:12px">'+t("see_g")+' '+ic("ar")+'</a>':'')+
+  '<div class="bub-h"><label class="bub-c" for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+ic("reset")+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="3"></textarea>'+
+  '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+  '<a class="btn btn-wa" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a>'+
+  '<button type="button" class="copy" id="copy">'+ic("copy")+'<span>'+t("copy")+'</span></button>';
+ const m=$("#msg");if(msgEdited)m.value=prev;compose();
+ m.oninput=()=>{msgEdited=true;sent=false;stepper();$("#mrst").hidden=false;fit(m);$("#send").href=wa(m.value)};
+ $("#mrst").onclick=()=>{msgEdited=false;compose();m.focus()};
+ $$(".pref button",r).forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;$$(".pref button",r).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+ $("#send").addEventListener("click",()=>{sent=true;stepper()});
+ $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+ if(changed)$("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],a=areaTxt(),m=$("#msg");if(!m)return;
+ const v=t("w_k1")+lc(o[2])+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_k3");
+ if(!msgEdited&&m.value!==v){m.value=v;sent=false}
+ $("#mrst").hidden=!msgEdited||m.value===v;fit(m);$("#send").href=wa(m.value);stepper()}
+function fit(m){m.style.height="auto";m.style.height=Math.min(160,m.scrollHeight+2)+"px"}
+
+/* ================= GANTI GIGI — panduan penggantian gigi (fitur khas) ================= */
+T.id.sv_wq="tentang layanan ";T.en.sv_wq="about the service ";
+const G={c:0,p:1,w:[],o:0,qs:[],edited:false,plain:false};
+const goName=i=>GO[i][L][0];
+function gaps(){const c=G.c,p=G.p;
+ if(c===3)return[0,1,2,3,4,5,6,7,8,9,10,11];
+ const A=[[5],[3],[1]][p],B=[[5,6],[2,3],[0,1]][p];
+ if(c===0)return A;if(c===1)return B;
+ return p===0?[4,5,6,7]:[...new Set([...B,...B.map(i=>11-i)])].sort((a,b)=>a-b)}
+function groups(m){const g=[];m.forEach(i=>{const l=g[g.length-1];if(l&&l[l.length-1]===i-1)l.push(i);else g.push([i])});return g}
+const TX=i=>12+i*38;
+function toothR(i,cls,extra){const k=i<2||i>9?"m":i<4||i>7?"p":i===4||i===7?"c":"i";const h={m:50,p:50,c:54,i:48}[k],x=TX(i)+(k==="i"?1:0),w=k==="i"?30:32;return '<rect class="'+cls+'" x="'+x+'" y="'+(94-h)+'" width="'+w+'" height="'+h+'" rx="'+(k==="c"?14:10)+'"'+(extra||"")+'/>'}
+function drawGuide(){const m=gaps(),gs=groups(m),o=G.o,ov=!G.plain;let s='<rect x="4" y="88" width="472" height="36" rx="16" fill="#f3d3d6"/><rect x="4" y="88" width="472" height="8" rx="4" fill="#ecbfc6"/>';
+ // denture base
+ if(ov&&o===0)gs.forEach(g=>{const x1=TX(g[0])-2,x2=TX(g[g.length-1])+36;s+='<g class="ovl"><rect x="'+x1+'" y="80" width="'+(x2-x1)+'" height="26" rx="12" fill="#e58aa5"/></g>'});
+ for(let i=0;i<12;i++){const miss=m.includes(i);
+  if(!miss)s+=toothR(i,"tt0");
+  else if(ov&&o===0)s+=toothR(i,"tt0 td");
+  else if(ov&&o===1&&m.length<=3)s+=toothR(i,"tt0 tp");
+  else if(ov&&o===2)s+=toothR(i,"tt0 ti");
+  else s+=toothR(i,"tt0 tm");}
+ if(ov&&o===1&&m.length<=3&&m.length>0)gs.forEach(g=>{const a=g[0]-1,b=g[g.length-1]+1;[a,b].forEach(n=>{if(n>=0&&n<12)s+='<g class="ovl">'+toothR(n,"tt0 tk")+'</g>'});const x1=TX(Math.max(a,0)),x2=TX(Math.min(b,11))+32;s+='<g class="ovl"><rect x="'+x1+'" y="70" width="'+(x2-x1)+'" height="8" rx="4" fill="#f08a4b"/></g>'});
+ if(ov&&o===2)gs.forEach(g=>g.forEach((i,j)=>{if(m.length===12&&i%2)return;const x=TX(i)+11;s+='<g class="ovl"><rect x="'+x+'" y="96" width="10" height="26" rx="3" fill="#9a8592"/><path d="M'+x+' 102h10M'+x+' 108h10M'+x+' 114h10" stroke="#fff" stroke-width="1.6"/></g>'}));
+ let sv=$("#gsv");sv.innerHTML=s;sv.classList.remove("pop");void sv.getBoundingClientRect();sv.classList.add("pop");
+ sv.setAttribute("aria-label",t("g_vis_a")+" — "+GC[L][G.c]+(G.c<3?", "+GP[L][G.p].toLowerCase():""))}
+function chipsFrom(sel,arr,fn,multi){const c=$(sel);c.innerHTML=arr.map((x,i)=>'<button type="button" data-v="'+i+'" aria-pressed="'+fn(i)+'">'+x+'</button>').join("")}
+function buildGuide(){
+ chipsFrom("#gc",GC[L],i=>G.c===i);chipsFrom("#gp",GP[L],i=>G.p===i);chipsFrom("#gw",GW[L],i=>G.w.includes(i));
+ $$("#gp button").forEach(b=>b.disabled=G.c===3);$("#gpw").hidden=G.c===3;
+ $$("#gc button").forEach(b=>b.onclick=()=>{G.c=+b.dataset.v;if(G.o===1&&G.c===3)G.o=GOR[3][0];G.edited=false;refreshGuide()});
+ $$("#gp button").forEach(b=>b.onclick=()=>{G.p=+b.dataset.v;G.edited=false;refreshGuide()});
+ $$("#gw button").forEach(b=>b.onclick=()=>{const v=+b.dataset.v,i=G.w.indexOf(v);if(i<0)G.w.push(v);else G.w.splice(i,1);G.edited=false;refreshGuide()});
+ const tg=$("#gplain");tg.setAttribute("aria-pressed",G.plain);tg.textContent=G.plain?t("g_ov")+" "+goName(G.o):t("g_ov")+" "+t("g_none");tg.onclick=()=>{G.plain=!G.plain;buildGuide()};
+ const ord=GOR[G.c];
+ $("#gtabs").innerHTML=ord.map((oi,r)=>'<button type="button" role="tab" id="gt'+oi+'" aria-selected="'+(G.o===oi)+'" aria-controls="gpanel" tabindex="'+(G.o===oi?0:-1)+'" data-o="'+oi+'">'+'<svg class="i" viewBox="0 0 24 24"><path d="'+ICO[GO[oi].ic]+'"/></svg>'+'<span>'+goName(oi)+'</span>'+(r<2?'<em>'+t("g_often")+'</em>':'')+'</button>').join("");
+ $$("#gtabs button").forEach(b=>{b.onclick=()=>{G.o=+b.dataset.o;G.edited=false;buildGuide()};b.onkeydown=e=>{const bs=$$("#gtabs button"),i=bs.indexOf(b);let j=null;if(e.key==="ArrowRight")j=(i+1)%bs.length;else if(e.key==="ArrowLeft")j=(i-1+bs.length)%bs.length;if(j!==null){e.preventDefault();G.o=+bs[j].dataset.o;G.edited=false;buildGuide();$("#gt"+G.o).focus()}}});
+ const op=GO[G.o],d=op[L],w=G.w,mt=w.filter(i=>op.at[i]).length;
+ $("#gpanel").setAttribute("aria-labelledby","gt"+G.o);
+ $("#gpanel").innerHTML='<h3>'+d[0]+'</h3><p class="gdesc">'+d[1]+'</p>'+
+  (w.length?'<div class="gmt"><span><b>'+mt+'</b> '+t("g_of")+' '+w.length+' '+t("g_pref")+' · '+t("g_match")+'</span><i><s style="width:'+(mt/w.length*100)+'%"></s></i></div>':'')+
+  '<div class="glab">'+t("g_con")+'</div><ul class="gul">'+d[2].map(x=>'<li>'+x+'</li>').join("")+'</ul>'+
+  (G.o===1&&G.c===3?'<p class="gwarn">'+t("g_nb")+'</p>':'')+
+  '<div class="gpr"><span class="glab" style="margin:0">'+t("g_pr")+'</span><span>'+d[3]+(G.o===2?' <span class="chk">✎</span>':'')+'</span></div>';
+ $("#gnote").innerHTML='<b>'+t("g_note")+'</b> '+GNOTE.c[L][G.c]+(G.c<3?" "+GNOTE.p[L][G.p]:"");
+ $("#gst").innerHTML=GST[L].map((s,i)=>'<li><span>'+(i+1)+'</span><div><b>'+s[0]+'</b>'+s[1]+'</div></li>').join("");
+ $("#gqs").innerHTML=GQ[L].map((q,i)=>'<button type="button" data-v="'+i+'" aria-pressed="'+G.qs.includes(i)+'">'+q+'</button>').join("");
+ $$("#gqs button").forEach(b=>b.onclick=()=>{const v=+b.dataset.v,i=G.qs.indexOf(v);if(i<0)G.qs.push(v);else G.qs.splice(i,1);G.edited=false;buildGuide()});
+ drawGuide();composeG()}
+function refreshGuide(){buildGuide();const gm=$("#gmsgbox");if(gm){gm.classList.remove("flash");void gm.offsetWidth;gm.classList.add("flash")}}
+function composeG(){const m=$("#gbub");if(!m)return;
+ const wl=G.w.slice().sort().map(i=>GW[L][i].toLowerCase()).join(", "),ql=G.qs.slice().sort().map(i=>GQ[L][i]);
+ const v=t("w_g1")+GC[L][G.c].toLowerCase()+(G.c<3?t("w_g2")+GP[L][G.p].toLowerCase():"")+t("w_g3")+goName(G.o)+(wl?t("w_g4")+wl:"")+". "+(ql.length?t("w_g5")+ql.join(" ")+" ":"")+t("w_g6");
+ if(!G.edited)m.value=v;$("#grst").hidden=!G.edited;fit(m);$("#gsend").href=wa(m.value)}
+$("#gbub").oninput=()=>{G.edited=true;$("#grst").hidden=false;fit($("#gbub"));$("#gsend").href=wa($("#gbub").value)};
+$("#grst").onclick=()=>{G.edited=false;composeG()};
+$("#gcopy").onclick=()=>copyText($("#gbub").value,()=>{const s=$("#gcopy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+
+/* ================= LAYANAN — kartu yang bisa disaring & dibuka ================= */
+const SV={cat:"all",q:"",open:-1};
+function svMatch(s){const n=s[3][L];const h=(n[0]+" "+n[1]+" "+n[2].join(" ")).toLowerCase();return(SV.cat==="all"||s[2]===SV.cat)&&(!SV.q||h.includes(SV.q.toLowerCase()))}
+function buildSvc(){
+ $("#svcats").innerHTML=CATS.map(([k,o])=>'<button type="button" data-k="'+k+'" aria-pressed="'+(SV.cat===k)+'">'+o[L]+'<i>'+SVC.filter(s=>k==="all"||s[2]===k).length+'</i></button>').join("");
+ $$("#svcats button").forEach(b=>b.onclick=()=>{SV.cat=b.dataset.k;SV.open=-1;buildSvc()});
+ $("#svq").placeholder=t("sv_s");$("#svq").setAttribute("aria-label",t("sv_s"));
+ const list=SVC.map((s,i)=>[s,i]).filter(([s])=>svMatch(s));
+ $("#svn").textContent=list.length+" "+t("sv_n");
+ $("#svc").innerHTML=list.length?list.map(([s,i],r)=>{const d=s[3][L],o=SV.open===i,pr=s[4]!==null?PRL[s[4]]:null,cat=CATS.find(c=>c[0]===s[2])[1][L];
+  return '<article class="svc'+(o?' open':'')+'" style="--d:'+(r*45)+'ms"><button type="button" class="svh" id="svh'+i+'" aria-expanded="'+o+'" aria-controls="svp'+i+'" data-i="'+i+'"><span class="n">'+String(i+1).padStart(2,"0")+'</span><svg class="g" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+ICO[s[1]]+'"/></svg><span class="tt"><b>'+d[0]+'</b><small>'+cat+'</small></span><span class="sd">'+d[1]+'</span><span class="more"><span>'+(o?t("sv_close"):t("sv_open"))+'</span><i aria-hidden="true"></i></span></button>'+
+  '<div class="svp" id="svp'+i+'" role="region" aria-labelledby="svh'+i+'"><div class="svi"><div class="cols"><div><h4>'+t("sv_for")+'</h4><ul>'+d[2].map(x=>'<li>'+x+'</li>').join("")+'</ul></div><div><h4>'+t("sv_vis")+'</h4><ol>'+d[3].map(x=>'<li>'+x+'</li>').join("")+'</ol></div><div><h4>'+t("sv_ask")+'</h4><ul class="q">'+d[4].map(x=>'<li>'+x+'</li>').join("")+'</ul></div></div>'+
+  '<div class="sva">'+(pr?'<a class="prc" href="#harga">'+ic("tag")+t("sv_pr")+': '+rp(pr[0])+' – '+rp(pr[1])+' <span class="chk">✎</span></a>':'')+'<a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="'+wa(t("w_q")+t("sv_wq")+d[0]+". "+t("w_k3"))+'">'+ic("wa")+t("sv_wa")+'</a></div></div></div></article>'}).join(""):'<p class="svempty">'+t("sv_empty")+'</p>';
+ $$("#svc .svh").forEach(b=>b.onclick=()=>{const i=+b.dataset.i;SV.open=SV.open===i?-1:i;buildSvc();const x=$("#svh"+SV.open);if(x){x.focus({preventScroll:true});if(!RM&&mob())x.scrollIntoView({behavior:"smooth",block:"start"})}else{const y=$("#svh"+i);if(y)y.focus({preventScroll:true})}});
+}
+$("#svq").oninput=e=>{SV.q=e.target.value.trim();SV.open=-1;buildSvc()};
+
+/* ================= HARGA PEMBANDING ================= */
+function buildPrice(){const lo=Math.log(2e5),hi=Math.log(2.5e7),pp=v=>((Math.log(v)-lo)/(hi-lo)*100).toFixed(1);
+ $("#prl").innerHTML=PRL.map(([a,b,o])=>'<div class="prw"><span>'+o[L][0]+'<small>'+o[L][1]+'</small></span><b><small>'+t("from")+'</small>'+rp(a)+' – '+rp(b)+'</b><i class="rg" aria-hidden="true"><s style="left:'+pp(a)+'%;width:'+Math.max(2.5,pp(b)-pp(a)).toFixed(1)+'%"></s></i></div>').join("");
+ $("#psl").innerHTML=(L==="id"?["Angka hanya pembanding dari klinik lain, bukan tarif VDC","Rincian biaya dijelaskan sebelum perawatan","Tanya dulu lewat WhatsApp, tanpa harus datang"]:["Figures are only comparisons from other clinics, not VDC's prices","Costs explained before treatment","Ask on WhatsApp first, no visit needed"]).map(x=>'<li>'+x+'</li>').join("")}
+
+/* ================= DOKTER + FASILITAS + ALUR ================= */
+function av(i,g,ghost){const sk=["#e6c2a2","#c8946f","#f0d0b4"][i%3],hr=["#2a1e18","#3b2a20","#1d1a18"][i%3],bg=["#fbeee3","#f6e6ee","#fdf1dc"][i%3];
+ const hair=g==="f"?'<path d="M34 44c-2-16 8-26 26-26s28 10 26 26c-1 6 0 16 3 22-8 2-12-4-13-12-3-8-10-12-16-12s-13 4-16 12c-1 8-5 14-13 12 3-6 4-16 3-22z" fill="'+hr+'"/>':'<path d="M36 46c-1-17 9-26 24-26s25 9 24 26c-3-6-9-10-12-11-7 4-18 5-27 2-4 2-7 5-9 9z" fill="'+hr+'"/>';
+ const op=ghost?' opacity=".45"':'';
+ return '<svg viewBox="0 0 120 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="96" fill="'+bg+'"/><use href="#i-vdc" x="76" y="6" width="30" height="30" opacity=".5"/><g'+op+'><path d="M22 96c2-18 16-28 38-28s36 10 38 28z" fill="#fff"/><path d="M50 70l10 14 10-14" fill="none" stroke="#3b1648" stroke-width="3"/><path d="M47 69c4 6 9 9 13 9s9-3 13-9" fill="#f08a4b" opacity=".3"/><rect x="53" y="58" width="14" height="14" rx="6" fill="'+sk+'"/><ellipse cx="60" cy="44" rx="17" ry="20" fill="'+sk+'"/>'+hair+'<circle cx="53.5" cy="46" r="1.6" fill="#2a1e18"/><circle cx="66.5" cy="46" r="1.6" fill="#2a1e18"/><path d="M55 54c3 2 7 2 10 0" fill="none" stroke="#8c5a44" stroke-width="1.6" stroke-linecap="round"/><path d="M78 82c4 0 6 4 6 8" fill="none" stroke="#f08a4b" stroke-width="2"/><circle cx="84" cy="92" r="3" fill="#f08a4b"/></g></svg>'}
+function buildDocs(){$("#dg").innerHTML=DR.map((d,i)=>{
+ const msg=d.real?t("w_doc")+d.n+" — VDC Valerio Dental Care, Jl. Gajah. "+t("w_k3"):t("w_docq");
+ return '<article class="dc'+(d.real?'':' ph0')+'"><div class="ph">'+av(i,d.g,!d.real)+'<span class="il">'+t("d_ill")+'</span></div><div class="bd"><span class="loc">JL. GAJAH</span><h3>'+(d.real?d.n+' <span class="chk">✎</span>':t("d_unk"))+'</h3><p>'+(d.real?t("d_sp"):t("d_sp2"))+' <span class="chk">✎</span></p><a href="'+wa(msg)+'" target="_blank" rel="noopener">'+(d.real?t("d_book"):t("d_ask"))+' '+ic("ar")+'</a></div></article>'}).join("")+
+ '<article class="dc info"><div class="bd"><span class="loc">PROSTODONSIA</span><h3>'+t("d_pr_h")+'</h3><p>'+t("d_pr_p")+'</p><a href="#ganti">'+t("d_pr_l")+' '+ic("ar")+'</a></div></article>';
+ $("#fas").innerHTML=FAS.map(([k,o,v])=>'<div class="fc"><svg class="i"><use href="#i-'+k+'"/></svg><b>'+o[L][0]+'</b><span>'+o[L][1]+(v?' <span class="chk">✎</span>':'')+'</span></div>').join("");
+ $("#flow").innerHTML='<div class="flh"><h3>'+t("fl_h")+'</h3><span>'+t("fl_n")+'</span></div><ol>'+FLOW[L].map((f,i)=>'<li><span class="fn">'+(i+1)+'</span><b>'+f[0]+'</b><span>'+f[1]+'</span></li>').join("")+'</ol>'}
+
+/* ================= LOKASI ================= */
+let LB="gjh",mapOn=false;
+function buildLoc(){$("#tabs").innerHTML=BR.map(b=>'<button type="button" role="tab" data-k="'+b.k+'" aria-selected="'+(LB===b.k)+'"><i>'+b.no+'</i>'+b.n+'</button>').join("");
+ $$("#tabs button").forEach(x=>x.onclick=()=>{LB=x.dataset.k;buildLoc();if(mapOn)loadMap()});
+ const b=BR.find(x=>x.k===LB),s=bst(b),{day}=wib();
+ const hrs='<div class="hrs">'+[1,2,3,4,5,6,0].map(d=>'<div class="'+(d===day?"td":"")+(b.hd[d]?"":" cl")+'">'+t("days_s")[d]+'<small>'+(b.hd[d]?String(b.hd[d][0]).padStart(2,"0")+'–'+b.hd[d][1]:t("closed"))+'</small></div>').join("")+'</div>';
+ $("#linfo").innerHTML='<div><span class="stn" style="margin-bottom:6px"><b>'+b.no+'</b>VDC Valerio Dental Care</span><h3>'+b.n+', Bandung</h3><p class="st '+s.c+'" style="display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-top:6px;color:var(--muted)"><i class="dot"></i>'+s.tx+'</p></div>'+
+  '<div class="lrow">'+ic("pin")+'<span><small>'+t("a_adr")+'</small>'+b.a+'<br><button type="button" id="cpa" style="font-weight:800;color:var(--cy-t);font-size:13px;min-height:36px;text-decoration:underline;text-underline-offset:3px">'+t("cp_a")+'</button></span></div>'+
+  '<div class="lrow">'+ic("clock")+'<span style="flex:1;min-width:0"><small>'+t("a_hrs")+' <span class="chk">✎</span></small>'+hrs+'</span></div>'+
+  '<div class="lrow">'+ic("phone")+'<span><small>'+t("a_tel")+' <span class="chk">✎</span></small><a href="tel:'+b.th+'" style="font-weight:700;text-decoration:underline">'+b.tel+'</a><br><small style="margin-top:6px">'+t("a_wa")+' <span class="chk">✎</span></small><a href="https://wa.me/'+WA+'" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline">+62 821-2921-8400</a></span></div>'+
+  '<div class="lbtns"><a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="'+wa(t("w_br")+t("w_k3"))+'">'+ic("wa")+'WhatsApp</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="'+b.maps+'">Google Maps ↗</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q='+encodeURIComponent(b.q)+'&navigate=yes">Waze ↗</a></div>';
+ $("#cpa").onclick=()=>copyText(b.a,()=>gtoast(t("copied_a")));
+ $("#fbr").innerHTML=BR.map(b=>'<li><a href="#lokasi">'+b.a+'</a></li>').join("")}
+function loadMap(){mapOn=true;const b=BR.find(x=>x.k===LB);$("#map").innerHTML='<iframe loading="lazy" title="Google Maps — VDC Valerio Dental Care '+b.n+'" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q='+encodeURIComponent(b.q)+'&z=16&output=embed"></iframe>'}
+$("#mapBtn").onclick=loadMap;
+if("IntersectionObserver" in window){const mo=new IntersectionObserver(e=>{if(e[0].isIntersecting){loadMap();mo.disconnect()}},{rootMargin:"200px"});mo.observe($("#map"))}
+
+/* ================= FAQ ================= */
+function buildFaq(){$("#fql").innerHTML=FAQ[L].map((q,i)=>'<details'+(i===0?" open":"")+'><summary>'+q[0]+'<i aria-hidden="true"></i></summary><p>'+q[1]+([0,1].includes(i)?' <span class="chk">'+t("chk")+'</span>':'')+'</p></details>').join("")}
+
+/* ================= FAB + progres scroll + reveal ================= */
+if("IntersectionObserver" in window){const seen=new Set();const fo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?seen.add(e.target):seen.delete(e.target));$("#fab").classList.toggle("hide",seen.size>0)});[$("#hcta"),$(".close"),$("#gmsgbox"),$("#res"),$("#linfo")].forEach(x=>fo.observe(x))}
+const spb=$("#sp");addEventListener("scroll",()=>{const h=document.documentElement.scrollHeight-innerHeight;spb.style.transform="scaleX("+(h>0?Math.min(1,scrollY/h):0).toFixed(3)+")"},{passive:true});
+if("IntersectionObserver" in window&&!RM){const rvo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rvo.unobserve(e.target)}}),{threshold:.08,rootMargin:"0px 0px -6% 0px"});
+ $$(".shd,.proof,.console,.gd,.gmsg,.svf,.pr,.dg,.fg,.flow,.lg,.fq>*,.close").forEach(x=>{x.classList.add("rv");rvo.observe(x)})}
+
+/* ================= MASKOT BAKTERI (cadangan bila 3D tidak termuat) ================= */
+let mascotN=0;
+function showFB(){document.getElementById("fb").style.display="block";const st=document.getElementById("stage");st.classList.add("flat");document.getElementById("zap").classList.add("on")}
+$$(".mb").forEach(b=>b.onclick=()=>{if(b.classList.contains("gone"))return;b.classList.add("gone");const z=$("#zapc");mascotN++;if(z){z.textContent=mascotN;z.parentNode.classList.remove("pop");void z.offsetWidth;z.parentNode.classList.add("pop")}gtoast(L==="id"?"Bakteri terusir!":"Bacterium cleared!");setTimeout(()=>b.classList.remove("gone"),2400)});
+
+applyLang();
+</script>
+<script>
+/* ================= HERO 3D — gigi Sozo + cincin nama + emblem logo + bakteri (Three.js r128, lazy) ================= */
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{showFB()};document.head.appendChild(s)});
+function init3d(){
+ const stage=document.getElementById("stage");let R;
+ try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){showFB();return}
+ R.setPixelRatio(Math.min(devicePixelRatio,2));stage.appendChild(R.domElement);document.getElementById("zap").classList.add("on");
+ const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+ const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+ const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+ const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+ const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+ const NAVY=0x3b1648,CY=0xf08a4b;
+
+ /* tooth — smooth & rounded like the Sozo logo */
+ const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.28,metalness:.04});
+ const tooth=new THREE.Group();
+ const cg=new THREE.SphereGeometry(1.2,56,40),p=cg.attributes.position;
+ for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.08;v.z*=.9;
+  if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.72+.12*Math.cos(2*th)*(r/1.2)-.22*Math.max(0,1-r/.6)}else v.y*=.6;p.setXYZ(i,v.x,v.y,v.z)}
+ cg.computeVertexNormals();const crown=new THREE.Mesh(cg,mat);crown.position.y=.55;tooth.add(crown);
+ [-1,1].forEach(sd=>{const rg=new THREE.CylinderGeometry(.46,.16,1.9,32,6);const rp=rg.attributes.position;for(let i=0;i<rp.count;i++){v.fromBufferAttribute(rp,i);const k=(v.y+.95)/1.9;v.x+=sd*(1-k)*.12;rp.setXYZ(i,v.x,v.y,v.z)}rg.computeVertexNormals();
+  const m=new THREE.Mesh(rg,mat);m.position.set(sd*.5,-.7,0);m.rotation.z=sd*.08;tooth.add(m)});
+ // cyan glint (the white stroke in the logo, turned into a highlight arc)
+ const gl=new THREE.Mesh(new THREE.TorusGeometry(.72,.05,10,40,1.4),new THREE.MeshBasicMaterial({color:CY}));gl.position.set(-.18,.95,.98);gl.rotation.set(-.35,.1,1.7);tooth.add(gl);
+ tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.05);sc.add(tooth);
+
+ /* text ring + orbiting emblem */
+ const RING=2.0,SHIELD=2.08;
+ const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+ function bandTexture(){const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+  x.font="700 40px Fraunces, Georgia, serif";x.fillStyle="#3b1648";x.textBaseline="middle";
+  const unit="VDC VALERIO DENTAL CARE   ●   JL. GAJAH · BANDUNG   ●   ";
+  const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+  x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+  x.fillStyle="#f08a4b";x.fillRect(0,4,c.width,4);x.fillRect(0,c.height-8,c.width,4);
+  const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+ const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+ const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+ const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+ ring.add(new THREE.Mesh(bandGeo,bandBack),new THREE.Mesh(bandGeo,bandFront));
+ const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+ setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+ const EMB='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="96" fill="#fff"/><circle cx="100" cy="100" r="88" fill="none" stroke="#3b1648" stroke-width="7"/><g transform="translate(58 36) scale(1.2)"><path d="M32 5c-5 0-9 3-14 3C9 8 3 12 3 22c0 7 3 11 4 19 1 9 2 23 8 23 5 0 5-9 7-15 1-4 4-6 10-6s9 2 10 6c2 6 2 15 7 15 6 0 7-14 8-23 1-8 4-12 4-19 0-10-6-14-15-14-5 0-9-3-14-3z" fill="#f08a4b"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/></g><text x="100" y="150" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-weight="800" font-size="34" fill="#3b1648" letter-spacing="2">VDC</text></svg>';
+ const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+ logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;c.getContext("2d").drawImage(logoImg,0,0,512,512);logoTex.image=c;logoTex.needsUpdate=true};
+ logoImg.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(EMB);
+ const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+ const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,2),new THREE.MeshBasicMaterial({color:CY,wireframe:true,transparent:true,opacity:.05,depthWrite:false}));sc.add(shell);
+ const ripples=[],rippleGeo=new THREE.RingGeometry(.12,.17,40);let flash=0;
+ function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:CY,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+  m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+
+ /* bacteria — varied shapes */
+ const ink=new THREE.MeshStandardMaterial({color:NAVY,roughness:.45,metalness:.1});
+ const cyan=new THREE.MeshStandardMaterial({color:CY,roughness:.35,metalness:.2});
+ const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,2),m);
+ const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,6,false),m);
+ const eyeW=new THREE.MeshBasicMaterial({color:0xffffff}),eyeD=new THREE.MeshBasicMaterial({color:0x27102f});
+ function eyes(g,z){[-1,1].forEach(s=>{const e=new THREE.Mesh(new THREE.SphereGeometry(.05,12,10),eyeW);e.position.set(s*.07,.05,z);g.add(e);const p=new THREE.Mesh(new THREE.SphereGeometry(.026,10,8),eyeD);p.position.set(s*.07,.05,z+.035);g.add(p)})}
+ const MAKERS=[
+  m=>{const g=new THREE.Group();g.add(ball(.17,m));eyes(g,.14);for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,cyan);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g},
+  m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});eyes(g,.1);return g},
+  m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g},
+  m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g},
+  m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,12),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+   const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,cyan,30));return g},
+  m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)},
+  m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+   const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,cyan,20));return g}];
+ const bugs=[];
+ function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+  b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+ const N=innerWidth<700?7:10;
+ for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length](i%4===3?cyan:ink);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+ const bits=[],bitGeo=new THREE.TetrahedronGeometry(.045);
+ function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?cyan:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+ sc.add(new THREE.HemisphereLight(0xffffff,0xf1dcd0,.95));
+ const k=new THREE.DirectionalLight(0xffffff,.85);k.position.set(3,4,5);sc.add(k);
+ const c2=new THREE.PointLight(CY,1,14);c2.position.set(-3,-1,3);sc.add(c2);
+ function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+ let mx=0,my=0,vis=true,drag=null,yaw=0,vy=0,cleared=0;
+ const ray=new THREE.Raycaster(),ndc=new THREE.Vector2(),zap=document.getElementById("zapc");
+ function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+  const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+ addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+ cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+ cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+ cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+ addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+  if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+   setTimeout(()=>spawn(b,false),1600)}}});
+ new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+ const clk=new THREE.Clock();let emA=0;
+ (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+  if(!reduce){
+   if(!drag){yaw+=vy;vy*=.94}
+   tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+   ring.rotation.y-=dt*.35;emA+=dt*.55;
+   if(bandFront.map)bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1;
+   emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+   const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+   shell.rotation.y+=dt*.05;
+   bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+    if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+    if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+    u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+    const d=b.position.length();
+    if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+    if(d>3.8)spawn(b,false);
+    b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+  }else{emblem.position.set(0,0,RING+.02)}
+  for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+  for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+  flash*=.9;shell.material.opacity=.05+flash*.1;
+  R.render(sc,cam)})();
+}
+</script>
+</body>
 </html>
