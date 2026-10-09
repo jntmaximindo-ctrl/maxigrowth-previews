@@ -21,5 +21,6 @@ Setelah commit, WAJIB `git push origin HEAD:<branch PR tempat kamu dipanggil>`.
 
 <!-- BELAJAR:MULAI (otomatis, jangan diedit manual) -->
 ## Kesalahan yang sering terjadi (dipelajari otomatis dari cek gagal — WAJIB dihindari)
+- [riset] Hindari:  (terjadi di 2 klinik)
 - [rakit] Hindari:  (terjadi di 2 klinik)
 <!-- BELAJAR:SELESAI -->
