@@ -1,0 +1,29 @@
+== token
+True active []
+== workers scripts
+True [('maxigrowth', '2026-09-24T03:27:24.795103Z')] []
+== worker maxigrowth settings
+True {'bindings': [], 'compatibility_date': '2026-09-24', 'usage_model': 'standard', 'placement': {}} []
+== workers custom domains
+True [('maxigrowthstudio.com', 'maxigrowth', 'production')] None
+== zones
+True [('029d65544fede2d11a12520f280605da', 'maxigrowthstudio.com', 'active')] []
+== worker routes
+True [] []
+== dns
+False [] [{'code': 10000, 'message': 'Authentication error', 'documentation_url': 'https://developers.cloudflare.com/api/resources/dns/subresources/records/methods/list'}]
+== pages project
+True maxigrowth-previews.pages.dev ['maxigrowth-previews.pages.dev'] None []
+== atabara header
+HTTP/2 200 
+date: Fri, 09 Oct 2026 09:27:10 GMT
+content-type: text/html
+cf-cache-status: HIT
+cache-control: public, max-age=0, must-revalidate
+x-robots-tag: noindex, nofollow
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XjxuCzsUx003TulqgBLp%2BFQzKXFSSgb1i3RncskHoRid9Tsk9vZ15Kn56Nyvrz8gRTW2FjEi4jPaJAO4SzZQg9ZlJob%2BaHGD07VTEm33MbiVUMY%2Fpw7UElVnHg4yKwk%2FKkSi%2B2y31w%3D%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a47c5914fb21e615-IAD
+alt-svc: h3=":443"; ma=86400
+
