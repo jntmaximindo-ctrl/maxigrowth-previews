@@ -354,6 +354,22 @@ def _():
     assert len(pathlib.Path("/tmp/cari-arsip.txt").read_text().split()) == 2
 
 
+@uji("#25 perintah jembatan dengan variable terlarang tidak boleh mengubah file sama sekali; hasil CARI tipis tidak boleh menandai kota habis")
+def _():
+    d = salin(); m = modul(d, "jembatan")
+    (d / "docs").mkdir(); (d / "docs" / "x.txt").write_text("a")
+    cmd = d / "cmd"; cmd.mkdir()
+    (cmd / "1.json").write_text(json.dumps({"id": "1", "ganti": {"docs/x.txt": [["a", "b"]]}, "variabel": {"JAHAT": "1"}}))
+    m.terapkan(str(cmd))
+    assert (d / "docs" / "x.txt").read_text() == "a", "file berubah walau perintah gagal"
+    c = modul(d, "cari_chat"); c.ROOT = d
+    i = d / "in2"; i.mkdir()
+    (i / "CARI-x-1_hasil.json.md").write_text(json.dumps({"kota": "Kotax", "habis": True, "klinik": [{"nama": "A", "rating": 4.8, "ulasan": 150}]}))
+    c.ingest(str(i))
+    h = list((d / "sourcing").glob("kotax-*/hasil.json"))[0]
+    assert json.loads(h.read_text())["habis"] is False
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

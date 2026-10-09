@@ -36,6 +36,8 @@ def ingest(src):
         except Exception as e:
             print(f"❌ {f.name}: {e}")
             continue
+        if len(d["klinik"]) < 10 and d.get("habis"):  # kota tidak boleh ditandai habis dari hasil tipis (pekerja berhenti cepat)
+            d["habis"] = False
         dest = ROOT / "sourcing" / f"{slug(d['kota'])}-{time.strftime('%Y%m%d%H%M%S', time.gmtime())}{ok}"
         dest.mkdir(parents=True, exist_ok=True)
         (dest / "hasil.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")

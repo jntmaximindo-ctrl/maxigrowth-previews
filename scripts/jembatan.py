@@ -70,6 +70,9 @@ def terapkan(folder):
             for p, isi in (cmd.get("tulis") or {}).items():
                 p, full = aman(p)
                 valid(p, isi)  # sintaks salah → perintah ditolak utuh, repo tidak disentuh
+            for k in (cmd.get("variabel") or {}):  # pelajaran #25: validasi variable SEBELUM menulis apa pun
+                if k not in VAR_BOLEH:
+                    raise ValueError(f"variable {k} tidak diizinkan")
             ganti = {}
             for p, pasangan in (cmd.get("ganti") or {}).items():  # edit kecil: [[teks_lama, teks_baru], ...]
                 p, full = aman(p)
