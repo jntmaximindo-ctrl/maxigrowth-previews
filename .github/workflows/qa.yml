@@ -21,6 +21,7 @@ jobs:
           [ -z "$files" ] && files=$(ls batches/*/*/site/index.html 2>/dev/null)
           for f in $files; do
             d=$(dirname $(dirname $f))
+            mkdir -p "$d/qa"
             set +e
             node scripts/qa.mjs "$f" "$d/qa" > "$d/qa/ringkas.txt" 2>&1; a=$?
             python scripts/lint_permenkes.py "$f" >> "$d/qa/ringkas.txt" 2>&1; b=$?
