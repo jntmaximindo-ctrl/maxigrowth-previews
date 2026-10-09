@@ -1,6 +1,6 @@
 name: cf-inspect
 on: workflow_dispatch
-permissions: { contents: read }
+permissions: { contents: write }
 jobs:
   inspect:
     runs-on: ubuntu-latest
@@ -8,8 +8,10 @@ jobs:
       T: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       A: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
+      - uses: actions/checkout@v4
       - name: Periksa Cloudflare (read-only, tanpa mencetak rahasia)
         run: |
+          exec > >(tee data/cf-inspect.txt) 2>&1
           api(){ curl -s -H "Authorization: Bearer $T" "https://api.cloudflare.com/client/v4/$1"; }
           echo "== token"; api user/tokens/verify | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),d.get('result',{}).get('status'),d.get('errors'))"
           echo "== workers scripts"; api accounts/$A/workers/scripts | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[ (s['id'],s.get('modified_on')) for s in d.get('result',[]) ],d.get('errors'))"
@@ -20,3 +22,7 @@ jobs:
           [ -n "$Z" ] && { echo "== worker routes"; api zones/$Z/workers/routes | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(x.get('pattern'),x.get('script')) for x in (d.get('result') or [])],d.get('errors'))"; echo "== dns"; api "zones/$Z/dns_records?per_page=50" | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('success'),[(x['type'],x['name'],x['content'][:40],x.get('proxied')) for x in (d.get('result') or [])],d.get('errors'))"; }
           echo "== pages project"; api accounts/$A/pages/projects/maxigrowth-previews | python3 -c "import json,sys;d=json.load(sys.stdin);r=d.get('result') or {};print(d.get('success'),r.get('subdomain'),r.get('domains'),(r.get('source') or {}).get('type'),d.get('errors'))"
           echo "== atabara header"; curl -sI https://maxigrowthstudio.com/atabara/ | head -12
+      - name: Simpan hasil
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/cf-inspect.txt && git commit -qm "cf-inspect: hasil" && for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 4; done
