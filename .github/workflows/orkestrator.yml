@@ -251,7 +251,7 @@ jobs:
           python3 scripts/sourcing.py known
           python3 scripts/sourcing.py mark-diminta "$SLUG"
           echo "$SLUG|$KOTA|$NEGARA" > /tmp/cari.txt
-      - name: 4b · Intake otomatis (maks 20 klinik/hari, hanya bila antrean riset sepi)
+      - name: 4b · Intake otomatis (maks 200 klinik/hari, hanya bila klinik aktif < 30)
         env:
           GH_TOKEN: ${{ github.token }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
