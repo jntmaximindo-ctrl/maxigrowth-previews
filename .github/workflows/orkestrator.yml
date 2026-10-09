@@ -204,7 +204,8 @@ jobs:
             [ -f "$d/job.json" ] || { echo "$k: tanpa job.json" >> /tmp/2e.log; continue; }
             if rclone lsf "bus:01 Antrean Riset" --include "${k}_riset*" | grep -q .; then echo "$k: surat sudah ada di 01" >> /tmp/2e.log; continue; fi
             if rclone lsf "bus:02 Hasil Riset" --include "${k}_riset.json*" | grep -q .; then echo "$k: riset ada di 02" >> /tmp/2e.log; continue; fi
-            if rclone lsf root: --max-depth 1 --include "${k}_riset.json*" | grep -q .; then echo "$k: riset ada di root" >> /tmp/2e.log; continue; fi
+            RT=$(rclone lsf root: --max-depth 1 --files-only --include "/${k}_riset.json*" 2>/dev/null || true)
+            if [ -n "$RT" ]; then echo "$k: riset ada di root: $RT" >> /tmp/2e.log; continue; fi
             echo "$k: membuat surat" >> /tmp/2e.log
             {
               echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "$d/job.json"; echo
