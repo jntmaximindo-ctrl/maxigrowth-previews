@@ -309,6 +309,12 @@ def _():
     assert r.returncode == 0 and "SEMUA SLOT NONAKTIF" in r.stdout, r.stdout + r.stderr
 
 
+@uji("#21 klinik 'Menunggu cek fakta' yang risetnya dari Codex otomatis disediakan ke folder 02 untuk GPT-B")
+def _():
+    t = (ROOT / ".github/workflows/orkestrator.yml").read_text()
+    assert "2d · Bus GPT · Sediakan riset hasil Codex untuk GPT-B" in t and "_riset.json.md" in t and "Menunggu cek fakta" in t, "langkah 2d hilang dari orkestrator.yml"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

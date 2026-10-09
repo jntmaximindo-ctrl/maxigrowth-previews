@@ -182,6 +182,19 @@ jobs:
               rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset.txt" -v
             fi
           done < bus-actions.txt
+      - name: 2d · Bus GPT · Sediakan riset hasil Codex untuk GPT-B (pelajaran #21)
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          # GPT-B hanya membaca "02 Hasil Riset" di Drive. Riset yang dikerjakan Codex (failover) tidak pernah masuk ke sana → GPT-B tidak melihatnya.
+          for st in batches/B*/*/status.json; do
+            d=$(dirname "$st"); [ -f "$d/riset.json" ] || continue
+            grep -q '"Menunggu cek fakta"' "$st" || continue
+            [ -f "$d/cekfakta.json" ] && continue
+            k="$(basename "$(dirname "$d")")-$(basename "$d")"
+            if rclone lsf "bus:02 Hasil Riset" --include "${k}_riset.json*" | grep -q .; then continue; fi
+            if rclone lsf "bus:03 Hasil Cek Fakta" --include "${k}_cekfakta.json*" | grep -q .; then continue; fi
+            rclone copyto "$d/riset.json" "bus:02 Hasil Riset/${k}_riset.json.md" -v || true
+          done
       - name: 2c · R&D fitur · ide dari GPT → library/fitur (+ katalog ke Drive untuk GPT)
         run: |
           mkdir -p /tmp/bus/fitur; rm -f /tmp/fitur-arsip.txt
