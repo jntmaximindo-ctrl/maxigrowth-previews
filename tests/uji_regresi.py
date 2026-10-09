@@ -209,6 +209,9 @@ def _():
 @uji("#15 Codex balas 'create an environment' → tidak dipanggil ulang, slot ditandai butuh_env + alarm [manusia]")
 def _():
     d = salin()
+    cfg = json.loads((d / "data/codex-pool.json").read_text())
+    cfg["slot"] = [x for x in cfg["slot"] if x["id"] == "A"]; cfg["slot"][0]["aktif"] = True  # satu-satunya slot
+    (d / "data/codex-pool.json").write_text(json.dumps(cfg))
     k = [{"author": {"login": "pemilik"}, "body": "@codex Kerjakan tugas", "createdAt": LAMA},
          {"author": {"login": "chatgpt-codex-connector"}, "body": "To use Codex here, [create an environment for this repo](https://chatgpt.com/codex/cloud/settings/environments).", "createdAt": BALAS}]
     aksi, st = jalankan_pindai(d, [pr(5, k), pr(6, k)])
@@ -216,6 +219,20 @@ def _():
     assert st["A"].get("butuh_env") and st["A"].get("gagal_berturut", 0) == 0, st
     log = (d / "pool" / "log.txt").read_text()
     assert log.startswith("[manusia]") and "#5–#6" in log and "settings/environments" in log, log
+
+
+@uji("#16 slot A butuh environment tapi slot B siap → PR dipanggil ulang ke B, hanya 1 PR per run sampai B terbukti")
+def _():
+    d = salin()
+    cfg = json.loads((d / "data/codex-pool.json").read_text())
+    for x in cfg["slot"]: x["aktif"] = True
+    (d / "data/codex-pool.json").write_text(json.dumps(cfg))
+    k = [{"author": {"login": "pemilik"}, "body": "@codex Kerjakan tugas", "createdAt": LAMA},
+         {"author": {"login": "chatgpt-codex-connector"}, "body": "To use Codex here, [create an environment for this repo](https://chatgpt.com/codex/cloud/settings/environments).", "createdAt": BALAS}]
+    aksi, st = jalankan_pindai(d, [pr(7, k), pr(8, k), pr(9, k)])
+    baris = [x for x in aksi.splitlines() if x.strip()]
+    assert len(baris) == 1 and baris[0].split("\t")[1] == "B", aksi
+    assert st["A"].get("butuh_env"), st
 
 
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")

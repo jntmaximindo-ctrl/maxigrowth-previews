@@ -17,6 +17,7 @@ OUT = pathlib.Path("/tmp/pool")
 JEDA_JAM = 5            # lama slot dianggap habis bila Codex tidak menyebut jam reset
 DIAM_MENIT = 75         # Codex diam (tanpa balasan & tanpa commit) selama ini → pindah slot
 TANPA_PUSH_MENIT = 30    # Codex membalas tapi tidak push selama ini → panggil ulang
+ENV_UJI_PER_RUN = 1     # panggilan ulang karena environment baru dibuat: 1 PR dulu sebagai uji
 MAKS_PANGGIL = 3        # total panggilan @codex per PR sebelum diserahkan ke Claude
 LIMIT_RE = re.compile(r"usage limit|reached your codex usage|out of codex|rate limit", re.I)
 GAGAL_RE = re.compile(r"couldn.t complete|environment setup failed|try again later", re.I)
@@ -86,6 +87,7 @@ def pindai():
     prs = json.loads(gh("pr", "list", "--state", "open", "--limit", "30", "--json",
                         "number,headRefName,createdAt,comments,commits") or "[]")
     aksi, log, dihitung, butuh_env = [], [], set(), {}
+    env_ulang = 0
     for p in prs:
         if not p["headRefName"].startswith("codex/"):
             continue
@@ -111,9 +113,20 @@ def pindai():
         if ENV_RE.search(balas) and not commit_baru:
             st.setdefault(slot, {})["butuh_env"] = st.get(slot, {}).get("butuh_env") or iso(now())
             st["_diproses"][key] = "butuh_env"
-            butuh_env.setdefault(slot, []).append(p["number"])
-            continue
-        if LIMIT_RE.search(balas):
+            # pelajaran #16: bila ada slot LAIN yang aktif & sudah punya environment, PR ini dipanggil ulang ke sana
+            # (diuji bertahap: maks ENV_UJI_PER_RUN per run sampai slot itu terbukti commit sekali)
+            siap = [x for x in slots if x["id"] != slot and sehat(x, st) and not st.get(x["id"], {}).get("butuh_env")]
+            if not siap:
+                butuh_env.setdefault(slot, []).append(p["number"])
+                continue
+            tujuan = siap[0]
+            if not st.get(tujuan["id"], {}).get("terbukti") and env_ulang >= ENV_UJI_PER_RUN:
+                continue  # sisanya menunggu run berikut, setelah uji pertama terbukti
+            env_ulang += 1
+            alasan = "butuh_env"
+        if alasan == "butuh_env":
+            pass
+        elif LIMIT_RE.search(balas):
             if baru and sehat({"id": slot}, st):  # tandai sekali per panggilan; jangan geser jam pulih yang sudah tercatat
                 st.setdefault(slot, {})["habis_sampai"] = iso(max(now(), t_balas + datetime.timedelta(hours=JEDA_JAM)))
             alasan = "limit"
@@ -133,15 +146,16 @@ def pindai():
         elif commit_baru:
             st.setdefault(slot, {})["gagal_berturut"] = 0
             st[slot].pop("butuh_env", None)
+            st[slot]["terbukti"] = True
         if not alasan:
             continue
         st["_diproses"][key] = alasan
-        if len(panggil) >= MAKS_PANGGIL:
+        if len(panggil) >= MAKS_PANGGIL and alasan != "butuh_env":
             log.append(f"PR #{p['number']}: sudah {len(panggil)}x dipanggil ({alasan}) → serahkan ke Claude")
             aksi.append(f"{p['number']}\t-\t-\tbutuh-claude")
             continue
         # utamakan akun lain; akun yang sama boleh lagi bila sudah pulih (limit) atau alasannya bukan limit
-        cand = [s for s in slots if sehat(s, st) and s["id"] != slot] or [s for s in slots if sehat(s, st)]
+        cand = [s for s in slots if sehat(s, st) and s["id"] != slot and not st.get(s["id"], {}).get("butuh_env")] or [s for s in slots if sehat(s, st) and not st.get(s["id"], {}).get("butuh_env")]
         if not cand:
             log.append(f"PR #{p['number']}: slot {slot} {alasan}, semua slot lain habis → tunggu")
             continue

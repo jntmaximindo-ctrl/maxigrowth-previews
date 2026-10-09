@@ -4,14 +4,14 @@
   {
    "id": "A",
    "secret": "CODEX_PAT_A",
-   "akun": "ChatGPT #3 · GitHub jntmaximindo-ctrl",
-   "aktif": true
+   "akun": "ChatGPT #3 (jnt9292) · NONAKTIF: belum punya environment Codex untuk repo ini",
+   "aktif": false
   },
   {
    "id": "B",
-   "secret": "CODEX_PAT_B",
-   "akun": "ChatGPT #2 · GitHub kedua (nonaktif sampai environment Codex akun ini disiapkan)",
-   "aktif": false
+   "secret": "CODEX_PAT_A",
+   "akun": "ChatGPT #2 (suharti) · terhubung ke GitHub jntmaximindo-ctrl, environment dibuat 9 Okt 2026 (komentar @codex memakai PAT jntmaximindo-ctrl)",
+   "aktif": true
   }
  ]
 }
