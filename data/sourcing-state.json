@@ -1,12 +1,23 @@
 {
-  "habis": [],
+  "habis": [
+    "bandung",
+    "jakarta-pusat",
+    "jakarta-selatan",
+    "jakarta-utara"
+  ],
   "applied": [
     "sourcing/bandung/hasil.json#6821a5417f",
     "sourcing/bandung-202610092335090/hasil.json#75c19b0fab",
     "sourcing/jakarta-barat-202610092335091/hasil.json#8b799e00c8",
-    "sourcing/jakarta-timur-202610092335092/hasil.json#cbae443612"
+    "sourcing/jakarta-timur-202610092335092/hasil.json#cbae443612",
+    "sourcing/bandung-202610092347080/hasil.json#1e1606c391",
+    "sourcing/bandung-202610092347081/hasil.json#98692374a4",
+    "sourcing/jakarta-barat-202610092347082/hasil.json#1080fea745",
+    "sourcing/jakarta-pusat-202610092347083/hasil.json#c220a78641",
+    "sourcing/jakarta-selatan-202610092347084/hasil.json#feb0df0c3a",
+    "sourcing/jakarta-selatan-202610092347085/hasil.json#7505287924",
+    "sourcing/jakarta-timur-202610092347086/hasil.json#ce1e8c8f27",
+    "sourcing/jakarta-utara-202610092347087/hasil.json#af987d0564"
   ],
-  "diminta": [
-    "jakarta-selatan"
-  ]
+  "diminta": []
 }
