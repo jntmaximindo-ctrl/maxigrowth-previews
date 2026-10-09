@@ -1,0 +1,32 @@
+{
+  "file": "batches/B04/W23/site/index.html",
+  "when": "2026-10-09T09:06:26.129Z",
+  "pass": true,
+  "desktop": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [],
+    "errors": [],
+    "hostLuarIzin": []
+  },
+  "mobile": {
+    "overflowX": 0,
+    "kecil": [
+      "ID (31×33)",
+      "EN (36×33)",
+      "☰ (34×42)",
+      "@astaridentalcare (110×17)"
+    ],
+    "jumlahKecil": 4,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "path.[object"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  }
+}
