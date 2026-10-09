@@ -108,7 +108,8 @@ def pull(dir_riset, dir_cek):
                     log.append(f"{key}: riset GAGAL → dikembalikan ke GPT-A\n{out}")
             continue
         # --- tahap cek fakta ---
-        if st == "Menunggu cek fakta" and key in cek and "cekfakta" in cek[key]:
+        telat = st == "Butuh cek riset" and status_of(d).get("failover_dari") == "Menunggu cek fakta" and (d / "riset.json").exists()
+        if (st == "Menunggu cek fakta" or telat) and key in cek and "cekfakta" in cek[key]:
             try:
                 (d / "cekfakta.json").write_text(json.dumps(parse(cek[key]["cekfakta"].read_text()), ensure_ascii=False, indent=2))
                 ok, out = run_check(d, "cekfakta")
