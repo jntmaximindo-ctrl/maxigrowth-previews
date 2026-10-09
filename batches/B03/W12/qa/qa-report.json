@@ -1,6 +1,6 @@
 {
   "file": "batches/B03/W12/site/index.html",
-  "when": "2026-10-09T09:06:01.470Z",
+  "when": "2026-10-09T09:09:45.854Z",
   "pass": false,
   "desktop": {
     "overflowX": 0,
@@ -13,7 +13,7 @@
     "hostLuarIzin": []
   },
   "mobile": {
-    "overflowX": 0,
+    "overflowX": 6,
     "kecil": [
       "ID (40×36)",
       "EN (40×36)",
@@ -22,24 +22,24 @@
       "Keduanya (92×40)",
       "Lewati, saya tidak yakin giginya (164×42)",
       "INPUT (20×20)",
-      "Hari ini\n9 (40×58)",
-      "Sab\n10 (40×58)",
-      "Min\n11 (40×58)",
-      "Sen\n12 (40×58)",
-      "Sel\n13 (40×58)",
-      "Rab\n14 (40×58)",
-      "Kam\n15 (40×58)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
+      "Tanya jadwal (139×40)",
       "Tanya jadwal (139×40)"
     ],
-    "jumlahKecil": 34,
+    "jumlahKecil": 24,
     "noAlt": [],
     "noOpener": [],
     "penyebabOverflow": [
+      "DIV.fbox",
+      "DIV.fbox",
       "rect.[object",
       "circle.[object",
-      "path.[object",
-      "path.[object",
-      "rect.[object"
+      "path.[object"
     ],
     "errors": [],
     "hostLuarIzin": []

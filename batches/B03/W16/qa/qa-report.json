@@ -1,6 +1,6 @@
 {
   "file": "batches/B03/W16/site/index.html",
-  "when": "2026-10-09T09:06:08.141Z",
+  "when": "2026-10-09T09:09:51.674Z",
   "pass": false,
   "desktop": {
     "overflowX": 0,
@@ -13,7 +13,7 @@
     "hostLuarIzin": []
   },
   "mobile": {
-    "overflowX": 0,
+    "overflowX": 63,
     "kecil": [
       "ID (40×36)",
       "EN (40×36)",
@@ -21,25 +21,25 @@
       "Bawah (73×40)",
       "Keduanya (91×40)",
       "Lewati, saya tidak yakin giginya (163×42)",
-      "2 (32×46)",
-      "3 (32×46)",
-      "2 (32×46)",
-      "1 (32×46)",
-      "2 (32×46)",
-      "1 (32×46)",
-      "1 (32×46)",
-      "1 (32×46)",
-      "2 (32×46)"
+      "< 3 tahun (90×42)",
+      "3–5 tahun (93×42)",
+      "6–12 tahun (101×42)",
+      "Remaja (76×42)",
+      "INPUT (20×20)",
+      "Perkiraan biaya behel metal (pasar Bandu (306×34)",
+      "Tanya jadwal (136×40)",
+      "Tanya jadwal (136×40)",
+      "Tanya jadwal (136×40)"
     ],
-    "jumlahKecil": 41,
+    "jumlahKecil": 24,
     "noAlt": [],
     "noOpener": [],
     "penyebabOverflow": [
-      "rect.[object",
-      "circle.[object",
-      "path.[object",
-      "path.[object",
-      "rect.[object"
+      "DIV.jbox",
+      "DIV.step",
+      "H3",
+      "DIV.who",
+      "BUTTON.wb"
     ],
     "errors": [],
     "hostLuarIzin": []
