@@ -206,6 +206,18 @@ def _():
         pass
 
 
+@uji("#15 Codex balas 'create an environment' → tidak dipanggil ulang, slot ditandai butuh_env + alarm [manusia]")
+def _():
+    d = salin()
+    k = [{"author": {"login": "pemilik"}, "body": "@codex Kerjakan tugas", "createdAt": LAMA},
+         {"author": {"login": "chatgpt-codex-connector"}, "body": "To use Codex here, [create an environment for this repo](https://chatgpt.com/codex/cloud/settings/environments).", "createdAt": BALAS}]
+    aksi, st = jalankan_pindai(d, [pr(5, k), pr(6, k)])
+    assert aksi.strip() == "", aksi
+    assert st["A"].get("butuh_env") and st["A"].get("gagal_berturut", 0) == 0, st
+    log = (d / "pool" / "log.txt").read_text()
+    assert log.startswith("[manusia]") and "#5–#6" in log and "settings/environments" in log, log
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

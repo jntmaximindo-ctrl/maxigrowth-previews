@@ -20,6 +20,9 @@ TANPA_PUSH_MENIT = 30    # Codex membalas tapi tidak push selama ini → panggil
 MAKS_PANGGIL = 3        # total panggilan @codex per PR sebelum diserahkan ke Claude
 LIMIT_RE = re.compile(r"usage limit|reached your codex usage|out of codex|rate limit", re.I)
 GAGAL_RE = re.compile(r"couldn.t complete|environment setup failed|try again later", re.I)
+# pelajaran #15: akun Codex belum punya environment untuk repo ini → hanya pemilik yang bisa membuatnya; jangan panggil ulang
+ENV_RE = re.compile(r"create an environment for this repo|codex/cloud/settings/environments", re.I)
+ENV_URL = "https://chatgpt.com/codex/cloud/settings/environments"
 MARK_RE = re.compile(r"<!-- slot=(\w+) t=([\dT:\-Z]+) -->")
 
 
@@ -82,7 +85,7 @@ def pindai():
     by_id = {s["id"]: s for s in slots}
     prs = json.loads(gh("pr", "list", "--state", "open", "--limit", "30", "--json",
                         "number,headRefName,createdAt,comments,commits") or "[]")
-    aksi, log, dihitung = [], [], set()
+    aksi, log, dihitung, butuh_env = [], [], set(), {}
     for p in prs:
         if not p["headRefName"].startswith("codex/"):
             continue
@@ -105,6 +108,11 @@ def pindai():
         alasan = None
         key = f"{p['number']}@{iso(t)}"
         baru = key not in st.setdefault("_diproses", {})
+        if ENV_RE.search(balas) and not commit_baru:
+            st.setdefault(slot, {})["butuh_env"] = st.get(slot, {}).get("butuh_env") or iso(now())
+            st["_diproses"][key] = "butuh_env"
+            butuh_env.setdefault(slot, []).append(p["number"])
+            continue
         if LIMIT_RE.search(balas):
             if baru and sehat({"id": slot}, st):  # tandai sekali per panggilan; jangan geser jam pulih yang sudah tercatat
                 st.setdefault(slot, {})["habis_sampai"] = iso(max(now(), t_balas + datetime.timedelta(hours=JEDA_JAM)))
@@ -124,6 +132,7 @@ def pindai():
             alasan = "tanpa_push"
         elif commit_baru:
             st.setdefault(slot, {})["gagal_berturut"] = 0
+            st[slot].pop("butuh_env", None)
         if not alasan:
             continue
         st["_diproses"][key] = alasan
@@ -146,6 +155,9 @@ def pindai():
         f.write_text(f"<!-- slot={s['id']} t={iso(now())} -->\n{body}{catatan}\n\n(dipindah dari slot {slot}: {alasan})")
         aksi.append(f"{p['number']}\t{s['id']}\t{s['secret']}\t{f}")
         log.append(f"PR #{p['number']}: slot {slot} {alasan} → pindah ke slot {s['id']}")
+    for sl, nomor in butuh_env.items():
+        log.insert(0, f"[manusia] Codex slot {sl} ({by_id.get(sl, {}).get('akun', '?')}) BELUM PUNYA ENVIRONMENT untuk repo ini "
+                      f"({len(nomor)} PR macet: #{min(nomor)}–#{max(nomor)}) → login akun itu, buat environment di {ENV_URL}")
     st["_diproses"] = dict(list(st.get("_diproses", {}).items())[-300:])
     save(st)
     (OUT / "aksi.tsv").write_text("".join(a + "\n" for a in aksi))
@@ -162,6 +174,8 @@ def status():
     for s in conf():
         x = st.get(s["id"], {})  # noqa
         kondisi = "SEHAT" if sehat(s, st) else f"HABIS s/d {x.get('habis_sampai')} UTC"
+        if x.get("butuh_env"):
+            kondisi = f"BUTUH ENVIRONMENT REPO sejak {x['butuh_env']} UTC → buat di {ENV_URL}"
         out.append(f"- slot {s['id']} ({s['akun']}): {kondisi}; gagal berturut: {x.get('gagal_berturut', 0)}")
     print("\n".join(out))
 
