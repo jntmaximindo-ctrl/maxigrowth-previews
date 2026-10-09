@@ -1,6 +1,6 @@
 {
   "file": "batches/B03/W21/site/index.html",
-  "when": "2026-10-09T09:13:34.318Z",
+  "when": "2026-10-09T10:01:47.281Z",
   "pass": true,
   "desktop": {
     "overflowX": 0,
@@ -9,32 +9,22 @@
     "noAlt": [],
     "noOpener": [],
     "penyebabOverflow": [
-      "DIV.track",
-      "DIV.tickgroup",
-      "SPAN.tick",
-      "SPAN.tick",
-      "SPAN.tick"
+      "svg.[object",
+      "path.[object"
     ],
     "errors": [],
     "hostLuarIzin": []
   },
   "mobile": {
     "overflowX": 0,
-    "kecil": [
-      "0877-7776-6040 (117×17)",
-      "Scaling\nTambal gigi\nKawat gigi\nPerawatan (318×43)",
-      "Lokasi (35×44)",
-      "FAQ (24×44)"
-    ],
-    "jumlahKecil": 4,
+    "kecil": [],
+    "jumlahKecil": 0,
     "noAlt": [],
     "noOpener": [],
     "penyebabOverflow": [
-      "DIV.track",
-      "DIV.tickgroup",
-      "SPAN.tick",
-      "SPAN.tick",
-      "SPAN.tick"
+      "svg.[object",
+      "path.[object",
+      "svg.[object"
     ],
     "errors": [],
     "hostLuarIzin": []

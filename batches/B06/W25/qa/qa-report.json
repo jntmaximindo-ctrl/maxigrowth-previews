@@ -1,6 +1,6 @@
 {
   "file": "batches/B06/W25/site/index.html",
-  "when": "2026-10-09T09:14:06.513Z",
+  "when": "2026-10-09T10:02:20.027Z",
   "pass": true,
   "desktop": {
     "overflowX": 0,
@@ -14,13 +14,17 @@
   },
   "mobile": {
     "overflowX": 0,
-    "kecil": [
-      "@kidzdentalortho ↗ (114×16)"
-    ],
-    "jumlahKecil": 1,
+    "kecil": [],
+    "jumlahKecil": 0,
     "noAlt": [],
     "noOpener": [],
-    "penyebabOverflow": [],
+    "penyebabOverflow": [
+      "DIV.ph",
+      "svg.[object",
+      "rect.[object",
+      "circle.[object",
+      "path.[object"
+    ],
     "errors": [],
     "hostLuarIzin": []
   }

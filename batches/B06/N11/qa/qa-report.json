@@ -1,6 +1,6 @@
 {
   "file": "batches/B06/N11/site/index.html",
-  "when": "2026-10-09T09:06:49.164Z",
+  "when": "2026-10-09T10:02:13.349Z",
   "pass": true,
   "desktop": {
     "overflowX": 0,
@@ -14,16 +14,13 @@
   },
   "mobile": {
     "overflowX": 0,
-    "kecil": [
-      "E\nENA DENTAL\nAESTHETIC (144×38)",
-      "ID (31×32)",
-      "EN (35×32)",
-      "☰ (43×43)"
-    ],
-    "jumlahKecil": 4,
+    "kecil": [],
+    "jumlahKecil": 0,
     "noAlt": [],
     "noOpener": [],
-    "penyebabOverflow": [],
+    "penyebabOverflow": [
+      "svg.[object"
+    ],
     "errors": [],
     "hostLuarIzin": []
   }
