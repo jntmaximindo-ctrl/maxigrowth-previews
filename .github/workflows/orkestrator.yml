@@ -259,6 +259,26 @@ jobs:
             echo "$name" >> /tmp/done.txt
           done
           sort -u /tmp/jobs.txt -o /tmp/jobs.txt; cat /tmp/jobs.txt
+      - name: 3b · Pencari via chat GPT (hasil CARI-* → sourcing/; daftar kota + known ke Drive; pelajaran #24)
+        if: vars.RISET_ENGINE == 'bus'
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          rm -rf /tmp/cari-in /tmp/cari-arsip.txt; mkdir -p /tmp/cari-in
+          rclone copy root: /tmp/cari-in --max-depth 1 --include "CARI-*_hasil.json*" --drive-export-formats txt -v || true
+          python3 scripts/cari_chat.py ingest /tmp/cari-in || echo "ingest cari error (tidak fatal)"
+          if [ -s /tmp/cari-arsip.txt ]; then
+            TS=$(date -u +%Y%m%d-%H%M)
+            while read -r nama; do
+              if [ -n "$nama" ]; then rclone moveto "root:$nama" "bus:99 Arsip/${TS}_$nama" -v || true; fi
+            done < /tmp/cari-arsip.txt
+          fi
+          python3 scripts/sourcing.py apply || echo "apply sourcing error (tidak fatal)"
+          python3 scripts/cari_chat.py kota > /tmp/kota-chat.txt || true
+          python3 scripts/sourcing.py known || true
+          rclone copyto /tmp/kota-chat.txt "bus:KOTA-BERIKUTNYA.txt" || true
+          rclone copyto data/known.txt "bus:KNOWN-KLINIK.txt" || true
       - name: 4 · Pencari klinik
         env:
           GH_TOKEN: ${{ github.token }}
@@ -266,6 +286,7 @@ jobs:
           SHEET_ID: ${{ vars.SHEET_ID }}
         run: |
           python3 scripts/sourcing.py apply
+          [ "$(cat data/sourcing-engine.txt 2>/dev/null)" = "gpt" ] && exit 0
           if gh pr list --state open --json headRefName -q '.[].headRefName' | grep -q '^codex/cari-'; then
             echo "pencarian kota sedang berjalan"; exit 0; fi
           NEXT=$(python3 scripts/sourcing.py next)
@@ -300,7 +321,7 @@ jobs:
       - name: 5 · Commit perubahan
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add batches data library/fitur AGENTS.md 2>/dev/null || true
+          git add batches data library/fitur sourcing AGENTS.md 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "orkestrator: pembaruan otomatis"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done

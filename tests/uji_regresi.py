@@ -341,6 +341,19 @@ def _():
     assert "2e · Bus GPT · Pulihkan surat tugas yang hilang" in t and "Riset di GPT" in t and "RISET LAMA" in t, "langkah 2e hilang dari orkestrator.yml"
 
 
+@uji("#24 pencari klinik via chat GPT: hasil CARI-* (dengan pagar ```json) masuk ke sourcing/<kota>-<waktu>/hasil.json; file rusak tetap diarsipkan")
+def _():
+    d = salin(); m = modul(d, "cari_chat")
+    m.ROOT = d; (d / "data").mkdir(exist_ok=True); (d / "data" / "kota.txt").write_text("Bandung | Indonesia\nBogor | Indonesia\n")
+    i = d / "in"; i.mkdir()
+    (i / "CARI-bandung-1_hasil.json.md").write_text('```json\n{"kota": "Bandung", "klinik": [{"nama": "X", "rating": 4.8, "ulasan": 150}]}\n```')
+    (i / "CARI-rusak_hasil.json.md").write_text("bukan json")
+    m.ingest(str(i))
+    hs = list((d / "sourcing").glob("bandung-*/hasil.json")); assert len(hs) == 1, hs
+    assert json.loads(hs[0].read_text())["klinik"][0]["nama"] == "X"
+    assert len(pathlib.Path("/tmp/cari-arsip.txt").read_text().split()) == 2
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
