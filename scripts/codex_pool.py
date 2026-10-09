@@ -191,7 +191,7 @@ def status():
         if x.get("butuh_env"):
             kondisi = f"BUTUH ENVIRONMENT REPO sejak {x['butuh_env']} UTC → buat di {ENV_URL}"
         out.append(f"- slot {s['id']} ({s['akun']}): {kondisi}; gagal berturut: {x.get('gagal_berturut', 0)}")
-    print("\n".join(out))
+    print("\n".join(out) or "- [manusia] SEMUA SLOT NONAKTIF (aktif=false) → tugas Codex tidak jalan; beresi environment/push akun lalu aktifkan slot di data/codex-pool.json")
 
 
 if __name__ == "__main__":

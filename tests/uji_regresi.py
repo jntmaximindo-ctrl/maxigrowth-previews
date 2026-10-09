@@ -25,6 +25,10 @@ def salin():
     (d / "data").mkdir()
     for f in ("codex-pool.json",):
         shutil.copy(ROOT / "data" / f, d / "data" / f)
+    # pelajaran #20: tes perilaku pool tidak boleh bergantung pada saklar aktif/nonaktif slot di konfigurasi live
+    cfg = json.loads((d / "data" / "codex-pool.json").read_text())
+    for x in cfg["slot"]: x["aktif"] = True
+    (d / "data" / "codex-pool.json").write_text(json.dumps(cfg))
     (d / "data" / "codex-pool-state.json").write_text("{}")
     return d
 
@@ -292,6 +296,17 @@ def _():
     m.gabung(); m.rapor()
     r = (d / "data" / "rapor.md").read_text()
     assert "| rakit | 7 hari | 2 | 1 | 50% |" in r, r
+
+
+@uji("#20 slot live semua nonaktif → tes pool tetap memakai konfigurasi aktif sendiri; status menyebut SEMUA SLOT NONAKTIF")
+def _():
+    d = salin()
+    cfg = json.loads((d / "data/codex-pool.json").read_text())
+    assert all(x.get("aktif", True) for x in cfg["slot"]), cfg
+    for x in cfg["slot"]: x["aktif"] = False
+    (d / "data/codex-pool.json").write_text(json.dumps(cfg))
+    r = subprocess.run([sys.executable, str(d / "scripts/codex_pool.py"), "status"], capture_output=True, text=True)
+    assert r.returncode == 0 and "SEMUA SLOT NONAKTIF" in r.stdout, r.stdout + r.stderr
 
 
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
