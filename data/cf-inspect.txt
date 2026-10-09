@@ -1,29 +1,48 @@
-== token
-True active []
-== workers scripts
-True [('maxigrowth', '2026-09-24T03:27:24.795103Z')] []
-== worker maxigrowth settings
-True {'bindings': [], 'compatibility_date': '2026-09-24', 'usage_model': 'standard', 'placement': {}} []
-== workers custom domains
-True [('maxigrowthstudio.com', 'maxigrowth', 'production')] None
-== zones
-True [('029d65544fede2d11a12520f280605da', 'maxigrowthstudio.com', 'active')] []
-== worker routes
-True [] []
-== dns
-False [] [{'code': 10000, 'message': 'Authentication error', 'documentation_url': 'https://developers.cloudflare.com/api/resources/dns/subresources/records/methods/list'}]
-== pages project
-True maxigrowth-previews.pages.dev ['maxigrowth-previews.pages.dev'] None []
-== atabara header
-HTTP/2 200 
-date: Fri, 09 Oct 2026 09:27:10 GMT
-content-type: text/html
-cf-cache-status: HIT
-cache-control: public, max-age=0, must-revalidate
-x-robots-tag: noindex, nofollow
-report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XjxuCzsUx003TulqgBLp%2BFQzKXFSSgb1i3RncskHoRid9Tsk9vZ15Kn56Nyvrz8gRTW2FjEi4jPaJAO4SzZQg9ZlJob%2BaHGD07VTEm33MbiVUMY%2Fpw7UElVnHg4yKwk%2FKkSi%2B2y31w%3D%3D"}]}
-nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
-server: cloudflare
-cf-ray: a47c5914fb21e615-IAD
-alt-svc: h3=":443"; ma=86400
+== settings keys
+['placement', 'compatibility_date', 'compatibility_flags', 'usage_model', 'tags', 'tail_consumers', 'logpush', 'annotations', 'bindings']
+null
+[]
+== script content (awal)
 
+== versions
+True {"items": [{"id": "c195dd99-e20e-4e9f-9540-96b76e1f065e", "number": 2, "metadata": {"created_on": "2026-09-24T03:27:24.795103Z", "source": "dash", "author_id": "600c4021a19c6a3e6f7a0bf9c8a2467f", "author_email": "jntmaximindo@gmail.com", "has_preview": true}, "annotations": {"workers/triggered_by": "upload"}}, {"id": "63564533-6ebe-48ce-8f9a-4f6ba76fdd17", "number": 1, "metadata": {"created_on": "2026-09-24T02:36:09.540443Z", "source": "dash", "author_id": "600c4021a19c6a3e6f7a0bf9c8a2467f", "author_email": "jntmaximindo@gmail.com", "has_preview": true}, "annotations": {"workers/triggered_by": "upload"}}]} None
+== script (alt)
+
+== homepage
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Maxi Growth Studio</title>
+<meta name="description" content="Maxi Growth Studio — websites, Google & social for brands. Based in Bandung, Indonesia.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111214;--paper:#f6f5f2;--muted:#5c5e63;--gold:#a88a5c;--gold-t:#7a5f3
+href="https://fonts.googleapis.com"
+href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600&family=Instrument+Serif:ital@1&display=swap"
+href="https://fonts.gstatic.com"
+== 404 test
+404
+== atabara refs
+href="#"
+href="#ansuran"
+href="#i-'+n+'"
+href="#i-ar"
+href="#i-blocks"
+href="#i-cal"
+href="#i-cap"
+href="#i-chev"
+href="#i-clip"
+href="#i-clock"
+href="#i-copy"
+href="#i-ext"
+href="#i-facet"
+href="#i-hand"
+href="#i-id"
+href="#i-ig"
+href="#i-info"
+href="#i-mail"
+href="#i-map"
+href="#i-mirror"
+sort: write failed: 'standard output': Broken pipe
+sort: write error
+== token perms probe (routes write dry-run tidak dijalankan)
