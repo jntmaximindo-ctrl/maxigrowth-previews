@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bandung Dental Center — Klinik Gigi di Kota Bandung (Konsep)</title>
+<meta name="description" content="Konsep website Bandung Dental Center (BDC), Bandung: cek gigi 30 detik, pendamping tenang untuk pasien cemas, dokter spesialis, lokasi & WhatsApp.">
+<meta name="theme-color" content="#00278d">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="Bandung Dental Center — Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Shantell+Sans:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b1a44;--ac:#00278d;--cy:#0a74c9;--sky:#2fa8e6;--teal:#1d5f7a;--soft:#dde8ff;--soft2:#eef4ff;
+  --bg:#f5f8fe;--paper:#ffffff;--line:#d7e0f0;--mut:#4d5b7c;--sig:#e0474c;--ok:#1b8a5a;--warn:#c27a00;
+  --r1:26px 8px 26px 8px;--r2:18px 6px 18px 6px;--ease:cubic-bezier(.2,.8,.2,1);
+  --fh:"Onest",system-ui,"Segoe UI",Arial,sans-serif;--fb:"Lato",system-ui,"Segoe UI",Arial,sans-serif;--fa:"Shantell Sans","Comic Sans MS","Segoe Print",cursive;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--fb);overflow-x:hidden}
+img,svg{max-width:100%}
+a{color:var(--ac)}
+h1,h2,h3,h4{font-family:var(--fh);line-height:1.12;margin:0;letter-spacing:-.015em}
+p{margin:0}
+button{font:inherit;color:inherit}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.chk{display:inline-flex;align-items:center;gap:3px;font:600 11.5px/1 var(--fb);color:#8a5a00;background:#fff4dc;border:1px solid #f0d49a;border-radius:999px;padding:3px 8px;white-space:nowrap;vertical-align:middle}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+section{padding:88px 0}
+.kick{display:flex;align-items:center;gap:10px;font:700 13px/1 var(--fh);letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:14px}
+.kick .duo{display:inline-flex;gap:4px}.kick .duo i{width:8px;height:8px;border-radius:50%;background:var(--teal)}.kick .duo i+i{background:var(--sky)}
+h2{font-size:clamp(28px,4.2vw,44px);font-weight:800;color:var(--ink)}
+.lead{font-size:17.5px;color:var(--mut);max-width:60ch}
+.shd{display:grid;grid-template-columns:1.1fr .9fr;gap:24px 48px;align-items:end;margin-bottom:40px}
+.note{font:500 15px/1.35 var(--fa);color:var(--teal)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:999px;border:1.5px solid transparent;font:700 15.5px/1.1 var(--fh);text-decoration:none;cursor:pointer;transition:transform .2s var(--ease),background .2s,box-shadow .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-pri{background:var(--ac);color:#fff;box-shadow:0 10px 24px -12px rgba(0,39,141,.7)}
+.btn-pri:hover{background:#001f73}
+.btn-wa{background:#128c4a;color:#fff}.btn-wa:hover{background:#0e7a40}
+.btn-gh{background:transparent;color:var(--ac);border-color:#b9c8ea}
+.btn-gh:hover{background:var(--soft2)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:14.5px}
+/* preview banner */
+.pv{background:var(--ink);color:#dfe7ff;font-size:13.5px}
+.pv .wrap{display:flex;gap:12px;align-items:center;padding:9px 0}
+.pv b{color:#fff}.pv .pvx{margin-left:auto;background:none;border:0;color:#fff;min-width:44px;min-height:36px;cursor:pointer;font-size:20px;line-height:1}
+.pv .chk{background:#26356a;color:#ffe3a6;border-color:#3a4d8a}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(245,248,254,.9);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+nav.sc{border-color:var(--line)}
+.nav-in{display:flex;align-items:center;gap:20px;height:72px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ac);min-width:0}
+.brand img{width:44px;height:44px;flex:none}
+.brand b{display:block;font:800 18px/1.05 var(--fh);letter-spacing:-.01em;white-space:nowrap}
+.brand small{display:block;font:700 10.5px/1.3 var(--fh);letter-spacing:.3em;color:var(--teal)}
+.links{display:flex;gap:4px;margin-left:auto}
+.links a{padding:10px 12px;border-radius:10px;text-decoration:none;color:var(--ink);font:600 14.5px/1 var(--fh)}
+.links a:hover{background:var(--soft2)}
+.links a.on{color:var(--ac);background:var(--soft)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px}
+.lang button{border:0;background:none;min-width:40px;min-height:36px;border-radius:999px;font:700 13px/1 var(--fh);cursor:pointer;color:var(--mut)}
+.lang button[aria-pressed="true"]{background:var(--ac);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:14px;border:1px solid var(--line);background:#fff;cursor:pointer;position:relative}
+.burger i{position:absolute;left:13px;right:13px;height:2px;background:var(--ink);border-radius:2px;transition:transform .3s}
+.burger i:first-child{top:18px}.burger i:last-child{top:26px}
+.burger[aria-expanded="true"] i:first-child{transform:translateY(4px) rotate(45deg)}
+.burger[aria-expanded="true"] i:last-child{transform:translateY(-4px) rotate(-45deg)}
+.sheet{display:none}
+/* hero */
+.hero{padding:44px 0 36px;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;right:-160px;top:-120px;width:640px;height:640px;border-radius:50%;border:1.5px dashed #c6d4f3;pointer-events:none}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.hcopy .tag{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:18px;font:600 14px/1.3 var(--fh);color:var(--teal)}
+.hcopy .tag .pl{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:10px;background:#fff;border:1px solid var(--line);color:var(--ink)}
+.hero h1{font-size:clamp(34px,4.9vw,56px);font-weight:800;color:var(--ink)}
+.hero h1 .u{color:var(--ac);position:relative;white-space:nowrap}
+.hero h1 .u svg{position:absolute;left:0;right:0;bottom:-10px;width:100%;height:14px}
+.hero .lead{margin-top:20px}
+.status{display:flex;align-items:center;gap:12px;margin-top:24px;padding:12px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--r2);max-width:520px;flex-wrap:wrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px rgba(27,138,90,.16);flex:none}
+.closed .dot{background:var(--sig);box-shadow:0 0 0 4px rgba(224,71,76,.14)}
+.status b{font-family:var(--fh)}.status span{color:var(--mut);font-size:14.5px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.ctas .btn-pri small{display:block;font:500 12px/1.2 var(--fb);opacity:.85}
+.ctas .bl{display:flex;flex-direction:column;align-items:flex-start;gap:2px}
+.stage{position:relative;aspect-ratio:1/1;max-width:540px;width:100%;justify-self:center}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.stage .disc{position:absolute;inset:9%;border-radius:50%;background:radial-gradient(circle at 50% 42%,#fff 0,#eaf1ff 60%,#dbe6ff 100%);border:1px solid #d3def5}
+.stage .ring2{position:absolute;inset:2%;border-radius:50%;border:1px solid #d3def5}
+.stage .fb{position:absolute;inset:20%;display:block;z-index:1}
+.stage .badge{position:absolute;right:6%;top:8%;width:84px;height:84px;padding:12px;border-radius:50%;background:#fff;border:1px solid var(--line);z-index:3;box-shadow:0 12px 30px -18px rgba(0,39,141,.6)}
+.zap{position:absolute;left:50%;bottom:2%;transform:translateX(-50%);z-index:3;display:none;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:var(--ink);color:#fff;font:600 13px/1.2 var(--fh);white-space:nowrap}
+.zap.on{display:inline-flex}.zap b{color:#8fd3ff;font-size:15px}
+.zap.pop{animation:pop .4s var(--ease)}@keyframes pop{50%{transform:translateX(-50%) scale(1.08)}}
+.stage .hint{position:absolute;left:0;top:6%;z-index:3;font:500 14px/1.3 var(--fa);color:var(--teal);max-width:150px;transform:rotate(-4deg)}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:38px}
+.pf{display:flex;gap:12px;align-items:flex-start;padding:16px;background:#fff;border:1px solid var(--line);border-radius:var(--r2);text-decoration:none;color:var(--ink);min-height:84px}
+.pf:hover{border-color:#aebfe6}
+.pf .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--soft2);color:var(--ac);flex:none}
+.pf b{display:block;font:800 16px/1.2 var(--fh)}.pf span{display:block;font-size:13.5px;color:var(--mut);line-height:1.35;margin-top:3px}
+/* strip */
+.strip{background:var(--ac);color:#fff;overflow:hidden;white-space:nowrap}
+.strip .t{display:inline-flex;gap:0;animation:mq 40s linear infinite;padding:14px 0}
+.strip span{font:700 14px/1 var(--fh);letter-spacing:.16em;padding:0 22px;display:inline-flex;align-items:center;gap:22px}
+.strip span:after{content:"";width:7px;height:7px;border-radius:50%;background:#8fd3ff}
+@keyframes mq{to{transform:translateX(-50%)}}
+</style>
+<style>
+/* ---------- CEK GIGI ---------- */
+#cek{background:var(--paper);border-block:1px solid var(--line)}
+.prog{display:flex;gap:8px;margin-bottom:18px;position:sticky;top:72px;z-index:20;background:var(--paper);padding:8px 0}
+.ps{flex:1;display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:#fff;cursor:pointer;text-align:left;min-height:48px}
+.ps i{width:22px;height:22px;border-radius:50%;border:2px solid #b8c6e6;flex:none;position:relative}
+.ps b{display:block;font:800 12px/1 var(--fh);color:var(--mut);letter-spacing:.08em}.ps em{font:600 14px/1.2 var(--fh);font-style:normal}
+.ps.on{border-color:var(--ac);background:var(--soft2)}.ps.on i{border-color:var(--ac)}
+.ps.done i{background:var(--ac);border-color:var(--ac)}.ps.done i:after{content:"";position:absolute;left:5px;top:2px;width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.console{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.c-l,.c-r{background:var(--bg);border:1px solid var(--line);border-radius:var(--r1);padding:22px}
+.c-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.step{font:800 12px/1 var(--fh);letter-spacing:.14em;color:var(--teal);text-transform:uppercase;margin-bottom:6px}
+.ptitle{font-size:21px;font-weight:700}
+.seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;min-height:38px;padding:0 13px;border-radius:999px;font:700 13px/1 var(--fh);color:var(--mut);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.aw{position:relative;margin-top:6px}
+.arch{width:100%;height:auto;display:block;user-select:none;-webkit-user-select:none;overflow:visible;touch-action:manipulation}
+.arch .t{cursor:pointer;outline:none}.arch .hit{fill:transparent}
+.arch .tb{transform-box:fill-box;transform-origin:center;transition:transform .3s var(--ease)}
+.arch .body{fill:url(#toothG);stroke:#9fb0d2;stroke-width:1.1;transition:fill .25s,stroke .25s}
+.arch .gr{fill:none;stroke:#b7c5e2;stroke-width:1;stroke-linecap:round}
+.arch .halo{fill:none;stroke:var(--sky);stroke-width:1.4;opacity:0;transform:scale(.6);transform-box:fill-box;transform-origin:center;transition:opacity .3s,transform .3s var(--ease)}
+.arch .t:hover .tb,.arch .t:focus-visible .tb{transform:scale(1.07)}
+.arch .t:hover .body{stroke:var(--ac)}
+.arch .t:focus-visible .halo{opacity:1;transform:none;stroke-dasharray:3 2}
+.arch .t.on .body{fill:var(--ac);stroke:var(--ac)}.arch .t.on .gr{stroke:#8fb2ff}.arch .t.on .halo{opacity:1;transform:none}
+.arch.pre .tb{transform:scale(0)}
+.arch .nb{opacity:0;transition:opacity .2s;pointer-events:none}.arch .nb.on{opacity:1}
+.arch .nb circle{fill:var(--sky);stroke:#fff;stroke-width:1.2}
+.arch .nb text{fill:#fff;font:800 7.5px var(--fh)}
+.arch text.jl{font:800 8.5px var(--fh);fill:#8190b3;letter-spacing:.24em}
+.arch text.fdi{font:700 6px var(--fh);fill:#8a98ba;pointer-events:none}
+.arch.zu .t[data-jaw="1"],.arch.zl .t[data-jaw="0"],.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"],.arch.zu .fdi[data-jaw="1"],.arch.zl .fdi[data-jaw="0"]{visibility:hidden}
+.side{position:absolute;top:50%;font:700 11px/1 var(--fh);color:#8190b3;letter-spacing:.14em;transform:translateY(-50%)}
+.side.r{left:0}.side.l{right:0}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:min(210px,56%)}
+.ctr .big{font:800 40px/1 var(--fh);color:var(--ac)}.ctr .sm{font-size:13px;color:var(--mut);margin-top:4px;line-height:1.35}
+.mchips{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin-top:8px}
+.mchip{display:inline-flex;align-items:center;gap:2px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:2px 2px 2px 9px;font-size:12px;line-height:1.2}
+.mchip button{border:0;background:none;min-width:28px;min-height:28px;border-radius:50%;cursor:pointer;font-size:15px;color:var(--mut)}
+.mchip.plus{padding:4px 9px}
+.clr,.skip{margin-top:8px;border:0;background:none;color:var(--ac);font:700 13px/1 var(--fh);cursor:pointer;min-height:40px;display:inline-flex;align-items:center;gap:6px;padding:0 8px;text-decoration:underline;text-underline-offset:3px}
+.tapme{width:40px;height:40px;border-radius:50%;margin:0 auto 6px;display:grid;place-items:center;background:#fff;border:1px dashed #9fb0d2;color:var(--ac)}
+.tip{position:absolute;z-index:5;transform:translate(-50%,-120%);background:var(--ink);color:#fff;font-size:12px;padding:5px 9px;border-radius:8px;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .15s}
+.tip.on{opacity:1}
+.toast{position:absolute;left:50%;bottom:4px;transform:translate(-50%,8px);background:var(--ink);color:#fff;font-size:12.5px;padding:6px 12px;border-radius:999px;opacity:0;transition:.25s;pointer-events:none;white-space:nowrap;max-width:96%;overflow:hidden;text-overflow:ellipsis}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.orient{font-size:13px;color:var(--mut);margin-top:8px;text-align:center}
+.kl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 22px}
+.k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:92px;padding:10px 6px;border-radius:var(--r2);border:1.5px solid var(--line);background:#fff;cursor:pointer;font:700 13px/1.2 var(--fh);text-align:center;transition:border-color .2s,background .2s}
+.k:hover{border-color:#9fb0d2}
+.k .ki{width:36px;height:36px;border-radius:12px;display:grid;place-items:center;background:var(--soft2);color:var(--ac)}
+.k .ki svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.k[aria-checked="true"]{border-color:var(--ac);background:var(--soft2)}
+.k[aria-checked="true"] .ki{background:var(--ac);color:#fff}
+.k .ud{position:absolute;top:8px;right:8px;width:8px;height:8px;border-radius:50%;background:var(--warn)}.k .ud.u3{background:var(--sig)}
+.res{background:#fff;border:1px solid var(--line);border-radius:var(--r2);padding:18px;min-height:220px}
+.res.empty p{color:var(--mut);font-size:14.5px;margin-top:10px}
+.skl{height:12px;border-radius:6px;background:var(--soft2);margin-bottom:10px}
+.gbtn{margin-top:14px;display:inline-flex;min-height:44px;align-items:center;padding:0 18px;border-radius:999px;background:#e6ebf5;color:#8190b3;font:700 14px var(--fh)}
+.r-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.rk{font:800 11.5px/1 var(--fh);letter-spacing:.12em;text-transform:uppercase;color:var(--teal)}
+.urg{display:inline-flex;align-items:center;gap:6px;font:700 12.5px/1 var(--fh);padding:6px 10px;border-radius:999px;background:#e8f6ee;color:var(--ok)}
+.urg i{width:8px;height:8px;border-radius:50%;background:currentColor}
+.urg.u2{background:#fff3dd;color:#9a5d00}.urg.u3{background:#fde8e8;color:#b3262b}
+.res h3{font-size:20px;outline:none}
+.rteeth{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}.rteeth span{font-size:12px;padding:3px 9px;border-radius:999px;background:var(--soft2);color:var(--ac)}
+.res .ex{color:var(--mut);font-size:15px;margin:6px 0 12px}
+.rtl-h{font:800 12px/1 var(--fh);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:6px}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.tl li span:last-child{font-weight:700;text-align:right;white-space:nowrap}
+.tl em{font-weight:400;color:var(--mut);white-space:normal}
+.est{font-size:12.5px;color:var(--mut);margin:10px 0 14px}
+.bub-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.bub-c{font:700 13px var(--fh)}
+.mrst{border:0;background:none;color:var(--ac);font:700 12.5px var(--fh);cursor:pointer;min-height:36px}
+.bub{width:100%;margin-top:6px;border:1.5px solid #bfe5cf;background:#effaf3;border-radius:14px 14px 14px 4px;padding:12px;font:15px/1.5 var(--fb);color:var(--ink);resize:vertical;min-height:96px}
+.pref{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 14px;font-size:13px;color:var(--mut)}
+.pref button{min-height:38px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;font:600 13px var(--fh)}
+.pref button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.acts2{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.copy{border:1px solid var(--line);background:#fff;border-radius:999px;min-height:48px;padding:0 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:700 14px var(--fh);color:var(--ink)}
+.disc{font-size:12.5px;color:var(--mut);margin-top:14px}
+.tolink{display:inline-flex;align-items:center;gap:6px;margin-top:12px;font:600 14px var(--fh)}
+</style>
+<style>
+/* ---------- PENDAMPING TENANG ---------- */
+#tenang{background:linear-gradient(180deg,var(--bg) 0,#e9f0ff 100%);position:relative;overflow:hidden}
+#tenang .deco{position:absolute;right:-60px;bottom:-40px;width:360px;opacity:.07;pointer-events:none}
+.tg{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:start}
+.card{background:#fff;border:1px solid var(--line);border-radius:var(--r1);padding:24px}
+.qn{display:flex;align-items:baseline;gap:10px;margin:0 0 12px}
+.qn b{font:800 13px/1 var(--fh);color:#fff;background:var(--ac);border-radius:8px;padding:5px 8px}
+.qn h3{font-size:19px}
+.needs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:24px}
+.need{display:flex;align-items:center;gap:10px;min-height:52px;padding:8px 12px;border-radius:14px;border:1.5px solid var(--line);background:#fff;cursor:pointer;text-align:left;font:600 14.5px/1.25 var(--fh)}
+.need svg{width:22px;height:22px;flex:none;fill:none;stroke:var(--teal);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.need[aria-checked="true"]{border-color:var(--ac);background:var(--soft2)}
+.need[aria-checked="true"] svg{stroke:var(--ac)}
+.calm{margin-bottom:24px}
+.calm-row{display:flex;gap:8px}
+.cf{flex:1;display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;min-height:84px;border-radius:14px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 12.5px/1.2 var(--fh);color:var(--mut)}
+.cf svg{width:34px;height:34px}
+.cf[aria-checked="true"]{border-color:var(--ac);background:var(--soft2);color:var(--ink)}
+.calm-msg{margin-top:10px;font:500 15px/1.4 var(--fa);color:var(--teal);min-height:1.4em}
+.reqs{display:flex;flex-wrap:wrap;gap:8px}
+.req{min-height:44px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 13.5px var(--fh);display:inline-flex;align-items:center;gap:6px}
+.req:before{content:"+";font-weight:800;color:var(--teal)}
+.req[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}.req[aria-pressed="true"]:before{content:"✓";color:#8fd3ff}
+.tout{position:sticky;top:92px}
+.tout .card{padding:22px}
+.match{display:flex;flex-direction:column;gap:10px;margin:12px 0}
+.mt{display:flex;gap:12px;align-items:center;padding:10px;border:1px solid var(--line);border-radius:16px;background:var(--bg)}
+.mt svg.av{width:64px;height:52px;border-radius:12px;flex:none}
+.mt b{display:block;font:700 14.5px/1.25 var(--fh)}.mt span{display:block;font-size:13px;color:var(--mut);line-height:1.35}
+.mt.comp{border-style:dashed;border-color:#8fb2ff;background:#f3f7ff}
+.tempty{color:var(--mut);font-size:14.5px;padding:18px 0}
+.twhen{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+/* ---------- LAYANAN ---------- */
+.lg2{display:grid;grid-template-columns:1.3fr .7fr;gap:22px;align-items:start}
+.svc{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.sv{background:#fff;border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+.sv h3{font-size:17px;display:flex;align-items:center;gap:10px}
+.sv h3 i{width:30px;height:30px;border-radius:10px;background:var(--soft2);display:grid;place-items:center;font-style:normal;color:var(--ac);font:800 13px var(--fh)}
+.sv p{font-size:14.5px;color:var(--mut);margin-top:8px}
+.sv ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.sv li{font-size:13px;padding:4px 10px;border-radius:999px;background:var(--bg);border:1px solid var(--line)}
+.price{background:var(--ink);color:#dfe7ff;border-radius:var(--r1);padding:22px}
+.price h3{color:#fff;font-size:19px}
+.price .pn{font-size:13px;margin:6px 0 12px;color:#b8c4e8}
+.price table{width:100%;border-collapse:collapse;font-size:14px}
+.price td{padding:9px 0;border-bottom:1px solid #26356a;vertical-align:top}
+.price td+td{text-align:right;font-weight:700;color:#fff;white-space:nowrap;padding-left:10px}
+.price .chk{background:#26356a;color:#ffe3a6;border-color:#3a4d8a}
+.fac{margin-top:14px;background:#fff;border:1px solid var(--line);border-radius:var(--r2);padding:18px}
+.fac h3{font-size:16px;margin-bottom:8px}.fac li{font-size:14px;color:var(--mut);margin:4px 0}.fac ul{padding-left:18px;margin:0}
+/* calc */
+.calc{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:18px;background:#fff;border:1px solid var(--line);border-radius:var(--r1);padding:22px}
+.fl{display:block;font:700 14px var(--fh);margin:0 0 8px}
+.money{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);overflow:hidden}
+.money span{padding:0 12px;font:700 14px var(--fh);color:var(--mut)}
+.money input{flex:1;min-width:0;border:0;background:none;min-height:48px;font:700 17px var(--fh);color:var(--ink);padding-right:12px}
+.rng{width:100%;margin:12px 0 4px;accent-color:var(--ac);min-height:32px}
+.rlab{display:flex;justify-content:space-between;font-size:12.5px;color:var(--mut)}
+.ten{display:flex;gap:6px;flex-wrap:wrap}
+.ten button{flex:1;min-width:64px;min-height:44px;border-radius:12px;border:1.5px solid var(--line);background:#fff;font:700 14px var(--fh);cursor:pointer}
+.ten button[aria-checked="true"]{background:var(--ac);color:#fff;border-color:var(--ac)}
+.out{background:var(--soft2);border-radius:var(--r2);padding:18px;display:flex;flex-direction:column;gap:8px}
+.out .per{font:800 34px/1.1 var(--fh);color:var(--ac)}
+.out .row2{display:flex;justify-content:space-between;font-size:14px;border-bottom:1px dashed var(--line);padding:6px 0}
+.out .o-note{font-size:12.5px;color:var(--mut)}
+/* ---------- DOKTER ---------- */
+#dokter{background:var(--paper);border-block:1px solid var(--line)}
+.docs{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.doc{border:1px solid var(--line);border-radius:var(--r1);overflow:hidden;background:var(--bg);display:flex;flex-direction:column}
+.doc svg.av{width:100%;height:auto;display:block;aspect-ratio:120/96}
+.doc .db{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.doc .sp{font:800 11.5px/1.2 var(--fh);letter-spacing:.1em;text-transform:uppercase;color:var(--teal)}
+.doc b{font:700 15px/1.3 var(--fh)}
+.doc p{font-size:13.5px;color:var(--mut)}
+.doc a{margin-top:auto;font:700 14px var(--fh);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.dnote{margin-top:16px;font-size:13.5px;color:var(--mut)}
+</style>
+<style>
+/* ---------- LOKASI ---------- */
+.locg{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:stretch}
+.viewer{position:relative;border-radius:var(--r1);overflow:hidden;background:#e8eefb;border:1px solid var(--line);min-height:420px}
+.viewer .foto{position:absolute;inset:0;display:block}
+.viewer .foto svg{width:100%;height:100%;display:block}
+.viewer .cap{position:absolute;left:14px;bottom:14px;z-index:2;font-size:12.5px;background:rgba(11,26,68,.8);color:#fff;padding:6px 10px;border-radius:10px;max-width:calc(100% - 28px)}
+.vpane{position:absolute;inset:0;z-index:3;background:var(--bg)}
+.vpane iframe{width:100%;height:100%;border:0;display:block}
+.vpane .mgmap{height:100%}
+.vpane .mgviz{flex:1 1 auto;height:auto!important;min-height:170px}
+.vpane .mgnote{top:auto!important;bottom:10px}
+.vtabs{position:absolute;top:12px;left:12px;z-index:5;display:flex;gap:2px;padding:4px;border-radius:999px;background:rgba(11,26,68,.8)}
+.vtabs button{font:600 13px var(--fh);color:#d8e0f5;padding:0 14px;min-height:38px;border-radius:999px;border:0;background:none;cursor:pointer}
+.vtabs button.on{background:#fff;color:var(--ink)}
+.vfull{position:absolute;right:12px;top:12px;z-index:5;background:#fff;color:var(--ink);font:700 13px var(--fh);padding:0 12px;min-height:38px;display:inline-flex;align-items:center;border-radius:999px;text-decoration:none;border:1px solid var(--line)}
+.info{background:#fff;border:1px solid var(--line);border-radius:var(--r1);padding:20px;display:flex;flex-direction:column;gap:16px}
+.ib+.ib{border-top:1px solid var(--line);padding-top:14px}
+.lst{display:flex;align-items:center;gap:10px;font:700 15px var(--fh)}
+.ih{display:flex;align-items:center;gap:8px;font:700 14px var(--fh);margin-bottom:8px;flex-wrap:wrap}
+.hrs{width:100%;border-collapse:collapse;font-size:14px}
+.hrs td{padding:5px 0}.hrs td+td{text-align:right;font-weight:700}
+.hrs tr.today td{color:var(--ac)}
+.adr{font-size:14.5px}.adr small{display:block;color:var(--mut);font-size:12.5px;margin-top:6px}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.acts .btn{flex:1 1 auto}
+.lnk{display:inline-flex;align-items:center;gap:6px;font:700 14px var(--fh);min-height:44px}
+/* ---------- FAQ ---------- */
+.fq{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:start}
+.fqs details{background:#fff;border:1px solid var(--line);border-radius:var(--r2);margin-bottom:10px}
+.fqs summary{list-style:none;cursor:pointer;padding:16px 18px;font:700 16px/1.35 var(--fh);display:flex;justify-content:space-between;gap:12px;min-height:56px;align-items:center}
+.fqs summary::-webkit-details-marker{display:none}
+.fqs summary:after{content:"+";font-size:22px;color:var(--ac);flex:none;transition:transform .2s}
+.fqs details[open] summary:after{transform:rotate(45deg)}
+.fqs details p{padding:0 18px 16px;color:var(--mut);font-size:15px}
+/* ---------- CTA + footer ---------- */
+.close{background:var(--ac);color:#fff;border-radius:var(--r1);padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center;position:relative;overflow:hidden}
+.close h2{color:#fff}.close p{color:#d6e1ff;margin-top:12px}
+.close .btn{background:#fff;color:var(--ac)}
+.close .ce{position:absolute;right:-30px;top:-30px;width:240px;opacity:.14}
+footer{background:var(--ink);color:#b8c4e8;padding:56px 0 110px;margin-top:88px;font-size:14.5px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:28px}
+footer h4{color:#fff;font-size:14px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+footer a{color:#dfe7ff;text-decoration:none;display:inline-flex;min-height:36px;align-items:center}
+footer a:hover{text-decoration:underline}
+footer ul{list-style:none;margin:0;padding:0}
+.fdisc{border-top:1px solid #26356a;margin-top:32px;padding-top:18px;font-size:12.5px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.fab{position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 20px 0 16px;border-radius:999px;background:#128c4a;color:#fff;text-decoration:none;font:700 15px var(--fh);box-shadow:0 14px 30px -12px rgba(0,0,0,.45)}
+.fab svg{width:24px;height:24px}
+/* ---------- responsive ---------- */
+@media (max-width:1060px){.links{display:none}.nav-cta{display:none}.burger{display:block}
+  .sheet{display:block;position:fixed;left:0;right:0;top:72px;background:#fff;border-bottom:1px solid var(--line);padding:10px 16px 18px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:.25s;z-index:49}
+  .sheet.open{transform:none;opacity:1;visibility:visible}
+  .sheet a.sl{display:flex;justify-content:space-between;align-items:center;min-height:52px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink);font:700 17px var(--fh)}
+  .sheet a.sl small{color:var(--mut);font-weight:600}
+  .srow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+  .docs{grid-template-columns:repeat(2,1fr)}
+  .proof{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:900px){section{padding:64px 0}.shd,.hg,.console,.tg,.lg2,.locg,.fq,.close,.calc{grid-template-columns:1fr}
+  .hg{gap:10px}.stage{max-width:300px;order:-1;margin-top:-6px}.hero:before{display:none}.hero{padding-top:18px}
+  .tout{position:static}.fg{grid-template-columns:1fr 1fr}.viewer{min-height:340px}}
+@media (max-width:560px){body{font-size:15.5px}.nav-in{height:64px;gap:10px}.sheet{top:64px}.prog{top:64px}.brand b{font-size:16px}.brand small{font-size:9.5px;letter-spacing:.22em}.brand img{width:38px;height:38px}
+  .lang button{min-width:36px}.nav-r{gap:6px}
+  .proof{grid-template-columns:1fr}.kl{grid-template-columns:repeat(2,1fr)}.needs{grid-template-columns:1fr}.svc{grid-template-columns:1fr}.docs{grid-template-columns:1fr 1fr;gap:10px}
+  .doc .db{padding:12px}.doc b{font-size:14px}.c-l,.c-r,.card{padding:16px}.ps em{font-size:12.5px}.ps{padding:8px;gap:6px}.ps b{display:none}
+  .fg{grid-template-columns:1fr}.fab span{display:none}.fab{padding:0 16px}.stage .hint{display:none}.stage .badge{width:64px;height:64px;padding:9px}
+  .ctas .btn{width:100%}.status{padding:10px 12px}.calm-row{gap:5px}.cf{font-size:11.5px}.cf svg{width:28px;height:28px}
+  .pv .wrap{font-size:12.5px;align-items:flex-start}.viewer{min-height:300px}.vtabs button{padding:0 12px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path fill="currentColor" stroke="none" d="M9.2 7.6c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.1s.9 2.5 1 2.6c.1.2 1.8 2.9 4.5 3.9 2.2.9 2.7.7 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3l-1.8-.9c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.5-1.8-.2-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.8z"/></symbol>
+ <symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+ <symbol id="i-nav" viewBox="0 0 24 24"><path d="M20.5 3.5 3.5 10.8l7 2.7 2.7 7z"/></symbol>
+ <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6z"/><path d="M9 4v14M15 6v14"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="12" height="12" rx="2"/><path d="M15.5 8.5V5.5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5.2 3.5h3.3l1.8 4.6-2.2 1.4a11.5 11.5 0 0 0 6.4 6.4l1.4-2.2 4.6 1.8v3.3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3.2 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><path d="M17.2 6.8v.1"/></symbol>
+ <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 6.8 8.2 6.4 8.2-6.4"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
+ <symbol id="i-tap" viewBox="0 0 24 24"><path d="M9 11V5a2 2 0 1 1 4 0v6l4 .8a2 2 0 0 1 1.6 2.3L18 19a3 3 0 0 1-3 2.5h-4a3 3 0 0 1-2.4-1.2L5 15.5a1.6 1.6 0 0 1 2.4-2.1L9 15"/></symbol>
+ <symbol id="i-users" viewBox="0 0 24 24"><circle cx="8" cy="7.5" r="3"/><circle cx="16.5" cy="8.5" r="2.5"/><path d="M2.5 20c0-3.3 2.5-5.5 5.5-5.5s5.5 2.2 5.5 5.5M14 14.6c.8-.4 1.6-.6 2.5-.6 2.8 0 5 2 5 5"/></symbol>
+ <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></symbol>
+ <symbol id="i-calm" viewBox="0 0 24 24"><path d="M3 12c2.5-3 5.5-3 9 0s6.5 3 9 0"/><path d="M3 17c2.5-3 5.5-3 9 0s6.5 3 9 0" opacity=".5"/><path d="M3 7c2.5-3 5.5-3 9 0s6.5 3 9 0" opacity=".5"/></symbol>
+ <symbol id="i-xray" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M8.5 9c1-1 2.2-1.2 3.5-1.2s2.5.2 3.5 1.2c.6 1.4.2 3.2-.5 4.8-.3.7-1 .7-1.2 0l-.6-1.6h-2.4l-.6 1.6c-.2.7-.9.7-1.2 0-.7-1.6-1.1-3.4-.5-4.8z"/></symbol>
+ <symbol id="i-duo" viewBox="0 0 120 120"><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M37 31C21 35 13 51 17 68C21 86 35 101 52 110" stroke="currentColor" stroke-width="11"/><path d="M41 35C53 39 60 49 60 63" stroke="currentColor" stroke-width="8"/><path d="M83 31C99 35 107 51 103 68C99 86 85 101 68 110" stroke="currentColor" stroke-width="11"/><path d="M79 35C67 39 60 49 60 63" stroke="currentColor" stroke-width="8"/></g><circle cx="31" cy="20" r="9" fill="currentColor"/><circle cx="89" cy="20" r="9" fill="currentColor"/></symbol>
+</svg>
+
+<div class="pv" id="pv"><div class="wrap">
+  <span><b data-i="pv"></b> <span data-i="pv_s"></span> <span class="chk">✎ <span data-i="chk"></span></span> <span data-i="pv_c"></span></span>
+  <button class="pvx" id="pvx" type="button" data-ia="pv_x">×</button>
+</div></div>
+
+<nav id="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJEQyDCtyBpa29uIGRpZ2FtYmFyIHVsYW5nIGRhcmkgZmF2aWNvbiBiZGMuY28uaWQ6IGR1YSBzb3NvayBtZW1iZW50dWsgZ2lnaS4gV2FybmE6ICMxZDVmN2EgKGtpcmkpICYgIzJmYThlNiAoa2FuYW4pIC0tPgo8ZyBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgo8cGF0aCBkPSJNMzcgMzFDMjEgMzUgMTMgNTEgMTcgNjhDMjEgODYgMzUgMTAxIDUyIDExMCIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik00MSAzNUM1MyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTgzIDMxQzk5IDM1IDEwNyA1MSAxMDMgNjhDOTkgODYgODUgMTAxIDY4IDExMCIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik03OSAzNUM2NyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTYwIDYzVjkyIiBzdHJva2U9IiMyZmE4ZTYiIHN0cm9rZS13aWR0aD0iNSIgb3BhY2l0eT0iLjU1Ii8+CjwvZz4KPGNpcmNsZSBjeD0iMzEiIGN5PSIyMCIgcj0iOSIgZmlsbD0iIzFkNWY3YSIvPjxjaXJjbGUgY3g9Ijg5IiBjeT0iMjAiIHI9IjkiIGZpbGw9IiMyZmE4ZTYiLz4KPC9zdmc+Cg==" alt="Logo Bandung Dental Center" width="44" height="44"><span><b>Bandung Dental</b><small>CENTER · BDC</small></span></a>
+  <div class="links" id="links"><a href="#cek" data-i="n1"></a><a href="#tenang" data-i="n2"></a><a href="#layanan" data-i="n3"></a><a href="#dokter" data-i="n4"></a><a href="#lokasi" data-i="n5"></a><a href="#faq" data-i="n6"></a></div>
+  <div class="nav-r">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-pri btn-sm nav-cta" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" data-ia="menu"><i></i><i></i></button>
+  </div>
+</div>
+<div class="sheet" id="sheet">
+  <a class="sl" href="#cek"><span data-i="n1"></span><small>01</small></a>
+  <a class="sl" href="#tenang"><span data-i="n2"></span><small>02</small></a>
+  <a class="sl" href="#layanan"><span data-i="n3"></span><small>03</small></a>
+  <a class="sl" href="#dokter"><span data-i="n4"></span><small>04</small></a>
+  <a class="sl" href="#lokasi"><span data-i="n5"></span><small>05</small></a>
+  <a class="sl" href="#faq"><span data-i="n6"></span><small>06</small></a>
+  <div class="srow"><div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-pri btn-sm" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a></div>
+</div>
+</nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="hg">
+    <div class="hcopy">
+      <div class="tag"><span class="pl"><svg class="i" style="width:16px;height:16px;color:var(--teal)"><use href="#i-pin"/></svg>Jl. Sunda No. 27D, Bandung</span><span data-i="h_tag"></span></div>
+      <h1><span data-i="h1a"></span> <span class="u"><span data-i="h1b"></span><svg viewBox="0 0 300 14" preserveAspectRatio="none" aria-hidden="true"><path d="M4 9c40-6 80-6 120-2s80 5 120 0 40-4 52-3" fill="none" stroke="#2fa8e6" stroke-width="4" stroke-linecap="round"/></svg></span></h1>
+      <p class="lead" data-i="hl"></p>
+      <div class="status" id="status"><i class="dot"></i><b id="stt"></b><span id="sts"></span><span class="chk">✎ <span data-i="chk"></span></span></div>
+      <div class="ctas">
+        <a class="btn btn-pri" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span class="bl"><span data-i="cta_h"></span><small>+62 813-2009-6077</small></span></a>
+        <a class="btn btn-gh" href="#cek"><span data-i="c2"></span><svg class="i"><use href="#i-ar"/></svg></a>
+      </div>
+    </div>
+    <div class="stage rv" id="stage" aria-hidden="true">
+      <div class="ring2"></div><div class="disc"></div>
+      <svg class="fb" id="fb" viewBox="0 0 120 120"><use href="#i-duo" style="color:#1d5f7a"/></svg>
+      <img class="badge" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJEQyDCtyBpa29uIGRpZ2FtYmFyIHVsYW5nIGRhcmkgZmF2aWNvbiBiZGMuY28uaWQ6IGR1YSBzb3NvayBtZW1iZW50dWsgZ2lnaS4gV2FybmE6ICMxZDVmN2EgKGtpcmkpICYgIzJmYThlNiAoa2FuYW4pIC0tPgo8ZyBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgo8cGF0aCBkPSJNMzcgMzFDMjEgMzUgMTMgNTEgMTcgNjhDMjEgODYgMzUgMTAxIDUyIDExMCIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik00MSAzNUM1MyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTgzIDMxQzk5IDM1IDEwNyA1MSAxMDMgNjhDOTkgODYgODUgMTAxIDY4IDExMCIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik03OSAzNUM2NyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTYwIDYzVjkyIiBzdHJva2U9IiMyZmE4ZTYiIHN0cm9rZS13aWR0aD0iNSIgb3BhY2l0eT0iLjU1Ii8+CjwvZz4KPGNpcmNsZSBjeD0iMzEiIGN5PSIyMCIgcj0iOSIgZmlsbD0iIzFkNWY3YSIvPjxjaXJjbGUgY3g9Ijg5IiBjeT0iMjAiIHI9IjkiIGZpbGw9IiMyZmE4ZTYiLz4KPC9zdmc+Cg==" alt="">
+      <p class="hint" data-i="h_hint"></p>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b> <span data-i="zap2"></span></div>
+    </div>
+  </div>
+  <div class="proof rv">
+    <a class="pf" href="#dokter"><span class="ic"><svg class="i"><use href="#i-users"/></svg></span><span><b data-i="p1a"></b><span data-i="p1b"></span></span></a>
+    <a class="pf" href="#tenang"><span class="ic"><svg class="i"><use href="#i-calm"/></svg></span><span><b data-i="p2a"></b><span data-i="p2b"></span></span></a>
+    <a class="pf" href="#layanan"><span class="ic"><svg class="i"><use href="#i-list"/></svg></span><span><b data-i="p3a"></b><span data-i="p3b"></span></span></a>
+    <a class="pf" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Dental+Center+Jl.+Sunda+27D+Bandung" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#i-map"/></svg></span><span><b data-i="p4a"></b><span data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<div class="strip" aria-hidden="true"><div class="t" id="tick"></div></div>
+
+<section id="cek"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="ck"></span></div><h2 data-i="ch"></h2></div><p class="lead" data-i="cl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i></i><span><b>01</b><em data-i="st1"></em></span></button>
+    <button class="ps" type="button" data-s="1"><i></i><span><b>02</b><em data-i="st2"></em></span></button>
+    <button class="ps" type="button" data-s="2"><i></i><span><b>03</b><em id="st3l" data-i="st3"></em></span></button>
+  </div>
+  <div class="console">
+    <div class="c-l">
+      <div class="c-head"><div><div class="step" data-i="s1"></div><h3 class="ptitle" data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch pre" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="toothG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#edf2fb"/></linearGradient><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dfe3"/><stop offset="1" stop-color="#eed3d9"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#1c2b5c" flood-opacity=".16"/></filter></defs></svg>
+        <span class="side r" data-i="sd_r" aria-hidden="true"></span><span class="side l" data-i="sd_l" aria-hidden="true"></span>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div>
+    <div class="c-r">
+      <div class="step" data-i="s2"></div><h3 class="ptitle" id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+      <a class="tolink" href="#tenang"><span data-i="to_t"></span><svg class="i" style="width:16px;height:16px"><use href="#i-ar"/></svg></a>
+    </div>
+  </div>
+</div></section>
+
+<section id="tenang"><div class="wrap" style="position:relative">
+  <svg class="deco" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-duo" style="color:#00278d"/></svg>
+  <div class="shd rv"><div><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="tk"></span></div><h2 data-i="th"></h2></div><div><p class="lead" data-i="tl"></p><p class="note" style="margin-top:10px" data-i="tnote"></p></div></div>
+  <div class="tg">
+    <div class="card rv">
+      <div class="qn"><b>1</b><h3 id="q1" data-i="q1"></h3></div>
+      <div class="needs" id="needs" role="radiogroup" aria-labelledby="q1"></div>
+      <div class="calm"><div class="qn"><b>2</b><h3 id="q2" data-i="q2"></h3></div>
+        <div class="calm-row" id="calm" role="radiogroup" aria-labelledby="q2"></div>
+        <p class="calm-msg" id="calmMsg" aria-live="polite"></p></div>
+      <div class="qn"><b>3</b><h3 id="q3" data-i="q3"></h3></div>
+      <div class="reqs" id="reqs" role="group" aria-labelledby="q3"></div>
+    </div>
+    <div class="tout"><div class="card rv" id="tcard">
+      <div class="rk" data-i="t_out"></div>
+      <div id="tres"></div>
+    </div></div>
+  </div>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="lk"></span></div><h2 data-i="lh"></h2></div><p class="lead" data-i="ll"></p></div>
+  <div class="lg2">
+    <div class="svc" id="svc"></div>
+    <div>
+      <div class="price rv"><h3 data-i="pr_h"></h3><p class="pn"><span data-i="pr_n"></span> <span class="chk">✎ <span data-i="chk"></span></span></p><table id="ptab"></table></div>
+      <div class="fac rv"><h3 data-i="fa_h"></h3><ul><li data-i="fa1"></li><li data-i="fa2"></li><li><span data-i="fa3"></span> <span class="chk">✎ <span data-i="chk"></span></span></li></ul></div>
+    </div>
+  </div>
+  <div class="calc rv" id="calc">
+    <div>
+      <h3 style="font-size:20px;margin-bottom:6px" data-i="ca_h"></h3><p style="font-size:14px;color:var(--mut);margin-bottom:16px"><span data-i="ca_p"></span> <span class="chk">✎ <span data-i="chk"></span></span></p>
+      <label class="fl" for="amt" data-i="a1"></label>
+      <div class="money"><span>Rp</span><input id="amt" inputmode="numeric" autocomplete="off" value="6.000.000" maxlength="12"></div>
+      <input type="range" class="rng" id="rng" min="4700000" max="10000000" step="100000" value="6000000" data-ia="a1">
+      <div class="rlab"><span>Rp4,7 jt</span><span>Rp10 jt</span></div>
+      <label class="fl" for="dep" style="margin-top:14px" data-i="a2"></label>
+      <div class="money"><span>Rp</span><input id="dep" inputmode="numeric" autocomplete="off" value="1.000.000" maxlength="12"></div>
+      <div class="fl" id="tenl" style="margin-top:14px" data-i="a3"></div>
+      <div class="ten" id="ten" role="radiogroup" aria-labelledby="tenl"></div>
+    </div>
+    <div class="out">
+      <div class="rk" data-i="o1"></div>
+      <div class="per" id="per" aria-live="polite">Rp0</div>
+      <div class="row2"><span data-i="o2"></span><b id="odep"></b></div>
+      <div class="row2"><span data-i="o3"></span><b id="obal"></b></div>
+      <p class="o-note" data-i="o4"></p>
+      <a class="btn btn-wa" id="cwa" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="o5"></span></a>
+    </div>
+  </div>
+</div></section>
+
+<section id="dokter"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="dk"></span></div><h2 data-i="dh"></h2></div><p class="lead" data-i="dl"></p></div>
+  <div class="docs" id="docs"></div>
+  <p class="dnote"><span data-i="dn"></span> <span class="chk">✎ <span data-i="chk"></span></span></p>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="lok"></span></div><h2 data-i="loh"></h2></div><p class="lead" data-i="lol"></p></div>
+  <div class="locg">
+    <div class="viewer rv" id="viewer">
+      <div class="foto" id="vfoto">
+        <svg viewBox="0 0 640 440" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustrasi fasad klinik">
+          <rect width="640" height="440" fill="#e4ecfb"/>
+          <circle cx="540" cy="80" r="46" fill="#fff" opacity=".7"/>
+          <path d="M0 300c60-30 120-40 180-28s110 20 170 6 150-30 290-4v166H0z" fill="#d3dff5"/>
+          <rect x="120" y="92" width="400" height="258" fill="#fff" stroke="#b9c8ea" stroke-width="2"/>
+          <rect x="120" y="92" width="400" height="18" fill="#00278d"/>
+          <rect x="150" y="130" width="340" height="62" rx="10" fill="#00278d"/>
+          <g transform="translate(166 138) scale(.38)"><use href="#i-duo" style="color:#fff"/></g>
+          <text x="220" y="160" fill="#fff" font-family="Onest,Arial,sans-serif" font-weight="800" font-size="23">BANDUNG DENTAL CENTER</text>
+          <text x="221" y="181" fill="#8fd3ff" font-family="Onest,Arial,sans-serif" font-weight="700" font-size="12" letter-spacing="3">KLINIK GIGI · BDC</text>
+          <g fill="#cfe0fb" stroke="#9fb4de" stroke-width="2"><rect x="150" y="212" width="90" height="60" rx="4"/><rect x="400" y="212" width="90" height="60" rx="4"/></g>
+          <path d="M150 242h90M195 212v60M400 242h90M445 212v60" stroke="#9fb4de" stroke-width="2"/>
+          <rect x="268" y="206" width="104" height="144" rx="6" fill="#0b1a44"/>
+          <rect x="276" y="214" width="42" height="128" rx="3" fill="#2b4a8f"/><rect x="322" y="214" width="42" height="128" rx="3" fill="#2b4a8f"/>
+          <text x="320" y="280" text-anchor="middle" fill="#fff" font-family="Onest,Arial,sans-serif" font-weight="800" font-size="13">27D</text>
+          <rect x="96" y="350" width="448" height="12" fill="#b9c8ea"/>
+          <g transform="translate(40 250)"><rect x="-4" y="0" width="8" height="112" fill="#6b7a9e"/><rect x="-44" y="-6" width="88" height="26" rx="4" fill="#1f6b3d"/><text x="0" y="12" text-anchor="middle" fill="#fff" font-family="Onest,Arial,sans-serif" font-weight="700" font-size="11">JL. SUNDA</text></g>
+          <path d="M0 380h640" stroke="#b9c8ea" stroke-width="3" stroke-dasharray="22 16"/>
+        </svg>
+        <div class="cap" data-i="lcap"></div>
+      </div>
+      <div class="vpane" id="vpane" hidden></div>
+      <div class="vtabs" role="tablist" data-ia="v_tabs"><button type="button" role="tab" data-v="foto" aria-selected="false" data-i="v_foto"></button><button type="button" role="tab" data-v="peta" class="on" aria-selected="true" data-i="v_map"></button></div>
+      <a class="vfull" id="vfull" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Dental+Center+Jl.+Sunda+No.27D+Bandung"><span data-i="v_full"></span>&nbsp;↗</a>
+    </div>
+    <div class="info rv">
+      <div class="ib"><div class="lst" id="lst"><i class="dot"></i><span></span></div></div>
+      <div class="ib"><div class="ih"><svg class="i"><use href="#i-clock"/></svg><span data-i="lw"></span><span class="chk">✎ <span data-i="chk"></span></span></div><table class="hrs" id="hrs"></table></div>
+      <div class="ib"><div class="ih"><svg class="i"><use href="#i-pin"/></svg><span data-i="la"></span><span class="chk">✎ <span data-i="chk"></span></span></div>
+        <p class="adr" id="adr">Jl. Sunda No. 27D, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112<small data-i="adr_n"></small></p></div>
+      <div class="ib acts">
+        <a class="btn btn-pri btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q=Bandung%20Dental%20Center%20Jl.%20Sunda%2027D%20Bandung&amp;navigate=yes"><svg class="i"><use href="#i-nav"/></svg>Waze</a>
+        <a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Dental+Center+Jl.+Sunda+No.27D+Bandung"><svg class="i"><use href="#i-map"/></svg>Google Maps</a>
+        <button type="button" class="btn btn-gh btn-sm" id="cpa"><svg class="i"><use href="#i-copy"/></svg><span data-i="cp_a"></span></button>
+        <a class="lnk" data-wa="loc" href="#" target="_blank" rel="noopener"><svg class="i" style="width:17px;height:17px"><use href="#i-wa"/></svg><span data-i="lwa"></span></a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap fq">
+  <div class="rv"><div class="kick"><span class="duo"><i></i><i></i></span><span data-i="fk"></span></div><h2 data-i="fh"></h2><p class="lead" style="margin-top:14px" data-i="fl"></p>
+    <a class="btn btn-gh" style="margin-top:20px" data-wa="ask" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="fb"></span></a></div>
+  <div class="fqs rv" id="fqs"></div>
+</div></section>
+
+<div class="wrap"><div class="close rv">
+  <svg class="ce" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-duo" style="color:#fff"/></svg>
+  <div><h2 data-i="cz_h"></h2><p data-i="cz_p"></p></div>
+  <div><a class="btn" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta_h"></span></a></div>
+</div></div>
+
+<footer><div class="wrap">
+  <div class="fg">
+    <div><a href="#top" class="brand" style="color:#fff"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJEQyDCtyBpa29uIGRpZ2FtYmFyIHVsYW5nIGRhcmkgZmF2aWNvbiBiZGMuY28uaWQ6IGR1YSBzb3NvayBtZW1iZW50dWsgZ2lnaS4gV2FybmE6ICMxZDVmN2EgKGtpcmkpICYgIzJmYThlNiAoa2FuYW4pIC0tPgo8ZyBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgo8cGF0aCBkPSJNMzcgMzFDMjEgMzUgMTMgNTEgMTcgNjhDMjEgODYgMzUgMTAxIDUyIDExMCIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik00MSAzNUM1MyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMWQ1ZjdhIiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTgzIDMxQzk5IDM1IDEwNyA1MSAxMDMgNjhDOTkgODYgODUgMTAxIDY4IDExMCIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjExIi8+CjxwYXRoIGQ9Ik03OSAzNUM2NyAzOSA2MCA0OSA2MCA2MyIgc3Ryb2tlPSIjMmZhOGU2IiBzdHJva2Utd2lkdGg9IjgiLz4KPHBhdGggZD0iTTYwIDYzVjkyIiBzdHJva2U9IiMyZmE4ZTYiIHN0cm9rZS13aWR0aD0iNSIgb3BhY2l0eT0iLjU1Ii8+CjwvZz4KPGNpcmNsZSBjeD0iMzEiIGN5PSIyMCIgcj0iOSIgZmlsbD0iIzFkNWY3YSIvPjxjaXJjbGUgY3g9Ijg5IiBjeT0iMjAiIHI9IjkiIGZpbGw9IiMyZmE4ZTYiLz4KPC9zdmc+Cg==" alt="" width="44" height="44" style="background:#fff;border-radius:12px;padding:4px"><span><b>Bandung Dental</b><small style="color:#8fd3ff">CENTER · BDC</small></span></a><p style="margin-top:14px;max-width:34ch" data-i="ft_p"></p></div>
+    <div><h4 data-i="ft_c"></h4><ul>
+      <li><a data-wa="book" href="#" target="_blank" rel="noopener">WhatsApp +62 813-2009-6077</a></li>
+      <li><a href="tel:+62224262852">Telp. (022) 426 2852 <span class="chk" style="margin-left:6px">✎</span></a></li>
+      <li><a href="mailto:bandungdentalcenter@gmail.com">bandungdentalcenter@gmail.com</a></li></ul></div>
+    <div><h4 data-i="ft_v"></h4><p>Jl. Sunda No. 27D, Kb. Pisang, Sumur Bandung, Kota Bandung 40112</p><p style="margin-top:6px"><span data-i="ft_h"></span></p></div>
+    <div><h4 data-i="ft_f"></h4><ul><li><a href="https://www.instagram.com/bandungdentalcenter/" target="_blank" rel="noopener">Instagram @bandungdentalcenter</a></li><li><a href="https://linktr.ee/bandungdentalcenter" target="_blank" rel="noopener">Linktree</a></li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Dental+Center+Jl.+Sunda+27D+Bandung" target="_blank" rel="noopener" data-i="ft_r"></a></li></ul></div>
+  </div>
+  <div class="fdisc"><span data-i="ft_disc"></span><a href="#top" data-i="ft_top"></a></div>
+</div></footer>
+
+<a class="fab" data-wa="book" href="#" target="_blank" rel="noopener" data-ia="fab_a"><svg class="i"><use href="#i-wa"/></svg><span data-i="fab"></span></a>
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact claude.ai) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev) skrip ini tidak melakukan apa-apa dan peta asli tampil. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+
+<script>
+const WA="6281320096077";
+const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth";
+const mob=()=>innerWidth<900;
+let L="id";try{const s=localStorage.getItem("bdc_lang");if(s==="en"||s==="id")L=s}catch(e){}
+const T={id:{
+pv:"Konsep pratinjau oleh Maxi Growth Studio",pv_s:"· bukan website resmi Bandung Dental Center.",pv_c:"= info perlu dikonfirmasi klinik.",pv_x:"Tutup banner",chk:"verifikasi",
+n1:"Cek gigi",n2:"Pendamping tenang",n3:"Layanan & biaya",n4:"Dokter",n5:"Lokasi",n6:"FAQ",cta:"Buat janji",menu:"Menu",
+h_tag:"Klinik gigi dengan dokter spesialis",h1a:"Perawatan gigi yang",h1b:"berdampingan.",
+hl:"Dari pemeriksaan rutin, tambal, perawatan gusi, hingga gigi tiruan dan implan — ditangani bersama dokter gigi spesialis. Merasa cemas ke dokter gigi? Ceritakan saja, kami bantu siapkan kunjungan Anda.",
+cta_h:"Tanya via WhatsApp",c2:"Cek gigi 30 detik",h_hint:"Ketuk bakterinya untuk mengusir ✦",zap1:"Bakteri diusir:",zap2:"",
+open_now:"Buka sekarang",closed_now:"Sedang tutup",open_until:"sampai 20.00 WIB",opens_at:"buka lagi 08.00 WIB",
+p1a:"4 dokter gigi spesialis & ahli",p1b:"Prostodonti, konservasi, periodonti & hipnodontik",p2a:"Dental hypnosis",p2b:"Tersedia bagi pasien yang cemas (tercantum di situs klinik)",p3a:"14 jenis layanan",p3b:"Preventif, kuratif, estetik & rehabilitatif",p4a:"Ulasan Google",p4b:"Baca pengalaman pasien langsung di Google Maps ↗",
+tick:"PEMERIKSAAN · SCALING · TAMBAL GIGI · SALURAN AKAR · PERAWATAN GUSI · BEHEL · CLEAR ALIGNER · BLEACHING · VENEER · MAHKOTA · IMPLAN · GIGI ANAK · ODONTEKTOMI · DENTAL HYPNOSIS",
+ck:"Cek gigi 30 detik",ch:"Tandai giginya, pilih keluhannya, kirim ke klinik.",cl:"Bukan diagnosis — hanya membantu Anda menjelaskan keluhan dengan lebih jelas sebelum datang. Pesan WhatsApp tersusun otomatis dan bisa Anda ubah.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim pesan",st3d:"Pesan dibuka",
+s1:"Langkah 1",s1t:"Gigi mana yang terasa?",jw_g:"Tampilan rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",jw_hint:"Tip: cek juga rahang bawah",
+sd_r:"KANAN",sd_l:"KIRI",orient:"Denah dilihat dari depan, seperti dokter melihat Anda — sisi kanan Anda ada di kiri gambar. Nomor = sistem FDI.",
+tap:"Ketuk gigi yang terasa. Boleh lebih dari satu.",skip:"Lewati, saya tidak yakin",skipped:"Tidak apa-apa — dokter akan memeriksa.",mk_l:"gigi ditandai",rm:"Hapus",clr:"Hapus semua",amap:"Denah gigi rahang atas dan bawah",
+s2:"Langkah 2",s2t:"Apa yang Anda rasakan?",s3:"Langkah 3 · Hasil",
+pick:"Pilih satu keluhan",pickp:" — hasil dan pesan WhatsApp akan muncul di sini.",send:"Kirim via WhatsApp",
+likely:"Kemungkinan",urg:["","Bisa dijadwalkan","Sebaiknya segera","Periksa secepatnya"],tr_usual:"Perawatan yang biasa dipertimbangkan",
+ask_c:"tanyakan ke klinik",after_ex:"setelah pemeriksaan",est_src:"Kisaran = perkiraan pasar Bandung dari sumber publik, bukan tarif resmi BDC.",
+yourmsg:"Pesan Anda (bisa diubah)",msg_rst:"Susun ulang",pref_l:"Waktu:",pf:["Pagi","Siang","Sore"],copy:"Salin pesan",copied:"Tersalin ✓",r_upd:"Hasil diperbarui: ",
+sd:"Informasi bersifat umum dan tidak menggantikan pemeriksaan dokter gigi. Jika bengkak menyebar, demam, atau sulit menelan, segera cari pertolongan medis.",
+to_t:"Merasa cemas? Coba Pendamping Tenang",
+w_k1:"Halo Bandung Dental Center, saya ingin konsultasi: ",w_k2:" — ",w_k3:"Apakah bisa dijadwalkan pemeriksaan?",w_pref:"Waktu yang saya harapkan: ",
+tk:"Pendamping tenang",th:"Takut ke dokter gigi? Mulai dari yang Anda butuhkan.",tl:"Pilih kebutuhan dan seberapa cemas Anda. Kami tunjukkan dokter yang sesuai di BDC — termasuk pendampingan dental hypnosis — lalu siapkan pesan WhatsApp berisi permintaan kenyamanan Anda.",
+tnote:"Cemas itu wajar. Yang penting, klinik tahu sebelum Anda datang.",
+q1:"Apa yang ingin Anda tangani?",q2:"Seberapa cemas Anda?",q3:"Ada permintaan agar lebih nyaman?",t_out:"Rekomendasi untuk Anda",
+calm:["Santai","Sedikit tegang","Cemas","Sangat cemas","Takut sekali"],
+calmMsg:["Bagus! Tetap boleh bertanya apa pun ke dokter.","Wajar. Minta dijelaskan dulu tiap langkahnya.","Tidak apa-apa. Beri tahu klinik agar kunjungan disesuaikan.","Anda tidak sendiri. Tanyakan pendampingan dental hypnosis.","Ambil pelan-pelan. Mulai dengan konsultasi saja, tanpa tindakan."],
+reqs:["Dijelaskan dulu setiap langkah","Boleh minta jeda dengan isyarat tangan","Didampingi keluarga","Konsultasi dulu tanpa tindakan","Tanya soal dental hypnosis"],
+t_pick:"Pilih kebutuhan Anda di langkah 1 — dokter yang sesuai akan muncul di sini.",t_comp:"Pendamping",t_when:"Waktu kunjungan:",
+t_gen:"Dokter gigi di BDC",t_gen_s:"Nama dokter gigi umum belum tercantum — klinik akan mengatur.",t_ask:"Ditanyakan ke klinik",t_ask_s:"Dokter untuk layanan ini belum tercantum di situs klinik.",
+t_sched:"Jadwal praktik dokter dikonfirmasi langsung oleh klinik.",
+w_t1:"Halo Bandung Dental Center, saya ingin membuat janji untuk: ",w_t2:"Tingkat cemas saya: ",w_t3:"Permintaan saya: ",w_t4:"Jika memungkinkan, dengan ",w_t5:"Terima kasih.",
+lk:"Layanan & biaya",lh:"Empat jenis perawatan, satu tempat.",ll:"Layanan sesuai yang tercantum di situs klinik. Biaya akhir ditentukan setelah pemeriksaan.",
+pr_h:"Kisaran biaya di Bandung",pr_n:"Perkiraan pasar dari sumber publik, bukan tarif resmi BDC.",
+fa_h:"Fasilitas",fa1:"Rontgen gigi di klinik",fa2:"Alat pembersih karang gigi modern",fa3:"Klinik tercantum di daftar provider AdMedika (pemegang kartu Chubb, Juni 2026) — kelayakan tergantung polis",
+ca_h:"Simulasi cicilan behel",ca_p:"Hitung gambaran angsuran bulanan. Skema cicilan dan DP dikonfirmasi klinik.",a1:"Perkiraan biaya behel",a2:"Uang muka (DP)",a3:"Tenor",mo:"bln",
+o1:"Perkiraan per bulan",o2:"Uang muka",o3:"Sisa dicicil",o4:"Simulasi tanpa bunga, hanya gambaran. Biaya sebenarnya ditentukan setelah pemeriksaan & rencana perawatan.",o5:"Tanyakan skema cicilan",
+w_calc:"Halo Bandung Dental Center, saya tertarik pasang behel. Simulasi saya: biaya {a}, DP {d}, {m} bulan (≈{p}/bulan). Apakah ada skema cicilan seperti ini?",
+dk:"Tim dokter",dh:"Dokter gigi spesialis & ahli.",dl:"Nama dan gelar ditampilkan sesuai situs klinik. Ilustrasi, bukan foto dokter.",dn:"Jadwal praktik tiap dokter belum dapat dipastikan untuk 2026 — tanyakan melalui WhatsApp.",d_btn:"Tanya jadwal",
+lok:"Lokasi & jam",loh:"Di pusat Kota Bandung.",lol:"Klinik berada di Jl. Sunda, kawasan Sumur Bandung. Buka peta untuk rute, atau tanyakan arah lewat WhatsApp.",
+lcap:"Ilustrasi fasad — bukan foto klinik",v_foto:"Ilustrasi",v_map:"Peta",v_full:"Buka layar penuh",v_tabs:"Tampilan lokasi",
+lw:"Jam praktik",la:"Alamat",adr_n:"Sebagian direktori & daftar provider masih mencatat Jl. Karapitan No. 88C, Lengkong — mohon konfirmasi ke klinik.",cp_a:"Salin alamat",cp_d:"Tersalin ✓",lwa:"Tanya arah via WhatsApp",
+days:["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],
+fk:"Pertanyaan umum",fh:"Sebelum Anda datang.",fl:"Tidak menemukan jawabannya? Tanyakan langsung ke klinik.",fb:"Tanya via WhatsApp",
+cz_h:"Siap untuk kunjungan yang lebih tenang?",cz_p:"Kirim pesan singkat — sebutkan keluhan, waktu yang Anda inginkan, dan jika Anda merasa cemas.",
+ft_p:"Klinik gigi di Kota Bandung dengan dokter gigi spesialis prostodonti, konservasi, periodonti, dan ahli hipnodontik.",ft_c:"Kontak",ft_v:"Alamat",ft_f:"Ikuti",ft_h:"Setiap hari 08.00–20.00 WIB ✎",ft_r:"Ulasan di Google Maps",
+ft_disc:"Konsep pratinjau oleh Maxi Growth Studio — bukan website resmi Bandung Dental Center. Informasi bersifat umum.",ft_top:"Kembali ke atas ↑",
+fab:"WhatsApp",fab_a:"Buat janji via WhatsApp",
+w_book:"Halo Bandung Dental Center, saya ingin membuat janji pemeriksaan gigi. Kapan jadwal yang tersedia?",w_loc:"Halo Bandung Dental Center, boleh minta petunjuk arah ke klinik di Jl. Sunda No. 27D?",w_ask:"Halo Bandung Dental Center, saya ingin bertanya: ",w_doc:"Halo Bandung Dental Center, saya ingin menanyakan jadwal praktik ",
+dfl:"Pemeriksaan & konsultasi"
+},en:{
+pv:"Preview concept by Maxi Growth Studio",pv_s:"· not the official Bandung Dental Center website.",pv_c:"= to be confirmed by the clinic.",pv_x:"Close banner",chk:"verify",
+n1:"Tooth check",n2:"Calm companion",n3:"Services & fees",n4:"Dentists",n5:"Location",n6:"FAQ",cta:"Book",menu:"Menu",
+h_tag:"Dental clinic with specialist dentists",h1a:"Dental care,",h1b:"side by side.",
+hl:"From routine check-ups, fillings and gum care to dentures and implants — handled together with specialist dentists. Nervous about the dentist? Just tell us, and we'll help you prepare for your visit.",
+cta_h:"Ask on WhatsApp",c2:"30-second tooth check",h_hint:"Tap the bacteria to chase them off ✦",zap1:"Bacteria cleared:",zap2:"",
+open_now:"Open now",closed_now:"Closed now",open_until:"until 8 pm WIB",opens_at:"opens again 8 am WIB",
+p1a:"4 specialist & expert dentists",p1b:"Prosthodontics, conservative, periodontics & hypnodontics",p2a:"Dental hypnosis",p2b:"For anxious patients (listed on the clinic's site)",p3a:"14 services",p3b:"Preventive, curative, aesthetic & rehabilitative",p4a:"Google reviews",p4b:"Read patients' experiences on Google Maps ↗",
+tick:"CHECK-UP · SCALING · FILLINGS · ROOT CANAL · GUM CARE · BRACES · CLEAR ALIGNERS · WHITENING · VENEERS · CROWNS · IMPLANTS · CHILDREN'S CARE · WISDOM TOOTH SURGERY · DENTAL HYPNOSIS",
+ck:"30-second tooth check",ch:"Mark the tooth, pick the concern, send it to the clinic.",cl:"Not a diagnosis — it simply helps you describe your concern before you visit. The WhatsApp message is written for you and can be edited.",
+st1:"Mark teeth",st2:"Pick concern",st3:"Send message",st3d:"Message opened",
+s1:"Step 1",s1t:"Which tooth bothers you?",jw_g:"Jaw view",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",jw_hint:"Tip: check the lower jaw too",
+sd_r:"RIGHT",sd_l:"LEFT",orient:"Shown as if facing you — your right is on the left of the chart. Numbers = FDI system.",
+tap:"Tap the tooth that hurts. You can pick more than one.",skip:"Skip, I'm not sure",skipped:"That's fine — the dentist will examine.",mk_l:"teeth marked",rm:"Remove",clr:"Clear all",amap:"Chart of upper and lower teeth",
+s2:"Step 2",s2t:"What do you feel?",s3:"Step 3 · Result",
+pick:"Pick one concern",pickp:" — the result and WhatsApp message will appear here.",send:"Send on WhatsApp",
+likely:"Possibly",urg:["","Can be scheduled","Better soon","Get checked ASAP"],tr_usual:"Treatments usually considered",
+ask_c:"ask the clinic",after_ex:"after examination",est_src:"Ranges = Bandung market estimates from public sources, not BDC's official fees.",
+yourmsg:"Your message (editable)",msg_rst:"Rewrite",pref_l:"Time:",pf:["Morning","Midday","Afternoon"],copy:"Copy message",copied:"Copied ✓",r_upd:"Result updated: ",
+sd:"General information only; it does not replace a dental examination. If swelling spreads, you have a fever or trouble swallowing, seek medical help promptly.",
+to_t:"Feeling anxious? Try the Calm Companion",
+w_k1:"Hello Bandung Dental Center, I'd like to consult about: ",w_k2:" — ",w_k3:"Could I schedule an examination?",w_pref:"Preferred time: ",
+tk:"Calm companion",th:"Afraid of the dentist? Start with what you need.",tl:"Choose what you need and how anxious you feel. We'll show the matching dentists at BDC — including dental hypnosis support — and prepare a WhatsApp message with your comfort requests.",
+tnote:"Feeling anxious is normal. What matters is that the clinic knows before you arrive.",
+q1:"What would you like to treat?",q2:"How anxious do you feel?",q3:"Any requests to feel more at ease?",t_out:"Recommended for you",
+calm:["Relaxed","A bit tense","Anxious","Very anxious","Really scared"],
+calmMsg:["Great! You can still ask the dentist anything.","Normal. Ask for each step to be explained first.","That's okay. Let the clinic know so the visit can be adjusted.","You're not alone. Ask about dental hypnosis support.","Take it slowly. Start with a consultation only, no treatment."],
+reqs:["Explain each step first","Let me pause with a hand signal","A family member with me","Consultation first, no treatment","Ask about dental hypnosis"],
+t_pick:"Choose your need in step 1 — the matching dentists will appear here.",t_comp:"Companion",t_when:"Visit time:",
+t_gen:"A dentist at BDC",t_gen_s:"General dentists aren't named yet — the clinic will arrange.",t_ask:"Ask the clinic",t_ask_s:"The dentist for this service isn't listed on the clinic's site.",
+t_sched:"Dentists' schedules are confirmed directly by the clinic.",
+w_t1:"Hello Bandung Dental Center, I'd like to book an appointment for: ",w_t2:"My anxiety level: ",w_t3:"My requests: ",w_t4:"If possible, with ",w_t5:"Thank you.",
+lk:"Services & fees",lh:"Four kinds of care, one place.",ll:"Services as listed on the clinic's website. Final fees are set after examination.",
+pr_h:"Typical fees in Bandung",pr_n:"Market estimates from public sources, not BDC's official fees.",
+fa_h:"Facilities",fa1:"Dental X-ray at the clinic",fa2:"Modern scaling equipment",fa3:"Listed as an AdMedika provider (Chubb cardholders, June 2026) — eligibility depends on your policy",
+ca_h:"Braces instalment simulator",ca_p:"Estimate a monthly amount. Instalment plans and deposit are confirmed by the clinic.",a1:"Estimated braces cost",a2:"Deposit",a3:"Term",mo:"mo",
+o1:"Estimated per month",o2:"Deposit",o3:"Balance in instalments",o4:"Interest-free simulation, for illustration only. Actual cost is set after examination & treatment plan.",o5:"Ask about instalments",
+w_calc:"Hello Bandung Dental Center, I'm interested in braces. My simulation: cost {a}, deposit {d}, {m} months (≈{p}/month). Is an instalment plan like this available?",
+dk:"Our dentists",dh:"Specialist & expert dentists.",dl:"Names and titles as shown on the clinic's site. Illustrations, not photos.",dn:"Each dentist's 2026 schedule couldn't be confirmed — ask on WhatsApp.",d_btn:"Ask schedule",
+lok:"Location & hours",loh:"In central Bandung.",lol:"The clinic is on Jl. Sunda in the Sumur Bandung area. Open the map for directions, or ask on WhatsApp.",
+lcap:"Façade illustration — not a photo of the clinic",v_foto:"Illustration",v_map:"Map",v_full:"Open full screen",v_tabs:"Location views",
+lw:"Opening hours",la:"Address",adr_n:"Some directories and provider lists still show Jl. Karapitan No. 88C, Lengkong — please confirm with the clinic.",cp_a:"Copy address",cp_d:"Copied ✓",lwa:"Ask for directions on WhatsApp",
+days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+fk:"FAQ",fh:"Before you visit.",fl:"Can't find your answer? Ask the clinic directly.",fb:"Ask on WhatsApp",
+cz_h:"Ready for a calmer visit?",cz_p:"Send a short message — your concern, your preferred time, and whether you feel anxious.",
+ft_p:"A dental clinic in Bandung with specialists in prosthodontics, conservative dentistry, periodontics, and a hypnodontics expert.",ft_c:"Contact",ft_v:"Address",ft_f:"Follow",ft_h:"Daily 8 am–8 pm WIB ✎",ft_r:"Reviews on Google Maps",
+ft_disc:"Preview concept by Maxi Growth Studio — not the official Bandung Dental Center website. General information only.",ft_top:"Back to top ↑",
+fab:"WhatsApp",fab_a:"Book on WhatsApp",
+w_book:"Hello Bandung Dental Center, I'd like to book a dental check-up. When is the next available slot?",w_loc:"Hello Bandung Dental Center, could you share directions to the clinic at Jl. Sunda No. 27D?",w_ask:"Hello Bandung Dental Center, I have a question: ",w_doc:"Hello Bandung Dental Center, I'd like to ask about the schedule of ",
+dfl:"Check-up & consultation"
+}};
+const t=k=>(T[L][k]!==undefined?T[L][k]:T.id[k]);
+const wa=m=>"https://wa.me/"+WA+"?text="+encodeURIComponent(m);
+const ic=(n,st)=>'<svg class="i"'+(st?' style="'+st+'"':'')+'><use href="#i-'+n+'"/></svg>';
+const rp=n=>"Rp"+Math.round(n).toLocaleString("id-ID");
+const jt=n=>n>=1e6?("Rp"+(n/1e6).toLocaleString(L==="id"?"id-ID":"en-US",{maximumFractionDigits:1})+(L==="id"?" jt":"M")):("Rp"+Math.round(n/1e3)+(L==="id"?" rb":"k"));
+const rng=(a,b)=>jt(a)+"–"+jt(b).replace("Rp","");
+function copyText(s,ok){const done=()=>ok&&ok();try{navigator.clipboard.writeText(s).then(done,()=>{fb2();done()})}catch(e){fb2();done()}
+  function fb2(){const a=document.createElement("textarea");a.value=s;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove()}}
+
+/* ---------- data ---------- */
+const PR={sc:[234e3,6e5],tb:[348e3,762e3],cb:[205e3,75e4],bh:[47e5,1e7],bl:[14e5,26e5],vn:[18e5,49e5],im:[115e5,193e5]};
+const PRN={id:{sc:"Scaling",tb:"Tambal komposit / gigi",cb:"Cabut gigi dewasa",bh:"Behel metal",bl:"Bleaching",vn:"Veneer porselen / gigi",im:"Implan gigi"},en:{sc:"Scaling",tb:"Composite filling / tooth",cb:"Adult extraction",bh:"Metal braces",bl:"Whitening",vn:"Porcelain veneer / tooth",im:"Dental implant"}};
+const DOCS=[
+ {n:"drg Daisy Wulansari, drg., M.Kes., Sp Prost",sp:{id:"Spesialis Prostodonti",en:"Prosthodontics specialist"},d:{id:"Gigi tiruan, mahkota, veneer & rehabilitasi gigi yang hilang.",en:"Dentures, crowns, veneers & replacing missing teeth."},g:"f",k:"pros"},
+ {n:"drg Anna Muryani, Sp.KG, Subsp. KE(K)",sp:{id:"Spesialis Konservasi Gigi",en:"Conservative dentistry specialist"},d:{id:"Tambal, perawatan saluran akar & perbaikan gigi rusak.",en:"Fillings, root canal treatment & restoring damaged teeth."},g:"f",k:"kons"},
+ {n:"Dr. Gilang Yubiliana, drg., CH-t, M.Kes., FISDPH, FISPD",sp:{id:"Dokter Gigi Ahli Hipnodontik",en:"Hypnodontics dentist"},d:{id:"Pendampingan dental hypnosis bagi pasien yang cemas.",en:"Dental hypnosis support for anxious patients."},g:"m",k:"hyp"},
+ {n:"drg Aldilla Miranda, Sp.Perio., Subsp. RPI(K)",sp:{id:"Spesialis Periodonti",en:"Periodontics specialist"},d:{id:"Gusi berdarah, gusi turun & gigi goyang.",en:"Bleeding or receding gums & loose teeth."},g:"f",k:"perio"}];
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23M4.2 4.2l1.8 1.8M18 18l1.8 1.8M4.2 19.8 6 18M18 6l1.8-1.8",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",mis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",
+ imp:"M8 3h8l-1 6H9zM10 9v3h4V9M10.5 12l-.5 2h4l-.5-2M10 14l.5 2h3l.5-2M10.5 16l.5 2h2l.5-2M11 18l1 3 1-3",kid:"M12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM6 22v-6l-2-4 5-3h6l5 3-2 4v6M9 22v-5M15 22v-5",
+ chk:"M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20.5 20.5 16 16M8 11h6M11 8v6",star:"M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6-5.3-3-5.3 3 1.2-6L3.4 9.3l6-.7z"};
+// [chip, icon, title, text, urgency, [[treatment, price key | "?" | null]], doctor key]
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling","sc"],["Tambal gigi","tb"]],"kons"],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan dapat membesar hingga ke saraf. Makin awal ditangani, biasanya perawatannya makin sederhana.",2,[["Tambal gigi","tb"],["Perawatan saluran akar, bila sudah dalam",null]],"kons"],
+ ["Sakit berdenyut","thr","Sakit berdenyut atau bengkak","Bisa menandakan peradangan pada saraf gigi. Sebaiknya segera diperiksa.",3,[["Pemeriksaan segera","?"],["Perawatan saluran akar",null],["Cabut gigi, bila perlu","cb"]],"kons"],
+ ["Gigi bungsu","wis","Sakit di bagian paling belakang","Gigi bungsu yang tumbuh miring dapat menimbulkan nyeri dan bengkak. Rontgen membantu dokter melihat posisinya.",2,[["Rontgen gigi","?"],["Odontektomi (operasi gigi bungsu)",null]],null],
+ ["Gusi berdarah","gum","Gusi bengkak atau berdarah","Biasanya dipicu karang gigi dan plak. Pembersihan profesional sering menjadi langkah pertama.",1,[["Scaling","sc"],["Perawatan gusi oleh spesialis periodonti",null]],"perio"],
+ ["Gigi kusam","yel","Gigi kusam atau kekuningan","Sering akibat noda kopi, teh, atau rokok. Dokter menilai apakah cukup dibersihkan atau perlu bleaching.",1,[["Scaling","sc"],["Bleaching","bl"],["Veneer, bila dibutuhkan","vn"]],"pros"],
+ ["Berantakan","cro","Gigi berjejal atau tidak rapi","Susunan gigi dapat dirapikan bertahap. Pemeriksaan dan rencana perawatan diperlukan lebih dulu.",1,[["Konsultasi","?"],["Behel metal","bh"],["Clear aligner",null]],null],
+ ["Gigi hilang","mis","Ada gigi yang hilang","Gigi yang hilang dapat diganti. Dokter menjelaskan pilihannya setelah pemeriksaan.",1,[["Gigi tiruan / mahkota",null],["Implan gigi","im"]],"pros"]],
+en:[
+ ["Sensitive","sens","Sensitive to cold drinks or sweets","Often linked to thinning enamel, small cavities, or tartar near the gums.",1,[["Examination","?"],["Scaling","sc"],["Filling","tb"]],"kons"],
+ ["Cavity","cav","A hole, even if it doesn't hurt","An untreated cavity can grow to the nerve. The earlier it's treated, the simpler the care usually is.",2,[["Filling","tb"],["Root canal treatment, if deep",null]],"kons"],
+ ["Throbbing","thr","Throbbing pain or swelling","May signal inflammation of the tooth nerve. Best examined soon.",3,[["Urgent examination","?"],["Root canal treatment",null],["Extraction, if needed","cb"]],"kons"],
+ ["Wisdom tooth","wis","Pain at the very back","A wisdom tooth growing at an angle can cause pain and swelling. An X-ray helps the dentist see its position.",2,[["Dental X-ray","?"],["Odontectomy (wisdom tooth surgery)",null]],null],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually triggered by tartar and plaque. Professional cleaning is often the first step.",1,[["Scaling","sc"],["Gum treatment by a periodontist",null]],"perio"],
+ ["Dull teeth","yel","Dull or yellowish teeth","Often stains from coffee, tea or smoking. The dentist checks whether cleaning is enough or whitening is needed.",1,[["Scaling","sc"],["Whitening","bl"],["Veneer, if needed","vn"]],"pros"],
+ ["Crooked","cro","Crowded or uneven teeth","Teeth can be aligned step by step. An examination and treatment plan come first.",1,[["Consultation","?"],["Metal braces","bh"],["Clear aligners",null]],null],
+ ["Missing tooth","mis","A missing tooth","A missing tooth can be replaced. The dentist explains the options after examination.",1,[["Dentures / crown",null],["Dental implant","im"]],"pros"]]};
+// needs for companion: [label id, label en, icon, doctors[], ask?]
+const NEEDS=[
+ [{id:"Pemeriksaan & scaling",en:"Check-up & scaling"},"chk",[],"gen"],
+ [{id:"Tambal / saluran akar",en:"Filling / root canal"},"cav",["kons"]],
+ [{id:"Gusi berdarah / goyang",en:"Bleeding gums / loose teeth"},"gum",["perio"]],
+ [{id:"Gigi hilang / gigi tiruan",en:"Missing tooth / dentures"},"mis",["pros"]],
+ [{id:"Implan gigi",en:"Dental implant"},"imp",["pros"]],
+ [{id:"Estetik: veneer, bleaching",en:"Aesthetic: veneers, whitening"},"star",["pros","kons"]],
+ [{id:"Behel / clear aligner",en:"Braces / clear aligners"},"cro",[],"ask"],
+ [{id:"Gigi anak",en:"Children's teeth"},"kid",[],"ask"]];
+const FAQ={id:[
+ ["Kapan jam praktik klinik?","Direktori publik mencatat setiap hari 08.00–20.00 WIB, sementara beranda situs klinik menampilkan jam yang berbeda. Mohon konfirmasi jam dan ketersediaan jadwal melalui WhatsApp sebelum datang. ✎"],
+ ["Di mana alamat Bandung Dental Center?","Situs klinik mencantumkan Jl. Sunda No. 27D, Kota Bandung. Sebagian direktori lama mencatat Jl. Karapitan No. 88C — tanyakan titik pastinya melalui WhatsApp. ✎"],
+ ["Saya takut ke dokter gigi. Apa yang bisa saya lakukan?","Sampaikan kecemasan Anda sejak awal. Situs klinik mencantumkan dental hypnosis bagi pasien yang cemas, dengan dokter gigi ahli hipnodontik. Anda juga bisa meminta konsultasi lebih dulu tanpa tindakan."],
+ ["Apakah klinik menerima asuransi?","Klinik tercantum dalam daftar provider AdMedika untuk pemegang kartu Chubb (Juni 2026). Kelayakan manfaat tergantung polis Anda — konfirmasi ke pihak asuransi dan klinik."],
+ ["Berapa biaya perawatan?","Tarif resmi klinik belum dipublikasikan. Kisaran di halaman ini adalah perkiraan pasar Bandung dari sumber publik. Biaya akhir ditentukan setelah pemeriksaan."]],
+en:[
+ ["What are the opening hours?","Public directories list daily 8 am–8 pm WIB, while the clinic's homepage shows different hours. Please confirm hours and availability on WhatsApp before visiting. ✎"],
+ ["Where is Bandung Dental Center?","The clinic's site lists Jl. Sunda No. 27D, Bandung. Some older directories list Jl. Karapitan No. 88C — ask for the exact spot on WhatsApp. ✎"],
+ ["I'm scared of the dentist. What can I do?","Mention your anxiety from the start. The clinic's site lists dental hypnosis for anxious patients, with a hypnodontics dentist. You can also ask for a consultation first, with no treatment."],
+ ["Does the clinic accept insurance?","The clinic appears on the AdMedika provider list for Chubb cardholders (June 2026). Eligibility depends on your policy — check with your insurer and the clinic."],
+ ["How much does treatment cost?","The clinic hasn't published official fees. Ranges on this page are Bandung market estimates from public sources. The final cost is set after examination."]]};
+const SVC={id:[
+ ["P","Preventif","Menjaga gigi tetap sehat sebelum ada masalah.",["Pemeriksaan gigi & mulut","Scaling","Fluoride","Sealant"]],
+ ["K","Kuratif","Menangani gigi yang sakit, berlubang, atau bermasalah.",["Tambal gigi","Saluran akar","Cabut gigi","Odontektomi","Perawatan gusi"]],
+ ["E","Estetik & ortodonti","Merapikan dan mencerahkan senyum.",["Bleaching","Veneer","Behel","Clear aligner"]],
+ ["R","Rehabilitatif","Mengembalikan fungsi gigi yang hilang atau rusak.",["Mahkota gigi","Gigi tiruan","Implan gigi","Gigi anak","Dental hypnosis"]]],
+en:[
+ ["P","Preventive","Keeping teeth healthy before problems start.",["Oral check-up","Scaling","Fluoride","Sealants"]],
+ ["C","Curative","Treating painful, decayed or problem teeth.",["Fillings","Root canal","Extraction","Wisdom tooth surgery","Gum care"]],
+ ["A","Aesthetic & orthodontic","Straighter, brighter smiles.",["Whitening","Veneers","Braces","Clear aligners"]],
+ ["R","Rehabilitative","Restoring missing or damaged teeth.",["Crowns","Dentures","Implants","Children's care","Dental hypnosis"]]]};
+
+/* ---------- avatar ---------- */
+function av(i,d){const sk=["#f0d0b4","#d9ab85","#c89572","#e8c4a4"][i%4],hr=["#2a1e18","#3b2a20","#1d1a18","#4a3526"][i%4],bg=["#e3ecff","#e6f3fb","#eef0fa","#e8f1ff"][i%4];
+ const hair=d.g=="f"?'<path d="M34 44c-2-16 8-26 26-26s28 10 26 26c-1 6 0 16 3 22-8 2-12-4-13-12-3-8-10-12-16-12s-13 4-16 12c-1 8-5 14-13 12 3-6 4-16 3-22z" fill="'+hr+'"/>':'<path d="M36 46c-1-17 9-26 24-26s25 9 24 26c-3-6-9-10-12-11-7 4-18 5-27 2-4 2-7 5-9 9z" fill="'+hr+'"/>';
+ return '<svg class="av" viewBox="0 0 120 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="96" fill="'+bg+'"/><g transform="translate(78 6) scale(.28)" opacity=".35"><use href="#i-duo" style="color:#2fa8e6"/></g><path d="M22 96c2-18 16-28 38-28s36 10 38 28z" fill="#fff"/><path d="M50 70l10 14 10-14" fill="none" stroke="#00278d" stroke-width="3"/><path d="M47 69c4 6 9 9 13 9s9-3 13-9" fill="#00278d" opacity=".15"/><rect x="53" y="58" width="14" height="14" rx="6" fill="'+sk+'"/><ellipse cx="60" cy="44" rx="17" ry="20" fill="'+sk+'"/>'+hair+'<circle cx="53.5" cy="46" r="1.6" fill="#2a1e18"/><circle cx="66.5" cy="46" r="1.6" fill="#2a1e18"/><path d="M55 54c3 2 7 2 10 0" fill="none" stroke="#8c5a44" stroke-width="1.6" stroke-linecap="round"/><path d="M78 82c4 0 6 4 6 8" fill="none" stroke="#0b1a44" stroke-width="2"/><circle cx="84" cy="92" r="3" fill="#0b1a44"/></svg>'}
+</script>
+<script>
+/* ---------- i18n ---------- */
+function applyI18n(){document.documentElement.lang=L;
+  $$("[data-i]").forEach(e=>{const v=t(e.dataset.i);if(typeof v==="string")e.textContent=v});
+  $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",t(e.dataset.ia)));
+  $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+  $$("[data-wa]").forEach(a=>{const k=a.dataset.wa;a.href=wa(k==="book"?t("w_book"):k==="loc"?t("w_loc"):t("w_ask"))});
+  document.title=L==="id"?"Bandung Dental Center — Klinik Gigi di Kota Bandung (Konsep)":"Bandung Dental Center — Dental Clinic in Bandung (Concept)";
+  buildTick();buildKel();updArea();renderRes();buildNeeds();renderT();buildSvc();buildPrice();buildTen();calc();buildDocs();buildFaq();hours();status()}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("bdc_lang",L)}catch(e){}applyI18n()});
+
+/* ---------- banner / nav ---------- */
+$("#pvx").onclick=()=>$("#pv").remove();
+const burger=$("#burger"),sheet=$("#sheet");
+function setSheet(o){burger.setAttribute("aria-expanded",o);sheet.classList.toggle("open",o)}
+burger.onclick=()=>setSheet(burger.getAttribute("aria-expanded")!=="true");
+$$("#sheet a").forEach(a=>a.addEventListener("click",()=>setSheet(false)));
+addEventListener("keydown",e=>{if(e.key==="Escape")setSheet(false)});
+addEventListener("scroll",()=>$("#nav").classList.toggle("sc",scrollY>10),{passive:true});
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)$$("#links a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});
+["cek","tenang","layanan","dokter","lokasi","faq"].forEach(id=>spy.observe(document.getElementById(id)));
+
+/* ---------- open status (WIB, daily 08-20, to verify) ---------- */
+function wib(){const n=new Date(Date.now()+7*3600e3);return{d:n.getUTCDay(),h:n.getUTCHours()+n.getUTCMinutes()/60}}
+function status(){const w=wib(),op=w.h>=8&&w.h<20;
+  [$("#status"),$("#lst")].forEach(el=>el.classList.toggle("closed",!op));
+  $("#stt").textContent=op?t("open_now"):t("closed_now");$("#sts").textContent=op?t("open_until"):t("opens_at");
+  $("#lst span").textContent=(op?t("open_now"):t("closed_now"))+" · "+(op?t("open_until"):t("opens_at"))}
+function hours(){const w=wib(),D=t("days"),ord=[1,2,3,4,5,6,0];
+  $("#hrs").innerHTML=ord.map(d=>'<tr'+(d===w.d?' class="today"':'')+'><td>'+D[d]+'</td><td>08.00–20.00</td></tr>').join("")}
+setInterval(status,60000);
+
+/* ---------- ticker ---------- */
+function buildTick(){const s=t("tick").split(" · ").map(x=>"<span>"+x+"</span>").join("");$("#tick").innerHTML=s+s}
+
+/* ---------- tooth arch ---------- */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function fdiN(J,i){const sd=i<8?0:1;return ""+(J===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+  [["url(#gg)",46],["#fff6f7",2]].forEach(([c,w],j)=>{const p=el("path",{d,fill:"none","stroke-linecap":"round",stroke:c,"stroke-width":w});if(j)p.setAttribute("transform","translate(0 "+(up?10:-10)+")");arch.appendChild(p)})}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+  for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+    const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+    const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+    g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));
+    const tb=el("g",{class:"tb",filter:"url(#sh)"});tb.style.transitionDelay=(RM?0:(up?i:16+i)*18)+"ms";
+    tb.appendChild(el("circle",{class:"halo",r:k==="m"?"16.5":"15"}));
+    SHAPE[k].forEach((d,j)=>tb.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+    g.appendChild(tb);g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+    const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+    const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.7"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+    const fx=el("text",{class:"fdi","data-jaw":J,"text-anchor":"middle",x:(x-nx/nl*21).toFixed(1),y:(y-ny/nl*21+2).toFixed(1),"aria-hidden":"true"});fx.textContent=fdiN(J,i);g._fx=fx;
+    g.onclick=()=>{rove(g,true);tg(g)};
+    g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;
+      if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+      if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];
+      else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];else if(e.key==="Home")m=[J,0];else if(e.key==="End")m=[J,15];
+      if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+    g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;g.onfocus=()=>{if(g.matches(":focus-visible"))tipShow(g)};g.onblur=tipHide;
+    teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);teeth.flat().forEach(g=>arch.appendChild(g._fx));badges.forEach(b=>arch.appendChild(b));
+[["ATAS","UPPER",200,104],["BAWAH","LOWER",200,246]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+new IntersectionObserver(([e],o)=>{if(e.isIntersecting){arch.classList.remove("pre");setTimeout(()=>arch.querySelectorAll(".tb").forEach(x=>x.style.transitionDelay="0ms"),1200);o.disconnect()}},{threshold:.2}).observe(arch);
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+  return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdiN(+g.dataset.jaw,+g.dataset.ix)+")"}
+const lc=n=>/^(\p{Lu}{2}|X-)/u.test(n)?n:n.charAt(0).toLowerCase()+n.slice(1);
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1600)}
+let hinted=false,skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}
+  skipped=false;syncTeeth();updArea();renderRes();tipHide();
+  if(sel.length===1&&jawM==="u"&&!hinted){hinted=true;setTimeout(()=>toast(t("jw_hint")),1700)}}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on);if(on)x._nb.querySelector("text").textContent=sel.indexOf(x)+1})}
+function areaTxt(){return sel.map(g=>tName(g).toLowerCase()).join(", ")}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));
+  arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+  const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+  (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0);
+  $("#ctr").style.display=m==="a"?"":"none"}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);
+  teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+  const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:2;
+  if(sel.length){const list=sel.slice(-lim);
+    c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+tName(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip plus">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+ic("reset","width:15px;height:15px")+t("clr")+'</button>';
+    c.querySelectorAll(".mchip button").forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+    $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes();stepper()};
+  }else{c.innerHTML='<div class="tapme">'+ic("tap","width:18px;height:18px")+'</div><div class="sm">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+    const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();const k=$('#kl .k[tabindex="0"]');if(k){k.focus({preventScroll:true});if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}}
+  stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+  s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+  s.forEach(b=>b.setAttribute("aria-current",b.classList.contains("on")?"step":"false"));
+  $("#st3l").textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;
+  if(n===0)$("#aw").scrollIntoView({behavior:SB,block:"center"});else if(n===1)$("#kl").scrollIntoView({behavior:SB,block:"center"});else $("#res").scrollIntoView({behavior:SB,block:"start"})});
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+  b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+  b.onclick=()=>pickK(i,false);
+  b.onkeydown=e=>{const n=KEL[L].length;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();pickK(j,true)}};
+  kl.appendChild(b)})}
+function pickK(i,kb){if(i!==ki)sent=false;ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();
+  if(kb){$$("#kl .k")[i].focus();return}
+  const h=$("#res h3");if(h)h.focus({preventScroll:true});if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let lastKi=-2,pref=-1,msgEdited=false;
+function priceTxt(p){return p==="?"?'<em>'+t("ask_c")+'</em>':p?rng(PR[p][0],PR[p][1])+' <span class="chk">✎</span>':'<em>'+t("after_ex")+'</em>'}
+function renderRes(){const r=$("#res");
+  if(ki<0){r.className="res empty";r.dataset.k="";
+    r.innerHTML='<div class="skl" style="width:38%"></div><div class="skl" style="width:86%"></div><div class="skl" style="width:64%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+  const o=KEL[L][ki],names=sel.map(tName),key=ki+L;
+  if(r.classList.contains("full")&&r.dataset.k===key){const rt=$("#rteeth");rt.innerHTML=names.map(n=>'<span>'+n+'</span>').join("");rt.hidden=!names.length;compose();return}
+  const changed=lastKi!==ki,prev=$("#msg")?$("#msg").value:"";lastKi=ki;r.dataset.k=key;if(changed)msgEdited=false;
+  const dk=o[6]?DOCS.find(d=>d.k===o[6]):null;
+  r.className="res full";
+  r.innerHTML='<div class="r-top"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div>'+
+    '<h3 tabindex="-1">'+o[2]+'</h3><div class="rteeth" id="rteeth"'+(names.length?'':' hidden')+'>'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>'+
+    '<p class="ex">'+o[3]+(dk?' <b>'+(L==="id"?"Terkait: ":"Related: ")+dk.sp[L]+'.</b>':'')+'</p><div class="rtl-h">'+t("tr_usual")+'</div>'+
+    '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+priceTxt(p)+'</span></li>').join("")+'</ul>'+
+    '<p class="est">'+t("est_src")+'</p>'+
+    '<div class="bub-h"><label class="bub-c" for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="4"></textarea>'+
+    '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+    '<div class="acts2"><a class="btn btn-wa" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a>'+
+    '<button type="button" class="copy" id="copy">'+ic("copy","width:17px;height:17px")+'<span>'+t("copy")+'</span></button></div>';
+  const m=$("#msg");if(msgEdited)m.value=prev;compose();
+  m.oninput=()=>{msgEdited=true;sent=false;stepper();$("#mrst").hidden=false;$("#send").href=wa(m.value)};
+  $("#mrst").onclick=()=>{msgEdited=false;$("#mrst").hidden=true;compose();m.focus()};
+  r.querySelectorAll(".pref button").forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;r.querySelectorAll(".pref button").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+  $("#send").addEventListener("click",()=>{sent=true;stepper()});
+  $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+  if(changed)$("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],a=areaTxt(),m=$("#msg");if(!m)return;
+  const v=t("w_k1")+lc(o[2])+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_k3");
+  if(!msgEdited)m.value=v;$("#send").href=wa(m.value)}
+
+/* ---------- calm companion ---------- */
+let ni=-1,cl=-1;const rq=new Set();let tpref=-1,tEdited=false;
+function buildNeeds(){$("#needs").innerHTML=NEEDS.map((n,i)=>'<button type="button" class="need" role="radio" aria-checked="'+(i===ni)+'" tabindex="'+((ni<0?i===0:i===ni)?0:-1)+'" data-n="'+i+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+ICO[n[1]]+'"/></svg>'+n[0][L]+'</button>').join("");
+  $$("#needs .need").forEach(b=>{b.onclick=()=>{ni=+b.dataset.n;tEdited=false;buildNeeds();renderT()};
+    b.onkeydown=e=>{let j=null;const i=+b.dataset.n,n=NEEDS.length;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();ni=j;buildNeeds();renderT();$$("#needs .need")[j].focus()}}});
+  const faces=[0,1,2,3,4].map(i=>{const mouth=["M10 22q6 5 12 0","M11 22q5 2 10 0","M11 22h10","M11 23q5-3 10 0","M10 24q6-5 12 0"][i];
+    return '<svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="'+["#dff3e8","#e6f1ff","#fff4dc","#ffe9dd","#fde2e3"][i]+'" stroke="#0b1a44" stroke-width="1.4"/><circle cx="11.5" cy="13" r="1.6" fill="#0b1a44"/><circle cx="20.5" cy="13" r="1.6" fill="#0b1a44"/><path d="'+mouth+'" fill="none" stroke="#0b1a44" stroke-width="1.6" stroke-linecap="round"/></svg>'});
+  $("#calm").innerHTML=t("calm").map((c,i)=>'<button type="button" class="cf" role="radio" aria-checked="'+(i===cl)+'" tabindex="'+((cl<0?i===0:i===cl)?0:-1)+'" data-c="'+i+'">'+faces[i]+'<span>'+c+'</span></button>').join("");
+  $$("#calm .cf").forEach(b=>{b.onclick=()=>{cl=+b.dataset.c;tEdited=false;if(cl>=3)rq.add(4);buildNeeds();renderT()};
+    b.onkeydown=e=>{let j=null;const i=+b.dataset.c;if(e.key==="ArrowRight")j=Math.min(4,i+1);else if(e.key==="ArrowLeft")j=Math.max(0,i-1);if(j!==null){e.preventDefault();cl=j;buildNeeds();renderT();$$("#calm .cf")[j].focus()}}});
+  $("#calmMsg").textContent=cl>=0?t("calmMsg")[cl]:"";
+  $("#reqs").innerHTML=t("reqs").map((r,i)=>'<button type="button" class="req" aria-pressed="'+rq.has(i)+'" data-r="'+i+'">'+r+'</button>').join("");
+  $$("#reqs .req").forEach(b=>b.onclick=()=>{const i=+b.dataset.r;rq.has(i)?rq.delete(i):rq.add(i);tEdited=false;b.setAttribute("aria-pressed",rq.has(i));renderT()})}
+function matchDocs(){if(ni<0)return[];const n=NEEDS[ni],out=n[2].map(k=>DOCS.find(d=>d.k===k));return out}
+function renderT(){const box=$("#tres");
+  if(ni<0){box.innerHTML='<p class="tempty">'+t("t_pick")+'</p>';return}
+  const n=NEEDS[ni],ds=matchDocs(),comp=cl>=2||rq.has(4);
+  let h='<div class="match">';
+  if(n[3]==="gen")h+='<div class="mt">'+av(0,{g:"m"})+'<div><b>'+t("t_gen")+'</b><span>'+t("t_gen_s")+'</span></div></div>';
+  if(n[3]==="ask")h+='<div class="mt">'+av(1,{g:"f"})+'<div><b>'+t("t_ask")+' <span class="chk" style="display:inline-flex">✎</span></b><span>'+t("t_ask_s")+'</span></div></div>';
+  ds.forEach(d=>{const i=DOCS.indexOf(d);h+='<div class="mt">'+av(i,d)+'<div><b>'+d.n+'</b><span>'+d.sp[L]+'</span></div></div>'});
+  if(comp){const g=DOCS[2];h+='<div class="mt comp">'+av(2,g)+'<div><b>'+t("t_comp")+': '+g.n+'</b><span>'+g.sp[L]+' — '+g.d[L]+'</span></div></div>'}
+  h+='</div><p class="est" style="margin:0 0 10px">'+t("t_sched")+' <span class="chk">✎ '+t("chk")+'</span></p>'+
+   '<div class="pref" role="group" aria-label="'+t("t_when")+'"><span aria-hidden="true">'+t("t_when")+'</span>'+[0,1,2].map(i=>'<button type="button" aria-pressed="'+(tpref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+   '<label class="bub-c" for="tmsg">'+t("yourmsg")+'</label><textarea class="bub" id="tmsg" rows="7"></textarea>'+
+   '<div class="acts2" style="margin-top:12px"><a class="btn btn-wa" id="tsend" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a><button type="button" class="copy" id="tcopy">'+ic("copy","width:17px;height:17px")+'<span>'+t("copy")+'</span></button></div>';
+  const prev=$("#tmsg")?$("#tmsg").value:"";box.innerHTML=h;const m=$("#tmsg");
+  if(tEdited)m.value=prev;else m.value=tMsg(ds,comp);$("#tsend").href=wa(m.value);
+  m.oninput=()=>{tEdited=true;$("#tsend").href=wa(m.value)};
+  box.querySelectorAll(".pref button").forEach(b=>b.onclick=()=>{const p=+b.dataset.p;tpref=tpref===p?-1:p;tEdited=false;renderT()});
+  $("#tcopy").onclick=()=>copyText(m.value,()=>{const s=$("#tcopy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)})}
+function tMsg(ds,comp){const n=NEEDS[ni];let s=t("w_t1")+n[0][L].toLowerCase()+".";
+  if(cl>=0)s+="\n"+t("w_t2")+(cl+1)+"/5 ("+t("calm")[cl].toLowerCase()+").";
+  if(rq.size)s+="\n"+t("w_t3")+[...rq].sort().map(i=>t("reqs")[i].toLowerCase()).join("; ")+".";
+  const names=ds.map(d=>d.n);if(comp)names.push(DOCS[2].n+" ("+(L==="id"?"pendampingan":"support")+")");
+  if(names.length)s+="\n"+t("w_t4")+names.join(L==="id"?" dan ":" and ")+".";
+  if(tpref>=0)s+="\n"+t("w_pref")+t("pf")[tpref].toLowerCase()+".";
+  return s+"\n"+t("w_t5")}
+
+/* ---------- services / price / docs / faq ---------- */
+function buildSvc(){$("#svc").innerHTML=SVC[L].map(s=>'<div class="sv"><h3><i>'+s[0]+'</i>'+s[1]+'</h3><p>'+s[2]+'</p><ul>'+s[3].map(x=>'<li>'+x+'</li>').join("")+'</ul></div>').join("")}
+function buildPrice(){$("#ptab").innerHTML=Object.keys(PR).map(k=>'<tr><td>'+PRN[L][k]+'</td><td>'+rng(PR[k][0],PR[k][1])+'</td></tr>').join("")+'<tr><td>'+(L==="id"?"Perawatan saluran akar, implan tahap lanjut, gigi anak":"Root canal, advanced implant stages, children's care")+'</td><td>'+(L==="id"?"setelah pemeriksaan":"after exam")+'</td></tr>'}
+function buildDocs(){$("#docs").innerHTML=DOCS.map((d,i)=>'<article class="doc rv in">'+av(i,d)+'<div class="db"><span class="sp">'+d.sp[L]+'</span><b>'+d.n+'</b><p>'+d.d[L]+'</p><a href="'+wa(t("w_doc")+d.n+".")+'" target="_blank" rel="noopener">'+ic("wa","width:17px;height:17px")+t("d_btn")+'</a></div></article>').join("")}
+function buildFaq(){$("#fqs").innerHTML=FAQ[L].map((f,i)=>'<details'+(i===0?' open':'')+'><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>').join("")}
+
+/* ---------- braces calculator ---------- */
+let ten=12;const TENS=[6,12,18,24];
+function buildTen(){$("#ten").innerHTML=TENS.map(m=>'<button type="button" role="radio" aria-checked="'+(m===ten)+'" data-m="'+m+'">'+m+' '+t("mo")+'</button>').join("");
+  $$("#ten button").forEach(b=>b.onclick=()=>{ten=+b.dataset.m;buildTen();calc()})}
+const num=v=>+(""+v).replace(/[^\d]/g,"")||0;
+const fmt=n=>Math.round(n).toLocaleString("id-ID");
+function calc(){const a=Math.min(Math.max(num($("#amt").value),0),99e6),d=Math.min(num($("#dep").value),a),bal=a-d,per=bal/ten;
+  $("#per").textContent=rp(per);$("#odep").textContent=rp(d);$("#obal").textContent=rp(bal);
+  $("#cwa").href=wa(t("w_calc").replace("{a}",rp(a)).replace("{d}",rp(d)).replace("{m}",ten).replace("{p}",rp(per)))}
+$("#rng").oninput=e=>{$("#amt").value=fmt(e.target.value);calc()};
+$("#amt").oninput=e=>{const v=num(e.target.value);e.target.value=v?fmt(v):"";if(v>=47e5&&v<=1e7)$("#rng").value=v;calc()};
+$("#dep").oninput=e=>{const v=num(e.target.value);e.target.value=v?fmt(v):"";calc()};
+
+/* ---------- location viewer ---------- */
+(function(){const V=$("#viewer"),pane=$("#vpane"),frames={};
+  const SRC={peta:"https://maps.google.com/maps?q=Bandung%20Dental%20Center%2C%20Jl.%20Sunda%20No.27D%2C%20Kota%20Bandung&z=16&output=embed"};
+  function set(v){$$(".vtabs button",V).forEach(b=>{const on=b.dataset.v===v;b.classList.toggle("on",on);b.setAttribute("aria-selected",on)});
+    if(v==="foto"){pane.hidden=true;return}
+    pane.hidden=false;
+    if(!frames[v]){const f=document.createElement("iframe");f.title="Peta — Bandung Dental Center";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";f.allowFullscreen=true;pane.appendChild(f);f.src=SRC[v];frames[v]=f}}
+  V.addEventListener("click",e=>{const b=e.target.closest(".vtabs [data-v]");if(b)set(b.dataset.v)});
+  new IntersectionObserver(([e],o)=>{if(e.isIntersecting){set("peta");o.disconnect()}},{rootMargin:"300px"}).observe(V)})();
+$("#cpa").onclick=()=>copyText("Bandung Dental Center, Jl. Sunda No. 27D, Kb. Pisang, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40112",()=>{const s=$("#cpa span");s.textContent=t("cp_d");setTimeout(()=>s.textContent=t("cp_a"),1600)});
+
+/* ---------- reveal ---------- */
+const rvo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rvo.unobserve(e.target)}}),{threshold:.08});
+$$(".rv").forEach(x=>rvo.observe(x));
+applyI18n();
+</script>
+<script>
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{};document.head.appendChild(s)});
+function init3d(){
+  const stage=document.getElementById("stage");let R;
+  try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){return}
+  R.setPixelRatio(Math.min(devicePixelRatio,2));stage.insertBefore(R.domElement,stage.querySelector(".badge"));document.getElementById("zap").classList.add("on");document.getElementById("fb").style.display="none";
+  const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+  const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+  const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+  const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- tooth (faceted, like the logo) ---------- */
+  const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.32,metalness:.04,flatShading:false});
+  
+  const tooth=new THREE.Group();
+  function addFaceted(geo,pos,rot){const m=new THREE.Mesh(geo,mat);m.position.copy(pos);if(rot)m.rotation.z=rot;tooth.add(m)}
+  const cg=new THREE.SphereGeometry(1.2,40,28),p=cg.attributes.position;
+  for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.05;v.z*=.9;if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.75+.2*Math.cos(4*th)*(r/1.2)-.3*Math.max(0,1-r/.7)}else v.y*=.55;p.setXYZ(i,v.x,v.y,v.z)}
+  cg.computeVertexNormals();addFaceted(cg,new THREE.Vector3(0,.6,0));
+  [-1,1].forEach(sd=>{const rg=new THREE.ConeGeometry(.45,1.9,24,4,true);rg.rotateX(Math.PI);addFaceted(rg,new THREE.Vector3(sd*.47,-.65,0),sd*.12)});
+  tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.08);sc.add(tooth);
+
+  /* ---------- Atabara shield: text ring + orbiting logo emblem ---------- */
+  const RING=2.0,SHIELD=2.08;
+  const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+  function bandTexture(){
+    const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+    x.font="700 44px 'Onest', Arial, Helvetica, sans-serif";x.fillStyle="#00278d";x.textBaseline="middle";
+    const unit="BANDUNG DENTAL CENTER   ●●   BDC   ●●   JL. SUNDA 27D · BANDUNG   ●●   ";
+    const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+    x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+    x.fillRect(0,4,c.width,3);x.fillRect(0,c.height-7,c.width,3);
+    const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+  const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+  const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+  const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+  const bandF=new THREE.Mesh(bandGeo,bandFront),bandB=new THREE.Mesh(bandGeo,bandBack);ring.add(bandB,bandF);
+  const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+  setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+  // logo emblem riding the ring
+  const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+  logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;c.getContext("2d").drawImage(logoImg,0,0,512,512);logoTex.image=c;logoTex.needsUpdate=true};
+  logoImg.src=(document.querySelector(".brand img")||{}).src||"";
+  const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+  // faint protective shell + ripples where bacteria are stopped
+  const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,1),new THREE.MeshBasicMaterial({color:0x2fa8e6,wireframe:true,transparent:true,opacity:.035,depthWrite:false}));sc.add(shell);
+  const ripples=[];const rippleGeo=new THREE.RingGeometry(.12,.17,40);
+  function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:0x2fa8e6,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+    m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+  let flash=0;
+
+  /* ---------- bacteria ---------- */
+  const ink=new THREE.MeshStandardMaterial({color:0x0b1a44,roughness:.45,metalness:.1,flatShading:true});
+  const gold=new THREE.MeshStandardMaterial({color:0x2fa8e6,roughness:.35,metalness:.2,flatShading:true});
+  const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,1),m);
+  const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,5,false),m);
+  const MAKERS=[
+    m=>{const g=new THREE.Group();g.add(ball(.17,m));for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,gold);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g}, // coccus with pili
+    m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});return g}, // diplococcus
+    m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g}, // streptococcus chain
+    m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g}, // staphylococcus
+    m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,8),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+      const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,gold,30));return g}, // bacillus + flagellum
+    m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)}, // spirillum
+    m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+      const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,gold,20));return g} // vibrio
+  ];
+  const bugs=[];
+  function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+    b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+  const N=innerWidth<700?7:10;
+  for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length](i%4===3?gold:ink);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+  // debris from a cleared bacterium
+  const bits=[];const bitGeo=new THREE.TetrahedronGeometry(.045);
+  function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?gold:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+  /* ---------- lights ---------- */
+  sc.add(new THREE.HemisphereLight(0xffffff,0xc9d6f2,.95));
+  const k=new THREE.DirectionalLight(0xffffff,.9);k.position.set(3,4,5);sc.add(k);
+  const g2=new THREE.PointLight(0x2fa8e6,.9,14);g2.position.set(-3,-1,3);sc.add(g2);
+  function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+  /* ---------- interaction: drag to spin, tap bacteria to clear ---------- */
+  let mx=0,my=0,vis=true,drag=null,yaw=0,pitch=0,vy=0,cleared=0;
+  const ray=new THREE.Raycaster(),ndc=new THREE.Vector2();
+  const zap=document.getElementById("zapc");
+  function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+    const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+  addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+  cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+  cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+  cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+  addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+    if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+      setTimeout(()=>spawn(b,false),1600)}}});
+  new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+  /* ---------- loop ---------- */
+  const clk=new THREE.Clock();let emA=0;
+  (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+    if(!reduce){
+      if(!drag){yaw+=vy;vy*=.94}
+      tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+      ring.rotation.y-=dt*.35;emA+=dt*.55;
+      bandFront.map&&(bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1);
+      emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+      const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+      shell.rotation.y+=dt*.05;
+      bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+        if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+        // drift toward the tooth with a little wander
+        if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+        u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+        const d=b.position.length();
+        if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+        if(d>3.8)spawn(b,false);
+        b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+    }else{emblem.position.set(0,0,RING+.02)}
+    for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+    for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+    flash*=.9;shell.material.opacity=.035+flash*.1;
+    R.render(sc,cam)})();
+}
+</script>
+
+</body>
+</html>

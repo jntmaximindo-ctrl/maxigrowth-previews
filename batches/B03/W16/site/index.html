@@ -1,0 +1,1134 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Medikids Dago Bandung · Konsep Website</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta property="og:title" content="Medikids Dago Bandung · Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta name="theme-color" content="#19285e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 90'%3E%3Cpath d='M50 6c-9 0-13 5-22 5S14 4 8 12c-6 9-3 23 1 34 4 12 5 38 17 38 10 0 8-24 24-24s14 24 24 24c12 0 13-26 17-38 4-11 7-25 1-34-6-8-11-1-20-1S59 6 50 6z' fill='%23eb1c1a'/%3E%3Cpath d='M37 46q13 11 26 0' fill='none' stroke='%23fff' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&family=Schoolbell&display=swap" rel="stylesheet">
+<style>
+/* Palet dari brand MHDC/Medikids (brand-capture mhdc.co.id): merah #eb1c1a, navy #19285e, biru muda #6ec1e4, hijau #6ecc39, cokelat #7b573d.
+   Font: Fredoka (judul) + Nunito Sans (font brand, isi) + Schoolbell (aksen tulisan tangan). Gaya kartu "stiker" (garis navy + bayangan offset). */
+:root{--ink:#19285e;--ink2:#4b5578;--bg:#fbf7f0;--paper:#ffffff;--line:#e4dccd;--cy:#d4191a;--cy2:#b8141a;--red:#eb1c1a;--redsoft:#fde6e3;--sky:#6ec1e4;--skysoft:#e3f3fa;--grass:#6ecc39;--grasssoft:#e8f7dd;--gold:#f2b53a;--goldsoft:#fdf1d6;--wood:#7b573d;--r:24px;--sh:4px 5px 0 var(--ink);--shs:3px 3px 0 var(--ink);--hf:'Fredoka','Nunito','Arial Rounded MT Bold',Arial,sans-serif;--bf:'Nunito Sans','Segoe UI',Arial,sans-serif;--af:'Schoolbell','Comic Sans MS',cursive}
+*{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--bf);overflow-x:hidden}
+h1,h2,h3{margin:0;line-height:1.1}
+h1,h2{font-family:var(--hf);font-weight:600;letter-spacing:-.01em}
+h2{font-size:clamp(32px,4.4vw,52px)}h3{font-family:var(--hf);font-size:19px;font-weight:600;line-height:1.25}
+p{margin:0}a{color:inherit}button{font:inherit;color:inherit}
+img,svg{max-width:100%}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:84px 0;scroll-margin-top:70px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:3px solid var(--sky);outline-offset:2px;border-radius:8px}
+.chk{display:inline-block;font:700 11.5px/1.3 var(--bf);color:#7a5200;background:var(--goldsoft);border:1px dashed #d19a2a;border-radius:6px;padding:2px 7px;vertical-align:middle;white-space:nowrap}
+.hand{font-family:var(--af);font-size:26px;line-height:1.1;color:var(--cy2)}
+/* signature: jalur petualangan (garis putus-putus berbelok + 3 titik warna brand) */
+.trail{display:block;width:170px;height:30px;margin-bottom:12px}
+.trail path{fill:none;stroke:var(--ink);stroke-width:2.4;stroke-linecap:round;stroke-dasharray:3 7}
+.shd{display:grid;grid-template-columns:1.05fr .95fr;gap:18px 60px;align-items:end;margin-bottom:38px}
+.lead{color:var(--ink2);font-size:17px}
+@media(max-width:860px){.shd{grid-template-columns:1fr;margin-bottom:26px}section{padding:62px 0}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:999px;font:700 15.5px var(--bf);text-decoration:none;border:2px solid var(--ink);cursor:pointer;transition:transform .15s,box-shadow .15s;white-space:nowrap;box-shadow:var(--shs)}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.btn-r{background:var(--cy);color:#fff}
+.btn-w{background:#1f8f55;color:#fff}
+.btn-d{background:var(--ink);color:#fff}.btn-o{background:var(--paper);color:var(--ink)}
+.btn-s{min-height:44px;padding:0 16px;font-size:14.5px}
+/* preview banner */
+.pv{background:var(--ink);color:#e7ebf7;font-size:13px;text-align:center;padding:8px 16px;line-height:1.45}.pv b{color:#ffd0cc}
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(251,247,240,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:2px solid transparent;transition:border-color .2s}
+.nav.sc{border-color:var(--ink)}
+.nav .wrap{display:flex;align-items:center;gap:16px;height:72px}
+.brand{display:flex;align-items:center;text-decoration:none;flex:none;min-height:44px}.brand svg{height:50px;width:auto}
+.nl{display:flex;gap:2px;margin-left:auto}.nl a{text-decoration:none;font-weight:700;font-size:15px;padding:10px 11px;border-radius:999px;color:var(--ink2)}.nl a:hover{background:var(--skysoft);color:var(--ink)}
+.lang{display:flex;border:2px solid var(--ink);border-radius:999px;padding:3px;background:#fff}
+.lang button{border:0;background:none;min-width:40px;min-height:36px;border-radius:999px;font-weight:800;font-size:13px;cursor:pointer;color:var(--ink2)}.lang button[aria-pressed=true]{background:var(--ink);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:50%;border:2px solid var(--ink);background:#fff;cursor:pointer;align-items:center;justify-content:center}
+@media(max-width:1060px){.nl{display:none}.burger{display:inline-flex}.nav .btn{display:none}.lang{margin-left:auto}}
+.menu{position:fixed;inset:0;z-index:60;background:rgba(25,40,94,.45);display:none}.menu.on{display:block}
+.menu .mp{position:absolute;right:0;top:0;bottom:0;width:min(340px,88vw);background:var(--bg);padding:22px;display:flex;flex-direction:column;gap:4px;border-left:3px solid var(--ink)}
+.menu .mp a:not(.btn){text-decoration:none;font:600 26px var(--hf);padding:10px 6px;border-bottom:2px dashed var(--line)}
+.menu .x{align-self:flex-end;width:46px;height:46px;border-radius:50%;border:2px solid var(--ink);background:#fff;font-size:22px;cursor:pointer}
+/* hero */
+.hero{position:relative;padding:36px 0 34px;overflow:hidden}
+.hero::before{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(180deg,rgba(110,204,57,0),rgba(110,204,57,.10));pointer-events:none}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center;position:relative}
+.hero .kick{display:inline-flex;align-items:center;gap:8px;margin-bottom:14px;font-weight:800;color:var(--ink);font-size:14px;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:6px 14px 6px 10px}
+.hero .kick .i{color:var(--cy)}
+.hero h1{font-size:clamp(42px,6vw,78px);letter-spacing:-.02em;line-height:1.02}
+.hero h1 .u{color:var(--cy);position:relative;white-space:nowrap}
+.hero h1 .u svg{position:absolute;left:0;bottom:-.16em;width:100%;height:.3em;overflow:visible}
+.hero h1 .u path{fill:none;stroke:var(--sky);stroke-width:6;stroke-linecap:round;stroke-dasharray:500;stroke-dashoffset:500;animation:draw 1.4s .3s ease forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.hero .lead{margin:20px 0 20px;max-width:540px}
+.stt{display:inline-flex;flex-wrap:wrap;align-items:center;gap:8px 10px;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:9px 14px;font-size:14.5px;font-weight:700;margin-bottom:22px;max-width:100%;text-decoration:none}
+.dot{width:10px;height:10px;border-radius:50%;background:#aaa;flex:none;box-shadow:0 0 0 4px rgba(0,0,0,.05)}
+.st-open .dot{background:#1f9a5c;box-shadow:0 0 0 4px rgba(31,154,92,.18)}.st-closed .dot{background:#c8573c;box-shadow:0 0 0 4px rgba(200,87,60,.15)}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.stage{position:relative;aspect-ratio:1/1;max-width:560px;width:100%;justify-self:center;touch-action:pan-y}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.stage .halo{position:absolute;inset:10%;border-radius:50%;background:var(--skysoft);border:3px solid var(--ink);z-index:0;overflow:hidden}
+.stage .hills{position:absolute;left:0;right:0;bottom:0;width:100%;height:36%}
+.stage .fb{position:absolute;inset:16%;width:68%;height:68%;z-index:1}
+.stage .fb .bug{transform-box:fill-box;transform-origin:center;animation:bob 5s ease-in-out infinite}
+@keyframes bob{50%{transform:translate(4px,-6px) rotate(12deg)}}
+.zap{position:absolute;left:50%;bottom:3%;transform:translateX(-50%);z-index:3;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:8px 16px;font-size:13.5px;font-weight:700;box-shadow:var(--shs);white-space:nowrap;display:none}
+.zap.on{display:block}.zap b{color:var(--cy);font-size:16px}.zap.pop{animation:pop .35s}@keyframes pop{50%{transform:translateX(-50%) scale(1.08)}}
+.cloud{position:absolute;z-index:3;font-family:var(--af);font-size:23px;line-height:1.05;background:#fff;border:2px solid var(--ink);border-radius:18px 18px 18px 4px;padding:6px 14px 5px;box-shadow:var(--shs);color:var(--ink)}
+.cloud.a{top:6%;right:0}.cloud.b{bottom:17%;left:0;border-radius:18px 18px 4px 18px}
+@media(max-width:860px){.hg{grid-template-columns:1fr}.stage{max-width:310px;order:-1;margin:0 auto -8px}.cloud{font-size:19px}.hero{padding-top:18px}}
+/* proof */
+.proof{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px;position:relative}
+.pf{padding:16px 16px;display:flex;gap:12px;align-items:flex-start;text-decoration:none;min-height:44px;background:#fff;border:2px solid var(--ink);border-radius:20px;box-shadow:var(--shs)}
+.pf .ic{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--redsoft);color:var(--cy2);border:2px solid var(--ink)}
+.pf:nth-child(2) .ic{background:var(--skysoft);color:var(--ink)}.pf:nth-child(3) .ic{background:var(--grasssoft);color:#2e6b12}.pf:nth-child(4) .ic{background:var(--goldsoft);color:#7a5200}
+.pf b{display:block;font:600 22px/1.1 var(--hf)}.pf span.s{font-size:13.5px;color:var(--ink2);line-height:1.4;display:block;margin-top:3px}
+@media(max-width:900px){.proof{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.proof{grid-template-columns:1fr}}
+/* check teeth */
+#cek{background:var(--skysoft);border-top:3px solid var(--ink);border-bottom:3px solid var(--ink)}
+.prog{display:flex;gap:8px;margin-bottom:16px;position:sticky;top:72px;z-index:5;background:rgba(227,243,250,.95);padding:8px 0;backdrop-filter:blur(6px)}
+.ps{flex:1;display:flex;align-items:center;gap:10px;border:2px solid var(--ink);background:#fff;border-radius:999px;padding:6px 12px 6px 6px;min-height:48px;cursor:pointer;text-align:left}
+.ps i{width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);flex:none;display:grid;place-items:center;font:700 13px var(--hf);font-style:normal;background:#fff}
+.ps.on{background:var(--goldsoft)}.ps.done i{background:var(--grass);color:var(--ink)}
+.ps em{font-style:normal;font-weight:800;font-size:14px;line-height:1.2}
+.console{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}
+.cl,.cr{background:#fff;border:2px solid var(--ink);border-radius:var(--r);padding:22px;box-shadow:var(--sh)}
+.chd{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.step{font:800 12px var(--bf);letter-spacing:.14em;text-transform:uppercase;color:var(--cy2);margin-bottom:4px}
+.seg{display:flex;background:var(--skysoft);border:2px solid var(--ink);border-radius:999px;padding:3px}
+.seg button{border:0;background:none;min-height:40px;padding:0 14px;border-radius:999px;font-weight:800;font-size:13.5px;cursor:pointer}.seg button[aria-pressed=true]{background:var(--ink);color:#fff}
+.aw{position:relative}
+.arch{width:100%;height:auto;display:block;touch-action:manipulation}
+.arch .gum{opacity:.95}
+.arch .t{cursor:pointer;outline:none}
+.arch .t .body{fill:#fff;stroke:#7d86a6;stroke-width:1.2}.arch .t .gr{fill:none;stroke:#cbd0e0;stroke-width:1}
+.arch .t .halo{fill:transparent}
+.arch .t:hover .body{stroke:var(--ink)}.arch .t:focus-visible .halo{fill:rgba(110,193,228,.35)}
+.arch .t.on .body{fill:#ff8f87;stroke:#9e1014}.arch .t.on .halo{fill:rgba(235,28,26,.18)}
+.arch .hit{fill:transparent}
+.arch .nb{pointer-events:none}.arch .nb circle{fill:#eef1f8}.arch .nb text{font:800 7.5px var(--bf);fill:#5b6588}
+.arch .nb.on circle{fill:var(--ink)}.arch .nb.on text{fill:#fff}
+.arch text.jl{font:800 11px var(--bf);letter-spacing:.2em;fill:#a4acc6}
+.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"]{opacity:.15}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:52%;pointer-events:none}
+.ctr>*{pointer-events:auto}.ctr .big{font:600 44px/1 var(--hf);color:var(--cy)}.ctr .sm{font-size:13px;color:var(--ink2)}
+.aw.zm .ctr{display:none}
+.mchips{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin:8px 0}
+.mchip{display:inline-flex;align-items:center;gap:2px;background:var(--redsoft);border:1.5px solid var(--ink);border-radius:999px;padding:1px 1px 1px 10px;font-size:12px;font-weight:800}
+.mchip button{border:0;background:none;width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:16px}
+.clr,.skip{border:0;background:none;text-decoration:underline;font-weight:800;font-size:13px;cursor:pointer;min-height:40px;padding:0 8px}
+.tip{position:absolute;transform:translate(-50%,-120%);background:var(--ink);color:#fff;font-size:12px;padding:5px 9px;border-radius:8px;pointer-events:none;opacity:0;white-space:nowrap;transition:opacity .15s}.tip.on{opacity:1}
+.toast{position:absolute;left:50%;bottom:4px;transform:translateX(-50%);background:var(--ink);color:#fff;font-size:12.5px;padding:6px 12px;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none;white-space:nowrap}.toast.on{opacity:1}
+.orient{font-size:12.5px;color:var(--ink2);text-align:center;margin-top:4px}
+.kl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 18px}
+.k{border:2px solid var(--ink);background:#fff;border-radius:18px;padding:10px 6px;min-height:80px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer;font-weight:800;font-size:13px;line-height:1.2;text-align:center;position:relative}
+.k .ki{width:34px;height:34px;border-radius:50%;background:var(--skysoft);display:grid;place-items:center}.k .ki svg{width:19px;height:19px;fill:none;stroke:var(--ink);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.k[aria-checked=true]{background:var(--ink);color:#fff;box-shadow:var(--shs)}.k[aria-checked=true] .ki{background:var(--gold)}
+.k .ud{position:absolute;top:7px;right:7px;width:9px;height:9px;border-radius:50%}.k .u2{background:var(--gold)}.k .u3{background:var(--red)}
+.res{border-radius:20px;background:var(--bg);border:2px dashed #c9bfae;padding:18px}
+.res.empty p{font-size:14px;color:var(--ink2);margin-top:8px}.res.empty b{display:block;color:var(--ink)}
+.skl{height:12px;border-radius:6px;background:#ebe3d4;margin:8px 0}
+.gbtn{margin-top:12px;border-radius:999px;background:#ebe3d4;color:#8a8170;text-align:center;padding:12px;font-weight:800;font-size:14px}
+.rtop{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.rk{font:800 11.5px var(--bf);letter-spacing:.14em;color:var(--ink2)}
+.urg{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:800;border-radius:999px;padding:3px 10px;background:#fff;border:1.5px solid var(--ink)}.urg i{width:8px;height:8px;border-radius:50%;background:#1f9a5c}.urg.u2 i{background:var(--gold)}.urg.u3 i{background:var(--red)}.urg.u3{color:#9e1014}
+.res h3{margin:8px 0 6px;outline:none;font:600 26px/1.15 var(--hf)}.res .ex{font-size:14.5px;color:var(--ink2)}
+.rteeth{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}.rteeth span{font-size:11.5px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:2px 9px;font-weight:700}
+.rtl{font:800 12.5px var(--bf);margin:12px 0 6px}
+.tl{list-style:none;margin:0;padding:0;font-size:14px}.tl li{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px dashed #d8cfbf}.tl li span:last-child{font-weight:800;text-align:right}.tl em{font-style:normal;color:var(--ink2);font-weight:700}
+.est{font-size:12.5px;color:var(--ink2);margin:8px 0 12px}
+.bubh{display:flex;justify-content:space-between;align-items:center}.bubh label{font-weight:800;font-size:13px}
+.mrst{border:0;background:none;text-decoration:underline;font-size:12.5px;cursor:pointer;min-height:36px}
+textarea.bub{width:100%;border:2px solid var(--ink);border-radius:18px 18px 18px 4px;background:#e7f8ec;padding:10px 12px;font:14.5px/1.5 var(--bf);resize:vertical;min-height:88px;color:var(--ink)}
+.pref{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0;font-size:13px;font-weight:800}
+.pref button,.chipb{border:2px solid var(--ink);background:#fff;border-radius:999px;min-height:42px;padding:0 13px;font-size:13px;font-weight:800;cursor:pointer}
+.pref button[aria-pressed=true],.chipb[aria-pressed=true]{background:var(--ink);color:#fff}
+.ract{display:flex;flex-wrap:wrap;gap:10px}
+.copy{border:2px solid var(--ink);background:#fff;border-radius:999px;min-height:50px;padding:0 16px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.disc{font-size:12px;color:var(--ink2);margin-top:12px}
+@media(max-width:900px){.console{grid-template-columns:1fr}}
+@media(max-width:520px){.kl{grid-template-columns:repeat(2,1fr)}.k{flex-direction:row;justify-content:flex-start;min-height:54px;padding:8px 10px;text-align:left}.cl,.cr{padding:16px}.ps em{font-size:12.5px}.ps{padding:5px 8px 5px 5px;gap:6px}.ps i{width:26px;height:26px}}
+/* jadwal (fitur khas) */
+#jadwal{background:var(--ink);color:#e9edf8}
+#jadwal h2{color:#fff}#jadwal .lead{color:#c3cae3}#jadwal .trail path{stroke:#9aa5cf}#jadwal .step{color:#ffb3ad}#jadwal .hand{color:var(--sky)}
+.jg{display:grid;grid-template-columns:.95fr 1.05fr;gap:20px}
+.jbox{background:#23346f;border:2px solid #0e1840;border-radius:var(--r);padding:22px;box-shadow:4px 5px 0 #0e1840}
+.who{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.wb{display:flex;flex-direction:column;align-items:flex-start;gap:4px;border:2px solid #4a5a93;background:#1c2b62;border-radius:18px;padding:12px;min-height:88px;cursor:pointer;text-align:left;color:#e9edf8}
+.wb .wi{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#2f4185}.wb .wi svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.wb b{display:block;font:600 16px/1.15 var(--hf)}.wb small{display:block;margin-top:2px;font-size:11.5px;color:#aeb8dc;line-height:1.3}
+.wb[aria-pressed=true]{background:#fff;color:var(--ink);border-color:#fff}.wb[aria-pressed=true] small{color:var(--ink2)}.wb[aria-pressed=true] .wi{background:var(--red)}
+.board{margin-top:16px;border-radius:18px;background:#1c2b62;border:2px solid #4a5a93;padding:10px}
+.brow{display:grid;grid-template-columns:62px repeat(7,1fr);gap:5px;align-items:stretch}
+.brow+.brow{margin-top:5px}
+.bh{font:800 11px var(--bf);letter-spacing:.06em;color:#aeb8dc;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.15}
+.bh b{font:600 17px var(--hf);color:#fff;letter-spacing:0}
+.bl{font:800 11.5px var(--bf);color:#c3cae3;display:flex;flex-direction:column;justify-content:center;line-height:1.15}.bl small{font-weight:600;font-size:10.5px;color:#8f9ac4}
+.cell{border:2px solid #4a5a93;background:#23346f;border-radius:12px;min-height:50px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:3px 0;color:#fff;font:700 13px var(--hf)}
+.cell .dots{display:flex;gap:3px;flex-wrap:wrap;justify-content:center;max-width:36px}.cell .dots i{width:7px;height:7px;border-radius:50%;background:#8f9ac4;display:block}.cell .dots i.d-kga{background:var(--sky)}.cell .dots i.d-bm{background:var(--gold)}.cell .dots i.d-dr{background:var(--grass)}
+.cell[aria-pressed=true]{background:#fff;border-color:#fff;color:var(--ink)}
+.cell:disabled{opacity:.3;cursor:not-allowed}
+.cell.today{border-style:dashed;border-color:#ffb3ad}
+.leg{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12px;color:#c3cae3}.leg span{display:inline-flex;align-items:center;gap:6px}.leg i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.docs{display:flex;flex-direction:column;gap:8px;margin-top:10px;max-height:340px;overflow:auto;padding-right:4px}
+.doc{display:flex;align-items:center;gap:12px;border:2px solid #4a5a93;background:#1c2b62;border-radius:18px;padding:8px 12px 8px 8px;min-height:62px;cursor:pointer;text-align:left;color:#e9edf8;width:100%}
+.doc .av{width:46px;height:46px;border-radius:50%;overflow:hidden;flex:none;border:2px solid #0e1840}.doc .av svg{width:100%;height:100%;display:block}
+.doc b{display:block;font-size:14.5px;line-height:1.25}.doc small{display:block;font-size:12px;color:#aeb8dc}
+.doc[aria-pressed=true]{border-color:#fff;background:#2f4185}
+.doc .tag{margin-left:auto;font-size:11px;font-weight:800;border-radius:999px;padding:2px 8px;background:var(--sky);color:var(--ink);white-space:nowrap}
+.doc .tag.bm{background:var(--gold)}.doc .tag.dr{background:var(--grass)}.doc .tag.u{background:#c3cae3}
+.none{font-size:14px;color:#c3cae3;background:#1c2b62;border:2px dashed #4a5a93;border-radius:16px;padding:14px}
+.none button{margin-top:8px}
+.kid{margin-top:14px;display:none}.kid.on{display:block}
+.kid .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.kid .chipb{background:#1c2b62;color:#e9edf8;border-color:#4a5a93}.kid .chipb[aria-pressed=true]{background:#fff;color:var(--ink);border-color:#fff}
+.calm{display:flex;align-items:center;gap:10px;margin-top:12px;border:2px dashed #4a5a93;border-radius:14px;padding:10px 12px;cursor:pointer;min-height:48px;font-size:14px}
+.calm input{width:20px;height:20px;accent-color:var(--red);flex:none}
+.fsum{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 8px}.fsum span{font-size:12.5px;background:#1c2b62;border:1px solid #4a5a93;border-radius:999px;padding:4px 10px}
+#jadwal textarea.bub{border-color:#0e1840}
+#jadwal .copy{background:#1c2b62;color:#e9edf8;border-color:#4a5a93}
+#jadwal .btn-w{border-color:#0e1840;box-shadow:3px 3px 0 #0e1840}
+#jadwal .chk{background:#3d3620;color:#ffdf94;border-color:#8d7322}
+#jadwal .disc{color:#aeb8dc}
+@media(max-width:900px){.jg{grid-template-columns:1fr}}
+@media(max-width:520px){.who{grid-template-columns:1fr}.wb{flex-direction:row;align-items:center;min-height:60px}.brow{grid-template-columns:44px repeat(7,1fr);gap:3px}.bl{font-size:10.5px}.bl small{display:none}.cell{min-height:46px;border-radius:10px}.bh b{font-size:15px}.jbox{padding:16px}}
+/* services */
+.sv{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.svc{background:#fff;border:2px solid var(--ink);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:8px;box-shadow:var(--shs)}
+.svc .ic{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--skysoft);color:var(--ink);border:2px solid var(--ink)}
+.svc:nth-child(3n+2) .ic{background:var(--redsoft)}.svc:nth-child(3n) .ic{background:var(--grasssoft)}
+.svc .ic svg{width:23px;height:23px}
+.svc p{font-size:14px;color:var(--ink2);flex:1}
+.pr{display:flex;justify-content:space-between;align-items:baseline;gap:6px;border-top:2px dashed var(--line);padding-top:10px;font-size:12.5px;color:var(--ink2);flex-wrap:wrap}.pr b{font:600 19px var(--hf);color:var(--ink)}
+.svc a{font-weight:800;font-size:14px;color:var(--cy2);text-decoration:none;min-height:44px;display:inline-flex;align-items:center;gap:6px}
+.svc.alt{background:var(--red);color:#fff}.svc.alt p{color:#ffe3e0}.svc.alt .ic{background:#fff;color:var(--cy)}.svc.alt a{color:#fff}
+.cic{background:var(--goldsoft);border:2px solid var(--ink);border-radius:var(--r);padding:20px;margin-top:18px;display:grid;grid-template-columns:1fr 1.2fr;gap:18px;align-items:center;box-shadow:var(--shs)}
+.cic input[type=range]{width:100%;accent-color:var(--cy);min-height:34px}
+.cic .row{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:14px}.cic .row b{font:600 20px var(--hf)}
+.ten{display:flex;gap:6px;margin-top:6px}.ten button{flex:1;min-height:44px;border-radius:999px;border:2px solid var(--ink);background:#fff;font-weight:800;cursor:pointer}.ten button[aria-pressed=true]{background:var(--ink);color:#fff}
+.pnote{margin-top:16px;font-size:13.5px;color:var(--ink2);display:flex;gap:8px;align-items:flex-start}
+@media(max-width:1000px){.sv{grid-template-columns:repeat(3,1fr)}}@media(max-width:760px){.sv{grid-template-columns:1fr 1fr}.cic{grid-template-columns:1fr}}@media(max-width:480px){.sv{grid-template-columns:1fr}}
+/* team */
+.fl{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.fl button{border:2px solid var(--ink);background:#fff;border-radius:999px;min-height:44px;padding:0 15px;font-weight:800;font-size:13.5px;cursor:pointer}.fl button[aria-pressed=true]{background:var(--ink);color:#fff}
+.dg{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.dc{background:#fff;border:2px solid var(--ink);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shs)}
+.dc .pp{aspect-ratio:1/1;position:relative;border-bottom:2px solid var(--ink)}.dc .pp svg{width:100%;height:100%;display:block}
+.dc .db{padding:12px 14px 12px;flex:1;display:flex;flex-direction:column}.dc .db h3{font-size:15.5px}.dc .db p{font-size:12.5px;color:var(--ink2);margin-top:3px}
+.dc .when{font-size:12px;margin-top:6px;flex:1;line-height:1.45}.dc .when div{display:flex;gap:6px}.dc .when em{font-style:normal;font-weight:800;color:var(--cy2);flex:none;width:40px}
+.dc .db a{font-weight:800;font-size:13px;color:var(--cy2);text-decoration:none;min-height:40px;display:inline-flex;align-items:center;gap:4px}
+.ill{position:absolute;top:8px;left:8px;font-size:10.5px;background:rgba(255,255,255,.9);border-radius:999px;padding:1px 8px;font-weight:700}
+.spc{position:absolute;top:8px;right:8px;font-size:11px;background:var(--ink);color:#fff;border-radius:999px;padding:1px 8px;font-weight:800}
+@media(max-width:1000px){.dg{grid-template-columns:repeat(4,1fr)}}@media(max-width:760px){.dg{grid-template-columns:repeat(3,1fr)}}@media(max-width:560px){.dg{grid-template-columns:1fr 1fr}}
+/* themed rooms (elemen khas) */
+.rooms{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.room{background:#fff;border:2px solid var(--ink);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);display:flex;flex-direction:column}
+.room svg{display:block;width:100%;height:auto;border-bottom:2px solid var(--ink)}
+.room .rb{padding:16px 18px 18px}.room .rb p{font-size:14px;color:var(--ink2);margin-top:4px}
+.vis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}
+.vs{background:#fff;border:2px dashed #c9bfae;border-radius:var(--r);padding:18px}
+.vs .n{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--sky);border:2px solid var(--ink);font:600 18px var(--hf);margin-bottom:8px}
+.vs:nth-child(2) .n{background:var(--gold)}.vs:nth-child(3) .n{background:var(--grass)}.vs:nth-child(4) .n{background:#ff8f87}
+.vs p{font-size:14px;color:var(--ink2);margin-top:4px}
+@media(max-width:900px){.rooms{grid-template-columns:1fr 1fr}.vis{grid-template-columns:1fr 1fr}}@media(max-width:600px){.rooms{grid-template-columns:1fr}}@media(max-width:420px){.vis{grid-template-columns:1fr}}
+/* location */
+#lokasi{background:var(--grasssoft);border-top:3px solid var(--ink)}
+.lg{display:grid;grid-template-columns:1.25fr .75fr;gap:18px}
+.viewer{position:relative;border-radius:var(--r);overflow:hidden;background:#fff;min-height:400px;border:2px solid var(--ink);box-shadow:var(--sh)}
+.viewer .vfoto{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:var(--skysoft)}
+.viewer .vfoto svg{width:100%;height:100%}
+.viewer .cap{position:absolute;left:14px;top:14px;right:14px;font-size:12.5px;background:rgba(255,255,255,.94);border:1.5px solid var(--ink);border-radius:10px;padding:6px 10px;width:max-content;max-width:calc(100% - 28px)}
+.vpane{position:absolute;inset:0;background:var(--skysoft)}.vpane iframe{width:100%;height:100%;border:0;display:block}
+.vpane .mgmap{height:100%;padding-bottom:68px}.vpane .mgmap .mgviz{flex:1;height:auto;min-height:150px}
+.vtabs{position:absolute;left:12px;bottom:12px;display:flex;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:3px;z-index:3}
+.vtabs button{border:0;background:none;min-height:42px;padding:0 16px;border-radius:999px;font-weight:800;font-size:13.5px;cursor:pointer}.vtabs button[aria-selected=true]{background:var(--ink);color:#fff}
+.vfull{position:absolute;right:12px;bottom:12px;z-index:3;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:0 14px;min-height:48px;display:inline-flex;align-items:center;font-weight:800;font-size:13px;text-decoration:none}
+.info{background:#fff;border:2px solid var(--ink);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px;box-shadow:var(--sh)}
+.lst{display:flex;align-items:center;gap:10px;font-weight:800}
+.ih{display:flex;align-items:center;gap:8px;font-weight:800;font-size:15px;margin-bottom:6px;flex-wrap:wrap}
+.hrs{width:100%;border-collapse:collapse;font-size:14px}.hrs td{padding:5px 0;border-bottom:1px dashed var(--line)}.hrs td:last-child{text-align:right;font-weight:800}.hrs tr.today td{color:var(--cy2)}
+.adr{font-size:14.5px;color:var(--ink2)}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:10px}.acts .btn{padding:0 12px;font-size:14px}
+@media(max-width:900px){.lg{grid-template-columns:1fr}.viewer{min-height:420px}}
+/* faq */
+.fq{max-width:860px}
+.q{border-bottom:2px dashed var(--line)}
+.q button{width:100%;display:flex;gap:14px;align-items:center;background:none;border:0;padding:18px 0;text-align:left;cursor:pointer;min-height:56px;font:700 17px/1.35 var(--bf)}
+.q .qn{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;border:2px solid var(--ink);font:600 15px var(--hf);flex:none;background:var(--skysoft)}.q .pm{margin-left:auto;width:30px;height:30px;border-radius:50%;border:2px solid var(--ink);position:relative;flex:none}
+.q .pm::before,.q .pm::after{content:"";position:absolute;left:7px;right:7px;top:12px;height:2px;background:var(--ink);transition:transform .2s}.q .pm::after{transform:rotate(90deg)}.q.open .pm::after{transform:none}
+.q .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s}.q.open .a{grid-template-rows:1fr}.q .a>div{overflow:hidden}.q .a p{padding:0 0 18px 48px;color:var(--ink2);font-size:15px}
+/* close */
+.close{background:var(--red);color:#fff;border:3px solid var(--ink);border-radius:36px;padding:46px;display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center;position:relative;overflow:hidden;box-shadow:6px 7px 0 var(--ink)}
+.close h2{font-size:clamp(32px,4.2vw,50px)}.close p{color:#ffe3e0;margin-top:10px}.close .hand{color:#fff}
+.close .cb{display:flex;flex-direction:column;gap:12px;position:relative}
+.close .bgm{position:absolute;right:-30px;bottom:-60px;width:300px;opacity:.14;pointer-events:none}
+@media(max-width:860px){.close{grid-template-columns:1fr;padding:28px 22px}.close .bgm{width:200px}}
+footer{padding:40px 0 110px;font-size:14px;color:var(--ink2)}
+.ft{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:24px;border-top:2px solid var(--ink);padding-top:28px}
+.ft b{display:block;color:var(--ink);margin-bottom:6px}.ft a{text-decoration:none;display:inline-block;min-height:32px}
+.ft svg.lg2{height:64px;width:auto}
+.legal{margin-top:22px;font-size:12.5px;line-height:1.55}
+@media(max-width:760px){.ft{grid-template-columns:1fr}}
+/* FAB */
+.fab{position:fixed;right:16px;bottom:16px;z-index:40;transform:translateY(160%);transition:transform .3s}
+.fab.on{transform:none}
+.fab a{width:60px;height:60px;border-radius:50%;background:#1f8f55;color:#fff;border:2px solid var(--ink);box-shadow:var(--shs);display:grid;place-items:center}
+.fab svg{width:30px;height:30px}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="i-wa" viewBox="0 0 24 24"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1 1 8 19.4z" /><path d="M9 8.6c.3 2.8 2.6 5.3 5.6 6.1l1.4-1.4-2-1-1 .8c-1-.4-1.9-1.3-2.3-2.3l.8-1-1-2z"/></symbol>
+<symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="i-kid" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M5 21c.6-5 3.2-8 7-8s6.4 3 7 8"/><path d="M8.5 5.5c1-2 5.5-2.5 7 0"/></symbol>
+<symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.5-3.6 3-5.6 6-5.6s5.5 2 6 5.6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.6c2.6.2 4.4 2 4.9 5"/></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+<symbol id="i-tooth" viewBox="0 0 24 24"><path d="M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></symbol>
+<symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11l18-8-8 18-2-8z"/></symbol>
+<symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/></symbol>
+<symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+<symbol id="i-syr" viewBox="0 0 24 24"><path d="M18 2l4 4M20 4l-3 3M17 7l-9.5 9.5-3 .5.5-3L14.5 4.5M11 8l2 2M8.5 10.5l2 2M5 19l-3 3"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+</svg>
+
+<div class="pv" data-i="pv"></div>
+
+<nav class="nav" id="nav"><div class="wrap">
+  <a class="brand" href="#top" aria-label="Medikids Dago Bandung"><svg role="img" aria-label="Medikids Dago Bandung" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 112">
+<!-- Medikids Dago Bandung (MHDC Group) · WORDMARK SEMENTARA oleh Maxi Growth Studio.
+     Logo asli (logo_medikids_red.svg di medikids.co.id) tidak bisa diunduh/dilihat di sandbox, jadi ini wordmark bersih
+     dengan warna brand dari brand-capture: merah #eb1c1a, navy #19285e, biru muda #6ec1e4, hijau #6ecc39.
+     Font: Fredoka 600 (Google Fonts) — paling mendekati gaya bulat ramah anak; situs brand memakai Nunito / Nunito Sans. -->
+<g transform="translate(6 10)">
+  <path d="M46 6c-9 0-13 5-22 5S10 4 4 12c-6 9-3 23 1 34 4 12 5 38 17 38 10 0 8-24 24-24s14 24 24 24c12 0 13-26 17-38 4-11 7-25 1-34-6-8-11-1-20-1S55 6 46 6z" fill="#eb1c1a"/>
+  <circle cx="32" cy="32" r="5" fill="#fff"/><circle cx="60" cy="32" r="5" fill="#fff"/>
+  <circle cx="33.5" cy="33" r="2.4" fill="#19285e"/><circle cx="61.5" cy="33" r="2.4" fill="#19285e"/>
+  <path d="M33 46q13 11 26 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="84" cy="8" r="7" fill="#6ec1e4"/><circle cx="96" cy="20" r="4.5" fill="#6ecc39"/>
+</g>
+<text x="112" y="62" font-family="Fredoka, 'Nunito', 'Arial Rounded MT Bold', Arial, sans-serif" font-weight="600" font-size="50" letter-spacing="-.5" fill="#eb1c1a">medikids</text>
+<text x="114" y="90" font-family="'Nunito Sans', Arial, sans-serif" font-weight="800" font-size="13.5" letter-spacing="3.2" fill="#19285e">DAGO · BANDUNG</text>
+</svg></a>
+  <div class="nl"><a href="#cek" data-i="n1"></a><a href="#jadwal" data-i="n3"></a><a href="#layanan" data-i="n2"></a><a href="#dokter" data-i="n5"></a><a href="#lokasi" data-i="n4"></a><a href="#faq">FAQ</a></div>
+  <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+  <a class="btn btn-w btn-s" href="#" data-wa="gen" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="nwa"></span></a>
+  <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="menu" data-ia="menu_a"><svg class="i"><use href="#i-menu"/></svg></button>
+</div></nav>
+<div class="menu" id="menu"><div class="mp" role="dialog" aria-modal="true" data-ia="menu_a">
+  <button type="button" class="x" id="mx" data-ia="close_a">×</button>
+  <a href="#cek" data-i="n1"></a><a href="#jadwal" data-i="n3"></a><a href="#layanan" data-i="n2"></a><a href="#dokter" data-i="n5"></a><a href="#lokasi" data-i="n4"></a><a href="#faq">FAQ</a>
+  <a class="btn btn-w" style="margin-top:14px" href="#" data-wa="gen" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="nwa"></span></a>
+</div></div>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="hg">
+    <div>
+      <div class="kick"><svg class="i"><use href="#i-pin"/></svg><span data-i="kick"></span></div>
+      <h1 id="h1"></h1>
+      <p class="lead" data-i="hl"></p>
+      <a class="stt" id="stt" href="#lokasi"><i class="dot"></i><span id="sttx"></span></a>
+      <div class="ctas" id="ctas">
+        <a class="btn btn-r" href="#jadwal"><svg class="i"><use href="#i-cal"/></svg><span data-i="c_find"></span></a>
+        <a class="btn btn-w" href="#" data-wa="gen" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="c_wa"></span></a>
+        <a class="btn btn-o" href="#cek"><span data-i="c_cek"></span><svg class="i"><use href="#i-ar"/></svg></a>
+      </div>
+    </div>
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="halo"><svg class="hills" viewBox="0 0 400 120" preserveAspectRatio="none"><path d="M0 120V70c60-40 110-40 170-8s120 20 150-10 60-30 80-20v88z" fill="#6ecc39" opacity=".35"/></svg></div>
+      <svg class="fb" id="fb" viewBox="0 0 200 200"><circle cx="100" cy="100" r="92" fill="none" stroke="#19285e" stroke-width="2" stroke-dasharray="3 7"/><path d="M100 44C86 30 54 26 44 50C34 74 46 104 54 130C60 150 64 176 78 172C90 168 88 140 100 140C112 140 110 168 122 172C136 176 140 150 146 130C154 104 166 74 156 50C146 26 114 30 100 44Z" fill="#fff" stroke="#19285e" stroke-width="3.5" stroke-linejoin="round"/><circle cx="84" cy="84" r="6" fill="#19285e"/><circle cx="116" cy="84" r="6" fill="#19285e"/><circle cx="86" cy="82" r="2" fill="#fff"/><circle cx="118" cy="82" r="2" fill="#fff"/><path d="M84 102q16 14 32 0" fill="none" stroke="#eb1c1a" stroke-width="5" stroke-linecap="round"/><circle cx="72" cy="98" r="6" fill="#ff8f87" opacity=".6"/><circle cx="128" cy="98" r="6" fill="#ff8f87" opacity=".6"/>
+        <g class="bug" style="animation-delay:-1s"><circle cx="26" cy="46" r="10" fill="#19285e"/><circle cx="23" cy="44" r="2" fill="#fff"/><circle cx="29" cy="44" r="2" fill="#fff"/></g>
+        <g class="bug" style="animation-delay:-2.5s"><rect x="160" y="34" width="26" height="12" rx="6" fill="#eb1c1a"/></g>
+        <g class="bug" style="animation-delay:-3.5s"><circle cx="176" cy="150" r="8" fill="#6ec1e4"/><circle cx="188" cy="158" r="6" fill="#6ec1e4"/></g>
+        <g class="bug" style="animation-delay:-.5s"><path d="M14 150q8-10 16 0t16 0" fill="none" stroke="#f2b53a" stroke-width="6" stroke-linecap="round"/></g></svg>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b> <span data-i="zap2"></span></div>
+      <span class="cloud a" data-i="cl1"></span><span class="cloud b" data-i="cl2"></span>
+    </div>
+  </div>
+  <div class="proof">
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-sun"/></svg></span><span><b data-i="p1a"></b><span class="s" data-i="p1b"></span></span></a>
+    <a class="pf" href="#dokter"><span class="ic"><svg class="i"><use href="#i-kid"/></svg></span><span><b data-i="p2a"></b><span class="s" data-i="p2b"></span></span></a>
+    <a class="pf" href="#dokter"><span class="ic"><svg class="i"><use href="#i-team"/></svg></span><span><b data-i="p3a"></b><span class="s" data-i="p3b"></span></span></a>
+    <a class="pf" href="#layanan"><span class="ic"><svg class="i"><use href="#i-syr"/></svg></span><span><b data-i="p4a"></b><span class="s" data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<section id="cek"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="ch"></h2></div><p class="lead" data-i="cl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i>1</i><em data-i="st1"></em></button>
+    <button class="ps" type="button" data-s="1"><i>2</i><em data-i="st2"></em></button>
+    <button class="ps" type="button" data-s="2"><i>3</i><em id="st3l" data-i="st3"></em></button>
+  </div>
+  <div class="console">
+    <div class="cl">
+      <div class="chd"><div><div class="step" data-i="s1"></div><h3 data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd9d4"/><stop offset="1" stop-color="#f8c7c0"/></linearGradient></defs></svg>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div>
+    <div class="cr">
+      <div class="step" data-i="s2"></div><h3 id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="jadwal"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><div class="hand" data-i="fk"></div><h2 data-i="fh2"></h2></div><p class="lead" data-i="fl2"></p></div>
+  <div class="jg">
+    <div class="jbox">
+      <div class="step" data-i="fs1"></div><h3 data-i="fs1t"></h3>
+      <div class="who" id="who" role="group"></div>
+      <div class="step" style="margin-top:18px" data-i="fs2"></div><h3 data-i="fs2t"></h3>
+      <div class="board" id="board"></div>
+      <div class="leg" id="leg"></div>
+    </div>
+    <div class="jbox">
+      <div class="step" data-i="fs3"></div><h3 id="fdt"></h3>
+      <div class="docs" id="docs" role="group"></div>
+      <div class="kid" id="kid">
+        <div class="step" style="margin-top:6px" data-i="age_l"></div>
+        <div class="chips" id="ages" role="group"></div>
+      </div>
+      <label class="calm"><input type="checkbox" id="calm"><span id="calmt"></span></label>
+      <div class="fsum" id="fsum"></div>
+      <label class="sr" for="fmsg" data-i="yourmsg"></label>
+      <textarea class="bub" id="fmsg" rows="5"></textarea>
+      <div class="ract" style="margin-top:10px"><a class="btn btn-w" id="fsend" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="fsend"></span></a><button type="button" class="copy" id="fcopy"><svg class="i"><use href="#i-copy"/></svg><span data-i="copy"></span></button></div>
+      <p class="disc"><span data-i="fdisc"></span> <span class="chk" data-i="chk"></span></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="lh2"></h2></div><p class="lead"><span data-i="ll2"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="sv" id="sv"></div>
+  <div class="cic" id="cic">
+    <div><div class="step" data-i="ci0"></div><h3 data-i="ci0t"></h3><p class="disc" data-i="cidisc"></p></div>
+    <div>
+      <div class="row"><span data-i="ci1"></span><b id="cest"></b></div>
+      <input type="range" id="crng" min="4900000" max="8500000" step="100000" value="6500000" data-ia="ci1">
+      <div class="row"><span data-i="ci2"></span></div>
+      <div class="ten" id="ten" role="group"></div>
+      <div class="row" style="margin-top:10px"><span data-i="ci3"></span><b id="cper"></b></div>
+    </div>
+  </div>
+  <p class="pnote"><svg class="i"><use href="#i-card"/></svg><span data-i="pn"></span></p>
+</div></section>
+
+<section id="dokter" style="padding-top:0"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="dh"></h2></div><p class="lead"><span data-i="dl"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="fl" id="dfl" role="group"></div>
+  <div class="dg" id="dg"></div>
+</div></section>
+
+<section id="ruang" style="padding-top:0"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="rh"></h2></div><p class="lead"><span data-i="rl"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="rooms" id="rooms"></div>
+  <div class="vis">
+    <div class="vs"><div class="n">1</div><h3 data-i="v1"></h3><p data-i="v1p"></p></div>
+    <div class="vs"><div class="n">2</div><h3 data-i="v2"></h3><p data-i="v2p"></p></div>
+    <div class="vs"><div class="n">3</div><h3 data-i="v3"></h3><p data-i="v3p"></p></div>
+    <div class="vs"><div class="n">4</div><h3 data-i="v4"></h3><p data-i="v4p"></p></div>
+  </div>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="lk"></h2></div><p class="lead" data-i="lkl"></p></div>
+  <div class="lg">
+    <div class="viewer" id="viewer">
+      <div class="vfoto" id="vfoto" hidden></div><div class="cap" id="vcap" hidden data-i="cap"></div>
+      <div class="vpane" id="vpane"></div>
+      <div class="vtabs" role="tablist" data-ia="vt_a"><button type="button" role="tab" data-v="foto" aria-selected="false" data-i="v_foto"></button><button type="button" role="tab" data-v="peta" aria-selected="true" data-i="v_map"></button></div>
+      <a class="vfull" id="vfull" target="_blank" rel="noopener" href="#"><span data-i="v_full"></span>&nbsp;↗</a>
+    </div>
+    <div class="info">
+      <div class="lst" id="lst"><i class="dot"></i><span></span></div>
+      <div><div class="ih"><svg class="i"><use href="#i-clock"/></svg><span data-i="lw"></span></div><table class="hrs" id="hrs"></table></div>
+      <div><div class="ih"><svg class="i"><use href="#i-pin"/></svg><span data-i="la"></span></div><p class="adr" id="adr"></p></div>
+      <div class="acts">
+        <a class="btn btn-d" id="lwz" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-nav"/></svg>Waze</a>
+        <a class="btn btn-o" id="lgm" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-map"/></svg>Google Maps</a>
+        <button type="button" class="btn btn-o" id="lcp"><svg class="i"><use href="#i-copy"/></svg><span data-i="cp_a"></span></button>
+        <a class="btn btn-w" id="lwa" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-wa"/></svg>WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <div class="shd rv"><div><svg class="trail" viewBox="0 0 170 30" aria-hidden="true"><path d="M3 22c20-16 34 6 52-6s30-12 44 0"/><circle cx="116" cy="15" r="6" fill="#eb1c1a"/><circle cx="136" cy="15" r="6" fill="#6ec1e4"/><circle cx="156" cy="15" r="6" fill="#6ecc39"/></svg><h2 data-i="fh"></h2></div><p class="lead" data-i="fl"></p></div>
+  <div class="fq" id="fq"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="close" id="close">
+    <svg class="bgm" viewBox="0 0 100 90" aria-hidden="true"><path d="M50 6c-9 0-13 5-22 5S14 4 8 12c-6 9-3 23 1 34 4 12 5 38 17 38 10 0 8-24 24-24s14 24 24 24c12 0 13-26 17-38 4-11 7-25 1-34-6-8-11-1-20-1S59 6 50 6z" fill="#fff"/></svg>
+    <div><div class="hand" data-i="zk"></div><h2 data-i="zh"></h2><p data-i="zl"></p></div>
+    <div class="cb"><a class="btn btn-o" href="#jadwal"><svg class="i"><use href="#i-cal"/></svg><span data-i="c_find"></span></a><a class="btn btn-w" href="#" data-wa="gen" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="c_wa"></span></a></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="ft">
+    <div><svg class="lg2" role="img" aria-label="Medikids Dago Bandung" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 112">
+<!-- Medikids Dago Bandung (MHDC Group) · WORDMARK SEMENTARA oleh Maxi Growth Studio.
+     Logo asli (logo_medikids_red.svg di medikids.co.id) tidak bisa diunduh/dilihat di sandbox, jadi ini wordmark bersih
+     dengan warna brand dari brand-capture: merah #eb1c1a, navy #19285e, biru muda #6ec1e4, hijau #6ecc39.
+     Font: Fredoka 600 (Google Fonts) — paling mendekati gaya bulat ramah anak; situs brand memakai Nunito / Nunito Sans. -->
+<g transform="translate(6 10)">
+  <path d="M46 6c-9 0-13 5-22 5S10 4 4 12c-6 9-3 23 1 34 4 12 5 38 17 38 10 0 8-24 24-24s14 24 24 24c12 0 13-26 17-38 4-11 7-25 1-34-6-8-11-1-20-1S55 6 46 6z" fill="#eb1c1a"/>
+  <circle cx="32" cy="32" r="5" fill="#fff"/><circle cx="60" cy="32" r="5" fill="#fff"/>
+  <circle cx="33.5" cy="33" r="2.4" fill="#19285e"/><circle cx="61.5" cy="33" r="2.4" fill="#19285e"/>
+  <path d="M33 46q13 11 26 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="84" cy="8" r="7" fill="#6ec1e4"/><circle cx="96" cy="20" r="4.5" fill="#6ecc39"/>
+</g>
+<text x="112" y="62" font-family="Fredoka, 'Nunito', 'Arial Rounded MT Bold', Arial, sans-serif" font-weight="600" font-size="50" letter-spacing="-.5" fill="#eb1c1a">medikids</text>
+<text x="114" y="90" font-family="'Nunito Sans', Arial, sans-serif" font-weight="800" font-size="13.5" letter-spacing="3.2" fill="#19285e">DAGO · BANDUNG</text>
+</svg><p style="margin-top:8px" data-i="ftd"></p></div>
+    <div><b>Medikids Dago Bandung</b><span>Jl. Ir. H. Juanda No. 50, Citarum, Kec. Bandung Wetan, Kota Bandung 40115</span><br><span data-i="fth"></span></div>
+    <div><b data-i="ftc"></b><a href="#" data-wa="gen" target="_blank" rel="noopener">WhatsApp 0811-8505-531</a> <span class="chk" data-i="chk"></span><br><a href="mailto:medikidsdagobandung@gmail.com">medikidsdagobandung@gmail.com</a> <span class="chk" data-i="chk"></span><br><a href="https://www.instagram.com/medikidsclinic/" target="_blank" rel="noopener">Instagram @medikidsclinic</a></div>
+  </div>
+  <p class="legal" data-i="legal"></p>
+  <p class="legal">© <span id="yr">2026</span> Medikids · MHDC Group · <span data-i="ftm"></span></p>
+</div></footer>
+
+<div class="fab" id="fab"><a href="#" data-wa="gen" target="_blank" rel="noopener" data-ia="fab_a"><svg class="i"><use href="#i-wa"/></svg></a></div>
+
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact claude.ai) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev) skrip ini tidak melakukan apa-apa dan peta asli tampil. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth",mob=()=>innerWidth<900;
+const ic=(n,st)=>'<svg class="i"'+(st?' style="'+st+'"':'')+'><use href="#i-'+n+'"/></svg>';
+const TOOTHP="M50 6c-9 0-13 5-22 5S14 4 8 12c-6 9-3 23 1 34 4 12 5 38 17 38 10 0 8-24 24-24s14 24 24 24c12 0 13-26 17-38 4-11 7-25 1-34-6-8-11-1-20-1S59 6 50 6z";
+/* ---------- data (sumber: medikids.co.id/location/medikids-dago-bandung, mhdc.co.id — lihat ringkasan riset) ---------- */
+const WA="628118505531",ADDR="Jl. Ir. H. Juanda No. 50, Citarum, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40115",Q="Medikids Dago Bandung, Jl. Ir. H. Juanda No.50, Citarum, Bandung Wetan, Bandung";
+const HRS=[9,21]; /* Senin–Minggu 09.00–21.00 WIB */
+/* dokter: [nama, jenis, [[hari(0=Min..6=Sab), sesi(0=pagi 09–15, 1=sore 15–21)]]] — jadwal dari halaman cabang Medikids Dago (25 Sep 2026) */
+const DR=[
+ ["drg. Anindya Larasati, Sp.KGA","kga",[[2,0],[0,0],[3,1]]],
+ ["drg. Maria Andisa, Sp.KGA","kga",[[1,1],[2,1],[6,0]]],
+ ["drg. Rizka Aulia Zaim, Sp.KGA","kga",[[6,1]]],
+ ["Dr. drg. Risti Saptarini Primarti, Sp.KGA, Subsp.KKA(K)","kga",[[5,0],[6,0],[0,1]]],
+ ["drg. Dodi Dwidarto, Sp.BM","bm",[[4,1],[0,0]]],
+ ["drg. Haura Alya Rachmah","u",[[1,1],[3,0]]],
+ ["drg. Stacia Ariella","u",[[2,0],[6,0],[4,1],[5,1]]],
+ ["drg. Jamila Hasyim","u",[[1,0],[4,0],[5,0],[0,0]]],
+ ["drg. Resly Sistiaperdani, M.M.RS.","u",[[2,1],[3,1],[6,1],[0,1]]],
+ ["dr. Masvira Lailiyah Miftah","dr",[[2,0],[4,0],[6,0]]]];
+const SPC={kga:"Sp.KGA",bm:"Sp.BM",u:"drg",dr:"dr"};
+let L="id";
+const T={id:{
+pv:"Konsep pratinjau oleh <b>Maxi Growth Studio</b> · bukan website resmi Medikids / MHDC Group · <b>✎ verifikasi</b> = info perlu dikonfirmasi klinik",
+n1:"Cek gigi",n2:"Layanan",n3:"Jadwal dokter",n4:"Lokasi",n5:"Tim dokter",nwa:"Chat Medikids",menu_a:"Buka menu",close_a:"Tutup menu",
+kick:"Medikids Dago · Jl. Ir. H. Juanda 50, Bandung",
+h1:'Dokter gigi <span class="u">anak &amp; keluarga<svg viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 18c30-14 60-14 90 0s60 14 90 0 60-14 90 0 20 8 22 6"/></svg></span> di Dago.',
+hl:"Perawatan gigi anak dan dewasa, dokter gigi spesialis anak, vaksinasi, dan kesehatan umum di satu klinik. Lihat dokter yang bertugas di hari pilihan Anda, lalu kirim pesan yang sudah tertulis.",
+chk:"✎ verifikasi",c_find:"Lihat jadwal dokter",c_wa:"Chat WhatsApp",c_cek:"Cek gigi 30 detik",
+zap1:"Bakteri diusir:",zap2:"· ketuk bakterinya",cl1:"ketuk bakterinya!",cl2:"putar giginya ↻",
+p1a:"Setiap hari",p1b:"09.00–21.00 WIB, termasuk Minggu",p2a:"4 dokter gigi anak",p2b:"bergelar Sp.KGA, tercantum di halaman cabang",p3a:"10 dokter",p3b:"dokter gigi, spesialis bedah mulut & dokter umum",p4a:"Vaksinasi",p4b:"untuk anak & dewasa, plus kesehatan umum",
+open:"Buka sekarang · tutup ",closed:"Tutup · buka ",tmr:"besok ",today_:"hari ini ",
+ch:"Cek gigi 30 detik.",cl:"Tandai gigi yang terasa di denah rahang atas & bawah, pilih keluhannya, lalu kirim pesan yang sudah tertulis. Untuk anak dengan gigi susu, tandai perkiraan letaknya saja.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim pesan",st3d:"Terkirim ✓",
+s1:"Langkah 1",s1t:"Gigi mana yang terasa?",jw_g:"Pilih rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",
+orient:"Denah dilihat seperti dokter melihat pasien: sisi kanan pasien ada di kiri layar.",
+s2:"Langkah 2",s2t:"Apa yang dirasakan?",s3:"Langkah 3 · Gambaran & pesan",
+tap:"Ketuk gigi pada denah",skip:"Lewati, saya tidak yakin giginya",skipped:"Tanpa tanda gigi",mk_l:"gigi ditandai",clr:"Hapus semua",rm:"Hapus",amap:"Denah gigi rahang atas dan bawah, nomor FDI",
+pick:"Pilih keluhan",pickp:"Kemungkinan kondisi, perawatan yang biasa dipertimbangkan, dan pesan WhatsApp akan muncul di sini.",
+likely:"KEMUNGKINAN",urg:["","Tidak mendesak","Sebaiknya segera diperiksa","Periksakan secepatnya"],ask_c:"Tanya klinik",tr_usual:"Perawatan yang biasa dipertimbangkan",
+est_src:"Kisaran = perkiraan pasar Bandung dari sumber publik, bukan tarif Medikids.",yourmsg:"Pesan Anda · bisa diedit",msg_rst:"Tulis ulang",
+pref_l:"Waktu:",pf:["Pagi","Siang","Sore","Malam"],send:"Kirim via WhatsApp",copy:"Salin pesan",copied:"Tersalin ✓",r_upd:"Hasil diperbarui: ",
+sd:"Informasi umum, bukan diagnosis. Diagnosis dan rencana perawatan ditentukan dokter gigi setelah pemeriksaan langsung.",
+w_hi:"Halo Medikids Dago Bandung, ",w_k1:"saya ingin konsultasi soal ",w_k2:" di ",w_pref:"Waktu yang saya inginkan: ",w_end:"Apakah bisa dibantu jadwal dan info biayanya? Terima kasih.",
+w_gen:"Halo Medikids Dago Bandung, saya ingin menanyakan jadwal dokter dan ketersediaan kunjungan. Mohon informasinya, terima kasih.",
+lh2:"Layanan di Medikids Dago.",ll2:"Layanan yang tercantum untuk cabang Dago. Angka di bawah adalah perkiraan pasar Bandung sebagai gambaran; biaya akhir ditentukan setelah pemeriksaan.",
+from:"perkiraan",ask:"Tanyakan",pn:"Daftar harga MHDC dikirim lewat email setelah mengisi formulir, sehingga tarif resmi belum bisa ditampilkan di sini. Tanyakan rincian biaya ke klinik sebelum memutuskan perawatan.",
+ci0:"Simulasi",ci0t:"Hitung cicilan perawatan ortodonti",ci1:"Perkiraan biaya behel metal (pasar Bandung)",ci2:"Lama cicilan (simulasi)",ci3:"Kira-kira per bulan",cidisc:"Simulasi tanpa bunga/biaya kontrol. Ketersediaan & skema cicilan ditentukan klinik. Untuk anak, dokter akan menilai apakah Myobrace atau perawatan lain lebih sesuai.",mo:" bln",
+fk:"fitur khas",fh2:"Siapa dokter yang bertugas hari itu?",fl2:"Halaman cabang Medikids mencantumkan 10 dokter dengan jadwal berbeda, empat di antaranya dokter gigi spesialis anak (Sp.KGA). Pilih untuk siapa, lalu hari & sesi. Dokter yang bertugas langsung muncul, pesannya sudah tertulis.",
+fs1:"Langkah 1",fs1t:"Untuk siapa?",fs2:"Langkah 2",fs2t:"Pilih hari & sesi (WIB)",fs3:"Langkah 3 · Dokter & pesan",
+who:[["Gigi anak","dokter gigi & spesialis anak"],["Gigi dewasa","dokter gigi & bedah mulut"],["Vaksin & umum","dokter umum"]],
+ses:[["Pagi","09–15"],["Sore","15–21"]],today:"Hari ini",
+days:["Min","Sen","Sel","Rab","Kam","Jum","Sab"],daysF:["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],mon:["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"],
+lg_kga:"Sp.KGA (gigi anak)",lg_u:"Dokter gigi",lg_bm:"Sp.BM (bedah mulut)",lg_dr:"Dokter umum",
+fdt_n:"Bertugas ",fdt_0:"Pilih hari & sesi dulu",any:"Siapa saja yang bertugas",any_s:"Tim memilihkan dokter di sesi ini",
+none:"Belum ada dokter untuk pilihan ini di sesi tersebut.",none_b:"Pilih sesi terdekat yang tersedia",
+age_l:"Usia anak",ages:["< 3 tahun","3–5 tahun","6–12 tahun","Remaja"],
+calm_k:"Ini kunjungan pertama / anak agak takut. Mohon dibantu pelan-pelan.",calm_a:"Saya agak cemas ke dokter gigi. Mohon dijelaskan pelan-pelan.",
+fsend:"Kirim via WhatsApp",
+fdisc:"Jadwal diambil dari halaman cabang Medikids Dago dan bisa berubah; ketersediaan dikonfirmasi klinik lewat WhatsApp.",
+f_intro:"saya ingin reservasi untuk ",f_age:"usia ",f_doc:"Dokter: ",f_when:"Rencana datang ",f_calm_k:"Ini kunjungan pertama anak saya dan ia agak takut, mohon dibantu pelan-pelan.",f_calm_a:"Saya agak cemas ke dokter gigi, mohon dijelaskan pelan-pelan.",f_end:"Apakah jadwalnya tersedia? Terima kasih.",
+f_need:["pemeriksaan gigi anak","pemeriksaan gigi dewasa","vaksinasi / konsultasi dokter umum"],
+dh:"Tim dokter Medikids Dago.",dl:"Nama, gelar, dan jadwal dari halaman cabang Medikids Dago. Potret di bawah adalah ilustrasi, bukan foto asli.",
+all:"Semua",d_ill:"ilustrasi",d_bk:"Tanya jadwal",sp:{kga:"Dokter gigi spesialis anak",bm:"Dokter gigi spesialis bedah mulut",u:"Dokter gigi",dr:"Dokter umum · vaksinasi"},
+rh:"Ruang yang dibuat untuk anak.",rl:"Fasilitas yang disebut di halaman cabang MHDC dan Medikids: area bermain London Play Hospital, ruang Myobrace Center, serta ruang perawatan bertema.",
+rooms:[["London Play Hospital","Area bermain bertema London, tempat anak mengenal suasana klinik sebelum giliran tiba."],["Africa Safari Dental","Ruang perawatan bertema safari, supaya kursi dokter gigi terasa seperti petualangan."],["Turkey Dental Room","Ruang perawatan bertema Turki (disebut “Ruang Dental Turki” di situs Medikids)."]],
+v1:"Ceritakan dulu",v1p:"Sebut usia anak, keluhannya, dan apakah ini kunjungan pertama.",v2:"Datang lebih awal",v2p:"Beri waktu anak mengenal ruang tunggu dan area bermain.",v3:"Pemeriksaan",v3p:"Dokter memeriksa gigi & menjelaskan temuannya kepada orang tua.",v4:"Rencana & biaya",v4p:"Pilihan perawatan dan perkiraan biaya dijelaskan dulu. Orang tua yang memutuskan.",
+lk:"Mampir ke Jl. Ir. H. Juanda 50.",lkl:"Medikids Dago berada di Jl. Ir. H. Juanda (Dago), Citarum, Bandung Wetan. Buka setiap hari dari pagi sampai malam.",vt_a:"Tampilan lokasi",
+v_foto:"Foto",v_map:"Peta",v_full:"Buka layar penuh",lw:"Jam buka",la:"Alamat",cp_a:"Salin alamat",copied_a:"Alamat tersalin ✓",
+cap:"Ilustrasi fasad, bukan foto klinik. Cari papan nama Medikids di Jl. Ir. H. Juanda No. 50.",
+fh:"Pertanyaan yang sering muncul.",fl:"Belum menemukan jawabannya? Tanyakan langsung lewat WhatsApp.",
+faq:[["Kapan Medikids Dago Bandung buka?","Klinik buka Senin–Minggu pukul 09.00–21.00 WIB. Jadwal praktik tiap dokter berbeda, jadi konfirmasi dulu sebelum berkunjung.",0],
+ ["Berapa biaya perawatan gigi?","Biaya bergantung pada jenis perawatan dan hasil pemeriksaan. Kisaran di halaman ini adalah perkiraan pasar Bandung; hubungi cabang untuk informasi biaya sesuai kebutuhan Anda.",1],
+ ["Apakah klinik menerima asuransi?","Medikids Dago tercantum dalam daftar provider Admedika (dipublikasikan Chubb, Januari 2026) dan Medicare LGI (Mei 2026). Pastikan penerimaan dan cakupan polis langsung ke cabang dan penyedia asuransi.",1],
+ ["Apakah tersedia behel?","Cabang mencantumkan My-O Therapy dengan Myobrace, tetapi tidak merinci pemasangan behel. Tanyakan pilihan perawatan ortodonti yang tersedia ke cabang.",1],
+ ["Apakah anak bisa ditangani dokter gigi spesialis anak?","Ya. Halaman cabang mencantumkan empat dokter gigi spesialis kesehatan gigi anak (Sp.KGA). Tanyakan jadwal terbaru lewat WhatsApp cabang.",0]],
+zk:"satu pesan saja",zh:"Ada pertanyaan sebelum berkunjung?",zl:"Ceritakan kebutuhan Anda atau si kecil. Tim Medikids Dago akan membantu memilih dokter dan jadwal kunjungan.",
+ftd:"Klinik gigi anak & keluarga, vaksinasi, dan kesehatan umum di Dago, Bandung. Bagian dari MHDC Group.",fth:"Senin–Minggu 09.00–21.00 WIB",ftc:"Kontak",ftm:"Konsep oleh Maxi Growth Studio",
+legal:"Halaman ini adalah konsep pratinjau yang disusun dari informasi publik (medikids.co.id, mhdc.co.id & direktori). Informasi medis bersifat umum dan bukan pengganti pemeriksaan dokter. Harga adalah perkiraan pasar, bukan penawaran.",
+fab_a:"Chat Medikids Dago di WhatsApp"},
+en:{
+pv:"Preview concept by <b>Maxi Growth Studio</b> · not the official Medikids / MHDC Group website · <b>✎ verify</b> = to be confirmed by the clinic",
+n1:"Tooth check",n2:"Services",n3:"Dentist schedule",n4:"Location",n5:"Our doctors",nwa:"Chat Medikids",menu_a:"Open menu",close_a:"Close menu",
+kick:"Medikids Dago · Jl. Ir. H. Juanda 50, Bandung",
+h1:'Dental care for <span class="u">kids &amp; families<svg viewBox="0 0 300 30" preserveAspectRatio="none" aria-hidden="true"><path d="M4 18c30-14 60-14 90 0s60 14 90 0 60-14 90 0 20 8 22 6"/></svg></span> in Dago.',
+hl:"Children's and adult dental care, paediatric dental specialists, vaccinations and general healthcare in one clinic. See who's on duty on your chosen day, then send a ready-written message.",
+chk:"✎ verify",c_find:"See the dentist schedule",c_wa:"Chat on WhatsApp",c_cek:"30-second tooth check",
+zap1:"Bacteria cleared:",zap2:"· tap the bacteria",cl1:"tap the bacteria!",cl2:"spin the tooth ↻",
+p1a:"Every day",p1b:"9am–9pm WIB, Sundays included",p2a:"4 paediatric dentists",p2b:"Sp.KGA specialists listed on the branch page",p3a:"10 doctors",p3b:"dentists, an oral surgeon & a GP",p4a:"Vaccinations",p4b:"for children & adults, plus general care",
+open:"Open now · closes ",closed:"Closed · opens ",tmr:"tomorrow ",today_:"today ",
+ch:"30-second tooth check.",cl:"Mark the tooth on the upper & lower map, choose what you feel, then send a ready-written message. For children with baby teeth, just mark the approximate spot.",
+st1:"Mark teeth",st2:"Pick symptom",st3:"Send message",st3d:"Sent ✓",
+s1:"Step 1",s1t:"Which tooth bothers you?",jw_g:"Choose jaw",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",
+orient:"Mapped as the dentist sees the patient: the patient's right is on the left of the screen.",
+s2:"Step 2",s2t:"What do you feel?",s3:"Step 3 · Overview & message",
+tap:"Tap a tooth on the map",skip:"Skip, I'm not sure which tooth",skipped:"No tooth marked",mk_l:"teeth marked",clr:"Clear all",rm:"Remove",amap:"Upper and lower dental map, FDI numbers",
+pick:"Pick a symptom",pickp:"Likely condition, treatments usually considered and your WhatsApp message will appear here.",
+likely:"LIKELY",urg:["","Not urgent","Get it checked soon","See a dentist promptly"],ask_c:"Ask the clinic",tr_usual:"Treatments usually considered",
+est_src:"Ranges = Bandung market estimates from public sources, not Medikids' fees.",yourmsg:"Your message · editable",msg_rst:"Rewrite",
+pref_l:"Time:",pf:["Morning","Midday","Afternoon","Evening"],send:"Send on WhatsApp",copy:"Copy message",copied:"Copied ✓",r_upd:"Result updated: ",
+sd:"General information, not a diagnosis. Diagnosis and treatment plans are decided by the dentist after an in-person exam.",
+w_hi:"Hello Medikids Dago Bandung, ",w_k1:"I'd like to consult about ",w_k2:" on ",w_pref:"Preferred time: ",w_end:"Could you help with a schedule and fee information? Thank you.",
+w_gen:"Hello Medikids Dago Bandung, I'd like to ask about the doctors' schedule and appointment availability. Thank you.",
+lh2:"Services at Medikids Dago.",ll2:"Services listed for the Dago branch. Figures below are Bandung market estimates for reference; the final cost follows the examination.",
+from:"estimate",ask:"Ask about",pn:"MHDC's price list is sent by email after filling in a form, so official fees can't be shown here yet. Ask the clinic for a cost breakdown before deciding on treatment.",
+ci0:"Simulation",ci0t:"Estimate orthodontic instalments",ci1:"Estimated metal braces cost (Bandung market)",ci2:"Instalment period (simulation)",ci3:"Roughly per month",cidisc:"Simulation without interest/check-up fees. Instalment availability is set by the clinic. For children, the dentist assesses whether Myobrace or another treatment fits better.",mo:" mo",
+fk:"signature feature",fh2:"Who's on duty that day?",fl2:"The Medikids branch page lists 10 doctors with different schedules, four of them paediatric dental specialists (Sp.KGA). Choose who it's for, then a day & session. Doctors on duty appear right away, with the message already written.",
+fs1:"Step 1",fs1t:"Who is it for?",fs2:"Step 2",fs2t:"Pick a day & session (WIB)",fs3:"Step 3 · Doctor & message",
+who:[["Child's teeth","dentists & paediatric specialists"],["Adult teeth","dentists & oral surgeon"],["Vaccines & GP","general practitioner"]],
+ses:[["Morning","9–15"],["Evening","15–21"]],today:"Today",
+days:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],daysF:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],mon:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+lg_kga:"Sp.KGA (paediatric)",lg_u:"Dentist",lg_bm:"Sp.BM (oral surgery)",lg_dr:"GP",
+fdt_n:"On duty ",fdt_0:"Pick a day & session first",any:"Whoever is on duty",any_s:"The team picks a doctor in this session",
+none:"No doctor for this choice in that session yet.",none_b:"Jump to the nearest available session",
+age_l:"Child's age",ages:["< 3 years","3–5 years","6–12 years","Teen"],
+calm_k:"First visit / my child is a little scared. Please go gently.",calm_a:"I get a bit anxious at the dentist. Please explain things slowly.",
+fsend:"Send on WhatsApp",
+fdisc:"Schedules come from the Medikids Dago branch page and may change; availability is confirmed by the clinic on WhatsApp.",
+f_intro:"I'd like to book ",f_age:"age ",f_doc:"Doctor: ",f_when:"I plan to come on ",f_calm_k:"It's my child's first visit and they're a little scared, please go gently.",f_calm_a:"I get a bit anxious at the dentist, please explain things slowly.",f_end:"Is this available? Thank you.",
+f_need:["a children's dental check-up","an adult dental check-up","a vaccination / GP consultation"],
+dh:"Medikids Dago doctors.",dl:"Names, titles and schedules from the Medikids Dago branch page. Portraits are illustrations, not photos.",
+all:"All",d_ill:"illustration",d_bk:"Ask schedule",sp:{kga:"Paediatric dental specialist",bm:"Oral surgery specialist",u:"Dentist",dr:"General practitioner · vaccinations"},
+rh:"Rooms made for children.",rl:"Facilities mentioned on the MHDC and Medikids branch pages: the London Play Hospital play area, a Myobrace Center room and themed treatment rooms.",
+rooms:[["London Play Hospital","A London-themed play area where children get used to the clinic before their turn."],["Africa Safari Dental","A safari-themed treatment room, so the dental chair feels like an adventure."],["Turkey Dental Room","A Turkish-themed treatment room (called “Ruang Dental Turki” on the Medikids site)."]],
+v1:"Tell us first",v1p:"Share your child's age, the concern and whether it's a first visit.",v2:"Come a little early",v2p:"Give your child time to get to know the waiting room and play area.",v3:"Examination",v3p:"The dentist checks the teeth & explains findings to parents.",v4:"Plan & cost",v4p:"Options and estimated costs are explained first. Parents decide.",
+lk:"Visit us at Jl. Ir. H. Juanda 50.",lkl:"Medikids Dago is on Jl. Ir. H. Juanda (Dago), Citarum, Bandung Wetan. Open every day from morning to evening.",vt_a:"Location view",
+v_foto:"Photo",v_map:"Map",v_full:"Open full screen",lw:"Opening hours",la:"Address",cp_a:"Copy address",copied_a:"Address copied ✓",
+cap:"Facade illustration, not a clinic photo. Look for the Medikids sign at Jl. Ir. H. Juanda No. 50.",
+fh:"Frequently asked questions.",fl:"Didn't find your answer? Ask directly on WhatsApp.",
+faq:[["When is Medikids Dago Bandung open?","The clinic is open Monday–Sunday, 9am–9pm WIB. Each doctor's schedule differs, so please confirm before visiting.",0],
+ ["How much does dental treatment cost?","It depends on the treatment and the examination. Ranges on this page are Bandung market estimates; contact the branch for costs that fit your needs.",1],
+ ["Does the clinic accept insurance?","Medikids Dago appears on the Admedika (published by Chubb, January 2026) and Medicare LGI (May 2026) provider lists. Check acceptance and your policy's coverage with the branch and your insurer.",1],
+ ["Are braces available?","The branch lists My-O Therapy with Myobrace but doesn't specify braces. Ask the branch which orthodontic options are available.",1],
+ ["Can my child see a paediatric dental specialist?","Yes. The branch page lists four paediatric dental specialists (Sp.KGA). Ask the branch on WhatsApp for the latest schedule.",0]],
+zk:"just one message",zh:"Any questions before your visit?",zl:"Tell us what you or your little one needs. The Medikids Dago team will help you choose a doctor and visit time.",
+ftd:"Children's & family dentistry, vaccinations and general healthcare in Dago, Bandung. Part of MHDC Group.",fth:"Monday–Sunday 9am–9pm WIB",ftc:"Contact",ftm:"Concept by Maxi Growth Studio",
+legal:"This page is a preview concept compiled from public information (medikids.co.id, mhdc.co.id & directories). Medical information is general and not a substitute for an examination. Prices are market estimates, not offers.",
+fab_a:"Chat Medikids Dago on WhatsApp"}};
+const t=k=>T[L][k]??T.id[k];
+const wa=m=>"https://wa.me/"+WA+"?text="+encodeURIComponent(m);
+function copyText(s,ok){const f=()=>{const a=document.createElement("textarea");a.value=s;a.style.position="fixed";a.style.opacity=0;document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();ok()};
+  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(s).then(ok,f);else f()}
+const rp=n=>n>=1e6?"Rp"+(n/1e6).toLocaleString(L==="en"?"en-US":"id-ID",{maximumFractionDigits:2})+(L==="en"?"m":" jt"):"Rp"+Math.round(n/1e3)+(L==="en"?"k":"rb");
+const rng2=(a,b)=>rp(a)+" – "+rp(b);
+
+/* ---------- time in WIB ---------- */
+function wibD(){return new Date(Date.now()+(7*60+new Date().getTimezoneOffset())*60000)}
+function wib(){const d=wibD();return{day:d.getDay(),h:d.getHours()+d.getMinutes()/60}}
+const hh=h=>String(Math.floor(h)).padStart(2,"0")+"."+String(Math.round(h%1*60)).padStart(2,"0");
+function stat(){const {h}=wib();
+  if(h>=HRS[0]&&h<HRS[1])return{c:"st-open",tx:t("open")+hh(HRS[1])+" WIB"};
+  if(h<HRS[0])return{c:"st-closed",tx:t("closed")+t("today_")+hh(HRS[0])+" WIB"};
+  return{c:"st-closed",tx:t("closed")+t("tmr")+hh(HRS[0])+" WIB"}}
+function status(){const s=stat();$("#stt").className="stt "+s.c;$("#sttx").textContent=s.tx;const l=$("#lst");l.className="lst "+s.c;l.querySelector("span").textContent=s.tx}
+
+/* ---------- language ---------- */
+function applyLang(){document.documentElement.lang=L;
+  $$("[data-i]").forEach(e=>{const v=t(e.dataset.i);if(typeof v==="string")e.innerHTML=v});
+  $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",t(e.dataset.ia)));
+  $("#h1").innerHTML=t("h1");
+  $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+  waLinks();status();updArea();buildKel();renderRes();buildSv();buildCic();buildFinder();buildTeam();buildRooms();buildLoc();buildFaq()}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("mk-lang",L)}catch(e){}applyLang()});
+function waLinks(){$$("[data-wa]").forEach(a=>a.href=wa(t("w_gen")))}
+
+/* ---------- nav ---------- */
+const nav=$("#nav"),menu=$("#menu");
+function setMenu(o){menu.classList.toggle("on",o);$("#burger").setAttribute("aria-expanded",o);if(o)$("#mx").focus()}
+$("#burger").onclick=()=>setMenu(true);$("#mx").onclick=()=>setMenu(false);menu.onclick=e=>{if(e.target===menu||e.target.closest("a"))setMenu(false)};
+addEventListener("keydown",e=>{if(e.key==="Escape")setMenu(false)});
+
+/* ---------- tooth arch (32 teeth, FDI) ---------- */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+  arch.appendChild(el("path",{d,class:"gum",fill:"none","stroke-linecap":"round",stroke:"url(#gg)","stroke-width":44}))}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+  for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+    const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+    const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+    g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));g.appendChild(el("circle",{class:"halo",r:k==="m"?"16.5":"15"}));
+    SHAPE[k].forEach((d,j)=>g.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+    g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+    const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+    const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.7"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+    g.onclick=()=>{rove(g,true);tg(g)};
+    g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+      if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];
+      if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+    g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;
+    teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);badges.forEach(b=>{b.querySelector("text").textContent=fdi(teeth[+b.dataset.jaw][badges.indexOf(b)%16]);arch.appendChild(b)});
+[["ATAS","UPPER",200,78],["BAWAH","LOWER",200,268]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+function fdi(g){const j=+g.dataset.jaw,sd=+g.dataset.side,i=+g.dataset.ix;return ""+(j===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+  return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdi(g)+")"}
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1500)}
+let skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}skipped=false;syncTeeth();updArea();renderRes();tipHide()}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on)})}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+  const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+  (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0)}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+  const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:2;
+  if(sel.length){const list=sel.slice(-lim);
+    c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+fdi(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip" style="padding-right:10px">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+t("clr")+'</button>';
+    c.querySelectorAll(".mchip button").forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+    $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes()};
+  }else{c.innerHTML='<div class="sm" style="font-weight:800;color:var(--ink)">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+    const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}
+  stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+  s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+  s.forEach((b,i)=>{b.setAttribute("aria-current",b.classList.contains("on")?"step":"false");b.querySelector("i").textContent=b.classList.contains("done")?"✓":i+1});
+  $("#st3l").textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;(n===0?$("#aw"):n===1?$("#kl"):$("#res")).scrollIntoView({behavior:SB,block:"center"})});
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",
+ loose:"M8 4c1.6 0 2.4.8 4 .8S14.4 4 16 4c2.4 0 3.2 2.4 2.4 5.6-.8 2.4-.8 8.8-3.2 8.8-1.6 0-1.6-4-3.2-4s-1.6 4-3.2 4c-2.4 0-2.4-6.4-3.2-8.8C4.8 6.4 5.6 4 8 4zM1.5 8l2 1M1.5 12.5h2M22.5 8l-2 1M22.5 12.5h-2",kid:"M12 3.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM5 21c.6-5 3.2-8 7-8s6.4 3 7 8",adult:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",syr:"M18 2l4 4M20 4l-3 3M17 7l-9.5 9.5-3 .5.5-3L14.5 4.5M11 8l2 2M8.5 10.5l2 2M5 19l-3 3",shield:"M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6zM9 12l2 2 4-4",team:"M9 4.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zM3 20c.5-3.6 3-5.6 6-5.6s5.5 2 6 5.6M17 6.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM16 14.6c2.6.2 4.4 2 4.9 5"};
+/* kisaran = perkiraan pasar Bandung dari sumber publik (HDmall, CariBisnis), bukan tarif Medikids */
+const P={sc:[232e3,65e4],tb:[33e4,719e3],cb:[188e3,648e3],bh:[49e5,85e5]};
+const pr=k=>k==="?"?"?":rng2(P[k][0],P[k][1]);
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling","sc"],["Tambal gigi","tb"]]],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan bisa membesar sampai ke saraf, termasuk pada gigi susu. Makin awal ditangani, biasanya makin sederhana perawatannya.",2,[["Tambal gigi","tb"],["Perawatan saraf gigi, bila sudah dalam","?"]]],
+ ["Sakit / bengkak","thr","Sakit berdenyut atau bengkak","Bisa jadi tanda peradangan saraf gigi atau infeksi. Sebaiknya segera diperiksa.",3,[["Pemeriksaan segera","?"],["Perawatan saraf gigi","?"],["Cabut gigi, bila perlu","cb"]]],
+ ["Gigi susu goyang","loose","Gigi susu goyang atau belum tanggal","Gigi susu biasanya tanggal bertahap. Bila gigi tetap sudah tumbuh di belakangnya sementara gigi susu belum tanggal, dokter gigi anak menilai perlu tindakan atau tidak.",1,[["Pemeriksaan dokter gigi anak","?"],["Cabut gigi susu, bila perlu","?"]]],
+ ["Gusi berdarah","gum","Gusi bengkak atau mudah berdarah","Umumnya dipicu karang gigi dan plak. Pembersihan profesional dan cara menyikat yang tepat biasanya langkah pertama.",1,[["Scaling","sc"],["Edukasi cara menyikat gigi","?"]]],
+ ["Gigi bungsu","wis","Nyeri di ujung rahang","Gigi bungsu yang tumbuh miring bisa menimbulkan nyeri dan bengkak. Foto rontgen membantu dokter melihat posisinya.",2,[["Foto rontgen, bila diperlukan","?"],["Konsultasi bedah mulut (Sp.BM)","?"]]],
+ ["Tidak rapi","cro","Gigi berjejal atau tidak rapi","Susunan gigi bisa dirapikan bertahap. Pada anak, dokter menilai kebiasaan dan pertumbuhan rahang lebih dulu.",1,[["Konsultasi ortodonti","?"],["My-O Therapy / Myobrace (anak)","?"],["Kawat gigi (behel)","bh"]]],
+ ["Gigi bernoda","yel","Gigi kusam, bernoda, atau kekuningan","Bisa karena plak, noda makanan/minuman, atau hal lain. Dokter akan menilai cukup dibersihkan atau perlu perawatan lain.",1,[["Scaling","sc"],["Konsultasi warna gigi","?"]]]],
+en:[
+ ["Sensitive","sens","Sensitive to cold or sweet","Often linked to thinning enamel, a small cavity or tartar near the gum line.",1,[["Examination","?"],["Scaling","sc"],["Filling","tb"]]],
+ ["Cavity","cav","A cavity, even without pain","Untreated cavities can grow into the nerve, baby teeth included. The earlier it's treated, the simpler it usually is.",2,[["Filling","tb"],["Root canal, if deep","?"]]],
+ ["Pain / swelling","thr","Throbbing pain or swelling","May signal nerve inflammation or infection. Best checked soon.",3,[["Prompt examination","?"],["Root canal","?"],["Extraction, if needed","cb"]]],
+ ["Loose baby tooth","loose","A loose baby tooth, or one that won't fall out","Baby teeth usually fall out gradually. If the adult tooth is coming in behind while the baby tooth stays, a paediatric dentist assesses whether action is needed.",1,[["Paediatric dental check","?"],["Baby tooth extraction, if needed","?"]]],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually caused by tartar and plaque. Professional cleaning and good brushing are often the first step.",1,[["Scaling","sc"],["Brushing guidance","?"]]],
+ ["Wisdom tooth","wis","Pain at the back of the jaw","A tilted wisdom tooth can cause pain and swelling. An X-ray helps the dentist see its position.",2,[["X-ray, if needed","?"],["Oral surgery consultation (Sp.BM)","?"]]],
+ ["Crooked","cro","Crowded or crooked teeth","Alignment can be corrected gradually. For children, habits and jaw growth are assessed first.",1,[["Orthodontic consultation","?"],["My-O Therapy / Myobrace (children)","?"],["Braces","bh"]]],
+ ["Stained","yel","Dull, stained or yellowish teeth","May be plaque, food/drink stains or other causes. The dentist checks whether cleaning is enough or other care is needed.",1,[["Scaling","sc"],["Tooth-shade consultation","?"]]]]};
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+  b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+  b.onclick=()=>pickK(i);b.onkeydown=e=>{const n=8;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i+n-1)%n;if(j!==null){e.preventDefault();pickK(j);$$("#kl .k")[j].focus()}};kl.appendChild(b)})}
+function pickK(i){if(i!==ki){sent=false;msgEdited=false}ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let pref=-1,msgEdited=false;
+function renderRes(){const r=$("#res");
+  if(ki<0){r.className="res empty";r.innerHTML='<div class="skl" style="width:40%"></div><div class="skl" style="width:85%"></div><div class="skl" style="width:62%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+  const o=KEL[L][ki],names=sel.map(tName),prev=$("#msg")?$("#msg").value:"";
+  r.className="res";
+  r.innerHTML='<div class="rtop"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div><h3 tabindex="-1">'+o[2]+'</h3>'+
+   (names.length?'<div class="rteeth">'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>':'')+'<p class="ex">'+o[3]+'</p><div class="rtl">'+t("tr_usual")+'</div>'+
+   '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+(p==="?"?'<em>'+t("ask_c")+'</em>':pr(p))+'</span></li>').join("")+'</ul>'+
+   '<p class="est">'+t("est_src")+' <span class="chk">'+t("chk")+'</span></p>'+
+   '<div class="bubh"><label for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="4"></textarea>'+
+   '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2,3].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+   '<div class="ract"><a class="btn btn-w" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a><button type="button" class="copy" id="copy">'+ic("copy")+'<span>'+t("copy")+'</span></button></div>';
+  const m=$("#msg");if(msgEdited)m.value=prev;compose();
+  m.oninput=()=>{msgEdited=true;$("#mrst").hidden=false;$("#send").href=wa(m.value)};
+  $("#mrst").onclick=()=>{msgEdited=false;compose()};
+  r.querySelectorAll(".pref button").forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;r.querySelectorAll(".pref button").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+  $("#send").addEventListener("click",()=>{sent=true;stepper()});
+  $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1500)});
+  $("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],m=$("#msg");if(!m)return;const a=sel.map(g=>tName(g).toLowerCase()).join(", ");
+  const v=t("w_hi")+t("w_k1")+o[2].toLowerCase()+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_end");
+  if(!msgEdited)m.value=v;$("#mrst").hidden=!msgEdited;$("#send").href=wa(m.value)}
+
+/* ---------- services ---------- */
+const SV={id:[["Gigi anak","Pemeriksaan dan perawatan gigi anak oleh dokter gigi dan dokter gigi spesialis anak (Sp.KGA).","?","kid"],
+ ["Gigi dewasa","Pemeriksaan dan perawatan gigi dewasa sesuai hasil konsultasi dengan dokter gigi.","?","adult"],
+ ["Tambal gigi","Untuk gigi berlubang atau rusak; bahan tambal dipilih setelah pemeriksaan.","tb","cav"],
+ ["Scaling","Pembersihan karang gigi dan plak; dokter membantu menentukan waktu yang tepat.","sc","gum"],
+ ["Cabut gigi","Dilakukan bila memang diperlukan berdasarkan pemeriksaan dokter gigi.","cb","wis"],
+ ["Bedah mulut","Konsultasi dengan dokter gigi spesialis bedah mulut (Sp.BM), misalnya untuk gigi bungsu.","?","wis"],
+ ["My-O Therapy · Myobrace","Terapi dengan alat Myobrace; tanyakan kesesuaiannya untuk anak Anda.","?","cro"],
+ ["Vaksinasi","Vaksinasi anak dan dewasa. Tanyakan jenis vaksin dan jadwalnya ke cabang.","?","syr"],
+ ["Kesehatan umum","Layanan dokter umum untuk anak dan dewasa.","?","shield"]],
+en:[["Children's teeth","Check-ups and care by dentists and paediatric dental specialists (Sp.KGA).","?","kid"],
+ ["Adult teeth","Adult dental check-ups and care following a consultation with a dentist.","?","adult"],
+ ["Fillings","For cavities or damaged teeth; material chosen after the exam.","tb","cav"],
+ ["Scaling","Removing tartar and plaque; your dentist advises when it's due.","sc","gum"],
+ ["Extraction","Done when needed, based on the dentist's examination.","cb","wis"],
+ ["Oral surgery","Consultation with an oral surgery specialist (Sp.BM), e.g. for wisdom teeth.","?","wis"],
+ ["My-O Therapy · Myobrace","Therapy using a Myobrace appliance; ask whether it suits your child.","?","cro"],
+ ["Vaccinations","Vaccinations for children and adults. Ask the branch about vaccine types and schedules.","?","syr"],
+ ["General healthcare","GP services for children and adults.","?","shield"]]};
+function buildSv(){$("#sv").innerHTML=SV[L].map(([n,d,k,icn])=>'<article class="svc"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="'+ICO[icn]+'"/></svg></span><h3>'+n+'</h3><p>'+d+'</p><div class="pr"><span>'+(k==="?"?"":t("from"))+'</span><b>'+(k==="?"?'<span style="font:700 13px var(--bf);color:var(--ink2)">'+t("ask_c")+'</span>':pr(k))+'</b></div><a href="'+wa((L==="id"?"Halo Medikids Dago Bandung, saya ingin bertanya tentang ":"Hello Medikids Dago Bandung, I'd like to ask about ")+n.toLowerCase()+(L==="id"?". Terima kasih.":". Thank you."))+'" target="_blank" rel="noopener">'+t("ask")+' '+n.toLowerCase()+' '+ic("ar","width:16px;height:16px")+'</a></article>').join("")+
+  '<article class="svc alt"><span class="ic">'+ic("tooth")+'</span><h3>'+(L==="id"?"Belum yakin butuh apa?":"Not sure what you need?")+'</h3><p>'+(L==="id"?"Tandai giginya di denah, pilih keluhan, dan lihat gambaran perawatannya.":"Mark the tooth on the map, pick a symptom and see what's usually involved.")+'</p><a href="#cek">'+t("c_cek")+' '+ic("ar","width:16px;height:16px")+'</a></article>'}
+let months=12,best=65e5;
+function buildCic(){$("#ten").setAttribute("aria-label",t("ci2"));$("#ten").innerHTML=[6,12,18,24].map(m=>'<button type="button" data-m="'+m+'" aria-pressed="'+(m===months)+'">'+m+t("mo")+'</button>').join("");
+  $$("#ten button").forEach(b=>b.onclick=()=>{months=+b.dataset.m;$$("#ten button").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.m===months));calcC()});calcC()}
+function calcC(){$("#cest").textContent=rp(best);$("#cper").textContent=rp(best/months)+(L==="id"?"/bln":"/mo");$("#crng").setAttribute("aria-valuetext",rp(best))}
+$("#crng").oninput=e=>{best=+e.target.value;calcC()};
+
+/* ---------- avatar illustrations (bukan foto) ---------- */
+function av(s){const skin=["#f0cdae","#d9a680","#b98160","#e6b894"][s%4],hair=["#2a1f1a","#3a2a22","#1c1a19","#4a3426"][(s>>1)%4],bg=["#e3f3fa","#fde6e3","#e8f7dd","#fdf1d6"][s%4],st=s%4;
+  const hp=st===0?'<path d="M84 126c-4-34 14-54 36-54s40 20 36 54c-3-16-10-26-18-30-12 6-30 6-40 0-8 5-12 15-14 30z" fill="'+hair+'"/>'
+   :st===1?'<path d="M82 132c-6-36 12-60 38-60s44 24 38 60c-2 14-6 34-2 52l-14-6c4-18 4-34-2-46-10 6-30 6-40 0-6 12-6 28-2 46l-14 6c4-18 0-38-2-52z" fill="'+hair+'"/>'
+   :st===2?'<path d="M86 124c-2-30 14-46 34-46s36 16 34 46c-4-12-12-20-34-20s-30 8-34 20z" fill="'+hair+'"/>'
+   :'<circle cx="120" cy="70" r="15" fill="'+hair+'"/><path d="M86 126c-3-30 12-48 34-48s37 18 34 48c-5-14-14-22-34-22s-29 8-34 22z" fill="'+hair+'"/>';
+  return '<svg viewBox="0 0 240 240" aria-hidden="true"><rect width="240" height="240" fill="'+bg+'"/><circle cx="200" cy="44" r="16" fill="#fff" opacity=".7"/><circle cx="36" cy="60" r="8" fill="#fff" opacity=".7"/><path d="M104 170v24h32v-24z" fill="'+skin+'"/><path d="M34 240c4-32 26-48 64-54l22 24 22-24c38 6 60 22 64 54z" fill="#fff" stroke="#19285e" stroke-width="2"/><path d="M98 186l22 24 22-24" fill="none" stroke="#eb1c1a" stroke-width="3.5"/><circle cx="160" cy="220" r="8" fill="#6ec1e4" stroke="#19285e" stroke-width="1.5"/>'+
+   '<path d="M120 90c-20 0-30 17-30 44 0 26 14 44 30 44s30-18 30-44c0-27-10-44-30-44z" fill="'+skin+'" stroke="#19285e" stroke-width="1.5"/>'+hp+
+   '<circle cx="109" cy="136" r="2.8" fill="#1c1a19"/><circle cx="131" cy="136" r="2.8" fill="#1c1a19"/><path d="M110 155q10 8 20 0" fill="none" stroke="#19285e" stroke-width="2" stroke-linecap="round"/><circle cx="100" cy="148" r="5" fill="#ff8f87" opacity=".35"/><circle cx="140" cy="148" r="5" fill="#ff8f87" opacity=".35"/></svg>'}
+
+/* ---------- signature: jadwal dokter per hari & sesi ---------- */
+const WHO=[{f:["kga","u"],ic:"kid"},{f:["u","bm"],ic:"adult"},{f:["dr"],ic:"syr"}];
+let who=0,cd=-1,cs=-1,dsel=-1,age=-1,fEdited=false;
+function days7(){const b=wibD(),a=[];for(let i=0;i<7;i++){const d=new Date(b);d.setDate(b.getDate()+i);a.push(d)}return a}
+const onDuty=(dow,s)=>DR.map((d,i)=>[d,i]).filter(([d])=>WHO[who].f.includes(d[1])&&d[2].some(([a,b])=>a===dow&&b===s)).sort((a,b)=>WHO[who].f.indexOf(a[0][1])-WHO[who].f.indexOf(b[0][1]));
+const past=(i,s)=>{if(i!==0)return false;const {h}=wib();return h>=(s===0?14.5:20.5)};
+function firstFree(){const D=days7();for(let i=0;i<7;i++)for(let s=0;s<2;s++)if(!past(i,s)&&onDuty(D[i].getDay(),s).length)return[i,s];return[0,0]}
+function buildFinder(){
+  $("#who").setAttribute("aria-label",t("fs1t"));
+  $("#who").innerHTML=WHO.map((w,i)=>'<button type="button" class="wb" data-w="'+i+'" aria-pressed="'+(who===i)+'"><span class="wi"><svg viewBox="0 0 24 24"><path d="'+ICO[w.ic]+'"/></svg></span><span><b>'+t("who")[i][0]+'</b><small>'+t("who")[i][1]+'</small></span></button>').join("");
+  $$("#who .wb").forEach(b=>b.onclick=()=>{who=+b.dataset.w;dsel=-1;fEdited=false;$$("#who .wb").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.w===who));
+    if(cd<0||!onDuty(days7()[cd].getDay(),cs).length||past(cd,cs)){[cd,cs]=firstFree()}drawBoard();drawDocs();calcF()});
+  $("#leg").innerHTML=[["kga","var(--sky)"],["u","#8f9ac4"],["bm","var(--gold)"],["dr","var(--grass)"]].map(([k,c])=>'<span><i style="background:'+c+'"></i>'+t("lg_"+k)+'</span>').join("");
+  if(cd<0){[cd,cs]=firstFree()}
+  drawBoard();drawDocs();calcF()}
+function drawBoard(){const D=days7(),S=t("ses");
+  let h='<div class="brow" aria-hidden="true"><div></div>'+D.map((d,i)=>'<div class="bh">'+(i===0?t("today"):t("days")[d.getDay()])+'<b>'+d.getDate()+'</b></div>').join("")+'</div>';
+  S.forEach((s,si)=>{h+='<div class="brow"><div class="bl">'+s[0]+'<small>'+s[1]+'</small></div>'+D.map((d,i)=>{const l=onDuty(d.getDay(),si),off=past(i,si)||!l.length;
+    const lab=(i===0?t("today"):t("daysF")[d.getDay()])+" "+d.getDate()+" "+t("mon")[d.getMonth()]+", "+s[0]+" "+s[1]+": "+l.length;
+    return '<button type="button" class="cell'+(i===0?" today":"")+'" data-d="'+i+'" data-s="'+si+'" aria-pressed="'+(cd===i&&cs===si)+'" aria-label="'+lab+'"'+(off?" disabled":"")+'><span>'+l.length+'</span><span class="dots">'+l.map(([x])=>'<i class="d-'+x[1]+'"></i>').join("")+'</span></button>'}).join("")+'</div>'});
+  $("#board").innerHTML=h;
+  $$("#board .cell").forEach(b=>b.onclick=()=>{cd=+b.dataset.d;cs=+b.dataset.s;dsel=-1;fEdited=false;$$("#board .cell").forEach(x=>x.setAttribute("aria-pressed",x===b));drawDocs();calcF();if(mob())$("#docs").scrollIntoView({behavior:SB,block:"center"})})}
+function slotLabel(){const D=days7()[cd],S=t("ses")[cs];return (cd===0?t("today").toLowerCase()+", ":"")+t("daysF")[D.getDay()]+" "+D.getDate()+" "+t("mon")[D.getMonth()]+" · "+S[0].toLowerCase()+" ("+S[1].replace("–",".00–")+".00 WIB)"}
+function drawDocs(){const box=$("#docs"),D=days7();
+  $("#kid").classList.toggle("on",who===0);
+  $("#ages").setAttribute("aria-label",t("age_l"));$("#ages").innerHTML=t("ages").map((a,i)=>'<button type="button" class="chipb" data-a="'+i+'" aria-pressed="'+(age===i)+'">'+a+'</button>').join("");
+  $$("#ages .chipb").forEach(b=>b.onclick=()=>{const a=+b.dataset.a;age=age===a?-1:a;$$("#ages .chipb").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.a===age));fEdited=false;calcF()});
+  $("#calmt").textContent=who===0?t("calm_k"):t("calm_a");
+  const list=onDuty(D[cd].getDay(),cs);
+  $("#fdt").textContent=t("fdt_n")+slotLabel().split(" (")[0];box.setAttribute("aria-label",$("#fdt").textContent);
+  if(!list.length){box.innerHTML='<div class="none">'+t("none")+'<br><button type="button" class="chipb" id="jump" style="background:#fff;color:var(--ink)">'+t("none_b")+'</button></div>';$("#jump").onclick=()=>{[cd,cs]=firstFree();drawBoard();drawDocs();calcF()};return}
+  box.innerHTML='<button type="button" class="doc" data-i="-1" aria-pressed="'+(dsel<0)+'"><span class="av" style="background:#2f4185;display:grid;place-items:center">'+ic("team","color:#fff")+'</span><span><b>'+t("any")+'</b><small>'+t("any_s")+'</small></span></button>'+
+   list.map(([d,i])=>'<button type="button" class="doc" data-i="'+i+'" aria-pressed="'+(dsel===i)+'"><span class="av">'+av(i)+'</span><span><b>'+d[0]+'</b><small>'+t("sp")[d[1]]+'</small></span><span class="tag '+d[1]+'">'+SPC[d[1]]+'</span></button>').join("");
+  $$("#docs .doc").forEach(b=>b.onclick=()=>{dsel=+b.dataset.i;$$("#docs .doc").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.i===dsel));fEdited=false;calcF()})}
+$("#calm").onchange=()=>{fEdited=false;calcF()};
+$("#fmsg").oninput=()=>{fEdited=true;$("#fsend").href=wa($("#fmsg").value)};
+$("#fcopy").onclick=()=>copyText($("#fmsg").value,()=>{const s=$("#fcopy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1500)});
+function calcF(){const need=t("f_need")[who]+(who===0&&age>=0?" ("+t("f_age")+t("ages")[age]+")":"");
+  const doc=dsel>=0?DR[dsel][0]:t("any").toLowerCase();
+  $("#fsum").innerHTML='<span>'+t("who")[who][0]+(who===0&&age>=0?" · "+t("ages")[age]:"")+'</span><span>'+(dsel>=0?DR[dsel][0]:t("any"))+'</span><span>'+slotLabel()+'</span>';
+  const msg=t("w_hi")+t("f_intro")+need+". "+t("f_doc")+doc.replace(/\.$/,"")+". "+t("f_when")+slotLabel()+". "+($("#calm").checked?(who===0?t("f_calm_k"):t("f_calm_a"))+" ":"")+t("f_end");
+  if(!fEdited)$("#fmsg").value=msg;$("#fsend").href=wa($("#fmsg").value)}
+
+/* ---------- team ---------- */
+let tf="all";
+function sched(d){const g=[[],[]];[1,2,3,4,5,6,0].forEach(x=>d[2].forEach(([a,b])=>{if(a===x)g[b].push(t("days")[x])}));
+  return g.map((l,s)=>l.length?'<div><em>'+t("ses")[s][1]+'</em><span>'+l.join(", ")+'</span></div>':"").join("")}
+function buildTeam(){const F=["all","kga","u","bm","dr"];$("#dfl").setAttribute("aria-label",t("dh"));
+  $("#dfl").innerHTML=F.map(f=>'<button type="button" data-f="'+f+'" aria-pressed="'+(tf===f)+'">'+(f==="all"?t("all"):t("sp")[f].split(" · ")[0])+'</button>').join("");
+  $$("#dfl button").forEach(b=>b.onclick=()=>{tf=b.dataset.f;buildTeam()});
+  $("#dg").innerHTML=DR.map((d,i)=>[d,i]).filter(([d])=>tf==="all"||d[1]===tf).map(([d,i])=>'<article class="dc"><div class="pp">'+av(i)+'<span class="ill">'+t("d_ill")+'</span><span class="spc">'+SPC[d[1]]+'</span></div><div class="db"><h3>'+d[0]+'</h3><p>'+t("sp")[d[1]]+'</p><div class="when">'+sched(d)+'</div><a target="_blank" rel="noopener" href="'+wa((L==="id"?"Halo Medikids Dago Bandung, saya ingin menanyakan jadwal praktik ":"Hello Medikids Dago Bandung, I'd like to ask about the schedule of ")+d[0]+(L==="id"?". Terima kasih.":". Thank you."))+'">'+t("d_bk")+' '+ic("ar","width:15px;height:15px")+'</a></div></article>').join("")}
+
+/* ---------- themed rooms (ilustrasi, bukan foto) ---------- */
+const RSVG=[
+ '<svg viewBox="0 0 320 170" aria-hidden="true"><rect width="320" height="170" fill="#e3f3fa"/><circle cx="270" cy="34" r="16" fill="#fff"/><rect x="236" y="30" width="28" height="100" fill="#fdf1d6" stroke="#19285e" stroke-width="2"/><path d="M236 30l14-18 14 18z" fill="#7b573d" stroke="#19285e" stroke-width="2"/><circle cx="250" cy="52" r="9" fill="#fff" stroke="#19285e" stroke-width="2"/><path d="M250 52v-5M250 52l4 2" stroke="#19285e" stroke-width="1.5"/><rect x="0" y="132" width="320" height="38" fill="#c9d3e6"/><path d="M0 140h320" stroke="#fff" stroke-width="2" stroke-dasharray="14 10"/>'+
+ '<rect x="30" y="54" width="170" height="80" rx="12" fill="#eb1c1a" stroke="#19285e" stroke-width="2.5"/><path d="M30 94h170" stroke="#19285e" stroke-width="2"/>'+[0,1,2,3,4].map(i=>'<rect x="'+(42+i*31)+'" y="62" width="24" height="22" rx="4" fill="#e3f3fa" stroke="#19285e" stroke-width="1.5"/>').join("")+[0,1,2,3].map(i=>'<rect x="'+(74+i*31)+'" y="102" width="24" height="20" rx="4" fill="#e3f3fa" stroke="#19285e" stroke-width="1.5"/>').join("")+'<rect x="42" y="100" width="22" height="30" rx="3" fill="#fdf1d6" stroke="#19285e" stroke-width="1.5"/><circle cx="68" cy="136" r="11" fill="#19285e"/><circle cx="68" cy="136" r="4" fill="#c9d3e6"/><circle cx="168" cy="136" r="11" fill="#19285e"/><circle cx="168" cy="136" r="4" fill="#c9d3e6"/>'+
+ '<rect x="280" y="80" width="26" height="54" rx="4" fill="#eb1c1a" stroke="#19285e" stroke-width="2"/><rect x="285" y="90" width="16" height="20" fill="#e3f3fa" stroke="#19285e" stroke-width="1.2"/></svg>',
+ '<svg viewBox="0 0 320 170" aria-hidden="true"><rect width="320" height="170" fill="#fdf1d6"/><circle cx="246" cy="48" r="26" fill="#f2b53a"/><path d="M0 120c50-14 110-14 160-4s110 10 160-6v60H0z" fill="#e0c07a"/><path d="M0 138c60-10 120-6 180 2s100 4 140-2v32H0z" fill="#6ecc39" opacity=".7"/>'+
+ '<rect x="56" y="70" width="8" height="58" fill="#7b573d"/><ellipse cx="60" cy="68" rx="46" ry="12" fill="#6ecc39" stroke="#19285e" stroke-width="2"/>'+
+ '<g stroke="#19285e" stroke-width="2"><path d="M196 124v-26M226 124v-26M200 100h24" stroke-linecap="round"/><ellipse cx="212" cy="96" rx="26" ry="14" fill="#f2b53a"/><path d="M230 90l14-44" stroke-width="10" stroke="#19285e"/><path d="M230 90l14-44" stroke-width="7" stroke="#f2b53a"/><ellipse cx="248" cy="44" rx="10" ry="6" fill="#f2b53a"/></g><g fill="#7b573d"><circle cx="204" cy="94" r="3"/><circle cx="216" cy="100" r="3"/><circle cx="222" cy="90" r="2.5"/><circle cx="238" cy="66" r="2"/></g><circle cx="252" cy="42" r="1.8" fill="#19285e"/>'+
+ '<circle cx="120" cy="30" r="4" fill="#19285e"/><circle cx="134" cy="24" r="3" fill="#19285e"/></svg>',
+ '<svg viewBox="0 0 320 170" aria-hidden="true"><rect width="320" height="170" fill="#fdf1d6"/><path d="M0 130l40-30 30 18 40-40 50 44 40-26 50 32 40-22 30 20v44H0z" fill="#e0c07a" stroke="#19285e" stroke-width="2"/><path d="M0 150h320v20H0z" fill="#c99a5b"/>'+
+ [[70,52,26,"#eb1c1a"],[160,34,32,"#6ec1e4"],[250,60,22,"#6ecc39"]].map(([x,y,r,c])=>'<g stroke="#19285e" stroke-width="2"><path d="M'+(x-r)+' '+y+'a'+r+' '+r+' 0 1 1 '+(2*r)+' 0c0 '+(r*.7)+'-'+(r*.55)+' '+(r*.95)+'-'+(r*.55)+' '+(r*1.2)+'h-'+(r*.9)+'c0-'+(r*.25)+'-'+(r*.55)+'-'+(r*.5)+'-'+(r*.55)+'-'+(r*1.2)+'z" fill="'+c+'"/><path d="M'+x+' '+(y-r)+'v'+(r*2.2)+'M'+(x-r*.5)+' '+(y-r*.85)+'c-6 '+r+' 0 '+(r*1.6)+' '+(r*.05)+' '+(r*2)+'M'+(x+r*.5)+' '+(y-r*.85)+'c6 '+r+' 0 '+(r*1.6)+' -'+(r*.05)+' '+(r*2)+'" fill="none" stroke-width="1.4"/><rect x="'+(x-r*.3)+'" y="'+(y+r*1.35)+'" width="'+(r*.6)+'" height="'+(r*.4)+'" fill="#7b573d"/></g>').join("")+'</svg>'];
+function buildRooms(){$("#rooms").innerHTML=t("rooms").map(([n,d],i)=>'<article class="room rv in">'+RSVG[i]+'<div class="rb"><h3>'+n+'</h3><p>'+d+'</p></div></article>').join("")}
+
+/* ---------- location ---------- */
+let view="peta",mapOk=false,paned=false;
+function facade(){return '<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="'+t("cap")+'"><rect width="400" height="300" fill="#e3f3fa"/><circle cx="330" cy="58" r="22" fill="#fff"/><path d="M0 252h400v48H0z" fill="#c9d3e6"/><path d="M0 264h400" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>'+
+ '<rect x="70" y="80" width="260" height="172" fill="#fff" stroke="#19285e" stroke-width="2.5"/><path d="M62 80h276v-8H62z" fill="#19285e"/>'+
+ '<rect x="104" y="96" width="192" height="52" rx="26" fill="#fff" stroke="#19285e" stroke-width="2"/><g transform="translate(118 104) scale(.36)"><path d="'+TOOTHP+'" fill="#eb1c1a"/><path d="M37 46q13 11 26 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/></g><text x="160" y="128" font-family="Fredoka,Arial Rounded MT Bold,Arial" font-weight="600" font-size="24" fill="#eb1c1a">medikids</text><text x="161" y="141" font-family="Nunito Sans,Arial" font-weight="800" font-size="7.5" letter-spacing="2" fill="#19285e">DAGO · JUANDA 50</text>'+
+ '<path d="M84 162h232v12H84z" fill="#eb1c1a"/>'+[0,1,2,3,4,5,6,7].map(i=>'<path d="M'+(84+i*29)+' 174q14.5 12 29 0z" fill="'+(i%2?"#fff":"#eb1c1a")+'" stroke="#19285e" stroke-width="1"/>').join("")+
+ '<rect x="96" y="190" width="64" height="52" rx="6" fill="#e3f3fa" stroke="#19285e" stroke-width="2"/><rect x="240" y="190" width="64" height="52" rx="6" fill="#e3f3fa" stroke="#19285e" stroke-width="2"/><rect x="176" y="186" width="48" height="66" rx="24" fill="#6ec1e4" stroke="#19285e" stroke-width="2"/>'+
+ '<rect x="20" y="170" width="10" height="82" fill="#7b573d"/><circle cx="25" cy="160" r="26" fill="#6ecc39" stroke="#19285e" stroke-width="2"/><rect x="368" y="176" width="10" height="76" fill="#7b573d"/><circle cx="373" cy="164" r="24" fill="#6ecc39" stroke="#19285e" stroke-width="2"/></svg>'}
+function buildLoc(){const {day}=wib();
+  $("#vfoto").innerHTML=facade();
+  $("#hrs").innerHTML=[1,2,3,4,5,6,0].map(d=>'<tr class="'+(d===day?"today":"")+'"><td>'+t("daysF")[d]+'</td><td>'+hh(HRS[0])+'–'+hh(HRS[1])+'</td></tr>').join("");
+  $("#adr").textContent=ADDR;
+  const q=encodeURIComponent(Q);$("#lgm").href="https://www.google.com/maps/search/?api=1&query="+q;$("#lwz").href="https://waze.com/ul?q="+q+"&navigate=yes";$("#vfull").href=$("#lgm").href;
+  $("#lwa").href=wa(L==="id"?"Halo Medikids Dago Bandung, boleh minta petunjuk arah ke klinik di Jl. Ir. H. Juanda 50? Terima kasih.":"Hello Medikids Dago Bandung, could you share directions to the clinic at Jl. Ir. H. Juanda 50? Thank you.");
+  status();setView(view)}
+function setView(v){view=v;$$(".vtabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.v===v));
+  const foto=v==="foto";$("#vfoto").hidden=!foto;$("#vcap").hidden=!foto;$("#vpane").hidden=foto;
+  if(!foto&&mapOk&&!paned){paned=true;const f=document.createElement("iframe");f.src="https://maps.google.com/maps?q="+encodeURIComponent(Q)+"&z=16&output=embed";f.loading="lazy";f.title="Peta Medikids Dago Bandung";f.referrerPolicy="no-referrer-when-downgrade";f.allowFullscreen=true;$("#vpane").appendChild(f)}}
+$$(".vtabs button").forEach(b=>b.onclick=()=>setView(b.dataset.v));
+new IntersectionObserver(([e],o)=>{if(e.isIntersecting){mapOk=true;setView(view);o.disconnect()}},{rootMargin:"300px"}).observe($("#viewer"));
+$("#lcp").onclick=()=>copyText(ADDR,()=>{const s=$("#lcp span");s.textContent=t("copied_a");setTimeout(()=>s.textContent=t("cp_a"),1600)});
+
+/* ---------- FAQ ---------- */
+let openQ=0;
+function buildFaq(){$("#fq").innerHTML=t("faq").map(([q,a,c],i)=>'<div class="q'+(i===openQ?" open":"")+'"><h3><button type="button" id="qb'+i+'" aria-expanded="'+(i===openQ)+'" aria-controls="qa'+i+'"><span class="qn">'+(i+1)+'</span><span>'+q+'</span><span class="pm" aria-hidden="true"></span></button></h3><div class="a" id="qa'+i+'" role="region" aria-labelledby="qb'+i+'"><div><p>'+a+(c?' <span class="chk">'+t("chk")+'</span>':'')+'</p></div></div></div>').join("");
+  $$("#fq .q button").forEach((b,i)=>b.onclick=()=>{openQ=openQ===i?-1:i;$$("#fq .q").forEach((q,j)=>{q.classList.toggle("open",j===openQ);q.querySelector("button").setAttribute("aria-expanded",j===openQ)})})}
+
+/* ---------- FAB ---------- */
+const fab=$("#fab");let heroV=true,cekV=false,closeV=false,findV=false;
+function fabUpd(){fab.classList.toggle("on",scrollY>400&&!heroV&&!cekV&&!closeV&&!findV)}
+const vis=(x,fn)=>new IntersectionObserver(([e])=>{fn(e.isIntersecting);fabUpd()}).observe(x);
+vis($("#ctas"),v=>heroV=v);vis($("#cek .console"),v=>cekV=v);vis($("#close"),v=>closeV=v);vis($("#jadwal .jg"),v=>findV=v);
+addEventListener("scroll",()=>{nav.classList.toggle("sc",scrollY>10);fabUpd()},{passive:true});
+$("#yr").textContent=Math.max(2026,new Date().getFullYear());
+
+/* ---------- boot ---------- */
+try{const s=localStorage.getItem("mk-lang");if(s==="en"||s==="id")L=s}catch(e){}
+applyLang();setInterval(()=>{status();drawBoard()},60000);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+$$(".rv").forEach(e=>io.observe(e));
+</script>
+<script>
+const EMB="data:image/svg+xml,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="96" fill="#fff" stroke="#19285e" stroke-width="6"/><g transform="translate(52 34) scale(.96)"><path d="'+TOOTHP+'" fill="#eb1c1a"/><circle cx="36" cy="32" r="5" fill="#fff"/><circle cx="64" cy="32" r="5" fill="#fff"/><path d="M37 46q13 11 26 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/></g><text x="100" y="158" text-anchor="middle" font-family="Arial Rounded MT Bold,Arial,sans-serif" font-weight="700" font-size="30" fill="#eb1c1a">medikids</text></svg>');
+</script>
+<script>
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{};document.head.appendChild(s)});
+function init3d(){
+  const stage=document.getElementById("stage");let R;
+  try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){return}
+  R.setPixelRatio(Math.min(devicePixelRatio,2));stage.appendChild(R.domElement);document.getElementById("fb").style.display="none";document.getElementById("zap").classList.add("on");
+  const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+  const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+  const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+  const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- tooth (faceted, like the logo) ---------- */
+  const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.3,metalness:.04,flatShading:false});
+  const edge=new THREE.LineBasicMaterial({color:0x19285e,transparent:true,opacity:.14});
+  const tooth=new THREE.Group();
+  function addFaceted(geo,pos,rot){const m=new THREE.Mesh(geo,mat);m.position.copy(pos);if(rot)m.rotation.z=rot;tooth.add(m);const e=new THREE.LineSegments(new THREE.EdgesGeometry(geo,1),edge);e.position.copy(pos);if(rot)e.rotation.z=rot;tooth.add(e)}
+  const cg=new THREE.SphereGeometry(1.2,28,20),p=cg.attributes.position;
+  for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.05;v.z*=.9;if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.75+.2*Math.cos(4*th)*(r/1.2)-.3*Math.max(0,1-r/.7)}else v.y*=.55;p.setXYZ(i,v.x,v.y,v.z)}
+  cg.computeVertexNormals();addFaceted(cg,new THREE.Vector3(0,.6,0));
+  [-1,1].forEach(sd=>{const rg=new THREE.ConeGeometry(.45,1.9,18,4,true);rg.rotateX(Math.PI);addFaceted(rg,new THREE.Vector3(sd*.47,-.65,0),sd*.12)});
+  tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.08);sc.add(tooth);
+
+  /* ---------- perisai: cincin nama klinik + emblem logo mengorbit ---------- */
+  const RING=2.0,SHIELD=2.08;
+  const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+  function bandTexture(){
+    const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+    x.font="600 46px 'Fredoka', 'Nunito', Arial, sans-serif";x.fillStyle="#19285e";x.textBaseline="middle";
+    const unit="MEDIKIDS DAGO BANDUNG   ●   MHDC GROUP   ●   ";
+    const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+    x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+    [["#eb1c1a",0],["#6ec1e4",.33],["#6ecc39",.66]].forEach(([col,o])=>{x.fillStyle=col;x.fillRect(o*c.width,4,c.width*.3,4);x.fillRect(o*c.width+c.width*.02,c.height-8,c.width*.3,4)});
+    const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+  const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+  const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+  const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+  const bandF=new THREE.Mesh(bandGeo,bandFront),bandB=new THREE.Mesh(bandGeo,bandBack);ring.add(bandB,bandF);
+  const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+  setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+  // logo emblem riding the ring
+  const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+  logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;const g=c.getContext("2d");g.fillStyle="#fff";g.beginPath();g.arc(256,256,250,0,7);g.fill();g.drawImage(logoImg,56,56,400,400);logoTex.image=c;logoTex.needsUpdate=true};
+  logoImg.src=EMB;/* emblem logo sementara Medikids */
+  const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+  // faint protective shell + ripples where bacteria are stopped
+  const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,1),new THREE.MeshBasicMaterial({color:0x6ec1e4,wireframe:true,transparent:true,opacity:.035,depthWrite:false}));sc.add(shell);
+  const ripples=[];const rippleGeo=new THREE.RingGeometry(.12,.17,40);
+  function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:0xeb1c1a,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+    m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+  let flash=0;
+
+  /* ---------- bacteria ---------- */
+  const ink=new THREE.MeshStandardMaterial({color:0x19285e,roughness:.45,metalness:.1,flatShading:true});
+  const red=new THREE.MeshStandardMaterial({color:0xeb1c1a,roughness:.45,metalness:.05,flatShading:true});const gold=new THREE.MeshStandardMaterial({color:0xf2b53a,roughness:.4,metalness:.1,flatShading:true});const sky=new THREE.MeshStandardMaterial({color:0x6ecc39,roughness:.4,metalness:.1,flatShading:true});
+  const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,1),m);
+  const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,5,false),m);
+  const MAKERS=[
+    m=>{const g=new THREE.Group();g.add(ball(.17,m));for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,gold);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g}, // coccus with pili
+    m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});return g}, // diplococcus
+    m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g}, // streptococcus chain
+    m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g}, // staphylococcus
+    m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,8),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+      const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,gold,30));return g}, // bacillus + flagellum
+    m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)}, // spirillum
+    m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+      const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,gold,20));return g} // vibrio
+  ];
+  const bugs=[];
+  function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+    b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+  const N=innerWidth<700?7:10;
+  for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length]([ink,red,sky,gold][i%4]);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+  // debris from a cleared bacterium
+  const bits=[];const bitGeo=new THREE.TetrahedronGeometry(.045);
+  function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?gold:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+  /* ---------- lights ---------- */
+  sc.add(new THREE.HemisphereLight(0xffffff,0xe3f3fa,.95));
+  const k=new THREE.DirectionalLight(0xffffff,.9);k.position.set(3,4,5);sc.add(k);
+  const g2=new THREE.PointLight(0xffd0cc,.8,14);g2.position.set(-3,-1,3);sc.add(g2);
+  function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+  /* ---------- interaction: drag to spin, tap bacteria to clear ---------- */
+  let mx=0,my=0,vis=true,drag=null,yaw=0,pitch=0,vy=0,cleared=0;
+  const ray=new THREE.Raycaster(),ndc=new THREE.Vector2();
+  const zap=document.getElementById("zapc");
+  function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+    const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+  addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+  cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+  cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+  cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+  addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+    if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+      setTimeout(()=>spawn(b,false),1600)}}});
+  new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+  /* ---------- loop ---------- */
+  const clk=new THREE.Clock();let emA=0;
+  (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+    if(!reduce){
+      if(!drag){yaw+=vy;vy*=.94}
+      tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+      ring.rotation.y-=dt*.35;emA+=dt*.55;
+      bandFront.map&&(bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1);
+      emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+      const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+      shell.rotation.y+=dt*.05;
+      bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+        if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+        // drift toward the tooth with a little wander
+        if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+        u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+        const d=b.position.length();
+        if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+        if(d>3.8)spawn(b,false);
+        b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+    }else{emblem.position.set(0,0,RING+.02)}
+    for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+    for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+    flash*=.9;shell.material.opacity=.035+flash*.1;
+    R.render(sc,cam)})();
+}
+</script>
+</body>
+</html>

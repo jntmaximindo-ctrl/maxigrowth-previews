@@ -1,0 +1,1234 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bandung Smile Studio — Praktik Dokter Gigi di Buah Batu, Bandung (Konsep)</title>
+<meta name="description" content="Konsep website Bandung Smile Studio, Buah Batu Bandung: cek gigi 30 detik, atur jadwal kunjungan (buka setiap hari, termasuk Minggu), kisaran biaya, lokasi & WhatsApp.">
+<meta name="theme-color" content="#2b1b33">
+<meta name="robots" content="noindex,nofollow">
+<meta property="og:title" content="Bandung Smile Studio — Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fragment+Mono&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#2b1b33;--ac:#c2412b;--gold:#c2412b;--ac2:#a8341f;--sun:#f2b134;--soft:#ffe3d6;--soft2:#fff1ea;
+  --bg:#fbf5ee;--paper:#fffdfa;--line:#ecdccd;--mut:#6a5862;--sig:#c62f3b;--ok:#23845a;--warn:#b86e00;
+  --r1:14px;--r2:10px;--ease:cubic-bezier(.2,.8,.2,1);
+  --fh:"Bricolage Grotesque",system-ui,"Segoe UI",Arial,sans-serif;--fb:"Instrument Sans",system-ui,"Segoe UI",Arial,sans-serif;--fm:"Fragment Mono",ui-monospace,"Courier New",monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--fb);overflow-x:hidden}
+img,svg{max-width:100%}
+a{color:var(--ac)}
+h1,h2,h3,h4{font-family:var(--fh);line-height:1.08;margin:0;letter-spacing:-.02em}
+p{margin:0}
+button{font:inherit;color:inherit}
+.wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.chk{display:inline-flex;align-items:center;gap:3px;font:500 11px/1 var(--fm);color:#7a4a00;background:#fff3d6;border:1px solid #efd08c;border-radius:4px;padding:4px 7px;white-space:nowrap;vertical-align:middle}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+section{padding:92px 0}
+/* viewfinder corners — elemen khas "studio" */
+.vf{position:relative}
+.vf:before,.vf:after{content:"";position:absolute;width:22px;height:22px;border:2.5px solid var(--ac);pointer-events:none;z-index:4}
+.vf:before{left:-8px;top:-8px;border-right:0;border-bottom:0}
+.vf:after{right:-8px;bottom:-8px;border-left:0;border-top:0}
+.kick{display:flex;align-items:center;gap:10px;font:400 12.5px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--ac);margin-bottom:16px}
+.kick .rec{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink)}
+.kick .rec:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--sig);animation:blink 1.6s steps(2) infinite}
+@keyframes blink{50%{opacity:.25}}
+h2{font-size:clamp(30px,4.4vw,50px);font-weight:800;color:var(--ink)}
+.lead{font-size:17.5px;color:var(--mut);max-width:60ch}
+.shd{display:grid;grid-template-columns:1.1fr .9fr;gap:24px 48px;align-items:end;margin-bottom:42px}
+.note{font:400 13.5px/1.5 var(--fm);color:var(--ac)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;border-radius:8px;border:1.5px solid transparent;font:700 15.5px/1.1 var(--fh);text-decoration:none;cursor:pointer;transition:transform .2s var(--ease),background .2s,box-shadow .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-pri{background:var(--ac);color:#fff;box-shadow:4px 4px 0 var(--ink)}
+.btn-pri:hover{background:var(--ac2)}
+.btn-wa{background:#128c4a;color:#fff}.btn-wa:hover{background:#0e7a40}
+.btn-gh{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn-gh:hover{background:var(--soft2)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:14.5px;box-shadow:none}
+/* preview banner */
+.pv{background:var(--ink);color:#f3e6ea;font-size:13.5px}
+.pv .wrap{display:flex;gap:12px;align-items:center;padding:9px 0}
+.pv b{color:#fff}.pv .pvx{margin-left:auto;background:none;border:0;color:#fff;min-width:44px;min-height:36px;cursor:pointer;font-size:20px;line-height:1}
+.pv .chk{background:#43304b;color:#ffd98a;border-color:#5b4263}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(251,245,238,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+nav.sc{border-color:var(--line)}
+.nav-in{display:flex;align-items:center;gap:20px;height:72px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);min-width:0}
+.brand img{width:44px;height:44px;flex:none}
+.brand b{display:block;font:800 19px/1.02 var(--fh);letter-spacing:-.02em;white-space:nowrap}
+.brand small{display:block;font:400 10px/1.4 var(--fm);letter-spacing:.24em;color:var(--ac)}
+.links{display:flex;gap:2px;margin-left:auto}
+.links a{padding:10px 12px;border-radius:6px;text-decoration:none;color:var(--ink);font:600 14.5px/1 var(--fb)}
+.links a:hover{background:var(--soft2)}
+.links a.on{color:var(--ac);box-shadow:inset 0 -2px 0 var(--ac)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:3px}
+.lang button{border:0;background:none;min-width:40px;min-height:36px;border-radius:4px;font:400 12.5px/1 var(--fm);cursor:pointer;color:var(--mut)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:8px;border:1px solid var(--line);background:var(--paper);cursor:pointer;position:relative}
+.burger i{position:absolute;left:13px;right:13px;height:2px;background:var(--ink);border-radius:2px;transition:transform .3s}
+.burger i:first-child{top:18px}.burger i:last-child{top:26px}
+.burger[aria-expanded="true"] i:first-child{transform:translateY(4px) rotate(45deg)}
+.burger[aria-expanded="true"] i:last-child{transform:translateY(-4px) rotate(-45deg)}
+.sheet{display:none}
+/* hero */
+.hero{padding:46px 0 38px;position:relative;overflow:hidden}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.hcopy .tag{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-bottom:20px;font:400 12.5px/1.3 var(--fm);color:var(--mut);letter-spacing:.04em}
+.hcopy .tag .pl{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border-radius:6px;background:var(--paper);border:1px solid var(--line);color:var(--ink)}
+.hero h1{font-size:clamp(38px,5.6vw,68px);font-weight:800;color:var(--ink);letter-spacing:-.035em}
+.hero h1 .u{color:var(--ac);display:inline-block;position:relative;padding:0 .12em}
+.hero h1 .u:before,.hero h1 .u:after{content:"";position:absolute;width:.32em;height:.32em;border:3px solid var(--sun)}
+.hero h1 .u:before{left:-.06em;top:.02em;border-right:0;border-bottom:0}
+.hero h1 .u:after{right:-.06em;bottom:.02em;border-left:0;border-top:0}
+.hero .lead{margin-top:22px}
+.status{display:flex;align-items:center;gap:12px;margin-top:24px;padding:12px 16px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r2);max-width:540px;flex-wrap:wrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 4px rgba(35,132,90,.16);flex:none}
+.closed .dot{background:var(--sig);box-shadow:0 0 0 4px rgba(198,47,59,.14)}
+.status b{font-family:var(--fh)}.status span{color:var(--mut);font-size:14.5px}
+.ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:26px}
+.ctas .btn-pri small{display:block;font:400 11.5px/1.2 var(--fm);opacity:.9;letter-spacing:.02em}
+.ctas .bl{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.stage{position:relative;aspect-ratio:1/1;max-width:540px;width:100%;justify-self:center}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.stage .disc{position:absolute;inset:9%;border-radius:50%;background:radial-gradient(circle at 50% 42%,#fff 0,#fff0e6 62%,#ffe1d2 100%);border:1px solid #f0d6c6}
+.stage .frame{position:absolute;inset:1%;pointer-events:none}
+.stage .frame i{position:absolute;width:44px;height:44px;border:3px solid var(--ink)}
+.stage .frame i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0}.stage .frame i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0}
+.stage .frame i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0}.stage .frame i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0}
+.stage .recl{position:absolute;left:6%;top:3%;z-index:3;font:400 12px/1 var(--fm);color:var(--ink);display:flex;align-items:center;gap:6px;letter-spacing:.1em}
+.stage .recl:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--sig);animation:blink 1.6s steps(2) infinite}
+.stage .fb{position:absolute;inset:22%;display:block;z-index:1}
+.stage .badge{position:absolute;right:7%;top:9%;width:84px;height:84px;border-radius:22px;z-index:3;box-shadow:6px 6px 0 var(--ink)}
+.zap{position:absolute;left:50%;bottom:3%;transform:translateX(-50%);z-index:3;display:none;align-items:center;gap:6px;padding:8px 14px;border-radius:6px;background:var(--ink);color:#fff;font:400 12.5px/1.2 var(--fm);white-space:nowrap}
+.zap.on{display:inline-flex}.zap b{color:var(--sun);font-size:15px}
+.zap.pop{animation:pop .4s var(--ease)}@keyframes pop{50%{transform:translateX(-50%) scale(1.08)}}
+.stage .hint{position:absolute;right:2%;bottom:14%;z-index:3;font:400 12px/1.4 var(--fm);color:var(--ac);max-width:140px;text-align:right}
+.proof{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:40px;border:1.5px solid var(--ink);border-radius:var(--r1);overflow:hidden;background:var(--paper)}
+.pf{display:flex;gap:12px;align-items:flex-start;padding:16px 18px;text-decoration:none;color:var(--ink);min-height:88px;border-right:1px dashed var(--line)}
+.pf:last-child{border-right:0}
+.pf:hover{background:var(--soft2)}
+.pf .ic{width:40px;height:40px;border-radius:8px;display:grid;place-items:center;background:var(--soft);color:var(--ac);flex:none}
+.pf b{display:block;font:800 16.5px/1.2 var(--fh)}.pf span{display:block;font-size:13.5px;color:var(--mut);line-height:1.35;margin-top:3px}
+/* film strip ticker */
+.strip{background:var(--ink);color:#fff;overflow:hidden;white-space:nowrap;position:relative;padding:12px 0}
+.strip:before,.strip:after{content:"";position:absolute;left:0;right:0;height:6px;background:repeating-linear-gradient(90deg,transparent 0 10px,var(--bg) 10px 20px);opacity:.9}
+.strip:before{top:3px}.strip:after{bottom:3px}
+.strip .t{display:inline-flex;animation:mq 42s linear infinite;padding:8px 0}
+.strip span{font:400 13px/1 var(--fm);letter-spacing:.14em;padding:0 22px;display:inline-flex;align-items:center;gap:22px}
+.strip span:after{content:"";width:8px;height:8px;border-radius:2px;background:var(--sun)}
+@keyframes mq{to{transform:translateX(-50%)}}
+</style>
+<style>
+/* ---------- CEK GIGI ---------- */
+#cek{background:var(--paper);border-block:1px solid var(--line)}
+.prog{display:flex;gap:8px;margin-bottom:18px;position:sticky;top:72px;z-index:20;background:var(--paper);padding:8px 0}
+.ps{flex:1;display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer;text-align:left;min-height:48px}
+.ps i{width:22px;height:22px;border-radius:50%;border:2px solid #d9c2b4;flex:none;position:relative}
+.ps b{display:block;font:400 11px/1 var(--fm);color:var(--mut);letter-spacing:.08em}.ps em{font:700 14px/1.2 var(--fh);font-style:normal}
+.ps.on{border-color:var(--ac);background:var(--soft2)}.ps.on i{border-color:var(--ac)}
+.ps.done i{background:var(--ac);border-color:var(--ac)}.ps.done i:after{content:"";position:absolute;left:5px;top:2px;width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.console{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.c-l,.c-r{background:var(--bg);border:1px solid var(--line);border-radius:var(--r1);padding:22px}
+.c-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.step{font:400 11.5px/1 var(--fm);letter-spacing:.14em;color:var(--ac);text-transform:uppercase;margin-bottom:8px}
+.ptitle{font-size:22px;font-weight:700}
+.seg{display:inline-flex;background:#fff;border:1px solid var(--line);border-radius:6px;padding:3px}
+.seg button{border:0;background:none;min-height:38px;padding:0 13px;border-radius:4px;font:600 13px/1 var(--fb);color:var(--mut);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.aw{position:relative;margin-top:6px}
+.arch{width:100%;height:auto;display:block;user-select:none;-webkit-user-select:none;overflow:visible;touch-action:manipulation}
+.arch .t{cursor:pointer;outline:none}.arch .hit{fill:transparent}
+.arch .tb{transform-box:fill-box;transform-origin:center;transition:transform .3s var(--ease)}
+.arch .body{fill:url(#toothG);stroke:#cdb3a4;stroke-width:1.1;transition:fill .25s,stroke .25s}
+.arch .gr{fill:none;stroke:#dcc6b8;stroke-width:1;stroke-linecap:round}
+.arch .halo{fill:none;stroke:var(--sun);stroke-width:1.6;opacity:0;transform:scale(.6);transform-box:fill-box;transform-origin:center;transition:opacity .3s,transform .3s var(--ease)}
+.arch .t:hover .tb,.arch .t:focus-visible .tb{transform:scale(1.07)}
+.arch .t:hover .body{stroke:var(--ac)}
+.arch .t:focus-visible .halo{opacity:1;transform:none;stroke-dasharray:3 2}
+.arch .t.on .body{fill:var(--ac);stroke:var(--ac)}.arch .t.on .gr{stroke:#ffb9a4}.arch .t.on .halo{opacity:1;transform:none}
+.arch.pre .tb{transform:scale(0)}
+.arch .nb{opacity:0;transition:opacity .2s;pointer-events:none}.arch .nb.on{opacity:1}
+.arch .nb circle{fill:var(--ink);stroke:#fff;stroke-width:1.2}
+.arch .nb text{fill:#fff;font:700 7.5px var(--fb)}
+.arch text.jl{font:400 8.5px var(--fm);fill:#9a8590;letter-spacing:.24em}
+.arch text.fdi{font:600 6px var(--fb);fill:#9f8a93;pointer-events:none}
+.arch.zu .t[data-jaw="1"],.arch.zl .t[data-jaw="0"],.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"],.arch.zu .fdi[data-jaw="1"],.arch.zl .fdi[data-jaw="0"]{visibility:hidden}
+.side{position:absolute;top:50%;font:400 10.5px/1 var(--fm);color:#9a8590;letter-spacing:.14em;transform:translateY(-50%)}
+.side.r{left:0}.side.l{right:0}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:min(210px,56%)}
+.ctr .big{font:800 42px/1 var(--fh);color:var(--ac)}.ctr .sm{font-size:13px;color:var(--mut);margin-top:4px;line-height:1.35}
+.mchips{display:flex;flex-wrap:wrap;gap:5px;justify-content:center;margin-top:8px}
+.mchip{display:inline-flex;align-items:center;gap:2px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:2px 2px 2px 9px;font-size:12px;line-height:1.2}
+.mchip button{border:0;background:none;min-width:28px;min-height:28px;border-radius:4px;cursor:pointer;font-size:15px;color:var(--mut)}
+.mchip.plus{padding:4px 9px}
+.clr,.skip{margin-top:8px;border:0;background:none;color:var(--ac);font:600 13px/1 var(--fb);cursor:pointer;min-height:40px;display:inline-flex;align-items:center;gap:6px;padding:0 8px;text-decoration:underline;text-underline-offset:3px}
+.tapme{width:40px;height:40px;border-radius:8px;margin:0 auto 6px;display:grid;place-items:center;background:#fff;border:1px dashed #cdb3a4;color:var(--ac)}
+.tip{position:absolute;z-index:5;transform:translate(-50%,-120%);background:var(--ink);color:#fff;font-size:12px;padding:5px 9px;border-radius:6px;white-space:nowrap;pointer-events:none;opacity:0;transition:opacity .15s}
+.tip.on{opacity:1}
+.toast{position:absolute;left:50%;bottom:4px;transform:translate(-50%,8px);background:var(--ink);color:#fff;font-size:12.5px;padding:6px 12px;border-radius:6px;opacity:0;transition:.25s;pointer-events:none;white-space:nowrap;max-width:96%;overflow:hidden;text-overflow:ellipsis}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.orient{font-size:13px;color:var(--mut);margin-top:8px;text-align:center}
+.kl{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:12px 0 22px}
+.k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-height:92px;padding:10px 6px;border-radius:var(--r2);border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 13px/1.2 var(--fb);text-align:center;transition:border-color .2s,background .2s}
+.k:hover{border-color:#cdb3a4}
+.k .ki{width:36px;height:36px;border-radius:8px;display:grid;place-items:center;background:var(--soft2);color:var(--ac)}
+.k .ki svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.k[aria-checked="true"]{border-color:var(--ac);background:var(--soft2)}
+.k[aria-checked="true"] .ki{background:var(--ac);color:#fff}
+.k .ud{position:absolute;top:8px;right:8px;width:8px;height:8px;border-radius:50%;background:var(--warn)}.k .ud.u3{background:var(--sig)}
+.res{background:#fff;border:1px solid var(--line);border-radius:var(--r2);padding:18px;min-height:220px}
+.res.empty p{color:var(--mut);font-size:14.5px;margin-top:10px}
+.skl{height:12px;border-radius:4px;background:var(--soft2);margin-bottom:10px}
+.gbtn{margin-top:14px;display:inline-flex;min-height:44px;align-items:center;padding:0 18px;border-radius:8px;background:#f0e6df;color:#9a8590;font:700 14px var(--fh)}
+.r-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
+.rk{font:400 11.5px/1 var(--fm);letter-spacing:.12em;text-transform:uppercase;color:var(--ac)}
+.urg{display:inline-flex;align-items:center;gap:6px;font:600 12.5px/1 var(--fb);padding:6px 10px;border-radius:6px;background:#e7f5ed;color:var(--ok)}
+.urg i{width:8px;height:8px;border-radius:50%;background:currentColor}
+.urg.u2{background:#fff1d8;color:#8c5200}.urg.u3{background:#fde6e7;color:#a8232d}
+.res h3{font-size:21px;outline:none}
+.rteeth{display:flex;flex-wrap:wrap;gap:5px;margin:8px 0}.rteeth span{font-size:12px;padding:3px 9px;border-radius:4px;background:var(--soft2);color:var(--ac2)}
+.res .ex{color:var(--mut);font-size:15px;margin:6px 0 12px}
+.rtl-h{font:400 11.5px/1 var(--fm);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:6px}
+.tl{list-style:none;margin:0;padding:0}
+.tl li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.tl li span:last-child{font-weight:700;text-align:right;white-space:nowrap}
+.tl em{font-weight:400;color:var(--mut);white-space:normal}
+.est{font-size:12.5px;color:var(--mut);margin:10px 0 14px}
+.bub-h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.bub-c{font:700 13px var(--fh)}
+.mrst{border:0;background:none;color:var(--ac);font:600 12.5px var(--fb);cursor:pointer;min-height:36px}
+.bub{width:100%;margin-top:6px;border:1.5px solid #bfe5cf;background:#effaf3;border-radius:12px 12px 12px 3px;padding:12px;font:15px/1.5 var(--fb);color:var(--ink);resize:vertical;min-height:96px}
+.pref{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:10px 0 14px;font-size:13px;color:var(--mut)}
+.pref button{min-height:38px;padding:0 12px;border-radius:6px;border:1px solid var(--line);background:#fff;cursor:pointer;font:600 13px var(--fb)}
+.pref button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.acts2{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.copy{border:1px solid var(--line);background:#fff;border-radius:8px;min-height:48px;padding:0 16px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:600 14px var(--fb);color:var(--ink)}
+.disc{font-size:12.5px;color:var(--mut);margin-top:14px}
+.tolink{display:inline-flex;align-items:center;gap:6px;margin-top:12px;font:600 14px var(--fb);min-height:44px}
+</style>
+<style>
+/* ---------- ATUR KUNJUNGAN (fitur khas) ---------- */
+#jadwal{background:var(--ink);color:#f5e9ec;position:relative;overflow:hidden}
+#jadwal h2{color:#fff}#jadwal .lead{color:#d9c6cd}#jadwal .kick{color:var(--sun)}#jadwal .kick .rec{background:#3a2843;border-color:#4d3657;color:#fff}
+#jadwal .note{color:var(--sun)}
+.jg{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:22px;align-items:start}
+.jg>*,.jcard,.film,.days{min-width:0}
+.jcard{background:#fffdfa;color:var(--ink);border-radius:var(--r1);padding:24px}
+.qn{display:flex;align-items:baseline;gap:10px;margin:0 0 12px}
+.qn b{font:400 12px/1 var(--fm);color:#fff;background:var(--ac);border-radius:4px;padding:5px 7px}
+.qn h3{font-size:19px}
+.qn small{margin-left:auto;font:400 11.5px var(--fm);color:var(--mut)}
+.trs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:24px}
+.tr{display:flex;align-items:center;gap:10px;min-height:54px;padding:8px 12px;border-radius:var(--r2);border:1.5px solid var(--line);background:#fff;cursor:pointer;text-align:left;font:600 14.5px/1.25 var(--fb)}
+.tr svg{width:22px;height:22px;flex:none;fill:none;stroke:var(--ac);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.tr span small{display:block;font:400 11px/1.3 var(--fm);color:var(--mut);margin-top:2px}
+.tr[aria-checked="true"]{border-color:var(--ac);background:var(--soft2)}
+/* film strip days */
+.film{background:var(--ink);border-radius:8px;padding:14px 8px;position:relative;margin-bottom:8px}
+.film:before,.film:after{content:"";position:absolute;left:8px;right:8px;height:5px;background:repeating-linear-gradient(90deg,#fffdfa 0 7px,transparent 7px 14px);opacity:.55}
+.film:before{top:4px}.film:after{bottom:4px}
+.days{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding:2px 2px 4px;scroll-snap-type:x mandatory}
+.dy{flex:0 0 auto;width:74px;min-height:86px;border-radius:5px;border:1.5px solid #4d3657;background:#3a2843;color:#f3e6ea;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;scroll-snap-align:start;padding:6px 2px}
+.dy b{font:800 22px/1 var(--fh)}.dy span{font:400 10.5px/1.2 var(--fm);letter-spacing:.08em;text-transform:uppercase}.dy em{font:400 9.5px/1.2 var(--fm);font-style:normal;color:var(--sun)}
+.dy[aria-checked="true"]{background:#fffdfa;color:var(--ink);border-color:var(--sun);box-shadow:0 0 0 2px var(--sun)}
+.dy[aria-checked="true"] em{color:var(--ac)}
+.dnote{font-size:13px;color:var(--mut);margin:6px 0 24px}
+.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:24px}
+.sl{min-height:72px;border-radius:var(--r2);border:1.5px solid var(--line);background:#fff;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:3px;padding:8px 12px;text-align:left}
+.sl b{font:700 15px/1.1 var(--fh)}.sl span{font:400 11.5px/1.2 var(--fm);color:var(--mut)}
+.sl[aria-checked="true"]{border-color:var(--ac);background:var(--soft2)}
+.sl:disabled{opacity:.42;cursor:not-allowed;background:#f6efe9}
+.who{display:flex;flex-wrap:wrap;gap:8px}
+.who button{min-height:44px;padding:0 14px;border-radius:6px;border:1.5px solid var(--line);background:#fff;cursor:pointer;font:600 13.5px var(--fb)}
+.who button[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.jout{position:sticky;top:92px}
+.ticket{background:#fffdfa;color:var(--ink);border-radius:var(--r1);padding:22px;position:relative}
+.ticket .tt{display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1.5px dashed var(--line);padding-bottom:12px;margin-bottom:12px}
+.ticket .tt b{font:800 18px var(--fh)}
+.ticket .tt span{font:400 11px var(--fm);letter-spacing:.1em;color:var(--ac);text-transform:uppercase}
+.trow{display:grid;grid-template-columns:110px 1fr;gap:8px;padding:7px 0;border-bottom:1px solid #f3e7de;font-size:14.5px}
+.trow>span:first-child{font:400 11.5px/1.6 var(--fm);color:var(--mut);text-transform:uppercase;letter-spacing:.06em}
+.trow>span:last-child{font-weight:600}
+.trow .ph{color:#b9a3ad;font-weight:400}
+.tips{margin:12px 0;padding:12px 14px;border-radius:8px;background:var(--soft2);font-size:13.5px}
+.tips b{display:block;font:700 13px var(--fh);margin-bottom:4px}
+.tips ul{margin:0;padding-left:18px}.tips li{margin:2px 0}
+/* ---------- LAYANAN ---------- */
+.lg2{display:grid;grid-template-columns:1.3fr .7fr;gap:22px;align-items:start}
+.svc{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.sv{background:var(--paper);border:1px solid var(--line);border-radius:var(--r1);padding:20px}
+.sv h3{font-size:18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sv h3 i{width:32px;height:32px;border-radius:8px;background:var(--soft);display:grid;place-items:center;font-style:normal;color:var(--ac);font:400 12px var(--fm)}
+.sv p{font-size:14.5px;color:var(--mut);margin-top:8px}
+.sv ul{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+.sv li{font-size:13px;padding:4px 10px;border-radius:4px;background:var(--bg);border:1px solid var(--line)}
+.sv.dim{border-style:dashed;background:transparent}
+.price{background:var(--ink);color:#f0e1e6;border-radius:var(--r1);padding:22px}
+.price h3{color:#fff;font-size:20px}
+.price .pn{font-size:13px;margin:6px 0 12px;color:#cdb6bf}
+.price table{width:100%;border-collapse:collapse;font-size:14px}
+.price td{padding:9px 0;border-bottom:1px solid #45324d;vertical-align:top}
+.price td+td{text-align:right;font-weight:700;color:#fff;white-space:nowrap;padding-left:10px}
+.price .chk{background:#43304b;color:#ffd98a;border-color:#5b4263}
+.fac{margin-top:14px;background:var(--paper);border:1px dashed var(--line);border-radius:var(--r1);padding:18px}
+.fac h3{font-size:16px;margin-bottom:8px}.fac li{font-size:14px;color:var(--mut);margin:4px 0}.fac ul{padding-left:18px;margin:0}
+/* calc */
+.calc{margin-top:22px;display:grid;grid-template-columns:1fr 1fr;gap:18px;background:var(--paper);border:1.5px solid var(--ink);border-radius:var(--r1);padding:22px}
+.fl{display:block;font:700 14px var(--fh);margin:0 0 8px}
+.money{display:flex;align-items:center;border:1.5px solid var(--line);border-radius:8px;background:var(--bg);overflow:hidden}
+.money span{padding:0 12px;font:400 13px var(--fm);color:var(--mut)}
+.money input{flex:1;min-width:0;border:0;background:none;min-height:48px;font:700 17px var(--fh);color:var(--ink);padding-right:12px}
+.rng{width:100%;margin:12px 0 4px;accent-color:var(--ac);min-height:32px}
+.rlab{display:flex;justify-content:space-between;font:400 11.5px var(--fm);color:var(--mut)}
+.ten{display:flex;gap:6px;flex-wrap:wrap}
+.ten button{flex:1;min-width:64px;min-height:44px;border-radius:6px;border:1.5px solid var(--line);background:#fff;font:600 14px var(--fb);cursor:pointer}
+.ten button[aria-checked="true"]{background:var(--ac);color:#fff;border-color:var(--ac)}
+.out{background:var(--soft2);border-radius:var(--r2);padding:18px;display:flex;flex-direction:column;gap:8px}
+.out .per{font:800 36px/1.1 var(--fh);color:var(--ac)}
+.out .row2{display:flex;justify-content:space-between;font-size:14px;border-bottom:1px dashed var(--line);padding:6px 0}
+.out .o-note{font-size:12.5px;color:var(--mut)}
+/* ---------- DOKTER & ALUR ---------- */
+#dokter{background:var(--paper);border-block:1px solid var(--line)}
+.dg{display:grid;grid-template-columns:.9fr 1.1fr;gap:26px;align-items:start}
+.docs{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.doc{border:1px solid var(--line);border-radius:var(--r1);overflow:hidden;background:var(--bg);display:flex;flex-direction:column}
+.doc svg.av{width:100%;height:auto;display:block;aspect-ratio:120/96}
+.doc .db{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.doc .sp{font:400 11px/1.2 var(--fm);letter-spacing:.1em;text-transform:uppercase;color:var(--ac)}
+.doc b{font:700 15.5px/1.3 var(--fh)}
+.doc p{font-size:13.5px;color:var(--mut)}
+.doc a{margin-top:auto;font:600 14px var(--fb);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.flow{list-style:none;margin:0;padding:0;counter-reset:f;display:grid;gap:10px}
+.flow li{display:grid;grid-template-columns:52px 1fr;gap:14px;align-items:start;background:var(--bg);border:1px solid var(--line);border-radius:var(--r1);padding:14px 16px}
+.flow li:before{counter-increment:f;content:"0" counter(f);font:400 12px/1 var(--fm);color:#fff;background:var(--ink);border-radius:4px;padding:8px 0;text-align:center;letter-spacing:.08em}
+.flow b{display:block;font:700 16px/1.3 var(--fh)}.flow span{display:block;font-size:14px;color:var(--mut);margin-top:2px}
+.dnote2{margin-top:16px;font-size:13.5px;color:var(--mut)}
+</style>
+<style>
+/* ---------- LOKASI ---------- */
+.locg{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:stretch}
+.viewer{position:relative;border-radius:var(--r1);overflow:hidden;background:#f6e8de;border:1.5px solid var(--ink);min-height:420px}
+.viewer .foto{position:absolute;inset:0;display:block}
+.viewer .foto svg{width:100%;height:100%;display:block}
+.viewer .cap{position:absolute;left:14px;bottom:14px;z-index:2;font:400 11.5px/1.3 var(--fm);background:rgba(43,27,51,.85);color:#fff;padding:6px 10px;border-radius:4px;max-width:calc(100% - 28px)}
+.vpane{position:absolute;inset:0;z-index:3;background:var(--bg)}
+.vpane iframe{width:100%;height:100%;border:0;display:block}
+.vpane .mgmap{height:100%}
+.vpane .mgviz{flex:1 1 auto;height:auto!important;min-height:170px}
+.vpane .mgnote{top:auto!important;bottom:10px}
+.vtabs{position:absolute;top:12px;left:12px;z-index:5;display:flex;gap:2px;padding:4px;border-radius:8px;background:rgba(43,27,51,.88)}
+.vtabs button{font:600 13px var(--fb);color:#ecdfe4;padding:0 14px;min-height:38px;border-radius:5px;border:0;background:none;cursor:pointer}
+.vtabs button.on{background:#fff;color:var(--ink)}
+.vfull{position:absolute;right:12px;top:12px;z-index:5;background:#fff;color:var(--ink);font:600 13px var(--fb);padding:0 12px;min-height:38px;display:inline-flex;align-items:center;border-radius:6px;text-decoration:none;border:1px solid var(--line)}
+.info{background:var(--paper);border:1px solid var(--line);border-radius:var(--r1);padding:20px;display:flex;flex-direction:column;gap:16px}
+.ib+.ib{border-top:1px solid var(--line);padding-top:14px}
+.lst{display:flex;align-items:center;gap:10px;font:700 15px var(--fh)}
+.ih{display:flex;align-items:center;gap:8px;font:700 14px var(--fh);margin-bottom:8px;flex-wrap:wrap}
+.hrs{width:100%;border-collapse:collapse;font-size:14px}
+.hrs td{padding:5px 0}.hrs td+td{text-align:right;font-weight:600;font-family:var(--fm);font-size:13px}
+.hrs tr.today td{color:var(--ac)}
+.adr{font-size:14.5px}.adr small{display:block;color:var(--mut);font-size:12.5px;margin-top:6px}
+.acts{display:flex;flex-wrap:wrap;gap:8px}
+.acts .btn{flex:1 1 auto}
+.lnk{display:inline-flex;align-items:center;gap:6px;font:600 14px var(--fb);min-height:44px}
+/* ---------- FAQ ---------- */
+.fq{display:grid;grid-template-columns:.8fr 1.2fr;gap:36px;align-items:start}
+.fqs details{background:var(--paper);border:1px solid var(--line);border-radius:var(--r2);margin-bottom:10px}
+.fqs summary{list-style:none;cursor:pointer;padding:16px 18px;font:700 16px/1.35 var(--fh);display:flex;justify-content:space-between;gap:12px;min-height:56px;align-items:center}
+.fqs summary::-webkit-details-marker{display:none}
+.fqs summary:after{content:"+";font:400 20px var(--fm);color:var(--ac);flex:none;transition:transform .2s}
+.fqs details[open] summary:after{transform:rotate(45deg)}
+.fqs details p{padding:0 18px 16px;color:var(--mut);font-size:15px}
+/* ---------- CTA + footer ---------- */
+.close{background:var(--ac);color:#fff;border-radius:var(--r1);padding:clamp(28px,5vw,56px);display:grid;grid-template-columns:1.3fr .7fr;gap:24px;align-items:center;position:relative;overflow:hidden}
+.close h2{color:#fff}.close p{color:#ffe3d8;margin-top:12px}
+.close .btn{background:#fff;color:var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.close .ce{position:absolute;right:18px;top:18px;width:120px;height:120px;opacity:.28;pointer-events:none}
+footer{background:var(--ink);color:#d3bfc7;padding:56px 0 110px;margin-top:92px;font-size:14.5px}
+.fg{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:28px}
+footer h4{color:#fff;font:400 12px var(--fm);letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+footer a{color:#f5e9ec;text-decoration:none;display:inline-flex;min-height:36px;align-items:center}
+footer a:hover{text-decoration:underline}
+footer ul{list-style:none;margin:0;padding:0}
+.fdisc{border-top:1px solid #45324d;margin-top:32px;padding-top:18px;font-size:12.5px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.fab{position:fixed;right:16px;bottom:16px;z-index:60;display:inline-flex;align-items:center;gap:10px;min-height:56px;padding:0 20px 0 16px;border-radius:999px;background:#128c4a;color:#fff;text-decoration:none;font:700 15px var(--fh);box-shadow:0 14px 30px -12px rgba(0,0,0,.45)}
+.fab svg{width:24px;height:24px}
+/* ---------- responsive ---------- */
+@media (max-width:1060px){.links{display:none}.nav-cta{display:none}.burger{display:block}
+  .sheet{display:block;position:fixed;left:0;right:0;top:72px;background:var(--paper);border-bottom:1px solid var(--line);padding:10px 16px 18px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:.25s;z-index:49}
+  .sheet.open{transform:none;opacity:1;visibility:visible}
+  .sheet a.sl{display:flex;justify-content:space-between;align-items:center;min-height:52px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink);font:700 17px var(--fh)}
+  .sheet a.sl small{color:var(--mut);font:400 12px var(--fm)}
+  .srow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+  .proof{grid-template-columns:repeat(2,1fr)}.pf:nth-child(2){border-right:0}.pf:nth-child(-n+2){border-bottom:1px dashed var(--line)}
+  .slots{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){.jg{grid-template-columns:minmax(0,1fr)!important}section{padding:66px 0}.shd,.hg,.console,.jg,.jg,.lg2,.locg,.fq,.close,.calc,.dg{grid-template-columns:1fr}
+  .hg{gap:10px}.stage{max-width:310px;order:-1;margin-top:-6px}.hero{padding-top:20px}
+  .jout{position:static}.fg{grid-template-columns:1fr 1fr}.viewer{min-height:340px}}
+@media (max-width:560px){body{font-size:15.5px}.nav-in{height:64px;gap:10px}.sheet{top:64px}.prog{top:64px}.brand b{font-size:16.5px}.brand small{font-size:9px;letter-spacing:.16em}.brand img{width:38px;height:38px}
+  .lang button{min-width:36px}.nav-r{gap:6px}
+  .proof{grid-template-columns:1fr}.pf{border-right:0!important;border-bottom:1px dashed var(--line)}.pf:last-child{border-bottom:0}
+  .kl{grid-template-columns:repeat(2,1fr)}.trs{grid-template-columns:1fr}.svc{grid-template-columns:1fr}.docs{grid-template-columns:1fr 1fr;gap:10px}
+  .doc .db{padding:12px}.doc b{font-size:14px}.c-l,.c-r,.jcard,.ticket{padding:16px}.ps em{font-size:12.5px}.ps{padding:8px;gap:6px}.ps b{display:none}
+  .fg{grid-template-columns:1fr}.fab span{display:none}.fab{padding:0 16px}.stage .hint{display:none}.stage .badge{width:62px;height:62px;border-radius:16px;box-shadow:4px 4px 0 var(--ink)}
+  .ctas .btn{width:100%}.status{padding:10px 12px}.trow{grid-template-columns:92px 1fr}
+  .pv .wrap{font-size:12.5px;align-items:flex-start}.viewer{min-height:300px}.vtabs button{padding:0 12px}.flow li{grid-template-columns:40px 1fr;gap:10px;padding:12px}
+  .vf:before{left:-4px;top:-4px}.vf:after{right:-4px;bottom:-4px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M12 3.2a8.8 8.8 0 0 0-7.6 13.2L3.2 20.8l4.5-1.2A8.8 8.8 0 1 0 12 3.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path fill="currentColor" stroke="none" d="M9.2 7.6c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-.9.9-.9 2.1s.9 2.5 1 2.6c.1.2 1.8 2.9 4.5 3.9 2.2.9 2.7.7 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3l-1.8-.9c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.6.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.5-1.8-.2-.3 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.8z"/></symbol>
+ <symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+ <symbol id="i-nav" viewBox="0 0 24 24"><path d="M20.5 3.5 3.5 10.8l7 2.7 2.7 7z"/></symbol>
+ <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6z"/><path d="M9 4v14M15 6v14"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="12" height="12" rx="2"/><path d="M15.5 8.5V5.5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5.2 3.5h3.3l1.8 4.6-2.2 1.4a11.5 11.5 0 0 0 6.4 6.4l1.4-2.2 4.6 1.8v3.3a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 3.2 5.7a2 2 0 0 1 2-2.2z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><path d="M17.2 6.8v.1"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
+ <symbol id="i-tap" viewBox="0 0 24 24"><path d="M9 11V5a2 2 0 1 1 4 0v6l4 .8a2 2 0 0 1 1.6 2.3L18 19a3 3 0 0 1-3 2.5h-4a3 3 0 0 1-2.4-1.2L5 15.5a1.6 1.6 0 0 1 2.4-2.1L9 15"/></symbol>
+ <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="M8 14h3v3H8z"/></symbol>
+ <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></symbol>
+ <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6-5.3-3-5.3 3 1.2-6L3.4 9.3l6-.7z"/></symbol>
+ <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l1.6-2.5h6.8L17 8h3a1 1 0 0 1 1 1v9.5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.6"/></symbol>
+ <symbol id="i-mark" viewBox="0 0 120 120"><g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 42V28a6 6 0 0 1 6-6h14M78 22h14a6 6 0 0 1 6 6v14M98 78v14a6 6 0 0 1-6 6H78M42 98H28a6 6 0 0 1-6-6V78"/></g><path d="M43 41c5-4 11-4 17 0 6-4 12-4 17 0 5 5 4 14 1 22-3 8-3 17-8 17-4 0-4-9-10-9s-6 9-10 9c-5 0-5-9-8-17-3-8-4-17 1-22z" fill="currentColor"/></symbol>
+</svg>
+
+<div class="pv" id="pv"><div class="wrap">
+  <span><b data-i="pv"></b> <span data-i="pv_s"></span> <span class="chk">✎ <span data-i="chk"></span></span> <span data-i="pv_c"></span></span>
+  <button class="pvx" id="pvx" type="button" data-ia="pv_x">×</button>
+</div></div>
+
+<nav id="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJhbmR1bmcgU21pbGUgU3R1ZGlvIMK3IFdPUkRNQVJLIFNFTUVOVEFSQSAobG9nbyBhc2xpIHRpZGFrIHRlcmJhY2E6IEluc3RhZ3JhbSB0ZXJ0dXR1cCBsb2dpbikuIElrb246IGplbmRlbGEgYmlkaWsga2FtZXJhICJzdHVkaW8iICsgZ2lnaSB0ZXJzZW55dW0uIFdhcm5hOiAjYzI0MTJiIChjb3JhbCBiYXRhKSwgIzJiMWIzMyAoaW5rKSwgI2YyYjEzNCAodGl0aWsgUkVDKS4gRm9udCB3b3JkbWFyazogQnJpY29sYWdlIEdyb3Rlc3F1ZS4gLS0+PHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIzMCIgZmlsbD0iI2MyNDEyYiIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMiA0MlYyOGE2IDYgMCAwIDEgNi02aDE0TTc4IDIyaDE0YTYgNiAwIDAgMSA2IDZ2MTRNOTggNzh2MTRhNiA2IDAgMCAxLTYgNkg3OE00MiA5OEgyOGE2IDYgMCAwIDEtNi02Vjc4Ii8+PC9nPjxwYXRoIGQ9Ik00MyA0MWM1LTQgMTEtNCAxNyAwIDYtNCAxMi00IDE3IDAgNSA1IDQgMTQgMSAyMi0zIDgtMyAxNy04IDE3LTQgMC00LTktMTAtOXMtNiA5LTEwIDljLTUgMC01LTktOC0xNy0zLTgtNC0xNyAxLTIyeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik01MCA1M3ExMCA5IDIwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MyNDEyYiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSI4NyIgY3k9IjM1IiByPSI1LjUiIGZpbGw9IiNmMmIxMzQiLz48L3N2Zz4K" alt="Logo Bandung Smile Studio (wordmark sementara)" width="44" height="44"><span><b>Bandung Smile</b><small>STUDIO · BUAH BATU</small></span></a>
+  <div class="links" id="links"><a href="#cek" data-i="n1"></a><a href="#jadwal" data-i="n2"></a><a href="#layanan" data-i="n3"></a><a href="#dokter" data-i="n4"></a><a href="#lokasi" data-i="n5"></a><a href="#faq" data-i="n6"></a></div>
+  <div class="nav-r">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-pri btn-sm nav-cta" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" data-ia="menu"><i></i><i></i></button>
+  </div>
+</div>
+<div class="sheet" id="sheet">
+  <a class="sl" href="#cek"><span data-i="n1"></span><small>01</small></a>
+  <a class="sl" href="#jadwal"><span data-i="n2"></span><small>02</small></a>
+  <a class="sl" href="#layanan"><span data-i="n3"></span><small>03</small></a>
+  <a class="sl" href="#dokter"><span data-i="n4"></span><small>04</small></a>
+  <a class="sl" href="#lokasi"><span data-i="n5"></span><small>05</small></a>
+  <a class="sl" href="#faq"><span data-i="n6"></span><small>06</small></a>
+  <div class="srow"><div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-pri btn-sm" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a></div>
+</div>
+</nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="hg">
+    <div class="hcopy">
+      <div class="tag"><span class="pl"><svg class="i" style="width:16px;height:16px;color:var(--ac)"><use href="#i-pin"/></svg>Jl. Buah Batu No. 302, Bandung</span><span data-i="h_tag"></span></div>
+      <h1><span data-i="h1a"></span> <span class="u" data-i="h1b"></span></h1>
+      <p class="lead" data-i="hl"></p>
+      <div class="status" id="status"><i class="dot"></i><b id="stt"></b><span id="sts"></span><span class="chk">✎ <span data-i="chk"></span></span></div>
+      <div class="ctas">
+        <a class="btn btn-pri" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span class="bl"><span data-i="cta_h"></span><small>0852-8000-6191 ✎</small></span></a>
+        <a class="btn btn-gh" href="#jadwal"><svg class="i"><use href="#i-cal"/></svg><span data-i="c2"></span></a>
+      </div>
+    </div>
+    <div class="stage rv" id="stage" aria-hidden="true">
+      <div class="disc"></div>
+      <div class="frame"><i></i><i></i><i></i><i></i></div>
+      <span class="recl">REC · BSS</span>
+      <svg class="fb" id="fb" viewBox="0 0 120 120"><use href="#i-mark" style="color:#c2412b"/></svg>
+      <img class="badge" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJhbmR1bmcgU21pbGUgU3R1ZGlvIMK3IFdPUkRNQVJLIFNFTUVOVEFSQSAobG9nbyBhc2xpIHRpZGFrIHRlcmJhY2E6IEluc3RhZ3JhbSB0ZXJ0dXR1cCBsb2dpbikuIElrb246IGplbmRlbGEgYmlkaWsga2FtZXJhICJzdHVkaW8iICsgZ2lnaSB0ZXJzZW55dW0uIFdhcm5hOiAjYzI0MTJiIChjb3JhbCBiYXRhKSwgIzJiMWIzMyAoaW5rKSwgI2YyYjEzNCAodGl0aWsgUkVDKS4gRm9udCB3b3JkbWFyazogQnJpY29sYWdlIEdyb3Rlc3F1ZS4gLS0+PHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIzMCIgZmlsbD0iI2MyNDEyYiIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMiA0MlYyOGE2IDYgMCAwIDEgNi02aDE0TTc4IDIyaDE0YTYgNiAwIDAgMSA2IDZ2MTRNOTggNzh2MTRhNiA2IDAgMCAxLTYgNkg3OE00MiA5OEgyOGE2IDYgMCAwIDEtNi02Vjc4Ii8+PC9nPjxwYXRoIGQ9Ik00MyA0MWM1LTQgMTEtNCAxNyAwIDYtNCAxMi00IDE3IDAgNSA1IDQgMTQgMSAyMi0zIDgtMyAxNy04IDE3LTQgMC00LTktMTAtOXMtNiA5LTEwIDljLTUgMC01LTktOC0xNy0zLTgtNC0xNyAxLTIyeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik01MCA1M3ExMCA5IDIwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MyNDEyYiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSI4NyIgY3k9IjM1IiByPSI1LjUiIGZpbGw9IiNmMmIxMzQiLz48L3N2Zz4K" alt="">
+      <p class="hint" data-i="h_hint"></p>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b></div>
+    </div>
+  </div>
+  <div class="proof rv">
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><span><b data-i="p1a"></b><span data-i="p1b"></span></span></a>
+    <a class="pf" href="#jadwal"><span class="ic"><svg class="i"><use href="#i-sun"/></svg></span><span><b data-i="p2a"></b><span data-i="p2b"></span></span></a>
+    <a class="pf" href="#layanan"><span class="ic"><svg class="i"><use href="#i-star"/></svg></span><span><b data-i="p3a"></b><span data-i="p3b"></span></span></a>
+    <a class="pf" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Smile+Studio+Jl.+Buah+Batu+No.302+Bandung" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#i-map"/></svg></span><span><b data-i="p4a"></b><span data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<div class="strip" aria-hidden="true"><div class="t" id="tick"></div></div>
+
+<section id="cek"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="rec">01</span><span data-i="ck"></span></div><h2 data-i="ch"></h2></div><p class="lead" data-i="cl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i></i><span><b>01</b><em data-i="st1"></em></span></button>
+    <button class="ps" type="button" data-s="1"><i></i><span><b>02</b><em data-i="st2"></em></span></button>
+    <button class="ps" type="button" data-s="2"><i></i><span><b>03</b><em id="st3l" data-i="st3"></em></span></button>
+  </div>
+  <div class="console">
+    <div class="c-l">
+      <div class="c-head"><div><div class="step" data-i="s1"></div><h3 class="ptitle" data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch pre" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="toothG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fbf1ea"/></linearGradient><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7d9d9"/><stop offset="1" stop-color="#efcaca"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#2b1b33" flood-opacity=".16"/></filter></defs></svg>
+        <span class="side r" data-i="sd_r" aria-hidden="true"></span><span class="side l" data-i="sd_l" aria-hidden="true"></span>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div>
+    <div class="c-r">
+      <div class="step" data-i="s2"></div><h3 class="ptitle" id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+      <a class="tolink" href="#jadwal"><span data-i="to_t"></span><svg class="i" style="width:16px;height:16px"><use href="#i-ar"/></svg></a>
+    </div>
+  </div>
+</div></section>
+
+<section id="jadwal"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="rec">02</span><span data-i="jk"></span></div><h2 data-i="jh"></h2></div><div><p class="lead" data-i="jl"></p><p class="note" style="margin-top:12px" data-i="jnote"></p></div></div>
+  <div class="jg">
+    <div class="jcard rv">
+      <div class="qn"><b>A</b><h3 id="qa" data-i="qa"></h3></div>
+      <div class="trs" id="trs" role="radiogroup" aria-labelledby="qa"></div>
+      <div class="qn"><b>B</b><h3 id="qb" data-i="qb"></h3><small id="qbm"></small></div>
+      <div class="film"><div class="days" id="days" role="radiogroup" aria-labelledby="qb"></div></div>
+      <p class="dnote"><span data-i="dnote"></span> <span class="chk">✎ <span data-i="chk"></span></span></p>
+      <div class="qn"><b>C</b><h3 id="qc" data-i="qc"></h3></div>
+      <div class="slots" id="slots" role="radiogroup" aria-labelledby="qc"></div>
+      <div class="qn"><b>D</b><h3 id="qd" data-i="qd"></h3></div>
+      <div class="who" id="who" role="group" aria-labelledby="qd"></div>
+    </div>
+    <div class="jout"><div class="ticket vf rv" id="ticket">
+      <div class="tt"><b data-i="tk_t"></b><span data-i="tk_s"></span></div>
+      <div id="tbody"></div>
+    </div></div>
+  </div>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="rec">03</span><span data-i="lk"></span></div><h2 data-i="lh"></h2></div><p class="lead" data-i="ll"></p></div>
+  <div class="lg2">
+    <div class="svc" id="svc"></div>
+    <div>
+      <div class="price rv"><h3 data-i="pr_h"></h3><p class="pn"><span data-i="pr_n"></span> <span class="chk">✎ <span data-i="chk"></span></span></p><table id="ptab"></table></div>
+      <div class="fac rv"><h3 data-i="fa_h"></h3><ul><li data-i="fa1"></li><li data-i="fa2"></li><li data-i="fa3"></li></ul></div>
+    </div>
+  </div>
+  <div class="calc rv" id="calc">
+    <div>
+      <h3 style="font-size:21px;margin-bottom:6px" data-i="ca_h"></h3><p style="font-size:14px;color:var(--mut);margin-bottom:16px"><span data-i="ca_p"></span> <span class="chk">✎ <span data-i="chk"></span></span></p>
+      <label class="fl" for="amt" data-i="a1"></label>
+      <div class="money"><span>Rp</span><input id="amt" inputmode="numeric" autocomplete="off" value="4.000.000" maxlength="12"></div>
+      <input type="range" class="rng" id="rng" min="2900000" max="8000000" step="100000" value="4000000" data-ia="a1">
+      <div class="rlab"><span>Rp2,9 jt</span><span>Rp8 jt</span></div>
+      <label class="fl" for="dep" style="margin-top:14px" data-i="a2"></label>
+      <div class="money"><span>Rp</span><input id="dep" inputmode="numeric" autocomplete="off" value="1.000.000" maxlength="12"></div>
+      <div class="fl" id="tenl" style="margin-top:14px" data-i="a3"></div>
+      <div class="ten" id="ten" role="radiogroup" aria-labelledby="tenl"></div>
+    </div>
+    <div class="out">
+      <div class="rk" data-i="o1"></div>
+      <div class="per" id="per" aria-live="polite">Rp0</div>
+      <div class="row2"><span data-i="o2"></span><b id="odep"></b></div>
+      <div class="row2"><span data-i="o3"></span><b id="obal"></b></div>
+      <p class="o-note" data-i="o4"></p>
+      <a class="btn btn-wa" id="cwa" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="o5"></span></a>
+    </div>
+  </div>
+</div></section>
+
+<section id="dokter"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="rec">04</span><span data-i="dk"></span></div><h2 data-i="dh"></h2></div><p class="lead" data-i="dl"></p></div>
+  <div class="dg">
+    <div><div class="docs" id="docs"></div><p class="dnote2"><span data-i="dn"></span> <span class="chk">✎ <span data-i="chk"></span></span></p></div>
+    <ol class="flow rv" id="flow"></ol>
+  </div>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd rv"><div><div class="kick"><span class="rec">05</span><span data-i="lok"></span></div><h2 data-i="loh"></h2></div><p class="lead" data-i="lol"></p></div>
+  <div class="locg">
+    <div class="viewer rv" id="viewer">
+      <div class="foto" id="vfoto">
+        <svg viewBox="0 0 640 440" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustrasi fasad klinik">
+          <rect width="640" height="440" fill="#f6e8de"/>
+          <circle cx="548" cy="78" r="40" fill="#f2b134" opacity=".55"/>
+          <path d="M0 312c70-26 140-34 210-22s120 18 190 4 150-26 240 0v146H0z" fill="#efd9cb"/>
+          <rect x="120" y="96" width="400" height="256" fill="#fffdfa" stroke="#2b1b33" stroke-width="3"/>
+          <rect x="140" y="118" width="360" height="70" rx="6" fill="#2b1b33"/>
+          <g transform="translate(152 126) scale(.45)"><rect width="120" height="120" rx="30" fill="#c2412b"/><use href="#i-mark" style="color:#fff"/></g>
+          <text x="218" y="152" fill="#fff" font-family="'Bricolage Grotesque',Arial,sans-serif" font-weight="800" font-size="26">Bandung Smile</text>
+          <text x="219" y="175" fill="#f2b134" font-family="'Fragment Mono','Courier New',monospace" font-size="12" letter-spacing="4">STUDIO · DOKTER GIGI</text>
+          <circle cx="484" cy="132" r="5" fill="#c62f3b"/>
+          <g fill="#fbe3d7" stroke="#2b1b33" stroke-width="2.5"><rect x="146" y="210" width="96" height="66" rx="3"/><rect x="398" y="210" width="96" height="66" rx="3"/></g>
+          <path d="M146 243h96M194 210v66M398 243h96M446 210v66" stroke="#2b1b33" stroke-width="2"/>
+          <rect x="266" y="204" width="108" height="148" rx="3" fill="#c2412b"/>
+          <rect x="274" y="212" width="44" height="132" rx="2" fill="#e5745f"/><rect x="322" y="212" width="44" height="132" rx="2" fill="#e5745f"/>
+          <text x="320" y="290" text-anchor="middle" fill="#fff" font-family="'Fragment Mono','Courier New',monospace" font-size="14">302</text>
+          <rect x="96" y="352" width="448" height="12" fill="#2b1b33"/>
+          <g transform="translate(46 252)"><rect x="-4" y="0" width="8" height="112" fill="#6a5862"/><rect x="-48" y="-6" width="96" height="26" rx="3" fill="#1f6b3d"/><text x="0" y="12" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="11">JL. BUAH BATU</text></g>
+          <path d="M0 384h640" stroke="#dcc3b3" stroke-width="3" stroke-dasharray="22 16"/>
+          <g fill="none" stroke="#c2412b" stroke-width="4"><path d="M24 60V24h36M616 60V24h-36M24 380v36h36M616 380v36h-36"/></g>
+        </svg>
+        <div class="cap" data-i="lcap"></div>
+      </div>
+      <div class="vpane" id="vpane" hidden></div>
+      <div class="vtabs" role="tablist" data-ia="v_tabs"><button type="button" role="tab" data-v="foto" aria-selected="false" data-i="v_foto"></button><button type="button" role="tab" data-v="peta" class="on" aria-selected="true" data-i="v_map"></button></div>
+      <a class="vfull" id="vfull" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Smile+Studio+Jl.+Buah+Batu+No.302+Bandung"><span data-i="v_full"></span>&nbsp;↗</a>
+    </div>
+    <div class="info rv">
+      <div class="ib"><div class="lst" id="lst"><i class="dot"></i><span></span></div></div>
+      <div class="ib"><div class="ih"><svg class="i"><use href="#i-clock"/></svg><span data-i="lw"></span><span class="chk">✎ <span data-i="chk"></span></span></div><table class="hrs" id="hrs"></table></div>
+      <div class="ib"><div class="ih"><svg class="i"><use href="#i-pin"/></svg><span data-i="la"></span><span class="chk">✎ <span data-i="chk"></span></span></div>
+        <p class="adr" id="adr">Jl. Buah Batu No. 302, Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265<small data-i="adr_n"></small></p></div>
+      <div class="ib acts">
+        <a class="btn btn-pri btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q=Bandung%20Smile%20Studio%20Jl.%20Buah%20Batu%20302%20Bandung&amp;navigate=yes"><svg class="i"><use href="#i-nav"/></svg>Waze</a>
+        <a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Smile+Studio+Jl.+Buah+Batu+No.302+Bandung"><svg class="i"><use href="#i-map"/></svg>Google Maps</a>
+        <button type="button" class="btn btn-gh btn-sm" id="cpa"><svg class="i"><use href="#i-copy"/></svg><span data-i="cp_a"></span></button>
+        <a class="lnk" data-wa="loc" href="#" target="_blank" rel="noopener"><svg class="i" style="width:17px;height:17px"><use href="#i-wa"/></svg><span data-i="lwa"></span></a>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="faq" style="padding-top:0"><div class="wrap fq">
+  <div class="rv"><div class="kick"><span class="rec">06</span><span data-i="fk"></span></div><h2 data-i="fh"></h2><p class="lead" style="margin-top:14px" data-i="fl"></p>
+    <a class="btn btn-gh" style="margin-top:20px" data-wa="ask" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="fb"></span></a></div>
+  <div class="fqs rv" id="fqs"></div>
+</div></section>
+
+<div class="wrap"><div class="close rv">
+  <svg class="ce" viewBox="0 0 120 120" aria-hidden="true"><use href="#i-mark" style="color:#fff"/></svg>
+  <div><h2 data-i="cz_h"></h2><p data-i="cz_p"></p></div>
+  <div><a class="btn" data-wa="book" href="#" target="_blank" rel="noopener"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta_h"></span></a></div>
+</div></div>
+
+<footer><div class="wrap">
+  <div class="fg">
+    <div><a href="#top" class="brand" style="color:#fff"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48IS0tIEJhbmR1bmcgU21pbGUgU3R1ZGlvIMK3IFdPUkRNQVJLIFNFTUVOVEFSQSAobG9nbyBhc2xpIHRpZGFrIHRlcmJhY2E6IEluc3RhZ3JhbSB0ZXJ0dXR1cCBsb2dpbikuIElrb246IGplbmRlbGEgYmlkaWsga2FtZXJhICJzdHVkaW8iICsgZ2lnaSB0ZXJzZW55dW0uIFdhcm5hOiAjYzI0MTJiIChjb3JhbCBiYXRhKSwgIzJiMWIzMyAoaW5rKSwgI2YyYjEzNCAodGl0aWsgUkVDKS4gRm9udCB3b3JkbWFyazogQnJpY29sYWdlIEdyb3Rlc3F1ZS4gLS0+PHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIHJ4PSIzMCIgZmlsbD0iI2MyNDEyYiIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0yMiA0MlYyOGE2IDYgMCAwIDEgNi02aDE0TTc4IDIyaDE0YTYgNiAwIDAgMSA2IDZ2MTRNOTggNzh2MTRhNiA2IDAgMCAxLTYgNkg3OE00MiA5OEgyOGE2IDYgMCAwIDEtNi02Vjc4Ii8+PC9nPjxwYXRoIGQ9Ik00MyA0MWM1LTQgMTEtNCAxNyAwIDYtNCAxMi00IDE3IDAgNSA1IDQgMTQgMSAyMi0zIDgtMyAxNy04IDE3LTQgMC00LTktMTAtOXMtNiA5LTEwIDljLTUgMC01LTktOC0xNy0zLTgtNC0xNyAxLTIyeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik01MCA1M3ExMCA5IDIwIDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2MyNDEyYiIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48Y2lyY2xlIGN4PSI4NyIgY3k9IjM1IiByPSI1LjUiIGZpbGw9IiNmMmIxMzQiLz48L3N2Zz4K" alt="" width="44" height="44"><span><b>Bandung Smile</b><small style="color:var(--sun)">STUDIO · BUAH BATU</small></span></a><p style="margin-top:14px;max-width:34ch" data-i="ft_p"></p></div>
+    <div><h4 data-i="ft_c"></h4><ul>
+      <li><a data-wa="book" href="#" target="_blank" rel="noopener">WhatsApp 0852-8000-6191 ✎</a></li>
+      <li><a href="tel:+6285280006191" data-i="ft_tel"></a></li></ul></div>
+    <div><h4 data-i="ft_v"></h4><p>Jl. Buah Batu No. 302, Cijagra, Lengkong, Kota Bandung 40265</p><p style="margin-top:6px"><span data-i="ft_h"></span></p></div>
+    <div><h4 data-i="ft_f"></h4><ul><li><a href="https://www.instagram.com/bandungsmilestudio/" target="_blank" rel="noopener">Instagram @bandungsmilestudio</a></li><li><a href="https://www.facebook.com/p/Bandung-Smile-Studio-61564128356165/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.google.com/maps/search/?api=1&amp;query=Bandung+Smile+Studio+Jl.+Buah+Batu+No.302+Bandung" target="_blank" rel="noopener" data-i="ft_r"></a></li></ul></div>
+  </div>
+  <div class="fdisc"><span data-i="ft_disc"></span><a href="#top" data-i="ft_top"></a></div>
+</div></footer>
+
+<a class="fab" data-wa="book" href="#" target="_blank" rel="noopener" data-ia="fab_a"><svg class="i"><use href="#i-wa"/></svg><span data-i="fab"></span></a>
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact claude.ai) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev) skrip ini tidak melakukan apa-apa dan peta asli tampil. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+
+<script>
+const WA="6285280006191";
+const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth";
+const mob=()=>innerWidth<900;
+let L="id";try{const s=localStorage.getItem("bss_lang");if(s==="en"||s==="id")L=s}catch(e){}
+const T={id:{
+pv:"Konsep pratinjau oleh Maxi Growth Studio",pv_s:"· bukan website resmi Bandung Smile Studio.",pv_c:"= info perlu dikonfirmasi klinik.",pv_x:"Tutup banner",chk:"verifikasi",
+n1:"Cek gigi",n2:"Atur kunjungan",n3:"Layanan & biaya",n4:"Dokter & alur",n5:"Lokasi",n6:"FAQ",cta:"Buat janji",menu:"Menu",
+h_tag:"Praktik dokter gigi · Bandung",h1a:"Senyum Anda,",h1b:"dalam fokus.",
+hl:"Scaling, perawatan gigi, hingga konsultasi behel di Jl. Buah Batu. Buka setiap hari sampai malam — termasuk hari Minggu — jadi Anda bisa datang sepulang kerja atau saat akhir pekan.",
+cta_h:"Tanya via WhatsApp",c2:"Atur jadwal kunjungan",h_hint:"Ketuk bakterinya untuk mengusir",zap1:"Bakteri diusir:",
+open_now:"Buka sekarang",closed_now:"Sedang tutup",open_until:"sampai 21.00 WIB",opens_at:"buka lagi 09.00 WIB",
+p1a:"09.00–21.00 WIB",p1b:"Jam praktik tercantum di direktori publik",p2a:"Minggu tetap buka",p2b:"Cocok untuk kunjungan akhir pekan",p3a:"Scaling & behel",p3b:"Layanan yang tercantum untuk klinik ini",p4a:"Ulasan Google",p4b:"Baca pengalaman pasien di Google Maps ↗",
+tick:"SCALING · TAMBAL GIGI · KONSULTASI BEHEL · KONTROL BEHEL · PEMERIKSAAN GIGI · BUKA SETIAP HARI · MINGGU TETAP BUKA · JL. BUAH BATU 302",
+ck:"Cek gigi 30 detik",ch:"Tandai giginya, pilih keluhannya, kirim ke klinik.",cl:"Bukan diagnosis — hanya membantu Anda menjelaskan keluhan dengan lebih jelas sebelum datang. Pesan WhatsApp tersusun otomatis dan bisa Anda ubah.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim pesan",st3d:"Pesan dibuka",
+s1:"Langkah 1",s1t:"Gigi mana yang terasa?",jw_g:"Tampilan rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",jw_hint:"Tip: cek juga rahang bawah",
+sd_r:"KANAN",sd_l:"KIRI",orient:"Denah dilihat dari depan, seperti dokter melihat Anda — sisi kanan Anda ada di kiri gambar. Nomor = sistem FDI.",
+tap:"Ketuk gigi yang terasa. Boleh lebih dari satu.",skip:"Lewati, saya tidak yakin",skipped:"Tidak apa-apa — dokter akan memeriksa.",mk_l:"gigi ditandai",rm:"Hapus",clr:"Hapus semua",amap:"Denah gigi rahang atas dan bawah",
+s2:"Langkah 2",s2t:"Apa yang Anda rasakan?",s3:"Langkah 3 · Hasil",
+pick:"Pilih satu keluhan",pickp:" — hasil dan pesan WhatsApp akan muncul di sini.",send:"Kirim via WhatsApp",
+likely:"Kemungkinan",urg:["","Bisa dijadwalkan","Sebaiknya segera","Periksa secepatnya"],tr_usual:"Perawatan yang biasa dipertimbangkan",
+ask_c:"tanyakan ke klinik",after_ex:"setelah pemeriksaan",est_src:"Kisaran = perkiraan pasar Bandung dari klinik lain (sumber publik), bukan tarif Bandung Smile Studio.",
+yourmsg:"Pesan Anda (bisa diubah)",msg_rst:"Susun ulang",pref_l:"Waktu:",pf:["Pagi","Siang","Sore","Malam"],copy:"Salin pesan",copied:"Tersalin ✓",r_upd:"Hasil diperbarui: ",
+sd:"Informasi bersifat umum dan tidak menggantikan pemeriksaan dokter gigi. Jika bengkak menyebar, demam, atau sulit menelan, segera cari pertolongan medis.",
+to_t:"Sudah tahu keluhannya? Atur jadwal kunjungan",
+w_k1:"Halo Bandung Smile Studio, saya ingin konsultasi: ",w_k2:" — ",w_k3:"Apakah bisa dijadwalkan pemeriksaan?",w_pref:"Waktu yang saya harapkan: ",
+jk:"Atur kunjungan",jh:"Pilih hari & jam, pesan WhatsApp tersusun sendiri.",jl:"Klinik tercantum buka setiap hari 09.00–21.00 WIB, termasuk Minggu. Pilih perawatan, hari, dan rentang jam — kami susun ringkasan kunjungan dan pesan untuk dikonfirmasi klinik.",
+jnote:"Ini permintaan jadwal, bukan booking otomatis. Klinik yang mengonfirmasi jam pastinya.",
+qa:"Perawatan apa?",qb:"Hari apa?",qc:"Jam berapa?",qd:"Untuk siapa?",
+dnote:"Jadwal dokter per hari belum dipublikasikan.",
+slots:[["Pagi","09.00–12.00",9,12],["Siang","12.00–15.00",12,15],["Sore","15.00–18.00",15,18],["Malam","18.00–21.00",18,21]],slot_after:"pulang kerja",slot_past:"sudah lewat",
+whoL:["Saya sendiri","Anak saya","Anggota keluarga","Kunjungan pertama"],
+today:"Hari ini",tmr:"Besok",sun_open:"buka",
+tk_t:"Ringkasan kunjungan",tk_s:"draf · belum dikonfirmasi",
+r_tr:"Perawatan",r_day:"Hari",r_time:"Jam",r_dur:"Perkiraan lama",r_who:"Untuk",r_st:"Status",r_stv:"Menunggu konfirmasi klinik",ph:"— belum dipilih",
+tips_h:"Sebelum datang",tips:["Datang ±10 menit lebih awal.","Sebutkan bila sedang hamil, punya alergi obat, atau rutin minum obat tertentu.","Punya foto rontgen lama? Bawa saja."],
+dur_n:"perkiraan umum",
+w_j1:"Halo Bandung Smile Studio, saya ingin membuat janji.",w_j2:"Perawatan: ",w_j3:"Hari: ",w_j4:"Jam: sekitar ",w_j5:"Untuk: ",w_j6:"Apakah ada jadwal yang tersedia? Terima kasih.",
+lk:"Layanan & biaya",lh:"Yang bisa Anda tanyakan hari ini.",ll:"Layanan di bawah tercantum di direktori publik untuk klinik ini. Layanan lain belum terkonfirmasi — tanyakan dulu sebelum datang.",
+pr_h:"Kisaran biaya di Bandung",pr_n:"Pembanding dari klinik lain di Bandung (sumber publik), bukan tarif Bandung Smile Studio.",
+fa_h:"Masih perlu dikonfirmasi klinik",fa1:"Nama, gelar & jadwal dokter yang praktik",fa2:"Kerja sama asuransi & metode pembayaran",fa3:"Layanan untuk pasien anak & layanan estetik",
+ca_h:"Simulasi cicilan behel",ca_p:"Hitung gambaran angsuran bulanan. Ada atau tidaknya skema cicilan dikonfirmasi klinik.",a1:"Perkiraan biaya behel",a2:"Uang muka (DP)",a3:"Tenor",mo:"bln",
+o1:"Perkiraan per bulan",o2:"Uang muka",o3:"Sisa dicicil",o4:"Simulasi tanpa bunga, hanya gambaran. Biaya sebenarnya ditentukan setelah pemeriksaan & rencana perawatan.",o5:"Tanyakan skema cicilan",
+w_calc:"Halo Bandung Smile Studio, saya tertarik pasang behel. Simulasi saya: biaya {a}, DP {d}, {m} bulan (≈{p}/bulan). Apakah ada skema pembayaran bertahap?",
+dk:"Dokter & alur kunjungan",dh:"Siapa yang menangani, dan apa yang terjadi.",dl:"Nama dokter belum dipublikasikan di kanal yang bisa kami periksa, jadi kartu di bawah masih kosong — nanti diisi bersama klinik. Ilustrasi, bukan foto.",
+dn:"Nama, gelar, dan jadwal praktik dikonfirmasi langsung ke klinik.",d_btn:"Tanya dokter & jadwal",
+lok:"Lokasi & jam",loh:"Di Jl. Buah Batu, Lengkong.",lol:"Klinik berada di Jl. Buah Batu No. 302, kawasan Cijagra–Lengkong. Buka peta untuk rute, atau tanyakan patokan lewat WhatsApp.",
+lcap:"Ilustrasi fasad — bukan foto klinik",v_foto:"Ilustrasi",v_map:"Peta",v_full:"Buka layar penuh",v_tabs:"Tampilan lokasi",
+lw:"Jam praktik",la:"Alamat",adr_n:"Alamat dari direktori publik — mohon konfirmasi patokan lokasi ke klinik.",cp_a:"Salin alamat",cp_d:"Tersalin ✓",lwa:"Tanya arah via WhatsApp",
+days:["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],dshort:["Min","Sen","Sel","Rab","Kam","Jum","Sab"],mon:["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"],
+fk:"Pertanyaan umum",fh:"Sebelum Anda datang.",fl:"Tidak menemukan jawabannya? Tanyakan langsung ke klinik.",fb:"Tanya via WhatsApp",
+cz_h:"Sepulang kerja atau hari Minggu — pilih waktunya.",cz_p:"Kirim pesan singkat: keluhan atau perawatan yang Anda inginkan, dan kapan Anda bisa datang.",
+ft_p:"Praktik dokter gigi di Jl. Buah Batu, Bandung. Buka setiap hari, termasuk Minggu.",ft_c:"Kontak",ft_v:"Alamat",ft_f:"Ikuti",ft_h:"Setiap hari 09.00–21.00 WIB ✎",ft_r:"Ulasan di Google Maps",ft_tel:"Telp. 0852-8000-6191",
+ft_disc:"Konsep pratinjau oleh Maxi Growth Studio — bukan website resmi Bandung Smile Studio. Informasi bersifat umum.",ft_top:"Kembali ke atas ↑",
+fab:"WhatsApp",fab_a:"Buat janji via WhatsApp",
+w_book:"Halo Bandung Smile Studio, saya ingin membuat janji pemeriksaan gigi. Kapan jadwal yang tersedia?",w_loc:"Halo Bandung Smile Studio, boleh minta patokan arah ke klinik di Jl. Buah Batu No. 302?",w_ask:"Halo Bandung Smile Studio, saya ingin bertanya: ",w_doc:"Halo Bandung Smile Studio, boleh tahu dokter gigi yang praktik dan jadwalnya minggu ini?"
+},en:{
+pv:"Preview concept by Maxi Growth Studio",pv_s:"· not the official Bandung Smile Studio website.",pv_c:"= to be confirmed by the clinic.",pv_x:"Close banner",chk:"verify",
+n1:"Tooth check",n2:"Plan a visit",n3:"Services & fees",n4:"Dentists & visit",n5:"Location",n6:"FAQ",cta:"Book",menu:"Menu",
+h_tag:"Dental practice · Bandung",h1a:"Your smile,",h1b:"in focus.",
+hl:"Scaling, dental care and braces consultations on Jl. Buah Batu. Open every day into the evening — Sundays included — so you can come after work or at the weekend.",
+cta_h:"Ask on WhatsApp",c2:"Plan your visit",h_hint:"Tap the bacteria to chase them off",zap1:"Bacteria cleared:",
+open_now:"Open now",closed_now:"Closed now",open_until:"until 9 pm WIB",opens_at:"opens again 9 am WIB",
+p1a:"9 am–9 pm WIB",p1b:"Hours as listed in a public directory",p2a:"Open on Sundays",p2b:"Handy for weekend visits",p3a:"Scaling & braces",p3b:"Services listed for this clinic",p4a:"Google reviews",p4b:"Read patients' experiences on Google Maps ↗",
+tick:"SCALING · FILLINGS · BRACES CONSULTATION · BRACES ADJUSTMENT · DENTAL CHECK-UP · OPEN DAILY · OPEN ON SUNDAYS · JL. BUAH BATU 302",
+ck:"30-second tooth check",ch:"Mark the tooth, pick the concern, send it to the clinic.",cl:"Not a diagnosis — it simply helps you describe your concern before you visit. The WhatsApp message is written for you and can be edited.",
+st1:"Mark teeth",st2:"Pick concern",st3:"Send message",st3d:"Message opened",
+s1:"Step 1",s1t:"Which tooth bothers you?",jw_g:"Jaw view",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",jw_hint:"Tip: check the lower jaw too",
+sd_r:"RIGHT",sd_l:"LEFT",orient:"Shown as if facing you — your right is on the left of the chart. Numbers = FDI system.",
+tap:"Tap the tooth that hurts. You can pick more than one.",skip:"Skip, I'm not sure",skipped:"That's fine — the dentist will examine.",mk_l:"teeth marked",rm:"Remove",clr:"Clear all",amap:"Chart of upper and lower teeth",
+s2:"Step 2",s2t:"What do you feel?",s3:"Step 3 · Result",
+pick:"Pick one concern",pickp:" — the result and WhatsApp message will appear here.",send:"Send on WhatsApp",
+likely:"Possibly",urg:["","Can be scheduled","Better soon","Get checked ASAP"],tr_usual:"Treatments usually considered",
+ask_c:"ask the clinic",after_ex:"after examination",est_src:"Ranges = Bandung market estimates from other clinics (public sources), not Bandung Smile Studio's fees.",
+yourmsg:"Your message (editable)",msg_rst:"Rewrite",pref_l:"Time:",pf:["Morning","Midday","Afternoon","Evening"],copy:"Copy message",copied:"Copied ✓",r_upd:"Result updated: ",
+sd:"General information only; it does not replace a dental examination. If swelling spreads, you have a fever or trouble swallowing, seek medical help promptly.",
+to_t:"Know your concern? Plan your visit",
+w_k1:"Hello Bandung Smile Studio, I'd like to consult about: ",w_k2:" — ",w_k3:"Could I schedule an examination?",w_pref:"Preferred time: ",
+jk:"Plan a visit",jh:"Pick a day & time, the WhatsApp message writes itself.",jl:"The clinic is listed as open daily 9 am–9 pm WIB, Sundays included. Choose a treatment, a day and a time window — we'll put together a visit summary and a message for the clinic to confirm.",
+jnote:"This is a request, not an automatic booking. The clinic confirms the exact time.",
+qa:"Which treatment?",qb:"Which day?",qc:"What time?",qd:"Who is it for?",
+dnote:"Daily dentist schedules haven't been published.",
+slots:[["Morning","09.00–12.00",9,12],["Midday","12.00–15.00",12,15],["Afternoon","15.00–18.00",15,18],["Evening","18.00–21.00",18,21]],slot_after:"after work",slot_past:"passed",
+whoL:["Myself","My child","A family member","First visit"],
+today:"Today",tmr:"Tomorrow",sun_open:"open",
+tk_t:"Visit summary",tk_s:"draft · not confirmed",
+r_tr:"Treatment",r_day:"Day",r_time:"Time",r_dur:"Approx. length",r_who:"For",r_st:"Status",r_stv:"Awaiting clinic confirmation",ph:"— not chosen",
+tips_h:"Before you come",tips:["Arrive about 10 minutes early.","Mention if you're pregnant, have a drug allergy or take regular medication.","Have old X-rays? Bring them along."],
+dur_n:"general estimate",
+w_j1:"Hello Bandung Smile Studio, I'd like to make an appointment.",w_j2:"Treatment: ",w_j3:"Day: ",w_j4:"Time: around ",w_j5:"For: ",w_j6:"Is there an available slot? Thank you.",
+lk:"Services & fees",lh:"What you can ask about today.",ll:"The services below are listed in a public directory for this clinic. Other services aren't confirmed yet — ask before you visit.",
+pr_h:"Typical fees in Bandung",pr_n:"Comparisons from other Bandung clinics (public sources), not Bandung Smile Studio's fees.",
+fa_h:"Still to be confirmed by the clinic",fa1:"Names, titles & schedules of practising dentists",fa2:"Insurance partners & payment methods",fa3:"Care for children & aesthetic services",
+ca_h:"Braces instalment simulator",ca_p:"Estimate a monthly amount. Whether instalments are offered is confirmed by the clinic.",a1:"Estimated braces cost",a2:"Deposit",a3:"Term",mo:"mo",
+o1:"Estimated per month",o2:"Deposit",o3:"Balance in instalments",o4:"Interest-free simulation, for illustration only. Actual cost is set after examination & treatment plan.",o5:"Ask about instalments",
+w_calc:"Hello Bandung Smile Studio, I'm interested in braces. My simulation: cost {a}, deposit {d}, {m} months (≈{p}/month). Do you offer staged payments?",
+dk:"Dentists & your visit",dh:"Who treats you, and what happens.",dl:"Dentists' names aren't published on channels we could check, so the cards below are still blank — to be filled in with the clinic. Illustrations, not photos.",
+dn:"Names, titles and schedules are confirmed directly with the clinic.",d_btn:"Ask about dentists & schedule",
+lok:"Location & hours",loh:"On Jl. Buah Batu, Lengkong.",lol:"The clinic is at Jl. Buah Batu No. 302, in the Cijagra–Lengkong area. Open the map for directions, or ask for landmarks on WhatsApp.",
+lcap:"Façade illustration — not a photo of the clinic",v_foto:"Illustration",v_map:"Map",v_full:"Open full screen",v_tabs:"Location views",
+lw:"Opening hours",la:"Address",adr_n:"Address from a public directory — please confirm landmarks with the clinic.",cp_a:"Copy address",cp_d:"Copied ✓",lwa:"Ask for directions on WhatsApp",
+days:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],dshort:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],mon:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+fk:"FAQ",fh:"Before you visit.",fl:"Can't find your answer? Ask the clinic directly.",fb:"Ask on WhatsApp",
+cz_h:"After work or on a Sunday — you pick the time.",cz_p:"Send a short message: your concern or the treatment you want, and when you can come.",
+ft_p:"A dental practice on Jl. Buah Batu, Bandung. Open every day, Sundays included.",ft_c:"Contact",ft_v:"Address",ft_f:"Follow",ft_h:"Daily 9 am–9 pm WIB ✎",ft_r:"Reviews on Google Maps",ft_tel:"Phone 0852-8000-6191",
+ft_disc:"Preview concept by Maxi Growth Studio — not the official Bandung Smile Studio website. General information only.",ft_top:"Back to top ↑",
+fab:"WhatsApp",fab_a:"Book on WhatsApp",
+w_book:"Hello Bandung Smile Studio, I'd like to book a dental check-up. When is the next available slot?",w_loc:"Hello Bandung Smile Studio, could you share landmarks/directions to the clinic at Jl. Buah Batu No. 302?",w_ask:"Hello Bandung Smile Studio, I have a question: ",w_doc:"Hello Bandung Smile Studio, may I know which dentists practise and their schedule this week?"
+}};
+const t=k=>(T[L][k]!==undefined?T[L][k]:T.id[k]);
+const wa=m=>"https://wa.me/"+WA+"?text="+encodeURIComponent(m);
+const ic=(n,st)=>'<svg class="i"'+(st?' style="'+st+'"':'')+'><use href="#i-'+n+'"/></svg>';
+const rp=n=>"Rp"+Math.round(n).toLocaleString("id-ID");
+const jt=n=>n>=1e6?("Rp"+(n/1e6).toLocaleString(L==="id"?"id-ID":"en-US",{maximumFractionDigits:1})+(L==="id"?" jt":"M")):("Rp"+Math.round(n/1e3)+(L==="id"?" rb":"k"));
+const rng=(a,b)=>a===b?"±"+jt(a):jt(a)+"–"+jt(b).replace("Rp","");
+function copyText(s,ok){const done=()=>ok&&ok();try{navigator.clipboard.writeText(s).then(done,()=>{fb2();done()})}catch(e){fb2();done()}
+  function fb2(){const a=document.createElement("textarea");a.value=s;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove()}}
+
+/* ---------- data ---------- */
+// kisaran pasar Bandung (pembanding klinik lain, riset 25-09-2026) — bukan tarif klinik
+const PR={sc:[249e3,65e4],tb:[388e3,6e5],cb:[449e3,15e5],bh:[289e4,55e5],bl:[15e5,15e5],vn:[3152500,5e6],im:[15e6,25e6]};
+const PRN={id:{sc:"Scaling",tb:"Tambal gigi",cb:"Cabut gigi biasa",bh:"Behel metal",bl:"Bleaching (paket)",vn:"Veneer porselen / gigi",im:"Implan / gigi"},en:{sc:"Scaling",tb:"Filling",cb:"Simple extraction",bh:"Metal braces",bl:"Whitening (package)",vn:"Porcelain veneer / tooth",im:"Implant / tooth"}};
+const DOCS=[{g:"f"},{g:"m"}];
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23M4.2 4.2l1.8 1.8M18 18l1.8 1.8M4.2 19.8 6 18M18 6l1.8-1.8",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",mis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",
+ brc:"M3 9h18M3 15h18M6 7v4M10 7v4M14 7v4M18 7v4M6 13v4M10 13v4M14 13v4M18 13v4",kid:"M12 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM6 22v-6l-2-4 5-3h6l5 3-2 4v6M9 22v-5M15 22v-5",
+ chk:"M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20.5 20.5 16 16M8 11h6M11 8v6",dot:"M12 5v14M5 12h14"};
+// [chip, icon, title, text, urgency, [[treatment, price key | "?" | null]]]
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling","sc"],["Tambal gigi","tb"]]],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan dapat membesar hingga ke saraf. Makin awal ditangani, biasanya perawatannya makin sederhana.",2,[["Tambal gigi","tb"],["Perawatan saluran akar, bila sudah dalam",null]]],
+ ["Sakit berdenyut","thr","Sakit berdenyut atau bengkak","Bisa menandakan peradangan pada saraf gigi. Sebaiknya segera diperiksa.",3,[["Pemeriksaan segera","?"],["Perawatan saluran akar",null],["Cabut gigi, bila perlu","cb"]]],
+ ["Gigi bungsu","wis","Sakit di bagian paling belakang","Gigi bungsu yang tumbuh miring dapat menimbulkan nyeri dan bengkak. Rontgen membantu dokter melihat posisinya.",2,[["Pemeriksaan & rontgen","?"],["Tindakan gigi bungsu, bila perlu",null]]],
+ ["Gusi berdarah","gum","Gusi bengkak atau berdarah","Biasanya dipicu karang gigi dan plak. Pembersihan profesional sering menjadi langkah pertama.",1,[["Scaling","sc"],["Perawatan gusi lanjutan",null]]],
+ ["Gigi kusam","yel","Gigi kusam atau kekuningan","Sering akibat noda kopi, teh, atau rokok. Dokter menilai apakah cukup dibersihkan atau perlu perawatan lain.",1,[["Scaling","sc"],["Bleaching","bl"],["Veneer, bila dibutuhkan","vn"]]],
+ ["Berantakan","cro","Gigi berjejal atau tidak rapi","Susunan gigi dapat dirapikan bertahap. Pemeriksaan dan rencana perawatan diperlukan lebih dulu.",1,[["Konsultasi behel","?"],["Behel metal","bh"]]],
+ ["Gigi hilang","mis","Ada gigi yang hilang","Gigi yang hilang dapat diganti. Dokter menjelaskan pilihannya setelah pemeriksaan.",1,[["Gigi tiruan",null],["Implan gigi","im"]]]],
+en:[
+ ["Sensitive","sens","Sensitive to cold drinks or sweets","Often linked to thinning enamel, small cavities, or tartar near the gums.",1,[["Examination","?"],["Scaling","sc"],["Filling","tb"]]],
+ ["Cavity","cav","A hole, even if it doesn't hurt","An untreated cavity can grow to the nerve. The earlier it's treated, the simpler the care usually is.",2,[["Filling","tb"],["Root canal treatment, if deep",null]]],
+ ["Throbbing","thr","Throbbing pain or swelling","May signal inflammation of the tooth nerve. Best examined soon.",3,[["Urgent examination","?"],["Root canal treatment",null],["Extraction, if needed","cb"]]],
+ ["Wisdom tooth","wis","Pain at the very back","A wisdom tooth growing at an angle can cause pain and swelling. An X-ray helps the dentist see its position.",2,[["Examination & X-ray","?"],["Wisdom tooth procedure, if needed",null]]],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually triggered by tartar and plaque. Professional cleaning is often the first step.",1,[["Scaling","sc"],["Further gum care",null]]],
+ ["Dull teeth","yel","Dull or yellowish teeth","Often stains from coffee, tea or smoking. The dentist checks whether cleaning is enough or other care is needed.",1,[["Scaling","sc"],["Whitening","bl"],["Veneer, if needed","vn"]]],
+ ["Crooked","cro","Crowded or uneven teeth","Teeth can be aligned step by step. An examination and treatment plan come first.",1,[["Braces consultation","?"],["Metal braces","bh"]]],
+ ["Missing tooth","mis","A missing tooth","A missing tooth can be replaced. The dentist explains the options after examination.",1,[["Dentures",null],["Dental implant","im"]]]]};
+// planner treatments: [label, icon, duration id, duration en, listed?]
+const TRS=[
+ [{id:"Scaling (pembersihan karang)",en:"Scaling (tartar cleaning)"},"sparkle",{id:"±30–60 menit",en:"±30–60 min"},1],
+ [{id:"Konsultasi behel",en:"Braces consultation"},"brc",{id:"±30 menit",en:"±30 min"},1],
+ [{id:"Kontrol behel",en:"Braces adjustment"},"brc",{id:"±20–30 menit",en:"±20–30 min"},1],
+ [{id:"Tambal gigi",en:"Filling"},"cav",{id:"±30–60 menit",en:"±30–60 min"},0],
+ [{id:"Periksa keluhan / sakit gigi",en:"Check a toothache / concern"},"chk",{id:"±20–30 menit",en:"±20–30 min"},0],
+ [{id:"Lainnya — tanya dulu",en:"Other — ask first"},"dot",{id:"dikonfirmasi klinik",en:"confirmed by clinic"},0]];
+ICO.sparkle="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8zM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8z";
+const FAQ={id:[
+ ["Kapan klinik buka? Apakah hari Minggu buka?","Direktori publik mencantumkan 09.00–21.00 WIB setiap hari, termasuk Minggu. Mohon konfirmasi jam dan ketersediaan jadwal melalui WhatsApp sebelum datang. ✎"],
+ ["Berapa biaya scaling atau pasang behel?","Tarif resmi klinik belum dipublikasikan. Kisaran di halaman ini adalah pembanding dari klinik lain di Bandung. Tanyakan biaya dan apa saja yang termasuk sebelum membuat janji."],
+ ["Apakah klinik menerima asuransi?","Informasi kerja sama asuransi belum tersedia. Sebutkan penyedia asuransi Anda saat menghubungi klinik. ✎"],
+ ["Saya ingin pasang behel. Mulai dari mana?","Pemasangan behel tercantum sebagai layanan klinik. Mulailah dengan konsultasi: dokter memeriksa susunan gigi lalu menjelaskan pilihan, tahapan, dan perkiraan biayanya."],
+ ["Apakah klinik menerima pasien anak?","Layanan untuk anak belum terverifikasi. Tanyakan usia anak dan keluhannya langsung ke klinik sebelum berkunjung. ✎"]],
+en:[
+ ["When is the clinic open? Is it open on Sundays?","A public directory lists 9 am–9 pm WIB daily, Sundays included. Please confirm hours and availability on WhatsApp before visiting. ✎"],
+ ["How much do scaling or braces cost?","The clinic hasn't published official fees. Ranges on this page are comparisons from other Bandung clinics. Ask about the cost and what's included before booking."],
+ ["Does the clinic accept insurance?","Insurance information isn't available yet. Mention your insurer when contacting the clinic. ✎"],
+ ["I'd like braces. Where do I start?","Braces are listed as one of the clinic's services. Start with a consultation: the dentist examines your bite, then explains the options, stages and estimated cost."],
+ ["Does the clinic see children?","Care for children hasn't been verified. Ask the clinic about your child's age and concern before visiting. ✎"]]};
+const SVC={id:[
+ ["01","Scaling","Membersihkan karang gigi dan plak yang tidak hilang dengan sikat gigi biasa.",["Pembersihan karang","Pemeriksaan gusi"],0],
+ ["02","Behel","Merapikan susunan gigi bertahap, diawali konsultasi dan rencana perawatan.",["Konsultasi","Pemasangan","Kontrol rutin"],0],
+ ["03","Tambal & keluhan gigi","Gigi berlubang, ngilu, atau sakit — diperiksa dulu, lalu dijelaskan pilihannya.",["Pemeriksaan","Tambal gigi ✎"],1],
+ ["04","Layanan lain","Cabut gigi, bleaching, gigi anak, dan lainnya belum terkonfirmasi. Tanyakan sebelum datang.",["Tanyakan via WhatsApp"],2]],
+en:[
+ ["01","Scaling","Removing tartar and plaque that regular brushing can't.",["Tartar cleaning","Gum check"],0],
+ ["02","Braces","Straightening teeth step by step, starting with a consultation and treatment plan.",["Consultation","Fitting","Regular adjustment"],0],
+ ["03","Fillings & toothache","Cavities, sensitivity or pain — examined first, then options explained.",["Examination","Fillings ✎"],1],
+ ["04","Other services","Extractions, whitening, children's care and more aren't confirmed. Ask before visiting.",["Ask on WhatsApp"],2]]};
+const FLOW={id:[
+ ["Kirim pesan","Ceritakan keluhan atau perawatan yang diinginkan, plus hari & jam yang cocok."],
+ ["Konfirmasi jadwal","Klinik membalas dengan jam yang tersedia. ✎"],
+ ["Pemeriksaan & penjelasan","Dokter memeriksa dan menjelaskan pilihan perawatan serta biayanya sebelum tindakan."],
+ ["Dokumentasi foto gigi","Foto kondisi gigi sebelum tindakan agar perubahan bisa dilihat bersama. ✎ konfirmasi prosedur"],
+ ["Tindakan & kontrol","Perawatan dilakukan; untuk behel, jadwal kontrol berikutnya diatur."]],
+en:[
+ ["Send a message","Share your concern or the treatment you want, plus a day & time that suits you."],
+ ["Schedule confirmed","The clinic replies with an available time. ✎"],
+ ["Examination & explanation","The dentist examines and explains treatment options and costs before any procedure."],
+ ["Photo documentation","Photos of your teeth before treatment so changes can be reviewed together. ✎ confirm procedure"],
+ ["Treatment & follow-up","Treatment is done; for braces, the next adjustment is scheduled."]]};
+
+/* ---------- avatar ---------- */
+function av(i,d){const sk=["#e9c3a3","#c9926d","#dcae8a","#b98160"][i%4],hr=["#2a1e18","#3b2a20","#1d1a18","#4a3526"][i%4],bg=["#ffe8dc","#f7ecd9","#fbe4e4","#f3eadf"][i%4];
+ const hair=d.g=="f"?'<path d="M34 44c-2-16 8-26 26-26s28 10 26 26c-1 6 0 16 3 22-8 2-12-4-13-12-3-8-10-12-16-12s-13 4-16 12c-1 8-5 14-13 12 3-6 4-16 3-22z" fill="'+hr+'"/>':'<path d="M36 46c-1-17 9-26 24-26s25 9 24 26c-3-6-9-10-12-11-7 4-18 5-27 2-4 2-7 5-9 9z" fill="'+hr+'"/>';
+ return '<svg class="av" viewBox="0 0 120 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="96" fill="'+bg+'"/><g fill="none" stroke="#c2412b" stroke-width="2.2" opacity=".55"><path d="M8 20V8h12M112 20V8h-12M8 76v12h12M112 76v12h-12"/></g><path d="M22 96c2-18 16-28 38-28s36 10 38 28z" fill="#fff"/><path d="M50 70l10 14 10-14" fill="none" stroke="#c2412b" stroke-width="3"/><rect x="53" y="58" width="14" height="14" rx="6" fill="'+sk+'"/><ellipse cx="60" cy="44" rx="17" ry="20" fill="'+sk+'"/>'+hair+'<circle cx="53.5" cy="46" r="1.6" fill="#2a1e18"/><circle cx="66.5" cy="46" r="1.6" fill="#2a1e18"/><path d="M55 54c3 2 7 2 10 0" fill="none" stroke="#8c5a44" stroke-width="1.6" stroke-linecap="round"/><path d="M78 82c4 0 6 4 6 8" fill="none" stroke="#2b1b33" stroke-width="2"/><circle cx="84" cy="92" r="3" fill="#2b1b33"/><text x="60" y="30" text-anchor="middle" font-family="Fragment Mono,Courier New,monospace" font-size="7" fill="#2b1b33" opacity="0">?</text></svg>'}
+</script>
+<script>
+/* ---------- i18n ---------- */
+function applyI18n(){document.documentElement.lang=L;
+  $$("[data-i]").forEach(e=>{const v=t(e.dataset.i);if(typeof v==="string")e.textContent=v});
+  $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",t(e.dataset.ia)));
+  $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+  $$("[data-wa]").forEach(a=>{const k=a.dataset.wa;a.href=wa(k==="book"?t("w_book"):k==="loc"?t("w_loc"):t("w_ask"))});
+  document.title=L==="id"?"Bandung Smile Studio — Praktik Dokter Gigi di Buah Batu, Bandung (Konsep)":"Bandung Smile Studio — Dental Practice in Buah Batu, Bandung (Concept)";
+  buildTick();buildKel();updArea();renderRes();buildPlan();buildFlow();buildSvc();buildPrice();buildTen();calc();buildDocs();buildFaq();hours();status()}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("bss_lang",L)}catch(e){}applyI18n()});
+
+/* ---------- banner / nav ---------- */
+$("#pvx").onclick=()=>$("#pv").remove();
+const burger=$("#burger"),sheet=$("#sheet");
+function setSheet(o){burger.setAttribute("aria-expanded",o);sheet.classList.toggle("open",o)}
+burger.onclick=()=>setSheet(burger.getAttribute("aria-expanded")!=="true");
+$$("#sheet a").forEach(a=>a.addEventListener("click",()=>setSheet(false)));
+addEventListener("keydown",e=>{if(e.key==="Escape")setSheet(false)});
+addEventListener("scroll",()=>$("#nav").classList.toggle("sc",scrollY>10),{passive:true});
+const spy=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)$$("#links a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});
+["cek","jadwal","layanan","dokter","lokasi","faq"].forEach(id=>spy.observe(document.getElementById(id)));
+
+/* ---------- open status (WIB, daily 09-21, to verify) ---------- */
+function wib(){const n=new Date(Date.now()+7*3600e3);return{d:n.getUTCDay(),h:n.getUTCHours()+n.getUTCMinutes()/60}}
+function status(){const w=wib(),op=w.h>=9&&w.h<21;
+  [$("#status"),$("#lst")].forEach(el=>el.classList.toggle("closed",!op));
+  $("#stt").textContent=op?t("open_now"):t("closed_now");$("#sts").textContent=op?t("open_until"):t("opens_at");
+  $("#lst span").textContent=(op?t("open_now"):t("closed_now"))+" · "+(op?t("open_until"):t("opens_at"))}
+function hours(){const w=wib(),D=t("days"),ord=[1,2,3,4,5,6,0];
+  $("#hrs").innerHTML=ord.map(d=>'<tr'+(d===w.d?' class="today"':'')+'><td>'+D[d]+'</td><td>09.00–21.00</td></tr>').join("")}
+setInterval(()=>{status();if(!document.activeElement||!document.activeElement.closest("#jadwal"))buildPlan()},60000);
+
+/* ---------- ticker ---------- */
+function buildTick(){const s=t("tick").split(" · ").map(x=>"<span>"+x+"</span>").join("");$("#tick").innerHTML=s+s}
+
+/* ---------- tooth arch ---------- */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function fdiN(J,i){const sd=i<8?0:1;return ""+(J===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+  [["url(#gg)",46],["#fff6f7",2]].forEach(([c,w],j)=>{const p=el("path",{d,fill:"none","stroke-linecap":"round",stroke:c,"stroke-width":w});if(j)p.setAttribute("transform","translate(0 "+(up?10:-10)+")");arch.appendChild(p)})}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+  for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+    const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+    const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+    g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));
+    const tb=el("g",{class:"tb",filter:"url(#sh)"});tb.style.transitionDelay=(RM?0:(up?i:16+i)*18)+"ms";
+    tb.appendChild(el("circle",{class:"halo",r:k==="m"?"16.5":"15"}));
+    SHAPE[k].forEach((d,j)=>tb.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+    g.appendChild(tb);g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+    const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+    const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.7"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+    const fx=el("text",{class:"fdi","data-jaw":J,"text-anchor":"middle",x:(x-nx/nl*21).toFixed(1),y:(y-ny/nl*21+2).toFixed(1),"aria-hidden":"true"});fx.textContent=fdiN(J,i);g._fx=fx;
+    g.onclick=()=>{rove(g,true);tg(g)};
+    g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;
+      if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+      if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];
+      else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];else if(e.key==="Home")m=[J,0];else if(e.key==="End")m=[J,15];
+      if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+    g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;g.onfocus=()=>{if(g.matches(":focus-visible"))tipShow(g)};g.onblur=tipHide;
+    teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);teeth.flat().forEach(g=>arch.appendChild(g._fx));badges.forEach(b=>arch.appendChild(b));
+[["ATAS","UPPER",200,104],["BAWAH","LOWER",200,246]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+new IntersectionObserver(([e],o)=>{if(e.isIntersecting){arch.classList.remove("pre");setTimeout(()=>arch.querySelectorAll(".tb").forEach(x=>x.style.transitionDelay="0ms"),1200);o.disconnect()}},{threshold:.2}).observe(arch);
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+  return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdiN(+g.dataset.jaw,+g.dataset.ix)+")"}
+const lc=n=>/^(\p{Lu}{2}|X-)/u.test(n)?n:n.charAt(0).toLowerCase()+n.slice(1);
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1600)}
+let hinted=false,skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}
+  skipped=false;syncTeeth();updArea();renderRes();tipHide();
+  if(sel.length===1&&jawM==="u"&&!hinted){hinted=true;setTimeout(()=>toast(t("jw_hint")),1700)}}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on);if(on)x._nb.querySelector("text").textContent=sel.indexOf(x)+1})}
+function areaTxt(){return sel.map(g=>tName(g).toLowerCase()).join(", ")}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));
+  arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+  const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+  (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0);
+  $("#ctr").style.display=m==="a"?"":"none"}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);
+  teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+  const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:2;
+  if(sel.length){const list=sel.slice(-lim);
+    c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+tName(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip plus">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+ic("reset","width:15px;height:15px")+t("clr")+'</button>';
+    c.querySelectorAll(".mchip button").forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+    $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes();stepper()};
+  }else{c.innerHTML='<div class="tapme">'+ic("tap","width:18px;height:18px")+'</div><div class="sm">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+    const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();const k=$('#kl .k[tabindex="0"]');if(k){k.focus({preventScroll:true});if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}}
+  stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+  s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+  s.forEach(b=>b.setAttribute("aria-current",b.classList.contains("on")?"step":"false"));
+  $("#st3l").textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;
+  if(n===0)$("#aw").scrollIntoView({behavior:SB,block:"center"});else if(n===1)$("#kl").scrollIntoView({behavior:SB,block:"center"});else $("#res").scrollIntoView({behavior:SB,block:"start"})});
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+  b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+  b.onclick=()=>pickK(i,false);
+  b.onkeydown=e=>{const n=KEL[L].length;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();pickK(j,true)}};
+  kl.appendChild(b)})}
+function pickK(i,kb){if(i!==ki)sent=false;ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();
+  if(kb){$$("#kl .k")[i].focus();return}
+  const h=$("#res h3");if(h)h.focus({preventScroll:true});if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let lastKi=-2,pref=-1,msgEdited=false;
+function priceTxt(p){return p==="?"?'<em>'+t("ask_c")+'</em>':p?rng(PR[p][0],PR[p][1])+' <span class="chk">✎</span>':'<em>'+t("after_ex")+'</em>'}
+function renderRes(){const r=$("#res");
+  if(ki<0){r.className="res empty";r.dataset.k="";
+    r.innerHTML='<div class="skl" style="width:38%"></div><div class="skl" style="width:86%"></div><div class="skl" style="width:64%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+  const o=KEL[L][ki],names=sel.map(tName),key=ki+L;
+  if(r.classList.contains("full")&&r.dataset.k===key){const rt=$("#rteeth");rt.innerHTML=names.map(n=>'<span>'+n+'</span>').join("");rt.hidden=!names.length;compose();return}
+  const changed=lastKi!==ki,prev=$("#msg")?$("#msg").value:"";lastKi=ki;r.dataset.k=key;if(changed)msgEdited=false;
+  const dk=null;
+  r.className="res full";
+  r.innerHTML='<div class="r-top"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div>'+
+    '<h3 tabindex="-1">'+o[2]+'</h3><div class="rteeth" id="rteeth"'+(names.length?'':' hidden')+'>'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>'+
+    '<p class="ex">'+o[3]+(dk?' <b>'+(L==="id"?"Terkait: ":"Related: ")+dk.sp[L]+'.</b>':'')+'</p><div class="rtl-h">'+t("tr_usual")+'</div>'+
+    '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+priceTxt(p)+'</span></li>').join("")+'</ul>'+
+    '<p class="est">'+t("est_src")+'</p>'+
+    '<div class="bub-h"><label class="bub-c" for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="4"></textarea>'+
+    '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2,3].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+    '<div class="acts2"><a class="btn btn-wa" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a>'+
+    '<button type="button" class="copy" id="copy">'+ic("copy","width:17px;height:17px")+'<span>'+t("copy")+'</span></button></div>';
+  const m=$("#msg");if(msgEdited)m.value=prev;compose();
+  m.oninput=()=>{msgEdited=true;sent=false;stepper();$("#mrst").hidden=false;$("#send").href=wa(m.value)};
+  $("#mrst").onclick=()=>{msgEdited=false;$("#mrst").hidden=true;compose();m.focus()};
+  r.querySelectorAll(".pref button").forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;r.querySelectorAll(".pref button").forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+  $("#send").addEventListener("click",()=>{sent=true;stepper()});
+  $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+  if(changed)$("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],a=areaTxt(),m=$("#msg");if(!m)return;
+  const v=t("w_k1")+lc(o[2])+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_k3");
+  if(!msgEdited)m.value=v;$("#send").href=wa(m.value)}
+
+/* ---------- atur kunjungan (fitur khas) ---------- */
+let tri=-1,dayi=0,sloti=-1;const whoS=new Set();let jEdited=false;
+function wibNow(){return new Date(Date.now()+7*3600e3)}
+function dayList(){const n=wibNow(),out=[];for(let k=0;k<8;k++){const d=new Date(Date.UTC(n.getUTCFullYear(),n.getUTCMonth(),n.getUTCDate()+k));out.push({k,dow:d.getUTCDay(),dt:d.getUTCDate(),m:d.getUTCMonth()})}return out}
+function dayLabel(d,long){const D=long?t("days"):t("dshort");const base=D[d.dow]+", "+d.dt+" "+t("mon")[d.m];return d.k===0?t("today")+(long?" ("+base+")":""):d.k===1&&long?t("tmr")+" ("+base+")":base}
+function slotOk(i,d){if(d.k!==0)return true;const h=wibNow().getUTCHours()+wibNow().getUTCMinutes()/60;return t("slots")[i][3]-1>h}
+function buildPlan(){
+  $("#trs").innerHTML=TRS.map((r,i)=>'<button type="button" class="tr" role="radio" aria-checked="'+(i===tri)+'" tabindex="'+((tri<0?i===0:i===tri)?0:-1)+'" data-t="'+i+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+ICO[r[1]]+'"/></svg><span>'+r[0][L]+(r[3]?'':'<small>'+(L==="id"?"tanyakan ketersediaan ✎":"ask availability ✎")+'</small>')+'</span></button>').join("");
+  $$("#trs .tr").forEach(b=>{b.onclick=()=>{tri=+b.dataset.t;jEdited=false;buildPlan()};
+    b.onkeydown=e=>{let j=null;const i=+b.dataset.t,n=TRS.length;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();tri=j;jEdited=false;buildPlan();$$("#trs .tr")[j].focus()}}});
+  const DL=dayList();
+  if(dayi===0&&!t("slots").some((s,i)=>slotOk(i,DL[0])))dayi=1;
+  $("#days").innerHTML=DL.map((d,i)=>'<button type="button" class="dy" role="radio" aria-checked="'+(i===dayi)+'" tabindex="'+(i===dayi?0:-1)+'" data-d="'+i+'" aria-label="'+dayLabel(d,true)+'"><span>'+(d.k===0?t("today"):t("dshort")[d.dow])+'</span><b>'+d.dt+'</b><span>'+t("mon")[d.m]+'</span><em>'+(d.dow===0?(L==="id"?"Minggu buka":"Sun open"):"09–21")+'</em></button>').join("");
+  $$("#days .dy").forEach(b=>{b.onclick=()=>{dayi=+b.dataset.d;jEdited=false;if(sloti>=0&&!slotOk(sloti,DL[dayi]))sloti=-1;buildPlan()};
+    b.onkeydown=e=>{let j=null;const i=+b.dataset.d;if(e.key==="ArrowRight")j=Math.min(7,i+1);else if(e.key==="ArrowLeft")j=Math.max(0,i-1);if(j!==null){e.preventDefault();dayi=j;jEdited=false;buildPlan();$$("#days .dy")[j].focus()}}});
+  $("#qbm").textContent=dayLabel(DL[dayi],true);
+  const S=t("slots");if(sloti>=0&&!slotOk(sloti,DL[dayi]))sloti=-1;
+  $("#slots").innerHTML=S.map((s,i)=>{const ok=slotOk(i,DL[dayi]);return '<button type="button" class="sl" role="radio" aria-checked="'+(i===sloti)+'" data-s="'+i+'"'+(ok?'':' disabled')+'><b>'+s[0]+'</b><span>'+s[1]+'</span>'+(!ok?'<span>'+t("slot_past")+'</span>':i===3?'<span>'+ic("moon","width:13px;height:13px;vertical-align:-2px")+' '+t("slot_after")+'</span>':'')+'</button>'}).join("");
+  $$("#slots .sl").forEach(b=>b.onclick=()=>{sloti=+b.dataset.s;jEdited=false;buildPlan()});
+  $("#who").innerHTML=t("whoL").map((w,i)=>'<button type="button" aria-pressed="'+whoS.has(i)+'" data-w="'+i+'">'+w+'</button>').join("");
+  $$("#who button").forEach(b=>b.onclick=()=>{const i=+b.dataset.w;if(i<3){[0,1,2].forEach(x=>{if(x!==i)whoS.delete(x)})}whoS.has(i)?whoS.delete(i):whoS.add(i);jEdited=false;buildPlan()});
+  renderTicket()}
+function renderTicket(){const DL=dayList(),d=DL[dayi],r=tri>=0?TRS[tri]:null,s=sloti>=0?t("slots")[sloti]:null;
+  const who=[...whoS].sort().map(i=>t("whoL")[i]);
+  const row=(k,v)=>'<div class="trow"><span>'+t(k)+'</span><span>'+(v||'<span class="ph">'+t("ph")+'</span>')+'</span></div>';
+  const prev=$("#jmsg")?$("#jmsg").value:"";
+  $("#tbody").innerHTML=row("r_tr",r&&r[0][L])+row("r_day",dayLabel(d,true))+row("r_time",s&&(s[0]+" · "+s[1]+" WIB"))+row("r_dur",r&&(r[2][L]+' <span class="chk">✎ '+t("dur_n")+'</span>'))+row("r_who",who.join(", "))+row("r_st",'<span style="color:var(--warn)">'+t("r_stv")+'</span>')+
+    '<div class="tips"><b>'+t("tips_h")+'</b><ul>'+t("tips").map(x=>'<li>'+x+'</li>').join("")+'</ul></div>'+
+    '<label class="bub-c" for="jmsg">'+t("yourmsg")+'</label><textarea class="bub" id="jmsg" rows="7"></textarea>'+
+    '<div class="acts2" style="margin-top:12px"><a class="btn btn-wa" id="jsend" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a><button type="button" class="copy" id="jcopy">'+ic("copy","width:17px;height:17px")+'<span>'+t("copy")+'</span></button></div>';
+  const m=$("#jmsg");m.value=jEdited?prev:jMsg(r,d,s,who);$("#jsend").href=wa(m.value);
+  m.oninput=()=>{jEdited=true;$("#jsend").href=wa(m.value)};
+  $("#jcopy").onclick=()=>copyText(m.value,()=>{const x=$("#jcopy span");x.textContent=t("copied");setTimeout(()=>x.textContent=t("copy"),1600)})}
+function jMsg(r,d,s,who){let x=t("w_j1");if(r)x+="\n"+t("w_j2")+r[0][L]+".";x+="\n"+t("w_j3")+dayLabel(d,true)+".";if(s)x+="\n"+t("w_j4")+s[1]+" WIB ("+s[0].toLowerCase()+").";if(who.length)x+="\n"+t("w_j5")+who.join(", ").toLowerCase()+".";return x+"\n"+t("w_j6")}
+
+/* ---------- services / price / docs / faq ---------- */
+function buildSvc(){$("#svc").innerHTML=SVC[L].map(s=>'<div class="sv'+(s[4]===2?' dim':'')+'"><h3><i>'+s[0]+'</i>'+s[1]+(s[4]===1?' <span class="chk">✎ '+t("chk")+'</span>':'')+'</h3><p>'+s[2]+'</p><ul>'+s[3].map(x=>'<li>'+x+'</li>').join("")+'</ul></div>').join("")}
+function buildFlow(){$("#flow").innerHTML=FLOW[L].map(f=>'<li><div><b>'+f[0]+'</b><span>'+f[1]+'</span></div></li>').join("")}
+function buildPrice(){$("#ptab").innerHTML=Object.keys(PR).map(k=>'<tr><td>'+PRN[L][k]+'</td><td>'+rng(PR[k][0],PR[k][1])+'</td></tr>').join("")+'<tr><td>'+(L==="id"?"Saluran akar, gigi anak, tindakan lain":"Root canal, children's care, other procedures")+'</td><td>'+(L==="id"?"setelah pemeriksaan":"after exam")+'</td></tr>'}
+function buildDocs(){$("#docs").innerHTML=DOCS.map((d,i)=>'<article class="doc">'+av(i,d)+'<div class="db"><span class="sp">'+(L==="id"?"Dokter gigi":"Dentist")+' 0'+(i+1)+'</span><b>'+(L==="id"?"Nama menyusul":"Name to follow")+' <span class="chk">✎</span></b><p>'+(i===0?(L==="id"?"Pemeriksaan, scaling & tambal.":"Check-ups, scaling & fillings."):(L==="id"?"Konsultasi & kontrol behel.":"Braces consultation & adjustment."))+'</p><a href="'+wa(t("w_doc"))+'" target="_blank" rel="noopener">'+ic("wa","width:17px;height:17px")+t("d_btn")+'</a></div></article>').join("")}
+function buildFaq(){$("#fqs").innerHTML=FAQ[L].map((f,i)=>'<details'+(i===0?' open':'')+'><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>').join("")}
+
+/* ---------- braces calculator ---------- */
+let ten=12;const TENS=[6,12,18,24];
+function buildTen(){$("#ten").innerHTML=TENS.map(m=>'<button type="button" role="radio" aria-checked="'+(m===ten)+'" data-m="'+m+'">'+m+' '+t("mo")+'</button>').join("");
+  $$("#ten button").forEach(b=>b.onclick=()=>{ten=+b.dataset.m;buildTen();calc()})}
+const num=v=>+(""+v).replace(/[^\d]/g,"")||0;
+const fmt=n=>Math.round(n).toLocaleString("id-ID");
+function calc(){const a=Math.min(Math.max(num($("#amt").value),0),99e6),d=Math.min(num($("#dep").value),a),bal=a-d,per=bal/ten;
+  $("#per").textContent=rp(per);$("#odep").textContent=rp(d);$("#obal").textContent=rp(bal);
+  $("#cwa").href=wa(t("w_calc").replace("{a}",rp(a)).replace("{d}",rp(d)).replace("{m}",ten).replace("{p}",rp(per)))}
+$("#rng").oninput=e=>{$("#amt").value=fmt(e.target.value);calc()};
+$("#amt").oninput=e=>{const v=num(e.target.value);e.target.value=v?fmt(v):"";if(v>=29e5&&v<=8e6)$("#rng").value=v;calc()};
+$("#dep").oninput=e=>{const v=num(e.target.value);e.target.value=v?fmt(v):"";calc()};
+
+/* ---------- location viewer ---------- */
+(function(){const V=$("#viewer"),pane=$("#vpane"),frames={};
+  const SRC={peta:"https://maps.google.com/maps?q=Bandung%20Smile%20Studio%2C%20Jl.%20Buah%20Batu%20No.302%2C%20Cijagra%2C%20Lengkong%2C%20Kota%20Bandung&z=16&output=embed"};
+  function set(v){$$(".vtabs button",V).forEach(b=>{const on=b.dataset.v===v;b.classList.toggle("on",on);b.setAttribute("aria-selected",on)});
+    if(v==="foto"){pane.hidden=true;return}
+    pane.hidden=false;
+    if(!frames[v]){const f=document.createElement("iframe");f.title="Peta — Bandung Smile Studio";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";f.allowFullscreen=true;pane.appendChild(f);f.src=SRC[v];frames[v]=f}}
+  V.addEventListener("click",e=>{const b=e.target.closest(".vtabs [data-v]");if(b)set(b.dataset.v)});
+  new IntersectionObserver(([e],o)=>{if(e.isIntersecting){set("peta");o.disconnect()}},{rootMargin:"300px"}).observe(V)})();
+$("#cpa").onclick=()=>copyText("Bandung Smile Studio, Jl. Buah Batu No. 302, Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265",()=>{const s=$("#cpa span");s.textContent=t("cp_d");setTimeout(()=>s.textContent=t("cp_a"),1600)});
+
+/* ---------- reveal ---------- */
+const rvo=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");rvo.unobserve(e.target)}}),{threshold:.08});
+$$(".rv").forEach(x=>rvo.observe(x));
+applyI18n();
+</script>
+<script>
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{};document.head.appendChild(s)});
+function init3d(){
+  const stage=document.getElementById("stage");let R;
+  try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){return}
+  R.setPixelRatio(Math.min(devicePixelRatio,2));stage.insertBefore(R.domElement,stage.querySelector(".badge"));document.getElementById("zap").classList.add("on");document.getElementById("fb").style.display="none";
+  const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+  const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+  const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+  const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- tooth (faceted, like the logo) ---------- */
+  const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.32,metalness:.04,flatShading:false});
+  
+  const tooth=new THREE.Group();
+  function addFaceted(geo,pos,rot){const m=new THREE.Mesh(geo,mat);m.position.copy(pos);if(rot)m.rotation.z=rot;tooth.add(m)}
+  const cg=new THREE.SphereGeometry(1.2,40,28),p=cg.attributes.position;
+  for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.05;v.z*=.9;if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.75+.2*Math.cos(4*th)*(r/1.2)-.3*Math.max(0,1-r/.7)}else v.y*=.55;p.setXYZ(i,v.x,v.y,v.z)}
+  cg.computeVertexNormals();addFaceted(cg,new THREE.Vector3(0,.6,0));
+  [-1,1].forEach(sd=>{const rg=new THREE.ConeGeometry(.45,1.9,24,4,true);rg.rotateX(Math.PI);addFaceted(rg,new THREE.Vector3(sd*.47,-.65,0),sd*.12)});
+  tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.08);sc.add(tooth);
+
+  /* ---------- Atabara shield: text ring + orbiting logo emblem ---------- */
+  const RING=2.0,SHIELD=2.08;
+  const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+  function bandTexture(){
+    const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+    x.font="800 44px 'Bricolage Grotesque', Arial, Helvetica, sans-serif";x.fillStyle="#2b1b33";x.textBaseline="middle";
+    const unit="BANDUNG SMILE STUDIO   ◉   JL. BUAH BATU 302   ◉   BUKA SETIAP HARI   ◉   ";
+    const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+    x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+    x.fillRect(0,4,c.width,3);x.fillRect(0,c.height-7,c.width,3);
+    const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+  const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+  const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+  const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+  const bandF=new THREE.Mesh(bandGeo,bandFront),bandB=new THREE.Mesh(bandGeo,bandBack);ring.add(bandB,bandF);
+  const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+  setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+  // logo emblem riding the ring
+  const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+  logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;c.getContext("2d").drawImage(logoImg,0,0,512,512);logoTex.image=c;logoTex.needsUpdate=true};
+  logoImg.src=(document.querySelector(".brand img")||{}).src||"";
+  const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+  // faint protective shell + ripples where bacteria are stopped
+  const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,1),new THREE.MeshBasicMaterial({color:0xc2412b,wireframe:true,transparent:true,opacity:.035,depthWrite:false}));sc.add(shell);
+  const ripples=[];const rippleGeo=new THREE.RingGeometry(.12,.17,40);
+  function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:0xc2412b,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+    m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+  let flash=0;
+
+  /* ---------- bacteria ---------- */
+  const ink=new THREE.MeshStandardMaterial({color:0x2b1b33,roughness:.45,metalness:.1,flatShading:true});
+  const gold=new THREE.MeshStandardMaterial({color:0xf2b134,roughness:.35,metalness:.2,flatShading:true});
+  const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,1),m);
+  const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,5,false),m);
+  const MAKERS=[
+    m=>{const g=new THREE.Group();g.add(ball(.17,m));for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,gold);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g}, // coccus with pili
+    m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});return g}, // diplococcus
+    m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g}, // streptococcus chain
+    m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g}, // staphylococcus
+    m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,8),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+      const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,gold,30));return g}, // bacillus + flagellum
+    m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)}, // spirillum
+    m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+      const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,gold,20));return g} // vibrio
+  ];
+  const bugs=[];
+  function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+    b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+  const N=innerWidth<700?7:10;
+  for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length](i%4===3?gold:ink);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+  // debris from a cleared bacterium
+  const bits=[];const bitGeo=new THREE.TetrahedronGeometry(.045);
+  function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?gold:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+  /* ---------- lights ---------- */
+  sc.add(new THREE.HemisphereLight(0xffffff,0xf3dccf,.95));
+  const k=new THREE.DirectionalLight(0xffffff,.9);k.position.set(3,4,5);sc.add(k);
+  const g2=new THREE.PointLight(0xc2412b,.9,14);g2.position.set(-3,-1,3);sc.add(g2);
+  function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+  /* ---------- interaction: drag to spin, tap bacteria to clear ---------- */
+  let mx=0,my=0,vis=true,drag=null,yaw=0,pitch=0,vy=0,cleared=0;
+  const ray=new THREE.Raycaster(),ndc=new THREE.Vector2();
+  const zap=document.getElementById("zapc");
+  function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+    const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+  addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+  cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+  cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+  cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+  addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+    if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+      setTimeout(()=>spawn(b,false),1600)}}});
+  new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+  /* ---------- loop ---------- */
+  const clk=new THREE.Clock();let emA=0;
+  (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+    if(!reduce){
+      if(!drag){yaw+=vy;vy*=.94}
+      tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+      ring.rotation.y-=dt*.35;emA+=dt*.55;
+      bandFront.map&&(bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1);
+      emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+      const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+      shell.rotation.y+=dt*.05;
+      bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+        if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+        // drift toward the tooth with a little wander
+        if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+        u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+        const d=b.position.length();
+        if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+        if(d>3.8)spawn(b,false);
+        b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+    }else{emblem.position.set(0,0,RING+.02)}
+    for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+    for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+    flash*=.9;shell.material.opacity=.035+flash*.1;
+    R.render(sc,cam)})();
+}
+</script>
+</body>
+</html>

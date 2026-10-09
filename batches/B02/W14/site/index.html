@@ -1,0 +1,1131 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sozo Dental Bandung — Konsep Website</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta property="og:title" content="Sozo Dental Bandung — Konsep Website">
+<meta property="og:description" content="Konsep website oleh Maxi Growth Studio. Bukan website resmi klinik.">
+<meta name="theme-color" content="#132573">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Mulish:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS — dari logo & CSS situs Sozo (navy #132573, cyan #16c2e0, es #e5f7ff) ============ */
+:root{--navy:#132573;--navy2:#1a2080;--ink:#0f1b4d;--cy:#16c2e0;--cy-t:#08778c;--cy-d:#7fe0f2;--sky:#6ec1e4;--ice:#e5f7ff;--ice2:#f1faff;--bg:#f7fbfe;--line:#d6e5ef;--line2:#b9cfdd;--muted:#4c5a7c;--muted2:#8391ad;
+--ok:#1b8a4c;--warn:#b7791f;--bad:#c2410c;--wa:#0f8a4a;--ease:cubic-bezier(.22,1,.36,1);--r:26px 26px 26px 8px;--r-s:16px 16px 16px 5px;
+--sh1:0 1px 2px rgba(19,37,115,.06),0 8px 24px -12px rgba(19,37,115,.18);--sh2:0 2px 4px rgba(19,37,115,.05),0 30px 60px -30px rgba(19,37,115,.35);
+--hf:Poppins,"Segoe UI",Arial,sans-serif;--bf:Mulish,"Segoe UI",Arial,sans-serif;--mf:"Space Mono",ui-monospace,Menlo,monospace}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--bf);color:var(--ink);background:var(--bg);font-size:16px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+textarea,input{font:inherit;color:inherit}
+:focus-visible{outline:2.5px solid var(--cy);outline-offset:3px;border-radius:6px}
+h1,h2,h3,h4{font-family:var(--hf);line-height:1.15;letter-spacing:-.02em;font-weight:700;color:var(--navy)}
+h2{font-size:clamp(28px,3.6vw,44px);text-wrap:balance}
+.wrap{width:min(1200px,100%);margin:0 auto;padding:0 max(16px,env(safe-area-inset-left))}
+section{padding:clamp(64px,8vw,112px) 0}
+.i{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.lead{font-size:17px;color:var(--muted);max-width:560px}
+.chk{display:inline-block;font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--warn);background:#fff6e5;border:1px dashed #e4b867;border-radius:6px;padding:1px 6px;margin-left:4px;letter-spacing:0;white-space:nowrap;vertical-align:middle;line-height:1.5}
+.nw{white-space:nowrap}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* section head: nomor stasiun + judul (tanpa pill) */
+.shd{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:16px 48px;align-items:end;margin-bottom:34px}
+.stn{display:flex;align-items:center;gap:10px;font-family:var(--mf);font-size:12px;color:var(--cy-t);font-weight:700;letter-spacing:.04em;margin-bottom:12px;text-transform:uppercase}
+.stn b{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);color:var(--navy);font-size:12px;background:#fff}
+.stn::after{content:"";height:2px;width:46px;background:repeating-linear-gradient(90deg,var(--cy) 0 8px,transparent 8px 14px)}
+@media(max-width:899px){.shd{grid-template-columns:1fr;margin-bottom:24px}}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 22px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s var(--ease),background .2s,box-shadow .2s,border-color .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff;box-shadow:0 10px 24px -12px rgba(19,37,115,.7)}
+.btn-navy:hover{background:var(--navy2)}
+.btn-wa{background:var(--wa);color:#fff;box-shadow:0 10px 24px -12px rgba(15,138,74,.8)}
+.btn-wa:hover{background:#0c7a41}
+.btn-gh{border:1.5px solid var(--line2);background:#fff;color:var(--navy)}
+.btn-gh:hover{border-color:var(--navy)}
+.btn-sm{min-height:44px;padding:0 16px;font-size:14px}
+.wai{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center;margin-left:-10px}
+/* ============ PREVIEW BAR ============ */
+.pv{background:var(--ink);color:#dfe6ff;font-size:13px;line-height:1.45}
+.pv-in{display:flex;align-items:center;gap:10px;min-height:44px;padding-top:6px;padding-bottom:6px}
+.pv-t{flex:1;min-width:0}.pv-t b{color:#fff}
+.pv .chk{background:transparent;color:#ffd58a;border-color:#8f7a4a}
+.pv-x{width:44px;height:44px;display:grid;place-items:center;color:#fff;flex:none;margin-right:-10px}
+/* ============ NAV ============ */
+nav{position:sticky;top:0;z-index:50;background:rgba(247,251,254,.9);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s}
+nav.sc{border-color:var(--line);box-shadow:0 6px 20px -16px rgba(19,37,115,.4)}
+.nav-in{display:flex;align-items:center;gap:20px;min-height:70px}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{height:40px;width:auto}
+.brand .city{font-family:var(--mf);font-size:10.5px;font-weight:700;color:var(--cy-t);border-left:1.5px solid var(--line2);padding-left:10px;line-height:1.3;letter-spacing:.06em}
+.links{display:flex;gap:4px;margin-left:auto}
+.links a{padding:10px 12px;border-radius:10px;font-weight:600;font-size:14.5px;color:var(--muted);transition:color .2s,background .2s}
+.links a:hover,.links a[aria-current=true]{color:var(--navy);background:var(--ice)}
+.nav-r{display:flex;align-items:center;gap:10px}
+.lang{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;padding:3px;background:#fff}
+.lang button{min-width:40px;min-height:36px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted);font-family:var(--mf)}
+.lang button[aria-pressed=true]{background:var(--navy);color:#fff}
+.burger{display:none;width:46px;height:46px;border-radius:14px;border:1.5px solid var(--line);background:#fff;flex-direction:column;align-items:center;justify-content:center}
+.burger i{display:block;width:18px;height:2px;background:var(--navy);border-radius:2px;transition:transform .3s var(--ease)}
+.burger i+i{margin-top:5px}
+.burger[aria-expanded=true] i:first-child{transform:translateY(3.5px) rotate(45deg)}.burger[aria-expanded=true] i+i{transform:translateY(-3.5px) rotate(-45deg);margin-top:0}
+.sheet{display:none}
+.scrim{position:fixed;inset:0;background:rgba(15,27,77,.35);opacity:0;pointer-events:none;transition:opacity .3s;z-index:40}
+.scrim.open{opacity:1;pointer-events:auto}
+@media(max-width:1060px){.links,.nav-cta{display:none}.burger{display:flex}
+ .sheet{display:block;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 18px;transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .3s var(--ease),visibility .3s;box-shadow:0 20px 40px -20px rgba(19,37,115,.35)}
+ .sheet.open{opacity:1;transform:none;visibility:visible}
+ .sheet a.sl{display:flex;justify-content:space-between;align-items:center;min-height:52px;border-bottom:1px solid var(--line);font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy)}
+ .sheet a.sl small{font-family:var(--mf);font-size:11px;color:var(--cy-t)}
+ .srow{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-top:14px;flex-wrap:wrap}}
+@media(max-width:600px){.nav-r .lang{display:none}.brand svg{height:34px}.nav-in{min-height:62px}}
+/* ============ HERO ============ */
+.hero{padding:clamp(24px,4.4vw,60px) 0 clamp(40px,5vw,70px);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-8%;top:-30%;width:62%;aspect-ratio:1;border-radius:50%;border:2px dashed rgba(22,194,224,.25);pointer-events:none}
+.hg{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:32px;align-items:center;position:relative}
+.hl0{display:flex;align-items:center;gap:8px;font-family:var(--mf);font-size:12.5px;font-weight:700;color:var(--cy-t);margin-bottom:16px;letter-spacing:.03em;flex-wrap:wrap}
+.hl0 span{display:inline-flex;align-items:center;gap:6px}
+.hl0 span+span::before{content:"";width:16px;height:2px;background:var(--cy);border-radius:1px}
+.hero h1{font-size:clamp(38px,5vw,66px);letter-spacing:-.035em;line-height:1.04;margin-bottom:20px;text-wrap:balance}
+.hero h1 em{font-style:normal;color:var(--cy-t);position:relative;white-space:nowrap}
+.hero h1 em svg{position:absolute;left:-2%;right:0;bottom:-.14em;width:104%;height:.3em}
+.hero .lead{font-size:18px}
+.today{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px 16px;margin-top:26px;max-width:540px;box-shadow:var(--sh1)}
+.today-h{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted2);letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px}
+.brs{display:grid;gap:2px}
+.brs a{display:grid;grid-template-columns:28px minmax(0,1fr) auto;align-items:center;gap:10px;min-height:44px;border-radius:12px;padding:0 6px;margin:0 -6px;transition:background .2s}
+.brs a:hover{background:var(--ice2)}
+.brs .no{width:28px;height:28px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-size:11px;font-weight:700;color:var(--navy)}
+.brs .nm{font-weight:700;font-size:14.5px;min-width:0}
+.brs .st{font-size:12.5px;font-weight:600;display:flex;align-items:center;gap:6px;color:var(--muted);text-align:right}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);flex:none}
+.st-open .dot{animation:pl 2s infinite}
+.st-closed .dot{background:var(--muted2)}.st-unk .dot{background:#fff;border:2px dashed var(--warn)}
+@keyframes pl{0%{box-shadow:0 0 0 0 rgba(27,138,76,.45)}70%{box-shadow:0 0 0 8px rgba(27,138,76,0)}100%{box-shadow:0 0 0 0 rgba(27,138,76,0)}}
+.intent{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line)}
+.intent span{font-size:12.5px;color:var(--muted);font-weight:700;width:100%;margin-bottom:2px}
+.intent button{min-height:40px;padding:0 14px;border-radius:999px;border:1.5px solid var(--line);font-size:13.5px;font-weight:700;color:var(--navy);transition:all .15s}
+.intent button:hover{border-color:var(--navy)}
+.intent button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.btn-pri{min-height:58px;padding:0 26px 0 12px}
+.btn-pri .bl{display:flex;flex-direction:column;align-items:flex-start;line-height:1.2}
+.btn-pri small{font-size:12px;font-weight:600;opacity:.8}
+#hctal{transition:opacity .2s}
+.stage{position:relative;aspect-ratio:1;width:100%;max-width:520px;justify-self:center}
+.stage canvas{position:absolute;inset:0;width:100%!important;height:100%!important;z-index:2}
+.halo{position:absolute;inset:9%;border-radius:50%;background:radial-gradient(circle at 40% 36%,#fff 0,var(--ice) 58%,rgba(229,247,255,0) 72%)}
+.orbit{position:absolute;inset:3%;border-radius:50%;border:1.5px solid rgba(22,194,224,.4);animation:spin 70s linear infinite}
+.orbit::before{content:"";position:absolute;inset:8%;border-radius:50%;border:1px dashed rgba(19,37,115,.14)}
+.orbit i{position:absolute;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;background:#fff;border:3px solid var(--cy)}
+.orbit i:nth-child(1){left:50%;top:0}.orbit i:nth-child(2){left:6.7%;top:75%;border-color:var(--navy)}.orbit i:nth-child(3){left:93.3%;top:75%}
+@keyframes spin{to{transform:rotate(360deg)}}
+.fb{position:absolute;inset:20%;display:none;z-index:1;animation:float 6s ease-in-out 1s infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+.badge{position:absolute;left:3%;bottom:7%;width:92px;height:92px;border-radius:50%;background:#fff;box-shadow:0 18px 36px -18px rgba(19,37,115,.5);outline:1.5px solid rgba(22,194,224,.6);outline-offset:4px;z-index:3;padding:8px}
+.zap{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);z-index:4;background:#fff;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--muted);white-space:nowrap;box-shadow:var(--sh1);display:none}
+.zap.on{display:block}.zap b{color:var(--navy);font-family:var(--mf)}
+.zap.pop b{animation:pop .4s var(--ease)}@keyframes pop{50%{transform:scale(1.5);color:var(--cy-t)}}
+.proof{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:#fff;border:1px solid var(--line);border-radius:var(--r);margin-top:clamp(28px,4vw,52px);overflow:hidden;box-shadow:var(--sh1)}
+.pf{display:flex;gap:14px;padding:20px;align-items:flex-start;transition:background .2s}
+.pf+.pf{border-left:1px solid var(--line)}
+.pf:hover{background:var(--ice2)}
+.pf .ic{width:42px;height:42px;border-radius:14px 14px 14px 4px;background:var(--ice);color:var(--navy);display:grid;place-items:center;flex:none}
+.pf b{display:block;font-family:var(--hf);font-size:15.5px;color:var(--navy);line-height:1.25}
+.pf span.s{display:block;font-size:13px;color:var(--muted);line-height:1.4;margin-top:3px}
+@media(max-width:1179px){.proof{grid-template-columns:repeat(2,minmax(0,1fr))}.pf:nth-child(3){border-left:0}.pf:nth-child(n+3){border-top:1px solid var(--line)}}
+@media(max-width:899px){.hg{grid-template-columns:minmax(0,1fr);gap:0}.hero h1{font-size:clamp(34px,9.6vw,46px)}.hero .lead{font-size:16px}
+ .ctas{flex-direction:column}.ctas .btn{width:100%}.btn-pri{justify-content:center}
+ .stage{width:78%;max-width:320px;margin-top:26px}.badge{width:62px;height:62px;padding:5px}
+ .pf{flex-direction:column;gap:10px;padding:14px}.pf .ic{width:34px;height:34px}}
+/* ============ CEK GIGI ============ */
+#cek{background:linear-gradient(180deg,var(--bg),#fff 40%)}
+.prog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.ps{text-align:left;padding:8px 0 4px;min-height:44px;display:block;width:100%}
+.ps i{display:block;height:4px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.ps i::after{content:"";position:absolute;inset:0;background:var(--navy);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease),background .3s}
+.ps.on i::after{transform:scaleX(1)}.ps.done i::after{transform:scaleX(1);background:var(--cy)}
+.ps span{display:flex;gap:8px;align-items:baseline;margin-top:10px;font-size:13.5px;color:var(--muted2);font-weight:600;white-space:nowrap}
+.ps b{font-family:var(--mf);font-size:11px}
+.ps.on span,.ps.done span{color:var(--navy);font-weight:800}
+.ps em{font-style:normal}
+.console{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);background:#fff;border:1px solid var(--line);border-radius:30px 30px 30px 10px;box-shadow:var(--sh2);margin-top:14px}
+.c-l{padding:clamp(20px,3vw,34px);border-right:1px solid var(--line)}
+.c-l-in{position:sticky;top:96px}
+.c-r{padding:clamp(20px,3vw,34px);min-width:0}
+.step{font-family:var(--mf);font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--cy-t)}
+.ptitle{font-size:clamp(20px,2vw,24px);margin:6px 0 16px}
+.c-head{display:flex;align-items:flex-end;justify-content:space-between;gap:4px 12px;flex-wrap:wrap}
+.seg{display:inline-flex;background:var(--ice2);border:1px solid var(--line);border-radius:999px;padding:3px;margin-bottom:14px}
+.seg button{min-height:38px;padding:0 13px;border-radius:999px;font-size:12.5px;font-weight:800;color:var(--muted)}
+.seg button[aria-pressed=true]{background:#fff;color:var(--navy);box-shadow:0 1px 3px rgba(19,37,115,.18)}
+.aw{position:relative;border-radius:22px;background:radial-gradient(ellipse at 50% 50%,var(--ice2) 0,#fff 70%)}
+.arch{width:100%;height:auto;display:block;user-select:none;-webkit-user-select:none;overflow:visible;touch-action:manipulation}
+.arch .t{cursor:pointer;outline:none}.arch .hit{fill:transparent}
+.arch .tb{transform-box:fill-box;transform-origin:center;transition:transform .3s var(--ease)}
+.arch .body{fill:url(#toothG);stroke:#9fb6c8;stroke-width:1.1;transition:fill .25s,stroke .25s}
+.arch .gr{fill:none;stroke:#b8cad8;stroke-width:1;stroke-linecap:round}
+.arch .halo2{fill:none;stroke:var(--cy);stroke-width:1.4;opacity:0;transform:scale(.6);transform-box:fill-box;transform-origin:center;transition:opacity .3s,transform .3s var(--ease)}
+.arch .t:hover .tb,.arch .t:focus-visible .tb{transform:scale(1.07)}
+.arch .t:hover .body{stroke:var(--cy)}
+.arch .t:focus-visible .halo2{opacity:1;transform:none;stroke-dasharray:3 2}
+.arch .t.on .body{fill:var(--navy);stroke:var(--navy)}.arch .t.on .gr{stroke:var(--cy)}.arch .t.on .halo2{opacity:1;transform:none}
+.arch.pre .tb{transform:scale(0)}
+.arch .nb{opacity:0;transition:opacity .2s;pointer-events:none}.arch .nb.on{opacity:1}
+.arch .nb circle{fill:var(--cy);stroke:#fff;stroke-width:1.2}
+.arch .nb text{fill:var(--ink);font-family:var(--mf);font-size:7px;font-weight:700}
+.arch text.jl{font-family:var(--mf);font-size:8.5px;fill:var(--muted2);font-weight:700;letter-spacing:.2em}
+.arch.zu,.arch.zl{overflow:hidden}
+.arch.zu .t[data-jaw="1"],.arch.zl .t[data-jaw="0"],.arch.zu .nb[data-jaw="1"],.arch.zl .nb[data-jaw="0"]{visibility:hidden}
+.side{position:absolute;bottom:2px;font-family:var(--mf);font-size:9.5px;font-weight:700;text-transform:uppercase;color:var(--muted);background:#fff;border:1px solid var(--line);border-radius:99px;padding:3px 8px;white-space:nowrap;pointer-events:none}
+.side.r{left:0}.side.l{right:0}
+.ctr{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);text-align:center;width:52%;pointer-events:none;display:flex;flex-direction:column;align-items:center}
+.aw.zm .ctr{position:static;transform:none;width:auto;padding:14px 0 0}
+.ctr .big{font-family:var(--hf);font-weight:700;font-size:clamp(30px,3.6vw,40px);line-height:1;color:var(--navy)}
+.ctr .sm{font-size:12.5px;color:var(--muted);margin-top:4px;line-height:1.35;text-wrap:balance}
+.tapme{width:44px;height:44px;margin:0 auto 8px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center;position:relative;color:var(--cy-t)}
+.tapme::after{content:"";position:absolute;inset:-2px;border-radius:50%;border:2px solid var(--cy);animation:ring 2.2s var(--ease) infinite}
+@keyframes ring{to{transform:scale(1.6);opacity:0}}
+.skip{pointer-events:auto;margin-top:6px;font-size:12.5px;font-weight:800;color:var(--cy-t);min-height:40px;text-decoration:underline;text-underline-offset:4px}
+.mchips{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;margin-top:8px}
+.mchip{display:inline-flex;align-items:center;gap:2px;font-size:11px;font-weight:700;background:var(--ice);color:var(--navy);border-radius:99px;padding:0 0 0 9px;pointer-events:auto;line-height:1.2}
+.mchip button{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:15px;color:var(--cy-t)}
+.mchip.plus{padding:6px 9px}
+.clr{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:1.5px solid var(--line2);border-radius:99px;font-size:12.5px;font-weight:800;margin-top:10px;pointer-events:auto;background:#fff;color:var(--navy)}
+.clr .i{width:14px;height:14px}
+.tip{position:absolute;pointer-events:none;background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 10px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-130%);opacity:0;transition:opacity .15s;z-index:3}
+.tip.on{opacity:1}
+.toast{position:absolute;left:50%;top:6px;transform:translate(-50%,-4px);background:var(--navy);color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:99px;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;white-space:nowrap;z-index:3}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.orient{font-size:12px;color:var(--muted);margin-top:12px;text-align:center;text-wrap:balance}
+.kl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:26px}
+@media(min-width:1100px){.kl{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.k{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:90px;padding:12px 8px;border-radius:var(--r-s);border:1.5px solid var(--line);background:#fff;text-align:center;font-size:13.5px;font-weight:700;line-height:1.25;color:var(--navy);transition:all .2s var(--ease)}
+.k .ki{width:38px;height:38px;border-radius:50%;background:var(--ice);display:grid;place-items:center}
+.k svg{width:21px;height:21px;stroke:var(--navy);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.k:hover{border-color:var(--navy);transform:translateY(-1px)}
+.k[aria-checked=true]{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:inset 0 -4px 0 var(--cy)}
+.k[aria-checked=true] .ki{background:rgba(22,194,224,.2)}.k[aria-checked=true] svg{stroke:var(--cy-d)}
+.ud{position:absolute;top:10px;right:10px;width:7px;height:7px;border-radius:50%;background:var(--warn)}.ud.u3{background:var(--bad)}
+.res{border-radius:24px 24px 24px 8px;position:relative;overflow:hidden;scroll-margin-top:140px}
+.res.empty{background:var(--ice2);border:1px dashed var(--line2);padding:22px;min-height:200px;display:flex;flex-direction:column;gap:10px}
+.res .skl{height:8px;border-radius:4px;background:#dcebf5}
+.res .gbtn{height:48px;border-radius:999px;background:#dcebf5;margin-top:auto;display:grid;place-items:center;font-size:13px;font-weight:800;color:#8aa0b8}
+.res.empty p{font-size:14px;color:var(--muted);text-align:center;text-wrap:balance}
+.res.empty p b{display:block;font-family:var(--hf);color:var(--navy);font-size:15.5px;margin-bottom:2px}
+.res.full{background:var(--ink);color:#fff;padding:clamp(20px,3vw,30px)}
+.res.full::after{content:"";position:absolute;right:-60px;top:-60px;width:200px;height:200px;border-radius:50%;border:26px solid rgba(22,194,224,.14);pointer-events:none}
+.res.anim{animation:rin .45s var(--ease)}@keyframes rin{from{opacity:0;transform:translateY(12px)}}
+.r-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.rk{font-family:var(--mf);font-size:11px;letter-spacing:.14em;color:var(--cy-d);font-weight:700}
+.urg{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:700;padding:4px 11px;border-radius:99px}
+.urg i{width:7px;height:7px;border-radius:50%;background:currentColor}
+.urg.u1{color:#9fe0b8;background:rgba(159,224,184,.14)}.urg.u2{color:#ffd58a;background:rgba(255,213,138,.14)}.urg.u3{color:#ffb199;background:rgba(255,177,153,.16)}
+.res h3{font-size:22px;margin:12px 0 10px;color:#fff;outline:none;text-wrap:balance}
+.rteeth{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.rteeth span{font-size:11.5px;border:1px solid rgba(127,224,242,.5);color:var(--cy-d);border-radius:99px;padding:2px 10px}
+.res p.ex{color:#c9d2ee;font-size:14.5px;margin-bottom:18px}
+.rtl-h{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:#98a6cf;font-weight:700;margin-bottom:4px}
+.tl{list-style:none;counter-reset:n}
+.tl li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.12);font-size:14.5px}
+.tl li span:first-child::before{content:counter(n,decimal-leading-zero);counter-increment:n;color:var(--cy-d);font-family:var(--mf);font-weight:700;font-size:11px;margin-right:10px}
+.tl li span:last-child{white-space:nowrap;font-weight:700;font-family:var(--mf);font-size:13px;text-align:right}
+.tl em{font-style:normal;color:#98a6cf;font-weight:400;font-family:var(--bf);font-size:13px}
+.est{font-size:12px;color:#98a6cf;margin:10px 0 20px}
+.est .chk,.pv .chk{margin-left:0}
+.bub-h{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px}
+.mrst{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:800;color:var(--cy-d);min-height:36px;text-decoration:underline;text-underline-offset:4px}.mrst .i{width:13px;height:13px}
+.bub-c{font-family:var(--mf);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:#98a6cf}
+.bub{display:block;width:100%;background:#16255f;border:1px solid rgba(255,255,255,.1);border-radius:16px 16px 4px 16px;color:#f1f4ff;font-size:14px;line-height:1.5;padding:12px 14px;resize:none;min-height:84px;max-height:160px;outline:none}
+.bub:focus{border-color:var(--cy)}
+.pref{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:12px 0 16px;font-size:12.5px;color:#98a6cf}
+.pref button{min-height:38px;padding:0 13px;border-radius:99px;border:1px solid rgba(255,255,255,.25);color:#fff;font-size:12.5px;font-weight:700}
+.pref button[aria-pressed=true]{background:#fff;color:var(--navy);border-color:#fff}
+.res .btn-wa{width:100%;min-height:54px}
+.copy{display:flex;align-items:center;gap:6px;margin:8px auto 0;font-size:13px;font-weight:700;color:var(--cy-d);min-height:44px}
+.copy .i{width:15px;height:15px}
+.disc{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:899px){.prog{position:sticky;top:61px;z-index:20;background:rgba(255,255,255,.95);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);margin:0 -16px;padding:2px 16px 6px;display:flex}.ps:not(.on) em{display:none}.ps{flex:1 1 0;min-width:0;transition:flex-grow .4s var(--ease)}.ps.on{flex-grow:2.4}
+ .console{grid-template-columns:minmax(0,1fr)}.c-l{border-right:0;border-bottom:1px solid var(--line);padding:18px 10px 16px}.c-l .c-head{padding:0 6px}.c-l-in{position:static}.c-r{padding:20px 14px 18px}}
+@media(max-width:600px){.ctr{width:62%}.ctr .big{font-size:30px}.tapme{width:38px;height:38px;margin-bottom:4px}.ctr .sm{font-size:12px}}
+/* ============ JALUR SOZO (fitur khas) ============ */
+#cabang{background:var(--ink);color:#dfe6ff;position:relative;overflow:hidden}
+#cabang h2{color:#fff}#cabang .lead{color:#b9c5ea}
+#cabang .stn{color:var(--cy-d)}#cabang .stn b{background:var(--ink);color:#fff}
+.jg{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.mapc{position:sticky;top:96px;background:#14256a;border:1px solid rgba(255,255,255,.1);border-radius:30px 30px 30px 10px;padding:14px;position:relative}
+.lm{width:100%;height:auto}
+.lm .area{cursor:pointer}
+.lm .area circle{fill:#0f1b4d;stroke:#6f82bf;stroke-width:1.2;transition:all .2s}
+.lm .area text{font-family:var(--bf);font-size:8.6px;fill:#aebbe3;font-weight:700}
+.lm .area:hover circle,.lm .area.on circle{fill:var(--cy);stroke:#fff}
+.lm .area.on text{fill:#fff}
+.lm .stn2 circle.o{fill:#fff;stroke:var(--cy);stroke-width:4}
+.lm .stn2 text{font-family:var(--mf);font-size:9.5px;font-weight:700;fill:#fff}
+.lm .stn2 .num{fill:var(--navy);font-size:9px}
+.lm .stn2.best circle.o{stroke:#ffd58a}
+.lm .rt{stroke:var(--cy);stroke-width:2;stroke-dasharray:4 4;fill:none;opacity:.9}
+.lm .rt.best{stroke:#ffd58a;stroke-width:2.6}
+.lm .dl{font-family:var(--mf);font-size:8.5px;font-weight:700;fill:#fff;paint-order:stroke;stroke:#14256a;stroke-width:3px}
+.mapn{font-size:11.5px;color:#9fb0de;margin-top:8px;padding:0 6px}
+.plan{display:grid;gap:14px}
+.pbox{background:#fff;color:var(--ink);border-radius:var(--r);padding:18px}
+.pbox h3{font-size:17px;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips button{min-height:40px;padding:0 13px;border-radius:999px;border:1.5px solid var(--line);font-size:13px;font-weight:700;color:var(--navy);background:#fff;transition:all .15s}
+.chips button:hover{border-color:var(--navy)}
+.chips button[aria-pressed=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.chips .geo{border-style:dashed;color:var(--cy-t)}
+.bl2{display:grid;gap:8px}
+.bc{display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:12px;align-items:center;text-align:left;width:100%;border:1.5px solid var(--line);border-radius:var(--r-s);padding:12px;background:#fff;transition:all .2s}
+.bc:hover{border-color:var(--navy)}
+.bc[aria-checked=true]{border-color:var(--navy);box-shadow:inset 4px 0 0 var(--cy);background:var(--ice2)}
+.bc .no{width:40px;height:40px;border-radius:50%;border:3px solid var(--cy);display:grid;place-items:center;font-family:var(--mf);font-weight:700;color:var(--navy);font-size:12px}
+.bc b{display:block;font-family:var(--hf);font-size:15px;color:var(--navy);line-height:1.25}
+.bc .ad{display:block;font-size:12.5px;color:var(--muted);line-height:1.35;margin-top:2px}
+.bc .km{font-family:var(--mf);font-size:12px;font-weight:700;color:var(--navy);text-align:right;white-space:nowrap}
+.bc .km small{display:block;font-family:var(--bf);font-weight:700;font-size:11px;margin-top:2px}
+.bc .km .st-open{color:var(--ok)}.bc .km .st-closed{color:var(--muted2)}.bc .km .st-unk{color:var(--warn)}
+.bc .tag{display:inline-block;font-family:var(--mf);font-size:10px;background:#fff3d6;color:#8a5a00;border-radius:6px;padding:1px 6px;margin-top:4px}
+.row3{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.lab{font-family:var(--mf);font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin:12px 0 6px}
+.lab:first-child{margin-top:0}
+.pbox .bub{background:var(--ice2);color:var(--ink);border-color:var(--line)}
+.acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.acts .btn-wa{flex:1 1 220px}
+@media(max-width:899px){.jg{grid-template-columns:minmax(0,1fr)}.row3{grid-template-columns:1fr}.mapc{padding:8px;position:static}.lm .area text{font-size:11.5px}.lm .stn2 text{font-size:11px}.lm .dl{font-size:11px}}
+@media(max-width:600px){.bc{grid-template-columns:40px minmax(0,1fr)}.bc .km{grid-column:2;text-align:left}.bc .km small{display:inline;margin-left:8px}}
+/* ============ LAYANAN & HARGA ============ */
+.svg-g{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.sv{background:#fff;border:1px solid var(--line);border-radius:var(--r-s);padding:18px;position:relative;transition:border-color .2s,transform .2s var(--ease)}
+.sv:hover{border-color:var(--cy);transform:translateY(-2px)}
+.sv .n{font-family:var(--mf);font-size:11px;color:var(--cy-t);font-weight:700}
+.sv h3{font-size:16px;margin:8px 0 4px}
+.sv p{font-size:13.5px;color:var(--muted);line-height:1.5}
+.sv svg.g{position:absolute;right:14px;top:14px;width:26px;height:26px;opacity:.9}
+@media(max-width:1000px){.svg-g{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.sv{padding:14px}.sv svg.g{display:none}}
+.pr{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:24px;margin-top:40px;align-items:start}
+.ptab{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.ptab .ph{display:flex;justify-content:space-between;gap:10px;padding:16px 20px;background:var(--navy);color:#fff;font-family:var(--hf);font-weight:600;font-size:15px;align-items:center;flex-wrap:wrap}
+.ptab .ph .chk{background:transparent;color:#ffd58a;border-color:#8f7a4a}
+.prw{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
+.prw:first-of-type{border-top:0}
+.prw span{font-weight:700;color:var(--navy);font-size:15px}
+.prw span small{display:block;font-weight:500;color:var(--muted);font-size:12.5px}
+.prw b{font-family:var(--mf);font-size:14px;white-space:nowrap;color:var(--navy)}
+.prw b small{font-family:var(--bf);font-size:11px;color:var(--muted);font-weight:600;margin-right:4px}
+.pnote{padding:14px 20px;background:var(--ice2);font-size:12.5px;color:var(--muted);border-top:1px solid var(--line)}
+.pside{background:var(--ice);border-radius:var(--r);padding:22px}
+.pside h3{font-size:19px;margin-bottom:8px}
+.pside p{font-size:14.5px;color:var(--muted);margin-bottom:14px}
+.pside ul{list-style:none;display:grid;gap:8px;margin-bottom:16px}
+.pside li{display:flex;gap:10px;font-size:14px;font-weight:600}
+.pside li::before{content:"";width:8px;height:8px;border-radius:50%;border:2px solid var(--cy);margin-top:7px;flex:none}
+@media(max-width:899px){.pr{grid-template-columns:1fr}.prw{padding:13px 16px}}
+/* ============ DOKTER ============ */
+.dg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.dc{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column}
+.dc .ph{aspect-ratio:5/4;position:relative;background:var(--ice)}
+.dc .ph svg{width:100%;height:100%}
+.dc .ph .il{position:absolute;left:10px;top:10px;font-family:var(--mf);font-size:10px;background:rgba(255,255,255,.9);border-radius:6px;padding:2px 7px;color:var(--muted);font-weight:700}
+.dc .bd{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px;flex:1}
+.dc h3{font-size:17px}
+.dc p{font-size:13.5px;color:var(--muted)}
+.dc .loc{font-family:var(--mf);font-size:11.5px;color:var(--cy-t);font-weight:700}
+.dc a{margin-top:auto;padding-top:8px;font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:6px;min-height:44px}
+.dc.ph0 .ph{background:repeating-linear-gradient(135deg,var(--ice2) 0 12px,#fff 12px 24px)}
+@media(max-width:899px){.dg{grid-template-columns:1fr}.dc{display:grid;grid-template-columns:120px minmax(0,1fr)}.dc .ph{aspect-ratio:auto;min-height:100%}}
+/* ============ FASILITAS ============ */
+.fg{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.fc{border-top:3px solid var(--cy);background:#fff;padding:16px;border-radius:0 0 var(--r-s)}
+.fc svg{width:26px;height:26px;color:var(--navy);margin-bottom:10px}
+.fc b{display:block;font-family:var(--hf);color:var(--navy);font-size:15px;line-height:1.3}
+.fc>span{display:block;font-size:13px;color:var(--muted);margin-top:4px;line-height:1.45}
+@media(max-width:1000px){.fg{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* ============ LOKASI ============ */
+#lokasi{background:#fff}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.tabs button{min-height:46px;padding:0 16px;border-radius:14px 14px 14px 4px;border:1.5px solid var(--line);font-weight:800;font-size:14px;color:var(--navy);display:inline-flex;align-items:center;gap:8px}
+.tabs button i{font-style:normal;font-family:var(--mf);font-size:11px;width:24px;height:24px;border-radius:50%;border:2px solid var(--cy);display:grid;place-items:center}
+.tabs button[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff}
+.lg{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:20px}
+.linfo{background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:grid;gap:16px;align-content:start}
+.linfo h3{font-size:21px}
+.lrow{display:flex;gap:12px;font-size:14.5px}
+.lrow svg{color:var(--cy-t);margin-top:2px}
+.lrow small{display:block;font-family:var(--mf);font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.hrs{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-top:6px}
+.hrs div{background:#fff;border:1px solid var(--line);border-radius:10px;text-align:center;padding:6px 2px;font-size:12px;font-weight:800;color:var(--navy)}
+.hrs div small{display:block;font-family:var(--mf);font-size:9.5px;color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0}
+.hrs div.td{background:var(--navy);color:#fff;border-color:var(--navy)}.hrs div.td small{color:#cfe0ff}
+.lbtns{display:flex;gap:8px;flex-wrap:wrap}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;background:var(--ice);position:relative;border:1px solid var(--line)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.map .mph{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);font-size:14px}
+.map .mph button{margin-top:10px}
+@media(max-width:899px){.lg{grid-template-columns:1fr}.map{min-height:280px}.hrs{gap:3px}.hrs div{font-size:11px;padding:6px 0}.hrs div small{font-size:8.5px}}
+/* ============ FAQ ============ */
+.fq{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:40px}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:64px;padding:14px 0;font-family:var(--hf);font-weight:600;font-size:17px;color:var(--navy);cursor:pointer}
+summary::-webkit-details-marker{display:none}
+summary i{width:30px;height:30px;border-radius:50%;border:2px solid var(--cy);flex:none;position:relative}
+summary i::before,summary i::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:2px;background:var(--navy);transform:translate(-50%,-50%);transition:transform .25s}
+summary i::after{transform:translate(-50%,-50%) rotate(90deg)}
+details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+details p{padding:0 0 18px;color:var(--muted);font-size:15px;max-width:640px}
+@media(max-width:899px){.fq{grid-template-columns:1fr;gap:10px}summary{font-size:16px}}
+/* ============ CTA + FOOTER ============ */
+.close{background:var(--navy);color:#dfe6ff;border-radius:40px 40px 40px 12px;padding:clamp(28px,5vw,60px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:30px;align-items:center;position:relative;overflow:hidden}
+.close h2{color:#fff}
+.close p{color:#c3cdf0;margin-top:12px;max-width:520px}
+.close .acts{margin-top:0;flex-direction:column}
+.close .acts .btn{width:100%;flex:none}
+.close svg.big{position:absolute;right:-40px;bottom:-60px;width:260px;opacity:.08;color:#fff}
+@media(max-width:899px){.close{grid-template-columns:1fr}}
+footer{padding:56px 0 110px;font-size:14px;color:var(--muted)}
+.fg2{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:28px}
+footer h4{font-family:var(--mf);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy);margin-bottom:10px}
+footer li{list-style:none;margin-bottom:6px}
+footer a:hover{color:var(--navy);text-decoration:underline}
+.fdisc{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:899px){.fg2{grid-template-columns:1fr 1fr}.fg2>div:first-child{grid-column:1/-1}}
+/* ============ FAB ============ */
+.fab{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));z-index:45;display:flex;align-items:center;gap:10px;min-height:56px;padding:0 20px 0 8px;border-radius:999px;background:var(--wa);color:#fff;font-weight:800;box-shadow:0 14px 30px -12px rgba(15,138,74,.7);transition:transform .3s var(--ease),opacity .3s}
+.fab .wai{margin-left:0;width:40px;height:40px}
+.fab.hide{transform:translateY(120%);opacity:0;pointer-events:none}
+@media(max-width:600px){.fab{padding:0 8px;min-width:56px;justify-content:center}.fab .l{display:none}}
+.gtoast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,10px);background:var(--navy);color:#fff;padding:9px 16px;border-radius:99px;font-size:13px;font-weight:700;opacity:0;transition:all .25s;z-index:60;pointer-events:none}
+.gtoast.on{opacity:1;transform:translate(-50%,0)}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="i-sozo" viewBox="-2 0 70 68"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#16c2e0"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/></symbol>
+ <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 .8c-1-.4-1.9-1.3-2.3-2.3l.8-1-1-2z"/></symbol>
+ <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+ <symbol id="i-ar" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+ <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.5-7-12a7 7 0 0 1 14 0c0 5.5-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+ <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+ <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></symbol>
+ <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></symbol>
+ <symbol id="i-cam" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="3"/><circle cx="12" cy="13.5" r="3.5"/><path d="M8 7l1.5-3h5L16 7"/></symbol>
+ <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16V11l2-5h10l2 5v5M3 16h18v3H3zM7 19v2M17 19v2"/><circle cx="7.5" cy="13.5" r="1"/><circle cx="16.5" cy="13.5" r="1"/></symbol>
+ <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+ <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2.5"/><path d="M3 10h18M7 15h4"/></symbol>
+ <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+ <symbol id="i-tap" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V12m0-1a1.5 1.5 0 0 1 3 0v4a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L3.6 15a1.5 1.5 0 0 1 2.4-1.8L9 16"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.4-5.7L4 8.5M4 4v4.5h4.5"/></symbol>
+ <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+ <symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11l18-7-7 18-2-8z"/></symbol>
+ <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.9"/><path d="M17.2 6.8v.1"/></symbol>
+ <symbol id="i-geo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+</svg>
+
+<div class="pv" id="pv"><div class="wrap pv-in">
+  <div class="pv-t" data-i="pv"></div>
+  <button class="pv-x" id="pvx" type="button" data-ia="pv_x"><svg class="i"><use href="#i-x"/></svg></button>
+</div></div>
+
+<nav id="nav"><div class="wrap nav-in">
+  <a href="#top" class="brand" data-ia="home">
+    <svg viewBox="0 0 300 80" role="img" aria-label="Sozo Dental"><g transform="translate(6,8)"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#16c2e0" transform="scale(1.02)"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/></g><text x="76" y="47" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="38" fill="#132573" letter-spacing="-0.5">sozo</text><text x="166" y="47" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="30" fill="#16c2e0">dental</text></svg>
+    <span class="city">BANDUNG<br>3 CABANG</span>
+  </a>
+  <div class="links" id="links"><a href="#cek" data-i="n1"></a><a href="#cabang" data-i="n2"></a><a href="#layanan" data-i="n3"></a><a href="#dokter" data-i="n4"></a><a href="#lokasi" data-i="n5"></a><a href="#faq" data-i="n6"></a></div>
+  <div class="nav-r">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-navy btn-sm nav-cta" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" data-ia="menu"><i></i><i></i></button>
+  </div>
+</div>
+<div class="sheet" id="sheet" inert>
+  <a class="sl" href="#cek"><span data-i="n1"></span><small>01</small></a>
+  <a class="sl" href="#cabang"><span data-i="n2"></span><small>02</small></a>
+  <a class="sl" href="#layanan"><span data-i="n3"></span><small>03</small></a>
+  <a class="sl" href="#dokter"><span data-i="n4"></span><small>04</small></a>
+  <a class="sl" href="#lokasi"><span data-i="n5"></span><small>05</small></a>
+  <a class="sl" href="#faq"><span data-i="n6"></span><small>06</small></a>
+  <div class="srow">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button type="button" data-l="id" aria-pressed="true">ID</button><button type="button" data-l="en" aria-pressed="false">EN</button></div>
+    <a class="btn btn-wa btn-sm" data-wa="book" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="cta"></span></a>
+  </div>
+</div>
+</nav>
+<div class="scrim" id="scrim"></div>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="hg">
+    <div>
+      <p class="hl0"><span>Pajajaran</span><span>Buah Batu</span><span>Mekarwangi</span></p>
+      <h1 id="h1"></h1>
+      <p class="lead" data-i="hl"></p>
+      <div class="today">
+        <div class="today-h"><span data-i="td_h"></span><span id="clock"></span></div>
+        <div class="brs" id="brs"></div>
+        <div class="intent" id="intent"></div>
+      </div>
+      <div class="ctas">
+        <a class="btn btn-wa btn-pri" id="hcta" href="#" target="_blank" rel="noopener"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="bl"><span id="hctal"></span><small>+62 851-8201-6877</small></span></a>
+        <a class="btn btn-gh" href="#cek" style="min-height:58px"><span data-i="c2"></span><svg class="i"><use href="#i-ar"/></svg></a>
+      </div>
+    </div>
+    <div class="stage" id="stage" aria-hidden="true">
+      <div class="halo"></div><div class="orbit"><i></i><i></i><i></i></div>
+      <svg class="fb" id="fb" viewBox="-6 -4 76 76"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#fff" stroke="#132573" stroke-width="1.6"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#16c2e0" stroke-width="3" stroke-linecap="round"/></svg>
+      <svg class="badge" viewBox="-2 0 70 68"><use href="#i-sozo"/></svg>
+      <div class="zap" id="zap"><span data-i="zap1"></span> <b id="zapc">0</b> <span data-i="zap2"></span></div>
+    </div>
+  </div>
+  <div class="proof">
+    <a class="pf" href="#cabang"><span class="ic"><svg class="i"><use href="#i-pin"/></svg></span><span><b data-i="p1a"></b><span class="s" data-i="p1b"></span></span></a>
+    <a class="pf" href="#lokasi"><span class="ic"><svg class="i"><use href="#i-clock"/></svg></span><span><b data-i="p2a"></b><span class="s" data-i="p2b"></span></span></a>
+    <a class="pf" id="pfg" href="https://maps.app.goo.gl/aQehKjb8VdBmzZuo9" target="_blank" rel="noopener"><span class="ic"><svg class="i"><use href="#i-star"/></svg></span><span><b data-i="p3a"></b><span class="s" data-i="p3b"></span></span></a>
+    <a class="pf" href="#harga"><span class="ic"><svg class="i"><use href="#i-tag"/></svg></span><span><b data-i="p4a"></b><span class="s" data-i="p4b"></span></span></a>
+  </div>
+</div></header>
+
+<section id="cek"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>01</b><span data-i="n1"></span></div><h2 data-i="sh"></h2></div><p class="lead" data-i="sl"></p></div>
+  <div class="prog" id="stepper">
+    <button class="ps on" type="button" data-s="0"><i></i><span><b>01</b><em data-i="st1"></em></span></button>
+    <button class="ps" type="button" data-s="1"><i></i><span><b>02</b><em data-i="st2"></em></span></button>
+    <button class="ps" type="button" data-s="2"><i></i><span><b>03</b><em id="st3l" data-i="st3"></em></span></button>
+  </div>
+  <div class="console">
+    <div class="c-l"><div class="c-l-in">
+      <div class="c-head"><div><div class="step" data-i="s1"></div><h3 class="ptitle" data-i="s1t"></h3></div>
+        <div class="seg" id="jaw" role="group" data-ia="jw_g"><button type="button" data-j="u" aria-pressed="false" data-i="jw_u"></button><button type="button" data-j="l" aria-pressed="false" data-i="jw_l"></button><button type="button" data-j="a" aria-pressed="true" data-i="jw_a"></button></div></div>
+      <div class="aw" id="aw"><svg class="arch pre" id="arch" viewBox="28 4 344 332" role="group"><defs><linearGradient id="toothG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eaf5fb"/></linearGradient><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dfe2"/><stop offset="1" stop-color="#efd3d8"/></linearGradient><filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.2" flood-color="#132573" flood-opacity=".16"/></filter></defs></svg>
+        <span class="side r" data-i="sd_r" aria-hidden="true"></span><span class="side l" data-i="sd_l" aria-hidden="true"></span>
+        <div class="ctr" id="ctr"></div><div class="tip" id="tip" aria-hidden="true"></div><div class="toast" id="toast" aria-live="polite"></div></div>
+      <p class="orient" data-i="orient"></p>
+    </div></div>
+    <div class="c-r">
+      <div class="step" data-i="s2"></div><h3 class="ptitle" id="s2t" data-i="s2t"></h3>
+      <div class="kl" id="kl" role="radiogroup" aria-labelledby="s2t"></div>
+      <div class="step" data-i="s3" style="margin-bottom:10px"></div>
+      <div class="res empty" id="res"></div><p class="sr" id="rstat" role="status"></p>
+      <p class="disc" data-i="sd"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="cabang"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>02</b><span data-i="n2"></span></div><h2 data-i="jh"></h2></div><p class="lead" data-i="jl"></p></div>
+  <div class="jg">
+    <div class="mapc"><svg class="lm" id="lm" viewBox="0 0 400 290" role="group" data-ia="lm_a"></svg><p class="mapn" data-i="mapn"></p></div>
+    <div class="plan">
+      <div class="pbox"><h3 data-i="q1"></h3><div class="chips" id="areas"></div></div>
+      <div class="pbox"><h3 data-i="q2"></h3><div class="bl2" id="bl2" role="radiogroup" data-ia="q2"></div></div>
+      <div class="pbox" id="pmsg">
+        <div class="row3"><div><div class="lab" data-i="q3"></div><div class="chips" id="psv"></div></div><div><div class="lab" data-i="q4"></div><div class="chips" id="pday"></div><div class="lab" data-i="q5"></div><div class="chips" id="ptm"></div></div></div>
+        <div class="bub-h" style="margin-top:14px"><label class="lab" for="pbub" style="margin:0" data-i="yourmsg"></label><button type="button" class="mrst" id="prst" hidden style="color:var(--cy-t)"><svg class="i"><use href="#i-reset"/></svg><span data-i="msg_rst"></span></button></div>
+        <textarea class="bub" id="pbub" rows="4"></textarea>
+        <div class="acts"><a class="btn btn-wa" id="psend" target="_blank" rel="noopener" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="send"></span></a><a class="btn btn-gh btn-sm" id="pmaps" target="_blank" rel="noopener" href="#">Maps ↗</a><a class="btn btn-gh btn-sm" id="pwaze" target="_blank" rel="noopener" href="#">Waze ↗</a></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section id="layanan"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>03</b><span data-i="n3"></span></div><h2 data-i="lh"></h2></div><p class="lead" data-i="ll"></p></div>
+  <div class="svg-g" id="svc"></div>
+  <div class="pr" id="harga">
+    <div class="ptab"><div class="ph"><span data-i="ph"></span><span class="chk" data-i="chk_p"></span></div><div id="prl"></div><div class="pnote" data-i="pnote"></div></div>
+    <div class="pside"><h3 data-i="ps_h"></h3><p data-i="ps_p"></p><ul id="psl"></ul><a class="btn btn-wa" data-wa="price" href="#"><svg class="i"><use href="#i-wa"/></svg><span data-i="ps_b"></span></a></div>
+  </div>
+</div></section>
+
+<section id="dokter" style="padding-top:0"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>04</b><span data-i="n4"></span></div><h2 data-i="dh"></h2></div><p class="lead"><span data-i="dl"></span> <span class="chk" data-i="chk"></span></p></div>
+  <div class="dg" id="dg"></div>
+  <div class="fg" id="fas" style="margin-top:44px"></div>
+</div></section>
+
+<section id="lokasi"><div class="wrap">
+  <div class="shd"><div><div class="stn"><b>05</b><span data-i="n5"></span></div><h2 data-i="loh"></h2></div><p class="lead" data-i="lol"></p></div>
+  <div class="tabs" id="tabs" role="tablist" data-ia="n5"></div>
+  <div class="lg"><div class="linfo" id="linfo" role="tabpanel"></div><div class="map" id="map"><div class="mph"><div><span data-i="map_ph"></span><br><button type="button" class="btn btn-gh btn-sm" id="mapBtn" data-i="map_b"></button></div></div></div></div>
+</div></section>
+
+<section id="faq"><div class="wrap fq">
+  <div><div class="stn"><b>06</b><span data-i="n6"></span></div><h2 data-i="fh"></h2><p class="lead" style="margin-top:12px" data-i="fl"></p><a class="btn btn-gh" data-wa="q" href="#" style="margin-top:18px"><svg class="i"><use href="#i-wa"/></svg><span data-i="fb"></span></a></div>
+  <div id="fql"></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="close">
+    <div><h2 data-i="ch"></h2><p data-i="cp"></p></div>
+    <div class="acts"><a class="btn btn-wa" data-wa="book" href="#" style="min-height:58px"><svg class="i"><use href="#i-wa"/></svg><span data-i="cb1"></span></a><a class="btn btn-gh" href="#cabang"><span data-i="cb2"></span><svg class="i"><use href="#i-ar"/></svg></a></div>
+    <svg class="big" viewBox="-2 0 70 68" aria-hidden="true"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="currentColor"/></svg>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fg2">
+    <div><svg viewBox="0 0 300 80" style="height:40px;width:auto" role="img" aria-label="Sozo Dental"><use href="#i-sozo" x="6" y="8" width="66" height="64"/><text x="76" y="47" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="38" fill="#132573">sozo</text><text x="166" y="47" font-family="Poppins, 'Segoe UI', Arial, sans-serif" font-weight="400" font-size="30" fill="#16c2e0">dental</text></svg><p style="margin-top:12px;max-width:340px" data-i="ft_p"></p></div>
+    <div><h4 data-i="ft_b"></h4><ul id="fbr"></ul></div>
+    <div><h4 data-i="ft_c"></h4><ul><li><a href="https://wa.me/6285182016877" target="_blank" rel="noopener">WA +62 851-8201-6877</a></li><li><a href="https://www.instagram.com/sozo.dental/" target="_blank" rel="noopener">Instagram @sozo.dental</a></li><li><a href="https://www.sozodental.com/lokasi/bandung/" target="_blank" rel="noopener">sozodental.com</a></li></ul></div>
+    <div><h4 data-i="ft_h"></h4><ul><li><a href="#cek" data-i="n1"></a></li><li><a href="#cabang" data-i="n2"></a></li><li><a href="#harga" data-i="ph"></a></li><li><a href="#faq" data-i="n6"></a></li></ul></div>
+  </div>
+  <div class="fdisc"><span data-i="ft_disc"></span><span data-i="ft_cr"></span></div>
+</div></footer>
+
+<a class="fab" id="fab" data-wa="book" href="#" data-ia="fab_a"><span class="wai"><svg class="i"><use href="#i-wa"/></svg></span><span class="l" data-i="fab"></span></a>
+<div class="gtoast" id="gtoast" role="status"></div>
+<style id="mg-mapfix-css">
+.mgmap{position:relative;width:100%;overflow:hidden;border-radius:inherit;background:var(--bg,#f2f4f6);color:var(--ink,#1d2a33);font:inherit;display:flex;flex-direction:column}
+.mgmap .mgviz{position:relative;height:clamp(170px,32vw,280px)}
+.mgmap svg.mgbg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.mgmap .mgcard{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:14px 16px;background:rgba(255,255,255,.96);border-top:1px solid rgba(0,0,0,.06);color:var(--ink,#1d2a33)}
+.mgmap .mgtx{flex:1 1 200px;min-width:0;line-height:1.35}
+.mgmap .mgtx b{display:block;font-size:15px}
+.mgmap .mgtx small{display:block;font-size:12.5px;opacity:.72;overflow-wrap:anywhere}
+.mgmap .mgbtn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--ink,#1d2a33);color:#fff;font-weight:600;font-size:14px;text-decoration:none;white-space:nowrap}
+.mgmap .mgbtn:focus-visible{outline:3px solid var(--gold,var(--cy,#f0aa44));outline-offset:2px}
+.mgmap .mgnote{position:absolute;top:10px;right:12px;left:12px;text-align:right;font-size:11.5px;opacity:.75;pointer-events:none}
+</style>
+<script id="mg-mapfix">
+/* Maxi Growth · map fallback: di pratinjau (artifact) iframe Google Maps diblokir, jadi diganti kartu peta statis.
+   Di domain asli (maxigrowthstudio.com / *.pages.dev / domain klinik) skrip ini tidak melakukan apa-apa. */
+(function(){
+  var H=location.hostname||"";
+  if(/(^|\.)maxigrowthstudio\.com$|\.pages\.dev$/.test(H)) return;
+  var RX=/(maps\.google\.[a-z.]+\/maps|google\.[a-z.]+\/maps)/;
+  function en(){return (document.documentElement.lang||"").toLowerCase().indexOf("en")===0}
+  function bg(){
+    var s='<svg class="mgbg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+
+    '<rect width="400" height="300" fill="var(--bg,#f2f4f6)"/>'+
+    '<g fill="var(--line,#dfe4e8)" opacity=".9"><rect x="18" y="20" width="96" height="70" rx="6"/><rect x="132" y="20" width="120" height="44" rx="6"/><rect x="270" y="20" width="112" height="84" rx="6"/><rect x="18" y="108" width="70" height="92" rx="6"/><rect x="104" y="82" width="148" height="60" rx="6"/><rect x="270" y="122" width="112" height="58" rx="6"/><rect x="104" y="160" width="88" height="70" rx="6"/><rect x="208" y="160" width="44" height="70" rx="6"/><rect x="18" y="218" width="70" height="64" rx="6"/><rect x="270" y="198" width="112" height="84" rx="6"/></g>'+
+    '<path d="M-10 250 C 80 230, 120 280, 210 262 S 330 230, 410 246" fill="none" stroke="var(--ink,#1d2a33)" stroke-opacity=".08" stroke-width="14"/>'+
+    '<g stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".95"><path d="M0 100 H400"/><path d="M96 0 V300"/><path d="M260 0 V300"/><path d="M0 150 H260"/></g>'+
+    '<g transform="translate(200 150)"><circle r="26" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" opacity=".18"/>'+
+    '<path d="M0 12 C -14 -4 -16 -8 -16 -16 A16 16 0 1 1 16 -16 C16 -8 14 -4 0 12 Z" fill="var(--gold,var(--cy,var(--ink,#1d2a33)))" stroke="#fff" stroke-width="2.5"/>'+
+    '<circle cy="-16" r="6" fill="#fff"/></g></svg>';
+    return s;
+  }
+  function card(f){
+    if(f.dataset.mgDone)return; var src=f.getAttribute("src")||""; if(!RX.test(src))return;
+    f.dataset.mgDone=1;
+    if(f.parentNode&&f.parentNode.querySelector(":scope > .mgmap")){f.remove();return}
+    var q=""; try{q=new URL(src,location.href).searchParams.get("q")||""}catch(e){}
+    var name=(f.getAttribute("title")||"").replace(/^(Google Maps|Peta|Map)\s*[—–-]?\s*/i,"").trim()||q.split(",")[0];
+    var href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q||name);
+    var d=document.createElement("div"); d.className="mgmap"; d.setAttribute("role","group");
+    d.setAttribute("aria-label",(en()?"Map of ":"Peta ")+name);
+    d.innerHTML='<div class="mgviz">'+bg()+'<div class="mgnote">'+(en()?"Interactive map appears on the live site":"Peta interaktif tampil di website asli")+'</div></div>'+
+      '<div class="mgcard"><div class="mgtx"><b></b><small></small></div><a class="mgbtn" target="_blank" rel="noopener"></a></div>';
+    d.querySelector("b").textContent=name; d.querySelector("small").textContent=q&&q!==name?q:"";
+    var a=d.querySelector("a"); a.href=href; a.textContent=(en()?"Open in Google Maps":"Buka di Google Maps")+" ↗";
+    var pr=f.parentNode; f.replaceWith(d);
+    if(pr&&pr.style){pr.style.height="auto";pr.style.aspectRatio="auto";pr.style.minHeight="0";pr.style.padding="0";pr.style.display="block"}
+  }
+  function scan(n){
+    if(!n||n.nodeType!==1)return;
+    if(n.tagName==="IFRAME")card(n); else n.querySelectorAll&&n.querySelectorAll("iframe").forEach(card);
+    if(n.querySelectorAll&&document.readyState!=="loading")n.querySelectorAll("#mapb,#mapBtn,#lmap").forEach(function(b){if(b.tagName==="BUTTON"&&!b.dataset.mgClick){b.dataset.mgClick=1;setTimeout(function(){try{b.click()}catch(e){}},0)}});
+  }
+  new MutationObserver(function(ms){ms.forEach(function(m){
+    if(m.type==="attributes")card(m.target); else m.addedNodes.forEach(scan);
+  })}).observe(document.documentElement,{childList:true,subtree:true,attributes:true,attributeFilter:["src"]});
+  function boot(){
+    scan(document.body);
+    /* tombol "Muat peta" di pratinjau langsung dipicu, supaya kartu peta tampil tanpa klik */
+    ["#mapb","#mapBtn","#lmap"].forEach(function(s){var b=document.querySelector(s);if(b&&b.tagName==="BUTTON")try{b.click()}catch(e){}});
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",function(){setTimeout(boot,60)});else setTimeout(boot,60);
+})();
+</script>
+
+<script>
+/* ================= DATA ================= */
+const WA="6285182016877";
+const BR=[
+ {k:"pjj",no:"1",n:"Pajajaran",a:"Jl. Pajajaran No.122 B, Pajajaran, Kec. Cicendo, Bandung 40172",tel:"0821-2589-0837",th:"+6282125890837",h:[10,21],maps:"https://maps.app.goo.gl/ahypV8vczW5eH1ds5",lat:-6.9087,lng:107.5953,q:"Sozo Dental Pajajaran, Jl. Pajajaran No.122 B, Bandung"},
+ {k:"bbt",no:"2",n:"Buah Batu",a:"Jl. Buah Batu No.77, Malabar, Kec. Lengkong, Bandung 40262",tel:"0856-0201-3377",th:"+6285602013377",h:[10,21],maps:"https://maps.app.goo.gl/aQehKjb8VdBmzZuo9",lat:-6.9275,lng:107.6223,q:"Sozo Dental Buah Batu, Jl. Buah Batu No.77, Bandung"},
+ {k:"mkw",no:"3",n:"Mekarwangi",a:"Jl. Mekar Utama No.9, Mekarwangi, Kec. Bojongloa Kidul, Bandung 40235",tel:null,th:null,h:null,maps:"https://maps.app.goo.gl/FFfFBgE1PuFZKggD7",lat:-6.9575,lng:107.5985,q:"Jl. Mekar Utama No.9, Mekarwangi, Bojongloa Kidul, Bandung"}];
+const AREAS=[["Dago",-6.885,107.613,"r"],["Pasteur",-6.893,107.590,"l"],["Cimahi",-6.872,107.542,"r"],["Alun-alun",-6.921,107.607,"l"],["Kiaracondong",-6.925,107.645,"t"],["Antapani",-6.915,107.660,"t"],["Ujungberung",-6.912,107.700,"bl"],["Gedebage",-6.945,107.690,"l"],["Margahayu",-6.955,107.640,"r"],["Kopo",-6.950,107.585,"l"],["Dayeuhkolot",-6.985,107.625,"r"]];
+const ICO={sens:"M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5",cav:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 9.5a1.6 1.6 0 1 0 0 .01",thr:"M2 12h4l2-5 3 10 3-12 2 7h6",wis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM17 1.5v4M15 3.5h4",gum:"M12 3s-6 7-6 11a6 6 0 0 0 12 0c0-4-6-11-6-11z",yel:"M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zM12 1v2.5M12 20.5V23M1 12h2.5M20.5 12H23M4.2 4.2l1.8 1.8M18 18l1.8 1.8M4.2 19.8 6 18M18 6l1.8-1.8",cro:"M3 17l4-8 4 6 4-9 4 7 2-3",mis:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7z",kid:"M12 4a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 21v-3a6 6 0 0 1 12 0v3",sparkle:"M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z",impl:"M9 3h6l-1 6h-4zM10 9h4l-.5 3h-3zM10.5 12h3l-.3 3h-2.4zM11 15h2l-.2 3h-1.6zM11.5 18h1l-.5 3z",brace:"M3 12h18M6 9v6M10 9v6M14 9v6M18 9v6",root:"M7 3c2 0 3 1 5 1s3-1 5-1c3 0 4 3 3 7-1 3-1 11-4 11-2 0-2-5-4-5s-2 5-4 5c-3 0-3-8-4-11-1-4 0-7 3-7zM12 8v9",dent:"M4 10c0-3 3-5 8-5s8 2 8 5v4H4zM6 14v3M10 14v3M14 14v3M18 14v3",aln:"M4 9c0-2 3-4 8-4s8 2 8 4v4c0 2-3 4-8 4s-8-2-8-4zM4 11h16",chk:"M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM8.5 12l2.5 2.5 4.5-5"};
+// [chip, icon, title, text, urgency 1-3, [[treatment, price]]]  price: number = "mulai" (harga publik sozodental.com) · "?" = tanya klinik · null = setelah pemeriksaan
+const KEL={id:[
+ ["Ngilu","sens","Ngilu saat minum dingin atau makan manis","Sering berkaitan dengan email gigi yang menipis, lubang kecil, atau karang gigi di dekat gusi.",1,[["Pemeriksaan","?"],["Scaling",129000],["Tambal gigi",379000]]],
+ ["Berlubang","cav","Ada lubang, walau belum sakit","Lubang yang dibiarkan bisa membesar sampai ke saraf. Makin awal ditangani, biasanya makin sederhana perawatannya.",2,[["Tambal gigi",379000],["Perawatan saluran akar, bila sudah dalam",null]]],
+ ["Sakit berdenyut","thr","Sakit berdenyut atau bengkak","Bisa jadi tanda peradangan saraf gigi. Sebaiknya segera diperiksa dokter gigi.",3,[["Pemeriksaan segera","?"],["Perawatan saluran akar",null],["Cabut gigi, bila perlu",449000]]],
+ ["Gigi bungsu","wis","Sakit di ujung rahang","Gigi bungsu yang tumbuh miring dapat menimbulkan nyeri dan bengkak. Rontgen membantu dokter melihat posisinya.",2,[["Rontgen gigi","?"],["Cabut / operasi gigi bungsu",null]]],
+ ["Gusi berdarah","gum","Gusi bengkak atau berdarah","Umumnya dipicu karang gigi dan plak. Pembersihan profesional sering jadi langkah pertama.",1,[["Scaling",129000]]],
+ ["Gigi kuning","yel","Gigi kusam atau kekuningan","Sering karena noda kopi, teh, atau rokok. Dokter menilai apakah cukup dibersihkan atau perlu pemutihan.",1,[["Scaling",129000],["Bleaching lite",699000],["Veneer komposit (per gigi)",599000]]],
+ ["Tidak rapi","cro","Gigi berjejal atau tidak rapi","Posisi gigi dapat dirapikan bertahap. Pemeriksaan dan rencana perawatan diperlukan lebih dulu.",1,[["Konsultasi behel","?"],["Behel metal",1799000],["Aligner",null]]],
+ ["Gigi hilang","mis","Ada gigi yang hilang","Gigi yang hilang bisa diganti. Dokter menjelaskan pilihannya setelah pemeriksaan.",1,[["Gigi palsu",null],["Implan gigi",9900000]]]],
+en:[
+ ["Sensitive","sens","Sensitive to cold or sweets","Often linked to worn enamel, small cavities or tartar near the gums.",1,[["Examination","?"],["Scaling",129000],["Filling",379000]]],
+ ["Cavity","cav","A hole, even if it doesn't hurt","An untreated cavity can reach the nerve. The earlier it's treated, the simpler the treatment usually is.",2,[["Filling",379000],["Root canal, if deep",null]]],
+ ["Throbbing pain","thr","Throbbing pain or swelling","May be a sign of nerve inflammation. It's best to see a dentist soon.",3,[["Urgent examination","?"],["Root canal",null],["Extraction, if needed",449000]]],
+ ["Wisdom tooth","wis","Pain at the back of the jaw","A tilted wisdom tooth can cause pain and swelling. An X-ray helps the dentist see its position.",2,[["Dental X-ray","?"],["Wisdom tooth removal / surgery",null]]],
+ ["Bleeding gums","gum","Swollen or bleeding gums","Usually caused by tartar and plaque. Professional cleaning is often the first step.",1,[["Scaling",129000]]],
+ ["Yellow teeth","yel","Dull or yellowish teeth","Often stains from coffee, tea or smoking. The dentist checks whether cleaning is enough or whitening is needed.",1,[["Scaling",129000],["Bleaching lite",699000],["Composite veneer (per tooth)",599000]]],
+ ["Crooked","cro","Crowded or crooked teeth","Teeth can be aligned step by step. An examination and treatment plan come first.",1,[["Braces consultation","?"],["Metal braces",1799000],["Clear aligners",null]]],
+ ["Missing tooth","mis","A missing tooth","A missing tooth can be replaced. The dentist explains the options after an examination.",1,[["Dentures",null],["Dental implant",9900000]]]]};
+const SVC=[
+ ["chk",{id:["Konsultasi & pemeriksaan","Ceritakan keluhan, dokter memeriksa dengan bantuan kamera intraoral."],en:["Consultation & check-up","Share your concern; the dentist examines with an intraoral camera."]}],
+ ["gum",{id:["Scaling","Pembersihan karang gigi dan plak untuk gusi yang lebih sehat."],en:["Scaling","Removes tartar and plaque for healthier gums."]}],
+ ["cav",{id:["Tambal gigi","Menutup gigi berlubang dengan bahan sewarna gigi."],en:["Fillings","Repairs cavities with tooth-coloured material."]}],
+ ["mis",{id:["Cabut gigi","Untuk gigi yang tidak dapat dipertahankan, termasuk gigi bungsu."],en:["Extraction","For teeth that can't be saved, including wisdom teeth."]}],
+ ["brace",{id:["Behel metal & self-ligating","Merapikan gigi bertahap; ditangani dokter gigi spesialis ortodonti ✎."],en:["Metal & self-ligating braces","Aligns teeth step by step; handled by an orthodontist ✎."]}],
+ ["aln",{id:["Aligner","Alternatif behel yang bening dan dapat dilepas."],en:["Clear aligners","A clear, removable alternative to braces."]}],
+ ["sparkle",{id:["Bleaching","Mencerahkan warna gigi di klinik."],en:["Bleaching","Brightens tooth colour in the clinic."]}],
+ ["yel",{id:["Veneer","Lapisan untuk memperbaiki bentuk atau warna gigi depan."],en:["Veneers","A layer to improve the shape or colour of front teeth."]}],
+ ["impl",{id:["Implan gigi","Pengganti akar gigi yang hilang, dilanjutkan crown."],en:["Dental implants","Replaces a missing tooth root, finished with a crown."]}],
+ ["dent",{id:["Gigi palsu","Pengganti gigi hilang, sebagian atau penuh."],en:["Dentures","Replaces missing teeth, partial or full."]}],
+ ["root",{id:["Perawatan saluran akar","Menyelamatkan gigi yang sarafnya meradang."],en:["Root canal treatment","Saves a tooth with an inflamed nerve."]}],
+ ["kid",{id:["Perawatan gigi anak","Pemeriksaan dan perawatan sesuai kebutuhan anak."],en:["Children's dental care","Check-ups and care suited to children."]}]];
+const PRL=[[129000,{id:["Scaling","Basic scaling"],en:["Scaling","Basic scaling"]}],[379000,{id:["Tambal gigi","Satu gigi belakang, kelas 1"],en:["Filling","One back tooth, class 1"]}],[449000,{id:["Cabut gigi dewasa","Tergantung tingkat kesulitan"],en:["Adult extraction","Depends on case difficulty"]}],[599000,{id:["Veneer komposit","Per gigi, pemasangan 4 gigi"],en:["Composite veneer","Per tooth, set of 4 teeth"]}],[699000,{id:["Bleaching lite","Pemutihan di klinik"],en:["Bleaching lite","In-clinic whitening"]}],[1799000,{id:["Behel metal","Biaya kontrol dijelaskan saat konsultasi"],en:["Metal braces","Adjustment fees explained at consultation"]}],[9900000,{id:["Implan gigi","Screw Korea Selatan; pilihan crown memengaruhi biaya"],en:["Dental implant","South Korean screw; crown choice affects the fee"]}]];
+const DR=[{n:"drg. Adira Khansa M.",br:"pjj",g:"f",real:1},{n:null,br:"bbt",g:"m"},{n:null,br:"mkw",g:"f2"}];
+const FAS=[["cam",{id:["Kamera intraoral","Pasien bisa ikut melihat kondisi gigi di layar."],en:["Intraoral camera","You can see your teeth on screen with the dentist."]},0],["cal",{id:["Buka setiap hari","Pajajaran & Buah Batu 10.00–21.00, termasuk Minggu."],en:["Open every day","Pajajaran & Buah Batu 10:00–21:00, Sundays included."]},1],["car",{id:["Parkir & toilet","Tercantum untuk Pajajaran & Buah Batu."],en:["Parking & restroom","Listed for Pajajaran & Buah Batu."]},1],["card",{id:["Beragam pembayaran","Berbagai metode pembayaran diterima."],en:["Payment options","Various payment methods accepted."]},0],["shield",{id:["Asuransi","Sozo bekerja sama dengan penyedia asuransi; daftar per cabang dikonfirmasi."],en:["Insurance","Sozo works with insurers; the list per branch to be confirmed."]},1]];
+const FAQ={id:[
+ ["Jam buka cabang Bandung kapan?","Pajajaran dan Buah Batu tercantum buka setiap hari pukul 10.00–21.00 WIB. Jam Mekarwangi belum terkonfirmasi. Pastikan kembali lewat WhatsApp sebelum berkunjung."],
+ ["Berapa biaya scaling?","Situs Sozo Dental mencantumkan basic scaling mulai Rp129.000. Biaya di cabang Bandung dapat berbeda; tanyakan perkiraan biaya sebelum perawatan."],
+ ["Apakah bisa memakai asuransi?","Sozo Dental menyebut kerja sama dengan penyedia asuransi, tetapi daftar penyedia dan ketentuan per cabang perlu dikonfirmasi. Kirim nama asuransi Anda lewat WhatsApp."],
+ ["Apakah tersedia behel gigi?","Ya, tersedia behel metal dan self-ligating, juga aligner. Dokter perlu memeriksa kondisi gigi sebelum membahas pilihan dan biaya yang sesuai."],
+ ["Apakah anak bisa periksa gigi?","Bisa. Sozo Dental mencantumkan perawatan gigi anak. Hubungi cabang pilihan Anda untuk menanyakan jadwal."]],
+en:[
+ ["What are the Bandung opening hours?","Pajajaran and Buah Batu are listed as open daily, 10:00–21:00 WIB. Mekarwangi's hours are not yet confirmed. Please check on WhatsApp before visiting."],
+ ["How much does scaling cost?","Sozo Dental lists basic scaling from Rp129,000. Prices in Bandung may differ; ask for an estimate before treatment."],
+ ["Can I use insurance?","Sozo Dental mentions insurance partners, but the list and branch terms need confirming. Send your insurer's name on WhatsApp."],
+ ["Do you offer braces?","Yes — metal and self-ligating braces, and clear aligners. The dentist examines your teeth before discussing suitable options and costs."],
+ ["Can children have a check-up?","Yes. Sozo Dental lists children's dental care. Contact your preferred branch to ask about appointments."]]};
+const PSV={id:["Periksa gigi","Scaling","Tambal gigi","Konsultasi behel","Bleaching","Periksa gigi anak"],en:["Check-up","Scaling","Filling","Braces consultation","Bleaching","Child check-up"]};
+
+const T={
+id:{pv:"<b>Konsep pratinjau oleh Maxi Growth Studio</b> · bukan website resmi Sozo Dental · <span class='chk'>✎ verifikasi</span> = info perlu dikonfirmasi klinik",pv_x:"Tutup",home:"Sozo Dental Bandung — beranda",menu:"Menu",ttl:"Sozo Dental Bandung — Konsep Website",
+n1:"Cek gigi",n2:"Pilih cabang",n3:"Layanan & harga",n4:"Dokter",n5:"Lokasi",n6:"FAQ",cta:"Buat janji",
+h1:"Perawatan gigi di <em>tiga sudut<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#16c2e0' stroke-width='4' stroke-linecap='round'/></svg></em> Bandung.",
+hl:"Sozo Dental punya tiga cabang di Bandung: Pajajaran, Buah Batu, dan Mekarwangi. Tandai gigi yang dikeluhkan, pilih cabang terdekat, lalu kirim pesan WhatsApp yang sudah tertulis.",
+td_h:"Status cabang hari ini",c1:"Buat janji lewat WhatsApp",c2:"Cek gigi 30 detik",it_l:"Perlu apa hari ini?",it:["Periksa gigi","Sakit gigi","Scaling","Behel"],it_c:["Tanya jadwal periksa","Tanya soal sakit gigi","Tanya jadwal scaling","Tanya soal behel"],
+w_it:["Halo Sozo Dental Bandung, saya ingin membuat janji periksa gigi. Apakah ada jadwal yang tersedia?","Halo Sozo Dental Bandung, gigi saya sakit dan saya ingin diperiksa. Cabang mana yang ada jadwal paling dekat?","Halo Sozo Dental Bandung, saya ingin membuat janji scaling. Apakah ada jadwal yang tersedia?","Halo Sozo Dental Bandung, saya ingin konsultasi behel. Kapan jadwal konsultasi yang tersedia?"],
+st_open:"Buka · tutup 21.00",st_before:"Tutup · buka 10.00",st_after:"Tutup · buka besok 10.00",st_unk:"Jam belum dikonfirmasi",
+zap1:"Putar gigi · ketuk bakteri untuk mengusirnya ·",zap2:"terusir",
+p1a:"3 cabang di Bandung",p1b:"Cicendo · Lengkong · Bojongloa Kidul",p2a:"Setiap hari 10.00–21.00",p2b:"Pajajaran & Buah Batu <span class='chk'>✎</span>",p3a:"4,9 ★ · 2.189 ulasan Google",p3b:"Cabang Buah Batu, dicek 24 Sep 2026 <span class='chk'>✎</span>",p4a:"Harga “mulai” terbuka",p4b:"7 perawatan, dari situs resmi Sozo",
+sh:"Gigi mana yang terasa tidak nyaman?",sl:"Tandai giginya, pilih keluhannya. Kami jelaskan kemungkinan perawatan dengan bahasa sederhana, dan pesan WhatsApp Anda langsung tertulis.",
+st1:"Tandai gigi",st2:"Pilih keluhan",st3:"Kirim ke klinik",st3d:"Terkirim ✓",s1:"Langkah 1 · Gigi",s1t:"Gigi yang mana?",s2:"Langkah 2 · Keluhan",s2t:"Apa yang Anda rasakan?",s3:"Langkah 3 · Kirim",
+jw_g:"Tampilan rahang",jw_u:"Atas",jw_l:"Bawah",jw_a:"Keduanya",jw_hint:"Tip: coba juga rahang bawah",sd_r:"← Kanan Anda",sd_l:"Kiri Anda →",orient:"Seperti orang lain melihat mulut Anda — sisi kanan Anda ada di kiri layar.",
+amap:"Denah gigi",tap:"Ketuk gigi yang tidak nyaman",skip:"Lewati — saya tidak yakin",mk_l:"gigi ditandai",clr:"Hapus semua",rm:"Hapus",skipped:"Tidak ada gigi ditandai",
+pick:"Pilih keluhan untuk melihat penjelasan & harga",pickp:"Pesan WhatsApp Anda akan tertulis di sini.",likely:"KEMUNGKINAN",urg:["","Tidak mendesak","Sedang","Periksakan segera"],ask_c:"Tanya klinik",r_upd:"Hasil diperbarui: ",msg_rst:"Perbarui pesan",
+tr_usual:"Perawatan yang biasa dipertimbangkan",after_ex:"Setelah pemeriksaan",from:"mulai",est_src:"Harga “mulai” dari situs resmi Sozo Dental; di cabang Bandung bisa berbeda.",yourmsg:"Pesan Anda · bisa diubah",pref_l:"Waktu pilihan:",pf:["Siang","Sore","Malam"],w_pref:"Waktu yang saya inginkan: ",send:"Kirim lewat WhatsApp",copy:"Salin pesan",copied:"Tersalin ✓",
+w_k1:"Halo Sozo Dental Bandung, saya ada keluhan: ",w_k2:" — ",w_k3:"Apakah bisa dibuatkan janji pemeriksaan?",sd:"Informasi umum, bukan diagnosis. Rencana perawatan ditentukan dokter gigi setelah pemeriksaan.",chk:"✎ verifikasi",
+jh:"Jalur Sozo Bandung: cabang mana yang paling dekat?",jl:"Pilih daerah Anda berangkat. Tiga cabang diurutkan dari yang terdekat, lengkap dengan status buka, rute, dan pesan WhatsApp yang sudah menyebut cabangnya.",lm_a:"Peta skematis cabang Sozo Dental Bandung",mapn:"Peta skematis, bukan skala. Jarak = garis lurus perkiraan; posisi cabang ✎.",
+q1:"1 · Anda berangkat dari mana?",q2:"2 · Pilih cabang",q3:"3 · Perawatan",q4:"Hari",q5:"Waktu",geo:"Pakai lokasi saya",geo_err:"Lokasi tidak tersedia — pilih daerah saja",geo_ok:"Lokasi Anda",you:"Anda",km:"km",near:"terdekat",days:["Hari ini","Besok","Akhir pekan"],tms:["Siang (10–14)","Sore (14–18)","Malam (18–21)"],
+w_p1:"Halo Sozo Dental, saya ingin membuat janji di cabang Bandung ",w_p2:" untuk ",w_p3:"Waktu yang saya inginkan: ",w_p4:"Apakah ada jadwal yang tersedia? Terima kasih.",
+lh:"Layanan lengkap, harga awal yang jelas.",ll:"Semua layanan di bawah tercantum di situs Sozo Dental. Rencana dan biaya akhir dijelaskan dokter setelah pemeriksaan.",
+ph:"Harga mulai",chk_p:"✎ verifikasi harga Bandung",pnote:"Sumber: halaman layanan sozodental.com (harga “mulai”, berlaku jaringan Sozo). Biaya di cabang Bandung dan sesuai kondisi gigi dapat berbeda.",
+ps_h:"Belum yakin perlu perawatan apa?",ps_p:"Ceritakan keluhan Anda. Dokter menjelaskan pilihan dan perkiraan biaya sebelum perawatan dimulai.",ps_b:"Tanya perkiraan biaya",
+dh:"Dokter gigi di cabang Bandung.",dl:"Ilustrasi, bukan foto asli. Nama, gelar, dan jadwal setiap dokter diisi dan dikonfirmasi klinik.",d_unk:"Profil dokter diisi klinik",d_sp:"Spesialisasi & jadwal",d_sp2:"Dokter gigi · jadwal praktik",d_book:"Buat janji dengan dokter ini",d_ask:"Tanya dokter yang bertugas",d_ill:"ILUSTRASI",
+loh:"Tiga alamat, satu nomor WhatsApp.",lol:"Pilih cabang untuk melihat alamat, jam, dan rute. Semua pesan WhatsApp diterima nomor pusat Sozo Dental.",a_adr:"Alamat",a_hrs:"Jam praktik",a_tel:"Telepon cabang",a_wa:"WhatsApp",a_nav:"Rute",hrs_unk:"Jam cabang ini belum dikonfirmasi — tanyakan lewat WhatsApp.",tel_unk:"Belum tersedia",days_s:["Min","Sen","Sel","Rab","Kam","Jum","Sab"],
+map_ph:"Peta Google dimuat saat bagian ini terlihat.",map_b:"Muat peta",
+fh:"Sebelum Anda datang.",fl:"Belum menemukan jawabannya? Tanyakan langsung.",fb:"Tanya lewat WhatsApp",
+ch:"Senyum yang lebih nyaman dimulai dari satu pesan.",cp:"Ceritakan keluhan Anda, cabang yang paling dekat, dan waktu yang cocok. Tim Sozo membantu mengatur jadwalnya.",cb1:"WhatsApp Sozo Dental",cb2:"Cari cabang terdekat",
+ft_p:"Jaringan klinik gigi Sozo Dental — cabang Bandung di Pajajaran, Buah Batu, dan Mekarwangi.",ft_b:"Cabang Bandung",ft_c:"Kontak",ft_h:"Jelajahi",ft_disc:"Konsep pratinjau — bukan website resmi Sozo Dental. Info bertanda ✎ perlu dikonfirmasi klinik.",ft_cr:"Konsep oleh Maxi Growth Studio",fab:"Buat janji",fab_a:"Buat janji lewat WhatsApp",
+w_book:"Halo Sozo Dental Bandung, saya ingin membuat janji periksa gigi. Apakah ada jadwal yang tersedia?",w_price:"Halo Sozo Dental Bandung, saya ingin menanyakan perkiraan biaya perawatan: ",w_q:"Halo Sozo Dental Bandung, saya ada pertanyaan: ",w_doc:"Halo Sozo Dental, saya ingin membuat janji dengan ",w_docq:"Halo Sozo Dental, dokter siapa yang bertugas di cabang Bandung ",w_br:"Halo Sozo Dental, saya ingin bertanya tentang cabang Bandung ",copied_a:"Alamat tersalin",cp_a:"Salin alamat"},
+en:{pv:"<b>Concept preview by Maxi Growth Studio</b> · not the official Sozo Dental website · <span class='chk'>✎ verify</span> = details to be confirmed by the clinic",pv_x:"Close",home:"Sozo Dental Bandung — home",menu:"Menu",ttl:"Sozo Dental Bandung — Website Concept",
+n1:"Tooth check",n2:"Choose branch",n3:"Services & fees",n4:"Dentists",n5:"Locations",n6:"FAQ",cta:"Book",
+h1:"Dental care in <em>three corners<svg viewBox='0 0 200 12' preserveAspectRatio='none' aria-hidden='true'><path d='M2 8c30-6 60-6 98-3s70 3 98-3' fill='none' stroke='#16c2e0' stroke-width='4' stroke-linecap='round'/></svg></em> of Bandung.",
+hl:"Sozo Dental has three branches in Bandung: Pajajaran, Buah Batu and Mekarwangi. Mark the tooth that bothers you, pick the nearest branch, and send a ready-written WhatsApp message.",
+td_h:"Branch status today",c1:"Book via WhatsApp",c2:"30-second tooth check",it_l:"What do you need today?",it:["Check-up","Toothache","Scaling","Braces"],it_c:["Ask about a check-up","Ask about toothache","Ask about scaling","Ask about braces"],
+w_it:["Hello Sozo Dental Bandung, I'd like to book a dental check-up. Is there an available slot?","Hello Sozo Dental Bandung, I have a toothache and would like an examination. Which branch has the earliest slot?","Hello Sozo Dental Bandung, I'd like to book scaling. Is there an available slot?","Hello Sozo Dental Bandung, I'd like a braces consultation. When is a slot available?"],
+st_open:"Open · closes 21:00",st_before:"Closed · opens 10:00",st_after:"Closed · opens tomorrow 10:00",st_unk:"Hours not yet confirmed",
+zap1:"Spin the tooth · tap a bacterium to clear it ·",zap2:"cleared",
+p1a:"3 branches in Bandung",p1b:"Cicendo · Lengkong · Bojongloa Kidul",p2a:"Daily 10:00–21:00",p2b:"Pajajaran & Buah Batu <span class='chk'>✎</span>",p3a:"4.9 ★ · 2,189 Google reviews",p3b:"Buah Batu branch, checked 24 Sep 2026 <span class='chk'>✎</span>",p4a:"Open “from” prices",p4b:"7 treatments, from Sozo's official site",
+sh:"Which tooth feels uncomfortable?",sl:"Mark the tooth, choose the concern. We explain likely treatments in plain words, and your WhatsApp message is written for you.",
+st1:"Mark teeth",st2:"Pick concern",st3:"Send to clinic",st3d:"Sent ✓",s1:"Step 1 · Teeth",s1t:"Which tooth?",s2:"Step 2 · Concern",s2t:"What do you feel?",s3:"Step 3 · Send",
+jw_g:"Jaw view",jw_u:"Upper",jw_l:"Lower",jw_a:"Both",jw_hint:"Tip: try the lower jaw too",sd_r:"← Your right",sd_l:"Your left →",orient:"As others see your mouth — your right side is on the left of the screen.",
+amap:"Tooth map",tap:"Tap the tooth that feels uncomfortable",skip:"Skip — I'm not sure",mk_l:"teeth marked",clr:"Clear all",rm:"Remove",skipped:"No tooth marked",
+pick:"Pick a concern to see the explanation & fees",pickp:"Your WhatsApp message will be written here.",likely:"LIKELY",urg:["","Not urgent","Moderate","See a dentist soon"],ask_c:"Ask the clinic",r_upd:"Result updated: ",msg_rst:"Update message",
+tr_usual:"Treatments usually considered",after_ex:"After examination",from:"from",est_src:"“From” prices from Sozo Dental's official site; Bandung branches may differ.",yourmsg:"Your message · editable",pref_l:"Preferred time:",pf:["Midday","Afternoon","Evening"],w_pref:"Preferred time: ",send:"Send via WhatsApp",copy:"Copy message",copied:"Copied ✓",
+w_k1:"Hello Sozo Dental Bandung, I have this concern: ",w_k2:" — ",w_k3:"Could I book an examination?",sd:"General information, not a diagnosis. The treatment plan is decided by the dentist after an examination.",chk:"✎ verify",
+jh:"The Sozo Bandung line: which branch is nearest?",jl:"Pick where you're coming from. The three branches are sorted from nearest, with opening status, directions and a WhatsApp message that already names the branch.",lm_a:"Schematic map of Sozo Dental Bandung branches",mapn:"Schematic map, not to scale. Distance = approximate straight line; branch positions ✎.",
+q1:"1 · Where are you coming from?",q2:"2 · Choose a branch",q3:"3 · Treatment",q4:"Day",q5:"Time",geo:"Use my location",geo_err:"Location unavailable — pick an area instead",geo_ok:"Your location",you:"You",km:"km",near:"nearest",days:["Today","Tomorrow","Weekend"],tms:["Midday (10–14)","Afternoon (14–18)","Evening (18–21)"],
+w_p1:"Hello Sozo Dental, I'd like to book at the Bandung ",w_p2:" branch for ",w_p3:"Preferred time: ",w_p4:"Is there an available slot? Thank you.",
+lh:"Full services, clear starting prices.",ll:"All services below are listed on Sozo Dental's website. The dentist explains the plan and final cost after an examination.",
+ph:"Prices from",chk_p:"✎ verify Bandung prices",pnote:"Source: sozodental.com service pages (“from” prices, Sozo network). Fees at Bandung branches and for your case may differ.",
+ps_h:"Not sure which treatment you need?",ps_p:"Tell us your concern. The dentist explains the options and estimated cost before treatment starts.",ps_b:"Ask for an estimate",
+dh:"Dentists at the Bandung branches.",dl:"Illustrations, not real photos. Each dentist's name, degree and schedule is filled in and confirmed by the clinic.",d_unk:"Dentist profile from clinic",d_sp:"Specialty & schedule",d_sp2:"Dentist · practice schedule",d_book:"Book with this dentist",d_ask:"Ask who's on duty",d_ill:"ILLUSTRATION",
+loh:"Three addresses, one WhatsApp number.",lol:"Choose a branch to see its address, hours and directions. All WhatsApp messages go to Sozo Dental's central number.",a_adr:"Address",a_hrs:"Opening hours",a_tel:"Branch phone",a_wa:"WhatsApp",a_nav:"Directions",hrs_unk:"This branch's hours aren't confirmed yet — ask on WhatsApp.",tel_unk:"Not available yet",days_s:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+map_ph:"The Google map loads when this section is visible.",map_b:"Load map",
+fh:"Before you visit.",fl:"Can't find your answer? Just ask.",fb:"Ask on WhatsApp",
+ch:"A more comfortable smile starts with one message.",cp:"Tell us your concern, your nearest branch and a time that suits you. The Sozo team helps arrange it.",cb1:"WhatsApp Sozo Dental",cb2:"Find the nearest branch",
+ft_p:"Sozo Dental clinic network — Bandung branches in Pajajaran, Buah Batu and Mekarwangi.",ft_b:"Bandung branches",ft_c:"Contact",ft_h:"Explore",ft_disc:"Concept preview — not the official Sozo Dental website. Items marked ✎ are to be confirmed by the clinic.",ft_cr:"Concept by Maxi Growth Studio",fab:"Book",fab_a:"Book via WhatsApp",
+w_book:"Hello Sozo Dental Bandung, I'd like to book a dental check-up. Is there an available slot?",w_price:"Hello Sozo Dental Bandung, I'd like an estimate for this treatment: ",w_q:"Hello Sozo Dental Bandung, I have a question: ",w_doc:"Hello Sozo Dental, I'd like to book with ",w_docq:"Hello Sozo Dental, which dentist is on duty at the Bandung ",w_br:"Hello Sozo Dental, I have a question about the Bandung ",copied_a:"Address copied",cp_a:"Copy address"}};
+
+/* ================= CORE ================= */
+let L="id";
+const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>[...(r||document).querySelectorAll(s)];
+const t=k=>T[L][k];
+const wa=x=>"https://wa.me/"+WA+"?text="+encodeURIComponent(x);
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches,SB=RM?"auto":"smooth",mob=()=>innerWidth<900;
+const ic=n=>'<svg class="i"><use href="#i-'+n+'"/></svg>';
+const rp=n=>"Rp"+n.toLocaleString(L==="id"?"id-ID":"en-US");
+function gtoast(m){const g=$("#gtoast");g.textContent=m;g.classList.add("on");clearTimeout(g._t);g._t=setTimeout(()=>g.classList.remove("on"),1800)}
+function copyText(txt,done){const fb=()=>{const a=document.createElement("textarea");a.value=txt;a.style.position="fixed";a.style.opacity="0";document.body.appendChild(a);a.select();try{document.execCommand("copy")}catch(e){}a.remove();done()};
+ if(navigator.clipboard&&window.isSecureContext)navigator.clipboard.writeText(txt).then(done,fb);else fb()}
+const brName=b=>b.no+" – "+b.n;
+
+/* time in WIB (UTC+7) */
+function wib(){const n=new Date(Date.now()+7*3600e3);return{day:n.getUTCDay(),h:n.getUTCHours()+n.getUTCMinutes()/60,hh:n.getUTCHours(),mm:n.getUTCMinutes()}}
+function bst(b){if(!b.h)return{c:"st-unk",tx:t("st_unk")};const {h}=wib();if(h>=b.h[0]&&h<b.h[1])return{c:"st-open",tx:t("st_open")};return{c:"st-closed",tx:h<b.h[0]?t("st_before"):t("st_after")}}
+
+function applyLang(){
+ document.documentElement.lang=L;document.title=t("ttl");
+ $$("[data-i]").forEach(e=>{const v=T[L][e.dataset.i];if(v!==undefined)e.innerHTML=v});
+ $$("[data-ia]").forEach(e=>e.setAttribute("aria-label",T[L][e.dataset.ia]));
+ $$("[data-wa]").forEach(a=>{a.href=wa(t("w_"+a.dataset.wa));a.target="_blank";a.rel="noopener"});
+ $$(".lang button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.l===L));
+ $("#h1").innerHTML=t("h1");
+ status();buildIntent();buildKel();updArea();renderRes();stepper();buildMap();buildAreas();buildPlan();buildSvc();buildDocs();buildLoc();buildFaq();
+}
+$$(".lang button").forEach(b=>b.onclick=()=>{L=b.dataset.l;try{localStorage.setItem("sozo-lang",L)}catch(e){};applyLang()});
+try{const s=localStorage.getItem("sozo-lang");if(s==="en"||s==="id")L=s}catch(e){}
+
+/* preview bar */
+try{if(localStorage.getItem("sozo-pv")==="x")$("#pv").hidden=true}catch(e){}
+$("#pvx").onclick=()=>{$("#pv").hidden=true;try{localStorage.setItem("sozo-pv","x")}catch(e){}};
+
+/* nav */
+const nav=$("#nav");addEventListener("scroll",()=>nav.classList.toggle("sc",scrollY>8),{passive:true});
+const burger=$("#burger"),sheet=$("#sheet"),scrim=$("#scrim");let sheetOpen=false;
+function setSheet(o,refocus){sheetOpen=o;sheet.classList.toggle("open",o);scrim.classList.toggle("open",o);burger.setAttribute("aria-expanded",o);sheet.inert=!o;if(o)setTimeout(()=>sheet.querySelector("a").focus(),60);else if(refocus)burger.focus()}
+burger.onclick=()=>setSheet(!sheetOpen);scrim.onclick=()=>setSheet(false);
+$$("#sheet a").forEach(a=>a.addEventListener("click",()=>setSheet(false)));
+document.addEventListener("keydown",e=>{if(sheetOpen&&e.key==="Escape")setSheet(false,true)});
+addEventListener("resize",()=>{if(sheetOpen&&innerWidth>1060)setSheet(false)});
+if("IntersectionObserver" in window){const spy=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;$$(".links a").forEach(a=>a.setAttribute("aria-current",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});["cek","cabang","layanan","dokter","lokasi","faq"].forEach(id=>spy.observe(document.getElementById(id)))}
+
+/* hero status + intent */
+function status(){const {hh,mm}=wib();$("#clock").textContent=String(hh).padStart(2,"0")+"."+String(mm).padStart(2,"0")+" WIB";
+ $("#brs").innerHTML=BR.map(b=>{const s=bst(b);return '<a href="#lokasi" data-b="'+b.k+'"><span class="no">'+b.no+'</span><span class="nm">'+b.n+'</span><span class="st '+s.c+'"><i class="dot"></i>'+s.tx+(b.h?' <span class="chk">✎</span>':'')+'</span></a>'}).join("");
+ $$("#brs a").forEach(a=>a.onclick=()=>{LB=a.dataset.b;buildLoc()});
+ if($("#bl2"))buildBranches()}
+setInterval(status,60000);
+let intent=-1;
+function buildIntent(){const c=$("#intent");c.innerHTML='<span>'+t("it_l")+'</span>'+t("it").map((x,i)=>'<button type="button" aria-pressed="'+(intent===i)+'" data-n="'+i+'">'+x+'</button>').join("");
+ $$("button",c).forEach(b=>b.onclick=()=>{const n=+b.dataset.n;intent=intent===n?-1:n;$$("button",c).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.n===intent));setIntent(true)});setIntent(false)}
+function setIntent(anim){const a=$("#hcta"),l=$("#hctal"),go=()=>{l.textContent=intent>=0?t("it_c")[intent]:t("c1");a.href=wa(intent>=0?t("w_it")[intent]:t("w_book"))};
+ if(anim&&!RM){l.style.opacity=0;setTimeout(()=>{go();l.style.opacity=1},180)}else go()}
+
+/* ================= CEK GIGI (mekanik dari Atabara #semak) ================= */
+const arch=$("#arch"),NS="http://www.w3.org/2000/svg",sel=[],teeth=[[],[]],badges=[];
+const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e};
+const SHAPE={m:["M-12 -4C-12 -11 -6 -12 0 -11C6 -12 12 -11 12 -4C13 2 12 10 6 11C2 12 -2 12 -6 11C-12 10 -13 2 -12 -4Z","M-7 -1Q0 2 7 -1M0 -8Q-2 0 0 8"],
+ p:["M0 -11C7 -11 9.5 -5 9.5 0C9.5 6 6 10.5 0 10.5C-6 10.5 -9.5 6 -9.5 0C-9.5 -5 -7 -11 0 -11Z","M-5 0Q0 2.2 5 0"],
+ c:["M0 -12C6 -9 9 -1 7 6C5 11 -5 11 -7 6C-9 -1 -6 -9 0 -12Z","M0 -7L0 5"],
+ i:["M-8 -3.5C-8 -8.5 8 -8.5 8 -3.5L7 4.5C6 8 -6 8 -7 4.5Z","M-4 -2L4 -2"]};
+const KIND=i=>i<3||i>12?"m":i<5||i>10?"p":i===5||i===10?"c":"i";
+function gum(up){const cx=200,cy=up?165:175,rx=152,ry=up?128:122;let d="";for(let k=0;k<=48;k++){const a=Math.PI*(.05+.9*k/48),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a);d+=(k?"L":"M")+x.toFixed(1)+" "+y.toFixed(1)}
+ [["url(#gg)",46],["#fff7f8",2]].forEach(([c,w],j)=>{const p=el("path",{d,fill:"none","stroke-linecap":"round",stroke:c,"stroke-width":w});if(j)p.setAttribute("transform","translate(0 "+(up?10:-10)+")");arch.appendChild(p)})}
+function mk(up){const cx=200,cy=up?165:175,rx=150,ry=up?126:120,J=up?0:1;
+ for(let i=0;i<16;i++){const a=Math.PI*(.07+.86*i/15),x=cx-rx*Math.cos(a),y=up?cy-ry*Math.sin(a):cy+ry*Math.sin(a),k=KIND(i);
+  const ang=(up?-1:1)*(90-a*180/Math.PI)+(up?0:180);
+  const g=el("g",{class:"t",tabindex:"-1",role:"button","aria-pressed":"false",transform:"translate("+x.toFixed(1)+" "+y.toFixed(1)+") rotate("+ang.toFixed(1)+")"});
+  g.appendChild(el("ellipse",{class:"hit",rx:"12.5",ry:"20"}));
+  const tb=el("g",{class:"tb",filter:"url(#sh)"});tb.style.transitionDelay=(RM?0:(up?i:16+i)*18)+"ms";
+  tb.appendChild(el("circle",{class:"halo2",r:k==="m"?"16.5":"15"}));
+  SHAPE[k].forEach((d,j)=>tb.appendChild(el("path",{d,transform:"scale("+({m:1.1,p:1.2,c:1.25,i:1.3})[k]+")",class:j?"gr":"body"})));
+  g.appendChild(tb);g.dataset.side=i<8?0:1;g.dataset.jaw=J;g.dataset.kind=k;g.dataset.ix=i;
+  const nx=(x-cx)/(rx*rx),ny=(y-cy)/(ry*ry),nl=Math.hypot(nx,ny);
+  const nb=el("g",{class:"nb","data-jaw":J,transform:"translate("+(x+nx/nl*19).toFixed(1)+" "+(y+ny/nl*19).toFixed(1)+")"});nb.appendChild(el("circle",{r:"6.5"}));const tx=el("text",{"text-anchor":"middle",y:"2.5"});nb.appendChild(tx);g._nb=nb;badges.push(nb);
+  g.onclick=()=>{rove(g,true);tg(g)};
+  g.onkeydown=e=>{const I=+g.dataset.ix;let m=null;
+   if(e.key==="Enter"||e.key===" "){e.preventDefault();tg(g);return}
+   if(e.key==="ArrowRight")m=[J,Math.min(15,I+1)];else if(e.key==="ArrowLeft")m=[J,Math.max(0,I-1)];
+   else if(e.key==="ArrowUp"&&jawM==="a")m=[0,I];else if(e.key==="ArrowDown"&&jawM==="a")m=[1,I];else if(e.key==="Home")m=[J,0];else if(e.key==="End")m=[J,15];
+   if(m){e.preventDefault();rove(teeth[m[0]][m[1]])}};
+  g.onmouseenter=()=>tipShow(g);g.onmouseleave=tipHide;g.onfocus=()=>{if(g.matches(":focus-visible"))tipShow(g)};g.onblur=tipHide;
+  teeth[J].push(g);arch.appendChild(g)}}
+gum(true);gum(false);mk(true);mk(false);badges.forEach(b=>arch.appendChild(b));
+[["ATAS","UPPER",200,76],["BAWAH","LOWER",200,270]].forEach(([m,e,x,y])=>{const t2=el("text",{x,y,"text-anchor":"middle",class:"jl","aria-hidden":"true"});t2.dataset.m=m;t2.dataset.e=e;arch.appendChild(t2)});
+teeth[0][7].setAttribute("tabindex","0");
+function rove(g,noFocus){teeth.flat().forEach(x=>x.setAttribute("tabindex",x===g?"0":"-1"));if(!noFocus)g.focus()}
+if("IntersectionObserver" in window)new IntersectionObserver(([e],o)=>{if(e.isIntersecting){arch.classList.remove("pre");setTimeout(()=>$$(".tb",arch).forEach(x=>x.style.transitionDelay="0ms"),1200);o.disconnect()}},{threshold:.2}).observe(arch);else arch.classList.remove("pre");
+function fdi(g){const j=+g.dataset.jaw,sd=+g.dataset.side,i=+g.dataset.ix;return ""+(j===0?(sd===0?1:2):(sd===0?4:3))+(sd===0?8-i:i-7)}
+function tName(g){const N=L==="id"?{m:"Geraham",p:"Premolar",c:"Taring",i:"Gigi depan",j:["atas","bawah"],s:["kanan","kiri"]}:{m:"molar",p:"premolar",c:"canine",i:"front tooth",j:["Upper","Lower"],s:["right","left"]};
+ return (L==="id"?N[g.dataset.kind]+" "+N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]:N.j[g.dataset.jaw]+" "+N.s[g.dataset.side]+" "+N[g.dataset.kind])+" ("+fdi(g)+")"}
+const lc=n=>/^(\p{Lu}{2}|X-)/u.test(n)?n:n.charAt(0).toLowerCase()+n.slice(1);
+const tip=$("#tip");
+function tipShow(g){const a=$("#aw").getBoundingClientRect(),r=g.getBoundingClientRect();tip.textContent=tName(g);tip.style.left=(r.left+r.width/2-a.left)+"px";tip.style.top=(r.top-a.top)+"px";tip.classList.add("on")}
+function tipHide(){tip.classList.remove("on")}
+function toast(m){const x=$("#toast");x.textContent=m;x.classList.add("on");clearTimeout(x._t);x._t=setTimeout(()=>x.classList.remove("on"),1600)}
+let hinted=false,skipped=false;
+function tg(g){const ix=sel.indexOf(g);if(ix<0){sel.push(g);toast("+ "+tName(g))}else{sel.splice(ix,1);toast("− "+tName(g))}
+ skipped=false;syncTeeth();updArea();renderRes();tipHide();
+ if(sel.length===1&&jawM==="u"&&!hinted){hinted=true;setTimeout(()=>toast(t("jw_hint")),1700)}}
+function syncTeeth(){teeth.flat().forEach(x=>{const on=sel.includes(x);x.classList.toggle("on",on);x.setAttribute("aria-pressed",on);x._nb.classList.toggle("on",on);if(on)x._nb.querySelector("text").textContent=fdi(x)})}
+function areaTxt(){return sel.map(g=>tName(g).toLowerCase()).join(", ")}
+let jawM="a";const VB={a:[28,4,344,332],u:[28,2,344,166],l:[28,170,344,166]};let vbNow=VB.a.slice();
+function setJaw(m){jawM=m;$$("#jaw button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.j===m));
+ arch.classList.toggle("zu",m==="u");arch.classList.toggle("zl",m==="l");$("#aw").classList.toggle("zm",m!=="a");
+ const from=vbNow.slice(),to=VB[m],t0=performance.now(),D=RM?0:420;
+ (function f(n){const p=D?Math.min(1,(n-t0)/D):1,e=1-Math.pow(1-p,3);vbNow=from.map((v,i)=>v+(to[i]-v)*e);arch.setAttribute("viewBox",vbNow.map(v=>v.toFixed(1)).join(" "));if(p<1)requestAnimationFrame(f)})(t0)}
+$$("#jaw button").forEach(b=>b.onclick=()=>setJaw(b.dataset.j));
+function updArea(){$$("#arch text.jl").forEach(e=>e.textContent=L==="id"?e.dataset.m:e.dataset.e);
+ teeth.flat().forEach(g=>g.setAttribute("aria-label",tName(g)));arch.setAttribute("aria-label",t("amap"));
+ const c=$("#ctr"),all=teeth.flat(),lim=innerWidth<600?1:3;
+ if(sel.length){const list=sel.slice(-lim);
+  c.innerHTML='<div class="big">'+sel.length+'</div><div class="sm">'+t("mk_l")+'</div><div class="mchips">'+list.map(g=>'<span class="mchip">'+tName(g)+'<button type="button" data-k="'+all.indexOf(g)+'" aria-label="'+t("rm")+' '+tName(g)+'">×</button></span>').join("")+(sel.length>lim?'<span class="mchip plus">+'+(sel.length-lim)+'</span>':'')+'</div><button type="button" class="clr" id="clr">'+ic("reset")+t("clr")+'</button>';
+  $$(".mchip button",c).forEach(b=>b.onclick=()=>tg(all[+b.dataset.k]));
+  $("#clr").onclick=()=>{sel.splice(0);sent=false;syncTeeth();updArea();renderRes();stepper()};
+ }else{c.innerHTML='<div class="tapme">'+ic("tap")+'</div><div class="sm">'+(skipped?t("skipped"):t("tap"))+'</div>'+(skipped?'':'<button type="button" class="skip" id="skip">'+t("skip")+'</button>');
+  const sk=$("#skip");if(sk)sk.onclick=()=>{skipped=true;updArea();if(mob())$("#kl").scrollIntoView({behavior:SB,block:"center"})}}
+ stepper()}
+let sent=false,ki=-1;
+function stepper(){const s=$$("#stepper .ps"),d1=sel.length>0||skipped||ki>=0,d2=ki>=0;
+ s[0].className="ps "+(d1?"done":"on");s[1].className="ps "+(d2?"done":d1?"on":"");s[2].className="ps "+(sent?"done":d2?"on":"");
+ s.forEach(b=>b.setAttribute("aria-current",b.classList.contains("on")?"step":"false"));
+ const l=$("#st3l");if(l)l.textContent=sent?t("st3d"):t("st3")}
+$$("#stepper .ps").forEach(b=>b.onclick=()=>{const n=+b.dataset.s;(n===0?$("#aw"):n===1?$("#kl"):$("#res")).scrollIntoView({behavior:SB,block:"center"})});
+function buildKel(){const kl=$("#kl");kl.innerHTML="";KEL[L].forEach((o,i)=>{const b=document.createElement("button");b.type="button";b.className="k";b.setAttribute("role","radio");b.setAttribute("aria-checked",i===ki);b.tabIndex=(ki<0?i===0:i===ki)?0:-1;
+ b.innerHTML='<span class="ki"><svg viewBox="0 0 24 24"><path d="'+ICO[o[1]]+'"/></svg></span><span>'+o[0]+'</span>'+(o[4]>1?'<i class="ud u'+o[4]+'" aria-hidden="true"></i>':'');
+ b.onclick=()=>pickK(i,false);
+ b.onkeydown=e=>{const n=KEL[L].length;let j=null;if(e.key==="ArrowRight"||e.key==="ArrowDown")j=(i+1)%n;else if(e.key==="ArrowLeft"||e.key==="ArrowUp")j=(i-1+n)%n;if(j!==null){e.preventDefault();pickK(j,true)}};
+ kl.appendChild(b)})}
+function pickK(i,kb){if(i!==ki)sent=false;ki=i;$$("#kl .k").forEach((x,j)=>{x.setAttribute("aria-checked",j===i);x.tabIndex=j===i?0:-1});renderRes();stepper();
+ if(kb){$$("#kl .k")[i].focus();return}
+ const h=$("#res h3");if(h)h.focus({preventScroll:true});if(mob())$("#res").scrollIntoView({behavior:SB,block:"start"})}
+let lastKi=-2,pref=-1,msgEdited=false;
+const feeTx=p=>p==="?"?'<em>'+t("ask_c")+'</em>':p===null?'<em>'+t("after_ex")+'</em>':'<small style="font-family:var(--bf);font-size:11px;color:#98a6cf;font-weight:600">'+t("from")+'</small> '+rp(p);
+function renderRes(){const r=$("#res");
+ if(ki<0){r.className="res empty";r.dataset.k="";
+  r.innerHTML='<div class="skl" style="width:38%"></div><div class="skl" style="width:86%"></div><div class="skl" style="width:64%"></div><p><b>'+t("pick")+'</b>'+t("pickp")+'</p><div class="gbtn" aria-hidden="true">'+t("send")+'</div>';return}
+ const o=KEL[L][ki],names=sel.map(tName),key=ki+L;
+ if(r.classList.contains("full")&&r.dataset.k===key){const rt=$("#rteeth");rt.innerHTML=names.map(n=>'<span>'+n+'</span>').join("");rt.hidden=!names.length;compose();return}
+ const changed=lastKi!==ki,prev=$("#msg")?$("#msg").value:"";lastKi=ki;r.dataset.k=key;if(changed)msgEdited=false;
+ r.className="res full"+(changed&&!RM?" anim":"");
+ r.innerHTML='<div class="r-top"><span class="rk">'+t("likely")+'</span><span class="urg u'+o[4]+'"><i></i>'+t("urg")[o[4]]+'</span></div>'+
+  '<h3 tabindex="-1">'+o[2]+'</h3><div class="rteeth" id="rteeth"'+(names.length?'':' hidden')+'>'+names.map(n=>'<span>'+n+'</span>').join("")+'</div>'+
+  '<p class="ex">'+o[3]+'</p><div class="rtl-h">'+t("tr_usual")+'</div>'+
+  '<ul class="tl">'+o[5].map(([n,p])=>'<li><span>'+n+'</span><span>'+feeTx(p)+'</span></li>').join("")+'</ul>'+
+  '<p class="est">'+t("est_src")+' <span class="chk">'+t("chk")+'</span></p>'+
+  '<div class="bub-h"><label class="bub-c" for="msg">'+t("yourmsg")+'</label><button type="button" class="mrst" id="mrst" hidden>'+ic("reset")+t("msg_rst")+'</button></div><textarea class="bub" id="msg" rows="3"></textarea>'+
+  '<div class="pref" role="group" aria-label="'+t("pref_l")+'"><span aria-hidden="true">'+t("pref_l")+'</span>'+[0,1,2].map(i=>'<button type="button" aria-pressed="'+(pref===i)+'" data-p="'+i+'">'+t("pf")[i]+'</button>').join("")+'</div>'+
+  '<a class="btn btn-wa" id="send" target="_blank" rel="noopener" href="#">'+ic("wa")+t("send")+'</a>'+
+  '<button type="button" class="copy" id="copy">'+ic("copy")+'<span>'+t("copy")+'</span></button>';
+ const m=$("#msg");if(msgEdited)m.value=prev;compose();
+ m.oninput=()=>{msgEdited=true;sent=false;stepper();$("#mrst").hidden=false;fit(m);$("#send").href=wa(m.value)};
+ $("#mrst").onclick=()=>{msgEdited=false;compose();m.focus()};
+ $$(".pref button",r).forEach(b=>b.onclick=()=>{const p=+b.dataset.p;pref=pref===p?-1:p;$$(".pref button",r).forEach(x=>x.setAttribute("aria-pressed",+x.dataset.p===pref));compose()});
+ $("#send").addEventListener("click",()=>{sent=true;stepper()});
+ $("#copy").onclick=()=>copyText($("#msg").value,()=>{const s=$("#copy span");s.textContent=t("copied");setTimeout(()=>s.textContent=t("copy"),1600)});
+ if(changed)$("#rstat").textContent=t("r_upd")+o[2]}
+function compose(){const o=KEL[L][ki],a=areaTxt(),m=$("#msg");if(!m)return;
+ const v=t("w_k1")+lc(o[2])+(a?t("w_k2")+a:"")+". "+(pref>=0?t("w_pref")+t("pf")[pref].toLowerCase()+". ":"")+t("w_k3");
+ if(!msgEdited&&m.value!==v){m.value=v;sent=false}
+ $("#mrst").hidden=!msgEdited||m.value===v;fit(m);$("#send").href=wa(m.value);stepper()}
+function fit(m){m.style.height="auto";m.style.height=Math.min(160,m.scrollHeight+2)+"px"}
+
+/* ================= JALUR SOZO — pemilih cabang (fitur khas) ================= */
+const P={o:null,br:"pjj",sv:0,day:0,tm:1,edited:false};
+const px=(lat,lng)=>[(lng-107.53)/0.18*400,(-6.86-lat)/0.15*290];
+function hav(a,b,c,d){const R=6371,r=x=>x*Math.PI/180,dl=r(c-a),dn=r(d-b),s=Math.sin(dl/2)**2+Math.cos(r(a))*Math.cos(r(c))*Math.sin(dn/2)**2;return 2*R*Math.asin(Math.sqrt(s))}
+const kmTx=k=>"± "+k.toFixed(1).replace(".",L==="id"?",":".")+" "+t("km");
+function dists(){return P.o?BR.map(b=>({b,d:hav(P.o[1],P.o[2],b.lat,b.lng)})).sort((x,y)=>x.d-y.d):BR.map(b=>({b,d:null}))}
+function buildMap(){const s=$("#lm");let h='<defs><pattern id="gd" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="rgba(255,255,255,.05)"/></pattern></defs><rect width="400" height="290" fill="url(#gd)"/>'+
+ '<path d="M40 60C80 20 170 14 250 30S380 70 385 140 330 260 230 270 60 265 30 190 10 95 40 60Z" fill="rgba(22,194,224,.07)" stroke="rgba(110,193,228,.35)" stroke-dasharray="3 5"/>'+
+ '<path d="M0 104C80 98 150 112 230 108S340 100 400 112" fill="none" stroke="rgba(255,255,255,.28)" stroke-width="3" stroke-dasharray="10 6"/>'+
+ '<text x="8" y="96" font-family="Space Mono,monospace" font-size="7.5" fill="#8fa2d6">REL KA</text>'+
+ '<path d="M186 0C182 40 190 80 184 120S196 200 204 290" fill="none" stroke="rgba(110,193,228,.45)" stroke-width="2.5"/>'+
+ '<text x="190" y="20" font-family="Space Mono,monospace" font-size="7.5" fill="#8fa2d6">CIKAPUNDUNG</text>';
+ const D=dists(),best=P.o?D[0].b.k:null;
+ if(P.o){const [ox,oy]=px(P.o[1],P.o[2]);D.forEach(({b,d})=>{const [x,y]=px(b.lat,b.lng);h+='<path class="rt'+(b.k===best?' best':'')+'" d="M'+ox.toFixed(1)+' '+oy.toFixed(1)+'L'+x.toFixed(1)+' '+y.toFixed(1)+'"/>';})}
+ AREAS.forEach((a,i)=>{const [x,y]=px(a[1],a[2]);const on=P.o&&P.o[0]===a[0];const sd=a[3],lx=sd==="l"?x-8:sd==="bl"?x+6:(sd==="t"||sd==="b")?x:x+8,ly=sd==="t"?y-9:(sd==="b"||sd==="bl")?y+16:y+3,an=(sd==="l"||sd==="bl")?"end":(sd==="t"||sd==="b")?"middle":"start";h+='<g class="area'+(on?' on':'')+'" data-a="'+i+'" role="button" tabindex="0" aria-label="'+a[0]+'"><circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="'+(on?6:4.5)+'"/><text x="'+lx.toFixed(1)+'" y="'+ly.toFixed(1)+'" text-anchor="'+an+'">'+a[0]+'</text></g>'});
+ if(P.o&&P.o[0]===t("geo_ok")){const [x,y]=px(P.o[1],P.o[2]);h+='<g><circle cx="'+x+'" cy="'+y+'" r="7" fill="#ffd58a" stroke="#fff" stroke-width="2"/><text class="dl" x="'+(x+10)+'" y="'+(y+3)+'">'+t("you")+'</text></g>'}
+ BR.forEach(b=>{const [x,y]=px(b.lat,b.lng);h+='<g class="stn2'+(b.k===best?' best':'')+'" data-b="'+b.k+'" style="cursor:pointer"><circle class="o" cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="11"/><text class="num" x="'+x.toFixed(1)+'" y="'+(y+3.2).toFixed(1)+'" text-anchor="middle">'+b.no+'</text><text x="'+(b.k==="bbt"?x:x+15).toFixed(1)+'" y="'+(b.k==="bbt"?y+25:y+4).toFixed(1)+'"'+(b.k==="bbt"?' text-anchor="middle"':'')+'>'+b.n.toUpperCase()+'</text></g>'});
+ s.innerHTML=h;
+ $$(".area",s).forEach(g=>{const f=()=>setOrigin(AREAS[+g.dataset.a]);g.onclick=f;g.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();f()}}});
+ $$(".stn2",s).forEach(g=>g.onclick=()=>{P.br=g.dataset.b;P.edited=false;buildBranches();compP()})}
+function setOrigin(o){P.o=o;const D=dists();P.br=D[0].b.k;P.edited=false;buildMap();buildAreas();buildBranches();compP()}
+function buildAreas(){const c=$("#areas");c.innerHTML=AREAS.map((a,i)=>'<button type="button" data-a="'+i+'" aria-pressed="'+(!!P.o&&P.o[0]===a[0])+'">'+a[0]+'</button>').join("")+'<button type="button" class="geo" id="geo" aria-pressed="'+(!!P.o&&P.o[0]===t("geo_ok"))+'">'+t("geo")+'</button>';
+ $$("button[data-a]",c).forEach(b=>b.onclick=()=>setOrigin(AREAS[+b.dataset.a]));
+ $("#geo").onclick=()=>{if(!navigator.geolocation){gtoast(t("geo_err"));return}navigator.geolocation.getCurrentPosition(p=>setOrigin([t("geo_ok"),p.coords.latitude,p.coords.longitude]),()=>gtoast(t("geo_err")),{timeout:8000})}}
+function buildBranches(){const D=dists(),c=$("#bl2");
+ c.innerHTML=D.map(({b,d},i)=>{const s=bst(b);return '<button type="button" class="bc" role="radio" data-b="'+b.k+'" aria-checked="'+(P.br===b.k)+'"><span class="no">'+b.no+'</span><span><b>Sozo Bandung '+brName(b)+'</b><span class="ad">'+b.a+'</span>'+(d!==null&&i===0?'<span class="tag">'+t("near")+'</span>':'')+'</span><span class="km">'+(d!==null?kmTx(d):'')+'<small class="'+s.c+'">'+s.tx+'</small></span></button>'}).join("");
+ $$(".bc",c).forEach(b=>b.onclick=()=>{P.br=b.dataset.b;P.edited=false;buildBranches();compP()})}
+function chipset(id,arr,key){const c=$(id);c.innerHTML=arr.map((x,i)=>'<button type="button" data-v="'+i+'" aria-pressed="'+(P[key]===i)+'">'+x+'</button>').join("");$$("button",c).forEach(b=>b.onclick=()=>{P[key]=+b.dataset.v;P.edited=false;chipset(id,arr,key);compP()})}
+function buildPlan(){buildBranches();chipset("#psv",PSV[L],"sv");chipset("#pday",t("days"),"day");chipset("#ptm",t("tms"),"tm");compP()}
+function compP(){const b=BR.find(x=>x.k===P.br),m=$("#pbub");
+ const v=t("w_p1")+brName(b)+t("w_p2")+PSV[L][P.sv].toLowerCase()+". "+t("w_p3")+t("days")[P.day].toLowerCase()+", "+t("tms")[P.tm].toLowerCase()+". "+t("w_p4");
+ if(!P.edited)m.value=v;$("#prst").hidden=!P.edited;fit(m);$("#psend").href=wa(m.value);
+ $("#pmaps").href=b.maps;$("#pwaze").href="https://waze.com/ul?q="+encodeURIComponent(b.q)+"&navigate=yes"}
+$("#pbub").oninput=()=>{P.edited=true;$("#prst").hidden=false;fit($("#pbub"));$("#psend").href=wa($("#pbub").value)};
+$("#prst").onclick=()=>{P.edited=false;compP()};
+
+/* ================= LAYANAN / HARGA ================= */
+function buildSvc(){$("#svc").innerHTML=SVC.map(([k,o],i)=>{const [n,d]=o[L];return '<div class="sv"><span class="n">'+String(i+1).padStart(2,"0")+'</span><svg class="g" viewBox="0 0 24 24" fill="none" stroke="#16c2e0" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="'+ICO[k]+'"/></svg><h3>'+n+'</h3><p>'+d.replace("✎",'<span class="chk">✎</span>')+'</p></div>'}).join("");
+ $("#prl").innerHTML=PRL.map(([p,o])=>'<div class="prw"><span>'+o[L][0]+'<small>'+o[L][1]+'</small></span><b><small>'+t("from")+'</small>'+rp(p)+'</b></div>').join("");
+ $("#psl").innerHTML=(L==="id"?["Harga “mulai” dari situs resmi Sozo","Rincian biaya dijelaskan sebelum perawatan","Tanya dulu lewat WhatsApp, tanpa harus datang"]:["“From” prices from Sozo's official site","Costs explained before treatment","Ask on WhatsApp first, no visit needed"]).map(x=>'<li>'+x+'</li>').join("")}
+
+/* ================= DOKTER + FASILITAS ================= */
+function av(i,g,ghost){const sk=["#e6c2a2","#c8946f","#f0d0b4"][i%3],hr=["#2a1e18","#3b2a20","#1d1a18"][i%3],bg=["#e5f7ff","#eef3ff","#e9f8f6"][i%3];
+ const hair=g==="f"?'<path d="M34 44c-2-16 8-26 26-26s28 10 26 26c-1 6 0 16 3 22-8 2-12-4-13-12-3-8-10-12-16-12s-13 4-16 12c-1 8-5 14-13 12 3-6 4-16 3-22z" fill="'+hr+'"/>':g==="f2"?'<path d="M36 46c-2-17 8-27 24-27s26 10 24 27c-4-7-12-12-24-12s-20 5-24 12z" fill="'+hr+'"/><circle cx="60" cy="19" r="7" fill="'+hr+'"/>':'<path d="M36 46c-1-17 9-26 24-26s25 9 24 26c-3-6-9-10-12-11-7 4-18 5-27 2-4 2-7 5-9 9z" fill="'+hr+'"/>';
+ const op=ghost?' opacity=".45"':'';
+ return '<svg viewBox="0 0 120 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="120" height="96" fill="'+bg+'"/><path d="M92 8c-3 0-5 1.5-7.5 1.5S80 8 77 10.5c-2 2.5-2 7-.5 11 1.5 4.5 2.5 8 3 12.5.5 3 1.5 4.5 3 4.5 2 0 2.5-2 3-5 .5-2.5 1.5-4.5 3.5-4.5s3 2 3.5 4.5c.5 3 1 5 3 5 1.5 0 2.5-1.5 3-4.5.5-4.5 1.5-8 3-12.5 1.5-4 1.5-8.5-.5-11-3-2.5-5.5-.5-7.5-.5z" fill="#fff" opacity=".8"/><g'+op+'><path d="M22 96c2-18 16-28 38-28s36 10 38 28z" fill="#fff"/><path d="M50 70l10 14 10-14" fill="none" stroke="#132573" stroke-width="3"/><path d="M47 69c4 6 9 9 13 9s9-3 13-9" fill="#16c2e0" opacity=".25"/><rect x="53" y="58" width="14" height="14" rx="6" fill="'+sk+'"/><ellipse cx="60" cy="44" rx="17" ry="20" fill="'+sk+'"/>'+hair+'<circle cx="53.5" cy="46" r="1.6" fill="#2a1e18"/><circle cx="66.5" cy="46" r="1.6" fill="#2a1e18"/><path d="M55 54c3 2 7 2 10 0" fill="none" stroke="#8c5a44" stroke-width="1.6" stroke-linecap="round"/><path d="M78 82c4 0 6 4 6 8" fill="none" stroke="#16c2e0" stroke-width="2"/><circle cx="84" cy="92" r="3" fill="#16c2e0"/></g></svg>'}
+function buildDocs(){$("#dg").innerHTML=DR.map((d,i)=>{const b=BR.find(x=>x.k===d.br);
+ const msg=d.real?t("w_doc")+d.n+" (Bandung "+brName(b)+").":t("w_docq")+brName(b)+"?";
+ return '<article class="dc'+(d.real?'':' ph0')+'"><div class="ph">'+av(i,d.g,!d.real)+'<span class="il">'+t("d_ill")+'</span></div><div class="bd"><span class="loc">BDG '+brName(b).toUpperCase()+'</span><h3>'+(d.real?d.n:t("d_unk"))+'</h3><p>'+(d.real?t("d_sp"):t("d_sp2"))+' <span class="chk">✎</span></p><a href="'+wa(msg)+'" target="_blank" rel="noopener">'+(d.real?t("d_book"):t("d_ask"))+' '+ic("ar")+'</a></div></article>'}).join("");
+ $("#fas").innerHTML=FAS.map(([k,o,v])=>'<div class="fc"><svg class="i"><use href="#i-'+k+'"/></svg><b>'+o[L][0]+'</b><span>'+o[L][1]+(v?' <span class="chk">✎</span>':'')+'</span></div>').join("")}
+
+/* ================= LOKASI ================= */
+let LB="pjj",mapOn=false;
+function buildLoc(){$("#tabs").innerHTML=BR.map(b=>'<button type="button" role="tab" data-k="'+b.k+'" aria-selected="'+(LB===b.k)+'"><i>'+b.no+'</i>'+b.n+'</button>').join("");
+ $$("#tabs button").forEach(x=>x.onclick=()=>{LB=x.dataset.k;buildLoc();if(mapOn)loadMap()});
+ const b=BR.find(x=>x.k===LB),s=bst(b),{day}=wib();
+ const hrs=b.h?'<div class="hrs">'+[1,2,3,4,5,6,0].map(d=>'<div class="'+(d===day?"td":"")+'">'+t("days_s")[d]+'<small>'+b.h[0]+'–'+b.h[1]+'</small></div>').join("")+'</div>':'<p style="font-size:14px;color:var(--muted);margin-top:4px">'+t("hrs_unk")+'</p>';
+ $("#linfo").innerHTML='<div><span class="stn" style="margin-bottom:6px"><b>'+b.no+'</b>Sozo Dental Bandung</span><h3>'+b.n+'</h3><p class="st '+s.c+'" style="display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;margin-top:6px;color:var(--muted)"><i class="dot"></i>'+s.tx+'</p></div>'+
+  '<div class="lrow">'+ic("pin")+'<span><small>'+t("a_adr")+'</small>'+b.a+'<br><button type="button" id="cpa" style="font-weight:800;color:var(--cy-t);font-size:13px;min-height:36px;text-decoration:underline;text-underline-offset:3px">'+t("cp_a")+'</button></span></div>'+
+  '<div class="lrow">'+ic("clock")+'<span style="flex:1;min-width:0"><small>'+t("a_hrs")+' <span class="chk">✎</span></small>'+hrs+'</span></div>'+
+  '<div class="lrow">'+ic("phone")+'<span><small>'+t("a_tel")+' <span class="chk">✎</span></small>'+(b.tel?'<a href="tel:'+b.th+'" style="font-weight:700;text-decoration:underline">'+b.tel+'</a>':t("tel_unk"))+'<br><small style="margin-top:6px">'+t("a_wa")+'</small><a href="https://wa.me/'+WA+'" target="_blank" rel="noopener" style="font-weight:700;text-decoration:underline">+62 851-8201-6877</a></span></div>'+
+  '<div class="lbtns"><a class="btn btn-wa btn-sm" target="_blank" rel="noopener" href="'+wa(t("w_br")+brName(b)+": ")+'">'+ic("wa")+'WhatsApp</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="'+b.maps+'">Google Maps ↗</a><a class="btn btn-gh btn-sm" target="_blank" rel="noopener" href="https://waze.com/ul?q='+encodeURIComponent(b.q)+'&navigate=yes">Waze ↗</a></div>';
+ $("#cpa").onclick=()=>copyText(b.a,()=>gtoast(t("copied_a")));
+ $("#fbr").innerHTML=BR.map(b=>'<li><a href="#lokasi" data-b="'+b.k+'">'+brName(b)+'</a></li>').join("");$$("#fbr a").forEach(a=>a.onclick=()=>{LB=a.dataset.b;buildLoc()})}
+function loadMap(){mapOn=true;const b=BR.find(x=>x.k===LB);$("#map").innerHTML='<iframe loading="lazy" title="Google Maps — Sozo Dental '+b.n+'" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q='+encodeURIComponent(b.q)+'&z=16&output=embed"></iframe>'}
+$("#mapBtn").onclick=loadMap;
+if("IntersectionObserver" in window){const mo=new IntersectionObserver(e=>{if(e[0].isIntersecting){loadMap();mo.disconnect()}},{rootMargin:"200px"});mo.observe($("#map"))}
+
+/* ================= FAQ ================= */
+function buildFaq(){$("#fql").innerHTML=FAQ[L].map((q,i)=>'<details'+(i===0?" open":"")+'><summary>'+q[0]+'<i aria-hidden="true"></i></summary><p>'+q[1]+([0,2].includes(i)?' <span class="chk">'+t("chk")+'</span>':'')+'</p></details>').join("")}
+
+/* ================= FAB ================= */
+if("IntersectionObserver" in window){const seen=new Set();const fo=new IntersectionObserver(es=>{es.forEach(e=>e.isIntersecting?seen.add(e.target):seen.delete(e.target));$("#fab").classList.toggle("hide",seen.size>0)});[$("#hcta"),$(".close"),$("#pmsg"),$("#bl2"),$("#res"),$("#linfo")].forEach(x=>fo.observe(x))}
+
+applyLang();
+</script>
+<script>
+/* ================= HERO 3D — gigi Sozo + cincin nama + emblem logo + bakteri (Three.js r128, lazy) ================= */
+addEventListener("load",()=>{const s=document.createElement("script");s.src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";s.onload=init3d;s.onerror=()=>{document.getElementById("fb").style.display="block"};document.head.appendChild(s)});
+function init3d(){
+ const stage=document.getElementById("stage");let R;
+ try{R=new THREE.WebGLRenderer({antialias:true,alpha:true})}catch(e){document.getElementById("fb").style.display="block";return}
+ R.setPixelRatio(Math.min(devicePixelRatio,2));stage.appendChild(R.domElement);document.getElementById("zap").classList.add("on");
+ const badge=stage.querySelector(".badge");if(badge)badge.style.display="none";
+ const cv=R.domElement;cv.style.touchAction="pan-y";cv.style.cursor="grab";
+ const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(35,1,.1,100);cam.position.set(0,.15,9.4);
+ const TAU=Math.PI*2,v=new THREE.Vector3(),rnd=(a,b)=>a+Math.random()*(b-a);
+ const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+ const NAVY=0x132573,CY=0x16c2e0;
+
+ /* tooth — smooth & rounded like the Sozo logo */
+ const mat=new THREE.MeshStandardMaterial({color:0xffffff,roughness:.28,metalness:.04});
+ const tooth=new THREE.Group();
+ const cg=new THREE.SphereGeometry(1.2,56,40),p=cg.attributes.position;
+ for(let i=0;i<p.count;i++){v.fromBufferAttribute(p,i);v.x*=1.08;v.z*=.9;
+  if(v.y>0){const r=Math.hypot(v.x,v.z),th=Math.atan2(v.z,v.x);v.y=v.y*.72+.12*Math.cos(2*th)*(r/1.2)-.22*Math.max(0,1-r/.6)}else v.y*=.6;p.setXYZ(i,v.x,v.y,v.z)}
+ cg.computeVertexNormals();const crown=new THREE.Mesh(cg,mat);crown.position.y=.55;tooth.add(crown);
+ [-1,1].forEach(sd=>{const rg=new THREE.CylinderGeometry(.46,.16,1.9,32,6);const rp=rg.attributes.position;for(let i=0;i<rp.count;i++){v.fromBufferAttribute(rp,i);const k=(v.y+.95)/1.9;v.x+=sd*(1-k)*.12;rp.setXYZ(i,v.x,v.y,v.z)}rg.computeVertexNormals();
+  const m=new THREE.Mesh(rg,mat);m.position.set(sd*.5,-.7,0);m.rotation.z=sd*.08;tooth.add(m)});
+ // cyan glint (the white stroke in the logo, turned into a highlight arc)
+ const gl=new THREE.Mesh(new THREE.TorusGeometry(.72,.05,10,40,1.4),new THREE.MeshBasicMaterial({color:CY}));gl.position.set(-.18,.95,.98);gl.rotation.set(-.35,.1,1.7);tooth.add(gl);
+ tooth.rotation.set(.2,-.4,0);tooth.scale.setScalar(1.05);sc.add(tooth);
+
+ /* text ring + orbiting emblem */
+ const RING=2.0,SHIELD=2.08;
+ const ring=new THREE.Group();ring.rotation.set(.32,0,-.14);sc.add(ring);
+ function bandTexture(){const c=document.createElement("canvas");c.width=2048;c.height=96;const x=c.getContext("2d");
+  x.font="600 42px Poppins, 'Segoe UI', Arial, sans-serif";x.fillStyle="#132573";x.textBaseline="middle";
+  const unit="SOZO DENTAL BANDUNG   ●   PAJAJARAN · BUAH BATU · MEKARWANGI   ●   ";
+  const w=x.measureText(unit).width,n=Math.max(1,Math.round(c.width/w)),sx=c.width/(w*n);
+  x.save();x.scale(sx,1);for(let i=0;i<n;i++)x.fillText(unit,i*w,c.height/2+2);x.restore();
+  x.fillStyle="#16c2e0";x.fillRect(0,4,c.width,4);x.fillRect(0,c.height-8,c.width,4);
+  const t=new THREE.CanvasTexture(c);t.wrapS=THREE.RepeatWrapping;t.anisotropy=4;return t}
+ const bandGeo=new THREE.CylinderGeometry(RING,RING,.3,160,1,true);
+ const bandFront=new THREE.MeshBasicMaterial({transparent:true,side:THREE.FrontSide,depthWrite:false});
+ const bandBack=new THREE.MeshBasicMaterial({transparent:true,side:THREE.BackSide,depthWrite:false,opacity:.22});
+ ring.add(new THREE.Mesh(bandGeo,bandBack),new THREE.Mesh(bandGeo,bandFront));
+ const setBand=()=>{const t=bandTexture();bandFront.map=t;bandBack.map=t;bandFront.needsUpdate=bandBack.needsUpdate=true};
+ setBand();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(setBand);
+ const EMB='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="96" fill="#fff"/><circle cx="100" cy="100" r="88" fill="none" stroke="#132573" stroke-width="7"/><g transform="translate(62 44) scale(1.18)"><path d="M32 4c-6 0-10 3-15 3S9 3 3 8c-4 5-4 14-1 22 3 9 5 16 6 25 1 6 3 9 6 9 4 0 5-4 6-10 1-5 3-9 7-9s6 4 7 9c1 6 2 10 6 10 3 0 5-3 6-9 1-9 3-16 6-25 3-8 3-17-1-22-6-5-11-1-15-1z" fill="#16c2e0"/><path d="M9 22c3-7 9-11 17-12" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/></g><text x="100" y="152" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-weight="700" font-size="30" fill="#132573">sozo</text></svg>';
+ const logoImg=new Image(),logoTex=new THREE.Texture(logoImg);
+ logoImg.onload=()=>{const c=document.createElement("canvas");c.width=c.height=512;c.getContext("2d").drawImage(logoImg,0,0,512,512);logoTex.image=c;logoTex.needsUpdate=true};
+ logoImg.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(EMB);
+ const emblem=new THREE.Sprite(new THREE.SpriteMaterial({map:logoTex,transparent:true}));emblem.scale.set(.95,.95,1);ring.add(emblem);
+ const shell=new THREE.Mesh(new THREE.IcosahedronGeometry(SHIELD,2),new THREE.MeshBasicMaterial({color:CY,wireframe:true,transparent:true,opacity:.05,depthWrite:false}));sc.add(shell);
+ const ripples=[],rippleGeo=new THREE.RingGeometry(.12,.17,40);let flash=0;
+ function ripple(pt){const m=new THREE.Mesh(rippleGeo,new THREE.MeshBasicMaterial({color:CY,transparent:true,opacity:.9,side:THREE.DoubleSide,depthWrite:false}));
+  m.position.copy(pt).setLength(SHIELD);m.lookAt(pt.clone().multiplyScalar(2));m.userData.t=0;sc.add(m);ripples.push(m);flash=1}
+
+ /* bacteria — varied shapes */
+ const ink=new THREE.MeshStandardMaterial({color:NAVY,roughness:.45,metalness:.1});
+ const cyan=new THREE.MeshStandardMaterial({color:CY,roughness:.35,metalness:.2});
+ const ball=(r,m)=>new THREE.Mesh(new THREE.IcosahedronGeometry(r,2),m);
+ const tube=(pts,r,m,seg)=>new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts),seg||40,r,6,false),m);
+ const MAKERS=[
+  m=>{const g=new THREE.Group();g.add(ball(.17,m));for(let i=0;i<8;i++){const a=i/8*TAU,s=ball(.03,cyan);s.position.set(Math.cos(a)*.19,Math.sin(a)*.19,0);g.add(s)}return g},
+  m=>{const g=new THREE.Group();[-.11,.11].forEach(x=>{const b=ball(.12,m);b.position.x=x;b.scale.set(.9,1.05,1);g.add(b)});return g},
+  m=>{const g=new THREE.Group();for(let i=0;i<5;i++){const b=ball(.085,m);b.position.set(i*.16-.32,Math.sin(i*1.1)*.07,0);g.add(b)}return g},
+  m=>{const g=new THREE.Group();[[0,0,0],[.13,.05,0],[-.12,.07,.04],[.02,.15,-.05],[.07,-.12,.05],[-.08,-.1,-.04],[.14,-.03,-.08]].forEach(q=>{const b=ball(.075,m);b.position.set(...q);g.add(b)});return g},
+  m=>{const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CylinderGeometry(.08,.08,.32,12),m);body.rotation.z=Math.PI/2;g.add(body);[-.16,.16].forEach(x=>{const c=ball(.08,m);c.position.x=x;g.add(c)});
+   const pts=[];for(let i=0;i<=12;i++)pts.push(new THREE.Vector3(.22+i*.045,Math.sin(i*1.1)*.05,0));g.add(tube(pts,.012,cyan,30));return g},
+  m=>{const pts=[];for(let i=0;i<=40;i++){const t=i/40;pts.push(new THREE.Vector3((t-.5)*.7,Math.cos(t*TAU*2.5)*.08,Math.sin(t*TAU*2.5)*.08))}return tube(pts,.035,m,80)},
+  m=>{const g=new THREE.Group();const pts=[];for(let i=0;i<=10;i++){const a=-.9+i*.18;pts.push(new THREE.Vector3(Math.cos(a)*.22,Math.sin(a)*.22,0))}g.add(tube(pts,.06,m,24));
+   const f=[];for(let i=0;i<=10;i++)f.push(new THREE.Vector3(.14+i*.03,-.2-i*.035,Math.sin(i)*.03));g.add(tube(f,.01,cyan,20));return g}];
+ const bugs=[];
+ function spawn(b,first){const a=rnd(0,TAU),r=first?rnd(2.6,3.1):3.4;b.position.set(Math.cos(a)*r,rnd(-1.5,1.6),Math.sin(a)*r*.45);
+  b.userData.v=new THREE.Vector3(-b.position.x,-b.position.y*.5,-b.position.z).setLength(rnd(.25,.45));b.userData.spin=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1));b.userData.dead=0;b.visible=true;b.scale.setScalar(first?1:.01);b.userData.grow=first?1:0}
+ const N=innerWidth<700?7:10;
+ for(let i=0;i<N;i++){const b=MAKERS[i%MAKERS.length](i%4===3?cyan:ink);b.traverse(o=>{if(o.isMesh)o.userData.bug=b});sc.add(b);bugs.push(b);spawn(b,true)}
+ const bits=[],bitGeo=new THREE.TetrahedronGeometry(.045);
+ function burst(pt){for(let i=0;i<10;i++){const m=new THREE.Mesh(bitGeo,i%2?cyan:ink);m.position.copy(pt);m.userData.v=new THREE.Vector3(rnd(-1,1),rnd(-1,1),rnd(-1,1)).setLength(rnd(1.2,2.4));m.userData.t=0;sc.add(m);bits.push(m)}}
+
+ sc.add(new THREE.HemisphereLight(0xffffff,0xcfe6f3,.95));
+ const k=new THREE.DirectionalLight(0xffffff,.85);k.position.set(3,4,5);sc.add(k);
+ const c2=new THREE.PointLight(CY,1,14);c2.position.set(-3,-1,3);sc.add(c2);
+ function size(){const w=stage.clientWidth,h=stage.clientHeight;R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}size();addEventListener("resize",size);
+
+ let mx=0,my=0,vis=true,drag=null,yaw=0,vy=0,cleared=0;
+ const ray=new THREE.Raycaster(),ndc=new THREE.Vector2(),zap=document.getElementById("zapc");
+ function hit(e){const r=cv.getBoundingClientRect();ndc.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1);ray.setFromCamera(ndc,cam);
+  const h=ray.intersectObjects(bugs.filter(b=>b.visible&&!b.userData.dead),true)[0];return h&&h.object.userData.bug}
+ addEventListener("pointermove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+ cv.addEventListener("pointermove",e=>{if(drag){const dx=e.clientX-drag.x;drag.moved+=Math.abs(dx);vy=dx*.012;yaw+=vy;drag.x=e.clientX;return}cv.style.cursor=hit(e)?"pointer":"grab"});
+ cv.addEventListener("pointerdown",e=>{drag={x:e.clientX,moved:0};cv.style.cursor="grabbing"});
+ cv.addEventListener("pointercancel",()=>{drag=null;cv.style.cursor="grab"});
+ addEventListener("pointerup",e=>{if(!drag)return;const d=drag;drag=null;cv.style.cursor="grab";
+  if(d.moved<6&&e.target===cv){const b=hit(e);if(b){b.userData.dead=1;burst(b.getWorldPosition(new THREE.Vector3()));b.visible=false;cleared++;if(zap){zap.textContent=cleared;zap.parentNode.classList.remove("pop");void zap.offsetWidth;zap.parentNode.classList.add("pop")}
+   setTimeout(()=>spawn(b,false),1600)}}});
+ new IntersectionObserver(([e])=>vis=e.isIntersecting).observe(stage);
+
+ const clk=new THREE.Clock();let emA=0;
+ (function loop(){requestAnimationFrame(loop);if(!vis)return;const dt=Math.min(clk.getDelta(),.05),tt=clk.elapsedTime,s=Math.min(scrollY/600,1.2);
+  if(!reduce){
+   if(!drag){yaw+=vy;vy*=.94}
+   tooth.rotation.y+=((-.4+tt*.3+s*2.4+mx*.8+yaw)-tooth.rotation.y)*.08;tooth.rotation.x+=((.2+my*.5)-tooth.rotation.x)*.06;tooth.position.y=Math.sin(tt*1.1)*.1;
+   ring.rotation.y-=dt*.35;emA+=dt*.55;
+   if(bandFront.map)bandFront.map.offset.x=(bandFront.map.offset.x+dt*.01)%1;
+   emblem.position.set(Math.cos(emA)*(RING+.02),0,Math.sin(emA)*(RING+.02));
+   const inFront=emblem.getWorldPosition(v).z>0;emblem.material.opacity+=((inFront?1:.35)-emblem.material.opacity)*.15;
+   shell.rotation.y+=dt*.05;
+   bugs.forEach(b=>{if(b.userData.dead&&!b.visible)return;const u=b.userData;
+    if(u.grow<1){u.grow=Math.min(1,u.grow+dt*1.5);b.scale.setScalar(Math.max(.01,u.grow))}
+    if(u.cool>0)u.cool-=dt;v.copy(b.position).negate().setLength(.09*dt);u.v.add(v);u.v.x+=Math.sin(tt*1.3+b.id)*.004;u.v.y+=Math.cos(tt*1.1+b.id)*.004;
+    u.v.clampLength(.12,.55);b.position.addScaledVector(u.v,dt);
+    const d=b.position.length();
+    if(d<SHIELD+.18){const n=b.position.clone().normalize();u.v.reflect(n).addScaledVector(n,.35);b.position.copy(n.multiplyScalar(SHIELD+.2));if(!(u.cool>0)){ripple(b.position.clone());u.cool=1.6}}
+    if(d>3.8)spawn(b,false);
+    b.rotation.x+=u.spin.x*dt;b.rotation.y+=u.spin.y*dt;b.rotation.z+=u.spin.z*dt});
+  }else{emblem.position.set(0,0,RING+.02)}
+  for(let i=ripples.length-1;i>=0;i--){const m=ripples[i];m.userData.t+=dt;const q=m.userData.t/.8;m.scale.setScalar(1+q*4);m.material.opacity=.9*(1-q);if(q>=1){sc.remove(m);m.material.dispose();ripples.splice(i,1)}}
+  for(let i=bits.length-1;i>=0;i--){const m=bits[i];m.userData.t+=dt;m.position.addScaledVector(m.userData.v,dt);m.userData.v.multiplyScalar(.93);m.rotation.x+=.2;m.scale.setScalar(Math.max(.01,1-m.userData.t/.9));if(m.userData.t>.9){sc.remove(m);bits.splice(i,1)}}
+  flash*=.9;shell.material.opacity=.05+flash*.1;
+  R.render(sc,cam)})();
+}
+</script>
+</body>
+</html>
