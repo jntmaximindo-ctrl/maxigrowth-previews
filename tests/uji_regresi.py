@@ -335,6 +335,12 @@ def _():
     assert st["status"] == "Review manual", st
 
 
+@uji("#23 klinik 'Riset di GPT' tanpa surat tugas di Drive otomatis dibuatkan surat (pemulihan)")
+def _():
+    t = (ROOT / ".github/workflows/orkestrator.yml").read_text()
+    assert "2e · Bus GPT · Pulihkan surat tugas yang hilang" in t and "Riset di GPT" in t and "RISET LAMA" in t, "langkah 2e hilang dari orkestrator.yml"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

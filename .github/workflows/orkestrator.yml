@@ -195,6 +195,26 @@ jobs:
             if rclone lsf "bus:03 Hasil Cek Fakta" --include "${k}_cekfakta.json*" | grep -q .; then continue; fi
             rclone copyto "$d/riset.json" "bus:02 Hasil Riset/${k}_riset.json.md" -v || true
           done
+      - name: 2e · Bus GPT · Pulihkan surat tugas yang hilang (pelajaran #23)
+        if: vars.RISET_ENGINE == 'bus'
+        run: |
+          for st in batches/B*/*/status.json; do
+            grep -q '"Riset di GPT"' "$st" || continue
+            d=$(dirname "$st"); B=$(basename "$(dirname "$d")"); W=$(basename "$d"); k="$B-$W"
+            [ -f "$d/job.json" ] || continue
+            if rclone lsf "bus:01 Antrean Riset" --include "${k}_riset*" | grep -q .; then continue; fi
+            if rclone lsf "bus:02 Hasil Riset" --include "${k}_riset.json*" | grep -q .; then continue; fi
+            if rclone lsf root: --max-depth 1 --include "${k}_riset.json*" | grep -q .; then continue; fi
+            {
+              echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "$d/job.json"; echo
+              if [ -f "bus-notes/$k" ]; then cat "bus-notes/$k"; else
+                echo "REVISI: riset sebelumnya tidak punya nomor WhatsApp, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila kosong. Tidak ketemu = v null, src null (JANGAN menebak). Tulis ulang riset dan konten lengkap."
+                C=$(git log --diff-filter=D -1 --format=%H -- "$d/riset.json" 2>/dev/null || true)
+                if [ -n "$C" ]; then echo; echo "RISET LAMA:"; git show "$C^:$d/riset.json" || true; fi
+              fi
+            } > /tmp/surat-p.txt
+            rclone copyto /tmp/surat-p.txt "bus:01 Antrean Riset/${k}_riset.txt" -v || true
+          done
       - name: 2c · R&D fitur · ide dari GPT → library/fitur (+ katalog ke Drive untuk GPT)
         run: |
           mkdir -p /tmp/bus/fitur; rm -f /tmp/fitur-arsip.txt
