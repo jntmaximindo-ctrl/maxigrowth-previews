@@ -249,6 +249,40 @@ def _():
     assert m.tetapkan(a, "gagal") == "Terkirim" and m.tetapkan(a, "lolos") == "Terkirim"
 
 
+@uji("#18 R&D fitur: ide GPT valid dimuat, ide cacat ditolak; modul valid lulus, modul melanggar gagal; detect tahap fitur; katalog")
+def _():
+    d = salin()
+    shutil.copytree(ROOT / "schemas", d / "schemas")
+    (d / "library" / "fitur" / "modul").mkdir(parents=True)
+    ide = {"tanggal": "2026-10-12", "ide": [{"id": "pengingat-kontrol", "nama": "Pengingat kontrol 6 bulan", "masalah_pasien": "Pasien lupa kontrol rutin dan baru datang saat sakit.",
+           "solusi": "Pasien memilih tanggal perawatan terakhir lalu mendapat pesan WA pengingat siap kirim.", "alur_pengguna": ["pilih tanggal", "kirim WA"],
+           "referensi": [{"nama": "contoh", "url": "https://example.com"}], "skor": {"manfaat": 4, "kemudahan": 5, "keunikan": 3, "aman_permenkes": 5},
+           "risiko_permenkes": "rendah", "butuh_data": ["nomor WA"]}]}
+    s = d / "src"; s.mkdir()
+    (s / "FITUR-20261012_ide.json.md").write_text(json.dumps(ide))
+    (s / "FITUR-20261013_ide.json.md").write_text('{"tanggal": "x", "ide": []}')
+    subprocess.run([sys.executable, str(d / "scripts/fitur.py"), "pull", str(s)], cwd=d, check=True, capture_output=True)
+    assert (d / "library/fitur/ide/2026-10-12.json").exists() and not (d / "library/fitur/ide/x.json").exists()
+    assert "pengingat-kontrol" in (d / "library/fitur/ide/INDEX.md").read_text()
+    arsip = pathlib.Path("/tmp/fitur-arsip.txt").read_text(); assert "FITUR-20261013_ide.json.md" in arsip
+    m = d / "library/fitur/modul/pengingat-kontrol"; m.mkdir()
+    isi = '<section id="fitur-pengingat-kontrol"><a href="https://wa.me/6281">Kirim</a></section><style>@media (prefers-reduced-motion: reduce){*{animation:none}}</style><script>var a=1;</script>' + "<!--x-->" * 400
+    (m / "fitur.html").write_text(isi); (m / "demo.html").write_text("<html><body>" + isi * 2 + "</body></html>")
+    (m / "manifest.json").write_text(json.dumps({"slug": "pengingat-kontrol", "nama": "Pengingat kontrol", "ringkas": "r", "manfaat_pasien": "m",
+                                                "cocok_untuk": ["umum"], "butuh_data": ["wa"], "cara_pasang": "salin", "versi": "1.0"}))
+    f = modul(d, "fitur")
+    assert f.check_modul(m) == [], f.check_modul(m)
+    (m / "fitur.html").write_text(isi.replace("</script>", "</script><p>diskon gratis</p><img src='https://evil.example/x.png'>"))
+    assert len(f.check_modul(m)) >= 2
+    (m / "fitur.html").write_text(isi); f.cmd_katalog()
+    assert json.loads((d / "library/fitur/katalog.json").read_text())["fitur"][0]["slug"] == "pengingat-kontrol"
+    c = modul(d, "codex_check"); ch = d / "ch.txt"; ch.write_text("library/fitur/modul/abc/fitur.html\n.codex/tugas/x.md\n")
+    import io, contextlib
+    b = io.StringIO()
+    with contextlib.redirect_stdout(b): c.detect(str(ch))
+    assert "stage=fitur" in b.getvalue() and "dir=library/fitur/modul/abc" in b.getvalue(), b.getvalue()
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

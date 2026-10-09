@@ -11,11 +11,15 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 JOB_RE = re.compile(r"^(batches/B\d+/[^/]+)/(riset|konten|cekfakta)\.json$")
 SITE_RE = re.compile(r"^(batches/B\d+/[^/]+)/site/index\.html$")
 CARI_RE = re.compile(r"^(sourcing/[^/]+)/hasil\.json$")
+FITUR_RE = re.compile(r"^(library/fitur/modul/[a-z0-9-]+)/")
 
 
 def detect(changed_file):
     dirs, files = set(), set()
     for line in pathlib.Path(changed_file).read_text().split():
+        mf = FITUR_RE.match(line.strip())
+        if mf:
+            dirs.add(mf.group(1)); files.add("fitur"); continue
         mc = CARI_RE.match(line.strip())
         if mc:
             dirs.add(mc.group(1)); files.add("cari"); continue
@@ -24,7 +28,7 @@ def detect(changed_file):
             dirs.add(m.group(1)); files.add(m.group(2) if m.re is JOB_RE else "site")
     if len(dirs) != 1:
         print("dir="); print("stage=none"); return 0
-    stage = "cari" if "cari" in files else "rakit" if "site" in files else ("cekfakta" if "cekfakta" in files else "riset")
+    stage = "fitur" if "fitur" in files else "cari" if "cari" in files else "rakit" if "site" in files else ("cekfakta" if "cekfakta" in files else "riset")
     print(f"dir={dirs.pop()}"); print(f"stage={stage}")
     return 0
 
@@ -84,6 +88,11 @@ def check(d, stage):
                 errs.append("cekfakta.json: 'beda' harus list")
             if isinstance(obj.get("diperiksa"), int) and obj["diperiksa"] < 5:
                 errs.append("cekfakta.json: terlalu sedikit fakta diperiksa (<5) — buka ulang semua src di riset.json")
+    elif stage == "fitur":
+        r = subprocess.run([sys.executable, str(ROOT / "scripts/fitur.py"), "check", str(d)], capture_output=True, text=True)
+        print(r.stdout)
+        if r.returncode != 0:
+            errs.append("modul fitur belum memenuhi aturan (lihat daftar ✗ di atas)")
     elif stage == "cari":
         obj, e = load(d / "hasil.json")
         if e:
@@ -157,6 +166,9 @@ def _bersihkan_salinan_skrip():
 
 def finish(d, stage, oleh="codex"):
     d = ROOT / d
+    if stage == "fitur":
+        subprocess.run([sys.executable, str(ROOT / "scripts/fitur.py"), "katalog"], cwd=ROOT)
+        return 0
     if stage == "cari":
         print("hasil pencarian diterapkan ke Sheet oleh orkestrator")
         return 0

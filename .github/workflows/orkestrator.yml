@@ -182,6 +182,18 @@ jobs:
               rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${a}_riset.txt" -v
             fi
           done < bus-actions.txt
+      - name: 2c · R&D fitur · ide dari GPT → library/fitur (+ katalog ke Drive untuk GPT)
+        run: |
+          mkdir -p /tmp/bus/fitur; rm -f /tmp/fitur-arsip.txt
+          rclone copy root: /tmp/bus/fitur --max-depth 1 --include "FITUR-*_ide.json*" --drive-export-formats txt -v || true
+          python3 scripts/fitur.py pull /tmp/bus/fitur || echo "pull fitur error (tidak fatal)"
+          if [ -s /tmp/fitur-arsip.txt ]; then
+            while read -r act nama; do
+              [ "$act" = "ARSIP" ] && rclone move root: "bus:99 Arsip" --max-depth 1 --include "$nama" --drive-server-side-across-configs -v || true
+            done < /tmp/fitur-arsip.txt
+          fi
+          python3 scripts/fitur.py katalog || echo "katalog fitur error (tidak fatal)"
+          rclone copyto library/fitur/KATALOG.md "bus:KATALOG-FITUR.md" -v || true
       - name: 2b · Loop belajar (kesalahan berulang → aturan pekerja) + uji regresi (aturan lama tetap jalan)
         run: |
           for f in bus-notes/*; do [ -f "$f" ] && python3 scripts/belajar.py catat riset-gpt "$f" "$(basename "$f")"; done || true
@@ -252,7 +264,7 @@ jobs:
       - name: 5 · Commit perubahan
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add batches data AGENTS.md 2>/dev/null || true
+          git add batches data library/fitur AGENTS.md 2>/dev/null || true
           git diff --cached --quiet && exit 0
           git commit -q -m "orkestrator: pembaruan otomatis"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done
@@ -310,6 +322,17 @@ jobs:
             if [ "${GAGAL:-0}" -ge 2 ]; then echo "SKIP $job: sudah $GAGAL kali gagal, butuh dicek"; continue; fi
             gh workflow run codex-dispatch.yml -f job="$job" -f tugas=rakit; JALAN=$((JALAN+1)); sleep 3
           done
+      - name: 6c · R&D fitur · kirim fitur terpilih ke Codex (status "pilih" di data/fitur-pilihan.json)
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          git pull -q --rebase origin main || true
+          for slug in $(python3 scripts/fitur.py kirim 2>/dev/null); do
+            gh workflow run codex-dispatch.yml -f job="fitur/$slug" -f tugas=fitur && python3 scripts/fitur.py tandai "$slug" dikirim || true
+            sleep 3
+          done
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/fitur-pilihan.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -q -m "fitur: dikirim ke Codex"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
       - name: 7 · Revisi dari chat · arsipkan file di Drive
         run: |
           [ -f /tmp/done.txt ] || exit 0

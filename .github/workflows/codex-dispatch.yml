@@ -26,7 +26,7 @@ jobs:
           ISSUE: ${{ github.event.inputs.issue }}
           INFO: ${{ github.event.inputs.info }}
         run: |
-          case "$TUGAS" in riset|cekfakta|rakit|revisi|cari) ;; *) echo "tugas tidak dikenal: $TUGAS"; exit 1;; esac
+          case "$TUGAS" in riset|cekfakta|rakit|revisi|cari|fitur) ;; *) echo "tugas tidak dikenal: $TUGAS"; exit 1;; esac
           SLUG=$(echo "$JOB" | tr '/' '-')
           BR="codex/$TUGAS-$SLUG"
           # PENGAMAN (berlaku untuk semua pemanggil): jangan timpa PR yang masih terbuka,
@@ -46,6 +46,9 @@ jobs:
           if [ "$TUGAS" = "cari" ]; then
             KOTA="${INFO%%|*}"; NEGARA="${INFO#*|}"; NAMA="$KOTA"
             sed -e "s#{{JOB}}#$JOB#g" -e "s#{{KOTA}}#$KOTA#g" -e "s#{{NEGARA}}#$NEGARA#g" prompts/codex-cari.md > ".codex/tugas/$SLUG-$TUGAS.md"
+          elif [ "$TUGAS" = "fitur" ]; then
+            FSLUG="${JOB#fitur/}"; NAMA="fitur $FSLUG"
+            sed -e "s#{{SLUG}}#$FSLUG#g" -e "s#{{DIR}}#library/fitur/modul/$FSLUG#g" prompts/codex-fitur.md > ".codex/tugas/$SLUG-$TUGAS.md"
           else
             [ -f "batches/$JOB/job.json" ] || { echo "job tidak ada: batches/$JOB"; exit 1; }
             NAMA=$(python -c "import json;print(json.load(open('batches/$JOB/job.json')).get('nama',''))")
@@ -69,5 +72,6 @@ jobs:
           JOB: ${{ github.event.inputs.job }}
           TUGAS: ${{ github.event.inputs.tugas }}
         run: |
+          case "$TUGAS" in fitur) DIRJOB="library/fitur/modul/${JOB#fitur/}";; *) DIRJOB="batches/$JOB";; esac
           gh pr comment "${{ steps.pr.outputs.url }}" --body "<!-- slot=${{ steps.pr.outputs.slot }} t=$(date -u +%Y-%m-%dT%H:%M:%SZ) -->
-          @codex Kerjakan tugas di file \`.codex/tugas/${{ steps.pr.outputs.slug }}-$TUGAS.md\` untuk job \`batches/$JOB\`. Ikuti AGENTS.md. Push hasilnya ke branch PR ini (jangan buat PR baru bila bisa)."
+          @codex Kerjakan tugas di file \`.codex/tugas/${{ steps.pr.outputs.slug }}-$TUGAS.md\` untuk job \`$DIRJOB\`. Ikuti AGENTS.md. Push hasilnya ke branch PR ini (jangan buat PR baru bila bisa)."
