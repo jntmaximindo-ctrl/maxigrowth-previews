@@ -370,6 +370,20 @@ def _():
     assert json.loads(h.read_text())["habis"] is False
 
 
+@uji("#26 surat tugas CARI per area: terbit sesuai kuota, tidak terbit dobel, selesai tercatat; hasil per area kosong tidak menandai kota habis")
+def _():
+    d = salin(); c = modul(d, "cari_chat"); c.ROOT = d; c.AREA_STATE = d / "data" / "cari-area-state.json"; c.OUTSTANDING_MAKS = 3
+    (d / "data" / "area.txt").write_text("Kota A | Area 1\nKota A | Area 2\nKota A | Area 3\nKota A | Area 4\n")
+    c.surat(str(d / "s")); assert len(list((d / "s").glob("*_cari.txt"))) == 3
+    c.surat(str(d / "s")); assert len(list((d / "s").glob("*_cari.txt"))) == 3, "tidak boleh terbit lagi sebelum ada yang selesai"
+    i = d / "in3"; i.mkdir()
+    (i / "CARI-kota-a-area-1_hasil.json.md").write_text(json.dumps({"kota": "Kota A", "klinik": []}))
+    c.ingest(str(i)); assert pathlib.Path("/tmp/cari-selesai.txt").read_text().strip() == "kota-a-area-1_cari.txt"
+    assert json.loads(list((d / "sourcing").glob("kota-a-*/hasil.json"))[0].read_text())["area"] == "kota-a-area-1"
+    assert 'not data.get("area")' in (ROOT / "scripts" / "sourcing.py").read_text(), "sourcing.py harus mengabaikan 'kosong' untuk hasil per area"
+    c.surat(str(d / "s")); assert (d / "s" / "kota-a-area-4_cari.txt").exists()
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

@@ -268,6 +268,15 @@ jobs:
           rm -rf /tmp/cari-in /tmp/cari-arsip.txt; mkdir -p /tmp/cari-in
           rclone copy root: /tmp/cari-in --max-depth 1 --include "CARI-*_hasil.json*" --drive-export-formats txt -v || true
           python3 scripts/cari_chat.py ingest /tmp/cari-in || echo "ingest cari error (tidak fatal)"
+          if [ -s /tmp/cari-selesai.txt ]; then
+            TS2=$(date -u +%Y%m%d-%H%M)
+            while read -r sf; do
+              if [ -n "$sf" ]; then rclone moveto "bus:05 Antrean Cari/$sf" "bus:99 Arsip/${TS2}_$sf" -v || true; fi
+            done < /tmp/cari-selesai.txt
+          fi
+          rm -rf /tmp/cari-surat
+          python3 scripts/cari_chat.py surat /tmp/cari-surat || echo "surat cari error (tidak fatal)"
+          if ls /tmp/cari-surat/*_cari.txt >/dev/null 2>&1; then rclone copy /tmp/cari-surat "bus:05 Antrean Cari" -v || true; fi
           if [ -s /tmp/cari-arsip.txt ]; then
             TS=$(date -u +%Y%m%d-%H%M)
             while read -r nama; do

@@ -127,7 +127,7 @@ def apply():
             rows.append([val.get(h, "") for h in hdr])
             next_id += 1; next_no += 1; baru += 1
         st["applied"].append(key)
-        if data.get("habis") or baru == 0:
+        if data.get("habis") or (baru == 0 and not data.get("area")):  # hasil per area kosong ≠ kota habis
             s_k = slug(kota)
             if s_k not in st["habis"]:
                 st["habis"].append(s_k)
