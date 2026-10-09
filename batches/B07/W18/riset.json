@@ -81,5 +81,66 @@
   "sumber": [
     "https://casadienta.co.id/",
     "https://casadienta.co.id/wp-content/uploads/2025/10/cropped-Logo-Casadienta-01-scaled-e1759993717964.png"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Open Hours: Mon - Sun: 9:00 - 21:00 (jam umum situs, bukan jadwal spesifik cabang Surapati)."
+    },
+    {
+      "path": "cabang[1].jam",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Open Hours: Mon - Sun: 9:00 - 21:00 (jam umum situs, bukan jadwal spesifik cabang Turangga)."
+    },
+    {
+      "path": "cabang[2].jam",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Open Hours: Mon - Sun: 9:00 - 21:00 (jam umum situs, bukan jadwal spesifik cabang Wastukencana)."
+    },
+    {
+      "path": "harga[0].max",
+      "tercatat": 650000,
+      "catatan": "Kirari Dental Care mencantumkan scaling mulai Rp400.000; DokterTanya mencantumkan contoh scaling Rp600.000 dan Rp400.000–575.000. Nilai Rp650.000 tidak terlihat pada sumber yang berhasil dibaca."
+    },
+    {
+      "path": "harga[1].min",
+      "tercatat": 325000,
+      "catatan": "CariBisnis menampilkan tambal gigi komposit Rp369.000–738.000; DokterTanya menampilkan contoh tambal estetik Rp550.000–825.000."
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": 750000,
+      "catatan": "DokterTanya menampilkan contoh veneer direct Rp1.200.000; HDmall mencantumkan veneer zirconia Rp4.413.500/Rp4.550.000."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": 15120000,
+      "catatan": "DokterTanya mencantumkan contoh implan Rp17.000.000; HDmall mencantumkan harga implan Rp19.780.000/Rp21.500.000."
+    }
   ]
 }

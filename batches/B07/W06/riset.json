@@ -78,5 +78,42 @@
   "sumber": [
     "https://www.edental.id/",
     "https://www.google.com/maps/search/?api=1&query=Edental%20Bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Edental (PT. Bangun Senyum Indonesia)",
+      "catatan": "Halaman resmi bertuliskan \"Bangun Senyum Indonesia Bersama Edental\" dan \"CEO EDENTAL\"; nama legal \"PT. Bangun Senyum Indonesia\" tidak tercantum secara eksplisit."
+    },
+    {
+      "path": "harga[0].src",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "resmi_klinik",
+        "min": 2500000,
+        "max": 2500000
+      },
+      "catatan": "Halaman cabang Bandung berisi lokasi Sarijadi dan Batujajar; harga paket Behel Metal ColorPop Rp2,5 juta ditemukan pada halaman beranda Edental, bukan terverifikasi tertulis di halaman cabang yang dicantumkan sebagai src."
+    },
+    {
+      "path": "harga[1].max",
+      "tercatat": 650000,
+      "catatan": "Kirari menampilkan scaling mulai Rp400.000; DokterTanya menampilkan contoh scaling Rp600.000 dan Rp400.000–575.000."
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": 325000,
+      "catatan": "CariBisnis menampilkan tambal komposit Rp369.000–738.000; DokterTanya menampilkan contoh Rp550.000–825.000."
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": 750000,
+      "catatan": "DokterTanya menampilkan contoh veneer direct Rp1.200.000; HDmall menampilkan veneer zirconia Rp4.413.500/Rp4.550.000."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": 15120000,
+      "catatan": "DokterTanya menampilkan contoh implan Rp17.000.000; HDmall menampilkan implan Rp19.780.000/Rp21.500.000."
+    }
   ]
 }
