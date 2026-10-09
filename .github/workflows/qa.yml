@@ -26,12 +26,8 @@ jobs:
             node scripts/qa.mjs "$f" "$d/qa" > "$d/qa/ringkas.txt" 2>&1; a=$?
             python scripts/lint_permenkes.py "$f" >> "$d/qa/ringkas.txt" 2>&1; b=$?
             set -e
-            if [ $a -eq 0 ] && [ $b -eq 0 ]; then st="QC visual"; else st="QA gagal"; fi
-            python - "$d" "$st" <<'EOF'
-          import json,sys,pathlib
-          p=pathlib.Path(sys.argv[1])/"status.json"; s=json.loads(p.read_text()) if p.exists() else {}
-          s["status"]=sys.argv[2]; p.write_text(json.dumps(s,ensure_ascii=False))
-          EOF
+            if [ $a -eq 0 ] && [ $b -eq 0 ]; then hasil=lolos; else hasil=gagal; fi
+            st=$(python scripts/qa_status.py "$d" "$hasil")
             echo "$f → $st"
           done
       - run: |

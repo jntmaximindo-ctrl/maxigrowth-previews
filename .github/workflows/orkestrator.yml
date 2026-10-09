@@ -341,10 +341,27 @@ jobs:
             echo "tidak ada preview baru — deploy dilewati"
           fi
           SUB=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$API" | python3 -c "import json,sys;print(json.load(sys.stdin)['result']['subdomain'])")
-          PREVIEW_BASE="https://$SUB" python3 scripts/sheet_sync.py links
+          PREVIEW_BASE="https://maxigrowthstudio.com" python3 scripts/sheet_sync.py links
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           git add data/deploy-hash.txt data/preview-links.json 2>/dev/null || true
           git diff --cached --quiet || { git commit -q -m "deploy preview"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
+      - name: 8c · Deploy ke maxigrowthstudio.com (worker) bila ada preview baru
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          git pull -q --rebase origin main || true
+          NEW=$(python3 scripts/deploy_prep.py || true); OLD=$(cat data/worker-deploy-hash.txt 2>/dev/null || true)
+          [ -n "$NEW" ] && [ "$NEW" != "$OLD" ] || { echo "tidak ada perubahan preview — worker-deploy dilewati"; exit 0; }
+          SIB=$(gh run list --workflow worker-deploy.yml --limit 1 --json status -q '.[0].status' 2>/dev/null || true)
+          case "$SIB" in in_progress|queued|waiting|pending) echo "worker-deploy sedang jalan"; exit 0;; esac
+          GAGAL=$(gh run list --workflow worker-deploy.yml --limit 3 --json conclusion -q '[.[]|select(.conclusion=="failure")]|length' 2>/dev/null || echo 0)
+          [ "${GAGAL:-0}" -ge 3 ] && { echo "worker-deploy gagal 3x berturut — berhenti, perlu Claude"; exit 0; }
+          gh workflow run worker-deploy.yml --ref main && echo "worker-deploy dipicu" || true
+      - name: 8d · Catat outreach terkirim ke Sheet (data/outreach.json)
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          SHEET_ID: ${{ vars.SHEET_ID }}
+        run: |
+          [ -f data/outreach.json ] && { python3 scripts/sheet_sync.py outreach || echo "gagal mencatat outreach (tidak fatal)"; } || echo "belum ada data/outreach.json"
       - name: 8b · Batalkan perubahan Claude bila run ini gagal
         if: failure()
         env:

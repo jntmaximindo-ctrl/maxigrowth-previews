@@ -235,6 +235,20 @@ def _():
     assert st["A"].get("butuh_env"), st
 
 
+@uji("#17 QA lolos → Siap review (qc_visual=otomatis); QA gagal → QA gagal; status akhir manusia tidak ditimpa")
+def _():
+    d = salin()
+    m = modul(d, "qa_status")
+    a = d / "B9" / "X1"; a.mkdir(parents=True)
+    (a / "status.json").write_text(json.dumps({"status": "QC visual"}))
+    assert m.tetapkan(a, "lolos") == "Siap review"
+    s = json.loads((a / "status.json").read_text()); assert s["qc_visual"] == "otomatis", s
+    assert m.tetapkan(a, "gagal") == "QA gagal"
+    assert "qc_visual" not in json.loads((a / "status.json").read_text())
+    (a / "status.json").write_text(json.dumps({"status": "Terkirim"}))
+    assert m.tetapkan(a, "gagal") == "Terkirim" and m.tetapkan(a, "lolos") == "Terkirim"
+
+
 @uji("rapor pekerja: lulus sekali jalan dihitung benar")
 def _():
     d = salin(); (d / "AGENTS.md").write_text("#\n")

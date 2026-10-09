@@ -90,5 +90,33 @@ def links():
     return 0
 
 
+def outreach():
+    """Catat pengiriman outreach dari data/outreach.json ({ID: "Terkirim 9 Okt 2026"}) ke kolom Outreach.
+    Hanya mengisi sel yang masih kosong (catatan manusia tidak ditimpa). Idempotent."""
+    f = ROOT / "data" / "outreach.json"
+    if not f.exists():
+        print("data/outreach.json belum ada"); return 0
+    m = json.loads(f.read_text(encoding="utf-8"))
+    s = svc()
+    tab, hdr, _ = read(s)
+    sid = os.environ["SHEET_ID"]
+    rows = s.values().get(spreadsheetId=sid, range=f"'{tab}'!A1:ZZ").execute().get("values", [])
+    ci = {h: i for i, h in enumerate(rows[0])}
+    if "Outreach" not in ci:
+        print("kolom Outreach tidak ada"); return 1
+    get = lambda r, h: (r[ci[h]] if ci[h] < len(r) else "").strip()
+    data, log = [], []
+    for n, r in enumerate(rows[1:], start=2):
+        kid = get(r, "ID")
+        if kid in m and not get(r, "Outreach"):
+            data.append({"range": f"'{tab}'!{col(ci['Outreach'])}{n}", "values": [[m[kid]]]})
+            log.append(f"{kid}: {m[kid]}")
+    if data:
+        s.values().batchUpdate(spreadsheetId=sid, body={"valueInputOption": "RAW", "data": data}).execute()
+    print("\n".join(log) or "kolom Outreach sudah terisi")
+    return 0
+
+
 if __name__ == "__main__":
-    sys.exit(links() if sys.argv[1:] == ["links"] else main())
+    a = sys.argv[1:]
+    sys.exit(links() if a == ["links"] else outreach() if a == ["outreach"] else main())

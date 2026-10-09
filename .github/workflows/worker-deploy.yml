@@ -30,7 +30,7 @@ jobs:
         run: |
           set -e
           rm -rf public && mkdir public && cp -r site-root/. public/
-          python3 scripts/deploy_prep.py >/dev/null
+          python3 scripts/deploy_prep.py | tail -1 > /tmp/dist-hash.txt
           : > public/_headers
           for d in dist/*/; do
             s=$(basename "$d"); [ -f "$d/index.html" ] || continue
@@ -58,5 +58,6 @@ jobs:
           done
           if [ $fail -ne 0 ]; then npx -y wrangler@4 rollback --name maxigrowth -y || true; exit 1; fi
           echo "$(date -u +%FT%TZ) semua OK" > data/worker-deploy-ok.txt
+          cp /tmp/dist-hash.txt data/worker-deploy-hash.txt
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add data/worker-deploy-ok.txt && git commit -qm "worker-deploy: terverifikasi" && for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 4; done
+          git add data/worker-deploy-ok.txt data/worker-deploy-hash.txt data/preview-links.json && git commit -qm "worker-deploy: terverifikasi" && for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 4; done
