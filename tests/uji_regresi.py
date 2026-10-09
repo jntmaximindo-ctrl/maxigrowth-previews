@@ -315,6 +315,26 @@ def _():
     assert "2d · Bus GPT · Sediakan riset hasil Codex untuk GPT-B" in t and "_riset.json.md" in t and "Menunggu cek fakta" in t, "langkah 2d hilang dari orkestrator.yml"
 
 
+@uji("#22 riset tanpa nomor WA → kembali ke GPT-A sekali (riset lama dibawa di catatan), lalu Review manual; tidak ada WA yang dikarang")
+def _():
+    d = salin()
+    shutil.copytree(ROOT / "templates", d / "templates")
+    j = d / "batches" / "B1" / "W1"; j.mkdir(parents=True)
+    def siapkan():
+        (j / "job.json").write_text("{}"); (j / "konten.json").write_text("{}")
+        (j / "riset.json").write_text(json.dumps({"nama": {"v": "Klinik Uji", "src": "u"}, "cabang": [{"nama": "A"}]}))
+        (j / "status.json").write_text(json.dumps({"status": "Siap rakit", "oleh": "gpt-bus"}))
+    pathlib.Path("/tmp/wa-balik.txt").unlink(missing_ok=True)
+    siapkan(); m = modul(d, "rakit_template"); m.antre(5)
+    st = json.loads((j / "status.json").read_text())
+    assert st["status"] == "Riset di GPT" and st["percobaan_wa"] == 1, st
+    assert not (j / "riset.json").exists() and "RISET LAMA" in (d / "bus-notes" / "B1-W1").read_text()
+    assert pathlib.Path("/tmp/wa-balik.txt").read_text().strip() == "B1-W1"
+    siapkan(); (j / "status.json").write_text(json.dumps({"status": "Siap rakit", "percobaan_wa": 1})); m.antre(5)
+    st = json.loads((j / "status.json").read_text())
+    assert st["status"] == "Review manual", st
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

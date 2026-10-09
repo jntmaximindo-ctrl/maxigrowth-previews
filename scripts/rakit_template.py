@@ -404,6 +404,32 @@ def periksa(out, d):
     return masalah
 
 
+def balik_riset(d, job):
+    """Pelajaran #22: riset tanpa nomor WA tidak bisa dirakit template (dan tidak boleh dikarang) → kembalikan ke GPT-A SEKALI untuk mencari WA; masih kosong → Review manual."""
+    st = json.loads((d / "status.json").read_text())
+    n = int(st.get("percobaan_wa", 0)) + 1
+    if n >= 2:
+        st.update(status="Review manual", oleh="template", percobaan_wa=n, catatan="nomor WA tidak ditemukan setelah riset ulang — putuskan manual")
+        (d / "status.json").write_text(json.dumps(st, ensure_ascii=False))
+        print(f"↪ {job}: tetap tanpa nomor WA setelah riset ulang → Review manual"); return
+    key = job.replace("/", "-")
+    lama = (d / "riset.json").read_text(encoding="utf-8") if (d / "riset.json").exists() else "{}"
+    (ROOT / "bus-notes").mkdir(exist_ok=True)
+    (ROOT / "bus-notes" / key).write_text(
+        "REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. "
+        "Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. "
+        "Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.\n\nRISET LAMA:\n" + lama + "\n", encoding="utf-8")
+    for f in ("riset.json", "konten.json", "cekfakta.json"):
+        (d / f).unlink(missing_ok=True)
+    for k in [k for k in st if k.startswith("failover")]:
+        st.pop(k)
+    st.update(status="Riset di GPT", oleh="template", percobaan=0, percobaan_wa=n)
+    (d / "status.json").write_text(json.dumps(st, ensure_ascii=False))
+    with open("/tmp/wa-balik.txt", "a") as fh:
+        fh.write(key + "\n")
+    print(f"↪ {job}: tanpa nomor WA → dikembalikan ke GPT-A untuk riset ulang")
+
+
 def antre(batas=20):
     """Rakit semua klinik 'Siap rakit' (riset+konten ada, site belum ada). Lulus cek → status Siap review (oleh=template).
     Gagal → site dihapus lagi supaya jalur Codex (mode hibrida) yang mengerjakan; kesalahan dicatat ke loop belajar."""
@@ -441,6 +467,8 @@ def antre(batas=20):
             (d / "site" / "index.html").unlink(missing_ok=True)
             subprocess.run([sys.executable, str(ROOT / "scripts/belajar.py"), "catat", "rakit-template", str(log), job])
             n_gagal += 1; print(f"❌ {job} gagal template (diserahkan ke Codex bila hibrida):\n" + "\n".join(l for l in teks_cek.splitlines() if l.startswith("✗"))[:600])
+            if "nomor WA kosong" in teks_cek:
+                balik_riset(d, job)
     print(f"rakit-template: {n_ok} lulus, {n_gagal} gagal")
 
 

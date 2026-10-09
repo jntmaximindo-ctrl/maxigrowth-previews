@@ -305,7 +305,22 @@ jobs:
           if [ "${{ vars.RAKIT_ENGINE }}" = "hibrida" ] || [ "${{ vars.RAKIT_ENGINE }}" = "template" ]; then
             git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
             git pull -q --rebase origin main || true
+            rm -f /tmp/wa-balik.txt; mkdir -p bus-notes
             python3 scripts/rakit_template.py --antre 30 2>&1 | tee /tmp/jb-template.txt || echo "rakit template error (lanjut)"
+            # pelajaran #22: riset tanpa nomor WA → arsipkan file lama di Drive & kirim surat REVISI ke GPT-A
+            if [ -s /tmp/wa-balik.txt ]; then
+              while read -r key; do
+                [ -z "$key" ] && continue
+                TS=$(date +%Y%m%d-%H%M); B=${key%%-*}; W=${key#*-}
+                for src in "02 Hasil Riset" "03 Hasil Cek Fakta" "01 Antrean Riset"; do
+                  rclone lsf "bus:$src" --drive-export-formats txt --include "${key}_*" | while read -r f; do
+                    rclone moveto "bus:$src/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
+                  done
+                done
+                { echo "SURAT TUGAS RISET — $B/$W (REVISI)"; cat "batches/$B/$W/job.json"; echo; cat "bus-notes/$key"; } > /tmp/surat.txt
+                rclone copyto /tmp/surat.txt "bus:01 Antrean Riset/${key}_riset.txt" -v || true
+              done < /tmp/wa-balik.txt
+            fi
             # aturan: klinik yang sudah lulus template → PR rakit Codex yang masih terbuka ditutup (hemat kuota, tanpa konflik)
             grep '^✅' /tmp/jb-template.txt | awk '{print $2}' | while read -r job; do
               BR="codex/rakit-$(echo "$job" | tr '/' '-')"
@@ -313,7 +328,7 @@ jobs:
                 gh pr close "$n" --comment "Ditutup otomatis: klinik ini sudah dirakit template tanpa AI & lulus cek." --delete-branch || true
               done
             done
-            git add batches data 2>/dev/null || true
+            git add batches data bus-notes 2>/dev/null || true
             git diff --cached --quiet || { git commit -q -m "rakit template (tanpa AI)"; for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin main && break; sleep 5; done; }
           fi
           case "${{ vars.RAKIT_ENGINE }}" in codex|hibrida) ;; *) exit 0 ;; esac
