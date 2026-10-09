@@ -6,7 +6,7 @@ import fs from 'fs'; import path from 'path';
 import { chromium } from 'playwright';
 
 const [, , file, out] = process.argv; fs.mkdirSync(out, { recursive: true });
-const IZIN = /^(https?:\/\/)?([a-z0-9-]+\.)*(fonts\.googleapis\.com|fonts\.gstatic\.com|cdnjs\.cloudflare\.com|maps\.google\.com|www\.google\.com|google\.com|wa\.me|api\.whatsapp\.com|waze\.com|maxigrowthstudio\.com)(\/|$)/i;
+const IZIN = /^(https?:\/\/)?([a-z0-9-]+\.)*(fonts\.googleapis\.com|fonts\.gstatic\.com|cdnjs\.cloudflare\.com|maps\.google\.com|maps\.googleapis\.com|maps\.gstatic\.com|www\.google\.com|google\.com|wa\.me|api\.whatsapp\.com|waze\.com|maxigrowthstudio\.com)(\/|$)/i;
 const report = { file, when: new Date().toISOString(), pass: true, desktop: {}, mobile: {} };
 const b = await chromium.launch();
 for (const [tag, vp] of [['desktop', { width: 1366, height: 860 }], ['mobile', { width: 390, height: 844 }]]) {
