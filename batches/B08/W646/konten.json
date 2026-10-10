@@ -1,0 +1,132 @@
+{
+  "id": "W646",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg Elis Siti Sundari",
+      "en": "drg Elis Siti Sundari’s practice"
+    },
+    "sub": {
+      "id": "Tanyakan jadwal dan lokasi sebelum berkunjung.",
+      "en": "Ask about the schedule and location before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan kepada klinik.",
+        "en": "Ask the clinic about availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan kepada klinik.",
+        "en": "Ask the clinic about availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi penambalan",
+        "en": "Filling enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan kepada klinik.",
+        "en": "Ask the clinic about availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan anak",
+        "en": "Children’s care enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan kepada klinik.",
+        "en": "Ask the clinic about availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih hari kunjungan",
+      "en": "Choose a visit day"
+    },
+    "penjelasan": {
+      "id": "Usulan pemilih hari berdasarkan jadwal publik. Klinik tetap mengonfirmasi ketersediaan.",
+      "en": "A proposed day selector based on public hours. The practice confirms availability."
+    },
+    "alasan_dipilih": "Sumber publik mencantumkan sesi sore hingga pukul 20 pada Selasa, Rabu dan Jumat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji temu?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Nomor 081932458873 tercantum pada dua sumber publik. Konfirmasikan praktik dan jadwal saat menelepon.",
+        "en": "081932458873 is listed by two public sources. Confirm the practice and appointment when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Alamat publik: Jl. Sekepanjang 2, Cikutra, Bandung. Konfirmasikan petunjuk sebelum berangkat.",
+        "en": "The public address is Jl. Sekepanjang 2, Cikutra, Bandung. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Artikel mencantumkan Minggu tutup. Konfirmasikan jadwal terbaru kepada praktik.",
+        "en": "An article lists Sunday as closed. Confirm current hours with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum terverifikasi. Tanyakan rincian biaya sebelum tindakan.",
+        "en": "An official fee list has not been verified. Ask for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Sebutkan penyedia dan polis Anda kepada klinik.",
+        "en": "Insurance acceptance has not been verified. Share your provider and policy details with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan",
+    "en": "Ask about appointments and your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin mengonfirmasi kontak praktik drg Elis Siti Sundari serta menanyakan jadwal konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola praktik drg Elis Siti Sundari. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik mencantumkan praktik di Cikutra dengan beberapa sesi sore. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-elis. Bila berkenan, mohon masukan dan koreksi informasi praktik. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg Elis",
+    "email_isi": "Yth. Pengelola praktik drg Elis Siti Sundari,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik tentang praktik Cikutra dan sesi sore menjadi dasar usulan pemilih hari kunjungan.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-elis. Proposal PDF terlampir untuk bahan peninjauan. Mohon masukan dan koreksi informasi praktik bila berkenan.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

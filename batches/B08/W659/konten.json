@@ -1,0 +1,152 @@
+{
+  "id": "W659",
+  "hero": {
+    "judul": {
+      "id": "Djani Dental Studio",
+      "en": "Djani Dental Studio"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kebutuhan kunjungan.",
+      "en": "Contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Rontgen gigi",
+        "en": "Dental X-rays"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan restoratif",
+        "en": "Restorative care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan estetika gigi",
+        "en": "Aesthetic dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bedah gigi",
+        "en": "Dental surgery"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum kunjungan",
+      "en": "Before your visit"
+    },
+    "penjelasan": {
+      "id": "Usulan: Panduan persiapan konsultasi restorasi dengan pengumpulan kebutuhan umum dan konfirmasi jadwal pemeriksaan.",
+      "en": "Proposal: A restoration consultation guide that gathers general enquiries and requests an examination appointment."
+    },
+    "alasan_dipilih": "Informasi lokasi dan alur kontak membantu pengunjung menyiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik 081199999191. Konfirmasikan identitas klinik saat menelepon.",
+        "en": "The published number is 081199999191. Confirm the clinic’s identity when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Jalan Prof. Moch. Yamin No.3, Menteng, Jakarta Pusat 10310. Konfirmasikan petunjuk sebelum berangkat.",
+        "en": "Jalan Prof. Moch. Yamin No.3, Menteng, Jakarta Pusat 10310. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum berkunjung?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta klinik sebelum berkunjung.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif terkini belum terverifikasi. Mintalah rincian biaya kepada klinik sebelum tindakan.",
+        "en": "Current fees have not been verified. Ask the clinic for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Djani Dental Studio. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Djani Dental Studio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi kontak dan lokasi publik menjadi dasar usulan panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/djani-studio. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Djani Dental Studio",
+    "email_isi": "Yth. Pengelola Djani Dental Studio,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi lokasi dan kontak klinik untuk usulan panduan kunjungan.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/djani-studio. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

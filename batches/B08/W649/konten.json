@@ -1,0 +1,132 @@
+{
+  "id": "W649",
+  "hero": {
+    "judul": {
+      "id": "Klinik Pratama Sehati",
+      "en": "Klinik Pratama Sehati"
+    },
+    "sub": {
+      "id": "Informasi lokasi, kontak dan kunjungan klinik.",
+      "en": "Clinic location, contact and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan alur layanan kepada klinik.",
+        "en": "Ask the clinic about availability and the care process."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan alur layanan kepada klinik.",
+        "en": "Ask the clinic about availability and the care process."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi penambalan",
+        "en": "Filling enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan alur layanan kepada klinik.",
+        "en": "Ask the clinic about availability and the care process."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan anak",
+        "en": "Children’s care enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan alur layanan kepada klinik.",
+        "en": "Ask the clinic about availability and the care process."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum kunjungan",
+      "en": "Before your visit"
+    },
+    "penjelasan": {
+      "id": "Usulan: Pemilih tujuan kontak: poli gigi atau poli umum; poli gigi menyebut kebutuhan reservasi H-1.",
+      "en": "Proposal: A contact selector for dental or general enquiries, showing the dental department’s request to book at least one day ahead."
+    },
+    "alasan_dipilih": "Blog memisahkan nomor poli gigi dan poli umum."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Tautan WhatsApp yang diterbitkan klinik menggunakan 6287772610637. Informasi berasal dari posting 2021.",
+        "en": "The clinic publishes a WhatsApp link using 6287772610637. Confirm current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Ruko Bumi Mas Kencana Kav O Antapani, Jl. AH. Nasution 928, Kota Bandung 40291. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Ruko Bumi Mas Kencana Kav O Antapani, Jl. AH. Nasution 928, Kota Bandung 40291. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum berkunjung?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Posting poli gigi meminta menghubungi minimal H-1. Konfirmasikan aturan dan jadwal terbaru.",
+        "en": "The dental contact post asks patients to contact the clinic at least one day ahead. Confirm current arrangements."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif terkini belum terverifikasi. Mintalah rincian biaya kepada klinik sebelum tindakan.",
+        "en": "Current fees have not been verified. Ask the clinic for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Klinik Pratama Sehati. Mohon informasi jadwal dan cara membuat janji.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Klinik Pratama Sehati. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi kontak dan lokasi klinik untuk konsep panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/pratama-sehati. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Pratama Sehati",
+    "email_isi": "Yth. Pengelola Klinik Pratama Sehati,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik klinik dan mengusulkan panduan kontak, lokasi serta konfirmasi jadwal.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/pratama-sehati. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

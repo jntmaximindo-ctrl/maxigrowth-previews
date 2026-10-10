@@ -1,0 +1,152 @@
+{
+  "id": "W656",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi Noto, Puri Indah",
+      "en": "Klinik Gigi Noto, Puri Indah"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kebutuhan kunjungan.",
+      "en": "Contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Orthodontic",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Invisalign",
+        "en": "Invisalign"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum kunjungan",
+      "en": "Before your visit"
+    },
+    "penjelasan": {
+      "id": "Usulan: Pemilih dokter cabang Puri Indah beserta informasi kunjungan Minggu dan konfirmasi jadwal.",
+      "en": "Proposal: A Puri Indah doctor selector with Sunday visit information and appointment confirmation."
+    },
+    "alasan_dipilih": "Situs resmi mencantumkan dokter untuk Puri Indah dan jam Minggu."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Kanal resmi menggunakan WhatsApp 6289611876161. Tanyakan jadwal dan ketersediaan.",
+        "en": "The official WhatsApp number is 6289611876161. Ask about appointments and availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Komplek Ruko Puri Sentra Niaga Blok T1 No.17, seberang Puri Indah Mall, Puri Indah, Jakarta Barat. Konfirmasikan petunjuk sebelum berangkat.",
+        "en": "Komplek Ruko Puri Sentra Niaga Blok T1 No.17, seberang Puri Indah Mall, Puri Indah, Jakarta Barat. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum berkunjung?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta klinik sebelum berkunjung.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif terkini belum terverifikasi. Mintalah rincian biaya kepada klinik sebelum tindakan.",
+        "en": "Current fees have not been verified. Ask the clinic for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Klinik Gigi Noto, Puri Indah. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Klinik Gigi Noto, Puri Indah. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi kontak dan lokasi publik menjadi dasar usulan panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/noto-puri. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Gigi Noto, Puri Indah",
+    "email_isi": "Yth. Pengelola Klinik Gigi Noto, Puri Indah,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi lokasi dan kontak klinik untuk usulan panduan kunjungan.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/noto-puri. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

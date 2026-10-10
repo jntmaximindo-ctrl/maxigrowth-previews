@@ -1,0 +1,152 @@
+{
+  "id": "W661",
+  "hero": {
+    "judul": {
+      "id": "Mydents Pesanggrahan",
+      "en": "Mydents Pesanggrahan"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kebutuhan kunjungan.",
+      "en": "Contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan periodontal",
+        "en": "Periodontal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu lepasan",
+        "en": "Removable dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan rencana perawatan dan ketersediaan dokter; pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask about treatment planning and practitioner availability. Options depend on an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum kunjungan",
+      "en": "Before your visit"
+    },
+    "penjelasan": {
+      "id": "Usulan: Panduan verifikasi blok/no ruko dan jam kunjungan sebelum menghubungi cabang.",
+      "en": "Proposal: A guide for confirming the shop unit and appointment hours before contacting the branch."
+    },
+    "alasan_dipilih": "Alamat dan jam antar sumber berbeda sehingga konfirmasi membantu pengunjung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik 081585532058. Konfirmasikan identitas klinik saat menelepon.",
+        "en": "The published number is 081585532058. Confirm the clinic’s identity when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Ruko Grand Centro, Jl. Bintaro Permai No.6 Blok A, RT.5/RW.3, Pesanggrahan, Jakarta Selatan 12330. Konfirmasikan petunjuk sebelum berangkat.",
+        "en": "Ruko Grand Centro, Jl. Bintaro Permai No.6 Blok A, RT.5/RW.3, Pesanggrahan, Jakarta Selatan 12330. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum berkunjung?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta klinik sebelum berkunjung.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif terkini belum terverifikasi. Mintalah rincian biaya kepada klinik sebelum tindakan.",
+        "en": "Current fees have not been verified. Ask the clinic for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Mydents Pesanggrahan. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Mydents Pesanggrahan. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi kontak dan lokasi publik menjadi dasar usulan panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/mydents-pesanggrahan. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Mydents Pesanggrahan",
+    "email_isi": "Yth. Pengelola Mydents Pesanggrahan,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi lokasi dan kontak klinik untuk usulan panduan kunjungan.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/mydents-pesanggrahan. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

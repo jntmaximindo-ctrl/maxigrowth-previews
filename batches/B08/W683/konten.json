@@ -1,0 +1,152 @@
+{
+  "id": "W683",
+  "hero": {
+    "judul": {
+      "id": "Axel Dental Jatiwaringin (Pondok Gede)",
+      "en": "Axel Dental Jatiwaringin (Pondok Gede)"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kunjungan klinik.",
+      "en": "Clinic contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan",
+      "en": "Visit guide"
+    },
+    "penjelasan": {
+      "id": "Usulan: Pemilih lokasi Pondok Gede dengan konfirmasi kontak cabang dan ketersediaan tindakan.",
+      "en": "Proposal: A Pondok Gede location selector confirming branch contacts and treatment availability."
+    },
+    "alasan_dipilih": "Pengunjung perlu informasi kontak dan lokasi serta konfirmasi jadwal sebelum berangkat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik 08119787007. Konfirmasikan identitas klinik saat menghubungi.",
+        "en": "The published number is 08119787007. Confirm the clinic’s identity when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Raya Jatiwaringin No.96E, RT.004/RW.003, Jatiwaringin, Pondok Gede, Kota Bekasi. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Jl. Raya Jatiwaringin No.96E, RT.004/RW.003, Jatiwaringin, Pondok Gede, Kota Bekasi. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta sebelum kunjungan.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya terkini dan cakupan tindakan kepada klinik sebelum perawatan.",
+        "en": "Ask the clinic for current fees and what is included before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Axel Dental Jatiwaringin (Pondok Gede). Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Axel Dental Jatiwaringin (Pondok Gede). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi kontak dan lokasi publik untuk konsep panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/axel-jatiwaringin. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Axel Dental Jatiwaringin (Pondok Gede)",
+    "email_isi": "Yth. Pengelola Axel Dental Jatiwaringin (Pondok Gede),\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik untuk usulan panduan kontak, lokasi dan konfirmasi jadwal.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/axel-jatiwaringin. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
