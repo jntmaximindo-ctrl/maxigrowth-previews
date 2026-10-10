@@ -1,0 +1,9 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B07/W06/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → maps/rating: None is not of type 'number'
+✗ riset.schema.json → maps/ulasan: None is not of type 'integer'
+✗ riset.schema.json → maps/src: None is not of type 'string'
+✗ riset.schema.json → sumber: ['https://www.edental.id/lokasi-terdekat/'] is too short
+GAGAL (4 masalah)
+
