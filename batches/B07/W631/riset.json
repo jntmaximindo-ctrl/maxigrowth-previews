@@ -1,0 +1,133 @@
+{
+  "id": "W631",
+  "nama": {
+    "v": "OK Dental Clinic",
+    "src": "https://www.okdentalclinic.com/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "kota": "Jakarta Selatan",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": "okdental02@gmail.com",
+    "src": "https://www.okdentalclinic.com/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "cabang": [
+    {
+      "nama": "OK Dental Clinic | Implant Center",
+      "alamat": {
+        "v": "Blok C, Jl. Wijaya II No.38, RT.6/RW.1, Pulo, Kebayoran Baru, Jakarta Selatan 12160",
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0821 2255 7980 (seluler); (021) 7201779 (telepon tetap)",
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-19",
+          "sel": "09-19",
+          "rab": "09-19",
+          "kam": "09-19",
+          "jum": "09-19",
+          "sab": "09-17",
+          "min": null
+        },
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=OK%20Dental%20Clinic%20Implant%20Center%20Jakarta%20Selatan"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Implan gigi",
+    "Veneer",
+    "Bleaching",
+    "Behel gigi",
+    "Bedah gigi",
+    "Scaling dan perawatan gusi",
+    "Perawatan saluran akar",
+    "Gigi tiruan",
+    "Cabut gigi",
+    "Tambal gigi",
+    "Perawatan gigi anak"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling gigi (harga yang ditampilkan pada Alodokter untuk klinik ini)",
+      "jenis": "resmi_klinik",
+      "min": 600000,
+      "max": 600000,
+      "src": "https://www.alodokter.com/cari-rumah-sakit/ok-dental-clinic/scaling-gigi"
+    },
+    {
+      "perawatan": "Bedah gigi (dental surgery; kisaran tertera di situs klinik)",
+      "jenis": "resmi_klinik",
+      "min": 3500000,
+      "max": 5000000,
+      "src": "https://www.okdentalclinic.com/service-page/dental-surgery"
+    }
+  ],
+  "fasilitas": [
+    "Ruang tunggu",
+    "Ruang konsultasi",
+    "Ruang tindakan",
+    "CT scan dan rontgen gigi",
+    "Pemindai intraoral 3D",
+    "Printer 3D",
+    "Alat sterilisasi autoklaf"
+  ],
+  "asuransi": [],
+  "maps": {
+    "rating": 5.0,
+    "ulasan": 200,
+    "src": "https://caribisnis.id/dokter-gigi/jakarta-selatan/kebayoran-baru/ok-dental-clinic-implant-cente-keba-imp1",
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Berdiri sejak Januari 2017 menurut situs resmi.",
+    "Mencantumkan layanan implan gigi, veneer, dan bleaching.",
+    "Memiliki fasilitas pemindaian intraoral 3D dan CT scan menurut halaman fasilitas.",
+    "Situs menyebut pendekatan flapless dental implant; kesesuaian tindakan tetap perlu konsultasi dokter."
+  ],
+  "situs_lama": [
+    "Beranda memuat klaim superlatif dan jaminan pelayanan yang perlu ditinjau untuk kepatuhan komunikasi layanan kesehatan.",
+    "Halaman Tentang Kami memuat klaim hasil implan yang bersifat absolut dan perlu peninjauan.",
+    "Beranda tidak secara eksplisit mengidentifikasi apakah nomor seluler yang tertera menerima WhatsApp.",
+    "Beranda tidak mencantumkan jam operasional hari Minggu."
+  ],
+  "ide_fitur_khas": "Penjelajah tahapan implan interaktif: konsultasi, pemeriksaan, rencana tindakan, dan perawatan lanjutan, dengan pertanyaan yang bisa disiapkan pasien.",
+  "catatan": "REVISI W631: situs resmi mencantumkan nomor seluler 0821 2255 7980 dan telepon tetap (021) 7201779, tetapi tidak menyebut nomor tersebut sebagai WhatsApp; wa.v sengaja null, jangan otomatis membuat tautan wa.me. Situs resmi menyebut 09.00–19.00 Senin–Jumat dan 09.00–17.00 Sabtu, tetapi tidak mencantumkan Minggu; direktori pihak ketiga menyebut Minggu tutup dan Senin–Jumat 10.00–19.00, sehingga jam resmi didahulukan dan Minggu null. Nama resmi pada situs adalah OK Dental Clinic, sedangkan Maps/direktori memakai tambahan Implant Center. Rating dan ulasan bersumber agregator yang mengklaim data Maps, bukan pembacaan langsung Google Maps. Halaman resmi memuat harga implan mulai Rp12.000.000 dan pencabutan mulai Rp350.000, tetapi tidak dimasukkan ke rentang harga karena batas atas tidak diketahui. Harga untuk tambal, behel metal, bleaching, veneer belum dimasukkan karena sumber harga klinik atau pembanding pasar setempat yang memadai belum lengkap. Asuransi: beranda hanya menyebut pembayaran cashless dengan asuransi tanpa nama penyedia; tidak mengasumsikan merek.",
+  "sumber": [
+    "https://www.okdentalclinic.com/",
+    "https://www.okdentalclinic.com/tentangokdentalclinic",
+    "https://www.okdentalclinic.com/perawatan",
+    "https://en.okdentalclinic.com/fasilitas",
+    "https://www.okdentalclinic.com/service-page/implant",
+    "https://www.okdentalclinic.com/service-page/dental-surgery",
+    "https://www.okdentalclinic.com/service-page/tooth-extraction-1",
+    "https://www.alodokter.com/cari-rumah-sakit/ok-dental-clinic/scaling-gigi",
+    "https://caribisnis.id/dokter-gigi/jakarta-selatan/kebayoran-baru/ok-dental-clinic-implant-cente-keba-imp1",
+    "https://calina.id/l/ok-dental-clinic-implant-center-blok-c-jl-wijaya-ii-no38-rt6rw1-pulo-kebayoran-baru-south-jakarta-city-jakarta-12160-d2e150ce/"
+  ]
+}
