@@ -36,7 +36,8 @@ jobs:
             s=$(basename "$d"); [ -f "$d/index.html" ] || continue
             [ "$s" = "atabara" ] && continue
             mkdir -p "public/$s" && cp -r "$d/." "public/$s/"
-            printf '/%s/*\n  X-Robots-Tag: noindex, nofollow\n' "$s" >> public/_headers
+            # pelajaran #41: Cloudflare _headers maks 100 aturan -> noindex preview lewat meta tag di HTML, bukan _headers per slug
+            for f in "public/$s"/*.html; do [ -f "$f" ] || continue; grep -qi 'name="robots"' "$f" || sed -i '0,/<head[^>]*>/s//&<meta name="robots" content="noindex, nofollow">/' "$f"; done
           done
           printf '/atabara/*\n  X-Robots-Tag: noindex, nofollow\n' >> public/_headers
           ls public | head -50; du -sh public
