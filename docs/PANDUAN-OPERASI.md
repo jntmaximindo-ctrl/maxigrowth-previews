@@ -49,7 +49,7 @@ Setiap error = ATURAN + PENJAGA + PELAJARAN: aturan di kode, tes di `tests/uji_r
 
 Cakupan: seluruh Indonesia (data/area.txt = kota besar per kecamatan; data/area-nusantara.txt = ~700 area urut prioritas Jawa, Sumatra, Kalimantan, Sulawesi, Bali/NT, Maluku/Papua). Setelah semua area terbit, robot memulai putaran berikutnya (5 putaran, tiap putaran fokus berbeda di VARIAN scripts/cari_chat.py), total >4000 surat: pasokan kerja cukup berbulan-bulan. Tambah area/fokus dengan menambah baris di file area atau VARIAN.
 
-Catatan target: 15 surat selesai hanya dalam ~2 menit (terlalu cepat, kualitas dipertanyakan), jadi target dinaikkan ke 60 agar run memakan sekitar 15 menit dan surat butuh minimal 5 pencarian. Stok surat maksimal 120 belum selesai (OUTSTANDING_MAKS).
+Metode kerja GPT (sejak 2026-10-10): berbasis RENCANA dan PROGRES. Tiap run GPT menulis RENCANA-CARI-A.md atau RENCANA-CARI-B.md di root My Drive (daftar surat dibagi tahap 5 surat), mengerjakan per tahap, mencentang progres, lalu lanjut tanpa laporan akhir. Target jumlah murni (15 atau 60 surat) terbukti tidak mengikat. Tugas terjadwal per jam di akun A dan B memakai teks yang sama dengan teks manual. Catatan lama tentang target: 15 surat selesai hanya dalam ~2 menit (terlalu cepat, kualitas dipertanyakan), jadi target dinaikkan ke 60 agar run memakan sekitar 15 menit dan surat butuh minimal 5 pencarian. Stok surat maksimal 120 belum selesai (OUTSTANDING_MAKS).
 
 ## 9. Pemantauan
 Fase development: cek laporan tiap ~30 menit. Setelah satu siklus penuh tanpa campur tangan dan 24 jam hijau: tiap 3 jam. Alarm [manusia] hanya untuk hal yang tidak bisa diperbaiki Claude (mis. akun/izin).
