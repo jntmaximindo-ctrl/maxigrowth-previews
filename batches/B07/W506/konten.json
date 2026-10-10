@@ -1,0 +1,132 @@
+{
+  "id": "W506",
+  "hero": {
+    "judul": {
+      "id": "HDC (Praktek Mandiri drg.Hilma)",
+      "en": "HDC (Praktek Mandiri drg.Hilma)"
+    },
+    "sub": {
+      "id": "Informasi klinik untuk membantu Anda menyiapkan kunjungan dan pertanyaan kepada dokter.",
+      "en": "Clinic information to help you prepare for your visit and questions for the dentist."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointment availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai scaling dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about scaling and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai tambal gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about dental fillings and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai kawat gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about braces and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai veneer dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about veneers and appointment availability. Treatment needs are assessed during consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Penyusun permintaan kunjungan sore",
+      "en": "Evening visit request planner"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan informasi Anda. Panduan akan menyusun pertanyaan tentang jadwal, lokasi, dan perawatan untuk disampaikan kepada petugas.",
+      "en": "Choose the information you need. The guide prepares questions about scheduling, location and care for the clinic team."
+    },
+    "alasan_dipilih": "Cocok dengan jam praktik sore yang sama di Cybo dan CariBisnis; jadwal pilihan adalah permintaan, bukan booking terkonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah 082123428340. Konfirmasikan jadwal sebelum berkunjung.",
+        "en": "The listed telephone number is 082123428340. Confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Sukamaju No.47, RT.03/RW.05, Cipadung Kulon, Panyileukan, Kota Bandung, Jawa Barat 40614",
+        "en": "Jl. Sukamaju No.47, RT.03/RW.05, Cipadung Kulon, Panyileukan, Kota Bandung, Jawa Barat 40614"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin–Sabtu 16.00–20.00, Minggu tutup. Konfirmasikan jadwal dokter dan hari libur sebelum datang.",
+        "en": "The directory lists Monday–Saturday, 16:00–20:00, closed Sunday. Confirm dentist availability and holiday hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum terverifikasi dalam riset ini. Tanyakan perkiraan biaya dan komponennya sebelum tindakan.",
+        "en": "An official fee list has not been verified in this research. Ask about estimated fees and what they cover before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi dan pasien anak?",
+        "en": "Are insurance and children's appointments available?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi dan jadwal untuk pasien anak perlu dikonfirmasi kepada petugas klinik.",
+        "en": "Please ask the clinic team about accepted insurance and appointments for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi informasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di HDC (Praktek Mandiri drg.Hilma). Mohon informasi jadwal dokter dan cara membuat janji.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola HDC (Praktek Mandiri drg.Hilma). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi jam praktik sore di Jl. Sukamaju No.47. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/hdc. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website HDC (Praktek Mandiri drg.Hilma)",
+    "email_isi": "Yth. Pengelola HDC (Praktek Mandiri drg.Hilma),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi jam praktik sore di Jl. Sukamaju No.47 dan menyiapkan konsep website untuk membantu pasien menemukan informasi kunjungan. Konsep dapat ditinjau di https://maxigrowthstudio.com/hdc.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Bila berkenan, kami siap menjelaskan rancangan dan menyesuaikan informasi yang perlu dikonfirmasi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

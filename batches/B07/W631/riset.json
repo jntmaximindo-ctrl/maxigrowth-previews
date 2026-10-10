@@ -90,5 +90,17 @@
   "sumber": [
     "https://www.okdentalclinic.com/",
     "https://www.okdentalclinic.com/tentangokdentalclinic"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "OK Dental Clinic | Implant Center",
+      "catatan": "OK Dental Clinic"
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "catatan": "Jam Minggu tidak disebutkan; situs hanya mencantumkan Senin–Jumat dan Sabtu"
+    }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "id": "W631",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "OK Dental Clinic | Implant Center",
+      "di_sumber": "OK Dental Clinic",
+      "src": "https://www.okdentalclinic.com/",
+      "catatan": "Nama situs resmi tidak memuat tambahan | Implant Center, meskipun layanan implan tercantum."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "di_sumber": "Jam Minggu tidak disebutkan; situs hanya mencantumkan Senin–Jumat dan Sabtu",
+      "src": "https://www.okdentalclinic.com/",
+      "catatan": "Tidak dapat memastikan status tutup pada hari Minggu."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

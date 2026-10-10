@@ -1,0 +1,132 @@
+{
+  "id": "W633",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Swadaya 1 Pejaten Timur",
+      "en": "Praktek Dokter Swadaya 1 Pejaten Timur"
+    },
+    "sub": {
+      "id": "Informasi klinik untuk membantu Anda menyiapkan kunjungan dan pertanyaan kepada dokter.",
+      "en": "Clinic information to help you prepare for your visit and questions for the dentist."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointment availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan jadwal dokter",
+        "en": "Ask about dentist availability"
+      },
+      "ringkas": {
+        "id": "Informasi ini perlu dikonfirmasi langsung kepada klinik sebelum kunjungan.",
+        "en": "Please confirm this information directly with the clinic before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pilihan perawatan",
+        "en": "Ask about care options"
+      },
+      "ringkas": {
+        "id": "Informasi ini perlu dikonfirmasi langsung kepada klinik sebelum kunjungan.",
+        "en": "Please confirm this information directly with the clinic before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya pemeriksaan",
+        "en": "Ask about examination fees"
+      },
+      "ringkas": {
+        "id": "Informasi ini perlu dikonfirmasi langsung kepada klinik sebelum kunjungan.",
+        "en": "Please confirm this information directly with the clinic before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan kunjungan",
+        "en": "Ask how to prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Informasi ini perlu dikonfirmasi langsung kepada klinik sebelum kunjungan.",
+        "en": "Please confirm this information directly with the clinic before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemeriksa jenis layanan sebelum kunjungan",
+      "en": "Pre-visit care availability checker"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan informasi Anda. Panduan akan menyusun pertanyaan tentang jadwal, lokasi, dan perawatan untuk disampaikan kepada petugas.",
+      "en": "Choose the information you need. The guide prepares questions about scheduling, location and care for the clinic team."
+    },
+    "alasan_dipilih": "Kategori dokter umum dan dokter gigi berbeda antar sumber; fitur membantu meminta konfirmasi jenis layanan sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan 081398319440. Kepemilikan resmi nomor ini belum terkonfirmasi. Verifikasikan kontak dan jadwal sebelum berkunjung.",
+        "en": "A directory lists 081398319440. Official ownership of this number has not been confirmed. Verify the contact and appointment availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Swadaya 1 No.9F, RT.6/RW.10, Pejaten Timur, Pasar Minggu, Jakarta Selatan 12510",
+        "en": "Jl. Swadaya 1 No.9F, RT.6/RW.10, Pejaten Timur, Pasar Minggu, Jakarta Selatan 12510"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin, Selasa, Sabtu, Minggu 09.00–21.00; Rabu dan Jumat 07.00–21.00; Kamis 15.00–21.00 WIB. Konfirmasikan jenis layanan dan jadwal dokter.",
+        "en": "The directory lists Mon, Tue, Sat and Sun 09:00–21:00; Wed and Fri 07:00–21:00; Thu 15:00–21:00 WIB. Confirm the type of care and dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum terverifikasi dalam riset ini. Tanyakan perkiraan biaya dan komponennya sebelum tindakan.",
+        "en": "An official fee list has not been verified in this research. Ask about estimated fees and what they cover before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi dan pasien anak?",
+        "en": "Are insurance and children's appointments available?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi dan jadwal untuk pasien anak perlu dikonfirmasi kepada petugas klinik.",
+        "en": "Please ask the clinic team about accepted insurance and appointments for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi informasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di Praktek Dokter Swadaya 1 Pejaten Timur. Mohon informasi jadwal dokter dan cara membuat janji.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek Dokter Swadaya 1 Pejaten Timur. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi alamat praktik di Jalan Swadaya 1 No.9F. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/swadaya-1. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Dokter Swadaya 1 Pejaten Timur",
+    "email_isi": "Yth. Pengelola Praktek Dokter Swadaya 1 Pejaten Timur,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi alamat praktik di Jalan Swadaya 1 No.9F dan menyiapkan konsep website untuk membantu pasien menemukan informasi kunjungan. Konsep dapat ditinjau di https://maxigrowthstudio.com/swadaya-1.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Bila berkenan, kami siap menjelaskan rancangan dan menyesuaikan informasi yang perlu dikonfirmasi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W505",
+  "hero": {
+    "judul": {
+      "id": "NATAMA MEDIKA (Praktik Mandiri Dokter Gigi)",
+      "en": "NATAMA MEDIKA (Praktik Mandiri Dokter Gigi)"
+    },
+    "sub": {
+      "id": "Informasi klinik untuk membantu Anda menyiapkan kunjungan dan pertanyaan kepada dokter.",
+      "en": "Clinic information to help you prepare for your visit and questions for the dentist."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointment availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai scaling dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about scaling and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai tambal gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about dental fillings and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai cabut gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about tooth extraction and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai kawat gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about braces and appointment availability. Treatment needs are assessed during consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Penyusun pertanyaan kunjungan",
+      "en": "Visit question planner"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan informasi Anda. Panduan akan menyusun pertanyaan tentang jadwal, lokasi, dan perawatan untuk disampaikan kepada petugas.",
+      "en": "Choose the information you need. The guide prepares questions about scheduling, location and care for the clinic team."
+    },
+    "alasan_dipilih": "Fitur konsep membantu pasien menyiapkan kunjungan tanpa menjanjikan hasil atau menetapkan diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah 089626153549. Konfirmasikan jadwal sebelum berkunjung.",
+        "en": "The listed telephone number is 089626153549. Confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Raya Panyileukan, Komp. Bumi Panyileukan Blok G9 Kav.15, Cipadung Kidul, Panyileukan, Kota Bandung, Jawa Barat 40614",
+        "en": "Jl. Raya Panyileukan, Komp. Bumi Panyileukan Blok G9 Kav.15, Cipadung Kidul, Panyileukan, Kota Bandung, Jawa Barat 40614"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik perlu dikonfirmasi langsung. Jadwal dokter dapat berbeda dari jam operasional klinik.",
+        "en": "Please confirm opening hours directly. Dentist availability may differ from clinic opening hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum terverifikasi dalam riset ini. Tanyakan perkiraan biaya dan komponennya sebelum tindakan.",
+        "en": "An official fee list has not been verified in this research. Ask about estimated fees and what they cover before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi dan pasien anak?",
+        "en": "Are insurance and children's appointments available?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi dan jadwal untuk pasien anak perlu dikonfirmasi kepada petugas klinik.",
+        "en": "Please ask the clinic team about accepted insurance and appointments for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi informasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di NATAMA MEDIKA (Praktik Mandiri Dokter Gigi). Mohon informasi jadwal dokter dan cara membuat janji.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola NATAMA MEDIKA (Praktik Mandiri Dokter Gigi). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi praktik di Komp. Bumi Panyileukan. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/natama-medika. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website NATAMA MEDIKA (Praktik Mandiri Dokter Gigi)",
+    "email_isi": "Yth. Pengelola NATAMA MEDIKA (Praktik Mandiri Dokter Gigi),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi praktik di Komp. Bumi Panyileukan dan menyiapkan konsep website untuk membantu pasien menemukan informasi kunjungan. Konsep dapat ditinjau di https://maxigrowthstudio.com/natama-medika.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Bila berkenan, kami siap menjelaskan rancangan dan menyesuaikan informasi yang perlu dikonfirmasi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

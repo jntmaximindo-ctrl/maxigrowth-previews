@@ -1,0 +1,152 @@
+{
+  "id": "W625",
+  "hero": {
+    "judul": {
+      "id": "Agsato Dental Clinic (sebelumnya Agata Dental Clinic)",
+      "en": "Agsato Dental Clinic (sebelumnya Agata Dental Clinic)"
+    },
+    "sub": {
+      "id": "Informasi klinik untuk membantu Anda menyiapkan kunjungan dan pertanyaan kepada dokter.",
+      "en": "Clinic information to help you prepare for your visit and questions for the dentist."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointment availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan konsultasi gigi",
+        "en": "Dental examination and consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai pemeriksaan dan konsultasi gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about dental examination and consultation and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling dan polishing",
+        "en": "Scaling and polishing"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai scaling dan polishing dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about scaling and polishing and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai tambal gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about dental fillings and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai perawatan saluran akar dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about root canal treatment and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai kawat gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about braces and appointment availability. Treatment needs are assessed during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada klinik mengenai bleaching gigi dan jadwal pemeriksaan. Kebutuhan tindakan ditentukan setelah konsultasi.",
+        "en": "Ask the clinic about teeth whitening and appointment availability. Treatment needs are assessed during consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemilih dokter dan permintaan jadwal",
+      "en": "Dentist and appointment request selector"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan informasi Anda. Panduan akan menyusun pertanyaan tentang jadwal, lokasi, dan perawatan untuk disampaikan kepada petugas.",
+      "en": "Choose the information you need. The guide prepares questions about scheduling, location and care for the clinic team."
+    },
+    "alasan_dipilih": "Beberapa dokter tercatat pada sumber yang dibuka, dan Linktree menyediakan saluran booking resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah 0895416421800. Konfirmasikan jadwal sebelum berkunjung.",
+        "en": "The listed telephone number is 0895416421800. Confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. TB Simatupang No.15A, RT.11/RW.4, Tanjung Barat, Jagakarsa, Jakarta Selatan 12530",
+        "en": "Jl. TB Simatupang No.15A, RT.11/RW.4, Tanjung Barat, Jagakarsa, Jakarta Selatan 12530"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Sumber direktori mencatat setiap hari 10.00–20.00 WIB. Jadwal masing-masing dokter perlu dikonfirmasi melalui booking.",
+        "en": "Directories list daily hours of 10:00–20:00 WIB. Confirm individual dentist availability when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum terverifikasi dalam riset ini. Tanyakan perkiraan biaya dan komponennya sebelum tindakan.",
+        "en": "An official fee list has not been verified in this research. Ask about estimated fees and what they cover before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi dan pasien anak?",
+        "en": "Are insurance and children's appointments available?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi dan jadwal untuk pasien anak perlu dikonfirmasi kepada petugas klinik.",
+        "en": "Please ask the clinic team about accepted insurance and appointments for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi informasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di Agsato Dental Clinic (sebelumnya Agata Dental Clinic). Mohon informasi jadwal dokter dan cara membuat janji.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Agsato Dental Clinic (sebelumnya Agata Dental Clinic). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi tautan booking dokter pada Linktree Agsato. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/agata. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Agsato Dental Clinic (sebelumnya Agata Dental Clinic)",
+    "email_isi": "Yth. Pengelola Agsato Dental Clinic (sebelumnya Agata Dental Clinic),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi tautan booking dokter pada Linktree Agsato dan menyiapkan konsep website untuk membantu pasien menemukan informasi kunjungan. Konsep dapat ditinjau di https://maxigrowthstudio.com/agata.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Bila berkenan, kami siap menjelaskan rancangan dan menyesuaikan informasi yang perlu dikonfirmasi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

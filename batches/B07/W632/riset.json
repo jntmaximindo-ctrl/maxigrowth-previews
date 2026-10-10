@@ -189,5 +189,22 @@
     "https://hdmall.id/klinik-gigi/tambal-gigi-belakang-non-saraf-di-south-dental",
     "https://rsroyaltaruma.com/index.php/galery/promotions/detail/promo-gigi",
     "https://www.google.com/maps/search/?api=1&query=GIGI%20KITA%20PEJATEN%20Jakarta%20Selatan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[1].min",
+      "tercatat": 400000,
+      "catatan": "Sumber Axel Dental gagal dibuka; halaman HDmall yang terbuka tidak menampilkan angka Rp400.000."
+    },
+    {
+      "path": "harga[3].max",
+      "tercatat": 9900000,
+      "catatan": "Sumber Axel Dental timeout dan sumber RS Royal Taruma menolak akses (403)."
+    },
+    {
+      "path": "harga[5].max",
+      "tercatat": 4500000,
+      "catatan": "HelloSehat menyebut veneer indirect sekitar Rp4 juta; ODAC mencantumkan maksimum Rp3,5 juta."
+    }
   ]
 }

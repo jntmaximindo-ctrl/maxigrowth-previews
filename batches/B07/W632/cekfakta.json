@@ -1,0 +1,34 @@
+{
+  "id": "W632",
+  "diperiksa": 17,
+  "beda": [
+    {
+      "path": "harga[1].min",
+      "tercatat": 400000,
+      "di_sumber": "Sumber Axel Dental gagal dibuka; halaman HDmall yang terbuka tidak menampilkan angka Rp400.000.",
+      "src": "https://axeldental.id/daftar-harga/",
+      "catatan": "Nilai minimum tambal belum terverifikasi, bukan bukti nilai salah."
+    },
+    {
+      "path": "harga[3].max",
+      "tercatat": 9900000,
+      "di_sumber": "Sumber Axel Dental timeout dan sumber RS Royal Taruma menolak akses (403).",
+      "src": "https://axeldental.id/daftar-harga/",
+      "catatan": "Nilai maksimum behel metal belum terverifikasi."
+    },
+    {
+      "path": "harga[5].max",
+      "tercatat": 4500000,
+      "di_sumber": "HelloSehat menyebut veneer indirect sekitar Rp4 juta; ODAC mencantumkan maksimum Rp3,5 juta.",
+      "src": "https://hellosehat.com/care/layanan/veneer-6470/",
+      "catatan": "Angka Rp4,5 juta tidak ditemukan pada dua sumber yang dapat dibaca; sumber Axel Dental gagal dibuka."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://alamatsehat.com/klinik-gigi-dokter-gigi-di-pasar-minggu-jaksel/",
+    "https://wa.me/6282244766649?text=Halo%2C+saya+tahu+GIGI+KITA+PEJATEN+dari+caribisnis.id.+Boleh+minta+info+lebih+lengkap%3F",
+    "https://axeldental.id/daftar-harga/",
+    "https://rsroyaltaruma.com/index.php/galery/promotions/detail/promo-gigi"
+  ],
+  "kritis_ok": true
+}
