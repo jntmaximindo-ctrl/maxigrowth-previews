@@ -396,6 +396,9 @@ def terapkan(out, DS, logo_lama=None, nama=""):
 
     # font
     out = re.sub(r"https://fonts\.googleapis\.com/css2\?[^\"']+", "https://fonts.googleapis.com/css2?" + G["fonts"] + "&display=swap", out, count=1)
+    for lama, baru in (("Bricolage Grotesque", G["head"]), ("Instrument Serif", G["sig"])):  # pelajaran #45: ganti nama font di seluruh CSS, bukan hanya ditimpa
+        out = out.replace('"%s"' % lama, '"%s"' % baru).replace("'%s'" % lama, "'%s'" % baru)
+    out = re.sub(r"(?<![\w\"'+])Figtree(?![\w\"'])", '"%s"' % G["body"], out)
 
     # logo asli
     if logo and logo_lama:
@@ -411,7 +414,9 @@ def terapkan(out, DS, logo_lama=None, nama=""):
     out = _urutkan(out, DS, nama)
 
     # css gaya
-    out = out.replace("</head>", css_gaya(g, DS, pal or (m.group(1) if m else "#7a5c99",), ink) + "</head>", 1)
+    gaya_css = css_gaya(g, DS, pal or (m.group(1) if m else "#7a5c99",), ink)
+    i_ = out.rfind("</body>")  # setelah CSS template supaya tidak tertimpa
+    out = out[:i_] + gaya_css + out[i_:] if i_ > 0 else out + gaya_css
     out = out.replace("<body", f'<body data-gaya="{g}"', 1)
     print(f"  desain: gaya={g} fokus={','.join(DS['fokus'])} logo={'asli' if logo else 'inisial'} foto={'ada' if foto else '-'} warna={(DS.get('warna') or {}).get('utama', 'cadangan')}")
     return out
