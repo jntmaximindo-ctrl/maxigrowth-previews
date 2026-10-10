@@ -1,0 +1,132 @@
+{
+  "id": "W835",
+  "hero": {
+    "judul": {
+      "id": "Home Dental Smile",
+      "en": "Home Dental Smile"
+    },
+    "sub": {
+      "id": "Informasi lokasi, layanan, dan cara menghubungi klinik gigi di Medan.",
+      "en": "Location, care information, and contact details for a dental practice in Medan."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Praktik",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kondisi gigi bersama dokter.",
+        "en": "Discuss your concerns and dental health with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental Filling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Ask about filling options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter akan menilai apakah pencabutan diperlukan sesuai kondisi gigi.",
+        "en": "A dentist can assess whether extraction is appropriate for your condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan rencana kunjungan melalui kontak klinik.",
+        "en": "Contact the clinic to confirm service availability and discuss your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan",
+      "en": "Plan Your Visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan dan lihat informasi jam praktik sebelum menghubungi klinik.",
+      "en": "Choose a day and review opening-hour information before contacting the clinic."
+    },
+    "alasan_dipilih": "Direktori publik mencantumkan layanan setiap hari, termasuk Minggu; jadwal perlu konfirmasi ulang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Jl. Menteng VII No.67, Medan Tenggara, Kec. Medan Denai, Kota Medan, Sumatera Utara 20226, Indonesia",
+        "en": "Jl. Menteng VII No.67, Medan Tenggara, Kec. Medan Denai, Kota Medan, Sumatera Utara 20226, Indonesia"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara memastikan jam praktik?",
+        "en": "How can I confirm opening hours?"
+      },
+      "a": {
+        "id": "Hubungi nomor klinik untuk memastikan jadwal sebelum datang.",
+        "en": "Please call the clinic to confirm hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada hasil pemeriksaan dan tindakan yang diperlukan. Hubungi klinik untuk estimasi.",
+        "en": "Fees depend on the examination and treatment required. Contact the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Silakan tanyakan langsung kepada klinik.",
+        "en": "Insurance arrangements have not been confirmed. Please check with the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji lebih dahulu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya hubungi klinik lebih dahulu untuk memastikan ketersediaan dokter dan jadwal.",
+        "en": "Please contact the clinic in advance to confirm dentist availability and scheduling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Kunjungan",
+    "en": "Contact the Clinic About Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Home Dental Smile. Apakah ada slot kunjungan yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Home Dental Smile. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat jam praktik yang tercantum setiap hari, termasuk Minggu. Kami sudah menyiapkan konsep website yang bisa Bapak/Ibu lihat di https://maxigrowthstudio.com/home-smile. Bila berkenan, saya terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Home Dental Smile",
+    "email_isi": "Yth. Tim Manajemen Home Dental Smile,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati jam praktik yang tercantum setiap hari, termasuk Minggu dan menyiapkan konsep website yang memudahkan pasien menemukan informasi klinik serta menghubungi tim administrasi.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/home-smile. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila ada masukan atau kebutuhan khusus, kami siap berdiskusi sesuai waktu yang nyaman bagi Bapak/Ibu.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
