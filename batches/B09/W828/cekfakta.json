@@ -1,0 +1,15 @@
+{
+  "id": "W828",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.sen-sab",
+      "tercatat": "00-24 untuk Senin–Sabtu",
+      "di_sumber": "Artikel hanya menyebut klinik buka 24 jam secara umum dan mencantumkan jam Minggu 08.00–22.00; tidak merinci Senin–Sabtu satu per satu.",
+      "src": "https://semarang24.com/detail/45930/10-klinik-gigi-semarang-rating-tertinggi-2026-dari-sozo-dental-hingga-audy-dental",
+      "catatan": "Jam Senin–Sabtu tidak terverifikasi secara eksplisit dari URL src yang dikutip. Waze menampilkan Senin 00.00–00.00; sumber lain memberi indikasi buka 24 jam, tetapi bukan bukti untuk tiap hari."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

@@ -1,0 +1,15 @@
+{
+  "id": "W829",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "harga[0].jenis",
+      "tercatat": "resmi_klinik",
+      "di_sumber": "Harga Rp300.000–Rp500.000 tertera pada listing Alodokter, bukan daftar harga yang diterbitkan langsung oleh klinik.",
+      "src": "https://www.alodokter.com/cari-rumah-sakit/klinik-gigi-my-dentist-semarang/scaling-gigi",
+      "catatan": "Nominal sesuai sumber, tetapi klasifikasi resmi_klinik belum dapat dipastikan dari URL tersebut."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

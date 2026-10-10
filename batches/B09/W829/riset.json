@@ -108,5 +108,12 @@
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/klinik-gigi-my-dentist-semarang",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-gigi-my-dentist-semarang/scaling-gigi",
     "https://semarang.tempat.info/dokter-gigi-semarang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].jenis",
+      "tercatat": "resmi_klinik",
+      "catatan": "Harga Rp300.000–Rp500.000 tertera pada listing Alodokter, bukan daftar harga yang diterbitkan langsung oleh klinik."
+    }
   ]
 }
