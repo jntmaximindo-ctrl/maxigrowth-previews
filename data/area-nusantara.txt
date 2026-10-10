@@ -1,0 +1,252 @@
+# Daftar area seluruh Indonesia (lapis 2). Format: "Kota: area1, area2, ..." atau "Kota | Area". Urutan = prioritas (atas dikerjakan dulu).
+# Surat per area diterbitkan berurutan oleh scripts/cari_chat.py; setelah semua area selesai, robot memulai putaran berikutnya dengan fokus berbeda (VARIAN).
+# --- Lapis 1: sekitar kota besar Jawa ---
+Cimahi: Cimahi Utara, Cimahi Tengah, Cimahi Selatan
+Kabupaten Bandung: Soreang, Dayeuhkolot, Margahayu, Margaasih, Katapang, Banjaran, Majalaya, Rancaekek, Cileunyi, Baleendah, Bojongsoang, Ciparay, Cicalengka, Pangalengan, Ciwidey
+Kabupaten Bandung Barat: Lembang, Padalarang, Ngamprah, Cisarua, Batujajar, Cililin, Parongpong
+Sumedang: Jatinangor, Sumedang Utara, Sumedang Selatan
+Kota Bogor: Bogor Tengah, Bogor Barat
+Kabupaten Bogor: Cibinong, Cileungsi, Gunung Putri, Citeureup, Ciawi, Cisarua, Jonggol, Parung, Bojonggede, Kemang, Ciomas, Dramaga
+Kabupaten Bekasi: Cikarang Utara, Cikarang Selatan, Cikarang Barat, Cikarang Pusat, Tambun Selatan, Tambun Utara, Cibitung, Setu
+Kabupaten Tangerang: Cikupa, Curug, Pasar Kemis, Balaraja, Kelapa Dua, Legok, Pagedangan, Cisauk, Tigaraksa, Kosambi, Teluknaga, Pakuhaji
+Kota Serang: Serang, Cipocok Jaya, Taktakan, Kasemen
+Cilegon: Cilegon, Cibeber, Citangkil, Purwakarta
+Karawang: Karawang Barat, Karawang Timur, Telukjambe Timur, Klari, Cikampek, Rengasdengklok
+Cirebon: Kejaksan, Lemahwungkuk, Harjamukti, Kesambi, Pekalipan
+Kabupaten Cirebon: Sumber, Weru, Plered, Arjawinangun, Palimanan
+Kota Tasikmalaya: Cihideung, Tawang, Cipedes, Indihiang, Mangkubumi
+Kota Sukabumi: Cikole, Warudoyong, Citamiang, Gunungpuyuh
+Kabupaten Garut: Garut Kota, Tarogong Kidul, Tarogong Kaler, Cibatu
+Surakarta: Laweyan, Serengan, Pasar Kliwon, Jebres, Banjarsari
+Sukoharjo: Grogol, Kartasura, Sukoharjo
+Malang: Klojen, Blimbing, Lowokwaru, Sukun, Kedungkandang
+Kabupaten Malang: Singosari, Lawang, Kepanjen, Pakis, Dau, Karangploso
+Kota Batu: Batu
+Sidoarjo: Sidoarjo, Waru, Gedangan, Taman, Buduran, Candi, Krian, Sukodono
+Gresik: Gresik, Kebomas, Manyar, Driyorejo, Menganti
+Kota Kediri: Kediri
+Jember: Kaliwates, Sumbersari, Patrang
+Kabupaten Sleman: Ngaglik, Kalasan, Godean, Sleman, Mlati
+Kabupaten Bantul: Bantul, Sewon, Kasihan
+Kabupaten Semarang: Ungaran Barat, Ungaran Timur, Ambarawa, Bawen
+Purwokerto: Purwokerto Timur, Purwokerto Barat, Purwokerto Utara, Purwokerto Selatan, Sokaraja
+Kota Tegal: Tegal Barat, Tegal Timur, Tegal Selatan
+Kota Pekalongan: Pekalongan Barat, Pekalongan Timur
+Kudus: Kota Kudus, Jati, Bae
+Jepara: Jepara, Pecangaan, Tahunan
+Kota Magelang: Magelang
+Kota Salatiga: Salatiga
+# --- Lapis 2: kota/kabupaten lain di Jawa ---
+Kota Mojokerto: Pusat kota
+Kabupaten Mojokerto: Pusat kabupaten
+Kota Pasuruan: Pusat kota
+Pasuruan: Pusat kabupaten
+Kota Probolinggo: Pusat kota
+Banyuwangi: Pusat kabupaten
+Kota Blitar: Pusat kota
+Kota Madiun: Pusat kota
+Ponorogo: Pusat kabupaten
+Tulungagung: Pusat kabupaten
+Lamongan: Pusat kabupaten
+Tuban: Pusat kabupaten
+Bojonegoro: Pusat kabupaten
+Jombang: Pusat kabupaten
+Nganjuk: Pusat kabupaten
+Pamekasan: Pusat kabupaten
+Bangkalan: Pusat kabupaten
+Sumenep: Pusat kabupaten
+Klaten: Pusat kabupaten
+Boyolali: Pusat kabupaten
+Karanganyar: Pusat kabupaten
+Sragen: Pusat kabupaten
+Wonogiri: Pusat kabupaten
+Kendal: Pusat kabupaten
+Demak: Pusat kabupaten
+Pati: Pusat kabupaten
+Rembang: Pusat kabupaten
+Blora: Pusat kabupaten
+Batang: Pusat kabupaten
+Pemalang: Pusat kabupaten
+Brebes: Pusat kabupaten
+Cilacap: Pusat kabupaten
+Kebumen: Pusat kabupaten
+Purworejo: Pusat kabupaten
+Wonosobo: Pusat kabupaten
+Temanggung: Pusat kabupaten
+Gunungkidul: Wonosari
+Purwakarta: Pusat kabupaten
+Subang: Pusat kabupaten
+Indramayu: Pusat kabupaten
+Majalengka: Pusat kabupaten
+Kuningan: Pusat kabupaten
+Ciamis: Pusat kabupaten
+Cianjur: Pusat kabupaten
+Kota Banjar: Pusat kota
+Kabupaten Serang: Pusat kabupaten
+Lebak: Rangkasbitung
+Pandeglang: Pusat kabupaten
+# --- Lapis 3: Sumatra ---
+Banda Aceh: Baiturrahman, Kuta Alam, Syiah Kuala, Meuraxa
+Lhokseumawe: Pusat kota
+Langsa: Pusat kota
+Aceh Besar: Pusat kabupaten
+Aceh Utara: Pusat kabupaten
+Bireuen: Pusat kabupaten
+Binjai: Pusat kota
+Deli Serdang: Lubuk Pakam, Percut Sei Tuan, Tanjung Morawa, Sunggal, Patumbak
+Pematangsiantar: Pusat kota
+Tebing Tinggi: Pusat kota
+Asahan: Kisaran
+Labuhanbatu: Rantauprapat
+Padangsidimpuan: Pusat kota
+Sibolga: Pusat kota
+Gunungsitoli: Pusat kota
+Karo: Kabanjahe
+Langkat: Stabat
+Padang: Padang Barat, Padang Timur, Padang Utara, Padang Selatan, Kuranji, Nanggalo, Lubuk Begalung, Koto Tangah, Pauh
+Bukittinggi: Pusat kota
+Payakumbuh: Pusat kota
+Solok: Pusat kota
+Agam: Pusat kabupaten
+Tanah Datar: Batusangkar
+Pekanbaru: Sukajadi, Pekanbaru Kota, Sail, Lima Puluh, Senapelan, Tampan, Marpoyan Damai, Rumbai, Bukit Raya, Payung Sekaki, Tenayan Raya
+Dumai: Pusat kota
+Kampar: Bangkinang
+Siak: Siak Sri Indrapura
+Rokan Hilir: Bagansiapiapi
+Bengkalis: Pusat kabupaten
+Indragiri Hilir: Tembilahan
+Pelalawan: Pangkalan Kerinci
+Batam: Batam Kota, Nongsa, Sekupang, Lubuk Baja, Batu Ampar, Bengkong, Batu Aji, Sagulung, Sei Beduk, Galang
+Tanjungpinang: Pusat kota
+Karimun: Tanjung Balai Karimun
+Bintan: Bintan Utara
+Jambi: Telanaipura, Jelutung, Kota Baru, Alam Barajo, Jambi Selatan, Pasar Jambi, Danau Teluk
+Muaro Jambi: Pusat kabupaten
+Batanghari: Muara Bulian
+Sungai Penuh: Pusat kota
+Prabumulih: Pusat kota
+Lubuklinggau: Pusat kota
+Pagar Alam: Pusat kota
+Ogan Ilir: Indralaya
+Ogan Komering Ilir: Kayuagung
+Ogan Komering Ulu: Baturaja
+Banyuasin: Pangkalan Balai
+Muara Enim: Pusat kabupaten
+Lahat: Pusat kabupaten
+Musi Banyuasin: Sekayu
+Pangkalpinang: Pusat kota
+Bangka: Sungailiat
+Belitung: Tanjungpandan
+Bengkulu: Ratu Samban, Teluk Segara, Gading Cempaka, Selebar, Singaran Pati
+Rejang Lebong: Curup
+Bandar Lampung: Tanjung Karang Pusat, Tanjung Karang Barat, Tanjung Karang Timur, Kedaton, Rajabasa, Sukarame, Way Halim, Teluk Betung Selatan, Panjang, Kemiling, Labuhan Ratu, Sukabumi, Kedamaian
+Metro: Pusat kota
+Lampung Selatan: Kalianda
+Lampung Tengah: Gunung Sugih
+Lampung Timur: Sukadana
+Pringsewu: Pusat kabupaten
+Pesawaran: Gedong Tataan
+Tulang Bawang: Menggala
+# --- Lapis 4: Kalimantan ---
+Pontianak: Pontianak Kota, Pontianak Selatan, Pontianak Barat, Pontianak Utara, Pontianak Timur, Pontianak Tenggara
+Kubu Raya: Sungai Raya, Sungai Ambawang
+Singkawang: Pusat kota
+Sambas: Pusat kabupaten
+Sanggau: Pusat kabupaten
+Ketapang: Pusat kabupaten
+Sintang: Pusat kabupaten
+Mempawah: Pusat kabupaten
+Palangka Raya: Pahandut, Jekan Raya, Bukit Batu, Sabangau
+Kotawaringin Barat: Pangkalan Bun
+Kotawaringin Timur: Sampit
+Kapuas: Kuala Kapuas
+Banjarmasin: Banjarmasin Tengah, Banjarmasin Barat, Banjarmasin Selatan, Banjarmasin Timur, Banjarmasin Utara
+Banjarbaru: Pusat kota
+Banjar: Martapura
+Tanah Laut: Pelaihari
+Tapin: Rantau
+Tabalong: Tanjung
+Kotabaru: Pusat kabupaten
+Samarinda: Samarinda Ulu, Samarinda Ilir, Samarinda Utara, Samarinda Seberang, Sungai Kunjang, Sungai Pinang, Palaran, Loa Janan Ilir, Sambutan
+Balikpapan: Balikpapan Selatan, Balikpapan Kota, Balikpapan Tengah, Balikpapan Timur, Balikpapan Utara, Balikpapan Barat
+Bontang: Pusat kota
+Kutai Kartanegara: Tenggarong
+Kutai Barat: Sendawar
+Kutai Timur: Sangatta
+Berau: Tanjung Redeb
+Paser: Tanah Grogot
+Penajam Paser Utara: Penajam
+Tarakan: Pusat kota
+Bulungan: Tanjung Selor
+Nunukan: Pusat kabupaten
+# --- Lapis 5: Sulawesi ---
+Gowa: Somba Opu, Pallangga, Bontomarannu
+Maros: Pusat kabupaten
+Parepare: Pusat kota
+Palopo: Pusat kota
+Bone: Watampone
+Bulukumba: Pusat kabupaten
+Takalar: Pusat kabupaten
+Wajo: Sengkang
+Toraja Utara: Rantepao
+Tana Toraja: Makale
+Luwu: Belopa
+Sidenreng Rappang: Pusat kabupaten
+Barru: Pusat kabupaten
+Manado: Wenang, Sario, Wanea, Tikala, Malalayang, Singkil, Tuminting, Mapanget, Bunaken
+Bitung: Pusat kota
+Tomohon: Pusat kota
+Minahasa: Tondano
+Minahasa Utara: Airmadidi
+Kotamobagu: Pusat kota
+Gorontalo: Kota Selatan, Kota Utara, Kota Timur, Kota Barat, Dungingi, Hulonthalangi
+Palu: Palu Barat, Palu Timur, Palu Selatan, Palu Utara, Tatanga, Ulujadi, Mantikulore
+Poso: Pusat kabupaten
+Banggai: Luwuk
+Kendari: Kendari, Kadia, Wua-Wua, Poasia, Mandonga, Baruga, Kambu
+Baubau: Pusat kota
+Kolaka: Pusat kabupaten
+Konawe: Unaaha
+Mamuju: Pusat kabupaten
+Polewali Mandar: Pusat kabupaten
+# --- Lapis 6: Bali, Nusa Tenggara ---
+Gianyar: Ubud, Gianyar, Sukawati, Blahbatuh
+Badung: Kuta Utara, Mengwi, Abiansemal, Kuta Selatan, Petang
+Tabanan: Pusat kabupaten
+Buleleng: Singaraja
+Karangasem: Amlapura
+Klungkung: Semarapura
+Bangli: Pusat kabupaten
+Jembrana: Negara
+Mataram: Ampenan, Mataram, Cakranegara, Selaparang, Sandubaya, Sekarbela
+Lombok Barat: Gerung
+Lombok Tengah: Praya
+Lombok Timur: Selong
+Sumbawa: Sumbawa Besar
+Bima: Pusat kota
+Dompu: Pusat kabupaten
+Kupang: Oebobo, Kelapa Lima, Kota Lama, Alak, Maulafa
+Kabupaten Kupang: Pusat kabupaten
+Ende: Pusat kabupaten
+Sikka: Maumere
+Manggarai Barat: Labuan Bajo
+Ngada: Bajawa
+Sumba Timur: Waingapu
+# --- Lapis 7: Maluku, Papua ---
+Ambon: Sirimau, Nusaniwe, Teluk Ambon, Baguala, Leitimur Selatan
+Tual: Pusat kota
+Maluku Tengah: Masohi
+Ternate: Pusat kota
+Tidore Kepulauan: Pusat kota
+Halmahera Barat: Jailolo
+Jayapura: Jayapura Utara, Jayapura Selatan, Abepura, Heram, Muara Tami
+Merauke: Pusat kabupaten
+Sorong: Pusat kota
+Manokwari: Pusat kabupaten
+Mimika: Timika
+Biak Numfor: Biak
+Nabire: Pusat kabupaten
+Jayawijaya: Wamena
+Fakfak: Pusat kabupaten
+Kaimana: Pusat kabupaten

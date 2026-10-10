@@ -38,7 +38,7 @@ def save_area(st):
 SURAT = """SURAT TUGAS CARI KLINIK — {id}
 Kota: {kota}
 Area: {area}
-
+{fokus}
 Tugas kecil: cari klinik gigi / praktik dokter gigi di area ini saja. Kerjakan lengkap, jangan berhenti cepat.
 1. Buka file teks "KNOWN-KLINIK.txt" di Google Drive (daftar klinik yang SUDAH ada). Lewati klinik yang namanya/domainnya ada di situ.
 2. Lakukan minimal 5 pencarian web TERPISAH untuk area ini, contoh: "klinik gigi {area} {kota}", "dokter gigi {area} {kota}", "drg praktik mandiri {area} {kota}", "dental clinic {area} {kota}", "{area} klinik gigi halodoc alodokter". Buka halaman hasil (Google Maps/direktori/Instagram/situs klinik) untuk tiap kandidat dan baca rating & jumlah ulasannya.
@@ -55,6 +55,47 @@ Jangan menghubungi klinik. Jangan mengubah/menghapus file lain.
 """
 
 
+VARIAN = [
+    "FOKUS PUTARAN INI: klinik/praktik yang TIDAK punya website atau hanya punya Instagram/Linktree/Facebook. Cari lewat Instagram, Google Maps, dan direktori.",
+    "FOKUS PUTARAN INI: praktik mandiri dokter gigi (drg.), klinik pratama/kecil, dan klinik di ruko atau perumahan.",
+    "FOKUS PUTARAN INI: klinik spesialis (ortodonti/behel, implan, estetik/veneer, gigi anak) serta dental care/dental centre.",
+    "FOKUS PUTARAN INI: klinik gigi 24 jam, rumah sakit gigi dan mulut, dan cabang klinik berjaringan yang ada di area ini.",
+    "FOKUS PUTARAN INI: pakai istilah alternatif, nama jalan utama, nama perumahan, pasar, dan mal di area ini; cari klinik yang belum ada di KNOWN-KLINIK.txt.",
+]
+
+
+def daftar_area():
+    out = []
+    for nama in ("area.txt", "area-nusantara.txt"):
+        p = ROOT / "data" / nama
+        if not p.exists():
+            continue
+        for line in p.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if "|" in line:
+                k, _, a = (x.strip() for x in line.partition("|"))
+                out.append((k, a))
+            elif ":" in line:
+                k, _, rest = line.partition(":")
+                out += [(k.strip(), a.strip()) for a in rest.split(",") if a.strip()]
+    return out
+
+
+def semua_surat():
+    """Generator tanpa ujung praktis: putaran 0 = semua area; putaran 1..N = area yang sama dengan fokus berbeda."""
+    base = daftar_area()
+    for r in range(len(VARIAN) + 1):
+        lihat = set()
+        for k, a in base:
+            sid = f"{slug(k)}-{slug(a)}"
+            if sid in lihat:
+                continue
+            lihat.add(sid)
+            yield (sid if r == 0 else f"{sid}-r{r}"), k, a, ("" if r == 0 else VARIAN[r - 1] + "\n")
+
+
 def surat(dest):
     dest = pathlib.Path(dest); dest.mkdir(parents=True, exist_ok=True)
     st = area_state()
@@ -65,24 +106,15 @@ def surat(dest):
         habis = set(json.loads((ROOT / "data" / "sourcing-state.json").read_text()).get("habis", []))
     except Exception:
         pass
-    for line in (ROOT / "data" / "area.txt").read_text(encoding="utf-8").splitlines():  # tulis ulang surat yang belum selesai dengan teks terbaru
-        if "|" in line and not line.strip().startswith("#"):
-            k, _, a = (x.strip() for x in line.partition("|"))
-            s = f"{slug(k)}-{slug(a)}"
-            if s in belum:
-                (dest / f"{s}_cari.txt").write_text(SURAT.format(id=s, kota=k, area=a), encoding="utf-8")
     n = 0
-    for line in (ROOT / "data" / "area.txt").read_text(encoding="utf-8").splitlines():
-        if n >= kuota:
-            break
-        line = line.strip()
-        if not line or line.startswith("#") or "|" not in line:
+    for sid, kota, area, fokus in semua_surat():
+        if sid in st["terbit"]:
+            if sid in belum:  # surat belum selesai ditulis ulang dengan teks terbaru
+                (dest / f"{sid}_cari.txt").write_text(SURAT.format(id=sid, kota=kota, area=area, fokus=fokus), encoding="utf-8")
             continue
-        kota, _, area = (x.strip() for x in line.partition("|"))
-        sid = f"{slug(kota)}-{slug(area)}"
-        if sid in st["terbit"] or slug(kota) in habis:
+        if n >= kuota or slug(kota) in habis:
             continue
-        (dest / f"{sid}_cari.txt").write_text(SURAT.format(id=sid, kota=kota, area=area), encoding="utf-8")
+        (dest / f"{sid}_cari.txt").write_text(SURAT.format(id=sid, kota=kota, area=area, fokus=fokus), encoding="utf-8")
         st["terbit"].append(sid); n += 1
     save_area(st)
     print(f"surat baru: {n}; belum selesai: {len(belum)}")

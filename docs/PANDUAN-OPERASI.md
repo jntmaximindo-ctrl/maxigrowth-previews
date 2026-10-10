@@ -47,6 +47,8 @@ Setiap error = ATURAN + PENJAGA + PELAJARAN: aturan di kode, tes di `tests/uji_r
 - Dibuat 2026-10-10; cek di https://chatgpt.com/scheduled (maks 5 tugas per akun). Kalau teks surat berubah, tugas harus diedit agar sama dengan teks manual.
 - Aturan browser: automasi Chrome HANYA di dua profil: jnt9292 dan suharti. Profil pribadi pemilik (kudakuda) DILARANG disentuh, termasuk lewat sesi terjadwal. Kalau pemilik melihat notifikasi "Claude started debugging this browser" di profil pribadi, itu pelanggaran: hentikan dan perbaiki.
 
+Cakupan: seluruh Indonesia (data/area.txt = kota besar per kecamatan; data/area-nusantara.txt = ~700 area urut prioritas Jawa, Sumatra, Kalimantan, Sulawesi, Bali/NT, Maluku/Papua). Setelah semua area terbit, robot memulai putaran berikutnya (5 putaran, tiap putaran fokus berbeda di VARIAN scripts/cari_chat.py), total >4000 surat: pasokan kerja cukup berbulan-bulan. Tambah area/fokus dengan menambah baris di file area atau VARIAN.
+
 Catatan target: 15 surat selesai hanya dalam ~2 menit (terlalu cepat, kualitas dipertanyakan), jadi target dinaikkan ke 60 agar run memakan sekitar 15 menit dan surat butuh minimal 5 pencarian. Stok surat maksimal 120 belum selesai (OUTSTANDING_MAKS).
 
 ## 9. Pemantauan

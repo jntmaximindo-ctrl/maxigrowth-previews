@@ -406,6 +406,16 @@ def _():
     c.surat(str(d / "s")); assert "diperiksa" in (d / "s" / "kota-b-area-1_cari.txt").read_text(), "surat terbuka harus ditulis ulang dengan teks terbaru"
 
 
+@uji("#29 pasokan surat CARI praktis tanpa ujung: seluruh Indonesia (>=500 area) + putaran berfokus berbeda setelah semua area terbit")
+def _():
+    d = salin(); c = modul(d, "cari_chat"); c.ROOT = ROOT  # baca data area asli (hanya baca, tidak menulis)
+    semua = list(c.semua_surat())
+    assert len(semua) >= 3000, f"pasokan surat terlalu sedikit: {len(semua)}"
+    assert len({s[0] for s in semua}) == len(semua), "id surat tidak boleh dobel"
+    assert any(s[0].endswith("-r1") and "FOKUS" in s[3] for s in semua), "putaran berfokus tidak ada"
+    assert any("Papua" in s[1] or "Jayapura" in s[1] for s in semua) and any("Aceh" in s[1] for s in semua), "cakupan seluruh Indonesia hilang"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
