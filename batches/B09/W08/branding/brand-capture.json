@@ -1,0 +1,114 @@
+{
+  "url": "https://www.molars.id/",
+  "captured": "2026-10-10T07:15:28.604Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#25bec9",
+      "share": 0.498,
+      "kinds": {
+        "bg": 4,
+        "cta": 2,
+        "text": 3
+      }
+    },
+    {
+      "hex": "#5dced7",
+      "share": 0.199,
+      "kinds": {
+        "bg": 3,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#2ec0cb",
+      "share": 0.194,
+      "kinds": {
+        "text": 19,
+        "bg": 10,
+        "cta": 10
+      }
+    },
+    {
+      "hex": "#dcf4f6",
+      "share": 0.08,
+      "kinds": {
+        "bg": 2
+      }
+    },
+    {
+      "hex": "#25d366",
+      "share": 0.018,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#008000",
+      "share": 0.004,
+      "kinds": {
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#ffa500",
+      "share": 0.004,
+      "kinds": {
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#5f9ea0",
+      "share": 0.004,
+      "kinds": {
+        "bg": 4
+      }
+    }
+  ],
+  "fonts": [
+    "GOTHIC",
+    "Helvetica Neue"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.molars.id/images/logo.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.molars.id/images/logo-white.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.ico",
+      "src": "https://www.molars.id/icon/favicon.ico",
+      "why": "shortcut icon"
+    },
+    {
+      "file": "logo-4.png",
+      "src": "https://www.molars.id/icon/apple-icon-57x57.png",
+      "why": "apple-touch-icon"
+    },
+    {
+      "file": "logo-5.png",
+      "src": "https://www.molars.id/icon/apple-icon-60x60.png",
+      "why": "apple-touch-icon"
+    },
+    {
+      "file": "logo-6.png",
+      "src": "https://www.molars.id/icon/apple-icon-72x72.png",
+      "why": "apple-touch-icon"
+    }
+  ],
+  "errors": [],
+  "title": "Dokter Gigi Bandung - Molars Dental Aesthetics",
+  "theme_color": "#ffffff",
+  "neutrals": [
+    "#ffffff",
+    "#c4c4c4",
+    "#434343",
+    "#222222"
+  ]
+}
