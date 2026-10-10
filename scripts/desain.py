@@ -303,12 +303,13 @@ def css_gaya(g, DS, pal, ink):
          f'body{{font-family:"{G["body"]}",system-ui,sans-serif}}',
          f'.sig{{font-family:"{G["sig"]}",Georgia,serif}}',
          '.brand img,.fbr img,.badge{object-fit:contain;background:#fff}',
-         '.brand img{border-radius:12px}.fbr img{border-radius:14px}',
+         '.brand img{border-radius:12px;width:auto!important;min-width:36px;max-width:150px;padding:2px 4px}.fbr img{border-radius:14px;width:auto!important;min-width:52px;max-width:170px;padding:3px 6px}',  # pelajaran #47: logo lebar tidak boleh diciutkan ke lingkaran
          '.stage .hfoto{position:absolute;inset:4% 2% 8% 6%;margin:0;border-radius:calc(28px*var(--rs));overflow:hidden;box-shadow:var(--sh2);z-index:3;background:var(--gold-l)}',
          '.stage .hfoto img{width:100%;height:100%;object-fit:cover}',
          '.stage .hfoto figcaption{position:absolute;left:14px;bottom:14px;right:14px;color:#fff;font-size:13px;font-weight:600;text-shadow:0 1px 8px rgba(0,0,0,.5)}',
          '.stage.has-foto canvas,.stage.has-foto .halo,.stage.has-foto .glow,.stage.has-foto .orbit,.stage.has-foto .fb{display:none!important}',
          '.stage.has-foto .badge{z-index:4}',
+         '.stage.has-foto .zap,.stage.has-foto #zap{display:none!important}',  # pelajaran #48: teks permainan gigi 3D ikut disembunyikan bila gigi 3D diganti foto
          '.rail+section{padding-top:clamp(76px,10vw,128px)!important}']
     if g == "klinis":
         c += ['h1,h2{font-weight:750;letter-spacing:-.025em}',
