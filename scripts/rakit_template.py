@@ -199,7 +199,8 @@ def bangun(job_dir):
     kota = riset.get("kota") or job.get("kota") or ""
     pendek = nama
     cab_raw = riset.get("cabang") or []
-    wa_ada = any(hp(v(c.get("wa"))) for c in cab_raw)
+    # pelajaran #38: riset GPT tidak menyimpulkan WA dari nomor seluler -> banyak klinik gagal rakit. Nomor seluler (628xx) di kolom telepon dipakai sebagai kontak WA.
+    wa_ada = any(hp(v(c.get("wa"))) or hp(v(c.get("telepon"))).startswith("628") for c in cab_raw)
     if not cab_raw or not wa_ada:
         raise SystemExit("✗ riset.json: cabang/nomor WA kosong — tidak bisa dirakit template")
 
