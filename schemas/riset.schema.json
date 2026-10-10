@@ -68,7 +68,7 @@
     "asuransi": {"type": "array", "items": {"type": "string"}},
     "maps": {
       "type": "object",
-      "properties": {"rating": {"type": "number"}, "ulasan": {"type": "integer"}, "src": {"type": "string"}, "tgl": {"type": "string"}}
+      "properties": {"rating": {"type": ["number", "null"]}, "ulasan": {"type": ["integer", "null"]}, "src": {"type": ["string", "null"]}, "tgl": {"type": ["string", "null"]}}
     },
     "keunggulan": {"type": "array", "items": {"type": "string"}, "description": "fakta pembeda yang bisa dibuktikan, bukan klaim superlatif"},
     "situs_lama": {"type": "array", "items": {"type": "string"}, "description": "masalah spesifik: 'tidak ada tombol WA di mobile', 'testimoni pasien di beranda (Permenkes)'"},

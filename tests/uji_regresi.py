@@ -356,12 +356,13 @@ def _():
 
 @uji("#25 perintah jembatan dengan variable terlarang tidak boleh mengubah file sama sekali; hasil CARI tipis tidak boleh menandai kota habis")
 def _():
-    d = salin(); m = modul(d, "jembatan")
+    d = salin(); m = modul(d, "jembatan"); m.OUT = d / "jb"
     (d / "docs").mkdir(); (d / "docs" / "x.txt").write_text("a")
     cmd = d / "cmd"; cmd.mkdir()
     (cmd / "1.json").write_text(json.dumps({"id": "1", "ganti": {"docs/x.txt": [["a", "b"]]}, "variabel": {"JAHAT": "1"}}))
     m.terapkan(str(cmd))
     assert (d / "docs" / "x.txt").read_text() == "a", "file berubah walau perintah gagal"
+    assert (d / "jb" / "hasil.md").exists(), "tes #25 wajib menulis hasil jembatan ke folder sementara, bukan /tmp/jb milik run"
     c = modul(d, "cari_chat"); c.ROOT = d
     i = d / "in2"; i.mkdir()
     (i / "CARI-x-1_hasil.json.md").write_text(json.dumps({"kota": "Kotax", "habis": True, "diperiksa": [1, 2, 3, 4, 5, 6], "klinik": [{"nama": "A", "rating": 4.8, "ulasan": 150}]}))
@@ -414,6 +415,18 @@ def _():
     assert len({s[0] for s in semua}) == len(semua), "id surat tidak boleh dobel"
     assert any(s[0].endswith("-r1") and "FOKUS" in s[3] for s in semua), "putaran berfokus tidak ada"
     assert any("Papua" in s[1] or "Jayapura" in s[1] for s in semua) and any("Aceh" in s[1] for s in semua), "cakupan seluruh Indonesia hilang"
+
+
+@uji("#30 skema riset: maps.rating/ulasan/src/tgl boleh null (konvensi GPT: null = tidak ditemukan) dan riset contoh ber-null lolos validasi")
+def _():
+    import jsonschema
+    s = json.loads((ROOT / "schemas" / "riset.schema.json").read_text())
+    for k, v in s["properties"]["maps"]["properties"].items():
+        t = v.get("type"); t = t if isinstance(t, list) else [t]
+        assert "null" in t, f"maps/{k} menolak null"
+    r = {"id": "W1", "nama": {"v": "K", "src": None}, "kota": "X", "cabang": [{"nama": "A", "alamat": {"v": "a", "src": None}}],
+         "layanan": [], "situs_lama": [], "sumber": ["a", "b"], "maps": {"rating": None, "ulasan": None, "src": None, "tgl": "2026-10-10"}}
+    jsonschema.validate(r, s)
 
 
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
