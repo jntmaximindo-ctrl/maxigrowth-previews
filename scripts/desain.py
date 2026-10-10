@@ -422,6 +422,56 @@ def terapkan(out, DS, logo_lama=None, nama=""):
     return out
 
 
+def masuk(folder, root=None):
+    """pelajaran #46: hasil GPT-A DESAIN-hasil-*.json(.md) -> batches/Bxx/Wyy/desain.json, lalu klinik dirakit ulang."""
+    root = pathlib.Path(root or pathlib.Path(__file__).resolve().parents[1])
+    kunci = ("logo_url", "foto_url", "warna", "gaya", "fokus", "alasan")
+    n_baru = n_ulang = 0
+    for f in sorted(pathlib.Path(folder).glob("DESAIN-hasil-*")):
+        teks = f.read_text(encoding="utf-8", errors="ignore")
+        teks = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", teks.strip())
+        teks = teks.replace("\\[", "[").replace("\\]", "]").replace("\\_", "_").replace("\\#", "#").replace("\\&", "&")
+        a, b = teks.find("["), teks.rfind("]")
+        try:
+            data = json.loads(teks[a:b + 1])
+        except Exception as e:
+            print(f"✗ {f.name}: JSON rusak ({e})")
+            continue
+        for it in data:
+            if not isinstance(it, dict) or not it.get("id") or not it.get("batch"):
+                continue
+            d = root / "batches" / str(it["batch"]) / str(it["id"])
+            if not d.exists():
+                print(f"  {it['id']}: folder {d} tidak ada, dilewati")
+                continue
+            ds = {k: it[k] for k in kunci if it.get(k) not in (None, [], {}, "")}
+            if isinstance(ds.get("warna"), dict):
+                ds["warna"] = {k: v for k, v in ds["warna"].items() if v}
+            ds["nama"] = it.get("nama")
+            fj = d / "desain.json"
+            lama = fj.read_text(encoding="utf-8") if fj.exists() else ""
+            baru = json.dumps(ds, ensure_ascii=False, indent=1)
+            if lama == baru:
+                continue
+            fj.write_text(baru, encoding="utf-8")
+            n_baru += 1
+            stf = d / "status.json"
+            try:
+                st = json.loads(stf.read_text(encoding="utf-8"))
+            except Exception:
+                st = {}
+            if (d / "site" / "index.html").exists() and (d / "riset.json").exists() and (d / "konten.json").exists():
+                (d / "site" / "index.html").unlink()
+                st.update(status="Siap rakit", oleh="desain-gpt", catatan="rakit ulang dengan desain asli klinik (pelajaran #43)")
+                stf.write_text(json.dumps(st, ensure_ascii=False), encoding="utf-8")
+                n_ulang += 1
+    print(f"desain masuk: {n_baru} desain.json baru/berubah, {n_ulang} klinik dirakit ulang")
+
+
+if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "masuk":
+    masuk(sys.argv[2])
+    sys.exit(0)
+
 if __name__ == "__main__":
     src, dj, dst = sys.argv[1:4]
     html = pathlib.Path(src).read_text(encoding="utf-8")
