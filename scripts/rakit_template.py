@@ -127,6 +127,7 @@ def jam(teks_jam):
 
 
 def hp(nomor):
+    nomor = re.split(r"\s*(?:/|,|;|\|\bdan\b|\batau\b|\bor\b)\s*", str(nomor or ""))[0]  # pelajaran #40: kolom berisi >1 nomor -> ambil yang pertama
     d = re.sub(r"\D", "", str(nomor or ""))
     if d.startswith("0"):
         d = "62" + d[1:]
@@ -134,6 +135,7 @@ def hp(nomor):
 
 
 def tampil_tel(nomor):
+    nomor = re.split(r"\s*(?:/|,|;|\|\bdan\b|\batau\b|\bor\b)\s*", str(nomor or ""))[0]  # pelajaran #40
     d = re.sub(r"\D", "", str(nomor or ""))
     if d.startswith("62"):
         d = "0" + d[2:]
