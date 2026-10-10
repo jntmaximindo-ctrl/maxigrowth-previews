@@ -1,0 +1,82 @@
+{
+  "url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Bekasi%20-%20FDC%20Bekasi%20Kota%20Bekasi%20Selatan",
+  "captured": "2026-10-10T06:37:43.324Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.912,
+      "kinds": {
+        "bg": 1,
+        "text": 3
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.054,
+      "kinds": {
+        "text": 1,
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.017,
+      "kinds": {
+        "text": 8
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.015,
+      "kinds": {
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#2b7f3f",
+      "share": 0.003,
+      "kinds": {
+        "text": 2
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Roboto",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=44.24236485%2C-119.8093025&zoom=3&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=7X-g66uJy29wzB3CghwNWJ9Jmbc",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Klinik Gigi Bekasi - FDC Bekasi Kota Bekasi Selatan - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#f2f2f2",
+    "#000000"
+  ]
+}
