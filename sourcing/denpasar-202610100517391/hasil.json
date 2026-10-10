@@ -1,0 +1,64 @@
+{
+ "kota": "Denpasar",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-10",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Praktek Dokter Gigi Omnident Bali",
+   "url": "https://omnidentbali.com/",
+   "punya_website": true,
+   "maps_url": null,
+   "rating": 5.0,
+   "ulasan": 307,
+   "telepon": "+62 811-3879-9911",
+   "alamat": "Jl. Nusa Indah No.80, Sumerta, Denpasar Timur, Kota Denpasar, Bali 80235",
+   "skor_jadul": 0,
+   "masalah": [],
+   "sumber": [
+    "https://www.dentalclinics.care/dental-clinic/omnident-bali-dental-clinic-bali",
+    "https://omnidentbali.com/"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Praktek Dokter Gigi Omnident Bali",
+   "rating": 5.0,
+   "ulasan": 307,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/omnident-bali-dental-clinic-bali"
+  },
+  {
+   "nama": "Bali Dentica Clinic",
+   "rating": 4.9,
+   "ulasan": null,
+   "sumber": "https://balidentica.com/en"
+  },
+  {
+   "nama": "Glimlach Dental Bali (Supratman)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://linktr.ee/glimlachbali"
+  },
+  {
+   "nama": "Pradita Dental",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://fixpalembang.com/dokter-gigi-bali/"
+  },
+  {
+   "nama": "Dentify Dental Care",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://fixpalembang.com/dokter-gigi-bali/"
+  },
+  {
+   "nama": "Vozz Dental Denpasar",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://densia.id/klinik/vozz-dental-denpasar-dokter-gigi-denpasar-kota-denpasar-yelbnb9i/"
+  }
+ ],
+ "catatan": "Lima kandidat memiliki halaman sumber yang berhasil dibuka; halaman Vozz Dental dicoba tetapi mengembalikan HTTP 410. Rating 4.9 untuk Bali Dentica terlihat, tetapi jumlah ulasan hanya tertulis '70+' (bukan angka pasti), sehingga ulasan=null dan tidak dimasukkan. Kandidat tanpa rating dan jumlah ulasan yang terlihat tidak dimasukkan. Perlu verifikasi tambahan untuk mencapai enam kandidat dengan halaman sumber yang berhasil dibuka.",
+ "area": "denpasar-denpasar-timur"
+}
