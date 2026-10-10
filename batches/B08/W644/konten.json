@@ -1,0 +1,132 @@
+{
+  "id": "W644",
+  "hero": {
+    "judul": {
+      "id": "DW Dental Workspace, Antapani",
+      "en": "DW Dental Workspace in Antapani"
+    },
+    "sub": {
+      "id": "Tanyakan jadwal dan kebutuhan perawatan sebelum berkunjung.",
+      "en": "Ask about appointments and care needs before your visit."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask about availability and suitability during your consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask about availability and suitability during your consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask about availability and suitability during your consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask about availability and suitability during your consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih sesi kunjungan",
+      "en": "Choose a visit session"
+    },
+    "penjelasan": {
+      "id": "Usulan pemilih pagi atau sore untuk menyiapkan pesan janji temu. Jadwal akhir dikonfirmasi klinik.",
+      "en": "A proposed morning or afternoon selector for appointment enquiries. The clinic confirms the final schedule."
+    },
+    "alasan_dipilih": "Direktori IDalamat dan artikel Poltekkes.web.id sama-sama mencantumkan jadwal pagi dan sore pada hari kerja."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji temu?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Tautan WhatsApp tercantum pada direktori klinik. Tanyakan jadwal dan konfirmasikan identitas penerima.",
+        "en": "A WhatsApp link is listed in the clinic directory. Ask about availability and confirm the recipient’s identity."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Kalijati Indah Bar. No.7, Antapani Kulon, Bandung. Konfirmasikan sebelum berangkat.",
+        "en": "Directories list Jl. Kalijati Indah Bar. No.7, Antapani Kulon, Bandung. Confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Dua sumber publik mencantumkan Minggu tutup. Konfirmasikan jadwal terkini kepada klinik.",
+        "en": "Two public sources list Sunday as closed. Confirm the current schedule with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum terverifikasi. Tanyakan rincian biaya sebelum tindakan.",
+        "en": "An official fee list has not been verified. Ask for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Sebutkan penyedia dan polis Anda kepada klinik.",
+        "en": "Insurance acceptance has not been verified. Share your provider and policy details with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan",
+    "en": "Ask about appointments and your visit"
+  },
+  "pesan_wa_default": "Halo DW Dental Workspace, saya ingin menanyakan jadwal konsultasi, lokasi dan rincian biaya. Mohon informasinya.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola DW Dental Workspace. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi sesi pagi dan sore pada direktori praktik Antapani. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/dw-workspace. Bila berkenan, mohon masukan serta koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website DW Dental Workspace",
+    "email_isi": "Yth. Pengelola DW Dental Workspace,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi sesi pagi dan sore pada direktori menjadi dasar usulan pemilih jadwal untuk pasien.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/dw-workspace. Proposal PDF terlampir untuk bahan peninjauan. Kami terbuka terhadap masukan serta koreksi informasi praktik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

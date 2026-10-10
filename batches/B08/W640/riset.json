@@ -1,0 +1,187 @@
+{
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "dokter": [],
+  "harga": [
+    {
+      "perawatan": "scaling",
+      "jenis": "kisaran_pasar",
+      "min": 325000,
+      "max": 650000,
+      "src": [
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://hdmall.id/klinik-gigi/passion-dental-care",
+        "https://www.kiraridentalcare.com/service-page/scaling"
+      ]
+    },
+    {
+      "perawatan": "tambal",
+      "jenis": "kisaran_pasar",
+      "min": 325000,
+      "max": 825000,
+      "src": [
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://hdmall.id/klinik-gigi/passion-dental-care"
+      ]
+    },
+    {
+      "perawatan": "cabut",
+      "jenis": "kisaran_pasar",
+      "min": 315250,
+      "max": 780000,
+      "src": [
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://hdmall.id/klinik-gigi/passion-dental-care"
+      ]
+    },
+    {
+      "perawatan": "behel metal",
+      "jenis": "kisaran_pasar",
+      "min": 3500000,
+      "max": 6000000,
+      "src": [
+        "https://www.senyumkeluargadentalcare.com/promo",
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/"
+      ]
+    },
+    {
+      "perawatan": "bleaching",
+      "jenis": "kisaran_pasar",
+      "min": 1500000,
+      "max": 3900000,
+      "src": [
+        "https://www.senyumkeluargadentalcare.com/promo",
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://hdmall.id/klinik-gigi/passion-dental-care"
+      ]
+    },
+    {
+      "perawatan": "veneer",
+      "jenis": "kisaran_pasar",
+      "min": 750000,
+      "max": 4550000,
+      "src": [
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://hdmall.id/klinik-gigi/passion-dental-care"
+      ]
+    },
+    {
+      "perawatan": "implan",
+      "jenis": "kisaran_pasar",
+      "min": 12000000,
+      "max": 24630000,
+      "src": [
+        "https://tamidentalcare.com/harga/",
+        "https://doktertanya.com/dokter-gigi-bandung/",
+        "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung"
+      ]
+    }
+  ],
+  "asuransi": [],
+  "id": "W640",
+  "nama": {
+    "v": "TERRA Dental Care Cibiru",
+    "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/terra-dental-care-cibiru-ciha-imp1",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "cabang": [
+    {
+      "nama": "Cibiru",
+      "alamat": {
+        "v": "Jl. Raya Cipadung Ruko No.481, Cipadung, Kec. Cibiru, Kota Bandung, Jawa Barat 40614",
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/terra-dental-care-cibiru-ciha-imp1",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "6282121600051",
+        "src": "https://www.google.com/maps/place/?q=place_id:ChIJP98e0erDaC4R93o083CDTFk",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-21",
+          "sel": "09-21",
+          "rab": "09-21",
+          "kam": "09-21",
+          "jum": "09-21",
+          "sab": "09-21",
+          "min": "09-21"
+        },
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/terra-dental-care-cibiru-ciha-imp1",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJP98e0erDaC4R93o083CDTFk"
+    }
+  ],
+  "layanan": [
+    "Pembersihan karang gigi (scaling)",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi (ortodonti)",
+    "Veneer",
+    "Bleaching",
+    "Implan gigi",
+    "Perawatan saluran akar",
+    "Gigi tiruan",
+    "Rontgen gigi"
+  ],
+  "fasilitas": [
+    "Parkir (menurut direktori pihak ketiga)",
+    "Rontgen periapikal dan panoramik (menurut direktori pihak ketiga)"
+  ],
+  "maps": {
+    "rating": 5.0,
+    "ulasan": 732,
+    "src": "https://www.google.com/maps/place/?q=place_id:ChIJP98e0erDaC4R93o083CDTFk",
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Tercatat buka setiap hari, termasuk Minggu, pukul 09.00–21.00 (direktori dan listing Maps).",
+    "Direktori pihak ketiga mencantumkan pemeriksaan rontgen dan beragam layanan gigi; ketersediaan harus dikonfirmasi klinik."
+  ],
+  "situs_lama": [
+    "Tidak ditemukan website resmi klinik dalam pencarian pada 2026-10-10; informasi layanan dan reservasi masih tersebar di listing/direktori.",
+    "Tidak ditemukan halaman publik resmi yang menggabungkan jadwal dokter dan biaya tindakan terkini."
+  ],
+  "ide_fitur_khas": "Pemilih kebutuhan kunjungan dan waktu (termasuk Minggu) yang menampilkan informasi layanan, jam buka, dan tombol kontak untuk konfirmasi.",
+  "catatan": "Telepon berasal dari listing bisnis Maps dan belum diverifikasi sebagai WhatsApp; jangan menautkan wa.me sampai dikonfirmasi. Angka rating/ulasan adalah snapshot pencarian, dapat berubah. Daftar layanan/fasilitas dari direktori agregator, bukan konfirmasi langsung klinik. Tarif di harga adalah kisaran pembanding klinik Bandung, BUKAN tarif TERRA. Dokter, email, IG, dan asuransi belum terverifikasi.",
+  "sumber": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJP98e0erDaC4R93o083CDTFk",
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/terra-dental-care-cibiru-ciha-imp1",
+    "https://sini.id/en/location/cipadung-wetan",
+    "https://tamidentalcare.com/harga/",
+    "https://doktertanya.com/dokter-gigi-bandung/",
+    "https://hdmall.id/klinik-gigi/passion-dental-care",
+    "https://www.senyumkeluargadentalcare.com/promo",
+    "https://www.kiraridentalcare.com/service-page/scaling",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung"
+  ]
+}

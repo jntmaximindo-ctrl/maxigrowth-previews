@@ -1,0 +1,132 @@
+{
+  "id": "W641",
+  "hero": {
+    "judul": {
+      "id": "Rencanakan Kunjungan ke DEHA Dental Clinic",
+      "en": "Plan Your Visit to DEHA Dental Clinic"
+    },
+    "sub": {
+      "id": "Lihat lokasi klinik di Arcamanik dan jam operasional yang tercatat. Tanyakan layanan dan jadwal dokter langsung kepada petugas.",
+      "en": "Find the clinic in Arcamanik and review its listed opening hours. Contact the team to confirm treatments and dentist availability."
+    },
+    "cta": {
+      "id": "Lihat Jam dan Lokasi",
+      "en": "View Hours & Directions"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi Pemeriksaan",
+        "en": "Examination Enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk menanyakan jenis pemeriksaan gigi yang tersedia.",
+        "en": "Contact the clinic to ask which dental examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi Perawatan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan Anda dan minta konfirmasi jenis perawatan yang dapat dilayani.",
+        "en": "Describe your concern and ask which treatments the clinic can provide."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Biaya",
+        "en": "Fee Information"
+      },
+      "ringkas": {
+        "id": "Mintalah estimasi biaya resmi dari klinik; harga pembanding Bandung bukan tarif DEHA.",
+        "en": "Request the clinic’s current fees. Market comparisons are not DEHA’s official prices."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pengaturan Kunjungan",
+        "en": "Visit Planning"
+      },
+      "ringkas": {
+        "id": "Pilih hari kunjungan berdasarkan jam yang tercatat, lalu konfirmasikan jadwal terlebih dahulu.",
+        "en": "Choose a day using the listed hours, then confirm the appointment in advance."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Arcamanik",
+      "en": "Arcamanik Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kerja atau akhir pekan, lihat jam operasional yang tercatat, lalu siapkan pertanyaan tentang layanan dan biaya sebelum menghubungi klinik.",
+      "en": "Choose a weekday or weekend, check listed opening hours, and prepare questions about services and fees before calling."
+    },
+    "alasan_dipilih": "Listing menunjukkan jam berbeda antara hari kerja dan akhir pekan; informasi jenis layanan belum terverifikasi sehingga fitur fokus pada persiapan dan konfirmasi kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi DEHA Dental Clinic?",
+        "en": "Where is DEHA Dental Clinic?"
+      },
+      "a": {
+        "id": "Listing bisnis mencantumkan Jl. Arcamanik Endah No.20, Sukamiskin, Arcamanik, Bandung.",
+        "en": "The business listing places DEHA at Jl. Arcamanik Endah No.20, Sukamiskin, Arcamanik, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Listing mencantumkan Senin–Jumat 09.00–20.00 serta Sabtu–Minggu 09.00–18.00. Mohon konfirmasi perubahan jadwal.",
+        "en": "Listed hours are Mon–Fri 9 am–8 pm and Sat–Sun 9 am–6 pm. Please confirm any changes."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Listing bisnis mencantumkan Minggu pukul 09.00–18.00. Hubungi klinik sebelum berkunjung.",
+        "en": "Sunday hours are listed as 9 am–6 pm. Please call before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum terverifikasi. Mintalah estimasi setelah menjelaskan kebutuhan perawatan.",
+        "en": "The clinic’s official fees could not be verified. Ask for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan behel atau perawatan anak?",
+        "en": "Are braces or children’s dental services available?"
+      },
+      "a": {
+        "id": "Belum ditemukan daftar layanan resmi yang terverifikasi. Silakan tanyakan langsung kepada petugas.",
+        "en": "We could not verify an official service list. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal dan Layanan",
+    "en": "Ask About Hours & Services"
+  },
+  "pesan_wa_default": "Halo DEHA Dental Clinic, saya ingin menanyakan jadwal kunjungan dan layanan perawatan gigi yang tersedia. Mohon informasinya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu manajemen DEHA Dental Clinic, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi Arcamanik dan jam akhir pekan yang tercantum di listing bisnis. Kami sudah menyiapkan konsep website interaktif untuk klinik Anda, dapat dilihat di https://maxigrowthstudio.com/deha. Jika berkenan, saya terbuka untuk mendengar masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk DEHA Dental Clinic",
+    "email_isi": "Yth. Tim Manajemen DEHA Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi Arcamanik dan jam akhir pekan yang tercantum di listing bisnis dan menyusun konsep website yang menonjolkan informasi kunjungan serta alur komunikasi pasien.\n\nPratinjau konsep: https://maxigrowthstudio.com/deha\n\nProposal PDF terlampir untuk ditinjau. Bila sesuai kebutuhan klinik, saya dengan senang hati berdiskusi lebih lanjut. Tidak ada kewajiban untuk melanjutkan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W642",
+  "hero": {
+    "judul": {
+      "id": "Oklusif Dental Care, Antapani",
+      "en": "Oklusif Dental Care in Antapani"
+    },
+    "sub": {
+      "id": "Informasi perawatan dan kontak klinik untuk merencanakan kunjungan.",
+      "en": "Explore care information and contact the clinic to plan your visit."
+    },
+    "cta": {
+      "id": "Hubungi klinik",
+      "en": "Contact the clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan dengan dokter.",
+        "en": "Discuss your care needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan saat konsultasi.",
+        "en": "Ask about filling options during your consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan untuk kebutuhan pengunyahan.",
+        "en": "Discuss options for your chewing needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian perawatan dan biayanya.",
+        "en": "Ask about suitability and treatment costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan konsultasi",
+      "en": "Prepare your consultation questions"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan gigi palsu atau saluran akar untuk menyiapkan pesan bagi klinik. Ini alat persiapan, bukan diagnosis.",
+      "en": "Select denture or root canal concerns to prepare a message for the clinic. This planning tool does not provide a diagnosis."
+    },
+    "alasan_dipilih": "Usulan fitur sesuai bidang dokter yang tercantum pada profil resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji temu?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Hubungi WhatsApp klinik dan tanyakan jadwal yang tersedia.",
+        "en": "Contact the clinic on WhatsApp to ask about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Klinik berada di Antapani Wetan, Bandung. Minta petunjuk lokasi sebelum berangkat.",
+        "en": "The clinic is in Antapani Wetan, Bandung. Ask for directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Informasi hari buka pada situs berbeda. Konfirmasikan langsung kepada klinik.",
+        "en": "The website lists different opening days. Please confirm directly with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum terverifikasi. Tanyakan rincian biaya sebelum tindakan.",
+        "en": "An official fee list has not been verified. Ask for a cost breakdown before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Sebutkan penyedia dan polis Anda kepada klinik.",
+        "en": "Insurance acceptance has not been verified. Share your provider and policy details with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan",
+    "en": "Ask about appointments and your visit"
+  },
+  "pesan_wa_default": "Halo Oklusif, saya ingin menanyakan jadwal konsultasi dan perkiraan biaya untuk keluhan gigi saya. Mohon informasinya.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Oklusif. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat profil dokter prostodonti dan konservasi gigi pada situs Oklusif. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/oklusif-prosthetic. Bila berkenan, kami ingin mendengar masukan Bapak/Ibu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Oklusif",
+    "email_isi": "Yth. Pengelola Oklusif,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Profil dokter prostodonti dan konservasi gigi Oklusif menjadi dasar konsep informasi layanan yang kami susun.\nKami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/oklusif-prosthetic. Proposal PDF terlampir untuk bahan peninjauan. Kami terbuka terhadap masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
