@@ -1,0 +1,112 @@
+{
+ "kota": "Depok",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-10",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Lya Dental Care",
+   "url": "https://lyadentalcare.com/",
+   "punya_website": true,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJkUbvrPzuaS4RPlI4o5ksLgw",
+   "rating": 5.0,
+   "ulasan": 110,
+   "telepon": "0815-1365-6005",
+   "alamat": "Ruko Griya Cinere 2, Jl. Cinere Raya No.45–47, Limo, Kota Depok, Jawa Barat 16514",
+   "skor_jadul": 0,
+   "masalah": [
+    "Halaman kontak masih menampilkan email placeholder mail@example.com (perlu diperbaiki)."
+   ],
+   "sumber": [
+    "https://lyadentalcare.com/",
+    "https://caribisnis.id/dokter-gigi/depok/cinere/lya-dental-care-cine-imp1"
+   ]
+  },
+  {
+   "nama": "Lume Dental | Dokter Gigi Depok",
+   "url": "https://www.instagram.com/lumedental_/",
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJNRni1JLvaS4RPiMz7DRCaCU",
+   "rating": 5.0,
+   "ulasan": 154,
+   "telepon": "+62 851-4354-8182",
+   "alamat": "Perumahan Casa Grande, Jl. Rawakalong Ruko No.3, Grogol, Kec. Limo, Kota Depok, Jawa Barat 16426, Indonesia",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://indonesiaknowledge.com/directory/dental/depok/lume-dental-dokter-gigi-depok-depok"
+   ]
+  },
+  {
+   "nama": "Praktek Dokter Gigi drg. Putri Linda Sari (d'Dentist - Limo/Meruyung)",
+   "url": "https://linktr.ee/d_dentist",
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJtwv2xtfuaS4R32kV-PweNdM",
+   "rating": 4.9,
+   "ulasan": 197,
+   "telepon": "+62 819-1905-0573",
+   "alamat": "Jl. Meruyung Raya No.70, Meruyung, Kec. Limo, Kota Depok, Jawa Barat 16512, Indonesia",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://linktr.ee/d_dentist"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Lya Dental Care",
+   "rating": 5.0,
+   "ulasan": 110,
+   "sumber": "https://caribisnis.id/dokter-gigi/depok/cinere/lya-dental-care-cine-imp1"
+  },
+  {
+   "nama": "Lume Dental | Dokter Gigi Depok",
+   "rating": 5.0,
+   "ulasan": 154,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/depok/lume-dental-dokter-gigi-depok-depok"
+  },
+  {
+   "nama": "Praktek Dokter Gigi drg. Putri Linda Sari (d’Dentist - Limo/Meruyung)",
+   "rating": 4.9,
+   "ulasan": 197,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJtwv2xtfuaS4R32kV-PweNdM"
+  },
+  {
+   "nama": "Klinik Gigi Teman Dental Limo Cinere",
+   "rating": 5.0,
+   "ulasan": 3662,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJ_3_MIjjvaS4RGshjZ2x6X_c"
+  },
+  {
+   "nama": "Praktek Dokter Gigi Rosi",
+   "rating": 5.0,
+   "ulasan": 96,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJWefU1RDvaS4R8EUApxkMgEk"
+  },
+  {
+   "nama": "Ahli Gigi Terang Dental Cak Topan",
+   "rating": 4.9,
+   "ulasan": 65,
+   "sumber": "https://caribisnis.id/dokter-gigi/depok/limo/ahli-gigi-terang-dental-cak-to-limo-imp1"
+  },
+  {
+   "nama": "Muteki Dental Clinic",
+   "rating": 4.9,
+   "ulasan": 30,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJTbGcMOHuaS4R7-idsZeKDEA"
+  },
+  {
+   "nama": "Praktek drg rara",
+   "rating": 5.0,
+   "ulasan": 16,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=klinik+gigi&query_place_id=ChIJuf0eBwDvaS4RRN4qtkbEaHQ"
+  }
+ ],
+ "catatan": "Teman Dental Limo tidak dimasukkan karena brand/domain sudah ada di KNOWN-KLINIK.txt. Lya Dental Care masuk Limo berdasarkan alamat administratif, walaupun direktori mengategorikannya Cinere.",
+ "area": "depok-limo"
+}
