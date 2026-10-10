@@ -183,5 +183,52 @@
     "https://www.senyumkeluargadentalcare.com/promo",
     "https://www.kiraridentalcare.com/service-page/scaling",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282121600051",
+      "catatan": null
+    },
+    {
+      "path": "maps",
+      "tercatat": "5.0 / 732",
+      "catatan": "URL Maps tidak dapat dibuka; CariBisnis menampilkan 5.0 / 609 (sumber berbeda)."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": "325000-650000",
+      "catatan": null
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": "325000-825000",
+      "catatan": null
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": "315250-780000",
+      "catatan": null
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": "3500000-6000000",
+      "catatan": null
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": "1500000-3900000",
+      "catatan": null
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": "750000-4550000",
+      "catatan": null
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": "12000000-24630000",
+      "catatan": null
+    }
   ]
 }

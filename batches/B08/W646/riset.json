@@ -102,5 +102,22 @@
   "sumber": [
     "https://www.waze.com/live-map/directions/id/jawa-barat/drg-elis-siti-sundari?to=place.ChIJJ6srU77naC4RxEFJ2wRlex0",
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-cibeunying-kidul/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5,
+      "catatan": null
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 82,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "catatan": null
+    }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "diperiksa": 23,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282121600051",
+      "di_sumber": null
+    },
+    {
+      "path": "maps",
+      "tercatat": "5.0 / 732",
+      "di_sumber": "URL Maps tidak dapat dibuka; CariBisnis menampilkan 5.0 / 609 (sumber berbeda)."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": "325000-650000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": "325000-825000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": "315250-780000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": "3500000-6000000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": "1500000-3900000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": "750000-4550000",
+      "di_sumber": null
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": "12000000-24630000",
+      "di_sumber": null
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Seluruh 9 URL sumber dicoba dibuka. Nama/alamat/jam dan 10 layanan cocok dengan CariBisnis. Telepon/angka Maps belum terbukti dari src. Tami gagal dibuka; halaman Alodokter tidak menyediakan nominal terurai. Kisaran harga belum terbukti dengan minimal tiga sumber bernominal per tindakan; bukan tarif TERRA. Kirari scaling mulai 400000; DokterTanya memuat beberapa harga; HDmall memuat harga paket sehingga unit harus dibedakan. Dokter/WA kosong."
+}

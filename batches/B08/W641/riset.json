@@ -169,5 +169,101 @@
     "https://www.senyumkeluargadentalcare.com/promo",
     "https://www.kiraridentalcare.com/service-page/scaling",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "DEHA Dental Clinic",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arcamanik Endah No.20, Sukamiskin, Kec. Arcamanik, Kota Bandung, Jawa Barat 40293",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628112396161",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-20",
+        "sel": "09-20",
+        "rab": "09-20",
+        "kam": "09-20",
+        "jum": "09-20",
+        "sab": "09-18",
+        "min": "09-18"
+      },
+      "catatan": null
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 653,
+        "src": "https://www.google.com/maps/place/?q=place_id:ChIJc8vdR_sbNWoRVfKlu0fdT_4",
+        "tgl": "2026-10-10"
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "min": 325000,
+        "max": 650000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "min": 325000,
+        "max": 825000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "min": 315250,
+        "max": 780000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "min": 3500000,
+        "max": 6000000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "min": 1500000,
+        "max": 3900000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "min": 750000,
+        "max": 4550000
+      },
+      "catatan": null
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "min": 12000000,
+        "max": 24630000
+      },
+      "catatan": null
+    }
   ]
 }

@@ -70,5 +70,32 @@
   "sumber": [
     "https://www.google.com/maps/place/?q=place_id:ChIJDdp0GzDdaC4R4dwHVSyIM68",
     "https://drive.google.com/file/d/196Q_nfNR9mA66edYlKUWAz0GzcJEwkG7/view?usp=drivesdk"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": null
+    }
   ]
 }

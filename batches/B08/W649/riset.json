@@ -78,5 +78,45 @@
   "sumber": [
     "https://kliniksehatibandung.blogspot.com/",
     "https://www.bantuanbpjs.com/daftar-alamat-faskes-rumah-sakit-puskesmas-klinik-dan-apotek-di-kota-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Pratama Sehati",
+      "catatan": null
+    },
+    {
+      "path": "email",
+      "tercatat": "kliniksehati.bandung@gmail.com",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Bumi Mas Kencana Kav O Antapani, Jl. AH. Nasution 928, Kota Bandung 40291",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087772610637",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287772610637",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "08-12,13-17",
+        "sel": "08-12,13-17",
+        "rab": "08-12,13-17",
+        "kam": "08-12,13-17",
+        "jum": "08-12,13-17",
+        "sab": "08-12",
+        "min": "tutup"
+      },
+      "catatan": null
+    }
   ]
 }

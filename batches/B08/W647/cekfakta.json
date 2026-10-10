@@ -1,0 +1,17 @@
+{
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": null
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "di_sumber": null
+    }
+  ],
+  "kritis_ok": true,
+  "catatan": "Ketiga sumber terbuka. Nama sesuai Cybo, blok A-2/Jl Padasuka 55 sesuai Moovit, kelurahan/kecamatan/kode pos dan telepon 0227217318 sesuai AlamatSehat. Alamat lengkap merupakan gabungan dua sumber, bukan seluruhnya tertulis di Moovit. Lima aspek diperiksa: nama/alamat/telepon/jam/dokter; dua terakhir belum tersedia, bukan beda positif. WA/layanan/harga/rating kosong. Bukti kontak direktori lama, status terbaru tidak terkonfirmasi."
+}

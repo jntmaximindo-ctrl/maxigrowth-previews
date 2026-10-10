@@ -73,5 +73,17 @@
     "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-individu-desember-2025.pdf",
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/klinik-gigi-anak-shafira-dental-care?to=place.ChIJPVVrvniLaS4RG1vVk6KewaY",
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-utara/shafira-dental-care-beka-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082125532708",
+      "catatan": "PDF Chubb cocok 082125532708; Waze mencatat 082124854250."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Chandrabaga Blok AO1/03, Grand Pondok Ungu, Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi",
+      "catatan": "PDF cocok; Waze menyebut Jl. Raya Candrabaga RT012/RW003, samping i'm geprek bensu."
+    }
   ]
 }

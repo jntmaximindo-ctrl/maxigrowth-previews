@@ -1,0 +1,22 @@
+{
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5,
+      "di_sumber": null
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 82,
+      "di_sumber": null
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "di_sumber": null
+    }
+  ],
+  "kritis_ok": true,
+  "catatan": "Dua URL dibuka ulang: Waze membuktikan nama/praktik dokter, alamat dan telepon 0819-3245-8873; enam jadwal Senin–Sabtu cocok. Ulastempat gagal 500, sehingga rating/ulasan dan penutupan Minggu belum terbukti dari src. WA null bukan kontak WA terverifikasi. Dokter hanya nama praktik tanpa tambahan gelar. Layanan/harga kosong."
+}

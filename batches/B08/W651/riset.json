@@ -92,5 +92,42 @@
     "https://www.kitalulus.com/company/van-dental-w2gu",
     "https://caribisnis.id/dokter-gigi/jakarta-barat/cengkareng/van-dental-jakarta-barat-ceng-imp1",
     "https://www.calina.id/jelajahi/kota-jakarta-barat/dental-clinic/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082199003525",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282199003525",
+      "catatan": null
+    },
+    {
+      "path": "layanan[5]",
+      "tercatat": "Pembuatan gigi palsu lepasan dan permanen",
+      "catatan": null
+    },
+    {
+      "path": "layanan[6]",
+      "tercatat": "Dental spa",
+      "catatan": null
+    },
+    {
+      "path": "layanan[7]",
+      "tercatat": "Odontectomy (OD)",
+      "catatan": null
+    },
+    {
+      "path": "layanan[8]",
+      "tercatat": "Perawatan saluran akar (PSA)",
+      "catatan": null
+    },
+    {
+      "path": "layanan[9]",
+      "tercatat": "Perawatan gigi anak",
+      "catatan": null
+    }
   ]
 }

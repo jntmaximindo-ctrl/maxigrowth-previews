@@ -79,5 +79,12 @@
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/lany-dental-care?to=place.ChIJoaYBfiyMaS4RBhM7g4yCA0c",
     "https://doktertanya.com/dokter-gigi-bekasi/",
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-timur/lany-dental-care-beka-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. RA Kartini No.7, RT.003/RW.024, Margahayu, Bekasi Timur, Kota Bekasi, Jawa Barat 17113",
+      "catatan": "Waze dan CariBisnis: No.7; DokterTanya: No.48 (depan SPBU Kartini)."
+    }
   ]
 }

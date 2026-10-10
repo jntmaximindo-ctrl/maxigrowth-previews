@@ -1,0 +1,34 @@
+{
+  "diperiksa": 19,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Prima Orchard Apartemen, Ruko C No.1, Jalan Raya Perjuangan, Harapan Baru, Bekasi Utara; dekat Summarecon Bekasi, samping A&W",
+      "di_sumber": "Direktori: Prima Orchard Trade Mall, Jl. Prima Harapan Regency No.2; situs resmi gagal 502."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Setiap hari 09–21",
+      "di_sumber": "Direktori setiap hari 10–21; situs resmi gagal 502."
+    },
+    {
+      "path": "dokter",
+      "tercatat": [
+        "Drg. Laura",
+        "Drg. Bertha",
+        "Drg. MAE",
+        "Drg. GITA",
+        "Drg. DEASSY",
+        "Drg. ALVIA"
+      ],
+      "di_sumber": null
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan gigi anak",
+      "di_sumber": null
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Kedua src dibuka ulang. Situs resmi 502; direktori membuktikan nama dan mencantumkan kawat gigi, bleaching, veneer, tetapi tidak menggantikan bukti resmi. Telepon/WA dalam riset null, tidak dianggap terbukti. Enam dokter tidak dapat diperiksa ulang; harga kosong. Jumlah diperiksa mencakup tujuh jadwal harian dan enam nama dokter yang dicoba diverifikasi."
+}

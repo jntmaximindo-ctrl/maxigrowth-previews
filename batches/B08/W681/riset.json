@@ -72,5 +72,12 @@
     "https://www.waze.com/live-map/directions/id/jawa-barat/dear-dentist-and-orthodontist-bekasi-(klinik-dokter-gigi-umum-and-spesialis)?to=place.ChIJF28JqriLaS4RQG8C1dZKSwI",
     "https://doktertanya.com/dokter-gigi-bekasi/",
     "https://deardentistclinic.com/about-us/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Jl. Boulevard Hijau Raya No.36A, RT.003/RW.030, Pejuang, Medan Satria, Kota Bekasi 17131",
+      "catatan": "Waze cocok No.36A; DokterTanya menyebut No.C1."
+    }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082125532708",
+      "di_sumber": "PDF Chubb cocok 082125532708; Waze mencatat 082124854250."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Chandrabaga Blok AO1/03, Grand Pondok Ungu, Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi",
+      "di_sumber": "PDF cocok; Waze menyebut Jl. Raya Candrabaga RT012/RW003, samping i'm geprek bensu."
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Ketiga src dibuka ulang. Nama dan pencantuman provider Chubb/Admedika Desember 2025 terbukti halaman 305. Alamat serta kontak PDF berbeda dengan Waze sehingga kondisi terkini belum pasti. Jam riset null; Waze hanya menampilkan Senin–Jumat 10–21. WA, dokter, layanan dan tarif riset kosong."
+}

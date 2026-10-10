@@ -211,5 +211,34 @@
   "sumber": [
     "https://vanilladentalcare.com/",
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-utara/vanilla-dental-care-beka-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Prima Orchard Apartemen, Ruko C No.1, Jalan Raya Perjuangan, Harapan Baru, Bekasi Utara; dekat Summarecon Bekasi, samping A&W",
+      "catatan": "Direktori: Prima Orchard Trade Mall, Jl. Prima Harapan Regency No.2; situs resmi gagal 502."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Setiap hari 09–21",
+      "catatan": "Direktori setiap hari 10–21; situs resmi gagal 502."
+    },
+    {
+      "path": "dokter",
+      "tercatat": [
+        "Drg. Laura",
+        "Drg. Bertha",
+        "Drg. MAE",
+        "Drg. GITA",
+        "Drg. DEASSY",
+        "Drg. ALVIA"
+      ],
+      "catatan": null
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan gigi anak",
+      "catatan": null
+    }
   ]
 }

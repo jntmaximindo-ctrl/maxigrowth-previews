@@ -1,0 +1,32 @@
+{
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": null,
+      "di_sumber": null
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "di_sumber": null
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": null,
+      "di_sumber": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "di_sumber": null
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": null
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Dua URL sumber dibuka ulang; Maps gagal, surat tugas Drive terbaca melalui konektor. Surat hanya menyebut Hindia Dental dan angka 5/101, bukan bukti publik. Lima field inti diperiksa kelengkapannya, semuanya null tanpa src; nol fakta klinik positif terverifikasi. Dokter/layanan/harga kosong. Jangan menyamakan dengan HiDent."
+}

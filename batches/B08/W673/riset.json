@@ -80,5 +80,12 @@
     "https://fdcdentalclinic.co.id/lokasi/fdc-bekasi",
     "https://fdcdentalclinic.co.id/artikel/rekomendasi-klinik-dokter-gigi-spesialis-terdekat-buka-setiap-hari",
     "https://idalamat.com/alamat/klinik-gigi-bekasi-fdc-bekasi-kota-1060711"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. KH. Noer Ali No.4, Kayuringin Jaya, Bekasi Selatan, Bekasi 17144",
+      "catatan": "Halaman cabang resmi menyebut No.1–2; artikel resmi dan Idalamat menyebut No.4."
+    }
   ]
 }
