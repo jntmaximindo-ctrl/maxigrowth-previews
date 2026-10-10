@@ -11,7 +11,7 @@ from sheet import svc, read  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 LOG = ROOT / "data" / "intake-log.json"
-HARIAN, PER_BATCH, AKTIF_MAKS = int(os.environ.get("INTAKE_HARIAN", 200)), 10, int(os.environ.get("INTAKE_AKTIF_MAKS", 30))
+HARIAN, PER_BATCH, AKTIF_MAKS = int(os.environ.get("INTAKE_HARIAN", 100000)), 50, int(os.environ.get("INTAKE_AKTIF_MAKS", 100000))  # keputusan pemilik 10 Okt 2026: tanpa batas, limit hanya kuota AI
 AKTIF = {"Riset", "Riset di GPT", "Menunggu cek fakta", "Riset di Codex", "Cek fakta di Codex"}
 
 

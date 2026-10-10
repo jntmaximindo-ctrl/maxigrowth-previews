@@ -359,7 +359,7 @@ jobs:
             git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
             git pull -q --rebase origin main || true
             rm -f /tmp/wa-balik.txt; mkdir -p bus-notes
-            python3 scripts/rakit_template.py --antre 30 2>&1 | tee /tmp/jb-template.txt || echo "rakit template error (lanjut)"
+            python3 scripts/rakit_template.py --antre 200 2>&1 | tee /tmp/jb-template.txt || echo "rakit template error (lanjut)"
             # pelajaran #22: riset tanpa nomor WA → arsipkan file lama di Drive & kirim surat REVISI ke GPT-A
             if [ -s /tmp/wa-balik.txt ]; then
               while read -r key; do

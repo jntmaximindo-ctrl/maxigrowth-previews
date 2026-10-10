@@ -49,14 +49,14 @@ jobs:
           for p in "" atabara; do
             want=$(sha256sum "site-root/${p:+$p/}index.html" | cut -d' ' -f1)
             got=$(curl -fsS "https://maxigrowthstudio.com/${p:+$p/}" | sha256sum | cut -d' ' -f1)
-            [ "$want" = "$got" ] && echo "OK  /$p" || { echo "BEDA /$p"; fail=1; }
+            [ "$want" = "$got" ] && echo "OK  /$p" || { echo "::error::BEDA /$p"; fail=1; }
           done
           for d in dist/*/; do
             s=$(basename "$d"); [ "$s" = "atabara" ] && continue; [ -f "$d/index.html" ] || continue
             c=$(curl -s -o /dev/null -w "%{http_code}" "https://maxigrowthstudio.com/$s/")
-            [ "$c" = "200" ] && echo "OK  /$s/" || { echo "GAGAL /$s/ ($c)"; fail=1; }
+            [ "$c" = "200" ] && echo "OK  /$s/" || { echo "::error::GAGAL /$s/ ($c)"; gagal_prev=1; }
           done
-          if [ $fail -ne 0 ]; then npx -y wrangler@4 rollback --name maxigrowth -y || true; exit 1; fi
+          if [ $fail -ne 0 ]; then npx -y wrangler@4 rollback --name maxigrowth -y || true; exit 1; fi; [ "${gagal_prev:-0}" = 0 ] || exit 1
           echo "$(date -u +%FT%TZ) semua OK" > data/worker-deploy-ok.txt
           cp /tmp/dist-hash.txt data/worker-deploy-hash.txt
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"

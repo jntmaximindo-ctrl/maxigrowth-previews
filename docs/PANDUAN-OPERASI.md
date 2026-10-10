@@ -19,7 +19,9 @@ Sheet antrean → intake (robot) → GPT-A riset → GPT-B cek fakta → rakit d
 - **Claude**: mandor. Merancang, memperbaiki, menerapkan perubahan lewat jembatan Drive, memantau laporan.
 
 ## 4. Keputusan pemilik (jangan diubah tanpa izin)
-- Intake 200 klinik/hari (`HARIAN` di scripts/auto_intake.py), batch 10, aktif maksimal 30 (`AKTIF_MAKS`).
+- TIDAK ADA batas jumlah klinik dibuat atau outreach per hari (keputusan pemilik 10 Okt 2026); batasnya hanya kuota AI. Intake 50 per ambil (`PER_BATCH`), `HARIAN`/`AKTIF_MAKS` praktis tak terbatas.
+- Klinik jaringan besar (mis. FDC, Audy) di-Skip, tidak dikirimi outreach.
+- Teks sesi manual GPT A/B dibuat untuk mode Work (antrean besar sekaligus).
 - Sourcing klinik lewat chat GPT (`data/sourcing-engine.txt` = gpt); Codex tidak dipakai mencari.
 - Kriteria klinik: rating >= 4.5 dan ulasan >= 100. Tanpa website = prioritas tertinggi.
 - Pengiriman WA ke klinik HANYA dengan izin eksplisit pemilik. Robot dan AI tidak pernah menghubungi klinik.
