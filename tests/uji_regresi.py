@@ -384,6 +384,14 @@ def _():
     c.surat(str(d / "s")); assert (d / "s" / "kota-a-area-4_cari.txt").exists()
 
 
+@uji("#27 panduan operasi dan pelajaran ada di repo dan disinkronkan ke Drive tiap run")
+def _():
+    assert (ROOT / "docs" / "PANDUAN-OPERASI.md").read_text().count("Codex") >= 1, "panduan hilang"
+    assert (ROOT / "docs" / "pelajaran.md").exists()
+    wf = (ROOT / ".github" / "workflows" / "orkestrator.yml").read_text()
+    assert "PANDUAN-OPERASI" in wf and 'bus:09 Laporan Robot/$f.md' in wf, "langkah sinkron docs ke Drive hilang"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

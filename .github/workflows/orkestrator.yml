@@ -496,6 +496,7 @@ jobs:
           rclone lsjson "bus:01 Antrean Riset" --files-only > /tmp/jb/gpt_antre.json 2>/dev/null || echo "[]" > /tmp/jb/gpt_antre.json
           python3 scripts/jembatan.py laporan > /dev/null || true
           [ -f /tmp/jb/laporan.md ] && rclone copyto /tmp/jb/laporan.md "bus:09 Laporan Robot/laporan-terakhir.md" || true
+          for f in pelajaran PANDUAN-OPERASI; do [ -f docs/$f.md ] && rclone copyto docs/$f.md "bus:09 Laporan Robot/$f.md" || true; done
       - name: 9b · Eskalasi ke pemilik (hanya hal yang tidak bisa diperbaiki robot/Claude)
         if: always()
         env:
