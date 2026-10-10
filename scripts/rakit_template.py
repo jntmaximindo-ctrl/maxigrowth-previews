@@ -348,6 +348,13 @@ def bangun(job_dir):
     # warna
     h = int(hashlib.md5(nama.encode()).hexdigest(), 16)
     pal = PALET[h % len(PALET)]
+    try:  # pelajaran #43: warna/logo/foto/gaya per klinik, bukan salinan Atabara
+        import desain as _ds
+        DS = _ds.muat(d, riset, konten)
+        pal = _ds.palet(DS) or pal
+    except Exception as e:
+        _ds = None
+        print(f"  desain: gagal muat ({type(e).__name__}: {e})")
 
     CFG = {"T": extra, "KEL": KEL, "TR": TR, "FAQ": FAQ, "CAB": CAB, "tz": TZ.get(str(riset.get("zona_waktu", "WIB")).upper(), 7),
            "band": f"{nama.upper()}   ◆   {kota.upper() or 'KLINIK GIGI'}", "ans": ans}
@@ -389,6 +396,11 @@ def bangun(job_dir):
     sisa = re.findall(r"\{\{[A-Z0-9_]+\}\}", out)
     if sisa:
         raise SystemExit(f"✗ placeholder tersisa: {sisa}")
+    if _ds:
+        try:
+            out = _ds.terapkan(out, DS, logo, nama)
+        except Exception as e:
+            print(f"  desain: gagal ({type(e).__name__}: {e}) -> tampilan dasar")
     (d / "site").mkdir(exist_ok=True)
     (d / "site" / "index.html").write_text(out, encoding="utf-8")
     return out
