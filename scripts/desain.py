@@ -17,16 +17,16 @@ GAYA = {
     # head, body, sig, link google fonts, skala radius, latar
     "elegan": dict(head="Fraunces", body="Manrope", sig="Fraunces",
                    fonts="family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Manrope:wght@400..700",
-                   r=1.0, bg="#f6f4ef", paper="#fbfaf6", campur=0.04),
+                   r=1.0, bg="#f6f4ef", paper="#fbfaf6", campur=0.08),
     "klinis": dict(head="Plus Jakarta Sans", body="Inter", sig="Instrument Serif",
                    fonts="family=Plus+Jakarta+Sans:ital,wght@0,400..800;1,400..800&family=Inter:wght@400..700&family=Instrument+Serif:ital@0;1",
-                   r=0.55, bg="#f3f6f9", paper="#fafcfd", campur=0.03),
+                   r=0.55, bg="#f3f6f9", paper="#fafcfd", campur=0.07),
     "ramah": dict(head="Nunito", body="Nunito Sans", sig="Caveat",
                   fonts="family=Nunito:ital,wght@0,400..900;1,400..900&family=Nunito+Sans:wght@400..800&family=Caveat:wght@500..700",
-                  r=1.3, bg="#f7f6f2", paper="#fcfbf8", campur=0.07),
+                  r=1.3, bg="#f7f6f2", paper="#fcfbf8", campur=0.12),
     "berani": dict(head="Space Grotesk", body="DM Sans", sig="Instrument Serif",
                    fonts="family=Space+Grotesk:wght@400..700&family=DM+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1",
-                   r=0.4, bg="#f4f4f2", paper="#fafaf9", campur=0.03),
+                   r=0.4, bg="#f4f4f2", paper="#fafaf9", campur=0.06),
 }
 FOKUS = ("behel", "anak", "implan", "estetik", "umum", "spesialis", "multi-cabang")
 
@@ -80,10 +80,11 @@ def palet(DS):
     if not a:
         return None
     putih, kertas = (255, 255, 255), (251, 250, 247)
-    if _jenuh(a) < 18 and _lum(a) < 0.05:  # brand hitam/abu gelap -> aksen dari warna kedua bila ada
+    if _jenuh(a) < 18:  # brand hitam/putih/abu -> aksen dari warna kedua; bila tetap tak berwarna pakai palet cadangan (pelajaran #50)
         a2 = _rgb((DS.get("warna") or {}).get("kedua"))
-        if a2 and _jenuh(a2) >= 18:
-            a = a2
+        if not (a2 and _jenuh(a2) >= 18):
+            return None
+        a = a2
     aks = _gelapkan(a, putih, 3.0)
     teks = _gelapkan(a, kertas, 4.8)
     terang = _mix(a, putih, 0.45)
@@ -310,7 +311,9 @@ def css_gaya(g, DS, pal, ink):
          '.stage.has-foto canvas,.stage.has-foto .halo,.stage.has-foto .glow,.stage.has-foto .orbit,.stage.has-foto .fb{display:none!important}',
          '.stage.has-foto .badge{z-index:4}',
          '.stage.has-foto .zap,.stage.has-foto #zap{display:none!important}',  # pelajaran #48: teks permainan gigi 3D ikut disembunyikan bila gigi 3D diganti foto
-         '.rail+section{padding-top:clamp(76px,10vw,128px)!important}']
+         '.rail+section{padding-top:clamp(76px,10vw,128px)!important}',
+         '.hero{background:radial-gradient(120% 90% at 85% 10%,var(--gold-l) 0%,transparent 60%),var(--bg)}' if g != 'berani' else '',
+         '.kicker,.sig{color:var(--gold-t)}.pf .ic,.kids .kic{background:var(--gold-l);color:var(--gold-t)}']
     if g == "klinis":
         c += ['h1,h2{font-weight:750;letter-spacing:-.025em}',
               '.kicker{letter-spacing:.14em}',
@@ -330,7 +333,7 @@ def css_gaya(g, DS, pal, ink):
               '.hero h1,.hero .lead{color:#fff}.hero .lead{opacity:.82}',
               '.hero .btn-dark{background:#fff;color:var(--ink)}',
               '.hero .btn-ghost{color:#fff;border-color:rgba(255,255,255,.35)}',
-              '.hero .tdy{color:var(--ink)}',
+              '.hero .tdy,.hero .proof,.hero .pf{color:var(--ink)}',
               f'.rail{{background:{dua}}}']
     elif g == "elegan":
         c += ['h1,h2{font-weight:560;letter-spacing:-.02em}',
@@ -351,7 +354,7 @@ def terapkan(out, DS, logo_lama=None, nama=""):
             aset = json.loads(cache.read_text())
         except Exception:
             aset = {}
-    for k in ("logo", "foto"):
+    for k in ("logo",):  # pelajaran #50: foto gedung TIDAK dipakai (user: jelek) -> hero tetap maskot gigi 3D
         url = DS.get(k + "_url")
         if url and aset.get(k + "_url") != url:
             aset[k] = gambar(url, k)
@@ -360,7 +363,7 @@ def terapkan(out, DS, logo_lama=None, nama=""):
         cache.write_text(json.dumps(aset))
     except Exception:
         pass
-    logo, foto = aset.get("logo"), aset.get("foto")
+    logo, foto = aset.get("logo"), None  # pelajaran #50: tanpa foto gedung
 
     # warna: brand dari GPT; bila kosong coba dari logo
     pal = palet(DS)
@@ -378,9 +381,8 @@ def terapkan(out, DS, logo_lama=None, nama=""):
     aksen = _rgb(m.group(1)) if m else (122, 92, 153)
 
     # tema dasar: hitam ikut warna brand, latar ikut gaya
-    tinta = _mix(aksen, (13, 14, 16), 0.72 if g == "berani" else 0.86)
-    while _kontras(tinta, (255, 255, 255)) < 12:
-        tinta = _mix(tinta, (8, 9, 10), 0.25)
+    # pelajaran #50: "hitam" template diganti warna brand versi gelap (bukan hampir hitam) supaya tiap klinik berwarna
+    tinta = _gelapkan(aksen, (255, 255, 255), 7.5 if g == "berani" else 9.0)
     ink = _hex(tinta)
     bg = _hex(_mix(_rgb(G["bg"]), aksen, G["campur"]))
     paper = _hex(_mix(_rgb(G["paper"]), aksen, G["campur"] / 2))
@@ -410,6 +412,12 @@ def terapkan(out, DS, logo_lama=None, nama=""):
         alt = nama.replace('"', "")
         out = out.replace('<div class="stage rv" id="stage" aria-hidden="true">',
                           f'<div class="stage rv has-foto" id="stage" aria-hidden="true"><figure class="hfoto"><img src="{foto}" alt=""><figcaption>{alt}</figcaption></figure>', 1)
+
+    # pelajaran #49: jangan tampilkan bagian kosong/placeholder (dokter "drg. ____", kategori perawatan berisi 0)
+    if out.count("drg. ____") >= 3:  # disembunyikan lewat CSS (elemen tetap ada supaya JS template tidak error)
+        out = out.replace("</head>", "<style>section.docs,a[href=\"#dokter\"]{display:none!important}</style></head>", 1)
+    out = out.replace("</body>", """<script>(function(){function b(){document.querySelectorAll('#filt button').forEach(function(e){var n=e.querySelector('.n');if(n&&n.textContent.trim()==='0')e.style.display='none'});document.querySelectorAll('#pl *').forEach(function(e){var t=e.textContent.trim();if(t.length<60&&/\u00b7\\s*0$/.test(t))e.style.display='none'})}var o=new MutationObserver(b);['filt','pl'].forEach(function(i){var e=document.getElementById(i);if(e)o.observe(e,{childList:true,subtree:true})});addEventListener('load',b);setTimeout(b,900)})();</script>
+</body>""", 1)
 
     # urutan bagian sesuai fokus
     out = _urutkan(out, DS, nama)
