@@ -1,0 +1,59 @@
+{
+  "id": "W05",
+  "diperiksa": 17,
+  "beda": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 249000,
+      "di_sumber": 199000,
+      "src": "https://fdcdentalclinic.co.id/layanan/scaling-gigi-pembersihan-karang-gigi",
+      "catatan": "Harga scaling pada halaman resmi yang dibuka Rp199.000, bukan Rp249.000; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[1].min",
+      "tercatat": 449000,
+      "di_sumber": 349000,
+      "src": "https://fdcdentalclinic.co.id/layanan/tambal-gigi",
+      "catatan": "Harga tambal pada halaman yang dibuka Rp349.000, bukan Rp449.000; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": 499000,
+      "di_sumber": 450000,
+      "src": "https://fdcdentalclinic.co.id/layanan/cabut-gigi",
+      "catatan": "Harga cabut pada halaman yang dibuka Rp450.000, bukan Rp499.000; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[4].min",
+      "tercatat": 6999000,
+      "di_sumber": null,
+      "src": "https://fdcdentalclinic.co.id/promo/signature-behel-metal-spesialis",
+      "catatan": "Halaman promo dapat dibuka tetapi tidak memuat angka harga yang dapat diverifikasi; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": 999000,
+      "di_sumber": null,
+      "src": "https://fdcdentalclinic.co.id/layanan/veneer-gigi-memutihkan-gigi",
+      "catatan": "Halaman yang dibuka tidak menampilkan teks harga; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": 999000,
+      "di_sumber": 799000,
+      "src": "https://fdcdentalclinic.co.id/promo/bleaching-super-white",
+      "catatan": "Halaman yang dibuka mencantumkan Rp799.000, bukan Rp999.000. Promonya berlaku 1–19 Maret 2026, bukan Oktober 2026; berlaku juga untuk max."
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/fdc.dentalclinic/",
+      "di_sumber": "https://instagram.com/fdcdentalclinic.official",
+      "src": "https://lynk.id/fdc.dentalclinic",
+      "catatan": "Tautan Instagram pada sumber Lynk mengarah ke akun berbeda dari nilai tercatat; halaman Instagram tujuan tidak dapat diakses untuk pemeriksaan lebih lanjut."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://instagram.com/fdcdentalclinic.official"
+  ],
+  "kritis_ok": true
+}

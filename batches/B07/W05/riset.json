@@ -157,5 +157,42 @@
     "https://fdcdentalclinic.co.id/layanan/veneer-gigi-memutihkan-gigi",
     "https://fdcdentalclinic.co.id/promo/signature-behel-metal-spesialis",
     "https://fdcdentalclinic.co.id/promo/bleaching-super-white"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 249000,
+      "catatan": 199000
+    },
+    {
+      "path": "harga[1].min",
+      "tercatat": 449000,
+      "catatan": 349000
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": 499000,
+      "catatan": 450000
+    },
+    {
+      "path": "harga[4].min",
+      "tercatat": 6999000,
+      "catatan": "Halaman promo dapat dibuka tetapi tidak memuat angka harga yang dapat diverifikasi; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[5].min",
+      "tercatat": 999000,
+      "catatan": "Halaman yang dibuka tidak menampilkan teks harga; berlaku juga untuk max."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": 999000,
+      "catatan": 799000
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/fdc.dentalclinic/",
+      "catatan": "https://instagram.com/fdcdentalclinic.official"
+    }
   ]
 }
