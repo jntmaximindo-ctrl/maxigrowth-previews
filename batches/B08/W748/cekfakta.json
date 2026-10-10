@@ -1,0 +1,17 @@
+{
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "082127081100",
+      "di_sumber": "Nomor contact person Jajat Sudrajat pada profil lama; telepon klinik 0226646978."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Suka Indah 2 No.2B, Komp. Padasuka Indah, Cimahi 40526",
+      "di_sumber": "Profil dan Waze No.2B; SemuaBis menulis No.2."
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Semua tiga sumber dibuka ulang. Nama dan alamat profil cocok, tetapi nomor seluler adalah contact person, bukan telepon klinik; kontak utama riset perlu diperjelas. Jam tetap null karena Waze dan SemuaBis berbeda. WA, dokter, layanan dan harga tidak diketahui."
+}

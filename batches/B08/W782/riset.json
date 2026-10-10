@@ -95,5 +95,12 @@
     "https://linktr.ee/hsdentist",
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/klinik-utama-hs-dentist",
     "https://cdnc.heyzine.com/files/uploaded/v3/a8226e23cb2188a7245e5c3877f5fb6ec0e99a17.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v (kode pos)",
+      "tercatat": "50273",
+      "catatan": null
+    }
   ]
 }

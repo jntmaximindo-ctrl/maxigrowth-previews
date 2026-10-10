@@ -89,5 +89,12 @@
   "sumber": [
     "https://klinikgigikusehat.wixsite.com/klinikgigikusehat/tentang-kami",
     "https://klinikgigikusehat.wixsite.com/klinikgigikusehat/layanan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "02518329300",
+      "catatan": "Header/footer 02518329300; paragraf cabang Bogor mencantumkan 02518177779."
+    }
   ]
 }

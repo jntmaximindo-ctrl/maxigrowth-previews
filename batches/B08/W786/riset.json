@@ -70,5 +70,12 @@
   "sumber": [
     "https://linktr.ee/DentalQueenClinicSurabaya",
     "https://www.jawapos.com/surabaya-raya/2006100011/penuh-risiko-covid-19-jaga-keamanan-pasien-dan-dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v (kelurahan, kecamatan, kode pos)",
+      "tercatat": "Dukuh Kupang, Dukuhpakis, Surabaya 60189",
+      "catatan": null
+    }
   ]
 }

@@ -71,5 +71,12 @@
     "https://linktr.ee/3kdentalcare",
     "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-semarang/",
     "https://www.dentalclinics.care/dental-clinic/3kdc-klinik-gigi-semarang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Singosari Raya No.77A, Pleburan, Semarang Selatan, Semarang 50241",
+      "catatan": "MediaSehat Singosari 77A; DentalClinics.care Ahmad Dahlan No.9, Karangkidul 50136."
+    }
   ]
 }

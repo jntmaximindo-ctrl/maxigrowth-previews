@@ -78,5 +78,17 @@
   "sumber": [
     "https://linktr.ee/smilestorydentalclinic",
     "https://caribisnis.id/dokter-gigi/tangerang/cipondoh/smilestory-dental-clinic-cipo-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "081383770357",
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281383770357",
+      "catatan": null
+    }
   ]
 }

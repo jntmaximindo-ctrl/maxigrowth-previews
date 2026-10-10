@@ -72,5 +72,17 @@
     "https://klinikizzati.weebly.com/profile.html",
     "https://www.waze.com/live-map/directions/id/jawa-barat/klinik-pratama-izzati?to=place.ChIJPUl0s4rkaC4Rmzp8rc5pW3I",
     "https://www.semuabis.com/klinik-pratama-izzati-022-6646978"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "082127081100",
+      "catatan": "Nomor contact person Jajat Sudrajat pada profil lama; telepon klinik 0226646978."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Suka Indah 2 No.2B, Komp. Padasuka Indah, Cimahi 40526",
+      "catatan": "Profil dan Waze No.2B; SemuaBis menulis No.2."
+    }
   ]
 }

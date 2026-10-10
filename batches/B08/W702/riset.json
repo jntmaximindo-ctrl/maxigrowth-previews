@@ -109,5 +109,12 @@
   "sumber": [
     "https://smartdental.co.id/Lokasi/lokasi-dan-jadwal-praktik-smart-dental-bintaro/",
     "https://smartdental.co.id/contact/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat10–19;Sabtu10–18",
+      "catatan": "FAQ cabang cocok; Working Hours pada halaman yang sama menyebut Senin–Jumat09–21;Sabtu09–18."
+    }
   ]
 }
