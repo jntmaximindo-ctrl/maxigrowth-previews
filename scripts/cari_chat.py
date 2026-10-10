@@ -18,6 +18,7 @@ def slug(s):
 
 AREA_STATE = ROOT / "data" / "cari-area-state.json"
 OUTSTANDING_MAKS = 120
+DIPERIKSA_MIN = 6  # hasil CARI wajib mencantumkan kandidat yang diperiksa (bukti kerja); kurang = ditolak, surat tetap terbuka
 
 
 def area_state():
@@ -49,6 +50,7 @@ Tugas kecil: cari klinik gigi / praktik dokter gigi di area ini saja. Kerjakan l
    CARI-{id}_hasil.json.md
    Isi file HANYA JSON ini:
    {{"kota": "{kota}", "negara": "Indonesia", "tanggal": "YYYY-MM-DD", "habis": false, "klinik": [ {{"nama": "...", "url": "...", "punya_website": true, "maps_url": "...", "rating": 4.8, "ulasan": 312, "telepon": "...", "alamat": "...", "skor_jadul": 72, "masalah": ["..."], "sumber": ["..."]}} ]}}
+6. BUKTI KERJA (wajib): di JSON yang sama tambahkan field "diperiksa": daftar SEMUA kandidat yang benar-benar kamu periksa, minimal 6 (termasuk yang TIDAK lolos rating/ulasan), tiap item {{"nama": "...", "rating": 4.6, "ulasan": 210, "sumber": "URL halaman yang kamu buka"}}. Hasil tanpa "diperiksa" minimal 6 item DITOLAK robot dan surat ini harus kamu ulangi. Satu surat yang dikerjakan benar biasanya butuh beberapa menit; jika selesai dalam hitungan detik, kamu melewatkan pemeriksaan.
 Jangan menghubungi klinik. Jangan mengubah/menghapus file lain.
 """
 
@@ -63,6 +65,12 @@ def surat(dest):
         habis = set(json.loads((ROOT / "data" / "sourcing-state.json").read_text()).get("habis", []))
     except Exception:
         pass
+    for line in (ROOT / "data" / "area.txt").read_text(encoding="utf-8").splitlines():  # tulis ulang surat yang belum selesai dengan teks terbaru
+        if "|" in line and not line.strip().startswith("#"):
+            k, _, a = (x.strip() for x in line.partition("|"))
+            s = f"{slug(k)}-{slug(a)}"
+            if s in belum:
+                (dest / f"{s}_cari.txt").write_text(SURAT.format(id=s, kota=k, area=a), encoding="utf-8")
     n = 0
     for line in (ROOT / "data" / "area.txt").read_text(encoding="utf-8").splitlines():
         if n >= kuota:
@@ -101,6 +109,9 @@ def ingest(src):
             d = parse(f.read_text(encoding="utf-8", errors="replace"))
         except Exception as e:
             print(f"❌ {f.name}: {e}")
+            continue
+        if len(d.get("diperiksa") or []) < DIPERIKSA_MIN:
+            print(f"❌ {f.name}: ditolak, 'diperiksa' kurang dari {DIPERIKSA_MIN} (kerja tipis); surat tetap terbuka")
             continue
         if len(d["klinik"]) < 10 and d.get("habis"):  # kota tidak boleh ditandai habis dari hasil tipis (pekerja berhenti cepat)
             d["habis"] = False

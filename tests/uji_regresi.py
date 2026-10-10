@@ -346,7 +346,7 @@ def _():
     d = salin(); m = modul(d, "cari_chat")
     m.ROOT = d; (d / "data").mkdir(exist_ok=True); (d / "data" / "kota.txt").write_text("Bandung | Indonesia\nBogor | Indonesia\n")
     i = d / "in"; i.mkdir()
-    (i / "CARI-bandung-1_hasil.json.md").write_text('```json\n{"kota": "Bandung", "klinik": [{"nama": "X", "rating": 4.8, "ulasan": 150}]}\n```')
+    (i / "CARI-bandung-1_hasil.json.md").write_text('```json\n{"kota": "Bandung", "diperiksa": [1, 2, 3, 4, 5, 6], "klinik": [{"nama": "X", "rating": 4.8, "ulasan": 150}]}\n```')
     (i / "CARI-rusak_hasil.json.md").write_text("bukan json")
     m.ingest(str(i))
     hs = list((d / "sourcing").glob("bandung-*/hasil.json")); assert len(hs) == 1, hs
@@ -364,7 +364,7 @@ def _():
     assert (d / "docs" / "x.txt").read_text() == "a", "file berubah walau perintah gagal"
     c = modul(d, "cari_chat"); c.ROOT = d
     i = d / "in2"; i.mkdir()
-    (i / "CARI-x-1_hasil.json.md").write_text(json.dumps({"kota": "Kotax", "habis": True, "klinik": [{"nama": "A", "rating": 4.8, "ulasan": 150}]}))
+    (i / "CARI-x-1_hasil.json.md").write_text(json.dumps({"kota": "Kotax", "habis": True, "diperiksa": [1, 2, 3, 4, 5, 6], "klinik": [{"nama": "A", "rating": 4.8, "ulasan": 150}]}))
     c.ingest(str(i))
     h = list((d / "sourcing").glob("kotax-*/hasil.json"))[0]
     assert json.loads(h.read_text())["habis"] is False
@@ -377,7 +377,8 @@ def _():
     c.surat(str(d / "s")); assert len(list((d / "s").glob("*_cari.txt"))) == 3
     c.surat(str(d / "s")); assert len(list((d / "s").glob("*_cari.txt"))) == 3, "tidak boleh terbit lagi sebelum ada yang selesai"
     i = d / "in3"; i.mkdir()
-    (i / "CARI-kota-a-area-1_hasil.json.md").write_text(json.dumps({"kota": "Kota A", "klinik": []}))
+    (i / "CARI-kota-a-area-1_hasil.json.md").write_text(json.dumps({"kota": "Kota A", "klinik": [], "diperiksa": [1, 2, 3, 4, 5, 6]}))
+    (i / "CARI-kota-a-area-2_hasil.json.md").write_text(json.dumps({"kota": "Kota A", "klinik": [], "diperiksa": [1]}))  # tipis: harus ditolak, area-2 tetap terbuka
     c.ingest(str(i)); assert pathlib.Path("/tmp/cari-selesai.txt").read_text().strip() == "kota-a-area-1_cari.txt"
     assert json.loads(list((d / "sourcing").glob("kota-a-*/hasil.json"))[0].read_text())["area"] == "kota-a-area-1"
     assert 'not data.get("area")' in (ROOT / "scripts" / "sourcing.py").read_text(), "sourcing.py harus mengabaikan 'kosong' untuk hasil per area"
@@ -390,6 +391,19 @@ def _():
     assert (ROOT / "docs" / "pelajaran.md").exists()
     wf = (ROOT / ".github" / "workflows" / "orkestrator.yml").read_text()
     assert "PANDUAN-OPERASI" in wf and 'bus:09 Laporan Robot/$f.md' in wf, "langkah sinkron docs ke Drive hilang"
+
+
+@uji("#28 hasil CARI tanpa bukti kerja ('diperiksa' >= 6) ditolak dan surat tetap terbuka; surat belum selesai ditulis ulang dengan teks terbaru")
+def _():
+    d = salin(); c = modul(d, "cari_chat"); c.ROOT = d; c.AREA_STATE = d / "data" / "cari-area-state.json"
+    (d / "data" / "area.txt").write_text("Kota B | Area 1\n")
+    c.surat(str(d / "s"))
+    assert "diperiksa" in (d / "s" / "kota-b-area-1_cari.txt").read_text(), "surat tidak menuntut bukti kerja"
+    i = d / "i"; i.mkdir()
+    (i / "CARI-kota-b-area-1_hasil.json.md").write_text(json.dumps({"kota": "Kota B", "klinik": []}))
+    c.ingest(str(i)); assert pathlib.Path("/tmp/cari-selesai.txt").read_text().strip() == "", "hasil tanpa bukti kerja tidak boleh menutup surat"
+    (d / "s" / "kota-b-area-1_cari.txt").write_text("usang")
+    c.surat(str(d / "s")); assert "diperiksa" in (d / "s" / "kota-b-area-1_cari.txt").read_text(), "surat terbuka harus ditulis ulang dengan teks terbaru"
 
 
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
