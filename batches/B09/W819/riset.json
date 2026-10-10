@@ -79,5 +79,17 @@
   "sumber": [
     "https://www.dentalclinics.care/dental-clinic/oris-dental-clinic",
     "https://hellosehat.com/care/rumah-sakit/oris-dental-clinic-2269/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v (jalan, nomor, RT/RW)",
+      "tercatat": "Jl. Urip Sumoharjo No.2 RT.33/RW.14",
+      "catatan": null
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/oris.dentalclinic/",
+      "catatan": null
+    }
   ]
 }

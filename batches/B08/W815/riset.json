@@ -72,5 +72,12 @@
     "https://www.facebook.com/treedentalcare/posts/masih-bingung-pilih-jenis-behel-yang-cocok-konsultasikan-dengan-ahlinya-untuk-so/1116211373617773/",
     "https://mediasehat.id/tempat/11-tempat-praktik-dokter-gigi-di-palembang/",
     "https://doktertanya.com/dokter-gigi-palembang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Kol. Achmad Badaruddin No.9, 24 Ilir, Bukit Kecil, Palembang",
+      "catatan": "DokterTanya sesuai; Waze/MediaSehat Letkol Iskandar No.224."
+    }
   ]
 }

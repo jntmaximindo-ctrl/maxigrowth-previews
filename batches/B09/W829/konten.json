@@ -1,0 +1,152 @@
+{
+  "id": "W829",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi Keluarga di Wonodri",
+      "en": "Family Dental Care in Wonodri"
+    },
+    "sub": {
+      "id": "Temukan informasi layanan gigi untuk dewasa dan anak, serta cara menghubungi MY DENTIST WONODRI.",
+      "en": "Find information on dental care for adults and children, and how to reach MY DENTIST WONODRI."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai pemeriksaan dan rekomendasi dokter.",
+        "en": "Removal of dental tartar based on a dentist’s assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang berdasarkan kondisi gigi saat diperiksa.",
+        "en": "Care for cavities based on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Care"
+      },
+      "ringkas": {
+        "id": "Konsultasi susunan gigi dan perawatan kawat gigi sesuai kebutuhan.",
+        "en": "Consultations about alignment and braces treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Informasi pemeriksaan dan perawatan gigi bagi pasien anak.",
+        "en": "Information on dental checkups and care for children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan evaluasi dan pilihan tindakan untuk masalah saluran akar.",
+        "en": "Ask about assessment and care options for root canal concerns."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Kebutuhan Perawatan Keluarga",
+      "en": "Explore Care for Your Family"
+    },
+    "penjelasan": {
+      "id": "Pilih perawatan dewasa atau anak, lalu lihat pertanyaan yang dapat disiapkan sebelum menghubungi klinik.",
+      "en": "Choose adult or children’s care and review questions to ask before contacting the clinic."
+    },
+    "alasan_dipilih": "Direktori menyebut layanan gigi anak, scaling, dan ortodonti; pemilih kebutuhan membantu pengunjung mencari informasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat MY DENTIST WONODRI?",
+        "en": "Where is MY DENTIST WONODRI?"
+      },
+      "a": {
+        "id": "Jl. Wonodri Sendang Raya No.15E, Wonodri, Semarang Selatan.",
+        "en": "Jl. Wonodri Sendang Raya No.15E, Wonodri, South Semarang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka pada hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu pukul 14.00–18.00. Konfirmasi jadwal terbaru sebelum datang.",
+        "en": "Directory listings show Sunday hours of 2–6 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan untuk anak?",
+        "en": "Is dental care available for children?"
+      },
+      "a": {
+        "id": "Layanan perawatan gigi anak tercantum di direktori. Hubungi klinik untuk pilihan tindakan dan jadwal.",
+        "en": "Children’s dental care is listed in directories. Contact the clinic for available treatments and schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Alodokter menampilkan kisaran Rp300.000–Rp500.000 untuk scaling di klinik ini. Konfirmasi biaya terkini saat membuat janji.",
+        "en": "Alodokter lists IDR 300,000–500,000 for scaling at this clinic. Confirm the current fee when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam jaringan BCA Life. Manfaat dan prosedur klaim bergantung pada polis; konfirmasi ke pihak asuransi dan klinik.",
+        "en": "The clinic appears in BCA Life’s provider network. Coverage and claims depend on your policy; check with the insurer and clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal dokter?",
+        "en": "How can I ask about dentist availability?"
+      },
+      "a": {
+        "id": "Hubungi 0821-2430-0700. Jadwal masing-masing dokter belum terverifikasi.",
+        "en": "Call 0821-2430-0700. Individual dentist schedules have not been verified."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi MY DENTIST WONODRI",
+    "en": "Contact MY DENTIST WONODRI"
+  },
+  "pesan_wa_default": "Halo MY DENTIST WONODRI, saya ingin menanyakan jadwal konsultasi dan biaya perawatan gigi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola MY DENTIST WONODRI. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat klinik melayani perawatan gigi keluarga dan tercatat buka pada hari Minggu. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/my-dentist. Jika berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website MY DENTIST WONODRI",
+    "email_isi": "Yth. Bapak/Ibu Pengelola MY DENTIST WONODRI,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan gigi dewasa dan anak di cabang Wonodri, termasuk jadwal hari Minggu.\n\nKami telah menyiapkan konsep website yang membantu pengunjung menemukan informasi layanan dan menghubungi klinik. Silakan melihat konsepnya di https://maxigrowthstudio.com/my-dentist. Proposal PDF terlampir untuk dipelajari.\n\nApabila berkenan, kami siap menerima koreksi data dan masukan mengenai kebutuhan website.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,85 @@
+{
+ "kota": "Denpasar",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-10",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "CENTRAL Dental Care | Dental Aesthetic | Klinik Gigi",
+   "url": "https://www.centraldentalbali.com/",
+   "punya_website": true,
+   "maps_url": null,
+   "rating": 4.9,
+   "ulasan": 152,
+   "telepon": "0813-3712-0009",
+   "alamat": "Ruko Central Parkir (Istana Kuta Galeria) Blok PM I, Jl. Patih Jelantik No.12, Kuta, Bali 80361",
+   "skor_jadul": 0,
+   "masalah": [
+    "Website resmi tidak berhasil dibuka saat audit; desain, kecepatan dan tombol WhatsApp belum dapat dinilai."
+   ],
+   "sumber": [
+    "https://lokasibali.com/lokasi/central-dental-care-dental-aesthetic-klinik-gigi"
+   ]
+  },
+  {
+   "nama": "Lumina Aesthetics Clinic (Dental Center)",
+   "url": "https://luminaaesthetics.com/",
+   "punya_website": true,
+   "maps_url": null,
+   "rating": 4.9,
+   "ulasan": 1038,
+   "telepon": "+62 8122 8888 837",
+   "alamat": "Jl. Dewi Sri No.88E, Legian, Kuta, Bali 80361",
+   "skor_jadul": 0,
+   "masalah": [
+    "Alamat pada direktori memuat kecamatan yang tidak konsisten dengan kelurahan Legian; perlu verifikasi manual.",
+    "Website resmi gagal diakses dari lingkungan audit sehingga kualitas website belum dapat dinilai.",
+    "Jumlah ulasan mencakup layanan kecantikan dan kedokteran gigi, bukan ulasan layanan gigi saja."
+   ],
+   "sumber": [
+    "https://bestdentistbali.com/clinics/lumina-aesthetics-dental-center",
+    "https://bestdentistbali.com/clinics"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "CENTRAL Dental Care | Dental Aesthetic | Klinik Gigi",
+   "rating": 4.9,
+   "ulasan": 152,
+   "sumber": "https://lokasibali.com/lokasi/central-dental-care-dental-aesthetic-klinik-gigi"
+  },
+  {
+   "nama": "Lumina Aesthetics Clinic (Dental Center)",
+   "rating": 4.9,
+   "ulasan": 1038,
+   "sumber": "https://bestdentistbali.com/clinics/lumina-aesthetics-dental-center"
+  },
+  {
+   "nama": "Cosmodent Dentist Bali",
+   "rating": 4.9,
+   "ulasan": 81,
+   "sumber": "https://bestdentistbali.com/clinics/lumina-aesthetics-dental-center"
+  },
+  {
+   "nama": "D'Square Dental Seminyak",
+   "rating": 4.9,
+   "ulasan": 34,
+   "sumber": "https://bestdentistbali.com/clinics/lumina-aesthetics-dental-center"
+  },
+  {
+   "nama": "CS Dental Clinics Bali - Kuta",
+   "rating": 4.9,
+   "ulasan": 1344,
+   "sumber": "https://bestdentistbali.com/clinics/lumina-aesthetics-dental-center"
+  },
+  {
+   "nama": "Klinik Pratama Raya Kuta (poli gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.klinikrayakuta.com/"
+  }
+ ],
+ "catatan": "CS Dental Kuta tidak dimasukkan karena domain csdental.id ada dalam KNOWN-KLINIK.txt. Cosmodent dan D'Square kurang dari 100 ulasan. Raya Kuta menyediakan poli gigi tetapi halaman resmi tidak menampilkan rating/ulasan. Website resmi CENTRAL Dental dan Lumina tidak berhasil diakses sehingga skor_jadul 0 berarti belum terukur, bukan situs sudah baik.",
+ "area": "denpasar-kuta"
+}
