@@ -1,0 +1,17 @@
+{
+  "diperiksa": 22,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "OK Dental Clinic | Implant Center",
+      "di_sumber": "https://www.okdentalclinic.com/ dan /tentangokdentalclinic menampilkan OK Dental Clinic; tambahan | Implant Center tidak tertulis sebagai nama di sumber riset. Layanan implan memang tersedia."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "di_sumber": "https://www.okdentalclinic.com/ hanya menyebut Senin–Jumat 09–19 dan Sabtu 09–17; jam/status Minggu tidak disebut, sehingga tutup tidak bisa dibuktikan."
+    }
+  ],
+  "kritis_ok": false,
+  "catatan": "Diperiksa 2026-10-10 WIB. Input 20261010-0351_B07-W631_riset.json.md (https://drive.google.com/file/d/1AgejPRRJov_6KYkpRBx_FilAtP3oK-19/view?usp=drivesdk), versi terbaru ber-ID W631 yang ditemukan setelah nama persis tidak ada. Kedua URL sumber riset dibuka ulang; tambahan /perawatan dibuka untuk layanan. Hitungan: nama, email, alamat, telepon (4), jam per hari (7), layanan (8), keunggulan (2), klaim situs lama (1) = 22. Alamat Blok C Jl. Wijaya II No.38 RT.6/RW.1 Pulo Kebayoran Baru Jakarta Selatan 12160 cocok; telepon (021)7201779 dan email okdental02@gmail.com cocok. Situs juga menampilkan 0821 2255 7980, tetapi tidak otomatis membuktikan kanal WhatsApp; wa null tidak diisi. Layanan cocok, termasuk root canal/dentures pada halaman tambahan. Januari 2017 tertulis pada About Us. Semua halaman terbaca; tidak ada src riset gagal dibuka. kritis_ok false karena nama lengkap pada riset tidak sepenuhnya dibuktikan oleh src. Dokter/harga kosong tidak direka. Riset asli tidak diubah."
+}

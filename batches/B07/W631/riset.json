@@ -129,5 +129,17 @@
     "https://www.alodokter.com/cari-rumah-sakit/ok-dental-clinic/scaling-gigi",
     "https://caribisnis.id/dokter-gigi/jakarta-selatan/kebayoran-baru/ok-dental-clinic-implant-cente-keba-imp1",
     "https://calina.id/l/ok-dental-clinic-implant-center-blok-c-jl-wijaya-ii-no38-rt6rw1-pulo-kebayoran-baru-south-jakarta-city-jakarta-12160-d2e150ce/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "OK Dental Clinic | Implant Center",
+      "catatan": "https://www.okdentalclinic.com/ dan /tentangokdentalclinic menampilkan OK Dental Clinic; tambahan | Implant Center tidak tertulis sebagai nama di sumber riset. Layanan implan memang tersedia."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "catatan": "https://www.okdentalclinic.com/ hanya menyebut Senin–Jumat 09–19 dan Sabtu 09–17; jam/status Minggu tidak disebut, sehingga tutup tidak bisa dibuktikan."
+    }
   ]
 }
