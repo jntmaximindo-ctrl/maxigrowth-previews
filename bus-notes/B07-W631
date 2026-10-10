@@ -1,8 +1,109 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B07/W631/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ riset.schema.json → maps/rating: None is not of type 'number'
-✗ riset.schema.json → maps/ulasan: None is not of type 'integer'
-✗ riset.schema.json → maps/src: None is not of type 'string'
-GAGAL (3 masalah)
-
+RISET LAMA:
+{
+  "id": "W631",
+  "nama": {
+    "v": "OK Dental Clinic | Implant Center",
+    "src": "https://www.okdentalclinic.com/",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "kota": "Jakarta Selatan",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": "okdental02@gmail.com",
+    "src": "https://www.okdentalclinic.com/",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "OK Dental Clinic | Implant Center",
+      "alamat": {
+        "v": "Blok C, Jl. Wijaya II No.38, RT.6/RW.1, Pulo, Kebayoran Baru, Jakarta Selatan 12160",
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "(021) 7201779",
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "09-19",
+          "sel": "09-19",
+          "rab": "09-19",
+          "kam": "09-19",
+          "jum": "09-19",
+          "sab": "09-17",
+          "min": "tutup"
+        },
+        "src": "https://www.okdentalclinic.com/",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Veneer",
+    "Implan gigi",
+    "Bleaching",
+    "Behel gigi",
+    "Scaling",
+    "Tambal gigi",
+    "Perawatan saluran akar",
+    "Gigi tiruan"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Website resmi menyebut klinik berdiri pada Januari 2017.",
+    "Memiliki layanan implan dan perawatan gigi estetika."
+  ],
+  "situs_lama": [
+    "Situs resmi memuat klaim hasil perawatan yang perlu ditinjau untuk kepatuhan materi komunikasi klinik."
+  ],
+  "ide_fitur_khas": "Penjelasan interaktif tahapan pemasangan implan dan pilihan pertanyaan konsultasi.",
+  "catatan": "Riset parsial. Fakta tanpa bukti dibuka tidak dinyatakan sebagai kepastian; WA harus diverifikasi sebagai kanal WhatsApp resmi, bukan disimpulkan dari nomor telepon.",
+  "sumber": [
+    "https://www.okdentalclinic.com/",
+    "https://www.okdentalclinic.com/tentangokdentalclinic"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "OK Dental Clinic | Implant Center",
+      "catatan": "OK Dental Clinic"
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "catatan": "Jam Minggu tidak disebutkan; situs hanya mencantumkan Senin–Jumat dan Sabtu"
+    }
+  ]
+}
