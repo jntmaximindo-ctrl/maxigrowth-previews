@@ -73,6 +73,21 @@ def intake(size=10):
     todo = [r for r in recs if r.get("Status", "").strip().lower() == "menunggu" and r.get("ID")]
     todo.sort(key=lambda r: (PRIO.get(r.get("Prioritas", "").strip().lower(), 1), int(r.get("No") or 9999)))
     todo = todo[:size]
+    # pelajaran #39: push intake bisa ditolak (balapan dengan orkestrator) -> Sheet sudah 'Riset' tapi job.json hilang. Pulihkan dulu.
+    yatim = [r for r in recs if r.get("Status", "").strip() == "Riset" and r.get("Batch", "").strip() and r.get("ID")
+             and not (ROOT / "batches" / r["Batch"].strip() / r["ID"] / "job.json").exists()]
+    for r in yatim:
+        b = r["Batch"].strip()
+        d = ROOT / "batches" / b / r["ID"]
+        d.mkdir(parents=True, exist_ok=True)
+        job = {"id": r["ID"], "batch": b, "nama": r["Nama klinik"], "url": r["URL / IG"], "kota": r.get("Kota", ""),
+               "prioritas": r.get("Prioritas", ""), "tingkat": r.get("Tingkat") or "Penuh", "catatan": r.get("Catatan", ""),
+               "maps": {"rating": r.get("Rating"), "ulasan": r.get("Ulasan Google")}, "slug": slugify(r["Nama klinik"])}
+        (d / "job.json").write_text(json.dumps(job, ensure_ascii=False, indent=2))
+        (d / "status.json").write_text(json.dumps({"status": "Riset"}, ensure_ascii=False))
+        print(f"{b}/{r['ID']}\t{r['Nama klinik']}")
+    if yatim and not todo:
+        return
     if not todo:
         print("KOSONG")
         return

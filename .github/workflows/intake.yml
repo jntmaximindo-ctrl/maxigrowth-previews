@@ -43,7 +43,7 @@ jobs:
           cat intake.txt
           grep -q KOSONG intake.txt && exit 0
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
-          git add batches && git commit -m "intake: $(head -1 intake.txt | cut -d/ -f1)" && git push
+          git add batches && git commit -m "intake: $(head -1 intake.txt | cut -d/ -f1)" && for i in 1 2 3 4 5 6; do git pull -q --rebase origin main && git push && break; sleep 8; done
           gh label create riset --color 1f6feb 2>/dev/null || true
           # Catatan: event dari GITHUB_TOKEN tidak memicu workflow lain, kecuali workflow_dispatch.
           # Jadi riset dipanggil langsung lewat `gh workflow run`, bukan lewat label issue.
