@@ -1,0 +1,88 @@
+{
+  "url": "https://maps.google.com/maps?daddr=Jl.+Kota+Mas+Raya+No.63%2C+Cipageran%2C+Kec.+Cimahi+Utara%2C+Kota+Cimahi%2C+Jawa+Barat+40511%2C+Indonesia%2C+Indonesia",
+  "captured": "2026-10-10T06:57:07.039Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.936,
+      "kinds": {
+        "bg": 1,
+        "text": 2
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.055,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.004,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#a9dde9",
+      "share": 0.004,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#d32f28",
+      "share": 0.001,
+      "kinds": {
+        "text": 1
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.001,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Google Symbols",
+    "Roboto",
+    "Google Sans Text",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=33.2766146%2C-112.1874899&zoom=7&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=NWoQEDQnBb1x3FaDCakvZMXoNEw",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#f2f2f2",
+    "#000000"
+  ]
+}
