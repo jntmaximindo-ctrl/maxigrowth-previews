@@ -1,0 +1,132 @@
+{
+  "id": "W822",
+  "hero": {
+    "judul": {
+      "id": "FJ Dental",
+      "en": "FJ Dental"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kunjungan klinik.",
+      "en": "Clinic contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi penambalan",
+        "en": "Filling enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan anak",
+        "en": "Children’s care enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan",
+      "en": "Visit guide"
+    },
+    "penjelasan": {
+      "id": "Usulan: Konfirmasi lokasi Basuki Rachmat dan waktu kunjungan.",
+      "en": "Proposal: Confirm the Basuki Rachmat location and appointment time."
+    },
+    "alasan_dipilih": "Pengunjung perlu informasi kontak dan lokasi serta konfirmasi jadwal sebelum berangkat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik 081297711168. Konfirmasikan identitas klinik saat menghubungi.",
+        "en": "The published number is 081297711168. Confirm the clinic’s identity when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Jend. Basuki Rachmat No.2745 01, Ario Kemuning, Kemuning, Palembang 30151. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Jl. Jend. Basuki Rachmat No.2745 01, Ario Kemuning, Kemuning, Palembang 30151. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta sebelum kunjungan.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya terkini dan cakupan tindakan kepada klinik sebelum perawatan.",
+        "en": "Ask the clinic for current fees and what is included before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke FJ Dental. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola FJ Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi di Jl. Jend. Basuki Rachmat No.2745 01, Ario Kemuning, Kemuning, Palembang 30151. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/fj. Mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website FJ Dental",
+    "email_isi": "Yth. Pengelola FJ Dental,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi di Jl. Jend. Basuki Rachmat No.2745 01, Ario Kemuning, Kemuning, Palembang 30151.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/fj. Proposal PDF terlampir untuk bahan peninjauan. Mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
