@@ -1,0 +1,65 @@
+{
+  "url": "https://wa.me/+6281214444725",
+  "captured": "2026-10-10T06:31:24.612Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#25d366",
+      "share": 0.994,
+      "kinds": {
+        "svg": 3,
+        "bg": 3,
+        "cta": 3
+      }
+    },
+    {
+      "hex": "#00db40",
+      "share": 0.006,
+      "kinds": {
+        "bg": 1
+      }
+    }
+  ],
+  "fonts": [
+    "WhatsApp Sans Var"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.svg",
+      "src": "https://static.whatsapp.net/rsrc.php/yM/r/ys-5GPT4pwS.svg",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.svg",
+      "src": "https://static.whatsapp.net/rsrc.php/yJ/r/twC7frrXavH.svg",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-4.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-5.png",
+      "src": "https://static.whatsapp.net/rsrc.php/v4/yO/r/rukeqTVNJDY.png",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-6.svg",
+      "src": "https://static.whatsapp.net/rsrc.php/y1/r/FJbTMJqMap7.svg",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Share on WhatsApp",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#111b21",
+    "#f0f4f9",
+    "#1c1e21"
+  ]
+}
