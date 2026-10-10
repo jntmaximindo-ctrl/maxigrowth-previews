@@ -1,0 +1,47 @@
+{
+ "kota": "Yogyakarta",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-10",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Klinik Gigi Dentes Gedongkuning",
+   "rating": 5.0,
+   "ulasan": 366,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/yogyakarta"
+  },
+  {
+   "nama": "Klinik Gigi Saqena Dentists",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://eprints.utdi.ac.id/9406/3/3_165610041_BAB_II.pdf"
+  },
+  {
+   "nama": "Klinik Pratama PMI Kota Yogyakarta",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.pmi-yogya.org/"
+  },
+  {
+   "nama": "Klinik Utama Gigi Prima Medika Gedongkuning",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://primamedika.digman.web.id/"
+  },
+  {
+   "nama": "Praktek Dokter Gigi Pipin Ikawati",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-yogyakarta/"
+  },
+  {
+   "nama": "Apotek dan Praktek Dokter Gigi Tazkia Farma",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.pmi-yogya.org/"
+  }
+ ],
+ "catatan": "Dentes Gedongkuning dikecualikan karena domain klinikgigidentes.com sudah tercantum di KNOWN-KLINIK.txt. Lima kandidat lainnya belum memiliki angka rating dan jumlah ulasan yang keduanya terlihat pada halaman sumber yang diperoleh; Tazkia Farma hanya teridentifikasi dari hasil listing, sehingga verifikasi halamannya belum memadai. Tidak ada kandidat baru yang dapat dimasukkan tanpa mengarang.",
+ "area": "yogyakarta-kotagede"
+}
