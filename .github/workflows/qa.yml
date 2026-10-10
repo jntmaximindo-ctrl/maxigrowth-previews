@@ -20,6 +20,7 @@ jobs:
           files=$(git diff --name-only HEAD~1 HEAD -- 'batches/**/site/index.html' || true)
           [ -z "$files" ] && files=$(ls batches/*/*/site/index.html 2>/dev/null)
           for f in $files; do
+            [ -f "$f" ] || continue  # pelajaran #44: site dihapus untuk rakit ulang -> bukan QA gagal
             d=$(dirname $(dirname $f))
             mkdir -p "$d/qa"
             set +e
