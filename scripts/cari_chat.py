@@ -17,7 +17,7 @@ def slug(s):
 
 
 AREA_STATE = ROOT / "data" / "cari-area-state.json"
-OUTSTANDING_MAKS = 24
+OUTSTANDING_MAKS = 60
 
 
 def area_state():
