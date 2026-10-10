@@ -1,0 +1,182 @@
+{
+  "id": "W632",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Pejaten",
+      "en": "Dental Care Information in Pejaten"
+    },
+    "sub": {
+      "id": "Kenali layanan GIGI KITA PEJATEN, cek informasi kunjungan, dan sampaikan pertanyaan sebelum datang.",
+      "en": "Explore services at GIGI KITA PEJATEN, review visit information, and ask questions before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Visit Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Pilihan pengganti gigi yang hilang perlu dinilai berdasarkan kondisi mulut dan kebutuhan Anda.",
+        "en": "Replacement options for missing teeth depend on your oral health and individual needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dilakukan setelah pemeriksaan kondisi gigi dan gusi.",
+        "en": "Dental scaling removes tartar following an assessment of your teeth and gums."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Dokter menilai gigi yang berlubang untuk menentukan apakah penambalan sesuai.",
+        "en": "A dental assessment helps determine whether a filling is suitable for a damaged tooth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Pencabutan dipertimbangkan bila kondisi gigi memang memerlukan tindakan tersebut.",
+        "en": "An extraction may be considered when a clinical assessment shows it is necessary."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Perawatan susunan gigi memerlukan evaluasi dan rencana tindak lanjut yang sesuai.",
+        "en": "Orthodontic treatment begins with an evaluation and an individual care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi permukaan gigi dan pilihan perawatan estetika yang sesuai.",
+        "en": "Discuss the condition of your teeth and whether veneers may be appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal serta pilihan pemutihan gigi yang tersedia.",
+        "en": "Ask about the initial assessment and available whitening options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Implan Gigi",
+        "en": "Dental Implants"
+      },
+      "ringkas": {
+        "id": "Tindakan penggantian gigi memerlukan pemeriksaan menyeluruh sebelum perencanaan.",
+        "en": "Implant treatment requires a detailed examination before planning."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kebutuhan Gigi Tiruan",
+      "en": "Denture Needs Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan atau kebutuhan, catat pertanyaan, lalu siapkan pesan untuk admin. Konfirmasi ketersediaan tindakan dan jadwal terlebih dahulu.",
+      "en": "Select your concern, prepare questions, and draft a message to the clinic. Confirm service availability and opening hours before visiting."
+    },
+    "alasan_dipilih": "Direktori menyebut layanan gigi tiruan dan jam operasional setiap hari; fitur membantu pengunjung menyampaikan kebutuhan tanpa memberikan diagnosis otomatis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi GIGI KITA PEJATEN?",
+        "en": "Where is GIGI KITA PEJATEN located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Condet Pejaten No.7e, Pejaten Barat, Pasar Minggu, Jakarta Selatan. Konfirmasi titik lokasi sebelum berangkat.",
+        "en": "Directory listings show Jl. Condet Pejaten No.7e, Pejaten Barat, Pasar Minggu, South Jakarta. Please confirm the exact location before traveling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jam 08.00–22.00 setiap hari, termasuk Minggu. Mohon konfirmasi jadwal terkini kepada pengelola.",
+        "en": "A directory lists 8 AM–10 PM daily, including Sundays. Please confirm current hours with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much do scaling and fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum terverifikasi. Biaya dapat berbeda sesuai pemeriksaan dan tindakan; mintalah estimasi langsung sebelum membuat janji.",
+        "en": "The clinic’s official fees have not been verified. Costs depend on the examination and treatment; request a quote before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan gigi tiruan?",
+        "en": "Are dentures available?"
+      },
+      "a": {
+        "id": "Layanan gigi tiruan tercantum pada direktori. Silakan tanyakan pilihan dan ketersediaannya kepada pengelola.",
+        "en": "Dentures are listed in a directory. Please ask the clinic about available options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Does the clinic accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Daftar kerja sama asuransi belum dapat diverifikasi langsung. Konfirmasikan polis dan prosedur klaim sebelum berkunjung.",
+        "en": "Insurance arrangements have not been independently verified. Please confirm coverage and claims procedures before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan nomor 0822-4476-6649 dan tautan WhatsApp ke nomor yang sama. Keaktifan serta kepemilikan kanal tersebut perlu dikonfirmasi.",
+        "en": "A directory lists +62 822-4476-6649 and a WhatsApp link to the same number. The account’s activity and ownership still need confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan Pertanyaan untuk Klinik",
+    "en": "Prepare a Question for the Clinic"
+  },
+  "pesan_wa_default": "Halo GIGI KITA PEJATEN, saya ingin menanyakan ketersediaan jadwal kunjungan dan informasi perawatan gigi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola GIGI KITA PEJATEN. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan gigi tiruan dan jam kunjungan klinik di Pejaten. Kami telah menyiapkan konsep website yang memudahkan pasien melihat layanan, lokasi, dan menyusun pertanyaan sebelum menghubungi klinik. Konsepnya dapat dilihat di https://maxigrowthstudio.com/kita-pejaten. Apabila berkenan, kami siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep Website untuk GIGI KITA PEJATEN",
+    "email_isi": "Yth. Bapak/Ibu Pengelola GIGI KITA PEJATEN,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mempelajari informasi publik mengenai layanan gigi tiruan dan jam kunjungan GIGI KITA PEJATEN di Jakarta Selatan.\n\nKami telah menyiapkan konsep website interaktif untuk membantu calon pasien menemukan informasi layanan, lokasi, jadwal, serta menyampaikan pertanyaan awal dengan lebih terstruktur. Konsep tersebut dapat dilihat di https://maxigrowthstudio.com/kita-pejaten.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami memahami bahwa informasi operasional dan kontak perlu ditinjau serta disetujui pihak klinik sebelum ditayangkan.\n\nApabila Bapak/Ibu berkenan, kami terbuka untuk menerima masukan atau menjelaskan konsep secara singkat.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWhatsApp: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

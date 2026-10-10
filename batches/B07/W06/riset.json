@@ -1,0 +1,120 @@
+{
+  "id": "W06",
+  "nama": {
+    "v": "Edental (PT Bangun Senyum Indonesia)",
+    "src": "https://www.edental.id/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/edental.id",
+    "src": "https://www.edental.id/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "EDental Bandung Sarijadi",
+      "alamat": {
+        "v": "Jl. Sarirasa No.2, Sarijadi, Kec. Sukasari, Kota Bandung, Jawa Barat 40151",
+        "src": "https://www.edental.id/lokasi-terdekat/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0812-8836-4747",
+        "src": "https://indonesiaknowledge.com/directory/dental/bandung/dokter-gigi-bandung-edental-bandung",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "tutup",
+          "sel": "10-20",
+          "rab": "10-20",
+          "kam": "10-20",
+          "jum": "10-20",
+          "sab": "10-20",
+          "min": "10-20"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/bandung/dokter-gigi-bandung-edental-bandung",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=EDental+Sarirasa+Bandung"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Behel Metal ColorPop",
+    "Behel USA / American",
+    "Behel Self-Ligating",
+    "Behel Damon",
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Perawatan saluran akar",
+    "Pemeriksaan gigi"
+  ],
+  "harga": [
+    {
+      "perawatan": "Behel Metal ColorPop (harga yang tercantum di beranda, konfirmasi ulang sebelum pemesanan)",
+      "jenis": "resmi_klinik",
+      "min": 2500000,
+      "max": 2500000,
+      "src": "https://www.edental.id/"
+    },
+    {
+      "perawatan": "Scaling (halaman homepage lama; perlu konfirmasi ulang)",
+      "jenis": "resmi_klinik",
+      "min": 350000,
+      "max": 600000,
+      "src": "https://www.edental.id/homepage/"
+    }
+  ],
+  "fasilitas": [
+    "Pembayaran cicilan Indodana",
+    "Cicilan kartu kredit Visa/Mastercard",
+    "Pembayaran cashless melalui Xendit dan PayLater (tercantum untuk jaringan Edental; konfirmasi ketersediaan di cabang Bandung)"
+  ],
+  "asuransi": [],
+  "maps": {
+    "rating": 4.9,
+    "ulasan": 435,
+    "src": "https://indonesiaknowledge.com/directory/dental/bandung/dokter-gigi-bandung-edental-bandung",
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Memiliki cabang Bandung Sarijadi yang tercantum pada situs resmi.",
+    "Jaringan Edental mencantumkan 23 cabang di Indonesia pada situs resmi.",
+    "Menampilkan beberapa jenis perawatan behel termasuk Metal ColorPop dan Damon."
+  ],
+  "situs_lama": [
+    "Beranda memuat kutipan dan cerita pasien, yang tidak dipakai ulang dalam konsep karena ketentuan komunikasi layanan kesehatan.",
+    "Beranda menampilkan materi harga/promosi dan klaim superlatif yang perlu ditinjau ulang agar konten versi baru netral.",
+    "Jam khusus cabang Bandung tidak terlihat pada daftar lokasi resmi; informasi jadwal diambil dari direktori publik dan harus dikonfirmasi."
+  ],
+  "ide_fitur_khas": "Panduan pilihan jenis behel interaktif berdasarkan kebutuhan konsultasi dan pemilihan cabang, tanpa mengklaim rekomendasi medis otomatis.",
+  "catatan": "REVISI: maps.rating dan maps.ulasan memakai angka terverifikasi dari direktori publik (4.9/435), bukan angka surat tugas (4.9/439) yang tidak memiliki URL publik yang dibuka; maps.src terisi. Halaman lokasi resmi mencantumkan Batujajar di Kabupaten Bandung Barat tetapi judulnya salah berulang Bandung Sarijadi; tidak digabung sebagai cabang Kota Bandung. Jam cabang dari direktori (pembaruan 2026-08-06), bukan situs resmi. Harga lama pada /homepage/ bisa berubah; biaya perawatan lain tidak diisi karena belum memenuhi syarat minimal 3 sumber publik Bandung untuk kisaran pasar. Nomor telepon cabang tidak terbukti sebagai nomor WhatsApp. Seluruh sumber adalah halaman yang dibuka atau hasil web yang diperiksa.",
+  "sumber": [
+    "https://www.edental.id/",
+    "https://www.edental.id/lokasi-terdekat/",
+    "https://www.edental.id/homepage/",
+    "https://indonesiaknowledge.com/directory/dental/bandung/dokter-gigi-bandung-edental-bandung",
+    "https://www.waze.com/fil/live-map/directions/id/jawa-barat/dokter-gigi-bandung-edental?to=place.ChIJ_zNrI37naC4RgtJGolyhWUM"
+  ]
+}

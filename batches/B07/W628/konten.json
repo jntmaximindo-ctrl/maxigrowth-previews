@@ -1,0 +1,132 @@
+{
+  "id": "W628",
+  "hero": {
+    "judul": {
+      "id": "Informasi IN Dental Care",
+      "en": "Explore IN Dental Care"
+    },
+    "sub": {
+      "id": "Temukan lokasi dan hubungi admin untuk menanyakan perawatan atau jadwal.",
+      "en": "Find clinic locations and contact the admin to ask about care and appointments."
+    },
+    "cta": {
+      "id": "Hubungi admin",
+      "en": "Contact the admin"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada admin klinik.",
+        "en": "Ask the clinic admin whether this service is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada admin klinik.",
+        "en": "Ask the clinic admin whether this service is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Cavity care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada admin klinik.",
+        "en": "Ask the clinic admin whether this service is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perawatan gigi",
+        "en": "Dental treatment enquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada admin klinik.",
+        "en": "Ask the clinic admin whether this service is available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi",
+      "en": "Choose a location"
+    },
+    "penjelasan": {
+      "id": "Lihat tautan lokasi Muchtar Raya atau Garuda sebelum menghubungi admin.",
+      "en": "Open the Muchtar Raya or Garuda location link before contacting the admin."
+    },
+    "alasan_dipilih": "Linktree menampilkan dua tautan lokasi yang berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal?",
+        "en": "How can I ask about appointment availability?"
+      },
+      "a": {
+        "id": "Silakan hubungi admin melalui tautan WhatsApp untuk memastikan jadwal.",
+        "en": "Please contact the admin via WhatsApp to confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where are the clinic locations?"
+      },
+      "a": {
+        "id": "Tautan lokasi Muchtar Raya dan Garuda tersedia di halaman informasi klinik.",
+        "en": "Location links for Muchtar Raya and Garuda are available on the clinic information page."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Silakan tanyakan biaya langsung kepada admin sebelum berkunjung.",
+        "en": "Please ask the clinic admin about fees before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Silakan konfirmasi layanan yang tersedia kepada admin.",
+        "en": "Please confirm treatment availability with the admin."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi perlu dikonfirmasi langsung kepada admin.",
+        "en": "Please confirm insurance acceptance directly with the admin."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal ke admin",
+    "en": "Ask the admin about appointments"
+  },
+  "pesan_wa_default": "Halo admin IN Dental Care, saya ingin menanyakan jadwal dan layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim IN Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi dua lokasi melalui Linktree klinik. Kami menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/in. Jika berkenan, silakan ditinjau kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk IN Dental Care",
+    "email_isi": "Yth. Tim IN Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat bahwa klinik memiliki tautan lokasi Muchtar Raya dan Garuda pada halaman informasinya. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/in. Proposal PDF kami lampirkan untuk ditinjau oleh tim.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com"
+  }
+}

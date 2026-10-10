@@ -1,0 +1,152 @@
+{
+  "id": "W18",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi Dewasa dan Anak di Bandung",
+      "en": "Dental Care for Adults and Children in Bandung"
+    },
+    "sub": {
+      "id": "Temukan layanan Casadienta dan pilih cabang Surapati, Turangga, atau Wastukencana sesuai rencana kunjungan.",
+      "en": "Explore Casadienta services and choose Surapati, Turangga, or Wastukencana for your visit."
+    },
+    "cta": {
+      "id": "Pilih Cabang",
+      "en": "Choose a Location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi untuk membantu menjaga kebersihan gigi dan gusi.",
+        "en": "Tartar removal to support everyday oral hygiene."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan gigi berlubang berdasarkan hasil pemeriksaan dokter.",
+        "en": "Treatment for cavities based on a dentist’s examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Perawatan susunan gigi dan gigitan; dokter akan menjelaskan pilihan yang sesuai.",
+        "en": "Care for tooth alignment and bite concerns, with options discussed by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Dental SPA",
+        "en": "Dental SPA"
+      },
+      "ringkas": {
+        "id": "Rangkaian pembersihan gigi yang mencakup beberapa tahapan perawatan.",
+        "en": "A multi-step dental cleaning service."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kasakids",
+        "en": "Kasakids Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Layanan gigi anak yang tercantum pada situs Casadienta.",
+        "en": "Children’s dental care listed by Casadienta."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi yang dilakukan bila diperlukan menurut pemeriksaan dokter.",
+        "en": "Treatment of the inside of a tooth when indicated by a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Cabang Bandung",
+      "en": "Choose a Bandung Clinic"
+    },
+    "penjelasan": {
+      "id": "Bandingkan alamat dan jam buka Surapati, Turangga, serta Wastukencana, lalu hubungi klinik untuk konfirmasi jadwal.",
+      "en": "Compare addresses and opening hours for Surapati, Turangga, and Wastukencana, then contact the clinic to confirm an appointment."
+    },
+    "alasan_dipilih": "Casadienta mencantumkan tiga lokasi di Kota Bandung dan layanan Kasakids di situs resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Casadienta di Bandung?",
+        "en": "Where are Casadienta clinics in Bandung?"
+      },
+      "a": {
+        "id": "Situs resmi mencantumkan Surapati, Turangga, dan Wastukencana.",
+        "en": "The official website lists Surapati, Turangga, and Wastukencana."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam buka Casadienta kapan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs resmi mencantumkan Senin–Minggu pukul 09.00–21.00. Konfirmasi sebelum berkunjung.",
+        "en": "The official website lists Monday–Sunday, 9 AM–9 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan gigi anak?",
+        "en": "Is children’s dental care available?"
+      },
+      "a": {
+        "id": "Ya. Situs resmi mencantumkan layanan Kasakids.",
+        "en": "Yes. The official website lists the Kasakids service."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Ya, behel tercantum dalam daftar layanan. Dokter akan menilai kebutuhan perawatan.",
+        "en": "Yes. Braces are listed among the services. A dentist will assess your treatment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya dan asuransi?",
+        "en": "How can I check prices and insurance?"
+      },
+      "a": {
+        "id": "Biaya tindakan dan cakupan asuransi perlu dikonfirmasi langsung kepada cabang yang akan dikunjungi.",
+        "en": "Please confirm treatment prices and insurance acceptance with your chosen branch."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Cabang Pilihan Anda",
+    "en": "Contact Your Preferred Clinic"
+  },
+  "pesan_wa_default": "Halo Casadienta, saya ingin menanyakan jadwal kunjungan dan layanan yang tersedia di cabang Bandung. Mohon informasi pilihan cabang dan jadwalnya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Casadienta Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Casadienta memiliki tiga cabang di Kota Bandung dan layanan Kasakids. Kami sudah menyiapkan konsep website dengan pemilih cabang agar informasi kunjungan lebih mudah ditemukan: https://maxigrowthstudio.com/casadienta. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Casadienta Dental Clinic",
+    "email_isi": "Halo tim Casadienta Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Casadienta memiliki tiga cabang di Kota Bandung serta layanan Kasakids. Kami menyiapkan konsep website dengan pemilih cabang dan informasi layanan agar calon pasien dapat merencanakan kunjungan dengan lebih mudah.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/casadienta. Proposal PDF terlampir sebagai gambaran pendekatan dan ruang lingkup.\n\nSilakan ditinjau kapan saja. Jika relevan, saya siap berdiskusi lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
