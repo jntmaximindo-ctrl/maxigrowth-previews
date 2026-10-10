@@ -153,6 +153,39 @@ def js(*a):
         return []
 
 
+PR_DITUTUP = []
+
+
+def _slot_aktif():
+    try:
+        cfg = json.loads((ROOT / "data" / "codex-pool.json").read_text())
+        return any(x.get("aktif", True) for x in cfg.get("slot", []))
+    except Exception:
+        return True
+
+
+def _tutup_pr(n):
+    r = subprocess.run(["gh", "pr", "close", str(n), "--comment",
+                        "Ditutup otomatis oleh robot: tanpa aktivitas >72 jam, tugas klinik sudah dialihkan (pelajaran #32)."],
+                       capture_output=True, text=True, timeout=60)
+    return r.returncode == 0
+
+
+def pr_basi(p, akhir, now, tutup=None):
+    """Pelajaran #32: PR Codex basi tidak boleh jadi alarm [claude] abadi.
+    >72 jam tanpa aktivitas -> tutup otomatis (klinik sudah dialihkan ke GPT/deadline).
+    6-72 jam saat SEMUA slot Codex nonaktif -> bukan alarm Claude (akar = alarm [manusia] pool)."""
+    judul = p.get("title", "")[:50]
+    if akhir < (now - datetime.timedelta(hours=72)).strftime("%Y-%m-%dT%H:%M:%SZ"):
+        if (tutup or _tutup_pr)(p["number"]):
+            PR_DITUTUP.append(f"#{p['number']}")
+            return []
+        return [("claude", f"PR #{p['number']} basi >72 jam GAGAL ditutup otomatis: {judul}")]
+    if not _slot_aktif():
+        return []
+    return [("claude", f"PR #{p['number']} tanpa aktivitas > 6 jam: {judul}")]
+
+
 def laporan():
     now = datetime.datetime.utcnow()
     wib = (now + datetime.timedelta(hours=7)).strftime("%Y-%m-%d %H:%M WIB")
@@ -202,7 +235,9 @@ def laporan():
     for p in prs:
         akhir = max([c.get("createdAt", "") for c in (p.get("comments") or [])] + [p["createdAt"]])
         if p["headRefName"].startswith("codex/") and akhir < (now - datetime.timedelta(hours=6)).strftime("%Y-%m-%dT%H:%M:%SZ"):
-            alarm.append(("claude", f"PR #{p['number']} tanpa aktivitas > 6 jam: {p['title'][:50]}"))
+            alarm.extend(pr_basi(p, akhir, now))
+    if PR_DITUTUP:
+        L += ["", "## PR basi ditutup otomatis run ini (pelajaran #32)", ", ".join(PR_DITUTUP)]
     pool = sh("python3", str(ROOT / "scripts" / "codex_pool.py"), "status")
     rp = ROOT / "data" / "rapor.md"
     if rp.exists():

@@ -429,6 +429,21 @@ def _():
     jsonschema.validate(r, s)
 
 
+@uji("#32 PR Codex basi: >72 jam ditutup otomatis; 6-72 jam saat semua slot Codex nonaktif bukan alarm [claude]")
+def _():
+    d = salin(); m = modul(d, "jembatan")
+    m.ROOT = d; m.PR_DITUTUP = []
+    p = {"number": 7, "title": "x"}
+    dipanggil = []
+    assert m.pr_basi(p, iso(NOW - datetime.timedelta(hours=100)), NOW, tutup=lambda n: dipanggil.append(n) or True) == [] and dipanggil == [7] and m.PR_DITUTUP == ["#7"]
+    assert m.pr_basi(p, iso(NOW - datetime.timedelta(hours=100)), NOW, tutup=lambda n: False)[0][0] == "claude"
+    assert len(m.pr_basi(p, iso(NOW - datetime.timedelta(hours=10)), NOW, tutup=lambda n: 1 / 0)) == 1, "slot aktif: PR macet tetap alarm"
+    cfg = json.loads((d / "data/codex-pool.json").read_text())
+    for x in cfg["slot"]: x["aktif"] = False
+    (d / "data/codex-pool.json").write_text(json.dumps(cfg))
+    assert m.pr_basi(p, iso(NOW - datetime.timedelta(hours=10)), NOW, tutup=lambda n: 1 / 0) == [], "semua slot nonaktif: bukan alarm claude"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
