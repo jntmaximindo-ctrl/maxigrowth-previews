@@ -1,9 +1,84 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B07/W506/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ riset.schema.json → maps/rating: None is not of type 'number'
-✗ riset.schema.json → maps/ulasan: None is not of type 'integer'
-✗ riset.schema.json → maps/src: None is not of type 'string'
-✗ riset.schema.json → sumber: ['https://bukutelepon.cybo.com/ID-kode-pos/40614_kota-bandung/dokter-gigi'] is too short
-GAGAL (4 masalah)
-
+RISET LAMA:
+{
+  "id": "W506",
+  "nama": {
+    "v": "HDC (Praktek Mandiri drg.Hilma)",
+    "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "HDC (Praktek Mandiri drg.Hilma)",
+      "alamat": {
+        "v": "Jl. Sukamaju No.47, Cipadung Kulon, Panyileukan, Kota Bandung",
+        "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi",
+    "Veneer",
+    "Gigi tiruan"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": 5.0,
+    "ulasan": 390,
+    "src": "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Informasi dokter, harga dan jadwal perawatan belum terstruktur lengkap dalam sumber yang diperiksa."
+  ],
+  "ide_fitur_khas": "Panduan kebutuhan kunjungan dan formulir permintaan jadwal",
+  "catatan": "Riset parsial. Rating dan ulasan adalah snapshot sumber pihak ketiga; nomor seluler tidak dianggap WhatsApp kecuali tautan WA terlihat. Harga tidak dicantumkan tanpa sumber sesuai aturan.",
+  "sumber": [
+    "https://caribisnis.id/dokter-gigi/bandung/cihampelas/hdc-praktek-mandiri-drg-hilma-ciha-imp1",
+    "https://www.google.com/maps/place/?q=place_id:ChIJ6V5tvfPdaC4RFu8KBtCArzc"
+  ]
+}
