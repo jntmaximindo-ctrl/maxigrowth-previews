@@ -1,0 +1,47 @@
+{
+ "kota": "Cirebon",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-10",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Gigiku Dental Clinic",
+   "rating": 4.9,
+   "ulasan": 411,
+   "sumber": "https://poltekkes.web.id/dokter-gigi-cirebon/"
+  },
+  {
+   "nama": "Health Dental Care Cirebon",
+   "rating": 4.9,
+   "ulasan": 19,
+   "sumber": "https://poltekkes.web.id/dokter-gigi-cirebon/"
+  },
+  {
+   "nama": "Drg. Hilda D. Syafei",
+   "rating": 4.6,
+   "ulasan": 16,
+   "sumber": "https://poltekkes.web.id/dokter-gigi-cirebon/"
+  },
+  {
+   "nama": "Drg. Yuliana Z, Sp.Ort",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-cirebon/"
+  },
+  {
+   "nama": "Drg. Nofi Maryanti",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-cirebon/"
+  },
+  {
+   "nama": "Dokter Gigi Ny. Maria Suwardi",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-cirebon/"
+  }
+ ],
+ "catatan": "Gigiku Dental Clinic memiliki angka yang lolos, tetapi tidak dimasukkan karena berpotensi duplikat dengan nama 'Gigiku dental care' dalam KNOWN-KLINIK.txt dan website resminya belum dapat diaudit. Health Dental Care memiliki jumlah ulasan berbeda antar sumber; pada halaman yang berhasil dibuka hanya terlihat 19 ulasan. Kandidat lainnya tidak memiliki angka rating dan ulasan yang dapat diverifikasi dari halaman yang dibuka. Perlu pemeriksaan ulang apabila robot menganggap kedua entitas tersebut berbeda dari daftar known.",
+ "area": "cirebon-kejaksan"
+}

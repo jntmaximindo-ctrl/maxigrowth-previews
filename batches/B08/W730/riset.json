@@ -1,0 +1,249 @@
+{
+  "id": "W730",
+  "nama": {
+    "v": "Seuri Dental Specialist",
+    "src": "https://seuri.id/location",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "kota": "Bogor",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/seuridental/",
+    "src": "https://linktr.ee/seuridental",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": "seuridental@gmail.com",
+    "src": "https://seuri.id/location",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "Seuri Dental Specialist",
+      "alamat": {
+        "v": "Jl. Raya Pajajaran No.28E, Bantarjati, Bogor Utara, Bogor 16153",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "081280089191",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": "6281280089191",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "10-20",
+          "sel": "10-20",
+          "rab": "10-20",
+          "kam": "10-20",
+          "jum": "10-20",
+          "sab": "10-20",
+          "min": "10-20"
+        },
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Marcella Harlan MM, Sp.Ort",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Spesialis Orthodonti",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Seuri Dental Specialist"
+    },
+    {
+      "nama": {
+        "v": "drg. Stanley, Sp. KG",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Spesialis Konservasi",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Seuri Dental Specialist"
+    },
+    {
+      "nama": {
+        "v": "drg. Levina Mulya, Sp.Perio",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Spesialis Periodonti",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Seuri Dental Specialist"
+    },
+    {
+      "nama": {
+        "v": "drg. Josephine Amanda Karnady, Sp.KG",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Spesialis Konservasi",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Seuri Dental Specialist"
+    },
+    {
+      "nama": {
+        "v": "drg. Atikah Mawardhani Putri, Sp.BMM",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Spesialis Bedah Mulut",
+        "src": "https://seuri.id/location",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Seuri Dental Specialist"
+    }
+  ],
+  "layanan": [
+    "Scaling gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Behel",
+    "Bleaching",
+    "Implan gigi"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling — GP/spesialis",
+      "jenis": "resmi_klinik",
+      "min": 550000,
+      "max": 900000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Tambal gigi — GP/spesialis",
+      "jenis": "resmi_klinik",
+      "min": 480000,
+      "max": 1100000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Cabut gigi — GP/spesialis",
+      "jenis": "resmi_klinik",
+      "min": 550000,
+      "max": 2000000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Behel metal self-ligating — SLB Metal (PTK)/Damon Metal, dua rahang",
+      "jenis": "resmi_klinik",
+      "min": 20900000,
+      "max": 25000000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Bleaching — home/office",
+      "jenis": "resmi_klinik",
+      "min": 2200000,
+      "max": 5500000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Veneer — direct/indirect",
+      "jenis": "resmi_klinik",
+      "min": 1100000,
+      "max": 5300000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    },
+    {
+      "perawatan": "Implan — implant tanpa crown",
+      "jenis": "resmi_klinik",
+      "min": 13700000,
+      "max": 18900000,
+      "src": "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+    }
+  ],
+  "fasilitas": [
+    "Akses pasien disabilitas"
+  ],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Website resmi tersedia.",
+    "Dokter Darul Rabil bergelar Sp. KGA tetapi label halaman dokter umum; profil perlu klarifikasi."
+  ],
+  "ide_fitur_khas": "Pemilihan dokter sesuai bidang, jadwal dan rincian biaya tambahan.",
+  "catatan": "Riset parsial. Daftar harga 2026 ditautkan resmi dan halaman 1,3,5,7 diperiksa visual. Nilai ribuan rupiah dikonversi ke rupiah. Biaya alat steril 65–75 ribu di luar perawatan dasar; crown implan 6,3–8,5 juta dan bone graft terpisah. Harga berubah sesuai kasus. Behel metal yang pasti tertulis adalah self-ligating, bukan asumsi paket metal konvensional. Situs mandiri tersedia; catatan surat diperbarui. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim.",
+  "sumber": [
+    "https://seuri.id/location",
+    "https://linktr.ee/seuridental",
+    "https://drive.google.com/file/d/1_YOIvWE3ttn6R6p7k7oYXziV5Wb7V8KQ/view"
+  ]
+}

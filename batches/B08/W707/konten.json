@@ -1,0 +1,132 @@
+{
+  "id": "W707",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor",
+      "en": "Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kunjungan klinik.",
+      "en": "Clinic contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi penambalan",
+        "en": "Filling enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan anak",
+        "en": "Children’s care enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan",
+      "en": "Visit guide"
+    },
+    "penjelasan": {
+      "id": "Usulan: Penanda cabang Sektor VI No.200 agar tidak tertukar dengan Yasmin Dental Permata.",
+      "en": "Proposal: Identify the Sector VI No.200 branch to distinguish it from Yasmin Dental Permata."
+    },
+    "alasan_dipilih": "Pengunjung perlu informasi kontak dan lokasi serta konfirmasi jadwal sebelum berangkat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik 02517537337. Konfirmasikan identitas klinik saat menghubungi.",
+        "en": "The published number is 02517537337. Confirm the clinic’s identity when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Ruko Taman Yasmin Sektor VI No.200, Jl. KH. R. Abdullah Bin Nuh, RT.005/RW.009, Curugmekar, Bogor Barat, Kota Bogor 16113. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Ruko Taman Yasmin Sektor VI No.200, Jl. KH. R. Abdullah Bin Nuh, RT.005/RW.009, Curugmekar, Bogor Barat, Kota Bogor 16113. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta sebelum kunjungan.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya terkini dan cakupan tindakan kepada klinik sebelum perawatan.",
+        "en": "Ask the clinic for current fees and what is included before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan kerja sama asuransi. Konfirmasikan polis, tindakan dan prosedur administrasi kepada klinik.",
+        "en": "Public sources list insurance arrangements. Confirm your policy, procedure and administration requirements with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi kontak dan lokasi publik untuk konsep panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/yasmin-bogor. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor",
+    "email_isi": "Yth. Pengelola Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik untuk usulan panduan kontak, lokasi dan konfirmasi jadwal.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/yasmin-bogor. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

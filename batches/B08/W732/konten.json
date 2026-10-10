@@ -1,0 +1,152 @@
+{
+  "id": "W732",
+  "hero": {
+    "judul": {
+      "id": "Elza Dental Care Klebengan",
+      "en": "Elza Dental Care Klebengan"
+    },
+    "sub": {
+      "id": "Informasi kontak, lokasi dan kunjungan klinik.",
+      "en": "Clinic contact, location and visit information."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask for information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel metal standar",
+        "en": "Standard metal braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi rutin",
+        "en": "Routine dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan kepada klinik. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic about availability and treatment planning. Options depend on an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan",
+      "en": "Visit guide"
+    },
+    "penjelasan": {
+      "id": "Usulan: Pemilihan cabang Klebengan saat menghubungi admin bersama.",
+      "en": "Proposal: Select the Klebengan branch when contacting the shared administrator."
+    },
+    "alasan_dipilih": "Pengunjung perlu informasi kontak dan lokasi serta konfirmasi jadwal sebelum berangkat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Tautan WhatsApp yang dipublikasikan menggunakan 6281228088811. Konfirmasikan identitas klinik dan jadwal.",
+        "en": "The published WhatsApp number is 6281228088811. Confirm the clinic and appointment."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jalan Manggis, Klebengan, RT.8/RW.2, Depok Sleman, Kabupaten Sleman, DIY 55281. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Jalan Manggis, Klebengan, RT.8/RW.2, Depok Sleman, Kabupaten Sleman, DIY 55281. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan dokumen yang diminta sebelum kunjungan.",
+        "en": "Ask about the appointment time and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya terkini dan cakupan tindakan kepada klinik sebelum perawatan.",
+        "en": "Ask the clinic for current fees and what is included before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penerimaan asuransi belum terverifikasi. Tanyakan kepada klinik dengan menyebutkan penyedia dan polis.",
+        "en": "Insurance acceptance has not been verified. Ask the clinic about your provider and policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal kunjungan",
+    "en": "Ask about appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi kunjungan ke Elza Dental Care Klebengan. Mohon informasi jadwal dan alur konsultasi.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Elza Dental Care Klebengan. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi kontak dan lokasi publik untuk konsep panduan kunjungan. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/elza-klebengan. Bila berkenan, mohon masukan dan koreksi informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Elza Dental Care Klebengan",
+    "email_isi": "Yth. Pengelola Elza Dental Care Klebengan,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik untuk usulan panduan kontak, lokasi dan konfirmasi jadwal.\nKami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/elza-klebengan. Proposal PDF terlampir untuk bahan peninjauan. Bila berkenan, mohon masukan dan koreksi informasi klinik.\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
