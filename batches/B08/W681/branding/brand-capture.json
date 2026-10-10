@@ -1,0 +1,81 @@
+{
+  "url": "https://www.google.com/maps/search/?api=1&query=Dear%20Dentist%20%26%20Orthodontist%20Bekasi%20Medan%20Satria",
+  "captured": "2026-10-10T06:40:53.724Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.885,
+      "kinds": {
+        "bg": 3,
+        "text": 7
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.05,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.028,
+      "kinds": {
+        "bg": 5
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.024,
+      "kinds": {
+        "text": 11
+      }
+    },
+    {
+      "hex": "#d32f28",
+      "share": 0.013,
+      "kinds": {
+        "text": 4
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Google Sans",
+    "Roboto"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=37.3293588%2C-121.8871296&zoom=8&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=PZ0uJzsDEY4TsWO5rghZ1RgrmmA",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Dear Dentist & Orthodontist Bekasi (Klinik Dokter Gigi Umum & Spesialis) - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#000000",
+    "#f2f2f2"
+  ]
+}
