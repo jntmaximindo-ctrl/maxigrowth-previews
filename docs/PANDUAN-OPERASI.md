@@ -41,5 +41,11 @@ Claude menaruh `NNN-nama.json` di Drive "08 Perintah Claude (repo)": kunci id, p
 ## 8. Aturan perbaikan diri
 Setiap error = ATURAN + PENJAGA + PELAJARAN: aturan di kode, tes di `tests/uji_regresi.py`, baris di `docs/pelajaran.md`. Sebelum memperbaiki, baca pelajaran.md; kalau gejala sudah ada berarti aturan lamanya kurang kuat. Salinan pelajaran.md dan panduan ini disinkronkan ke Drive "09 Laporan Robot" tiap run.
 
+## 8b. Tugas terjadwal ChatGPT (per jam)
+- Akun jnt9292 (GPT-A): "GPT-A Klinik-Bus" (riset) dan "Klinik-Bus GPT-A Cari Klinik" (surat dari A ke Z, target 15 surat per run).
+- Akun suharti (GPT-B): "Klinik-Bus GPT-B Cek Fakta" dan "Klinik-Bus GPT-B Cari Klinik" (surat dari Z ke A, target 15 surat per run). Satu lagi: "Klinik-RnD Fitur Mingguan".
+- Dibuat 2026-10-10; cek di https://chatgpt.com/scheduled (maks 5 tugas per akun). Kalau teks surat berubah, tugas harus diedit agar sama dengan teks manual.
+- Aturan browser: automasi Chrome HANYA di dua profil: jnt9292 dan suharti. Profil pribadi pemilik (kudakuda) DILARANG disentuh, termasuk lewat sesi terjadwal. Kalau pemilik melihat notifikasi "Claude started debugging this browser" di profil pribadi, itu pelanggaran: hentikan dan perbaiki.
+
 ## 9. Pemantauan
 Fase development: cek laporan tiap ~30 menit. Setelah satu siklus penuh tanpa campur tangan dan 24 jam hijau: tiap 3 jam. Alarm [manusia] hanya untuk hal yang tidak bisa diperbaiki Claude (mis. akun/izin).
