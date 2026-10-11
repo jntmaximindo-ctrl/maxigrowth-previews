@@ -41,6 +41,14 @@ jobs:
           done
           printf '/atabara/*\n  X-Robots-Tag: noindex, nofollow\n' >> public/_headers
           ls public | head -50; du -sh public
+      - uses: actions/cache@v4
+        with: { path: .shots, key: "shots-${{ github.run_id }}", restore-keys: "shots-" }
+      - name: Foto preview untuk email reachout (pelajaran #53)
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
+          python3 scripts/shot_preview.py public
       - name: Deploy worker maxigrowth
         run: npx -y wrangler@4 deploy --name maxigrowth --assets public --compatibility-date 2026-09-24
       - name: Verifikasi (rollback otomatis bila halaman lama berubah / preview tidak live)
