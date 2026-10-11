@@ -11,7 +11,7 @@ tiap klinik tetap beda: gaya & urutan ditebak dari layanan, warna dari palet cad
 
 Uji: python scripts/desain.py <index.html> <desain.json> <keluar.html>
 """
-import base64, hashlib, io, json, pathlib, re, subprocess, sys, urllib.request
+import base64, hashlib, html, io, json, pathlib, re, subprocess, sys, urllib.request
 
 GAYA = {
     # head, body, sig, link google fonts, skala radius, latar
@@ -146,6 +146,12 @@ def muat(d, riset, konten):
     if DS.get("gaya") not in GAYA:
         DS["gaya"] = tebak_gaya(nama, fk)
     DS["_dir"] = str(d)
+    ff = d / "fitur.json"  # pelajaran #52: fitur khas unik per klinik dari GPT-A
+    if ff.exists():
+        try:
+            DS["fitur"] = json.loads(ff.read_text(encoding="utf-8"))
+        except Exception:
+            pass
     return DS
 
 
@@ -341,6 +347,40 @@ def css_gaya(g, DS, pal, ink):
     return "<style id=\"gaya-klinik\">\n" + "\n".join(c) + "\n</style>\n"
 
 
+BISA_SEMBUNYI = {"ansuran": "#ansuran", "semak": "#semak", "journey": "section.journey", "dokter": "section.docs", "rawatan": "#rawatan"}
+
+
+def pasang_fitur(out, DS):
+    """pelajaran #52: tiap klinik punya FITUR KHAS sendiri (seperti klinik awal B00-B06), bukan cuma warna.
+    GPT-A menulis 1 section mandiri <section id="khas">..</section> (CSS & JS sendiri) -> disisipkan setelah hero;
+    bagian template yang tidak cocok untuk klinik itu disembunyikan (bukan dihapus, supaya JS template aman)."""
+    f = DS.get("fitur")
+    if not isinstance(f, dict) or not isinstance(f.get("html"), str):
+        return out
+    h = f["html"].strip()
+    h = re.sub(r"^\s*```(?:html)?\s*|\s*```\s*$", "", h)
+    bahaya = re.search(r"<script[^>]+src=|<link[^>]+href=|<iframe|document\.write|\beval\(|localStorage\.clear", h, re.I)
+    if bahaya or len(h) > 60000 or len(h) < 300:
+        print(f"  fitur: DITOLAK ({'pola terlarang ' + bahaya.group(0) if bahaya else 'ukuran ' + str(len(h))})")
+        return out
+    if 'id="khas"' not in h:
+        h = '<section id="khas" class="khas">' + h + "</section>"
+    wa = str(DS.get("_wa") or "")
+    h = h.replace("{{WA}}", wa).replace("{{NAMA}}", html.escape(str(DS.get("nama") or "")))
+    h = re.sub(r"\{\{[A-Z0-9_]+\}\}", "", h)
+    # JS GPT dibungkus try/catch supaya error di fitur tidak merusak halaman
+    h = re.sub(r"<script>(.*?)</script>", lambda m: "<script>try{(function(){" + m.group(1) + "})()}catch(e){console.warn('khas',e)}</script>", h, flags=re.S)
+    i = out.find("<section")
+    if i < 0:
+        return out
+    out = out[:i] + h + "\n" + out[i:]
+    sem = [BISA_SEMBUNYI[x] for x in (f.get("sembunyikan") or []) if x in BISA_SEMBUNYI]
+    if sem:
+        out = out.replace("</head>", "<style>" + ",".join(sem) + "{display:none!important}</style></head>", 1)
+    print(f"  fitur khas: {f.get('judul', '?')} ({len(h)//1000}k) sembunyikan={','.join(f.get('sembunyikan') or []) or '-'}")
+    return out
+
+
 def terapkan(out, DS, logo_lama=None, nama=""):
     g = DS.get("gaya") if DS.get("gaya") in GAYA else "klinis"
     G = GAYA[g]
@@ -421,6 +461,7 @@ def terapkan(out, DS, logo_lama=None, nama=""):
 
     # urutan bagian sesuai fokus
     out = _urutkan(out, DS, nama)
+    out = pasang_fitur(out, DS)
 
     # css gaya
     gaya_css = css_gaya(g, DS, pal or (m.group(1) if m else "#7a5c99",), ink)
@@ -436,13 +477,25 @@ def masuk(folder, root=None):
     root = pathlib.Path(root or pathlib.Path(__file__).resolve().parents[1])
     kunci = ("logo_url", "foto_url", "warna", "gaya", "fokus", "alasan")
     n_baru = n_ulang = 0
-    for f in sorted(pathlib.Path(folder).glob("DESAIN-hasil-*")):
+    for f in sorted(list(pathlib.Path(folder).glob("DESAIN-hasil-*")) + list(pathlib.Path(folder).glob("FITUR-hasil-*"))):
+        fitur = f.name.startswith("FITUR")
         teks = f.read_text(encoding="utf-8", errors="ignore")
+        if fitur:  # pelajaran #52: format blok (HTML mentah, tanpa JSON supaya tanda kutip tidak rusak)
+            data = []
+            for kepala, isi in re.findall(r"^=== FITUR (.*?)$\n(.*?)^=== AKHIR", teks, re.S | re.M):
+                it = dict(kv.split("=", 1) for kv in [x.strip() for x in kepala.split("|")] if "=" in kv)
+                it = {k.strip(): v.strip() for k, v in it.items()}
+                it["sembunyikan"] = [x.strip() for x in it.get("sembunyikan", "").split(",") if x.strip()]
+                it["html"] = isi.strip()
+                data.append(it)
+            print(f"  {f.name}: {len(data)} blok fitur")
+        else:
+            data = None
         teks = re.sub(r"^\s*```(?:json)?\s*|\s*```\s*$", "", teks.strip())
         teks = teks.replace("\\[", "[").replace("\\]", "]").replace("\\_", "_").replace("\\#", "#").replace("\\&", "&")
         a, b = teks.find("["), teks.rfind("]")
         try:
-            data = json.loads(teks[a:b + 1])
+            data = data if fitur else json.loads(teks[a:b + 1])
         except Exception as e:
             print(f"✗ {f.name}: JSON rusak ({e})")
             continue
@@ -453,11 +506,17 @@ def masuk(folder, root=None):
             if not d.exists():
                 print(f"  {it['id']}: folder {d} tidak ada, dilewati")
                 continue
-            ds = {k: it[k] for k in kunci if it.get(k) not in (None, [], {}, "")}
+            if fitur:  # pelajaran #52
+                if not isinstance(it.get("html"), str):
+                    continue
+                ds = {k: it.get(k) for k in ("judul", "alasan", "sembunyikan", "html")}
+                fj = d / "fitur.json"
+            else:
+                ds = {k: it[k] for k in kunci if it.get(k) not in (None, [], {}, "")}
+                fj = d / "desain.json"
             if isinstance(ds.get("warna"), dict):
                 ds["warna"] = {k: v for k, v in ds["warna"].items() if v}
             ds["nama"] = it.get("nama")
-            fj = d / "desain.json"
             lama = fj.read_text(encoding="utf-8") if fj.exists() else ""
             baru = json.dumps(ds, ensure_ascii=False, indent=1)
             if lama == baru:

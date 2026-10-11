@@ -151,14 +151,14 @@ jobs:
           F="--max-depth 1 --drive-server-side-across-configs -v"
           rclone move root: "bus:02 Hasil Riset" $F --include "B*-W*_riset.json*" --include "B*-W*_konten.json*" || true
           rclone move root: "bus:03 Hasil Cek Fakta" $F --include "B*-W*_cekfakta.json*" || true
-      - name: 2f · Desain klinik dari GPT-A (DESAIN-hasil-*.json.md → batches/*/desain.json, pelajaran #46)
+      - name: 2f · Desain + fitur khas dari GPT-A (DESAIN-hasil-* / FITUR-hasil-* → desain.json / fitur.json, pelajaran #46 #52)
         run: |
           mkdir -p /tmp/desain
-          rclone copy root: /tmp/desain --max-depth 1 --include "DESAIN-hasil-*" --drive-export-formats txt -v || true
+          rclone copy root: /tmp/desain --max-depth 1 --include "DESAIN-hasil-*" --include "FITUR-hasil-*" --drive-export-formats txt -v || true
           ls /tmp/desain | head -50
           python3 scripts/desain.py masuk /tmp/desain || true
           TS=$(date -u +%Y%m%d-%H%M)
-          for f in /tmp/desain/DESAIN-hasil-*; do [ -f "$f" ] || continue; n=$(basename "$f"); rclone moveto "root:$n" "bus:99 Arsip/${TS}_$n" || true; done
+          for f in /tmp/desain/DESAIN-hasil-* /tmp/desain/FITUR-hasil-*; do [ -f "$f" ] || continue; n=$(basename "$f"); rclone moveto "root:$n" "bus:99 Arsip/${TS}_$n" || true; done
       - name: 2 · Bus GPT · Unduh hasil GPT
         if: vars.RISET_ENGINE == 'bus'
         run: |

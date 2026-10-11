@@ -398,6 +398,7 @@ def bangun(job_dir):
         raise SystemExit(f"✗ placeholder tersisa: {sisa}")
     if _ds:
         try:
+            DS["_wa"] = c0["wa"]; DS.setdefault("nama", nama)  # pelajaran #52: nomor WA untuk fitur khas
             out = _ds.terapkan(out, DS, logo, nama)
         except Exception as e:
             print(f"  desain: gagal ({type(e).__name__}: {e}) -> tampilan dasar")
