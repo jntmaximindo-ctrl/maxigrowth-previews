@@ -5,73 +5,98 @@ RISET LAMA:
   "id": "W840",
   "nama": {
     "v": "Dentetic Dental Clinic",
-    "src": "https://indonesiaknowledge.com/directory/dental/medan",
-    "tgl": "2026-10-10",
-    "yakin": "sedang"
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+    "tgl": "2026-10-11",
+    "yakin": "tinggi"
   },
   "kota": "Medan",
   "zona_waktu": "WIB",
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-10",
+    "tgl": "2026-10-11",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-10",
+    "tgl": "2026-10-11",
     "yakin": "rendah"
   },
   "cabang": [
     {
-      "nama": "Dentetic Dental Clinic",
+      "nama": "Dentetic Dental Clinic — Jalan Halat",
       "alamat": {
-        "v": "HMCR+W9C, Jl Halat, Pasar Merah Timur, Medan Kota, Medan",
-        "src": "https://indonesiaknowledge.com/directory/dental/medan",
-        "tgl": "2026-10-10",
+        "v": "HMCR+W9C Dentetic Dental Clinic, Jl. Halat, Pasar Merah Timur, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+        "tgl": "2026-10-11",
         "yakin": "sedang"
       },
       "telepon": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-10",
+        "tgl": "2026-10-11",
         "yakin": "rendah"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-10",
+        "tgl": "2026-10-11",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-10",
-        "yakin": "rendah"
+        "v": {
+          "sen": "09-20",
+          "sel": "09-20",
+          "rab": "09-20",
+          "kam": "09-20",
+          "jum": "09-20",
+          "sab": "09-20",
+          "min": "10-15"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+        "tgl": "2026-10-11",
+        "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dentetic+Dental+Clinic+Jl+Halat+Medan"
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Pemeriksaan gigi",
+    "Scaling / pembersihan karang gigi",
+    "Tambal gigi",
+    "Perawatan saluran akar",
+    "Cabut gigi",
+    "Kawat gigi",
+    "Bleaching"
+  ],
   "harga": [],
   "fasilitas": [
-    "Toilet (direktori)"
+    "Toilet (direktori)",
+    "Janji temu (direktori)"
   ],
   "asuransi": [],
   "maps": {
-    "rating": 5,
+    "rating": 5.0,
     "ulasan": 140,
-    "src": "https://indonesiaknowledge.com/directory/dental/medan",
-    "tgl": "2026-10-10"
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+    "tgl": "2026-10-11"
   },
-  "keunggulan": [],
-  "situs_lama": [],
-  "ide_fitur_khas": "Panduan persiapan kunjungan dan konfirmasi jadwal di Medan.",
-  "catatan": "Riset parsial. Informasi dari direktori adalah snapshot pihak ketiga yang perlu konfirmasi klinik. Nilai yang belum terverifikasi tidak diisi. Harga belum memenuhi tarif resmi atau tiga sumber pasar satu kota. Desain dengan warna null berarti logo belum dapat diperiksa; gaya klinis dan fokus umum hanya usulan sementara. Outreach adalah draf: konsep URL dan lampiran PDF perlu dicek sebelum dikirim. Link IG surat berupa undangan, bukan profil permanen. Deskripsi layanan panjang SmileJet bersifat agregat dan belum diperkuat sumber klinik, tidak digunakan untuk mengklaim tindakan atau fasilitas diagnostik. Rating direktori snapshot bukan Maps live.",
+  "keunggulan": [
+    "Lokasi klinik teridentifikasi di Jalan Halat, Medan Kota.",
+    "Direktori publik menampilkan layanan hari Minggu pukul 10.00–15.00; jam perlu konfirmasi."
+  ],
+  "situs_lama": [
+    "Tautan Instagram yang tersedia pada direktori berupa tautan undangan, bukan profil permanen yang mudah diakses.",
+    "Belum ditemukan situs mandiri klinik dengan nomor kontak dan informasi jadwal dokter yang dapat diverifikasi.",
+    "Nomor WhatsApp/telepon klinik tidak ditampilkan di direktori yang dapat dibuka."
+  ],
+  "ide_fitur_khas": "Panduan kunjungan Jalan Halat: pasien memilih keluhan, membaca langkah persiapan, melihat petunjuk lokasi dan jam yang tercantum, lalu diarahkan untuk mengonfirmasi jadwal melalui kanal kontak setelah nomor resmi diverifikasi.",
+  "catatan": "REVISI: pencarian web, direktori Indonesia Knowledge, SmileJet, Instagram invitation, dan penelusuran kontak Jalan Halat belum menghasilkan nomor telepon/WA Dentetic Dental Clinic yang dapat diverifikasi. Nomor WhatsApp yang muncul pada SmileJet adalah nomor layanan SmileJet di Australia, BUKAN nomor klinik; tidak digunakan. Jangan mencampur dengan Halat Dental Clinic, Sheen Dental Care, atau Medan Dental Specialist Center. Nomor WA tetap v null/src null sesuai aturan. Rating 5.0/140 berasal dari direktori Indonesia Knowledge, sementara SmileJet menampilkan 61 ulasan agregat; tidak boleh disebut angka Maps real-time. Daftar layanan SmileJet merupakan deskripsi agregator yang belum diperkuat sumber klinik, wajib konfirmasi sebelum publikasi. Harga tidak diisi karena tidak ada tarif resmi/3 sumber pasar Medan yang terverifikasi. Nama dokter Laras dari cuplikan ulasan tidak cukup untuk memastikan gelar dan jadwal. Alamat berupa plus code dan nama jalan, nomor bangunan belum ditemukan. URL konsep dan PDF outreach perlu dicek sebelum dikirim.",
   "sumber": [
-    "https://indonesiaknowledge.com/directory/dental/medan",
-    "https://smilejet.app/clinic/dentetic-dental-clinic"
+    "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+    "https://smilejet.app/clinic/dentetic-dental-clinic",
+    "https://indonesiaknowledge.com/directory/dental/medan"
   ]
 }

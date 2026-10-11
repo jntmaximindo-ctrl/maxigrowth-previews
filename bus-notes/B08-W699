@@ -7,7 +7,7 @@ RISET LAMA:
     "v": "Klinik Gigi Cirendeu",
     "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "tgl": "2026-10-11",
-    "yakin": "sedang"
+    "yakin": "tinggi"
   },
   "kota": "Tangerang Selatan",
   "zona_waktu": "WIB",
@@ -30,13 +30,13 @@ RISET LAMA:
         "v": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
         "tgl": "2026-10-11",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "telepon": {
         "v": "02174718597",
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
         "tgl": "2026-10-11",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "wa": {
         "v": null,
@@ -64,12 +64,17 @@ RISET LAMA:
   "dokter": [],
   "layanan": [
     "Pembersihan karang gigi (scaling)",
-    "Penambalan gigi",
-    "Pencabutan gigi",
-    "Perawatan kawat gigi"
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi",
+    "Veneer"
   ],
   "harga": [],
-  "fasilitas": [],
+  "fasilitas": [
+    "Toilet (direktori)",
+    "Janji temu (direktori)",
+    "Parkir (direktori)"
+  ],
   "asuransi": [],
   "maps": {
     "rating": 4.9,
@@ -78,25 +83,27 @@ RISET LAMA:
     "tgl": "2026-10-11"
   },
   "keunggulan": [
-    "Alamat dan nomor telepon kantor konsisten pada beberapa direktori.",
-    "Jam layanan pada direktori menunjukkan buka Senin–Sabtu, tutup Minggu; konfirmasi sebelum datang."
+    "Alamat dan telepon kantor konsisten pada dua direktori publik.",
+    "Jam yang tercantum pada direktori: Senin–Jumat 09.00–20.00 dan Sabtu 09.00–15.00.",
+    "Lokasi di Blok Mekar B2 No.99, Cireundeu."
   ],
   "situs_lama": [
-    "Situs web mandiri dengan daftar dokter, biaya perawatan, dan informasi kontak terverifikasi belum ditemukan dalam pencarian ini."
+    "Situs mandiri klinik dengan halaman kontak, layanan, dokter dan biaya belum ditemukan.",
+    "Tidak ditemukan nomor WhatsApp yang dapat diverifikasi dari kanal klinik.",
+    "Informasi jadwal dokter dan biaya resmi belum tersedia pada direktori yang dibuka."
   ],
-  "ide_fitur_khas": "Petunjuk lokasi Blok Mekar B2 No.99 dengan opsi telepon untuk konfirmasi jadwal.",
-  "catatan": "REVISI: pencarian kanal resmi dan nomor WhatsApp belum menghasilkan nomor WA yang dapat diverifikasi. Nomor 02174718597 adalah telepon kantor, bukan nomor WhatsApp. Tidak dicampurkan dengan Axel Dental, Lya Dental, atau FDC Cirendeu. Nilai rating 4.9 dan 126 ulasan berasal dari CariBisnis; Indonesia Knowledge menampilkan 132 ulasan, sehingga jumlah ulasan dapat berubah dan harus dicek ulang langsung di Maps. Dokter yang hanya disebut dalam ulasan tidak dimasukkan tanpa nama lengkap dan gelar resmi. Layanan dari direktori pihak ketiga dan perlu konfirmasi klinik. Harga tidak diisi karena syarat tiga sumber kisaran pasar kota yang sama tidak terpenuhi. Outreach adalah konsep, jangan dikirim sebelum laman konsep dan lampiran tersedia.",
+  "ide_fitur_khas": "Pemandu kunjungan ke Blok Mekar B2 No.99: pengunjung memilih hari, melihat jam dan petunjuk lokasi, lalu menggunakan tombol telepon kantor untuk konfirmasi janji temu; tombol WhatsApp ditahan hingga nomor resmi diperoleh.",
+  "catatan": "REVISI: penelusuran nama klinik, alamat persis, direktori, serta kombinasi nomor seluler/WhatsApp belum menemukan WA resmi. Nomor 02174718597 adalah telepon kantor, tidak dikonversi menjadi WA. Jangan campur dengan Lya Dental Care Cirendeu (No.88), Dental PresiDENT (No.20), Happy Smile, atau Axel Dental. CariBisnis menampilkan tombol telepon, bukan WA spesifik untuk klinik. Rating 4.9/126 di CariBisnis, Indonesia Knowledge menampilkan 132 ulasan; keduanya snapshot direktori, bukan verifikasi Maps langsung. Nama dokter yang muncul hanya pada cuplikan ulasan tanpa identitas lengkap/gelar sehingga dokter kosong. Layanan dari direktori dan perlu konfirmasi; daftar asuransi generik CariBisnis tidak dipakai sebagai kepastian. Harga resmi dan tiga sumber kisaran pasar Tangerang Selatan tidak tersedia. URL konsep dan PDF outreach perlu dicek sebelum dikirim.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1",
-    "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
-    "https://www.google.com/maps/search/?api=1&query=Klinik+Gigi+Cirendeu+Ciputat+Timur"
+    "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/"
   ],
   "verifikasi_manual": [
     {
       "path": "maps.ulasan",
-      "tercatat": 126,
-      "catatan": "Indonesia Knowledge menampilkan 132 ulasan, sementara CariBisnis yang menjadi src nilai riset menampilkan 126 ulasan."
+      "tercatat": "126",
+      "catatan": "Indonesia Knowledge mencantumkan 132 ulasan, sementara CariBisnis (src riset untuk maps.ulasan) mencantumkan 126."
     }
   ]
 }
