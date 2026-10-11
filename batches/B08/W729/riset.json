@@ -95,9 +95,14 @@
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].telepon.v",
+      "path": "cabang[0].telepon",
       "tercatat": "02518329300",
-      "catatan": "Header/footer 02518329300; paragraf cabang Bogor mencantumkan 02518177779."
+      "catatan": "Paragraf khusus cabang Bogor mencantumkan (0251) 817 777 9, sementara header dan footer situs yang sama mencantumkan (0251) 832 9300."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "17-21",
+      "catatan": "SemuaBis mencantumkan Minggu 09.00–21.00; situs klinik secara khusus mencantumkan Minggu 17.00–21.00 untuk Bogor."
     }
   ]
 }

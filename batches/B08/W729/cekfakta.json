@@ -1,0 +1,22 @@
+{
+  "id": "W729",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "02518329300",
+      "di_sumber": "Paragraf khusus cabang Bogor mencantumkan (0251) 817 777 9, sementara header dan footer situs yang sama mencantumkan (0251) 832 9300.",
+      "src": "https://klinikgigikusehat.wixsite.com/klinikgigikusehat/tentang-kami",
+      "catatan": "Dua nomor berbeda pada satu situs; nomor riset cocok dengan header/footer, perlu konfirmasi aktual."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "17-21",
+      "di_sumber": "SemuaBis mencantumkan Minggu 09.00–21.00; situs klinik secara khusus mencantumkan Minggu 17.00–21.00 untuk Bogor.",
+      "src": "https://www.semuabis.com/klinik-gigiku-sehat_9T-0251-8329300",
+      "catatan": "Perbedaan antar-sumber; riset mengikuti sumber utama."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

@@ -538,5 +538,22 @@
     "https://www.molars.id/",
     "https://www.molars.id/contact",
     "https://www.molars.id/doctor"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281214831730",
+      "catatan": "Teks nomor cabang memang tercantum, tetapi tombol WhatsApp cabang mengarah ke nomor CS 6281238005910, bukan nomor yang tertulis di riset."
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6281322512631",
+      "catatan": "Teks nomor cabang memang tercantum, tetapi tombol WhatsApp cabang mengarah ke nomor CS 6281238005910, bukan nomor yang tertulis di riset."
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "6281320088880",
+      "catatan": "Teks nomor cabang memang tercantum, tetapi tombol WhatsApp cabang mengarah ke nomor CS 6281238005910, bukan nomor yang tertulis di riset."
+    }
   ]
 }

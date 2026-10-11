@@ -1,0 +1,27 @@
+{
+  "id": "W837",
+  "diperiksa": 24,
+  "beda": [
+    {
+      "path": "maps.src",
+      "tercatat": "https://drive.google.com/file/d/1U4XGJSwvbTiuux3dy1R0nf8KxLwSsd-b/view",
+      "di_sumber": "Dokumen ini adalah surat tugas B09/W837 yang mencantumkan rating 5 dan 182 ulasan, bukan halaman Google Maps; nilai rating/ulasan tidak terverifikasi independen.",
+      "src": "https://drive.google.com/file/d/1U4XGJSwvbTiuux3dy1R0nf8KxLwSsd-b/view",
+      "catatan": "Bukan bukti Google Maps langsung."
+    },
+    {
+      "path": "harga[0].min",
+      "tercatat": "150000",
+      "di_sumber": "Biaya scaling mulai Rp144.000 (TelkoMedika Medan), di bawah minimum kisaran pasar Rp150.000 yang dicatat.",
+      "src": "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
+      "catatan": "Rentang agregat tidak mencakup salah satu sampel yang dikutip."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://vymaps.com/ID/Drg-Karfrida-Ginting-Smile-Up-Dental-Care-84524/",
+    "https://www.instagram.com/drg.karfrida/",
+    "https://www.alodokter.com/cari-rumah-sakit/rumah-sakit-siloam-dhirga-surya/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rumah-sakit-siloam-dhirga-surya/tambal-gigi"
+  ],
+  "kritis_ok": true
+}

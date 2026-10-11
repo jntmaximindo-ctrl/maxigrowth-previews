@@ -1,0 +1,25 @@
+{
+  "id": "W823",
+  "diperiksa": 24,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087897878789",
+      "di_sumber": "Halaman BCA Life mencantumkan 087897878799, berbeda satu digit dari nomor VYMaps dan pdberger yang menjadi sumber riset.",
+      "src": "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/drg-dedi-christianto-dental-health-care--dhc",
+      "catatan": "Nomor riset cocok dengan URL src aslinya, tetapi sumber rekanan BCA Life berbeda; verifikasi manual diperlukan sebelum digunakan."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "10-16",
+      "di_sumber": "VYMaps menyebut Sunday Closed; sumber utama DentalClinics.care menyebut Minggu 10:00–16:00.",
+      "src": "https://vymaps.com/ID/DHC--Dental-Health-Care-762932/",
+      "catatan": "Konflik antar-direktori, bukan salah kutip dari src asli."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/dentalhealthcare.plg/",
+    "https://palembang.doktergigi.net/tarif-dokter-gigi-palembang-panduan-lengkap-dan-tips-memilih-klinik-terbaik/"
+  ],
+  "kritis_ok": true
+}

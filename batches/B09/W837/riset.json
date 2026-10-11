@@ -157,5 +157,17 @@
     "https://www.alodokter.com/cari-rumah-sakit/columbia-asia-hospital-aksara/tambal-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rumah-sakit-siloam-dhirga-surya/tambal-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-royal-maternity/tambal-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.src",
+      "tercatat": "https://drive.google.com/file/d/1U4XGJSwvbTiuux3dy1R0nf8KxLwSsd-b/view",
+      "catatan": "Dokumen ini adalah surat tugas B09/W837 yang mencantumkan rating 5 dan 182 ulasan, bukan halaman Google Maps; nilai rating/ulasan tidak terverifikasi independen."
+    },
+    {
+      "path": "harga[0].min",
+      "tercatat": "150000",
+      "catatan": "Biaya scaling mulai Rp144.000 (TelkoMedika Medan), di bawah minimum kisaran pasar Rp150.000 yang dicatat."
+    }
   ]
 }

@@ -135,5 +135,12 @@
   "sumber": [
     "https://tivaza.co.id/our-clinic/",
     "https://tivaza.co.id/gigi-palsu-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "null",
+      "catatan": "Our Clinic: Senin–Jumat 10.00–20.00, Sabtu 10.00–17.00; artikel Gigi Palsu: Senin–Jumat 09.00–21.00, Sabtu 09.00–18.00, Minggu 10.00–15.00."
+    }
   ]
 }

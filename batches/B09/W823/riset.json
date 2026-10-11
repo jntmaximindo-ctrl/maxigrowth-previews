@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/drg-dedi-christianto-dental-health-care--dhc",
     "https://vymaps.com/ID/DHC--Dental-Health-Care-762932/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087897878789",
+      "catatan": "Halaman BCA Life mencantumkan 087897878799, berbeda satu digit dari nomor VYMaps dan pdberger yang menjadi sumber riset."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "10-16",
+      "catatan": "VYMaps menyebut Sunday Closed; sumber utama DentalClinics.care menyebut Minggu 10:00–16:00."
+    }
   ]
 }
