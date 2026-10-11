@@ -71,9 +71,16 @@ RISET LAMA:
     "Situs mandiri dengan kontak, layanan, dokter dan tarif belum ditemukan terverifikasi."
   ],
   "ide_fitur_khas": "Penanda cabang Sektor VI No.200 agar tidak tertukar dengan Yasmin Dental Permata.",
-  "catatan": "Riset parsial. Telepon kantor provider resmi. Waze juga0811184619, belum konfirmasi kanal klinik danWA sehingga wa null. WazeSenSab08-20/Minggutidaktertera. Tidak mencampur dengan SATU/Teman/Sozo Yasmin atau Yasmin Dental Permata. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim.",
+  "catatan": "Riset parsial. Telepon kantor provider resmi. Waze juga0811184619, belum konfirmasi kanal klinik danWA sehingga wa null. WazeSenSab08-20/Minggutidaktertera. Tidak mencampur dengan SATU/Teman/Sozo Yasmin atau Yasmin Dental Permata. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim. Pencarian ulang belum menemukan WA resmi khusus cabang No.200; nomor layanan klinik lain bernama Yasmin tidak diadopsi.",
   "sumber": [
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/klinik-pratama-yasmin-dental",
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/yasmin-dental?to=place.ChIJ-dNkPonEaS4RDNbSQB3XHLY"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Klinik Gigi Yasmin Dental (Ruko Taman Yasmin Sektor VI) Bogor",
+      "catatan": "KLINIK PRATAMA YASMIN DENTAL"
+    }
   ]
 }
