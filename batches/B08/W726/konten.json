@@ -1,0 +1,132 @@
+{
+  "id": "W726",
+  "hero": {
+    "judul": {
+      "id": "ARDE Dental Clinic Bogor",
+      "en": "ARDE Dental Clinic Bogor"
+    },
+    "sub": {
+      "id": "Temukan informasi dua lokasi ARDE di Bogor dan rencanakan kunjungan Anda.",
+      "en": "Explore ARDE’s two Bogor locations and plan your visit."
+    },
+    "cta": {
+      "id": "Pilih lokasi klinik",
+      "en": "Choose a clinic location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan jadwal pemeriksaan.",
+        "en": "Ask about scaling appointments and available times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan opsi perawatan saat konsultasi.",
+        "en": "Discuss tooth decay concerns and possible treatments during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan jadwal layanan kawat gigi.",
+        "en": "Ask about initial assessments and orthodontic appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan dokter dan tindakan sebelum membuat janji.",
+        "en": "Confirm clinician and procedure availability before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih cabang ARDE",
+      "en": "Choose your ARDE location"
+    },
+    "penjelasan": {
+      "id": "Bandingkan alamat dan jam operasional yang tercatat untuk Jl. Salak dan Royal Heights. Jadwal akhir perlu konfirmasi ke klinik.",
+      "en": "Compare listed addresses and opening hours for Jl. Salak and Royal Heights. Please confirm current schedules with the clinic."
+    },
+    "alasan_dipilih": "RATA mencantumkan dua cabang dengan jam operasional yang berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "ARDE Dental Clinic ada di mana saja?",
+        "en": "Where are ARDE Dental Clinic locations?"
+      },
+      "a": {
+        "id": "Lokasi yang tercatat adalah Jl. Salak No.6, Bogor Tengah, dan Royal Heights Apartment, Muarasari, Bogor Selatan.",
+        "en": "The listed locations are Jl. Salak No.6 in Central Bogor and Royal Heights Apartment in Muarasari, South Bogor."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah kedua cabang memiliki jam yang sama?",
+        "en": "Do both locations have the same hours?"
+      },
+      "a": {
+        "id": "Jam yang tercantum pada sumber mitra berbeda. Hubungi klinik untuk memastikan jam praktik saat ini.",
+        "en": "The partner listing shows different hours. Contact the clinic to confirm current opening times."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Nomor kontak yang tercatat untuk ARDE adalah 08111109944. Konfirmasi cabang dan jadwal sebelum berkunjung.",
+        "en": "The listed ARDE contact number is 08111109944. Confirm the location and appointment time before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Is orthodontic treatment available?"
+      },
+      "a": {
+        "id": "Direktori layanan mencantumkan perawatan kawat gigi. Silakan konfirmasi jadwal dokter dan jenis tindakan.",
+        "en": "A service directory lists orthodontic care. Please confirm clinician availability and treatment options."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much do scaling and fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat diverifikasi. Mohon tanyakan estimasi biaya kepada pihak klinik.",
+        "en": "Official fees could not be verified. Please ask the clinic for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Pilih cabang, lalu konfirmasi jadwal sebelum datang.",
+    "en": "Choose a location and confirm its hours before visiting."
+  },
+  "pesan_wa_default": "Halo, saya ingin membuat janji di ARDE Dental Clinic. Mohon informasi jadwal dan lokasi cabang Jl. Salak atau Royal Heights. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola ARDE Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat ARDE memiliki lokasi di Jl. Salak dan Royal Heights, Bogor. Kami sudah menyiapkan konsep website dengan pemilih cabang yang dapat dilihat di https://maxigrowthstudio.com/arde-rata. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website dua cabang ARDE Dental Clinic",
+    "email_isi": "Yth. Tim Manajemen ARDE Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi dua lokasi ARDE di Bogor, yaitu Jl. Salak dan Royal Heights. Kami menyiapkan konsep website yang membantu calon pasien memilih cabang dan melihat informasi kunjungan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/arde-rata. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka untuk koreksi data dan diskusi apabila berkenan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

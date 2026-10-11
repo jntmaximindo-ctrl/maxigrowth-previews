@@ -1,0 +1,132 @@
+{
+  "id": "W839",
+  "hero": {
+    "judul": {
+      "id": "ABC Dental Medan",
+      "en": "ABC Dental Medan"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan perawatan gigi di Medan Johor.",
+      "en": "Visit information and dental care in Medan Johor."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointment times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan ketersediaan pemeriksaan dan waktu kunjungan.",
+        "en": "Contact the clinic to confirm examination availability and visiting hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perawatan",
+        "en": "Care consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan pilihan perawatan setelah mendapat konfirmasi jadwal.",
+        "en": "Discuss your concerns and care options after confirming an appointment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konservasi gigi",
+        "en": "Restorative dentistry"
+      },
+      "ringkas": {
+        "id": "Jaringan Meditap mencantumkan dokter bergelar Sp.KG. Konfirmasi layanan dan jadwalnya langsung ke klinik.",
+        "en": "A Meditap provider listing names a dentist with an Sp.KG qualification. Please confirm services and schedules directly."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Treatment fees"
+      },
+      "ringkas": {
+        "id": "Biaya tindakan belum dipublikasikan dalam sumber yang terverifikasi. Tanyakan estimasi saat menghubungi klinik.",
+        "en": "Verified treatment fees are not yet available. Ask the clinic for an estimate."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konsultasi gigi",
+      "en": "Dental consultation guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan, lalu siapkan pertanyaan untuk tim klinik.",
+      "en": "Choose the reason for your visit and prepare questions for the clinic team."
+    },
+    "alasan_dipilih": "Informasi layanan dan jadwal dokter belum tersedia secara terpusat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi ABC Dental?",
+        "en": "Where is ABC Dental located?"
+      },
+      "a": {
+        "id": "Jl. Luku I No.24, Kwala Bekala, Medan Johor.",
+        "en": "Jl. Luku I No.24, Kwala Bekala, Medan Johor."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional perlu dikonfirmasi langsung sebelum berkunjung.",
+        "en": "Please confirm opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat kami verifikasi. Silakan tanyakan kepada klinik.",
+        "en": "We could not verify official fees. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi berlubang?",
+        "en": "Is tooth decay treatment available?"
+      },
+      "a": {
+        "id": "Silakan konfirmasi jenis tindakan dan dokter yang tersedia.",
+        "en": "Please confirm available procedures and clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "ABC Dental tercantum pada jaringan Meditap, tetapi cakupan bergantung pada polis. Konfirmasi sebelum berkunjung.",
+        "en": "ABC Dental appears in the Meditap provider network, but coverage depends on your policy. Please confirm ahead of your visit."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan jadwal dan layanan.",
+    "en": "Contact the clinic to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal dan layanan ABC Dental di Jl. Luku I No.24, Medan. Mohon informasi, terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola ABC Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi ABC Dental di kawasan Medan Johor dan menyiapkan konsep website yang merangkum lokasi serta alur konsultasi. Konsepnya dapat dilihat di https://maxigrowthstudio.com/abc-medan. Bila berkenan, kami siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk ABC Dental Medan",
+    "email_isi": "Yth. Tim Manajemen ABC Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk ABC Dental di Medan Johor, dengan fokus pada informasi lokasi dan alur pertanyaan pasien. Konsep dapat ditinjau di https://maxigrowthstudio.com/abc-medan.\n\nProposal PDF kami lampirkan untuk bahan pertimbangan. Kami terbuka bila ada informasi klinik yang perlu diperbarui.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
