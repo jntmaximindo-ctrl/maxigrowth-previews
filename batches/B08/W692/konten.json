@@ -1,0 +1,132 @@
+{
+  "id": "W692",
+  "hero": {
+    "judul": {
+      "id": "Moridental Clinic Ciledug",
+      "en": "Moridental Clinic Ciledug"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan layanan gigi di Ciledug. Nomor kontak resmi belum terverifikasi. Pastikan alamat dan jam buka sebelum berangkat.",
+      "en": "Dental care information in Ciledug. An official contact number has not been verified. Please confirm the address and opening hours before visiting."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "Plan your visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pembersihan karang gigi yang sesuai kondisi Anda.",
+        "en": "Ask about an examination and tartar removal suited to your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan gigi berlubang dan pilihan penanganannya dengan dokter.",
+        "en": "Discuss cavities and suitable treatment options with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter dapat menilai apakah pencabutan diperlukan setelah pemeriksaan.",
+        "en": "A dentist can assess whether extraction is needed after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal, rencana perawatan, dan perkiraan biaya.",
+        "en": "Ask about an initial assessment, a treatment plan, and estimated costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan akses klinik",
+      "en": "Clinic access guide"
+    },
+    "penjelasan": {
+      "id": "Lihat panduan lokasi dan informasi yang perlu dikonfirmasi sebelum berkunjung.",
+      "en": "See directions and what to confirm before your visit."
+    },
+    "alasan_dipilih": "Direktori menempatkan klinik di lantai 2 Apotek Alpro; panduan membantu mengarahkan pasien ke lokasi yang tepat."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara memastikan jam praktik?",
+        "en": "How can I confirm opening hours?"
+      },
+      "a": {
+        "id": "Hubungi klinik terlebih dahulu karena jadwal dapat berubah.",
+        "en": "Please contact the clinic first, as opening hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah biaya perawatan sudah tersedia?",
+        "en": "Are treatment fees available?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat dikonfirmasi. Mintalah rincian biaya sebelum membuat janji.",
+        "en": "Official fees have not been verified. Request a cost breakdown before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik melayani pemasangan kawat gigi?",
+        "en": "Does the clinic provide braces?"
+      },
+      "a": {
+        "id": "Direktori menyebut layanan kawat gigi. Konfirmasikan ketersediaan dokter dan jadwal langsung ke klinik.",
+        "en": "A directory lists braces. Please confirm clinician availability and schedules directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah pasien anak dapat berkonsultasi?",
+        "en": "Can children have a consultation?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal pemeriksaan anak sebelum berkunjung.",
+        "en": "Ask whether pediatric appointments are available before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum terverifikasi. Konfirmasikan jenis pembayaran yang diterima kepada petugas.",
+        "en": "Insurance participation has not been verified. Please confirm accepted payment arrangements with staff."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan biaya sebelum berkunjung",
+    "en": "Confirm hours and fees before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di Moridental Clinic Ciledug, ketersediaan layanan, dan perkiraan biayanya. Mohon informasi cara membuat janji. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Moridental Clinic Ciledug. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi lokasi klinik di Ciledug. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/moridental-ciledug. Bila berkenan, kami terbuka untuk menerima masukan dari tim klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Moridental Clinic Ciledug",
+    "email_isi": "Yth. Tim Manajemen Moridental Clinic Ciledug,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengembangkan website interaktif untuk membantu pengunjung memahami informasi layanan, lokasi, dan cara menghubungi klinik.\n\nKami telah menyiapkan konsep awal untuk Moridental Clinic Ciledug yang dapat ditinjau di https://maxigrowthstudio.com/moridental-ciledug. Konsep ini masih memerlukan konfirmasi informasi dari tim klinik sebelum dipublikasikan. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nJika berkenan, kami dapat berdiskusi singkat mengenai kebutuhan website klinik.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
