@@ -1,0 +1,52 @@
+{
+  "id": "W07",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281213807090",
+      "di_sumber": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut.",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Atribusi sumber belum valid; perlu verifikasi tautan nomor dan cabang pada sumber yang benar."
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6281290099562",
+      "di_sumber": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut.",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Atribusi sumber belum valid; perlu verifikasi tautan nomor dan cabang pada sumber yang benar."
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "6289646472860",
+      "di_sumber": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut.",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Atribusi sumber belum valid; perlu verifikasi tautan nomor dan cabang pada sumber yang benar."
+    },
+    {
+      "path": "cabang[3].wa",
+      "tercatat": "6282117000614",
+      "di_sumber": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut.",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Atribusi sumber belum valid; perlu verifikasi tautan nomor dan cabang pada sumber yang benar."
+    },
+    {
+      "path": "cabang[4].wa",
+      "tercatat": "6282117000624",
+      "di_sumber": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut.",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Atribusi sumber belum valid; perlu verifikasi tautan nomor dan cabang pada sumber yang benar."
+    },
+    {
+      "path": "cabang[4].alamat",
+      "tercatat": "Jl Indrayasa96, Mekarwangi, Bojongloa Kidul, Bandung",
+      "di_sumber": "Passion Dental Care Melong Cijerah, Jl. Bojong Raya No.101, Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
+      "src": "https://www.passiondentalcare.com/lokasi",
+      "catatan": "Perbedaan alamat material; cabang pada riset kemungkinan salah lokasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.passiondentalcare.com/tim-dokter"
+  ],
+  "kritis_ok": false
+}

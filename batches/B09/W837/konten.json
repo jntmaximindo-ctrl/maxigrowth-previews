@@ -1,0 +1,142 @@
+{
+  "id": "W837",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi bersama drg. Karfrida Ginting",
+      "en": "Dental Care with drg. Karfrida Ginting"
+    },
+    "sub": {
+      "id": "Kenali layanan dan siapkan pertanyaan sebelum berkunjung ke Smile-Up di Medan.",
+      "en": "Explore dental care and prepare your questions before visiting Smile-Up in Medan."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan kebutuhan pemeriksaan bersama dokter.",
+        "en": "Discuss your dental concerns and examination needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah scaling sesuai untuk kondisi gigi dan gusi Anda.",
+        "en": "Ask whether scaling is appropriate for your teeth and gums."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Cari tahu pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Learn about treatment options for cavities after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Siapkan pertanyaan untuk pemeriksaan gigi anak bersama orang tua.",
+        "en": "Prepare questions for your child’s dental visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan tahapan pemeriksaan dan pilihan perawatan gigi tidak rata.",
+        "en": "Ask about assessment and options for tooth alignment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu Kunjungan Keluarga",
+      "en": "Family Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kunjungan anak atau dewasa, lalu susun pertanyaan untuk dokter sebelum membuat janji.",
+      "en": "Choose a child or adult visit, then prepare questions for the dentist before booking."
+    },
+    "alasan_dipilih": "Direktori menyebut Smile-Up melayani pasien anak dan dewasa; fitur ini tidak melakukan diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Jamin Ginting No.103C, Kwala Bekala, Medan. Mohon konfirmasi alamat sebelum datang.",
+        "en": "Directories list Jl. Jamin Ginting No.103C, Kwala Bekala, Medan. Please confirm the address before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Sumber direktori mencantumkan Senin–Jumat 16.00–20.00 dan Sabtu 15.00–20.00. Konfirmasikan jadwal terbaru.",
+        "en": "A directory lists Monday–Friday 4–8 PM and Saturday 3–8 PM. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment costs?"
+      },
+      "a": {
+        "id": "Biaya Smile-Up belum tersedia secara terverifikasi. Tanyakan estimasi setelah pemeriksaan.",
+        "en": "Verified Smile-Up fees are not yet available. Ask for an estimate after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children seen here?"
+      },
+      "a": {
+        "id": "Sumber direktori menyebut layanan untuk anak dan dewasa. Tanyakan usia pasien dan ketersediaan jadwal.",
+        "en": "A directory mentions care for children and adults. Please check age suitability and availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi tentang behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Perawatan ortodonti disebut dalam direktori. Tanyakan pemeriksaan awal dan pilihan penanganannya.",
+        "en": "Orthodontic care is mentioned in a directory. Ask about the initial assessment and available options."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Diskusikan Kebutuhan Perawatan Anda",
+    "en": "Discuss Your Dental Care Needs"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal pemeriksaan gigi di Smile-Up bersama drg. Karfrida Ginting. Apakah ada jadwal yang tersedia?",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Smile-Up, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat praktik drg. Karfrida Ginting melayani pasien anak dan dewasa di Medan. Kami sudah menyiapkan konsep website interaktif untuk ditinjau di https://maxigrowthstudio.com/smile-up. Konsep ini menampilkan panduan kunjungan keluarga dan informasi praktik. Jika berkenan, saya siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep Website Smile-Up untuk Ditinjau",
+    "email_isi": "Yth. Pengelola Smile-Up,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Smile-Up yang memudahkan calon pasien memahami informasi praktik drg. Karfrida Ginting dan menyiapkan pertanyaan sebelum berkunjung.\n\nKonsepnya dapat dilihat di https://maxigrowthstudio.com/smile-up. Proposal PDF saya lampirkan sebagai bahan pertimbangan. Informasi operasional dalam konsep masih perlu dikonfirmasi oleh pihak klinik sebelum dipublikasikan.\n\nApabila berkenan, kami terbuka untuk menerima masukan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

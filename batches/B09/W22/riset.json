@@ -455,5 +455,22 @@
     "https://mydentalclinicbandung.com/doctor/view/2",
     "https://mydentalclinicbandung.com/doctor/view/3",
     "https://mydentalclinicbandung.com/contact"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl L.L.R.E. Martadinata12 Lt M, Babakan Ciamis, Bandung",
+      "catatan": "Seruni Business Center, Jl. Merdeka No.49, Kota Bandung, Jawa Barat 40117"
+    },
+    {
+      "path": "dokter[9].nama",
+      "tercatat": "drg. Gema Karina Putri, Sp.Ort.",
+      "catatan": "drg. Gema Karina Putri"
+    },
+    {
+      "path": "dokter[9].spesialis",
+      "tercatat": "Ortodonti",
+      "catatan": "GENERAL PRACTICIONER / Dokter Gigi Umum"
+    }
   ]
 }

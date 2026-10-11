@@ -722,5 +722,37 @@
     "https://www.passiondentalcare.com/",
     "https://www.passiondentalcare.com/lokasi",
     "https://www.passiondentalcare.com/tim-dokter"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281213807090",
+      "catatan": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut."
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6281290099562",
+      "catatan": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut."
+    },
+    {
+      "path": "cabang[2].wa",
+      "tercatat": "6289646472860",
+      "catatan": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut."
+    },
+    {
+      "path": "cabang[3].wa",
+      "tercatat": "6282117000614",
+      "catatan": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut."
+    },
+    {
+      "path": "cabang[4].wa",
+      "tercatat": "6282117000624",
+      "catatan": "Nomor WhatsApp tidak tertulis pada halaman /lokasi yang dicantumkan sebagai src; beberapa nomor muncul di beranda, tetapi tidak pada URL src tersebut."
+    },
+    {
+      "path": "cabang[4].alamat",
+      "tercatat": "Jl Indrayasa96, Mekarwangi, Bojongloa Kidul, Bandung",
+      "catatan": "Passion Dental Care Melong Cijerah, Jl. Bojong Raya No.101, Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212"
+    }
   ]
 }

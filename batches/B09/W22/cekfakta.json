@@ -1,0 +1,31 @@
+{
+  "id": "W22",
+  "diperiksa": 32,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl L.L.R.E. Martadinata12 Lt M, Babakan Ciamis, Bandung",
+      "di_sumber": "Seruni Business Center, Jl. Merdeka No.49, Kota Bandung, Jawa Barat 40117",
+      "src": "https://mydentalclinicbandung.com/",
+      "catatan": "Beranda tidak mencantumkan Martadinata No.12; menampilkan alamat Merdeka No.49 pada kontak. Perlu konfirmasi lokasi aktif."
+    },
+    {
+      "path": "dokter[9].nama",
+      "tercatat": "drg. Gema Karina Putri, Sp.Ort.",
+      "di_sumber": "drg. Gema Karina Putri",
+      "src": "https://mydentalclinicbandung.com/doctor/view/2",
+      "catatan": "Gelar Sp.Ort. tidak tertulis di sumber; sumber menggolongkan sebagai dokter gigi umum."
+    },
+    {
+      "path": "dokter[9].spesialis",
+      "tercatat": "Ortodonti",
+      "di_sumber": "GENERAL PRACTICIONER / Dokter Gigi Umum",
+      "src": "https://mydentalclinicbandung.com/doctor/view/2",
+      "catatan": "Perbedaan spesialisasi kritis."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://mydentalclinicbandung.com/doctor/view/3"
+  ],
+  "kritis_ok": false
+}
