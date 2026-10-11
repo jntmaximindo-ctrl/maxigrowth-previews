@@ -49,6 +49,7 @@ jobs:
         run: |
           pip install -q playwright && python -m playwright install --with-deps chromium > /dev/null
           python3 scripts/shot_preview.py public
+          python3 scripts/og_meta.py public
       - name: Deploy worker maxigrowth
         run: npx -y wrangler@4 deploy --name maxigrowth --assets public --compatibility-date 2026-09-24
       - name: Verifikasi (rollback otomatis bila halaman lama berubah / preview tidak live)
