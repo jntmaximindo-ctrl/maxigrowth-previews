@@ -63,10 +63,14 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pembersihan karang gigi (scaling)",
-    "Penambalan gigi",
-    "Pencabutan gigi",
-    "Perawatan kawat gigi"
+    "Scaling / pembersihan karang gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi",
+    "Veneer",
+    "Bleaching",
+    "Perawatan saluran akar",
+    "Gigi tiruan"
   ],
   "harga": [],
   "fasilitas": [],
@@ -78,18 +82,20 @@ RISET LAMA:
     "tgl": "2026-10-12"
   },
   "keunggulan": [
-    "Lokasi klinik dicantumkan di lantai 2 Apotek Alpro di Ciledug (berdasarkan direktori).",
-    "Jam operasional tercantum setiap hari pukul 09.00–21.00 (perlu konfirmasi langsung)."
+    "Direktori menyebut lokasi klinik di lantai 2 Apotek Alpro, Ciledug.",
+    "Direktori mencantumkan jam buka setiap hari pukul 09.00–21.00, perlu konfirmasi klinik."
   ],
   "situs_lama": [
-    "Belum ditemukan website resmi mandiri yang menggabungkan petunjuk lantai, jadwal praktik, layanan, dan kontak klinik yang terverifikasi.",
-    "Tautan Linktree yang dicantumkan direktori tidak dapat dibuka saat pemeriksaan."
+    "Tidak ditemukan website resmi mandiri dengan petunjuk menuju lantai 2, daftar layanan, jadwal dokter, dan kontak yang terverifikasi.",
+    "Linktree yang dicantumkan direktori tidak dapat dibuka saat pemeriksaan.",
+    "Nomor telepon/WhatsApp resmi tidak ditemukan pada sumber primer yang dapat diakses."
   ],
-  "ide_fitur_khas": "Pemandu kunjungan lantai 2: langkah interaktif dari jalan utama menuju Apotek Alpro, disertai peta, pilihan hari, dan pengingat konfirmasi jadwal.",
-  "catatan": "REVISI 2026-10-12: pencarian ulang situs, Google Maps, Instagram, Linktree, direktori, dan tautan WhatsApp pada CariBisnis. Tombol WhatsApp direktori mengarah ke 628138016343, tetapi tidak ditemukan bukti bahwa nomor itu resmi milik klinik; wa dan telepon tetap null, jangan gunakan nomor tersebut untuk tombol website. Linktree senyumdalamkasih tercantum di direktori namun tidak dapat diakses dan afiliasinya tidak terbukti. Dokter bernama Michael hanya muncul dalam ulasan, tanpa nama lengkap/gelar yang terverifikasi, sehingga dokter tetap []. Daftar layanan, jam, rating, ulasan, dan alamat berasal dari direktori pihak ketiga; perlu konfirmasi langsung. Harga resmi tidak ditemukan; tidak ada tiga sumber harga pasar Tangerang yang cukup tervalidasi untuk tujuh tindakan, sehingga harga []. Maps dapat dibuka tetapi memerlukan JavaScript dan tidak menyajikan metadata kontak yang bisa diperiksa. Konsep outreach harus dicek tayang sebelum dikirim.",
+  "ide_fitur_khas": "Panduan lokasi menuju lantai 2 Apotek Alpro, dilengkapi peta dan permintaan informasi kunjungan; tombol WhatsApp dinonaktifkan sampai nomor resmi terkonfirmasi.",
+  "catatan": "REVISI 2026-10-12: nomor 628138016343 muncul pada tombol WA direktori CariBisnis, tetapi tidak ditemukan bukti afiliasi resmi dengan Moridental; WA dan telepon tetap null. Linktree senyumdalamkasih tidak dapat diakses dan kepemilikannya belum terverifikasi. Nama Michael hanya disebut ulasan tanpa gelar/nama lengkap, maka dokter []. Rating 5.0 dan 194 ulasan dibaca dari agregator, bukan data Maps langsung. Google Maps memerlukan JavaScript dan tidak memperlihatkan metadata kontak. Asuransi yang dicantumkan agregator belum diverifikasi dari klinik. Harga resmi tidak ditemukan; tidak ada tiga sumber tarif pasar Tangerang yang cukup independen dan sebanding untuk seluruh tujuh tindakan, sehingga harga []. Alamat dan jam dari direktori perlu konfirmasi langsung. Jangan mengaktifkan WA website sampai nomor klinik diverifikasi.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/tangerang/ciledug/moridental-clinic-ciledug-cile-imp1",
     "https://www.google.com/maps/place/Moridental+Clinic+Ciledug/",
-    "https://linktr.ee/senyumdalamkasih"
+    "https://linktr.ee/senyumdalamkasih",
+    "https://wa.me/628138016343"
   ]
 }
