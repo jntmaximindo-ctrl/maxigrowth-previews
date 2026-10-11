@@ -14,3 +14,8 @@
 ## Modul library (siap dipakai)
 
 ## Sudah diusulkan / sedang dibangun / ditolak
+- (usulan 2026-10-11) Kartu Preferensi Kunjungan yang Lebih Nyaman
+- (usulan 2026-10-11) Cerita Visual Kunjungan Pertama Anak
+- (usulan 2026-10-11) Checklist Personal Kunjungan Pertama
+- (usulan 2026-10-11) Perencana Akses dan Pendamping Pasien
+- (usulan 2026-10-11) Kartu Pertanyaan Biaya dan Tahapan Perawatan

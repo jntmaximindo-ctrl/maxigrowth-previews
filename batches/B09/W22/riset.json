@@ -1,0 +1,459 @@
+{
+  "id": "W22",
+  "nama": {
+    "v": "My Dental Clinic",
+    "src": "https://mydentalclinicbandung.com/",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": "mydentalclinic.bdg@gmail.com",
+    "src": "https://mydentalclinicbandung.com/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik Utama My Dental",
+      "alamat": {
+        "v": "Jl L.L.R.E. Martadinata12 Lt M, Babakan Ciamis, Bandung",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "08122107794",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": "Senin–Sabtu10–20 (jam umum situs, konfirmasi cabang)",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "maps_url": ""
+    },
+    {
+      "nama": "Klinik Pratama My Dental & Medical",
+      "alamat": {
+        "v": "Komp Ruko Nasution Kav11, Karang Pamulang, Mandalajati, Bandung",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "085183047794",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": "Senin–Sabtu10–20 (jam umum situs, konfirmasi cabang)",
+        "src": "https://mydentalclinicbandung.com/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Maya S. Prabowo, Sp.Pros., FISID., MMRS.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Prostodonsia",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Gunawan Putra Anggoro, Sp.Pros.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Prostodonsia",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Henry Mandalas, DMD., Sp.Perio., MH.Kes.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Periodonsia",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Franky Oscar, Sp.BM., M.Kes.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Bedah mulut",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "apt. Selvia Yunita Dhea, drg., Sp.KGA.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Kedokteran gigi anak",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Fadli Azhari, Sp.KG.",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Konservasi gigi",
+        "src": "https://mydentalclinicbandung.com/doctor",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Ellizabeth Yunita, Sp.KG.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Konservasi gigi",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Arty C. Putri, Sp.Ort.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Ortodonti",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Margaret Myra, Sp.Ort.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Ortodonti",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Gema Karina Putri, Sp.Ort.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Ortodonti",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Andini Dimyati, Sp.KGA.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Kedokteran gigi anak",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "Drg Ista Meidarlina Sp Pros",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Prostodonsia",
+        "src": "https://mydentalclinicbandung.com/doctor/view/2",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "Drg Kelvin Gohan Sp Perio",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Periodonsia",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "Drg Reitha Mega Putri, Sp.KG.",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Konservasi gigi",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Utama My Dental"
+    },
+    {
+      "nama": {
+        "v": "drg. Astari Ayu Putri",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter gigi umum",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Pratama My Dental & Medical"
+    },
+    {
+      "nama": {
+        "v": "drg. Dinda Purnamasari",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Dokter gigi umum",
+        "src": "https://mydentalclinicbandung.com/doctor/view/3",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Pratama My Dental & Medical"
+    }
+  ],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Veneer",
+    "Kawat gigi",
+    "Perawatan gigi anak",
+    "Perawatan saluran akar",
+    "Implan",
+    "Gigi tiruan"
+  ],
+  "harga": [],
+  "fasilitas": [
+    "Area bermain anak",
+    "Laboratorium gigi",
+    "Ruang tunggu"
+  ],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Layanan spesialis dan laboratorium diagnostik",
+    "Dua lokasi klinik"
+  ],
+  "situs_lama": [
+    "https://mydentalclinicbandung.com/"
+  ],
+  "ide_fitur_khas": "Pemilih kunjungan klinik dan layanan diagnostik dengan konfirmasi admin.",
+  "catatan": "Riset parsial. Informasi dari direktori adalah snapshot pihak ketiga yang perlu konfirmasi klinik. Nilai yang belum terverifikasi tidak diisi. Harga belum memenuhi tarif resmi atau tiga sumber pasar satu kota. Desain dengan warna null berarti logo belum dapat diperiksa; gaya klinis dan fokus umum hanya usulan sementara. Outreach adalah draf: konsep URL dan lampiran PDF perlu dicek sebelum dikirim. Halaman kontak masih menulis Seruni Business Center JlMerdeka49;beranda dan halaman dokter menulis Martadinata12LtM. Alamat beranda dicatat tetapi wajib konfirmasi perpindahan. Telepon mobile tidak otomatis dianggap WhatsApp.",
+  "sumber": [
+    "https://mydentalclinicbandung.com/",
+    "https://mydentalclinicbandung.com/doctor",
+    "https://mydentalclinicbandung.com/doctor/view/2",
+    "https://mydentalclinicbandung.com/doctor/view/3",
+    "https://mydentalclinicbandung.com/contact"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "W838",
+  "hero": {
+    "judul": {
+      "id": "Flow Dental - drg. Awanda",
+      "en": "Flow Dental - drg. Awanda"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan perawatan gigi di Medan. Hubungi klinik untuk mengonfirmasi jadwal dan layanan.",
+      "en": "Dental care and visit information in Medan. Contact the clinic to confirm appointments and services."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk mengonfirmasi informasi sebelum berkunjung.",
+        "en": "Contact the clinic to confirm the details before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Schedule enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk mengonfirmasi informasi sebelum berkunjung.",
+        "en": "Contact the clinic to confirm the details before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk mengonfirmasi informasi sebelum berkunjung.",
+        "en": "Contact the clinic to confirm the details before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk mengonfirmasi informasi sebelum berkunjung.",
+        "en": "Contact the clinic to confirm the details before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan Anda",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Panduan persiapan kunjungan dan konfirmasi jadwal di Medan.",
+      "en": "An interactive visit planner to help patients prepare questions and confirm an appointment with the clinic."
+    },
+    "alasan_dipilih": "Lokasi layanan di Medan. Fitur ini merupakan usulan desain."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik dan sampaikan kebutuhan serta waktu kunjungan yang Anda inginkan.",
+        "en": "Contact the clinic with the reason for your visit and your preferred time."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik menerima pasien?",
+        "en": "When does the clinic see patients?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam operasional dan jadwal dokter sebelum datang.",
+        "en": "Confirm opening hours and the dentist’s schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya kepada klinik. Rencana tindakan ditentukan setelah pemeriksaan.",
+        "en": "Ask the clinic for a fee breakdown. Treatment is planned after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi saya dapat digunakan?",
+        "en": "Can I use my insurance?"
+      },
+      "a": {
+        "id": "Sampaikan nama penyedia dan polis Anda kepada klinik untuk pemeriksaan manfaat.",
+        "en": "Share your insurer and policy details with the clinic to check coverage."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu saya siapkan sebelum kunjungan?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Siapkan identitas, informasi obat yang digunakan dan riwayat perawatan untuk dibahas dengan dokter.",
+        "en": "Prepare your ID, current medication information and dental history to discuss with the dentist."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the clinic for visit information"
+  },
+  "pesan_wa_default": "Halo Flow Dental - drg. Awanda, saya ingin menanyakan jadwal kunjungan. Keluhan/kebutuhan saya: … Waktu yang saya inginkan: … Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Flow Dental - drg. Awanda. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi layanan di Medan. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/flow-drg. Jika berkenan, kami ingin meminta masukan tentang informasi dan tampilan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Flow Dental - drg. Awanda",
+    "email_isi": "Yth. Pengelola Flow Dental - drg. Awanda,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi layanan di Medan. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/flow-drg. Proposal PDF terlampir untuk ditinjau. Kami ingin meminta masukan mengenai informasi klinik dan rancangan tampilannya apabila Bapak/Ibu berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  },
+  "desain": {
+    "logo_url": null,
+    "warna": {
+      "utama": null,
+      "kedua": null,
+      "sumber": null
+    },
+    "gaya": "klinis",
+    "fokus": [
+      "umum"
+    ],
+    "alasan": "Identitas visual resmi belum terverifikasi; gaya klinis dan fokus umum merupakan usulan sementara, bukan fakta brand."
+  }
+}

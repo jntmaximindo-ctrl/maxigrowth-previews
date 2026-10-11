@@ -1,0 +1,47 @@
+{
+ "kota": "Kabupaten Bandung",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-11",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Molars Dental Aesthetics TKI",
+   "rating": 4.9,
+   "ulasan": 1119,
+   "sumber": "https://www.semuabis.com/molars-dental-aesthetics-tki-0813-2008-8880"
+  },
+  {
+   "nama": "Dokter Gigi Suyono",
+   "rating": 4.8,
+   "ulasan": 17,
+   "sumber": "https://www.semuabis.com/dokter-gigi-suyono-0817-6070-406"
+  },
+  {
+   "nama": "Medisty Dental Care",
+   "rating": 4.8,
+   "ulasan": 57,
+   "sumber": "https://www.waze.com/id/live-map/directions/id/jawa-barat/medisty-dental-care?to=place.ChIJEz2BgLDvaC4RDWpTENPf140"
+  },
+  {
+   "nama": "Puskesmas Margaasih",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/puskesmas-margaasih_4a-022-86692198"
+  },
+  {
+   "nama": "Charlene Clinic",
+   "rating": null,
+   "ulasan": 2,
+   "sumber": "https://www.cybo.com/ID-biz/charlene-clinic"
+  },
+  {
+   "nama": "Klinik Mitra Sehat",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://id1542208-klinik-mitra-sehat.contact.page/"
+  }
+ ],
+ "catatan": "Lima variasi pencarian web dilakukan. Enam halaman kandidat dibuka. Molars 4.9/1119 memenuhi ambang tetapi dikecualikan karena ada di KNOWN-KLINIK.txt; Suyono 17 ulasan dan Medisty 57 ulasan. Puskesmas, Charlene, dan Mitra Sehat tidak punya pasangan rating/ulasan yang memenuhi ambang. Tidak ada klinik baru yang lolos.",
+ "area": "kabupaten-bandung-margaasih"
+}

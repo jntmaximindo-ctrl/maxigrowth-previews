@@ -1,0 +1,218 @@
+{
+ "tanggal": "2026-10-11",
+ "ide": [
+  {
+   "id": "kartu-kenyamanan-kunjungan",
+   "nama": "Kartu Preferensi Kunjungan yang Lebih Nyaman",
+   "masalah_pasien": "Pasien yang cemas atau sensitif terhadap suara, cahaya, dan ketidakpastian prosedur kesulitan menyampaikan kebutuhannya sebelum kunjungan.",
+   "solusi": "Wizard HTML/JS pilihan nonmedis: penjelasan langkah demi langkah, kesepakatan isyarat jeda, preferensi suara/cahaya, membawa headphone, atau permintaan waktu diskusi tambahan. Ringkasan dibuat lokal di browser dan diteruskan ke WA hanya atas tindakan pengguna; staf mengonfirmasi fasilitas yang tersedia.",
+   "alur_pengguna": [
+    "Pilih sumber ketidaknyamanan umum tanpa memasukkan diagnosis atau riwayat medis.",
+    "Pilih preferensi komunikasi, isyarat jeda, dan bantuan yang ingin ditanyakan.",
+    "Pratinjau kartu; hapus pilihan yang tidak ingin dibagikan.",
+    "Klik Tanya melalui WhatsApp untuk membuka pesan yang dapat diedit: Saya ingin menanyakan pengaturan kunjungan dengan preferensi berikut, apakah tersedia?",
+    "Staf menjelaskan ketersediaan dan mengonfirmasi jadwal secara manual."
+   ],
+   "referensi": [
+    {
+     "nama": "American Dental Association — komunikasi dan isyarat jeda",
+     "url": "https://adanews.ada.org/new-dentist/2022/february/5-tips-to-reduce-anxiety-and-stress-in-dentists-patients-during-their-visit/"
+    },
+    {
+     "nama": "All Ability Dental Australia — dukungan familiarisasi",
+     "url": "https://allabilitydental.com.au/services/whychooseus/behaviour-support/"
+    }
+   ],
+   "skor": {
+    "manfaat": 5,
+    "kemudahan": 5,
+    "keunikan": 4,
+    "aman_permenkes": 5
+   },
+   "risiko_permenkes": "Tidak boleh menjanjikan kunjungan tanpa rasa sakit atau menyatakan akomodasi pasti tersedia. Preferensi bukan diagnosis. Modul hanya HTML/JS di browser, tanpa backend; klik WA membuka pesan yang dapat diedit, tidak mengirim otomatis. Informasi medis bersifat umum, tanpa diagnosis dan tanpa janji hasil. Nama dan alamat klinik serta tanggal publikasi wajib tampil. Jangan kirim riwayat medis atau identitas anak melalui WA.",
+   "butuh_data": [
+    "nama klinik",
+    "alamat klinik",
+    "nomor WA",
+    "jam praktik",
+    "opsi kenyamanan yang benar-benar tersedia",
+    "tanggal pembaruan konten"
+   ]
+  },
+  {
+   "id": "cerita-visual-kunjungan-anak",
+   "nama": "Cerita Visual Kunjungan Pertama Anak",
+   "masalah_pasien": "Anak dan orang tua tidak tahu seperti apa ruang dokter gigi dan urutan kegiatan; suara, alat, serta situasi baru dapat memicu kekhawatiran.",
+   "solusi": "Cerita bergambar interaktif berbasis foto resmi klinik: tiba, menyapa petugas, menunggu, masuk ruang, duduk, berbicara dengan dokter, dan pulang. Pilih versi perkenalan atau pemeriksaan umum; tidak mengklaim semua langkah pasti dilakukan. CTA WA meminta konfirmasi pendamping dan kemungkinan kunjungan perkenalan.",
+   "alur_pengguna": [
+    "Orang tua memilih mode kunjungan dan kebutuhan penjelasan visual.",
+    "Anak melihat rangkaian gambar langkah demi langkah; setiap kartu bisa diulang.",
+    "Orang tua memilih pertanyaan tentang membawa benda pendamping, ditemani, atau melihat ruang lebih dulu.",
+    "Tampilkan ringkasan pertanyaan tanpa menyimpan identitas atau informasi kesehatan anak.",
+    "Klik Tanyakan kunjungan anak via WhatsApp untuk membuka pesan yang dapat diedit."
+   ],
+   "referensi": [
+    {
+     "nama": "National Autistic Society UK — social stories dan dukungan visual",
+     "url": "https://www.autism.org.uk/advice-and-guidance/physical-health/going-to-the-dentist/parents"
+    },
+    {
+     "nama": "Oral Health Victoria — social stories untuk kunjungan gigi",
+     "url": "https://everysmile.ohv.org.au/ways-to-support/regular-dental-check-ups/preparing-for-positive-dental-visits"
+    },
+    {
+     "nama": "Leeds Community Healthcare NHS — persiapan anak dengan kebutuhan tambahan",
+     "url": "https://leedscommunityhealthcare.nhs.uk/our-services-a-z/0-to-19-public-health-integrated-nursing-service-0-to-19-phins/oral-health/oral-health-and-special-educational-needs-and-disabilities-send/"
+    }
+   ],
+   "skor": {
+    "manfaat": 5,
+    "kemudahan": 3,
+    "keunikan": 5,
+    "aman_permenkes": 5
+   },
+   "risiko_permenkes": "Gunakan foto fasilitas yang nyata dan berizin, bukan foto pasien. Cerita adalah ilustrasi, bukan kepastian urutan atau hasil klinis; opsi kunjungan perkenalan hanya bila tersedia. Modul hanya HTML/JS di browser, tanpa backend; klik WA membuka pesan yang dapat diedit, tidak mengirim otomatis. Informasi medis bersifat umum, tanpa diagnosis dan tanpa janji hasil. Nama dan alamat klinik serta tanggal publikasi wajib tampil. Jangan kirim riwayat medis atau identitas anak melalui WA.",
+   "butuh_data": [
+    "nama klinik",
+    "alamat klinik",
+    "nomor WA",
+    "jam praktik",
+    "foto ruang tunggu dan ruang pemeriksaan dengan izin",
+    "kebijakan pendamping anak",
+    "ketersediaan kunjungan perkenalan",
+    "tanggal pembaruan konten"
+   ]
+  },
+  {
+   "id": "checklist-kunjungan-pertama",
+   "nama": "Checklist Personal Kunjungan Pertama",
+   "masalah_pasien": "Pasien baru sering tidak tahu persiapan administratif, barang bawaan, atau gambaran alur check-in, sehingga harus bertanya berulang dan berisiko datang kurang siap.",
+   "solusi": "Modul checklist HTML/JS menurut tipe kunjungan (baru, anak, membawa alat gigi) yang menjelaskan alur umum registrasi hingga konsultasi dan persiapan seperti identitas, dokumen penjamin bila berlaku, daftar obat untuk ditunjukkan langsung kepada tenaga kesehatan, serta alat gigi yang digunakan. Tidak menyimpan atau mengirim data kesehatan; WA hanya untuk konfirmasi syarat dan kedatangan.",
+   "alur_pengguna": [
+    "Pilih jenis kunjungan dan status pasien baru atau lama.",
+    "Lihat gambaran registrasi, percakapan awal, pemeriksaan bila diperlukan, dan penjelasan rencana oleh dokter.",
+    "Centang dokumen atau barang yang relevan; daftar dapat dicetak dari browser.",
+    "Tampilkan pengingat untuk membicarakan informasi medis pribadi langsung dengan petugas kesehatan.",
+    "Klik Konfirmasi persiapan lewat WhatsApp dengan pertanyaan tentang dokumen dan waktu datang, tanpa mengirim data kesehatan."
+   ],
+   "referensi": [
+    {
+     "nama": "Daihon Dental Jepang — alur kunjungan pertama",
+     "url": "https://www.daihon-dental.com/s_flow"
+    },
+    {
+     "nama": "Cleveland Clinic AS — appointment checklist",
+     "url": "https://my.clevelandclinic.org/patients/information/appointments-checklist"
+    },
+    {
+     "nama": "Lucid Dental Korea — FAQ persiapan pasien",
+     "url": "https://www.dentalclinicgangnam.com/foreign-patients/dental-faq-foreign-patients"
+    }
+   ],
+   "skor": {
+    "manfaat": 4,
+    "kemudahan": 5,
+    "keunikan": 3,
+    "aman_permenkes": 5
+   },
+   "risiko_permenkes": "Jangan mengklaim pemeriksaan tertentu selalu dilakukan atau menyampaikan instruksi medis personal. Checklist disesuaikan kebijakan klinik dan bukan konfirmasi janji. Modul hanya HTML/JS di browser, tanpa backend; klik WA membuka pesan yang dapat diedit, tidak mengirim otomatis. Informasi medis bersifat umum, tanpa diagnosis dan tanpa janji hasil. Nama dan alamat klinik serta tanggal publikasi wajib tampil. Jangan kirim riwayat medis atau identitas anak melalui WA.",
+   "butuh_data": [
+    "nama klinik",
+    "alamat klinik",
+    "nomor WA",
+    "jam praktik",
+    "alur registrasi",
+    "dokumen yang diminta",
+    "kebijakan kedatangan sebelum jadwal",
+    "tanggal pembaruan konten"
+   ]
+  },
+  {
+   "id": "perencana-akses-dan-pendamping",
+   "nama": "Perencana Akses dan Pendamping Pasien",
+   "masalah_pasien": "Lansia, pengguna alat bantu gerak, keluarga dengan stroller, dan pendamping kesulitan mengetahui akses masuk, tangga, lift, toilet, area tunggu, dan izin pendamping sebelum datang.",
+   "solusi": "Kartu akses internal yang memuat kondisi fasilitas hasil audit langsung, berbeda dari peta cabang. HTML/JS menyaring informasi berdasarkan kebutuhan praktis dan menandai fasilitas yang belum diverifikasi sebagai Perlu konfirmasi. Tombol WA menyusun permintaan bantuan atau pertanyaan akses tanpa mengumpulkan diagnosis.",
+   "alur_pengguna": [
+    "Pilih kebutuhan praktis seperti akses tanpa tangga, ruang untuk alat bantu, komunikasi tertulis, atau izin pendamping.",
+    "Lihat informasi fasilitas terverifikasi: pintu, tangga, lift, toilet, kursi tunggu, dan ketentuan pendamping.",
+    "Fasilitas yang belum diverifikasi ditandai Perlu konfirmasi, bukan diasumsikan tersedia.",
+    "Pratinjau dan edit pertanyaan bantuan sebelum dikirim.",
+    "Klik Konfirmasi akses melalui WhatsApp untuk meminta jawaban staf."
+   ],
+   "referensi": [
+    {
+     "nama": "Sydney Local Health District Australia — Special Care Dentistry",
+     "url": "https://www.slhd.nsw.gov.au/oralhealth/services_specCare.html"
+    },
+    {
+     "nama": "Oral Health Victoria — persiapan kebutuhan fisik dan sensorik",
+     "url": "https://everysmile.ohv.org.au/ways-to-support/regular-dental-check-ups/preparing-for-positive-dental-visits"
+    },
+    {
+     "nama": "NHS England — dental care dan akses pasien dengan kebutuhan tambahan",
+     "url": "https://www.england.nhs.uk/learning-disabilities/improving-health/eye-care-dental-care-and-hearing-checks/dental-care/"
+    }
+   ],
+   "skor": {
+    "manfaat": 5,
+    "kemudahan": 3,
+    "keunikan": 4,
+    "aman_permenkes": 5
+   },
+   "risiko_permenkes": "Data fasilitas harus diaudit, diberi tanggal, dan diperbarui saat berubah; jangan menyatakan semua kebutuhan dapat dilayani. Jangan meminta diagnosis atau status disabilitas. Modul hanya HTML/JS di browser, tanpa backend; klik WA membuka pesan yang dapat diedit, tidak mengirim otomatis. Informasi medis bersifat umum, tanpa diagnosis dan tanpa janji hasil. Nama dan alamat klinik serta tanggal publikasi wajib tampil. Jangan kirim riwayat medis atau identitas anak melalui WA.",
+   "butuh_data": [
+    "nama klinik",
+    "alamat klinik",
+    "nomor WA",
+    "jam praktik",
+    "audit akses pintu, tangga dan lift",
+    "fasilitas toilet dan ruang tunggu",
+    "kebijakan pendamping",
+    "tanggal audit fasilitas"
+   ]
+  },
+  {
+   "id": "kartu-pertanyaan-biaya-perawatan",
+   "nama": "Kartu Pertanyaan Biaya dan Tahapan Perawatan",
+   "masalah_pasien": "Pasien bingung membedakan biaya konsultasi, pemeriksaan penunjang, tindakan, kontrol, dan kemungkinan perubahan rencana, serta tidak tahu pertanyaan yang perlu diajukan sebelum menyetujui perawatan.",
+   "solusi": "Kartu pilihan pertanyaan berdasarkan kategori layanan umum, tanpa kalkulasi biaya personal, rekomendasi tindakan, atau kepastian jumlah kunjungan. Pengguna menyusun pertanyaan tentang komponen biaya, tahapan, alternatif yang dapat didiskusikan dengan dokter, dan tindak lanjut. Tombol WA meminta penjelasan atau jadwal konsultasi. Ini bukan kalkulator cicilan behel.",
+   "alur_pengguna": [
+    "Pilih kategori umum seperti pemeriksaan, tambalan, perawatan saluran akar, gigi tiruan, atau konsultasi ortodonti.",
+    "Lihat komponen biaya yang mungkin perlu ditanyakan dan penegasan bahwa rencana final bergantung pada pemeriksaan dokter.",
+    "Centang pertanyaan tentang konsultasi, pemeriksaan penunjang, tahapan, kontrol, dan perubahan rencana.",
+    "Tampilkan ringkasan pertanyaan tanpa angka atau estimasi biaya yang tidak terverifikasi.",
+    "Klik Tanyakan rincian melalui WhatsApp; pesan dapat diedit dan tidak mengikat klinik pada biaya tertentu."
+   ],
+   "referensi": [
+    {
+     "nama": "Denticare Singapura — Fees & Payments",
+     "url": "https://denticare.com.sg/fees/"
+    },
+    {
+     "nama": "Garden Dental Singapura — rincian biaya dan ketergantungan pada pemeriksaan",
+     "url": "https://gardendental.sg/costs/"
+    },
+    {
+     "nama": "American Dental Association — istilah perawatan gigi",
+     "url": "https://www.mouthhealthy.org/dental-care/dental-treatment-terms"
+    }
+   ],
+   "skor": {
+    "manfaat": 5,
+    "kemudahan": 4,
+    "keunikan": 4,
+    "aman_permenkes": 4
+   },
+   "risiko_permenkes": "Risiko bila pasien menganggap contoh komponen sebagai tagihan pasti, atau modul memberi saran tindakan. Jangan memuat harga tanpa verifikasi dan tanggal; penjelasan dokter menentukan rencana dan biaya akhir. Modul hanya HTML/JS di browser, tanpa backend; klik WA membuka pesan yang dapat diedit, tidak mengirim otomatis. Informasi medis bersifat umum, tanpa diagnosis dan tanpa janji hasil. Nama dan alamat klinik serta tanggal publikasi wajib tampil. Jangan kirim riwayat medis atau identitas anak melalui WA.",
+   "butuh_data": [
+    "nama klinik",
+    "alamat klinik",
+    "nomor WA",
+    "jam praktik",
+    "daftar layanan yang benar-benar tersedia",
+    "kebijakan pemberian rincian biaya",
+    "tanggal pembaruan konten"
+   ]
+  }
+ ]
+}

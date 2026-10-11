@@ -1,0 +1,101 @@
+{
+  "id": "W645",
+  "nama": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Hindia Dental — identitas dari surat tugas belum terverifikasi",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDdp0GzDdaC4R4dwHVSyIM68"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "URL Maps pada surat tugas gagal dibaca; situs resmi belum ditemukan."
+  ],
+  "ide_fitur_khas": "Usulan daftar pertanyaan kunjungan; pemilihan fitur khusus ditunda sampai identitas dan layanan terverifikasi.",
+  "catatan": "Riset parsial tertahan verifikasi identitas. Pencarian nama persis dan variasi nama/kota pada dua mesin menghasilkan halaman tidak terkait. Maps gagal dibaca. Jangan menyamakan dengan HiDent yang muncul di hasil pencarian. Semua fakta klinik yang belum ditemukan diisi null. Rating/ulasan surat tugas tidak disalin sebagai fakta. Harga kosong karena tidak ada tarif resmi dan kisaran pasar tiga sumber belum lengkap. Konten adalah kerangka pertanyaan, belum siap dipublikasikan. Outreach draft sesuai tugas, URL konsep dan PDF belum diverifikasi. Ada hasil pencarian Maptons menyebut Jl. Sukaluyu, Cipadung dan nomor +6282221009808, tetapi halaman tidak bisa dibuka; angka tersebut tidak dipindahkan sebagai fakta.",
+  "sumber": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJDdp0GzDdaC4R4dwHVSyIM68",
+    "https://id.maptons.com/p/5809314222"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": null
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "W647",
+  "nama": {
+    "v": "Haderupa Dental Clinic & Orthodontic",
+    "src": "https://bukutelepon.cybo.com/ID-biz/haderupa-dental-clinic-orthodontic-komp",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Haderupa Dental Clinic & Orthodontic",
+      "alamat": {
+        "v": "Komp. Suci Residence Blok A-2, Jl. Padasuka No.55, Pasirlayung, Cibeunying Kidul, Bandung 40192",
+        "src": "https://moovitapp.com/index/id/Tranportasi_Umum-Haderupa_Dental_Clinic_Orthodontic_Komp_Suci_Residence_Blok_A_2_Jl_Padasuka_No_55_Bandung-Bandung-site_46237456-4486",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0227217318",
+        "src": "https://alamatsehat.com/dokter-gigi-terbaik-dan-murah-di-bandung/",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwbVbxKV794oRCGXaRPWFg34"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Situs mandiri yang memuat layanan, dokter dan tarif resmi belum ditemukan dalam pencarian ini."
+  ],
+  "ide_fitur_khas": "Panduan lokasi dengan penanda alamat lama dan permintaan konfirmasi alamat baru.",
+  "catatan": "Riset parsial. Nomor berasal dari direktori lama, belum ditemukan konfirmasi resmi klinik; WA null. Cabang/alamat cocok dengan Moovit. Rating dan jumlah ulasan terbaru belum terverifikasi. Harga tujuh tindakan belum memenuhi minimum tiga sumber pasar satu kota; tidak diisi angka perkiraan. Dokter, fasilitas dan asuransi yang tidak terbukti dikosongkan. Fitur merupakan usulan, belum diterapkan. Outreach adalah draf; URL konsep dan PDF lampiran perlu diperiksa sebelum pengiriman. Hasil indeks IG menyebut pindah ke Jl. Padasuka No.54, tetapi akun tidak bisa dibaca langsung; alamat lama No.55 belum diganti dan perlu konfirmasi.",
+  "sumber": [
+    "https://bukutelepon.cybo.com/ID-biz/haderupa-dental-clinic-orthodontic-komp",
+    "https://alamatsehat.com/dokter-gigi-terbaik-dan-murah-di-bandung/",
+    "https://www.instagram.com/haderupaclinic/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": null
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "catatan": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": "W24",
+  "nama": {
+    "v": "Tivaza Clinic",
+    "src": "https://tivaza.co.id/our-clinic/",
+    "tgl": "2026-10-10",
+    "yakin": "sedang"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/tivazaclinic/",
+    "src": "https://tivaza.co.id/gigi-palsu-bandung/",
+    "tgl": "2026-10-10",
+    "yakin": "tinggi"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-10",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Tivaza Rajiman",
+      "alamat": {
+        "v": "Jl Dr Rajiman16, Pasir Kaliki, Cicendo, Bandung",
+        "src": "https://tivaza.co.id/our-clinic/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0224232904",
+        "src": "https://tivaza.co.id/our-clinic/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    },
+    {
+      "nama": "Tivaza Light Bojongsoang",
+      "alamat": {
+        "v": "Jl Raya Bojongsoang350, Cipagalo, Kabupaten Bandung",
+        "src": "https://tivaza.co.id/our-clinic/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "08112848292",
+        "src": "https://tivaza.co.id/our-clinic/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Gian Nuur Alamsyah, Sp.Prost",
+        "src": "https://tivaza.co.id/gigi-palsu-bandung/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": "Prostodonsia",
+        "src": "https://tivaza.co.id/gigi-palsu-bandung/",
+        "tgl": "2026-10-10",
+        "yakin": "tinggi"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "cabang": "Tivaza (jadwal/lokasi perlu konfirmasi)"
+    }
+  ],
+  "layanan": [
+    "Gigi tiruan",
+    "Crown",
+    "Bridge",
+    "Implan"
+  ],
+  "harga": [
+    {
+      "perawatan": "Layanan prostodonti (rentang gabungan gigi tiruan/crown/bridge/implan; bukan tarif satu implan)",
+      "jenis": "resmi_klinik",
+      "min": 1500000,
+      "max": 20000000,
+      "src": "https://tivaza.co.id/gigi-palsu-bandung/"
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-10"
+  },
+  "keunggulan": [
+    "Klinik terintegrasi dengan divisi gigi, kulit, gizi, dan bedah plastik"
+  ],
+  "situs_lama": [
+    "https://tivaza.co.id/"
+  ],
+  "ide_fitur_khas": "Pemilih layanan gigi di antara divisi klinik terintegrasi.",
+  "catatan": "Riset parsial. Informasi dari direktori adalah snapshot pihak ketiga yang perlu konfirmasi klinik. Nilai yang belum terverifikasi tidak diisi. Harga belum memenuhi tarif resmi atau tiga sumber pasar satu kota. Desain dengan warna null berarti logo belum dapat diperiksa; gaya klinis dan fokus umum hanya usulan sementara. Outreach adalah draf: konsep URL dan lampiran PDF perlu dicek sebelum dikirim. Jam OurClinic Senin–Jumat10–20/Sabtu10–17 berbeda artikel Rajiman Senin–Jumat09–21/Sabtu09–18/Minggu10–15;jam null. Cabang Jakarta disebut hanya dermatologi/gizi, tidak dianggap cabang dental. Tarif gabungan tidak dipecah menjadi harga tindakan.",
+  "sumber": [
+    "https://tivaza.co.id/our-clinic/",
+    "https://tivaza.co.id/gigi-palsu-bandung/"
+  ]
+}
