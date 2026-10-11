@@ -57,6 +57,41 @@ RISET LAMA:
         "yakin": "sedang"
       },
       "maps_url": "https://maps.app.goo.gl/a2UEAT5M24P8uVDJ8"
+    },
+    {
+      "nama": "Arde Dental Clinic cabang 2",
+      "alamat": {
+        "v": "Royal Heights Apartment Commercial Area K-05 RT 03/RW 08, Muarasari, Bogor Selatan, Kota Bogor, Jawa Barat 16137",
+        "src": "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jabodetabek",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-10",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "10:00-18:00",
+          "sel": "10:00-18:00",
+          "rab": "10:00-18:00",
+          "kam": "10:00-18:00",
+          "jum": "10:00-18:00",
+          "sab": "10:00-18:00"
+        },
+        "src": "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jabodetabek",
+        "tgl": "2026-10-10",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://g.co/kgs/b4RwMm"
     }
   ],
   "dokter": [
@@ -176,15 +211,23 @@ RISET LAMA:
     "src": null,
     "tgl": "2026-10-10"
   },
-  "keunggulan": [],
+  "keunggulan": [
+    "Sumber mitra RATA mencantumkan dua cabang ARDE di Bogor."
+  ],
   "situs_lama": [
     "Situs mandiri dengan kontak, layanan, dokter dan tarif belum ditemukan terverifikasi."
   ],
-  "ide_fitur_khas": "Panduan cabang Salak dan konfirmasi layanan mitra RATA.",
-  "catatan": "Riset parsial. Sumber mitra mencantumkan cabang 1, nama dokter singkat dan jam Selasa–Sabtu. Jadwal dokter individual tidak tersedia. Telepon/WA resmi tidak ditemukan. Biaya APD/admin 50 ribu bukan harga tindakan. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim.",
+  "ide_fitur_khas": "Pemilih cabang Salak atau Royal Heights yang menampilkan jadwal berbeda.",
+  "catatan": "Riset parsial. Sumber mitra mencantumkan cabang 1, nama dokter singkat dan jam Selasa–Sabtu. Jadwal dokter individual tidak tersedia. Telepon/WA resmi tidak ditemukan. Biaya APD/admin 50 ribu bukan harga tindakan. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim. Ejaan dokter diperbaiki menjadi Drg Amel dan Drg Nissa sesuai sumber. Hasil indeks Threads resmi menyebut 08111109944 tetapi halaman belum terbaca langsung sehingga kontak tetap null.",
   "sumber": [
     "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jabodetabek",
     "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/arde-dental-clinic-rata-partne-bogo-imp1"
   ],
-  "verifikasi_manual": []
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Selasa–Sabtu 10:00–20:00",
+      "catatan": "Selasa, Rabu, Kamis, Jumat & Sabtu 10.00–18.00"
+    }
+  ]
 }
