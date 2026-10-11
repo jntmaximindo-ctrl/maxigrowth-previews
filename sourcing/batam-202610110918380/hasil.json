@@ -1,0 +1,115 @@
+{
+ "kota": "Batam",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-11",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Agelsa Dental Medical Center - Dokter Gigi, Dokter Umum, Apotek",
+   "url": null,
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJDTUJmP6L2TERYlFo8-3zarA",
+   "rating": 4.9,
+   "ulasan": 197,
+   "telepon": "0812-7767-4164",
+   "alamat": "Jl. Ruko Buana Mas 2 No.52, Tembesi, Sagulung, Kota Batam, Kepulauan Riau 29439",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://indonesiaknowledge.com/directory/dental/batam",
+    "https://idalamat.com/alamat/1060055/agelsa-dental-care-batam-kepulauan-riau"
+   ]
+  },
+  {
+   "nama": "Etama Dental Clinic",
+   "url": "https://kliniketama.com/",
+   "punya_website": true,
+   "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJJ4LB6fmJ2TERGdcatFIG-I4",
+   "rating": 4.8,
+   "ulasan": 116,
+   "telepon": "0819-1606-7372",
+   "alamat": "Kawasan Sentosa Perdana (SP) Blok Anggrek 3A, Sungai Langkai, Sagulung, Kota Batam, Kepulauan Riau 29439",
+   "skor_jadul": null,
+   "masalah": [
+    "audit website belum dapat diselesaikan: halaman situs timeout saat dibuka"
+   ],
+   "sumber": [
+    "https://indonesiaknowledge.com/directory/dental/batam/etama-dental-clinic-batam",
+    "https://www.semuabis.com/etama-dental-clinic-0812-6658-4801",
+    "https://kliniketama.com/"
+   ]
+  },
+  {
+   "nama": "Salma Dental Care Cabang Batu Aji",
+   "url": "https://linktr.ee/salmadentalcare",
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJL_M1Y8-N2TERoRKjFcr9BWI",
+   "rating": 4.9,
+   "ulasan": 109,
+   "telepon": "0813-7333-7070",
+   "alamat": "Ruko Jl. Utama Villa Muka Kuning Blok A1 No.10, Tembesi, Sagulung, Kota Batam, Kepulauan Riau 29424",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://linktr.ee/salmadentalcare",
+    "https://www.google.com/maps/place/?q=place_id:ChIJL_M1Y8-N2TERoRKjFcr9BWI"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Agelsa Dental Medical Center - Dokter Gigi, Dokter Umum, Apotek",
+   "rating": 4.9,
+   "ulasan": 197,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam"
+  },
+  {
+   "nama": "Etama Dental Clinic",
+   "rating": 4.8,
+   "ulasan": 116,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam/etama-dental-clinic-batam"
+  },
+  {
+   "nama": "Salma Dental Care Cabang Batu Aji",
+   "rating": 4.9,
+   "ulasan": 109,
+   "sumber": "https://www.google.com/maps/place/?q=place_id:ChIJL_M1Y8-N2TERoRKjFcr9BWI"
+  },
+  {
+   "nama": "Ruby Dental Care Batu Aji",
+   "rating": 4.9,
+   "ulasan": 154,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam/ruby-dental-care-batu-aji-batam"
+  },
+  {
+   "nama": "Aisha Dental Care Batu Aji",
+   "rating": 5.0,
+   "ulasan": 968,
+   "sumber": "https://www.google.com/maps/place/?q=place_id:ChIJX9siyhQoYQsRpzZ8HzZLx94"
+  },
+  {
+   "nama": "KHALILA Batuaji (Praktek Dokter Gigi)",
+   "rating": 4.2,
+   "ulasan": 37,
+   "sumber": "https://www.semuabis.com/khalila-batuaji-praktek-dokter-gigi-0778-4092454"
+  },
+  {
+   "nama": "Klinik Praktek solo Dokter Gigi non Bpjs",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.waze.com/af/live-map/directions/id/kepulauan-riau/klinik-praktek-solo-dokter-gigi-non-bpjs?to=place.ChIJAWmdzQqN2TERE_h9Us7fTU8"
+  },
+  {
+   "nama": "de'Wira Medical Centre",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/dewira-medical-centre-0811-661-241"
+  }
+ ],
+ "catatan": "Ruby Dental Care dan Aisha Dental Care dikecualikan karena nama/domain tercantum di KNOWN-KLINIK.txt. KHALILA tidak lolos rating dan ulasan. Klinik Praktek solo dan de'Wira tidak memiliki rating/ulasan terverifikasi. Nilai Salma berdasarkan profil bisnis Google Maps yang diperiksa melalui pencarian bisnis; profil Maps tidak bisa dirender sebagai halaman teks. Nilai Agelsa dan Etama dari direktori yang dibuka; dapat berbeda dari kondisi Maps saat ini.",
+ "area": "batam-sagulung"
+}
