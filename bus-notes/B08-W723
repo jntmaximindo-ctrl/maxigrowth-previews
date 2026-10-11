@@ -6,55 +6,91 @@ RISET LAMA:
   "nama": {
     "v": "Drg. Jenny Andalia Sutyono",
     "src": "https://idalamat.com/alamat/1060577/drg-jenny-andalia-sutyono-bogor-jawa-barat",
-    "tgl": "2026-10-10",
-    "yakin": "sedang"
+    "tgl": "2026-10-11",
+    "yakin": "tinggi"
   },
   "kota": "Bogor",
   "zona_waktu": "WIB",
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-10",
+    "tgl": "2026-10-11",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-10",
+    "tgl": "2026-10-11",
     "yakin": "rendah"
   },
   "cabang": [
     {
-      "nama": "Drg. Jenny Andalia Sutyono",
+      "nama": "Praktik drg. Jenny Andalia Sutyono",
       "alamat": {
-        "v": "Jl. Suryakencana No.60, RT.01/RW.08, RT7/RW8, Bogor Tengah, Bogor 16123",
+        "v": "Jl. Suryakencana No.60, RT.01/RW.08, Bogor Tengah, Kota Bogor, Jawa Barat 16123",
         "src": "https://idalamat.com/alamat/1060577/drg-jenny-andalia-sutyono-bogor-jawa-barat",
-        "tgl": "2026-10-10",
-        "yakin": "sedang"
+        "tgl": "2026-10-11",
+        "yakin": "tinggi"
       },
       "telepon": {
         "v": "02518314853",
         "src": "https://idalamat.com/alamat/1060577/drg-jenny-andalia-sutyono-bogor-jawa-barat",
-        "tgl": "2026-10-10",
-        "yakin": "sedang"
+        "tgl": "2026-10-11",
+        "yakin": "tinggi"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-10",
+        "tgl": "2026-10-11",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-10",
-        "yakin": "rendah"
+        "v": {
+          "sen": "09-21",
+          "sel": "09-21",
+          "rab": "09-21",
+          "kam": "09-21",
+          "jum": "09-21",
+          "sab": "09-22",
+          "min": "10-21"
+        },
+        "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+        "tgl": "2026-10-11",
+        "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Drg.+Jenny+Andalia+Sutyono+Jl.+Suryakencana+No.60+Bogor"
     }
   ],
-  "dokter": [],
-  "layanan": [],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Jenny Andalia Sutyono",
+        "src": "https://idalamat.com/alamat/1060577/drg-jenny-andalia-sutyono-bogor-jawa-barat",
+        "tgl": "2026-10-11",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-11",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-11",
+        "yakin": "rendah"
+      },
+      "cabang": "Praktik drg. Jenny Andalia Sutyono"
+    }
+  ],
+  "layanan": [
+    "Pemeriksaan dan konsultasi gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Perawatan kawat gigi",
+    "Gigi tiruan"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -62,16 +98,21 @@ RISET LAMA:
     "rating": 4.9,
     "ulasan": 122,
     "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
-    "tgl": "2026-10-10"
+    "tgl": "2026-10-11"
   },
-  "keunggulan": [],
-  "situs_lama": [
-    "Situs mandiri dengan kontak, layanan, dokter dan tarif belum ditemukan terverifikasi."
+  "keunggulan": [
+    "Praktik dokter gigi yang disebut atas nama drg. Jenny Andalia Sutyono di Jl. Suryakencana No.60",
+    "Nomor telepon tetap praktik tercantum konsisten pada dua direktori"
   ],
-  "ide_fitur_khas": "Panduan lokasi Suryakencana dan konfirmasi melalui telepon.",
-  "catatan": "Riset parsial. Telepon dan alamat cocok di dua direktori; belum terkonfirmasi kanal resmi. WA dan jam praktik tidak ditemukan terverifikasi. Spesialisasi dan gelar tambahan tidak diasumsikan. Harga tujuh tindakan belum seluruhnya memenuhi sumber resmi atau tiga sumber pasar satu kota; angka yang tidak terbukti tidak diisi. Jadwal dokter, fasilitas dan afiliasi yang tidak ditemukan dikosongkan. Fitur usulan belum diterapkan. Outreach draf; konsep URL dan lampiran PDF perlu diperiksa sebelum dikirim.",
+  "situs_lama": [
+    "Belum ditemukan situs mandiri resmi yang menampilkan jadwal, tarif, dan kontak praktik secara terpusat",
+    "Belum ada nomor WhatsApp praktik yang dapat diverifikasi dari sumber publik"
+  ],
+  "ide_fitur_khas": "Panduan lokasi praktik di Jl. Suryakencana No.60 dengan fitur permintaan jadwal melalui telepon.",
+  "catatan": "REVISI: telepon praktik 0251-8314853 diverifikasi ulang di IDalamat, CariBisnis, dan Ulastempat. Nomor WhatsApp resmi tidak ditemukan; wa tetap null. Terdapat nama sama pada dokumen survei publik dengan nomor seluler pribadi, tetapi nomor itu tidak terkait kanal praktik dan sengaja tidak digunakan. Jam praktik dari direktori pihak ketiga dan perlu konfirmasi. Daftar tindakan disimpulkan dari direktori IDalamat dan belum dikonfirmasi praktik. Harga dikosongkan karena tidak ada tarif resmi atau tiga sumber pasar Bogor tervalidasi. Rating dan jumlah ulasan diambil dari direktori, dapat berubah. Konsep URL dan PDF outreach perlu diperiksa sebelum pengiriman.",
   "sumber": [
     "https://idalamat.com/alamat/1060577/drg-jenny-andalia-sutyono-bogor-jawa-barat",
-    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1"
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+    "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/"
   ]
 }
