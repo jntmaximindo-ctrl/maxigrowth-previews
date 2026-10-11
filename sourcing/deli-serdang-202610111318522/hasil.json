@@ -1,0 +1,88 @@
+{
+ "kota": "Deli Serdang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-11",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Dental Place Cemara Asri / Praktek Dokter Gigi Angel",
+   "url": null,
+   "punya_website": false,
+   "maps_url": null,
+   "rating": 5.0,
+   "ulasan": 153,
+   "telepon": "0813-6586-2006",
+   "alamat": "Boulevard Raya 8AL, Komplek Cemara Asri, Medan Estate, Kec. Percut Sei Tuan, Kabupaten Deli Serdang, Sumatera Utara 20221",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://idalamat.com/alamat/dental-place-cemara-asri-praktek-dokter-gigi-angel-1058680",
+    "https://cekdoktergigi.com/dokter-gigi-terbaik-di-medan/"
+   ]
+  },
+  {
+   "nama": "GIE DENTAL CARE",
+   "url": "https://giedentalcare.digman.co.id/",
+   "punya_website": true,
+   "maps_url": null,
+   "rating": 5.0,
+   "ulasan": 124,
+   "telepon": "0813-9776-7888",
+   "alamat": "Jl. Beringin Pasar VII No.115, Tembung, Kec. Percut Sei Tuan, Kabupaten Deli Serdang, Sumatera Utara 20371",
+   "skor_jadul": 0,
+   "masalah": [],
+   "sumber": [
+    "https://giedentalcare.digman.co.id/",
+    "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-deli-serdang/"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Dental Place Cemara Asri / Praktek Dokter Gigi Angel",
+   "rating": 5.0,
+   "ulasan": 153,
+   "sumber": "https://idalamat.com/alamat/dental-place-cemara-asri-praktek-dokter-gigi-angel-1058680",
+   "catatan": "Rating/ulasan dari profil bisnis terstruktur, sedangkan idalamat menunjukkan 0 ulasan pada sistem internalnya, bukan Google Maps."
+  },
+  {
+   "nama": "GIE DENTAL CARE",
+   "rating": 5.0,
+   "ulasan": 124,
+   "sumber": "https://giedentalcare.digman.co.id/",
+   "catatan": "Rating/ulasan dari profil bisnis terstruktur, website dibuka dan mencantumkan dokter, alamat, nomor WhatsApp."
+  },
+  {
+   "nama": "Go Dental Clinic (Part Of Medan Dental Center)",
+   "rating": 4.9,
+   "ulasan": 1599,
+   "sumber": "https://linktr.ee/medandentalcenter",
+   "catatan": "Tidak dimasukkan: Medan Dental Center tercantum di KNOWN-KLINIK.txt."
+  },
+  {
+   "nama": "iCare Dental Cemara Asri",
+   "rating": 4.9,
+   "ulasan": 118,
+   "sumber": "https://www.icaredental.net/contacts",
+   "catatan": "Tidak dimasukkan: iCare Dental tercantum di KNOWN-KLINIK.txt."
+  },
+  {
+   "nama": "Drg. Jansen",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/drg-jansen-061-6625909",
+   "catatan": "Alamat Percut Sei Tuan diverifikasi, tetapi rating dan jumlah ulasan tidak terlihat."
+  },
+  {
+   "nama": "GIGI Dental Care",
+   "rating": 5.0,
+   "ulasan": 106,
+   "sumber": "https://www.semuabis.com/klinik-gigi-spirit-spirit-dental-clinic-061-7953789",
+   "catatan": "Ditemukan pada profil bisnis terstruktur di Jl. Besar Tembung No.88-90; halaman direktori lain mencantumkan Medan Dental Center by Go Dental Clinic di alamat yang sama. Potensi duplikasi dengan brand KNOWN-KLINIK, sehingga tidak dimasukkan. Halaman sumber ini bukan profil individual GIGI Dental Care."
+  }
+ ],
+ "catatan": "Lima pencarian terpisah + pencarian bisnis lokal dilakukan. Enam kandidat diidentifikasi dan sumber terkait dibuka, tetapi untuk GIGI Dental Care tidak tersedia halaman individual yang berhasil dibuka; perlu audit ulang sebelum dianggap memenuhi syarat bukti robot. Dua klinik lolos filter dan tidak ditemukan di KNOWN-KLINIK.txt. Go Dental Clinic dan iCare Dental dikecualikan karena brand sudah ada dalam KNOWN-KLINIK. Angka rating/ulasan berasal dari hasil bisnis Google Maps terstruktur; tidak semua direktori memuat angka yang sama. Skor website GIE 0 karena HTTPS, WhatsApp, layanan dan dokter terlihat; responsivitas/kecepatan tidak diuji, sehingga tidak diberi penalti.",
+ "area": "deli-serdang-percut-sei-tuan"
+}
