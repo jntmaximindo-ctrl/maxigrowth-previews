@@ -1,0 +1,152 @@
+{
+  "id": "W692",
+  "hero": {
+    "judul": {
+      "id": "Moridental Clinic Ciledug",
+      "en": "Moridental Clinic Ciledug"
+    },
+    "sub": {
+      "id": "Informasi layanan dan lokasi klinik di Ciledug. Konfirmasi jadwal sebelum berkunjung.",
+      "en": "Explore dental services and clinic directions in Ciledug. Please confirm the schedule before visiting."
+    },
+    "cta": {
+      "id": "Lihat lokasi klinik",
+      "en": "View clinic location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental check-up"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan rencana pemeriksaan bersama dokter.",
+        "en": "Discuss your concerns and an appropriate examination with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan.",
+        "en": "Tartar removal based on an oral assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Cavity treatment following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai apakah pencabutan diperlukan.",
+        "en": "A dentist will assess whether extraction is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan perawatan susunan gigi.",
+        "en": "Discuss options for tooth alignment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian perawatan permukaan gigi.",
+        "en": "Ask whether veneers may be suitable for your teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan menuju lantai 2",
+      "en": "Find the second-floor clinic"
+    },
+    "penjelasan": {
+      "id": "Ikuti petunjuk lokasi menuju lantai 2 Apotek Alpro. Pastikan jadwal melalui kontak resmi klinik sebelum datang.",
+      "en": "Follow the directions to the second floor of Apotek Alpro. Confirm opening hours through an official clinic contact before visiting."
+    },
+    "alasan_dipilih": "Alamat di direktori menyebut klinik berada di lantai 2 Apotek Alpro; petunjuk akses dapat membantu pasien baru."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Moridental?",
+        "en": "Where is Moridental located?"
+      },
+      "a": {
+        "id": "Menurut direktori, Moridental berada di Jl. Raden Patah, Parung Serab, Ciledug, lantai 2 Apotek Alpro.",
+        "en": "According to a public directory, Moridental is on Jl. Raden Patah in Parung Serab, Ciledug, on the second floor of Apotek Alpro."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan buka setiap hari 09.00–21.00. Mohon konfirmasi jadwal sebelum datang.",
+        "en": "A directory lists daily hours of 09:00–21:00. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal?",
+        "en": "How much do scaling and fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum terverifikasi. Tanyakan perkiraan biaya setelah pemeriksaan.",
+        "en": "Official fees have not been verified. Please ask the clinic for an estimate after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Does the clinic offer braces?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum dalam direktori. Konfirmasikan ketersediaan layanan dan jadwal konsultasi.",
+        "en": "Braces are listed in a public directory. Please confirm availability and consultation times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Is BPJS or insurance accepted?"
+      },
+      "a": {
+        "id": "Status kerja sama BPJS dan asuransi belum dapat dikonfirmasi. Tanyakan langsung kepada klinik.",
+        "en": "BPJS and insurance arrangements have not been confirmed. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat peta dan rencanakan kunjungan",
+    "en": "View directions and plan a visit"
+  },
+  "pesan_wa_default": "Halo admin Moridental Clinic Ciledug, saya ingin bertanya tentang jadwal konsultasi dan perkiraan biaya perawatan. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu manajemen Moridental Clinic Ciledug. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi klinik tercantum di lantai 2 Apotek Alpro. Kami sudah membuat konsep website dengan panduan lokasi dan informasi layanan untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/moridental-ciledug. Jika berkenan, saya terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Moridental Clinic Ciledug",
+    "email_isi": "Yth. Manajemen Moridental Clinic Ciledug,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi klinik di lantai 2 Apotek Alpro, Ciledug. Kami menyiapkan konsep website interaktif dengan panduan lokasi, informasi layanan, dan ruang untuk jadwal praktik yang dapat dikonfirmasi klinik.\n\nPratinjau: https://maxigrowthstudio.com/moridental-ciledug\n\nProposal PDF terlampir untuk bahan pertimbangan. Jika berkenan, kami terbuka untuk mendengar masukan dan membahas penyesuaian.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
