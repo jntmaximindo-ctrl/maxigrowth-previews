@@ -1,0 +1,92 @@
+{
+ "kota": "Pontianak",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-12",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "iSmile Dental Clinic Gusti Hamzah",
+   "url": "https://shor.by/iSmile",
+   "punya_website": false,
+   "maps_url": "https://maps.google.com/?cid=8847254041898474146",
+   "rating": 5.0,
+   "ulasan": 473,
+   "telepon": "0895-3355-40909",
+   "alamat": "Jl. Gusti Hamzah No.6c, Sungai Jawi, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78115",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website mandiri terverifikasi; halaman shor.by adalah tautan reservasi/lokasi"
+   ],
+   "sumber": [
+    "https://www.dentalclinics.care/dental-clinic/ismile-dental-clinic-gusti-hamzah",
+    "https://shor.by/iSmile",
+    "https://www.semuabis.com/ismile-dental-clinic-gusti-hamzah-0895-3355-40909"
+   ]
+  },
+  {
+   "nama": "Azmi Aesthetic Dental Care (AADC)",
+   "url": "https://doktergigipontianak.com/",
+   "punya_website": true,
+   "maps_url": "https://maps.google.com/?cid=2952195662844386012",
+   "rating": 4.9,
+   "ulasan": 254,
+   "telepon": "0852-8595-9191",
+   "alamat": "Jl. Gusti Hamzah No.6, Sungai Jawi, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78244",
+   "skor_jadul": 0,
+   "masalah": [
+    "Situs tercantum di direktori, tetapi tidak dapat dibuka untuk audit teknis (robots.txt); skor 0 berarti tidak ada penalti yang berhasil diverifikasi, BUKAN bukti situs berkualitas baik."
+   ],
+   "sumber": [
+    "https://www.dentalclinics.care/dental-clinic/azmi-aesthetic-dental-care-aadc",
+    "https://idalamat.com/alamat/azmi-aesthetic-dental-care-aadc-1063523",
+    "https://doktertanya.com/dokter-gigi-pontianak/"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "iSmile Dental Clinic Gusti Hamzah",
+   "rating": 5.0,
+   "ulasan": 473,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/ismile-dental-clinic-gusti-hamzah"
+  },
+  {
+   "nama": "Azmi Aesthetic Dental Care (AADC)",
+   "rating": 4.9,
+   "ulasan": 254,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/azmi-aesthetic-dental-care-aadc"
+  },
+  {
+   "nama": "PDC Dental Clinic",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/pdc-dental-clinic-0561-7075000"
+  },
+  {
+   "nama": "Praktik drg. Carnila",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/praktik-drg-carnila-0813-4580-6400"
+  },
+  {
+   "nama": "Dentindo Dental Center",
+   "rating": 3.8,
+   "ulasan": 10,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/ismile-dental-clinic-gusti-hamzah"
+  },
+  {
+   "nama": "Kiddie Smile Center",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://doktertanya.com/dokter-gigi-pontianak/"
+  },
+  {
+   "nama": "Home Dental Pontianak",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://doktertanya.com/dokter-gigi-pontianak/"
+  }
+ ],
+ "catatan": "Lima pencarian web terpisah atau lebih dilakukan. Dua kandidat lolos menggunakan rating/ulasan yang benar-benar tampil pada halaman DentalClinics.care yang dibuka (snapshot direktori, bukan verifikasi Google Maps live). Keduanya tidak ditemukan di KNOWN-KLINIK.txt pada nama maupun domain yang dipakai. Close Dental dilewati karena sudah di KNOWN-KLINIK.txt dan alamatnya berada di Pontianak Selatan. Kandidat dengan angka tidak tampil diberi null. Tautan iSmile adalah halaman shor.by, bukan situs mandiri. Website AADC tercantum tetapi gagal dibuka; skor_jadul 0 sementara, audit tidak lengkap. Angka ulasan iSmile berbeda antardirektori/snapshot; gunakan hanya angka 473 dari halaman yang dibuka. Tidak menghubungi klinik.",
+ "area": "pontianak-pontianak-kota"
+}
