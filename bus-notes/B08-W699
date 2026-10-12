@@ -46,12 +46,12 @@ RISET LAMA:
       },
       "jam": {
         "v": {
-          "sen": "09:00-20:00",
-          "sel": "09:00-20:00",
-          "rab": "09:00-20:00",
-          "kam": "09:00-20:00",
-          "jum": "09:00-20:00",
-          "sab": "09:00-15:00",
+          "sen": "09-20",
+          "sel": "09-20",
+          "rab": "09-20",
+          "kam": "09-20",
+          "jum": "09-20",
+          "sab": "09-15",
           "min": "tutup"
         },
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
@@ -63,65 +63,19 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan dan konsultasi gigi — perlu konfirmasi",
-    "Scaling — menurut direktori, perlu konfirmasi",
-    "Tambal gigi — menurut direktori, perlu konfirmasi",
-    "Cabut gigi — menurut direktori, perlu konfirmasi",
-    "Kawat gigi — menurut direktori, perlu konfirmasi",
-    "Veneer — menurut direktori, perlu konfirmasi"
+    "Pemeriksaan dan konsultasi gigi (jenis tindakan perlu konfirmasi klinik)",
+    "Scaling (tercantum pada direktori; perlu konfirmasi)",
+    "Tambal gigi (tercantum pada direktori; perlu konfirmasi)",
+    "Cabut gigi (tercantum pada direktori; perlu konfirmasi)",
+    "Kawat gigi (tercantum pada direktori; perlu konfirmasi)",
+    "Veneer (tercantum pada direktori; perlu konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling — pembanding pasar Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu",
+      "perawatan": "Scaling — pembanding pasar Tangerang Selatan, BUKAN tarif Klinik Gigi Cirendeu",
       "jenis": "kisaran_pasar",
       "min": 249000,
       "max": 650000,
-      "src": [
-        "https://orangedentalhouse.com/tangerang-selatan/",
-        "https://www.ortadental.id/",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-        "https://hdmall.id/klinik-gigi/scaling-gigi-di-ini-dental-clinic"
-      ]
-    },
-    {
-      "perawatan": "Tambal gigi — pembanding pasar Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu",
-      "jenis": "kisaran_pasar",
-      "min": 392000,
-      "max": 950000,
-      "src": [
-        "https://hdmall.id/klinik-gigi/tambal-gigi-di-indonesia-clinic-dental-bsd",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-        "https://orangedentalhouse.com/tangerang-selatan/"
-      ]
-    },
-    {
-      "perawatan": "Behel metal — pembanding pasar Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu",
-      "jenis": "kisaran_pasar",
-      "min": 4500000,
-      "max": 13000000,
-      "src": [
-        "https://hdmall.id/klinik-gigi/pasang-behel-metal-standard-di-ini-dental-clinic",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-        "https://orangedentalhouse.com/tangerang-selatan/"
-      ]
-    },
-    {
-      "perawatan": "Bleaching — pembanding pasar Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu",
-      "jenis": "kisaran_pasar",
-      "min": 1058000,
-      "max": 3125000,
-      "src": [
-        "https://hdmall.id/klinik-gigi/bleaching-gigi-di-ini-dental-clinic",
-        "https://www.ortadental.id/",
-        "https://hdmall.id/klinik-gigi/bleaching-di-mdm-laboratorium-dan-klinik",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan"
-      ]
-    },
-    {
-      "perawatan": "Veneer — tipe bahan dan tindakan berbeda, pembanding pasar Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu",
-      "jenis": "kisaran_pasar",
-      "min": 720000,
-      "max": 3500000,
       "src": [
         "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
         "https://www.ortadental.id/",
@@ -130,9 +84,9 @@ RISET LAMA:
     }
   ],
   "fasilitas": [
-    "Toilet — tercantum pada direktori, perlu konfirmasi",
-    "Parkir — tercantum pada direktori, perlu konfirmasi",
-    "Janji temu — tercantum pada direktori, perlu konfirmasi"
+    "Parkir (tercantum pada direktori; perlu konfirmasi)",
+    "Toilet (tercantum pada direktori; perlu konfirmasi)",
+    "Janji temu (tercantum pada direktori; perlu konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
@@ -142,56 +96,22 @@ RISET LAMA:
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Alamat spesifik Blok Mekar B2 No.99 dan telepon tetap 02174718597 tercantum konsisten di lebih dari satu direktori.",
-    "Jam operasional yang tercantum hingga pukul 20.00 pada Senin–Jumat dan Sabtu hingga 15.00."
+    "Lokasi di Blok Mekar B2 No.99 dan nomor telepon tetap tercantum konsisten pada beberapa direktori.",
+    "Direktori mencantumkan jam praktik Senin–Jumat sampai pukul 20.00, Sabtu sampai pukul 15.00; konfirmasi sebelum datang."
   ],
   "situs_lama": [
-    "Belum ditemukan situs resmi mandiri yang menyatukan layanan, kontak, lokasi, dan jadwal.",
-    "Nomor WhatsApp resmi tidak dapat diverifikasi; tombol WA tidak boleh diaktifkan atau diarahkan ke nomor telepon tetap.",
-    "Jadwal dokter dan tarif resmi klinik tidak tersedia pada sumber yang dapat diperiksa."
+    "Belum ditemukan situs resmi mandiri dengan alamat, kontak, layanan, dan jadwal yang terpusat.",
+    "Nomor WhatsApp resmi belum dapat diverifikasi sehingga tombol WhatsApp tidak boleh diaktifkan.",
+    "Jadwal dokter dan tarif resmi klinik belum tersedia pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemandu Kunjungan Cirendeu: pilih hari untuk melihat jam yang tercantum di direktori, alamat Blok Mekar B2 No.99, tombol telepon 02174718597, dan tautan peta. Tampilkan pengingat untuk konfirmasi jadwal; jangan tampilkan tombol WhatsApp sampai nomor resmi dikonfirmasi.",
-  "catatan": "REVISI: pencarian nama persis, alamat, telepon tetap, WhatsApp, Instagram, dan direktori tidak menemukan nomor seluler/WhatsApp yang dapat dikaitkan dengan klinik ini. Tombol Chat sekarang CariBisnis mengarah ke wa.me/?text=... tanpa parameter phone, sehingga BUKAN nomor WA resmi. Nomor klinik lain di Cirendeu (Lya Dental Care, Happy Smile, FDC, Klinik 8 Medikatama) dilarang dipakai. Telepon 02174718597 dikonfirmasi dua direktori dan CariBisnis. Rating 4.9/132 adalah snapshot direktori Indonesia Knowledge, bukan angka Google Maps langsung; CariBisnis menampilkan 4.9/126. Layanan dan fasilitas dari direktori, belum dikonfirmasi klinik. Harga merupakan pembanding dari klinik lain di Tangerang Selatan dan tidak boleh dipublikasikan sebagai tarif klinik; kategori cabut dan implan tidak diisi karena belum didapat perbandingan cukup setara dari tiga sumber per tindakan. Dokter Talitha/Vania disebut dalam ulasan tanpa nama lengkap/gelar dan jadwal; tidak dimasukkan. Hubungi telepon tetap untuk konfirmasi nomor WA resmi.",
+  "ide_fitur_khas": "Pemandu Kunjungan Cirendeu: pilih hari, lihat jam direktori dengan label perlu konfirmasi, tampilkan alamat, tombol telepon tetap 02174718597, dan peta; jangan aktifkan WhatsApp sebelum nomor diverifikasi.",
+  "catatan": "REVISI 2026-10-13: Pencarian nama persis, Blok Mekar B2 No.99, Instagram, WhatsApp, dan direktori tidak menemukan nomor seluler/WA yang dapat diatribusikan ke Klinik Gigi Cirendeu. Nomor 02174718597 adalah telepon tetap, bukan WA. Tautan Chat sekarang CariBisnis tidak menyertakan nomor penerima. Nomor Lya Dental Care, Axel Dental, Happy Smile, dan klinik Cirendeu lainnya tidak boleh digunakan. Rating 4.9/132 merupakan snapshot Indonesia Knowledge yang dicek pada 2026-08-06, bukan rating real-time. Harga scaling hanya pembanding pasar dari tiga klinik lain, bukan tarif klinik; perawatan lainnya tidak diberi kisaran karena belum ada tiga sumber harga setara yang tervalidasi. Layanan/fasilitas berasal dari direktori dan harus dikonfirmasi. Klinik dapat dihubungi via telepon tetap untuk memperoleh WA resmi.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
-    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
     "https://www.ortadental.id/",
-    "https://orangedentalhouse.com/tangerang-selatan/",
-    "https://hdmall.id/klinik-gigi/scaling-gigi-di-ini-dental-clinic",
-    "https://hdmall.id/klinik-gigi/pasang-behel-metal-standard-di-ini-dental-clinic",
-    "https://hdmall.id/klinik-gigi/bleaching-gigi-di-ini-dental-clinic",
-    "https://hdmall.id/klinik-gigi/tambal-gigi-di-indonesia-clinic-dental-bsd",
-    "https://hdmall.id/klinik-gigi/bleaching-di-mdm-laboratorium-dan-klinik"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "harga[0].min",
-      "tercatat": 249000,
-      "catatan": "ODAC: scaling Rp350.000–650.000; Orta Dental: Rp350.000 (harga promosi); HDmall Ini Dental Clinic: Rp379.050."
-    },
-    {
-      "path": "harga[1]",
-      "tercatat": {
-        "min": 392000,
-        "max": 950000
-      },
-      "catatan": "ODAC: tambal gigi mulai Rp425.000, tanpa batas atas pada halaman ini."
-    },
-    {
-      "path": "harga[2].min",
-      "tercatat": 4500000,
-      "catatan": "ODAC: behel/ortodonti Rp5.000.000–13.000.000."
-    },
-    {
-      "path": "harga[3]",
-      "tercatat": {
-        "min": 1058000,
-        "max": 3125000
-      },
-      "catatan": "Orta Dental: teeth whitening Rp1.800.000 (harga promosi); ODAC: bleaching mulai Rp3.000.000, tanpa batas atas."
-    }
+    "https://orangedentalhouse.com/tangerang-selatan/"
   ]
 }
