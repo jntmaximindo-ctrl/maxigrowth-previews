@@ -1,0 +1,18 @@
+{
+  "id": "W699",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 950000,
+      "di_sumber": "Orange Dental mencantumkan scaling mulai Rp249.000; ODAC mencantumkan Rp350.000–650.000. Angka batas atas Rp950.000 tidak terlihat pada dua sumber yang dapat dibuka.",
+      "src": "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+      "catatan": "Sumber ketiga (Maesa Dental) tidak dapat dibuka. Nilai Rp950.000 belum terverifikasi, bukan otomatis salah. Syarat tiga sumber pembanding belum terpenuhi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
+    "https://www.maesadental.com/treatment/scaling-1683902138"
+  ],
+  "kritis_ok": true
+}
