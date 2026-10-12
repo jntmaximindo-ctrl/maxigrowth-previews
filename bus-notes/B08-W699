@@ -113,5 +113,16 @@ RISET LAMA:
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
     "https://www.ortadental.id/",
     "https://orangedentalhouse.com/tangerang-selatan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].src",
+      "tercatat": [
+        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+        "https://www.ortadental.id/",
+        "https://orangedentalhouse.com/tangerang-selatan/"
+      ],
+      "catatan": "ODAC menyebut scaling Rp350.000–650.000 dan Orange Dental mulai Rp249.000; sumber ketiga Orta Dental tidak dapat dibuka sehingga syarat minimal 3 sumber pasar belum terverifikasi."
+    }
   ]
 }
