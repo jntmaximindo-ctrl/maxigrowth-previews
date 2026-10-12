@@ -1,0 +1,142 @@
+{
+  "id": "W723",
+  "hero": {
+    "judul": {
+      "id": "Panduan kunjungan ke praktik drg. Jenny Andalia Sutyono",
+      "en": "Plan a visit to drg. Jenny Andalia Sutyono"
+    },
+    "sub": {
+      "id": "Lihat lokasi praktik di Jalan Suryakencana, Bogor, dan telepon untuk memastikan jadwal konsultasi.",
+      "en": "Find the practice on Suryakencana Street in Bogor and call to confirm an appointment."
+    },
+    "cta": {
+      "id": "Lihat peta praktik",
+      "en": "View the practice location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Hubungi praktik untuk menanyakan pemeriksaan dan jadwal yang tersedia.",
+        "en": "Call the practice to ask about examinations and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pilihan perawatan setelah pemeriksaan.",
+        "en": "Discuss cavities and suitable treatment options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan diperlukan untuk menilai apakah pencabutan sesuai.",
+        "en": "An examination is needed to decide whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi kawat gigi kepada praktik.",
+        "en": "Ask the practice about braces consultations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Hubungi praktik untuk menanyakan pemeriksaan dan pilihan gigi tiruan.",
+        "en": "Call to ask about assessments and denture options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Suryakencana",
+      "en": "Suryakencana Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat lokasi, pilih hari untuk membaca jam direktori, siapkan pertanyaan konsultasi, lalu telepon untuk konfirmasi.",
+      "en": "Find the practice, check directory-listed hours, prepare your questions, and call to confirm."
+    },
+    "alasan_dipilih": "Praktik memiliki alamat dan telepon yang konsisten di direktori; fitur membantu calon pasien merencanakan kunjungan tanpa mengasumsikan nomor WhatsApp."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Suryakencana No.60, Bogor Tengah, Kota Bogor, Jawa Barat 16123.",
+        "en": "Jl. Suryakencana No.60, Central Bogor, Bogor City, West Java 16123."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Telepon 02518314853 untuk menanyakan jadwal dan layanan.",
+        "en": "Call 02518314853 to ask about appointments and services."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the practice open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 10.00–21.00, tetapi mohon konfirmasi melalui telepon sebelum datang.",
+        "en": "A directory lists Sunday hours as 10 am–9 pm. Please call to confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much does a consultation cost?"
+      },
+      "a": {
+        "id": "Tarif resmi tidak ditemukan pada sumber yang diperiksa. Silakan tanyakan melalui telepon.",
+        "en": "Official consultation fees were not available in the sources reviewed. Please call for details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi kawat gigi?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Layanan kawat gigi disebut pada direktori. Konfirmasi jadwal dan ketersediaan langsung ke praktik.",
+        "en": "Braces are mentioned in a directory listing. Please confirm availability with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Telepon praktik untuk informasi jadwal",
+    "en": "Call the practice for appointment details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dengan drg. Jenny Andalia Sutyono serta perkiraan biaya. (Nomor WhatsApp praktik belum terverifikasi; gunakan telepon terlebih dahulu.)",
+  "outreach": {
+    "wa": "Selamat siang, Ibu drg. Jenny Andalia Sutyono atau tim pengelola. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Jalan Suryakencana No.60 dan telah membuat konsep website dengan panduan kunjungan dan peta lokasi: https://maxigrowthstudio.com/drg-jenny. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Jenny Andalia Sutyono",
+    "email_isi": "Yth. drg. Jenny Andalia Sutyono dan Tim,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu calon pasien menemukan praktik di Jalan Suryakencana No.60, melihat petunjuk lokasi, serta mengonfirmasi jadwal melalui telepon.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-jenny. Proposal PDF terlampir untuk bahan peninjauan. Apabila sesuai kebutuhan praktik, kami siap mendiskusikannya lebih lanjut.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
