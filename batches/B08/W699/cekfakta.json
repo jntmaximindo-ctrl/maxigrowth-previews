@@ -1,0 +1,49 @@
+{
+  "id": "W699",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 249000,
+      "di_sumber": "ODAC: scaling Rp350.000–650.000; Orta Dental: Rp350.000 (harga promosi); HDmall Ini Dental Clinic: Rp379.050.",
+      "src": "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+      "catatan": "Batas bawah Rp249.000 tidak terlihat pada sumber yang berhasil dibuka; Orange Dental House gagal dibuka. Tidak dapat dinyatakan salah, tetapi belum terverifikasi."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "min": 392000,
+        "max": 950000
+      },
+      "di_sumber": "ODAC: tambal gigi mulai Rp425.000, tanpa batas atas pada halaman ini.",
+      "src": "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+      "catatan": "Kisaran Rp392.000–950.000 tidak dapat ditelusuri ke sumber terbuka; sumber HDmall dan Orange Dental House gagal dibuka. Belum terverifikasi."
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": 4500000,
+      "di_sumber": "ODAC: behel/ortodonti Rp5.000.000–13.000.000.",
+      "src": "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+      "catatan": "Batas bawah Rp4.500.000 tidak muncul pada sumber terbuka; HDmall dan Orange Dental House gagal dibuka. Belum terverifikasi."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "min": 1058000,
+        "max": 3125000
+      },
+      "di_sumber": "Orta Dental: teeth whitening Rp1.800.000 (harga promosi); ODAC: bleaching mulai Rp3.000.000, tanpa batas atas.",
+      "src": "https://www.ortadental.id/",
+      "catatan": "Kedua batas kisaran yang tercatat tidak dapat diverifikasi dari sumber terbuka; dua halaman HDmall gagal dibuka."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
+    "https://orangedentalhouse.com/tangerang-selatan/",
+    "https://hdmall.id/klinik-gigi/tambal-gigi-di-indonesia-clinic-dental-bsd",
+    "https://hdmall.id/klinik-gigi/pasang-behel-metal-standard-di-ini-dental-clinic",
+    "https://hdmall.id/klinik-gigi/bleaching-gigi-di-ini-dental-clinic",
+    "https://hdmall.id/klinik-gigi/bleaching-di-mdm-laboratorium-dan-klinik"
+  ],
+  "kritis_ok": true
+}

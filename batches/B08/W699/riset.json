@@ -162,5 +162,33 @@
     "https://hdmall.id/klinik-gigi/bleaching-gigi-di-ini-dental-clinic",
     "https://hdmall.id/klinik-gigi/tambal-gigi-di-indonesia-clinic-dental-bsd",
     "https://hdmall.id/klinik-gigi/bleaching-di-mdm-laboratorium-dan-klinik"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 249000,
+      "catatan": "ODAC: scaling Rp350.000–650.000; Orta Dental: Rp350.000 (harga promosi); HDmall Ini Dental Clinic: Rp379.050."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "min": 392000,
+        "max": 950000
+      },
+      "catatan": "ODAC: tambal gigi mulai Rp425.000, tanpa batas atas pada halaman ini."
+    },
+    {
+      "path": "harga[2].min",
+      "tercatat": 4500000,
+      "catatan": "ODAC: behel/ortodonti Rp5.000.000–13.000.000."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "min": 1058000,
+        "max": 3125000
+      },
+      "catatan": "Orta Dental: teeth whitening Rp1.800.000 (harga promosi); ODAC: bleaching mulai Rp3.000.000, tanpa batas atas."
+    }
   ]
 }
