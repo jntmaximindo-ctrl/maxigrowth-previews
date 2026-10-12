@@ -1,0 +1,22 @@
+{
+  "id": "W849",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "klinik assyifa pharmacon I Klinik Dokter Gigi I Klinik Dokter",
+      "di_sumber": "klinik assyifa pharmacon I Klinik Dokter Gigi I Klinik Dokter Umum I Klinik USG Kehamilan (Cek Kandungan)",
+      "src": "https://www.waze.com/id/live-map/directions/id/sulawesi-selatan/klinik-assyifa-pharmacon-i-klinik-dokter-gigi-i-klinik-dokter-umum-i-klinik-usg-kehamilan-(cek-kandungan)?to=place.ChIJXR5ayYHivi0Rsw8ky1iP2k4",
+      "catatan": "Nama pada riset terpotong dibanding nama pada Waze."
+    },
+    {
+      "path": "cabang[0].nama",
+      "tercatat": "klinik assyifa pharmacon I Klinik Dokter Gigi I Klinik Dokter",
+      "di_sumber": "klinik assyifa pharmacon I Klinik Dokter Gigi I Klinik Dokter Umum I Klinik USG Kehamilan (Cek Kandungan)",
+      "src": "https://www.waze.com/id/live-map/directions/id/sulawesi-selatan/klinik-assyifa-pharmacon-i-klinik-dokter-gigi-i-klinik-dokter-umum-i-klinik-usg-kehamilan-(cek-kandungan)?to=place.ChIJXR5ayYHivi0Rsw8ky1iP2k4",
+      "catatan": "Nama cabang terpotong."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
