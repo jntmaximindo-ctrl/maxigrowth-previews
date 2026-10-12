@@ -1,0 +1,142 @@
+{
+  "id": "W699",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Klinik Gigi Cirendeu",
+      "en": "Plan Your Visit to Klinik Gigi Cirendeu"
+    },
+    "sub": {
+      "id": "Lihat lokasi, jam tercantum, dan informasi layanan yang perlu dikonfirmasi.",
+      "en": "Find the location, listed hours, and services to confirm before visiting."
+    },
+    "cta": {
+      "id": "Lihat Petunjuk Lokasi",
+      "en": "Get Directions"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Informasi pemeriksaan awal; tanyakan jadwal dan ketersediaan sebelum berkunjung.",
+        "en": "Information about initial check-ups; confirm availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan scaling dan rincian biayanya kepada klinik.",
+        "en": "Ask the clinic about scaling availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Pilihan tindakan ditentukan setelah pemeriksaan dokter gigi.",
+        "en": "Treatment options are determined after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan rencana perawatan terlebih dahulu.",
+        "en": "Discuss assessment and treatment planning with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jadwal pemeriksaan dan tindakan yang sesuai kondisi gigi.",
+        "en": "Confirm assessment hours and whether extraction is appropriate."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu Kunjungan Cirendeu",
+      "en": "Cirendeu Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih hari, lihat jam dari direktori, buka peta, atau hubungi nomor telepon yang tercantum.",
+      "en": "Choose a day, view directory hours, open the map, or call the listed phone number."
+    },
+    "alasan_dipilih": "Alamat Blok Mekar B2 No.99, telepon 02174718597, dan jadwal Sabtu tercatat konsisten di direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Lokasi tercatat di Blok Mekar B2 No.99, Cirendeu. Gunakan petunjuk peta untuk navigasi.",
+        "en": "The listed location is Blok Mekar B2 No.99, Cirendeu. Use the map link for directions."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik klinik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin–Jumat 09.00–20.00, Sabtu 09.00–15.00, Minggu tutup. Mohon konfirmasi karena jadwal dapat berubah.",
+        "en": "Directory hours are Monday–Friday 9 am–8 pm, Saturday 9 am–3 pm, closed Sunday. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan biaya perawatan?",
+        "en": "How can I ask about treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Mintalah estimasi setelah berkonsultasi.",
+        "en": "Official fees were not available in the reviewed sources. Ask for an estimate after consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Is braces treatment available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum pada direktori pihak ketiga. Hubungi klinik untuk memastikan layanan dan jadwalnya.",
+        "en": "Braces appear in a third-party listing. Contact the clinic to confirm availability and schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terkonfirmasi. Tanyakan langsung sebelum membuat janji.",
+        "en": "Insurance arrangements have not been confirmed. Please ask the clinic before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat lokasi dan konfirmasi jadwal sebelum datang. Telepon klinik: 02174718597. Nomor WhatsApp resmi belum terverifikasi.",
+    "en": "View directions and confirm hours before visiting. Phone: 02174718597; WhatsApp is not verified."
+  },
+  "pesan_wa_default": "Halo Klinik Gigi Cirendeu, saya ingin menanyakan jadwal pemeriksaan gigi dan biaya konsultasi. Mohon informasi cara membuat janji. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Gigi Cirendeu, perkenalkan Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Blok Mekar B2 No.99 dan jam praktik sampai malam pada hari kerja. Kami telah membuat konsep website interaktif untuk klinik Bapak/Ibu, dapat dilihat di https://maxigrowthstudio.com/cirendeu. Jika berkenan, kami senang menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi Cirendeu",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Klinik Gigi Cirendeu,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami sedang mengembangkan konsep website interaktif yang membantu pasien menemukan informasi klinik dengan jelas.\n\nBerdasarkan informasi publik tentang lokasi Blok Mekar B2 No.99 dan jam praktik sampai malam pada hari kerja, kami telah menyiapkan contoh konsep khusus untuk Klinik Gigi Cirendeu: https://maxigrowthstudio.com/cirendeu. Proposal PDF juga kami lampirkan sebagai bahan pertimbangan.\n\nJika berkenan, Bapak/Ibu dapat melihatnya sewaktu-waktu dan menyampaikan masukan. Tidak ada kewajiban untuk menindaklanjuti.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
