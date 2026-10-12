@@ -1,0 +1,107 @@
+{
+ "kota": "Balikpapan",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-12",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Like Dental Care Balikpapan Baru",
+   "url": "https://likedentalcare.com/",
+   "punya_website": true,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJlwWMDedH8S0RBhbo3VYXoWA",
+   "rating": 5.0,
+   "ulasan": 1177,
+   "telepon": "0819-0501-0999",
+   "alamat": "Komplek Balikpapan Baru Blok AB5 No.37 RT 009, Damai Baru, Balikpapan Selatan, Balikpapan",
+   "skor_jadul": 0,
+   "masalah": [],
+   "sumber": [
+    "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJlwWMDedH8S0RBhbo3VYXoWA",
+    "https://likedentalcare.com/"
+   ]
+  },
+  {
+   "nama": "Klinik Henny Dental Care Batakan",
+   "url": "https://linktr.ee/hennydentalcare2023",
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJWdEdCKJF8S0RSwqIk6F8jMU",
+   "rating": 5.0,
+   "ulasan": 1371,
+   "telepon": "0817-0919-177",
+   "alamat": "Ruko Borneo Paradiso Cluster 1.1 Blok A No.6, Sepinggan, Balikpapan Selatan, Balikpapan",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website"
+   ],
+   "sumber": [
+    "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJWdEdCKJF8S0RSwqIk6F8jMU",
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1319",
+    "https://linktr.ee/hennydentalcare2023"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Like Dental Care Balikpapan Baru",
+   "rating": 5.0,
+   "ulasan": 1177,
+   "sumber": "https://likedentalcare.com/"
+  },
+  {
+   "nama": "Klinik Henny Dental Care Batakan",
+   "rating": 5.0,
+   "ulasan": 1371,
+   "sumber": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1319"
+  },
+  {
+   "nama": "Klinik Gigi Balikpapan - Sozo Dental",
+   "rating": 4.9,
+   "ulasan": 1735,
+   "sumber": "https://www.sozodental.com/"
+  },
+  {
+   "nama": "Klinik Gigi Dentes Balikpapan",
+   "rating": 4.9,
+   "ulasan": 429,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/klinik-gigi-dentes-balikpapan-klinik-dokter-gigi-terdekat-balikpapan"
+  },
+  {
+   "nama": "EASY BUKU Dental Aesthetic",
+   "rating": 4.9,
+   "ulasan": 84,
+   "sumber": "https://idalamat.com/alamat/easy-buku-dental-aesthetic-praktek-dokter-gigi-balikpapan-1063845"
+  },
+  {
+   "nama": "Dokter Gigi drg. Aulia Rahma Chamima",
+   "rating": 4.5,
+   "ulasan": 4,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJh2MqmTZE8S0RXMQ1GmDqupg"
+  },
+  {
+   "nama": "Klinik Gigi Balikpapan (Marsma R. Iswahyudi)",
+   "rating": 5.0,
+   "ulasan": 1,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJhdZzbQBF8S0RHkFsjmzjTGQ"
+  },
+  {
+   "nama": "Implan Gigi Balikpapan",
+   "rating": 5.0,
+   "ulasan": 2,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJMRUmFQBF8S0RTVrQbq-NNBk"
+  },
+  {
+   "nama": "Dokter Gigi Balikpapan (Apotek Kimia Farma)",
+   "rating": 4.6,
+   "ulasan": 21,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJsb6ITApG8S0Rh454diCVHvg"
+  },
+  {
+   "nama": "Klinik Gigi Murah",
+   "rating": 5.0,
+   "ulasan": 90,
+   "sumber": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Balikpapan&query_place_id=ChIJ91AiLn9H8S0R4GXBr2kSF9U"
+  }
+ ],
+ "catatan": "Sozo Dental dan Dentes tidak dimasukkan sebagai prospek karena merek/jaringan sudah tercantum di KNOWN-KLINIK.txt. Easy Buku memiliki alamat tidak konsisten antar direktori.",
+ "area": "balikpapan-balikpapan-selatan"
+}

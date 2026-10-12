@@ -1,0 +1,132 @@
+{
+  "id": "W840",
+  "hero": {
+    "judul": {
+      "id": "Dentetic Dental Clinic",
+      "en": "Dentetic Dental Clinic"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan kunjungan klinik gigi di Medan. Periksa rute dan konfirmasi jadwal langsung dengan klinik sebelum berkunjung.",
+      "en": "Location and visit information for a dental clinic in Medan. Check the route and confirm the schedule directly with the clinic before visiting."
+    },
+    "cta": {
+      "id": "Lihat lokasi",
+      "en": "View location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan konsultasi.",
+        "en": "Ask about examination and consultation availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan tindakan dan biayanya sebelum datang.",
+        "en": "Confirm treatment availability and fees before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan penanganan yang sesuai setelah pemeriksaan.",
+        "en": "Ask about suitable care after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan dan jadwal konsultasi terlebih dahulu.",
+        "en": "Ask about options and consultation hours first."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Perencana Kunjungan Jalan Halat",
+      "en": "Perencana Kunjungan Jalan Halat"
+    },
+    "penjelasan": {
+      "id": "Pilih hari untuk melihat jam praktik yang tercantum pada direktori dan membuka petunjuk arah. Jam perlu dikonfirmasi langsung.",
+      "en": "Select a day to see listed hours and directions; confirm the schedule with the clinic."
+    },
+    "alasan_dipilih": "Alamat Jalan Halat dan jam Minggu tercantum di direktori, tetapi kontak WhatsApp klinik belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–20.00 dan Minggu 10.00–15.00. Konfirmasi sebelum datang.",
+        "en": "Please confirm the listed hours directly with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi jadwal dan ketersediaan dokter sebelum datang.",
+        "en": "Please confirm the schedule and dentist availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang kami periksa. Tanyakan biaya sesuai hasil pemeriksaan.",
+        "en": "We could not verify an official price list. Ask the clinic for fees based on your examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum dapat dikonfirmasi. Silakan tanyakan langsung.",
+        "en": "Insurance participation has not been verified. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Are braces consultations available?"
+      },
+      "a": {
+        "id": "Perawatan ini disebut pada direktori pihak ketiga. Pastikan ketersediaan dan jadwal konsultasi langsung.",
+        "en": "This service appears in a third-party listing. Please confirm availability and consultation hours directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat rute dan konfirmasi jadwal",
+    "en": "View directions and confirm hours"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan ketersediaan layanan di Dentetic Dental Clinic. Mohon informasi, terima kasih. (Nomor WhatsApp klinik belum terverifikasi; pesan ini tidak ditautkan otomatis.)",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dentetic Dental Clinic, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi dan jam praktik klinik di Medan masih tersebar di direktori. Kami sudah menyiapkan konsep website yang bisa dilihat di https://maxigrowthstudio.com/dentetic. Bila berkenan, kami ingin meminta masukan singkat dari pihak klinik. Terima kasih. Muhammad Rizqi Tri Andika | WA 082141004400.",
+    "email_subjek": "Konsep website untuk Dentetic Dental Clinic",
+    "email_isi": "Yth. Pengelola Dentetic Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik klinik dan melihat peluang menyatukan informasi lokasi, jam praktik, serta cara menghubungi klinik dalam satu halaman yang mudah digunakan.\n\nKami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/dentetic. Proposal PDF kami lampirkan untuk memberikan gambaran rancangan dan alur pengguna.\n\nApabila sesuai, kami terbuka menerima masukan atau menjadwalkan percakapan singkat. Tidak ada kewajiban untuk melanjutkan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
