@@ -63,17 +63,16 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Scaling / pembersihan karang gigi (tercantum di agregator; konfirmasi ke klinik)",
-    "Tambal gigi (agregator; perlu konfirmasi)",
-    "Cabut gigi (agregator; perlu konfirmasi)",
-    "Kawat gigi / ortodonti (agregator; perlu konfirmasi)",
-    "Veneer (agregator; perlu konfirmasi)"
+    "Scaling / pembersihan karang gigi (direktori; konfirmasi ke klinik)",
+    "Tambal gigi (direktori; konfirmasi ke klinik)",
+    "Cabut gigi (direktori; konfirmasi ke klinik)",
+    "Kawat gigi (direktori; konfirmasi ke klinik)",
+    "Veneer (direktori; konfirmasi ke klinik)"
   ],
   "harga": [],
   "fasilitas": [
     "Parkir (direktori; perlu konfirmasi)",
-    "Toilet (direktori; perlu konfirmasi)",
-    "Janji temu (direktori; perlu konfirmasi)"
+    "Toilet (direktori; perlu konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
@@ -83,19 +82,20 @@ RISET LAMA:
     "tgl": "2026-10-12"
   },
   "keunggulan": [
-    "Alamat Blok Mekar B2 No.99 dan nomor telepon tetap 02174718597 cocok di lebih dari satu direktori.",
-    "Direktori mencantumkan jam hingga 20.00 pada hari kerja dan Sabtu hingga 15.00; jam aktual perlu dikonfirmasi."
+    "Alamat Blok Mekar B2 No.99 dan nomor telepon 02174718597 cocok di lebih dari satu direktori.",
+    "Direktori menampilkan jam buka hingga pukul 20.00 pada hari kerja dan hingga pukul 15.00 pada Sabtu; konfirmasi sebelum kunjungan."
   ],
   "situs_lama": [
-    "Tidak ditemukan situs mandiri yang memusatkan informasi kontak, jadwal, layanan, dan dokter.",
-    "Nomor WhatsApp resmi tidak tersedia pada sumber yang diperiksa; tombol WhatsApp belum dapat diaktifkan.",
-    "Tidak ditemukan daftar biaya resmi maupun jadwal dokter yang terverifikasi."
+    "Tidak ditemukan website resmi mandiri yang memusatkan lokasi, jam praktik, dan nomor telepon.",
+    "Tidak ditemukan nomor WhatsApp resmi yang dapat diverifikasi untuk aktivasi tombol WA.",
+    "Jadwal dokter dan daftar harga resmi tidak tersedia dari sumber primer yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemandu kunjungan Cirendeu: pilih hari, lihat jam direktori dan alamat Blok Mekar B2 No.99, lalu telepon nomor kantor untuk konfirmasi; tombol WhatsApp hanya muncul setelah nomor resmi terverifikasi.",
-  "catatan": "REVISI 2026-10-12: pencarian nomor WA, akun Instagram, Linktree, Google Maps, direktori dan nomor seluler terkait nama/alamat tidak menemukan nomor WhatsApp yang dapat dipastikan milik klinik. Nomor 02174718597 adalah telepon tetap; jangan ubah menjadi WA. Jangan mencampur Lya Dental Care (No.88), Happy Smile, atau Maharani Dental. CariBisnis memiliki tautan wa.me untuk fitur platform, bukan bukti nomor WA klinik. Indonesia Knowledge menampilkan snapshot 4.9/132 (2026-08-06), CariBisnis 4.9/126; bukan klaim angka ulasan live. Atribut layanan dan asuransi agregator tidak boleh dianggap konfirmasi resmi; tarif agregator bukan harga resmi klinik. Belum ditemukan tiga sumber harga pasar Tangerang Selatan yang layak untuk semua jenis tindakan sehingga harga tetap []. Jangan mengaktifkan tombol WA tanpa nomor resmi. Tautan konsep dan PDF proposal harus diperiksa sebelum outreach.",
+  "ide_fitur_khas": "Pemandu kunjungan Cirendeu: pemilih hari, informasi jam dari direktori, petunjuk lokasi Blok Mekar B2 No.99, dan tombol telepon; tombol WhatsApp ditahan sampai nomor terkonfirmasi.",
+  "catatan": "REVISI: nomor telepon tetap 02174718597 terkonfirmasi oleh Indonesia Knowledge, AlamatSehat dan CariBisnis. Ini nomor telepon kabel, bukan bukti WhatsApp; wa tetap null. Jangan mencampur nomor Lya Dental Care No.88, Happy Smile, Dental PresiDENT atau klinik lain di Cirendeu. Jumlah ulasan 132 adalah snapshot Indonesia Knowledge per 2026-08-06, CariBisnis menampilkan 126, pencarian bisnis Google Maps kini 134; jangan klaim live. Dokter yang disebut dalam kutipan ulasan tidak cukup untuk mengonfirmasi nama lengkap/gelar. Harga CariBisnis tidak dinyatakan tarif resmi dan tiga sumber harga pasar sebanding belum terpenuhi; harga=[].",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
-    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1"
+    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1",
+    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M"
   ]
 }
