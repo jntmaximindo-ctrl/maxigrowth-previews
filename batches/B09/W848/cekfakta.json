@@ -1,0 +1,15 @@
+{
+  "id": "W848",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Pondok Cilegon Indah Blok B14 No14,Cilegon",
+      "di_sumber": "Jl. Pondok Cilegon Indah No.B 14 No.12, RT.005/RW.006, Kedaleman, Cibeber, Kota Cilegon",
+      "src": "https://idalamat.com/alamat/klinik-gigi-identik-1063041",
+      "catatan": "Konflik antarsumber: sumber asli alamat (Chubb, Juni 2026) benar-benar mencantumkan B14 No.14, sedangkan IDalamat mencantumkan No.12. Bukan salah salin dari Chubb; alamat fisik belum dapat dipastikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

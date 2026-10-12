@@ -70,5 +70,12 @@
   "sumber": [
     "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/rumah-sakit-rekanan-pemegang-kartu-admedika-group-june-2026.pdf",
     "https://idalamat.com/alamat/klinik-gigi-identik-1063041"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Pondok Cilegon Indah Blok B14 No14,Cilegon",
+      "catatan": "Jl. Pondok Cilegon Indah No.B 14 No.12, RT.005/RW.006, Kedaleman, Cibeber, Kota Cilegon"
+    }
   ]
 }
