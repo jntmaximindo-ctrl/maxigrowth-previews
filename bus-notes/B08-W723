@@ -67,7 +67,7 @@ RISET LAMA:
         "v": "drg. Jenny Andalia Sutyono",
         "src": "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
         "tgl": "2026-10-13",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "spesialis": {
         "v": null,
@@ -85,11 +85,11 @@ RISET LAMA:
     }
   ],
   "layanan": [
-    "Pemeriksaan dan konsultasi gigi (perlu konfirmasi praktik)",
-    "Tambal gigi (menurut direktori; perlu konfirmasi)",
-    "Cabut gigi (menurut direktori; perlu konfirmasi)",
-    "Kawat gigi (menurut direktori; perlu konfirmasi)",
-    "Gigi tiruan (menurut direktori; perlu konfirmasi)"
+    "Pemeriksaan dan konsultasi gigi (jenis layanan umum; konfirmasi ke praktik)",
+    "Tambal gigi (direktori; perlu konfirmasi)",
+    "Cabut gigi (direktori; perlu konfirmasi)",
+    "Kawat gigi (direktori; perlu konfirmasi)",
+    "Gigi tiruan (direktori; perlu konfirmasi)"
   ],
   "harga": [],
   "fasilitas": [],
@@ -101,18 +101,19 @@ RISET LAMA:
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Alamat praktik di Jalan Suryakencana No.60 dan nomor telepon tercantum pada dua direktori.",
-    "Jam Minggu 10.00–21.00 tercantum pada direktori; perlu konfirmasi kepada pengelola."
+    "Nama praktik, alamat Jalan Suryakencana No.60, dan telepon tetap tercantum pada lebih dari satu direktori.",
+    "Direktori mencantumkan jam praktik hari Minggu 10.00–21.00; wajib dikonfirmasi sebelum kunjungan."
   ],
   "situs_lama": [
-    "Tidak ditemukan situs resmi mandiri yang memuat lokasi, telepon, dan petunjuk kunjungan.",
-    "Belum ada nomor WhatsApp resmi yang dapat diverifikasi untuk tombol pemesanan.",
-    "Jadwal dokter serta tarif resmi praktik tidak ditemukan pada sumber yang diperiksa."
+    "Belum ditemukan situs resmi mandiri dengan informasi lokasi, kontak, dan petunjuk kunjungan.",
+    "Nomor WhatsApp resmi praktik belum terverifikasi; tombol WhatsApp tidak boleh diarahkan ke nomor pribadi tanpa bukti sebagai kontak bisnis.",
+    "Jadwal praktik dokter dan tarif resmi belum dipublikasikan dalam sumber yang diverifikasi."
   ],
-  "ide_fitur_khas": "Panduan Kunjungan Suryakencana: pilih hari untuk melihat jam dari direktori dengan label perlu konfirmasi, tampilkan peta dan tombol telepon tetap; jangan aktifkan tombol WhatsApp tanpa nomor resmi.",
-  "catatan": "REVISI: Telusuri ulang kontak pada IDalamat dan CariBisnis; keduanya mencantumkan telepon tetap 02518314853, bukan nomor WhatsApp. Label booking via WhatsApp pada direktori tidak memberikan nomor tujuan praktik. WhatsApp tetap null. Angka 4.9/122 adalah snapshot agregator CariBisnis, bukan verifikasi real-time Google Maps. Klaim layanan, jam, fasilitas dan asuransi dari direktori belum disahkan oleh pengelola; jangan tampilkan sebagai kepastian. Tidak ada harga resmi; harga pasar tidak diisi karena tiga pembanding per perawatan belum diverifikasi.",
+  "ide_fitur_khas": "Panduan Kunjungan Suryakencana: pilih hari, tampilkan jam yang terdaftar di direktori dengan catatan konfirmasi, peta lokasi, dan tombol telepon tetap. Tampilkan kontak WhatsApp hanya setelah disahkan pengelola praktik.",
+  "catatan": "REVISI 2026-10-13: Pencarian nomor WhatsApp bisnis pada direktori, hasil web dan profil peta tidak menemukan nomor WA resmi. Telepon tetap 02518314853 terkonfirmasi di IDalamat dan CariBisnis; tidak dikonversi menjadi WhatsApp. Ada nomor kontak individu dalam lampiran survei publik pemerintah, tetapi itu BUKAN nomor kontak praktik dan tidak dipakai atau dipublikasikan. Rating 4.9/122 merupakan snapshot agregator CariBisnis, bukan data Google Maps real-time. Jam, layanan dan asuransi dari direktori belum dikonfirmasi pengelola. Tidak ditemukan harga resmi; harga pasar kosong karena minimal tiga pembanding per perawatan belum diverifikasi.",
   "sumber": [
     "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
-    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1"
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+    "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/"
   ]
 }
