@@ -1,0 +1,152 @@
+{
+  "id": "W723",
+  "hero": {
+    "judul": {
+      "id": "drg. Jenny Andalia Sutyono",
+      "en": "drg. Jenny Andalia Sutyono"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan lokasi praktik di Suryakencana, Bogor. Konfirmasi jadwal serta layanan sebelum datang.",
+      "en": "Visit information and directions for a dental practice in Suryakencana, Bogor. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Lihat Petunjuk Arah",
+      "en": "Get Directions"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Bicarakan keluhan dan rencana pemeriksaan bersama tenaga medis.",
+        "en": "Discuss your concerns and the next steps with the dental team."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Ask about options for treating cavities after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi sebelum menentukan tindakan.",
+        "en": "The dentist assesses the tooth before recommending treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan rencana perawatan sesuai kebutuhan.",
+        "en": "Ask about an initial assessment and a treatment plan suited to your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan pemeriksaan yang diperlukan.",
+        "en": "Ask about availability and the assessment needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Suryakencana",
+      "en": "Suryakencana Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan untuk melihat jam yang tercatat di direktori, membuka peta, atau menghubungi nomor telepon tetap. Jadwal perlu dikonfirmasi sebelum berangkat.",
+      "en": "Select a day to view directory-listed hours, open directions, or call the landline. Please confirm the schedule before traveling."
+    },
+    "alasan_dipilih": "Direktori mencatat layanan hari Minggu; panduan hari membantu pengunjung merencanakan kunjungan tanpa menganggap jadwal sebagai informasi resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Lokasinya tercatat di Jl. Suryakencana No.60, RT.01/RW.08, Bogor Tengah, Kota Bogor, Jawa Barat 16123. Gunakan peta untuk memeriksa rute.",
+        "en": "The listed address is Jl. Suryakencana No.60, RT.01/RW.08, Bogor Tengah, Kota Bogor, Jawa Barat 16123. Check the map for directions."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin–Jumat 09.00–21.00, Sabtu 09.00–22.00, dan Minggu 10.00–21.00. Mohon konfirmasi sebelum datang.",
+        "en": "A directory lists Monday–Friday 9 a.m.–9 p.m., Saturday 9 a.m.–10 p.m., and Sunday 10 a.m.–9 p.m. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Silakan hubungi nomor telepon yang tercatat: 02518314853. Nomor WhatsApp resmi belum terverifikasi.",
+        "en": "Please call the listed number: 02518314853. An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat diverifikasi. Tanyakan perkiraan biaya setelah menyampaikan kebutuhan dan sebelum tindakan.",
+        "en": "Official fees have not been verified. Ask for a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Mohon tanyakan langsung kepada pengelola.",
+        "en": "Insurance arrangements have not been verified. Please ask the practice directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Layanan ini disebut dalam direktori pihak ketiga, tetapi ketersediaan dan jadwal perlu dikonfirmasi.",
+        "en": "A third-party directory mentions braces, but availability and scheduling need confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Konfirmasi",
+    "en": "Call to Confirm Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan ketersediaan layanan di drg. Jenny Andalia Sutyono. Mohon informasi untuk rencana kunjungan. Terima kasih. (Teks ini belum dihubungkan ke nomor WA karena kontak WA resmi belum terverifikasi.)",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Jenny Andalia Sutyono. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik drg. Jenny Andalia Sutyono di Jalan Suryakencana. Kami menyiapkan konsep website yang menampilkan lokasi dan panduan jam kunjungan. Bapak/Ibu dapat melihatnya di https://maxigrowthstudio.com/drg-jenny. Bila berkenan, saya dapat mengirim rincian konsepnya. Terima kasih. Salam, Muhammad Rizqi Tri Andika — Maxi Growth Studio, 082141004400.",
+    "email_subjek": "Konsep website untuk drg. Jenny Andalia Sutyono",
+    "email_isi": "Yth. Pengelola drg. Jenny Andalia Sutyono,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk drg. Jenny Andalia Sutyono yang berfokus pada informasi lokasi, jam kunjungan, dan cara menghubungi praktik. Informasi yang belum terverifikasi kami tandai untuk dikonfirmasi terlebih dahulu.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-jenny. Proposal PDF terlampir untuk bahan pertimbangan. Bila berkenan, kami siap menerima masukan atau menjelaskan alur pengembangannya.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
