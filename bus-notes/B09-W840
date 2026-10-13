@@ -63,15 +63,15 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
-    "Scaling / pembersihan karang gigi (tercantum profil pihak ketiga; perlu konfirmasi)",
-    "Tambal gigi (tercantum profil pihak ketiga; perlu konfirmasi)",
-    "Perawatan saluran akar (tercantum profil pihak ketiga; perlu konfirmasi)",
-    "Kawat gigi (tercantum profil pihak ketiga; perlu konfirmasi)"
+    "Pemeriksaan gigi (direktori pihak ketiga; perlu konfirmasi)",
+    "Scaling / pembersihan karang gigi (direktori pihak ketiga; perlu konfirmasi)",
+    "Tambal gigi (direktori pihak ketiga; perlu konfirmasi)",
+    "Perawatan saluran akar (direktori pihak ketiga; perlu konfirmasi)",
+    "Kawat gigi (direktori pihak ketiga; perlu konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling (pembanding pasar Medan; bukan tarif Dentetic Dental Clinic, mencakup harga pemesanan dan harga normal historis)",
+      "perawatan": "Scaling (pembanding pasar Medan; bukan tarif Dentetic Dental Clinic)",
       "jenis": "kisaran_pasar",
       "min": 144000,
       "max": 500000,
@@ -83,35 +83,35 @@ RISET LAMA:
     }
   ],
   "fasilitas": [
-    "Toilet (tercantum direktori; perlu konfirmasi)",
-    "Janji temu (tercantum direktori; perlu konfirmasi)"
+    "Toilet (direktori; perlu konfirmasi)",
+    "Janji temu (direktori; perlu konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
     "rating": 5.0,
-    "ulasan": 140,
-    "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
+    "ulasan": 207,
+    "src": "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY",
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Lokasi di Jalan Halat, Pasar Merah Timur, Medan Kota.",
-    "Jam Minggu 10.00–15.00 tercantum pada direktori, sedangkan Senin–Sabtu 09.00–20.00; konfirmasi sebelum berkunjung."
+    "Lokasi klinik di Jalan Halat, Pasar Merah Timur, Medan Kota tercatat pada profil bisnis.",
+    "Jam Minggu 10.00–15.00 dan Senin–Sabtu 09.00–20.00 tercantum di direktori; perlu konfirmasi sebelum kunjungan."
   ],
   "situs_lama": [
-    "Situs resmi mandiri yang menampilkan kontak dan jadwal tidak ditemukan.",
-    "Tautan Instagram yang tertera adalah undangan kontak, bukan profil publik dengan identitas yang dapat diverifikasi.",
-    "Nomor telepon dan WhatsApp resmi tidak terverifikasi; tombol chat tidak boleh diaktifkan.",
-    "Dokter dan tarif resmi klinik belum terverifikasi."
+    "Situs mandiri resmi yang memuat kontak dan jadwal tidak ditemukan.",
+    "Tautan Instagram pada surat tugas merupakan undangan kontak, bukan profil publik yang dapat diverifikasi.",
+    "Nomor telepon maupun WhatsApp resmi belum ditemukan; tombol pesan tidak boleh diarahkan ke nomor agregator.",
+    "Nama dokter dan tarif resmi klinik belum dapat diverifikasi."
   ],
-  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari termasuk Minggu, lihat jam dari direktori berlabel perlu konfirmasi, dan buka petunjuk arah; tanpa tombol WhatsApp sebelum kontak resmi tersedia.",
-  "catatan": "REVISI 13 Oktober 2026: tidak ditemukan nomor telepon atau WhatsApp yang dapat diverifikasi milik Dentetic Dental Clinic. Nomor +61 di SmileJet adalah layanan SmileJet, bukan klinik. Instagram hanya berupa tautan undangan dan tidak memuat akun publik terverifikasi. Rating 5,0/140 berasal dari snapshot Indonesia Knowledge terakhir dicek 6 Agustus 2026, bukan Google Maps live; SmileJet menampilkan 5,0/61 ulasan agregat. Dokter yang disebut di ulasan tidak ditetapkan sebagai staf terverifikasi. Harga scaling Rp144.000 berasal dari TelkoMedika Medan, Rp199.000/500.000 dari Traveloka Sozo Dental, dan harga normal historis Rp150.000–250.000 dari Klinik Simpang Pemda; semua pembanding klinik lain, bukan tarif Dentetic. Tidak ada tiga pembanding yang diperiksa untuk layanan lain.",
+  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari termasuk Minggu, tampilkan jam dari direktori berlabel perlu konfirmasi, dan buka petunjuk arah; jangan aktifkan tombol telepon atau WhatsApp sebelum kontak resmi ditemukan.",
+  "catatan": "REVISI 13-10-2026: Pencarian ulang Google Maps, Instagram, direktori, dan SmileJet tidak menemukan nomor WA/telepon yang dapat diatribusikan secara pasti ke Dentetic. Nomor +61 pada SmileJet adalah milik SmileJet, bukan klinik. Tautan Instagram hanya undangan kontak. Rating 5,0 dan 207 ulasan berasal dari profil bisnis saat pemeriksaan; snapshot Indonesia Knowledge 140 dan SmileJet 61 berbeda waktu/sumber. Nama Laras dari ulasan bukan bukti gelar atau staf sehingga dokter dikosongkan. Harga scaling pembanding Medan: TelkoMedika Rp144.000 (halaman saat dibuka), Sozo Rp199.000–500.000, Simpang Pemda harga normal historis Rp150.000–250.000; bukan tarif Dentetic. Harga tindakan lain tidak diisi tanpa tiga sumber pembanding kota yang diverifikasi.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",
     "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY",
-    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
-    "https://www.kliniksimpangpemda.com/artikel/90a42e64-3148-4893-b939-029604c76888"
+    "https://www.kliniksimpangpemda.com/artikel/90a42e64-3148-4893-b939-029604c76888",
+    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx"
   ]
 }
