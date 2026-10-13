@@ -1,0 +1,152 @@
+{
+  "id": "W840",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Dentetic Dental Clinic",
+      "en": "Plan Your Visit to Dentetic Dental Clinic"
+    },
+    "sub": {
+      "id": "Temukan lokasi di Jalan Halat, Medan, lihat jam yang tercantum di direktori, dan konfirmasikan jadwal sebelum datang.",
+      "en": "Find the clinic in Jalan Halat, Medan, check directory-listed hours, and confirm the schedule before visiting."
+    },
+    "cta": {
+      "id": "Lihat Lokasi dan Jam",
+      "en": "View Location and Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan pilihan perawatan kepada tim klinik.",
+        "en": "Ask the clinic about initial examinations and care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Ketersediaan scaling perlu dikonfirmasi sebelum kunjungan.",
+        "en": "Please confirm scaling availability before your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan sesuai pemeriksaan dokter.",
+        "en": "Ask about fillings based on a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan perawatan saluran akar dengan dokter.",
+        "en": "Discuss whether root canal care may be appropriate with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi dan penanganan kawat gigi.",
+        "en": "Ask about braces consultations and availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan Jalan Halat",
+      "en": "Plan Your Jalan Halat Visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan untuk melihat jam yang tercantum pada direktori. Jadwal dapat berubah, jadi pastikan kembali kepada klinik. Gunakan petunjuk arah untuk menuju lokasi.",
+      "en": "Choose a day to view the hours listed in a public directory. Hours may change, so confirm with the clinic before traveling. Use directions to find the location."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam pada hari Minggu; fitur membantu pasien merencanakan hari dan rute sambil menegaskan perlunya konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–20.00 dan Minggu 10.00–15.00. Mohon konfirmasi sebelum datang.",
+        "en": "A directory lists Monday–Saturday 9 am–8 pm and Sunday 10 am–3 pm. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menemukan lokasi klinik?",
+        "en": "How can I find the clinic?"
+      },
+      "a": {
+        "id": "Gunakan tombol petunjuk arah pada halaman lokasi.",
+        "en": "Use the directions button on the location page."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan perawatan?",
+        "en": "How much do dental visits and treatments cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat kami konfirmasi. Tanyakan perkiraan biaya langsung kepada klinik sebelum tindakan.",
+        "en": "Official prices have not been confirmed. Please ask the clinic for a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia. Mohon konfirmasi kepada pihak klinik.",
+        "en": "Insurance participation has not been verified. Please check directly with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan layanan janji temu, tetapi prosedur reservasi perlu dikonfirmasi terlebih dahulu.",
+        "en": "A public directory lists appointments, but booking arrangements should be confirmed with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan behel atau perawatan anak tersedia?",
+        "en": "Are braces or pediatric dental services available?"
+      },
+      "a": {
+        "id": "Ketersediaan perawatan dan dokter yang menangani perlu ditanyakan langsung kepada klinik.",
+        "en": "Please confirm treatment availability and the attending dentist directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Periksa Jam dan Rute Kunjungan",
+    "en": "Check Hours and Directions"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal dan ketersediaan perawatan di Dentetic Dental Clinic. Apakah saya bisa mendapat informasi lebih lanjut? (Nomor WhatsApp klinik belum terverifikasi; pesan ini tidak ditautkan ke nomor apa pun.)",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu pengelola Dentetic Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi lokasi dan jadwal klinik yang tercantum di direktori publik. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/dentetic. Apabila berkenan, Bapak/Ibu dapat meninjaunya saat ada waktu. Terima kasih. WA saya: 082141004400.",
+    "email_subjek": "Konsep website untuk Dentetic Dental Clinic",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Dentetic Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi dan jam kunjungan Dentetic Dental Clinic yang tersedia di direktori publik. Untuk membantu calon pasien menemukan informasi praktis, kami telah menyiapkan konsep website yang dapat ditinjau melalui https://maxigrowthstudio.com/dentetic.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Jika berkenan, kami siap menerima masukan mengenai kebutuhan informasi dan identitas klinik. Tidak ada kewajiban untuk melanjutkan pembicaraan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
