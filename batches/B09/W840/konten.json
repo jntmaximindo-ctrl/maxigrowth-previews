@@ -1,0 +1,152 @@
+{
+  "id": "W840",
+  "hero": {
+    "judul": {
+      "id": "Panduan Kunjungan Gigi di Jalan Halat",
+      "en": "Your Dental Visit Guide on Jalan Halat"
+    },
+    "sub": {
+      "id": "Lihat lokasi Dentetic Dental Clinic di Medan dan jam yang tercantum pada direktori. Konfirmasi sebelum berkunjung.",
+      "en": "Find Dentetic Dental Clinic in Medan and check directory-listed hours. Please confirm before visiting."
+    },
+    "cta": {
+      "id": "Buka Rute Klinik",
+      "en": "Get Directions"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan jadwal dokter sebelum berkunjung.",
+        "en": "Ask about examination availability and dentist schedules before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan apakah scaling tersedia dan berapa tarifnya.",
+        "en": "Check whether scaling is available and ask for the current fee."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pilihan penanganan untuk gigi berlubang.",
+        "en": "Ask about assessment and care options for a cavity."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah perawatan saluran akar tersedia dan memerlukan beberapa kunjungan.",
+        "en": "Ask whether root canal care is available and how many visits may be needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi untuk susunan gigi.",
+        "en": "Ask whether consultations for teeth alignment are available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Perencana Kunjungan Jalan Halat",
+      "en": "Jalan Halat Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari, periksa jam dari direktori, lalu buka peta untuk melihat rute ke Jalan Halat. Pastikan jam langsung ke klinik.",
+      "en": "Select a day, check directory-listed hours, and open directions to Jalan Halat. Confirm the hours directly with the clinic."
+    },
+    "alasan_dipilih": "Lokasi Jalan Halat dan jam Minggu tercantum di direktori, sementara nomor kontak resmi belum dapat diverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Dentetic Dental Clinic?",
+        "en": "Where is Dentetic Dental Clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan HMCR+W9C, Jalan Halat, Pasar Merah Timur, Medan Kota.",
+        "en": "The directory lists HMCR+W9C, Jalan Halat, Pasar Merah Timur, Medan Kota."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 10.00–15.00. Mohon konfirmasi sebelum berangkat.",
+        "en": "A directory lists Sunday hours as 10 AM–3 PM. Please confirm before leaving."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa klinik buka pada hari kerja?",
+        "en": "What are the weekday hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–20.00. Jadwal dapat berubah.",
+        "en": "A directory lists Monday–Saturday 9 AM–8 PM. Hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "What does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif Dentetic belum terverifikasi. Tiga penyedia lain di Medan menampilkan harga mulai Rp144.000 hingga Rp461.500; biaya di Dentetic dapat berbeda.",
+        "en": "Dentetic’s own fee is unverified. Three other Medan providers list prices from Rp144,000 to Rp461,500; Dentetic’s fees may differ."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Nomor telepon dan WhatsApp resmi belum dapat diverifikasi. Periksa kanal resmi klinik sebelum mengirim data pribadi.",
+        "en": "An official phone or WhatsApp number has not been verified. Check the clinic’s official channels before sharing personal information."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Tanyakan langsung kepada pihak klinik.",
+        "en": "Insurance arrangements have not been verified. Please confirm directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Buka peta untuk menemukan lokasi, lalu konfirmasikan jadwal dengan klinik.",
+    "en": "Open the map for directions, then confirm the schedule with the clinic."
+  },
+  "pesan_wa_default": "Halo Dentetic Dental Clinic, saya ingin menanyakan jadwal dan layanan pemeriksaan gigi. Mohon informasi, terima kasih. (Nomor WhatsApp resmi belum terverifikasi; jangan aktifkan tombol kirim.)",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Dentetic Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi klinik di Jalan Halat, Medan, dan menyiapkan konsep website dengan panduan jam serta rute kunjungan. Konsepnya dapat dilihat di https://maxigrowthstudio.com/dentetic. Bila berkenan, kami siap menerima koreksi informasi dan masukan. Terima kasih.",
+    "email_subjek": "Konsep Website untuk Dentetic Dental Clinic",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Dentetic Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pasien melihat lokasi Dentetic Dental Clinic di Jalan Halat, Medan, serta panduan hari dan jam kunjungan. Informasi yang bersumber dari direktori kami tandai agar dapat dikonfirmasi oleh pihak klinik.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/dentetic. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka untuk koreksi data dan masukan.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
