@@ -1,0 +1,53 @@
+{
+ "kota": "Palu",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-14",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Praktek drg. Ratih Apriani (Casa Dental Care) — nama CASA Dental Care tercantum pada KNOWN-KLINIK",
+   "rating": 4.9,
+   "ulasan": 204,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "Praktek Dokter Gigi Herlina Hafid",
+   "rating": 4.5,
+   "ulasan": 86,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "NAF DENTAL CARE",
+   "rating": 4.9,
+   "ulasan": 77,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "Fida Medika",
+   "rating": 4.2,
+   "ulasan": 38,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "MAROFIAND DENTAL CARE",
+   "rating": 3.7,
+   "ulasan": 27,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "Klinik threeG Dental Care",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu"
+  },
+  {
+   "nama": "Lantagi Dental Care (alamat sumber tidak konsisten dengan lokasi saat ini)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://idalamat.com/alamat/1064101/lantagi-dental-care-palu-sulawesi-tengah"
+  }
+ ],
+ "catatan": "Lima pencarian web terpisah dilakukan khusus Palu Barat (klinik gigi, dokter gigi, praktik drg, dental clinic, Halodoc/Alodokter). Tujuh kandidat dibaca dari halaman sumber yang dibuka; halaman direktori kota memuat rating dan jumlah ulasan. Casa Dental Care memenuhi angka 4.9/204 tetapi dikeluarkan dari hasil karena nama CASA Dental Care sudah ada dalam KNOWN-KLINIK.txt (belum bisa memastikan apakah cabang sama, sehingga konservatif menghindari duplikasi). Herlina 4.5/86, NAF 4.9/77, Fida 4.2/38, Marofiand 3.7/27 tidak memenuhi dua ambang. ThreeG dan Lantagi tidak memiliki angka ulasan yang dapat dipastikan pada sumber web yang dibuka, maka null. Lantagi memiliki perbedaan alamat/distrik antara direktori lama dan listing lain sehingga tidak dimasukkan. Tidak menghubungi klinik.",
+ "area": "palu-palu-barat"
+}
