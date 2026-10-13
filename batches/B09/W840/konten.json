@@ -1,0 +1,142 @@
+{
+  "id": "W840",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Jalan Halat, Medan",
+      "en": "Dental Care on Jalan Halat, Medan"
+    },
+    "sub": {
+      "id": "Kenali pilihan konsultasi, informasi lokasi, dan rencana kunjungan ke Dentetic Dental Clinic. Konfirmasi layanan dan jadwal sebelum datang.",
+      "en": "Explore consultation options, location details, and visit planning for Dentetic Dental Clinic. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Lihat Rute dan Jam",
+      "en": "View Directions and Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Ceritakan keluhan Anda saat konsultasi. Tanyakan ketersediaan pemeriksaan kepada klinik sebelum datang.",
+        "en": "Discuss your concerns during a consultation. Please check appointment availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Scaling membantu membersihkan karang gigi. Kesesuaian tindakan dan biaya ditentukan setelah pemeriksaan.",
+        "en": "Scaling removes tartar buildup. Treatment suitability and fees depend on an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan gigi berlubang dan pilihan perawatan yang sesuai kondisi Anda.",
+        "en": "Ask about assessing cavities and the treatment options suitable for your teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Kawat Gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi susunan gigi, pilihan perawatan, dan kebutuhan kunjungan lanjutan dengan dokter.",
+        "en": "Discuss tooth alignment, treatment options, and follow-up appointments with a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan Jalan Halat",
+      "en": "Plan Your Jalan Halat Visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari untuk melihat jam yang tercantum pada direktori, lalu buka rute ke klinik. Jadwal perlu dikonfirmasi langsung; tombol pesan baru diaktifkan setelah kontak resmi terverifikasi.",
+      "en": "Choose a day to view hours listed by a directory, then open directions to the clinic. Hours require confirmation, and messaging will be enabled only after an official contact is verified."
+    },
+    "alasan_dipilih": "Profil direktori menunjukkan lokasi Jalan Halat dan perbedaan jam Minggu (10.00–15.00) dengan Senin–Sabtu (09.00–20.00). Fitur memudahkan orientasi tanpa membuat klaim ketersediaan jadwal langsung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Dentetic Dental Clinic?",
+        "en": "Where is Dentetic Dental Clinic located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan lokasi di Jalan Halat, Pasar Merah Timur, Medan Kota. Gunakan peta untuk petunjuk arah.",
+        "en": "The directory lists the clinic on Jalan Halat, East Pasar Merah, Medan Kota. Use the map for directions."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka pada hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Menurut direktori, Minggu pukul 10.00–15.00 dan Senin–Sabtu pukul 09.00–20.00. Konfirmasi sebelum berkunjung.",
+        "en": "A directory lists Sunday hours as 10 a.m.–3 p.m. and Monday–Saturday as 9 a.m.–8 p.m. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif resmi Dentetic belum terverifikasi. Biaya ditanyakan langsung kepada klinik setelah pemeriksaan.",
+        "en": "Dentetic’s official scaling fee has not been verified. Please ask the clinic for an estimate after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Does the clinic accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Informasi penerimaan asuransi belum terverifikasi. Mohon tanyakan langsung kepada pihak klinik.",
+        "en": "Insurance acceptance has not been verified. Please check directly with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Sumber pihak ketiga menyebut perawatan ortodonti. Ketersediaan dokter dan pilihan tindakan perlu dikonfirmasi langsung.",
+        "en": "A third-party listing mentions orthodontic care. Please confirm dentist availability and treatment options with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak-anak dapat diperiksa?",
+        "en": "Can children receive dental check-ups?"
+      },
+      "a": {
+        "id": "Belum ada jadwal layanan gigi anak yang terverifikasi. Tanyakan usia pasien dan ketersediaan dokter saat membuat janji.",
+        "en": "A verified pediatric schedule is not available. Please ask about age requirements and dentist availability when arranging a visit."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat lokasi dan siapkan pertanyaan sebelum berkunjung",
+    "en": "View the location and prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo Dentetic Dental Clinic, saya ingin menanyakan jadwal konsultasi gigi, layanan yang tersedia, dan estimasi biaya. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Dentetic Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat klinik berlokasi di Jalan Halat, Medan, dengan jam Minggu yang tercantum berbeda dari hari biasa. Kami sudah membuat konsep website dengan panduan jadwal dan lokasi untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/dentetic. Silakan ditinjau bila berkenan. Terima kasih. Muhammad Rizqi Tri Andika — Maxi Growth Studio.",
+    "email_subjek": "Konsep Website untuk Dentetic Dental Clinic",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Dentetic Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat Dentetic Dental Clinic berlokasi di Jalan Halat, Medan. Informasi direktori juga menunjukkan perbedaan jam layanan pada hari Minggu.\n\nKami telah menyiapkan konsep website yang menampilkan informasi lokasi, panduan kunjungan, dan penjelasan layanan yang mudah dipahami. Konsepnya dapat Bapak/Ibu lihat di https://maxigrowthstudio.com/dentetic. Proposal PDF kami lampirkan untuk bahan pertimbangan.\n\nApabila berkenan, kami terbuka untuk menerima masukan atau berdiskusi mengenai kebutuhan website klinik. Tidak perlu ada keputusan saat ini.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWhatsApp: 082141004400\nEmail: info@maxigrowthstudio.com"
+  }
+}
