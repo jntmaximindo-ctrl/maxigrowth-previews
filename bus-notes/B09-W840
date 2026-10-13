@@ -63,7 +63,7 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan gigi (tercantum profil pihak ketiga; perlu konfirmasi)",
+    "Pemeriksaan gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
     "Scaling / pembersihan karang gigi (tercantum profil pihak ketiga; perlu konfirmasi)",
     "Tambal gigi (tercantum profil pihak ketiga; perlu konfirmasi)",
     "Perawatan saluran akar (tercantum profil pihak ketiga; perlu konfirmasi)",
@@ -71,7 +71,7 @@ RISET LAMA:
   ],
   "harga": [
     {
-      "perawatan": "Scaling (pembanding pasar Medan, bukan tarif Dentetic Dental Clinic; termasuk harga pemesanan dan harga normal historis)",
+      "perawatan": "Scaling (pembanding pasar Medan; bukan tarif Dentetic Dental Clinic, mencakup harga pemesanan dan harga normal historis)",
       "jenis": "kisaran_pasar",
       "min": 144000,
       "max": 500000,
@@ -95,16 +95,16 @@ RISET LAMA:
   },
   "keunggulan": [
     "Lokasi di Jalan Halat, Pasar Merah Timur, Medan Kota.",
-    "Jam Minggu 10.00–15.00 serta Senin–Sabtu 09.00–20.00 tercantum di direktori; konfirmasi sebelum berkunjung."
+    "Jam Minggu 10.00–15.00 tercantum pada direktori, sedangkan Senin–Sabtu 09.00–20.00; konfirmasi sebelum berkunjung."
   ],
   "situs_lama": [
-    "Situs resmi mandiri dengan kontak dan jadwal tidak ditemukan.",
-    "Tautan Instagram adalah undangan kontak, bukan profil publik yang dapat diverifikasi.",
-    "Nomor telepon dan WhatsApp resmi tidak terverifikasi; tombol WhatsApp jangan diaktifkan.",
-    "Nama dokter dan tarif resmi klinik tidak ditemukan pada sumber yang diperiksa."
+    "Situs resmi mandiri yang menampilkan kontak dan jadwal tidak ditemukan.",
+    "Tautan Instagram yang tertera adalah undangan kontak, bukan profil publik dengan identitas yang dapat diverifikasi.",
+    "Nomor telepon dan WhatsApp resmi tidak terverifikasi; tombol chat tidak boleh diaktifkan.",
+    "Dokter dan tarif resmi klinik belum terverifikasi."
   ],
-  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari termasuk Minggu untuk melihat jam menurut direktori dan petunjuk arah; tampilkan peringatan konfirmasi jadwal. Tombol WhatsApp disembunyikan sampai nomor resmi terverifikasi.",
-  "catatan": "REVISI: pencarian 13 Oktober 2026 di direktori, Google Maps, Instagram dan SmileJet belum menghasilkan nomor telepon atau WhatsApp resmi yang dapat dipastikan milik Dentetic Dental Clinic. Nomor +61 pada SmileJet adalah nomor layanan SmileJet, bukan klinik. Tautan Instagram undangan tidak mengungkap nama akun publik sehingga instagram.v null. Angka 5.0/140 adalah snapshot Indonesia Knowledge (last checked 2026-08-06), bukan live Google Maps; SmileJet menampilkan 5.0/61 agregat. Nama dokter dari cuplikan ulasan tidak dijadikan identitas dokter terverifikasi. Harga scaling merupakan pembanding TelkoMedika, Sozo Dental, dan Simpang Pemda (normal historis 2025), bukan tarif Dentetic. Perawatan lain tidak diberi harga karena belum ada tiga pembanding yang diperiksa.",
+  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari termasuk Minggu, lihat jam dari direktori berlabel perlu konfirmasi, dan buka petunjuk arah; tanpa tombol WhatsApp sebelum kontak resmi tersedia.",
+  "catatan": "REVISI 13 Oktober 2026: tidak ditemukan nomor telepon atau WhatsApp yang dapat diverifikasi milik Dentetic Dental Clinic. Nomor +61 di SmileJet adalah layanan SmileJet, bukan klinik. Instagram hanya berupa tautan undangan dan tidak memuat akun publik terverifikasi. Rating 5,0/140 berasal dari snapshot Indonesia Knowledge terakhir dicek 6 Agustus 2026, bukan Google Maps live; SmileJet menampilkan 5,0/61 ulasan agregat. Dokter yang disebut di ulasan tidak ditetapkan sebagai staf terverifikasi. Harga scaling Rp144.000 berasal dari TelkoMedika Medan, Rp199.000/500.000 dari Traveloka Sozo Dental, dan harga normal historis Rp150.000–250.000 dari Klinik Simpang Pemda; semua pembanding klinik lain, bukan tarif Dentetic. Tidak ada tiga pembanding yang diperiksa untuk layanan lain.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",

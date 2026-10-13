@@ -64,23 +64,22 @@ RISET LAMA:
   "dokter": [],
   "layanan": [
     "Pemeriksaan gigi (perlu konfirmasi langsung)",
-    "Scaling / pembersihan karang gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
-    "Tambal gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
-    "Cabut gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
-    "Kawat gigi (tercantum direktori pihak ketiga; perlu konfirmasi)",
-    "Veneer (tercantum direktori pihak ketiga; perlu konfirmasi)"
+    "Scaling / pembersihan karang gigi (tercantum direktori; perlu konfirmasi)",
+    "Tambal gigi (tercantum direktori; perlu konfirmasi)",
+    "Cabut gigi (tercantum direktori; perlu konfirmasi)",
+    "Kawat gigi (tercantum direktori; perlu konfirmasi)",
+    "Veneer (tercantum direktori; perlu konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling (kisaran pembanding Tangerang Selatan, bukan tarif Klinik Gigi Cirendeu)",
+      "perawatan": "Scaling (pembanding pasar Tangerang Selatan; bukan tarif Klinik Gigi Cirendeu)",
       "jenis": "kisaran_pasar",
       "min": 249000,
-      "max": 700000,
+      "max": 650000,
       "src": [
         "https://orangedentalhouse.com/tangerang-selatan",
         "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-        "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/smile-n-shine-dental-care-centre/scaling-gigi"
+        "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
       ]
     }
   ],
@@ -97,16 +96,16 @@ RISET LAMA:
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Lokasi di Jalan Raya Cirendeu Blok Mekar B2 No.99 dengan nomor telepon tetap 02174718597 tercantum di dua direktori.",
-    "Jam menurut snapshot direktori: Senin–Jumat sampai 20.00 dan Sabtu 09.00–15.00; jadwal perlu dikonfirmasi."
+    "Berlokasi di Jalan Raya Cirendeu Blok Mekar B2 No.99; telepon tetap tercantum di dua direktori.",
+    "Jam Senin–Jumat sampai pukul 20.00 dan Sabtu 09.00–15.00 tercatat di direktori; perlu konfirmasi."
   ],
   "situs_lama": [
-    "Situs resmi mandiri tidak ditemukan dalam penelusuran; informasi lokasi dan jadwal tersebar di direktori.",
-    "Nomor WhatsApp resmi tidak terverifikasi; tombol WhatsApp jangan diaktifkan.",
-    "Daftar dokter dan tarif klinik tidak terverifikasi secara langsung."
+    "Situs resmi mandiri tidak ditemukan; informasi lokasi dan jam tersebar di direktori.",
+    "Nomor WhatsApp resmi belum terverifikasi; tombol chat tidak boleh diarahkan ke nomor lain.",
+    "Nama dokter, tarif resmi, dan asuransi belum terverifikasi dari kanal resmi."
   ],
-  "ide_fitur_khas": "Pemandu Jadwal Cirendeu: pasien memilih hari, melihat jam yang bersumber dari direktori dengan penanda perlu konfirmasi, lalu dapat menelepon 02174718597 atau membuka rute peta. Tidak ada tombol WhatsApp sampai nomor resmi diverifikasi.",
-  "catatan": "REVISI: penelusuran 13 Oktober 2026 pada direktori, pencarian web, Google Maps, dan sumber kontak tidak menemukan nomor seluler/WhatsApp yang dapat diatribusikan dengan pasti ke Klinik Gigi Cirendeu. Nomor 02174718597 adalah telepon tetap, bukan nomor WhatsApp. CariBisnis menyebut booking WA tetapi tautan Chat sekarang tidak menunjukkan nomor penerima yang dapat diverifikasi. Hindari nomor Lya Dental Care, FDC Cirendeu, dan Klinik Gigi Happy Smile. Angka 4.9/132 berasal dari snapshot Indonesia Knowledge (last checked 2026-08-06), bukan hasil Google Maps live; CariBisnis menampilkan 4.9/126. Harga scaling adalah pembanding dari klinik lain, bukan tarif klinik. Nama dokter dan asuransi tidak diangkat dari klaim direktori tanpa bukti resmi. Perawatan lain tidak diberi kisaran karena tiga pembanding per jenis belum diverifikasi.",
+  "ide_fitur_khas": "Pemandu Jadwal Cirendeu: pilih hari untuk melihat jam menurut direktori dengan label perlu konfirmasi, lalu buka peta atau telepon 02174718597; nonaktifkan WhatsApp sampai nomor terverifikasi.",
+  "catatan": "REVISI 13 Oktober 2026: tidak ditemukan nomor WhatsApp yang dapat diatribusikan secara pasti kepada klinik. 02174718597 adalah telepon tetap dan tidak boleh diperlakukan sebagai WhatsApp. Nomor Lya Dental Care, Happy Smile, Axel Dental dan klinik lain di Cirendeu bukan kontak klinik ini. Sumber CariBisnis menyebut booking WhatsApp tanpa nomor penerima yang dapat diperiksa; klaim asuransi dan dokter tidak dimasukkan. Rating 4,9/132 berasal dari snapshot Indonesia Knowledge terakhir dicek 6 Agustus 2026, bukan Google Maps real-time; CariBisnis menampilkan 4,9/126. Harga scaling adalah pembanding dari tiga penyedia lain; nilai maksimum Rp650.000 didukung ODAC, tidak memakai Rp700.000 yang tidak tercantum. Jenis perawatan lain belum memiliki tiga pembanding harga kota yang diperiksa sehingga tidak dibuat kisaran.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
@@ -114,14 +113,6 @@ RISET LAMA:
     "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
     "https://orangedentalhouse.com/tangerang-selatan",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/smile-n-shine-dental-care-centre/scaling-gigi"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "harga[0].max",
-      "tercatat": 700000,
-      "catatan": "Dari empat sumber harga yang dibuka: Orange Dental scaling Rp249.000; ODAC Rp350.000–Rp650.000; OMDC Alam Sutera mulai Rp603.900; Smile N Shine mulai Rp400.000. Batas Rp700.000 tidak tercantum pada keempat halaman."
-    }
+    "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
   ]
 }
