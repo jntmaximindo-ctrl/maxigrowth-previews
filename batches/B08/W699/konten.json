@@ -1,0 +1,142 @@
+{
+  "id": "W699",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi Cirendeu",
+      "en": "Klinik Gigi Cirendeu"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan jadwal kunjungan di kawasan Cirendeu. Pastikan jam dan layanan sebelum datang.",
+      "en": "Location and visiting hours in Cirendeu. Please confirm opening times and services before your visit."
+    },
+    "cta": {
+      "id": "Lihat lokasi dan jadwal",
+      "en": "View location and hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kondisi gigi dan mulut sebagai langkah awal; ketersediaan perlu dikonfirmasi.",
+        "en": "An initial oral health assessment; please confirm availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi berdasarkan pemeriksaan; ketersediaan dan biaya perlu dikonfirmasi.",
+        "en": "Professional cleaning following an assessment; confirm availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang bila sesuai hasil pemeriksaan; konfirmasi layanan dahulu.",
+        "en": "Care for cavities when clinically appropriate; confirm this service first."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Diskusi pilihan perawatan susunan gigi; jenis layanan perlu dikonfirmasi.",
+        "en": "Discuss options for tooth alignment; confirm available treatments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu Jadwal Cirendeu",
+      "en": "Cirendeu Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari untuk melihat jam yang tercantum di direktori, lalu buka petunjuk arah atau telepon klinik. Jam perlu dikonfirmasi.",
+      "en": "Choose a day to view directory-listed hours, then get directions or call the clinic. Please confirm the schedule."
+    },
+    "alasan_dipilih": "Lokasi dan jam kunjungan merupakan informasi yang tersedia dari direktori; fitur memudahkan pasien tanpa mengarang kontak resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
+        "en": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Senin–Jumat tercatat 09.00–20.00, Sabtu 09.00–15.00, Minggu tutup. Konfirmasi sebelum berkunjung.",
+        "en": "Directory hours are Monday–Friday 9 a.m.–8 p.m., Saturday 9 a.m.–3 p.m., and closed Sunday. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah (021) 74718597. Nomor WhatsApp resmi belum terverifikasi.",
+        "en": "The listed landline is (021) 74718597. An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much do scaling or fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum terverifikasi. Mohon meminta rincian biaya langsung sebelum tindakan.",
+        "en": "The clinic’s official fees have not been verified. Please request a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Are braces services available?"
+      },
+      "a": {
+        "id": "Layanan ini disebut pada direktori pihak ketiga, tetapi ketersediaan dan jadwal dokter perlu dikonfirmasi.",
+        "en": "A third-party directory mentions this service, but availability and dentist schedules need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Daftar asuransi yang diterima belum terverifikasi. Periksa langsung sebelum membuat janji.",
+        "en": "Accepted insurance plans have not been verified. Please check before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat petunjuk arah dan konfirmasi informasi klinik",
+    "en": "Get directions and confirm clinic details"
+  },
+  "pesan_wa_default": "Selamat siang, saya ingin menanyakan jadwal pemeriksaan di Klinik Gigi Cirendeu. Apakah layanan dan biaya bisa diinformasikan sebelum saya datang? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Klinik Gigi Cirendeu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jam praktik klinik di Cirendeu tersebar di direktori. Kami sudah menyiapkan konsep website agar informasi lokasi, jadwal, dan kontak lebih mudah dilihat: https://maxigrowthstudio.com/cirendeu. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi Cirendeu",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Klinik Gigi Cirendeu,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Klinik Gigi Cirendeu, dengan fokus pada informasi lokasi, jadwal kunjungan, dan panduan layanan yang mudah dipahami. Konsep dapat dilihat di https://maxigrowthstudio.com/cirendeu.\n\nProposal PDF kami lampirkan untuk pertimbangan. Informasi klinik pada konsep masih perlu dikonfirmasi sebelum ditayangkan. Jika berkenan, kami siap menerima masukan melalui email info@maxigrowthstudio.com atau WhatsApp 082141004400.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W840",
+  "hero": {
+    "judul": {
+      "id": "Dentetic Dental Clinic Medan",
+      "en": "Dentetic Dental Clinic Medan"
+    },
+    "sub": {
+      "id": "Informasi kunjungan ke klinik di Jalan Halat, Medan Kota. Konfirmasi jadwal dan layanan sebelum datang.",
+      "en": "Plan a visit to the clinic on Jalan Halat in central Medan. Confirm hours and services before arriving."
+    },
+    "cta": {
+      "id": "Lihat lokasi dan jadwal",
+      "en": "View location and hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kondisi gigi dan mulut sebagai langkah awal; ketersediaan perlu dikonfirmasi.",
+        "en": "An initial oral health assessment; please confirm availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi berdasarkan pemeriksaan; ketersediaan dan biaya perlu dikonfirmasi.",
+        "en": "Professional cleaning following an assessment; confirm availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang bila sesuai hasil pemeriksaan; konfirmasi layanan dahulu.",
+        "en": "Care for cavities when clinically appropriate; confirm this service first."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Diskusi pilihan perawatan susunan gigi; jenis layanan perlu dikonfirmasi.",
+        "en": "Discuss options for tooth alignment; confirm available treatments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Perencana Kunjungan Jalan Halat",
+      "en": "Jalan Halat Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari, termasuk Minggu, untuk melihat jam yang tercantum di direktori. Buka peta untuk merencanakan rute.",
+      "en": "Select a day, including Sunday, to view directory-listed hours. Open the map to plan your route."
+    },
+    "alasan_dipilih": "Lokasi dan jam kunjungan merupakan informasi yang tersedia dari direktori; fitur memudahkan pasien tanpa mengarang kontak resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "HMCR+W9C, Jl. Halat, Pasar Merah Timur, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
+        "en": "HMCR+W9C, Jl. Halat, Pasar Merah Timur, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Senin–Sabtu tercatat 09.00–20.00 dan Minggu 10.00–15.00. Mohon konfirmasi sebelum berkunjung.",
+        "en": "Directory hours are Monday–Saturday 9 a.m.–8 p.m. and Sunday 10 a.m.–3 p.m. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon dan WhatsApp resmi belum dapat diverifikasi. Silakan periksa informasi kontak terbaru pada profil bisnis klinik.",
+        "en": "An official phone or WhatsApp number has not been verified. Please check the clinic’s business listing for updated contact details."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much do scaling or fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum terverifikasi. Mohon meminta rincian biaya langsung sebelum tindakan.",
+        "en": "The clinic’s official fees have not been verified. Please request a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Are braces services available?"
+      },
+      "a": {
+        "id": "Layanan ini disebut pada direktori pihak ketiga, tetapi ketersediaan dan jadwal dokter perlu dikonfirmasi.",
+        "en": "A third-party directory mentions this service, but availability and dentist schedules need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Daftar asuransi yang diterima belum terverifikasi. Periksa langsung sebelum membuat janji.",
+        "en": "Accepted insurance plans have not been verified. Please check before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat petunjuk arah dan konfirmasi informasi klinik",
+    "en": "Get directions and confirm clinic details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan ke Dentetic Dental Clinic di Jalan Halat. Apakah layanan dan perkiraan biaya dapat dikonfirmasi terlebih dahulu? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Dentetic Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat klinik berlokasi di Jalan Halat dan memiliki jam Minggu yang tercantum di direktori. Kami sudah membuat konsep website untuk membantu menampilkan informasi kunjungan: https://maxigrowthstudio.com/dentetic. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dentetic Dental Clinic",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Dentetic Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Dentetic Dental Clinic, dengan fokus pada informasi lokasi, jadwal kunjungan, dan panduan layanan yang mudah dipahami. Konsep dapat dilihat di https://maxigrowthstudio.com/dentetic.\n\nProposal PDF kami lampirkan untuk pertimbangan. Informasi klinik pada konsep masih perlu dikonfirmasi sebelum ditayangkan. Jika berkenan, kami siap menerima masukan melalui email info@maxigrowthstudio.com atau WhatsApp 082141004400.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
