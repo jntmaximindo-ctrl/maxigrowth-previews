@@ -113,5 +113,12 @@
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
     "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/smile-n-shine-dental-care-centre/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 700000,
+      "catatan": "Dari empat sumber harga yang dibuka: Orange Dental scaling Rp249.000; ODAC Rp350.000–Rp650.000; OMDC Alam Sutera mulai Rp603.900; Smile N Shine mulai Rp400.000. Batas Rp700.000 tidak tercantum pada keempat halaman."
+    }
   ]
 }
