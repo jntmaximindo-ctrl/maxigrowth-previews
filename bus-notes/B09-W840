@@ -63,28 +63,28 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan gigi (disebut agregator; perlu konfirmasi)",
-    "Scaling/pembersihan karang gigi (disebut agregator; perlu konfirmasi)",
-    "Tambal gigi (disebut agregator; perlu konfirmasi)",
-    "Perawatan saluran akar (disebut agregator; perlu konfirmasi)",
-    "Kawat gigi (disebut agregator; perlu konfirmasi)"
+    "Pemeriksaan gigi — disebut profil pihak ketiga, perlu konfirmasi",
+    "Scaling / pembersihan karang gigi — disebut profil pihak ketiga, perlu konfirmasi",
+    "Tambal gigi — disebut profil pihak ketiga, perlu konfirmasi",
+    "Perawatan saluran akar — disebut profil pihak ketiga, perlu konfirmasi",
+    "Kawat gigi — disebut profil pihak ketiga, perlu konfirmasi"
   ],
   "harga": [
     {
-      "perawatan": "Scaling — pembanding pasar Medan, bukan tarif Dentetic Dental Clinic; mencakup harga pemesanan pihak ketiga",
+      "perawatan": "Scaling (pembanding pasar Medan, bukan tarif Dentetic Dental Clinic; termasuk tarif pemesanan pihak ketiga dan harga normal historis)",
       "jenis": "kisaran_pasar",
       "min": 144000,
-      "max": 461500,
+      "max": 500000,
       "src": [
         "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
         "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
-        "https://www.alodokter.com/cari-rumah-sakit/rumah-sakit-siloam-dhirga-surya/scaling-gigi"
+        "https://www.kliniksimpangpemda.com/artikel/90a42e64-3148-4893-b939-029604c76888"
       ]
     }
   ],
   "fasilitas": [
-    "Toilet (direktori; perlu konfirmasi)",
-    "Janji temu (direktori; perlu konfirmasi)"
+    "Toilet — tercantum di direktori, perlu konfirmasi",
+    "Janji temu — tercantum di direktori, perlu konfirmasi"
   ],
   "asuransi": [],
   "maps": {
@@ -94,24 +94,24 @@ RISET LAMA:
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Alamat tercantum di Jalan Halat, Pasar Merah Timur, Medan Kota.",
-    "Direktori mencantumkan buka Minggu 10.00–15.00 serta Senin–Sabtu 09.00–20.00; konfirmasi sebelum datang."
+    "Lokasi tercantum di Jalan Halat, Pasar Merah Timur, Medan Kota.",
+    "Direktori mencantumkan jam praktik pada Minggu 10.00–15.00 dan Senin–Sabtu 09.00–20.00; konfirmasi sebelum datang."
   ],
   "situs_lama": [
-    "Website resmi mandiri yang menggabungkan kontak, jam, dan alamat belum ditemukan.",
-    "Tautan Instagram berupa undangan kontak, bukan akun publik yang dapat diverifikasi.",
-    "Nomor telepon dan WhatsApp resmi tidak ditemukan; tombol WhatsApp harus nonaktif.",
-    "Jadwal dokter dan tarif klinik tidak ditemukan pada sumber resmi."
+    "Website resmi mandiri dengan kontak dan jadwal belum ditemukan.",
+    "Tautan Instagram yang tercantum adalah undangan kontak, bukan profil publik yang dapat diverifikasi.",
+    "Nomor telepon dan WhatsApp resmi belum terverifikasi; tombol WA harus nonaktif.",
+    "Daftar dokter dan tarif resmi klinik tidak tersedia pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari, lihat jam versi direktori dengan label perlu konfirmasi, kemudian buka rute peta; WhatsApp tidak diaktifkan sebelum nomor resmi terverifikasi.",
-  "catatan": "REVISI W840: tidak ditemukan nomor telepon atau WhatsApp yang dapat dikaitkan secara sah dengan Dentetic Dental Clinic. Tautan Instagram pada direktori adalah tautan undangan yang tidak dapat diakses untuk memverifikasi akun atau kontak. Nomor +61 pada SmileJet adalah nomor layanan SmileJet, bukan Dentetic; jangan digunakan. Rating 5,0 dan 140 ulasan adalah snapshot Indonesia Knowledge (2026-08-06), sedangkan SmileJet memuat 61 ulasan agregat dan hasil profil bisnis terstruktur pada 2026-10-13 memuat 207; tidak klaim angka terkini tanpa verifikasi langsung halaman Google Maps (memerlukan JavaScript). Kisaran scaling dari TelkoMedika Medan, Sozo Dental Medan dan RS Siloam Dhirga Surya, bukan tarif Dentetic. Nama dokter, asuransi dan jam perlu dikonfirmasi ke klinik. Layanan dari deskripsi agregator pihak ketiga tidak dijadikan klaim resmi.",
+  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari untuk melihat jam versi direktori (termasuk Minggu), tampilkan peringatan verifikasi jadwal, lalu buka rute Google Maps. Tidak menampilkan nomor WhatsApp yang belum terbukti.",
+  "catatan": "REVISI: penelusuran direktori Indonesia Knowledge, SmileJet, Google Maps, dan tautan Instagram undangan tidak menemukan nomor telepon atau WhatsApp resmi Dentetic Dental Clinic. Nomor +61 di SmileJet adalah kontak SmileJet sendiri, bukan Dentetic; jangan gunakan. Tautan undangan Instagram tidak membuka identitas akun yang dapat diverifikasi, sehingga instagram.v null. Angka 5,0/140 adalah snapshot direktori (terakhir diperiksa 6 Agustus 2026), bukan hitungan live; SmileJet menampilkan 61 ulasan agregat. Layanan SmileJet adalah klaim pihak ketiga, belum dikonfirmasi langsung. Harga scaling pembanding berasal dari TelkoMedika (144000), Sozo Dental (199000–500000 harga yang ditampilkan), dan Klinik Simpang Pemda (harga normal historis 150000–250000 dari artikel 2025), bukan tarif Dentetic. Tidak ada tiga sumber per jenis untuk enam tindakan lain; tidak dicantumkan. Tidak ada dokter/asuransi resmi yang bisa dipastikan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",
     "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY",
+    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
-    "https://www.alodokter.com/cari-rumah-sakit/rumah-sakit-siloam-dhirga-surya/scaling-gigi",
-    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx"
+    "https://www.kliniksimpangpemda.com/artikel/90a42e64-3148-4893-b939-029604c76888"
   ]
 }
