@@ -1,0 +1,47 @@
+{
+ "kota": "Pekanbaru",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-13",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Puskesmas Umban Sari (Rumbai; fasilitas pemerintah, bukan prospek swasta)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/puskesmas-umban-sari-0761-51764"
+  },
+  {
+   "nama": "Klinik Abdul Hady (Rumbai; layanan dokter gigi tidak terkonfirmasi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/klinik-abdul-hady-0812-7665-1499"
+  },
+  {
+   "nama": "OIA Dental House (Rumbai Pesisir; di luar kecamatan target)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://idalamat.com/alamat/1059403/oia-dental-house-pekanbaru-riau"
+  },
+  {
+   "nama": "Praxisek Dokter Gigi (Rumbai Pesisir; di luar kecamatan target)",
+   "rating": 4.1,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/praktek-dokter-gigi-drg-agung-t-prakoso-0761-556103"
+  },
+  {
+   "nama": "Klinik Pratama dr. Misbah-RMC (Rumbai Pesisir; di luar kecamatan target)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/bp-doktor-misbah-0761-78771770"
+  },
+  {
+   "nama": "Praktek drg. Menola Astrigiona (Tampan; di luar kecamatan target)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://idalamat.com/alamat/1059402/praktek-dokter-gigi-drg-menola-astrigiona-pekanbaru-riau"
+  }
+ ],
+ "catatan": "Hasil parsial. Minimal 5 pencarian web terpisah telah dilakukan untuk Rumbai, diikuti penelusuran tambahan. Enam halaman sumber kandidat/fasilitas dibuka: dua berlokasi di Kecamatan Rumbai (satu puskesmas pemerintah dan satu klinik umum dengan layanan gigi tidak terbukti); tiga di Rumbai Pesisir dan satu di Tampan, semuanya ditandai sebagai luar area dan tidak dimasukkan ke prospek. Klinik Inhale Dental Care teridentifikasi di Umban Sari (rating 5.0, 20 ulasan dalam hasil bisnis terstruktur), tetapi halaman Waze gagal dibuka ulang, sehingga tidak dihitung dalam enam sumber terbuka dan tidak lolos ambang ulasan. Klinik Kubang Raya Medika ditemukan tetapi halaman diblokir robots.txt, tidak dihitung sebagai sumber terbuka. Angka '10+ ulasan' Praxisek bukan bilangan bulat pasti, ditulis null; rating 4.1 yang terlihat juga di bawah 4.5. KNOWN-KLINIK.txt diperiksa. Tidak ada kandidat yang terbukti memenuhi rating >=4.5 dan >=100 ulasan sekaligus dalam area target. Tidak menghubungi klinik.",
+ "area": "pekanbaru-rumbai"
+}
