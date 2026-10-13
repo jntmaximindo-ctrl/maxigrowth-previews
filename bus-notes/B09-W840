@@ -63,15 +63,15 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan gigi (disebut direktori pihak ketiga; perlu konfirmasi)",
-    "Scaling/pembersihan karang gigi (disebut direktori pihak ketiga; perlu konfirmasi)",
-    "Tambal gigi (disebut direktori pihak ketiga; perlu konfirmasi)",
-    "Perawatan saluran akar (disebut direktori pihak ketiga; perlu konfirmasi)",
-    "Kawat gigi (disebut direktori pihak ketiga; perlu konfirmasi)"
+    "Pemeriksaan gigi (disebut agregator; perlu konfirmasi)",
+    "Scaling/pembersihan karang gigi (disebut agregator; perlu konfirmasi)",
+    "Tambal gigi (disebut agregator; perlu konfirmasi)",
+    "Perawatan saluran akar (disebut agregator; perlu konfirmasi)",
+    "Kawat gigi (disebut agregator; perlu konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling — pembanding pasar Medan, bukan tarif Dentetic; termasuk harga paket pemesanan pihak ketiga",
+      "perawatan": "Scaling — pembanding pasar Medan, bukan tarif Dentetic Dental Clinic; mencakup harga pemesanan pihak ketiga",
       "jenis": "kisaran_pasar",
       "min": 144000,
       "max": 461500,
@@ -83,8 +83,8 @@ RISET LAMA:
     }
   ],
   "fasilitas": [
-    "Toilet (tercantum pada direktori; perlu konfirmasi)",
-    "Janji temu (tercantum pada direktori; perlu konfirmasi)"
+    "Toilet (direktori; perlu konfirmasi)",
+    "Janji temu (direktori; perlu konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
@@ -94,21 +94,20 @@ RISET LAMA:
     "tgl": "2026-10-13"
   },
   "keunggulan": [
-    "Lokasi tercatat di Jalan Halat, Pasar Merah Timur, Medan Kota.",
-    "Direktori mencantumkan jadwal Minggu 10.00–15.00 dan Senin–Sabtu 09.00–20.00; perlu konfirmasi langsung."
+    "Alamat tercantum di Jalan Halat, Pasar Merah Timur, Medan Kota.",
+    "Direktori mencantumkan buka Minggu 10.00–15.00 serta Senin–Sabtu 09.00–20.00; konfirmasi sebelum datang."
   ],
   "situs_lama": [
-    "Tidak ditemukan website mandiri resmi yang dapat diverifikasi untuk menampilkan kontak, jadwal, dan alamat dalam satu tempat.",
-    "Tautan Instagram pada direktori berupa tautan undangan kontak, bukan akun publik terverifikasi.",
-    "Nomor telepon/WhatsApp resmi tidak ditemukan; tombol WhatsApp harus nonaktif sampai nomor dikonfirmasi.",
-    "Jadwal dokter dan tarif klinik tidak tersedia dari sumber resmi yang dapat diperiksa."
+    "Website resmi mandiri yang menggabungkan kontak, jam, dan alamat belum ditemukan.",
+    "Tautan Instagram berupa undangan kontak, bukan akun publik yang dapat diverifikasi.",
+    "Nomor telepon dan WhatsApp resmi tidak ditemukan; tombol WhatsApp harus nonaktif.",
+    "Jadwal dokter dan tarif klinik tidak ditemukan pada sumber resmi."
   ],
-  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari, lihat jam yang dicatat direktori dengan label perlu konfirmasi, lalu buka rute Google Maps; tidak ada tombol WhatsApp sampai nomor resmi diverifikasi.",
-  "catatan": "REVISI: pencarian nama klinik dan Jalan Halat di web, direktori, tautan Instagram, dan peta tidak menghasilkan nomor WA/telepon yang dapat dikaitkan langsung dengan Dentetic. Tombol WhatsApp di SmileJet menuju pihak ketiga (+61), BUKAN nomor klinik. Profil Instagram yang ditemukan hanya tautan invite, tidak dapat memastikan username. Angka rating 5,0/140 adalah snapshot direktori Indonesia Knowledge per 2026-08-06, BUKAN hitungan ulasan Google Maps saat ini; Google Maps memerlukan JavaScript sehingga tidak dapat diverifikasi langsung. SmileJet memuat 61 ulasan agregat berbeda, bukan angka terkini. Kisaran scaling dari tiga penyedia di Medan, bukan tarif Dentetic; tindakan lainnya tidak dimasukkan ke harga karena pembanding 3 sumber per tindakan belum cukup. Layanan dan jam dari direktori perlu dikonfirmasi; dokter tanpa nama dan gelar yang terverifikasi tidak dicantumkan.",
+  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari, lihat jam versi direktori dengan label perlu konfirmasi, kemudian buka rute peta; WhatsApp tidak diaktifkan sebelum nomor resmi terverifikasi.",
+  "catatan": "REVISI W840: tidak ditemukan nomor telepon atau WhatsApp yang dapat dikaitkan secara sah dengan Dentetic Dental Clinic. Tautan Instagram pada direktori adalah tautan undangan yang tidak dapat diakses untuk memverifikasi akun atau kontak. Nomor +61 pada SmileJet adalah nomor layanan SmileJet, bukan Dentetic; jangan digunakan. Rating 5,0 dan 140 ulasan adalah snapshot Indonesia Knowledge (2026-08-06), sedangkan SmileJet memuat 61 ulasan agregat dan hasil profil bisnis terstruktur pada 2026-10-13 memuat 207; tidak klaim angka terkini tanpa verifikasi langsung halaman Google Maps (memerlukan JavaScript). Kisaran scaling dari TelkoMedika Medan, Sozo Dental Medan dan RS Siloam Dhirga Surya, bukan tarif Dentetic. Nama dokter, asuransi dan jam perlu dikonfirmasi ke klinik. Layanan dari deskripsi agregator pihak ketiga tidak dijadikan klaim resmi.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",
-    "https://smilejet.app/clinic/dentetic-dental-clinic/reviews",
     "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
