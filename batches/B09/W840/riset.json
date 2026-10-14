@@ -111,5 +111,12 @@
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
     "https://www.kliniksimpangpemda.com/artikel/90a42e64-3148-4893-b939-029604c76888"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].src[0]",
+      "tercatat": "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
+      "catatan": "Halaman layanan scaling dapat dibuka tetapi tidak memperlihatkan harga numerik."
+    }
   ]
 }

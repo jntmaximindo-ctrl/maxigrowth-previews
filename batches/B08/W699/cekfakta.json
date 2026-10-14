@@ -1,0 +1,15 @@
+{
+  "id": "W699",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "harga[0].src[2]",
+      "tercatat": "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
+      "di_sumber": "Halaman layanan scaling terbuka tetapi tidak menampilkan angka harga yang dapat diverifikasi.",
+      "src": "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
+      "catatan": "Dari tiga sumber yang dicantumkan, hanya Orange Dental dan ODAC yang menampilkan harga numerik; syarat minimal tiga sumber harga belum terbukti."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

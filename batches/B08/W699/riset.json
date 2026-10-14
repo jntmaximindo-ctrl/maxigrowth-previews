@@ -109,5 +109,12 @@
     "https://orangedentalhouse.com/tangerang-selatan",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
     "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].src[2]",
+      "tercatat": "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
+      "catatan": "Halaman layanan scaling terbuka tetapi tidak menampilkan angka harga yang dapat diverifikasi."
+    }
   ]
 }
