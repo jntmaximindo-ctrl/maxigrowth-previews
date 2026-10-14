@@ -1,0 +1,52 @@
+{
+ "kota": "Palu",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-14",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "UPTD Puskesmas Tipo (Poli Gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://dinkes.palukota.go.id/landing/uptd/uptd-puskesmas-tipo",
+   "alasan_tidak_lolos": "Layanan poli gigi dan lokasi Ulujadi ditemukan, tetapi rating dan jumlah ulasan tidak ditampilkan pada sumber yang dibuka."
+  },
+  {
+   "nama": "RSUD Anutapura Palu (Poli Gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://medicastore.com/dokter/detail/108305/marsha-sri-rezeki-sihombing-2",
+   "alasan_tidak_lolos": "Dokter gigi dan alamat Donggala Kodi, Ulujadi terverifikasi; rating dan jumlah ulasan fasilitas tidak ditampilkan pada sumber yang dibuka."
+  },
+  {
+   "nama": "Lantagi Dental Care",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://idalamat.com/alamat/1064101/lantagi-dental-care-palu-sulawesi-tengah",
+   "alasan_tidak_lolos": "Direktori menyebut Donggala Kodi namun kecamatan tertulis Palu Barat; lokasi Ulujadi belum pasti dan angka rating/ulasan Google tidak tercantum."
+  },
+  {
+   "nama": "Puskesmas Lere (layanan gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://idalamat.com/alamat/638169/puskesmas-lere-palu-sulawesi-tengah",
+   "alasan_tidak_lolos": "Alamat tertera di Lere, Kecamatan Palu Barat, di luar target Ulujadi; rating/ulasan tidak tersedia."
+  },
+  {
+   "nama": "Klinik Gigi Abu Khafiyah",
+   "rating": 3.7,
+   "ulasan": 3,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu",
+   "alasan_tidak_lolos": "Berlokasi di Duyu, Kecamatan Palu Barat, bukan Ulujadi; rating di bawah 4.5 dan ulasan kurang dari 100."
+  },
+  {
+   "nama": "MarthianDentalCare",
+   "rating": 5.0,
+   "ulasan": 12,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/palu/marthiandentalcare-palu",
+   "alasan_tidak_lolos": "Berlokasi di Besusu Tengah, Palu Timur, bukan Ulujadi; hanya 12 ulasan pada sumber yang dibuka."
+  }
+ ],
+ "area": "palu-ulujadi"
+}
