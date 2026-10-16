@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Klinik Gigi Cirendeu",
       "alamat": {
-        "v": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15419",
+        "v": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
         "tgl": "2026-10-16",
         "yakin": "tinggi"
@@ -63,31 +63,30 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan dan konsultasi gigi (perlu konfirmasi langsung)",
-    "Scaling / pembersihan karang gigi (direktori pihak ketiga; perlu konfirmasi)",
-    "Tambal gigi (direktori pihak ketiga; perlu konfirmasi)",
-    "Cabut gigi (direktori pihak ketiga; perlu konfirmasi)",
-    "Kawat gigi / ortodonti (direktori pihak ketiga; perlu konfirmasi)",
-    "Veneer (direktori pihak ketiga; perlu konfirmasi)",
-    "Bleaching (direktori pihak ketiga; perlu konfirmasi)"
+    "Pemeriksaan dan konsultasi gigi (konfirmasi langsung)",
+    "Scaling / pembersihan karang gigi (tercantum pada direktori; konfirmasi)",
+    "Tambal gigi (tercantum pada direktori; konfirmasi)",
+    "Cabut gigi (tercantum pada direktori; konfirmasi)",
+    "Kawat gigi (tercantum pada direktori; konfirmasi)",
+    "Veneer (tercantum pada direktori; konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling — kisaran pembanding tiga penyedia di Tangerang Selatan, BUKAN tarif Klinik Gigi Cirendeu; paket dan kondisi gigi berbeda",
+      "perawatan": "Scaling — pembanding pasar Tangerang Selatan; BUKAN tarif Klinik Gigi Cirendeu",
       "jenis": "kisaran_pasar",
-      "min": 199000,
+      "min": 249000,
       "max": 650000,
       "src": [
         "https://orangedentalhouse.com/tangerang-selatan",
-        "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bsd-5409419605608",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan"
+        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
+        "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
       ]
     }
   ],
   "fasilitas": [
-    "Toilet (direktori pihak ketiga; konfirmasi)",
-    "Parkir (direktori pihak ketiga; konfirmasi)",
-    "Janji temu (direktori pihak ketiga; konfirmasi)"
+    "Parkir (tercantum pada direktori; konfirmasi)",
+    "Toilet (tercantum pada direktori; konfirmasi)",
+    "Janji temu (tercantum pada direktori; konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
@@ -97,24 +96,21 @@ RISET LAMA:
     "tgl": "2026-10-16"
   },
   "keunggulan": [
-    "Berlokasi di kawasan Cirendeu, Ciputat Timur, dengan alamat yang cocok pada lebih dari satu direktori.",
-    "Nomor telepon tetap (021) 74718597 tercantum konsisten di Indonesia Knowledge dan AlamatSehat.",
-    "Direktori mencantumkan jadwal Senin–Jumat sampai 20.00 dan Sabtu sampai 15.00; perlu konfirmasi sebelum kunjungan."
+    "Lokasi di Cirendeu dan nomor telepon tetap 02174718597 konsisten pada beberapa direktori publik.",
+    "Jam yang tercantum pada direktori adalah Senin–Jumat hingga 20.00 dan Sabtu hingga 15.00; perlu konfirmasi."
   ],
   "situs_lama": [
-    "Belum ditemukan website resmi mandiri yang menggabungkan alamat, jadwal, daftar layanan, dan kontak klinik.",
-    "Nomor WhatsApp resmi tidak tersedia di sumber yang berhasil diverifikasi; jangan menautkan nomor telepon tetap ke WhatsApp.",
-    "Profil dokter, jadwal individual, harga resmi, dan mitra asuransi belum terverifikasi dari klinik."
+    "Tidak ditemukan situs resmi mandiri yang menyatukan lokasi, jam, layanan, dan nomor telepon.",
+    "Nomor WhatsApp resmi belum terverifikasi; jangan aktifkan tautan WhatsApp tanpa konfirmasi.",
+    "Jadwal dokter dan tarif klinik belum terverifikasi dari kanal resmi."
   ],
-  "ide_fitur_khas": "Pemandu Jam & Lokasi Cirendeu: pilih hari untuk melihat jam operasional dari direktori dengan label perlu konfirmasi, lalu buka peta atau telepon tetap. Tombol WhatsApp dinonaktifkan sampai nomor resmi dikonfirmasi.",
-  "catatan": "REVISI 2026-10-16: Telusur ulang sumber publik; nomor telepon tetap 02174718597 cocok di dua direktori. CariBisnis menyebut booking via WhatsApp tetapi tidak mempublikasikan nomor WhatsApp, sehingga wa tetap null. Jangan menggunakan nomor Lya Dental Care, Axel Dental, FDC, atau Happy Smile Cirendeu. Rating 4.9/132 merupakan snapshot direktori Indonesia Knowledge yang mengaku diperiksa 2026-08-06, bukan rating Maps live. Tarif scaling pembanding: Orange Dental Pamulang Rp249.000; Sozo Dental BSD Basic Rp199.000/Moderate Rp299.000; ODAC Tangerang Selatan Rp350.000–650.000; bukan tarif klinik sasaran. Tarif tambal, cabut, behel metal, bleaching, veneer, implan tidak diisi karena belum terkumpul tiga sumber harga pembanding setempat yang cukup sebanding per tindakan. Klaim asuransi dan nama dokter pada direktori/ulasan belum dapat dikonfirmasi langsung.",
+  "ide_fitur_khas": "Pemandu Jadwal Cirendeu: pengunjung memilih hari, melihat jam yang tercatat dengan label perlu konfirmasi, lalu menggunakan tombol telepon dan peta. Tombol WhatsApp hanya muncul setelah nomor resmi diverifikasi.",
+  "catatan": "REVISI 2026-10-16: Telusur ulang nomor WhatsApp, telepon dan alamat. Dua direktori mencantumkan telepon tetap 02174718597; tidak ditemukan bukti WhatsApp resmi, sehingga wa=null. Alamat di Jl. Raya Cirendeu Blok Mekar B2 No.99 konsisten pada direktori. Jam Senin–Jumat 09–20, Sabtu 09–15, Minggu tutup adalah snapshot direktori, bukan konfirmasi klinik. Rating 4,9/132 berasal dari Indonesia Knowledge, bukan Google Maps live; surat tugas 4,9/126. Tarif scaling hanya pembanding 3 penyedia Tangerang Selatan, bukan tarif klinik. Enam kategori harga lain belum memenuhi 3 sumber sebanding. Jangan tertukar dengan Lya Dental Care, Klinik Bukit Cirendeu, atau klinik lain. Fitur usulan belum diimplementasikan; URL konsep dan proposal PDF perlu dicek sebelum outreach.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
-    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1",
     "https://orangedentalhouse.com/tangerang-selatan",
-    "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bsd-5409419605608",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M"
+    "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
   ]
 }

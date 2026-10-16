@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Dentetic Dental Clinic",
       "alamat": {
-        "v": "HMCR+W9C Dentetic Dental Clinic, Jl. Halat, Pasar Merah Timur, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
+        "v": "HMCR+W9C, Jl. Halat, Pasar Merah Timur, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
         "src": "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
         "tgl": "2026-10-16",
         "yakin": "sedang"
@@ -63,16 +63,16 @@ RISET LAMA:
   ],
   "dokter": [],
   "layanan": [
-    "Pemeriksaan dan konsultasi gigi (deskripsi pihak ketiga; konfirmasi)",
-    "Scaling / pembersihan karang gigi (ulasan dan deskripsi pihak ketiga; konfirmasi)",
+    "Konsultasi/pemeriksaan gigi (deskripsi pihak ketiga; konfirmasi)",
+    "Scaling/pembersihan karang gigi (deskripsi pihak ketiga; konfirmasi)",
     "Tambal gigi (deskripsi pihak ketiga; konfirmasi)",
     "Perawatan saluran akar (deskripsi pihak ketiga; konfirmasi)",
-    "Kawat gigi / ortodonti (deskripsi pihak ketiga; konfirmasi)",
+    "Kawat gigi/ortodonti (deskripsi pihak ketiga; konfirmasi)",
     "Bleaching (deskripsi pihak ketiga; konfirmasi)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling — kisaran pembanding tiga fasilitas berbeda di Medan, BUKAN tarif Dentetic Dental Clinic; paket dan jenis fasilitas berbeda",
+      "perawatan": "Scaling dewasa (kisaran tiga pembanding di Medan; bukan tarif Dentetic; dua harga mulai/paket dan satu tarif rumah sakit)",
       "jenis": "kisaran_pasar",
       "min": 144000,
       "max": 350000,
@@ -84,8 +84,8 @@ RISET LAMA:
     }
   ],
   "fasilitas": [
-    "Toilet (direktori pihak ketiga; konfirmasi)",
-    "Janji temu (direktori pihak ketiga; konfirmasi)"
+    "Toilet (direktori pihak ketiga; perlu konfirmasi)",
+    "Janji temu (direktori pihak ketiga; perlu konfirmasi)"
   ],
   "asuransi": [],
   "maps": {
@@ -95,31 +95,24 @@ RISET LAMA:
     "tgl": "2026-10-16"
   },
   "keunggulan": [
-    "Lokasi klinik terdata di Jalan Halat, kawasan Pasar Merah Timur, Medan Kota.",
-    "Direktori Indonesia Knowledge mencantumkan jam operasional hari Minggu 10.00–15.00; konfirmasi sebelum berkunjung."
+    "Alamat klinik tercantum di Jalan Halat, Pasar Merah Timur, Medan Kota.",
+    "Direktori Indonesia Knowledge mencantumkan jam hari Minggu 10.00–15.00; perlu konfirmasi langsung."
   ],
   "situs_lama": [
-    "Belum ditemukan situs resmi mandiri yang menyajikan informasi klinik dan kontak yang terverifikasi.",
-    "Tautan Instagram dari direktori berupa undangan kontak, bukan akun publik yang dapat diverifikasi.",
-    "Nomor WhatsApp dan telepon resmi tidak ditemukan; tautan WA SmileJet mengarah ke perantara, bukan kontak klinik.",
-    "Daftar dokter, jadwal individual, biaya resmi, dan informasi asuransi belum terverifikasi."
+    "Belum ditemukan situs resmi mandiri yang menampilkan kontak resmi dan informasi kunjungan terverifikasi.",
+    "Tautan Instagram pada direktori adalah undangan kontak, bukan halaman profil publik yang bisa diverifikasi.",
+    "Nomor WhatsApp dan telepon resmi klinik tidak ditemukan; tombol kontak tidak boleh diarahkan ke nomor pihak ketiga.",
+    "Daftar dokter, biaya resmi, dan informasi asuransi belum terverifikasi."
   ],
-  "ide_fitur_khas": "Perencana Kunjungan Dentetic Jalan Halat: pasien memilih hari dan melihat jam dari direktori beserta catatan konfirmasi, lalu membuka peta. Form pertanyaan hanya disiapkan sebagai rancangan; tautan WhatsApp baru aktif setelah nomor klinik diverifikasi.",
-  "catatan": "REVISI 2026-10-16: Indonesia Knowledge mencantumkan alamat, jam, rating 5.0/140 tetapi tidak mencantumkan nomor telepon. SmileJet mengklaim pasien biasa memesan via WhatsApp namun tombol WhatsApp di situsnya milik perantara (+61), BUKAN nomor Dentetic; jangan dipakai. Undangan Instagram yang tertulis di direktori tidak dapat diverifikasi sebagai profil resmi publik. Tidak ada WA/telepon resmi yang dapat dibuktikan; keduanya null. Rating 5.0/140 adalah snapshot Indonesia Knowledge per 2026-08-06, bukan Google Maps real-time. Pembanding scaling: TelkoMedika Medan mulai Rp144.000; Sozo Dental Medan Basic Rp199.000 dan Moderate Rp299.000; RSGM USU Scaling Dewasa Rp350.000. Tarif lain (tambal, cabut, behel metal, bleaching, veneer, implan) tidak diisi karena tidak ada tiga sumber lokal sebanding per tindakan yang sudah diverifikasi. Jangan mencampur nomor Sozo Dental, Simpang Pemda, atau klinik Jalan Halat lainnya.",
+  "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari, tampilkan jam direktori dengan label konfirmasi dan peta; form pertanyaan non-pengirim disiapkan, tombol WhatsApp baru diaktifkan setelah nomor resmi diverifikasi.",
+  "catatan": "REVISI 2026-10-16: pencarian nomor telepon dan WhatsApp resmi Dentetic pada direktori Indonesia Knowledge, SmileJet, tautan Instagram undangan kontak, dan Google Maps berbasis browser belum menghasilkan kontak yang dapat dibuktikan. Nomor +61 pada SmileJet adalah milik perantara, bukan Dentetic. Google Maps memerlukan JavaScript; angka rating 5.0/140 berasal dari snapshot Indonesia Knowledge terakhir dicek 2026-08-06, bukan angka Google Maps real-time; SmileJet menunjukkan 5.0/61 agregat berbeda. Tidak mengasumsikan dokter Laras sebagai nama lengkap dokter karena hanya disebut dalam ulasan. Harga scaling berasal dari tiga fasilitas pembanding: TelkoMedika Medan mulai Rp144.000, Sozo Dental Medan Basic Rp199.000/Moderate Rp299.000, dan RSGM USU Scaling Dewasa Rp350.000; bukan harga Dentetic. Tindakan lain belum punya tiga pembanding lokal terverifikasi per tindakan. Tidak ada bukti nomor WA klinik.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",
-    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
     "https://rsgm.usu.ac.id/id/tarif-layanan-rsgm",
+    "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx",
     "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "harga[0]",
-      "tercatat": "Scaling — kisaran pasar Medan Rp144.000–Rp350.000 dari tiga sumber",
-      "catatan": "Situs resmi RSGM USU memuat Scaling Dewasa Rp350.000 dan Scaling Anak Rp150.000; dua sumber lain (Alodokter dan Traveloka) tidak dapat dibuka ulang. Batas bawah Rp144.000 dan kelengkapan tiga pembanding belum terverifikasi."
-    }
   ]
 }
