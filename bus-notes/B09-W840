@@ -72,9 +72,9 @@ RISET LAMA:
   ],
   "harga": [
     {
-      "perawatan": "Scaling, pembanding pasar Medan dari 3 penyedia; bukan tarif Dentetic; jenis dan cakupan paket berbeda",
+      "perawatan": "Scaling — kisaran harga pembanding 3 penyedia di Medan, bukan tarif Dentetic Dental Clinic; cakupan paket berbeda dan dapat berubah",
       "jenis": "kisaran_pasar",
-      "min": 100000,
+      "min": 144000,
       "max": 500000,
       "src": [
         "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
@@ -105,10 +105,11 @@ RISET LAMA:
     "Daftar dokter, jadwal praktik individual, dan tarif resmi belum tersedia dalam sumber terverifikasi."
   ],
   "ide_fitur_khas": "Perencana Kunjungan Jalan Halat: pilih hari, lihat jam operasional dari direktori dengan penanda perlu konfirmasi, dan buka peta. Integrasi WhatsApp hanya diaktifkan setelah nomor resmi diverifikasi.",
-  "catatan": "REVISI: Telah diperiksa ulang direktori Indonesia Knowledge, profil SmileJet, tautan Instagram yang tercantum, dan hasil pencarian web khusus nomor kontak. Nomor WA/telepon resmi tidak ditemukan; nilai wa dan telepon tetap null, tidak memakai nomor SmileJet, Sozo Dental, atau klinik sekitar. Rating 5.0/140 merupakan snapshot direktori (terakhir cek 2026-08-06), bukan pembacaan Google Maps langsung. SmileJet mengagregasi 61 ulasan, berbeda dari direktori; bukan dasar mengganti angka snapshot. Nama dokter yang muncul di ulasan tidak digunakan tanpa konfirmasi gelar. Kisaran scaling berasal dari harga pihak lain di Medan (termasuk paket yang dapat berubah); enam kategori harga lain tidak dicantumkan karena belum diperoleh minimal tiga sumber Medan yang sebanding. Detail layanan dari agregator perlu konfirmasi klinik.",
+  "catatan": "REVISI 2026-10-14: nomor WA/telepon resmi Dentetic belum ditemukan pada profil direktori, listing bisnis, Instagram invite (tidak dapat dibuka sebagai profil publik), maupun agregator SmileJet. Ulasan agregator menyebut reservasi via WA tetapi tidak menyertakan nomor. Jangan memakai nomor Sozo Dental, TelkoMedika, Simpang Pemda, atau klinik di Jalan Halat lain. Rating 5.0/140 dari snapshot Indonesia Knowledge (cek 2026-08-06), bukan Google Maps real-time; hasil pencarian bisnis terbaru menunjukkan 5.0/208. Harga scaling dari tiga penyedia lain di Medan (TelkoMedika 144 ribu, Sozo 199–500 ribu, Simpang Pemda harga normal historis 150–250 ribu); bukan harga Dentetic. Kategori lain tidak dimasukkan tanpa 3 pembanding terverifikasi.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentetic-dental-clinic-medan",
     "https://smilejet.app/clinic/dentetic-dental-clinic",
+    "https://smilejet.app/clinic/dentetic-dental-clinic/reviews",
     "https://www.instagram.com/invites/contact/?igsh=x8iopwtt9hob&utm_content=10rhyufx",
     "https://www.google.com/maps/place/?q=place_id:ChIJldrxRAAxMTARpFV0xTmgTkY",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
@@ -117,9 +118,9 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "harga[0].src[0]",
-      "tercatat": "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
-      "catatan": "Halaman layanan scaling dapat dibuka tetapi tidak memperlihatkan harga numerik."
+      "path": "harga[0].max",
+      "tercatat": 500000,
+      "catatan": "Rp500.000 adalah harga sebelum potongan; Basic Scaling Sozo Dental ditawarkan Rp199.000."
     }
   ]
 }
