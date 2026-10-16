@@ -1,0 +1,152 @@
+{
+  "id": "W676",
+  "hero": {
+    "judul": {
+      "id": "Vanilla Dental Care — Informasi Kunjungan",
+      "en": "Vanilla Dental Care — Visit Information"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi, jam yang tercantum, dan kontak telepon. Mohon konfirmasi alamat dan jadwal sebelum datang.",
+      "en": "Find the listed location, hours, and phone contact. Please confirm the address and schedule before visiting."
+    },
+    "cta": {
+      "id": "Telepon untuk Konfirmasi",
+      "en": "Call to Confirm"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental check-up"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan konsultasi kepada klinik.",
+        "en": "Ask the clinic about check-ups and consultation availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan scaling dan perkiraan biaya sebelum berkunjung.",
+        "en": "Ask about cleaning availability and expected fees before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan untuk keluhan gigi berlubang dan pilihan tindakannya.",
+        "en": "Ask about an examination for cavities and possible treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Ketersediaan konsultasi kawat gigi perlu dikonfirmasi langsung.",
+        "en": "Please confirm whether braces consultations are currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan jenis perawatan yang tersedia.",
+        "en": "Contact the clinic to check which treatments are offered."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu Kunjungan Dua Lokasi",
+      "en": "Two-Location Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih Prima Orchard atau Kranggan Cibubur, buka petunjuk peta, lalu telepon untuk memastikan lokasi dan jadwal.",
+      "en": "Choose Prima Orchard or Kranggan Cibubur, view map directions, then call to confirm the location and hours."
+    },
+    "alasan_dipilih": "Dua lokasi tercantum dalam daftar provider Juni 2025; alamat Prima Orchard berbeda antar sumber dan WhatsApp belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Daftar provider mencantumkan ruko apartemen Blok C di Jalan Raya Perjuangan, Bekasi Utara. Direktori lain menampilkan alamat berbeda di kawasan Prima Orchard. Mohon konfirmasi melalui telepon.",
+        "en": "A provider directory lists an apartment shophouse in Block C on Jalan Raya Perjuangan, North Bekasi. Another directory shows a different Prima Orchard address. Please call to confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan setiap hari 10.00–21.00 WIB. Mohon pastikan jadwal terbaru.",
+        "en": "A public directory lists daily hours of 10 am–9 pm WIB. Please confirm the latest schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum pada daftar provider adalah 082122126191. Belum ada nomor WhatsApp resmi yang terverifikasi.",
+        "en": "The provider directory lists 082122126191 as a phone number. An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much is teeth cleaning?"
+      },
+      "a": {
+        "id": "Tarif Vanilla Dental Care belum terverifikasi. Tanyakan biaya sesuai kondisi gigi sebelum perawatan.",
+        "en": "Vanilla Dental Care’s own fee has not been verified. Ask about the expected cost before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam daftar provider Chubb Dental Juni 2025. Hubungi klinik dan penyedia polis untuk memastikan status saat ini.",
+        "en": "The clinic appears on a June 2025 Chubb Dental provider list. Check current eligibility with the clinic and insurer."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan untuk anak?",
+        "en": "Are children’s dental services available?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan gigi anak belum dapat diverifikasi ulang. Silakan tanyakan sebelum membuat janji.",
+        "en": "Children’s dental services have not been reverified. Please ask before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi lokasi dan jadwal lewat telepon sebelum datang.",
+    "en": "Please call to confirm the address and hours before visiting."
+  },
+  "pesan_wa_default": "Halo Vanilla Dental Care, saya ingin menanyakan jadwal pemeriksaan gigi, lokasi cabang Prima Orchard, dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Vanilla Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi dua lokasi, Prima Orchard dan Kranggan Cibubur, dalam daftar penyedia layanan kesehatan. Kami sudah menyiapkan konsep website untuk membantu pasien menemukan informasi kunjungan dan kontak. Konsepnya dapat dilihat di https://maxigrowthstudio.com/vanilla. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Vanilla Dental Care",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Vanilla Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat dua lokasi Vanilla Dental Care tercantum dalam daftar penyedia layanan kesehatan, yaitu Prima Orchard dan Kranggan Cibubur. Kami menyiapkan konsep website untuk memudahkan pasien melihat informasi kunjungan, lokasi, dan kontak.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/vanilla. Proposal PDF terlampir sebagai bahan pertimbangan. Kami juga ingin mengonfirmasi alamat dan nomor kontak sebelum informasi ditampilkan.\n\nApabila berkenan, kami terbuka menerima masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
