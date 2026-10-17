@@ -1,0 +1,26 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B10/W875/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → harga/0/min: None is not of type 'number'
+✗ riset.schema.json → harga/0/max: None is not of type 'number'
+✗ riset.schema.json → harga/0/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/1/min: None is not of type 'number'
+✗ riset.schema.json → harga/1/max: None is not of type 'number'
+✗ riset.schema.json → harga/1/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/2/min: None is not of type 'number'
+✗ riset.schema.json → harga/2/max: None is not of type 'number'
+✗ riset.schema.json → harga/2/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/3/min: None is not of type 'number'
+✗ riset.schema.json → harga/3/max: None is not of type 'number'
+✗ riset.schema.json → harga/3/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/4/min: None is not of type 'number'
+✗ riset.schema.json → harga/4/max: None is not of type 'number'
+✗ riset.schema.json → harga/4/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/5/min: None is not of type 'number'
+✗ riset.schema.json → harga/5/max: None is not of type 'number'
+✗ riset.schema.json → harga/5/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/6/min: None is not of type 'number'
+✗ riset.schema.json → harga/6/max: None is not of type 'number'
+✗ riset.schema.json → harga/6/src: None is not of type 'string', 'array'
+GAGAL (21 masalah)
+
