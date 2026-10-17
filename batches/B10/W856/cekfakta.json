@@ -1,0 +1,29 @@
+{
+  "id": "W856",
+  "diperiksa": 21,
+  "beda": [
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "Scaling dewasa (kisaran tiga pembanding di Medan; bukan tarif Dentetic; dua harga mulai/paket dan satu tarif rumah sakit)",
+        "jenis": "kisaran_pasar",
+        "min": 144000,
+        "max": 350000,
+        "src": [
+          "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
+          "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
+          "https://rsgm.usu.ac.id/id/tarif-layanan-rsgm"
+        ]
+      },
+      "di_sumber": "Ketiga sumber adalah klinik/rumah sakit di Medan, bukan Makassar.",
+      "src": [
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
+        "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
+        "https://rsgm.usu.ac.id/id/tarif-layanan-rsgm"
+      ],
+      "catatan": "Angka 144000–350000 cocok dengan pembanding Medan, tetapi kota berbeda dari UPG Antang di Makassar dan label menyebut Dentetic. Tidak memenuhi aturan kisaran pasar kota yang sama; indikasi salin-tempel salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

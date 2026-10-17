@@ -1,0 +1,162 @@
+{
+  "id": "W913",
+  "hero": {
+    "judul": {
+      "id": "Freshdent Dental Care di Sawojajar",
+      "en": "Freshdent Dental Care in Sawojajar"
+    },
+    "sub": {
+      "id": "Temukan informasi dokter, layanan gigi, dan cara mengatur kunjungan di Malang.",
+      "en": "Explore dentists, dental services, and appointment information in Malang."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About an Appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dan plak untuk menjaga kebersihan mulut.",
+        "en": "Removal of plaque and tartar as part of regular dental care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi Estetik",
+        "en": "Tooth-Colored Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk memperbaiki bagian gigi yang rusak atau berlubang.",
+        "en": "A restorative treatment for cavities or damaged teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan warna gigi yang perlu diawali pemeriksaan.",
+        "en": "An option for tooth discoloration, following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tindakan pencabutan bila diperlukan berdasarkan pemeriksaan dokter.",
+        "en": "Tooth removal when indicated by a dentist after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Dental Spa",
+        "en": "Dental Spa"
+      },
+      "ringkas": {
+        "id": "Perawatan pemeliharaan kebersihan gigi dan gusi.",
+        "en": "A maintenance-focused treatment for teeth and gums."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel Gigi",
+        "en": "Dental Braces"
+      },
+      "ringkas": {
+        "id": "Perawatan susunan gigi dengan rencana yang disesuaikan hasil pemeriksaan.",
+        "en": "Orthodontic care planned according to an individual assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Layanan dan Dokter",
+      "en": "Choose a Service and Dentist"
+    },
+    "penjelasan": {
+      "id": "Jelajahi kebutuhan perawatan, kenali dokter yang tercantum, lalu kirim pertanyaan jadwal melalui WhatsApp.",
+      "en": "Explore treatments, meet the listed dentists, then ask about scheduling via WhatsApp."
+    },
+    "alasan_dipilih": "Situs Freshdent menampilkan tiga dokter dan halaman layanan terpisah, serta menyediakan tombol reservasi WhatsApp."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Freshdent Dental Care?",
+        "en": "Where is Freshdent Dental Care?"
+      },
+      "a": {
+        "id": "Di Ruko Sawojajar Mas, Jalan Maninjau Raya, Sawojajar, Kedungkandang, Kota Malang.",
+        "en": "At Ruko Sawojajar Mas, Jalan Maninjau Raya, Sawojajar, Kedungkandang, Malang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji terlebih dahulu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Situs klinik mencantumkan layanan berdasarkan janji temu. Hubungi WhatsApp untuk memastikan jadwal.",
+        "en": "The clinic website mentions appointments. Please contact the clinic on WhatsApp to confirm a time."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum di situs klinik?",
+        "en": "Which dentists are listed on the website?"
+      },
+      "a": {
+        "id": "Situs menampilkan drg. Alfi Rachmad, drg. Himmah Islaura, dan drg. Mochammad Yusuf. Jadwal masing-masing perlu dikonfirmasi.",
+        "en": "The website lists drg. Alfi Rachmad, drg. Himmah Islaura, and drg. Mochammad Yusuf. Please confirm individual schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling dan tambal gigi?",
+        "en": "How much do cleaning and fillings cost?"
+      },
+      "a": {
+        "id": "Tarif resmi Freshdent belum ditemukan pada situs yang diperiksa. Tanyakan perkiraan biaya langsung kepada petugas.",
+        "en": "Official Freshdent fees were not found on the pages reviewed. Please ask the clinic for a treatment estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Ya, behel gigi tercantum dalam daftar layanan klinik. Konsultasikan pilihan perawatan kepada dokter.",
+        "en": "Yes, braces are listed among the clinic services. Ask a dentist which option may suit your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi penerimaan asuransi belum terverifikasi. Mohon tanyakan langsung kepada klinik.",
+        "en": "Insurance acceptance has not been verified. Please confirm directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Freshdent untuk Informasi Kunjungan",
+    "en": "Contact Freshdent About Your Visit"
+  },
+  "pesan_wa_default": "Halo Freshdent Dental Care, saya ingin bertanya tentang layanan dan jadwal kunjungan. Mohon bantu informasinya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu Manajemen Freshdent Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat situs Freshdent menampilkan tiga dokter gigi dan layanan seperti scaling serta dental spa. Kami sudah menyiapkan konsep website yang memudahkan pasien mengenal dokter, layanan, dan mengatur kunjungan: https://maxigrowthstudio.com/freshdent. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep Website Freshdent Dental Care dari Maxi Growth Studio",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Freshdent Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah melihat situs Freshdent di Sawojajar yang menampilkan profil tiga dokter serta layanan seperti scaling, tambal, dan dental spa. Kami menyiapkan konsep website untuk membantu pasien menemukan informasi dokter, layanan, lokasi, dan reservasi dalam satu tampilan.\n\nPratinjau: https://maxigrowthstudio.com/freshdent\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami juga ingin mengonfirmasi perbedaan nomor telepon pada situs dan tautan WhatsApp sebelum informasi ditayangkan. Kami terbuka menerima masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

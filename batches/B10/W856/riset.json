@@ -169,5 +169,22 @@
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemutihan-gigi/makassar",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/veneer-gigi/makassar",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "Scaling dewasa (kisaran tiga pembanding di Medan; bukan tarif Dentetic; dua harga mulai/paket dan satu tarif rumah sakit)",
+        "jenis": "kisaran_pasar",
+        "min": 144000,
+        "max": 350000,
+        "src": [
+          "https://www.alodokter.com/cari-rumah-sakit/klinik-telkomedika-medan/scaling-gigi",
+          "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-medan-9127116109223",
+          "https://rsgm.usu.ac.id/id/tarif-layanan-rsgm"
+        ]
+      },
+      "catatan": "Ketiga sumber adalah klinik/rumah sakit di Medan, bukan Makassar."
+    }
   ]
 }
