@@ -1,0 +1,132 @@
+{
+  "id": "W1000",
+  "hero": {
+    "judul": {
+      "id": "Informasi Klinik Pratama CENDANA Tanah Sereal",
+      "en": "Klinik Pratama CENDANA in Tanah Sereal"
+    },
+    "sub": {
+      "id": "Lihat lokasi, kontak telepon, dan jam fasilitas yang tercantum. Jadwal dokter gigi perlu dikonfirmasi langsung.",
+      "en": "Find the clinic location, listed phone number, and facility hours. Please call to confirm dental appointments."
+    },
+    "cta": {
+      "id": "Lihat Alamat & Telepon",
+      "en": "View Address & Call"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pelayanan Kesehatan Umum",
+        "en": "General Medical Care"
+      },
+      "ringkas": {
+        "id": "Klinik pratama melayani kebutuhan pemeriksaan kesehatan umum. Tanyakan ketersediaan dokter sebelum datang.",
+        "en": "The clinic is listed as a general medical facility. Call to confirm doctor availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Pemeriksaan Gigi",
+        "en": "Dental Enquiries"
+      },
+      "ringkas": {
+        "id": "Klinik tercantum pada kategori gigi di direktori. Konfirmasi jadwal dan tindakan yang tersedia.",
+        "en": "The clinic appears in a dental category. Confirm available appointments and treatments by phone."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jam Fasilitas",
+        "en": "Facility Opening Hours"
+      },
+      "ringkas": {
+        "id": "Direktori Kecamatan Tambora mencantumkan buka 24 jam. Jam dokter dapat berbeda.",
+        "en": "The local district directory lists 24-hour facility access. Individual doctors may have different hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan Sebelum Berkunjung",
+        "en": "Before You Visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasi alamat, layanan, biaya, dan ketersediaan dokter melalui nomor telepon yang tercantum.",
+        "en": "Call to confirm the address, services, fees, and doctor availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Waktu Kunjungan",
+      "en": "Visit Timing Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan layanan umum atau gigi. Sistem menampilkan jam fasilitas dan pengingat untuk mengonfirmasi jadwal dokter melalui telepon.",
+      "en": "Choose general or dental care. The guide shows facility hours and reminds you to call for the relevant doctor’s schedule."
+    },
+    "alasan_dipilih": "Jam fasilitas tercantum 24 jam, tetapi jadwal dokter gigi tidak tersedia; fitur mengurangi risiko pasien mengira layanan gigi selalu ada."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Klinik Pratama CENDANA?",
+        "en": "Where is Klinik Pratama CENDANA?"
+      },
+      "a": {
+        "id": "Direktori Kecamatan Tambora mencantumkan Jl. Tanah Sereal VI No.10, Tambora, Jakarta Barat. Ada perbedaan alamat pada peta lain, jadi konfirmasi sebelum datang.",
+        "en": "The district directory lists Jl. Tanah Sereal VI No.10, Tambora, West Jakarta. Another map differs, so please confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka 24 jam?",
+        "en": "Is the clinic open 24 hours?"
+      },
+      "a": {
+        "id": "Jam fasilitas tercantum 24 jam. Ketersediaan dokter dan layanan gigi perlu dikonfirmasi melalui telepon.",
+        "en": "The facility is listed as open 24 hours. Please call to check doctor and dental service availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon pada direktori Kecamatan Tambora adalah (021) 6492837. Nomor WhatsApp resmi belum terverifikasi.",
+        "en": "The district directory lists (021) 6492837. An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan gigi?",
+        "en": "How much does dental care cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum ditemukan. Hubungi klinik untuk rincian biaya sesuai kebutuhan pemeriksaan.",
+        "en": "Official clinic prices have not been found. Call for current fees based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Does the clinic accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Kerja sama BPJS atau asuransi belum terkonfirmasi. Tanyakan sebelum membuat janji.",
+        "en": "BPJS or insurance acceptance has not been confirmed. Please ask before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Telepon untuk Konfirmasi Jadwal",
+    "en": "Call to Confirm Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter dan biaya layanan di Klinik Pratama CENDANA Tanah Sereal. Mohon informasinya. (Draf saja; nomor WhatsApp resmi belum terverifikasi.)",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu manajemen Klinik Pratama CENDANA. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat klinik di Tanah Sereal tercantum memiliki jam fasilitas 24 jam, sementara jadwal dokter perlu diperjelas untuk pasien. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/pratama-cendana. Bila berkenan, kami siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Pratama CENDANA",
+    "email_isi": "Yth. Bapak/Ibu Manajemen Klinik Pratama CENDANA,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk lokasi Tanah Sereal yang memudahkan pasien menemukan alamat, kontak, serta membedakan jam fasilitas dari jadwal dokter.\n\nKonsep dapat ditinjau melalui https://maxigrowthstudio.com/pratama-cendana. Proposal PDF kami lampirkan sebagai bahan diskusi. Kami akan senang menerima koreksi atas informasi lokasi dan layanan agar sesuai dengan data resmi klinik.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

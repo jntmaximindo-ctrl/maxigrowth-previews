@@ -1,0 +1,132 @@
+{
+  "id": "W643",
+  "hero": {
+    "judul": {
+      "id": "Kunjungan gigi anak di Bandung",
+      "en": "Children’s dental visits in Bandung"
+    },
+    "sub": {
+      "id": "Kenali perawatan gigi anak dan siapkan pertanyaan sebelum bertemu dokter.",
+      "en": "Explore children’s dental care and prepare questions for your appointment."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Diskusikan pemeriksaan dan kebutuhan gigi anak bersama dokter.",
+        "en": "Discuss your child’s dental needs with the clinician."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pembersihan sesuai usia dan kondisi gigi anak.",
+        "en": "Ask whether cleaning is appropriate for your child’s age and dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Dokter dapat menjelaskan pilihan tindakan setelah pemeriksaan.",
+        "en": "A clinician can explain treatment options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan indikasi, persiapan, dan tindak lanjut bila diperlukan.",
+        "en": "Discuss whether extraction is needed and what to expect afterward."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan si kecil",
+      "en": "Prepare for your child’s visit"
+    },
+    "penjelasan": {
+      "id": "Pilih kelompok usia dan topik yang ingin ditanyakan. Lihat daftar persiapan dan pertanyaan untuk dokter.",
+      "en": "Choose an age group and a topic to see practical preparation tips and questions for the dentist."
+    },
+    "alasan_dipilih": "Direktori mengidentifikasi Gigisusu.dental sebagai praktik yang berfokus pada pasien anak."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Sidomukti No.78, Sukaluyu, Cibeunying Kaler, Bandung.",
+        "en": "Jl. Sidomukti No. 78, Sukaluyu, Cibeunying Kaler, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam yang tercantum: Senin–Sabtu 10.00–18.00, Minggu tutup. Konfirmasi sebelum datang.",
+        "en": "Listed hours are Monday–Saturday, 10 AM–6 PM, closed Sunday. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya hubungi klinik untuk memastikan ketersediaan jadwal.",
+        "en": "Contact the clinic to check appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan anak?",
+        "en": "How much does children’s dental care cost?"
+      },
+      "a": {
+        "id": "Biaya klinik belum terkonfirmasi. Mintalah rincian setelah kebutuhan perawatan dinilai.",
+        "en": "Clinic fees have not been verified. Request an estimate after your child’s needs are assessed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Daftar asuransi yang berlaku perlu dikonfirmasi langsung dengan klinik.",
+        "en": "Please confirm accepted insurance plans directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Diskusikan kebutuhan kunjungan anak",
+    "en": "Discuss your child’s visit"
+  },
+  "pesan_wa_default": "Halo Gigisusu.dental, saya ingin menanyakan jadwal kunjungan dan pemeriksaan gigi anak. Mohon informasi ketersediaan dokter serta perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Gigisusu.dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat fokus praktik pada perawatan gigi anak dan telah menyiapkan konsep website dengan panduan persiapan kunjungan anak. Bapak/Ibu dapat melihatnya di https://maxigrowthstudio.com/gigisusu. Bila berkenan, kami terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Gigisusu.dental",
+    "email_isi": "Yth. Manajemen Gigisusu.dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mempelajari informasi publik mengenai fokus perawatan gigi anak di Gigisusu.dental. Berdasarkan hal tersebut, kami menyiapkan konsep website yang membantu orang tua memahami persiapan kunjungan dan menemukan informasi praktik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/gigisusu. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Jika ada informasi yang perlu disesuaikan, kami dengan senang hati menerima koreksi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

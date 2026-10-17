@@ -1,0 +1,132 @@
+{
+  "id": "W950",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Fransiska Andriani, Sp.KG",
+      "en": "Dr. Fransiska Andriani, Sp.KG: Practice Information"
+    },
+    "sub": {
+      "id": "Kenali informasi lokasi, sesi praktik yang tercantum di direktori, dan pertanyaan tentang perawatan gigi. Konfirmasi jadwal sebelum berkunjung.",
+      "en": "Find location details, directory-listed practice sessions, and questions to ask about dental care. Confirm the schedule before visiting."
+    },
+    "cta": {
+      "id": "Lihat panduan kunjungan",
+      "en": "View the visit guide"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan pilihan pemeriksaan dengan dokter.",
+        "en": "Discuss dental concerns and examination options with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan penanganan gigi berlubang yang sesuai kondisi.",
+        "en": "Ask about assessment and treatment for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan diperlukan untuk menentukan apakah pencabutan dibutuhkan.",
+        "en": "An examination is needed to determine whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah konsultasi ortodonti tersedia atau memerlukan rujukan.",
+        "en": "Ask whether orthodontic consultation is available or a referral is needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sesi pagi dan sore",
+      "en": "Morning and afternoon visit planner"
+    },
+    "penjelasan": {
+      "id": "Pilih sesi yang diinginkan untuk menyiapkan daftar pertanyaan. Jam pada direktori perlu dikonfirmasi melalui telepon 0318950521.",
+      "en": "Select a preferred session to prepare questions. Directory-listed hours should be confirmed by calling 0318950521."
+    },
+    "alasan_dipilih": "Direktori mencantumkan dua sesi praktik pada hari kerja, sedangkan nomor telepon tetap tersedia untuk konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Taman Pinang Indah D3 No.2, Lemah Putro, Sidoarjo. Alamat berasal dari direktori publik.",
+        "en": "Taman Pinang Indah D3 No.2, Lemah Putro, Sidoarjo, as listed in public directories."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat pukul 08.00–10.00 dan 16.00–20.00. Konfirmasi melalui telepon karena jadwal dapat berubah.",
+        "en": "A directory lists Monday–Friday, 8–10 am and 4–8 pm. Please call to confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah 0318950521. Nomor WhatsApp belum terverifikasi.",
+        "en": "The listed telephone number is 0318950521. A WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "What does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif resmi praktik belum terverifikasi. Kisaran pembanding dari tiga fasilitas lain di Sidoarjo mulai Rp284.000 hingga tarif tercantum Rp370.000; ini bukan tarif drg. Fransiska.",
+        "en": "The practice’s fee has not been verified. Three other Sidoarjo providers list starting prices from Rp284,000 to a listed fee of Rp370,000; these are not Dr. Fransiska’s fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan untuk anak?",
+        "en": "Are children’s appointments available?"
+      },
+      "a": {
+        "id": "Sumber direktori menyebut pasien anak, tetapi jenis layanan dan jadwalnya perlu dikonfirmasi kepada praktik.",
+        "en": "A directory mentions children’s patients, but please confirm services and availability with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal melalui telepon",
+    "en": "Confirm hours by telephone"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi drg. Fransiska Andriani, Sp.KG dan rincian biaya. Mohon informasi, terima kasih. (DRAF: nomor WhatsApp resmi belum terverifikasi; jangan aktifkan tombol kirim.)",
+  "outreach": {
+    "wa": "Selamat pagi, Ibu drg. Fransiska dan tim. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Taman Pinang Indah dan menyiapkan konsep website dengan panduan sesi kunjungan pagi atau sore. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-fransiska. Bila berkenan, kami terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Fransiska Andriani",
+    "email_isi": "Yth. drg. Fransiska Andriani dan Tim,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik di Taman Pinang Indah, dengan informasi lokasi, panduan pertanyaan pasien, dan pemilihan sesi kunjungan yang dapat diperiksa oleh tim praktik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-fransiska. Proposal PDF terlampir untuk bahan penilaian.\n\nInformasi layanan, jadwal, dan kontak pada rancangan masih memerlukan persetujuan sebelum ditayangkan. Kami terbuka untuk masukan dan diskusi bila konsep ini sesuai kebutuhan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
