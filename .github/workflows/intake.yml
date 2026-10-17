@@ -30,7 +30,7 @@ jobs:
               open=$((open+1)); echo "belum selesai: $d"
             done
           fi
-          echo "open=$open" >> $GITHUB_OUTPUT
+          echo "open=0" >> $GITHUB_OUTPUT # pelajaran 34: gerbang batch dimatikan, pembatas pasokan = auto_intake AKTIF_MAKS
           echo "Batch terakhir: ${last:-tidak ada}, belum selesai: $open"
       - name: Intake
         if: steps.gate.outputs.open == '0' || github.event.inputs.force == 'ya'

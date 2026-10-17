@@ -248,7 +248,7 @@ def laporan():
     try:
         pst = json.loads((ROOT / "data" / "codex-pool-state.json").read_text())
         for sid, x in pst.items():
-            if x.get("gagal_berturut", 0) >= 3:
+            if x.get("gagal_berturut", 0) >= 3 and _slot_aktif():
                 alarm.append(("manusia", f"Codex slot {sid} gagal {x['gagal_berturut']}x berturut-turut (bukan kuota) — kemungkinan environment/koneksi GitHub akun itu bermasalah"))
     except Exception:
         pass
@@ -287,6 +287,11 @@ def laporan():
     uji = pathlib.Path("/tmp/jb/uji.txt")
     if uji.exists() and uji.read_text().strip():
         alarm.append(("claude", "uji regresi GAGAL (aturan lama rusak/terlewat) → perbaiki ATURAN-nya: " + uji.read_text().strip()[:400]))
+    try:
+        if 'echo "open=$open"' in (ROOT / ".github" / "workflows" / "intake.yml").read_text(encoding="utf-8"):
+            alarm.append(("claude", "gerbang batch intake.yml aktif lagi: intake bisa macet (pelajaran 34)"))
+    except Exception:
+        pass
     tingkat = "MERAH" if any(a[0] == "manusia" for a in alarm) else "KUNING" if alarm else "HIJAU"
     L.insert(1, f"STATUS: {tingkat}" + "".join(f"\n- [{a[0]}] {a[1]}" for a in alarm))
     (OUT / "alarm-manusia.md").write_text("\n".join(f"- {a[1]}" for a in alarm if a[0] == "manusia"))
