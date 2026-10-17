@@ -62,12 +62,7 @@ RISET LAMA:
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Tambal gigi",
-    "Behel",
-    "Gigi palsu",
-    "Cabut gigi"
-  ],
+  "layanan": [],
   "harga": [
     {
       "perawatan": "scaling — rentang harga MULAI tiga pembanding Makassar; bukan tarif klinik ini",
@@ -127,12 +122,6 @@ RISET LAMA:
   ],
   "fasilitas": [],
   "asuransi": [],
-  "maps": {
-    "rating": null,
-    "ulasan": null,
-    "src": null,
-    "tgl": "2026-10-17"
-  },
   "keunggulan": [
     "Lokasi praktik tercantum di Ruko Jasper 3.",
     "Sumber mencantumkan layanan hari Minggu; konfirmasi jadwal sebelum datang."
@@ -142,7 +131,7 @@ RISET LAMA:
     "Instagram dibatasi akses; tarif dan dokter belum terverifikasi."
   ],
   "ide_fitur_khas": "Pemandu lokasi Pengayoman: tampilkan alamat Ruko Jasper 3 dan daftar pertanyaan sebelum kunjungan; kontak aktif setelah diverifikasi.",
-  "catatan": "Alamat/jam konsisten pada beberapa direktori. IG fetch throttled. IDalamat menampilkan telepon tanda minus, sehingga telepon/WA null. Layanan dari deskripsi umum IDalamat, perlu konfirmasi resmi. Rating berbeda 4.6/130 vs 4.7/103; maps null. Harga resmi tujuh kategori belum lengkap terverifikasi. Jangan gunakan angka pembanding sebagai tarif klinik. Nama/gelar dokter dan asuransi yang belum terbukti tidak diisi. Nomor telepon seluler tidak otomatis dianggap WhatsApp. Rating/ulasan Google Maps live belum terbaca.  Konten adalah draf; verifikasi website konsep benar tersedia dan PDF benar terlampir sebelum memakai outreach. Tidak ada pesan dikirim. Audit biaya tambahan: scaling, tambal, cabut, veneer dan bleaching memakai tiga halaman tarif fasilitas Makassar yang berhasil dibuka. Rentang adalah minimum/maksimum dari HARGA MULAI terpublikasi, bukan batas biaya akhir, tidak menyamakan bahan veneer atau tingkat kesulitan tambal/cabut. Behel metal dan implan tetap null: belum ada tiga pembanding setara yang terverifikasi. Angka tidak ditampilkan sebagai tarif klinik dalam konten. Penelusuran kategori biaya dilakukan juga pada halaman kota Alodokter. Halaman kategori yang kosong/tidak terbaca atau jumlah pembanding kurang dari tiga tidak menjadi dasar angka. Untuk Cirebon, pembanding Kabupaten Cirebon tidak dicampur dengan Kota Cirebon. Tarif promosi yang sudah berakhir tidak dipakai sebagai tarif saat ini. Kategori harga belum ditemukan dari tiga pembanding setara: behel metal, implan. Elemen harga tak terbukti tidak ditulis; harga=[] berarti belum tersedia data terverifikasi, bukan tarif nol. REVISI otomatis: elemen harga kosong dihapus tanpa angka rekaan; pembanding terverifikasi dipertahankan.",
+  "catatan": "Nomor WA/telepon tetap belum ditemukan. Instagram melalui pembaca web dibatasi; pengambilan HTML hanya menampilkan layar masuk, tanpa bio/kontak. IDalamat secara eksplisit menampilkan telepon tanda minus. Jangan memakai kontak Arsy Dental Care Kendal, Harsya Dental Care, atau endorser. Rating direktori 4.6/130 berbeda dari DentalClinics.care 4.7/103; maps dihapus. Lima rentang biaya lama dibuka ulang pada 15 halaman Alodokter: angka tetap sesuai. Daftar tindakan pada IDalamat tampak berupa deskripsi generik; tidak cukup untuk menyatakan layanan klinis terkonfirmasi. Data valid dari RISET LAMA dipertahankan, bukan riset mulai dari nol. Rating/ulasan tak terverifikasi tidak dicantumkan. Angka harga adalah pembanding pasar, tidak boleh tampil sebagai tarif klinik.  Konten dan outreach adalah draf; jangan kirim. Pernyataan konsep tersedia dan PDF terlampir harus diperiksa oleh pengirim sebelum digunakan. Daftar layanan klinis belum cukup terverifikasi untuk empat kartu tindakan. Empat kartu konten berupa panduan pertanyaan kunjungan, bukan klaim tersedianya tindakan. Konfirmasi klinik diperlukan sebelum menggantinya dengan layanan klinis. BLOKIR CTA WHATSAPP: pesan_wa_default hanya draf; jangan membuat tautan aktif sebelum nomor resmi ditemukan. Kategori tanpa tiga pembanding layak dan angka terbukti (elemen dihapus, bukan null/nol): behel metal, implan. Behel umum tidak disamakan dengan behel metal. Rentang biaya awal pembanding bukan batas biaya akhir; bahan, jumlah gigi dan komponen paket perlu konfirmasi.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/arsy-dental-care-makassar",
     "https://www.dentalclinics.care/dental-clinic/arsy-dental-care",
@@ -169,6 +158,7 @@ RISET LAMA:
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemasangan-kawat-gigi/makassar",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemutihan-gigi/makassar",
     "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/veneer-gigi/makassar",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/makassar"
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/makassar",
+    "https://www.instagram.com/arsydentalcare/"
   ]
 }
