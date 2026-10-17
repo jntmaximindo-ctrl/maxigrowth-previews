@@ -5,4 +5,4 @@
 | riset-gpt | 7 hari | 0 | 55 | - | riset.schema.json → hargaN/min: none is not of type '…' |
 | rakit | 30 hari | 2 | 0 | 100% | - |
 | riset | 30 hari | 2 | 0 | 100% | - |
-| riset-gpt | 30 hari | 0 | 63 | - | riset.schema.json → maps/rating: none is not of type '…' |
+| riset-gpt | 30 hari | 0 | 63 | - | riset.schema.json → hargaN/min: none is not of type '…' |

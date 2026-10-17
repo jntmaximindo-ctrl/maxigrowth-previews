@@ -81,5 +81,12 @@
     "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 220000,
+      "catatan": 360000
+    }
   ]
 }

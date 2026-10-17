@@ -112,5 +112,22 @@
     "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 220000,
+      "catatan": 360000
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282260280009",
+      "catatan": "Nomor numerik tidak tertulis di halaman yang terbaca; tombol Hubungi WA gagal dibuka. Nomor dan akun IG ada pada HargaPromosi https://hargapromosi.id/dokter-gigi-jakarta-timur/, bukan bukti src CariBisnis."
+    },
+    {
+      "path": "instagram.src",
+      "tercatat": "https://www.instagram.com/dentalcare_drgwilda/",
+      "catatan": "Akun tidak tercantum di src yang terbaca; sumber tambahan HargaPromosi memuat akun."
+    }
   ]
 }

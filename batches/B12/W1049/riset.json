@@ -71,5 +71,12 @@
     "https://msha.ke/doktergigidwi/",
     "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
     "https://www.instagram.com/megumedical/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.src",
+      "tercatat": "https://www.instagram.com/megumedical/",
+      "catatan": "Milkshake tidak memuat tautan Instagram; akun justru ditautkan SemuaBis. Instagram langsung gagal throttled."
+    }
   ]
 }

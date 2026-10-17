@@ -1,0 +1,24 @@
+{
+  "id": "W1018",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 220000,
+      "di_sumber": 360000,
+      "src": "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+      "catatan": "Biaya mulai scaling Alia yang terbaca Rp360.000, bukan Rp220.000 pada catatan riset. Yadika Rp150.000 dan Dental Theory Rp200.000; rentang tiga harga mulai saat cek 150000–360000, bukan tarif klinik target atau batas biaya akhir."
+    },
+    {
+      "path": "nama.v",
+      "tercatat": "Praktek drg. Okky S / Klinik Gigi OQ",
+      "di_sumber": "Praktek Drg. Okky S",
+      "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+      "catatan": "Nama Klinik Gigi OQ tidak tercantum di src IDalamat. URL Waze pembanding tidak dapat dibuka ulang; kesamaan/rebranding tidak dapat dikonfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA"
+  ],
+  "kritis_ok": false
+}

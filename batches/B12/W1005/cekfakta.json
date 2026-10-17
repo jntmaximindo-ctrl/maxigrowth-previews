@@ -1,0 +1,29 @@
+{
+  "id": "W1005",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 220000,
+      "di_sumber": 360000,
+      "src": "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+      "catatan": "Biaya mulai scaling Alia yang terbaca Rp360.000, bukan Rp220.000 pada catatan riset. Yadika Rp150.000 dan Dental Theory Rp200.000; rentang tiga harga mulai saat cek 150000–360000, bukan tarif klinik target atau batas biaya akhir."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282260280009",
+      "di_sumber": null,
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/ciracas/dental-care-drg-elvyanna-wilda-cira-imp1",
+      "catatan": "Nomor numerik tidak tertulis di halaman yang terbaca; tombol Hubungi WA gagal dibuka. Nomor dan akun IG ada pada HargaPromosi https://hargapromosi.id/dokter-gigi-jakarta-timur/, bukan bukti src CariBisnis."
+    },
+    {
+      "path": "instagram.src",
+      "tercatat": "https://www.instagram.com/dentalcare_drgwilda/",
+      "di_sumber": null,
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/ciracas/dental-care-drg-elvyanna-wilda-cira-imp1",
+      "catatan": "Akun tidak tercantum di src yang terbaca; sumber tambahan HargaPromosi memuat akun."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
