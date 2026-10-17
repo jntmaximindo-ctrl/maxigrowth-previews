@@ -1,0 +1,104 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W1021",
+  "nama": {
+    "v": "Endo Dental",
+    "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/endo-dental-pulo-imp1",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "kota": "Jakarta Timur",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/endodental_/",
+    "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/endo-dental-pulo-imp1",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Endo Dental",
+      "alamat": {
+        "v": "Jl. Angkur No.30, RT.17/RW.3, Kayu Putih, Pulo Gadung, Jakarta Timur 13210",
+        "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/endo-dental-pulo-imp1",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "10-20",
+          "sel": "10-20",
+          "rab": "10-20",
+          "kam": "10-20",
+          "jum": "10-20",
+          "sab": "10-20",
+          "min": "10-20"
+        },
+        "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/endo-dental-pulo-imp1",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [
+    {
+      "perawatan": "scaling — rentang HARGA MULAI tiga pembanding Jakarta Timur; bukan tarif klinik ini",
+      "jenis": "kisaran_pasar",
+      "min": 150000,
+      "max": 220000,
+      "src": [
+        "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Lokasi praktik tercantum di Jl. Angkur No.30, RT.17/RW.3, Kayu Putih, Pulo Gadung, Jakarta Timur 13210."
+  ],
+  "situs_lama": [
+    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
+  ],
+  "ide_fitur_khas": "Perencana kunjungan Angkur dengan daftar pertanyaan tentang dokter yang bertugas.",
+  "catatan": "Instagram dan Linktree tidak menghasilkan halaman profil terbaca. Telepon/WA/email resmi belum terbukti. Nama Elizabeth dan spesialisasi yang hanya ada pada direktori belum dipakai sebagai dokter terkonfirmasi. Tidak mengklaim layanan konservasi hanya dari nama Endo. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi. Pembanding scaling Alia 220000, Yadika 150000, Dental Theory 200000; batas biaya akhir tidak diketahui.",
+  "sumber": [
+    "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/endo-dental-pulo-imp1",
+    "https://www.instagram.com/endodental_/",
+    "https://linktr.ee/endodental_",
+    "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].max",
+      "tercatat": 220000,
+      "catatan": 360000
+    }
+  ]
+}
