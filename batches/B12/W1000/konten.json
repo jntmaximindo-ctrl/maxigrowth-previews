@@ -1,0 +1,132 @@
+{
+  "id": "W1000",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Klinik Pratama CENDANA",
+      "en": "Plan a Visit to Klinik Pratama CENDANA"
+    },
+    "sub": {
+      "id": "Cari alamat, telepon, dan panduan mengonfirmasi jadwal layanan gigi di Tanah Sereal, Tambora.",
+      "en": "Find the Tanah Sereal location, phone number, and guidance on confirming dental service hours."
+    },
+    "cta": {
+      "id": "Lihat panduan kunjungan",
+      "en": "View visit guide"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Kesehatan Umum",
+        "en": "General Health Visits"
+      },
+      "ringkas": {
+        "id": "Klinik tercantum sebagai fasilitas layanan kesehatan di Tambora.",
+        "en": "The clinic is listed as a local healthcare facility in Tambora."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dokter gigi dan jadwal praktik sebelum datang.",
+        "en": "Please call ahead to confirm dentist availability and appointment hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan scaling; konfirmasikan jadwal dan biaya melalui telepon.",
+        "en": "Scaling is listed in a directory; call to check availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan Cabut Gigi",
+        "en": "Fillings and Extractions"
+      },
+      "ringkas": {
+        "id": "Kedua tindakan tercantum dalam direktori; tanyakan layanan yang tersedia untuk kondisi Anda.",
+        "en": "Both procedures appear in a directory; confirm which services are available for your needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu Jadwal Layanan",
+      "en": "Service Hours Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih layanan umum atau gigi, lihat lokasi dan telepon untuk memastikan jam dokter yang bertugas.",
+      "en": "Select general or dental care, view the location, and call to confirm clinician hours."
+    },
+    "alasan_dipilih": "Direktori menyebut klinik umum buka 24 jam, tetapi jadwal layanan dokter gigi tidak dapat dipastikan sama."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori Kecamatan Tambora mencantumkan Jl. Tanah Sereal VI No 10, Tambora. Ada alamat berbeda pada direktori lain, jadi pastikan lewat telepon.",
+        "en": "The Tambora district directory lists Jl. Tanah Sereal VI No 10. Another directory shows a different address, so please call to confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dokter gigi tersedia 24 jam?",
+        "en": "Is a dentist available 24 hours?"
+      },
+      "a": {
+        "id": "Jam 24 jam tercantum untuk klinik secara umum, bukan sebagai kepastian jam dokter gigi. Hubungi klinik sebelum berkunjung.",
+        "en": "The 24-hour listing refers to the clinic generally, not confirmed dentist hours. Please call before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum ditemukan. Silakan hubungi klinik untuk perkiraan sesuai pemeriksaan.",
+        "en": "An official clinic fee was not found. Please call for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Informasi kepesertaan belum dapat dipastikan. Tanyakan langsung sebelum kunjungan.",
+        "en": "Coverage has not been confirmed. Please check directly before your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum di direktori Kecamatan Tambora adalah (021) 6492837. Nomor WhatsApp resmi belum terverifikasi.",
+        "en": "The Tambora district directory lists (021) 6492837. An official WhatsApp number has not been verified."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Telepon untuk konfirmasi jadwal",
+    "en": "Call to confirm your visit"
+  },
+  "pesan_wa_default": "Halo Klinik Pratama CENDANA, saya ingin menanyakan jadwal dokter gigi, alamat yang aktif, dan perkiraan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola Klinik Pratama CENDANA. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat klinik tercantum di daftar fasilitas Kecamatan Tambora, dengan layanan umum 24 jam. Kami menyiapkan konsep website yang membedakan informasi klinik umum dan jadwal dokter gigi agar pasien tidak keliru. Konsepnya dapat dilihat di https://maxigrowthstudio.com/pratama-cendana. Kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Pratama CENDANA",
+    "email_isi": "Yth. Manajemen Klinik Pratama CENDANA,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi klinik pada daftar fasilitas Kecamatan Tambora, termasuk jam operasional umum 24 jam. Karena jadwal dokter gigi dan alamat tampil berbeda di sejumlah direktori, kami menyiapkan konsep website yang memisahkan informasi tersebut agar pasien dapat mengonfirmasi sebelum berkunjung.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/pratama-cendana. Proposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka menerima koreksi alamat, kontak, dan jadwal sebelum informasi digunakan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
