@@ -111,5 +111,17 @@
     "https://www.omdc.co.id/",
     "https://omdc.co.id/location",
     "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tanah Sereal VI No 10, RT.6/RW.13, Tanah Sereal, Tambora, Jakarta Barat 11210",
+      "catatan": "Pada halaman Kecamatan Tambora ada dua entri: Jl. Tanah Sereal VI No.10 RT.6/RW.13 dan Jl. Tanah Sereal VI No.10 RT.7/RW.13. Waze untuk tempat yang sama menampilkan Jl. Tanah Sereal VII 126-C."
+    },
+    {
+      "path": "harga[0].min",
+      "tercatat": 138000,
+      "catatan": "HDmall tidak dapat dibuka; angka Rp138.000 belum dapat diverifikasi ulang dari sumber yang dikutip. OMDC menampilkan Basic Scaling Rp649.000."
+    }
   ]
 }
