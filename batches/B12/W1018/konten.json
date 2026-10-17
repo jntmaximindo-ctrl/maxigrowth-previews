@@ -1,0 +1,142 @@
+{
+  "id": "W1018",
+  "hero": {
+    "judul": {
+      "id": "Praktek drg.Okky S di Utan Kayu",
+      "en": "Praktek drg.Okky S in Utan Kayu"
+    },
+    "sub": {
+      "id": "Informasi lokasi, kontak telepon, dan layanan gigi di Matraman, Jakarta Timur. Mohon konfirmasi jam praktik sebelum datang.",
+      "en": "Location, phone contact and dental care information in Matraman, East Jakarta. Please confirm hours before visiting."
+    },
+    "cta": {
+      "id": "Lihat Kontak Praktik",
+      "en": "View Practice Contact"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan waktu pemeriksaan melalui telepon praktik.",
+        "en": "Call the practice to discuss your concerns and checkup availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Scaling tercantum pada direktori; mohon konfirmasi ketersediaan dan biaya.",
+        "en": "Scaling appears in directory listings; please confirm availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pemeriksaan untuk gigi berlubang dan jenis tambalan.",
+        "en": "Ask about assessments for cavities and available filling options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter perlu memeriksa kondisi gigi sebelum memutuskan tindakan.",
+        "en": "A dental examination is needed before deciding on extraction."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah konsultasi behel tersedia pada jadwal praktik.",
+        "en": "Call to ask whether braces consultations are currently offered."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jam Praktik Utan Kayu",
+      "en": "Utan Kayu Visiting Guide"
+    },
+    "penjelasan": {
+      "id": "Dua direktori mencantumkan Senin–Sabtu 17.30–21.30 WIB dan Minggu tutup. Sumber lain memuat jam berbeda. Hubungi (021) 8500478 untuk memastikan jadwal.",
+      "en": "Two directories list Monday–Saturday 5:30–9:30 PM, closed Sunday. Another source shows different hours. Call +62 21 8500478 to confirm."
+    },
+    "alasan_dipilih": "Praktik memiliki nomor telepon tetap yang konsisten di sumber, sementara jam operasional tidak konsisten sehingga fitur memprioritaskan konfirmasi langsung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Utan Kayu Raya No.100C, Utan Kayu Utara, Matraman, Jakarta Timur 13120.",
+        "en": "Jl. Utan Kayu Raya No. 100C, Utan Kayu Utara, Matraman, East Jakarta 13120."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah (021) 8500478. Nomor WhatsApp resmi belum terverifikasi.",
+        "en": "The listed landline is +62 21 8500478. An official WhatsApp number has not been confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Dua direktori mencantumkan Senin–Sabtu 17.30–21.30 WIB, tetapi ada informasi berbeda di sumber lain. Silakan telepon sebelum datang.",
+        "en": "Two directories list Monday–Saturday 5:30–9:30 PM, but another source differs. Please call ahead."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif praktik belum dipublikasikan secara terverifikasi. Tanyakan biaya pemeriksaan dan tindakan lewat telepon.",
+        "en": "A verified practice fee is unavailable. Please call to ask about examination and treatment costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pasien anak atau behel?",
+        "en": "Do you see children or offer braces?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan layanan gigi anak dan kawat gigi, tetapi ketersediaannya perlu dikonfirmasi langsung.",
+        "en": "Directory listings mention care for children and braces, but availability should be confirmed directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Telepon untuk Konfirmasi Jadwal",
+    "en": "Call to Confirm Hours"
+  },
+  "pesan_wa_default": "Halo Praktek drg.Okky S, saya ingin menanyakan jadwal praktik dan ketersediaan pemeriksaan gigi. Terima kasih. (Draf saja; nomor WA resmi belum terverifikasi.)",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Praktek drg.Okky S. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Utan Kayu Raya No.100C dan melihat perlunya informasi jam kunjungan yang mudah dikonfirmasi. Kami sudah menyiapkan konsep website untuk dilihat di https://maxigrowthstudio.com/drg-okky. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website Praktek drg.Okky S",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktek drg.Okky S,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mempelajari informasi publik praktik di Jl. Utan Kayu Raya No.100C, Matraman. Kami melihat kesempatan untuk menyajikan alamat, nomor telepon, dan panduan konfirmasi jadwal dalam satu halaman yang jelas.\n\nKonsep website telah kami siapkan di https://maxigrowthstudio.com/drg-okky. Proposal PDF terlampir untuk menjelaskan rancangan dan fitur yang kami usulkan.\n\nKami akan menghargai kesempatan menerima masukan apabila Bapak/Ibu berkenan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

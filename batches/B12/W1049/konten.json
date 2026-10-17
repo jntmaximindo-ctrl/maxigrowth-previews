@@ -1,0 +1,132 @@
+{
+  "id": "W1049",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Klinik Megu Medical Centre",
+      "en": "Plan Your Visit to Klinik Megu Medical Centre"
+    },
+    "sub": {
+      "id": "Temukan lokasi klinik di Megu Cilik dan informasi layanan gigi yang tercantum. Konfirmasi jadwal serta ketersediaan layanan melalui telepon sebelum datang.",
+      "en": "Find the clinic in Megu Cilik and explore the dental services listed for this location. Please call to confirm schedules and availability before visiting."
+    },
+    "cta": {
+      "id": "Telepon Klinik",
+      "en": "Call the Clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan Gigi Dewasa dan Anak",
+        "en": "Dental Care for Adults and Children"
+      },
+      "ringkas": {
+        "id": "Profil praktik Dokter Gigi Dwi di lokasi klinik mencantumkan layanan untuk dewasa dan anak.",
+        "en": "The dental practice profile at this location mentions care for both adults and children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Scaling tercantum pada profil praktik gigi. Tanyakan jadwal dan biaya sebelum kunjungan.",
+        "en": "Scaling is listed on the dental practice profile. Ask about timing and fees before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Informasi penambalan gigi tersedia pada profil praktik. Jenis tindakan mengikuti pemeriksaan dokter.",
+        "en": "Fillings are listed among the dental services. The dentist will advise on suitable treatment after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Palsu Lepasan",
+        "en": "Removable Dentures"
+      },
+      "ringkas": {
+        "id": "Profil praktik juga mencantumkan gigi palsu lepasan. Hubungi klinik untuk informasi pemeriksaan awal.",
+        "en": "Removable dentures are also listed. Contact the clinic to ask about an initial assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Megu",
+      "en": "Megu Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan layanan, lihat alamat, lalu hubungi nomor telepon klinik untuk memastikan jadwal dokter. Jam layanan gigi dan jam fasilitas dapat berbeda.",
+      "en": "Choose a service, check the address, and call to confirm the dentist’s schedule. Dental practice hours may differ from general clinic hours."
+    },
+    "alasan_dipilih": "Ada profil layanan gigi terpisah dengan jam Senin–Jumat 14.00–20.00, sementara jam fasilitas yang terdaftar berbeda; fitur membantu pasien menghindari salah jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Fatahillah No.23, Megu Cilik, Weru, Kabupaten Cirebon. Mohon konfirmasi lokasi sebelum berangkat.",
+        "en": "Listings show Jl. Fatahillah No.23, Megu Cilik, Weru, Cirebon Regency. Please confirm the address before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal layanan gigi?",
+        "en": "When is dental care available?"
+      },
+      "a": {
+        "id": "Profil Dokter Gigi Dwi mencantumkan Senin–Jumat pukul 14.00–20.00. Jadwal dapat berubah, jadi sebaiknya telepon dahulu.",
+        "en": "The Dokter Gigi Dwi profile lists Monday–Friday, 2–8 PM. Hours may change, so please call first."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah (0231) 8308938. Nomor WhatsApp resmi belum dapat diverifikasi.",
+        "en": "The listed phone number is (0231) 8308938. An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Tanyakan perkiraan biaya saat menghubungi klinik.",
+        "en": "Official fees were not available in the sources reviewed. Please ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Profil Dokter Gigi Dwi menyebut perawatan untuk dewasa dan anak. Konfirmasi layanan yang diperlukan sebelum membuat kunjungan.",
+        "en": "The Dokter Gigi Dwi profile mentions care for adults and children. Confirm the service you need before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan informasi kunjungan melalui telepon",
+    "en": "Call to Confirm Your Visit"
+  },
+  "pesan_wa_default": "Halo Klinik Megu Medical Centre, saya ingin menanyakan jadwal layanan dan perkiraan biaya. Apakah bisa dibantu? (Teks contoh; jangan aktifkan tombol WhatsApp sebelum nomor resmi tersedia.)",
+  "outreach": {
+    "wa": "Yth. Pengelola Klinik Megu Medical Centre, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan gigi di Jl. Fatahillah, Megu Cilik, dan menyiapkan konsep website yang memudahkan pasien melihat lokasi serta jadwal. Konsepnya dapat dilihat di https://maxigrowthstudio.com/megu-medical. Jika berkenan, kami siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep Website Klinik Megu Medical Centre",
+    "email_isi": "Yth. Manajemen Klinik Megu Medical Centre,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu calon pasien menemukan lokasi klinik dan membedakan jadwal layanan gigi dengan jam fasilitas.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/megu-medical. Proposal PDF kami lampirkan untuk bahan pertimbangan. Jika ada informasi yang perlu disesuaikan, kami terbuka menerima koreksi.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

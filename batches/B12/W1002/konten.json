@@ -1,0 +1,152 @@
+{
+  "id": "W1002",
+  "hero": {
+    "judul": {
+      "id": "LARAS Dental Care di Ujung Menteng",
+      "en": "LARAS Dental Care in Ujung Menteng"
+    },
+    "sub": {
+      "id": "Informasi layanan gigi dan jadwal praktik malam serta akhir pekan di kawasan Metland Menteng. Konfirmasi jadwal sebelum berkunjung.",
+      "en": "Dental care information and evening or weekend hours in the Metland Menteng area. Please confirm your visit in advance."
+    },
+    "cta": {
+      "id": "Lihat jadwal kunjungan",
+      "en": "View visiting hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan kebutuhan pemeriksaan sebelum menentukan tindakan.",
+        "en": "Discuss your dental concerns and available checkup options before planning treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi; konfirmasikan ketersediaan layanan dan biaya.",
+        "en": "Ask about scaling availability and fees before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pilihan tambalan yang sesuai kondisi gigi.",
+        "en": "Ask about an examination and filling options for your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter perlu memeriksa kondisi gigi untuk menentukan langkah perawatan.",
+        "en": "An examination is needed to determine whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi dan ketersediaan layanan kawat gigi.",
+        "en": "Ask about orthodontic consultations and appointment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Dental Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian awal dan pilihan perawatan sebelum mengambil keputusan.",
+        "en": "Ask about an initial assessment and available veneer options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Waktu Kunjungan",
+      "en": "Plan Your Visit"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal yang tercantum: Senin–Jumat 19.00–21.00 dan Sabtu–Minggu 15.00–21.00 WIB. Jadwal dan slot tetap perlu dikonfirmasi.",
+      "en": "Listed hours: Monday–Friday 7–9 PM and weekends 3–9 PM Jakarta time. Please confirm hours and appointment slots."
+    },
+    "alasan_dipilih": "Jam praktik pada direktori berbeda antara hari kerja dan akhir pekan, sehingga pemilih waktu membantu pasien memahami pola kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi LARAS Dental Care?",
+        "en": "Where is LARAS Dental Care?"
+      },
+      "a": {
+        "id": "Di Perumahan Metland Menteng Cluster Valeria No.H3, Ujung Menteng, Cakung, Jakarta Timur.",
+        "en": "At Metland Menteng, Cluster Valeria No. H3, Ujung Menteng, Cakung, East Jakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Menurut direktori: Senin–Jumat 19.00–21.00 dan Sabtu–Minggu 15.00–21.00 WIB. Mohon konfirmasi sebelum datang.",
+        "en": "A directory lists 7–9 PM on weekdays and 3–9 PM on weekends. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif resmi LARAS belum terverifikasi. Mintalah estimasi langsung sebelum perawatan.",
+        "en": "The clinic’s official fee has not been confirmed. Please request an estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani perawatan behel?",
+        "en": "Are braces consultations available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum di direktori, tetapi jadwal dan ketersediaan tindakan perlu dikonfirmasi.",
+        "en": "Braces are listed in a directory, but appointment and treatment availability need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama dan ketentuan penjaminan belum terverifikasi. Silakan konfirmasi ke pihak klinik.",
+        "en": "Insurance participation and coverage terms have not been independently confirmed. Please ask the clinic directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal dan Layanan",
+    "en": "Ask About Hours and Services"
+  },
+  "pesan_wa_default": "Halo LARAS Dental Care, saya ingin menanyakan jadwal kunjungan dan ketersediaan layanan. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola LARAS Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Metland Menteng dengan jadwal malam dan akhir pekan. Kami sudah menyiapkan konsep website yang bisa Bapak/Ibu lihat di https://maxigrowthstudio.com/laras. Bila berkenan, kami terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk LARAS Dental Care",
+    "email_isi": "Yth. Bapak/Ibu Pengelola LARAS Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi praktik LARAS Dental Care di Metland Menteng, termasuk jadwal malam hari dan akhir pekan yang dapat ditampilkan lebih jelas kepada calon pasien.\n\nKami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/laras. Proposal PDF terlampir untuk menjelaskan rancangan dan fitur panduan waktu kunjungan.\n\nApabila Bapak/Ibu berkenan, kami terbuka untuk berdiskusi atau menerima koreksi atas informasi klinik yang perlu disesuaikan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
