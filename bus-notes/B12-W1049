@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W1049",
   "nama": {
     "v": "Klinik Megu Medical Centre",
-    "src": "https://msha.ke/doktergigidwi/",
+    "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
     "tgl": "2026-10-17",
     "yakin": "sedang"
   },
@@ -13,7 +13,7 @@ RISET LAMA:
   "zona_waktu": "WIB",
   "instagram": {
     "v": "https://www.instagram.com/megumedical/",
-    "src": "https://msha.ke/doktergigidwi/",
+    "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
     "tgl": "2026-10-17",
     "yakin": "sedang"
   },
@@ -69,17 +69,10 @@ RISET LAMA:
     "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
   ],
   "ide_fitur_khas": "Daftar persiapan kunjungan poli gigi dengan konfirmasi dokter dan jadwal sebelum datang.",
-  "catatan": "Milkshake doktergigidwi mencantumkan layanan/alamat, tetapi tombol janji masih www.example.com; tidak digunakan untuk pemesanan. Nama lengkap/gelar dokter Dwi tidak ditebak; jadwal Senin-Jumat 14-20 belum dikonfirmasi resmi klinik dan bukan jam seluruh klinik. IG tidak terbaca. Telepon bukan WA. Pembanding harga belum tiga sumber konsisten per kategori Kabupaten Cirebon. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi.",
+  "catatan": "Koreksi instagram.src: SemuaBis yang dibuka memuat tautan Instagram megumedical, sedangkan Milkshake tidak memuatnya. Tautan Instagram SemuaBis diklik dan tujuan megumedical terkonfirmasi, tetapi profil gagal throttled. Alamat serta telepon 02318308938 masih tertulis di SemuaBis; nomor telepon tidak diasumsikan WA. Milkshake doktergigidwi dibuka ulang: layanan scaling, penambalan dan gigi palsu lepasan tetap tercantum, tombol BOOK YOUR APPOINTMENT masih example.com dan tidak dipakai. Pencarian nama Medical Centre/Center dan akun tidak menemukan nomor WA yang dapat dibuktikan. Nomor Klinik Budi Asih dan HDC Cirebon tidak disalin. Harga tujuh kategori belum memiliki tiga pembanding konsisten per Kabupaten Cirebon, sehingga entri tidak dibuat. Revisi menggunakan RISET LAMA pada surat sebagai dasar; semua field riset dan konten lengkap ditulis ulang. Rating/ulasan tidak terbukti dihapus. Harga tanpa angka terverifikasi dihapus dari array harga, tidak diisi min/max null. Tidak mengirim WA/email. Outreach hanya draf; pemilik perlu memeriksa ketersediaan konsep dan lampiran PDF sebelum digunakan.",
   "sumber": [
     "https://msha.ke/doktergigidwi/",
     "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
     "https://www.instagram.com/megumedical/"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "instagram.src",
-      "tercatat": "https://www.instagram.com/megumedical/",
-      "catatan": "Milkshake tidak memuat tautan Instagram; akun justru ditautkan SemuaBis. Instagram langsung gagal throttled."
-    }
   ]
 }

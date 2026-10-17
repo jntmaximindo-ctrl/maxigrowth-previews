@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W950",
   "nama": {
     "v": "drg. Fransiska Andriani, Sp.KG",
-    "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
+    "src": "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
     "tgl": "2026-10-17",
     "yakin": "sedang"
   },
@@ -65,7 +65,7 @@ RISET LAMA:
     {
       "nama": {
         "v": "drg. Fransiska Andriani, Sp.KG",
-        "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
+        "src": "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
         "tgl": "2026-10-17",
         "yakin": "sedang"
       },
@@ -85,15 +85,21 @@ RISET LAMA:
     }
   ],
   "layanan": [],
-  "harga": [],
+  "harga": [
+    {
+      "perawatan": "scaling — tiga pembanding Kabupaten Sidoarjo; dua harga mulai dan satu tarif tertera, bukan tarif praktik ini",
+      "jenis": "kisaran_pasar",
+      "min": 284000,
+      "max": 370000,
+      "src": [
+        "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi"
+      ]
+    }
+  ],
   "fasilitas": [],
   "asuransi": [],
-  "maps": {
-    "rating": null,
-    "ulasan": null,
-    "src": null,
-    "tgl": "2026-10-17"
-  },
   "keunggulan": [
     "Lokasi praktik tercantum di Taman Pinang Indah D3 No.2."
   ],
@@ -101,10 +107,28 @@ RISET LAMA:
     "Jadwal dokter dan tarif resmi lengkap belum terverifikasi pada halaman yang terbaca."
   ],
   "ide_fitur_khas": "Pemilih sesi pagi-sore praktik Fransiska dan pertanyaan konsultasi konservasi gigi.",
-  "catatan": "Gelar tepat mengikuti nama pada sumber. Jam adalah jadwal praktik direktori dan perlu konfirmasi; bukan jadwal rumah sakit lain. Daftar tindakan templat tidak dipakai. Harga resmi tujuh kategori belum lengkap terverifikasi. Jangan gunakan angka pembanding sebagai tarif klinik. Nama/gelar dokter dan asuransi yang belum terbukti tidak diisi. Nomor telepon seluler tidak otomatis dianggap WhatsApp. Rating/ulasan Google Maps live belum terbaca.  Konten adalah draf; verifikasi website konsep benar tersedia dan PDF benar terlampir sebelum memakai outreach. Tidak ada pesan dikirim. Kategori harga belum ditemukan dari tiga pembanding setara: scaling, tambal, cabut, behel metal, bleaching, veneer, implan. Elemen harga tak terbukti tidak ditulis; harga=[] berarti belum tersedia data terverifikasi, bukan tarif nol.",
+  "catatan": "WA resmi tetap belum ditemukan. IG dibatasi dan HTML hanya layar masuk; pencarian Linktree tidak menghasilkan profil terbaca. Telepon tetap 0318950521 konsisten pada IDalamat dan artikel pembanding; tidak diubah menjadi WA. Jam direktori bukan jadwal rumah sakit. Gelar yang dipakai mengikuti sumber yang dibuka. Daftar tindakan generik IDalamat tidak dianggap bukti layanan klinis khusus. Data valid dari RISET LAMA dipertahankan, bukan riset mulai dari nol. Rating/ulasan tak terverifikasi tidak dicantumkan. Angka harga adalah pembanding pasar, tidak boleh tampil sebagai tarif klinik.  Konten dan outreach adalah draf; jangan kirim. Pernyataan konsep tersedia dan PDF terlampir harus diperiksa oleh pengirim sebelum digunakan. Daftar layanan klinis belum cukup terverifikasi untuk empat kartu tindakan. Empat kartu konten berupa panduan pertanyaan kunjungan, bukan klaim tersedianya tindakan. Konfirmasi klinik diperlukan sebelum menggantinya dengan layanan klinis. BLOKIR CTA WHATSAPP: pesan_wa_default hanya draf; jangan membuat tautan aktif sebelum nomor resmi ditemukan. Scaling pembanding: Pondok Tjandra mulai 334000, Siti Fatimah 370000, Mitra Keluarga Sidoarjo mulai 284000. Halaman kategori sempat memberi angka berbeda; halaman tindakan digunakan. Kategori tanpa tiga pembanding layak dan angka terbukti (elemen dihapus, bukan null/nol): tambal, cabut, behel metal, bleaching, veneer, implan. Behel umum tidak disamakan dengan behel metal. Rentang biaya awal pembanding bukan batas biaya akhir; bahan, jumlah gigi dan komponen paket perlu konfirmasi.",
   "sumber": [
     "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
     "https://www.cybo.com/ID-biz/rumah-gigi-sidoarjo",
-    "https://www.instagram.com/fransiska_andriani83/"
+    "https://www.instagram.com/fransiska_andriani83/",
+    "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
+    "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rsu-alislam-hm-mawardi/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/cabut-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rsu-alislam-hm-mawardi/cabut-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/cabut-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/pemutihan-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/rsu-alislam-hm-mawardi/pemutihan-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/pemutihan-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/scaling-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/tambal-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/cabut-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemasangan-kawat-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemutihan-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/veneer-gigi/sidoarjo",
+    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/sidoarjo"
   ]
 }

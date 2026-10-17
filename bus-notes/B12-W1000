@@ -117,19 +117,14 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].alamat.v",
+      "path": "cabang[0].alamat",
       "tercatat": "Jl. Tanah Sereal VI No 10, RT.6/RW.13, Tanah Sereal, Tambora, Jakarta Barat 11210",
-      "catatan": "Dua entri di halaman yang sama: VI No.10 RT.6/RW.13 dan VI No.10 RT.7/RW.13."
-    },
-    {
-      "path": "cabang[0].maps_url",
-      "tercatat": "https://www.google.com/maps/search/?api=1&query=Klinik%20Pratama%20CENDANA%20Tanah%20Sereal%20Tambora&query_place_id=ChIJ2azFHXP2aS4RMlLNXG9MxMc",
-      "catatan": "Place ID yang sama di Waze menampilkan Jl. Tanah Sereal VII No.126-C RT.4/RW.12, telepon 0811-9228-168."
+      "catatan": "Pada halaman Kecamatan Tambora ada dua entri: Jl. Tanah Sereal VI No.10 RT.6/RW.13 dan Jl. Tanah Sereal VI No.10 RT.7/RW.13. Waze untuk tempat yang sama menampilkan Jl. Tanah Sereal VII 126-C."
     },
     {
       "path": "harga[0].min",
       "tercatat": 138000,
-      "catatan": "Halaman terbuka tetapi penawaran AM Dental Cengkareng Rp138.000 tidak ditemukan pada teks yang tersedia; pencarian 138, 138.000, 138,000, AM Dental, Cengkareng dan Rp tidak menghasilkan kecocokan. Tidak mengonfirmasi nilai minimum. Batas atas Rp700.000 terlihat pada NK Health; Basic Scaling OMDC Rp649.000 terlihat. Ini kisaran pasar, bukan tarif Cendana."
+      "catatan": "HDmall tidak dapat dibuka; angka Rp138.000 belum dapat diverifikasi ulang dari sumber yang dikutip. OMDC menampilkan Basic Scaling Rp649.000."
     }
   ]
 }

@@ -69,19 +69,17 @@ RISET LAMA:
     "Listing Maps memerlukan JavaScript; rincian kontak tidak terbaca."
   ],
   "ide_fitur_khas": "Usulan kartu persiapan kunjungan anak; perlu persetujuan klinik.",
-  "catatan": "Riset parsial. Nama, alamat dan rating/ulasan hanya dari direktori. Identitas drg. Laura Kristy Baringbing, Sp.KGA., MMRS terkonfirmasi profil Melinda, namun hubungan praktik Gigisusu belum terkonfirmasi resmi sehingga dokter kosong. Tautan WA direktori mengarah ke 6282120209785, namun kepemilikan resmi belum terverifikasi; telepon/wa null. Jangan memakai nomor Melinda sebagai nomor klinik. Layanan, jam, fasilitas, asuransi dan harga belum terverifikasi. Kisaran tujuh tindakan belum memenuhi tiga sumber. Konten layanan berupa pertanyaan ketersediaan, bukan klaim tersedia. Outreach draft; URL konsep dan PDF perlu diverifikasi sebelum dikirim.",
+  "catatan": "Riset parsial. Nama, alamat dan rating/ulasan hanya dari direktori. Identitas drg. Laura Kristy Baringbing, Sp.KGA., MMRS terkonfirmasi profil Melinda, namun hubungan praktik Gigisusu belum terkonfirmasi resmi sehingga dokter kosong. Tautan WA direktori mengarah ke 6282120209785, namun kepemilikan resmi belum terverifikasi; telepon/wa null. Jangan memakai nomor Melinda sebagai nomor klinik. Layanan, jam, fasilitas, asuransi dan harga belum terverifikasi. Kisaran tujuh tindakan belum memenuhi tiga sumber. Konten layanan berupa pertanyaan ketersediaan, bukan klaim tersedia. Outreach draft; URL konsep dan PDF perlu diverifikasi sebelum dikirim. Pencarian ulang dan akun IG belum menghasilkan verifikasi kontak resmi. Direktori memakai foto Unsplash dan atribut generik; klaim fasilitas/asuransi tambahan tidak diadopsi.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bandung/cihampelas/gigisusu-dental-by-drg-laura-k-ciha-imp1",
     "https://www.google.com/maps/place/?q=place_id:ChIJUxTrQknnaC4R-hCUtMifa_0",
-    "https://melindahospital.com/dokter/gigi-dan-mulut/drg-laura-kristy-baringbing-spkga-mmrsk8p5",
-    "https://www.alodokter.com/cari-dokter/drg-laura-kristy-barinbing-spkga",
-    "https://www.halodoc.com/cari-dokter/nama/drg-laura-kristy-baringbing-sp-kga-mmrs"
+    "https://www.instagram.com/gigisusu.dental/"
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].wa",
-      "tercatat": null,
-      "catatan": null
+      "path": "maps.ulasan",
+      "tercatat": 209,
+      "catatan": "201 ulasan pada CariBisnis (sumber sekunder); jumlah 209 pada Google Maps yang dikutip riset tidak dapat dibaca ulang."
     }
   ]
 }

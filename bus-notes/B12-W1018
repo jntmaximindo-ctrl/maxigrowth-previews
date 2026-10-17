@@ -4,7 +4,7 @@ RISET LAMA:
 {
   "id": "W1018",
   "nama": {
-    "v": "Praktek drg. Okky S / Klinik Gigi OQ",
+    "v": "Praktek Drg. Okky S",
     "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "tgl": "2026-10-17",
     "yakin": "sedang"
@@ -25,7 +25,7 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Praktek drg. Okky S / Klinik Gigi OQ",
+      "nama": "Praktek Drg. Okky S",
       "alamat": {
         "v": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
         "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
@@ -57,10 +57,10 @@ RISET LAMA:
   "layanan": [],
   "harga": [
     {
-      "perawatan": "scaling — rentang HARGA MULAI tiga pembanding Jakarta Timur; bukan tarif klinik ini",
+      "perawatan": "Scaling — rentang HARGA MULAI tiga pembanding Jakarta Timur; bukan tarif klinik ini atau batas biaya akhir",
       "jenis": "kisaran_pasar",
       "min": 150000,
-      "max": 220000,
+      "max": 360000,
       "src": [
         "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
         "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
@@ -77,24 +77,12 @@ RISET LAMA:
     "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
   ],
   "ide_fitur_khas": "Panduan konfirmasi jam praktik di Utan Kayu dengan penanda jadwal yang perlu diperbarui.",
-  "catatan": "Waze kini menampilkan nama Klinik Gigi OQ pada place_id dan alamat sama; ini dicatat sebagai kemungkinan perubahan nama, bukan kepastian rebranding. Waze 16-22 dan Sabtu 09-18 berbeda dari IDalamat 17.30-21.30; jam null sampai klinik mengonfirmasi. Telepon tetap tidak dijadikan WA. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi. Pembanding scaling Alia 220000, Yadika 150000, Dental Theory 200000; batas biaya akhir tidak diketahui.",
+  "catatan": "Judul/nama dikoreksi sesuai halaman IDalamat yang dibuka ulang: Praktek Drg. Okky S. Alamat/telepon 0218500478 masih tertulis. Hubungan dengan nama Klinik Gigi OQ tidak dapat ditegaskan; Waze target OQ gagal dibuka saat revisi dan nama itu tidak digabung pada nama resmi. Telepon tidak diasumsikan WA. Pencarian dua mesin belum menemukan WA praktik Utan Kayu yang dapat dibuktikan; nomor Okky Bogor dan basis data prospek tidak digunakan. Jam lama berbeda antar listing, tetap null sampai konfirmasi. Revisi menggunakan RISET LAMA pada surat sebagai dasar; semua field riset dan konten lengkap ditulis ulang. Rating/ulasan tidak terbukti dihapus. Harga tanpa angka terverifikasi dihapus dari array harga, tidak diisi min/max null. Tidak mengirim WA/email. Outreach hanya draf; pemilik perlu memeriksa ketersediaan konsep dan lampiran PDF sebelum digunakan. Koreksi harga pembanding: halaman tindakan Alodokter yang dibuka ulang menampilkan Alia 360000, Yadika 150000, Dental Theory 200000, semuanya Jakarta Timur. Kisaran 150000–360000 hanya rentang tiga harga MULAI, bukan tarif klinik ini atau maksimum biaya akhir. Angka lama Alia 220000 tidak dipakai. Tambal, cabut, behel metal, bleaching, veneer, implan tidak memiliki tiga pembanding terverifikasi dalam revisi ini sehingga entri dihapus.",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA",
     "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "harga[0].max",
-      "tercatat": 220000,
-      "catatan": 360000
-    },
-    {
-      "path": "nama.v",
-      "tercatat": "Praktek drg. Okky S / Klinik Gigi OQ",
-      "catatan": "Praktek Drg. Okky S"
-    }
   ]
 }
