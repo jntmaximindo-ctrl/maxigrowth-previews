@@ -1,0 +1,95 @@
+{
+  "url": "https://www.google.com/maps/search/?api=1&query=drg.%20Maureen%20Han%20Jl.%20Mulya%20Jaya%20No.2%2C%20RT.14/RW.8%2C%20Cipinang%20Muara%2C%20Jatinegara%2C%20Jakarta%20Timur%2013420",
+  "captured": "2026-10-17T07:24:41.883Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.851,
+      "kinds": {
+        "bg": 2,
+        "text": 15
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.054,
+      "kinds": {
+        "bg": 7
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.047,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.033,
+      "kinds": {
+        "text": 15
+      }
+    },
+    {
+      "hex": "#ffbb29",
+      "share": 0.01,
+      "kinds": {
+        "text": 15
+      }
+    },
+    {
+      "hex": "#fbbc04",
+      "share": 0.003,
+      "kinds": {
+        "bg": 1
+      }
+    },
+    {
+      "hex": "#d32f28",
+      "share": 0.002,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Google Sans",
+    "Roboto"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=41.5891456%2C-93.6083456&zoom=9&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=Vs-KJlIFCrvfqLfGpJhqfnYiGMc",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "drg. Maureen Han - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#f2f2f2",
+    "#000000"
+  ]
+}
