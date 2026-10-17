@@ -1,0 +1,152 @@
+{
+  "id": "W1058",
+  "hero": {
+    "judul": {
+      "id": "Rencanakan kunjungan ke NDC Esthetic Dental Clinic Kepanjen",
+      "en": "Plan your visit to NDC Esthetic Dental Clinic Kepanjen"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Kabupaten Malang.",
+      "en": "Location details and visit preparation in Kabupaten Malang."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "View visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan scaling dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan cabut gigi dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan saluran akar dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan lepasan",
+        "en": "Ask about Gigi tiruan lepasan"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan gigi tiruan lepasan dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan bleaching dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan gigi anak dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan interaktif",
+      "en": "Interactive visit guide"
+    },
+    "penjelasan": {
+      "id": "Pemandu kunjungan cabang Kepanjen yang menggunakan kontak dan jadwal resmi cabang sebelum konfirmasi layanan.",
+      "en": "Prepare questions and a preferred visit time, then confirm the details with the clinic. This guide does not confirm a booking."
+    },
+    "alasan_dipilih": "Lokasi praktik tercantum di Jl. Panji No.90, Kepanjen, Kabupaten Malang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat tercantum: Jl. Panji No.90, Kepanjen, Kabupaten Malang. Konfirmasikan lokasi sebelum datang.",
+        "en": "The listed address is Jl. Panji No.90, Kepanjen, Kabupaten Malang. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal dokter?",
+        "en": "How can I check dentist availability?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal melalui WhatsApp klinik.",
+        "en": "Confirm availability through the clinic’s WhatsApp channel."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "How much do examinations and treatments cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya dari klinik. Estimasi akhir mengikuti pemeriksaan dan kebutuhan Anda.",
+        "en": "Ask the clinic for a cost breakdown. The final estimate depends on your examination and care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terverifikasi. Tanyakan persyaratan dan dokumen kepada klinik.",
+        "en": "Insurance and BPJS arrangements have not been verified. Ask the clinic about requirements and documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji sebelum datang?",
+        "en": "Should I book before visiting?"
+      },
+      "a": {
+        "id": "Konfirmasikan prosedur pendaftaran terlebih dahulu. Pilihan waktu pada konsep ini belum menjadi janji yang disetujui klinik.",
+        "en": "Check the registration process first. Selecting a time in this concept does not confirm an appointment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal melalui WhatsApp klinik.",
+    "en": "Confirm availability through the clinic’s WhatsApp channel."
+  },
+  "pesan_wa_default": "Halo NDC Esthetic Dental Clinic Kepanjen, saya ingin menanyakan jadwal dokter gigi dan prosedur pendaftaran. Hari pilihan saya: ____. Mohon informasi estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola NDC Esthetic Dental Clinic Kepanjen. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan situs resmi sudah memisahkan lokasi dan jadwal Kepanjen. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/ndc-esthetic. Jika berkenan, kami siap menerima koreksi dan masukan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website NDC Esthetic Dental Clinic Kepanjen",
+    "email_isi": "Yth. Pengelola NDC Esthetic Dental Clinic Kepanjen,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan situs resmi sudah memisahkan lokasi dan jadwal Kepanjen. Kami sudah membuat konsep website di https://maxigrowthstudio.com/ndc-esthetic. Proposal PDF terlampir menjelaskan konsep dan ruang lingkupnya. Kami siap menerima koreksi informasi dan mendiskusikan kebutuhan website bila Bapak/Ibu berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1050",
+  "hero": {
+    "judul": {
+      "id": "Rencanakan kunjungan ke Oz Dental Care PASUNDAN",
+      "en": "Plan your visit to Oz Dental Care PASUNDAN"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Kabupaten Garut.",
+      "en": "Location details and visit preparation in Kabupaten Garut."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "View visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan layanan gigi",
+        "en": "Ask about dental services"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan tindakan yang tersedia.",
+        "en": "Describe your needs and ask which treatments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal dokter",
+        "en": "Check dentist availability"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokter yang bertugas pada hari pilihan Anda.",
+        "en": "Ask which dentist is available on your preferred day."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta estimasi pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Request examination and treatment estimates before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapkan kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa.",
+        "en": "Ask which documents and information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan interaktif",
+      "en": "Interactive visit guide"
+    },
+    "penjelasan": {
+      "id": "Pemandu kunjungan cabang Pasundan dengan penanda lokasi yang terpisah dari Ciateul.",
+      "en": "Prepare questions and a preferred visit time, then confirm the details with the clinic. This guide does not confirm a booking."
+    },
+    "alasan_dipilih": "Lokasi praktik tercantum di Jl. Pasundan No.5, Kota Kulon, Garut Kota, Kabupaten Garut 44112."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat tercantum: Jl. Pasundan No.5, Kota Kulon, Garut Kota, Kabupaten Garut 44112. Konfirmasikan lokasi sebelum datang.",
+        "en": "The listed address is Jl. Pasundan No.5, Kota Kulon, Garut Kota, Kabupaten Garut 44112. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal dokter?",
+        "en": "How can I check dentist availability?"
+      },
+      "a": {
+        "id": "Hubungi telepon yang tercantum untuk menanyakan jadwal. WhatsApp belum terverifikasi.",
+        "en": "Call the listed telephone number to ask about availability. WhatsApp has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "How much do examinations and treatments cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya dari klinik. Estimasi akhir mengikuti pemeriksaan dan kebutuhan Anda.",
+        "en": "Ask the clinic for a cost breakdown. The final estimate depends on your examination and care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terverifikasi. Tanyakan persyaratan dan dokumen kepada klinik.",
+        "en": "Insurance and BPJS arrangements have not been verified. Ask the clinic about requirements and documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji sebelum datang?",
+        "en": "Should I book before visiting?"
+      },
+      "a": {
+        "id": "Konfirmasikan prosedur pendaftaran terlebih dahulu. Pilihan waktu pada konsep ini belum menjadi janji yang disetujui klinik.",
+        "en": "Check the registration process first. Selecting a time in this concept does not confirm an appointment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi telepon yang tercantum untuk menanyakan jadwal. WhatsApp belum terverifikasi.",
+    "en": "Call the listed telephone number to ask about availability. WhatsApp has not been verified."
+  },
+  "pesan_wa_default": "Halo Oz Dental Care PASUNDAN, saya ingin menanyakan jadwal dokter gigi dan prosedur pendaftaran. Hari pilihan saya: ____. Mohon informasi estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Oz Dental Care PASUNDAN. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jl. Pasundan No.5, Kota Kulon, Garut Kota, Kabupaten Garut 44112. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/oz-pasundan. Jika berkenan, kami siap menerima koreksi dan masukan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Oz Dental Care PASUNDAN",
+    "email_isi": "Yth. Pengelola Oz Dental Care PASUNDAN,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jl. Pasundan No.5, Kota Kulon, Garut Kota, Kabupaten Garut 44112. Kami sudah membuat konsep website di https://maxigrowthstudio.com/oz-pasundan. Proposal PDF terlampir menjelaskan konsep dan ruang lingkupnya. Kami siap menerima koreksi informasi dan mendiskusikan kebutuhan website bila Bapak/Ibu berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

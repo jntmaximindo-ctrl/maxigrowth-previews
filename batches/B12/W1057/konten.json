@@ -1,0 +1,132 @@
+{
+  "id": "W1057",
+  "hero": {
+    "judul": {
+      "id": "Rencanakan kunjungan ke Sahabat Gigimu",
+      "en": "Plan your visit to Sahabat Gigimu"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Kabupaten Malang.",
+      "en": "Location details and visit preparation in Kabupaten Malang."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "View visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan scaling dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan bleaching dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan gigi anak dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan gigi palsu dan jadwal pemeriksaan dengan klinik.",
+        "en": "Discuss your care needs and examination availability with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan interaktif",
+      "en": "Interactive visit guide"
+    },
+    "penjelasan": {
+      "id": "Panduan persiapan kunjungan keluarga Karangploso dengan pilihan kebutuhan anak atau dewasa untuk dikonfirmasi admin.",
+      "en": "Prepare questions and a preferred visit time, then confirm the details with the clinic. This guide does not confirm a booking."
+    },
+    "alasan_dipilih": "Lokasi praktik tercantum di Jl. Raya Ngijo Karangploso, Dusun Ngepeh No.01, RT.08/RW.06, Krajan, Ngijo, Karang Ploso, Kabupaten Malang 65152."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat tercantum: Jl. Raya Ngijo Karangploso, Dusun Ngepeh No.01, RT.08/RW.06, Krajan, Ngijo, Karang Ploso, Kabupaten Malang 65152. Konfirmasikan lokasi sebelum datang.",
+        "en": "The listed address is Jl. Raya Ngijo Karangploso, Dusun Ngepeh No.01, RT.08/RW.06, Krajan, Ngijo, Karang Ploso, Kabupaten Malang 65152. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal dokter?",
+        "en": "How can I check dentist availability?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal melalui WhatsApp klinik.",
+        "en": "Confirm availability through the clinic’s WhatsApp channel."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "How much do examinations and treatments cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya dari klinik. Estimasi akhir mengikuti pemeriksaan dan kebutuhan Anda.",
+        "en": "Ask the clinic for a cost breakdown. The final estimate depends on your examination and care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terverifikasi. Tanyakan persyaratan dan dokumen kepada klinik.",
+        "en": "Insurance and BPJS arrangements have not been verified. Ask the clinic about requirements and documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji sebelum datang?",
+        "en": "Should I book before visiting?"
+      },
+      "a": {
+        "id": "Konfirmasikan prosedur pendaftaran terlebih dahulu. Pilihan waktu pada konsep ini belum menjadi janji yang disetujui klinik.",
+        "en": "Check the registration process first. Selecting a time in this concept does not confirm an appointment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal melalui WhatsApp klinik.",
+    "en": "Confirm availability through the clinic’s WhatsApp channel."
+  },
+  "pesan_wa_default": "Halo Sahabat Gigimu, saya ingin menanyakan jadwal dokter gigi dan prosedur pendaftaran. Hari pilihan saya: ____. Mohon informasi estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Sahabat Gigimu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jl. Raya Ngijo Karangploso, Dusun Ngepeh No.01, RT.08/RW.06, Krajan, Ngijo, Karang Ploso, Kabupaten Malang 65152. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/sahabat-gigimu. Jika berkenan, kami siap menerima koreksi dan masukan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Sahabat Gigimu",
+    "email_isi": "Yth. Pengelola Sahabat Gigimu,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jl. Raya Ngijo Karangploso, Dusun Ngepeh No.01, RT.08/RW.06, Krajan, Ngijo, Karang Ploso, Kabupaten Malang 65152. Kami sudah membuat konsep website di https://maxigrowthstudio.com/sahabat-gigimu. Proposal PDF terlampir menjelaskan konsep dan ruang lingkupnya. Kami siap menerima koreksi informasi dan mendiskusikan kebutuhan website bila Bapak/Ibu berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

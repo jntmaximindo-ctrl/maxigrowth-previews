@@ -1,0 +1,132 @@
+{
+  "id": "W1053",
+  "hero": {
+    "judul": {
+      "id": "Rencanakan kunjungan ke Doktergigiku_garut",
+      "en": "Plan your visit to Doktergigiku_garut"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Kabupaten Garut.",
+      "en": "Location details and visit preparation in Kabupaten Garut."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "View visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan layanan gigi",
+        "en": "Ask about dental services"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan tindakan yang tersedia.",
+        "en": "Describe your needs and ask which treatments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal dokter",
+        "en": "Check dentist availability"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokter yang bertugas pada hari pilihan Anda.",
+        "en": "Ask which dentist is available on your preferred day."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta estimasi pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Request examination and treatment estimates before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapkan kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa.",
+        "en": "Ask which documents and information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan interaktif",
+      "en": "Interactive visit guide"
+    },
+    "penjelasan": {
+      "id": "Pemeriksaan ulang alamat dan kontak sebelum pengguna memilih waktu kunjungan Garut.",
+      "en": "Prepare questions and a preferred visit time, then confirm the details with the clinic. This guide does not confirm a booking."
+    },
+    "alasan_dipilih": "Identitas praktik ditemukan pada sumber publik; data kunjungan masih perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat lengkap belum terverifikasi. Periksa profil resmi klinik sebelum datang.",
+        "en": "The full address has not been verified. Check the clinic’s official profile before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal dokter?",
+        "en": "How can I check dentist availability?"
+      },
+      "a": {
+        "id": "Konfirmasikan kontak melalui profil resmi klinik. Nomor WhatsApp belum terverifikasi.",
+        "en": "Check the clinic’s official profile for contact details. A WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "How much do examinations and treatments cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya dari klinik. Estimasi akhir mengikuti pemeriksaan dan kebutuhan Anda.",
+        "en": "Ask the clinic for a cost breakdown. The final estimate depends on your examination and care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terverifikasi. Tanyakan persyaratan dan dokumen kepada klinik.",
+        "en": "Insurance and BPJS arrangements have not been verified. Ask the clinic about requirements and documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji sebelum datang?",
+        "en": "Should I book before visiting?"
+      },
+      "a": {
+        "id": "Konfirmasikan prosedur pendaftaran terlebih dahulu. Pilihan waktu pada konsep ini belum menjadi janji yang disetujui klinik.",
+        "en": "Check the registration process first. Selecting a time in this concept does not confirm an appointment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kontak melalui profil resmi klinik. Nomor WhatsApp belum terverifikasi.",
+    "en": "Check the clinic’s official profile for contact details. A WhatsApp number has not been verified."
+  },
+  "pesan_wa_default": "Halo Doktergigiku_garut, saya ingin menanyakan jadwal dokter gigi dan prosedur pendaftaran. Hari pilihan saya: ____. Mohon informasi estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Doktergigiku_garut. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi praktik pada profil publik klinik. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/doktergigiku-garut. Jika berkenan, kami siap menerima koreksi dan masukan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Doktergigiku_garut",
+    "email_isi": "Yth. Pengelola Doktergigiku_garut,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi praktik pada profil publik klinik. Kami sudah membuat konsep website di https://maxigrowthstudio.com/doktergigiku-garut. Proposal PDF terlampir menjelaskan konsep dan ruang lingkupnya. Kami siap menerima koreksi informasi dan mendiskusikan kebutuhan website bila Bapak/Ibu berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

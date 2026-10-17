@@ -1,0 +1,86 @@
+{
+  "id": "W1006",
+  "nama": {
+    "v": "Klinik & Apotek Ardita Ciracas",
+    "src": "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-and-apotek-ardita-ciracas?to=place.ChIJF-WGuAXtaS4Rlz9RrVkKKSY",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "kota": "Jakarta Timur",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik & Apotek Ardita Ciracas",
+      "alamat": {
+        "v": "Jl. Raya Ciracas No.3a, RT.11/RW.2, Ciracas, Jakarta Timur 13740",
+        "src": "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-and-apotek-ardita-ciracas?to=place.ChIJF-WGuAXtaS4Rlz9RrVkKKSY",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "02129823335",
+        "src": "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-and-apotek-ardita-ciracas?to=place.ChIJF-WGuAXtaS4Rlz9RrVkKKSY",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20%26%20Apotek%20Ardita%20Ciracas&query_place_id=ChIJF-WGuAXtaS4Rlz9RrVkKKSY"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [
+    {
+      "perawatan": "scaling — rentang HARGA MULAI tiga pembanding Jakarta Timur; bukan tarif klinik ini",
+      "jenis": "kisaran_pasar",
+      "min": 150000,
+      "max": 220000,
+      "src": [
+        "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Lokasi praktik tercantum di Jl. Raya Ciracas No.3a, RT.11/RW.2, Ciracas, Jakarta Timur 13740."
+  ],
+  "situs_lama": [
+    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
+  ],
+  "ide_fitur_khas": "Pemilih kebutuhan kunjungan gigi dengan konfirmasi jadwal poli terpisah dari jam fasilitas umum.",
+  "catatan": "Waze 00-00 dan direktori 00-23.59 mengindikasikan fasilitas sepanjang hari, tetapi tidak membuktikan dokter gigi 24 jam; jam poli null. Halodoc gagal diambil. WA tidak terbukti. Tarif dan asuransi direktori tidak dianggap resmi. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi. Pembanding scaling Alia 220000, Yadika 150000, Dental Theory 200000; batas biaya akhir tidak diketahui.",
+  "sumber": [
+    "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-and-apotek-ardita-ciracas?to=place.ChIJF-WGuAXtaS4Rlz9RrVkKKSY",
+    "https://caribisnis.id/dokter-gigi/jakarta-timur/ciracas/klinik-apotek-ardita-ciracas-cira-imp1",
+    "https://www.halodoc.com/rumah-sakit/nama/klinik-ardita-ciracas",
+    "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ]
+}
