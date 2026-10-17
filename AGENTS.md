@@ -21,6 +21,9 @@ Setelah commit, WAJIB `git push origin HEAD:<branch PR tempat kamu dipanggil>`.
 
 <!-- BELAJAR:MULAI (otomatis, jangan diedit manual) -->
 ## Kesalahan yang sering terjadi (dipelajari otomatis dari cek gagal — WAJIB dihindari)
+- [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 39 klinik)
+- [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 39 klinik)
+- [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 39 klinik)
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 18 klinik)
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 18 klinik)
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 18 klinik)

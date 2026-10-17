@@ -1,0 +1,76 @@
+{
+ "kota": "Tangerang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-17",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Dokter Gigi Titin Sumarni / Tien Dental",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/dokter-gigi-drg-titin-sumarni-0878-0884-4176",
+   "catatan": "Alamat Neglasari terbaca; rating dan jumlah ulasan tidak ditampilkan. Waze juga tidak menampilkan angka."
+  },
+  {
+   "nama": "drg. Siti Evawati",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/drg-siti-evawati-0815-1397-9801",
+   "catatan": "Kandidat Neglasari pada pencarian; halaman dibuka ulang gagal 429, angka tidak dapat diverifikasi."
+  },
+  {
+   "nama": "Klinik Pratama Az-Zahra",
+   "rating": 4.2,
+   "ulasan": 1553,
+   "sumber": "https://caregiving.id/penyedia/klinik-pratama-az-zahra-lt8noa/",
+   "catatan": "Tidak lolos rating 4.5."
+  },
+  {
+   "nama": "Puskesmas Neglasari / Poli Gigi",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://puskesmas.tangerangkota.go.id/upt/neglasari/layanan_menu_jadwal",
+   "catatan": "Layanan gigi terbaca; angka rating/ulasan tidak tersedia."
+  },
+  {
+   "nama": "RSUP dr. Sitanala / Dental Care Unit",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rsup-drsitanala.go.id/",
+   "catatan": "Unit gigi terbaca, memiliki website; angka rating/ulasan tidak tersedia."
+  },
+  {
+   "nama": "Klinik Mekar Sari Medika",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/klinik-mekar-sari-medika-0859-4673-0686",
+   "catatan": "Kandidat klinik umum Neglasari; layanan gigi spesifik dan rating/ulasan tidak terverifikasi."
+  },
+  {
+   "nama": "Klinik Yakrija Neglasari",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.yakrija.com/",
+   "catatan": "Alamat cabang Neglasari terbaca, memiliki website; layanan gigi cabang dan angka rating/ulasan tidak terverifikasi."
+  },
+  {
+   "nama": "drg. Saka Setiono Nugroho, Sp. BM (RSUP Sitanala)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://medicastore.com/dokter/detail/70995/saka-setiono-nugroho-2",
+   "catatan": "Jadwal praktik RSUP Sitanala terbaca; bukan bukti praktik mandiri terpisah dan angka rating/ulasan tidak ada."
+  }
+ ],
+ "catatan": "Tidak ada kandidat yang dapat dibuktikan memenuhi sekaligus rating >=4.5, ulasan >=100, dan sasaran area pada halaman yang dibuka. Nilai null berarti tidak terlihat, bukan 0. Tidak menganggap jumlah ulasan rumah sakit sebagai ulasan praktik mandiri. Pencarian tambahan masih mungkin menemukan kandidat lain; habis=false.",
+ "pencarian": [
+  "klinik gigi Neglasari Tangerang",
+  "dokter gigi Neglasari Tangerang",
+  "drg praktik mandiri Neglasari Tangerang",
+  "dental clinic Neglasari Tangerang",
+  "Neglasari klinik gigi halodoc alodokter rating ulasan",
+  "site:caribisnis.id/dokter-gigi/ \"Neglasari\"",
+  "dokter gigi \"Neglasari\" \"Tangerang\" klinik -site:scribd.com -site:repository.*"
+ ],
+ "area": "tangerang-neglasari-r1"
+}
