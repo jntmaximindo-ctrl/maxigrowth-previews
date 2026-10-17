@@ -1,0 +1,132 @@
+{
+  "id": "W952",
+  "hero": {
+    "judul": {
+      "id": "Konfirmasikan jadwal poli gigi",
+      "en": "Check dental appointment availability"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik bersama di Sidokare.",
+      "en": "Visit information for the shared practice in Sidokare."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "View visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan layanan gigi",
+        "en": "Ask about dental services"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan tindakan yang tersedia. Daftar tindakan klinik masih perlu dikonfirmasi.",
+        "en": "Describe what you need and ask which treatments are available. The clinic’s treatment list still needs confirmation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal dokter",
+        "en": "Check dentist availability"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokter yang bertugas pada hari pilihan Anda. Jam fasilitas belum tentu sama dengan jadwal dokter.",
+        "en": "Ask which dentist is available on your preferred day. Clinic hours may differ from individual dentist schedules."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi, pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Ask for consultation, examination and treatment costs before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Siapkan kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa saat kunjungan.",
+        "en": "Ask which documents and information to bring to your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan Anda",
+      "en": "Your visit guide"
+    },
+    "penjelasan": {
+      "id": "Pemilih poli umum atau gigi dengan konfirmasi jadwal drg. Vera terpisah dari jam fasilitas.",
+      "en": "A guide to checking dental appointments separately from the shared practice’s opening hours."
+    },
+    "alasan_dipilih": "Lokasi praktik tercantum di Jl. Pondok Sidokare Indah BT/09. Fitur berupa konsep untuk disetujui klinik, bukan layanan aktif."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum: Jl. Pondok Sidokare Indah BT/09, Cangkring, Sidokare, Sidoarjo 61214. Konfirmasikan lokasi sebelum berangkat.",
+        "en": "The listed address is Jl. Pondok Sidokare Indah BT/09, Cangkring, Sidokare, Sidoarjo 61214. Confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana memastikan jadwal kunjungan?",
+        "en": "How can I check appointment availability?"
+      },
+      "a": {
+        "id": "Hubungi nomor telepon yang tercantum untuk konfirmasi jadwal. Nomor WhatsApp belum terverifikasi.",
+        "en": "Call the listed telephone number to confirm availability. A WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi lengkap belum terverifikasi. Mintalah estimasi dari klinik sesuai kebutuhan pemeriksaan Anda.",
+        "en": "A complete official fee list has not been verified. Ask the clinic for an estimate based on your examination needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terverifikasi. Tanyakan status kepesertaan dan dokumen yang diperlukan kepada klinik.",
+        "en": "Insurance and BPJS arrangements have not been verified. Ask the clinic about eligibility and required documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jadwal buka berarti dokter gigi selalu tersedia?",
+        "en": "Do opening hours mean a dentist is always available?"
+      },
+      "a": {
+        "id": "Jam operasional dan jadwal dokter dapat berbeda. Konfirmasikan nama dokter, hari dan waktu sebelum datang.",
+        "en": "Opening hours and individual dentist schedules can differ. Confirm the dentist, day and time before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi nomor telepon yang tercantum untuk konfirmasi jadwal. Nomor WhatsApp belum terverifikasi.",
+    "en": "Call the listed telephone number to confirm availability. A WhatsApp number has not been verified."
+  },
+  "pesan_wa_default": "Halo Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera, saya ingin menanyakan ketersediaan jadwal dokter gigi. Hari yang saya pilih: ____. Mohon informasi prosedur pendaftaran dan estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan praktik bersama di Pondok Sidokare Indah. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/bersama-umum. Jika berkenan, kami siap menerima masukan mengenai informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera",
+    "email_isi": "Yth. Pengelola Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan praktik bersama di Pondok Sidokare Indah. Kami sudah membuat konsep website yang dapat ditinjau di https://maxigrowthstudio.com/bersama-umum.\n\nProposal PDF terlampir untuk menjelaskan konsep dan ruang lingkupnya. Jika Bapak/Ibu berkenan, kami siap menerima koreksi mengenai informasi klinik dan mendiskusikan kebutuhan website.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "W911",
+  "diperiksa": 16,
+  "beda": [
+    {
+      "path": "harga[6].src[2]",
+      "tercatat": "Sumber ketiga mendukung kisaran implan Rp12.500.000–Rp20.000.000",
+      "di_sumber": "Halaman layanan MYD Dental Clinic mencantumkan Dental Implant tanpa harga numerik.",
+      "src": "https://myddentalclinicbali.com/c-package/service/",
+      "catatan": "Dua sumber lainnya mendukung batas Rp12,5 juta (Bali Family Dental Care; tidak termasuk crown) dan Rp20 juta (Kamandhani Dental), tetapi sumber ketiga tidak menyediakan pembanding harga; syarat minimal 3 sumber harga belum terpenuhi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJz6n04CZH0i0RWN9CrM93Ul4",
+    "https://starlightclinics.com/dental-spa/"
+  ],
+  "kritis_ok": true
+}
