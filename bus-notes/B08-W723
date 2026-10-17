@@ -4,7 +4,7 @@ RISET LAMA:
 {
   "id": "W723",
   "nama": {
-    "v": "Drg. Jenny Andalia Sutyono",
+    "v": "drg. Jenny Andalia Sutyono",
     "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
     "tgl": "2026-10-17",
     "yakin": "tinggi"
@@ -28,7 +28,7 @@ RISET LAMA:
       "nama": "Praktik drg. Jenny Andalia Sutyono",
       "alamat": {
         "v": "Jl. Suryakencana No.60, RT.01/RW.08, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16123",
-        "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+        "src": "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/",
         "tgl": "2026-10-17",
         "yakin": "tinggi"
       },
@@ -58,13 +58,13 @@ RISET LAMA:
         "tgl": "2026-10-17",
         "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Drg.+Jenny+Andalia+Sutyono+Bogor"
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg+Jenny+Andalia+Sutyono+Bogor"
     }
   ],
   "dokter": [
     {
       "nama": {
-        "v": "Drg. Jenny Andalia Sutyono",
+        "v": "drg. Jenny Andalia Sutyono",
         "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
         "tgl": "2026-10-17",
         "yakin": "tinggi"
@@ -85,15 +85,15 @@ RISET LAMA:
     }
   ],
   "layanan": [
-    "Scaling / pembersihan karang gigi (tercantum di direktori; konfirmasi ketersediaan)",
-    "Tambal gigi (tercantum di direktori; konfirmasi ketersediaan)",
-    "Cabut gigi (tercantum di direktori; konfirmasi ketersediaan)",
-    "Kawat gigi / ortodonti (tercantum di direktori; konfirmasi ketersediaan)",
-    "Gigi tiruan (tercantum di direktori; konfirmasi ketersediaan)"
+    "Scaling / pembersihan karang gigi (menurut direktori, konfirmasi ke praktik)",
+    "Tambal gigi (menurut direktori, konfirmasi ke praktik)",
+    "Cabut gigi (menurut direktori, konfirmasi ke praktik)",
+    "Kawat gigi / ortodonti (menurut direktori, konfirmasi ke praktik)",
+    "Gigi tiruan (menurut direktori, konfirmasi ke praktik)"
   ],
   "harga": [
     {
-      "perawatan": "Scaling (pembanding 3 fasilitas di Kota Bogor; bukan tarif praktik drg. Jenny; harga mulai/estimasi berbeda cakupan)",
+      "perawatan": "Scaling — pembanding tiga penyedia Kota Bogor (harga mulai, bukan tarif drg. Jenny; cakupan dan tambahan biaya dapat berbeda)",
       "jenis": "kisaran_pasar",
       "min": 385000,
       "max": 750000,
@@ -113,24 +113,23 @@ RISET LAMA:
     "tgl": "2026-10-17"
   },
   "keunggulan": [
-    "Lokasi praktik di Jalan Suryakencana No.60, Bogor Tengah, dengan nomor telepon 0251-8314853 tercantum konsisten pada beberapa direktori publik.",
-    "Direktori CariBisnis mencantumkan jam hari Minggu pukul 10.00–21.00; jadwal terkini perlu dikonfirmasi langsung."
+    "Alamat praktik di Jl. Suryakencana No.60, Bogor Tengah, tercantum pada beberapa direktori publik.",
+    "Nomor telepon tetap 0251-8314853 tercantum pada CariBisnis, Cybo, dan UlasTempat.",
+    "Direktori CariBisnis mencantumkan jadwal pada hari Minggu 10.00–21.00; jam aktual perlu konfirmasi langsung."
   ],
   "situs_lama": [
-    "Tidak ditemukan situs mandiri resmi praktik yang menampilkan informasi kunjungan dan kontak dalam satu halaman pada pencarian 17 Oktober 2026.",
-    "Tidak ditemukan nomor WhatsApp praktik yang terverifikasi; tombol WA tidak boleh diaktifkan berdasarkan nomor seluler pribadi atau tombol generik direktori.",
-    "Harga resmi, rincian jadwal dokter, dan penerimaan asuransi belum ditemukan pada kanal resmi praktik."
+    "Situs resmi mandiri praktik tidak ditemukan dalam penelusuran 17 Oktober 2026.",
+    "Tidak ditemukan tautan atau nomor WhatsApp bisnis yang dapat diverifikasi; jangan mengaktifkan tombol WA.",
+    "Tarif resmi, jadwal dokter yang diperbarui, dan informasi asuransi belum dapat dikonfirmasi dari kanal resmi."
   ],
-  "ide_fitur_khas": "Panduan Kunjungan Suryakencana: pilih hari untuk melihat jam dari direktori (dengan label konfirmasi), buka peta, dan hubungi nomor telepon 0251-8314853; tombol WhatsApp dinonaktifkan sampai ada verifikasi langsung.",
-  "catatan": "REVISI 17 Oktober 2026 (W723): pencarian ulang nomor WhatsApp/telepon resmi. Nomor telepon tetap 02518314853, didukung CariBisnis, Cybo, dan UlasTempat. Nomor WA resmi tidak ditemukan sehingga wa.v=null dan wa.src=null. Tombol Chat sekarang pada CariBisnis merupakan tautan generik situs, bukan bukti tujuan WhatsApp praktik. Nama pada Cybo dieja Setyono, sedangkan CariBisnis dan surat tugas memakai Sutyono; gunakan ejaan dari surat tugas/CariBisnis dan konfirmasi dengan pengelola. Dokumen survei Dinkes 2024 mencantumkan nomor seluler seseorang dengan nama sama, tetapi itu data responden, bukan nomor kontak bisnis; sengaja tidak digunakan. Rating 4.9/122 berasal dari CariBisnis, bukan hasil pembacaan Google Maps langsung; data bisnis terstruktur menunjukkan angka lain sehingga jangan sebut rating ini sebagai real-time. Harga scaling hanya tiga pembanding Bogor dari Alodokter; enam kategori harga lain belum dapat dipastikan dari tiga sumber setara. Daftar layanan di direktori belum dikonfirmasi pemilik. Sumber IDalamat dari riset lama gagal diakses ulang; tidak dipakai untuk fakta baru. Seluruh jam perlu konfirmasi. Tidak ada kontak WhatsApp yang boleh dibuat dari nomor telepon rumah.",
+  "ide_fitur_khas": "Panduan Kunjungan Suryakencana: pilih hari, lihat jam dari direktori dengan penanda perlu konfirmasi, buka peta, dan tekan tombol telepon 0251-8314853. Tombol WhatsApp disembunyikan hingga nomor bisnis diverifikasi.",
+  "catatan": "REVISI 17 Oktober 2026 atas surat B08-W723 (REVISI): pencarian ulang sumber publik untuk WhatsApp/telepon dan alamat. Nomor 0251-8314853 konsisten di CariBisnis, Cybo, dan UlasTempat; nomor ini telepon tetap, BUKAN nomor WhatsApp. Tidak ditemukan nomor WA resmi maupun tautan wa.me resmi; wa.v=null dan wa.src=null. Jangan menggunakan nomor pribadi dari laporan responden Dinkes karena bukan kontak bisnis. Alamat No.60 Jl. Suryakencana diperkuat UlasTempat dan Cybo. CariBisnis mengklaim 4.9/122, sedangkan UlasTempat menampilkan angka historis 4.8/61; angka maps pada objek ini adalah klaim CariBisnis, BUKAN pembacaan Google Maps langsung. Jam praktik dan daftar layanan hanya dari direktori, belum diverifikasi pemilik; atribut generik CariBisnis (BPJS, fasilitas, WhatsApp, dan semua prosedur) tidak dianggap bukti resmi. Nama dieja Sutyono sesuai surat tugas dan CariBisnis. Harga scaling memakai tiga harga mulai dari Alodokter di Kota Bogor (Rp385.000, Rp624.800, Rp750.000), bukan harga praktik ini. Enam jenis harga lain (tambal, cabut, behel metal, bleaching, veneer, implan) belum punya tiga pembanding sebanding dan tidak boleh diisi angka rekaan. Konfirmasi manual kepada pengelola diperlukan sebelum website tayang dan sebelum membuat tombol WhatsApp.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
     "https://bukutelepon.cybo.com/ID/pasar-bogor/dokter-gigi/",
     "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/",
     "https://www.alodokter.com/cari-rumah-sakit/bogor-dental-center-tajur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-vania-bogor/scaling-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi",
-    "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577"
-  ],
-  "verifikasi_manual": []
+    "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi"
+  ]
 }
