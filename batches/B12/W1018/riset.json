@@ -1,0 +1,85 @@
+{
+  "id": "W1018",
+  "nama": {
+    "v": "Praktek Drg. Okky S",
+    "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "kota": "Jakarta Timur",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Praktek Drg. Okky S",
+      "alamat": {
+        "v": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
+        "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "0218500478",
+        "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktek%20drg.Okky%20S%20Jl.%20Utan%20Kayu%20Raya%20No.100C%2C%20RT.2/RW.9%2C%20Utan%20Kayu%20Utara%2C%20Matraman%2C%20Jakarta%20Timur%2013120"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [
+    {
+      "perawatan": "Scaling — rentang HARGA MULAI tiga pembanding Jakarta Timur; bukan tarif klinik ini atau batas biaya akhir",
+      "jenis": "kisaran_pasar",
+      "min": 150000,
+      "max": 360000,
+      "src": [
+        "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+        "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+      ]
+    }
+  ],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Lokasi praktik tercantum di Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120."
+  ],
+  "situs_lama": [
+    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
+  ],
+  "ide_fitur_khas": "Panduan konfirmasi jam praktik di Utan Kayu dengan penanda jadwal yang perlu diperbarui.",
+  "catatan": "Judul/nama dikoreksi sesuai halaman IDalamat yang dibuka ulang: Praktek Drg. Okky S. Alamat/telepon 0218500478 masih tertulis. Hubungan dengan nama Klinik Gigi OQ tidak dapat ditegaskan; Waze target OQ gagal dibuka saat revisi dan nama itu tidak digabung pada nama resmi. Telepon tidak diasumsikan WA. Pencarian dua mesin belum menemukan WA praktik Utan Kayu yang dapat dibuktikan; nomor Okky Bogor dan basis data prospek tidak digunakan. Jam lama berbeda antar listing, tetap null sampai konfirmasi. Revisi menggunakan RISET LAMA pada surat sebagai dasar; semua field riset dan konten lengkap ditulis ulang. Rating/ulasan tidak terbukti dihapus. Harga tanpa angka terverifikasi dihapus dari array harga, tidak diisi min/max null. Tidak mengirim WA/email. Outreach hanya draf; pemilik perlu memeriksa ketersediaan konsep dan lampiran PDF sebelum digunakan. Koreksi harga pembanding: halaman tindakan Alodokter yang dibuka ulang menampilkan Alia 360000, Yadika 150000, Dental Theory 200000, semuanya Jakarta Timur. Kisaran 150000–360000 hanya rentang tiga harga MULAI, bukan tarif klinik ini atau maksimum biaya akhir. Angka lama Alia 220000 tidak dipakai. Tambal, cabut, behel metal, bleaching, veneer, implan tidak memiliki tiga pembanding terverifikasi dalam revisi ini sehingga entri dihapus.",
+  "sumber": [
+    "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+    "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA",
+    "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
+    "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ]
+}

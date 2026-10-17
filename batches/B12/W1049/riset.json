@@ -1,0 +1,75 @@
+{
+  "id": "W1049",
+  "nama": {
+    "v": "Klinik Megu Medical Centre",
+    "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "kota": "Kabupaten Cirebon",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/megumedical/",
+    "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik Megu Medical Centre",
+      "alamat": {
+        "v": "Jl. Fatahillah No.23, Megu Cilik, Weru, Kabupaten Cirebon 45154",
+        "src": "https://msha.ke/doktergigidwi/",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "02318308938",
+        "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
+        "tgl": "2026-10-17",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling",
+    "Tambal gigi",
+    "Gigi palsu lepasan"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Lokasi praktik tercantum di Jl. Fatahillah No.23, Megu Cilik, Weru, Kabupaten Cirebon 45154."
+  ],
+  "situs_lama": [
+    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
+  ],
+  "ide_fitur_khas": "Daftar persiapan kunjungan poli gigi dengan konfirmasi dokter dan jadwal sebelum datang.",
+  "catatan": "Koreksi instagram.src: SemuaBis yang dibuka memuat tautan Instagram megumedical, sedangkan Milkshake tidak memuatnya. Tautan Instagram SemuaBis diklik dan tujuan megumedical terkonfirmasi, tetapi profil gagal throttled. Alamat serta telepon 02318308938 masih tertulis di SemuaBis; nomor telepon tidak diasumsikan WA. Milkshake doktergigidwi dibuka ulang: layanan scaling, penambalan dan gigi palsu lepasan tetap tercantum, tombol BOOK YOUR APPOINTMENT masih example.com dan tidak dipakai. Pencarian nama Medical Centre/Center dan akun tidak menemukan nomor WA yang dapat dibuktikan. Nomor Klinik Budi Asih dan HDC Cirebon tidak disalin. Harga tujuh kategori belum memiliki tiga pembanding konsisten per Kabupaten Cirebon, sehingga entri tidak dibuat. Revisi menggunakan RISET LAMA pada surat sebagai dasar; semua field riset dan konten lengkap ditulis ulang. Rating/ulasan tidak terbukti dihapus. Harga tanpa angka terverifikasi dihapus dari array harga, tidak diisi min/max null. Tidak mengirim WA/email. Outreach hanya draf; pemilik perlu memeriksa ketersediaan konsep dan lampiran PDF sebelum digunakan.",
+  "sumber": [
+    "https://msha.ke/doktergigidwi/",
+    "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
+    "https://www.instagram.com/megumedical/"
+  ]
+}
