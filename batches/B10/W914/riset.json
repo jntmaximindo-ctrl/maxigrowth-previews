@@ -88,5 +88,35 @@
     "https://www.waze.com/live-map/directions/id/jawa-timur/dokter-gigi-malang-or-klinik-gigi-b-dental?to=place.ChIJr8hYIVwo1i0R56Ky3a5hF_I",
     "https://idalamat.com/alamat/dokter-gigi-malang-klinik-gigi-b-dental-1062700",
     "https://klinikbdental.com"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Malang | Klinik Gigi B Dental",
+      "catatan": "BDental"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Danau Kerinci E1 C20B, Lesanpuro, Kedungkandang, Malang",
+      "catatan": "Alamat tidak tertulis di Linktree, tetapi cocok dengan halaman Waze; sumber riset salah atribusi."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087855460399",
+      "catatan": "Nomor tidak ditampilkan sebagai teks di Linktree, tetapi ada dalam tautan Admin 2 dan tercantum di Waze."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "08-20",
+        "sel": "08-20",
+        "rab": "08-20",
+        "kam": "08-20",
+        "jum": "08-20",
+        "sab": "08-18",
+        "min": "11-17"
+      },
+      "catatan": "Jam tidak tertulis pada Linktree; jadwal yang sama tertulis di halaman Waze."
+    }
   ]
 }
