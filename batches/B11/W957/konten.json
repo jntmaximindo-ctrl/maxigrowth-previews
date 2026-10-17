@@ -1,0 +1,132 @@
+{
+  "id": "W957",
+  "hero": {
+    "judul": {
+      "id": "Klinik Rumah Gigi Drg Toton Krian",
+      "en": "Klinik Rumah Gigi Drg Toton Krian"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan pertanyaan perawatan gigi di Sidoarjo.",
+      "en": "Plan your dental visit in Sidoarjo."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan informasi sesuai kebutuhan Anda.",
+        "en": "Contact the clinic to confirm details for your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan informasi sesuai kebutuhan Anda.",
+        "en": "Contact the clinic to confirm details for your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan informasi sesuai kebutuhan Anda.",
+        "en": "Contact the clinic to confirm details for your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Planning your visit"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan informasi sesuai kebutuhan Anda.",
+        "en": "Contact the clinic to confirm details for your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan",
+      "en": "Plan Your Visit"
+    },
+    "penjelasan": {
+      "id": "Pemandu lokasi Rumah Gigi Toton Krian yang membedakan Mandiri Residence dari praktik Hasanuddin.",
+      "en": "Plan your visit to Klinik Rumah Gigi Drg Toton Krian. Select a location or day, review confirmed details, and prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Usulan fitur berdasarkan lokasi praktik di Sidoarjo; bukan klaim fasilitas yang sudah tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kanal klinik yang sudah diverifikasi. Sampaikan hari pilihan dan keluhan singkat.",
+        "en": "Use a verified clinic contact and share your preferred day and a brief concern."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan dokter yang bertugas sebelum berkunjung.",
+        "en": "Confirm opening hours and the dentist on duty before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi lengkap belum terverifikasi. Minta rincian biaya pemeriksaan dan tindakan kepada klinik.",
+        "en": "A complete official fee list has not been verified. Ask the clinic for examination and treatment costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan nama penjamin dan prosedurnya kepada klinik.",
+        "en": "Insurance arrangements have not been verified. Ask the clinic about your insurer and the required process."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan, riwayat perawatan, dan konfirmasi lokasi serta jadwal kunjungan.",
+        "en": "Prepare your questions and dental history, and confirm the location and appointment time."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi kunjungan.",
+    "en": "Contact the clinic to confirm your visit."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi. Apakah tersedia waktu untuk kunjungan saya?",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola Klinik Rumah Gigi Drg Toton Krian. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati lokasi praktik di Sidoarjo dan sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/rumah-drg. Jika berkenan, kami siap menerima masukan. Terima kasih. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Klinik Rumah Gigi Drg Toton Krian",
+    "email_isi": "Yth. Pengelola Klinik Rumah Gigi Drg Toton Krian,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati lokasi praktik di Sidoarjo. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/rumah-drg. Proposal PDF terlampir menjelaskan konsep informasi kunjungan dan navigasinya. Jika berkenan, kami siap menyesuaikan konsep berdasarkan informasi resmi klinik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

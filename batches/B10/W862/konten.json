@@ -1,0 +1,132 @@
+{
+  "id": "W862",
+  "hero": {
+    "judul": {
+      "id": "MUGI Dental Care",
+      "en": "MUGI Dental Care"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan pertanyaan perawatan gigi di Makassar.",
+      "en": "Plan your dental visit in Makassar."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Tooth fillings"
+      },
+      "ringkas": {
+        "id": "Informasi ini berasal dari direktori publik. Konfirmasikan ketersediaan dan jadwal tindakan kepada klinik.",
+        "en": "This information comes from a public directory. Confirm treatment availability and appointment times with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Informasi ini berasal dari direktori publik. Konfirmasikan ketersediaan dan jadwal tindakan kepada klinik.",
+        "en": "This information comes from a public directory. Confirm treatment availability and appointment times with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Informasi ini berasal dari direktori publik. Konfirmasikan ketersediaan dan jadwal tindakan kepada klinik.",
+        "en": "This information comes from a public directory. Confirm treatment availability and appointment times with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Informasi ini berasal dari direktori publik. Konfirmasikan ketersediaan dan jadwal tindakan kepada klinik.",
+        "en": "This information comes from a public directory. Confirm treatment availability and appointment times with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan",
+      "en": "Plan Your Visit"
+    },
+    "penjelasan": {
+      "id": "Pemilih jadwal Mugi yang membedakan jam sore hari kerja dan jam siang Sabtu.",
+      "en": "Compare afternoon appointments on weekdays with the shorter Saturday daytime schedule before contacting Mugi."
+    },
+    "alasan_dipilih": "Usulan fitur berdasarkan lokasi praktik di Makassar; bukan klaim fasilitas yang sudah tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kanal klinik yang sudah diverifikasi. Sampaikan hari pilihan dan keluhan singkat.",
+        "en": "Use a verified clinic contact and share your preferred day and a brief concern."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan dokter yang bertugas sebelum berkunjung.",
+        "en": "Confirm opening hours and the dentist on duty before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi lengkap belum terverifikasi. Minta rincian biaya pemeriksaan dan tindakan kepada klinik.",
+        "en": "A complete official fee list has not been verified. Ask the clinic for examination and treatment costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan nama penjamin dan prosedurnya kepada klinik.",
+        "en": "Insurance arrangements have not been verified. Ask the clinic about your insurer and the required process."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan, riwayat perawatan, dan konfirmasi lokasi serta jadwal kunjungan.",
+        "en": "Prepare your questions and dental history, and confirm the location and appointment time."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi kunjungan.",
+    "en": "Contact the clinic to confirm your visit."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi. Apakah tersedia waktu untuk kunjungan saya?",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola MUGI Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati alamat praktik di Jl. Boulevard Kompleks Nusa Indah No.A/2 dan sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/mugi. Jika berkenan, kami siap menerima masukan. Terima kasih. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website MUGI Dental Care",
+    "email_isi": "Yth. Pengelola MUGI Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati alamat praktik di Jl. Boulevard Kompleks Nusa Indah No.A/2. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/mugi. Proposal PDF terlampir menjelaskan konsep informasi kunjungan dan navigasinya. Jika berkenan, kami siap menyesuaikan konsep berdasarkan informasi resmi klinik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
