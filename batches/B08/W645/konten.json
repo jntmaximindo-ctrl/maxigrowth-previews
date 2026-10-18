@@ -1,0 +1,132 @@
+{
+  "id": "W645",
+  "hero": {
+    "judul": {
+      "id": "Hindia Dental di Bandung Timur",
+      "en": "Hindia Dental in East Bandung"
+    },
+    "sub": {
+      "id": "Temukan lokasi praktik di Cipadung, Cibiru, dan informasi kunjungan yang perlu dikonfirmasi sebelum datang.",
+      "en": "Find the Cipadung, Cibiru location and the visit details to confirm before coming."
+    },
+    "cta": {
+      "id": "Lihat Lokasi & Telepon",
+      "en": "View Location & Phone"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan scaling serta pemeriksaan yang diperlukan sebelum membuat janji.",
+        "en": "Ask whether scaling is available and what examination is needed before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Jika ada gigi berlubang, tanyakan jadwal pemeriksaan dan pilihan perawatan yang sesuai.",
+        "en": "If you have a cavity, ask about examination times and suitable treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal",
+        "en": "Opening Hours"
+      },
+      "ringkas": {
+        "id": "Profil lokasi mencantumkan jam praktik termasuk hari Minggu. Mohon konfirmasi perubahan jadwal melalui telepon.",
+        "en": "The location profile lists opening hours including Sunday. Please confirm changes by phone."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Preparing for Your Visit"
+      },
+      "ringkas": {
+        "id": "Siapkan keluhan, riwayat perawatan, dan pertanyaan biaya untuk dibahas dengan pihak klinik.",
+        "en": "Prepare your concerns, dental history and cost questions for the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan ke Cibiru",
+      "en": "Plan a Visit to Cibiru"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan dan catat pertanyaan yang ingin disampaikan melalui telepon. Jam perlu dikonfirmasi.",
+      "en": "Choose a visit day and note questions to ask by phone. Hours should be confirmed."
+    },
+    "alasan_dipilih": "Lokasi di Cipadung/Cibiru dan profil bisnis mencantumkan jam hari Minggu; saluran WhatsApp belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Hindia Dental?",
+        "en": "Where is Hindia Dental?"
+      },
+      "a": {
+        "id": "Profil lokasi mencantumkan Jl. Sukaluyu, Cipadung, Kecamatan Cibiru, Kota Bandung. Konfirmasi patokan sebelum berangkat.",
+        "en": "The location profile lists Jl. Sukaluyu, Cipadung, Cibiru, Bandung. Please confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Profil bisnis mencantumkan Minggu pukul 09.00–15.00 WIB. Hubungi klinik untuk memastikan jadwal terbaru.",
+        "en": "The business profile lists Sunday hours of 9 a.m.–3 p.m. WIB. Please call to confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa scaling atau tambal gigi?",
+        "en": "Are cleaning and fillings available?"
+      },
+      "a": {
+        "id": "Kedua tindakan disebut dalam informasi publik, tetapi daftar layanan resmi belum kami verifikasi. Tanyakan ketersediaannya kepada klinik.",
+        "en": "Both treatments appear in public information, but an official service list has not been verified. Please check availability with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum terverifikasi. Tanyakan estimasi biaya setelah pemeriksaan atau saat menghubungi klinik.",
+        "en": "An official price list has not been verified. Ask the clinic for an estimate after an examination or when contacting them."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi rekanan asuransi belum terverifikasi. Sebutkan penyedia dan jenis polis ketika menghubungi klinik.",
+        "en": "Insurance partnerships have not been verified. Mention your insurer and policy when contacting the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik melalui telepon untuk memastikan jadwal dan layanan.",
+    "en": "Call the clinic to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo Hindia Dental, saya ingin menanyakan jadwal pemeriksaan gigi dan ketersediaan layanan. Mohon informasi. (Draf pesan; jangan aktifkan tombol WA sebelum nomor resmi terverifikasi.)",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Hindia Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi Hindia Dental di Cipadung, Cibiru, termasuk jam praktik hari Minggu. Kami telah menyiapkan konsep website untuk Bapak/Ibu tinjau di https://maxigrowthstudio.com/hindia. Bila berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Hindia Dental",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Hindia Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio (info@maxigrowthstudio.com, WA 082141004400). Kami mencatat lokasi Hindia Dental di Cipadung, Cibiru, dan informasi jam praktik hari Minggu. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/hindia.\n\nSebagai bahan pertimbangan, kami lampirkan proposal PDF yang menjelaskan susunan halaman dan informasi kunjungan. Kami ingin memastikan detail layanan dan kontak terlebih dahulu sebelum konsep digunakan secara publik.\n\nApabila berkenan, kami siap menerima koreksi atau masukan tanpa kewajiban apa pun.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
