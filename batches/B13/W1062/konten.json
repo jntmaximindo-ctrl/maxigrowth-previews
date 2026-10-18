@@ -1,0 +1,132 @@
+{
+  "id": "W1062",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Lawang",
+      "en": "Dental Care in Lawang"
+    },
+    "sub": {
+      "id": "Seisha Dental Care Lawang berada di Jalan Diponegoro. Temukan informasi layanan dan waktu kunjungan sebelum menghubungi klinik.",
+      "en": "Find Seisha Dental Care Lawang on Diponegoro Street. Explore treatment information and visiting hours before contacting the clinic."
+    },
+    "cta": {
+      "id": "Lihat Jam Kunjungan",
+      "en": "View Visiting Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "General Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan langkah pemeriksaan bersama tenaga medis.",
+        "en": "Discuss dental concerns and the next steps for an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Scaling membantu membersihkan karang gigi; kebutuhan tindakan dinilai saat pemeriksaan.",
+        "en": "Scaling removes tartar; treatment needs are assessed during your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Cari tahu apakah gigi yang bermasalah memerlukan evaluasi saluran akar.",
+        "en": "Find out whether a tooth needs root canal assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Crown dan Bridge",
+        "en": "Crowns and Bridges"
+      },
+      "ringkas": {
+        "id": "Pelajari pilihan restorasi gigi yang perlu dibahas sesuai kondisi masing-masing.",
+        "en": "Explore restorative options to discuss based on your dental condition."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Hari Kunjungan",
+      "en": "Choose Your Visit Day"
+    },
+    "penjelasan": {
+      "id": "Lihat jam yang tercantum untuk Senin hingga Minggu, termasuk Minggu pagi. Konfirmasi kembali sebelum berangkat karena jadwal dapat berubah.",
+      "en": "Check listed hours from Monday through Sunday, including Sunday morning. Please confirm before travelling as hours may change."
+    },
+    "alasan_dipilih": "Data jadwal yang tersedia menunjukkan layanan hingga malam pada Senin–Sabtu dan Minggu pagi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Seisha Dental Care Lawang?",
+        "en": "Where is Seisha Dental Care Lawang?"
+      },
+      "a": {
+        "id": "Jl. Diponegoro No.255, Lawang, Ardimulyo, Kecamatan Lawang, Kabupaten Malang.",
+        "en": "Jl. Diponegoro No.255, Lawang, Ardimulyo, Lawang District, Malang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Informasi yang tersedia mencantumkan Minggu pukul 09.00–13.00. Konfirmasi kembali jadwal sebelum datang.",
+        "en": "Published information lists Sunday hours as 9:00 AM–1:00 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Pembersihan karang gigi tercantum dalam direktori layanan. Tanyakan ketersediaan jadwal saat menghubungi klinik.",
+        "en": "Teeth cleaning is listed in a dental directory. Ask the clinic to confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment costs?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum ditemukan. Hubungi klinik untuk estimasi setelah menjelaskan kebutuhan perawatan.",
+        "en": "A verified fee list is not available. Contact the clinic for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Tanyakan langsung sebelum membuat janji.",
+        "en": "Insurance arrangements have not been verified. Please check directly before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Seisha Dental Care Lawang dan perkiraan biayanya. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Seisha Dental Care Lawang. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jam praktik klinik hingga Minggu pagi. Kami sudah menyiapkan konsep website dengan panduan jam kunjungan agar pasien lebih mudah memperoleh informasi: https://maxigrowthstudio.com/seisha-lawang. Silakan dilihat bila berkenan, tanpa kewajiban apa pun. Terima kasih.",
+    "email_subjek": "Konsep website Seisha Dental Care Lawang",
+    "email_isi": "Yth. Manajemen Seisha Dental Care Lawang,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik menunjukkan Seisha memiliki jadwal praktik hingga Minggu pagi. Kami menyiapkan konsep website yang menata informasi layanan, lokasi, dan pilihan hari kunjungan secara lebih jelas.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/seisha-lawang. Proposal PDF kami lampirkan untuk bahan pertimbangan. Jika ada informasi yang perlu dikoreksi, kami dengan senang hati menyesuaikannya.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

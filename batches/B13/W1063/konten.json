@@ -1,0 +1,142 @@
+{
+  "id": "W1063",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi Gigi Bersama drg. Risalatul Islami",
+      "en": "Dental Consultations with drg. Risalatul Islami"
+    },
+    "sub": {
+      "id": "Praktik di Ruko C 18 Jalan Diponegoro, Lawang. Kenali pilihan perawatan dan periksa jadwal sebelum datang.",
+      "en": "Visit the practice at Ruko C 18, Diponegoro Street, Lawang. Explore care options and check the schedule before visiting."
+    },
+    "cta": {
+      "id": "Lihat Informasi Praktik",
+      "en": "View Practice Information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan diskusikan langkah perawatan sesuai hasil pemeriksaan.",
+        "en": "Share your concerns and discuss treatment options following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi Komposit",
+        "en": "Composite Fillings"
+      },
+      "ringkas": {
+        "id": "Tambalan komposit merupakan salah satu layanan yang tercantum pada profil praktik.",
+        "en": "Composite fillings are among the treatments listed for this practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan penggantian gigi dan pilihan yang sesuai dengan kondisi mulut.",
+        "en": "Discuss tooth replacement needs and suitable denture options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer dan Celah Gigi",
+        "en": "Veneers and Tooth Gaps"
+      },
+      "ringkas": {
+        "id": "Informasi publik mencantumkan veneer serta penutupan celah gigi; kecocokan ditentukan melalui konsultasi.",
+        "en": "Public listings mention veneers and gap closure; suitability depends on a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi tercantum pada direktori layanan praktik.",
+        "en": "Teeth cleaning appears in the practice’s directory listing."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kebutuhan Perawatan",
+      "en": "Explore Dental Care Options"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan atau kebutuhan seperti tambal, gigi tiruan, atau veneer untuk membaca gambaran tindakan dan menyiapkan pertanyaan bagi dokter.",
+      "en": "Select a concern such as fillings, dentures or veneers to read a short overview and prepare questions for your dentist."
+    },
+    "alasan_dipilih": "Direktori publik menyebut beberapa jenis perawatan berbeda pada praktik ini, sehingga panduan kebutuhan membantu pasien memahami pilihan sebelum berkonsultasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Jl. Diponegoro, Ruko C 18, Lawang, Kabupaten Malang.",
+        "en": "Jl. Diponegoro, Ruko C 18, Lawang, Malang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik dokter?",
+        "en": "What are the listed practice hours?"
+      },
+      "a": {
+        "id": "Data publik mencantumkan Senin–Jumat pukul 17.00–20.00 dan Sabtu 19.30–21.00. Harap konfirmasi karena jadwal dapat berubah.",
+        "en": "Public listings show Monday–Friday, 5:00–8:00 PM, and Saturday, 7:30–9:00 PM. Please confirm as schedules can change."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal gigi?",
+        "en": "Are fillings available?"
+      },
+      "a": {
+        "id": "Profil direktori mencantumkan tambal gigi komposit. Dokter perlu memeriksa kondisi gigi untuk menentukan tindakan.",
+        "en": "A public directory lists composite fillings. An examination is needed to determine suitable care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi veneer?",
+        "en": "Can I ask about veneers?"
+      },
+      "a": {
+        "id": "Veneer tercantum pada informasi layanan. Silakan tanyakan kesesuaian tindakan saat konsultasi.",
+        "en": "Veneers are listed among the services. Ask about suitability during a consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya dan asuransi?",
+        "en": "How do I check fees and insurance?"
+      },
+      "a": {
+        "id": "Biaya resmi dan kerja sama asuransi belum terverifikasi. Tanyakan langsung ke praktik sebelum membuat janji.",
+        "en": "Verified fees and insurance information are not available. Please ask the practice before arranging a visit."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal dan Layanan",
+    "en": "Ask About Hours and Services"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya mengenai jadwal praktik drg. Risalatul Islami di Lawang dan biaya konsultasi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola praktik drg. Risalatul Islami di Lawang. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi layanan tambal komposit, gigi tiruan, dan veneer di direktori publik. Kami sudah membuat konsep website untuk membantu pasien mengenali layanan dan jadwal: https://maxigrowthstudio.com/drg-risalatul. Silakan ditinjau jika berkenan, tanpa kewajiban apa pun. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Risalatul Islami",
+    "email_isi": "Yth. Pengelola Praktik drg. Risalatul Islami,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Ruko C 18 Lawang dan beberapa layanan yang tercantum di direktori publik, termasuk tambal komposit, gigi tiruan, dan veneer.\n\nKami telah menyiapkan konsep website berisi informasi layanan, lokasi, dan panduan kebutuhan pasien di https://maxigrowthstudio.com/drg-risalatul. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Seluruh informasi jadwal dan layanan dapat dikonfirmasi bersama sebelum digunakan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
