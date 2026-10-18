@@ -1,0 +1,152 @@
+{
+  "id": "W1068",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Singosari",
+      "en": "Dental Care Information in Singosari"
+    },
+    "sub": {
+      "id": "Kenali layanan ADA Family Dental Care, lokasi praktik, dan cara menghubungi tim untuk informasi lebih lanjut.",
+      "en": "Explore ADA Family Dental Care services, location, and ways to contact the clinic for more details."
+    },
+    "cta": {
+      "id": "Lihat Informasi Klinik",
+      "en": "View Clinic Information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang sesuai pemeriksaan dokter.",
+        "en": "Treatment for cavities based on a dentist’s assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Membersihkan karang gigi sebagai bagian dari perawatan mulut.",
+        "en": "Tartar removal as part of oral care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Layanan pemeriksaan dan perawatan gigi bagi anak.",
+        "en": "Dental checkups and treatment for children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Perawatan jaringan di dalam gigi bila diperlukan.",
+        "en": "Treatment of the inside of a tooth when needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Pilihan gigi tiruan lepasan atau cekat berdasarkan kebutuhan pasien.",
+        "en": "Removable or fixed tooth replacement options depending on patient needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Operasi Gigi",
+        "en": "Oral Surgery"
+      },
+      "ringkas": {
+        "id": "Tindakan bedah gigi untuk kondisi tertentu setelah evaluasi dokter.",
+        "en": "Surgical dental procedures for selected conditions after an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Dokter dan Jadwal",
+      "en": "Find a Dentist and Time"
+    },
+    "penjelasan": {
+      "id": "Lihat daftar dokter dan jadwal yang dipublikasikan, kemudian lanjutkan ke halaman reservasi klinik.",
+      "en": "Review the published dentist schedules and continue to the clinic’s existing booking page."
+    },
+    "alasan_dipilih": "Situs klinik telah menyediakan daftar dokter dan formulir reservasi; penghubung keduanya memudahkan pencarian jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah ada perawatan gigi anak?",
+        "en": "Do you treat children?"
+      },
+      "a": {
+        "id": "Ya, perawatan gigi anak tercantum di situs klinik.",
+        "en": "Yes. Children’s dental care is listed on the clinic website."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Situs klinik menyediakan formulir reservasi untuk pasien baru dan pasien yang sudah terdaftar.",
+        "en": "The clinic website offers booking forms for new and returning patients."
+      }
+    },
+    {
+      "q": {
+        "id": "Dokter apa saja yang tersedia?",
+        "en": "Which dentists are available?"
+      },
+      "a": {
+        "id": "Situs menampilkan beberapa dokter gigi, termasuk dua dokter bergelar Sp.BM. Periksa jadwal terbaru sebelum datang.",
+        "en": "The site lists several dentists, including two with oral surgery specialist credentials. Check the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum ditemukan pada halaman yang diperiksa. Silakan tanyakan estimasi sesuai tindakan.",
+        "en": "No official fee schedule was found on the pages reviewed. Ask for an estimate for the proposed treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi mitra asuransi belum terverifikasi. Hubungi admin klinik untuk konfirmasi.",
+        "en": "Insurance arrangements have not been verified. Please check with the clinic team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal dan Ketersediaan Layanan",
+    "en": "Ask About Schedules and Service Availability"
+  },
+  "pesan_wa_default": "Halo tim ADA Family Dental Care, saya ingin bertanya tentang layanan dan jadwal pemeriksaan. Mohon informasi cara membuat janji. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang Bapak/Ibu pengelola ADA Family Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs klinik sudah menampilkan jadwal beberapa dokter dan reservasi pasien. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/ada-family. Bila berkenan, silakan dilihat kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk ADA Family Dental Care",
+    "email_isi": "Yth. Bapak/Ibu Manajemen ADA Family Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs klinik sudah memuat layanan, jadwal dokter, dan sistem reservasi. Kami menyiapkan konsep pengembangan halaman website untuk ditinjau di https://maxigrowthstudio.com/ada-family. Konsep ini berfokus pada penyajian informasi layanan dan langkah menghubungi klinik dengan lebih jelas. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Tidak ada kewajiban untuk menindaklanjuti.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
