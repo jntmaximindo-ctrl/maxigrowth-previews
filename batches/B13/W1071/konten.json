@@ -1,0 +1,152 @@
+{
+  "id": "W1071",
+  "hero": {
+    "judul": {
+      "id": "Kenali Pilihan Perawatan Gigi Anda",
+      "en": "Understand Your Dental Care Options"
+    },
+    "sub": {
+      "id": "JOFA Dental Care di Godean menyediakan perawatan gigi umum, konservasi gigi, dan perawatan untuk keluarga dengan pendekatan edukasi pasien.",
+      "en": "JOFA Dental Care in Godean offers general, restorative, and family dental care with a focus on patient education."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Pemeriksaan",
+      "en": "Ask About an Appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Evaluasi kondisi bagian dalam gigi untuk mempertimbangkan perawatan yang sesuai.",
+        "en": "Assess the inner tooth and discuss suitable treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan Restorasi Gigi",
+        "en": "Fillings and Restorations"
+      },
+      "ringkas": {
+        "id": "Perbaikan gigi berlubang atau rusak berdasarkan pemeriksaan dokter.",
+        "en": "Care for damaged or decayed teeth after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children’s Dentistry"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan kesehatan gigi anak sesuai kebutuhan.",
+        "en": "Dental checkups and care tailored to children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan dan Bedah Gigi",
+        "en": "Extractions and Oral Surgery"
+      },
+      "ringkas": {
+        "id": "Penilaian kebutuhan tindakan pencabutan atau pembedahan gigi.",
+        "en": "Assessment for extractions or dental surgery."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Ortodonti",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Konsultasi pilihan perawatan untuk susunan gigi.",
+        "en": "Discuss treatment options for tooth alignment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Tooth Replacement"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian gigi yang hilang.",
+        "en": "Explore options for replacing missing teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Keluhan Gigi",
+      "en": "Dental Symptom Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan seperti gigi ngilu, berlubang, atau sakit saat mengunyah untuk membaca gambaran pemeriksaan dan pertanyaan yang dapat disampaikan kepada dokter. Fitur ini bukan alat diagnosis.",
+      "en": "Choose a concern such as sensitivity, cavities, or pain while chewing to learn what to discuss at an appointment. This guide does not diagnose conditions."
+    },
+    "alasan_dipilih": "Profil JOFA menekankan edukasi pasien dan mencantumkan perawatan konservasi/endodontik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah JOFA menangani gigi berlubang dalam?",
+        "en": "Does JOFA treat deep cavities?"
+      },
+      "a": {
+        "id": "Profil klinik mencantumkan perawatan saluran akar dan restorasi. Pilihan tindakan bergantung pada pemeriksaan dokter.",
+        "en": "The clinic lists root canal and restorative treatments. The dentist will assess which option is appropriate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi anak?",
+        "en": "Is children’s dental care available?"
+      },
+      "a": {
+        "id": "Ya, perawatan gigi anak tercantum dalam layanan perusahaan. Konfirmasikan jadwal dokter sebelum datang.",
+        "en": "Yes, pediatric dental care is listed. Please confirm the dentist’s schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi JOFA Dental Care?",
+        "en": "Where is JOFA Dental Care located?"
+      },
+      "a": {
+        "id": "Jl. Ngapak–Kentheng Km 10,5, Sidoluhur, Godean, Kabupaten Sleman.",
+        "en": "Jl. Ngapak–Kentheng Km 10.5, Sidoluhur, Godean, Sleman Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan saluran akar?",
+        "en": "How much does a root canal cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum dapat diverifikasi. Hubungi klinik untuk meminta perkiraan biaya berdasarkan pemeriksaan.",
+        "en": "An official price list could not be verified. Ask the clinic for an estimate based on your examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji dan kapan jam buka?",
+        "en": "Do I need an appointment, and what are the hours?"
+      },
+      "a": {
+        "id": "Jam praktik dan prosedur reservasi belum terverifikasi dari sumber yang berhasil dibuka. Mohon konfirmasi langsung kepada klinik.",
+        "en": "We could not verify current opening hours or booking procedures. Please confirm with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Diskusikan Kebutuhan Perawatan dengan Tim JOFA",
+    "en": "Discuss Your Dental Needs with JOFA"
+  },
+  "pesan_wa_default": "Halo JOFA Dental Care, saya ingin menanyakan jadwal konsultasi untuk keluhan gigi. Mohon informasi waktu kunjungan dan perkiraan biayanya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu manajemen JOFA Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat JOFA menekankan edukasi pasien serta perawatan konservasi gigi. Kami sudah membuat konsep website dengan panduan keluhan gigi dan informasi layanan, yang dapat ditinjau di https://maxigrowthstudio.com/jofa. Bila berkenan, silakan dilihat. Terima kasih.",
+    "email_subjek": "Konsep website JOFA Dental Care",
+    "email_isi": "Yth. Tim Manajemen JOFA Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat JOFA menekankan edukasi pasien serta menyediakan perawatan konservasi dan restorasi gigi.\n\nKami menyiapkan konsep website yang merangkum layanan dan menyediakan panduan keluhan gigi sebagai bahan edukasi sebelum pemeriksaan. Konsep dapat dilihat di https://maxigrowthstudio.com/jofa.\n\nProposal PDF terlampir untuk ditinjau. Kami terbuka jika tim ingin memberi masukan atau melengkapi data operasional agar konten sesuai dengan informasi resmi klinik.\n\nSalam hormat,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

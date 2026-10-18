@@ -1,0 +1,152 @@
+{
+  "id": "W1070",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Godean, Sleman",
+      "en": "Dental Care in Godean, Sleman"
+    },
+    "sub": {
+      "id": "Khalifa Dental melayani kebutuhan gigi umum, behel, dan perawatan estetik. Jadwal yang tercantum: Senin–Sabtu, 10.00–22.00 WIB.",
+      "en": "Khalifa Dental offers general, orthodontic, and cosmetic dental care. Listed hours are Monday–Saturday, 10 a.m.–10 p.m. WIB."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Appointment Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi setelah pemeriksaan kondisi mulut.",
+        "en": "Tartar removal following an oral assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai pemeriksaan dokter.",
+        "en": "Treatment options for cavities based on a dentist’s examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasi perapian susunan gigi dan tahapan kontrol.",
+        "en": "Discuss tooth alignment and follow-up visits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer Gigi",
+        "en": "Dental Veneers"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan permukaan gigi sesuai kebutuhan.",
+        "en": "Explore veneer options based on your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Konsultasi penggantian gigi yang hilang dan pilihan perawatan.",
+        "en": "Discuss replacement options for missing teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Evaluasi kondisi gigi sebelum mempertimbangkan pemutihan.",
+        "en": "Assess dental health before considering whitening."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan Kunjungan Sore atau Malam",
+      "en": "Plan an Afternoon or Evening Visit"
+    },
+    "penjelasan": {
+      "id": "Lihat jam layanan yang tercantum, pilih waktu yang diinginkan, lalu konfirmasi langsung ke admin klinik.",
+      "en": "Check the listed opening hours, choose a preferred time, then confirm it with the clinic."
+    },
+    "alasan_dipilih": "Klinik tercatat buka hingga pukul 22.00 pada Senin–Sabtu menurut Waze."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan Khalifa Dental buka?",
+        "en": "When is Khalifa Dental open?"
+      },
+      "a": {
+        "id": "Menurut informasi Waze, Senin–Sabtu pukul 10.00–22.00 WIB dan Minggu tutup. Konfirmasi kembali sebelum datang.",
+        "en": "Waze lists Monday–Saturday, 10 a.m.–10 p.m. WIB, with Sunday closed. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling dan tambal gigi?",
+        "en": "Are cleaning and fillings available?"
+      },
+      "a": {
+        "id": "Keduanya tercantum sebagai layanan. Jenis tindakan ditentukan setelah pemeriksaan.",
+        "en": "Both are listed services. The dentist will recommend treatment after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada konsultasi behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Perawatan behel tercantum. Silakan tanyakan jadwal konsultasi dan pemeriksaan awal.",
+        "en": "Braces are listed. Ask the clinic about an initial consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia dalam sumber yang kami verifikasi. Mintalah perkiraan biaya kepada admin sebelum tindakan.",
+        "en": "We could not verify an official price list. Please request an estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Status kerja sama asuransi perlu dikonfirmasi langsung kepada klinik.",
+        "en": "Please check insurance acceptance directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi Layanan dan Jadwal",
+    "en": "Contact the Clinic to Confirm Services and Hours"
+  },
+  "pesan_wa_default": "Halo Khalifa Dental, saya ingin menanyakan jadwal konsultasi dan perkiraan biaya perawatan gigi. Mohon informasi ketersediaannya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu pengelola Khalifa Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat jam layanan Khalifa Dental di Godean tercantum hingga pukul 22.00 pada Senin–Sabtu. Kami telah menyiapkan konsep website yang memudahkan pasien melihat layanan dan jadwal, dapat dilihat di https://maxigrowthstudio.com/khalifa-godean. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Khalifa Dental Godean",
+    "email_isi": "Yth. Tim Manajemen Khalifa Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mencermati informasi layanan Khalifa Dental di Godean, termasuk jadwal yang tercantum hingga pukul 22.00 pada Senin–Sabtu.\n\nKami menyiapkan konsep website yang merangkum layanan, lokasi, dan alur konfirmasi kunjungan. Konsepnya dapat ditinjau di https://maxigrowthstudio.com/khalifa-godean.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila sesuai kebutuhan, kami terbuka untuk berdiskusi mengenai penyesuaian konten dan informasi operasional yang perlu dikonfirmasi.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
