@@ -125,7 +125,14 @@ def pull(dir_riset, dir_cek):
             else:
                 (d / "cekfakta.json").unlink(missing_ok=True)
                 acts.append(f"ARSIP {key}_cekfakta*")
-                log.append(f"{key}: cek fakta GAGAL → GPT-B mengulang\n{out}")
+                # pelajaran #35: pengulangan cek fakta harus punya ujung
+                n = status_of(d).get("percobaan_cek", 0) + 1
+                if n >= MAKS_PERCOBAAN:
+                    write_status(d, status="Review manual", percobaan_cek=n, oleh="gpt-bus")
+                    log.append(f"{key}: cek fakta GAGAL {n}x → Review manual\n{out}")
+                else:
+                    write_status(d, percobaan_cek=n)
+                    log.append(f"{key}: cek fakta GAGAL → GPT-B mengulang\n{out}")
     (ROOT / "bus-actions.txt").write_text("\n".join(acts) + ("\n" if acts else ""))
     print("\n".join(log) or "Tidak ada hasil baru.")
     return 0

@@ -49,6 +49,26 @@ def schema_errors(obj, name):
     return [f"{name} → {'/'.join(map(str, e.path)) or '(root)'}: {e.message}" for e in v.iter_errors(obj)][:25]
 
 
+
+def jumlah_fakta_bersumber(path):
+    """Jumlah fakta di riset.json yang punya src (URL). Tidak terbaca = 5 (batas lama)."""
+    try:
+        obj = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+    except Exception:
+        return 5
+    n = 0
+    stack = [obj]
+    while stack:
+        o = stack.pop()
+        if isinstance(o, dict):
+            if o.get("src"):
+                n += 1
+            stack.extend(o.values())
+        elif isinstance(o, list):
+            stack.extend(o)
+    return max(1, n)
+
+
 def check(d, stage):
     d = ROOT / d
     errs = []
@@ -86,8 +106,14 @@ def check(d, stage):
                     errs.append(f"cekfakta.json: field '{k}' wajib ada")
             if not isinstance(obj.get("beda", []), list):
                 errs.append("cekfakta.json: 'beda' harus list")
-            if isinstance(obj.get("diperiksa"), int) and obj["diperiksa"] < 5:
-                errs.append("cekfakta.json: terlalu sedikit fakta diperiksa (<5) — buka ulang semua src di riset.json")
+            # pelajaran #35: batas minimum menyesuaikan jumlah fakta bersumber di riset.json (klinik kecil bisa hanya punya 2-3);
+            # URL yang dicoba tapi tidak bisa dibuka tetap dihitung sebagai upaya periksa
+            if isinstance(obj.get("diperiksa"), int):
+                tb = obj.get("tidak_bisa_dibuka", [])
+                upaya = obj["diperiksa"] + (len(tb) if isinstance(tb, list) else 0)
+                perlu = min(5, jumlah_fakta_bersumber(d / "riset.json"))
+                if upaya < perlu:
+                    errs.append(f"cekfakta.json: terlalu sedikit fakta diperiksa ({upaya} < {perlu}) — buka ulang semua src di riset.json")
     elif stage == "fitur":
         r = subprocess.run([sys.executable, str(ROOT / "scripts/fitur.py"), "check", str(d)], capture_output=True, text=True)
         print(r.stdout)

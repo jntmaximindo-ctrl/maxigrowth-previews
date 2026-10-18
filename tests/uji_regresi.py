@@ -444,6 +444,27 @@ def _():
     assert m.pr_basi(p, iso(NOW - datetime.timedelta(hours=10)), NOW, tutup=lambda n: 1 / 0) == [], "semua slot nonaktif: bukan alarm claude"
 
 
+@uji("#35 cek fakta: klinik dengan 3 fakta bersumber lolos bila diperiksa+tidak_bisa_dibuka >= 3; kosong tetap ditolak; gagal berulang berujung Review manual")
+def _():
+    d = salin()
+    kl = d / "batches" / "B1" / "W1"; kl.mkdir(parents=True)
+    riset = {"nama": {"v": "K", "src": "http://a"}, "kota": "X", "alamat": {"v": "a", "src": "http://b"}, "wa": {"v": "1", "src": "http://c"}, "maps": {"src": None}}
+    (kl / "riset.json").write_text(json.dumps(riset))
+    def cek(obj):
+        (kl / "cekfakta.json").write_text(json.dumps(obj))
+        r = subprocess.run([sys.executable, str(d / "scripts/codex_check.py"), "check", "batches/B1/W1", "cekfakta"], capture_output=True, text=True, cwd=d)
+        return r.returncode
+    # root skrip disalin ke d/scripts → ROOT = d
+    assert cek({"id": "W1", "diperiksa": 2, "beda": [], "tidak_bisa_dibuka": ["u1", "u2"], "kritis_ok": True}) == 0, "2 diperiksa + 2 tak terbuka dari 3 fakta harus lolos"
+    assert cek({"id": "W1", "diperiksa": 1, "beda": [], "tidak_bisa_dibuka": [], "kritis_ok": True}) != 0, "upaya < jumlah fakta harus ditolak"
+    # klinik besar: batas tetap 5
+    riset["cabang"] = [{"x": {"v": str(i), "src": f"http://z{i}"}} for i in range(8)]
+    (kl / "riset.json").write_text(json.dumps(riset))
+    assert cek({"id": "W1", "diperiksa": 4, "beda": [], "tidak_bisa_dibuka": [], "kritis_ok": True}) != 0, "klinik 11 fakta: batas 5 tetap"
+    src = (ROOT / "scripts/bus.py").read_text()
+    assert "percobaan_cek" in src and "Review manual" in src, "pengulangan cek fakta harus punya batas → Review manual"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
