@@ -1,0 +1,162 @@
+{
+  "id": "W1064",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi dengan informasi yang mudah dipahami",
+      "en": "Dental care with clear, helpful information"
+    },
+    "sub": {
+      "id": "nDentist Dentalwellness hadir di Lawang, Kabupaten Malang. Kenali layanan dan persiapkan kunjungan Anda.",
+      "en": "Visit nDentist Dentalwellness in Lawang, Malang Regency. Explore care options and prepare for your appointment."
+    },
+    "cta": {
+      "id": "Lihat cara reservasi",
+      "en": "View appointment options"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kebutuhan pemeriksaan bersama dokter gigi.",
+        "en": "Talk through your concerns and examination needs with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi untuk mendukung kebersihan mulut.",
+        "en": "Scaling to support everyday oral hygiene."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Evaluasi dan perawatan jaringan di dalam gigi sesuai kondisi klinis.",
+        "en": "Assessment and treatment of the inner tooth tissues when clinically indicated."
+      }
+    },
+    {
+      "nama": {
+        "id": "Crown dan Bridge",
+        "en": "Crowns and Bridges"
+      },
+      "ringkas": {
+        "id": "Pilihan restorasi gigi yang dapat didiskusikan setelah pemeriksaan.",
+        "en": "Explore tooth restoration options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children’s Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Bicarakan kebiasaan dan kebutuhan perawatan gigi anak.",
+        "en": "Discuss your child’s dental habits and care needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penggantian gigi sesuai kebutuhan.",
+        "en": "Ask about tooth replacement options that suit your needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan Kunjungan Gigi Anak",
+      "en": "Prepare for Your Child’s Dental Visit"
+    },
+    "penjelasan": {
+      "id": "Pilih usia anak dan tujuan kunjungan untuk melihat daftar hal yang dapat ditanyakan saat membuat janji.",
+      "en": "Choose your child’s age and reason for visiting to see helpful questions to ask when booking."
+    },
+    "alasan_dipilih": "Kanal klinik memuat edukasi gigi anak dan ajakan konsultasi untuk orang tua."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi nDentist Dentalwellness?",
+        "en": "Where is nDentist Dentalwellness?"
+      },
+      "a": {
+        "id": "Di Jl. Sumber Wuni No.233, Kalirejo, Lawang, Kabupaten Malang.",
+        "en": "At Jl. Sumber Wuni No.233, Kalirejo, Lawang, Malang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Posting klinik tahun 2026 mencantumkan Senin–Sabtu pukul 09.00–21.00. Konfirmasikan jadwal sebelum berkunjung.",
+        "en": "The clinic’s 2026 posts list Monday–Saturday, 9 AM–9 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Gunakan tautan reservasi pada Linktree nDentist untuk menghubungi klinik.",
+        "en": "Use the reservation link on nDentist’s Linktree to contact the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi anak?",
+        "en": "Can I ask about children’s dental care?"
+      },
+      "a": {
+        "id": "Klinik membagikan informasi perawatan gigi anak. Tanyakan ketersediaan pemeriksaan sesuai usia anak.",
+        "en": "The clinic shares children’s dental care guidance. Ask about appointments for your child’s age."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan. Mintalah rincian langsung dari klinik.",
+        "en": "Costs depend on the examination and treatment. Request a quote directly from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terkonfirmasi. Tanyakan sebelum membuat janji.",
+        "en": "Insurance arrangements have not been confirmed. Please ask before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan pilihan perawatan",
+    "en": "Ask about availability and treatment options"
+  },
+  "pesan_wa_default": "Halo tim nDentist Dentalwellness, saya ingin menanyakan jadwal pemeriksaan gigi dan cara reservasi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat nDentist Dentalwellness di Lawang aktif membagikan edukasi kesehatan gigi anak. Kami sudah menyiapkan konsep website yang merangkum layanan, lokasi, dan panduan kunjungan. Boleh dilihat di https://maxigrowthstudio.com/ndentist-dentalwellness. Jika berkenan, saya siap menerima masukan dari tim klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk nDentist Dentalwellness",
+    "email_isi": "Yth. Tim nDentist Dentalwellness,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan edukasi kesehatan gigi anak yang dibagikan nDentist Dentalwellness di Lawang. Sebagai bahan pertimbangan, kami telah menyusun konsep website untuk memudahkan pengunjung menemukan informasi layanan, lokasi, dan persiapan kunjungan.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/ndentist-dentalwellness. Proposal PDF terlampir untuk penjelasan ruang lingkupnya.\n\nApabila sesuai kebutuhan, kami terbuka untuk mendiskusikan penyesuaian tanpa kewajiban apa pun.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
