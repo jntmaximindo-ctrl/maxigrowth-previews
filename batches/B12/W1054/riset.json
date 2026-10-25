@@ -79,5 +79,22 @@
     "ulasan": null,
     "src": null,
     "tgl": "2026-10-26"
-  }
+  },
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "MDC Dental Care",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Villa Podo Rukun No.6, Banjartengah, Sumbersekar, Dau, Kabupaten Malang 65151",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Scaling",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

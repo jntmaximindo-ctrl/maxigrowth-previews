@@ -1,0 +1,132 @@
+{
+  "id": "W1244",
+  "hero": {
+    "judul": {
+      "id": "Melia Dental Care Balikpapan",
+      "en": "Melia Dental Care Balikpapan"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Melia Dental Care Balikpapan di Balikpapan. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Melia Dental Care Balikpapan in Balikpapan. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan bahan tambalan dengan dokter.",
+        "en": "Discuss tooth decay and filling materials with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi dan menjelaskan pertimbangan tindakan terlebih dahulu.",
+        "en": "The dentist assesses the tooth and explains the procedure before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dilakukan berdasarkan pemeriksaan dan kebutuhan pasien.",
+        "en": "Professional tartar removal is planned around your examination and care needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi bagian dalam gigi dan tahapan perawatan yang mungkin diperlukan.",
+        "en": "Discuss the condition inside the tooth and any treatment stages that may be needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan Dr. Sutomo",
+      "en": "Plan a Dr. Sutomo visit"
+    },
+    "penjelasan": {
+      "id": "Tampilkan lokasi No.10A, RT.18, lalu susun pertanyaan tentang waktu kedatangan dan dokter yang tersedia. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Display the No.10A, RT.18 location, then draft questions about arrival times and available clinicians. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Tampilkan lokasi No.10A, RT.18, lalu susun pertanyaan tentang waktu kedatangan dan dokter yang tersedia. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Sumber artikel dan indeks akun klinik mencatat Senin–Sabtu 10.00–21.00 WITA, sedangkan satu direktori mencatat sampai 22.00. Konfirmasikan waktu terbaru dan hari Minggu kepada petugas.",
+        "en": "An article and the clinic’s indexed account list Monday–Saturday 10 am–9 pm WITA; another directory lists closing at 10 pm. Confirm current hours and Sunday availability with the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Melia Dental Care Balikpapan, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Melia Dental Care Balikpapan. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di Dr. Sutomo No.10A. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/melia-balikpapan. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Melia Dental Care Balikpapan",
+    "email_isi": "Yth. Pengelola Melia Dental Care Balikpapan,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Dr. Sutomo No.10A dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/melia-balikpapan. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

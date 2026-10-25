@@ -1,0 +1,38 @@
+{
+  "id": "W1153",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Klinik Gigi ROA Dental",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://roadental.digman.co.id/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/roadentalcare/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://roadental.digman.co.id/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1ILX0HS2XvZDjojJ3S4Cslb2QL4e3pcNh/view",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 158,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1ILX0HS2XvZDjojJ3S4Cslb2QL4e3pcNh/view",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1ILX0HS2XvZDjojJ3S4Cslb2QL4e3pcNh/view"
+  ],
+  "kritis_ok": false
+}

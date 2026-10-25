@@ -1,0 +1,132 @@
+{
+  "id": "W1224",
+  "hero": {
+    "judul": {
+      "id": "Happiness Dental Care Panglima Batur",
+      "en": "Happiness Dental Care Panglima Batur"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Happiness Dental Care Panglima Batur di Banjarbaru. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Happiness Dental Care Panglima Batur in Banjarbaru. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dilakukan berdasarkan pemeriksaan dan kebutuhan pasien.",
+        "en": "Professional tartar removal is planned around your examination and care needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan bahan tambalan dengan dokter.",
+        "en": "Discuss tooth decay and filling materials with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan behel",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi, rencana perawatan, serta kebutuhan kunjungan kontrol.",
+        "en": "Discuss tooth alignment, a treatment plan and follow-up visits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi dan warna gigi sebelum menentukan pilihan perawatan.",
+        "en": "Discuss your dental condition and tooth shade before choosing treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih waktu Panglima Batur",
+      "en": "Choose a Panglima Batur visit time"
+    },
+    "penjelasan": {
+      "id": "Bedakan waktu Jumat dan Minggu dari hari lainnya. Tampilkan cabang Panglima Batur No.3 sebelum menyusun pertanyaan jadwal. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Distinguish Friday and Sunday hours from other days. Display the Panglima Batur No.3 branch before drafting appointment questions. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Bedakan waktu Jumat dan Minggu dari hari lainnya. Tampilkan cabang Panglima Batur No.3 sebelum menyusun pertanyaan jadwal. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Dua direktori mencatat Senin–Kamis dan Sabtu 11.00–20.00, Jumat 14.00–20.00, serta Minggu 13.00–19.30 WITA. Konfirmasikan jadwal terbaru sebelum datang.",
+        "en": "Two directories list Monday–Thursday and Saturday 11 am–8 pm, Friday 2–8 pm and Sunday 1–7:30 pm WITA. Please confirm current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Happiness Dental Care Panglima Batur, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Happiness Dental Care Panglima Batur. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di Panglima Batur No.3. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/happiness-panglima. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Happiness Dental Care Panglima Batur",
+    "email_isi": "Yth. Pengelola Happiness Dental Care Panglima Batur,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Panglima Batur No.3 dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/happiness-panglima. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

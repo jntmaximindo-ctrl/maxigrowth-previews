@@ -86,5 +86,35 @@
     "https://idalamat.com/alamat/one-icon-dental-care-oidc-bojonegoro-1062366",
     "https://doktertanya.com/dokter-gigi-bojonegoro/",
     "https://www.instagram.com/oidc_bojonegoro/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "One Icon Dental Clinic (OIDC) Bojonegoro",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/oidc_bojonegoro/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Sebelah utara Hotel D’Warna, Jl. Veteran, Jambean, Sukorejo, Bojonegoro, Jawa Timur 62115",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "07-21",
+        "sel": "07-21",
+        "rab": "07-21",
+        "kam": "07-21",
+        "jum": "07-21",
+        "sab": "07-21",
+        "min": "07-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    }
   ]
 }

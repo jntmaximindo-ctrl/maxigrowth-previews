@@ -1,0 +1,66 @@
+{
+  "id": "W1041",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Al Izzah Dental Care",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/alizzahdentalcare/?hl=en",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jalan Graha Kencana, Batujajar Timur, Kecamatan Batujajar, Kabupaten Bandung Barat",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/alizzahdentalcare/?hl=en",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282130831211",
+      "di_sumber": null,
+      "src": "https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282130831211",
+      "di_sumber": null,
+      "src": "https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-20",
+        "sel": "08-20",
+        "rab": "08-20",
+        "kam": "08-20",
+        "jum": "08-20",
+        "sab": "08-20",
+        "min": "08-20"
+      },
+      "di_sumber": null,
+      "src": "https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Penambalan gigi",
+        "Scaling",
+        "Perawatan behel"
+      ],
+      "di_sumber": null,
+      "src": "https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/",
+      "catatan": "Daftar layanan berasal dari cuplikan periset; sumber primer yang dibuka ulang tidak terbaca. Tidak mengarang pengganti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/alizzahdentalcare/?hl=en",
+    "https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/"
+  ],
+  "kritis_ok": false
+}

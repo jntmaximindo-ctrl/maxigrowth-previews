@@ -1,0 +1,132 @@
+{
+  "id": "W1236",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi Juanda",
+      "en": "Praktek Dokter Gigi Juanda"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Praktek Dokter Gigi Juanda di Samarinda. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Praktek Dokter Gigi Juanda in Samarinda. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dilakukan berdasarkan pemeriksaan dan kebutuhan pasien.",
+        "en": "Professional tartar removal is planned around your examination and care needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan bahan tambalan dengan dokter.",
+        "en": "Discuss tooth decay and filling materials with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi dan menjelaskan pertimbangan tindakan terlebih dahulu.",
+        "en": "The dentist assesses the tooth and explains the procedure before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan behel",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi, rencana perawatan, serta kebutuhan kunjungan kontrol.",
+        "en": "Discuss tooth alignment, a treatment plan and follow-up visits."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun permintaan kunjungan malam",
+      "en": "Draft an evening visit request"
+    },
+    "penjelasan": {
+      "id": "Pilih Senin–Sabtu dan tanyakan waktu kedatangan dalam jam publik 09.00–22.00 WITA. Jadwal dokter tetap memerlukan konfirmasi petugas. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Choose Monday–Saturday and ask about an arrival time within the listed 9 am–10 pm WITA hours. Clinician schedules still require confirmation from the team. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Pilih Senin–Sabtu dan tanyakan waktu kedatangan dalam jam publik 09.00–22.00 WITA. Jadwal dokter tetap memerlukan konfirmasi petugas. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor Whats App yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed Whats App number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Dua direktori mencatat Senin–Sabtu09.00–22.00 WITA dan Minggu tutup. Tanyakan jadwal dokter dan waktu kedatangan sebelum berkunjung.",
+        "en": "Two directories list Monday–Saturday 9 am–10 pm WITA and Sunday closed. Ask about clinician schedules and arrival times before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Praktek Dokter Gigi Juanda, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Praktek Dokter Gigi Juanda. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di Juanda No.9B, Air Hitam. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/juanda. Konsep ini merangkum informasi kunjungan dan akses Whats App. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Dokter Gigi Juanda",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi Juanda,\n\n Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Juanda No.9B, Air Hitam dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses Whats App.\n\n Konsep dapat ditinjau di https://maxigrowthstudio.com/juanda. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\n Terima kasih,\n Muhammad Rizqi Tri Andika\n Maxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -79,5 +79,17 @@
     "https://www.waze.com/live-map/directions/id/bengkulu/apotek-fera,-praktek-dr-dental-care-dokter-gigi-rabal-fajri-(alfa)-and-dokter-gigi-darma-nengsih-(nengsih)?to=place.ChIJZWgd3aS7Ni4RZ5ApUy-LaxI",
     "https://www.dentalclinics.care/dental-clinic/apotek-fera-praktek-dr-dental-care-dokter-gigi-rab-al-fajri-alfa-dokter-gigi-darma-nengsih-nengsih",
     "https://www.instagram.com/doktergigi.bengkulu/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/doktergigi.bengkulu/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Bhayangkara, Hibrida No. 13, Sido Mulyo, Gading Cempaka, Kota Bengkulu",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    }
   ]
 }

@@ -114,5 +114,35 @@
     "https://www.semuabis.com/drg-sri-wahyuni_3Y-0822-6967-8240",
     "https://www.orami.co.id/magazine/dokter-gigi-bandar-lampung",
     "https://www.lampungvoice.com/detail/46194/10-rekomendasi-klinik-gigi-di-bandar-lampung-dengan-rating-tertinggi-2026-dari-pasang-behel-hingga-scaling"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "drg. Sri Wahyuni",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08:00-11:30,15:40-20:00",
+        "sel": "08:00-11:30,15:40-20:00",
+        "rab": "08:00-11:30,15:40-20:00",
+        "kam": "08:00-11:30,15:40-20:00",
+        "jum": "08:00-11:30,15:40-20:00",
+        "sab": "08:00-11:30,15:40-20:00",
+        "min": "15:40-18:00"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Sri Wahyuni",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

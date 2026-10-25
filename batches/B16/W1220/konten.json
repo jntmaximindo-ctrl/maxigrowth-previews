@@ -1,0 +1,132 @@
+{
+  "id": "W1220",
+  "hero": {
+    "judul": {
+      "id": "Smile Dental Care Martapura",
+      "en": "Smile Dental Care Martapura"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Smile Dental Care Martapura di Banjar. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Smile Dental Care Martapura in Banjar. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan kebutuhan perawatan",
+        "en": "Discuss your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan perawatan Anda. Jenis tindakan yang tersedia perlu dikonfirmasi kepada klinik.",
+        "en": "Share your care needs. Please confirm available procedures with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencanakan jadwal kunjungan",
+        "en": "Plan your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari praktik, ketersediaan dokter dan cara pendaftaran sebelum datang.",
+        "en": "Ask about opening days, clinician availability and registration before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan setelah kondisi Anda dinilai.",
+        "en": "Request consultation and treatment costs after your condition has been assessed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Siapkan informasi kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan lokasi praktik dan dokumen yang perlu dibawa kepada petugas.",
+        "en": "Confirm the practice location and any documents to bring with the team."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan Martapura",
+      "en": "Plan your Martapura visit"
+    },
+    "penjelasan": {
+      "id": "Pastikan lokasi A. Yani KM40. Jumat dan Minggu memiliki jam yang selaras pada direktori; hari lain perlu konfirmasi karena informasi berbeda. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Confirm the A. Yani KM40 location. Friday and Sunday hours agree across directories; confirm other days because sources differ. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Pemeriksa cabang Martapura dan hari kunjungan: tampilkan A.YaniKM40, jelaskan Jumat14–20 dan Minggu13–20 WITA; hari lain perlu konfirmasi karena sumber berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Dua direktori selaras untuk Jumat 14.00–20.00 dan Minggu 13.00–20.00 WITA. Jam hari lain berbeda antarsumber; konfirmasikan sebelum berkunjung.",
+        "en": "Two directories agree on Friday 2–8 pm and Sunday 1–8 pm WITA. Please confirm other days because sources differ."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Smile Dental Care Martapura, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Smile Dental Care Martapura. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di A. Yani KM40 Martapura. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/smile-martapura. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Smile Dental Care Martapura",
+    "email_isi": "Yth. Pengelola Smile Dental Care Martapura,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di A. Yani KM40 Martapura dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/smile-martapura. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

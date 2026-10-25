@@ -1,0 +1,32 @@
+{
+  "id": "W1164",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/praktikdrgintansrifajar/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://doktertanya.com/dokter-gigi-cianjur/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1s3zCFu6aqjCTGg7vjnl393OQtiq30Tpg/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 131,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1s3zCFu6aqjCTGg7vjnl393OQtiq30Tpg/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/praktikdrgintansrifajar/",
+    "https://drive.google.com/file/d/1s3zCFu6aqjCTGg7vjnl393OQtiq30Tpg/view?usp=drivesdk"
+  ],
+  "kritis_ok": true
+}

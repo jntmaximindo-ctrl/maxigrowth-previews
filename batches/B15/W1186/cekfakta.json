@@ -1,0 +1,44 @@
+{
+  "id": "W1186",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "drg. Sri Wahyuni",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://poltekkes.web.id/dokter-gigi-bandar-lampung/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08:00-11:30,15:40-20:00",
+        "sel": "08:00-11:30,15:40-20:00",
+        "rab": "08:00-11:30,15:40-20:00",
+        "kam": "08:00-11:30,15:40-20:00",
+        "jum": "08:00-11:30,15:40-20:00",
+        "sab": "08:00-11:30,15:40-20:00",
+        "min": "15:40-18:00"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://poltekkes.web.id/dokter-gigi-bandar-lampung/",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Sri Wahyuni",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://poltekkes.web.id/dokter-gigi-bandar-lampung/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

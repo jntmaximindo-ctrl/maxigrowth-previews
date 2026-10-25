@@ -1,0 +1,132 @@
+{
+  "id": "W1240",
+  "hero": {
+    "judul": {
+      "id": "Dua Dentist (PM Noor)",
+      "en": "Dua Dentist (PM Noor)"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Dua Dentist (PM Noor) di Samarinda. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Dua Dentist (PM Noor) in Samarinda. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan kebutuhan perawatan",
+        "en": "Discuss your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan perawatan Anda. Jenis tindakan yang tersedia perlu dikonfirmasi kepada klinik.",
+        "en": "Share your care needs. Please confirm available procedures with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencanakan jadwal kunjungan",
+        "en": "Plan your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari praktik, ketersediaan dokter dan cara pendaftaran sebelum datang.",
+        "en": "Ask about opening days, clinician availability and registration before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan setelah kondisi Anda dinilai.",
+        "en": "Request consultation and treatment costs after your condition has been assessed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Siapkan informasi kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan lokasi praktik dan dokumen yang perlu dibawa kepada petugas.",
+        "en": "Confirm the practice location and any documents to bring with the team."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pastikan cabang PM Noor",
+      "en": "Confirm the PM Noor branch"
+    },
+    "penjelasan": {
+      "id": "Tampilkan alamat PM Noor No.5E dan nomor cabang sebelum menyusun pesan. Informasi Jumat perlu dikonfirmasi karena sumber berbeda. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Display the PM Noor No.5E address and branch number before drafting a message. Please confirm Friday hours because sources differ. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Tampilkan alamat PM Noor No.5E dan nomor cabang sebelum menyusun pesan. Informasi Jumat perlu dikonfirmasi karena sumber berbeda. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencatat 10.30–21.30 WITA pada Senin–Kamis, Sabtu dan Minggu. Status Jumat berbeda antarsumber; tanyakan kepada petugas.",
+        "en": "The directory lists 10:30 am–9:30 pm WITA on Monday–Thursday, Saturday and Sunday. Friday information differs between sources; ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Dua Dentist (PM Noor), saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Dua Dentist (PM Noor). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di PM Noor No.5E. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/dua-dentist. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Dua Dentist (PM Noor)",
+    "email_isi": "Yth. Pengelola Dua Dentist (PM Noor),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di PM Noor No.5E dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/dua-dentist. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

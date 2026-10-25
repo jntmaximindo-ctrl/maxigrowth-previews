@@ -145,5 +145,117 @@
     "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-pontianak-indonesia-5903266418252",
     "https://densia.id/kota/kota-pontianak/layanan/pembersihan-karang-gigi/"
   ],
-  "catatan": "Nomor publik 0895-3355-40909 cocok pada IDalamat dan PDF Chubb 2022; email klinik dari halaman 21 PDF, sumber lama sehingga perlu cek ulang. Ada cuplikan daftar MAG/Admedika Juni 2025 yang menempatkan 0895393411300 pada Gusti Hamzah, sedangkan daftar lain mengaitkannya dengan GAIA. Konflik nomor dicatat, tidak menimpa kontak publik yang memiliki bukti terbaca. Halaman resmi shor.by membedakan dua cabang tetapi tujuan klik tidak berhasil dibuka. IG/Facebook dibatasi, instagram null. Hanya cabang target Gusti Hamzah dirinci, tidak menyalin jam/nomor cabang GAIA. Nama/gelar dokter tidak ditemukan. Jam IDalamat 10–21 setiap hari berbeda dari artikel agregat 07–21; gunakan sumber spesifik lokasi dengan keyakinan sedang dan konfirmasikan sebelum kunjungan. Pencarian harga Pontianak membuka kabarpontianak.com (rentang tambal umum tanpa daftar tarif klinik), kabarsingkawang.com (behel mencampur metal dan self-ligating), Traveloka Sozo Pontianak (tarif voucher klinik lain) dan Densia (410). Tidak tersedia tiga pembanding yang sebanding per tindakan; tujuh entri harga disimpan min/max null, src=[] dan tidak digunakan sebagai tarif klinik.  A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Tambal, cabut, behel dan pemutihan gigi disebut spesifik iSmile Gusti Hamzah pada Popmama 30 September 2025 yang dibuka. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Nomor publik 0895-3355-40909 cocok pada IDalamat dan PDF Chubb 2022; email klinik dari halaman 21 PDF, sumber lama sehingga perlu cek ulang. Ada cuplikan daftar MAG/Admedika Juni 2025 yang menempatkan 0895393411300 pada Gusti Hamzah, sedangkan daftar lain mengaitkannya dengan GAIA. Konflik nomor dicatat, tidak menimpa kontak publik yang memiliki bukti terbaca. Halaman resmi shor.by membedakan dua cabang tetapi tujuan klik tidak berhasil dibuka. IG/Facebook dibatasi, instagram null. Hanya cabang target Gusti Hamzah dirinci, tidak menyalin jam/nomor cabang GAIA. Nama/gelar dokter tidak ditemukan. Jam IDalamat 10–21 setiap hari berbeda dari artikel agregat 07–21; gunakan sumber spesifik lokasi dengan keyakinan sedang dan konfirmasikan sebelum kunjungan. Pencarian harga Pontianak membuka kabarpontianak.com (rentang tambal umum tanpa daftar tarif klinik), kabarsingkawang.com (behel mencampur metal dan self-ligating), Traveloka Sozo Pontianak (tarif voucher klinik lain) dan Densia (410). Tidak tersedia tiga pembanding yang sebanding per tindakan; tujuh entri harga disimpan min/max null, src=[] dan tidak digunakan sebagai tarif klinik.  A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Tambal, cabut, behel dan pemutihan gigi disebut spesifik iSmile Gusti Hamzah pada Popmama 30 September 2025 yang dibuka. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "email.v",
+      "tercatat": "ismiledentalptk@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-21",
+        "sel": "10-21",
+        "rab": "10-21",
+        "kam": "10-21",
+        "jum": "10-21",
+        "sab": "10-21",
+        "min": "10-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Penambalan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Pencabutan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Perawatan behel",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

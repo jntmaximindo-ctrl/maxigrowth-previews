@@ -1,0 +1,132 @@
+{
+  "id": "W1296",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan E-Smile Dental",
+      "en": "Visit E-Smile Dental"
+    },
+    "sub": {
+      "id": "Lihat lokasi, jam yang tercantum, dan cara menghubungi klinik di Padang.",
+      "en": "Find the location, listed hours, and contact details in Padang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal melalui kontak klinik.",
+        "en": "Ask the clinic about availability and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal melalui kontak klinik.",
+        "en": "Ask the clinic about availability and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal melalui kontak klinik.",
+        "en": "Ask the clinic about availability and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perawatan",
+        "en": "Treatment consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal melalui kontak klinik.",
+        "en": "Ask the clinic about availability and appointment times."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu rencana kunjungan hari Minggu",
+      "en": "Sunday visit planner"
+    },
+    "penjelasan": {
+      "id": "Isi kebutuhan kunjungan, lalu siapkan pertanyaan untuk admin klinik.",
+      "en": "Choose what you need, then prepare questions for the clinic team."
+    },
+    "alasan_dipilih": "Membantu calon pasien mempersiapkan pertanyaan sebelum menghubungi klinik; tidak menyimpulkan tindakan yang tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the clinic hours?"
+      },
+      "a": {
+        "id": "Menurut direktori, Senin–Sabtu pukul 11.00–21. Minggu pukul 13.00–18.00. Mohon konfirmasi sebelum datang.",
+        "en": "The directory lists Monday–Saturday 11:00–21:00. Sunday 13:00–18:00. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor klinik untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the clinic to check appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia di sumber yang diperiksa. Silakan tanyakan estimasi sesuai pemeriksaan.",
+        "en": "A verified price list was not available. Ask for an estimate based on an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon tanyakan langsung.",
+        "en": "Insurance participation has not been confirmed. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia konsultasi untuk anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Ketersediaan dokter dan perawatan anak perlu dikonfirmasi kepada pihak klinik.",
+        "en": "Please confirm pediatric appointments with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi layanan dan jadwal.",
+    "en": "Contact the clinic to confirm services and hours."
+  },
+  "pesan_wa_default": "Halo E-Smile Dental, saya ingin menanyakan jadwal konsultasi, layanan yang tersedia, dan estimasi biayanya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim E-Smile Dental, saya Rizqi dari Maxi Growth Studio. Saya melihat informasi jam praktik dan alamat klinik di Padang yang tercantum pada direktori publik. Kami telah menyiapkan konsep website untuk tim lihat di https://maxigrowthstudio.com/e-smile. Bila berkenan, silakan ditinjau kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk E-Smile Dental",
+    "email_isi": "Yth. Tim Manajemen E-Smile Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi dan jam praktik E-Smile Dental yang tersedia melalui direktori publik. Kami telah membuat konsep website yang menata informasi kunjungan dan kontak agar mudah ditemukan calon pasien.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/e-smile. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Ini masih konsep, sehingga detail layanan dan jadwal perlu dikonfirmasi oleh tim klinik sebelum dipublikasikan.\n\nApabila relevan, kami terbuka untuk berdiskusi lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

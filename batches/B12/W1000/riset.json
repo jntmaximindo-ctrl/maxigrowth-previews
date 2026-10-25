@@ -1,0 +1,99 @@
+{
+  "id": "W1000",
+  "nama": {
+    "v": "Klinik Pratama CENDANA",
+    "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
+    "tgl": "2026-10-18",
+    "yakin": "tinggi"
+  },
+  "kota": "Jakarta Barat",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-18",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-18",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik Pratama CENDANA — Tanah Sereal",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": "0216492837",
+        "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
+        "tgl": "2026-10-18",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": "6281312313201",
+        "src": "https://www.waze.com/nl/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "00-24",
+          "sel": "00-24",
+          "rab": "00-24",
+          "kam": "00-24",
+          "jum": "00-24",
+          "sab": "00-24",
+          "min": "00-24"
+        },
+        "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
+        "tgl": "2026-10-18",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Pratama%20CENDANA%20Tanah%20Sereal%20Tambora&query_place_id=ChIJ2azFHXP2aS4RMlLNXG9MxMc"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Layanan kesehatan umum (klinik pratama)",
+    "Konsultasi/pemeriksaan gigi — tertera sebagai kategori klinik gigi pada direktori; jenis tindakan perlu dikonfirmasi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
+  ],
+  "ide_fitur_khas": "Panel persiapan kunjungan Klinik Pratama CENDANA: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Nomor seluler081312313201 dibaca pada Waze ber-place-ID sama. Versi bahasa lain menyebut alamat VII126C, sementara sumber Tambora VI10; keterkaitan cabang belum dipastikan. Nomor dicatat rendah, alamat tetap null, jangan menyatakan dua alamat satu cabang. Telepon tetap0216492837 dicatat tersendiri. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://kecamatantambora.com/fasilitas/page-kesehatan/ , https://www.waze.com/id/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc , https://www.waze.com/nl/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc , https://rekom.id/kesehatan/10-klinik-di-grogol-petamburan/. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik.",
+  "sumber": [
+    "https://kecamatantambora.com/fasilitas/page-kesehatan/",
+    "https://www.waze.com/id/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
+    "https://www.waze.com/nl/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
+    "https://rekom.id/kesehatan/10-klinik-di-grogol-petamburan/",
+    "https://caribisnis.id/dokter-gigi/jakarta-barat/tambora/klinik-pratama-cendana-tamb-imp1",
+    "https://hdmall.id/highlight/scaling",
+    "https://www.omdc.co.id/",
+    "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+    "https://orangedentalhouse.com/jakarta-barat/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 138000,
+      "catatan": "Angka Rp138.000 tidak ditemukan pada halaman katalog yang dibaca. Belum terbukti sebagai harga scaling pembanding Jakarta Barat; NK Health memuat kisaran umum, bukan harga satu klinik."
+    }
+  ]
+}

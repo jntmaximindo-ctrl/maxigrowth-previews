@@ -1,0 +1,132 @@
+{
+  "id": "W983",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan Nabila Dental Care - Praktek Dokter Gigi Sidoarjo",
+      "en": "Plan your visit to Nabila Dental Care - Praktek Dokter Gigi Sidoarjo"
+    },
+    "sub": {
+      "id": "Temukan informasi yang tersedia untuk menyiapkan pertanyaan sebelum kunjungan di Sidoarjo.",
+      "en": "Review the available information and prepare your questions before visiting in Sidoarjo."
+    },
+    "cta": {
+      "id": "Tanyakan informasi kunjungan",
+      "en": "Ask about your visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal kepada admin sebelum berkunjung.",
+        "en": "Please ask the clinic about service availability and appointments before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi layanan belum tersedia",
+        "en": "Service information unavailable"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada admin jenis layanan yang tersedia dan persiapan kunjungan. Ini bukan klaim tindakan tertentu tersedia.",
+        "en": "Ask the practice which services are available and how to prepare for your visit. This does not confirm that a particular treatment is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi layanan belum tersedia",
+        "en": "Service information unavailable"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada admin jenis layanan yang tersedia dan persiapan kunjungan. Ini bukan klaim tindakan tertentu tersedia.",
+        "en": "Ask the practice which services are available and how to prepare for your visit. This does not confirm that a particular treatment is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi layanan belum tersedia",
+        "en": "Service information unavailable"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada admin jenis layanan yang tersedia dan persiapan kunjungan. Ini bukan klaim tindakan tertentu tersedia.",
+        "en": "Ask the practice which services are available and how to prepare for your visit. This does not confirm that a particular treatment is offered."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapkan pertanyaan Anda",
+      "en": "Prepare your questions"
+    },
+    "penjelasan": {
+      "id": "Panel persiapan kunjungan Nabila Dental Care - Praktek Dokter Gigi Sidoarjo: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
+      "en": "Select what you would like to ask, review the available information, and prepare questions for the practice. Unconfirmed details are marked as unavailable. This tool does not diagnose or book an appointment."
+    },
+    "alasan_dipilih": "Informasi praktik belum lengkap; membantu pengunjung menanyakan jadwal, layanan dan lokasi tanpa menganggap fakta yang belum terkonfirmasi sebagai kepastian."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal praktik?",
+        "en": "How can I check practice hours?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dokter dan waktu kunjungan yang tersedia kepada admin. Jam fasilitas tidak selalu sama dengan jam dokter.",
+        "en": "Ask the practice about clinician availability and appointment times. Facility opening hours may differ from clinician schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan perawatan?",
+        "en": "How much does care cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada admin sebelum menyetujui rencana perawatan.",
+        "en": "Prices are not available. Ask for a cost breakdown before agreeing to a care plan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Informasi penjaminan belum terkonfirmasi. Tanyakan kesesuaian penjamin dan layanan sebelum berkunjung.",
+        "en": "Insurance arrangements have not been confirmed. Ask whether your plan and intended service are covered before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan yang saya butuhkan tersedia?",
+        "en": "Is the service I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda kepada admin. Kolom layanan yang belum memiliki data tidak berarti tindakan tersebut tersedia.",
+        "en": "Tell the practice what you need. A service with no available information should not be assumed to be offered."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang sebaiknya disiapkan sebelum datang?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan, catatan perawatan sebelumnya, dan dokumen yang diminta admin. Konfirmasikan alamat sebelum berangkat.",
+        "en": "Prepare your questions, previous care records, and any documents requested by the practice. Confirm the address before travelling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan lokasi",
+    "en": "Ask about hours and location"
+  },
+  "pesan_wa_default": "Halo Nabila Dental Care - Praktek Dokter Gigi Sidoarjo, saya ingin menanyakan jadwal, alamat dan layanan yang tersedia sebelum berkunjung. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Nabila Dental Care - Praktek Dokter Gigi Sidoarjo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik Anda di Sidoarjo. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/nabila-sidoarjo. Boleh meminta masukan tentang informasi layanan dan alur kunjungan? Terima kasih. WA082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website untuk Nabila Dental Care - Praktek Dokter Gigi Sidoarjo",
+    "email_isi": "Yth. Pemilik/Manajemen Nabila Dental Care - Praktek Dokter Gigi Sidoarjo,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik Anda di Sidoarjo. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/nabila-sidoarjo. Konsep membantu pengunjung menyiapkan pertanyaan mengenai layanan dan kunjungan.\n\nProposal PDF terlampir sebagai bahan tinjauan. Kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

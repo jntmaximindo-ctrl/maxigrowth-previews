@@ -1,0 +1,132 @@
+{
+  "id": "W1233",
+  "hero": {
+    "judul": {
+      "id": "KLINIK GIGI GUFRINALDI",
+      "en": "KLINIK GIGI GUFRINALDI"
+    },
+    "sub": {
+      "id": "Informasi kunjungan KLINIK GIGI GUFRINALDI di Jambi. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to KLINIK GIGI GUFRINALDI in Jambi. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan kebutuhan perawatan",
+        "en": "Discuss your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan perawatan Anda. Jenis tindakan yang tersedia perlu dikonfirmasi kepada klinik.",
+        "en": "Share your care needs. Please confirm available procedures with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencanakan jadwal kunjungan",
+        "en": "Plan your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari praktik, ketersediaan dokter dan cara pendaftaran sebelum datang.",
+        "en": "Ask about opening days, clinician availability and registration before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan setelah kondisi Anda dinilai.",
+        "en": "Request consultation and treatment costs after your condition has been assessed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Siapkan informasi kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan lokasi praktik dan dokumen yang perlu dibawa kepada petugas.",
+        "en": "Confirm the practice location and any documents to bring with the team."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan Minggu",
+      "en": "Plan a Sunday visit"
+    },
+    "penjelasan": {
+      "id": "Bedakan jam Minggu 11.00–17.30 dari Senin–Sabtu 10.00–22.00 WIB. Susun permintaan waktu kunjungan untuk dikonfirmasi petugas. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi.",
+      "en": "Distinguish Sunday 11 am–5:30 pm from Monday–Saturday 10 am–10 pm WIB. Draft a visit time request for the team to confirm. This tool does not diagnose conditions or confirm bookings."
+    },
+    "alasan_dipilih": "Bedakan jam Minggu 11.00–17.30 dari Senin–Sabtu 10.00–22.00 WIB. Susun permintaan waktu kunjungan untuk dikonfirmasi petugas. Fitur tidak menegakkan diagnosis atau mengonfirmasi reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor Whats App yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed Whats App number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Dua direktori terbaru mencatat Senin–Sabtu 10.00–22.00 dan Minggu 11.00–17.30 WIB. Artikel lama berbeda; tanyakan jadwal terbaru dan ketersediaan dokter sebelum datang.",
+        "en": "Two recent directories list Monday–Saturday 10 am–10 pm and Sunday 11 am–5:30 pm WIB. An older article differs; please confirm current hours and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo KLINIK GIGI GUFRINALDI, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola KLINIK GIGI GUFRINALDI. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di Sultan Agung No.1541. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/gufrinaldi. Konsep ini merangkum informasi kunjungan dan akses Whats App. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website KLINIK GIGI GUFRINALDI",
+    "email_isi": "Yth. Pengelola KLINIK GIGI GUFRINALDI,\n\n Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Sultan Agung No.1541 dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses Whats App.\n\n Konsep dapat ditinjau di https://maxigrowthstudio.com/gufrinaldi. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\n Terima kasih,\n Muhammad Rizqi Tri Andika\n Maxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

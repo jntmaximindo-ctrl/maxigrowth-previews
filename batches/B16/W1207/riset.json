@@ -146,5 +146,89 @@
     "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-pematangsiantar/",
     "https://www.instagram.com/explore/locations/710680179/drg-diana-p-nainggolan/?hl=en"
   ],
-  "catatan": "Nomor publik cocok pada IDalamat, Poltekkes dan MediaSehat. Konflik jam: IDalamat/Poltekkes mencatat Senin–Sabtu 09–18 dan artikel lama Minggu tutup; MediaSehat Agustus 2026 mencatat Senin–Jumat 09–21, Sabtu 09–18, Minggu 10–18. Jam disimpan null, bukan memilih salah satu tanpa dasar primer. Nama dokter hanya drg. Hj. Diana Nainggolan dari sumber; tidak mengambil nama dokter lain dari ulasan. Rincian tindakan IDalamat bersifat teks templat yang sama dengan klinik lain, tidak dipromosikan sebagai bukti layanan spesifik; layanan=[] dan empat kartu konten merupakan informasi kunjungan, bukan daftar tindakan tersedia. Tidak menyalin ulasan pasien menjadi konten atau menyatakan 4.9/313 sebagai data Google Maps terkini. Akun sosial bernama Diana yang tidak terhubung resmi tidak dipakai. Harga tujuh kategori dicari pada sumber praktik dan pencarian publik Pematangsiantar; hasil yang muncul berupa ulasan, toko behel nonklinis dan spam lintas kota, ditolak. Tidak ada tiga pembanding setara kota sama; min/max null, src=[]; tidak mengarang. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://poltekkes.web.id/dokter-gigi-pematang-siantar/, https://idalamat.com/alamat/praktek-dokter-gigi-drg-hj-diana-nainggolan-pematang-siantar-1058763, https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-pematangsiantar/, https://www.instagram.com/explore/locations/710680179/drg-diana-p-nainggolan/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Nomor publik cocok pada IDalamat, Poltekkes dan MediaSehat. Konflik jam: IDalamat/Poltekkes mencatat Senin–Sabtu 09–18 dan artikel lama Minggu tutup; MediaSehat Agustus 2026 mencatat Senin–Jumat 09–21, Sabtu 09–18, Minggu 10–18. Jam disimpan null, bukan memilih salah satu tanpa dasar primer. Nama dokter hanya drg. Hj. Diana Nainggolan dari sumber; tidak mengambil nama dokter lain dari ulasan. Rincian tindakan IDalamat bersifat teks templat yang sama dengan klinik lain, tidak dipromosikan sebagai bukti layanan spesifik; layanan=[] dan empat kartu konten merupakan informasi kunjungan, bukan daftar tindakan tersedia. Tidak menyalin ulasan pasien menjadi konten atau menyatakan 4.9/313 sebagai data Google Maps terkini. Akun sosial bernama Diana yang tidak terhubung resmi tidak dipakai. Harga tujuh kategori dicari pada sumber praktik dan pencarian publik Pematangsiantar; hasil yang muncul berupa ulasan, toko behel nonklinis dan spam lintas kota, ditolak. Tidak ada tiga pembanding setara kota sama; min/max null, src=[]; tidak mengarang. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://poltekkes.web.id/dokter-gigi-pematang-siantar/, https://idalamat.com/alamat/praktek-dokter-gigi-drg-hj-diana-nainggolan-pematang-siantar-1058763, https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-pematangsiantar/, https://www.instagram.com/explore/locations/710680179/drg-diana-p-nainggolan/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Kartini Nomor 49, depan Rumah Sakit Mata, Timbang Galung, Kecamatan Siantar Barat, Kota Pematang Siantar, Sumatera Utara 21146",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

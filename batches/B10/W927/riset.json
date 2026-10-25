@@ -77,5 +77,35 @@
     "https://www.facebook.com/mesemayudentalcare/videos/mesemayu/1022839910778074/",
     "https://www.threads.com/@lokermalangbaru/post/DRt6nZegUHw/mesemayu-dentalcare-we-are-hiring-admin-klinik-gigi-mesemayu-dental-care-malang"
   ],
-  "catatan": "REVISI harga.src: tidak membuat item tarif tanpa sumber. WA cocok pada dua cuplikan unggahan resmi IG dan Facebook. Pembukaan langsung dibatasi sehingga data berasal dari cuplikan indeks, keyakinan sedang. Alamat Candi V berasal dari unggahan resmi spesifik; ada cuplikan alamat Cengger Ayam/Akordion lain, jangan menganggap semuanya cabang aktif. Jam dan nama dokter null. Email dcmesemayu@gmail.com hanya terlihat pada cuplikan lowongan pihak ketiga, belum dapat dibuka/ditautkan ke kontak pasien; email tetap null. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.instagram.com/mesemayu_dentalcare/?hl=en, https://www.instagram.com/mesemayu_dentalcare/p/DcOU4VaRDp5/, https://www.facebook.com/mesemayudentalcare/videos/mesemayu/1022839910778074/, https://www.threads.com/@lokermalangbaru/post/DRt6nZegUHw/mesemayu-dentalcare-we-are-hiring-admin-klinik-gigi-mesemayu-dental-care-malang. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Behel dan bleaching tercantum dalam cuplikan unggahan/reels resmi; kartu tambahan hanya panduan pertanyaan. Rincian layanan lain tidak dianggap pasti. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "REVISI harga.src: tidak membuat item tarif tanpa sumber. WA cocok pada dua cuplikan unggahan resmi IG dan Facebook. Pembukaan langsung dibatasi sehingga data berasal dari cuplikan indeks, keyakinan sedang. Alamat Candi V berasal dari unggahan resmi spesifik; ada cuplikan alamat Cengger Ayam/Akordion lain, jangan menganggap semuanya cabang aktif. Jam dan nama dokter null. Email dcmesemayu@gmail.com hanya terlihat pada cuplikan lowongan pihak ketiga, belum dapat dibuka/ditautkan ke kontak pasien; email tetap null. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.instagram.com/mesemayu_dentalcare/?hl=en, https://www.instagram.com/mesemayu_dentalcare/p/DcOU4VaRDp5/, https://www.facebook.com/mesemayudentalcare/videos/mesemayu/1022839910778074/, https://www.threads.com/@lokermalangbaru/post/DRt6nZegUHw/mesemayu-dentalcare-we-are-hiring-admin-klinik-gigi-mesemayu-dental-care-malang. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Behel dan bleaching tercantum dalam cuplikan unggahan/reels resmi; kartu tambahan hanya panduan pertanyaan. Rincian layanan lain tidak dianggap pasti. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Mesemayu Dental Care",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Raya Candi V, Ruko Grand Candi Nomor Kavling 12, Kota Malang",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6281358521513",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281358521513",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Perawatan behel",
+        "Bleaching"
+      ],
+      "catatan": "Daftar layanan berasal dari cuplikan periset; sumber primer yang dibuka ulang tidak terbaca. Tidak mengarang pengganti."
+    }
+  ]
 }

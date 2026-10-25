@@ -1,0 +1,132 @@
+{
+  "id": "W1270",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di Smile Hub 1.0",
+      "en": "Dental care at Smile Hub 1.0"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi dan tanyakan kebutuhan perawatan Anda.",
+      "en": "Find location information and discuss your dental care needs."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan melalui konsultasi.",
+        "en": "Ask about availability and suitability during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan melalui konsultasi.",
+        "en": "Ask about availability and suitability during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan melalui konsultasi.",
+        "en": "Ask about availability and suitability during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian tindakan melalui konsultasi.",
+        "en": "Ask about availability and suitability during a consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi praktik",
+      "en": "Choose a practice location"
+    },
+    "penjelasan": {
+      "id": "Lihat lokasi sebelum menghubungi admin untuk reservasi.",
+      "en": "Check the location before contacting the team to book."
+    },
+    "alasan_dipilih": "Situs mencantumkan dua lokasi; pemilih cabang membantu menghindari salah reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi admin melalui WhatsApp untuk menanyakan jadwal.",
+        "en": "Contact the team on WhatsApp to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah estimasi setelah pemeriksaan.",
+        "en": "Prices are not available here. Ask for an estimate after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Listing mencantumkan Pasirsari, Cikarang Selatan. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The listing places the practice in Pasirsari, South Cikarang. Confirm the map pin before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan anak?",
+        "en": "Is children's dental care available?"
+      },
+      "a": {
+        "id": "Situs mencantumkan perawatan gigi anak. Tanyakan ketersediaan di cabang ini.",
+        "en": "The website lists children's dental care. Ask about availability at this branch."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terkonfirmasi. Tanyakan langsung kepada admin.",
+        "en": "This has not been confirmed. Please ask the team directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin",
+    "en": "Contact the team"
+  },
+  "pesan_wa_default": "Halo Smile Hub 1.0, saya ingin menanyakan jadwal konsultasi dan lokasi praktik.",
+  "outreach": {
+    "wa": "Halo pengelola Smile Hub 1.0, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs Smile Hub mencantumkan dua lokasi praktik. Kami telah menyiapkan konsep website dengan pemilih lokasi untuk ditinjau di https://maxigrowthstudio.com/smile-hub. Silakan dilihat saat berkenan.",
+    "email_subjek": "Konsep website Smile Hub 1.0",
+    "email_isi": "Halo pengelola Smile Hub 1.0,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs Smile Hub mencantumkan dua lokasi praktik. Kami menyiapkan konsep website dengan pemilih lokasi dan jalur reservasi per cabang untuk ditinjau di https://maxigrowthstudio.com/smile-hub.\n\nProposal PDF terlampir pada draft pengiriman ini. Silakan tinjau saat berkenan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

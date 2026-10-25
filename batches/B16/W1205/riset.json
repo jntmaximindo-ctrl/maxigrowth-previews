@@ -111,5 +111,35 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBBDentalProviderListSep.pdf",
     "https://www.instagram.com/my_dentistbjm/",
     "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarmasin/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email.v",
+      "tercatat": "mydentist.bjm@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-21",
+        "sel": "10-21",
+        "rab": "10-21",
+        "kam": "10-21",
+        "jum": "10-21",
+        "sab": "10-21",
+        "min": "14-18"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dokter gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Pencabutan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

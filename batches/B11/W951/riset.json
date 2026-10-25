@@ -104,5 +104,49 @@
     "https://www.facebook.com/wealdent.wealdent/",
     "https://pictame.com/en/discover/hashtag/klinik-vct-adalah"
   ],
-  "catatan": "REVISI harga.src: item tarif tanpa sumber tidak dibuat. Alamat, jam dan nama drg. Gani Indrawan terbaca pada daftar mitra RATA; daftar B2B bukan jadwal pasien individual sehingga jadwal dokter null, status dokter perlu konfirmasi sebelum publikasi. WA pada cuplikan Polomap untuk lokasi Graha Kota sama dengan nomor reservasi jaringan pada mirror unggahan @wdc.doktergigi; pembukaan langsung Polomap tidak tersedia dan Pictame timeout. Gunakan sebagai kontak jaringan dengan yakin sedang, bukan nomor khusus dokter. Instagram dari identitas jaringan; pembukaan langsung tidak tersedia. Minggu tidak diasumsikan tutup. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jawa-bali, https://id.polomap.com/sidoarjo/288125, https://www.facebook.com/wealdent.wealdent/, https://pictame.com/en/discover/hashtag/klinik-vct-adalah. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "REVISI harga.src: item tarif tanpa sumber tidak dibuat. Alamat, jam dan nama drg. Gani Indrawan terbaca pada daftar mitra RATA; daftar B2B bukan jadwal pasien individual sehingga jadwal dokter null, status dokter perlu konfirmasi sebelum publikasi. WA pada cuplikan Polomap untuk lokasi Graha Kota sama dengan nomor reservasi jaringan pada mirror unggahan @wdc.doktergigi; pembukaan langsung Polomap tidak tersedia dan Pictame timeout. Gunakan sebagai kontak jaringan dengan yakin sedang, bukan nomor khusus dokter. Instagram dari identitas jaringan; pembukaan langsung tidak tersedia. Minggu tidak diasumsikan tutup. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jawa-bali, https://id.polomap.com/sidoarjo/288125, https://www.facebook.com/wealdent.wealdent/, https://pictame.com/en/discover/hashtag/klinik-vct-adalah. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Weal Dental Care (WDC) Graha Kota Sidoarjo",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/wealdent/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Raya Sungon Nomor 5B, Graha Kota, Sidoarjo",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282131752477",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282131752477",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Gani Indrawan",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    }
+  ]
 }

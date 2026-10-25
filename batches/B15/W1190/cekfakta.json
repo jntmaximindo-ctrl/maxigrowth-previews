@@ -1,0 +1,40 @@
+{
+  "id": "W1190",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "J Dental Care, Praktik Dokter Gigi",
+      "di_sumber": null,
+      "src": "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-bandar-lampung/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Untung Suropati Ruko Taman Surapati, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132",
+      "di_sumber": null,
+      "src": "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-bandar-lampung/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "0895329565600",
+      "di_sumber": null,
+      "src": "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-bandar-lampung/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "62895329565600",
+      "di_sumber": null,
+      "src": "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-bandar-lampung/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1NDDzWjqc9IMieWdugZcTYJrSRp_jKPIY/view",
+    "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-bandar-lampung/",
+    "https://www.google.com/maps/?cid=11231521929241626414"
+  ],
+  "kritis_ok": false
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W1247",
+  "hero": {
+    "judul": {
+      "id": "Kenali Pilihan Perawatan Gigi di Maira",
+      "en": "Explore Dental Care at Maira"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kunjungan untuk pasien di kawasan Batu Ampar, Balikpapan Utara.",
+      "en": "Care and visit information for patients in Batu Ampar, North Balikpapan."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About Appointment Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi dan pemeriksaan awal yang diperlukan.",
+        "en": "Ask about dental cleaning appointments and any initial assessment needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pilihan penanganan setelah pemeriksaan.",
+        "en": "Discuss concerns about cavities and treatment options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Cari informasi persiapan kunjungan gigi anak dan ketersediaan dokter.",
+        "en": "Learn how to prepare for a child's dental visit and check dentist availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan tahapan konsultasi untuk perawatan susunan gigi.",
+        "en": "Ask about the consultation process for tooth-alignment treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Pelajari informasi awal dan tanyakan apakah tindakan sesuai kondisi gigi Anda.",
+        "en": "Learn about the procedure and ask whether it suits your dental condition."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Layanan dan Kunjungan",
+      "en": "Care and Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan, lihat informasi persiapan, lalu kirim pertanyaan jadwal melalui WhatsApp klinik. Jam dan ketersediaan perlu dikonfirmasi.",
+      "en": "Choose a treatment topic, review preparation information, and send an appointment inquiry through the clinic's WhatsApp. Hours and availability require confirmation."
+    },
+    "alasan_dipilih": "Jam operasional tercantum hingga pukul 22.00 WITA pada hari Senin–Sabtu dan direktori menyarankan membuat janji sebelum datang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Maira Dental Care?",
+        "en": "Where is Maira Dental Care?"
+      },
+      "a": {
+        "id": "Listing terkini mencantumkan Jl. Pattimura No.7A, Batu Ampar, Balikpapan Utara. Beberapa direktori lama mencantumkan alamat berbeda, jadi gunakan peta sebelum berangkat.",
+        "en": "The current listing shows Jl. Pattimura No.7A, Batu Ampar, North Balikpapan. Some older directories list a different address, so check the map before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Google Maps mencantumkan Minggu 10.00–16.00 WITA, tetapi sumber lama menyebut tutup. Konfirmasi jadwal terkini kepada klinik.",
+        "en": "Google Maps lists Sunday hours as 10 a.m. to 4 p.m. WITA, while older sources say closed. Please confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan gigi anak?",
+        "en": "Is children's dental care available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum pada direktori lokal. Tanyakan usia pasien dan jadwal dokter sebelum membuat janji.",
+        "en": "This service appears in local directories. Ask about age groups and dentist availability before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya scaling atau tambal?",
+        "en": "How can I find out cleaning or filling costs?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan pada sumber publik yang diperiksa. Tanyakan estimasi biaya sesuai pemeriksaan.",
+        "en": "An official price list was not found in the sources reviewed. Please ask for an estimate after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Direktori bisnis menyarankan membuat janji terlebih dahulu. Hubungi klinik untuk memastikan slot kunjungan.",
+        "en": "Business listings recommend making an appointment. Contact the clinic to confirm an available time."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Perawatan",
+    "en": "Contact the Clinic About Dental Care"
+  },
+  "pesan_wa_default": "Halo Maira Dental Care, saya ingin menanyakan jadwal pemeriksaan gigi, layanan yang tersedia, dan perkiraan biaya. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, izin memperkenalkan diri. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Maira Dental Care di kawasan Batu Ampar, Balikpapan Utara, memiliki informasi layanan gigi keluarga dan jam kunjungan hingga malam. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/maira untuk tim klinik tinjau. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Maira Dental Care",
+    "email_isi": "Yth. Tim Manajemen Maira Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik tentang Maira Dental Care di Batu Ampar, Balikpapan Utara, termasuk beberapa pilihan perawatan gigi dan jadwal kunjungan yang tercantum hingga malam.\n\nKami telah menyiapkan konsep website yang memudahkan pasien melihat informasi layanan, lokasi, dan cara menanyakan jadwal melalui WhatsApp. Konsepnya dapat dilihat di https://maxigrowthstudio.com/maira.\n\nProposal PDF juga kami lampirkan untuk bahan pertimbangan. Kami terbuka menerima masukan bila tim klinik berkenan meninjau konsep tersebut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

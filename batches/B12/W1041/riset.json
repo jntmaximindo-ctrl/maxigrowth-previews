@@ -86,5 +86,50 @@
     "https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/",
     "https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/"
   ],
-  "catatan": "REVISI W1041: melengkapi WA dan alamat; data lama yang null tetap null bila tidak ada bukti baru. Nama, alamat, jam dan WA berasal dari cuplikan terindeks akun resmi Instagram/Facebook yang saling cocok. Pembukaan langsung kedua platform menghasilkan throttled/DisabledError; keyakinan sedang, bukan verifikasi halaman penuh. Nomor unit alamat, nama dokter dan gelar tidak ditambahkan. Rating/jumlah ulasan null karena Maps tidak terbaca. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.instagram.com/alizzahdentalcare/?hl=en, https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/, https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Keempat tindakan disebut pada cuplikan unggahan resmi https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/. Halaman langsung dibatasi; konfirmasikan ulang sebelum publikasi. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "REVISI W1041: melengkapi WA dan alamat; data lama yang null tetap null bila tidak ada bukti baru. Nama, alamat, jam dan WA berasal dari cuplikan terindeks akun resmi Instagram/Facebook yang saling cocok. Pembukaan langsung kedua platform menghasilkan throttled/DisabledError; keyakinan sedang, bukan verifikasi halaman penuh. Nomor unit alamat, nama dokter dan gelar tidak ditambahkan. Rating/jumlah ulasan null karena Maps tidak terbaca. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.instagram.com/alizzahdentalcare/?hl=en, https://www.facebook.com/kgalizzahbatujajar/posts/1099352492764567/, https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Keempat tindakan disebut pada cuplikan unggahan resmi https://www.instagram.com/alizzahdentalcare/p/DU4pez7E0Jk/. Halaman langsung dibatasi; konfirmasikan ulang sebelum publikasi. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Al Izzah Dental Care",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jalan Graha Kencana, Batujajar Timur, Kecamatan Batujajar, Kabupaten Bandung Barat",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282130831211",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282130831211",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-20",
+        "sel": "08-20",
+        "rab": "08-20",
+        "kam": "08-20",
+        "jum": "08-20",
+        "sab": "08-20",
+        "min": "08-20"
+      },
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Penambalan gigi",
+        "Scaling",
+        "Perawatan behel"
+      ],
+      "catatan": "Daftar layanan berasal dari cuplikan periset; sumber primer yang dibuka ulang tidak terbaca. Tidak mengarang pengganti."
+    }
+  ]
 }

@@ -1,0 +1,69 @@
+{
+  "id": "W1049",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/megumedical/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.semuabis.com/klinik-megu-medical-centre-0231-8308938",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282117666876",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/megumedical/?hl=en",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "07:00-19:30",
+        "sel": "07:00-19:30",
+        "rab": "07:00-19:30",
+        "kam": "07:00-19:30",
+        "jum": "07:00-19:30",
+        "sab": "07:00-19:30",
+        "min": "tidak tertera"
+      },
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/?cid=18301380104162450557",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Perawatan gigi untuk dewasa dan anak (profil Dokter Gigi Dwi di lokasi klinik)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Scaling / pembersihan karang gigi (profil Dokter Gigi Dwi)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Penambalan gigi (profil Dokter Gigi Dwi)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Gigi palsu lepasan (profil Dokter Gigi Dwi)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/megumedical/",
+    "https://www.google.com/maps/?cid=18301380104162450557",
+    "https://www.instagram.com/megumedical/?hl=en"
+  ],
+  "kritis_ok": false
+}

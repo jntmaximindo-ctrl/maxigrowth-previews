@@ -84,5 +84,47 @@
     "https://www.instagram.com/haqqidentalcare/?hl=en",
     "https://cirebon.jawapos.com/cirebon-bae/2503020020/10-rekomendasi-klinik-gigi-terbaik-di-cirebon-teknologi-modern-dan-pelayanan-ramah-untuk-semua-usia"
   ],
-  "catatan": "REVISI W1047: mempertahankan alamat lama dan memperkuatnya dengan halaman Cybo yang terbaca lengkap saat pembukaan pertama; nomor ponsel tertulis bersama nama/alamat Haqqi Dental Care. Percobaan pembukaan ulang kemudian tidak tersedia. Instagram langsung throttled; jam dan nama akun berdasarkan cuplikan indeks sehingga yakin sedang. Akun dokter @miqbalzh tidak diubah menjadi nama atau gelar. Jumlah ulasan direktori 131 berbeda dari surat 165; maps tidak diisi dengan angka surat atau menganggap mirror sebagai Google Maps langsung. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://bukutelepon.cybo.com/ID/jatiwangi/dokter-gigi?p=2, https://www.instagram.com/haqqidentalcare/?hl=en, https://cirebon.jawapos.com/cirebon-bae/2503020020/10-rekomendasi-klinik-gigi-terbaik-di-cirebon-teknologi-modern-dan-pelayanan-ramah-untuk-semua-usia. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Penambalan resin komposit disebut pada cuplikan profil resmi Instagram; tiga kartu lain hanya informasi kunjungan dan bukan klaim tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "REVISI W1047: mempertahankan alamat lama dan memperkuatnya dengan halaman Cybo yang terbaca lengkap saat pembukaan pertama; nomor ponsel tertulis bersama nama/alamat Haqqi Dental Care. Percobaan pembukaan ulang kemudian tidak tersedia. Instagram langsung throttled; jam dan nama akun berdasarkan cuplikan indeks sehingga yakin sedang. Akun dokter @miqbalzh tidak diubah menjadi nama atau gelar. Jumlah ulasan direktori 131 berbeda dari surat 165; maps tidak diisi dengan angka surat atau menganggap mirror sebagai Google Maps langsung. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://bukutelepon.cybo.com/ID/jatiwangi/dokter-gigi?p=2, https://www.instagram.com/haqqidentalcare/?hl=en, https://cirebon.jawapos.com/cirebon-bae/2503020020/10-rekomendasi-klinik-gigi-terbaik-di-cirebon-teknologi-modern-dan-pelayanan-ramah-untuk-semua-usia. Harga scaling, tambal, cabut, behel metal, bleaching, veneer dan implan ditelusuri; tarif resmi yang terbaca dan minimal tiga pembanding dari kota yang sama belum tersedia konsisten. harga=[]; tidak mengisi nol, angka perkiraan atau src null pada item harga. Tidak menganggap ketiadaan harga berarti tindakan tersedia atau biaya nol. Sumber setiap layanan: Penambalan resin komposit disebut pada cuplikan profil resmi Instagram; tiga kartu lain hanya informasi kunjungan dan bukan klaim tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Haqqi Dental Care",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. R. Dewi Sartika, Perum Puri Sartika Nomor 08, Tukmudal, Kecamatan Sumber, Kabupaten Cirebon, Jawa Barat 45611",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282127777933",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282127777933",
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-20",
+        "sel": "09-20",
+        "rab": "09-20",
+        "kam": "09-20",
+        "jum": "09-20",
+        "sab": "09-20",
+        "min": "09-20"
+      },
+      "catatan": "URL dibuka ulang tetapi isi sumber tidak terbaca (throttled/tidak tersedia). Tidak menyatakan nilainya salah; pemeriksaan independen belum dapat memastikan kecocokan. Nomor ponsel publik tetap dapat dipakai sebagai WA menurut instruksi pemilik, tanpa menguji pengiriman."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Penambalan gigi"
+      ],
+      "catatan": "Daftar layanan berasal dari cuplikan periset; sumber primer yang dibuka ulang tidak terbaca. Tidak mengarang pengganti."
+    }
+  ]
 }

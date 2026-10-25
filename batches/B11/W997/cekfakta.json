@@ -1,0 +1,161 @@
+{
+  "id": "W997",
+  "diperiksa": 16,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Hayam Wuruk No.127, LTC Glodok Lantai UG Blok B21/unit 1, Mangga Besar, Taman Sari, Jakarta Barat 11180",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-barat/taman-sari/evo-dental-care-dokter-gigi-sp-tama-imp1",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285778888218",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-barat/taman-sari/evo-dental-care-dokter-gigi-sp-tama-imp1",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285778888218",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-barat/taman-sari/evo-dental-care-dokter-gigi-sp-tama-imp1",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-17",
+        "sel": "09-17",
+        "rab": "09-17",
+        "kam": "09-17",
+        "jum": "09-17",
+        "sab": "09-17",
+        "min": "tutup"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-barat/taman-sari/evo-dental-care-dokter-gigi-sp-tama-imp1",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": 199000,
+        "max": 700000,
+        "src": [
+          "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+          "https://orangedentalhouse.com/pricing/",
+          "https://sunnyclinics.com/poli-gigi/"
+        ]
+      },
+      "di_sumber": "Halaman sumber dibuka ulang",
+      "src": "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+      "catatan": "Nominal, tindakan, kota, dan apakah harga mulai/per gigi/per rahang harus ditinjau manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": 350000,
+        "max": 1000000,
+        "src": [
+          "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+          "https://orangedentalhouse.com/pricing/",
+          "https://sunnyclinics.com/poli-gigi/"
+        ]
+      },
+      "di_sumber": "Halaman sumber dibuka ulang",
+      "src": "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+      "catatan": "Nominal, tindakan, kota, dan apakah harga mulai/per gigi/per rahang harus ditinjau manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": 500000,
+        "max": 2000000,
+        "src": [
+          "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+          "https://orangedentalhouse.com/pricing/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": 3220000,
+        "max": 6440000,
+        "src": [
+          "https://hdmall.id/highlight/pemasangan-behel"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://hdmall.id/highlight/pemasangan-behel",
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": 999000,
+        "max": 1149000,
+        "src": [
+          "https://sunnyclinics.com/poli-gigi/",
+          "https://orangedentalhouse.com/pricing/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://sunnyclinics.com/poli-gigi/",
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": 999000,
+        "max": 5000000,
+        "src": [
+          "https://sunnyclinics.com/poli-gigi/",
+          "https://tanzildentalcare.com/harga-veneer-gigi-di-klinik-gigi-spesialis/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://sunnyclinics.com/poli-gigi/",
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": 9999000,
+        "max": 30000000,
+        "src": [
+          "https://sunnyclinics.com/poli-gigi/",
+          "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://sunnyclinics.com/poli-gigi/",
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/evo.dentalcare/",
+    "https://linktr.ee/evo.dentalcare",
+    "https://hdmall.id/highlight/pemasangan-behel"
+  ],
+  "kritis_ok": false
+}

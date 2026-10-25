@@ -1,0 +1,142 @@
+{
+  "id": "W1262",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Kesehatan di Klinik Rilan",
+      "en": "Health Services at Klinik Rilan"
+    },
+    "sub": {
+      "id": "Kenali layanan kesehatan gigi dan mulut, medik dasar, serta informasi kunjungan di Kota Bitung.",
+      "en": "Explore dental, primary care, and visit information in Bitung."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About Appointment Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Kesehatan Gigi dan Mulut",
+        "en": "Dental and Oral Health"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan gigi dan layanan yang tersedia sesuai kebutuhan Anda.",
+        "en": "Ask about dental examinations and available care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan Medik Dasar",
+        "en": "Primary Medical Care"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan kesehatan umum untuk memperoleh informasi pemeriksaan.",
+        "en": "Share general health concerns and ask about medical consultations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konseling Medik",
+        "en": "Medical Counselling"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konseling sesuai kebutuhan dan ketersediaan tenaga kesehatan.",
+        "en": "Ask about counselling appointments and provider availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan Laboratorium",
+        "en": "Laboratory Services"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan laboratorium yang tersedia dan persiapan yang diperlukan.",
+        "en": "Ask which laboratory tests are available and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan Kefarmasian",
+        "en": "Pharmacy Services"
+      },
+      "ringkas": {
+        "id": "Cari informasi mengenai layanan obat dan alur penebusan resep di klinik.",
+        "en": "Learn about pharmacy services and how prescriptions are handled."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pilih Layanan Klinik",
+      "en": "Clinic Service Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan layanan, baca informasi awal, lalu kirim pertanyaan jadwal melalui WhatsApp. Petugas klinik perlu mengonfirmasi poli dan tenaga kesehatan yang tersedia.",
+      "en": "Choose a service topic, review initial information, and ask about appointment times through WhatsApp. Clinic staff will confirm available departments and providers."
+    },
+    "alasan_dipilih": "Profil Kementerian Kesehatan memuat beberapa jenis pelayanan sehingga pasien dapat terbantu memilih topik kunjungan sebelum menghubungi klinik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Klinik Rilan berada?",
+        "en": "Where is Klinik Rilan?"
+      },
+      "a": {
+        "id": "Klinik Rilan tercantum di Jalan S.H. Sarundajang, kawasan Girian Permai, Kota Bitung.",
+        "en": "Klinik Rilan is listed on Jl. S.H. Sarundajang in the Girian Permai area of Bitung."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka klinik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan Senin–Sabtu 08.00–21.00 WITA dan Minggu tutup. Konfirmasi jadwal sebelum datang.",
+        "en": "Public listings show Monday–Saturday, 8 a.m.–9 p.m. WITA, and closed Sundays. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan gigi?",
+        "en": "Is dental care available?"
+      },
+      "a": {
+        "id": "Pelayanan kesehatan gigi dan mulut tercantum pada profil Kementerian Kesehatan. Tanyakan tindakan dan jadwal dokter yang tersedia.",
+        "en": "Dental and oral health care appears in the Ministry of Health profile. Please confirm specific treatments and dentist schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan laboratorium?",
+        "en": "Are laboratory services available?"
+      },
+      "a": {
+        "id": "Pelayanan laboratorium tercantum pada profil klinik. Jenis tes dan persiapan perlu dikonfirmasi kepada petugas.",
+        "en": "Laboratory services appear in the clinic profile. Please confirm specific tests and preparation requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check service costs?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan pada sumber yang diperiksa. Tanyakan estimasi biaya sesuai layanan yang dibutuhkan.",
+        "en": "An official price list was not found. Ask the clinic for an estimate for the service you need."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik Rilan untuk Informasi Kunjungan",
+    "en": "Contact Klinik Rilan About Your Visit"
+  },
+  "pesan_wa_default": "Halo Klinik Rilan, saya ingin menanyakan jadwal layanan kesehatan gigi dan informasi biaya pemeriksaan. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, izin memperkenalkan diri. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Klinik Rilan di Bitung memiliki layanan gigi dan medik dasar yang tercantum pada profil Kementerian Kesehatan. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/rilan untuk tim klinik tinjau. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Rilan Bitung",
+    "email_isi": "Yth. Tim Manajemen Klinik Rilan,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan profil Klinik Rilan di direktori Kementerian Kesehatan yang mencantumkan pelayanan kesehatan gigi dan mulut, medik dasar, laboratorium, serta kefarmasian.\n\nKami telah menyiapkan konsep website yang membantu pasien menemukan informasi layanan, lokasi, dan cara menanyakan jadwal melalui WhatsApp. Konsep dapat dilihat di https://maxigrowthstudio.com/rilan.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan jika tim klinik berkenan meninjaunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

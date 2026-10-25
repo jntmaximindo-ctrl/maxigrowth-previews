@@ -129,5 +129,45 @@
   "sumber": [
     "https://linktr.ee/sehatdentalclinic01",
     "https://idalamat.com/alamat/praktek-dokter-gigi-sehat-drg-rey-maldo-drg-silvia-chindra-halim-1058637"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282274269191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-12,13:30-16:30",
+        "sel": "10-12,13:30-16:30",
+        "rab": "10-12,13:30-16:30",
+        "kam": "10-12,13:30-16:30",
+        "jum": "10-12,13:30-16:30",
+        "sab": "09-12,13:30-14:30",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Pencabutan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Perawatan ortodonti",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Gigi tiruan",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Perawatan gigi anak",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

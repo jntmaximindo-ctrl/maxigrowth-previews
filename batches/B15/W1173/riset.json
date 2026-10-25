@@ -76,5 +76,27 @@
     "https://idalamat.com/alamat/inti-dental-care-solution-klinik-dokter-gigi-demak-1061491",
     "https://bpjs.ca/dokter-gigi-demak/",
     "https://www.instagram.com/inti.dental.care.solution/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/inti.dental.care.solution/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Teuku Umar, Nogorame, Mangunjiwan, Demak, Jawa Tengah",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 115,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
   ]
 }

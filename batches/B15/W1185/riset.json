@@ -80,5 +80,17 @@
     "https://www.instagram.com/asata.esthetique/",
     "http://klinikasata.com/",
     "https://www.waralabaku.com/for_kontak.php?fid=3396"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/asata.esthetique/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Pramuka No.219, Pertabatan, Purwokerto Kidul, Purwokerto Selatan, Kabupaten Banyumas 53147",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    }
   ]
 }

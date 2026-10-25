@@ -1,0 +1,142 @@
+{
+  "id": "W1239",
+  "hero": {
+    "judul": {
+      "id": "Ruang untuk Merawat Senyum Anda",
+      "en": "A Place to Care for Your Smile"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan dan pilihan perawatan gigi di Emerald Dental Aesthetic, Samarinda Utara.",
+      "en": "Explore visit information and dental care options at Emerald Dental Aesthetic in North Samarinda."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About Appointment Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan kebutuhan perawatan untuk dibahas bersama dokter gigi.",
+        "en": "Discuss your concerns and treatment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pilihan penanganan untuk gigi yang perlu ditambal.",
+        "en": "Ask about assessment and treatment options for a tooth that may need a filling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Pelajari pilihan perawatan untuk susunan gigi melalui konsultasi terlebih dahulu.",
+        "en": "Explore options for tooth alignment after an initial consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer Gigi",
+        "en": "Dental Veneers"
+      },
+      "ringkas": {
+        "id": "Diskusikan tujuan estetika gigi dan apakah veneer sesuai dengan kondisi Anda.",
+        "en": "Discuss your cosmetic goals and whether veneers suit your dental condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian awal dan informasi prosedur pemutihan gigi.",
+        "en": "Ask about an initial assessment and the teeth-whitening procedure."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan dan Perawatan",
+      "en": "Visit and Care Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan perawatan, baca informasi awal, lalu kirim pertanyaan jadwal melalui WhatsApp klinik. Waktu dan layanan perlu dikonfirmasi oleh petugas.",
+      "en": "Choose a care topic, read an overview, and send an appointment inquiry through the clinic's WhatsApp. Staff will need to confirm times and services."
+    },
+    "alasan_dipilih": "Klinik tercantum buka setiap hari hingga pukul 21.00 WITA, sehingga panduan waktu kunjungan relevan; ini usulan fitur website, bukan sistem reservasi yang sudah ada."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Emerald Dental Aesthetic tercantum di Jl. KH. Samanhudi No.41, Pelita, Samarinda Utara.",
+        "en": "Emerald Dental Aesthetic is listed at Jl. KH. Samanhudi No.41, Pelita, North Samarinda."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan 09.00–21.00 WITA setiap hari. Mohon konfirmasi jadwal terkini sebelum berkunjung.",
+        "en": "Public listings show 9 a.m. to 9 p.m. WITA daily. Please confirm current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment costs?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum tersedia pada sumber yang kami periksa. Tanyakan estimasi sesuai kondisi gigi kepada klinik.",
+        "en": "We could not find an official price list. Please ask the clinic for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia konsultasi untuk behel atau veneer?",
+        "en": "Can I ask about braces or veneers?"
+      },
+      "a": {
+        "id": "Kedua layanan disebut dalam sumber publik. Tanyakan ketersediaan dokter dan kesesuaian tindakan saat membuat janji.",
+        "en": "Both services are mentioned in public sources. Please check provider availability and suitability when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam daftar provider dental Chubb Februari 2026. Konfirmasi kembali status kerja sama dan manfaat polis Anda.",
+        "en": "The clinic appears on a February 2026 Chubb dental provider list. Please confirm current network status and your policy benefits."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Kunjungan",
+    "en": "Contact the Clinic for Visit Information"
+  },
+  "pesan_wa_default": "Halo Emerald Dental Aesthetic, saya ingin menanyakan jadwal konsultasi gigi dan informasi biaya. Apakah boleh dibantu?",
+  "outreach": {
+    "wa": "Halo, izin memperkenalkan diri. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Emerald Dental Aesthetic di Jl. KH. Samanhudi, Samarinda, dengan jadwal yang tercantum hingga malam. Kami sudah menyiapkan konsep website untuk klinik yang dapat dilihat di https://maxigrowthstudio.com/emerald-aesthetic. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Emerald Dental Aesthetic",
+    "email_isi": "Yth. Tim Manajemen Emerald Dental Aesthetic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai Emerald Dental Aesthetic di kawasan Pelita, Samarinda Utara, termasuk jadwal kunjungan yang tercantum hingga pukul 21.00 WITA.\n\nKami telah menyiapkan konsep website yang menyajikan informasi lokasi, panduan layanan, serta jalur pertanyaan jadwal melalui WhatsApp. Konsep dapat dilihat di https://maxigrowthstudio.com/emerald-aesthetic.\n\nSebagai bahan pertimbangan, kami juga melampirkan proposal PDF. Jika ada waktu, kami senang menerima masukan dari tim klinik. Tidak ada kewajiban untuk menindaklanjuti.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

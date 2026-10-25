@@ -1,0 +1,32 @@
+{
+  "id": "W942",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281110018060",
+      "di_sumber": null,
+      "src": "https://www.facebook.com/yellodental/",
+      "catatan": "Facebook hanya menampilkan sign-in/Temporarily Blocked; nomor tidak dapat diperiksa pada halaman. Bukan bukti nomor salah. Alamat, telepon tetap, dan jam sesuai CariBisnis."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Penambalan gigi",
+        "Perawatan behel",
+        "Veneer"
+      ],
+      "di_sumber": "Tindakan tercantum pada agregator CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/depok/cimanggis/klinik-gigi-depok-klinik-gigi--cima-imp1",
+      "catatan": "Bukan daftar layanan primer yang dikonfirmasi klinik. Jangan mengadopsi janji hasil/garansi maupun harga otomatis dari agregator."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/yellodental/?hl=en",
+    "https://www.facebook.com/yellodental/",
+    "https://www.yellodental.com/",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf"
+  ],
+  "kritis_ok": false
+}

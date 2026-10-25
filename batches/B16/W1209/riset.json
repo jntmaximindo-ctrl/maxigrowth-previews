@@ -145,5 +145,89 @@
     "https://idalamat.com/alamat/drg-handyanto-jingga-1058767",
     "https://pdgisiantar.blogspot.com/2015/05/data-anggota-pdgi-cabang.html"
   ],
-  "catatan": "Alamat dan nomor 0822-6013-6161 cocok pada dua sumber yang terbaca. Konflik jadwal: Poltekkes menyebut Senin–Sabtu 10–18; IDalamat 10–17. Jadwal klinik dan dokter null sampai ada bukti primer. Keanggotaan PDGI 2014–2017 ditemukan tetapi tidak diklaim sebagai status registrasi saat ini. Teks IDalamat mengenai tindakan bersifat templat lintas klinik; tidak dipakai mengisi layanan pasti. Empat kartu konten berupa informasi kunjungan. Nama sosial Facebook tanpa profil spesifik bukan bukti email/akun resmi. Ulasan artikel 4.9/70 berbeda dari surat 4.9/115; maps null karena Google Maps hanya halaman JavaScript. Harga tujuh kategori ditelusuri pada halaman praktik dan pencarian Pematangsiantar; hasil toko behel, spam harga lintas kota dan nominal ulasan tidak digunakan sebagai tarif resmi atau kisaran kota. Belum ada tiga sumber pembanding setara; angka null, src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://poltekkes.web.id/dokter-gigi-pematang-siantar/, https://idalamat.com/alamat/drg-handyanto-jingga-1058767, https://pdgisiantar.blogspot.com/2015/05/data-anggota-pdgi-cabang.html. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat dan nomor 0822-6013-6161 cocok pada dua sumber yang terbaca. Konflik jadwal: Poltekkes menyebut Senin–Sabtu 10–18; IDalamat 10–17. Jadwal klinik dan dokter null sampai ada bukti primer. Keanggotaan PDGI 2014–2017 ditemukan tetapi tidak diklaim sebagai status registrasi saat ini. Teks IDalamat mengenai tindakan bersifat templat lintas klinik; tidak dipakai mengisi layanan pasti. Empat kartu konten berupa informasi kunjungan. Nama sosial Facebook tanpa profil spesifik bukan bukti email/akun resmi. Ulasan artikel 4.9/70 berbeda dari surat 4.9/115; maps null karena Google Maps hanya halaman JavaScript. Harga tujuh kategori ditelusuri pada halaman praktik dan pencarian Pematangsiantar; hasil toko behel, spam harga lintas kota dan nominal ulasan tidak digunakan sebagai tarif resmi atau kisaran kota. Belum ada tiga sumber pembanding setara; angka null, src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://poltekkes.web.id/dokter-gigi-pematang-siantar/, https://idalamat.com/alamat/drg-handyanto-jingga-1058767, https://pdgisiantar.blogspot.com/2015/05/data-anggota-pdgi-cabang.html. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sutomo Nomor 137, Dwikora, Kecamatan Siantar Barat, Kota Pematang Siantar, Sumatera Utara 21118",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

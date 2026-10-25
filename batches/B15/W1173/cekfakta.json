@@ -1,0 +1,39 @@
+{
+  "id": "W1173",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/inti.dental.care.solution/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/inti-dental-care-solution-klinik-dokter-gigi-demak-1061491",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Teuku Umar, Nogorame, Mangunjiwan, Demak, Jawa Tengah",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/inti-dental-care-solution-klinik-dokter-gigi-demak-1061491",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1fc9kD1FDu49GqixECcIIPc32sYL4G-eS/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 115,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1fc9kD1FDu49GqixECcIIPc32sYL4G-eS/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/inti.dental.care.solution/",
+    "https://drive.google.com/file/d/1fc9kD1FDu49GqixECcIIPc32sYL4G-eS/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}

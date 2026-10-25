@@ -108,5 +108,35 @@
     "https://idalamat.com/alamat/sukses-dental-care-drg-dian-misbahi-1059938",
     "https://www.dentalclinics.care/dental-clinic/sukses-dental-care-drg-dian-misbahi",
     "https://www.instagram.com/suksesdentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "16-20",
+        "sel": "16-20",
+        "rab": "16-20",
+        "kam": "16-20",
+        "jum": "16-20",
+        "sab": "16-20",
+        "min": "10-14"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Pencabutan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Gigi tiruan",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan gigi anak",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

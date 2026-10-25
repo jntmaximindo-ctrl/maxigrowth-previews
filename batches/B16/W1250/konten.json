@@ -1,0 +1,132 @@
+{
+  "id": "W1250",
+  "hero": {
+    "judul": {
+      "id": "Kenali Layanan Kesehatan Gigi di KLINIKTA",
+      "en": "Explore Dental Care at KLINIKTA"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan kunjungan untuk pasien di Macege, Kabupaten Bone.",
+      "en": "Location and visit information for patients in Macege, Bone Regency."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Klinik",
+      "en": "Ask About Clinic Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi untuk dibahas saat pemeriksaan dengan dokter.",
+        "en": "Discuss your dental concerns during an examination with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi dan persiapan kunjungan.",
+        "en": "Ask about dental cleaning appointments and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penanganan gigi berlubang sesuai pemeriksaan.",
+        "en": "Discuss treatment options for cavities after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan gigi anak dan jadwal dokter yang sesuai.",
+        "en": "Ask whether children's dental care is available and which appointment times are suitable."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan KLINIKTA",
+      "en": "KLINIKTA Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan, baca informasi awal, dan tanyakan jadwal melalui WhatsApp. Tim klinik perlu memastikan ketersediaan layanan.",
+      "en": "Choose a visit topic, read initial information, and ask about appointment times through WhatsApp. The clinic team will need to confirm service availability."
+    },
+    "alasan_dipilih": "KLINIKTA tercantum melayani dokter gigi dan klinik umum; panduan kategori kunjungan membantu pasien menyampaikan kebutuhan sejak awal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi KLINIKTA?",
+        "en": "Where is KLINIKTA?"
+      },
+      "a": {
+        "id": "Klinik tercantum di Jl. Letjen Suprapto, Macege, Tanete Riattang Barat, Kabupaten Bone.",
+        "en": "The clinic is listed on Jl. Letjen Suprapto, Macege, Tanete Riattang Barat, Bone Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Google Maps mencantumkan Minggu 09.00–15.00 WITA. Konfirmasi kembali jadwal sebelum berkunjung.",
+        "en": "Google Maps lists Sunday hours as 9 a.m. to 3 p.m. WITA. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Scaling disebut dalam informasi publik klinik. Tanyakan ketersediaan jadwal saat menghubungi admin.",
+        "en": "Dental cleaning appears in public clinic information. Please confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan gigi?",
+        "en": "How much does a dental checkup cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan dalam sumber yang diperiksa. Silakan minta informasi biaya dari klinik.",
+        "en": "An official price list was not found. Please ask the clinic for current fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak publik klinik untuk menanyakan waktu kunjungan dan layanan yang tersedia.",
+        "en": "Contact the clinic using its public number to ask about appointment times and available services."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi KLINIKTA untuk Informasi Kunjungan",
+    "en": "Contact KLINIKTA About Your Visit"
+  },
+  "pesan_wa_default": "Halo KLINIKTA, saya ingin menanyakan jadwal konsultasi gigi dan biaya pemeriksaan. Mohon informasi ketersediaan jadwalnya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, izin memperkenalkan diri. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat KLINIKTA di Macege, Kabupaten Bone, memiliki informasi layanan dokter gigi dan klinik umum. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/bone-klinikta untuk tim klinik tinjau. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk KLINIKTA Bone",
+    "email_isi": "Yth. Tim Manajemen KLINIKTA,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik tentang KLINIKTA di Macege, Kabupaten Bone, yang tercantum sebagai penyedia layanan dokter gigi dan klinik umum.\n\nKami telah menyiapkan konsep website yang menyajikan informasi lokasi, panduan kebutuhan kunjungan, dan cara menanyakan jadwal melalui WhatsApp. Konsep dapat ditinjau di https://maxigrowthstudio.com/bone-klinikta.\n\nProposal PDF juga kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan apabila tim klinik berkenan melihat konsep tersebut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1246",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi untuk Keluarga",
+      "en": "Dental Care for the Family"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi, dokter, dan persiapan kunjungan ke iDentiq di Balikpapan Tengah.",
+      "en": "Find location, dentist, and visit information for iDentiq in Central Balikpapan."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Klinik",
+      "en": "Ask About Clinic Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan pertanyaan seputar kondisi gigi kepada dokter saat pemeriksaan.",
+        "en": "Share your concerns and questions about your dental health during a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi Anak",
+        "en": "Children's Dental Checkups"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk anak dan hal yang perlu dipersiapkan sebelum datang.",
+        "en": "Ask about children's appointment times and how to prepare for a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kesehatan Gigi Keluarga",
+        "en": "Family Dental Health"
+      },
+      "ringkas": {
+        "id": "Cari informasi kunjungan untuk anggota keluarga dan pilihan penanganan sesuai kebutuhan.",
+        "en": "Learn about appointments for family members and care options suited to their needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Pemutihan Gigi",
+        "en": "Teeth Whitening Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan apakah tindakan ini sesuai setelah pemeriksaan.",
+        "en": "Ask whether this service is available and appropriate following an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Anak dan Keluarga",
+      "en": "Kids and Family Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan, baca informasi persiapan, lalu kirim pertanyaan jadwal melalui WhatsApp. Tim klinik perlu mengonfirmasi ketersediaan layanan.",
+      "en": "Choose a visit topic, review preparation tips, and send an appointment question via WhatsApp. The clinic team will need to confirm service availability."
+    },
+    "alasan_dipilih": "Direktori Pemerintah Kota Balikpapan mencantumkan nama iDentiq Kids and Family Dental Clinic, sehingga panduan untuk anak dan keluarga relevan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi iDentiq?",
+        "en": "Where is iDentiq located?"
+      },
+      "a": {
+        "id": "Klinik tercantum di Jl. D.I. Panjaitan No.133, Sumber Rejo, Balikpapan Tengah.",
+        "en": "The clinic is listed at Jl. D.I. Panjaitan No.133, Sumber Rejo, Central Balikpapan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa jam buka klinik?",
+        "en": "What are the clinic hours?"
+      },
+      "a": {
+        "id": "Jam pada Google Maps dan direktori pemerintah berbeda. Silakan konfirmasi jadwal yang berlaku sebelum datang.",
+        "en": "Google Maps and the government directory show different hours. Please confirm the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum?",
+        "en": "Which dentist is listed?"
+      },
+      "a": {
+        "id": "Direktori pemerintah mencantumkan drg. Shofura Munamareta Putri sebagai pimpinan. Jadwal praktik dokter perlu ditanyakan langsung.",
+        "en": "The government directory lists drg. Shofura Munamareta Putri as the clinic lead. Please ask the clinic about the dentist's schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check treatment costs?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Tanyakan perkiraan biaya berdasarkan pemeriksaan dan rencana tindakan.",
+        "en": "An official price list was not found. Ask for an estimate based on the assessment and proposed care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Does the clinic see children?"
+      },
+      "a": {
+        "id": "Nama pada direktori pemerintah menyebut layanan anak dan keluarga. Tanyakan usia pasien yang dapat ditangani serta jadwalnya.",
+        "en": "The government listing refers to kids and family dental care. Please confirm the age groups served and available appointment times."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi iDentiq untuk Informasi Kunjungan",
+    "en": "Contact iDentiq About Your Visit"
+  },
+  "pesan_wa_default": "Halo iDentiq Dental Clinic Balikpapan, saya ingin menanyakan jadwal pemeriksaan gigi untuk keluarga dan perkiraan biaya. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, izin memperkenalkan diri. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat iDentiq di Balikpapan Tengah tercantum sebagai klinik gigi anak dan keluarga pada direktori pemerintah. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/identiq-balikpapan. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk iDentiq Balikpapan",
+    "email_isi": "Yth. Tim Manajemen iDentiq Dental Clinic Balikpapan,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan iDentiq dalam direktori fasilitas kesehatan Pemerintah Kota Balikpapan dengan informasi layanan gigi anak dan keluarga.\n\nKami sudah menyiapkan konsep website yang menampilkan informasi lokasi, panduan kunjungan, serta cara menanyakan jadwal. Konsepnya dapat ditinjau di https://maxigrowthstudio.com/identiq-balikpapan.\n\nProposal PDF juga kami lampirkan sebagai bahan pertimbangan. Jika berkenan, kami terbuka menerima masukan dari tim klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
