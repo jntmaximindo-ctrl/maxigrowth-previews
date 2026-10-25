@@ -1,0 +1,132 @@
+{
+  "id": "W1153",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi ROA Dental",
+      "en": "Klinik Gigi ROA Dental"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Boyolali",
+      "en": "Dental care information in Boyolali"
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada tim klinik mengenai pemeriksaan dan kesesuaian tindakan.",
+        "en": "Ask the clinic about an assessment and whether this treatment is suitable."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada tim klinik mengenai pemeriksaan dan kesesuaian tindakan.",
+        "en": "Ask the clinic about an assessment and whether this treatment is suitable."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada tim klinik mengenai pemeriksaan dan kesesuaian tindakan.",
+        "en": "Ask the clinic about an assessment and whether this treatment is suitable."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan kepada tim klinik mengenai pemeriksaan dan kesesuaian tindakan.",
+        "en": "Ask the clinic about an assessment and whether this treatment is suitable."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapkan kunjungan Anda",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Catat keluhan dan tanyakan jadwal serta informasi yang diperlukan melalui WhatsApp.",
+      "en": "Note your concerns and ask about appointment availability and what to prepare via WhatsApp."
+    },
+    "alasan_dipilih": "Memudahkan konfirmasi informasi yang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum untuk menanyakan jadwal.",
+        "en": "Use the listed WhatsApp number to ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia pada informasi ini. Tanyakan estimasi setelah pemeriksaan.",
+        "en": "Prices are not available here. Ask for an estimate following an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam operasional dan jadwal dokter kepada tim klinik.",
+        "en": "Confirm opening hours and the dentist’s schedule with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Tanyakan sebelum berkunjung.",
+        "en": "Insurance arrangements have not been confirmed. Ask before your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu dipersiapkan?",
+        "en": "What should I bring?"
+      },
+      "a": {
+        "id": "Tanyakan kebutuhan administrasi dan dokumen pemeriksaan kepada tim klinik.",
+        "en": "Ask the clinic which registration documents and examination records are needed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi. Mohon informasi waktu yang tersedia.",
+  "outreach": {
+    "wa": "Yth. pengelola Klinik Gigi ROA Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi klinik Anda di Boyolali. Kami menyiapkan konsep website untuk ditinjau melalui https://maxigrowthstudio.com/roa. Bila berkenan, kami dapat membahas kebutuhan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Gigi ROA Dental",
+    "email_isi": "Yth. pengelola Klinik Gigi ROA Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu menyajikan informasi Klinik Gigi ROA Dental di Boyolali. Konsep dapat ditinjau melalui https://maxigrowthstudio.com/roa. Proposal PDF disiapkan sebagai lampiran untuk peninjauan. Bila berkenan, kami dapat membahas kesesuaian informasi dan kebutuhan klinik.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

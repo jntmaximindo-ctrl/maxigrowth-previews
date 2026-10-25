@@ -1,0 +1,132 @@
+{
+  "id": "W1183",
+  "hero": {
+    "judul": {
+      "id": "Siapkan kunjungan ke Sukses Dental Care",
+      "en": "Plan your Sukses Dental Care visit"
+    },
+    "sub": {
+      "id": "Informasi awal praktik di Rajabasa, Bandar Lampung. Tanyakan jadwal dan perawatan sebelum datang.",
+      "en": "Visit information for the Rajabasa practice in Bandar Lampung. Confirm appointments and care options before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Tooth fillings"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "This service appears in a directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "This service appears in a directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "This service appears in a directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "This service appears in a directory. Ask the practice about availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih hari kunjungan",
+      "en": "Choose a visit day"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal direktori, termasuk Minggu, lalu susun pertanyaan reservasi. Jadwal perlu konfirmasi klinik.",
+      "en": "Review listed hours, including Sunday, and prepare an appointment request. Confirm all times with the practice."
+    },
+    "alasan_dipilih": "Jadwal Minggu 10.00–14.00 tercantum pada dua direktori; fitur usulan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.00–20.00 dan Minggu 10.00–14.00. Konfirmasikan jadwal sebelum datang.",
+        "en": "Directories list Monday–Saturday 16:00–20:00 and Sunday 10:00–14:00. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah perkiraan biaya setelah kebutuhan pemeriksaan dijelaskan.",
+        "en": "Prices are not available here. Ask for an estimate based on your assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan kepada klinik sebelum kunjungan.",
+        "en": "Insurance details are unavailable. Check with the practice before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan anak?",
+        "en": "Is children's dental care available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan perawatan gigi anak. Konfirmasikan ketersediaan sesuai usia dan kebutuhan anak.",
+        "en": "A directory lists children's dental care. Confirm availability for your child's age and needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Gunakan kontak publik yang tercantum untuk menanyakan jadwal dan layanan. Tunggu konfirmasi klinik.",
+        "en": "Use the listed public contact to ask about services and appointments, then wait for confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the practice to plan a visit"
+  },
+  "pesan_wa_default": "Halo Sukses Dental Care, saya ingin menanyakan jadwal pemeriksaan dan ketersediaan kunjungan Minggu. Mohon informasi perkiraan biaya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Sukses Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Jadwal Minggu yang tercantum pada direktori menginspirasi fitur pemilih hari kunjungan. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/sukses-drg. Bila berkenan, kami dapat membahas penyesuaian informasi praktik. Terima kasih.",
+    "email_subjek": "Konsep website Sukses Dental Care",
+    "email_isi": "Yth. Pengelola Sukses Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Jadwal Minggu pada direktori menjadi dasar usulan pemilih hari kunjungan agar pasien mudah menyiapkan pertanyaan reservasi.\n\nKonsep website disiapkan untuk ditinjau di https://maxigrowthstudio.com/sukses-drg. Proposal PDF terlampir saat paket penawaran dikirim. Tautan dan lampiran perlu dipastikan tersedia sebelum draf ini digunakan.\n\nBila berkenan, kami dapat membahas penyesuaian informasi praktik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W1186",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Sri Wahyuni",
+      "en": "Visit information for drg. Sri Wahyuni"
+    },
+    "sub": {
+      "id": "Di kawasan Way Halim, Bandar Lampung. Hubungi praktik untuk membahas keluhan dan jadwal kunjungan.",
+      "en": "Located in Way Halim, Bandar Lampung. Contact the practice to discuss your concerns and arrange a visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi dan tanyakan langkah pemeriksaan saat kunjungan.",
+        "en": "Discuss your dental concerns and ask about an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan penambalan dan pemeriksaan yang diperlukan.",
+        "en": "Ask about fillings and the examination needed before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pencabutan untuk dinilai oleh dokter.",
+        "en": "Discuss whether an extraction assessment is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Hubungi praktik untuk informasi jadwal pembersihan karang gigi.",
+        "en": "Contact the practice to ask about scaling appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kunjungan anak",
+        "en": "Children’s visits"
+      },
+      "ringkas": {
+        "id": "Sampaikan usia anak dan keluhannya saat menanyakan jadwal.",
+        "en": "Share your child’s age and concerns when asking about a visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan waktu kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari yang diinginkan untuk menyusun pesan konfirmasi jadwal. Pilihan hari belum menjadi reservasi.",
+      "en": "Choose a preferred day to prepare an appointment enquiry. Selecting a day does not confirm a booking."
+    },
+    "alasan_dipilih": "Sumber publik mencantumkan beberapa sesi praktik dan Minggu sore; perbedaan jadwal antarsumber membuat konfirmasi langsung berguna."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan Jl. Malabar 2 No.16 blok M, Perumnas Way Halim, Bandar Lampung. Konfirmasikan titik lokasi sebelum berangkat.",
+        "en": "Public listings give Jl. Malabar 2 No.16 blok M, Perumnas Way Halim, Bandar Lampung. Confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka pada hari Minggu?",
+        "en": "Is the practice open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu sore. Jam berbeda antarsumber; tanyakan jadwal terbaru sebelum datang.",
+        "en": "Directories list Sunday afternoon hours. Published times differ, so ask for the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang diperiksa. Tanyakan estimasi biaya dan rincian tindakan kepada praktik.",
+        "en": "Prices were unavailable in the sources checked. Ask the practice for an estimate and treatment details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani anak?",
+        "en": "Can I arrange a visit for my child?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan layanan anak. Sampaikan usia dan keluhan anak untuk menanyakan ketersediaan kunjungan.",
+        "en": "Public sources mention children’s visits. Share your child’s age and concerns to ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Is BPJS or private insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama BPJS dan asuransi belum terverifikasi. Sebutkan nama penjamin dan tanyakan ketentuan sebelum kunjungan.",
+        "en": "BPJS and insurance arrangements have not been verified. Share your provider’s name and ask about the terms before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Contact the practice about your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di praktik drg. Sri Wahyuni. Hari yang saya inginkan: ____. Keluhan saya: ____. Mohon informasi ketersediaannya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik drg. Sri Wahyuni. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat praktik berlokasi di Way Halim. Kami sudah membuat konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/drg-sri, dengan alur pertanyaan jadwal kunjungan. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Sri Wahyuni",
+    "email_isi": "Yth. Pengelola praktik drg. Sri Wahyuni,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik di Way Halim, dengan informasi lokasi dan alur pertanyaan jadwal kunjungan. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-sri. Proposal PDF terlampir untuk ditinjau.\n\nInformasi layanan dan jadwal dalam konsep perlu ditinjau oleh pengelola sebelum digunakan. Bila berkenan, masukan Bapak/Ibu dapat disampaikan melalui WA 082141004400 atau info@maxigrowthstudio.com.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

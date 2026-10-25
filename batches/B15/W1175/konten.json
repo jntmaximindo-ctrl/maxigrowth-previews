@@ -1,0 +1,132 @@
+{
+  "id": "W1175",
+  "hero": {
+    "judul": {
+      "id": "Kenali kebutuhan perawatan gigi Anda",
+      "en": "Explore your dental care needs"
+    },
+    "sub": {
+      "id": "Informasi awal DR. Dental Care Bengkulu untuk membantu menyiapkan kunjungan. Konfirmasikan layanan dan jadwal kepada klinik.",
+      "en": "Plan a visit to DR. Dental Care Bengkulu. Confirm services and appointment times with the practice."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan pembersihan karang gigi.",
+        "en": "Ask about an assessment and professional cleaning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan estetis",
+        "en": "Tooth fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Discuss filling options after a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang dibutuhkan dan rencana perawatan.",
+        "en": "Ask about assessment and treatment planning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Sampaikan usia anak dan keluhan saat menanyakan kunjungan.",
+        "en": "Share your child's age and concerns when asking about a visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare for your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik keluhan lalu susun pertanyaan untuk dibahas bersama dokter. Fitur ini tidak memberikan diagnosis.",
+      "en": "Choose a concern and prepare questions for your dentist. This tool does not provide a diagnosis."
+    },
+    "alasan_dipilih": "Direktori mencantumkan layanan anak dan perawatan saluran akar; kebutuhan pertanyaan pasien beragam."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal publik berbeda antar sumber. Hubungi klinik untuk jadwal terbaru.",
+        "en": "Published hours differ. Contact the practice for current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah perkiraan biaya setelah kebutuhan pemeriksaan dijelaskan.",
+        "en": "Prices are not available here. Ask for an estimate based on your assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan kepada klinik sebelum kunjungan.",
+        "en": "Insurance details are unavailable. Check with the practice before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan anak?",
+        "en": "Is children's dental care available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan perawatan gigi anak. Konfirmasikan ketersediaan sesuai usia dan kebutuhan anak.",
+        "en": "A directory lists children's dental care. Confirm availability for your child's age and needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Gunakan kontak publik yang tercantum untuk menanyakan jadwal dan layanan. Tunggu konfirmasi klinik.",
+        "en": "Use the listed public contact to ask about services and appointments, then wait for confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the practice to plan a visit"
+  },
+  "pesan_wa_default": "Halo DR. Dental Care, saya ingin menanyakan jadwal pemeriksaan gigi dan perkiraan biaya. Apakah ada waktu yang tersedia?",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola DR. Dental Care Bengkulu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi perawatan gigi anak pada direktori klinik. Kami menyiapkan konsep website untuk ditinjau melalui https://maxigrowthstudio.com/dr-drg. Bila berkenan, kami dapat membahas penyesuaian informasi layanan dan jadwal. Terima kasih.",
+    "email_subjek": "Konsep website DR. Dental Care Bengkulu",
+    "email_isi": "Yth. Pengelola DR. Dental Care Bengkulu,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi direktori mengenai layanan gigi anak menjadi dasar gagasan halaman panduan kunjungan.\n\nDraf pesan ini disiapkan untuk menyertai konsep website di https://maxigrowthstudio.com/dr-drg dan proposal PDF terlampir saat pengiriman. Sebelum digunakan, tautan konsep dan lampiran perlu dipastikan tersedia serta informasi klinik ditinjau kembali.\n\nBila berkenan, kami dapat membahas kebutuhan informasi pasien dan jadwal.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

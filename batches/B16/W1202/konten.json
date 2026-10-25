@@ -1,0 +1,132 @@
+{
+  "id": "W1202",
+  "hero": {
+    "judul": {
+      "id": "iSmile Dental Clinic Gusti Hamzah",
+      "en": "iSmile Dental Clinic Gusti Hamzah"
+    },
+    "sub": {
+      "id": "Informasi kunjungan iSmile Dental Clinic Gusti Hamzah di Pontianak. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to iSmile Dental Clinic Gusti Hamzah in Pontianak. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan bahan tambalan dengan dokter.",
+        "en": "Discuss tooth decay and filling materials with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi dan menjelaskan pertimbangan tindakan terlebih dahulu.",
+        "en": "The dentist assesses the tooth and explains the procedure before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan behel",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi, rencana perawatan, serta kebutuhan kunjungan kontrol.",
+        "en": "Discuss tooth alignment, a treatment plan and follow-up visits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi dan warna gigi sebelum menentukan pilihan perawatan.",
+        "en": "Discuss your dental condition and tooth shade before choosing treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi kunjungan",
+      "en": "Choose your visit location"
+    },
+    "penjelasan": {
+      "id": "Pastikan tujuan Anda Gusti Hamzah atau GAIA Mall. Konsep ini memusatkan informasi Gusti Hamzah; pilihan cabang lain mengarahkan ke halaman tautan klinik untuk menanyakan kontak yang sesuai. Reservasi menunggu konfirmasi petugas.",
+      "en": "Choose Gusti Hamzah or GAIA Mall before asking about a visit. This concept focuses on Gusti Hamzah; other branch requests use the clinic’s link page to confirm the appropriate contact. Appointments require the team’s confirmation."
+    },
+    "alasan_dipilih": "Pemilih tujuan reservasi cabang: identifikasi Gusti Hamzah sebelum membuka pesan WA; tampilkan pengingat agar pasien tidak tertukar dengan lokasi GAIA Mall."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori lokasi Gusti Hamzah mencatat jam 10.00–21.00 setiap hari. Jadwal ini perlu dikonfirmasi; jadwal dokter individual belum tersedia.",
+        "en": "The Gusti Hamzah directory lists daily hours of 10:00–21:00. Please confirm these hours; individual clinician schedules have not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo iSmile Dental Clinic Gusti Hamzah, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola iSmile Dental Clinic Gusti Hamzah. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan pemisahan tautan reservasi Gusti Hamzah dan GAIA Mall. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/ismile-gusti. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website iSmile Dental Clinic Gusti Hamzah",
+    "email_isi": "Yth. Pengelola iSmile Dental Clinic Gusti Hamzah,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan pemisahan tautan reservasi Gusti Hamzah dan GAIA Mall dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/ismile-gusti. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1190",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan J Dental Care",
+      "en": "Plan a J Dental Care visit"
+    },
+    "sub": {
+      "id": "Tanyakan lokasi, jadwal, dan kebutuhan pemeriksaan sebelum berkunjung ke praktik di Bandar Lampung.",
+      "en": "Ask about the location, appointments and assessment requirements before visiting the Bandar Lampung practice."
+    },
+    "cta": {
+      "id": "Tanyakan informasi",
+      "en": "Ask the practice"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Assessment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan pertanyaan kepada klinik dan tunggu konfirmasi. Rincian layanan belum tersedia di halaman ini.",
+        "en": "Send your question to the practice and wait for confirmation. Service details are not available here."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan jadwal",
+        "en": "Appointment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan pertanyaan kepada klinik dan tunggu konfirmasi. Rincian layanan belum tersedia di halaman ini.",
+        "en": "Send your question to the practice and wait for confirmation. Service details are not available here."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan pertanyaan kepada klinik dan tunggu konfirmasi. Rincian layanan belum tersedia di halaman ini.",
+        "en": "Send your question to the practice and wait for confirmation. Service details are not available here."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan lokasi",
+        "en": "Location enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan pertanyaan kepada klinik dan tunggu konfirmasi. Rincian layanan belum tersedia di halaman ini.",
+        "en": "Send your question to the practice and wait for confirmation. Service details are not available here."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pesan berisi pertanyaan alamat, jadwal, dan biaya. Fitur ini merupakan usulan untuk membantu menyiapkan kunjungan.",
+      "en": "Prepare a message asking about location, appointments and fees. This proposed feature helps you plan a visit."
+    },
+    "alasan_dipilih": "Terdapat keraguan alamat dalam surat tugas, sehingga konfirmasi lokasi menjadi kebutuhan utama."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Ruko Taman Surapati. Ada perbedaan alamat antar sumber; konfirmasikan lokasi sebelum datang.",
+        "en": "A directory lists Ruko Taman Surapati. Addresses differ across sources, so confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwalnya?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Jadwal belum terverifikasi. Tanyakan waktu yang tersedia.",
+        "en": "Hours have not been verified. Ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah perkiraan biaya kepada klinik.",
+        "en": "Prices are unavailable. Ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi penjamin belum ditemukan. Tanyakan sebelum kunjungan.",
+        "en": "Coverage information is unavailable. Ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Layanan apa yang tersedia?",
+        "en": "Which services are available?"
+      },
+      "a": {
+        "id": "Daftar layanan belum terverifikasi. Sampaikan kebutuhan Anda saat menghubungi klinik.",
+        "en": "Services have not been verified. Explain your needs when contacting the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan lokasi dan jadwal",
+    "en": "Ask about location and appointments"
+  },
+  "pesan_wa_default": "Halo J Dental Care, saya ingin menanyakan lokasi praktik saat ini, jadwal, dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola J Dental Care Bandar Lampung. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat listing praktik di Ruko Taman Surapati dan menyiapkan konsep informasi kunjungan di https://maxigrowthstudio.com/j. Bila berkenan, kami dapat membahas penyesuaian lokasi dan jadwal. Terima kasih.",
+    "email_subjek": "Konsep informasi kunjungan J Dental Care",
+    "email_isi": "Yth. Pengelola J Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Listing praktik di Ruko Taman Surapati menjadi dasar usulan halaman informasi kunjungan.\n\nKonsep disiapkan untuk ditinjau di https://maxigrowthstudio.com/j. Proposal PDF terlampir saat paket penawaran dikirim. Pastikan tautan konsep dan lampiran tersedia sebelum menggunakan draf ini.\n\nBila berkenan, kami dapat membahas penyesuaian lokasi, jadwal, dan informasi perawatan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

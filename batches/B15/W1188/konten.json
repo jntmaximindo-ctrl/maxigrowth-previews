@@ -1,0 +1,132 @@
+{
+  "id": "W1188",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan dokter gigi di Ponorogo",
+      "en": "Plan your dental visit in Ponorogo"
+    },
+    "sub": {
+      "id": "Kenali informasi praktik drg. Karina S. Ichwani dan tanyakan jadwal kunjungan melalui WhatsApp.",
+      "en": "Find information about drg. Karina S. Ichwani’s practice and ask about appointments on WhatsApp."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan rutin",
+        "en": "Routine checkups"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "Ask the clinic about service availability and the assessment needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "Ask the clinic about service availability and the assessment needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "Ask the clinic about service availability and the assessment needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "Ask the clinic about service availability and the assessment needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan sebelum reservasi",
+      "en": "Prepare questions before booking"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan, waktu yang diinginkan, dan pertanyaan biaya. Ringkasannya dapat dikirim ke admin untuk konfirmasi.",
+      "en": "Choose your visit needs, preferred time, and fee questions. Send the summary to the team for confirmation."
+    },
+    "alasan_dipilih": "Kontak publik tersedia, tetapi jadwal berbeda antar direktori. Fitur membantu meminta konfirmasi tanpa menjanjikan slot."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sulawesi No.34, Nurmanan, Mangkujayan, Ponorogo. Konfirmasikan lokasi sebelum datang.",
+        "en": "The directory lists Jl. Sulawesi No.34, Nurmanan, Mangkujayan, Ponorogo. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungannya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Informasi jam berbeda antar sumber. Hubungi admin untuk menanyakan jam dan ketersediaan dokter pada hari kunjungan.",
+        "en": "Opening hours differ across sources. Contact the team to confirm hours and dentist availability for your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia dalam riset ini. Tanyakan perkiraan biaya dan rincian tindakan kepada klinik.",
+        "en": "A fee list is not available in this research. Ask the clinic for an estimate and a breakdown of care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Can children visit?"
+      },
+      "a": {
+        "id": "Direktori menyebut pelayanan anak. Tanyakan kesesuaian usia dan ketersediaan layanan sebelum berkunjung.",
+        "en": "The directory mentions care for children. Ask about suitable ages and availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia dan jenis kepesertaan saat menghubungi klinik.",
+        "en": "Insurance arrangements have not been verified. Share your provider and plan details when contacting the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi kunjungan",
+    "en": "Contact the clinic to confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di praktik drg. Karina S. Ichwani. Mohon informasi ketersediaan dokter, layanan, dan perkiraan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Karina S. Ichwani. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Jl. Sulawesi, Ponorogo. Kami ingin memperlihatkan konsep website dengan informasi lokasi, layanan, dan alur pertanyaan reservasi. Tautan peninjauan: https://maxigrowthstudio.com/karina-s. Bila berkenan, kami menerima masukan dan koreksi Bapak/Ibu. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Karina",
+    "email_isi": "Yth. Pengelola praktik drg. Karina S. Ichwani,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi praktik di Jl. Sulawesi, Ponorogo menjadi acuan konsep website untuk membantu pasien menemukan lokasi, mengenali layanan, dan menanyakan jadwal kunjungan.\n\nTautan peninjauan: https://maxigrowthstudio.com/karina-s. Proposal PDF terlampir untuk ditinjau bersama konsep tersebut. Kami menerima koreksi informasi praktik serta masukan mengenai kebutuhan klinik.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

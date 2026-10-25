@@ -1,0 +1,132 @@
+{
+  "id": "W1201",
+  "hero": {
+    "judul": {
+      "id": "Drg. Nuzulisa (House Of Dental)",
+      "en": "Drg. Nuzulisa (House Of Dental)"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Drg. Nuzulisa (House Of Dental) di Pontianak. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Drg. Nuzulisa (House Of Dental) in Pontianak. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan bahan tambalan dengan dokter.",
+        "en": "Discuss tooth decay and filling materials with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi dan menjelaskan pertimbangan tindakan terlebih dahulu.",
+        "en": "The dentist assesses the tooth and explains the procedure before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan behel",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Konsultasikan susunan gigi, rencana perawatan, serta kebutuhan kunjungan kontrol.",
+        "en": "Discuss tooth alignment, a treatment plan and follow-up visits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan penggantian gigi, pilihan bahan dan perawatan lanjutannya.",
+        "en": "Discuss tooth replacement needs, material options and follow-up care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Perencana kunjungan sore",
+      "en": "Evening visit planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari Senin–Sabtu untuk menyusun pertanyaan waktu kunjungan pada rentang praktik sore yang tercantum. Jadwal direktori 17.15–20.00 perlu dikonfirmasi; pilihan ini belum menjadi reservasi.",
+      "en": "Choose a day from Monday to Saturday to draft an appointment request within the listed evening hours. Please confirm the directory’s 17:15–20:00 hours; choosing a time does not create a booking."
+    },
+    "alasan_dipilih": "Perencana kunjungan sore: pilih hari Senin–Sabtu, tampilkan jendela praktik 17.15–20.00 berdasarkan direktori, lalu susun permintaan waktu melalui WhatsApp; bukan konfirmasi slot."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Sumber direktori mencatat praktik Senin–Sabtu pukul 17.15–20.00 dan Minggu tutup. Konfirmasikan jadwal terbaru melalui WhatsApp sebelum datang.",
+        "en": "Directories list Monday–Saturday, 17:15–20:00, with Sunday closed. Please confirm the current schedule through WhatsApp before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Drg. Nuzulisa (House Of Dental), saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Drg. Nuzulisa (House Of Dental). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan jadwal praktik sore di Jalan RE Martadinata. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/drg-nuzulisa. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Drg. Nuzulisa (House Of Dental)",
+    "email_isi": "Yth. Pengelola Drg. Nuzulisa (House Of Dental),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan jadwal praktik sore di Jalan RE Martadinata dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-nuzulisa. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

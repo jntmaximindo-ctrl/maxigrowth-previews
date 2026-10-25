@@ -1,0 +1,132 @@
+{
+  "id": "W1185",
+  "hero": {
+    "judul": {
+      "id": "Informasi Klinik Gigi Asata Dental Esthetique",
+      "en": "Visit information for Klinik Gigi Asata Dental Esthetique"
+    },
+    "sub": {
+      "id": "Kenali pilihan perawatan dan tanyakan jadwal sebelum berkunjung.",
+      "en": "Explore care information and ask about appointments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui WhatsApp.",
+        "en": "Ask via WhatsApp about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui WhatsApp.",
+        "en": "Ask via WhatsApp about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui WhatsApp.",
+        "en": "Ask via WhatsApp about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui WhatsApp.",
+        "en": "Ask via WhatsApp about availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan kunjungan Anda",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik pertanyaan, lalu susun pesan untuk menanyakan jadwal, lokasi, dan biaya kepada klinik.",
+      "en": "Choose a question topic and prepare a message about appointments, location, and fees."
+    },
+    "alasan_dipilih": "Membantu pasien mengklarifikasi informasi operasional yang belum lengkap; fitur usulan, bukan fasilitas klinik yang sudah tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Kirim pertanyaan melalui WhatsApp dan tunggu konfirmasi klinik.",
+        "en": "Send your request via WhatsApp and wait for clinic confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktiknya?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal terbaru sebelum berkunjung.",
+        "en": "Ask for current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan perkiraan biaya dan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "Prices are not available. Ask the clinic about estimated fees and assessment requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Kerja sama penjamin belum terverifikasi. Tanyakan langsung kepada klinik.",
+        "en": "Coverage arrangements have not been verified. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Siapkan keluhan, riwayat perawatan, dan daftar obat untuk disampaikan saat pemeriksaan. Konfirmasikan lokasi terlebih dahulu.",
+        "en": "Prepare your concerns, care history, and medication list for your assessment. Confirm the location first."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the clinic for visit information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik, lokasi saat ini, dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Klinik Gigi Asata Dental Esthetique. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Purwokerto. Kami sudah membuat konsep website untuk Anda lihat di https://maxigrowthstudio.com/asata-esthetique. Bila berkenan, kami dapat menjelaskan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi Asata Dental Esthetique",
+    "email_isi": "Yth. Pengelola Klinik Gigi Asata Dental Esthetique,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Purwokerto dan menyusun konsep website yang membantu pasien menemukan informasi kunjungan. Konsep dapat dilihat di https://maxigrowthstudio.com/asata-esthetique. Proposal PDF terlampir untuk ditinjau saat paket penawaran dikirim. Bila berkenan, kami dapat menjelaskan konsep tersebut.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

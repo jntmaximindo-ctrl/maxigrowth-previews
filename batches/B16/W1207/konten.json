@@ -1,0 +1,132 @@
+{
+  "id": "W1207",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi drg. Hj. Diana Nainggolan",
+      "en": "Praktek Dokter Gigi drg. Hj. Diana Nainggolan"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Praktek Dokter Gigi drg. Hj. Diana Nainggolan di Pematangsiantar. Kenali informasi praktik dan tanyakan kebutuhan Anda sebelum datang.",
+      "en": "Plan your visit to Praktek Dokter Gigi drg. Hj. Diana Nainggolan in Pematangsiantar. Explore practice information and ask about your care needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan kebutuhan perawatan",
+        "en": "Discuss your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan perawatan Anda. Jenis tindakan yang tersedia perlu dikonfirmasi kepada klinik.",
+        "en": "Share your care needs. Please confirm available procedures with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencanakan jadwal kunjungan",
+        "en": "Plan your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari praktik, ketersediaan dokter dan cara pendaftaran sebelum datang.",
+        "en": "Ask about opening days, clinician availability and registration before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan setelah kondisi Anda dinilai.",
+        "en": "Request consultation and treatment costs after your condition has been assessed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Siapkan informasi kunjungan",
+        "en": "Prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan lokasi praktik dan dokumen yang perlu dibawa kepada petugas.",
+        "en": "Confirm the practice location and any documents to bring with the team."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasikan jadwal kunjungan",
+      "en": "Confirm your visit schedule"
+    },
+    "penjelasan": {
+      "id": "Pilih hari dan waktu yang Anda harapkan, lalu susun pesan untuk menanyakan ketersediaan dokter. Jam praktik berbeda antar-direktori; fitur ini tidak menampilkan slot sebagai kepastian.",
+      "en": "Choose your preferred day and time, then draft a message asking about availability. Directory schedules differ, so this tool does not present any time as a confirmed slot."
+    },
+    "alasan_dipilih": "Penyusun permintaan jadwal: pilih hari dan kebutuhan kunjungan, lalu susun pesan konfirmasi kepada petugas karena jadwal antar-direktori berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji kunjungan?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor WhatsApp yang tercantum. Sampaikan kebutuhan dan tanyakan jadwal; kunjungan menunggu konfirmasi petugas.",
+        "en": "Contact the listed WhatsApp number, explain what you need and ask about available times. Your visit is subject to the team’s confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam praktik berbeda antar-sumber publik dan belum dipastikan. Mohon tanyakan jadwal terbaru serta ketersediaan dokter melalui WhatsApp.",
+        "en": "Public sources list different hours, so the current schedule has not been confirmed. Please ask the team about current hours and clinician availability through WhatsApp."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Biaya bergantung pada pemeriksaan dan tindakan yang diperlukan. Tanyakan rincian konsultasi, tindakan, dan kontrol sebelum menyetujui perawatan.",
+        "en": "Costs depend on the examination and treatment needed. Ask about consultation, treatment and follow-up fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi atau BPJS?",
+        "en": "Can I use insurance or BPJS?"
+      },
+      "a": {
+        "id": "Penerimaan penjamin belum dipastikan. Tanyakan langsung kepada petugas dengan menyebutkan nama penjamin dan jenis kepesertaan Anda.",
+        "en": "Coverage has not been confirmed. Ask the team and provide your insurer’s name and membership details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before my visit?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen yang perlu dibawa. Sampaikan kebutuhan kunjungan dan riwayat perawatan yang relevan saat berkonsultasi.",
+        "en": "Ask which documents to bring. Share the reason for your visit and relevant treatment history during your consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi petugas untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo Praktek Dokter Gigi drg. Hj. Diana Nainggolan, saya ingin menanyakan jadwal kunjungan dan informasi biaya pemeriksaan. Bagaimana cara mendaftar? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Praktek Dokter Gigi drg. Hj. Diana Nainggolan. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jalan Kartini, depan Rumah Sakit Mata. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/drg-hj. Konsep ini merangkum informasi kunjungan dan akses WhatsApp. Bila berkenan, kami dapat menjelaskan isinya. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Dokter Gigi drg. Hj. Diana Nainggolan",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi drg. Hj. Diana Nainggolan,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan lokasi praktik di Jalan Kartini, depan Rumah Sakit Mata dan menyiapkan konsep website untuk memudahkan pasien menemukan informasi kunjungan serta akses WhatsApp.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-hj. Proposal PDF terlampir menjelaskan ruang lingkup usulan. Informasi klinik akan menunggu persetujuan pengelola sebelum digunakan. Bila berkenan, kami dapat membahasnya sesuai waktu Bapak/Ibu.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
