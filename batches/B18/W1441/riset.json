@@ -94,5 +94,17 @@
   "sumber": [
     "https://www.instagram.com/dokter_gigi_magelang_julius/",
     "https://www.google.com/search?q=%22White+Dental%22+%22Julius+Benedict%22+Magelang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "White Dental / Praktik drg. Julius Benedict",
+      "catatan": "Tidak dapat dibaca; halaman Instagram sumber gagal dibuka."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Julius Benedict",
+      "catatan": "Tidak dapat dibaca; profil Instagram gagal dibuka."
+    }
   ]
 }

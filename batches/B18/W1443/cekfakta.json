@@ -1,0 +1,19 @@
+{
+  "id": "W1443",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Ortodonti",
+      "di_sumber": "Nama bisnis hanya mencantumkan gelar Sp.Ort; tidak menulis kata Ortodonti secara eksplisit.",
+      "src": "https://www.semuabis.com/drg-aga-sp-ort-doktergigimojokerto-0811-2021-282",
+      "catatan": "Makna gelar konsisten dengan ortodonti, tetapi nilai tidak dikutip verbatim dari URL src."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/doktergigimojokerto/",
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-kab-mojokerto/"
+  ],
+  "kritis_ok": true,
+  "catatan": "Nama klinik/dokter, alamat, nomor ponsel, dan jam praktik cocok dengan halaman SemuaBis yang dibuka ulang 26 Oktober 2026. Nomor 0811-2021-282 dinormalisasi menjadi 628112021282; sumber membuktikan nomor ponsel, bukan keberadaan akun WhatsApp. Instagram tidak dapat dibuka, tetapi tautannya ada di SemuaBis. Layanan ortodonti yang tidak memiliki src per-item belum dapat diverifikasi secara langsung."
+}

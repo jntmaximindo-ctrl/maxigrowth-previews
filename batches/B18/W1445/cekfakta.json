@@ -1,0 +1,18 @@
+{
+  "id": "W1445",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.sab",
+      "tercatat": "10-20",
+      "di_sumber": "Localo: Sabtu 10:00-20:00; MediaSehat: Sabtu 10:00-18:00",
+      "src": "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-mojokerto/",
+      "catatan": "Perbedaan jadwal antara dua sumber terbuka. Sumber yang dikutip pada riset (Localo) mendukung nilai 10-20, tetapi jam Sabtu perlu konfirmasi sebelum publikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/smilodental.id/"
+  ],
+  "kritis_ok": true,
+  "catatan": "Localo berhasil dibuka: nama Smilo Dental Care, alamat Citra Surodinawan Estate No.96, nomor +62 851-9555-5993, jam 10-20 semua hari tercantum. Instagram tidak dapat dibuka langsung; tautan tersebut tidak tampak pada halaman Localo yang dibaca. MediaSehat menguatkan nama, alamat, telepon, tetapi berbeda untuk jam Sabtu. Nomor ponsel diasumsikan WA sesuai aturan 00a, bukan akun WA terverifikasi."
+}

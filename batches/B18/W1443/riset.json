@@ -116,5 +116,12 @@
     "https://www.instagram.com/doktergigimojokerto/",
     "https://www.semuabis.com/drg-aga-sp-ort-doktergigimojokerto-0811-2021-282",
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-kab-mojokerto/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Ortodonti",
+      "catatan": "Nama bisnis hanya mencantumkan gelar Sp.Ort; tidak menulis kata Ortodonti secara eksplisit."
+    }
   ]
 }

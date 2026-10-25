@@ -1,0 +1,18 @@
+{
+  "id": "W1439",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. S. Parman No. 38D, Oro-oro Ombo, Kartoharjo, Kota Madiun, Jawa Timur",
+      "di_sumber": "Semuabis menulis Jl. S. Parman, Oro-oro Ombo, Kec. Kartoharjo, Kota Madiun, Jawa Timur 63119, tanpa nomor 38D.",
+      "src": "https://www.semuabis.com/paramita-dental_2K-0856-1612-007",
+      "catatan": "Nomor 38D justru ditemukan di sumber lain yang dibuka: https://doktertanya.com/dokter-gigi-madiun/. Fakta tampaknya benar, tetapi atribusi src pada alamat kurang tepat."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/paramitadental/"
+  ],
+  "kritis_ok": false,
+  "catatan": "Nama Paramita Dental, nomor 0856-1612-007, dan jam Senin-Jumat 09-21, Sabtu 07-15, Minggu tutup cocok dengan SemuaBis. DokterTanya mengonfirmasi No.38D, WA, dan handle @paramitadental. kritis_ok false karena URL src alamat tidak memuat nomor bangunan, bukan karena alamat pasti salah."
+}

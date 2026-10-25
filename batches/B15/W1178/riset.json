@@ -75,5 +75,22 @@
   "sumber": [
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-umum-di-bengkulu/",
     "https://id.scribd.com/document/666500513/Profil-Ksu-FIX"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282363728196",
+      "catatan": "MediaSehat: 0823-6372-8196; profil Scribd: 081274763933 dan 083835352622"
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282363728196",
+      "catatan": "Scribd mencantumkan nomor 081274763933 / 083835352622, bukan 082363728196"
+    },
+    {
+      "path": "maps.src",
+      "tercatat": "https://drive.google.com/file/d/1qDRr7QmyCDJW1DtVS8FGcI5rssqrmQyu/view?usp=drivesdk",
+      "catatan": "File Drive tersebut adalah surat tugas B15-W1178_riset.txt yang memuat angka rating 4.9 dan ulasan 618, bukan halaman Google Maps independen."
+    }
   ]
 }

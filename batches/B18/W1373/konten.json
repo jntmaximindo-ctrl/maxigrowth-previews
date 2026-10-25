@@ -1,0 +1,132 @@
+{
+  "id": "W1373",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Badung",
+      "en": "Dental Care Information in Badung"
+    },
+    "sub": {
+      "id": "Temukan alamat dan kontak Beyond Smile Dental Care untuk menanyakan jadwal konsultasi.",
+      "en": "Find the address and contact details for Beyond Smile Dental Care to ask about appointments."
+    },
+    "cta": {
+      "id": "Hubungi Klinik",
+      "en": "Contact the Clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan konsultasi gigi",
+        "en": "Dental examination and consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan pilihan perawatan yang sesuai.",
+        "en": "Ask about an initial examination and available care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Cavity care"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penanganan sesuai evaluasi dokter.",
+        "en": "Discuss possible treatment after a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebersihan gigi",
+        "en": "Oral hygiene"
+      },
+      "ringkas": {
+        "id": "Dapatkan informasi tentang pemeriksaan dan perawatan kebersihan gigi.",
+        "en": "Ask about oral health checks and cleaning care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perawatan lanjutan",
+        "en": "Further care consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah rujukan atau tindakan lanjutan diperlukan.",
+        "en": "Ask whether further care or a referral may be needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi",
+      "en": "Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang jadwal, biaya dan jenis pemeriksaan sebelum berkunjung.",
+      "en": "Prepare questions about hours, fees and examinations before visiting."
+    },
+    "alasan_dipilih": "Memudahkan konfirmasi informasi publik yang masih terbatas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor klinik dan tanyakan jadwal yang tersedia.",
+        "en": "Contact the clinic to ask about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sumber yang kami periksa. Tanyakan saat menghubungi klinik.",
+        "en": "No confirmed fee was found. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka akhir pekan?",
+        "en": "Is the clinic open on weekends?"
+      },
+      "a": {
+        "id": "Mohon konfirmasi jam operasional sebelum berkunjung.",
+        "en": "Please confirm opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Layanan apa yang tersedia?",
+        "en": "Which services are available?"
+      },
+      "a": {
+        "id": "Sampaikan keluhan terlebih dahulu dan konfirmasikan tindakan yang tersedia.",
+        "en": "Describe your concern and confirm the services offered."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Konfirmasikan manfaat dan kerja sama asuransi kepada klinik atau penyedia polis.",
+        "en": "Check eligibility and provider arrangements with your clinic or insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal Pemeriksaan",
+    "en": "Ask About Appointments"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi gigi di Beyond Smile Dental Care. Mohon informasi ketersediaan dan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu manajemen Beyond Smile Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi klinik di Badung. Kami telah menyiapkan konsep website yang memudahkan pasien menemukan lokasi serta mengajukan pertanyaan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/beyond-smile. Silakan ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Beyond Smile Dental Care",
+    "email_isi": "Yth. Manajemen Beyond Smile Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website untuk memudahkan pasien mengakses informasi lokasi, kontak, dan pertanyaan sebelum kunjungan. Silakan melihatnya di https://maxigrowthstudio.com/beyond-smile.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Apabila berkenan berdiskusi, kami dapat dihubungi melalui info@maxigrowthstudio.com atau 082141004400.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

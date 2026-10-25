@@ -1,0 +1,142 @@
+{
+  "id": "W1363",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Pabuaran, Tangerang",
+      "en": "Dental Care in Pabuaran, Tangerang"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi dan pilihan konsultasi Sistha Dental Care.",
+      "en": "Find location details and consultation information for Sistha Dental Care."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kebutuhan perawatan dengan dokter.",
+        "en": "Speak with the dentist about your concerns and treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan serta pilihan penanganan gigi berlubang.",
+        "en": "Ask about examination and options for treating cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Ketahui proses konsultasi sebelum tindakan pencabutan.",
+        "en": "Learn what to expect during a consultation before extraction."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan serta tahapan perawatan kawat gigi.",
+        "en": "Ask about braces options and treatment steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian gigi bersama dokter.",
+        "en": "Discuss tooth replacement options with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Berkunjung",
+      "en": "Before Your Visit"
+    },
+    "penjelasan": {
+      "id": "Lihat alamat, kontak, serta pertanyaan yang perlu disiapkan sebelum membuat janji.",
+      "en": "Review the address, contact details and questions to ask before booking."
+    },
+    "alasan_dipilih": "Informasi jam publik tidak konsisten; membantu calon pasien melakukan konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak klinik untuk menanyakan jadwal yang tersedia.",
+        "en": "Contact the clinic to ask about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Informasi jam praktik di direktori publik berbeda. Mohon konfirmasi sebelum berkunjung.",
+        "en": "Public listings show different hours. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a check-up?"
+      },
+      "a": {
+        "id": "Tarif belum dipublikasikan pada sumber yang kami temukan. Silakan tanyakan kepada klinik.",
+        "en": "We could not confirm a published fee. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan perawatan kawat gigi; mohon konfirmasi jenis dan jadwalnya.",
+        "en": "A public listing mentions braces. Please confirm options and scheduling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you take insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Tanyakan kepada staf sebelum membuat janji.",
+        "en": "We could not confirm insurance arrangements. Please ask the team before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi gigi di Sistha Dental Care Pabuaran. Mohon informasi jadwal dan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Sistha Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Pabuaran, Tangerang. Kami sudah membuat konsep website agar informasi lokasi dan jadwal lebih mudah diakses, dapat dilihat di https://maxigrowthstudio.com/sistha-tangerang. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website Sistha Dental Care Pabuaran",
+    "email_isi": "Yth. Manajemen Sistha Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Sistha Dental Care Pabuaran dengan fokus pada informasi lokasi, kontak, dan panduan sebelum kunjungan. Konsep dapat dilihat di https://maxigrowthstudio.com/sistha-tangerang.\n\nProposal PDF terlampir untuk pertimbangan Bapak/Ibu. Apabila ada masukan atau ingin berdiskusi, silakan menghubungi kami melalui info@maxigrowthstudio.com atau 082141004400.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

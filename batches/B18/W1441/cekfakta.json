@@ -1,0 +1,26 @@
+{
+  "id": "W1441",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "White Dental / Praktik drg. Julius Benedict",
+      "di_sumber": "Tidak dapat dibaca; halaman Instagram sumber gagal dibuka.",
+      "src": "https://www.instagram.com/dokter_gigi_magelang_julius/",
+      "catatan": "Nama gabungan White Dental / Praktik drg. Julius Benedict tidak terverifikasi dari sumber yang diklaim. Jangan disimpulkan salah, tetapi bukti belum ada."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Julius Benedict",
+      "di_sumber": "Tidak dapat dibaca; profil Instagram gagal dibuka.",
+      "src": "https://www.instagram.com/dokter_gigi_magelang_julius/",
+      "catatan": "Hasil pencarian menemukan drg. Julius di Magelang, namun tidak membuktikan nama lengkap Julius Benedict atau hubungan dengan White Dental."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/dokter_gigi_magelang_julius/",
+    "https://www.google.com/search?q=%22White+Dental%22+%22Julius+Benedict%22+Magelang"
+  ],
+  "kritis_ok": false,
+  "catatan": "Tidak ada alamat dan nomor ponsel terisi di riset. Dua fakta kritis (nama bisnis dan nama dokter) tidak dapat dikonfirmasi dari src; kritis_ok false sebagai pengaman, bukan bukti bahwa keduanya salah. URL pencarian Google bukan sumber primer yang dapat diaudit."
+}

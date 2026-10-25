@@ -1,0 +1,30 @@
+{
+  "id": "W1178",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282363728196",
+      "di_sumber": "MediaSehat: 0823-6372-8196; profil Scribd: 081274763933 dan 083835352622",
+      "src": "https://id.scribd.com/document/666500513/Profil-Ksu-FIX",
+      "catatan": "Konflik nomor antara dua sumber yang sama-sama dibuka. Nomor riset didukung oleh URL src MediaSehat, tetapi profil klinik yang lebih lama mencantumkan nomor lain. Jangan mengganti tanpa konfirmasi."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282363728196",
+      "di_sumber": "Scribd mencantumkan nomor 081274763933 / 083835352622, bukan 082363728196",
+      "src": "https://id.scribd.com/document/666500513/Profil-Ksu-FIX",
+      "catatan": "Nomor 082363728196 ada sebagai telepon di MediaSehat, tetapi status WA tidak terbukti secara langsung; aturan 00a mengizinkan asumsi WA dari ponsel publik."
+    },
+    {
+      "path": "maps.src",
+      "tercatat": "https://drive.google.com/file/d/1qDRr7QmyCDJW1DtVS8FGcI5rssqrmQyu/view?usp=drivesdk",
+      "di_sumber": "File Drive tersebut adalah surat tugas B15-W1178_riset.txt yang memuat angka rating 4.9 dan ulasan 618, bukan halaman Google Maps independen.",
+      "src": "https://drive.google.com/file/d/1qDRr7QmyCDJW1DtVS8FGcI5rssqrmQyu/view?usp=drivesdk",
+      "catatan": "Angka juga muncul di artikel pihak ketiga, tetapi src riset tidak membuktikan rating Google Maps secara independen."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "catatan": "MediaSehat berhasil dibuka melalui hasil pencarian; nama, alamat Betungan dan nomor 0823-6372-8196 cocok. Profil Scribd menyebut nama klinik dan layanan gigi tetapi kontaknya berbeda. Angka 4.9/618 pada dokumen tugas bukan verifikasi Maps langsung. Tandai kontak kritis untuk konfirmasi sebelum dipakai."
+}
