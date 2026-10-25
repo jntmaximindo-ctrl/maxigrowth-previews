@@ -1,75 +1,12 @@
-REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B12/W1027/konten.json: 0 pelanggaran, 0 peringatan
 
-RISET LAMA:
-{
-  "id": "W1027",
-  "nama": {
-    "v": "My Dental Care Jember",
-    "src": "https://indonesiaknowledge.com/directory/dental/jember/my-dental-care-klinik-dokter-gigi-and-fisioterapi-jember-jember",
-    "tgl": "2026-10-17",
-    "yakin": "sedang"
-  },
-  "kota": "Jember",
-  "zona_waktu": "WIB",
-  "instagram": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "email": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "cabang": [
-    {
-      "nama": "My Dental Care Jember",
-      "alamat": {
-        "v": "Jl. Karimata, Gumuk Kerang, Sumbersari, Jember 68121",
-        "src": "https://indonesiaknowledge.com/directory/dental/jember/my-dental-care-klinik-dokter-gigi-and-fisioterapi-jember-jember",
-        "tgl": "2026-10-17",
-        "yakin": "sedang"
-      },
-      "telepon": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "wa": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=My%20Dental%20Care%20%28Klinik%20Dokter%20Gigi%20%26%20Fisioterapi%20Jember%29%20Jember"
-    }
-  ],
-  "dokter": [],
-  "layanan": [],
-  "harga": [],
-  "fasilitas": [],
-  "asuransi": [],
-  "keunggulan": [
-    "Lokasi praktik tercantum di Jl. Karimata, Gumuk Kerang, Sumbersari, Jember 68121."
-  ],
-  "situs_lama": [
-    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
-  ],
-  "ide_fitur_khas": "Panduan lokasi Karimata dan pemilahan kebutuhan gigi atau fisioterapi untuk dikonfirmasi ke klinik.",
-  "catatan": "Dua nomor berbeda: Indonesia Knowledge 085232594941, IDalamat 081217249892. Telepon/WA null sampai ada sumber resmi yang mengonfirmasi. IG dan Linktree tidak terbaca. Jangan memakai data My Dental Care Bondowoso. Fisioterapi pada nama surat bukan bukti jadwal atau tenaga fisioterapis. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi.",
-  "sumber": [
-    "https://indonesiaknowledge.com/directory/dental/jember/my-dental-care-klinik-dokter-gigi-and-fisioterapi-jember-jember",
-    "https://idalamat.com/alamat/my-dental-care-klinik-dokter-gigi-jember-1062076",
-    "https://www.instagram.com/mydentalcare_jbr/",
-    "https://linktr.ee/mydentalcare_jbr"
-  ]
-}
+✗ riset.schema.json → harga/0/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/1/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/2/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/3/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/4/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/5/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/6/src: None is not of type 'string', 'array'
+GAGAL (7 masalah)
+

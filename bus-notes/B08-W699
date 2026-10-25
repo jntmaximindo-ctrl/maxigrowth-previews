@@ -6,21 +6,21 @@ RISET LAMA:
   "nama": {
     "v": "Klinik Gigi Cirendeu",
     "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
-    "tgl": "2026-10-17",
-    "yakin": "sedang"
+    "tgl": "2026-10-18",
+    "yakin": "tinggi"
   },
   "kota": "Tangerang Selatan",
   "zona_waktu": "WIB",
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-17",
+    "tgl": "2026-10-18",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-17",
+    "tgl": "2026-10-18",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,19 +29,19 @@ RISET LAMA:
       "alamat": {
         "v": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
-        "tgl": "2026-10-17",
-        "yakin": "sedang"
+        "tgl": "2026-10-18",
+        "yakin": "tinggi"
       },
       "telepon": {
         "v": "02174718597",
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
-        "tgl": "2026-10-17",
-        "yakin": "sedang"
+        "tgl": "2026-10-18",
+        "yakin": "tinggi"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-17",
+        "tgl": "2026-10-18",
         "yakin": "rendah"
       },
       "jam": {
@@ -55,17 +55,20 @@ RISET LAMA:
           "min": "tutup"
         },
         "src": "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
-        "tgl": "2026-10-17",
-        "yakin": "sedang"
+        "tgl": "2026-10-18",
+        "yakin": "tinggi"
       },
       "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M"
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Tambal gigi (tindakan disebut pada ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
+    "Konsultasi gigi anak (disebut dalam ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)"
+  ],
   "harga": [
     {
-      "perawatan": "Scaling — pembanding pasar Tangerang Selatan; BUKAN tarif Klinik Gigi Cirendeu",
+      "perawatan": "Scaling — kisaran pasar Tangerang Selatan, BUKAN tarif Klinik Gigi Cirendeu; pembanding memuat harga mulai dan rentang klinik lain",
       "jenis": "kisaran_pasar",
       "min": 249000,
       "max": 650000,
@@ -74,70 +77,39 @@ RISET LAMA:
         "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
         "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
       ]
-    },
-    {
-      "perawatan": "veneer — rentang HARGA MULAI tiga fasilitas pembanding Tangerang Selatan; bukan tarif klinik ini",
-      "jenis": "kisaran_pasar",
-      "min": 850000,
-      "max": 3035000,
-      "src": [
-        "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/veneer-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/veneer-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/veneer-gigi"
-      ]
-    },
-    {
-      "perawatan": "implan — rentang HARGA MULAI tiga fasilitas pembanding Tangerang Selatan; bukan tarif klinik ini",
-      "jenis": "kisaran_pasar",
-      "min": 12750000,
-      "max": 20700000,
-      "src": [
-        "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/implan-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/implan-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/implan-gigi"
-      ]
     }
   ],
-  "fasilitas": [],
+  "fasilitas": [
+    "Toilet (direktori publik; konfirmasi)",
+    "Parkir (direktori publik; konfirmasi)",
+    "Pembayaran kartu (direktori publik; konfirmasi)"
+  ],
   "asuransi": [],
+  "maps": {
+    "rating": 4.9,
+    "ulasan": 134,
+    "src": "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
+    "tgl": "2026-10-18"
+  },
   "keunggulan": [
-    "Lokasi praktik tercantum di Jl. Raya Cirendeu Blok Mekar B2 No.99."
+    "Lokasi tercantum jelas di Jl. Raya Cirendeu Blok Mekar B2 No.99, Ciputat Timur.",
+    "Jam praktik tercantum Senin–Jumat hingga 20.00 dan Sabtu hingga 15.00 pada direktori publik.",
+    "Telepon kantor 02174718597 tercantum pada lebih dari satu direktori publik."
   ],
   "situs_lama": [
-    "WhatsApp resmi belum terverifikasi; tombol WA harus nonaktif sampai ada konfirmasi.",
-    "Situs mandiri resmi dan jadwal dokter belum ditemukan."
+    "Belum ditemukan situs resmi mandiri yang memuat jadwal dokter dan daftar layanan klinik.",
+    "Nomor WhatsApp resmi tidak terverifikasi; tautan chat tanpa nomor bukan bukti kontak klinik.",
+    "Tarif klinik dan penerimaan asuransi belum terverifikasi sehingga tidak boleh ditampilkan sebagai kepastian."
   ],
-  "ide_fitur_khas": "Perencana kunjungan: pilih hari dan siapkan pertanyaan untuk klinik; jadwal dan saluran kontak hanya aktif setelah verifikasi.",
-  "catatan": "WA tetap belum ditemukan. Tombol Chat CariBisnis mengarah ke wa.me/?text= tanpa nomor: bukan bukti WA klinik. Telepon tetap 02174718597 didukung dua direktori. Profil Practo gagal 403; identitas dokter pada hasil pencarian tidak dipakai tanpa halaman terbaca. Rating direktori 4.9/132 berbeda dari surat 4.9/126; angka maps dihapus karena belum terverifikasi langsung. Tarif scaling pembanding Tangerang Selatan dibuka ulang, bukan tarif klinik. Data valid dari RISET LAMA dipertahankan, bukan riset mulai dari nol. Rating/ulasan tak terverifikasi tidak dicantumkan. Angka harga adalah pembanding pasar, tidak boleh tampil sebagai tarif klinik.  Konten dan outreach adalah draf; jangan kirim. Pernyataan konsep tersedia dan PDF terlampir harus diperiksa oleh pengirim sebelum digunakan. Daftar layanan klinis belum cukup terverifikasi untuk empat kartu tindakan. Empat kartu konten berupa panduan pertanyaan kunjungan, bukan klaim tersedianya tindakan. Konfirmasi klinik diperlukan sebelum menggantinya dengan layanan klinis. BLOKIR CTA WHATSAPP: pesan_wa_default hanya draf; jangan membuat tautan aktif sebelum nomor resmi ditemukan. Audit pembanding veneer: 850000 di https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/veneer-gigi, 3035000 di https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/veneer-gigi, 975000 di https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/veneer-gigi. Audit pembanding implan: 15000000 di https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/implan-gigi, 20700000 di https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/implan-gigi, 12750000 di https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/implan-gigi. Kategori tanpa tiga pembanding layak dan angka terbukti (elemen dihapus, bukan null/nol): tambal, cabut, behel metal, bleaching. Behel umum tidak disamakan dengan behel metal. Rentang biaya awal pembanding bukan batas biaya akhir; bahan, jumlah gigi dan komponen paket perlu konfirmasi.",
+  "ide_fitur_khas": "Perencana kunjungan Cirendeu: pilih hari, cek jam yang tercatat, susun pertanyaan untuk klinik dan tampilkan telepon kantor; tanpa tombol WA sebelum nomor terverifikasi.",
+  "catatan": "REVISI 2026-10-18: identitas, alamat, nomor telepon tetap 02174718597 dan jam dari IndonesiaKnowledge serta AlamatSehat. Pencarian situs, Google Places, direktori dan tautan chat tidak menghasilkan nomor WhatsApp yang secara eksplisit milik Klinik Gigi Cirendeu; wa.v tetap null, jangan menyamakan dengan Lya Dental, FDC Cirendeu, atau klinik tetangga. Data Google Places saat pencarian menampilkan rating 4.9 dan 134 ulasan (berubah dari 126 surat tugas dan 132 pada direktori); angka dinamis tidak digunakan di konten. Harga scaling pembanding berasal dari tiga fasilitas lain di Tangerang Selatan, bukan tarif klinik; tidak boleh ditampilkan sebagai biaya klinik. Veneer dan implan dari riset lama tidak dimasukkan karena sebagian halaman pembanding tak dapat dibuka ulang hari ini, sehingga tiga harga independen tidak seluruhnya terverifikasi. Layanan klinik masih perlu konfirmasi, bukan daftar resmi. WhatsApp harus tetap nonaktif; gunakan telepon kantor yang terverifikasi. Outreach adalah draf, pastikan konsep web benar-benar ada dan proposal PDF terlampir sebelum pengiriman.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
     "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1",
+    "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
     "https://orangedentalhouse.com/tangerang-selatan",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi",
-    "https://www.practo.com/south-tangerang/clinic/confidence-dental-care-cilandak-1",
-    "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/veneer-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/veneer-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/veneer-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/implan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/implan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/implan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-pamulang/tambal-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/tambal-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/tambal-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-pamulang/cabut-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/cabut-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/cabut-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mydents-dental-care-bintaro-sektor-9/pemutihan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/rsia-dhia/pemutihan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/eka-hospital-bsd/pemutihan-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/scaling-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/tambal-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/cabut-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemasangan-kawat-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/pemutihan-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/veneer-gigi/tangerang-selatan",
-    "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/implan-gigi/tangerang-selatan"
+    "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
   ]
 }

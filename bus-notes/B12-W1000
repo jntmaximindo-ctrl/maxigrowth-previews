@@ -6,7 +6,7 @@ RISET LAMA:
   "nama": {
     "v": "Klinik Pratama CENDANA",
     "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
-    "tgl": "2026-10-17",
+    "tgl": "2026-10-18",
     "yakin": "tinggi"
   },
   "kota": "Jakarta Barat",
@@ -14,34 +14,34 @@ RISET LAMA:
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-17",
+    "tgl": "2026-10-18",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-17",
+    "tgl": "2026-10-18",
     "yakin": "rendah"
   },
   "cabang": [
     {
       "nama": "Klinik Pratama CENDANA — Tanah Sereal",
       "alamat": {
-        "v": "Jl. Tanah Sereal VI No 10, RT.6/RW.13, Tanah Sereal, Tambora, Jakarta Barat 11210",
+        "v": "Jl. Tanah Sereal VI No.10, RT.6/RW.13, Tanah Sereal, Tambora, Jakarta Barat 11210",
         "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
-        "tgl": "2026-10-17",
+        "tgl": "2026-10-18",
         "yakin": "tinggi"
       },
       "telepon": {
         "v": "0216492837",
         "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
-        "tgl": "2026-10-17",
+        "tgl": "2026-10-18",
         "yakin": "tinggi"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-17",
+        "tgl": "2026-10-18",
         "yakin": "rendah"
       },
       "jam": {
@@ -55,7 +55,7 @@ RISET LAMA:
           "min": "00-24"
         },
         "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
-        "tgl": "2026-10-17",
+        "tgl": "2026-10-18",
         "yakin": "sedang"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Pratama%20CENDANA%20Tanah%20Sereal%20Tambora&query_place_id=ChIJ2azFHXP2aS4RMlLNXG9MxMc"
@@ -64,22 +64,19 @@ RISET LAMA:
   "dokter": [],
   "layanan": [
     "Layanan kesehatan umum (klinik pratama)",
-    "Pemeriksaan dan konsultasi gigi (sumber direktori; konfirmasi)",
-    "Scaling gigi (sumber direktori; konfirmasi)",
-    "Tambal gigi (sumber direktori; konfirmasi)",
-    "Cabut gigi (sumber direktori; konfirmasi)",
-    "Perawatan saluran akar (sumber direktori; konfirmasi)"
+    "Konsultasi/pemeriksaan gigi — tertera sebagai kategori klinik gigi pada direktori; jenis tindakan perlu dikonfirmasi"
   ],
   "harga": [
     {
-      "perawatan": "Scaling gigi — perbandingan pasar Jakarta Barat, bukan tarif Klinik CENDANA",
+      "perawatan": "Scaling gigi — pembanding pasar Jakarta Barat, bukan tarif Klinik CENDANA",
       "jenis": "kisaran_pasar",
       "min": 138000,
       "max": 700000,
       "src": [
         "https://hdmall.id/highlight/scaling",
         "https://www.omdc.co.id/",
-        "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/"
+        "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+        "https://orangedentalhouse.com/jakarta-barat/"
       ]
     }
   ],
@@ -89,42 +86,36 @@ RISET LAMA:
     "rating": 5.0,
     "ulasan": 11894,
     "src": "https://caribisnis.id/dokter-gigi/jakarta-barat/tambora/klinik-pratama-cendana-tamb-imp1",
-    "tgl": "2026-10-17"
+    "tgl": "2026-10-18"
   },
   "keunggulan": [
-    "Terdaftar di halaman fasilitas kesehatan Kecamatan Tambora dengan alamat dan nomor telepon.",
-    "Jam operasional klinik umum tercantum 24 jam setiap hari pada direktori Kecamatan Tambora; jam layanan dokter gigi dapat berbeda.",
-    "Direktori publik mencantumkan layanan umum dan gigi, tetapi rincian tindakan gigi belum dikonfirmasi langsung oleh klinik."
+    "Klinik tercantum pada direktori fasilitas kesehatan Kecamatan Tambora beserta alamat dan nomor telepon.",
+    "Jam fasilitas pada direktori Kecamatan Tambora tertulis buka 24 jam; bukan bukti dokter gigi tersedia sepanjang waktu."
   ],
   "situs_lama": [
-    "Tidak ditemukan situs resmi klinik untuk lokasi Tanah Sereal dalam sumber yang diperiksa.",
-    "Informasi alamat bertentangan antar direktori: Jl. Tanah Sereal VI No 10 dan Jl. Tanah Sereal VII No.126-C.",
-    "Jam praktik dokter gigi tidak jelas pada sumber utama meskipun klinik umum tercantum buka 24 jam.",
-    "Kontak WhatsApp resmi belum dapat dipastikan."
+    "Belum ditemukan website resmi untuk lokasi Tanah Sereal pada sumber yang diperiksa.",
+    "Alamat dan nomor telepon tidak konsisten: Kecamatan Tambora menyebut Jl. Tanah Sereal VI No.10 dan telepon (021) 6492837, sedangkan Waze bahasa Belanda menyebut Jl. Tanah Sereal VII No.126-C dan 0811-9228-168.",
+    "Nomor WhatsApp resmi tidak tercantum secara eksplisit; nomor seluler di peta belum dapat dipastikan sebagai WhatsApp.",
+    "Jadwal dokter gigi, tarif resmi, dan daftar dokter tidak ditemukan pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemandu kunjungan dua jalur: layanan umum 24 jam versus jadwal dokter gigi yang perlu dikonfirmasi; tampilkan nomor telepon dan peta, tanpa mengklaim dokter gigi tersedia sepanjang hari.",
-  "catatan": "Riset 17-10-2026. Tidak ada bagian REVISI dalam surat tugas. Nama, alamat, telepon dan jam umum didukung situs Kecamatan Tambora; direktori CariBisnis juga menyebut lokasi VI No 10. Waze untuk place_id sama menampilkan alamat VII No.126-C pada beberapa bahasa, dan nomor berbeda: jangan tampilkan sebagai alamat/cabang kedua tanpa konfirmasi. Jadwal gigi Senin-Sabtu 09-15 dan 16-20 serta Minggu 09-12 dan 13-16 hanya dari artikel sekunder lama, tidak dipakai sebagai fakta jadwal terbaru. Angka 5,0/11.894 dari CariBisnis, bukan pembacaan Google Maps langsung. Direktori CariBisnis tampak memiliki atribut generik (asuransi, WA, layanan kompleks); jangan menganggap sudah disahkan klinik. Kisaran scaling berasal dari tiga sumber pasar Jakarta Barat: HDmall memuat contoh AM Dental Cengkareng Rp138.000; OMDC Rp649.000; NK Health menyebut Rp300.000–700.000. Enam kategori harga lainnya tidak memenuhi verifikasi tiga sumber yang sebanding; tidak diisi. Tidak ada tarif resmi Cendana yang terverifikasi. Prioritas sebelum publikasi: telepon konfirmasi alamat, jadwal dokter gigi, tindakan, asuransi, dan nomor WhatsApp.",
+  "ide_fitur_khas": "Pemandu waktu kunjungan yang membedakan jam fasilitas 24 jam dengan jadwal layanan gigi yang harus dikonfirmasi melalui telepon; tampilkan catatan alamat yang perlu konfirmasi.",
+  "catatan": "REVISI 18-10-2026: telah ditelusuri Waze beberapa bahasa, direktori Kecamatan Tambora, rekom.id, dan pencarian WhatsApp/nomor seluler. Tidak ditemukan bukti eksplisit bahwa 0811-9228-168 atau 0813-1231-3201 merupakan nomor WhatsApp resmi klinik; wa tetap null. Nomor telepon tetap 0216492837 bersumber dari direktori Kecamatan Tambora. Waze bahasa Indonesia mencantumkan alamat VI No.10 dan nomor 0216492837, sedangkan Waze bahasa Belanda/Inggris untuk place ID sama mencantumkan alamat VII No.126-C dengan nomor seluler berbeda. Jangan menggabungkan alamat dan telepon dari dua entri yang belum terverifikasi identitasnya. Kecamatan Tambora sendiri memuat RT.6 dan RT.7 untuk alamat VI No.10; gunakan RT.6 dari entri dengan telepon dan tandai perlu konfirmasi. Jam 24 jam adalah jam fasilitas, bukan jaminan dokter gigi hadir. Rating 5.0 dan 11.894 ulasan bersumber dari halaman CariBisnis yang berhasil dibuka, bukan pembacaan Google Maps langsung; data dapat berubah. Harga scaling hanya kisaran pasar dari AM Dental Cengkareng Rp138.000 (HDmall), Orange Dental Jakarta Barat Rp249.000, OMDC Rp649.000, dan artikel NK Health Rp300.000–700.000; bukan tarif Cendana. Kategori lain belum cukup 3 pembanding yang sesuai dan tidak diisi. Halaman Dinkes Jakarta ditemukan melalui hasil pencarian tetapi tidak berhasil dibuka langsung (timeout); alamat email dari cuplikan tersebut tidak diangkat sebagai fakta. Status BPJS dan tindakan rinci belum terkonfirmasi; jangan klaim kerja sama. Konten/outreach draf, konsep dan lampiran PDF harus dicek pengirim. Jangan aktifkan CTA WhatsApp sebelum nomor resmi diverifikasi.",
   "sumber": [
     "https://kecamatantambora.com/fasilitas/page-kesehatan/",
-    "https://caribisnis.id/dokter-gigi/jakarta-barat/tambora/klinik-pratama-cendana-tamb-imp1",
-    "https://poltekkes.web.id/klinik-pratama-cendana/",
     "https://www.waze.com/id/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
     "https://www.waze.com/nl/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
+    "https://rekom.id/kesehatan/10-klinik-di-grogol-petamburan/",
+    "https://caribisnis.id/dokter-gigi/jakarta-barat/tambora/klinik-pratama-cendana-tamb-imp1",
     "https://hdmall.id/highlight/scaling",
     "https://www.omdc.co.id/",
-    "https://omdc.co.id/location",
-    "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/"
+    "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
+    "https://orangedentalhouse.com/jakarta-barat/"
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Tanah Sereal VI No 10, RT.6/RW.13, Tanah Sereal, Tambora, Jakarta Barat 11210",
-      "catatan": "Pada halaman Kecamatan Tambora ada dua entri: Jl. Tanah Sereal VI No.10 RT.6/RW.13 dan Jl. Tanah Sereal VI No.10 RT.7/RW.13. Waze untuk tempat yang sama menampilkan Jl. Tanah Sereal VII 126-C."
-    },
-    {
       "path": "harga[0].min",
       "tercatat": 138000,
-      "catatan": "HDmall tidak dapat dibuka; angka Rp138.000 belum dapat diverifikasi ulang dari sumber yang dikutip. OMDC menampilkan Basic Scaling Rp649.000."
+      "catatan": "Angka Rp138.000 tidak ditemukan pada halaman katalog yang dibaca. Belum terbukti sebagai harga scaling pembanding Jakarta Barat; NK Health memuat kisaran umum, bukan harga satu klinik."
     }
   ]
 }

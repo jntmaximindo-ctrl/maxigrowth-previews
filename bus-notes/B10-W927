@@ -1,78 +1,12 @@
-REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B10/W927/konten.json: 0 pelanggaran, 0 peringatan
 
-RISET LAMA:
-{
-  "id": "W927",
-  "nama": {
-    "v": "Mesemayu Dental Care",
-    "src": "https://www.facebook.com/mesemayudentalcare/videos/mesemayu/1022839910778074/",
-    "tgl": "2026-10-17",
-    "yakin": "sedang"
-  },
-  "kota": "Malang",
-  "zona_waktu": "WIB",
-  "instagram": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "email": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "cabang": [
-    {
-      "nama": "Mesemayu Dental Care",
-      "alamat": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "telepon": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "wa": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "maps_url": ""
-    }
-  ],
-  "dokter": [],
-  "layanan": [],
-  "harga": [],
-  "fasilitas": [],
-  "asuransi": [],
-  "maps": {
-    "rating": null,
-    "ulasan": null,
-    "src": null,
-    "tgl": "2026-10-17"
-  },
-  "keunggulan": [],
-  "situs_lama": [
-    "Jadwal dokter dan tarif resmi lengkap belum terverifikasi pada halaman yang terbaca."
-  ],
-  "ide_fitur_khas": "Formulir persiapan pertanyaan Mesemayu yang aktif setelah lokasi, jadwal dan kontak resmi dikonfirmasi.",
-  "catatan": "Kanal sosial teridentifikasi tetapi tidak dapat dimuat. Alamat pada cuplikan Instagram generik belum cukup untuk verifikasi; alamat, kontak, jam, dokter, layanan dan harga null/kosong. Tidak memakai klinik Senyum atau Mesemanis yang berbeda entitas. Harga resmi tujuh kategori belum lengkap terverifikasi. Jangan gunakan angka pembanding sebagai tarif klinik. Nama/gelar dokter dan asuransi yang belum terbukti tidak diisi. Nomor telepon seluler tidak otomatis dianggap WhatsApp. Rating/ulasan Google Maps live belum terbaca.  Konten adalah draf; verifikasi website konsep benar tersedia dan PDF benar terlampir sebelum memakai outreach. Tidak ada pesan dikirim. Kategori harga belum ditemukan dari tiga pembanding setara: scaling, tambal, cabut, behel metal, bleaching, veneer, implan. Elemen harga tak terbukti tidak ditulis; harga=[] berarti belum tersedia data terverifikasi, bukan tarif nol.",
-  "sumber": [
-    "https://www.facebook.com/mesemayudentalcare/videos/mesemayu/1022839910778074/",
-    "https://id.linkedin.com/in/lunakania",
-    "https://www.instagram.com/mesemayu_dentalcare/"
-  ]
-}
+✗ riset.schema.json → harga/0/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/1/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/2/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/3/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/4/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/5/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/6/src: None is not of type 'string', 'array'
+GAGAL (7 masalah)
+

@@ -1,79 +1,12 @@
-REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B11/W986/konten.json: 0 pelanggaran, 0 peringatan
 
-RISET LAMA:
-{
-  "id": "W986",
-  "nama": {
-    "v": "Zeyn Dental Care | Praktek Dokter Gigi Depok",
-    "src": "https://indonesiaknowledge.com/directory/dental/depok/zeyn-dental-care-praktek-dokter-gigi-depok-depok",
-    "tgl": "2026-10-17",
-    "yakin": "sedang"
-  },
-  "kota": "Depok",
-  "zona_waktu": "WIB",
-  "instagram": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "email": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-17",
-    "yakin": "rendah"
-  },
-  "cabang": [
-    {
-      "nama": "Zeyn Dental Care | Praktek Dokter Gigi Depok",
-      "alamat": {
-        "v": "Jl. Tole Iskandar No.17, Sukmajaya, Depok 16412",
-        "src": "https://indonesiaknowledge.com/directory/dental/depok/zeyn-dental-care-praktek-dokter-gigi-depok-depok",
-        "tgl": "2026-10-17",
-        "yakin": "sedang"
-      },
-      "telepon": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "wa": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-17",
-        "yakin": "rendah"
-      },
-      "maps_url": ""
-    }
-  ],
-  "dokter": [],
-  "layanan": [],
-  "harga": [],
-  "fasilitas": [],
-  "asuransi": [],
-  "maps": {
-    "rating": null,
-    "ulasan": null,
-    "src": null,
-    "tgl": "2026-10-17"
-  },
-  "keunggulan": [
-    "Lokasi praktik tercantum di Jl. Tole Iskandar No.17."
-  ],
-  "situs_lama": [
-    "Jadwal dokter dan tarif resmi lengkap belum terverifikasi pada halaman yang terbaca."
-  ],
-  "ide_fitur_khas": "Pemandu Zeyn Tole Iskandar dengan permintaan konfirmasi jadwal Senin sebelum kunjungan.",
-  "catatan": "Jam KnowledgeSeninbuka, CariBisnisSenintutup; jam null. Tidak ada nomor kontak pada halaman terbaca. Klaim asuransi/harga/tindakan generik CariBisnis tidak dipakai. Harga resmi tujuh kategori belum lengkap terverifikasi. Jangan gunakan angka pembanding sebagai tarif klinik. Nama/gelar dokter dan asuransi yang belum terbukti tidak diisi. Nomor telepon seluler tidak otomatis dianggap WhatsApp. Rating/ulasan Google Maps live belum terbaca.  Konten adalah draf; verifikasi website konsep benar tersedia dan PDF benar terlampir sebelum memakai outreach. Tidak ada pesan dikirim.",
-  "sumber": [
-    "https://indonesiaknowledge.com/directory/dental/depok/zeyn-dental-care-praktek-dokter-gigi-depok-depok",
-    "https://caribisnis.id/dokter-gigi/depok/sukmajaya/zeyn-dental-care-praktek-dokte-sukm-imp1"
-  ]
-}
+✗ riset.schema.json → harga/0/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/1/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/2/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/3/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/4/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/5/src: None is not of type 'string', 'array'
+✗ riset.schema.json → harga/6/src: None is not of type 'string', 'array'
+GAGAL (7 masalah)
+
