@@ -72,5 +72,17 @@
   "sumber": [
     "https://linktr.ee/cynthiadentalcenter",
     "https://id850857-cynthia-dental-center.contact.page/map"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Keadilan Raya No.10, Abadijaya, Sukmajaya, Depok 16418",
+      "catatan": "Alamat tidak tertulis pada teks halaman; hanya tombol Location dan tujuan tidak dapat dibaca."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281399794023",
+      "catatan": "Tombol WhatsApp ada, tetapi nomor tujuan tidak terungkap pada hasil pembacaan; angka belum terverifikasi."
+    }
   ]
 }

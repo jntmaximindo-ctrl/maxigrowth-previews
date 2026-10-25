@@ -1,0 +1,132 @@
+{
+  "id": "W746",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan drg. Yessica Nainggolan",
+      "en": "Plan your visit to drg. Yessica Nainggolan"
+    },
+    "sub": {
+      "id": "Praktik dokter gigi di kawasan Sari Tama, Tandes, Surabaya. Konfirmasi jadwal sebelum datang.",
+      "en": "A dental practice in the Sari Tama area of Tandes, Surabaya. Please confirm your appointment before visiting."
+    },
+    "cta": {
+      "id": "Siapkan janji kunjungan",
+      "en": "Plan an appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Ceritakan keluhan dan tanyakan pemeriksaan yang sesuai.",
+        "en": "Describe your concerns and ask which examination is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pencabutan gigi",
+        "en": "Tooth extraction information"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pencabutan sesuai dengan kondisi gigi Anda setelah pemeriksaan.",
+        "en": "Ask whether extraction may be appropriate after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Before your visit"
+      },
+      "ringkas": {
+        "id": "Siapkan waktu pilihan dan informasi singkat mengenai keluhan gigi.",
+        "en": "Prepare your preferred time and a brief description of your dental concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan setelah pemeriksaan",
+        "en": "After-visit guidance"
+      },
+      "ringkas": {
+        "id": "Catat petunjuk dokter dan waktu kontrol bila diperlukan.",
+        "en": "Keep a note of your dentist’s advice and any recommended follow-up."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemandu janji temu",
+      "en": "Appointment planning guide"
+    },
+    "penjelasan": {
+      "id": "Pilih waktu yang diinginkan, tulis keluhan singkat, lalu konfirmasi ketersediaan melalui WhatsApp sebelum berangkat.",
+      "en": "Select a preferred time, briefly describe your concern, and confirm availability on WhatsApp before travelling."
+    },
+    "alasan_dipilih": "Profil praktik menampilkan jam fleksibel dan sumber publik menyebut janji temu melalui WhatsApp."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Sari Tama No.2, Tandes, Surabaya 60186. Mintalah petunjuk lokasi bila perlu.",
+        "en": "The listed address is Jl. Sari Tama No.2, Tandes, Surabaya 60186. Ask for directions if needed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah praktik buka 24 jam?",
+        "en": "Is the practice open 24 hours?"
+      },
+      "a": {
+        "id": "Profil Maps mencantumkan 24 jam, tetapi kedatangan perlu dikonfirmasi melalui WhatsApp terlebih dahulu.",
+        "en": "The Maps listing shows 24-hour availability, but please confirm an appointment on WhatsApp before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I make an appointment?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan WhatsApp 0821 3228 9520 untuk reservasi. Sebutkan waktu pilihan dan keluhan singkat.",
+        "en": "A public directory lists WhatsApp +62 821 3228 9520 for appointments. Share your preferred time and a brief concern."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan atau tindakan?",
+        "en": "How much do visits and treatments cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Mintalah penjelasan biaya sebelum tindakan dilakukan.",
+        "en": "An official price list was not found. Ask for a fee estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pasien anak atau asuransi?",
+        "en": "Do you treat children or accept insurance?"
+      },
+      "a": {
+        "id": "Informasi layanan anak dan asuransi belum terverifikasi. Tanyakan langsung saat membuat janji.",
+        "en": "Children’s care and insurance arrangements have not been verified. Please ask when booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi waktu sebelum datang",
+    "en": "Confirm your time before visiting"
+  },
+  "pesan_wa_default": "Halo drg. Yessica, saya ingin membuat janji pemeriksaan gigi. Apakah tersedia jadwal pada [hari/jam]? Keluhan saya: [tulis singkat]. Terima kasih.",
+  "outreach": {
+    "wa": "Halo drg. Yessica, saya Rizqi dari Maxi Growth Studio. Saya melihat praktik dokter di Jl. Sari Tama, Tandes, dengan informasi reservasi melalui WhatsApp. Kami telah menyiapkan konsep website ringkas untuk informasi lokasi dan janji kunjungan: https://maxigrowthstudio.com/drg-yessica. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Yessica Nainggolan",
+    "email_isi": "Yth. drg. Yessica Nainggolan,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik dokter di Jl. Sari Tama, Tandes, Surabaya, termasuk kebutuhan konfirmasi jadwal melalui WhatsApp.\n\nKami menyiapkan konsep website yang memudahkan pasien melihat lokasi, membaca informasi kunjungan, dan menyiapkan pertanyaan sebelum membuat janji. Konsepnya dapat ditinjau di https://maxigrowthstudio.com/drg-yessica. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nApabila ada informasi yang perlu dikoreksi, kami terbuka untuk menyesuaikannya. Terima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

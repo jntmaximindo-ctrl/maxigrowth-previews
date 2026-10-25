@@ -80,5 +80,17 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/surakarta/tumbuh-dental-center-klinik-gigi-utama-surakarta",
     "https://linktr.ee/TUMBUHDentalCenter"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v.sel",
+      "tercatat": "09-12,16-21",
+      "catatan": "16-21"
+    },
+    {
+      "path": "cabang[0].jam.v.rab",
+      "tercatat": "09-12,16-21",
+      "catatan": "16-21"
+    }
   ]
 }

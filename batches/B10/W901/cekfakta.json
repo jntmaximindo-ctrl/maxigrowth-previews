@@ -1,0 +1,22 @@
+{
+  "id": "W901",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.sel",
+      "tercatat": "09-12,16-21",
+      "di_sumber": "16-21",
+      "src": "https://indonesiaknowledge.com/directory/dental/surakarta/tumbuh-dental-center-klinik-gigi-utama-surakarta",
+      "catatan": "Selasa hanya sesi sore pada sumber."
+    },
+    {
+      "path": "cabang[0].jam.v.rab",
+      "tercatat": "09-12,16-21",
+      "di_sumber": "16-21",
+      "src": "https://indonesiaknowledge.com/directory/dental/surakarta/tumbuh-dental-center-klinik-gigi-utama-surakarta",
+      "catatan": "Rabu hanya sesi sore pada sumber."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

@@ -1,0 +1,39 @@
+{
+  "id": "W1034",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Komplek Bukit Mekar Indah Blok E No.8, Cimekar, Cileunyi, Kabupaten Bandung 40622",
+      "di_sumber": null,
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-bandung/lapan-dental-care-cileunyi/",
+      "catatan": "Nilai tidak ditemukan pada teks halaman yang terbaca; halaman hanya memuat tautan Alamat/Telepon/Jam Bisnis. Pembukaan lanjutan HTTP 429, sehingga nilai belum terverifikasi."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082118255461",
+      "di_sumber": null,
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-bandung/lapan-dental-care-cileunyi/",
+      "catatan": "Nilai tidak ditemukan pada teks halaman yang terbaca; halaman hanya memuat tautan Alamat/Telepon/Jam Bisnis. Pembukaan lanjutan HTTP 429, sehingga nilai belum terverifikasi."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-12,15-19",
+        "sel": "09-11:30,13-19",
+        "rab": "09-19",
+        "kam": "09-11:30,15-19",
+        "jum": "09-12,15-19",
+        "sab": "09-12,13-18",
+        "min": "10-15:30"
+      },
+      "di_sumber": null,
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-bandung/lapan-dental-care-cileunyi/",
+      "catatan": "Nilai tidak ditemukan pada teks halaman yang terbaca; halaman hanya memuat tautan Alamat/Telepon/Jam Bisnis. Pembukaan lanjutan HTTP 429, sehingga nilai belum terverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://halomewah.com/klinik-kecantikan/kabupaten-bandung/lapan-dental-care-cileunyi/"
+  ],
+  "kritis_ok": false
+}
