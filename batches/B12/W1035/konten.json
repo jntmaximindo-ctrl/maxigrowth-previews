@@ -1,0 +1,142 @@
+{
+  "id": "W1035",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Hartalentia Dental Care",
+      "en": "Plan Your Visit to Hartalentia Dental Care"
+    },
+    "sub": {
+      "id": "Informasi lokasi di Cileunyi Wetan dan kontak klinik untuk merencanakan kunjungan.",
+      "en": "Location and contact details in Cileunyi Wetan to help you plan your visit."
+    },
+    "cta": {
+      "id": "Hubungi Klinik",
+      "en": "Contact the Clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Bicarakan keluhan dan kebutuhan pemeriksaan sebelum kunjungan.",
+        "en": "Discuss your concerns and checkup needs before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Keluhan Mendesak",
+        "en": "Urgent Dental Concerns"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk menanyakan kesiapan penanganan sebelum datang.",
+        "en": "Contact the clinic first to check whether urgent care is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kunjungan Keluarga",
+        "en": "Family Visits"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan untuk anggota keluarga sesuai usia.",
+        "en": "Ask whether appointments are available for family members of different ages."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana Perawatan",
+        "en": "Treatment Planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan tindakan, jadwal, dan perkiraan biaya langsung dengan tim klinik.",
+        "en": "Discuss treatment options, timing, and estimated costs directly with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan dan Keluhan Mendesak",
+      "en": "Visit and Urgent Concern Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan Anda dan lihat pertanyaan untuk disampaikan saat menghubungi klinik.",
+      "en": "Choose your concern to see useful questions to ask when contacting the clinic."
+    },
+    "alasan_dipilih": "Google Maps mencantumkan kontak dan jam 24 jam, tetapi kesiapan dokter perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Alamat tercantum: Komplek Bumi Panineungan, Jl. Paledang No.22, Cileunyi Wetan, Kabupaten Bandung, Jawa Barat 40622. Gunakan peta untuk petunjuk arah.",
+        "en": "The listed address is Komplek Bumi Panineungan, Jl. Paledang No.22, Cileunyi Wetan, Kabupaten Bandung, Jawa Barat 40622. Use the map for directions."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Peta mencantumkan buka 24 jam setiap hari. Konfirmasikan ketersediaan dokter sebelum berangkat.",
+        "en": "The map lists 24-hour opening. Confirm a dentist is available before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal kunjungan?",
+        "en": "How can I ask about an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak klinik dan sampaikan hari serta kebutuhan pemeriksaan.",
+        "en": "Contact the clinic and share your preferred day and dental concern."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does a checkup cost?"
+      },
+      "a": {
+        "id": "Tarif belum terverifikasi secara publik. Silakan minta estimasi langsung dari klinik.",
+        "en": "No verified public price list was found. Please request an estimate from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Tanyakan kepada petugas klinik.",
+        "en": "Insurance participation has not been verified. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa datang untuk keluhan mendesak?",
+        "en": "Can I visit for an urgent dental concern?"
+      },
+      "a": {
+        "id": "Peta mencantumkan buka 24 jam. Hubungi klinik terlebih dahulu untuk memastikan dokter tersedia.",
+        "en": "The map lists 24-hour opening. Call first to confirm a dentist is available."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan informasi kunjungan",
+    "en": "Ask About Appointments and Visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan di Hartalentia Dental Care. Apakah ada slot tersedia dan berapa perkiraan biayanya? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Hartalentia Dental Care, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi lokasi Hartalentia Dental Care di Cileunyi Wetan serta kontak klinik yang tercantum. Kami sudah membuat konsep website untuk klinik Anda yang dapat dilihat di https://maxigrowthstudio.com/hartalentia. Bila berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Hartalentia Dental Care",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Hartalentia Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi lokasi dan kontak klinik di Cileunyi Wetan.\n\nKami telah menyiapkan konsep website untuk klinik Anda yang dapat ditinjau di https://maxigrowthstudio.com/hartalentia. Proposal PDF juga kami lampirkan sebagai bahan pertimbangan.\n\nBila berkenan, kami terbuka untuk menerima masukan atau berdiskusi lebih lanjut. Tidak ada kewajiban untuk menindaklanjuti.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

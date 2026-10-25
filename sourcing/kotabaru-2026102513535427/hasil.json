@@ -1,0 +1,87 @@
+{
+ "kota": "Kotabaru",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-25",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Familia Dental Care Kotabaru",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://linktr.ee/familia.dentalcare",
+   "alasan": "Profil praktik dan tombol reservasi terbaca. Rating5/386 hanya cuplikan kotabaru.app; halaman gagal dibuka, sehingga angka tidak dipakai."
+  },
+  {
+   "nama": "drg. Saptono P. Agung, MMRS",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.faskesbpjs.com/2023/07/faskes-kotabaru.html",
+   "alasan": "Praktik Jl.P.Hidayat07 tercantum; rating/ulasan dan WA tidak terlihat."
+  },
+  {
+   "nama": "Poli Bedah Mulut RSUD Pangeran Jaya Sumitra",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rsud.kotabarukab.go.id/rawat-jalan",
+   "alasan": "Layanan tercantum; rating/ulasan tidak tersedia."
+  },
+  {
+   "nama": "Puskesmas Dirgahayu",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://eplanning-ditjennakes.kemkes.go.id/indikator/user/persentase_terpenuhi/SKMPKMKAB/prov/63/kab/6302",
+   "alasan": "Tenaga dokter gigi tercatat; website si-dirgahayu.web.id memiliki tautanWA, tetapi rating/jumlah ulasan tidak terlihat."
+  },
+  {
+   "nama": "Puskesmas Kotabaru",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://eplanning-ditjennakes.kemkes.go.id/indikator/user/persentase_terpenuhi/SKMPKMKAB/prov/63/kab/6302",
+   "alasan": "Tenaga dokter gigi tercatat; tidak ada angka rating/ulasan."
+  },
+  {
+   "nama": "Puskesmas Sebatung",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://eplanning-ditjennakes.kemkes.go.id/indikator/user/persentase_terpenuhi/SKMPKMKAB/prov/63/kab/6302",
+   "alasan": "Tenaga dokter gigi tercatat; tidak ada angka rating/ulasan."
+  }
+ ],
+ "pencarian": [
+  "klinik gigi Kotabaru Kalimantan Selatan rating",
+  "dokter gigi Kotabaru whatsapp",
+  "drg praktik mandiri Kotabaru Kalimantan Selatan",
+  "dental clinic Kotabaru Kalimantan Selatan",
+  "Kotabaru Kalimantan Selatan klinik gigi halodoc alodokter",
+  "\"Familia Dental\" \"Kotabaru\" rating",
+  "\"dokter gigi\" \"Kotabaru\" \"Semayap\"",
+  "\"dokter gigi\" \"Kotabaru\" \"rating\"",
+  "\"Familia Dental Care\" \"Kotabaru\"",
+  "\"dokter gigi\" \"site:kotabaru.app\"",
+  "\"Kotabaru\" \"dental\" \"rating\" \"Kalimantan\"",
+  "\"Kotabaru\" \"dokter gigi\" \"Sebatung\"",
+  "\"Kotabaru\" \"dokter gigi\" \"Dirgahayu\"",
+  "\"Kotabaru\" \"dokter gigi\" \"praktek\"",
+  "\"familia.dentalcare\" email"
+ ],
+ "catatan": [
+  "KNOWN-KLINIK diperiksa, Familia/Saptono/Kotabaru tidak ditemukan.",
+  "Area pusat Kotabaru Kalimantan Selatan; hasil Kotabaru Yogyakarta,Serang,Pontianak dikeluarkan. Sengayam di luar pusat tidak dipakai.",
+  "Enam fasilitas terkait gigi diperiksa; tidak ada kandidat yang memenuhi seluruh bukti rating,ulasan,WA dari halaman yang terbaca. Tidak menghubungi klinik."
+ ],
+ "tidak_bisa_dibuka": [
+  {
+   "url": "https://kotabaru.app/usaha/familia-dental-care-kotabaru-seberang-smp-1-w2j23",
+   "kendala": "Halaman tak dapat diakses, termasuk percobaan trailing slash."
+  },
+  {
+   "url": "https://www.instagram.com/familia.dentalcare/",
+   "kendala": "Gagal fetch."
+  },
+  {
+   "url": "https://linktr.ee/familia.dentalcare",
+   "kendala": "Profil terbaca, dua tujuan reservasi/alamat gagal dibaca sehingga nomor tujuan tidak dikarang."
+  }
+ ]
+}

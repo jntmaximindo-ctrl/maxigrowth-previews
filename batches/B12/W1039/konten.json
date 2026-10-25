@@ -1,0 +1,142 @@
+{
+  "id": "W1039",
+  "hero": {
+    "judul": {
+      "id": "Orela Dental Care TKI",
+      "en": "Orela Dental Care TKI"
+    },
+    "sub": {
+      "id": "Informasi lokasi, jam buka, dan kontak klinik di kawasan Taman Kopo Indah.",
+      "en": "Location, opening hours, and contact details in Taman Kopo Indah."
+    },
+    "cta": {
+      "id": "Hubungi Klinik",
+      "en": "Contact the Clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan persiapan sebelum datang.",
+        "en": "Ask about checkup times and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan Keluhan",
+        "en": "Discuss Your Concern"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi saat menghubungi klinik.",
+        "en": "Describe your dental concern when contacting the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal",
+        "en": "Opening Hours"
+      },
+      "ringkas": {
+        "id": "Lihat jam yang tercantum dan konfirmasikan slot tersedia.",
+        "en": "Review published hours and confirm an available appointment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Biaya",
+        "en": "Cost Enquiries"
+      },
+      "ringkas": {
+        "id": "Mintalah estimasi biaya sesuai pemeriksaan dan tindakan yang diperlukan.",
+        "en": "Ask for a cost estimate based on the care you may need."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Kunjungan TKI",
+      "en": "TKI Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan untuk melihat jam operasional dan pertanyaan sebelum membuat janji.",
+      "en": "Choose a day to view opening hours and questions to ask before booking."
+    },
+    "alasan_dipilih": "Google Maps mencantumkan jam hari Minggu sehingga pasien dapat merencanakan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Alamat tercantum: Jl. Taman Kopo Indah 1 No.11 Blk F, Margahayu Selatan, Kabupaten Bandung, Jawa Barat 40226. Gunakan peta untuk petunjuk arah.",
+        "en": "The listed address is Jl. Taman Kopo Indah 1 No.11 Blk F, Margahayu Selatan, Kabupaten Bandung, Jawa Barat 40226. Use the map for directions."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Peta mencantumkan Senin–Sabtu 10.00–20.00; Minggu 10.00–15.00. Konfirmasikan jadwal sebelum berangkat.",
+        "en": "The map lists Monday–Saturday 10am–8pm and Sunday 10am–3pm. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal kunjungan?",
+        "en": "How can I ask about an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak klinik dan sampaikan hari serta kebutuhan pemeriksaan.",
+        "en": "Contact the clinic and share your preferred day and dental concern."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does a checkup cost?"
+      },
+      "a": {
+        "id": "Tarif belum terverifikasi secara publik. Silakan minta estimasi langsung dari klinik.",
+        "en": "No verified public price list was found. Please request an estimate from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Tanyakan kepada petugas klinik.",
+        "en": "Insurance participation has not been verified. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sunday?"
+      },
+      "a": {
+        "id": "Jam Minggu yang tercantum 10.00–15.00. Konfirmasikan sebelum datang.",
+        "en": "Published Sunday hours are 10am–3pm. Please confirm before traveling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan informasi kunjungan",
+    "en": "Ask About Appointments and Visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan di Orela Dental Care TKI | Dokter Gigi Bandung. Apakah ada slot tersedia dan berapa perkiraan biayanya? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Orela Dental Care TKI | Dokter Gigi Bandung, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Orela Dental Care TKI mencantumkan jam buka hari Minggu di Google Maps. Kami sudah membuat konsep website untuk klinik Anda yang dapat dilihat di https://maxigrowthstudio.com/orela-tki. Bila berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Orela Dental Care TKI | Dokter Gigi Bandung",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Orela Dental Care TKI | Dokter Gigi Bandung,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi jam operasional klinik di Taman Kopo Indah.\n\nKami telah menyiapkan konsep website untuk klinik Anda yang dapat ditinjau di https://maxigrowthstudio.com/orela-tki. Proposal PDF juga kami lampirkan sebagai bahan pertimbangan.\n\nBila berkenan, kami terbuka untuk menerima masukan atau berdiskusi lebih lanjut. Tidak ada kewajiban untuk menindaklanjuti.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

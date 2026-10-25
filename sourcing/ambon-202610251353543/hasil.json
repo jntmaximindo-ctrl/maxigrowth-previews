@@ -1,0 +1,108 @@
+{
+ "kota": "Ambon",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-25",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Klinik Utama AJWA Health Center — layanan gigi",
+   "url": "https://klinikahc.com/",
+   "punya_website": true,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=-3.663844,128.1688968",
+   "rating": 4.6,
+   "ulasan": 14,
+   "telepon": "082223583945",
+   "wa": "6282223583945",
+   "email": "info@klinikahc.com",
+   "alamat": "Jl. Ir. M. Putuhena, Wayame, Kecamatan Teluk Ambon, Kota Ambon, Maluku 97234",
+   "skor_jadul": 0,
+   "masalah": [],
+   "sumber": [
+    "https://caregiving.id/direktori/maluku/klinik-kesehatan/",
+    "https://klinikahc.com/",
+    "https://klinikahc.com/doctors/47"
+   ],
+   "catatan": "Rating milik klinik keseluruhan, bukan khusus poli gigi. Layanan gigi dan drg. Winda dikonfirmasi situs resmi. WA tertulis jelas dan href wa.me cocok. Email terdapat dalam konfigurasi COMPANY pada HTML publik situs, belum diuji keterkirimannya. HTTPS, info dokter/layanan dan tombol WA terlihat; tidak ada penalti lain yang terbukti. Responsivitas HP dan kinerja belum diukur, bukan dinyatakan lulus pengujian."
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Praktek drg. Winda DM Masuku, Sp.PM — listing Wayame",
+   "rating": 5,
+   "ulasan": 5,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/ambon/praktek-drg-winda-dm-masuku-sp-pm-ambon",
+   "status": "WA nomor listing 081262009191 belum terverifikasi; tidak dipindahkan ke kontak AJWA"
+  },
+  {
+   "nama": "Praktek drg. Rachmawati Dian Puspitasari — Apotek Nadiva",
+   "rating": 5,
+   "ulasan": 1,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/ambon/praktek-drg-rachmawati-dian-puspitasari-apotek-nadiva-ambon",
+   "status": "kurang dari 3 ulasan"
+  },
+  {
+   "nama": "Apotek dan Klinik Teluk Ambon",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/apotek-dan-klinik-teluk-ambon-0911-3825046",
+   "status": "rating/ulasan tidak terlihat; kategori dokter gigi tercantum"
+  },
+  {
+   "nama": "Klinik Kai Medika",
+   "rating": 4.4,
+   "ulasan": 28,
+   "sumber": "https://halomewah.com/klinik-kecantikan/kota-ambon/klinik-kai-medika/",
+   "status": "rating kurang dari 4.5; ulasan menyebut klinik gigi"
+  },
+  {
+   "nama": "Klinik Utama AJWA Health Center",
+   "rating": 4.6,
+   "ulasan": 14,
+   "sumber": "https://caregiving.id/direktori/maluku/klinik-kesehatan/",
+   "status": "lolos; layanan gigi dibuktikan situs resmi"
+  },
+  {
+   "nama": "RSUP dr. Johannes Leimena — pelayanan gigi dan mulut",
+   "rating": 4.1,
+   "ulasan": 410,
+   "sumber": "https://www.kabartual.com/detail/25034/10-rumah-sakit-di-maluku-dengan-fasilitas-kesehatan-utama",
+   "status": "rating kurang dari 4.5; layanan gigi dikonfirmasi Kemenkes"
+  },
+  {
+   "nama": "Nia Dental Lab",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/ambon/nia-dental-lab-gigi-ambon-maluku-ambon",
+   "status": "rating/ulasan dan status praktik dokter tidak terverifikasi"
+  },
+  {
+   "nama": "Aras dental lab",
+   "rating": 5,
+   "ulasan": 1,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/ambon/aras-dental-lab-ambon",
+   "status": "ulasan kurang dari 3; laboratorium bukan praktik dokter yang terverifikasi"
+  }
+ ],
+ "pencarian": [
+  "klinik gigi Teluk Ambon Ambon",
+  "dokter gigi Teluk Ambon Ambon WhatsApp",
+  "drg praktik mandiri Teluk Ambon Ambon",
+  "dental clinic Teluk Ambon Ambon",
+  "\"Teluk Ambon\" \"klinik gigi\" halodoc alodokter",
+  "\"Winda DM Masuku\" whatsapp",
+  "\"Ajwa Health\" Ambon rating ulasan",
+  "\"Klinik Kai Medika\" rating ulasan",
+  "\"Winda\" \"081262009191\" WhatsApp",
+  "\"Winda\" \"Masuku\" \"email\" Ambon",
+  "\"RSUP Leimena\" \"rating\" \"ulasan\"",
+  "\"Apotek dan Klinik Teluk Ambon\" rating",
+  "\"Ajwa Health Center\" \"4.6\"",
+  "\"Ajwa Health Center\" WhatsApp email"
+ ],
+ "kriteria": {
+  "rating_min": 4.5,
+  "ulasan_min": 3,
+  "wa_wajib": true
+ },
+ "catatan": "KNOWN-KLINIK diperiksa; tidak menghubungi klinik."
+}
