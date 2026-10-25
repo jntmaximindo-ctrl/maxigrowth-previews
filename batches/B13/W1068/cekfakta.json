@@ -1,0 +1,17 @@
+{
+  "id": "W1068",
+  "diperiksa": 21,
+  "beda": [
+    {
+      "path": "dokter[5].nama",
+      "tercatat": "drg Firman Fathir R., Sp.BM",
+      "di_sumber": "drg Firman Fath R., Sp.BM",
+      "src": "https://adafamilydentalcare.digman.co.id/",
+      "catatan": "Riset menambahkan 'ir' pada nama Fath. Nama harus disalin persis dari sumber."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/ada-family-dental-care-praktek-dokter-gigi-singosari-kabupaten-malang-5pzq1ak8/"
+  ],
+  "kritis_ok": false
+}

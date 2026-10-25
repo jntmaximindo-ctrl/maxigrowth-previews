@@ -1,0 +1,17 @@
+{
+  "id": "W1062",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Diponegoro No.255, Lawang, Ardimulyo, Kec. Lawang, Kabupaten Malang, Jawa Timur 65153, Indonesia",
+      "di_sumber": null,
+      "src": "https://densia.id/kota/kabupaten-malang/layanan/perawatan-umum/",
+      "catatan": "Nama Seisha tidak ditemukan pada halaman yang dibaca; halaman kategori belum membuktikan alamat klinik ini."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJeyAtfADV1y0RfQE6rYNuiPk"
+  ],
+  "kritis_ok": false
+}

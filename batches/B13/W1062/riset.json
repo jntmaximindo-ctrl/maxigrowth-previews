@@ -89,5 +89,12 @@
     "https://www.google.com/maps/search/?api=1&query=Google&query_place_id=ChIJeyAtfADV1y0RfQE6rYNuiPk",
     "https://densia.id/kota/kabupaten-malang/layanan/perawatan-umum/",
     "https://bukutelepon.cybo.com/ID-kode-pos/65153_kota-malang/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Diponegoro No.255, Lawang, Ardimulyo, Kec. Lawang, Kabupaten Malang, Jawa Timur 65153, Indonesia",
+      "catatan": "Nama Seisha tidak ditemukan pada halaman yang dibaca; halaman kategori belum membuktikan alamat klinik ini."
+    }
   ]
 }

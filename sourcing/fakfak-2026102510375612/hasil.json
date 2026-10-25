@@ -1,0 +1,68 @@
+{
+ "kota": "Fakfak",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-25",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Et Dental Care",
+   "rating": 4,
+   "ulasan": 4,
+   "sumber": "https://www.poidata.io/report/dental-clinic/indonesia/west-papua",
+   "alasan_tidak_lolos": "Rating 4.0 di bawah 4.5. Instagram gagal dibuka."
+  },
+  {
+   "nama": "RSUD Fakfak (pelayanan gigi)",
+   "rating": 3.5,
+   "ulasan": 35,
+   "sumber": "https://bukutelepon.cybo.com/ID/fakfak-fakfak/rumah-sakit/",
+   "alasan_tidak_lolos": "Rating di bawah 4.5; fasilitas rumah sakit, bukan praktik mandiri."
+  },
+  {
+   "nama": "Puskesmas Sekban (ruang gigi dan mulut)",
+   "rating": 3.5,
+   "ulasan": 14,
+   "sumber": "https://bukutelepon.cybo.com/ID/fakfak-fakfak/rumah-sakit/",
+   "alasan_tidak_lolos": "Rating di bawah 4.5; layanan gigi dibuktikan dokumen standar pelayanan Puskesmas Sekban."
+  },
+  {
+   "nama": "Puskesmas Fakfak",
+   "rating": 5,
+   "ulasan": 2,
+   "sumber": "https://bukutelepon.cybo.com/ID/fakfak-fakfak/rumah-sakit/",
+   "alasan_tidak_lolos": "Ulasan 2 di bawah minimum 3; bukan klinik swasta."
+  },
+  {
+   "nama": "Klinik Pratama Fatima Fakfak (Rumah sakit Missi Sebrang)",
+   "rating": 5,
+   "ulasan": 4,
+   "sumber": "https://bukutelepon.cybo.com/ID-biz/klinik-pratama-fatima-fakfak-rumah-sakit",
+   "alasan_tidak_lolos": "Rating/ulasan memenuhi. Layanan gigi dan WA belum terverifikasi; profil Dinkes menyebut dokter umum, bidan, perawat."
+  },
+  {
+   "nama": "Klinik Pratama PMI Kabupaten Fakfak",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://pmifakfak.id/index.php/klinik-pratama/",
+   "alasan_tidak_lolos": "Halaman menyebut poli gigi tetapi alamat Buring 19/Klojen/Oro-oro Dowo tidak konsisten dengan Fakfak. Rating, ulasan, WA dan lokasi belum terbukti."
+  }
+ ],
+ "pencarian": [
+  "klinik gigi Fakfak",
+  "dokter gigi Fakfak",
+  "dental clinic Fakfak",
+  "\"Fakfak\" \"dental care\"",
+  "\"Fakfak\" \"praktek\" \"gigi\"",
+  "\"Fakfak\" \"dokter gigi\" \"WhatsApp\"",
+  "\"Klinik Pratama Fatima Fakfak\" gigi whatsapp",
+  "\"Et Dental Care\" Fakfak rating whatsapp"
+ ],
+ "kriteria": {
+  "rating_min": 4.5,
+  "ulasan_min": 3,
+  "wa_wajib": true,
+  "email_boleh_null": true
+ },
+ "catatan": "Kriteria pemilik terbaru menggantikan minimum 100 ulasan di surat. Tidak ada kandidat yang lolos seluruh syarat. Angka tidak terlihat ditulis null. Balai Pengobatan Fatima adalah nama lama/duplikasi Fatima sehingga tidak dihitung sebagai kandidat tambahan. Sumber layanan gigi Sekban: https://pkmsekban.fakfakkab.go.id/wp-content/uploads/2024/08/8.-SK-STANDAR-PELAYANAN.pdf . Tidak menghubungi klinik."
+}

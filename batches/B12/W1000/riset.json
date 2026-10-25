@@ -107,5 +107,12 @@
     "https://www.omdc.co.id/",
     "https://www.nk-health.com/biaya-perawatan-di-klinik-gigi-jakarta-barat/",
     "https://orangedentalhouse.com/jakarta-barat/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0].min",
+      "tercatat": 138000,
+      "catatan": "Angka Rp138.000 tidak ditemukan pada halaman katalog yang dibaca. Belum terbukti sebagai harga scaling pembanding Jakarta Barat; NK Health memuat kisaran umum, bukan harga satu klinik."
+    }
   ]
 }

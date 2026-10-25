@@ -106,5 +106,17 @@
     "https://orangedentalhouse.com/jakarta-timur/",
     "https://hellosehat.com/care/layanan/pembersihan-karang-gigi-scaling-6466/",
     "https://www.omdc.co.id/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "081336204476",
+      "catatan": "Nomor tidak tertulis pada teks halaman yang terbaca; hanya label Hubungi WA. Nomor belum dapat diverifikasi dari pembacaan ini."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281336204476",
+      "catatan": "Nomor tidak tertulis pada teks halaman yang terbaca; hanya label Hubungi WA. Nomor belum dapat diverifikasi dari pembacaan ini."
+    }
   ]
 }

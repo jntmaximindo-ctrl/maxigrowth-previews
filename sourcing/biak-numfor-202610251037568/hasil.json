@@ -1,0 +1,76 @@
+{
+ "kota": "Biak Numfor",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-25",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Doctor+Dentist cabang Biak",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://klinikdoctordentist.com/",
+   "alasan_tidak_lolos": "Cabang Biak Jl Sriwijaya6 terlihat pada HTML situs resmi; rating dan jumlah ulasan cabang Biak tidak ditemukan. Jangan memakai rating cabang Jakarta."
+  },
+  {
+   "nama": "Praktik drg. Rahmawati",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.faskesbpjs.com/2023/07/faskes-biak-numfor.html",
+   "alasan_tidak_lolos": "Nama dokter gigi dan lokasi apotek terlihat; rating/ulasan/WA tidak terlihat."
+  },
+  {
+   "nama": "Klinik Polres Biak Numfor (poli gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://pusdokkes.polri.go.id/Facility/1327/klinik-polres-biak-numfor",
+   "alasan_tidak_lolos": "Poli gigi tertera. Rating/ulasan dan WA layanan tidak terlihat; tombol berbagi WhatsApp bukan kontak klinik."
+  },
+  {
+   "nama": "Klinik Pratama Manuhua Biak",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rri.co.id/biak/kesehatan/465893/tingkatkan-pelayanan-klinik-pratama-manuhua-biak-mengikuti-akreditasi",
+   "alasan_tidak_lolos": "Poli gigi dan satu dokter gigi disebut. Rating/ulasan dan WA tidak terlihat."
+  },
+  {
+   "nama": "RSUD Biak (poli gigi)",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://sirs.kemkes.go.id/fo/home/profile_rs/9205015",
+   "alasan_tidak_lolos": "Dokter gigi tercatat; rating/ulasan/WA tidak terlihat, fasilitas rumah sakit."
+  },
+  {
+   "nama": "Klinik of Hasel",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://telefon-kitab.cybo.com/ID/biak/medical-office",
+   "alasan_tidak_lolos": "Listing Jl Raya Dolog24 teridentifikasi. Rating/ulasan, WA dan layanan gigi belum terverifikasi pada halaman ini."
+  },
+  {
+   "nama": "Klinik Pratama BP Lanal Biak",
+   "rating": 5,
+   "ulasan": 3,
+   "sumber": "https://telefon-kitab.cybo.com/ID/biak/medical-office",
+   "alasan_tidak_lolos": "Angka memenuhi; layanan gigi dan WA belum terverifikasi."
+  }
+ ],
+ "pencarian": [
+  "klinik gigi Biak Numfor",
+  "dokter gigi Biak WhatsApp",
+  "dental clinic Biak",
+  "\"Biak\" \"dokter gigi\" -Jakarta -Cideng -Gambir",
+  "\"Biak Numfor\" \"dental care\"",
+  "\"Biak\" \"drg\" \"praktek\" -Jakarta -Gambir",
+  "\"Biak\" \"klinik gigi\" Papua rating",
+  "\"doctor dentist\" \"Biak\" rating",
+  "\"Rahmawati\" \"Biak\" \"gigi\" rating",
+  "\"Biak\" dokter gigi site:cybo.com"
+ ],
+ "kriteria": {
+  "rating_min": 4.5,
+  "ulasan_min": 3,
+  "wa_wajib": true
+ },
+ "catatan": "Tidak ada yang lolos seluruh syarat. Klinik Orchid di Jalan Biak Jakarta dan Bfresh di Jawa tidak dianggap klinik Pulau Biak. Semua angka tidak terlihat ditulis null. Kandidat umum/poli gigi dicatat untuk audit tanpa mengklaim seluruhnya klinik gigi swasta. Tidak menghubungi klinik."
+}

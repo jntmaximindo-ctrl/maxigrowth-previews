@@ -1,0 +1,98 @@
+{
+  "id": "W643",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "Tambal gigi",
+        "jenis": "kisaran_pasar",
+        "min": 299000,
+        "max": 825000,
+        "src": [
+          "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-buah-batu-3143249048741",
+          "https://doktertanya.com/dokter-gigi-bandung/",
+          "https://hdmall.id/klinik-gigi/implan-gigi-di-tami-dental-care"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://www.traveloka.com/id-id/activities/indonesia/product/sozo-dental-bandung-buah-batu-3143249048741",
+      "catatan": "Pembanding tambal mencampur Tambal Gigi Susu Anak Rp299.000 dan tambal estetis; belum membuktikan tiga harga untuk tindakan setara."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "Cabut gigi",
+        "jenis": "kisaran_pasar",
+        "min": 385000,
+        "max": 750000,
+        "src": [
+          "https://doktertanya.com/dokter-gigi-bandung/",
+          "https://hdmall.id/klinik-gigi/implan-gigi-di-tami-dental-care"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Sumber tercantum kurang dari tiga; tidak memenuhi aturan A.5 untuk kisaran pasar. Angka yang ada tidak cukup membuktikan rentang tiga pembanding."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "Behel metal",
+        "jenis": "kisaran_pasar",
+        "min": 2490000,
+        "max": 11000000,
+        "src": [
+          "https://passiondentalcare.com/layanan/behel-gigi",
+          "https://doktertanya.com/dokter-gigi-bandung/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://passiondentalcare.com/layanan/behel-gigi",
+      "catatan": "Sumber tercantum kurang dari tiga; tidak memenuhi aturan A.5 untuk kisaran pasar. Angka yang ada tidak cukup membuktikan rentang tiga pembanding."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "Bleaching",
+        "jenis": "kisaran_pasar",
+        "min": 1315600,
+        "max": 3499000,
+        "src": [
+          "https://hdmall.id/klinik-gigi/implan-gigi-di-tami-dental-care",
+          "https://doktertanya.com/dokter-gigi-bandung/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://hdmall.id/klinik-gigi/implan-gigi-di-tami-dental-care",
+      "catatan": "Sumber tercantum kurang dari tiga; tidak memenuhi aturan A.5 untuk kisaran pasar. Angka yang ada tidak cukup membuktikan rentang tiga pembanding."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "Veneer",
+        "jenis": "kisaran_pasar",
+        "min": 1200000,
+        "max": 3500000,
+        "src": [
+          "https://doktertanya.com/dokter-gigi-bandung/"
+        ]
+      },
+      "di_sumber": null,
+      "src": "https://doktertanya.com/dokter-gigi-bandung/",
+      "catatan": "Sumber tercantum kurang dari tiga; tidak memenuhi aturan A.5 untuk kisaran pasar. Angka yang ada tidak cukup membuktikan rentang tiga pembanding."
+    },
+    {
+      "path": "harga[6].min",
+      "tercatat": 17000000,
+      "di_sumber": null,
+      "src": "https://passiondentalcare.com/layanan/implan-gigi",
+      "catatan": "Sumber Passion gagal diakses; batas bawah 17 juta belum dapat dibuktikan. Tami menampilkan 17.710.000 dan Ada Dokter Gigi 19.780.000 (harga HDmall), bukan bukti 17 juta."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJUxTrQknnaC4R-hCUtMifa_0",
+    "https://passiondentalcare.com/layanan/implan-gigi"
+  ],
+  "kritis_ok": true
+}

@@ -1,0 +1,70 @@
+{
+ "kota": "Jayapura",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-25",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Dokter Gigi Koya Barat by drg. Nindy",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-koya-barat-by-drg-nindy",
+   "alasan_tidak_lolos": "Rating, jumlah ulasan, telepon/WA tidak terlihat."
+  },
+  {
+   "nama": "Edi gigi, Jalan Protokol Wamena Koya Barat",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-koya-barat-by-drg-nindy",
+   "alasan_tidak_lolos": "Nama/alamat terlihat pada bisnis terkait. Detail gagal dibuka; rating/ulasan/WA dan status dokter gigi tidak terverifikasi."
+  },
+  {
+   "nama": "RSUD Ramela Muara Tami (poli gigi)",
+   "rating": 2.6,
+   "ulasan": null,
+   "sumber": "https://indonesiaknowledge.com/directory/medical-clinics/jayapura",
+   "alasan_tidak_lolos": "Rating di bawah 4.5; jumlah ulasan tidak terlihat. Poli gigi dibuktikan SIRS."
+  },
+  {
+   "nama": "Puskesmas Koya Barat",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/puskesmas-koya-barat-0812-8134-7668",
+   "alasan_tidak_lolos": "Rating/ulasan dan WA tidak terverifikasi."
+  },
+  {
+   "nama": "Puskesmas Skouw",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://cenderawasihpos.jawapos.com/metropolis/08/11/2025/percepat-pembangunan-dan-tingkatkan-kualitas-pelayanan/",
+   "alasan_tidak_lolos": "Sumber membahas kebutuhan dokter gigi; rating/ulasan dan WA tidak terlihat."
+  },
+  {
+   "nama": "Klinik Betesda Koya",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://data.sitb.id/fasyankes/v_klinik_rpt_report.php?goto=5",
+   "alasan_tidak_lolos": "Klinik tercatat pada SITB; alamat rinci, layanan gigi, rating/ulasan dan WA belum terverifikasi."
+  }
+ ],
+ "pencarian": [
+  "klinik gigi Muara Tami Jayapura",
+  "dokter gigi Koya Muara Tami",
+  "dental clinic Muara Tami",
+  "\"Muara Tami\" \"klinik gigi\"",
+  "\"Koya\" \"dokter gigi\" praktik",
+  "\"Muara Tami\" \"drg\" praktik mandiri",
+  "\"Muara Tami\" klinik kesehatan",
+  "\"Koya\" \"dental\" Jayapura",
+  "\"Skouw\" \"gigi\" puskesmas",
+  "\"Klinik Betesda\" Koya gigi",
+  "\"Klinik Betesda\" \"Koya\" rating"
+ ],
+ "kriteria": {
+  "rating_min": 4.5,
+  "ulasan_min": 3,
+  "wa_wajib": true
+ },
+ "catatan": "Tidak ada yang memenuhi seluruh syarat. Kandidat fasilitas umum dan calon klinik dicatat sebagai diperiksa, bukan dinyatakan klinik gigi swasta terverifikasi. Rating kategori agregat Cybo tidak disalin sebagai rating drg Nindy. Tidak memperluas klinik lolos ke luar Muara Tami. Tidak menghubungi klinik."
+}

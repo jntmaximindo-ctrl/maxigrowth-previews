@@ -105,5 +105,22 @@
     "https://sini.id/lokasi/sidoluhur-godean",
     "https://stopsakitgigi.com/",
     "https://www.instagram.com/jofadental/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/jofadental/",
+      "catatan": "Nilai tidak ditemukan pada halaman LinkedIn yang terbaca; profil yang dibaca tidak membuktikan akun Instagram atau nama/spesialis dokter ini."
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Hendargo, Sp.KG",
+      "catatan": "Nilai tidak ditemukan pada halaman LinkedIn yang terbaca; profil yang dibaca tidak membuktikan akun Instagram atau nama/spesialis dokter ini."
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Konservasi gigi",
+      "catatan": "Nilai tidak ditemukan pada halaman LinkedIn yang terbaca; profil yang dibaca tidak membuktikan akun Instagram atau nama/spesialis dokter ini."
+    }
   ]
 }
