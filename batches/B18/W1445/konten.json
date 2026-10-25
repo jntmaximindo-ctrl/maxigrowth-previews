@@ -1,0 +1,172 @@
+{
+  "id": "W1445",
+  "hero": {
+    "judul": {
+      "id": "Informasi Smilo Dental Care",
+      "en": "Smilo Dental Care — Dental Care Information"
+    },
+    "sub": {
+      "id": "Cari informasi lokasi, jadwal, dan pertanyaan awal sebelum berkunjung.",
+      "en": "Find location, opening hours, and useful questions before a visit."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi Anak",
+        "en": "Children’s Dental Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan kesesuaian tindakan saat konsultasi.",
+        "en": "Ask the clinic about the procedure and whether it suits your needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan perawatan gigi keluarga",
+      "en": "Panduan perawatan gigi keluarga"
+    },
+    "penjelasan": {
+      "id": "Panduan interaktif untuk membantu menyiapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "An interactive guide to prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Buka Minggu dan memiliki area bermain anak."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara mengetahui jadwal praktik?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Silakan hubungi klinik untuk mengonfirmasi jadwal terbaru.",
+        "en": "Contact the clinic to confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sumber yang diperiksa. Tanyakan rincian biaya sebelum membuat janji.",
+        "en": "Published fees were not confirmed. Ask for an estimate before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Tanyakan langsung kepada klinik.",
+        "en": "Insurance participation is not confirmed. Please contact the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi ketersediaan jadwal terlebih dahulu.",
+        "en": "It is helpful to check availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan untuk anak?",
+        "en": "Is children’s dental care available?"
+      },
+      "a": {
+        "id": "Silakan tanyakan layanan dan jadwal dokter yang sesuai untuk anak.",
+        "en": "Ask about suitable services and schedules for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi terbaru",
+    "en": "Contact the clinic for current information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan informasi layanan di Smilo Dental Care. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu manajemen Smilo Dental Care, saya dari Maxi Growth Studio. Kami menyiapkan konsep website untuk mempermudah informasi klinik seperti jadwal dan layanan. Konsep dapat dilihat di https://maxigrowthstudio.com/smilo. Bila berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Smilo Dental Care",
+    "email_isi": "Yth. Manajemen Smilo Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang memusatkan informasi klinik untuk calon pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/smilo.\n\nSaya sertakan proposal PDF terlampir untuk dipertimbangkan. Silakan beri tanggapan jika berkenan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

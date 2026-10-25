@@ -1,0 +1,132 @@
+{
+  "id": "W1336",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Ternate",
+      "en": "Dental Care Information in Ternate"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Praktek drg. Maya, Soa Sio. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Praktek drg. Maya, Soa Sio. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan dan riwayat kesehatan gigi sebelum tindakan.",
+        "en": "Discuss your concerns and dental history before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan untuk gigi berlubang; dokter menilai kebutuhan saat pemeriksaan.",
+        "en": "Ask about cavity treatment; the dentist can assess your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter dapat menjelaskan pilihan penanganan setelah evaluasi kondisi gigi.",
+        "en": "A dentist can explain options after examining your tooth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penggantian gigi yang hilang dan jadwal konsultasinya.",
+        "en": "Ask about tooth replacement options and consultation times."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Gigi Keluarga",
+      "en": "Family Dental Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik keluhan untuk menyiapkan pertanyaan saat pemeriksaan. Panduan ini bukan diagnosis.",
+      "en": "Select a concern to prepare questions for your appointment. This guide is not a diagnosis."
+    },
+    "alasan_dipilih": "Direktori menggambarkan praktik yang melayani kebutuhan gigi umum dan pasien keluarga."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum berada di Jl. Sigi Lamo, Soa Sio, Ternate Utara.",
+        "en": "The listed address is on Jl. Sigi Lamo, Soa Sio, North Ternate."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 17.00–22.00 WIT dan Minggu tutup. Mohon konfirmasi.",
+        "en": "A directory lists Monday–Saturday, 5–10 p.m. WIT, and Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi gigi berlubang?",
+        "en": "Can I ask about a cavity?"
+      },
+      "a": {
+        "id": "Penambalan tercantum pada direktori. Ketersediaan tindakan perlu dikonfirmasi.",
+        "en": "Fillings are listed in a directory. Please confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Praktek drg. Maya, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek drg. Maya, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik drg. Maya di Soa Sio dan jadwal sore yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-maya. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Praktek drg. Maya",
+    "email_isi": "Yth. Pengelola Praktek drg. Maya,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik drg. Maya di Soa Sio dan jadwal sore yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-maya. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1330",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Minahasa Utara",
+      "en": "Dental Care Information in Minahasa Utara"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Royal Dental Aesthetic, Airmadidi Atas. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Royal Dental Aesthetic, Airmadidi Atas. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Kesehatan Gigi",
+        "en": "Oral Health Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal untuk membicarakan keluhan gigi dan mulut.",
+        "en": "Ask about an appointment to discuss your oral health concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan informasi persiapan kunjungan.",
+        "en": "Ask about examination availability and visit preparation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi",
+        "en": "Dental Treatment Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan yang ingin diperiksa dan pilihan perawatan setelah evaluasi.",
+        "en": "Discuss your concerns and options after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Estetika Gigi",
+        "en": "Dental Aesthetics Enquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah tersedia konsultasi terkait tampilan gigi dan senyum.",
+        "en": "Ask whether consultations about dental appearance are available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Topik Konsultasi",
+      "en": "Consultation Topic Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik keluhan gigi untuk menyiapkan pertanyaan sebelum membuat janji. Bukan alat diagnosis.",
+      "en": "Choose a dental concern to prepare questions before booking. This is not a diagnostic tool."
+    },
+    "alasan_dipilih": "Informasi publik yang ditemukan mencantumkan lokasi dan nomor tetapi belum merinci tindakan klinik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Royal Dental Aesthetic berada?",
+        "en": "Where is Royal Dental Aesthetic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Airmadidi Atas, dekat Wuling Kumala Minahasa Utara.",
+        "en": "A directory lists Airmadidi Atas, near Wuling Kumala North Minahasa."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik belum ditemukan dalam sumber yang diperiksa. Mohon konfirmasi melalui kontak klinik.",
+        "en": "Opening hours were not found in the reviewed sources. Please confirm with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi gigi?",
+        "en": "Can I request a dental consultation?"
+      },
+      "a": {
+        "id": "Klinik tercantum sebagai layanan dokter gigi pada direktori. Jenis konsultasi perlu ditanyakan.",
+        "en": "The business is listed under dentists in a directory. Please ask about available consultations."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Royal Dental Aesthetic, saya ingin menanyakan jadwal konsultasi gigi dan layanan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Royal Dental Aesthetic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Royal Dental Aesthetic di Airmadidi Atas dengan nomor kontak yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/royal-aesthetic. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Royal Dental Aesthetic",
+    "email_isi": "Yth. Pengelola Royal Dental Aesthetic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Royal Dental Aesthetic di Airmadidi Atas dengan nomor kontak yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/royal-aesthetic. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

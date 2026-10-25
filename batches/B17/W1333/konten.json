@@ -1,0 +1,152 @@
+{
+  "id": "W1333",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Sario, Manado",
+      "en": "Dental Care in Sario, Manado"
+    },
+    "sub": {
+      "id": "Kenali pilihan pemeriksaan dan perawatan gigi di Van Dental Manado. Hubungi klinik untuk menanyakan jadwal dan tindakan yang sesuai.",
+      "en": "Explore dental consultations and treatment options at Van Dental Manado. Contact the clinic to check availability and discuss your needs."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pembersihan karang gigi sesuai kebutuhan Anda.",
+        "en": "Ask about dental examinations and cleaning based on your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan gigi berlubang untuk mengetahui pilihan perawatan.",
+        "en": "Discuss a cavity or damaged tooth to learn about suitable care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Pelajari kapan pemeriksaan saluran akar mungkin diperlukan melalui konsultasi dokter.",
+        "en": "Learn when root canal assessment may be appropriate during a dental consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Mahkota Gigi",
+        "en": "Dental Crowns"
+      },
+      "ringkas": {
+        "id": "Tanyakan kemungkinan restorasi gigi menggunakan mahkota setelah pemeriksaan.",
+        "en": "Ask whether a dental crown may be considered following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan susunan gigi dan pilihan perawatan ortodonti dengan dokter.",
+        "en": "Discuss tooth alignment and orthodontic options with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Dapatkan informasi mengenai pilihan penggantian gigi yang hilang.",
+        "en": "Explore options for replacing missing teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Topik Konsultasi",
+      "en": "Consultation Topic Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan atau tujuan kunjungan untuk melihat pertanyaan yang dapat dibawa saat konsultasi. Panduan ini bukan alat diagnosis.",
+      "en": "Choose your concern or visit goal to see questions you can bring to your appointment. This guide does not provide a diagnosis."
+    },
+    "alasan_dipilih": "Klinik tercantum memiliki berbagai layanan dari scaling sampai restorasi dan ortodonti; panduan membantu pasien menyiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan Van Dental Manado buka?",
+        "en": "When is Van Dental Manado open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 10.00–22.00 WITA dan Minggu tutup. Mohon konfirmasi jadwal sebelum berkunjung.",
+        "en": "A business directory lists Monday–Saturday, 10 a.m.–10 p.m. WITA, and Sunday closed. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum dalam daftar layanan. Tanyakan ketersediaan jadwal kepada klinik.",
+        "en": "Scaling appears in the listed services. Please ask the clinic about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi berlubang?",
+        "en": "Can I ask about a cavity?"
+      },
+      "a": {
+        "id": "Penambalan dan perawatan saluran akar tercantum. Dokter menentukan pilihan setelah pemeriksaan.",
+        "en": "Fillings and root canal care are listed. A dentist can discuss options after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan tanyakan langsung kepada klinik.",
+        "en": "Insurance information was not found. Please ask the clinic directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Diskusikan kebutuhan perawatan gigi Anda dengan tim klinik.",
+    "en": "Talk with the clinic team about your dental care needs."
+  },
+  "pesan_wa_default": "Halo Van Dental Manado, saya ingin menanyakan jadwal konsultasi dan informasi layanan gigi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Van Dental Manado, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jam praktik Senin–Sabtu hingga pukul 22.00. Kami sudah menyiapkan konsep website untuk klinik yang bisa dilihat di https://maxigrowthstudio.com/van-manado. Bila berkenan, mohon ditinjau. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Van Dental Manado",
+    "email_isi": "Yth. Pengelola Van Dental Manado,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan dan jam praktik klinik di Sario, Manado. Kami telah menyiapkan konsep website yang menyajikan informasi layanan, jadwal, dan akses kontak secara lebih terstruktur.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/van-manado. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka untuk mendengar masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

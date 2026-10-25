@@ -1,0 +1,132 @@
+{
+  "id": "W1343",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Surabaya",
+      "en": "Dental Care Information in Surabaya"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Pusat Senyum Gigi, Darmo. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Pusat Senyum Gigi, Darmo. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Tiruan",
+        "en": "Denture Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pembuatan gigi tiruan yang tersedia dan kebutuhan pemeriksaan awal.",
+        "en": "Ask about denture options and any initial assessment required."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembuatan Gigi Tiruan",
+        "en": "Denture Fabrication"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan gigi tiruan yang ditawarkan penyedia layanan.",
+        "en": "Discuss denture fabrication options with the provider."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan Perawatan Gigi Tiruan",
+        "en": "Denture Care Guidance"
+      },
+      "ringkas": {
+        "id": "Tanyakan cara membersihkan dan merawat gigi tiruan sesuai bahan yang digunakan.",
+        "en": "Ask how to clean and care for dentures based on their material."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penyesuaian Gigi Tiruan",
+        "en": "Denture Adjustment Enquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah tersedia layanan penyesuaian bila gigi tiruan terasa kurang nyaman.",
+        "en": "Ask whether adjustments are available if dentures feel uncomfortable."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Informasi Gigi Tiruan",
+      "en": "Denture Information Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang pilihan bahan, kenyamanan, perawatan, dan tindak lanjut. Panduan ini tidak menggantikan pemeriksaan dokter gigi.",
+      "en": "Prepare questions about materials, comfort, care, and follow-up. This guide does not replace a dentist's examination."
+    },
+    "alasan_dipilih": "Sumber publik menempatkan fasilitas ini sebagai penyedia gigi tiruan; kualifikasi klinis belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Patmosusastro No.70b, Darmo, Wonokromo, Surabaya.",
+        "en": "A directory lists Jl. Patmosusastro No.70b, Darmo, Wonokromo, Surabaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka setiap hari?",
+        "en": "Are you open every day?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan 08.00–21.00 WIB setiap hari. Mohon konfirmasi sebelum berkunjung.",
+        "en": "A directory lists daily hours of 8 a.m.–9 p.m. WIB. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menyediakan pembuatan gigi tiruan?",
+        "en": "Do you provide dentures?"
+      },
+      "a": {
+        "id": "Pembuatan gigi tiruan tercantum pada nama dan direktori. Tanyakan jenis serta prosedurnya.",
+        "en": "Denture fabrication appears in the name and directory. Please ask about types and procedures."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan ini ditangani dokter gigi?",
+        "en": "Is this service provided by a dentist?"
+      },
+      "a": {
+        "id": "Kualifikasi tenaga dan izin fasilitas belum dapat dipastikan dari sumber yang diperiksa. Tanyakan langsung sebelum tindakan.",
+        "en": "Provider qualifications and facility licensing could not be confirmed. Please ask before proceeding."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Pusat Senyum Gigi, saya ingin menanyakan pilihan gigi tiruan, jadwal konsultasi, dan informasi biaya. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Pusat Senyum Gigi, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi layanan pembuatan gigi tiruan di Jl. Patmosusastro yang tercantum pada direktori. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/pusat-senyum. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Pusat Senyum Gigi",
+    "email_isi": "Yth. Pengelola Pusat Senyum Gigi,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan pembuatan gigi tiruan di Jl. Patmosusastro yang tercantum pada direktori melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/pusat-senyum. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

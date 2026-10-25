@@ -1,0 +1,132 @@
+{
+  "id": "W1339",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Lubuklinggau",
+      "en": "Dental Care Information in Lubuklinggau"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Dokter Gigiku, Taba Jemekeh. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Dokter Gigiku, Taba Jemekeh. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan kebutuhan pemeriksaan bersama dokter.",
+        "en": "Discuss your dental concerns and checkup needs with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan untuk gigi berlubang setelah pemeriksaan.",
+        "en": "Ask about treatment options for cavities following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter dapat menjelaskan indikasi dan pilihan tindakan berdasarkan kondisi gigi.",
+        "en": "A dentist can explain indications and options based on your condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penggantian gigi yang hilang serta jadwal konsultasi.",
+        "en": "Ask about replacing missing teeth and consultation times."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemilih Sesi Kunjungan",
+      "en": "Appointment Session Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat sesi pagi dan sore yang tercantum serta siapkan pertanyaan sebelum membuat janji. Konfirmasikan jadwal terkini.",
+      "en": "Review the listed morning and afternoon sessions and prepare questions before booking. Confirm current hours."
+    },
+    "alasan_dipilih": "Direktori mencantumkan dua sesi praktik pada hari Senin–Sabtu."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Dokter Gigiku?",
+        "en": "Where is Dokter Gigiku located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Yos Sudarso No.166A, Taba Jemekeh, Lubuklinggau.",
+        "en": "The listed address is Jl. Yos Sudarso No.166A, Taba Jemekeh, Lubuklinggau."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–13.00 dan 15.00–21.00 WIB, Minggu tutup. Mohon konfirmasi.",
+        "en": "A directory lists Monday–Saturday, 9 a.m.–1 p.m. and 3–9 p.m. WIB, Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum?",
+        "en": "Which dentists are listed?"
+      },
+      "a": {
+        "id": "Nama praktik mencantumkan drg. Sonny Halim dan drg. Shinta Leo. Jadwal masing-masing belum ditemukan.",
+        "en": "The practice name lists drg. Sonny Halim and drg. Shinta Leo. Individual schedules were not found."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Dokter Gigiku, saya ingin menanyakan jadwal konsultasi pagi atau sore dan layanan pemeriksaan gigi. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dokter Gigiku, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Jl. Yos Sudarso dengan jadwal pagi dan sore yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/gigiku-drg. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Dokter Gigiku",
+    "email_isi": "Yth. Pengelola Dokter Gigiku,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Jl. Yos Sudarso dengan jadwal pagi dan sore yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/gigiku-drg. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

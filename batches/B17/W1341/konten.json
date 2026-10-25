@@ -1,0 +1,132 @@
+{
+  "id": "W1341",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Lubuklinggau",
+      "en": "Dental Care Information in Lubuklinggau"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Blue Dental Care, Majapahit. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Blue Dental Care, Majapahit. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan kebutuhan pemeriksaan gigi kepada dokter.",
+        "en": "Discuss your dental concerns and examination needs with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan anak dan cara mempersiapkan kunjungan.",
+        "en": "Ask about children's appointments and how to prepare for a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Estetika Gigi",
+        "en": "Cosmetic Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pertanyaan tentang penampilan gigi dan pilihan yang mungkin sesuai.",
+        "en": "Discuss questions about dental appearance and possible options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Saluran Akar",
+        "en": "Root Canal Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan evaluasi yang diperlukan jika gigi terasa sakit atau sensitif.",
+        "en": "Ask what assessment may be needed for tooth pain or sensitivity."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan Kunjungan Anak",
+      "en": "Preparing for a Child's Visit"
+    },
+    "penjelasan": {
+      "id": "Panduan berisi pertanyaan untuk orang tua dan hal yang dapat disampaikan saat konsultasi. Bukan alat diagnosis.",
+      "en": "A guide with questions for parents and details to share at a consultation. It does not provide a diagnosis."
+    },
+    "alasan_dipilih": "Direktori mencantumkan layanan perawatan anak."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Blue Dental Care?",
+        "en": "Where is Blue Dental Care located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jalan Embacang, Kelurahan Majapahit, Lubuklinggau.",
+        "en": "A directory lists Jalan Embacang, Majapahit, Lubuklinggau."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Are you open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu pukul 13.00–17.00 WIB. Konfirmasikan sebelum datang.",
+        "en": "A directory lists Sunday hours of 1–5 p.m. WIB. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pemeriksaan anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Perawatan anak tercantum pada direktori. Tanyakan jadwal dan kebutuhan persiapan.",
+        "en": "Children's dental care is listed in a directory. Please confirm scheduling and preparation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Blue Dental Care, saya ingin menanyakan jadwal konsultasi gigi anak dan informasi layanan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Blue Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Blue Dental Care di Jalan Embacang dan informasi layanan gigi anak. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/blue-drg. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Blue Dental Care",
+    "email_isi": "Yth. Pengelola Blue Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Blue Dental Care di Jalan Embacang dan informasi layanan gigi anak melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/blue-drg. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

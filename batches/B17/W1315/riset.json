@@ -262,5 +262,98 @@
     "https://hdmall.id/highlight/scaling",
     "https://indonesiaknowledge.com/directory/dental/padang/hai-dental-care-2-padang",
     "https://cekdoktergigi.com/dokter-gigi-padang-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/haidentalcare/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285936511873",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "13:00-21:30",
+        "sel": "13:00-21:30",
+        "rab": "13:00-21:30",
+        "kam": "13:00-21:30",
+        "jum": "13:00-16:30",
+        "sab": "13:00-16:30",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "cabang[1].jam.v",
+      "tercatat": {
+        "sen": "13:00-21:30",
+        "sel": "13:00-21:30",
+        "rab": "13:00-21:30",
+        "kam": "13:00-21:30",
+        "jum": "14:00-17:00",
+        "sab": "14:00-17:00",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Bulan Purnama",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[1].nama.v",
+      "tercatat": "drg. Yunita Pratiwi",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[2].nama.v",
+      "tercatat": "drg. Shifa",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[3].nama.v",
+      "tercatat": "drg. Darfirahman",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[4].nama.v",
+      "tercatat": "drg. Thifallusiana",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": 150000,
+        "max": 350000,
+        "src": [
+          "https://doktertanya.com/dokter-gigi-padang/",
+          "https://hellosehat.com/care/layanan/pembersihan-karang-gigi-scaling-7131/",
+          "https://hdmall.id/highlight/scaling"
+        ]
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Pemasangan behel / ortodonti",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Bleaching / pemutihan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[10]",
+      "tercatat": "Operasi gigi belakang / odontektomi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }
