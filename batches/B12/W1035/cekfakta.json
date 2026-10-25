@@ -1,0 +1,27 @@
+{
+  "id": "W1035",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "00-24 setiap hari",
+      "di_sumber": "Cuplikan Instagram: buka setiap hari sesuai perjanjian; Waze 00:00-00:00 setiap hari",
+      "src": "https://www.instagram.com/hartalentiadentalcare/",
+      "catatan": "00:00-00:00 bukan bukti dokter siap 24 jam. Gunakan janji temu, konfirmasi jadwal."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl Paledang No.22",
+      "di_sumber": "Waze sesuai Paledang No.22; Sini menyebut Jalan Desa Cileunyi Wetan 12",
+      "src": "https://sini.id/en/location/cileunyi-wetan",
+      "catatan": "Perbedaan antar sumber, perlu konfirmasi. Waze mengonfirmasi telepon 0812-1956-4565, bukan keaktifan WA."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Hartalentia%20Dental%20Care&query_place_id=ChIJ0_HwpkTDaC4RZNcL_Uml3Y4",
+    "https://technolife.co.id/dokter-gigi-di-jatinangor/",
+    "https://www.instagram.com/hartalentiadentalcare/"
+  ],
+  "kritis_ok": false,
+  "catatan": "Pemeriksaan independen 26 Oktober 2026: nama, alamat, telepon, WA, jam, rating, dan jumlah ulasan diperiksa; sumber Google Maps tidak dapat dimuat. Tidak dianggap lolos otomatis. Tidak mengubah riset asli."
+}

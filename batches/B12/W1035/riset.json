@@ -87,5 +87,17 @@
     "https://www.google.com/maps/search/?api=1&query=Hartalentia%20Dental%20Care&query_place_id=ChIJ0_HwpkTDaC4RZNcL_Uml3Y4",
     "https://technolife.co.id/dokter-gigi-di-jatinangor/",
     "https://sini.id/en/location/cileunyi-wetan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "00-24 setiap hari",
+      "catatan": "Cuplikan Instagram: buka setiap hari sesuai perjanjian; Waze 00:00-00:00 setiap hari"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl Paledang No.22",
+      "catatan": "Waze sesuai Paledang No.22; Sini menyebut Jalan Desa Cileunyi Wetan 12"
+    }
   ]
 }
