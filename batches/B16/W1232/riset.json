@@ -74,5 +74,22 @@
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/",
     "https://aibiz.id/letrysa-klinik",
     "https://www.instagram.com/klinikjambiletrysa/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. K. H. Ismail Malik, Mayang Mangurai, Kecamatan Kota Baru, Kota Jambi 36129",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan dokter umum",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Pemeriksaan dokter gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

@@ -87,5 +87,40 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/regio-dental-clinic-padang",
     "https://www.instagram.com/regiodental.clinic/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Sebelah suko kopi, Jl. Dr. Sutomo No.84 D, Kubu Marapalam, Kec. Padang Timur, Kota Padang, Sumatera Barat 25125",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Perawatan umum",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Konsultasi gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Pembersihan karang gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

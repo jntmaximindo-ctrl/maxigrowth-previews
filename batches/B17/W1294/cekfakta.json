@@ -1,0 +1,44 @@
+{
+  "id": "W1294",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://indonesiaknowledge.com/directory/dental/padang/mefa-dental-clinic-klinik-dokter-gigi-padang-padang",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Perawatan umum",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Konsultasi gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan kawat gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

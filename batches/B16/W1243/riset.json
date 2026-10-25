@@ -161,5 +161,127 @@
     "https://id.scribd.com/document/1020879624/06-SK-URAIAN-TUGAS",
     "https://www.instagram.com/henny_dentalcare/?hl=en"
   ],
-  "catatan": "Nama, alamat, ponsel dan email sesuai SIYANKES Dinkes; alamat serta nomor juga cocok BCA Life. drg. Henny Eka Putri tercantum sebagai direktur/dokter gigi dalam SK klinik Juli2024; sumber historis ini tidak menjamin jadwal praktik saat ini. Jadwal pribadi dan spesialis null. Data identitas pribadi pegawai lain tidak disalin. Jam Linktree jaringan09.30–21.00 Senin–Sabtu dan10.00–16.00 Minggu berbeda dari tabel SIYANKES08–12; memakai Linktree resmi dengan catatan konfirmasi khusus Batakan. Nomor081257379422 serta email insuranceklinikhdc@gmail.com pada indeks provider tidak menggantikan kontak cabang Dinkes. Tidak mengklaim paripurna atau100+asuransi dari indeks IG. Belum ada tarif resmi tujuh kategori atau tiga pembanding Balikpapan setara; angka null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Dokumen klinik Batakan Juli2024 yang terbaca diScribd menyebut konsultasi,pencabutan,pembersihan karang gigi danpenambalan sebagai tugasdokter. Ini bukti historis spesifik cabang, bukan jadwal dokter terkini. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Nama, alamat, ponsel dan email sesuai SIYANKES Dinkes; alamat serta nomor juga cocok BCA Life. drg. Henny Eka Putri tercantum sebagai direktur/dokter gigi dalam SK klinik Juli2024; sumber historis ini tidak menjamin jadwal praktik saat ini. Jadwal pribadi dan spesialis null. Data identitas pribadi pegawai lain tidak disalin. Jam Linktree jaringan09.30–21.00 Senin–Sabtu dan10.00–16.00 Minggu berbeda dari tabel SIYANKES08–12; memakai Linktree resmi dengan catatan konfirmasi khusus Batakan. Nomor081257379422 serta email insuranceklinikhdc@gmail.com pada indeks provider tidak menggantikan kontak cabang Dinkes. Tidak mengklaim paripurna atau100+asuransi dari indeks IG. Belum ada tarif resmi tujuh kategori atau tiga pembanding Balikpapan setara; angka null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Dokumen klinik Batakan Juli2024 yang terbaca diScribd menyebut konsultasi,pencabutan,pembersihan karang gigi danpenambalan sebagai tugasdokter. Ini bukti historis spesifik cabang, bukan jadwal dokter terkini. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Klinik Henny Dental Care Batakan",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/henny_dentalcare/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "dentalcarehenny2@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Borneo Paradiso Cluster1.1 Blok A No.06, RT.60, Sepinggan, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09.30-21",
+        "sel": "09.30-21",
+        "rab": "09.30-21",
+        "kam": "09.30-21",
+        "jum": "09.30-21",
+        "sab": "09.30-21",
+        "min": "10-16"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Scaling",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

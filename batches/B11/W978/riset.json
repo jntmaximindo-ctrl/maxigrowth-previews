@@ -72,5 +72,17 @@
   "sumber": [
     "https://www.malangterkini.id/2025/05/5-Rekomendasi-Pasang-Behel-Gigi-Di-Malang-Ini-Kontaknya.html",
     "https://www.facebook.com/IDentalmalang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sunandar Priyo Sudarmo, sebelah tempat fitness, Purwantoro, Kec. Blimbing, Kota Malang, Jawa Timur 65126",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Gigi tiruan",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "id": "W1227",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Kapten Pattimura, RT/RW 47, Kenali Besar, Kecamatan Alam Barajo, Kota Jambi, Jambi 36125",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/klinik-pratama-syifa-medika-875150",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-21",
+        "sel": "08-21",
+        "rab": "08-21",
+        "kam": "08-21",
+        "jum": "08-21",
+        "sab": "08-21",
+        "min": "08-21"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://rekom.id/kesehatan/15-klinik-di-kota-jambi/",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://instagram.com/syifamedika.jambi"
+  ],
+  "kritis_ok": false
+}

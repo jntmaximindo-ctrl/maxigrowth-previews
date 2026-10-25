@@ -1,0 +1,17 @@
+{
+  "id": "W1253",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Caile, Ujung Bulu, Kabupaten Bulukumba, Sulawesi Selatan",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/880288/klinik-dian-bulukumba-bulukumba-sulawesi-selatan",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://klinikdian.com/services/"
+  ],
+  "kritis_ok": false
+}

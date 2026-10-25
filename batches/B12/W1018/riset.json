@@ -89,5 +89,60 @@
     "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "17:30-21:30",
+        "sel": "17:30-21:30",
+        "rab": "17:30-21:30",
+        "kam": "17:30-21:30",
+        "jum": "17:30-21:30",
+        "sab": "17:30-21:30",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan dan konsultasi gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Scaling / pembersihan karang gigi (tercantum di direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Tambal gigi (tercantum di direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Cabut gigi (tercantum di direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Kawat gigi / behel (tercantum di direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[5]",
+      "tercatat": "Gigi tiruan (tercantum di direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
   ]
 }

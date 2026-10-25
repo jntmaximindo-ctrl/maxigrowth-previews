@@ -89,5 +89,35 @@
     "https://indonesiaknowledge.com/directory/dental/padang/mefa-dental-clinic-klinik-dokter-gigi-padang-padang",
     "https://idalamat.com/alamat/mefa-dental-clinic-klinik-dokter-gigi-padang-1059043",
     "https://www.waze.com/live-map/directions/id/sumatera-barat/mefa-dental-clinic-or-klinik-dokter-gigi-padang?to=place.ChIJcwhMKiJf9oQR5D3KsuoEO8k"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Perawatan umum",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Konsultasi gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan kawat gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

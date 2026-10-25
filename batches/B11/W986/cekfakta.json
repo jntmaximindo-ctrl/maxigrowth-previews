@@ -1,0 +1,39 @@
+{
+  "id": "W986",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/zeyndentalcare/?hl=en",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/zeyndentalcare/?hl=en",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282258009113",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/zeyndentalcare/?hl=en",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282258009113",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/zeyndentalcare/?hl=en",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Gigi tiruan",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/zeyndentalcare/?hl=en",
+    "https://www.facebook.com/p/Zeyn-Dental-Care-61574018016759/?locale=bs_BA"
+  ],
+  "kritis_ok": false
+}

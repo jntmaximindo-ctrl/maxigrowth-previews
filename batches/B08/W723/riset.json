@@ -112,5 +112,60 @@
     "https://www.alodokter.com/cari-rumah-sakit/rs-vania-bogor/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi",
     "https://bukutelepon.cybo.com/ID/pasar-bogor/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Suryakencana No.60, RT.01/RW.08, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16123",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "02518314853",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-22",
+        "min": "10-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Scaling / pembersihan karang gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Tambal gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Cabut gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Kawat gigi / ortodonti (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Gigi tiruan (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
   ]
 }

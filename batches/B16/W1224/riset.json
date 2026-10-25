@@ -138,5 +138,127 @@
     "https://www.instagram.com/happinessdentalcare.id/",
     "https://bpjs.ca/dokter-gigi-banjarbaru/"
   ],
-  "catatan": "Alamat dan nomor cocok pada dua direktori. Jam memakai MediaSehat dan Indonesia Knowledge (Agustus 2026); artikel DokterTanya mencatat jam berbeda, sehingga jadwal tetap perlu konfirmasi. IG dibuka tetapi disabled. Nama dokter tidak diambil dari ulasan. Empat tindakan berasal bagian khusus Happiness Panglima Batur pada DokterTanya, dengan keyakinan sedang dan perlu persetujuan klinik. Tarif artikel Rp225.000 scaling/tambal, Rp2.850.000 behel, dan Rp1.110.000 bleaching tidak dianggap tarif resmi karena bukan publikasi klinik. Artikel serupa tampak menyalin tabel yang sama, bukan tiga pembanding independen. Harga tujuh kategori null dan src=[]; tidak menggabungkan tarif puskesmas per kuadran dengan paket klinik. Email tidak ditemukan pada sumber cabang dan pencarian nama/akun spesifik. Klinik Dental Happiness India tidak berkaitan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarbaru/, https://indonesiaknowledge.com/directory/dental/banjarbaru/happiness-dental-care-panglima-batur-banjarbaru, https://doktertanya.com/dokter-gigi-banjarbaru/, https://www.instagram.com/happinessdentalcare.id/, https://bpjs.ca/dokter-gigi-banjarbaru/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Daftar khusus Happiness Panglima Batur pada DokterTanya mencantumkan keempat tindakan, bukan teks umum IDalamat. Bukti sekunder, perlu persetujuan klinik sebelum publikasi. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat dan nomor cocok pada dua direktori. Jam memakai MediaSehat dan Indonesia Knowledge (Agustus 2026); artikel DokterTanya mencatat jam berbeda, sehingga jadwal tetap perlu konfirmasi. IG dibuka tetapi disabled. Nama dokter tidak diambil dari ulasan. Empat tindakan berasal bagian khusus Happiness Panglima Batur pada DokterTanya, dengan keyakinan sedang dan perlu persetujuan klinik. Tarif artikel Rp225.000 scaling/tambal, Rp2.850.000 behel, dan Rp1.110.000 bleaching tidak dianggap tarif resmi karena bukan publikasi klinik. Artikel serupa tampak menyalin tabel yang sama, bukan tiga pembanding independen. Harga tujuh kategori null dan src=[]; tidak menggabungkan tarif puskesmas per kuadran dengan paket klinik. Email tidak ditemukan pada sumber cabang dan pencarian nama/akun spesifik. Klinik Dental Happiness India tidak berkaitan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarbaru/, https://indonesiaknowledge.com/directory/dental/banjarbaru/happiness-dental-care-panglima-batur-banjarbaru, https://doktertanya.com/dokter-gigi-banjarbaru/, https://www.instagram.com/happinessdentalcare.id/, https://bpjs.ca/dokter-gigi-banjarbaru/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Daftar khusus Happiness Panglima Batur pada DokterTanya mencantumkan keempat tindakan, bukan teks umum IDalamat. Bukti sekunder, perlu persetujuan klinik sebelum publikasi. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Happiness Dental Care Panglima Batur",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/happinessdentalcare.id/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Panglima Batur No.3, AMACO, depan BiP Ponsel, Loktabat Utara, Kecamatan Banjarbaru Utara, Kota Banjarbaru, Kalimantan Selatan 70711",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6281358789191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281358789191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "11-20",
+        "sel": "11-20",
+        "rab": "11-20",
+        "kam": "11-20",
+        "jum": "14-20",
+        "sab": "11-20",
+        "min": "13-19.30"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Penambalan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

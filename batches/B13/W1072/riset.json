@@ -94,5 +94,27 @@
     "ulasan": null,
     "src": null,
     "tgl": "2026-10-26"
-  }
+  },
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Praktik Dokter Gigi drg. Purwaningsih",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Godean KM 8,5, Klajuran, Sidokarto, Kec. Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[0].jadwal.v",
+      "tercatat": "15:00–21:00 (jam pada direktori; hari praktik tidak dicantumkan)",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan dan konsultasi dokter gigi umum",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

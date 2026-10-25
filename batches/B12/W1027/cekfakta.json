@@ -1,0 +1,25 @@
+{
+  "id": "W1027",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/mydentalcare_jbr/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/mydentalcare_jbr/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "mydentalcarejember25@gmail.com",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/mydentalcare_jbr/",
+    "https://linktr.ee/mydentalcare_jbr"
+  ],
+  "kritis_ok": true
+}

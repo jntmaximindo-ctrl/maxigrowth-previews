@@ -1,0 +1,47 @@
+{
+  "id": "W864",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/arsydentalcare/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://indonesiaknowledge.com/directory/dental/makassar/arsy-dental-care-makassar",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "628135468885",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/arsydentalcare/p/DHSWVmBTgIm/?hl=en&locale=es_LA",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-20",
+        "sel": "10-20",
+        "rab": "10-20",
+        "kam": "10-20",
+        "jum": "10-20",
+        "sab": "10-20",
+        "min": "10-20"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://idalamat.com/alamat/arsy-dental-care-2-1064416",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pelayanan kesehatan gigi secara umum (jenis tindakan spesifik perlu dikonfirmasi)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/arsydentalcare/",
+    "https://www.instagram.com/arsydentalcare/p/DHSWVmBTgIm/?hl=en&locale=es_LA"
+  ],
+  "kritis_ok": false
+}

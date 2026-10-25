@@ -105,5 +105,65 @@
     "https://doktertanya.com/dokter-gigi-balikpapan/",
     "https://idalamat.com/alamat/1063834/maira-dental-care-balikpapan-kalimantan-timur",
     "https://www.ulastempat.com/7-dokter-gigi-di-kota-balikpapan-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Maira Dental Care",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/mairadentalcare/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Pattimura No.7A, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76126",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285393734324",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285393734324",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-22",
+        "sel": "10-22",
+        "rab": "10-22",
+        "kam": "10-22",
+        "jum": "10-22",
+        "sab": "10-22",
+        "min": "10-16"
+      },
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 176,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dan pemeriksaan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[6]",
+      "tercatat": "Bleaching gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

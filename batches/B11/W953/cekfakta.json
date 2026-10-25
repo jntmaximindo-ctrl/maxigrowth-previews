@@ -1,0 +1,45 @@
+{
+  "id": "W953",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/azdent.dentalcare/reels/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/azdent.dentalcare/reels/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282245869028",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/azdent.dentalcare/reels/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282245869028",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/azdent.dentalcare/reels/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Tambal gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Bleaching",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/azdent.dentalcare/reels/"
+  ],
+  "kritis_ok": false
+}

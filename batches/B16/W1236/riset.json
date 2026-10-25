@@ -139,5 +139,107 @@
     "https://www.instagram.com/drg_juanda/",
     "https://praktek-dokter-gigi-juanda.business.site/"
   ],
-  "catatan": "Alamat, ponsel dan jam selaras pada Semuabis dan Indonesia Knowledge. Telepon kabel0541-4113836 berasal Dokter Tanya; WA memakai ponsel terpisah. Nama praktik Juanda bukan bukti dokter bernama Juanda; profil Alodokterdrg.Juanda Medika Plaza tidak dikaitkan tanpa bukti identitas. IG tertaut Semuabis tetapi gagal dibuka. Dokter=[] karena nama/gelar belum terkonfirmasi. Empat tindakan berasal daftar khusus praktik Juanda di Dokter Tanya, bukti sekunder yang perlu persetujuan pengelola. Alamatbusiness.site mengembalikan404 saat dibuka. Email dicari pada halaman tertaut dan nama spesifik tetapi tidak ditemukan. Tarif Samarinda antara puskesmas per rahang, rumah sakit dan artikel swasta belum setara; tujuh kategori null dansrc=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.semuabis.com/praktek-dokter-gigi-juanda-0823-2808-6161, https://indonesiaknowledge.com/directory/dental/samarinda/praktek-dokter-gigi-juanda-samarinda, https://doktertanya.com/dokter-gigi-samarinda/, https://www.instagram.com/drg_juanda/, https://praktek-dokter-gigi-juanda.business.site/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan ada pada daftar khusus Dokter Gigi Juanda di Dokter Tanya, bukan disimpulkan dari nama praktik. Keyakinan sedang, persetujuan klinik tetap diperlukan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat, ponsel dan jam selaras pada Semuabis dan Indonesia Knowledge. Telepon kabel0541-4113836 berasal Dokter Tanya; WA memakai ponsel terpisah. Nama praktik Juanda bukan bukti dokter bernama Juanda; profil Alodokterdrg.Juanda Medika Plaza tidak dikaitkan tanpa bukti identitas. IG tertaut Semuabis tetapi gagal dibuka. Dokter=[] karena nama/gelar belum terkonfirmasi. Empat tindakan berasal daftar khusus praktik Juanda di Dokter Tanya, bukti sekunder yang perlu persetujuan pengelola. Alamatbusiness.site mengembalikan404 saat dibuka. Email dicari pada halaman tertaut dan nama spesifik tetapi tidak ditemukan. Tarif Samarinda antara puskesmas per rahang, rumah sakit dan artikel swasta belum setara; tujuh kategori null dansrc=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://www.semuabis.com/praktek-dokter-gigi-juanda-0823-2808-6161, https://indonesiaknowledge.com/directory/dental/samarinda/praktek-dokter-gigi-juanda-samarinda, https://doktertanya.com/dokter-gigi-samarinda/, https://www.instagram.com/drg_juanda/, https://praktek-dokter-gigi-juanda.business.site/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan ada pada daftar khusus Dokter Gigi Juanda di Dokter Tanya, bukan disimpulkan dari nama praktik. Keyakinan sedang, persetujuan klinik tetap diperlukan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/drg_juanda/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-22",
+        "sel": "09-22",
+        "rab": "09-22",
+        "kam": "09-22",
+        "jum": "09-22",
+        "sab": "09-22",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Penambalan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

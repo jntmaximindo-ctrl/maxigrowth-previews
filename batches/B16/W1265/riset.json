@@ -95,5 +95,40 @@
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/klinik-gigi-tambun?to=place.ChIJe4BB13qPaS4RoZNwkH839Xs",
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-barat/klinik-gigi-tambun-beka-imp1",
     "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Tambun%20Jl.%20Raya%20Teuku%20Umar%20KM%2044&query_place_id=ChIJe4BB13qPaS4RoZNwkH839Xs"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Raya Teuku Umar KM 44, Wanasari, Kec. Cibitung, Kabupaten Bekasi, Jawa Barat 17520",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "05-07;16:30-21",
+        "sel": "05-07;16:30-21",
+        "rab": "05-07;16:30-21",
+        "kam": "05-07;16:30-21",
+        "jum": "05-07;15-21",
+        "sab": "05-07;16:30-21",
+        "min": "16:30-19"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dan pemeriksaan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Perawatan kawat gigi (disebut direktori; konfirmasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[5]",
+      "tercatat": "Veneer gigi (disebut direktori; konfirmasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

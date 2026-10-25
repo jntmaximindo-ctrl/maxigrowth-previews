@@ -1,0 +1,144 @@
+{
+  "id": "W1230",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/fortreedentalclinic/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/fortreedentalclinic/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Gajah Mada No.293, Kelurahan Jelutung, Kecamatan Jelutung, Kota Jambi, Jambi 36124",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6281290904030",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.tokiomarine.com/content/dam/tokiomarine/indonesia/life/resources/healthcare-locators/ad-medika-providers/documents/202602%20Temukan%20Daftar%20Rumah%20Sakit%20dan%20Klinik%20AdMedika.pdf",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281290904030",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.tokiomarine.com/content/dam/tokiomarine/indonesia/life/resources/healthcare-locators/ad-medika-providers/documents/202602%20Temukan%20Daftar%20Rumah%20Sakit%20dan%20Klinik%20AdMedika.pdf",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "tutup"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/fortreedentalclinic/"
+  ],
+  "kritis_ok": false
+}

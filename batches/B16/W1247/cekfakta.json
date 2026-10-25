@@ -1,0 +1,88 @@
+{
+  "id": "W1247",
+  "diperiksa": 17,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Maira Dental Care",
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/mairadentalcare/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://doktertanya.com/dokter-gigi-balikpapan/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Pattimura No.7A, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76126",
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285393734324",
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285393734324",
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-22",
+        "sel": "10-22",
+        "rab": "10-22",
+        "kam": "10-22",
+        "jum": "10-22",
+        "sab": "10-22",
+        "min": "10-16"
+      },
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 176,
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dan pemeriksaan gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[6]",
+      "tercatat": "Bleaching gigi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Maira%20Dental%20Care%20Balikpapan&query_place_id=ChIJ3-ib0CBH8S0Rc7OlIYm55W0"
+  ],
+  "kritis_ok": false
+}

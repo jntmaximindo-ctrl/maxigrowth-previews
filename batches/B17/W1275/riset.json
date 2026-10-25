@@ -81,5 +81,27 @@
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-barat/cikarang-dental-center-beka-imp1",
     "https://www.instagram.com/cikarangdentalcenter/",
     "https://g.co/kgs/3jWkBZU"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/cikarangdentalcenter/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Puspita VII No.4, Mekarmukti, Cikarang Utara, Kabupaten Bekasi",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Bridge",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Crown",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

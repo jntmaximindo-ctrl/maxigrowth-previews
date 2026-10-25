@@ -72,5 +72,17 @@
     "ulasan": null,
     "src": null,
     "tgl": "2026-10-26"
-  }
+  },
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Dentical Dental Clinic",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "628993059191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    }
+  ]
 }

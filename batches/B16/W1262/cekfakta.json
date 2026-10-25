@@ -1,0 +1,75 @@
+{
+  "id": "W1262",
+  "diperiksa": 16,
+  "beda": [
+    {
+      "path": "email.v",
+      "tercatat": "klinikrilan@gmail.com",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. S.H. Sarundajang, Girian Permai, Kota Bitung, Sulawesi Utara 95544",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://keslan.kemkes.go.id/klinik/profile/dHFIZStoOVppSGl6S3FZemlDNisrQT09",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "628114333448",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "628114333448",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-21",
+        "sel": "08-21",
+        "rab": "08-21",
+        "kam": "08-21",
+        "jum": "08-21",
+        "sab": "08-21",
+        "min": "tutup"
+      },
+      "di_sumber": null,
+      "src": "https://www.semuabis.com/klinik-apotek-rilan-0811-4333-448",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=KLINIK%20RILAN%20Bitung&query_place_id=ChIJc7W7NkYBhzIRc0CMt24pjlk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 3267,
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/search/?api=1&query=KLINIK%20RILAN%20Bitung&query_place_id=ChIJc7W7NkYBhzIRc0CMt24pjlk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Pelayanan keluarga berencana",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-apotek-rilan-0811-4333-448",
+    "https://www.google.com/maps/search/?api=1&query=KLINIK%20RILAN%20Bitung&query_place_id=ChIJc7W7NkYBhzIRc0CMt24pjlk"
+  ],
+  "kritis_ok": false
+}

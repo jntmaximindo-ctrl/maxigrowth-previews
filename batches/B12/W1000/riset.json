@@ -91,9 +91,32 @@
   ],
   "verifikasi_manual": [
     {
-      "path": "harga[0].min",
-      "tercatat": 138000,
-      "catatan": "Angka Rp138.000 tidak ditemukan pada halaman katalog yang dibaca. Belum terbukti sebagai harga scaling pembanding Jakarta Barat; NK Health memuat kisaran umum, bukan harga satu klinik."
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281312313201",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "00-24",
+        "sel": "00-24",
+        "rab": "00-24",
+        "kam": "00-24",
+        "jum": "00-24",
+        "sab": "00-24",
+        "min": "00-24"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Layanan kesehatan umum (klinik pratama)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Konsultasi/pemeriksaan gigi — tertera sebagai kategori klinik gigi pada direktori; jenis tindakan perlu dikonfirmasi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
     }
   ]
 }

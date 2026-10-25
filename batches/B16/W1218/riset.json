@@ -133,5 +133,127 @@
     "https://www.halodoc.com/rumah-sakit/nama/white-dental-care",
     "https://indonesiaknowledge.com/directory/dental/banjarbaru/white-dental-care-a-yani-martapura-banjarbaru"
   ],
-  "catatan": "Nama, alamat dan nomor cabang A. Yani dikonfirmasi daftar provider Tokio Marine Februari 2026 (halaman79) serta Chubb Mei2024. Email terdapat baris White Dental Care A.Yani daftar Chubb; email jaringan, bukan email petugas pribadi. Dokumen DBS terbaca saat pembukaan pertama, kunjungan berikutnya terkadang hanya spinner; email juga didukung indeks beberapa edisi. IG dibuka tetapi akses disabled; dokter null; jam cabang dari direktori IndonesiaKnowledge6Agustus2026, kepastian jadwal tetap perlu konfirmasi. Tidak menyimpulkan semua layanan GP/LAB/SP tersedia hanya dari kode administratif daftar provider. Kemitraan provider lama bukan kepastian penjaminan pasien saat ini; asuransi=[] dan konfirmasi kepesertaan tetap diperlukan. Tarif/potongan khusus peserta dalam PDF tidak disalin sebagai promosi atau biaya pasien umum. Empat kartu konten informasi kunjungan karena belum ditemukan rincian tindakan cabang yang memadai. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Nama, alamat dan nomor cabang A. Yani dikonfirmasi daftar provider Tokio Marine Februari 2026 (halaman79) serta Chubb Mei2024. Email terdapat baris White Dental Care A.Yani daftar Chubb; email jaringan, bukan email petugas pribadi. Dokumen DBS terbaca saat pembukaan pertama, kunjungan berikutnya terkadang hanya spinner; email juga didukung indeks beberapa edisi. IG dibuka tetapi akses disabled; dokter null; jam cabang dari direktori IndonesiaKnowledge6Agustus2026, kepastian jadwal tetap perlu konfirmasi. Tidak menyimpulkan semua layanan GP/LAB/SP tersedia hanya dari kode administratif daftar provider. Kemitraan provider lama bukan kepastian penjaminan pasien saat ini; asuransi=[] dan konfirmasi kepesertaan tetap diperlukan. Tarif/potongan khusus peserta dalam PDF tidak disalin sebagai promosi atau biaya pasien umum. Empat kartu konten informasi kunjungan karena belum ditemukan rincian tindakan cabang yang memadai. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "White Dental Care A. Yani Martapura",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/whitedental.care/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "whitedental.care@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. A. Yani KM 39,5, RW.01, Cindai Alus, Kecamatan Martapura, Kabupaten Banjar, Kalimantan Selatan 70613",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285389449191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285389449191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-21",
+        "sel": "10-21",
+        "rab": "10-21",
+        "kam": "10-21",
+        "jum": "10-21",
+        "sab": "10-21",
+        "min": "15-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

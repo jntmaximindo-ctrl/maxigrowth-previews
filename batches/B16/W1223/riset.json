@@ -131,5 +131,102 @@
     "https://indonesiaknowledge.com/directory/dental/banjarbaru/adeza-dental-care-praktik-dokter-gigi-banjarbaru-banjarbaru",
     "https://www.instagram.com/adezadentalcare/"
   ],
-  "catatan": "Alamat, nomor dan jam cocok pada dua direktori terbaca. Indeks bio IG mendukung jam yang sama tetapi pembukaan IG error. Tidak mengklaim dokter dari nama pada ulasan atau profil LinkedIn ambigu. Post edukasi behel tidak cukup menjadi bukti seluruh layanan; empat kartu konten informasi kunjungan, bukan daftar tindakan medis tersedia. Email belum ditemukan di direktori maupun penelusuran akun spesifik. Rating4.9/88 direktori berbeda dari surat5/110; mapsnull karena dataGoogleMaps langsung belum terbaca. Fasilitas direktori tidak dipromosikan tanpa konfirmasi. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarbaru/, https://indonesiaknowledge.com/directory/dental/banjarbaru/adeza-dental-care-praktik-dokter-gigi-banjarbaru-banjarbaru, https://www.instagram.com/adezadentalcare/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat, nomor dan jam cocok pada dua direktori terbaca. Indeks bio IG mendukung jam yang sama tetapi pembukaan IG error. Tidak mengklaim dokter dari nama pada ulasan atau profil LinkedIn ambigu. Post edukasi behel tidak cukup menjadi bukti seluruh layanan; empat kartu konten informasi kunjungan, bukan daftar tindakan medis tersedia. Email belum ditemukan di direktori maupun penelusuran akun spesifik. Rating4.9/88 direktori berbeda dari surat5/110; mapsnull karena dataGoogleMaps langsung belum terbaca. Fasilitas direktori tidak dipromosikan tanpa konfirmasi. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarbaru/, https://indonesiaknowledge.com/directory/dental/banjarbaru/adeza-dental-care-praktik-dokter-gigi-banjarbaru-banjarbaru, https://www.instagram.com/adezadentalcare/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/adezadentalcare/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-21",
+        "sel": "10-21",
+        "rab": "10-21",
+        "kam": "10-21",
+        "jum": "10-21",
+        "sab": "10-21",
+        "min": "15-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

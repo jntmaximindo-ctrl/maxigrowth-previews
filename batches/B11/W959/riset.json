@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.instagram.com/klinikcitamaserong/?hl=en",
     "https://idalamat.com/alamat/klinik-citama-jembatan-serong-876901"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/klinikcitamaserong/?hl=en",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281385706263",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
   ]
 }

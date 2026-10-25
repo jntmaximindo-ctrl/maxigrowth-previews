@@ -75,5 +75,17 @@
   "sumber": [
     "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-bantul/",
     "https://www.dentists10.com/ID/Sleman/106778158969711/Oktavie-Denta---Praktek-Dokter-Gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Parangtritis No.9, Gabusan, Timbulharjo, Kecamatan Sewon, Kabupaten Bantul 55186",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dokter gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

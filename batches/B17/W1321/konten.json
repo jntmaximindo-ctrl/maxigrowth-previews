@@ -1,0 +1,152 @@
+{
+  "id": "W1321",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Labuan Bajo",
+      "en": "Dental Care in Labuan Bajo"
+    },
+    "sub": {
+      "id": "Tifani Dental Care menyediakan layanan gigi di kawasan Labuan Bajo dengan pendaftaran melalui WhatsApp.",
+      "en": "Tifani Dental Care offers dental services in Labuan Bajo with appointments arranged via WhatsApp."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kebutuhan perawatan sebelum tindakan.",
+        "en": "Discuss your dental concerns and possible care options before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi berdasarkan pemeriksaan dokter.",
+        "en": "Dental cleaning based on the dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tindakan pencabutan non-bedah sesuai indikasi dan pemeriksaan.",
+        "en": "Non-surgical extractions when appropriate after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan opsi perbaikan gigi yang berlubang atau rusak.",
+        "en": "Ask about options for damaged or decayed teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Ortodonti",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan ketersediaan dan kebutuhan perawatan ortodonti terlebih dahulu.",
+        "en": "Please check availability and suitability of orthodontic care before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pasien Labuan Bajo",
+      "en": "Labuan Bajo Patient Guide"
+    },
+    "penjelasan": {
+      "id": "Satu halaman untuk melihat lokasi klinik, menghubungi admin lewat WhatsApp, dan menanyakan jadwal serta kebutuhan kontrol setelah perawatan.",
+      "en": "One page to locate the clinic, contact the team on WhatsApp, and ask about appointment times and follow-up needs."
+    },
+    "alasan_dipilih": "Lokasi Labuan Bajo melayani warga dan pengunjung; direktori dan ulasan pasien menunjukkan kebutuhan komunikasi cepat, sehingga panduan bilingual dan tombol WA dapat mempermudah reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Tifani Dental Care?",
+        "en": "Where is Tifani Dental Care?"
+      },
+      "a": {
+        "id": "Direktori terbaru mencantumkan lokasi di Jalan Yohanes Sehadoen, samping JNE, arah bandara Labuan Bajo. Mohon konfirmasi titik lokasi saat membuat janji.",
+        "en": "Recent directories list the clinic on Jalan Yohanes Sehadoen near JNE, toward the airport. Please confirm the location when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I make an appointment?"
+      },
+      "a": {
+        "id": "Profil klinik mencantumkan pendaftaran melalui WhatsApp 0812-3702-7422.",
+        "en": "The clinic's public profile lists WhatsApp booking at +62 812-3702-7422."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani scaling?",
+        "en": "Do you provide dental scaling?"
+      },
+      "a": {
+        "id": "Scaling disebut dalam ulasan pasien publik. Ketersediaan jadwal dan biaya perlu dikonfirmasi sebelum datang.",
+        "en": "Public patient reviews mention scaling. Please confirm availability and fees before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan cabut gigi?",
+        "en": "Are tooth extractions available?"
+      },
+      "a": {
+        "id": "Tindakan cabut gigi non-bedah pernah diberitakan sebagai bagian dari program sosial klinik. Dokter akan menentukan apakah tindakan sesuai kondisi pasien.",
+        "en": "Non-surgical extractions were reported as part of a clinic community program. A dentist will determine suitability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah program Jumat Berkah masih berlangsung?",
+        "en": "Is the Friday community program still running?"
+      },
+      "a": {
+        "id": "Program tersebut diberitakan pada 2025. Jadwal dan ketentuan terkini belum dapat dipastikan, jadi tanyakan kepada klinik.",
+        "en": "The program was reported in 2025. Its current schedule and eligibility have not been verified; please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan dan jam buka?",
+        "en": "What are the fees and opening hours?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia dalam sumber yang diperiksa dan jam operasional berbeda antar direktori. Konfirmasikan keduanya melalui WhatsApp.",
+        "en": "Published fees were unavailable and listed hours differ between directories. Please confirm both via WhatsApp."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Admin untuk Jadwal",
+    "en": "Contact the Team for an Appointment"
+  },
+  "pesan_wa_default": "Halo Tifani Dental Care, saya ingin menanyakan jadwal konsultasi gigi di Labuan Bajo. Apakah bisa dibantu informasi jam praktik, lokasi terbaru, dan perkiraan biaya? Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Tifani Dental Care. Saya Rizqi dari Maxi Growth Studio. Kami melihat pendaftaran klinik melalui WhatsApp dan informasi lokasi yang berbeda di beberapa direktori. Kami menyiapkan konsep website yang membantu pasien Labuan Bajo menemukan lokasi, layanan, dan jalur reservasi. Konsepnya ada di https://maxigrowthstudio.com/tifani. Silakan ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Tifani Dental Care",
+    "email_isi": "Halo tim Tifani Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat Tifani Dental Care telah menyediakan pendaftaran melalui WhatsApp untuk pasien di Labuan Bajo. Kami menyiapkan konsep website yang menggabungkan informasi layanan, petunjuk lokasi, dan jalur reservasi, termasuk tampilan yang dapat membantu pengunjung dari luar daerah.\n\nKonsepnya dapat dilihat di https://maxigrowthstudio.com/tifani. Proposal PDF kami lampirkan untuk bahan pertimbangan.\n\nJika ada informasi yang perlu diperbaiki, kami terbuka menerima masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

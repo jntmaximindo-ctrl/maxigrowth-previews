@@ -113,9 +113,47 @@
   ],
   "verifikasi_manual": [
     {
-      "path": "dokter[0].spesialis",
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-10,16-20",
+        "sel": "08-10,16-20",
+        "rab": "08-10,16-20",
+        "kam": "08-10,16-20",
+        "jum": "08-10,16-20",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "dokter[0].spesialis.v",
       "tercatat": "Konservasi Gigi (Sp.KG)",
-      "catatan": "Nama Fransiska tidak ditemukan pada halaman sumber; sumber yang dikutip belum mendukung atribusi spesialis ini."
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dan pemeriksaan gigi (disebut sumber direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Tambal gigi (disebut sumber direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Cabut gigi (disebut sumber direktori)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Pemasangan kawat gigi (disebut sumber direktori; perlu konfirmasi kesesuaian kompetensi dan ketersediaan)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
     }
   ]
 }

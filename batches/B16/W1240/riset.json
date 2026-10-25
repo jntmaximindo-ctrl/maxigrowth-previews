@@ -132,5 +132,106 @@
     "https://id.polomap.com/vi/kota-samarinda/164190",
     "https://www.instagram.com/duadentist_smd/?hl=en"
   ],
-  "catatan": "Alamat dan nomor cocok direktoriIndonesiaKnowledge dan bagian alamat FaktaSamarinda, serta indeksLocalIndonesia/Polomap. Dua halaman terakhir dicoba tetapi tidak terbaca. Situsduadentalcare.id tidak dipakai karena belum ada hubungan cabang yang terbukti. Jumat direktori tertutup sedangkan artikel menyebut setiap hari; hanya hari yang tidak bertentangan diisi. Artikel mencampur paragraf klinik lain, sehingga tidak diambil daftar tindakan/keunggulan dari narasinya. Dua Dentist SiradjSalman dan Padaidita LambungMangkurat dipisahkan. ProfilIGduadentist_smd ditemukan namun hubungan spesifik PMNoor belum cukup, instagramnull dan dokter=[]. Email dicari pada direktori, profil dan nama cabang tetapi tidak ditemukan. Empat kartu konten informasi kunjungan. Harga tujuh kategori belum memenuhi tiga pembanding setara;null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/samarinda/dua-dentist-samarinda, https://www.faktasamarinda.com/detail/26297/10-klinik-gigi-di-samarinda-dengan-rating-tertinggi-2026-pilihan-lengkap-dari-pusat-kota-hingga-sungai-pinang, https://localindonesia.net/en/usaha/dua-dentist-samarinda, https://id.polomap.com/vi/kota-samarinda/164190, https://www.instagram.com/duadentist_smd/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat dan nomor cocok direktoriIndonesiaKnowledge dan bagian alamat FaktaSamarinda, serta indeksLocalIndonesia/Polomap. Dua halaman terakhir dicoba tetapi tidak terbaca. Situsduadentalcare.id tidak dipakai karena belum ada hubungan cabang yang terbukti. Jumat direktori tertutup sedangkan artikel menyebut setiap hari; hanya hari yang tidak bertentangan diisi. Artikel mencampur paragraf klinik lain, sehingga tidak diambil daftar tindakan/keunggulan dari narasinya. Dua Dentist SiradjSalman dan Padaidita LambungMangkurat dipisahkan. ProfilIGduadentist_smd ditemukan namun hubungan spesifik PMNoor belum cukup, instagramnull dan dokter=[]. Email dicari pada direktori, profil dan nama cabang tetapi tidak ditemukan. Empat kartu konten informasi kunjungan. Harga tujuh kategori belum memenuhi tiga pembanding setara;null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/samarinda/dua-dentist-samarinda, https://www.faktasamarinda.com/detail/26297/10-klinik-gigi-di-samarinda-dengan-rating-tertinggi-2026-pilihan-lengkap-dari-pusat-kota-hingga-sungai-pinang, https://localindonesia.net/en/usaha/dua-dentist-samarinda, https://id.polomap.com/vi/kota-samarinda/164190, https://www.instagram.com/duadentist_smd/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Dua Dentist (PM Noor)",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. PM. Noor No.5E, Sempaja Selatan, Kecamatan Samarinda Utara, Kota Samarinda, Kalimantan Timur 75242",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10.30-21.30",
+        "sel": "10.30-21.30",
+        "rab": "10.30-21.30",
+        "kam": "10.30-21.30",
+        "sab": "10.30-21.30",
+        "min": "10.30-21.30"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

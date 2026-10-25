@@ -158,5 +158,135 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB%20Dental%20Provider%20List%20May%202024_upload.pdf",
     "https://indonesiaknowledge.com/directory/dental/banjarmasin/my-dentist-sutoyo-banjarmasin"
   ],
-  "catatan": "Tautan tombol MY DENTIST SUTOYO di Linktree resmi menuju wa.me/6282116020304; nomor cocok baris Sutoyo daftar Chubb Mei2024. Email jaringan ada pada baris Sutoyo, bukan memindahkan nomor cabang Veteran. Nama dokter mengikuti nama profil terstruktur Farida Ervintari, bukan ejaan nama file foto. Jadwal adalah jadwal dokter di Alodokter, bukan keseluruhan jam buka klinik; jam cabang null. Sabtu/Minggu dokter tidak diasumsikan tutup karena tidak tercantum. KonsultasiRp100000 portal tidak diklaim sebagai tarif tujuh tindakan yang diminta. Kodepos berbeda antardirektori70115/70117, dipilih alamat profil Alodokter dan dicatat perlu konfirmasi. Tidak menggunakan rating direktori sebagai Google Maps terkini. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan ada dalam daftar makesOffer profil Alodokter drg. Farida Ervintari yang mencantumkan lokasi My Dentist Sutoyo. Tidak menggeneralisasi ke semua dokter/cabang. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Tautan tombol MY DENTIST SUTOYO di Linktree resmi menuju wa.me/6282116020304; nomor cocok baris Sutoyo daftar Chubb Mei2024. Email jaringan ada pada baris Sutoyo, bukan memindahkan nomor cabang Veteran. Nama dokter mengikuti nama profil terstruktur Farida Ervintari, bukan ejaan nama file foto. Jadwal adalah jadwal dokter di Alodokter, bukan keseluruhan jam buka klinik; jam cabang null. Sabtu/Minggu dokter tidak diasumsikan tutup karena tidak tercantum. KonsultasiRp100000 portal tidak diklaim sebagai tarif tujuh tindakan yang diminta. Kodepos berbeda antardirektori70115/70117, dipilih alamat profil Alodokter dan dicatat perlu konfirmasi. Tidak menggunakan rating direktori sebagai Google Maps terkini. Tarif resmi tujuh kategori tidak ditemukan pada sumber terbaca. Pencarian harga Banjarmasin/Banjarbaru/Martapura menghasilkan tarif ulasan, artikel lama, cabang berbeda, atau kota lain; tidak memenuhi tiga pembanding setara dari kota yang sama. Angka min/max null dan src=[]; bukan penawaran tindakan. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan ada dalam daftar makesOffer profil Alodokter drg. Farida Ervintari yang mencantumkan lokasi My Dentist Sutoyo. Tidak menggeneralisasi ke semua dokter/cabang. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/my_dentistbjm/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "mydentist.bjm@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sutoyo S No.128, RT.008, Kelurahan Teluk Dalam, Kecamatan Banjarmasin Tengah, Kota Banjarmasin 70117",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282116020304",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282116020304",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "dokter[0].jadwal.v",
+      "tercatat": {
+        "sen": "18-21",
+        "sel": "15-18",
+        "rab": "15-18",
+        "kam": "15-18; 18-21",
+        "jum": "15-18; 18-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Penambalan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Pencabutan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

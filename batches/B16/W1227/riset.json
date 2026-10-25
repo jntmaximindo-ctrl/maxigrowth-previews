@@ -131,5 +131,102 @@
     "https://rekom.id/kesehatan/15-klinik-di-kota-jambi/",
     "https://instagram.com/syifamedika.jambi"
   ],
-  "catatan": "Alamat, nomor dan jam sesuai IDalamat dan Rekom. Redaksi sumber No.RT/RW47 ditulis RT/RW47 tanpa mengarang nomor bangunan. Identitas berbeda dari RSU Syifa Medika Banjarbaru, RS Asy Syifa Lampung, Apotek Lisna Jambi dan jurnal Syifa Medika Palembang; email mereka tidak digunakan. IG dibuka tetapi disabled. Nama dokter, spesialis dan jenis poli belum terkonfirmasi. Ulasan yang menyebut dokter gigi dan klaim bedah gigi pada artikel tunggal tidak menjadi bukti daftar tindakan. Empat kartu konten berupa informasi kunjungan, bukan pernyataan klinik khusus gigi. Email klinik ini tidak ditemukan setelah pencarian nama/akun dan pembacaan direktori. Pencarian harga Jambi menghasilkan domain biz.id menyerupai pemerintah serta implan IUD yang bukan implan gigi; ditolak. Tujuh kategori harga null dan src=[] karena belum ada publikasi resmi atau tiga pembanding setara. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://idalamat.com/alamat/klinik-pratama-syifa-medika-875150, https://rekom.id/kesehatan/15-klinik-di-kota-jambi/, https://instagram.com/syifamedika.jambi. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat, nomor dan jam sesuai IDalamat dan Rekom. Redaksi sumber No.RT/RW47 ditulis RT/RW47 tanpa mengarang nomor bangunan. Identitas berbeda dari RSU Syifa Medika Banjarbaru, RS Asy Syifa Lampung, Apotek Lisna Jambi dan jurnal Syifa Medika Palembang; email mereka tidak digunakan. IG dibuka tetapi disabled. Nama dokter, spesialis dan jenis poli belum terkonfirmasi. Ulasan yang menyebut dokter gigi dan klaim bedah gigi pada artikel tunggal tidak menjadi bukti daftar tindakan. Empat kartu konten berupa informasi kunjungan, bukan pernyataan klinik khusus gigi. Email klinik ini tidak ditemukan setelah pencarian nama/akun dan pembacaan direktori. Pencarian harga Jambi menghasilkan domain biz.id menyerupai pemerintah serta implan IUD yang bukan implan gigi; ditolak. Tujuh kategori harga null dan src=[] karena belum ada publikasi resmi atau tiga pembanding setara. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://idalamat.com/alamat/klinik-pratama-syifa-medika-875150, https://rekom.id/kesehatan/15-klinik-di-kota-jambi/, https://instagram.com/syifamedika.jambi. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Kapten Pattimura, RT/RW 47, Kenali Besar, Kecamatan Alam Barajo, Kota Jambi, Jambi 36125",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "08-21",
+        "sel": "08-21",
+        "rab": "08-21",
+        "kam": "08-21",
+        "jum": "08-21",
+        "sab": "08-21",
+        "min": "08-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

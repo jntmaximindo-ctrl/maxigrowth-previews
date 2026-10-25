@@ -1,0 +1,162 @@
+{
+  "id": "W1331",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di COSMO Dental Care Manado",
+      "en": "Dental Care at COSMO Dental Care Manado"
+    },
+    "sub": {
+      "id": "Informasi layanan gigi dan cara membuat janji di kawasan Kleak, Malalayang.",
+      "en": "Explore dental services and appointment options in Kleak, Malalayang."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal via WhatsApp",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai pemeriksaan dokter.",
+        "en": "Tartar removal according to your dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk gigi berlubang atau rusak setelah evaluasi.",
+        "en": "Treatment for damaged or decayed teeth after assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Pencabutan bila dinilai sesuai berdasarkan kondisi gigi.",
+        "en": "Extraction when appropriate for the condition of your tooth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel dan Ortodonti",
+        "en": "Braces and Orthodontics"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan untuk susunan gigi.",
+        "en": "Discuss options for tooth alignment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Clear Aligner",
+        "en": "Clear Aligners"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kecocokan perawatan aligner.",
+        "en": "Ask about availability and suitability of aligner treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Konsultasikan opsi pemutihan gigi berdasarkan kondisi mulut.",
+        "en": "Discuss whitening options suitable for your oral health."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan Perawatan yang Ingin Ditanyakan",
+      "en": "Find the Care You Want to Ask About"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan—perawatan rutin, perbaikan gigi, atau perapian susunan gigi—kemudian kirim pertanyaan terarah melalui WhatsApp.",
+      "en": "Choose routine care, tooth repair, or alignment, then send a focused inquiry via WhatsApp."
+    },
+    "alasan_dipilih": "Daftar layanan COSMO mencakup scaling, tambal, cabut, behel, dan clear aligner; pengelompokan membantu pasien memahami pilihan sebelum berkonsultasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi COSMO Dental Care?",
+        "en": "Where is COSMO Dental Care?"
+      },
+      "a": {
+        "id": "Di Jl. Santo Joseph No.43, Kleak, Malalayang, Manado, dekat area Stadion Klabat.",
+        "en": "At Jl. Santo Joseph No.43, Kleak, Malalayang, Manado, near the Stadion Klabat area."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Direktori klinik mencantumkan WhatsApp 0822-3065-6161 untuk pertanyaan dan reservasi.",
+        "en": "The public clinic directory lists WhatsApp +62 822-3065-6161 for inquiries and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka pada hari Minggu?",
+        "en": "Are you open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori yang diperiksa mencantumkan Minggu tutup. Jam dapat berubah, jadi konfirmasi sebelum berkunjung.",
+        "en": "The directories reviewed list Sundays as closed. Hours may change; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel dan aligner?",
+        "en": "Do you offer braces and aligners?"
+      },
+      "a": {
+        "id": "Keduanya tercantum pada daftar layanan publik. Kesesuaian tindakan perlu ditentukan melalui konsultasi.",
+        "en": "Both are listed in public service directories. Suitability should be discussed with a dentist."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "What do scaling and fillings cost?"
+      },
+      "a": {
+        "id": "Tarif terkini tidak dapat dipastikan dari sumber yang diperiksa. Tanyakan estimasi biaya sebelum membuat janji.",
+        "en": "Current fees could not be verified from the sources reviewed. Ask for an estimate before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Mohon konfirmasi kepada klinik.",
+        "en": "Insurance participation was not verified. Please confirm directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konsultasikan Kebutuhan Gigi Anda",
+    "en": "Ask About Your Dental Needs"
+  },
+  "pesan_wa_default": "Halo COSMO Dental Care, saya ingin menanyakan jadwal konsultasi di klinik Manado. Mohon informasi layanan yang tersedia, jam kunjungan, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim COSMO Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya melihat COSMO memiliki pilihan layanan mulai dari scaling hingga perawatan ortodonti, dengan reservasi melalui WhatsApp. Kami menyiapkan konsep website yang memudahkan pasien memilih topik perawatan dan menghubungi admin. Konsepnya dapat dilihat di https://maxigrowthstudio.com/cosmo. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk COSMO Dental Care",
+    "email_isi": "Halo tim COSMO Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi COSMO Dental Care saat ini tersedia melalui media sosial dan beberapa direktori publik. Berdasarkan layanan yang tercantum, kami menyiapkan konsep website yang memudahkan pasien menemukan informasi perawatan dan menghubungi admin untuk reservasi.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/cosmo. Proposal PDF kami lampirkan sebagai referensi.\n\nKami terbuka menerima koreksi atau masukan apabila ada informasi yang perlu disesuaikan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

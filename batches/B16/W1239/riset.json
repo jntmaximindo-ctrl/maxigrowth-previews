@@ -124,5 +124,75 @@
     "https://www.popmama.com/life/health/dokter-gigi-samarinda-terdekat-dengan-layanan-profesional-00-wjk9l-70wm1n",
     "https://www.halobalikpapan.com/detail/26299/10-rekomendasi-klinik-gigi-di-samarinda-dengan-rating-tertinggi-2026-lengkap-dengan-jam-buka-dan-layanan",
     "https://www.google.com/maps/search/?api=1&query=Emerald%20Dental%20Aesthetic%20EDA%20Samarinda&query_place_id=ChIJUwOiaVl_9i0RIBJwTxu_7vc"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Emerald Dental Aesthetic - EDA",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "emeralddentalaesthetic@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. KH. Samanhudi No.41, Pelita, Kec. Samarinda Utara, Kota Samarinda, Kalimantan Timur 75117",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285176919128",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285176919128",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 286,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dan pemeriksaan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Behel / perawatan ortodonti",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Veneer gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Bleaching gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

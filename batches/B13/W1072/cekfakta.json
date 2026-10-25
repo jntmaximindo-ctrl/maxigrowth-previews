@@ -1,0 +1,36 @@
+{
+  "id": "W1072",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Praktik Dokter Gigi drg. Purwaningsih",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://gigisehat.id/dokterpdgi/553/drg-purwaningsih",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Godean KM 8,5, Klajuran, Sidokarto, Kec. Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://gigisehat.id/dokterpdgi/553/drg-purwaningsih",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "dokter[0].jadwal.v",
+      "tercatat": "15:00–21:00 (jam pada direktori; hari praktik tidak dicantumkan)",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://gigisehat.id/dokterpdgi/553/drg-purwaningsih",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan dan konsultasi dokter gigi umum",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

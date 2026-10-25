@@ -100,5 +100,35 @@
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dian-makassar/veneer-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-parakita-medika/veneer-gigi",
     "https://www.instagram.com/arsydentalcare/p/DHSWVmBTgIm/?hl=en&locale=es_LA"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/arsydentalcare/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "628135468885",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-20",
+        "sel": "10-20",
+        "rab": "10-20",
+        "kam": "10-20",
+        "jum": "10-20",
+        "sab": "10-20",
+        "min": "10-20"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pelayanan kesehatan gigi secara umum (jenis tindakan spesifik perlu dikonfirmasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

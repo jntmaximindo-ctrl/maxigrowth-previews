@@ -154,5 +154,112 @@
     "https://poltekkes.web.id/dokter-gigi-jambi/",
     "https://www.instagram.com/klinikpratamagufrinaldi/"
   ],
-  "catatan": "Alamat dan nomor cocok pada Media Sehat, Indonesia Knowledge dan Poltekkes. Jam memakai dua direktori Agustus2026; Poltekkes lama menyebut Senin–Sabtu17–22 dan Minggu tutup, dicatat sebagai versi berbeda. Nama dokter hanya drg.Gufrinaldi sesuai daftar praktik beralamat sama; tidak menambahkan Ansar dari dokumen Puskesmas atau Hasbi dari ulasan tanpa bukti hubungan praktik. Jadwal pribadi dan spesialisnull. IG dibuka tetapi throttled; klaim3Dscanner+AI pada indeks tidak diangkat sebagai fakta keunggulan. Ulasan bukan bukti tindakan pasti; layanan=[] dan empat kartu informasi. Email belum ditemukan pada sumber praktik/pencarian akun; email Puskesmas tidak dipindahkan ke klinik. Tarif tujuh kategori belum memiliki publikasi resmi atau tiga pembanding Jambi setara;null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/, https://indonesiaknowledge.com/directory/dental/jambi-city/klinik-gigi-gufrinaldi-jambi-city, https://poltekkes.web.id/dokter-gigi-jambi/, https://www.instagram.com/klinikpratamagufrinaldi/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat dan nomor cocok pada Media Sehat, Indonesia Knowledge dan Poltekkes. Jam memakai dua direktori Agustus2026; Poltekkes lama menyebut Senin–Sabtu17–22 dan Minggu tutup, dicatat sebagai versi berbeda. Nama dokter hanya drg.Gufrinaldi sesuai daftar praktik beralamat sama; tidak menambahkan Ansar dari dokumen Puskesmas atau Hasbi dari ulasan tanpa bukti hubungan praktik. Jadwal pribadi dan spesialisnull. IG dibuka tetapi throttled; klaim3Dscanner+AI pada indeks tidak diangkat sebagai fakta keunggulan. Ulasan bukan bukti tindakan pasti; layanan=[] dan empat kartu informasi. Email belum ditemukan pada sumber praktik/pencarian akun; email Puskesmas tidak dipindahkan ke klinik. Tarif tujuh kategori belum memiliki publikasi resmi atau tiga pembanding Jambi setara;null,src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/, https://indonesiaknowledge.com/directory/dental/jambi-city/klinik-gigi-gufrinaldi-jambi-city, https://poltekkes.web.id/dokter-gigi-jambi/, https://www.instagram.com/klinikpratamagufrinaldi/. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/klinikpratamagufrinaldi/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sultan Agung No.1541, Beringin, Kecamatan Pasar Jambi, Kota Jambi, Jambi 36124",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "10-22",
+        "sel": "10-22",
+        "rab": "10-22",
+        "kam": "10-22",
+        "jum": "10-22",
+        "sab": "10-22",
+        "min": "11-17.30"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Gufrinaldi",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }

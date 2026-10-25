@@ -131,5 +131,119 @@
     "https://www.instagram.com/dentalstoryclinic/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true"
   ],
-  "catatan": "Alamat No.24A-B sesuai Dinkes dan MediaSehat; No.22 pada artikel lama tidak dipilih. Telepon Dinkes81284619191 dinormalisasi6281284619191, cocok nomor lokal081284619191 pada Orami dan MediaSehat. Email clinicdentalstory@gmail.com muncul pada indeks SIYANKES serta provider Chubb; teks halaman Dinkes kadang disamarkan, perlu pemeriksaan ulang GPT-B. Nama dokter di tajuk direktori tidak dilengkapi dengan menebak gelar; dokter=[]. Konflik jam: Dinkes08–12, MediaSehat Senin–Jumat09.30–21.30/Sabtu10.30–21.30/Minggu13.30–19.30, sedangkan Orami2022 menyebut Minggu libur. Jam null sampai konfirmasi primer. Empat tindakan tertulis pada daftar khusus Orami, bukan diambil dari ulasan. Tujuh harga null,src=[]. Daftar Alodokter menunjukkan lima penyedia scaling Balikpapan, tetapi halaman fasilitas individual yang dibuka tidak menampilkan tarif; belum tiga sumber sebanding per tindakan yang terverifikasi. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan tertulis dalam bagian DentalStory artikelOrami2022dan daftarkhususDokterTanya; bukti sekunder historis, perlu konfirmasi pengelola. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Alamat No.24A-B sesuai Dinkes dan MediaSehat; No.22 pada artikel lama tidak dipilih. Telepon Dinkes81284619191 dinormalisasi6281284619191, cocok nomor lokal081284619191 pada Orami dan MediaSehat. Email clinicdentalstory@gmail.com muncul pada indeks SIYANKES serta provider Chubb; teks halaman Dinkes kadang disamarkan, perlu pemeriksaan ulang GPT-B. Nama dokter di tajuk direktori tidak dilengkapi dengan menebak gelar; dokter=[]. Konflik jam: Dinkes08–12, MediaSehat Senin–Jumat09.30–21.30/Sabtu10.30–21.30/Minggu13.30–19.30, sedangkan Orami2022 menyebut Minggu libur. Jam null sampai konfirmasi primer. Empat tindakan tertulis pada daftar khusus Orami, bukan diambil dari ulasan. Tujuh harga null,src=[]. Daftar Alodokter menunjukkan lima penyedia scaling Balikpapan, tetapi halaman fasilitas individual yang dibuka tidak menampilkan tarif; belum tiga sumber sebanding per tindakan yang terverifikasi. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email ditemukan pada sumber tercantum. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Empat tindakan tertulis dalam bagian DentalStory artikelOrami2022dan daftarkhususDokterTanya; bukti sekunder historis, perlu konfirmasi pengelola. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/dentalstoryclinic/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "email.v",
+      "tercatat": "clinicdentalstory@gmail.com",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Mayor TNI AD Imat Saili RT.56 No.24A-B, Sumber Rejo, Kecamatan Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6281284619191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281284619191",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Penambalan gigi",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Perawatan behel",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ]
 }

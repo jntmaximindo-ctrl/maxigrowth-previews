@@ -1,0 +1,46 @@
+{
+  "id": "W1000",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281312313201",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.waze.com/nl/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-pratama-cendana?to=place.ChIJ2azFHXP2aS4RMlLNXG9MxMc",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "00-24",
+        "sel": "00-24",
+        "rab": "00-24",
+        "kam": "00-24",
+        "jum": "00-24",
+        "sab": "00-24",
+        "min": "00-24"
+      },
+      "di_sumber": "Sumber dapat dibaca; jadwal terstruktur belum disahkan.",
+      "src": "https://kecamatantambora.com/fasilitas/page-kesehatan/",
+      "catatan": "Sumber terbaca, tetapi struktur jadwal per hari memerlukan perbandingan manual; tidak dinyatakan cocok otomatis."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Layanan kesehatan umum (klinik pratama)",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Konsultasi/pemeriksaan gigi — tertera sebagai kategori klinik gigi pada direktori; jenis tindakan perlu dikonfirmasi",
+      "di_sumber": null,
+      "src": null,
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://hdmall.id/highlight/scaling"
+  ],
+  "kritis_ok": false
+}

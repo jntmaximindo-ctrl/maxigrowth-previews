@@ -86,5 +86,34 @@
     "https://idalamat.com/alamat/indental-care-bitung-1064018",
     "https://www.instagram.com/indentalcare.bitung/",
     "https://maps.app.goo.gl/TdrkWikRzwhopYaPA"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/indentalcare.bitung/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Agatis, Wangurer Timur, Kecamatan Madidir, Kota Bitung, Sulawesi Utara",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282349189197",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    }
   ]
 }

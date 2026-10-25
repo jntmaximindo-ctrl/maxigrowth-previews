@@ -1,0 +1,162 @@
+{
+  "id": "W1315",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Hai Dental Care",
+      "en": "Dental Care at Hai Dental Care"
+    },
+    "sub": {
+      "id": "Pilih cabang Ratulangi atau Gunung Pangilun di Padang, lalu atur kunjungan sesuai jadwal yang tersedia.",
+      "en": "Choose the Ratulangi or Gunung Pangilun location in Padang and book a suitable appointment time."
+    },
+    "cta": {
+      "id": "Pilih Cabang & Jadwal",
+      "en": "Choose a Location & Time"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan rencana perawatan bersama dokter gigi.",
+        "en": "Discuss your concerns and possible care options with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai kondisi dan pemeriksaan.",
+        "en": "Tartar removal based on your dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Pilihan pemasangan, kontrol, dan pelepasan behel tersedia pada sistem booking.",
+        "en": "Book braces consultations, adjustments, or removal."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penambalan gigi depan maupun belakang tercantum sebagai layanan.",
+        "en": "Fillings are listed for front and back teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Layanan pencabutan gigi anak dan dewasa tersedia untuk dijadwalkan.",
+        "en": "Extraction appointments are listed for children and adults."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan Gigi",
+        "en": "Teeth Whitening"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan bleaching berdasarkan kondisi gigi.",
+        "en": "Ask about whitening options suitable for your teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Cabang, Pilih Waktu",
+      "en": "Choose a Location, Choose a Time"
+    },
+    "penjelasan": {
+      "id": "Tentukan cabang Ratulangi atau Gunung Pangilun, pilih layanan, lalu lanjutkan ke halaman reservasi cabang tersebut.",
+      "en": "Select Ratulangi or Gunung Pangilun, choose a service, then continue to that location's booking page."
+    },
+    "alasan_dipilih": "Dua halaman booking resmi berbeda tersedia untuk cabang Ratulangi dan Gunung Pangilun; fitur pemilih cabang mengurangi risiko pasien memilih lokasi yang salah."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Hai Dental Care?",
+        "en": "Where is Hai Dental Care located?"
+      },
+      "a": {
+        "id": "Tersedia halaman reservasi untuk cabang Ratulangi (Jl. Ratulangi No.18) dan Gunung Pangilun (Jl. Gajah Mada No.1A) di Padang. Pastikan alamat saat memesan.",
+        "en": "Booking pages are available for Ratulangi (Jl. Ratulangi No.18) and Gunung Pangilun (Jl. Gajah Mada No.1A) in Padang. Confirm your location when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Pilih layanan dan jadwal melalui halaman booking cabang yang sesuai.",
+        "en": "Choose a service and an available time on the relevant location's booking page."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Do you offer braces care?"
+      },
+      "a": {
+        "id": "Halaman reservasi mencantumkan pemasangan, kontrol, dan pelepasan behel. Kesesuaian tindakan ditentukan setelah konsultasi.",
+        "en": "The booking pages list braces fitting, adjustments, and removal. Your dentist will discuss suitable treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much are scaling and fillings?"
+      },
+      "a": {
+        "id": "Tarif Hai Dental Care tidak tercantum pada halaman booking yang diperiksa. Mohon konfirmasi biaya sebelum memilih tindakan.",
+        "en": "Prices were not listed on the booking pages we reviewed. Please confirm fees before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum tersedia pada sumber yang diperiksa. Silakan tanyakan langsung kepada pihak klinik.",
+        "en": "Insurance information was not available in the sources reviewed. Please check with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Are you open on Sundays?"
+      },
+      "a": {
+        "id": "Kedua halaman booking mencantumkan Minggu tutup. Jadwal dapat berubah, jadi periksa slot terbaru saat reservasi.",
+        "en": "Both booking pages list Sundays as closed. Hours can change, so check current appointment availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat Jadwal Kunjungan",
+    "en": "View Appointment Times"
+  },
+  "pesan_wa_default": "Halo Hai Dental Care, saya ingin bertanya tentang jadwal konsultasi gigi di cabang Ratulangi. Apakah tersedia waktu kunjungan dan informasi biayanya? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, tim Hai Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya melihat Hai Dental Care memiliki halaman reservasi untuk cabang Ratulangi dan Gunung Pangilun. Kami telah menyiapkan konsep website dengan pemilih cabang agar pasien lebih mudah menemukan jadwal. Konsepnya bisa dilihat di https://maxigrowthstudio.com/hai. Bila berkenan, silakan ditinjau kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Hai Dental Care",
+    "email_isi": "Halo tim Hai Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat Hai Dental Care menyediakan reservasi online untuk cabang Ratulangi dan Gunung Pangilun. Berdasarkan informasi publik tersebut, kami menyiapkan konsep website yang membantu pasien memilih cabang dan menuju halaman reservasi yang sesuai.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/hai. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nTidak ada kewajiban untuk menindaklanjuti; kami senang menerima masukan jika konsepnya relevan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

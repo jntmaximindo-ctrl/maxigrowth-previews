@@ -1,0 +1,24 @@
+{
+  "id": "W1056",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Dentical Dental Clinic",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://glints.com/id/companies/dentical/be32fa4a-fe3b-40ec-83fa-c1505a8ebebe",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "628993059191",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-july-2025.pdf",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/dentical.id/"
+  ],
+  "kritis_ok": false
+}

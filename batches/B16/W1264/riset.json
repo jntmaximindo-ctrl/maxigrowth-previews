@@ -77,5 +77,17 @@
   "sumber": [
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-bekasi/",
     "https://caribisnis.id/dokter-gigi/bekasi/bekasi-barat/has-dental-care-praktik-dokter-beka-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Kp. Cikarang Jati, Sukajaya, Kecamatan Cibitung, Kabupaten Bekasi 17520",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Perawatan ortodonti",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    }
   ]
 }

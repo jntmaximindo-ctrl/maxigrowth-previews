@@ -156,5 +156,102 @@
     "https://hargapromosi.id/dokter-gigi-banjarmasin/",
     "https://www.instagram.com/ocdental_care/?hl=en"
   ],
-  "catatan": "Nomor publik cocok pada IDalamat, artikel cabang dan indeks tombol WhatsApp HKSN di Linkbio. Pembukaan Linkbio hanya memberi teks terbatas; bukan audit penuh halaman. Artikel HargaPromosi menulis HKSN No.225/kode pos70124, sedangkan direktori menulis HKSN Permai tanpa nomor/70125; detail berbeda tidak digabungkan. drg. Nor Azizatur Rosidah tercantum pada artikel cabang; spesialis dan jadwal pribadi null, bukan bukti SIP terkini. Jam Senin–Sabtu09.30–21.00 didukung IDalamat/MediaSehat; Minggu tutup dari MediaSehat. Teks tindakan IDalamat bersifat templat lintas klinik; tag implan Densia belum cukup menjadi bukti. layanan=[] dan empat kartu konten merupakan informasi kunjungan. Email ocdentalcare@gmail.com hasil San Clemente Amerika Serikat ditolak. Harga tujuh kategori belum memiliki tiga pembanding setara kota sama dengan unit jelas; angka null, src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://linkbio.co/5013004yjUmHc, https://idalamat.com/alamat/dokter-gigi-oc-dental-care-1063710, https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarmasin/, https://hargapromosi.id/dokter-gigi-banjarmasin/, https://www.instagram.com/ocdental_care/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan."
+  "catatan": "Nomor publik cocok pada IDalamat, artikel cabang dan indeks tombol WhatsApp HKSN di Linkbio. Pembukaan Linkbio hanya memberi teks terbatas; bukan audit penuh halaman. Artikel HargaPromosi menulis HKSN No.225/kode pos70124, sedangkan direktori menulis HKSN Permai tanpa nomor/70125; detail berbeda tidak digabungkan. drg. Nor Azizatur Rosidah tercantum pada artikel cabang; spesialis dan jadwal pribadi null, bukan bukti SIP terkini. Jam Senin–Sabtu09.30–21.00 didukung IDalamat/MediaSehat; Minggu tutup dari MediaSehat. Teks tindakan IDalamat bersifat templat lintas klinik; tag implan Densia belum cukup menjadi bukti. layanan=[] dan empat kartu konten merupakan informasi kunjungan. Email ocdentalcare@gmail.com hasil San Clemente Amerika Serikat ditolak. Harga tujuh kategori belum memiliki tiga pembanding setara kota sama dengan unit jelas; angka null, src=[]. A-chat, 26 Oktober 2026. Tidak menghubungi klinik. Fakta yang tidak ditemukan disimpan null. Nomor ponsel publik 08xx/628xx dinormalisasi ke 62 dan digunakan sebagai WA sesuai aturan pemilik; kemampuan menerima pesan tidak diuji dengan mengirim pesan. Email tidak ditemukan setelah dicari di https://linkbio.co/5013004yjUmHc, https://idalamat.com/alamat/dokter-gigi-oc-dental-care-1063710, https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-banjarmasin/, https://hargapromosi.id/dokter-gigi-banjarmasin/, https://www.instagram.com/ocdental_care/?hl=en. Tujuh kategori harga belum memiliki angka yang memenuhi standar pembanding; min/max null dan src=[] bukan kutipan harga. Sumber setiap layanan: Belum ada rincian tindakan yang dapat dikonfirmasi; konten memakai kartu informasi kunjungan, bukan klaim ketersediaan tindakan. Outreach hanya draf untuk digunakan setelah konsep di URL slug tersedia dan PDF proposal benar dilampirkan. Tidak menyatakan publikasi atau pengiriman telah dilakukan.",
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/ocdental_care/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09.30-21",
+        "sel": "09.30-21",
+        "rab": "09.30-21",
+        "kam": "09.30-21",
+        "jum": "09.30-21",
+        "sab": "09.30-21",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "scaling",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[1]",
+      "tercatat": {
+        "perawatan": "tambal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[2]",
+      "tercatat": {
+        "perawatan": "cabut",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[3]",
+      "tercatat": {
+        "perawatan": "behel metal",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[4]",
+      "tercatat": {
+        "perawatan": "bleaching",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[5]",
+      "tercatat": {
+        "perawatan": "veneer",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    },
+    {
+      "path": "harga[6]",
+      "tercatat": {
+        "perawatan": "implan",
+        "jenis": "kisaran_pasar",
+        "min": null,
+        "max": null,
+        "src": []
+      },
+      "catatan": "Bukti harga belum memenuhi sumber terbaca: kisaran pasar memerlukan minimal tiga sumber publik kota yang sama; tarif resmi harus sumber klinik. Jangan menebak angka atau menganggap harga kosong sebagai nol."
+    }
+  ]
 }
