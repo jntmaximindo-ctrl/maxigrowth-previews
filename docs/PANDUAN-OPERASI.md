@@ -23,7 +23,7 @@ Sheet antrean → intake (robot) → GPT-A riset → GPT-B cek fakta → rakit d
 - Klinik jaringan besar (mis. FDC, Audy) di-Skip, tidak dikirimi outreach.
 - Teks sesi manual GPT A/B dibuat untuk mode Work (antrean besar sekaligus).
 - Sourcing klinik lewat chat GPT (`data/sourcing-engine.txt` = gpt); Codex tidak dipakai mencari.
-- Kriteria klinik: rating >= 4.5 dan ulasan >= 100. Tanpa website = prioritas tertinggi.
+- Kriteria klinik: rating >= 4.5 dan ulasan >= 3 (diturunkan dari 100 oleh pemilik 25 Okt 2026; klinik yang reviewnya sedikit justru butuh jasa menaikkan review). Tanpa website = prioritas tertinggi.
 - Pengiriman WA ke klinik HANYA dengan izin eksplisit pemilik. Robot dan AI tidak pernah menghubungi klinik.
 - Konten patuh Permenkes 1787/2010 (tanpa "terbaik", "termurah", "dijamin", "gratis", "promo", "diskon", testimoni, janji hasil). Cek: `python scripts/lint_permenkes.py <file>`.
 - Fakta klinik wajib punya sumber (src); tidak ketemu = null. Dilarang mengarang dokter, alamat, telepon, harga, ulasan.

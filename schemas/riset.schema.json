@@ -59,7 +59,7 @@
         "properties": {
           "perawatan": {"type": "string"},
           "jenis": {"enum": ["resmi_klinik", "kisaran_pasar"]},
-          "min": {"type": "number"}, "max": {"type": "number"},
+          "min": {"type": ["number", "null"]}, "max": {"type": ["number", "null"]},
           "src": {"type": ["string", "array"]}
         }
       }

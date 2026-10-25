@@ -5,7 +5,7 @@
   apply                → tambahkan kandidat baru dari hasil.json yang belum diterapkan ke Sheet
   next                 → cetak "<slug>\t<kota>\t<negara>" kota berikutnya bila antrean Menunggu < BUFFER, selain itu kosong
 Env: GOOGLE_SA_JSON, SHEET_ID.
-Aturan (dari pemilik): rating ≥ 4.5 & ulasan ≥ 100 → layak.
+Aturan (dari pemilik): rating ≥ 4.5 & ulasan ≥ 3 → layak.
   tanpa website → Menunggu, Prioritas Tinggi; website jadul (skor ≥ 40) → Menunggu (Tinggi bila ≥ 70);
   website sudah bagus (skor < 40) → "Review manual" (pemilik yang memutuskan).
 """
@@ -108,7 +108,7 @@ def apply():
                 rating, ulasan = float(k.get("rating") or 0), int(k.get("ulasan") or 0)
             except Exception:
                 continue
-            if rating < 4.5 or ulasan < 100:
+            if rating < 4.5 or ulasan < 3:
                 continue
             n, u = norm_nama(k.get("nama")), norm_url(k.get("url"))
             if not n or n in seen_n or (u and u in seen_u):
