@@ -88,38 +88,21 @@ RISET LAMA:
     "Praktik dokter umum (jenis praktik tercantum pada nama lokasi)",
     "Praktik dokter gigi (jenis praktik tercantum pada nama lokasi)"
   ],
-  "harga": [
-    {
-      "perawatan": "Scaling gigi — kisaran pembanding Sidoarjo, bukan tarif praktik",
-      "jenis": "kisaran_pasar",
-      "min": 284000,
-      "max": 370000,
-      "src": [
-        "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi"
-      ]
-    }
-  ],
+  "harga": [],
   "fasilitas": [],
   "asuransi": [],
   "maps": {
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-18"
+    "tgl": "2026-10-26"
   },
-  "keunggulan": [
-    "Praktik bersama dokter umum dan dokter gigi di lokasi yang sama (berdasarkan kategori peta dan nama praktik).",
-    "Jam fasilitas mencantumkan sesi pagi dan malam, termasuk hari Minggu; bukan kepastian jadwal individual drg. Vera."
-  ],
+  "keunggulan": [],
   "situs_lama": [
-    "Tidak ditemukan situs resmi praktik pada sumber yang diperiksa; informasi masih tersebar di peta dan direktori.",
-    "Nomor WhatsApp resmi tidak tercantum; hanya telepon tetap (031) 99710850 yang dapat diverifikasi.",
-    "Jadwal dokter gigi dan daftar tarif resmi tidak ditemukan pada sumber yang dapat diverifikasi."
+    "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemilih kunjungan dokter umum atau dokter gigi dengan jadwal fasilitas per sesi, keterangan jadwal dokter harus dikonfirmasi melalui telepon.",
-  "catatan": "REVISI 18-10-2026: pencarian nomor WA melalui Waze, direktori, pencarian nama dokter, dan pencarian tautan WhatsApp tidak menghasilkan nomor yang secara eksplisit dikonfirmasi sebagai WhatsApp resmi. Tetap v null; jangan mengubah telepon tetap menjadi WA. Alamat dan nomor telepon tetap dikonfirmasi ulang dari Waze dan MediaSehat. Jam adalah jam lokasi, bukan jadwal drg. Vera. Gelar dan nama lengkap drg. Vera tidak ditambah. Rating/ulasan dari penyedia peta tidak dapat dibuktikan pada URL publik yang berhasil dibuka sehingga diisi null. Kisaran scaling dari tiga fasilitas lain di Kabupaten Sidoarjo: Mitra Keluarga Sidoarjo mulai Rp284.000, Pondok Tjandra mulai Rp334.000, Aisyiyah Siti Fatimah Rp370.000. Kategori harga tambal/cabut/behel metal/bleaching/veneer/implan belum memiliki tiga pembanding setara yang diverifikasi, sehingga tidak diisi. Daftar tindakan gigi lain yang disajikan direktori generik tidak diperlakukan sebagai kepastian. Konten/outreach hanya draf; konsep website dan lampiran PDF harus dikonfirmasi pengirim. JANGAN aktifkan CTA WhatsApp sebelum nomor resmi dikonfirmasi.",
+  "ide_fitur_khas": "Panel persiapan kunjungan Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon tetap03199710850 tercantum di PondokSidokareIndahBT09; belum ditemukan WA terverifikasi. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec , https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/ , https://idalamat.com/alamat/1062226/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-sidoarjo-jawa-timur , https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik.",
   "sumber": [
     "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/",
@@ -127,5 +110,35 @@ RISET LAMA:
     "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "07-11,12-16,17-21",
+        "sel": "07-11,12-16,17-21",
+        "rab": "07-11,12-16,17-21",
+        "kam": "07-11,12-16,17-21",
+        "jum": "07-11,12-16,17-21",
+        "sab": "07-11,17-21",
+        "min": "07-11,17-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Praktik dokter umum (jenis praktik tercantum pada nama lokasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Praktik dokter gigi (jenis praktik tercantum pada nama lokasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
   ]
 }

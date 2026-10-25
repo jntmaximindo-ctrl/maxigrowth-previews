@@ -91,40 +91,21 @@ RISET LAMA:
     "Kawat gigi / ortodonti (direktori, konfirmasi ke praktik)",
     "Gigi tiruan (direktori, konfirmasi ke praktik)"
   ],
-  "harga": [
-    {
-      "perawatan": "Scaling — pembanding harga mulai tiga penyedia Kota Bogor; bukan tarif praktik drg. Jenny",
-      "jenis": "kisaran_pasar",
-      "min": 385000,
-      "max": 750000,
-      "src": [
-        "https://www.alodokter.com/cari-rumah-sakit/bogor-dental-center-tajur/scaling-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/rs-vania-bogor/scaling-gigi",
-        "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi"
-      ]
-    }
-  ],
+  "harga": [],
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.8,
-    "ulasan": 123,
-    "src": "https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ",
-    "tgl": "2026-10-18"
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
   },
-  "keunggulan": [
-    "Lokasi praktik di Jl. Suryakencana No.60, Bogor Tengah, tercantum konsisten di CariBisnis dan IDAlamat.",
-    "Nomor telepon tetap 0251-8314853 tercantum konsisten di CariBisnis dan IDAlamat.",
-    "Direktori CariBisnis mencantumkan jam pada hari Minggu 10.00–21.00; perlu konfirmasi ke praktik."
-  ],
+  "keunggulan": [],
   "situs_lama": [
-    "Situs resmi mandiri praktik tidak ditemukan dalam penelusuran 18 Oktober 2026.",
-    "Nomor atau tautan WhatsApp praktik yang bisa diverifikasi tidak ditemukan; tombol WA tidak boleh diaktifkan.",
-    "Tarif resmi praktik, status asuransi, dan jadwal dokter terkini tidak tersedia dari sumber resmi.",
-    "Rating CariBisnis 4.9/122 berbeda dari hasil profil bisnis 4.8/123; angka dapat berubah dan perlu pembaruan berkala."
+    "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Panduan Kunjungan Suryakencana: pilih hari, lihat jam direktori dengan label perlu konfirmasi, buka peta, dan gunakan tombol telepon tetap 0251-8314853; WhatsApp disembunyikan sampai nomor terverifikasi.",
-  "catatan": "REVISI 18 Oktober 2026: ulang pencarian nomor WA/telepon resmi, lokasi, profil dan sumber direktori. Nomor telepon tetap 0251-8314853 konsisten pada CariBisnis dan IDAlamat, tetapi BUKAN nomor WhatsApp. Tautan Chat sekarang di CariBisnis hanya wa.me tanpa nomor tujuan, sehingga tidak membuktikan WA praktik. Nomor seluler bernama serupa dalam dokumen responden Dinas Kesehatan Kota Bogor tidak digunakan karena bukan kontak bisnis dan dapat merupakan data pribadi. Alamat No.60 dikonfirmasi oleh dua direktori. Jam berasal dari CariBisnis dan harus dikonfirmasi; IDAlamat menyebut jam belum tersedia. Rating langsung hasil bisnis Google Maps 4.8/123 pada 18 Oktober 2026 berbeda dari CariBisnis 4.9/122 dan UlasTempat historis 4.8/61. Tindakan dan layanan dari direktori perlu verifikasi ke pengelola, bukan janji layanan. Harga scaling dari tiga penyedia berbeda di Kota Bogor adalah harga mulai (385.000, 624.800, 750.000), bukan tarif praktik ini. Enam kategori harga lain belum memenuhi tiga pembanding sejenis; tidak diisi. Tidak mengirim WA/email. Konsep URL dan proposal PDF harus diverifikasi sebelum outreach.",
+  "ide_fitur_khas": "Panel persiapan kunjungan Drg. Jenny Andalia Sutyono: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Nomor02518314853 pada Suryakencana60 adalah telepon tetap. Tidak mengambil nomor pribadi bernama sama pada dokumen survei sebagai kontak klinik. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1 , https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577 , https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/ , https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
     "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
@@ -134,5 +115,60 @@ RISET LAMA:
     "https://www.alodokter.com/cari-rumah-sakit/rs-vania-bogor/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi",
     "https://bukutelepon.cybo.com/ID/pasar-bogor/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Suryakencana No.60, RT.01/RW.08, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16123",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "02518314853",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-22",
+        "min": "10-21"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Scaling / pembersihan karang gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Tambal gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[2]",
+      "tercatat": "Cabut gigi (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Kawat gigi / ortodonti (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[4]",
+      "tercatat": "Gigi tiruan (direktori, konfirmasi ke praktik)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
   ]
 }

@@ -66,43 +66,21 @@ RISET LAMA:
     "Tambal gigi (tindakan disebut pada ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
     "Konsultasi gigi anak (disebut dalam ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)"
   ],
-  "harga": [
-    {
-      "perawatan": "Scaling — kisaran pasar Tangerang Selatan, BUKAN tarif Klinik Gigi Cirendeu; pembanding memuat harga mulai dan rentang klinik lain",
-      "jenis": "kisaran_pasar",
-      "min": 249000,
-      "max": 650000,
-      "src": [
-        "https://orangedentalhouse.com/tangerang-selatan",
-        "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
-        "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
-      ]
-    }
-  ],
-  "fasilitas": [
-    "Toilet (direktori publik; konfirmasi)",
-    "Parkir (direktori publik; konfirmasi)",
-    "Pembayaran kartu (direktori publik; konfirmasi)"
-  ],
+  "harga": [],
+  "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.9,
-    "ulasan": 134,
-    "src": "https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M",
-    "tgl": "2026-10-18"
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
   },
-  "keunggulan": [
-    "Lokasi tercantum jelas di Jl. Raya Cirendeu Blok Mekar B2 No.99, Ciputat Timur.",
-    "Jam praktik tercantum Senin–Jumat hingga 20.00 dan Sabtu hingga 15.00 pada direktori publik.",
-    "Telepon kantor 02174718597 tercantum pada lebih dari satu direktori publik."
-  ],
+  "keunggulan": [],
   "situs_lama": [
-    "Belum ditemukan situs resmi mandiri yang memuat jadwal dokter dan daftar layanan klinik.",
-    "Nomor WhatsApp resmi tidak terverifikasi; tautan chat tanpa nomor bukan bukti kontak klinik.",
-    "Tarif klinik dan penerimaan asuransi belum terverifikasi sehingga tidak boleh ditampilkan sebagai kepastian."
+    "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Perencana kunjungan Cirendeu: pilih hari, cek jam yang tercatat, susun pertanyaan untuk klinik dan tampilkan telepon kantor; tanpa tombol WA sebelum nomor terverifikasi.",
-  "catatan": "REVISI 2026-10-18: identitas, alamat, nomor telepon tetap 02174718597 dan jam dari IndonesiaKnowledge serta AlamatSehat. Pencarian situs, Google Places, direktori dan tautan chat tidak menghasilkan nomor WhatsApp yang secara eksplisit milik Klinik Gigi Cirendeu; wa.v tetap null, jangan menyamakan dengan Lya Dental, FDC Cirendeu, atau klinik tetangga. Data Google Places saat pencarian menampilkan rating 4.9 dan 134 ulasan (berubah dari 126 surat tugas dan 132 pada direktori); angka dinamis tidak digunakan di konten. Harga scaling pembanding berasal dari tiga fasilitas lain di Tangerang Selatan, bukan tarif klinik; tidak boleh ditampilkan sebagai biaya klinik. Veneer dan implan dari riset lama tidak dimasukkan karena sebagian halaman pembanding tak dapat dibuka ulang hari ini, sehingga tiga harga independen tidak seluruhnya terverifikasi. Layanan klinik masih perlu konfirmasi, bukan daftar resmi. WhatsApp harus tetap nonaktif; gunakan telepon kantor yang terverifikasi. Outreach adalah draf, pastikan konsep web benar-benar ada dan proposal PDF terlampir sebelum pengiriman.",
+  "ide_fitur_khas": "Panel persiapan kunjungan Klinik Gigi Cirendeu: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon tetap02174718597 pada CirendeuBlokMekarB2/99 belum membuktikan WhatsApp. Tidak memakai HappySmile/KimiaFarma yang berbeda. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat , https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/ , https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-gigi-cirendeu-tang-imp1 , https://www.google.com/maps/place/?q=place_id:ChIJXYOZoszvaS4RdHU-80OJR5M. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/ciputat/klinik-gigi-cirendeu-ciputat",
     "https://alamatsehat.com/klinik-gigi-cirendeu-ciputat-timur-tangerang-selatan/",
@@ -111,5 +89,40 @@ RISET LAMA:
     "https://orangedentalhouse.com/tangerang-selatan",
     "https://www.odac-corp.com/klinik-gigi-tangerang-selatan",
     "https://www.alodokter.com/cari-rumah-sakit/omdc-alam-sutera/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-20",
+        "sel": "09-20",
+        "rab": "09-20",
+        "kam": "09-20",
+        "jum": "09-20",
+        "sab": "09-15",
+        "min": "tutup"
+      },
+      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
+    },
+    {
+      "path": "layanan[0]",
+      "tercatat": "Tambal gigi (tindakan disebut pada ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "layanan[1]",
+      "tercatat": "Konsultasi gigi anak (disebut dalam ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
+      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
   ]
 }
