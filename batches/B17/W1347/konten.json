@@ -1,0 +1,132 @@
+{
+  "id": "W1347",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Jakarta Timur",
+      "en": "Dental Care Information in Jakarta Timur"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Klinik Salamah, Pekayon, Pasar Rebo. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Klinik Salamah, Pekayon, Pasar Rebo. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Dokter Umum",
+        "en": "General Practitioner Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter umum untuk keluhan kesehatan Anda.",
+        "en": "Ask about general practitioner hours for your health concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Poli Gigi",
+        "en": "Dental Clinic Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter gigi sebelum datang.",
+        "en": "Ask about dental clinician hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan Apotek",
+        "en": "Pharmacy Services"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan farmasi dan obat sesuai resep.",
+        "en": "Ask about pharmacy services and prescribed medicines."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan Laboratorium",
+        "en": "Laboratory Services"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan laboratorium yang tersedia.",
+        "en": "Ask which laboratory tests are available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Informasi Poli",
+      "en": "Clinic Department Information Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih poli umum, poli gigi, apotek, atau laboratorium untuk menyiapkan pertanyaan sebelum kunjungan.",
+      "en": "Choose general care, dental care, pharmacy, or laboratory services to prepare questions before visiting."
+    },
+    "alasan_dipilih": "HelloSehat mencantumkan beberapa unit layanan, sedangkan jam masing-masing unit belum ditemukan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Salamah?",
+        "en": "Where is Klinik Salamah located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Kalisari No.179, Pekayon, Pasar Rebo.",
+        "en": "The listed address is Jl. Kalisari No.179, Pekayon, Pasar Rebo."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka 24 jam?",
+        "en": "Is the clinic open 24 hours?"
+      },
+      "a": {
+        "id": "HelloSehat mencantumkan layanan klinik 24 jam. Jadwal dokter dan poli gigi mungkin berbeda; konfirmasikan.",
+        "en": "HelloSehat lists 24-hour clinic hours. Doctor and dental department hours may differ; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada poli gigi?",
+        "en": "Is there a dental department?"
+      },
+      "a": {
+        "id": "HelloSehat mencantumkan poli gigi sebagai layanan. Mohon konfirmasi jadwal.",
+        "en": "HelloSehat lists a dental department. Please confirm its schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Klinik Salamah, saya ingin menanyakan jadwal poli gigi dan layanan pemeriksaan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Salamah, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Klinik Salamah di Jl. Kalisari dengan poli umum dan poli gigi yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/salamah. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Klinik Salamah",
+    "email_isi": "Yth. Pengelola Klinik Salamah,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Klinik Salamah di Jl. Kalisari dengan poli umum dan poli gigi yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/salamah. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

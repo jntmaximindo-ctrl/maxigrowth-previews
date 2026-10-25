@@ -1,0 +1,132 @@
+{
+  "id": "W1358",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi kesehatan gigi untuk keluarga",
+      "en": "Dental consultations for the family"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan layanan gigi anak di kawasan Kebraon, Surabaya.",
+      "en": "Visit information and children’s dental care in Kebraon, Surabaya."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan kebutuhan pembersihan karang gigi kepada dokter.",
+        "en": "Ask the dental team about cleaning and examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Discuss options for cavities after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Braces care"
+      },
+      "ringkas": {
+        "id": "Pelajari konsultasi awal dan tahapan perawatan gigi.",
+        "en": "Learn about the consultation and stages of braces care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan untuk menentukan apakah perawatan ini diperlukan.",
+        "en": "Discuss your symptoms to find out whether this treatment is appropriate."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan anak",
+      "en": "Preparing your child for a visit"
+    },
+    "penjelasan": {
+      "id": "Baca panduan singkat dan tanyakan jadwal praktik sebelum berkunjung.",
+      "en": "Read a short visit guide and ask about the schedule before coming in."
+    },
+    "alasan_dipilih": "Nama layanan pada direktori secara eksplisit memuat dokter gigi anak."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Dentalife tercatat di Soho Grand Harvest HO-27, Kebraon, Surabaya.",
+        "en": "Dentalife is listed at Soho Grand Harvest HO-27, Kebraon, Surabaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How do I ask about appointments?"
+      },
+      "a": {
+        "id": "Silakan kirim pesan untuk memastikan jadwal sebelum datang.",
+        "en": "Please send a message to confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya perlu dikonfirmasi kepada pihak klinik setelah jenis perawatan diketahui.",
+        "en": "Please confirm fees with the clinic once your treatment needs are clear."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum pada direktori layanan; mohon konfirmasikan jadwal konsultasinya.",
+        "en": "Braces are listed in a service directory; please confirm consultation availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima pasien anak?",
+        "en": "Does the clinic see children?"
+      },
+      "a": {
+        "id": "Nama praktik mencantumkan dokter gigi anak. Silakan konfirmasi jadwal dan usia pasien yang dilayani.",
+        "en": "The practice lists children’s dental care. Please confirm the schedule and age groups served."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the clinic about your visit"
+  },
+  "pesan_wa_default": "Halo Dentalife, saya ingin bertanya tentang jadwal kunjungan dan layanan gigi anak. Mohon informasinya.",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola Dentalife. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik dokter gigi anak di Kebraon dan telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/surabaya-dentalife . Konsep ini berfokus pada informasi kunjungan dan panduan untuk keluarga. Bila berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website Dentalife",
+    "email_isi": "Yth. Tim Dentalife,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang berfokus pada informasi jadwal dan layanan perawatan gigi keluarga. Silakan lihat di https://maxigrowthstudio.com/surabaya-dentalife . Proposal PDF kami lampirkan untuk ditinjau bila berkenan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

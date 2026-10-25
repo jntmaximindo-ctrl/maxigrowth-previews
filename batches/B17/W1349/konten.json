@@ -1,0 +1,132 @@
+{
+  "id": "W1349",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Surabaya",
+      "en": "Dental Care Information in Surabaya"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Optimal Dental Clinic, Embong Kaliasin, Genteng. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Optimal Dental Clinic, Embong Kaliasin, Genteng. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan gigi sebelum menentukan perawatan.",
+        "en": "Discuss dental concerns before considering treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi dan pemeriksaan terkait.",
+        "en": "Ask about teeth cleaning appointments and related examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan penanganan gigi berlubang setelah evaluasi dokter.",
+        "en": "Discuss cavity care following a dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Kawat Gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan susunan gigi dan pilihan ortodonti.",
+        "en": "Ask about tooth alignment assessment and orthodontic options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Topik Konsultasi",
+      "en": "Consultation Topic Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih pemeriksaan, pembersihan, penambalan, atau susunan gigi untuk menyiapkan pertanyaan.",
+      "en": "Choose examinations, cleaning, fillings, or tooth alignment to prepare questions."
+    },
+    "alasan_dipilih": "Direktori mencantumkan beberapa layanan gigi dan jam praktik Senin–Sabtu."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Optimal Dental Clinic?",
+        "en": "Where is Optimal Dental Clinic located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sono Kembang No.2, Embong Kaliasin, Genteng, Surabaya.",
+        "en": "A directory lists Jl. Sono Kembang No.2, Embong Kaliasin, Genteng, Surabaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "CariBisnis mencantumkan Senin–Sabtu 10.00–20.00 WIB, Minggu tutup. Konfirmasikan sebelum berkunjung.",
+        "en": "CariBisnis lists Monday–Saturday, 10 a.m.–8 p.m. WIB, Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada direktori. Tanyakan jadwal tindakan kepada klinik.",
+        "en": "Scaling appears in a directory. Please confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bekerja sama dengan asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam daftar provider Chubb 2026. Manfaat polis dan status kerja sama perlu dikonfirmasi.",
+        "en": "The clinic appears on a 2026 Chubb provider list. Coverage and current status must be confirmed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Optimal Dental Clinic, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Optimal Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Optimal Dental Clinic di Jl. Sono Kembang dengan layanan gigi yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/optimal. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Optimal Dental Clinic",
+    "email_isi": "Yth. Pengelola Optimal Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Optimal Dental Clinic di Jl. Sono Kembang dengan layanan gigi yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/optimal. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

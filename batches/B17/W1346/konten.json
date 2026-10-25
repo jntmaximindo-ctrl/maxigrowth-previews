@@ -1,0 +1,132 @@
+{
+  "id": "W1346",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Jakarta Timur",
+      "en": "Dental Care Information in Jakarta Timur"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Klinik Azalea, Kalisari, Pasar Rebo. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Klinik Azalea, Kalisari, Pasar Rebo. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi untuk membicarakan kondisi gigi dan mulut.",
+        "en": "Ask about a consultation to discuss your dental health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi tercantum pada mitra pemesanan; konfirmasikan jadwal tindakan.",
+        "en": "Scaling is listed by a booking partner; please confirm availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan penanganan gigi berlubang setelah pemeriksaan dokter.",
+        "en": "Discuss cavity care after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Bleaching",
+        "en": "Teeth Whitening Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan untuk perubahan warna gigi dan penilaiannya.",
+        "en": "Ask about options for tooth discoloration and clinical assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pilihan Konsultasi",
+      "en": "Consultation Topic Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih pemeriksaan, karang gigi, gigi berlubang, atau perubahan warna gigi untuk menyiapkan pertanyaan.",
+      "en": "Choose checkups, cleaning, cavities, or tooth discoloration to prepare questions."
+    },
+    "alasan_dipilih": "Informasi publik menunjukkan beberapa jenis tindakan; panduan membantu pasien memahami topik konsultasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Azalea?",
+        "en": "Where is Klinik Azalea located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Baret Biru III No.6, Kalisari, Pasar Rebo, Jakarta Timur.",
+        "en": "The listed address is Jl. Baret Biru III No.6, Kalisari, Pasar Rebo, East Jakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka setiap hari?",
+        "en": "Are you open daily?"
+      },
+      "a": {
+        "id": "Mitra pemesanan mencantumkan Senin–Minggu 08.00–21.00 WIB. Konfirmasikan jadwal sebelum berkunjung.",
+        "en": "A booking partner lists daily hours of 8 a.m.–9 p.m. WIB. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia penambalan gigi?",
+        "en": "Are dental fillings available?"
+      },
+      "a": {
+        "id": "Penambalan tercantum pada mitra pemesanan untuk alamat ini. Tanyakan ketersediaan jadwal.",
+        "en": "Fillings are listed by a booking partner for this address. Please confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada kerja sama asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Klinik tercantum di jaringan BCA Life. Manfaat polis dan status rekanan perlu dikonfirmasi.",
+        "en": "The clinic appears in the BCA Life network. Coverage and current provider status require confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Klinik Azalea, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan gigi. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Azalea, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Klinik Azalea di Jl. Baret Biru III dan layanan gigi yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/azalea. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Klinik Azalea",
+    "email_isi": "Yth. Pengelola Klinik Azalea,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Klinik Azalea di Jl. Baret Biru III dan layanan gigi yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/azalea. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

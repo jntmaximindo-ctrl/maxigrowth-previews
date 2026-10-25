@@ -1,0 +1,132 @@
+{
+  "id": "W1348",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Jakarta Timur",
+      "en": "Dental Care Information in Jakarta Timur"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Yessy Dental Care, Rawamangun. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Yessy Dental Care, Rawamangun. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan gigi sebelum menentukan perawatan yang sesuai.",
+        "en": "Discuss your dental concerns before considering treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi dan pemeriksaan terkait.",
+        "en": "Ask about teeth cleaning appointments and related examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan untuk gigi berlubang setelah pemeriksaan.",
+        "en": "Discuss cavity treatment options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Kawat Gigi",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan susunan gigi dan pilihan ortodonti.",
+        "en": "Ask about tooth alignment assessment and orthodontic options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Persiapan Pemeriksaan",
+      "en": "Dental Visit Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik konsultasi dan siapkan pertanyaan sebelum menghubungi klinik. Panduan bukan diagnosis.",
+      "en": "Choose a consultation topic and prepare questions before contacting the clinic. This guide is not a diagnosis."
+    },
+    "alasan_dipilih": "Direktori menyebut beberapa layanan perawatan dasar dan ortodonti."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Yessy Dental Care berada?",
+        "en": "Where is Yessy Dental Care located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Waru No.18a, Rawamangun, Pulo Gadung, Jakarta Timur.",
+        "en": "The listed address is Jl. Waru No.18a, Rawamangun, Pulo Gadung, East Jakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Waze mencantumkan Senin–Sabtu 09.00–20.00 WIB dan Minggu tutup. Mohon konfirmasi.",
+        "en": "Waze lists Monday–Saturday, 9 a.m.–8 p.m. WIB, and Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada direktori CariBisnis. Tanyakan ketersediaan jadwal.",
+        "en": "Scaling appears in a CariBisnis directory. Please confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Yessy Dental Care Rawamangun, saya ingin menanyakan jadwal pemeriksaan gigi dan layanan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Yessy Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Yessy Dental Care di Jl. Waru No.18a dengan jam praktik yang tercantum. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/yessy. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Yessy Dental Care",
+    "email_isi": "Yth. Pengelola Yessy Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Yessy Dental Care di Jl. Waru No.18a dengan jam praktik yang tercantum melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/yessy. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

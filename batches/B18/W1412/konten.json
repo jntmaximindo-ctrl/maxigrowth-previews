@@ -1,0 +1,132 @@
+{
+  "id": "W1412",
+  "hero": {
+    "judul": {
+      "id": "Informasi Majesty Dental House — drg. Verna H. Hosal",
+      "en": "Majesty Dental House — drg. Verna H. Hosal — Dental Care Information"
+    },
+    "sub": {
+      "id": "Cari informasi lokasi, jadwal, dan pertanyaan awal sebelum berkunjung.",
+      "en": "Find location, opening hours, and useful questions before a visit."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi Jadwal",
+        "en": "Opening Hours"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jadwal sebelum berkunjung.",
+        "en": "Confirm hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Lokasi",
+        "en": "Location Information"
+      },
+      "ringkas": {
+        "id": "Minta petunjuk lokasi praktik.",
+        "en": "Ask for directions to the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan Layanan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan layanan yang tersedia.",
+        "en": "Ask which treatments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan pertanyaan tentang kebutuhan gigi Anda.",
+        "en": "Prepare questions about your dental needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan lokasi praktik Passo",
+      "en": "Panduan lokasi praktik Passo"
+    },
+    "penjelasan": {
+      "id": "Panduan interaktif untuk membantu menyiapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "An interactive guide to prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Lokasi dekat Asrama Brimob di Passo, Ambon."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara mengetahui jadwal praktik?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Silakan hubungi klinik untuk mengonfirmasi jadwal terbaru.",
+        "en": "Contact the clinic to confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sumber yang diperiksa. Tanyakan rincian biaya sebelum membuat janji.",
+        "en": "Published fees were not confirmed. Ask for an estimate before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Tanyakan langsung kepada klinik.",
+        "en": "Insurance participation is not confirmed. Please contact the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi ketersediaan jadwal terlebih dahulu.",
+        "en": "It is helpful to check availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan untuk anak?",
+        "en": "Is children’s dental care available?"
+      },
+      "a": {
+        "id": "Silakan tanyakan layanan dan jadwal dokter yang sesuai untuk anak.",
+        "en": "Ask about suitable services and schedules for children."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi terbaru",
+    "en": "Contact the clinic for current information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan informasi layanan di Majesty Dental House — drg. Verna H. Hosal. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu manajemen Majesty Dental House — drg. Verna H. Hosal, saya dari Maxi Growth Studio. Kami menyiapkan konsep website untuk mempermudah informasi klinik seperti jadwal dan layanan. Konsep dapat dilihat di https://maxigrowthstudio.com/majesty-house. Bila berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Majesty Dental House — drg. Verna H. Hosal",
+    "email_isi": "Yth. Manajemen Majesty Dental House — drg. Verna H. Hosal,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang memusatkan informasi klinik untuk calon pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/majesty-house.\n\nSaya sertakan proposal PDF terlampir untuk dipertimbangkan. Silakan beri tanggapan jika berkenan.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1362",
+  "hero": {
+    "judul": {
+      "id": "Informasi layanan dan kunjungan KING Dental Otista",
+      "en": "Dental visits and information at KING Dental Otista"
+    },
+    "sub": {
+      "id": "Tanyakan layanan, ketersediaan jadwal, dan persiapan sebelum datang.",
+      "en": "Ask about services, appointment availability and how to prepare for your visit."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan kebutuhan pembersihan karang gigi kepada dokter.",
+        "en": "Ask the dental team about cleaning and examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Discuss options for cavities after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Braces care"
+      },
+      "ringkas": {
+        "id": "Pelajari konsultasi awal dan tahapan perawatan gigi.",
+        "en": "Learn about the consultation and stages of braces care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan untuk menentukan apakah perawatan ini diperlukan.",
+        "en": "Discuss your symptoms to find out whether this treatment is appropriate."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan dan jadwal",
+      "en": "Visit and appointment guide"
+    },
+    "penjelasan": {
+      "id": "Tentukan pertanyaan dan waktu kunjungan lalu hubungi klinik untuk konfirmasi.",
+      "en": "Choose your questions and preferred visit time, then confirm with the clinic."
+    },
+    "alasan_dipilih": "Membantu pasien mengakses informasi sebelum datang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum: Jl. Otista No.58, RT.003/RW.004, Gerendeng, Karawaci, Kota Tangerang, Banten 15113.",
+        "en": "Listed address: Jl. Otista No.58, RT.003/RW.004, Gerendeng, Karawaci, Kota Tangerang, Banten 15113."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How do I ask about appointments?"
+      },
+      "a": {
+        "id": "Silakan kirim pesan untuk memastikan jadwal sebelum datang.",
+        "en": "Please send a message to confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya perlu dikonfirmasi kepada pihak klinik setelah jenis perawatan diketahui.",
+        "en": "Please confirm fees with the clinic once your treatment needs are clear."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum pada direktori layanan; mohon konfirmasikan jadwal konsultasinya.",
+        "en": "Braces are listed in a service directory; please confirm consultation availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima pasien anak?",
+        "en": "Does the clinic see children?"
+      },
+      "a": {
+        "id": "Silakan tanyakan langsung ketersediaan layanan anak dan jadwal dokternya.",
+        "en": "Please ask directly about children’s appointments and practitioner availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the clinic about your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal pemeriksaan gigi di KING Dental Otista. Mohon informasinya.",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola KING Dental Otista. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk memudahkan informasi lokasi, layanan, dan jadwal kunjungan. Konsepnya dapat dilihat di https://maxigrowthstudio.com/king-otista . Bila berkenan, kami terbuka atas masukan. Terima kasih.",
+    "email_subjek": "Konsep website KING Dental Otista",
+    "email_isi": "Yth. Tim KING Dental Otista,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website terkait informasi klinik dan alur pertanyaan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/king-otista . Proposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk menerima masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
