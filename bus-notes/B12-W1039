@@ -1,0 +1,74 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W1039",
+  "nama": {
+    "v": "Orela Dental Care TKI | Dokter Gigi Bandung",
+    "src": "https://drive.google.com/file/d/1hg5uSHPH0IBsdVFNA4SB_VVULD7YMoDD/view",
+    "tgl": "2026-10-17",
+    "yakin": "sedang"
+  },
+  "kota": "Kabupaten Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-17",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Orela Dental Care TKI | Dokter Gigi Bandung",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-17",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Orela%20Dental%20Care%20TKI%20%7C%20Dokter%20Gigi%20Bandung&query_place_id=ChIJ9cnl1-HvaC4RhJwJcLDUMy0"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "keunggulan": [
+    "Identitas praktik ditemukan pada sumber publik; data kunjungan masih perlu konfirmasi."
+  ],
+  "situs_lama": [
+    "Jadwal dokter individual dan tarif lengkap belum terverifikasi pada halaman yang terbaca."
+  ],
+  "ide_fitur_khas": "Daftar pertanyaan persiapan kunjungan; lokasi dan saluran kontak menunggu verifikasi.",
+  "catatan": "PERLU REVIEW MANUAL: identitas hanya dari surat tugas yang dibaca melalui connector Drive. Pencarian dua mesin tidak menghasilkan halaman klinik yang dapat dibaca; hasil Yandex hanya menyebut nama dalam daftar sekitar. Maps dan Waze tidak dapat diakses. Semua fakta klinik di luar nama/kota dari surat tetap null atau array kosong. Jangan merakit alamat, nomor kontak, dokter, harga maupun rating dari dugaan; jangan menampilkan CTA aktif. Rating/ulasan dari surat tugas tidak disalin sebagai bukti; elemen maps dihapus jika belum terverifikasi. Fakta tidak ditemukan ditulis v/src null. Tarif tujuh kategori yang tidak punya angka dan tiga pembanding kota sama dihapus dari harga, bukan diisi nol atau null; harga kosong bukan berarti tarif nol. Halaman kategori biaya ditelusuri, tetapi halaman kosong atau angka lintas wilayah tidak dijadikan tarif. Sumber direktori dapat usang; kontak dan jadwal perlu dikonfirmasi. Konsep fitur bukan sistem reservasi aktif. Outreach hanya draf: cek konsep benar tersedia dan PDF benar terlampir sebelum pemilik menggunakannya. Tidak mengirim pesan. Tombol WhatsApp wajib nonaktif karena nomor belum terbukti; pesan_wa_default hanya draf. Empat kartu layanan konten berupa panduan pertanyaan, bukan klaim tindakan tersedia. Ketersediaan tindakan klinis masih memerlukan konfirmasi.",
+  "sumber": [
+    "https://drive.google.com/file/d/1hg5uSHPH0IBsdVFNA4SB_VVULD7YMoDD/view",
+    "https://www.google.com/maps/search/?api=1&query=Orela+Dental+Care+TKI&query_place_id=ChIJ9cnl1-HvaC4RhJwJcLDUMy0",
+    "https://www.waze.com/live-map/directions?to=place.ChIJ9cnl1-HvaC4RhJwJcLDUMy0"
+  ]
+}
