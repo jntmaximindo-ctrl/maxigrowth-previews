@@ -1,0 +1,13 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B16/W1217/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ konten.schema.json → layanan/2/nama/id: None is not of type 'string'
+✗ konten.schema.json → layanan/2/nama/en: None is not of type 'string'
+✗ konten.schema.json → layanan/2/ringkas/id: None is not of type 'string'
+✗ konten.schema.json → layanan/2/ringkas/en: None is not of type 'string'
+✗ konten.schema.json → layanan/3/nama/id: None is not of type 'string'
+✗ konten.schema.json → layanan/3/nama/en: None is not of type 'string'
+✗ konten.schema.json → layanan/3/ringkas/id: None is not of type 'string'
+✗ konten.schema.json → layanan/3/ringkas/en: None is not of type 'string'
+GAGAL (8 masalah)
+
