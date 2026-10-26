@@ -62,14 +62,7 @@ RISET LAMA:
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Pemeriksaan dan konsultasi gigi",
-    "Scaling / pembersihan karang gigi (tercantum di direktori)",
-    "Tambal gigi (tercantum di direktori)",
-    "Cabut gigi (tercantum di direktori)",
-    "Kawat gigi / behel (tercantum di direktori)",
-    "Gigi tiruan (tercantum di direktori)"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -84,7 +77,7 @@ RISET LAMA:
     "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Panel persiapan kunjungan Praktek drg.Okky S: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
-  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon0218500478 ditemukan; tidak ada bukti WhatsApp. Tidak memakai praktik Okky di Bogor. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133 , https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1 , https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA , https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon0218500478 ditemukan; tidak ada bukti WhatsApp. Tidak memakai praktik Okky di Bogor. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133 , https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1 , https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA , https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik. Pemeriksaan ulang 26 Oktober 2026: sumber kontak dibaca ulang. maps_url memakai URL pencarian nama dan alamat bila place belum terverifikasi. harga belum tersedia. Tidak menghubungi klinik. Layanan belum disahkan dari kanal resmi yang dapat dibaca; empat kartu konten adalah topik pertanyaan pasien.",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1",
@@ -95,57 +88,14 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].alamat.v",
-      "tercatat": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
-      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
-    },
-    {
-      "path": "cabang[0].jam.v",
-      "tercatat": {
-        "sen": "17:30-21:30",
-        "sel": "17:30-21:30",
-        "rab": "17:30-21:30",
-        "kam": "17:30-21:30",
-        "jum": "17:30-21:30",
-        "sab": "17:30-21:30",
-        "min": "tutup"
-      },
-      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
-    },
-    {
-      "path": "layanan[0]",
-      "tercatat": "Pemeriksaan dan konsultasi gigi",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[1]",
-      "tercatat": "Scaling / pembersihan karang gigi (tercantum di direktori)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[2]",
-      "tercatat": "Tambal gigi (tercantum di direktori)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[3]",
-      "tercatat": "Cabut gigi (tercantum di direktori)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[4]",
-      "tercatat": "Kawat gigi / behel (tercantum di direktori)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[5]",
-      "tercatat": "Gigi tiruan (tercantum di direktori)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "cabang[].wa",
+      "path": "cabang[0].wa",
       "tercatat": null,
-      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+      "catatan": "Telepon tetap 0218500478"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0218500478",
+      "catatan": "0218500478"
     }
   ]
 }
