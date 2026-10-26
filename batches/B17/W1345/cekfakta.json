@@ -1,0 +1,30 @@
+{
+  "id": "W1345",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282125008020",
+      "di_sumber": "Profil Instagram gagal dibuka dan pencarian nomor persis tidak memberikan bukti yang dapat diulang.",
+      "src": "https://www.instagram.com/klinikpratama_rafa/",
+      "catatan": "Belum terverifikasi mandiri, bukan dinyatakan salah. Alamat tetap null karena CariBisnis No.4 1A berbeda dari daftar Chubb No.48; hubungan lokasi belum dipastikan."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi dokter umum",
+        "Konsultasi poli gigi",
+        "Pemeriksaan kesehatan gigi",
+        "Konsultasi penambalan gigi"
+      ],
+      "di_sumber": "Dokter umum dan poli gigi bergantung pada cuplikan Instagram yang belum berhasil diperiksa ulang.",
+      "src": "https://www.instagram.com/klinikpratama_rafa/",
+      "catatan": "Tampilkan sebagai pertanyaan kepada pengelola sampai bukti tersedia."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/klinikpratama_rafa/",
+    "https://www.okadoc.com/en-id/clinic/kota-jakarta-timur/klinik-rafa"
+  ],
+  "kritis_ok": false
+}
