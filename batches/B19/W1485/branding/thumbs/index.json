@@ -1,0 +1,44 @@
+{
+  "hero": [
+    "hero-mobile.jpg"
+  ],
+  "logo": [
+    {
+      "file": "logo-1.svg",
+      "asal": "logo-1.svg"
+    },
+    {
+      "file": "logo-2.png",
+      "asal": "logo-2.jpg",
+      "ukuran": [
+        192,
+        240
+      ]
+    },
+    {
+      "file": "logo-3.png",
+      "asal": "logo-3.ico",
+      "ukuran": [
+        48,
+        48
+      ]
+    },
+    {
+      "file": "logo-4.png",
+      "asal": "logo-4.png",
+      "ukuran": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "logo-5.png",
+      "asal": "logo-5.png",
+      "ukuran": [
+        180,
+        180
+      ]
+    }
+  ],
+  "gagal": []
+}
