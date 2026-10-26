@@ -1,0 +1,132 @@
+{
+  "id": "W1398",
+  "hero": {
+    "judul": {
+      "id": "CIAO dental studio",
+      "en": "CIAO dental studio"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Ambarawa. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Dental care information in Ambarawa. Confirm availability before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tercantum dalam direktori publik. Kesesuaian perawatan ditentukan setelah pemeriksaan dokter gigi.",
+        "en": "Listed in a public directory. Treatment suitability is assessed by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tercantum dalam direktori publik. Kesesuaian perawatan ditentukan setelah pemeriksaan dokter gigi.",
+        "en": "Listed in a public directory. Treatment suitability is assessed by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tercantum dalam direktori publik. Kesesuaian perawatan ditentukan setelah pemeriksaan dokter gigi.",
+        "en": "Listed in a public directory. Treatment suitability is assessed by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tercantum dalam direktori publik. Kesesuaian perawatan ditentukan setelah pemeriksaan dokter gigi.",
+        "en": "Listed in a public directory. Treatment suitability is assessed by a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan untuk menyiapkan pertanyaan tentang jadwal, biaya dan pemeriksaan.",
+      "en": "Choose a care topic to prepare questions about appointments, fees and examinations."
+    },
+    "alasan_dipilih": "Direktori mencantumkan beberapa perawatan; pemilih pertanyaan membantu pasien mengonfirmasi informasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi studio?",
+        "en": "Where is the studio?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Brigjend Sudiarto No.25a, Lodoyong, Ambarawa. Konfirmasikan sebelum berkunjung.",
+        "en": "The directory lists Jl. Brigjend Sudiarto No.25a, Lodoyong, Ambarawa. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 10.00–20.00 dan Minggu tutup. Jadwal dokter perlu dikonfirmasi.",
+        "en": "The directory lists Monday–Saturday 10:00–20:00 and Sunday closed. Confirm dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia. Minta rincian biaya setelah pemeriksaan.",
+        "en": "Official prices are unavailable. Request a cost breakdown after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum di direktori. Tanyakan jadwal konsultasi dan kesesuaian perawatan.",
+        "en": "Braces are listed in the directory. Ask about a consultation and treatment suitability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan melalui nomor kontak publik sebelum datang.",
+        "en": "Ask about availability using the public contact number before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan rincian biaya.",
+    "en": "Ask about appointments and costs."
+  },
+  "pesan_wa_default": "Halo CIAO dental studio, saya ingin menanyakan jadwal konsultasi dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Manajemen CIAO dental studio, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik mencantumkan lokasi Anda di Ambarawa. Kami menyiapkan konsep website dengan informasi kunjungan dan pertanyaan perawatan di https://maxigrowthstudio.com/ciao-studio untuk ditinjau setelah tersedia. Silakan lihat bila berkenan.",
+    "email_subjek": "Konsep website CIAO dental studio",
+    "email_isi": "Yth. Manajemen CIAO dental studio, kami menyiapkan konsep website untuk membantu pasien menemukan informasi lokasi Ambarawa dan menyiapkan pertanyaan perawatan. Tautan konsep: https://maxigrowthstudio.com/ciao-studio (ketersediaan perlu diperiksa). Proposal PDF terlampir pada pengiriman. Hormat kami, Muhammad Rizqi Tri Andika, Maxi Growth Studio, WA 082141004400, info@maxigrowthstudio.com."
+  }
+}
