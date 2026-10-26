@@ -15,7 +15,7 @@ permissions: { contents: write }
 jobs:
   kolase:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }  # ambil kolase.json terbaru, bukan commit saat dispatch
@@ -33,6 +33,7 @@ jobs:
           if [ "${{ github.event.inputs.ulang }}" = "true" ]; then ARGS="$ARGS --ulang"; fi
           python -u scripts/kolase.py $ARGS | tee /tmp/kolase.log
       - name: Unggah ke Drive "11 Kolase WA"
+        if: always()
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: |
           ls /tmp/kolase/*.jpg >/dev/null 2>&1 || { echo "tidak ada kolase baru"; exit 0; }
@@ -40,6 +41,7 @@ jobs:
           python3 scripts/bus.py rclone-conf
           rclone copy /tmp/kolase "bus:11 Kolase WA" --include "*.jpg" --exclude "*-[123].png" -v
       - name: Catat kolase selesai
+        if: always()
         run: |
           git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
           git add data/kolase.json || true
