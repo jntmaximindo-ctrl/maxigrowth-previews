@@ -1,0 +1,46 @@
+{
+  "id": "W1157",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Azi Dental Care (drg. Nur Azi Firman Syah)",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/drg-nur-azi-firman-syah-1061623",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/azi_dental/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/drg-nur-azi-firman-syah-1061623",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Letjen Suprapto No.173, Pasarbatang, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52211",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/drg-nur-azi-firman-syah-1061623",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1bbl81hV1TxypBy_kEk8ImAffI5xbkwew/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 149,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1bbl81hV1TxypBy_kEk8ImAffI5xbkwew/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/azi_dental/",
+    "https://drive.google.com/file/d/1bbl81hV1TxypBy_kEk8ImAffI5xbkwew/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}

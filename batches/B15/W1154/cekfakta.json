@@ -1,0 +1,39 @@
+{
+  "id": "W1154",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/ez.dentalcare/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. KH. Ahmad Dahlan No.12, Pasarbatang, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52211",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1uhJGNbN93I8pRPWAtTyjpHUKI6xcss8n/view",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 313,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1uhJGNbN93I8pRPWAtTyjpHUKI6xcss8n/view",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/ez.dentalcare/",
+    "https://drive.google.com/file/d/1uhJGNbN93I8pRPWAtTyjpHUKI6xcss8n/view"
+  ],
+  "kritis_ok": false
+}

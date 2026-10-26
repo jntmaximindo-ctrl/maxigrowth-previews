@@ -102,5 +102,32 @@
     "https://idalamat.com/alamat/drg-nur-azi-firman-syah-1061623",
     "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/",
     "https://www.instagram.com/azi_dental/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "Azi Dental Care (drg. Nur Azi Firman Syah)",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/azi_dental/",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Letjen Suprapto No.173, Pasarbatang, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52211",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 149,
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
   ]
 }

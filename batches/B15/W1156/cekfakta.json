@@ -1,0 +1,60 @@
+{
+  "id": "W1156",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Dokter Gigi Endang Sariningsih drg",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Brebes, Kabupaten Brebes, Jawa Tengah 52212",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "62283671008",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Endang Sariningsih",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1DItmALJDXcH8PsxxDGw_XmN5MUIh0nXh/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 162,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1DItmALJDXcH8PsxxDGw_XmN5MUIh0nXh/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[].wa",
+      "tercatat": null,
+      "di_sumber": null,
+      "src": null,
+      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/",
+    "https://drive.google.com/file/d/1DItmALJDXcH8PsxxDGw_XmN5MUIh0nXh/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}
