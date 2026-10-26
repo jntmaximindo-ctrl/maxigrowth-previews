@@ -1,0 +1,142 @@
+{
+  "id": "W1327",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Gigi Nini Dental Care di Cakranegara",
+      "en": "Dental Care Information at Nini Dental Care, Cakranegara"
+    },
+    "sub": {
+      "id": "Kenali topik konsultasi gigi dan informasi dua sesi praktik yang tercantum. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Explore dental consultation topics and the two listed appointment sessions. Please confirm opening hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Konsultasi",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan ketersediaan scaling sesuai kondisi gigi.",
+        "en": "Ask about an initial assessment and the availability of teeth cleaning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan pilihan penanganan setelah pemeriksaan.",
+        "en": "Discuss cavities and possible care after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children’s Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan gigi anak dan persiapan kunjungan.",
+        "en": "Ask about children’s dental appointments and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Susunan Gigi",
+        "en": "Tooth Alignment Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan untuk susunan gigi dan pilihan ortodonti.",
+        "en": "Ask about tooth alignment assessments and orthodontic options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Geraham Bungsu",
+        "en": "Wisdom Tooth Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan geraham bungsu untuk mengetahui pemeriksaan yang diperlukan.",
+        "en": "Describe wisdom tooth concerns to learn which examination may be needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sesi Pagi atau Sore",
+      "en": "Morning or Evening Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jam praktik yang tercantum untuk sesi pagi dan sore, lalu siapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "Review the listed morning and evening hours, then prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Dua sesi praktik Senin–Sabtu tercantum pada direktori; jadwal dokter individual belum tersedia dan harus dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Nini Dental Care?",
+        "en": "Where is Nini Dental Care located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Komplek Ruko MGM Supermarket, area parkir dalam, Cakranegara Selatan, Kota Mataram.",
+        "en": "A directory lists MGM Supermarket shophouse complex, inside the parking area, South Cakranegara, Mataram."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the listed opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 09.30–14.00 dan 16.30–21.00 WITA; Minggu tutup. Mohon konfirmasi.",
+        "en": "Directories list Monday–Saturday, 9:30 a.m.–2 p.m. and 4:30–9 p.m. WITA; Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi anak?",
+        "en": "Are children’s dental appointments available?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum pada direktori. Tanyakan jadwal dan dokter yang bertugas.",
+        "en": "Children’s dental care appears in a directory. Please confirm appointment times and clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much are cleaning or fillings?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya kepada klinik.",
+        "en": "An official price list was not found in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi kepada pihak klinik.",
+        "en": "Insurance arrangements were not found in the reviewed sources. Please confirm with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan jadwal dan jenis konsultasi yang tersedia.",
+    "en": "Contact the clinic to confirm appointments and available consultations."
+  },
+  "pesan_wa_default": "Halo Nini Dental Care, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Nini Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan panduan sesi praktik pagi dan sore sesuai informasi publik klinik. Konsep dapat dilihat di https://maxigrowthstudio.com/lombok-senior. Jika berkenan, silakan ditinjau. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Nini Dental Care Cakranegara",
+    "email_isi": "Yth. Pengelola Nini Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website untuk Nini Dental Care Cakranegara, termasuk panduan sesi praktik pagi dan sore berdasarkan informasi publik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/lombok-senior. Proposal PDF terlampir sebagai bahan pertimbangan. Informasi layanan dan jadwal dalam konsep masih perlu konfirmasi pihak klinik sebelum publikasi.\n\nApabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
