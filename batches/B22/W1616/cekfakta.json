@@ -1,0 +1,15 @@
+{
+  "id": "W1616",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Hasanudin No.80, Mangunsari, Kec. Sidomukti, Kota Salatiga, Jawa Tengah 50721",
+      "di_sumber": "Dua halaman IDalamat untuk praktik bernama Dedy dengan telepon identik 0813-3635-0172 memberikan nomor rumah berbeda: entri 'drg Dedy Setyo Prayogo' menulis No.82, entri 'Dokter Gigi Dedy' menulis No.80.",
+      "src": "https://idalamat.com/alamat/drg-dedy-setyo-prayogo-1061729",
+      "catatan": "Perbedaan nomor bangunan 80/82 adalah masalah alamat kritis; riset memilih 80 dari entri lain dengan keyakinan rendah, harus dikonfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

@@ -92,5 +92,12 @@
   "sumber": [
     "https://www.dentalclinics.care/dental-clinic/dokter-gigi-eka-masita",
     "https://poltekkes.web.id/dokter-gigi-kota-batu/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": null,
+      "catatan": "DentalClinics menampilkan Senin–Jumat 13.00–16.00, Sabtu–Minggu tutup; Poltekkes yang dikutip sebagai pembanding jam 16.00–20.00 tidak dapat dibuka langsung."
+    }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "id": "W1612",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Ervyanti Audri Anwar",
+      "di_sumber": "Sumber FixPalembang tidak dapat dibuka langsung. Riset sendiri mencatat varian ejaan Audri pada judul dan Audry dalam narasi sumber; tidak ada pembuktian mandiri ejaan nama lengkap.",
+      "src": "https://fixpalembang.com/dokter-gigi-salatiga/",
+      "catatan": "Perlu konfirmasi ejaan nama/gelar dokter sebelum publikasi; belum dapat dipastikan ada kesalahan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-salatiga/",
+    "https://fixpalembang.com/dokter-gigi-salatiga/",
+    "https://www.instagram.com/osmarodentalcare_salatiga/"
+  ],
+  "kritis_ok": false
+}

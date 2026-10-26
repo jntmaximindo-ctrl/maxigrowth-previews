@@ -1,0 +1,24 @@
+{
+  "id": "W1632",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Veteran No.36, Nagarawangi, Kec. Cihideung, Tasikmalaya, Jawa Barat 46123",
+      "di_sumber": "IDalamat secara eksplisit menulis 'Kab. Tasikmalaya' untuk alamat, tetapi halaman sama mengategorikan lokasi sebagai 'Kota Tasikmalaya'. Riset tidak mencantumkan kabupaten/kota pada nilai alamat.",
+      "src": "https://idalamat.com/alamat/dokter-gigi-tasikmalaya-edental-1060817",
+      "catatan": "Konflik administratif internal sumber. Alamat jalan dan nomor cocok; status kota/kabupaten belum pasti sehingga alamat perlu verifikasi sebelum publikasi."
+    },
+    {
+      "path": "cabang[0].jam.src",
+      "tercatat": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kota-tasikmalaya/",
+      "di_sumber": "Halaman MediaSehat gagal dibuka langsung; IDalamat memuat jam Senin–Sabtu 10.00–20.00, tetapi Minggu tidak terlihat dalam kutipan jadwal.",
+      "src": "https://idalamat.com/alamat/dokter-gigi-tasikmalaya-edental-1060817",
+      "catatan": "Jam sebagian didukung sumber alternatif, tetapi jadwal Minggu tutup belum diverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kota-tasikmalaya/"
+  ],
+  "kritis_ok": false
+}

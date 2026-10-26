@@ -1,0 +1,18 @@
+{
+  "id": "W1604",
+  "diperiksa": 24,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.jum",
+      "tercatat": "14-20",
+      "di_sumber": "Situs resmi Makassar Dental Care mencantumkan Jumat 14.00–20.00 WITA, sedangkan DentalClinics mencantumkan Jumat 14.00–21.00.",
+      "src": "https://www.dentalclinics.care/dental-clinic/makassar-dental-care",
+      "catatan": "Riset mengikuti jam resmi; selisih satu jam pada direktori eksternal perlu dicatat."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://mediasehat.id/tempat/11-tempat-praktik-dokter-gigi-di-makassar/",
+    "https://instagram.com/makassardentalcare_"
+  ],
+  "kritis_ok": true
+}
