@@ -1,0 +1,132 @@
+{
+  "id": "W1642",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Noor Any Parlina",
+      "en": "Dokter Gigi Noor Any Parlina"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Dersalam, Kudus.",
+      "en": "Dental practice visit information in Dersalam, Kudus."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan dan konsultasikan kebutuhan tindakan dengan dokter gigi.",
+        "en": "Mentioned in a public directory. Confirm availability and discuss treatment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan dan konsultasikan kebutuhan tindakan dengan dokter gigi.",
+        "en": "Mentioned in a public directory. Confirm availability and discuss treatment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan dan konsultasikan kebutuhan tindakan dengan dokter gigi.",
+        "en": "Mentioned in a public directory. Confirm availability and discuss treatment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan dan konsultasikan kebutuhan tindakan dengan dokter gigi.",
+        "en": "Mentioned in a public directory. Confirm availability and discuss treatment needs with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan sore",
+      "en": "Plan an afternoon visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kerja lalu susun pertanyaan untuk mengonfirmasi jadwal dan persiapan.",
+      "en": "Choose a weekday and prepare questions to confirm availability and preparation."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam sore Senin–Jumat; jadwal aktual perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Jend. Sudirman, Dersalam, Bae, Kudus. Konfirmasikan lokasi sebelum berkunjung.",
+        "en": "Directories list Jl. Jend. Sudirman, Dersalam, Bae, Kudus. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat 17.00–21.00, Sabtu–Minggu tutup. Konfirmasikan jadwal terbaru.",
+        "en": "Directories list Monday–Friday 17:00–21:00, weekends closed. Confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices are unavailable. Request a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik untuk menanyakan jadwal yang tersedia.",
+        "en": "Contact the public number to ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum terverifikasi. Tanyakan kepada praktik.",
+        "en": "Insurance arrangements are unverified. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal kunjungan.",
+    "en": "Confirm appointment availability."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik Dokter Gigi Noor Any Parlina dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Pengelola praktik Dokter Gigi Noor Any Parlina, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan lokasi praktik di Dersalam, Kudus. Kami menyiapkan konsep website dengan informasi kunjungan di https://maxigrowthstudio.com/noor-any untuk ditinjau setelah tersedia. Silakan lihat bila berkenan.",
+    "email_subjek": "Konsep website praktik Noor Any Parlina",
+    "email_isi": "Yth. Pengelola praktik Dokter Gigi Noor Any Parlina, kami menyiapkan konsep website yang membantu pasien menemukan lokasi Dersalam dan mengonfirmasi jadwal. Tautan konsep: https://maxigrowthstudio.com/noor-any (ketersediaan perlu diperiksa). Proposal PDF terlampir pada pengiriman. Hormat kami, Muhammad Rizqi Tri Andika, Maxi Growth Studio, WA 082141004400, info@maxigrowthstudio.com."
+  }
+}
