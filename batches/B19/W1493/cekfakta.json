@@ -1,0 +1,48 @@
+{
+  "id": "W1493",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kp. Kencana No.18, RW.013, Mekarwangi, Tanah Sareal, Kota Bogor, Jawa Barat 16168",
+      "di_sumber": "RT.06/RW.13, Mekarwangi, Tanah Sareal",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/tanah-sareal/april-dental-care-tana-imp1",
+      "catatan": "Jalan Kp. Kencana dan No.18 tidak tertulis pada sumber yang dipasang. PDF alternatif tidak terbaca, sehingga alamat lengkap belum disahkan."
+    },
+    {
+      "path": "email",
+      "tercatat": "Putriapriliajewita@gmail.com",
+      "di_sumber": null,
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "URL hanya memuat Spinner/Loading, bukan dokumen provider. Catatan email tidak ditemukan juga bertentangan dengan field email yang terisi."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "di_sumber": "Nomor 6289663616161 cocok target WA CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/tanah-sareal/april-dental-care-tana-imp1",
+      "catatan": "Nomor didukung tautan alternatif, tetapi sumber PDF dalam field tidak terbaca. Tidak ada pesan dikirim."
+    },
+    {
+      "path": "asuransi",
+      "tercatat": [
+        "Chubb (tercantum pada daftar provider November 2025; manfaat dan status saat ini perlu konfirmasi)"
+      ],
+      "di_sumber": null,
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "Sumber daftar provider tidak terbaca; status 2025 dan manfaat terkini belum dapat diperiksa."
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/april.dentalcare/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/april.dentalcare/",
+      "catatan": "Profil dibatasi akses; identitas akun belum disahkan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/april.dentalcare/",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true"
+  ],
+  "kritis_ok": false
+}

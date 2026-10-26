@@ -1,0 +1,132 @@
+{
+  "id": "W1110",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kota Tasikmalaya",
+      "en": "Dental Care Information in Kota Tasikmalaya"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Mecca Dental Care. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Explore consultation information for Mecca Dental Care. Please confirm hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal untuk membahas kondisi gigi dan mulut.",
+        "en": "Ask about appointments to discuss oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi.",
+        "en": "Ask about teeth cleaning appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Behel",
+        "en": "Orthodontic Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan susunan gigi dan rencana pemeriksaan.",
+        "en": "Discuss tooth alignment and assessment plans."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children's Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan gigi untuk anak.",
+        "en": "Ask about dental appointments for children."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pendaftaran Kunjungan",
+      "en": "Appointment Booking Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jam kunjungan yang tercantum, termasuk Minggu dengan perjanjian, dan siapkan pertanyaan sebelum reservasi.",
+      "en": "Review listed hours, including Sunday by appointment, and prepare questions before booking."
+    },
+    "alasan_dipilih": "Panduan pendaftaran kunjungan dan sesi Minggu dengan perjanjian."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Cieunteung No.111, Argasari, Kec. Cihideung, Kota Tasikmalaya, Jawa Barat 46122.",
+        "en": "The listed address is Jl. Cieunteung No.111, Argasari, Kec. Cihideung, Kota Tasikmalaya, Jawa Barat 46122."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam yang ditemukan berasal dari sumber publik dan dapat berubah. Konfirmasikan sebelum datang.",
+        "en": "Listed hours come from public sources and may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor praktik untuk menanyakan jadwal dan cara pendaftaran.",
+        "en": "Contact the practice to ask about availability and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya kepada praktik.",
+        "en": "An official price list was not available. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi kepada pihak praktik.",
+        "en": "Insurance information was not found. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo Mecca Dental Care, saya ingin menanyakan jadwal pemeriksaan dan layanan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Mecca Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi pendaftaran kunjungan hari Minggu dengan perjanjian dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/mecca. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Mecca Dental Care",
+    "email_isi": "Yth. Pengelola Mecca Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien melihat informasi layanan, jadwal, dan kontak praktik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/mecca. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -83,5 +83,32 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/surabaya/gubeng/dentapedia-dental-studio-gube-imp1",
     "https://www.instagram.com/dentapedia.dentalstudio/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.src",
+      "tercatat": "https://drive.google.com/file/d/1Ky0gKaf5WSmM5Syj7ISvk63CGX9CwSZ5/view",
+      "catatan": "Surat tugas internal; nama juga cocok CariBisnis"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentapedia.dentalstudio/",
+      "catatan": "URL profil tidak ditemukan pada pencarian teks halaman CariBisnis; profil langsung throttled. Akun belum dapat disahkan."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285259895331",
+      "catatan": "Target tautan WA direktori 6285259895331"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Tambal gigi",
+        "Cabut gigi",
+        "Kawat gigi"
+      ],
+      "catatan": "Daftar tindakan agregator"
+    }
   ]
 }

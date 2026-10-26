@@ -1,0 +1,132 @@
+{
+  "id": "W1126",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan praktik gigi di Sumenep",
+      "en": "Plan your dental visit in Sumenep"
+    },
+    "sub": {
+      "id": "Hubungi praktik untuk memastikan jadwal, lokasi, dan kebutuhan kunjungan.",
+      "en": "Contact the practice to confirm hours, location and your visit requirements."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi yang dibutuhkan untuk menyusun pesan kepada admin.",
+      "en": "Choose the information you need to prepare a message for the practice."
+    },
+    "alasan_dipilih": "Jadwal tercantum di direktori, tetapi layanan dan biaya belum dikonfirmasi; fitur membantu pasien menanyakan informasi langsung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana memastikan jadwal?",
+        "en": "How can I confirm opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 15.00–21.00 dan Minggu tutup. Konfirmasikan jadwal sebelum datang.",
+        "en": "The directory lists Monday–Saturday, 3–9 pm, and Sunday closed. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "What does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah informasi biaya kepada admin.",
+        "en": "Prices are not available yet. Please ask the practice for cost information."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan tertentu?",
+        "en": "Is a particular treatment available?"
+      },
+      "a": {
+        "id": "Daftar layanan resmi belum terkonfirmasi. Sebutkan kebutuhan Anda kepada admin.",
+        "en": "The official service list is unconfirmed. Ask the practice about your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan ketentuan pembayaran kepada admin.",
+        "en": "Insurance information has not been found. Ask the practice about payment arrangements."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Meranggi No.2, Kepanjin, Sumenep. Minta pin lokasi sebelum berangkat.",
+        "en": "The directory lists Jl. Meranggi No.2, Kepanjin, Sumenep. Request a location pin before travelling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi kunjungan",
+    "en": "Confirm your visit details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan lokasi praktik di Jl. Meranggi No.2, Sumenep. Mohon informasi ketersediaan kunjungan dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik Dokter Gigi Nurul H. Alwan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Jl. Meranggi, Sumenep, dan telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/nurul-h. Mohon koreksi identitas serta informasi praktik sebelum digunakan. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep website praktik gigi Sumenep",
+    "email_isi": "Yth. Pengelola, saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik di Jl. Meranggi, Sumenep: https://maxigrowthstudio.com/nurul-h. Konsep menampilkan pertanyaan jadwal dan informasi kunjungan. Identitas merek, layanan dan biaya masih memerlukan konfirmasi pengelola. Proposal PDF terlampir pada draft pengiriman ini. Terima kasih. Muhammad Rizqi Tri Andika | WA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

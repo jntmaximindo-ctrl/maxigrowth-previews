@@ -1,0 +1,76 @@
+{
+  "id": "W1405",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Gg. Beji Amlapura No.3, Padang Kerta, Kec. Karangasem, Bali 80811",
+      "di_sumber": null,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "URL sumber mengembalikan HTTP 500; nilai belum dapat disahkan. Tidak menyatakan data salah."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282339689207",
+      "di_sumber": null,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "URL sumber mengembalikan HTTP 500; nilai belum dapat disahkan. Tidak menyatakan data salah."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "16.00-19.30",
+        "sel": "16.00-19.30",
+        "rab": "16.00-19.30",
+        "kam": "16.00-19.30",
+        "jum": "16.00-19.30",
+        "sab": "16.00-19.00",
+        "min": "tutup"
+      },
+      "di_sumber": null,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "URL sumber mengembalikan HTTP 500; nilai belum dapat disahkan. Tidak menyatakan data salah."
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://linktr.ee/drg.ayukarangasem",
+      "di_sumber": "Linktree dengan tautan Instagram",
+      "src": "https://linktr.ee/drg.ayukarangasem",
+      "catatan": "Bukan URL profil Instagram."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 34,
+        "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "Sumber tidak terbaca; rating/jumlah ulasan belum terverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Tambal gigi",
+        "Cabut gigi"
+      ],
+      "di_sumber": null,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "Linktree dan YesDok tidak merinci tiga tindakan; sumber artikel gagal dibuka."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "di_sumber": "URL artikel",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/",
+      "catatan": "Bukan URL Maps."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-karang-asem/"
+  ],
+  "kritis_ok": false
+}

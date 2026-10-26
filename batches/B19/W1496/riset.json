@@ -109,5 +109,32 @@
   "sumber": [
     "https://poltekkes.web.id/dokter-gigi-ketanggungan/",
     "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.7,
+        "ulasan": 59,
+        "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Cybo HTTP 429; angka belum dapat dicocokkan."
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "catatan": "Artikel hanya menyebut Senin-Sabtu 07-11"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Pemeriksaan gigi umum",
+        "Konsultasi pencabutan gigi (perlu konfirmasi)",
+        "Konsultasi gigi berlubang"
+      ],
+      "catatan": "Artikel identitas/jam dan ulasan pasien"
+    }
   ]
 }

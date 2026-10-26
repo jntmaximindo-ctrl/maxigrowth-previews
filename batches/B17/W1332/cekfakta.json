@@ -1,0 +1,70 @@
+{
+  "id": "W1332",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "nama.src",
+      "tercatat": "https://drive.google.com/file/d/1_2YJVAHdx7JdCMZo-o_DtdfdmeyOENQA/view",
+      "di_sumber": "Surat tugas internal; nama publik juga cocok SemuaBis",
+      "src": "https://www.semuabis.com/victory-orthodontic-dental-care-0852-9885-5823",
+      "catatan": "Surat tugas bukan bukti independen. Nama, alamat dan ponsel dapat dicocokkan dengan sumber SemuaBis yang berhasil dibuka."
+    },
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+      "di_sumber": "Densia HTTP 410; alamat cocok sumber alternatif",
+      "src": "https://www.semuabis.com/victory-orthodontic-dental-care-0852-9885-5823",
+      "catatan": "Nilai tidak berbeda, tetapi src yang tercatat sudah tidak dapat diakses. Ganti asal sumber dalam revisi riset."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+      "di_sumber": "Densia HTTP 410; ponsel 0852-9885-5823 cocok SemuaBis",
+      "src": "https://www.semuabis.com/victory-orthodontic-dental-care-0852-9885-5823",
+      "catatan": "Nomor dapat diterima sebagai WA sesuai instruksi pemilik. Status akun tidak diuji."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.5,
+        "ulasan": 82,
+        "src": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+      "catatan": "Densia 410 Gone, sehingga rating/ulasan belum terverifikasi."
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/victory_orthodontic_dental/",
+      "di_sumber": null,
+      "src": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+      "catatan": "Densia tidak tersedia dan profil Instagram dibatasi; identitas akun belum dapat disahkan."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Perawatan umum",
+        "Pembersihan karang gigi",
+        "Ortodonti",
+        "Aligner"
+      ],
+      "di_sumber": null,
+      "src": "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+      "catatan": "Sumber daftar layanan tidak tersedia; SemuaBis hanya menyebut kategori klinik. Jangan mengesahkan aligner/ortodonti dari nama praktik."
+    },
+    {
+      "path": "catatan",
+      "tercatat": "Semuabis 16–21 berbeda dari Densia 16–20",
+      "di_sumber": "Semuabis yang dibuka mencantumkan Senin-Sabtu 16–20",
+      "src": "https://www.semuabis.com/victory-orthodontic-dental-care-0852-9885-5823",
+      "catatan": "Jam tetap null tidak salah, tetapi uraian konflik dalam catatan tidak cocok dengan pembacaan saat ini."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/victory-orthodontic-dan-dental-care-kota-manado-spw7et3c/",
+    "https://www.instagram.com/victory_orthodontic_dental/"
+  ],
+  "kritis_ok": true
+}

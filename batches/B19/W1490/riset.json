@@ -118,5 +118,25 @@
     "https://www.popmama.com/kid/4-5-years-old/klinik-dokter-gigi-untuk-anak-di-bogor-00-nc3lk-2g3lqf",
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-bogor/",
     "https://www.whatclinic.com/dentists/indonesia/bogor/omy-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-22",
+        "min": "10-21"
+      },
+      "catatan": "Popmama Senin-Sabtu 10-21, Jumat 16-21"
+    },
+    {
+      "path": "cabang[1]",
+      "tercatat": "Omy Dental Care 2 (hubungan cabang perlu konfirmasi)",
+      "catatan": "Nama, alamat Salak No.6, ponsel 0811-1109-944 cocok AlamatSehat"
+    }
   ]
 }

@@ -1,0 +1,132 @@
+{
+  "id": "W1502",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kabupaten Buleleng",
+      "en": "Dental Care Information in Kabupaten Buleleng"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di drg. Adinda Dwi Katritama. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Explore consultation information for drg. Adinda Dwi Katritama. Please confirm hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan riwayat kesehatan gigi.",
+        "en": "Discuss concerns and dental history."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Scaling",
+        "en": "Teeth Cleaning Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi.",
+        "en": "Ask about cleaning availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Penambalan",
+        "en": "Filling Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pemeriksaan gigi berlubang sebelum perawatan.",
+        "en": "Discuss cavity assessment before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Pencabutan",
+        "en": "Extraction Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan sebelum mempertimbangkan pencabutan.",
+        "en": "Ask about assessment before considering extraction."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Sore",
+      "en": "Evening Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal praktik sore yang tercantum dan konfirmasikan dokter sebelum berkunjung.",
+      "en": "Review listed evening hours and confirm dentist availability before visiting."
+    },
+    "alasan_dipilih": "Panduan kunjungan praktik sore di Apotek Mulia Farma."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Apotek Mulia Farma, Jl. Setia Budi No.19, Banyuning, Singaraja, Buleleng, Bali 81119.",
+        "en": "The listed address is Apotek Mulia Farma, Jl. Setia Budi No.19, Banyuning, Singaraja, Buleleng, Bali 81119."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam yang ditemukan berasal dari sumber publik dan dapat berubah. Konfirmasikan sebelum datang.",
+        "en": "Listed hours come from public sources and may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor praktik untuk menanyakan jadwal dan cara pendaftaran.",
+        "en": "Contact the practice to ask about availability and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya kepada praktik.",
+        "en": "An official price list was not available. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi kepada pihak praktik.",
+        "en": "Insurance information was not found. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo drg. Adinda Dwi Katritama, saya ingin menanyakan jadwal pemeriksaan dan layanan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Adinda Dwi Katritama, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik sore di Apotek Mulia Farma dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-adinda. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk drg. Adinda Dwi Katritama",
+    "email_isi": "Yth. Pengelola drg. Adinda Dwi Katritama,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien melihat informasi layanan, jadwal, dan kontak praktik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-adinda. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

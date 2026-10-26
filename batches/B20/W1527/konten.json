@@ -1,0 +1,132 @@
+{
+  "id": "W1527",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan Egao+ Dental Care",
+      "en": "Plan your visit to Egao+ Dental Care"
+    },
+    "sub": {
+      "id": "Hubungi praktik di Padalarang untuk memastikan jadwal dan kebutuhan kunjungan.",
+      "en": "Contact the Padalarang practice to confirm hours and visit requirements."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin sebelum berkunjung.",
+        "en": "Ask the practice for details and availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi yang dibutuhkan untuk menyusun pesan kepada admin.",
+      "en": "Choose the information you need to prepare a message for the practice."
+    },
+    "alasan_dipilih": "Jadwal tercantum di direktori, tetapi layanan dan biaya belum dikonfirmasi; fitur membantu pasien menanyakan informasi langsung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana memastikan jadwal?",
+        "en": "How can I confirm opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat 16.00–20.00, Sabtu 09.00–12.00, dan Minggu tutup. Konfirmasikan sebelum datang.",
+        "en": "The directory lists Monday–Friday, 4–8 pm, Saturday, 9 am–noon, and Sunday closed. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "What does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah informasi biaya kepada admin.",
+        "en": "Prices are not available yet. Please ask the practice for cost information."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan tertentu?",
+        "en": "Is a particular treatment available?"
+      },
+      "a": {
+        "id": "Daftar layanan resmi belum terkonfirmasi. Sebutkan kebutuhan Anda kepada admin.",
+        "en": "The official service list is unconfirmed. Ask the practice about your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan ketentuan pembayaran kepada admin.",
+        "en": "Insurance information has not been found. Ask the practice about payment arrangements."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Kota Bali Residence, Jln. Kuta Raya No.16, Padalarang. Mintalah pin lokasi sebelum datang.",
+        "en": "The directory lists Kota Bali Residence, Jln. Kuta Raya No.16, Padalarang. Request a location pin before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi kunjungan",
+    "en": "Confirm your visit details"
+  },
+  "pesan_wa_default": "Halo Egao+ Dental Care, saya ingin menanyakan jadwal di Padalarang, ketersediaan konsultasi, dan informasi biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola Egao+ Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Kota Bali Residence, Padalarang, dan telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/egao. Mohon koreksi informasi jadwal serta praktik sebelum digunakan. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep website Egao+ Dental Care",
+    "email_isi": "Yth. Pengelola Egao+ Dental Care, saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik di Kota Bali Residence, Padalarang: https://maxigrowthstudio.com/egao. Konsep membantu pasien menanyakan jadwal, lokasi dan kebutuhan kunjungan. Informasi dokter, layanan dan biaya memerlukan konfirmasi pengelola. Proposal PDF terlampir pada draft pengiriman ini. Terima kasih. Muhammad Rizqi Tri Andika | WA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

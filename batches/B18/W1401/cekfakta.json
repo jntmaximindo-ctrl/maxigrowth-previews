@@ -1,0 +1,41 @@
+{
+  "id": "W1401",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://linktr.ee/adentalcareungaran",
+      "di_sumber": "@adentalungaran pada artikel; Linktree sendiri bukan profil Instagram",
+      "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "catatan": "Field berisi URL Linktree; pisahkan URL profil Instagram dan halaman tautan."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 397,
+        "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "catatan": "Artikel yang dibuka tidak menunjukkan angka 5/397 untuk klinik ini; jangan mengambil angka dari listing lain."
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "di_sumber": "Artikel hanya menyebut Senin–Sabtu",
+      "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "catatan": "Tidak disebutkannya Minggu tidak membuktikan tutup. Perlu bukti tersendiri atau null."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "di_sumber": "URL artikel",
+      "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "catatan": "Bukan URL Maps; tautan Maps tersedia terpisah dalam artikel."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

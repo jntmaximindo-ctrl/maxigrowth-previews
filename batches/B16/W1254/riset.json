@@ -111,5 +111,41 @@
     "https://doktertanya.com/dokter-gigi-jombang/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-jombang/",
     "https://poltekkes.web.id/dokter-gigi-terbaik-di-jombang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "07:30-09:45,17-20:45",
+        "sel": "07:30-09:45,17-20:45",
+        "rab": "07:30-09:45,17-20:45",
+        "kam": "07:30-09:45,17-20:45",
+        "jum": "07:30-09:45,17-20:45",
+        "sab": null,
+        "min": "tutup"
+      },
+      "catatan": "Ulastempat menyebut 07.30-21.00 Senin-Jumat; DokterTanya dua sesi"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 221,
+        "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-jombang/",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "4,9/221 pada artikel Januari 2024"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Penambalan estetis",
+        "Perawatan saluran akar",
+        "Gigi tiruan",
+        "Konsultasi ortodonti"
+      ],
+      "catatan": "Daftar tindakan pada artikel pihak ketiga"
+    }
   ]
 }

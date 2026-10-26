@@ -88,5 +88,32 @@
   "sumber": [
     "https://linktr.ee/adentalcareungaran",
     "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://linktr.ee/adentalcareungaran",
+      "catatan": "@adentalungaran pada artikel; Linktree sendiri bukan profil Instagram"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 397,
+        "src": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Artikel yang dibuka tidak menunjukkan angka 5/397 untuk klinik ini; jangan mengambil angka dari listing lain."
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "catatan": "Artikel hanya menyebut Senin–Sabtu"
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://rekomendasi.or.id/rekomendasi-klinik-dokter-gigi-ungaran/",
+      "catatan": "URL artikel"
+    }
   ]
 }

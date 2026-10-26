@@ -93,5 +93,42 @@
     "https://rumahsunatjogja.com/kontak-rh-medika/",
     "https://jogja.antaranews.com/amp/berita/849820/tak-perlu-datang-jauh-urusan-jkn-tuntas-lewat-viola",
     "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-senden-tulung-kalasan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Tulung Tamanmartani No.1, Ringin Sari, Tamanmartani, Kec. Kalasan, Kabupaten Sleman, DI Yogyakarta 55571",
+      "catatan": "Jl. Tulung Tamanmartani, Ringin Sari; tanpa nomor pada situs"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281328883225",
+      "catatan": "Tautan reservasi sunat 6281328883225; CS Linktree 62822245391419"
+    },
+    {
+      "path": "email",
+      "tercatat": "rahmatmedikautama@gmail.com",
+      "catatan": "Email sama terlihat pada OpenAlfa"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 431,
+        "src": "https://caribisnis.id/klinik-mata/yogyakarta/kalasan/klinik-rh-medika-kalasan-umum--kala-imp1",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Sumber CariBisnis timeout; angka belum dapat diverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi poli gigi",
+        "Pemeriksaan kesehatan gigi",
+        "Konsultasi penambalan gigi",
+        "Konsultasi perawatan saluran akar"
+      ],
+      "catatan": "Poli Gigi pada Linktree; tidak ada rincian tambal/saluran akar"
+    }
   ]
 }

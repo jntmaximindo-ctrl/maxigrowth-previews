@@ -111,5 +111,31 @@
     "https://idalamat.com/alamat/1061888/praktek-dokter-gigi-drg-aldodi-iskanur-rozaq-bantul-yogyakarta",
     "https://poltekkes.web.id/dokter-gigi-bantul/",
     "https://caribisnis.id/dokter-gigi/yogyakarta/sewon/praktek-dokter-gigi-drg-aldodi-sewo-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "15-20",
+        "sel": "15-20",
+        "rab": "15-20",
+        "kam": "15-20",
+        "jum": "15-20",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "catatan": "IDalamat 15-20; Poltekkes 15-19; CariBisnis 14.40-18.40"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Scaling",
+        "Penambalan gigi",
+        "Pencabutan gigi",
+        "Konsultasi kawat gigi"
+      ],
+      "catatan": "Daftar agregator tanpa bukti per tindakan"
+    }
   ]
 }

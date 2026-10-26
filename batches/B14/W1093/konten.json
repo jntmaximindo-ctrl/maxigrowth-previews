@@ -1,0 +1,132 @@
+{
+  "id": "W1093",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kabupaten Tangerang",
+      "en": "Dental Care Information in Kabupaten Tangerang"
+    },
+    "sub": {
+      "id": "Kenali informasi layanan dan kunjungan KING Dental Bumi Indah Tangerang. Konfirmasikan jadwal sebelum datang.",
+      "en": "Explore services and visiting information for KING Dental Bumi Indah Tangerang. Please confirm hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan riwayat kesehatan gigi saat berkonsultasi.",
+        "en": "Discuss your concerns and dental history during a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pembersihan karang gigi sebelum berkunjung.",
+        "en": "Ask about available times for teeth cleaning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi berlubang untuk mengetahui pilihan tindakan.",
+        "en": "Discuss cavities to understand potential treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Behel",
+        "en": "Orthodontic Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan rencana kontrol untuk susunan gigi.",
+        "en": "Ask about an initial assessment and follow-up visits for tooth alignment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemilih Lokasi King Dental",
+      "en": "Clinic Location Selector"
+    },
+    "penjelasan": {
+      "id": "Lihat pilihan lokasi yang tercantum dan konfirmasikan kontak serta jam cabang sebelum membuat janji.",
+      "en": "Review listed locations and confirm each branch's contact details and hours before booking."
+    },
+    "alasan_dipilih": "Pemilih lokasi King Dental untuk membedakan Pasar Kemis, Periuk, Karawaci, dan Tangerang, dengan tombol kontak cabang yang sesuai."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum adalah Ruko Sakura, Bumi Indah, Pasar Kemis, Kabupaten Tangerang.",
+        "en": "The listed location is Ruko Sakura, Bumi Indah, Pasar Kemis, Kabupaten Tangerang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "HDmall mencantumkan jam Minggu 09.00–21.00 WIB. Konfirmasikan sebelum datang.",
+        "en": "HDmall lists Sunday hours as 9 a.m.–9 p.m. WIB. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor praktik untuk menanyakan jadwal dan prosedur pendaftaran.",
+        "en": "Contact the practice to ask about appointment times and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi klinik belum ditemukan pada sumber yang diperiksa. Mintalah rincian biaya sebelum tindakan.",
+        "en": "An official clinic price list was not found. Please request a quote before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Informasi cakupan asuransi belum dapat dipastikan. Silakan tanyakan kepada pihak klinik.",
+        "en": "Insurance coverage could not be confirmed. Please ask the clinic directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal pemeriksaan.",
+    "en": "Contact the clinic to ask about dental appointments."
+  },
+  "pesan_wa_default": "Halo KING Dental Bumi Indah Tangerang, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola KING Dental Bumi Indah Tangerang, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi empat lokasi King Dental dan menyiapkan konsep website dengan fitur pemilih lokasi king dental. Konsep dapat dilihat di https://maxigrowthstudio.com/king-bumi. Jika berkenan, silakan ditinjau. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk KING Dental Bumi Indah Tangerang",
+    "email_isi": "Yth. Pengelola KING Dental Bumi Indah Tangerang,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi beberapa cabang King Dental dan menyiapkan konsep website untuk membantu pasien menemukan informasi cabang, jadwal, dan kontak.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/king-bumi. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1501",
+  "hero": {
+    "judul": {
+      "id": "drg. Putu Fenti Surya Pratami",
+      "en": "drg. Putu Fenti Surya Pratami"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Buleleng",
+      "en": "Dental care information in Buleleng"
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi keluhan gigi",
+        "en": "Dental concerns"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment options"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapkan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Catat keluhan dan konfirmasikan jadwal melalui WhatsApp.",
+      "en": "Note your concerns and confirm appointment availability via WhatsApp."
+    },
+    "alasan_dipilih": "Membantu pasien mengonfirmasi informasi sebelum berkunjung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I make an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan waktu yang tersedia melalui nomor WhatsApp tercantum.",
+        "en": "Ask about availability using the listed WhatsApp number."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia di sini. Mintalah estimasi kepada klinik.",
+        "en": "Prices are not available here. Ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal terbaru kepada tim klinik.",
+        "en": "Confirm the current schedule with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi ini belum terkonfirmasi. Tanyakan sebelum datang.",
+        "en": "This has not been confirmed. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu dibawa?",
+        "en": "What should I bring?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen dan persiapan yang diperlukan kepada klinik.",
+        "en": "Ask the clinic which documents and preparation are needed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi. Mohon informasi waktu yang tersedia.",
+  "outreach": {
+    "wa": "Yth. pengelola drg. Putu Fenti Surya Pratami, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi klinik Anda di Buleleng. Kami mengusulkan konsep website dengan alamat pratinjau yang direncanakan https://maxigrowthstudio.com/drg-putu untuk ditinjau. Bila berkenan, kami dapat membahas kebutuhan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website drg. Putu Fenti Surya Pratami",
+    "email_isi": "Yth. pengelola drg. Putu Fenti Surya Pratami,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan konsep website drg. Putu Fenti Surya Pratami di Buleleng. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/drg-putu. Proposal PDF disiapkan sebagai lampiran. Bila berkenan, kami dapat membahas kebutuhan informasi klinik.\n\nMuhammad Rizqi Tri Andika\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

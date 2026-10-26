@@ -1,0 +1,55 @@
+{
+  "id": "W1074",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Tulung Tamanmartani No.1, Ringin Sari, Tamanmartani, Kec. Kalasan, Kabupaten Sleman, DI Yogyakarta 55571",
+      "di_sumber": "Jl. Tulung Tamanmartani, Ringin Sari; tanpa nomor pada situs",
+      "src": "https://caribisnis.id/klinik-mata/yogyakarta/kalasan/klinik-rh-medika-kalasan-umum--kala-imp1",
+      "catatan": "Sumber yang memuat No.1 timeout. Jalan/wilayah cocok situs institusi, tetapi nomor bangunan belum dapat diverifikasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281328883225",
+      "di_sumber": "Tautan reservasi sunat 6281328883225; CS Linktree 62822245391419",
+      "src": "https://rumahsunatjogja.com/kontak-rh-medika/",
+      "catatan": "Nomor riset cocok kontak sunat. Linktree menautkan nomor CS lain; jangan menganggap nomor sunat sebagai kontak khusus poli gigi."
+    },
+    {
+      "path": "email",
+      "tercatat": "rahmatmedikautama@gmail.com",
+      "di_sumber": "Email sama terlihat pada OpenAlfa",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-senden-tulung-kalasan",
+      "catatan": "Nilai cocok direktori. Catatan riset yang mengatakan email tidak ditemukan bertentangan dengan field ini; keaktifan belum diuji."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 431,
+        "src": "https://caribisnis.id/klinik-mata/yogyakarta/kalasan/klinik-rh-medika-kalasan-umum--kala-imp1",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://caribisnis.id/klinik-mata/yogyakarta/kalasan/klinik-rh-medika-kalasan-umum--kala-imp1",
+      "catatan": "Sumber CariBisnis timeout; angka belum dapat diverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi poli gigi",
+        "Pemeriksaan kesehatan gigi",
+        "Konsultasi penambalan gigi",
+        "Konsultasi perawatan saluran akar"
+      ],
+      "di_sumber": "Poli Gigi pada Linktree; tidak ada rincian tambal/saluran akar",
+      "src": "https://linktr.ee/klinikrhmedika",
+      "catatan": "Keberadaan poli cocok. Rincian dua tindakan belum tertulis pada sumber klinik; jangan menganggap kategori poli sebagai bukti tiap tindakan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/klinik-mata/yogyakarta/kalasan/klinik-rh-medika-kalasan-umum--kala-imp1"
+  ],
+  "kritis_ok": true
+}

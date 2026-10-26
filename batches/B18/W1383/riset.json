@@ -72,5 +72,37 @@
   "sumber": [
     "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
     "https://idalamat.com/alamat/ayani-dental-care-1063263"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Nita",
+      "catatan": "Nita; ditandai sebagai dentist"
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 751,
+      "catatan": 10
+    },
+    {
+      "path": "maps.rating",
+      "tercatat": 5,
+      "catatan": "Teks Cybo yang terbaca tidak menampilkan nilai rating 5; belum dapat diverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi",
+        "Gigi tiruan",
+        "Perawatan gigi anak"
+      ],
+      "catatan": "Sumber hanya menyebut kategori klinik/dentist. Empat tindakan tidak tertulis pada sumber yang dibuka; jangan menyimpulkan dari kategori atau testimoni."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
+      "catatan": "Tautan direktori SemuaBis"
+    }
   ]
 }

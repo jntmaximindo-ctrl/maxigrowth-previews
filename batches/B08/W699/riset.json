@@ -86,37 +86,14 @@
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].alamat.v",
-      "tercatat": "Jl. Raya Cirendeu Blok Mekar B2 No.99, RT.1/RW.10, Cireundeu, Kec. Ciputat Timur, Kota Tangerang Selatan, Banten 15419",
-      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
-    },
-    {
-      "path": "cabang[0].jam.v",
-      "tercatat": {
-        "sen": "09-20",
-        "sel": "09-20",
-        "rab": "09-20",
-        "kam": "09-20",
-        "jum": "09-20",
-        "sab": "09-15",
-        "min": "tutup"
-      },
-      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
-    },
-    {
-      "path": "layanan[0]",
-      "tercatat": "Tambal gigi (tindakan disebut pada ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[1]",
-      "tercatat": "Konsultasi gigi anak (disebut dalam ringkasan ulasan publik; verifikasi ke klinik sebelum publikasi)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "cabang[].wa",
+      "path": "cabang[0].wa",
       "tercatat": null,
-      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+      "catatan": "Sumber hanya telepon tetap 02174718597. Tidak dikonversi menjadi WA; kontak WA klinik belum tersedia. Nama, alamat dan jadwal cocok sumber."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "02174718597",
+      "catatan": "02174718597"
     }
   ]
 }

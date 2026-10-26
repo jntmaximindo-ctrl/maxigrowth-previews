@@ -1,0 +1,48 @@
+{
+  "id": "W1254",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "07:30-09:45,17-20:45",
+        "sel": "07:30-09:45,17-20:45",
+        "rab": "07:30-09:45,17-20:45",
+        "kam": "07:30-09:45,17-20:45",
+        "jum": "07:30-09:45,17-20:45",
+        "sab": null,
+        "min": "tutup"
+      },
+      "di_sumber": "Ulastempat menyebut 07.30-21.00 Senin-Jumat; DokterTanya dua sesi",
+      "src": "https://doktertanya.com/dokter-gigi-jombang/",
+      "catatan": "Jadwal dalam riset cocok DokterTanya tetapi bertentangan dengan sumber lain. Konflik sudah diakui catatan; belum ada kanal klinik untuk memastikan jadwal terkini."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 221,
+        "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-jombang/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": "4,9/221 pada artikel Januari 2024",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-jombang/",
+      "catatan": "Angka cocok sumber, tetapi merupakan snapshot lama dan tidak membuktikan kondisi Oktober 2026."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Penambalan estetis",
+        "Perawatan saluran akar",
+        "Gigi tiruan",
+        "Konsultasi ortodonti"
+      ],
+      "di_sumber": "Daftar tindakan pada artikel pihak ketiga",
+      "src": "https://doktertanya.com/dokter-gigi-jombang/",
+      "catatan": "Tindakan utama cocok isi bagian drg. Gayuh; tetap perlu kanal klinik untuk kepastian tersedia saat ini, terutama tindakan lanjutan."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

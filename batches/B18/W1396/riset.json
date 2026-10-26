@@ -105,5 +105,37 @@
     "https://idalamat.com/alamat/your-dentist-is-here-by-drg-putu-bhasma-vrishaba-1063089",
     "https://linktr.ee/your.dentist.is.here",
     "https://www.google.com/maps/search/?api=1&query=Your+Dentist+Is+Here+by+drg.+Putu+Bhasma+Vrishaba"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://linktr.ee/your.dentist.is.here",
+      "catatan": "Linktree dengan tautan Instagram"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 89,
+        "src": "https://bukutelepon.cybo.com/ID/negara-jembrana/dokter-gigi/",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Sumber daftar Cybo mengembalikan HTTP 429; rating dan jumlah ulasan belum dapat diperiksa."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi",
+        "Gigi tiruan",
+        "Behel"
+      ],
+      "catatan": "Daftar generik pada direktori; bukan daftar tindakan dari kanal klinik"
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://idalamat.com/alamat/your-dentist-is-here-by-drg-putu-bhasma-vrishaba-1063089",
+      "catatan": "URL idalamat"
+    }
   ]
 }

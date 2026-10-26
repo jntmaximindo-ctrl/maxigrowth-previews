@@ -1,0 +1,132 @@
+{
+  "id": "W1101",
+  "hero": {
+    "judul": {
+      "id": "Informasi Konsultasi Gigi di Kediri",
+      "en": "Dental Consultation Information in Kediri"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo dan konfirmasikan jadwal sebelum datang.",
+      "en": "Explore visiting information for Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo and confirm hours before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan sesuai keluhan.",
+        "en": "Ask about an examination based on your concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pemeriksaan awal.",
+        "en": "Discuss cavities and initial assessments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Pencabutan",
+        "en": "Extraction Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan sebelum mempertimbangkan pencabutan.",
+        "en": "Ask about an assessment before considering extraction."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children's Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan gigi untuk anak.",
+        "en": "Ask about dental appointments for children."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sesi Kunjungan",
+      "en": "Appointment Session Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat sesi yang tercantum dan konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Review listed sessions and confirm hours before visiting."
+    },
+    "alasan_dipilih": "Panduan persiapan konsultasi dan pemilihan sesi pagi atau sore."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Praktik tercantum di Estate II, Bima Jl. Ngasinan No.5, RT.05/RW.05, Rejomulyo, Kec. Kota, Kota Kediri, Jawa Timur 64129.",
+        "en": "The practice is listed at Estate II, Bima Jl. Ngasinan No.5, RT.05/RW.05, Rejomulyo, Kec. Kota, Kota Kediri, Jawa Timur 64129."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal yang tercantum berasal dari direktori. Konfirmasikan jam dan dokter yang bertugas.",
+        "en": "Listed hours come from directories. Please confirm opening times and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi terlebih dahulu?",
+        "en": "Can I arrange a consultation?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan jadwal pemeriksaan awal.",
+        "en": "Contact the practice to ask about an initial consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya sebelum tindakan.",
+        "en": "An official price list was not found. Please request a quote before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi kepada praktik.",
+        "en": "Insurance information was not found. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo, saya ingin menanyakan jadwal pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi dua sesi praktik di Kediri dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-fiory. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo",
+    "email_isi": "Yth. Pengelola Praktek drg. Fiory Dioptis – drg. Daniel Lestantyo,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien melihat informasi praktik, konsultasi, dan jadwal.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-fiory. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

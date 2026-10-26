@@ -1,0 +1,34 @@
+{
+  "id": "W1486",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628176336504",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-bekasi/",
+      "catatan": "Halaman dibuka, tetapi pencarian nama Deni/Ramdhani dan bagian nomor 6336 tidak menemukan kecocokan. Sumber nomor belum terverifikasi; bukan bukti nomor salah."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628176336504",
+      "di_sumber": null,
+      "src": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-bekasi/",
+      "catatan": "Halaman dibuka, tetapi pencarian nama Deni/Ramdhani dan bagian nomor 6336 tidak menemukan kecocokan. Sumber nomor belum terverifikasi; bukan bukti nomor salah."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Pencabutan gigi (perlu konfirmasi)"
+      ],
+      "di_sumber": "Daftar tindakan pada CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/medan-satria/drg-deni-ramdhani-meda-imp1",
+      "catatan": "Penanda perlu konfirmasi sudah tepat; jangan mengubahnya menjadi layanan pasti tanpa bukti klinik."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

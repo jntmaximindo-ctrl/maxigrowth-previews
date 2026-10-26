@@ -89,5 +89,34 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bogor/tanah-sareal/april-dental-care-tana-imp1",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kp. Kencana No.18, RW.013, Mekarwangi, Tanah Sareal, Kota Bogor, Jawa Barat 16168",
+      "catatan": "RT.06/RW.13, Mekarwangi, Tanah Sareal"
+    },
+    {
+      "path": "email",
+      "tercatat": "Putriapriliajewita@gmail.com",
+      "catatan": "URL hanya memuat Spinner/Loading, bukan dokumen provider. Catatan email tidak ditemukan juga bertentangan dengan field email yang terisi."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "Nomor 6289663616161 cocok target WA CariBisnis"
+    },
+    {
+      "path": "asuransi",
+      "tercatat": [
+        "Chubb (tercantum pada daftar provider November 2025; manfaat dan status saat ini perlu konfirmasi)"
+      ],
+      "catatan": "Sumber daftar provider tidak terbaca; status 2025 dan manfaat terkini belum dapat diperiksa."
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/april.dentalcare/",
+      "catatan": "Profil dibatasi akses; identitas akun belum disahkan."
+    }
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "id": "W1396",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://linktr.ee/your.dentist.is.here",
+      "di_sumber": "Linktree dengan tautan Instagram",
+      "src": "https://linktr.ee/your.dentist.is.here",
+      "catatan": "Field Instagram berisi URL Linktree. Identitas dokter pada bio cocok. Ganti dengan target Instagram pada revisi riset."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 5,
+        "ulasan": 89,
+        "src": "https://bukutelepon.cybo.com/ID/negara-jembrana/dokter-gigi/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://bukutelepon.cybo.com/ID/negara-jembrana/dokter-gigi/",
+      "catatan": "Sumber daftar Cybo mengembalikan HTTP 429; rating dan jumlah ulasan belum dapat diperiksa."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi",
+        "Gigi tiruan",
+        "Behel"
+      ],
+      "di_sumber": "Daftar generik pada direktori; bukan daftar tindakan dari kanal klinik",
+      "src": "https://idalamat.com/alamat/your-dentist-is-here-by-drg-putu-bhasma-vrishaba-1063089",
+      "catatan": "Frasa memang tercantum, tetapi berupa deskripsi templat lintas klinik. Perlu dukungan kanal klinik sebelum dipakai sebagai kepastian."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://idalamat.com/alamat/your-dentist-is-here-by-drg-putu-bhasma-vrishaba-1063089",
+      "di_sumber": "URL idalamat",
+      "src": "https://idalamat.com/alamat/your-dentist-is-here-by-drg-putu-bhasma-vrishaba-1063089",
+      "catatan": "Bukan URL Google Maps."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/negara-jembrana/dokter-gigi/"
+  ],
+  "kritis_ok": true
+}

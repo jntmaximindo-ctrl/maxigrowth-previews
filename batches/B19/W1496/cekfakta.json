@@ -1,0 +1,41 @@
+{
+  "id": "W1496",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.7,
+        "ulasan": 59,
+        "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+      "catatan": "Cybo HTTP 429; angka belum dapat dicocokkan."
+    },
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "di_sumber": "Artikel hanya menyebut Senin-Sabtu 07-11",
+      "src": "https://poltekkes.web.id/dokter-gigi-ketanggungan/",
+      "catatan": "Minggu tidak disebut. Tidak dapat menyimpulkan tutup tanpa bukti lain."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Pemeriksaan gigi umum",
+        "Konsultasi pencabutan gigi (perlu konfirmasi)",
+        "Konsultasi gigi berlubang"
+      ],
+      "di_sumber": "Artikel identitas/jam dan ulasan pasien",
+      "src": "https://poltekkes.web.id/dokter-gigi-ketanggungan/",
+      "catatan": "Belum ada daftar layanan resmi. Pertahankan sebagai topik pertanyaan, bukan tindakan pasti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi"
+  ],
+  "kritis_ok": true
+}

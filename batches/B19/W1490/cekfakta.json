@@ -1,0 +1,32 @@
+{
+  "id": "W1490",
+  "diperiksa": 18,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-22",
+        "min": "10-21"
+      },
+      "di_sumber": "Popmama Senin-Sabtu 10-21, Jumat 16-21",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-barat/omy-dental-care-bogo-imp1",
+      "catatan": "Jadwal antar sumber berbeda dan sudah dicatat riset. Belum ada sumber klinik untuk menetapkan jadwal terkini."
+    },
+    {
+      "path": "cabang[1]",
+      "tercatat": "Omy Dental Care 2 (hubungan cabang perlu konfirmasi)",
+      "di_sumber": "Nama, alamat Salak No.6, ponsel 0811-1109-944 cocok AlamatSehat",
+      "src": "https://alamatsehat.com/omy-dental-care-2-jl-salak-bogor/",
+      "catatan": "Identitas listing kedua cocok, tetapi hubungan satu jaringan belum dibuktikan. Label hubungan perlu konfirmasi harus dipertahankan; jangan arahkan WA utama ke lokasi ini."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.whatclinic.com/dentists/indonesia/bogor/omy-dental-care"
+  ],
+  "kritis_ok": true
+}

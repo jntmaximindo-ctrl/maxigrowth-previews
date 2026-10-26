@@ -90,5 +90,22 @@
     "https://indonesiaknowledge.com/directory/dental/bogor/nat-dental-care-bogor",
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/nat-dental-care?to=place.ChIJtbO9dTrDaS4RacBcdVEXT5c",
     "https://www.kitalulus.com/company/nat-dental-care-bsvl"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "catatan": "IDalamat dan Waze tidak menyebut Minggu; Indonesia Knowledge Closed"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Konsultasi pencabutan gigi (perlu konfirmasi)"
+      ],
+      "catatan": "Deskripsi templat direktori dan ulasan pasien"
+    }
   ]
 }

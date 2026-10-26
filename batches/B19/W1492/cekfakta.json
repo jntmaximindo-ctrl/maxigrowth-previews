@@ -1,0 +1,27 @@
+{
+  "id": "W1492",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "di_sumber": "IDalamat dan Waze tidak menyebut Minggu; Indonesia Knowledge Closed",
+      "src": "https://idalamat.com/alamat/nat-dental-care-1060596",
+      "catatan": "Nilai didukung sumber tambahan, tetapi src yang tercatat tidak memuat Minggu. Perbaiki asal sumber ketika merevisi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Konsultasi pencabutan gigi (perlu konfirmasi)"
+      ],
+      "di_sumber": "Deskripsi templat direktori dan ulasan pasien",
+      "src": "https://idalamat.com/alamat/nat-dental-care-1060596",
+      "catatan": "Bukan bukti resmi per tindakan. Penanda perlu konfirmasi harus dipertahankan; jangan salin ulasan sebagai promosi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

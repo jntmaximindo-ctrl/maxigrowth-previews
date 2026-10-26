@@ -1,0 +1,63 @@
+{
+  "id": "W1495",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "15-20",
+        "sel": "15-20",
+        "rab": "15-20",
+        "kam": "15-20",
+        "jum": "15-20",
+        "sab": "15-20",
+        "min": "tutup"
+      },
+      "di_sumber": "Semuabis Senin-Sabtu 16-21, Minggu tutup",
+      "src": "https://www.semuabis.com/freya-dental-care-0899-4600-600",
+      "catatan": "Berbeda satu jam dari riset 15-20. Artikel Poltekkes menyebut 15-20, sehingga src/jadwal perlu dibetulkan dan konflik dipertahankan."
+    },
+    {
+      "path": "keunggulan[0]",
+      "tercatat": "Semuabis dan Poltekkes mencantumkan jam Senin–Sabtu 15.00–20.00 WIB.",
+      "di_sumber": "Semuabis 16-21; Poltekkes 15-20",
+      "src": "https://www.semuabis.com/freya-dental-care-0899-4600-600",
+      "catatan": "Tidak benar menyatakan kedua sumber mempunyai jam sama."
+    },
+    {
+      "path": "keunggulan[1]",
+      "tercatat": "Dua nomor ponsel publik tercantum pada direktori Semuabis.",
+      "di_sumber": "Pembacaan Semuabis hanya menunjukkan 0899-4600-600",
+      "src": "https://www.semuabis.com/freya-dental-care-0899-4600-600",
+      "catatan": "Nomor alternatif tidak terlihat pada versi halaman yang dibuka; asal sumber alternatif perlu diperiksa kembali."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 42,
+        "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": null,
+      "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+      "catatan": "Cybo HTTP 429; rating/jumlah ulasan belum terverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi gigi umum",
+        "Scaling",
+        "Konsultasi bleaching (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)"
+      ],
+      "di_sumber": "Scaling/bleaching hanya muncul pada ulasan pasien di artikel",
+      "src": "https://poltekkes.web.id/dokter-gigi-ketanggungan/",
+      "catatan": "Jangan mengesahkan tindakan tersedia dari ulasan. Scaling juga perlu diberi status belum pasti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi"
+  ],
+  "kritis_ok": true
+}

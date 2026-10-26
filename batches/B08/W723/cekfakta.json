@@ -1,0 +1,31 @@
+{
+  "id": "W723",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "di_sumber": null,
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+      "catatan": "Sumber alternatif CariBisnis juga hanya nomor telepon tetap. Tidak ada ponsel publik yang terverifikasi pada sumber yang dibuka; jangan menebak WA."
+    },
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
+      "di_sumber": "IDalamat tidak terbaca; alamat cocok CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+      "catatan": "Nilai didukung sumber alternatif, tetapi src tercatat tidak tersedia."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "02518314853",
+      "di_sumber": "+62 251 8314853 pada CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+      "catatan": "Nomor cocok sebagai telepon tetap; bentuk internasional 622518314853, bukan bukti WA."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577"
+  ],
+  "kritis_ok": false
+}

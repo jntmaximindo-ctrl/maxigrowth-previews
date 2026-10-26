@@ -1,0 +1,132 @@
+{
+  "id": "W1108",
+  "hero": {
+    "judul": {
+      "id": "Informasi Konsultasi Gigi di Sukabumi",
+      "en": "Dental Consultation Information in Sukabumi"
+    },
+    "sub": {
+      "id": "Kenali informasi praktik Bhayangkara 24A dan konfirmasikan jadwal dokter sebelum berkunjung.",
+      "en": "Explore visiting information for Bhayangkara 24A and confirm dentist availability before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas keluhan gigi.",
+        "en": "Ask about appointments to discuss dental concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi sebelum datang.",
+        "en": "Ask about teeth cleaning availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan pemeriksaan untuk gigi berlubang.",
+        "en": "Discuss examination options for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children's Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan anak dan dokter yang bertugas.",
+        "en": "Ask about children's appointments and clinician availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pilihan Dokter",
+      "en": "Dentist Information Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat nama dokter yang tercantum dan hubungi praktik untuk memastikan jadwal terbaru.",
+      "en": "Review listed dentists and contact the practice to confirm current availability."
+    },
+    "alasan_dipilih": "Panduan pilihan dokter berdasarkan nama yang tercantum dengan pengingat bahwa jadwal dan kehadiran wajib dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Bhayangkara No.24A, Gunungpuyuh, Kec. Gunungpuyuh, Kota Sukabumi, Jawa Barat 43123.",
+        "en": "The listed address is Jl. Bhayangkara No.24A, Gunungpuyuh, Kec. Gunungpuyuh, Kota Sukabumi, Jawa Barat 43123."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the practice open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori terbaru mencantumkan Minggu 12.00–16.00 WIB, tetapi sumber lama berbeda. Konfirmasikan sebelum datang.",
+        "en": "A recent directory lists Sunday hours as noon–4 p.m. WIB, but older sources differ. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal dokter?",
+        "en": "How can I check a dentist's schedule?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan dokter yang bertugas pada hari kunjungan.",
+        "en": "Contact the practice to confirm which dentist is available."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan. Mintalah rincian biaya sebelum tindakan.",
+        "en": "An official price list was not found. Please request a quote before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum dapat dipastikan. Silakan tanyakan kepada praktik.",
+        "en": "Insurance arrangements could not be confirmed. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo Praktek Dokter Gigi Rehani Sempurnawati, saya ingin menanyakan jadwal pemeriksaan dan dokter yang bertugas. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek Dokter Gigi Rehani Sempurnawati, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi beberapa dokter di Bhayangkara 24A dan menyiapkan konsep website dengan panduan jadwal dokter. Konsep dapat dilihat di https://maxigrowthstudio.com/rehani-sempurnawati. Jika berkenan, silakan ditinjau. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Praktek Dokter Gigi Rehani Sempurnawati",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi Rehani Sempurnawati,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien memahami informasi praktik dan mengonfirmasi jadwal dokter.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/rehani-sempurnawati. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima tanggapan apabila berkenan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

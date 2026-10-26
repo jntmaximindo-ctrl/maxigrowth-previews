@@ -1,0 +1,132 @@
+{
+  "id": "W1100",
+  "hero": {
+    "judul": {
+      "id": "Informasi Konsultasi Gigi di Kediri",
+      "en": "Dental Consultation Information in Kediri"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan drg. Arif Setiawan, Sp.KG dan konfirmasikan jadwal sebelum datang.",
+      "en": "Explore visiting information for drg. Arif Setiawan, Sp.KG and confirm hours before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Konservasi Gigi",
+        "en": "Restorative Dentistry Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan untuk gigi berlubang atau rusak.",
+        "en": "Ask what assessment may be needed for damaged teeth or cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Saluran Akar",
+        "en": "Root Canal Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi nyeri dan pilihan pemeriksaan.",
+        "en": "Discuss dental pain and assessment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan riwayat perawatan sebelum tindakan.",
+        "en": "Discuss symptoms and dental history before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Penambalan",
+        "en": "Dental Filling Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah penambalan sesuai setelah pemeriksaan dokter.",
+        "en": "Ask whether a filling may be appropriate after an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Saluran Akar",
+      "en": "Root Canal Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang keluhan gigi dan tahapan pemeriksaan. Panduan ini bukan diagnosis.",
+      "en": "Prepare questions about symptoms and examination steps. This guide is not a diagnosis."
+    },
+    "alasan_dipilih": "Panduan keluhan gigi berlubang dan konsultasi perawatan saluran akar."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Praktik tercantum di Jl. Imam Bonjol No.21, Ngadirejo, Kec. Kota, Kota Kediri, Jawa Timur 64122.",
+        "en": "The practice is listed at Jl. Imam Bonjol No.21, Ngadirejo, Kec. Kota, Kota Kediri, Jawa Timur 64122."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal yang tercantum berasal dari direktori. Konfirmasikan jam dan dokter yang bertugas.",
+        "en": "Listed hours come from directories. Please confirm opening times and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi terlebih dahulu?",
+        "en": "Can I arrange a consultation?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan jadwal pemeriksaan awal.",
+        "en": "Contact the practice to ask about an initial consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya sebelum tindakan.",
+        "en": "An official price list was not found. Please request a quote before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi kepada praktik.",
+        "en": "Insurance information was not found. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo drg. Arif Setiawan, Sp.KG, saya ingin menanyakan jadwal pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Arif Setiawan, Sp.KG, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik konservasi gigi dan perawatan saluran akar dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-arif. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk drg. Arif Setiawan, Sp.KG",
+    "email_isi": "Yth. Pengelola drg. Arif Setiawan, Sp.KG,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien melihat informasi praktik, konsultasi, dan jadwal.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-arif. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

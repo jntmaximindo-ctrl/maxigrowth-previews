@@ -90,5 +90,33 @@
     "https://idalamat.com/alamat/1061874/dokter-gigi-cakradent-bantul-yogyakarta",
     "https://www.top-rated.online/cities/Tirtonirmolo/place/p/9941268/DOKTER%2BGIGI%2BCAKRADENT",
     "https://caribisnis.id/dokter-gigi/yogyakarta/kasihan/dokter-gigi-cakradent-bantul-j-kasi-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.min",
+      "tercatat": "tutup",
+      "catatan": "Minggu tidak ditampilkan Waze; idalamat menyebut tutup"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 264,
+        "src": "https://www.top-rated.online/cities/Tirtonirmolo/place/p/9941268/DOKTER%2BGIGI%2BCAKRADENT",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "4,90/264; pembaruan tercantum 21 April 2025"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Scaling",
+        "Penambalan gigi",
+        "Pencabutan gigi",
+        "Perawatan saluran akar",
+        "Konsultasi kawat gigi"
+      ],
+      "catatan": "Daftar tindakan pada CariBisnis"
+    }
   ]
 }

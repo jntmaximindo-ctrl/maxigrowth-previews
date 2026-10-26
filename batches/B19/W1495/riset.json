@@ -89,5 +89,50 @@
     "https://poltekkes.web.id/dokter-gigi-ketanggungan/",
     "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
     "https://idalamat.com/alamat/freya-dental-care-1061629"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "15-20",
+        "sel": "15-20",
+        "rab": "15-20",
+        "kam": "15-20",
+        "jum": "15-20",
+        "sab": "15-20",
+        "min": "tutup"
+      },
+      "catatan": "Semuabis Senin-Sabtu 16-21, Minggu tutup"
+    },
+    {
+      "path": "keunggulan[0]",
+      "tercatat": "Semuabis dan Poltekkes mencantumkan jam Senin–Sabtu 15.00–20.00 WIB.",
+      "catatan": "Semuabis 16-21; Poltekkes 15-20"
+    },
+    {
+      "path": "keunggulan[1]",
+      "tercatat": "Dua nomor ponsel publik tercantum pada direktori Semuabis.",
+      "catatan": "Pembacaan Semuabis hanya menunjukkan 0899-4600-600"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 42,
+        "src": "https://bukutelepon.cybo.com/ID/ketanggungan/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Cybo HTTP 429; rating/jumlah ulasan belum terverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi gigi umum",
+        "Scaling",
+        "Konsultasi bleaching (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)"
+      ],
+      "catatan": "Scaling/bleaching hanya muncul pada ulasan pasien di artikel"
+    }
   ]
 }

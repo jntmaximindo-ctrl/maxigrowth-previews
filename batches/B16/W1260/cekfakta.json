@@ -1,0 +1,36 @@
+{
+  "id": "W1260",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "15-20",
+        "sel": "15-20",
+        "rab": "15-20",
+        "kam": "15-20",
+        "jum": "15-20",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "di_sumber": "IDalamat 15-20; Poltekkes 15-19; CariBisnis 14.40-18.40",
+      "src": "https://idalamat.com/alamat/1061888/praktek-dokter-gigi-drg-aldodi-iskanur-rozaq-bantul-yogyakarta",
+      "catatan": "Nilai cocok sumber yang dipilih tetapi ada konflik tiga sumber; tidak dapat menyatakan jadwal terkini. Catatan riset sudah mengakui konflik."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Scaling",
+        "Penambalan gigi",
+        "Pencabutan gigi",
+        "Konsultasi kawat gigi"
+      ],
+      "di_sumber": "Daftar agregator tanpa bukti per tindakan",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/sewon/praktek-dokter-gigi-drg-aldodi-sewo-imp1",
+      "catatan": "Frasa tindakan tercantum tetapi tidak didukung kanal klinik; memilih hanya layanan dasar dari templat generik tetap belum membuktikan ketersediaannya."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

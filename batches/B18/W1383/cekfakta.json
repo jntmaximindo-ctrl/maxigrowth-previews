@@ -1,0 +1,48 @@
+{
+  "id": "W1383",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Nita",
+      "di_sumber": "Nita; ditandai sebagai dentist",
+      "src": "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
+      "catatan": "Nama panggilan cocok, tetapi nama lengkap dan gelar belum tersedia; field belum memenuhi aturan nama dokter dengan gelar. Kritis belum dapat disahkan, bukan bukti identitas salah."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 751,
+      "di_sumber": 10,
+      "src": "https://www.cybo.com/ID-biz/ayani-dental-care",
+      "catatan": "Halaman Cybo yang dibuka menampilkan 10 ulasan; jangan menyamakan jumlah ulasan Cybo dengan Google Maps."
+    },
+    {
+      "path": "maps.rating",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://www.cybo.com/ID-biz/ayani-dental-care",
+      "catatan": "Teks Cybo yang terbaca tidak menampilkan nilai rating 5; belum dapat diverifikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi",
+        "Gigi tiruan",
+        "Perawatan gigi anak"
+      ],
+      "di_sumber": null,
+      "src": "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
+      "catatan": "Sumber hanya menyebut kategori klinik/dentist. Empat tindakan tidak tertulis pada sumber yang dibuka; jangan menyimpulkan dari kategori atau testimoni."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
+      "di_sumber": "Tautan direktori SemuaBis",
+      "src": "https://www.semuabis.com/ayani-dental-care-0821-4407-3114",
+      "catatan": "Bukan URL Google Maps; halaman menyediakan tautan Maps terpisah."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
