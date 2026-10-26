@@ -1,12 +1,86 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B11/W985/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ riset.schema.json → harga/0/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/1/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/2/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/3/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/4/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/5/src: None is not of type 'string', 'array'
-✗ riset.schema.json → harga/6/src: None is not of type 'string', 'array'
-GAGAL (7 masalah)
-
+RISET LAMA:
+{
+  "id": "W985",
+  "nama": {
+    "v": "Nts Dental Care",
+    "src": "https://drive.google.com/file/d/1j3x2P0sajKOYkAEiVp220dsk4v6W-7of/view",
+    "tgl": "2026-10-26",
+    "yakin": "rendah"
+  },
+  "kota": "Sidoarjo",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "Nts Dental Care",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh8L-WgDj1y0RSzQ3dxxjtHw"
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Halaman Maps, Instagram dan direktori tidak berhasil dimuat pada pemeriksaan 26 Oktober 2026; kelengkapan kanal belum dapat dinilai."
+  ],
+  "ide_fitur_khas": "Pemilih pertanyaan kunjungan untuk menyusun pesan reservasi.",
+  "catatan": "Revisi tujuh harga dengan src null: harga dikosongkan[], bukan tarif nol. Identitas hanya dari surat tugas; belum dapat diperkuat sumber publik. Google Maps tidak dapat dimuat, Instagram throttled, Toponavi tidak terbaca; penelusuran NTS/Sukodono/akun tidak menghasilkan kontak yang dapat dibaca. Alamat, WA, dokter, jam dan tarif tetap null/[]; tidak menahan hasil sesuai instruksi. Empat kartu konten merupakan topik pertanyaan kunjungan, bukan klaim layanan tersedia. Sebelum publikasi cocokkan identitas serta lokasi. Nama/kota dari surat tugas belum menjadi fakta publik terverifikasi.",
+  "sumber": [
+    "https://drive.google.com/file/d/1j3x2P0sajKOYkAEiVp220dsk4v6W-7of/view",
+    "https://www.google.com/maps/place/?q=place_id:ChIJh8L-WgDj1y0RSzQ3dxxjtHw",
+    "https://www.instagram.com/nts_dentalcare/",
+    "https://in.toponavi.com/places/10503060722"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.src",
+      "tercatat": "https://drive.google.com/file/d/1j3x2P0sajKOYkAEiVp220dsk4v6W-7of/view",
+      "catatan": "Indeks profil @nts_dentalcare menyebut NTS Dental Care, dokter gigi Sukodono Sidoarjo"
+    }
+  ]
+}

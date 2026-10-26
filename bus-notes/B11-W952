@@ -6,8 +6,8 @@ RISET LAMA:
   "nama": {
     "v": "Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera",
     "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
-    "tgl": "2026-10-18",
-    "yakin": "tinggi"
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
   },
   "kota": "Sidoarjo",
   "zona_waktu": "WIB",
@@ -33,15 +33,15 @@ RISET LAMA:
         "yakin": "tinggi"
       },
       "telepon": {
-        "v": "03199710850",
+        "v": "623199710850",
         "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
-        "tgl": "2026-10-18",
-        "yakin": "tinggi"
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "rendah"
       },
       "jam": {
@@ -55,7 +55,7 @@ RISET LAMA:
           "min": "07-11,17-21"
         },
         "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "sedang"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktek%20Dokter%20Bersama%20Umum%20Dan%20Gigi%20Baladika%20Vera&query_place_id=ChIJpVp06tnh1y0RsIrB-ZpOFec"
@@ -99,25 +99,37 @@ RISET LAMA:
     "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Panel persiapan kunjungan Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
-  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon tetap03199710850 tercantum di PondokSidokareIndahBT09; belum ditemukan WA terverifikasi. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec , https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/ , https://idalamat.com/alamat/1062226/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-sidoarjo-jawa-timur , https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik. Pemeriksaan ulang 26 Oktober 2026: sumber kontak dibaca ulang; pencarian tambahan tidak menemukan ponsel publik yang dapat dicocokkan dengan praktik ini. harga belum tersedia. Rincian tindakan direktori bersifat generik; daftar layanan dikosongkan dan empat kartu konten berupa topik pertanyaan, bukan klaim tindakan tersedia.",
+  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon tetap03199710850 tercantum di PondokSidokareIndahBT09; ponsel publik belum ditemukan. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec , https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/ , https://idalamat.com/alamat/1062226/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-sidoarjo-jawa-timur , https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi. Layanan belum dikonfirmasi; konten memakai topik pertanyaan dengan teks lengkap. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik. Pemeriksaan ulang 26 Oktober 2026: sumber kontak dibaca ulang; pencarian tambahan tidak menemukan ponsel publik yang dapat dicocokkan dengan praktik ini. harga belum tersedia. Rincian tindakan direktori bersifat generik; daftar layanan dikosongkan dan empat kartu konten berupa topik pertanyaan, bukan klaim tindakan tersedia. harga belum tersedia. Hanya telepon tetap tersedia; tidak dianggap WhatsApp. email tidak ditemukan setelah dicari di https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec, https://idalamat.com/alamat/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-1062226. Pemeriksaan ulang 26 Oktober 2026: telepon dan jam umum praktik cocok Waze. Jam ini bukan jaminan jadwal dokter gigi. IDalamat tidak dapat dibuka ulang. Ponsel publik praktik belum ditemukan. Tidak menghubungi klinik. Alamat pratinjau dan lampiran proposal perlu diperiksa pemilik sebelum draft digunakan. Empat kartu konten adalah topik pertanyaan, bukan klaim tindakan tersedia.",
   "sumber": [
     "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/",
     "https://idalamat.com/alamat/1062226/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-sidoarjo-jawa-timur",
     "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
-    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi"
+    "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi",
+    "https://idalamat.com/alamat/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-1062226"
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].wa",
-      "tercatat": null,
-      "catatan": "Telepon tetap 03199710850"
-    },
-    {
-      "path": "dokter[0].nama",
-      "tercatat": "drg. Vera",
-      "catatan": "Nama singkat drg. Vera pada judul Waze"
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "07-11,12-16,17-21",
+        "sel": "07-11,12-16,17-21",
+        "rab": "07-11,12-16,17-21",
+        "kam": "07-11,12-16,17-21",
+        "jum": "07-11,12-16,17-21",
+        "sab": "07-11,17-21",
+        "min": "07-11,17-21"
+      },
+      "catatan": {
+        "sen": "07-11,12-16,17-21",
+        "sel": "07-11,12-16,17-21",
+        "rab": "07-11,12-16,17-21",
+        "kam": "07-11,12-16,17-21",
+        "jum": "07-11,12-16,17-21",
+        "sab": "07-11,17-21",
+        "min": "07-11,17-21"
+      }
     }
   ]
 }
