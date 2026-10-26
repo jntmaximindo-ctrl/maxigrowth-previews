@@ -154,12 +154,15 @@ def main():
                 shots, bg, label = foto(page, sl)
                 if arg.ulang and label == LABEL:
                     sudah[sl] = "v2"  # kolase lama sudah benar
-                    print(f"= {job} {sl} sudah benar")
+                    print(f"= {job} {sl} sudah benar", flush=True)
+                    CATAT.write_text(json.dumps(sudah, ensure_ascii=False, indent=0, sort_keys=True))
                     continue
                 susun(shots, OUT / f"{sl}.jpg", nama, f"maxigrowthstudio.com/{sl}/", warna(bg), label)
                 sudah[sl] = "v2"
                 ok += 1
                 print(f"✓ {job} {sl} | {label[2]}", flush=True)
+                CATAT.parent.mkdir(exist_ok=True)
+                CATAT.write_text(json.dumps(sudah, ensure_ascii=False, indent=0, sort_keys=True))
             except Exception as e:
                 gagal += 1
                 print(f"✗ {job} {sl}: {type(e).__name__}: {str(e)[:200]}")
