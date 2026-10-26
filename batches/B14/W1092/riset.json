@@ -78,5 +78,12 @@
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-kab-tangerang/",
     "https://www.waze.com/live-map/directions/id/banten/praktek-dokter-gigi-graha-dentis?to=place.ChIJ_WoxNLD_aS4Ru7wrpq5aNGA",
     "https://www.cybo.com/ID-biz/klinik-gigi-graha-dentis"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.src",
+      "tercatat": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-kab-tangerang/",
+      "catatan": "Sumber yang menguatkan Senin–Sabtu09–21 adalah Waze; daftar AlamatSehat tidak merinci jadwal."
+    }
   ]
 }

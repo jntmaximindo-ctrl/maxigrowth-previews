@@ -1,0 +1,17 @@
+{
+  "id": "W1122",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://msha.ke/suryadental_/",
+      "di_sumber": "Milkshake menautkan lokasiMaron; targetpeta tidak berhasil dibuka. IDalamat secara eksplisit menguatkan alamatHayamWurukMaron.",
+      "src": "https://idalamat.com/alamat/klinik-gigi-surya-dental-dokter-gigi-karina-dewi-maron-1061515",
+      "catatan": "Saran gunakanIDalamat sebagai sumber alamat yang terbaca. Nomor085881575580 cocokIDalamat. Jangan memakai kontak bersama tanpa labelcabang."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.suryadentalmaron.com/"
+  ],
+  "kritis_ok": true
+}

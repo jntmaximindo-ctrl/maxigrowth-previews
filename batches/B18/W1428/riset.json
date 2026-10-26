@@ -71,5 +71,12 @@
     "https://drive.google.com/file/d/1Iqt8bRaC5HKSElBLwdt5FCAdZGlEoFuv/view?usp=drivesdk",
     "https://www.instagram.com/iddentalcarekendari/",
     "https://bukutelepon.cybo.com/ID-biz/id-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "Jl. Budi Utomo No.34, Mataiwoi, Wua-Wua, Kota Kendari, Sulawesi Tenggara 93115",
+      "catatan": "Alamat hanya cocok hasilCARI internal pada sumberyangterbaca; profilCybo/IG gagal. CuplikanIG menguatkanponsel081244623246."
+    }
   ]
 }

@@ -70,5 +70,12 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-nugroho-a-s",
     "https://halaman-kuning.cybo.com/ID/singaraja/doktor-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.src / cabang[0].alamat.src / cabang[0].telepon.src",
+      "tercatat": "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-nugroho-a-s",
+      "catatan": "Profilutama gagal tetapi entriNugrohoA.S. pada daftarCyboSingaraja menguatkan nama,NgurahRai70 dan085737128804."
+    }
   ]
 }

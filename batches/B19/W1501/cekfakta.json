@@ -1,0 +1,26 @@
+{
+  "id": "W1501",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "dokter[0].jadwal.v",
+      "tercatat": {
+        "sen": "tutup",
+        "sel": "17-20",
+        "rab": "tutup",
+        "kam": "17-20",
+        "jum": "tutup",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "di_sumber": "Halaman Cybo yang dikutip tidak dapat dibuka langsung untuk memeriksa jam praktik Selasa/Kamis 17.00–20.00 dan hari tutup.",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-putu-fenti-surya-pratami-dokter-gigi",
+      "catatan": "Jadwal dokter belum terbukti langsung, harus dikonfirmasi sebelum dipublikasikan sebagai jadwal terkini."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://halaman-kuning.cybo.com/ID-biz/drg-putu-fenti-surya-pratami-dokter-gigi",
+    "https://halaman-kuning.cybo.com/ID/singaraja/doktor-gigi"
+  ],
+  "kritis_ok": true
+}

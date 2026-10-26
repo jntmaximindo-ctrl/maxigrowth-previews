@@ -95,5 +95,12 @@
     "https://idalamat.com/alamat/drg-monty-goerandhi-sport-705453",
     "https://primayahospital.com/doctor/drg-monty-goerandhi-sp-ort/",
     "https://primayahospital.com/en/doctor/drg-monty-goerandhi-sp-ort/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Monty Goerandhi, Sp.Ort",
+      "catatan": "Halaman Primaya menuliskan Goerandhi pada judul, tetapi Goerandhy dalam paragraf isi; gelar Sp.Ort dan spesialis ortodonti konsisten."
+    }
   ]
 }

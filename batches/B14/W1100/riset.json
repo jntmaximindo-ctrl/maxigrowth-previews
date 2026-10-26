@@ -111,5 +111,17 @@
     "https://rsudgambiran.kedirikota.go.id/layanan/jadwal-dokter/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kota-kediri/",
     "https://www.waze.com/id/live-map/directions/id/jawa-timur/drg-arif-setiawan-spkg.spesialis-konservasi-kediri.perawatan-saluran-akar-kediri.drg-kediri?to=place.ChIJ-QcNnFNXeC4RKrgosmUuHc4"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Konsultasi konservasi gigi",
+        "Konsultasi perawatan saluran akar",
+        "Konsultasi penambalan gigi"
+      ],
+      "catatan": "Direktori dan jadwal RSUD mengonfirmasi spesialis konservasi/endodonsi, tetapi tidak memuat daftar empat layanan persis untuk praktik pribadi."
+    }
   ]
 }

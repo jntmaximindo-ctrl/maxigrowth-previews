@@ -1,0 +1,17 @@
+{
+  "id": "W1111",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "dokter[0].jadwal / dokter[1].jadwal",
+      "tercatat": null,
+      "di_sumber": "Profil kedua dokter memuat jadwal per hari, termasuk Minggu dengan janji.",
+      "src": "https://kontak.link/moanadentalcare/drg-monica",
+      "catatan": "Saran melengkapi dengan tanggal akses; jadwal tidak ditebak. Kedua nama dokter cocok sumber. Nomor cocok target konsultasi6289664914141."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/moanadentalcare/"
+  ],
+  "kritis_ok": true
+}

@@ -124,5 +124,12 @@
     "https://kontak.link/moanadentalcare/drg-dina",
     "https://idalamat.com/alamat/moana-dental-care-1060827",
     "https://www.instagram.com/moanadentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal / dokter[1].jadwal",
+      "tercatat": null,
+      "catatan": "Profil kedua dokter memuat jadwal per hari, termasuk Minggu dengan janji."
+    }
   ]
 }

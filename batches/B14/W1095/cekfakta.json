@@ -1,0 +1,18 @@
+{
+  "id": "W1095",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.src",
+      "tercatat": "https://www.instagram.com/esca.dentalclinic/",
+      "di_sumber": "Waze yang dibaca menguatkan identitas, alamat, nomor dan jadwal, tetapi tidak menampilkan akun Instagram.",
+      "src": "https://www.waze.com/live-map/directions/id/jawa-barat/esca-dental-clinic?to=place.ChIJo3kcsZF3aS4Rv4aCnBNZ4Gg",
+      "catatan": "Atribusi akun belum terbukti dari src tercatat. Profil Instagram langsung gagal; jangan menyatakan status resmi tanpa bukti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/esca.dentalclinic/?hl=en",
+    "https://aibiz.id/en/clinics/esca-dental-clinic"
+  ],
+  "kritis_ok": true
+}

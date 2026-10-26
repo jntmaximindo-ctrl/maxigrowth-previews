@@ -1,0 +1,23 @@
+{
+  "id": "W1100",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Konsultasi konservasi gigi",
+        "Konsultasi perawatan saluran akar",
+        "Konsultasi penambalan gigi"
+      ],
+      "di_sumber": "Direktori dan jadwal RSUD mengonfirmasi spesialis konservasi/endodonsi, tetapi tidak memuat daftar empat layanan persis untuk praktik pribadi.",
+      "src": "https://rsudgambiran.kedirikota.go.id/layanan/jadwal-dokter/",
+      "catatan": "Daftar layanan praktik mandiri belum dapat dibuktikan satu per satu; jangan tampilkan sebagai layanan pasti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://rsudgambiran.kedirikota.go.id/layanan/jadwal-dokter/",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kota-kediri/"
+  ],
+  "kritis_ok": true
+}

@@ -108,5 +108,20 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/drg-putu-fenti-surya-pratami-dokter-gigi",
     "https://halaman-kuning.cybo.com/ID/singaraja/doktor-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal.v",
+      "tercatat": {
+        "sen": "tutup",
+        "sel": "17-20",
+        "rab": "tutup",
+        "kam": "17-20",
+        "jum": "tutup",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "catatan": "Halaman Cybo yang dikutip tidak dapat dibuka langsung untuk memeriksa jam praktik Selasa/Kamis 17.00–20.00 dan hari tutup."
+    }
   ]
 }

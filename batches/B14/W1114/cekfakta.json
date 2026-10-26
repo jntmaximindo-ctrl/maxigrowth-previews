@@ -1,0 +1,19 @@
+{
+  "id": "W1114",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": null,
+      "di_sumber": "IDalamat menuliskan Jl. Dr. Sukarjo No.69, Tawangsari, Tasikmalaya; sumber profil lain dalam catatan riset mengarah Jl. Dr. Moh. Hatta No.10. Hubungan dua alamat belum terbukti.",
+      "src": "https://idalamat.com/alamat/zadentist-tasikmalaya-1060825",
+      "catatan": "Alamat kosong dalam riset memang disengaja, tetapi lokasi kritis masih belum dapat dipastikan untuk penggunaan operasional."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/zadentist-tasikmalaya-1060825",
+    "https://www.instagram.com/zadentisttasik/?hl=en",
+    "https://yandex.com/maps/org/zadentist_praktek_dokter_gigi_tasikmalaya/79776133085/"
+  ],
+  "kritis_ok": false
+}

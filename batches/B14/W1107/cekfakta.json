@@ -1,0 +1,19 @@
+{
+  "id": "W1107",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Monty Goerandhi, Sp.Ort",
+      "di_sumber": "Halaman Primaya menuliskan Goerandhi pada judul, tetapi Goerandhy dalam paragraf isi; gelar Sp.Ort dan spesialis ortodonti konsisten.",
+      "src": "https://primayahospital.com/en/doctor/drg-monty-goerandhi-sp-ort/",
+      "catatan": "Perbedaan ejaan satu huruf di dalam halaman yang sama; judul mendukung nama pada riset, bukan bukti dokter berbeda."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/drg-monty-goerandhi-sport-705453",
+    "https://primayahospital.com/doctor/drg-monty-goerandhi-sp-ort/",
+    "https://primayahospital.com/en/doctor/drg-monty-goerandhi-sp-ort/"
+  ],
+  "kritis_ok": true
+}

@@ -83,5 +83,12 @@
     "https://idalamat.com/alamat/dr-smile-meruya-dokter-gigi-meruya-1060182",
     "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-jakarta-barat/",
     "https://www.google.com/maps/search/?api=1&query=DR.SMILE+Meruya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://idalamat.com/alamat/dr-smile-meruya-dokter-gigi-meruya-1060182",
+      "catatan": "URL direktori idalamat, bukan tautan peta."
+    }
   ]
 }

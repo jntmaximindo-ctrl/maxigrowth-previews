@@ -1,0 +1,18 @@
+{
+  "id": "W1092",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].jam.src",
+      "tercatat": "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-kab-tangerang/",
+      "di_sumber": "Sumber yang menguatkan Senin–Sabtu09–21 adalah Waze; daftar AlamatSehat tidak merinci jadwal.",
+      "src": "https://www.waze.com/live-map/directions/id/banten/praktek-dokter-gigi-graha-dentis?to=place.ChIJ_WoxNLD_aS4Ru7wrpq5aNGA",
+      "catatan": "Nama, alamat dan nomor cocok Waze. Minggu tidak ditebak."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.cybo.com/ID-biz/klinik-gigi-graha-dentis",
+    "https://www.instagram.com/praktekdoktergigi.grahadentis/"
+  ],
+  "kritis_ok": true
+}
