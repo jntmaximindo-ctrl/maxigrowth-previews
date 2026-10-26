@@ -1,0 +1,132 @@
+{
+  "id": "W1349",
+  "hero": {
+    "judul": {
+      "id": "Informasi Optimal Dental Clinic",
+      "en": "Optimal Dental Clinic information"
+    },
+    "sub": {
+      "id": "Tanyakan jadwal dan kebutuhan pemeriksaan.",
+      "en": "Ask about appointments and assessment requirements."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada klinik.",
+        "en": "Ask the clinic about service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan kunjungan",
+      "en": "Prepare your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan untuk menyusun pertanyaan kepada klinik.",
+      "en": "Choose a care topic to prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Usulan berdasarkan cakupan layanan pada riset lama; perlu peninjauan klinik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Silakan konfirmasikan informasi terbaru kepada klinik sebelum berkunjung.",
+        "en": "Please confirm current details with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Silakan konfirmasikan informasi terbaru kepada klinik sebelum berkunjung.",
+        "en": "Please confirm current details with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Silakan konfirmasikan informasi terbaru kepada klinik sebelum berkunjung.",
+        "en": "Please confirm current details with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Silakan konfirmasikan informasi terbaru kepada klinik sebelum berkunjung.",
+        "en": "Please confirm current details with the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah konsultasi behel tersedia?",
+        "en": "Are braces consultations available?"
+      },
+      "a": {
+        "id": "Silakan konfirmasikan informasi terbaru kepada klinik sebelum berkunjung.",
+        "en": "Please confirm current details with the clinic before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal, lokasi terkini, dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Pengelola Optimal Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Surabaya. Konsep website kami tersedia untuk Anda lihat di https://maxigrowthstudio.com/optimal. Bila berkenan, kami dapat menjelaskan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website Optimal Dental Clinic",
+    "email_isi": "Yth. Pengelola Optimal Dental Clinic, kami menyusun konsep website berdasarkan informasi praktik Anda di Surabaya. Silakan lihat https://maxigrowthstudio.com/optimal. Proposal PDF terlampir untuk peninjauan saat paket penawaran dikirim. Terima kasih. Muhammad Rizqi Tri Andika, Maxi Growth Studio, WA 082141004400, info@maxigrowthstudio.com"
+  }
+}
