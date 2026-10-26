@@ -1,0 +1,132 @@
+{
+  "id": "W1359",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Klinik Gigi PTC Surabaya",
+      "en": "Klinik Gigi PTC Surabaya Visit Information"
+    },
+    "sub": {
+      "id": "Temukan informasi dasar dan tanyakan jadwal serta layanan kepada klinik sebelum berkunjung.",
+      "en": "Find basic information and confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi ketersediaan layanan ini kepada pihak klinik sebelum membuat janji.",
+        "en": "Please confirm whether this service is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi ketersediaan layanan ini kepada pihak klinik sebelum membuat janji.",
+        "en": "Please confirm whether this service is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Tooth decay care"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi ketersediaan layanan ini kepada pihak klinik sebelum membuat janji.",
+        "en": "Please confirm whether this service is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perapian gigi",
+        "en": "Teeth alignment consultation"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi ketersediaan layanan ini kepada pihak klinik sebelum membuat janji.",
+        "en": "Please confirm whether this service is available before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Persiapan Kunjungan",
+      "en": "Visit Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik pertanyaan untuk menyiapkan pesan kepada klinik.",
+      "en": "Select a question to prepare a message to the clinic."
+    },
+    "alasan_dipilih": "Informasi layanan dan harga perlu dikonfirmasi langsung, sehingga fitur pertanyaan mengurangi asumsi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I make an appointment?"
+      },
+      "a": {
+        "id": "Hubungi klinik melalui kontak yang tertera dan minta konfirmasi waktu.",
+        "en": "Contact the clinic and ask for an available slot."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Do you offer braces?"
+      },
+      "a": {
+        "id": "Silakan konfirmasi pilihan perawatan melalui klinik.",
+        "en": "Please ask the clinic about treatment options."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia dari sumber yang ditinjau. Tanyakan sebelum berkunjung.",
+        "en": "A verified price list is not available. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pasien anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Mohon konfirmasi usia pasien yang dapat dilayani.",
+        "en": "Please confirm accepted patient ages."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terkonfirmasi.",
+        "en": "Insurance arrangements have not been verified."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya mengenai jadwal konsultasi dan layanan di Klinik Gigi PTC Surabaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya melihat profil Klinik Gigi PTC Surabaya di Surabaya dan membuat konsep website yang menata informasi pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/best-dentist bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website klinik di Surabaya",
+    "email_isi": "Yth. Tim Klinik,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Klinik Gigi PTC Surabaya, dengan fokus pada informasi kunjungan dan kontak. Konsep tersedia di https://maxigrowthstudio.com/best-dentist. Proposal PDF terlampir untuk ditinjau jika relevan.\n\nSalam,\nMuhammad Rizqi Tri Andika\ninfo@maxigrowthstudio.com"
+  }
+}

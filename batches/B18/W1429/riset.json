@@ -75,5 +75,22 @@
     "https://www.instagram.com/ps.dental.clinic/",
     "https://www.kitalulus.com/company/ps-dental-clinic-cxjs",
     "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.v",
+      "tercatat": "PS Dental Clinic — Ketapang",
+      "catatan": "Direktori Cybo menyebut 'Ps Dental Clinic' di Ketapang; URL KitaLulus yang dikutip tidak bisa dibuka."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. D.I. Panjaitan No. 07, Ketapang, Kalimantan Barat",
+      "catatan": "Cybo menulis 5X9C+94H, Sampit, Delta Pawan, Ketapang 78811; tidak mencantumkan No.07."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": null,
+      "catatan": "Tidak ada nomor ponsel publik pada Cybo; URL KitaLulus tidak dapat dibuka."
+    }
   ]
 }

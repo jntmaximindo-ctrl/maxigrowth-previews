@@ -90,5 +90,17 @@
     "https://www.google.com/maps/search/Familia%20Dental%20Bekasi%20Utara",
     "https://www.waze.com/live-map/directions/id/jawa-barat/familia-dental-bekasi-or-dokter-gigi-bekasi-utara?to=place.ChIJebHq_iOJaS4RLhv4ERIKdv8",
     "https://doktertanya.com/dokter-gigi-bekasi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.google.com/maps/search/Familia%20Dental%20Bekasi%20Utara",
+      "catatan": "URL adalah pencarian Google Maps, bukan Instagram; Waze justru menautkan instagram.com/familia.dentalclinic."
+    },
+    {
+      "path": "cabang[0].jam.v.sen",
+      "tercatat": "09-20",
+      "catatan": "Waze 09:00-20:00, tetapi DokterTanya menulis Senin-Sabtu 10:00-20:00."
+    }
   ]
 }

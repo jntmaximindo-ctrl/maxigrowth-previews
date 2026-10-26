@@ -84,5 +84,30 @@
     "https://www.google.com/maps/search/Halo%20Dentist%20Harapan%20Baru%20Bekasi",
     "https://glints.com/id/companies/halo-dentist/72d8967f-2c3c-4683-8e8b-7158952d41b3",
     "https://hdmall.id/klinik-gigi/tambal-gigi-estetik-di-halo-dentist"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.google.com/maps/search/Halo%20Dentist%20Harapan%20Baru%20Bekasi",
+      "catatan": "URL pencarian Google Maps, bukan Instagram."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "tutup",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Halaman Glints tidak memuat jam; halaman HDmall yang terpisah menyebut Selasa-Minggu 09.00-21.00, Senin tutup."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": null,
+      "catatan": "Daftar provider asuransi Chubb (PDF September 2025) memuat nomor 0858-3446-4821 untuk HALO DENTIST pada alamat yang sama."
+    }
   ]
 }

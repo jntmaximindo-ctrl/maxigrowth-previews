@@ -1,0 +1,33 @@
+{
+  "id": "W1416",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "INTAN DENTAL CARE",
+      "di_sumber": "Halaman IndonesiaKnowledge yang dikutip tidak dapat dibuka dan hasil pencarian tidak mengembalikan listing yang sesuai.",
+      "src": "https://indonesiaknowledge.com/directory/dental/bekasi/intan-dental-care-bekasi",
+      "catatan": "Tidak bisa memverifikasi nama dari URL sumber; bukan bukti nama salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Burgundy Summarecon Bekasi Blok RAL/17, Harapan Baru, Bekasi Utara, Bekasi, Jawa Barat 17123",
+      "di_sumber": "URL sumber tidak dapat dibuka.",
+      "src": "https://indonesiaknowledge.com/directory/dental/bekasi/intan-dental-care-bekasi",
+      "catatan": "Alamat kritis tidak terverifikasi."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282210022560",
+      "di_sumber": "URL sumber tidak dapat dibuka.",
+      "src": "https://indonesiaknowledge.com/directory/dental/bekasi/intan-dental-care-bekasi",
+      "catatan": "Nomor ponsel/WA kritis tidak dapat diverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/intandental_care/",
+    "https://indonesiaknowledge.com/directory/dental/bekasi/intan-dental-care-bekasi"
+  ],
+  "kritis_ok": false,
+  "catatan": "Nama, alamat, nomor, WA, dan jam 09-20 tiap hari belum dapat diverifikasi langsung dari URL src. Tidak mengarang isi halaman yang gagal dibuka. Tahan pemakaian hingga tersedia sumber alternatif yang dapat dibaca."
+}

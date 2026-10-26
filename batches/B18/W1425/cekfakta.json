@@ -1,0 +1,18 @@
+{
+  "id": "W1425",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.google.com/maps/search/?api=1&query=Talawang+Dental+Care+Cilik+Riwut+120+Kuala+Kapuas",
+      "di_sumber": "Nilai adalah URL pencarian Google Maps, bukan Instagram.",
+      "src": "https://www.google.com/maps/search/?api=1&query=Talawang+Dental+Care+Cilik+Riwut+120+Kuala+Kapuas",
+      "catatan": "Field instagram salah tipe; URL Google Maps tidak dapat dibuka dengan alat."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Talawang+Dental+Care+Cilik+Riwut+120+Kuala+Kapuas"
+  ],
+  "kritis_ok": true,
+  "catatan": "Cybo berhasil dibuka dan secara eksplisit mencantumkan Talawang Dental Care, alamat Jl. Cilik Riwut Gg.1 No.120, nomor 0813-4859-8511, serta tautan wa.me/message/TBWNQACOSY4GC1. Nama, alamat, dan WA cocok. Jam kosong tidak dinilai. Perlu mengosongkan field Instagram atau menggantinya dengan sumber sah saat revisi."
+}

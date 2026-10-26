@@ -1,0 +1,25 @@
+{
+  "id": "W1418",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.google.com/maps/search/Familia%20Dental%20Bekasi%20Utara",
+      "di_sumber": "URL adalah pencarian Google Maps, bukan Instagram; Waze justru menautkan instagram.com/familia.dentalclinic.",
+      "src": "https://www.google.com/maps/search/Familia%20Dental%20Bekasi%20Utara",
+      "catatan": "Field Instagram salah tipe; tautan Instagram asli tersedia dari Waze."
+    },
+    {
+      "path": "cabang[0].jam.v.sen",
+      "tercatat": "09-20",
+      "di_sumber": "Waze 09:00-20:00, tetapi DokterTanya menulis Senin-Sabtu 10:00-20:00.",
+      "src": "https://doktertanya.com/dokter-gigi-bekasi/",
+      "catatan": "Jam buka berbeda antar sumber; nilai riset didukung Waze, tetapi perlu konfirmasi sebelum publikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/Familia%20Dental%20Bekasi%20Utara"
+  ],
+  "kritis_ok": true,
+  "catatan": "Waze mendukung nama Familia Dental Bekasi, alamat Jl. Kali Abang Tengah RT.001/RW.024 Perwira, nomor 0895-3222-68866, dan jam Senin-Sabtu 09-20. DokterTanya mengonfirmasi nomor sebagai WA, tetapi jam mulai 10.00, berbeda satu jam. Minggu 'tutup' tidak tampak di cuplikan Waze; tidak diverifikasi. Tidak ada klinik dihubungi."
+}
