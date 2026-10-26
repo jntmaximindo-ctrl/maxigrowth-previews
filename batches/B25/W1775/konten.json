@@ -1,0 +1,132 @@
+{
+  "id": "W1775",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Wara Listyabudi, Sp.Ort",
+      "en": "Praktik drg. Wara Listyabudi, Sp.Ort"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik spesialis ortodonsia di Semarang.",
+      "en": "Visit information for an orthodontic specialist practice in Semarang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Examination questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Cost questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal dokter",
+        "en": "Confirming the dentist's schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan konsultasi",
+      "en": "Prepare consultation questions"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang konsultasi ortodonsia, jadwal dan lokasi Kelud Utara untuk menyusun pesan konfirmasi.",
+      "en": "Choose questions about orthodontic consultations, appointment times and the Kelud Utara location to prepare a confirmation message."
+    },
+    "alasan_dipilih": "Bidang ortodonsia dokter didukung profil resmi; konfirmasi lokasi mencegah jadwal praktik tertukar dengan rumah sakit."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik dan tunggu konfirmasi jadwal.",
+        "en": "Contact the practice and wait for appointment confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan jadwal dokter sebelum datang.",
+        "en": "Confirm opening hours and the dentist's schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices are not yet available. Ask for a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan kepesertaan, cakupan dan dokumen yang diperlukan.",
+        "en": "Ask about accepted plans, coverage and required documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan persiapan saat membuat janji dan sampaikan kebutuhan kunjungan.",
+        "en": "Ask about preparations when booking and describe your visit needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik",
+    "en": "Contact the practice"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di Praktik drg. Wara Listyabudi, Sp.Ort. Mohon konfirmasi lokasi, waktu dan persiapannya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola Praktik drg. Wara Listyabudi, Sp.Ort, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan untuk praktik spesialis ortodonsia di Kelud Utara, Semarang, dengan rencana alamat https://maxigrowthstudio.com/wara-listyabudi. Tautan perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat mengoreksi informasinya. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep halaman kunjungan Praktik drg. Wara Listyabudi, Sp.Ort",
+    "email_isi": "Yth. Pengelola Praktik drg. Wara Listyabudi, Sp.Ort,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan praktik spesialis ortodonsia di Kelud Utara, Semarang, dengan rencana alamat https://maxigrowthstudio.com/wara-listyabudi. Halaman dirancang untuk memudahkan pasien menanyakan jadwal, lokasi dan biaya.\n\nProposal PDF perlu dilampirkan sebelum draf email ini digunakan. Tautan konsep perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat meninjau dan mengoreksi informasinya.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

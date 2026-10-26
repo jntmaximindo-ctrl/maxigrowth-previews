@@ -1,0 +1,132 @@
+{
+  "id": "W1727",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kesehatan Gigi di Bekasi",
+      "en": "Dental Care Information in Bekasi"
+    },
+    "sub": {
+      "id": "Kenali informasi praktik Drg. Ruth dan konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Explore Drg. Ruth's visit information and confirm hours before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal dokter sebelum datang.",
+        "en": "Ask about service availability and clinician hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal dokter sebelum datang.",
+        "en": "Ask about service availability and clinician hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal dokter sebelum datang.",
+        "en": "Ask about service availability and clinician hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Lanjutan",
+        "en": "Follow-up Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal dokter sebelum datang.",
+        "en": "Ask about service availability and clinician hours before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Kunjungan",
+      "en": "Appointment Hours Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan dan konfirmasikan jadwal yang tercantum sebelum datang.",
+      "en": "Prepare questions and confirm the listed hours before visiting."
+    },
+    "alasan_dipilih": "Perlu konfirmasi lokasi karena sejumlah ulasan menyebut kemungkinan pindah."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum: Jl. Bayan 1, Ruko GT Grande F19 No.35, RT.004/RW.023, Mustikajaya, Kota Bekasi 17158. Konfirmasikan sebelum datang.",
+        "en": "The listed address is Jl. Bayan 1, Ruko GT Grande F19 No.35, RT.004/RW.023, Mustikajaya, Kota Bekasi 17158. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal publik dapat berubah. Tanyakan sesi yang tersedia sebelum berkunjung.",
+        "en": "Publicly listed hours may change. Please confirm available sessions."
+      }
+    },
+    {
+      "q": {
+        "id": "Perlukah membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan dokter dan waktu kunjungan kepada praktik.",
+        "en": "Ask about clinician availability and appointment times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia. Mintalah rincian biaya kepada praktik.",
+        "en": "An official price list was not found. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung.",
+        "en": "Insurance arrangements were not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan jadwal, layanan, dan biaya.",
+    "en": "Contact the practice to confirm hours, services, and costs."
+  },
+  "pesan_wa_default": "Halo Drg. Ruth, saya ingin menanyakan jadwal pemeriksaan gigi dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola Drg. Ruth, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan panduan jadwal kunjungan berdasarkan informasi publik. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-ruth. Bila berkenan, mohon diteruskan kepada penanggung jawab praktik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Drg. Ruth",
+    "email_isi": "Yth. Pengelola Drg. Ruth,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website berisi informasi lokasi, kontak, dan panduan kunjungan. Preview: https://maxigrowthstudio.com/drg-ruth.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Mohon diteruskan kepada pihak yang berwenang.\n\nTerima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

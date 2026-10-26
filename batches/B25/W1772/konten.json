@@ -1,0 +1,132 @@
+{
+  "id": "W1772",
+  "hero": {
+    "judul": {
+      "id": "Safura Dental Care 2",
+      "en": "Safura Dental Care 2"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Semarang.",
+      "en": "Dental visit information in Semarang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Examination questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Cost questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal dokter",
+        "en": "Confirming the dentist's schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about this before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pesan untuk mengonfirmasi lokasi Jatimulyo, jadwal dan biaya sebelum datang.",
+      "en": "Prepare a message to confirm the Jatimulyo location, appointment times and costs before visiting."
+    },
+    "alasan_dipilih": "Memudahkan pasien mengonfirmasi informasi yang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik dan tunggu konfirmasi jadwal.",
+        "en": "Contact the practice and wait for appointment confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan jadwal dokter sebelum datang.",
+        "en": "Confirm opening hours and the dentist's schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices are not yet available. Ask for a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan kepesertaan, cakupan dan dokumen yang diperlukan.",
+        "en": "Ask about accepted plans, coverage and required documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan persiapan saat membuat janji dan sampaikan kebutuhan kunjungan.",
+        "en": "Ask about preparations when booking and describe your visit needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik",
+    "en": "Contact the practice"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di Safura Dental Care 2. Mohon konfirmasi lokasi, waktu dan persiapannya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola Safura Dental Care 2, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan untuk praktik di Jatimulyo, Banyumanik, Semarang, dengan rencana alamat https://maxigrowthstudio.com/safura-2. Tautan perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat mengoreksi informasinya. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep halaman kunjungan Safura Dental Care 2",
+    "email_isi": "Yth. Pengelola Safura Dental Care 2,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan praktik di Jatimulyo, Banyumanik, Semarang, dengan rencana alamat https://maxigrowthstudio.com/safura-2. Halaman dirancang untuk memudahkan pasien menanyakan jadwal, lokasi dan biaya.\n\nProposal PDF perlu dilampirkan sebelum draf email ini digunakan. Tautan konsep perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat meninjau dan mengoreksi informasinya.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W1760",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Lahat",
+      "en": "Dental Care Information in Lahat"
+    },
+    "sub": {
+      "id": "Kenali layanan dan temukan informasi kunjungan ke Dokter Gigi Dewi Dental Care.",
+      "en": "Explore services and visit information for Dokter Gigi Dewi Dental Care."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan sebelum berkunjung.",
+        "en": "Ask about examination appointments before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan penanganan gigi berlubang.",
+        "en": "Discuss options for treating cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan diperlukan untuk menilai kebutuhan pencabutan.",
+        "en": "An examination helps determine whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan gigi tiruan sesuai kebutuhan.",
+        "en": "Ask about denture options for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasi membantu memahami langkah perawatan.",
+        "en": "A consultation can help explain the treatment process."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan",
+      "en": "Visit Planner"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi jadwal yang tersedia dan siapkan pertanyaan sebelum menghubungi praktik.",
+      "en": "Review available hours information and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Jam sore tercantum dalam direktori pihak ketiga dan perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum di direktori adalah Bandar Agung, Lahat, Sumatera Selatan. Pastikan alamat sebelum berangkat.",
+        "en": "A directory lists the location as Bandar Agung, Lahat, South Sumatra. Please confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 17.00–21.00 dan Minggu tutup. Konfirmasikan jadwal terbaru.",
+        "en": "A directory lists Monday–Saturday, 5–9 PM, and closed Sunday. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Do you treat children?"
+      },
+      "a": {
+        "id": "Silakan tanyakan langsung kesesuaian layanan untuk anak sebelum membuat janji.",
+        "en": "Please ask whether appointments for children are available."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum ditemukan dalam sumber publik yang ditinjau. Hubungi praktik untuk estimasi sesuai pemeriksaan.",
+        "en": "No published price list was found in the reviewed sources. Contact the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Belum ada informasi asuransi yang dapat diverifikasi. Tanyakan kepada pihak praktik.",
+        "en": "Insurance participation has not been verified. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Konfirmasi",
+    "en": "Contact the Practice to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan dan informasi biaya di Dokter Gigi Dewi Dental Care. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Dokter Gigi Dewi Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Bandar Agung, Lahat, dengan jadwal sore yang tercantum di direktori publik. Kami menyiapkan konsep website agar informasi lokasi, jadwal, dan layanan lebih mudah ditemukan. Konsepnya bisa dilihat di https://maxigrowthstudio.com/dewi. Jika berkenan, saya terbuka untuk menerima tanggapan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dokter Gigi Dewi Dental Care",
+    "email_isi": "Selamat siang Bapak/Ibu pengelola Dokter Gigi Dewi Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik, praktik Anda tercantum di Bandar Agung, Lahat. Kami menyusun konsep website untuk membantu calon pasien melihat informasi lokasi, layanan dan cara menghubungi praktik secara lebih jelas. Konsep dapat dilihat di https://maxigrowthstudio.com/dewi.\n\nProposal PDF terlampir untuk ditinjau bila berkenan. Tidak ada kewajiban untuk melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

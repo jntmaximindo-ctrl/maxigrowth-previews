@@ -1,0 +1,132 @@
+{
+  "id": "W1763",
+  "hero": {
+    "judul": {
+      "id": "Klinik Terapis Gigi dan Mulut Ade Kurniawan A.Md.Kes",
+      "en": "Klinik Terapis Gigi dan Mulut Ade Kurniawan A.Md.Kes"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Lampung Selatan. Konfirmasikan jadwal dan kebutuhan Anda kepada admin.",
+      "en": "Visit information in Lampung Selatan. Confirm hours and your needs with the team."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pendaftaran",
+        "en": "Registration information"
+      },
+      "ringkas": {
+        "id": "Tanyakan alur pendaftaran sebelum berkunjung.",
+        "en": "Ask about registration before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal",
+        "en": "Confirm hours"
+      },
+      "ringkas": {
+        "id": "Hubungi admin untuk memastikan waktu kunjungan.",
+        "en": "Contact the team to confirm your visit time."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya sesuai kebutuhan; harga belum tersedia di halaman ini.",
+        "en": "Ask about costs for your needs; prices are not available on this page."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda agar admin dapat mengonfirmasi ketersediaan layanan.",
+        "en": "Describe your needs so the team can confirm service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, biaya, atau kebutuhan kunjungan untuk menyusun pesan kepada admin.",
+      "en": "Choose hours, costs, or visit needs to prepare a message for the team."
+    },
+    "alasan_dipilih": "Detail layanan dan jadwal belum terverifikasi; fitur membantu konfirmasi sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara mendaftar?",
+        "en": "How do I register?"
+      },
+      "a": {
+        "id": "Hubungi admin melalui nomor yang tercantum untuk menanyakan pendaftaran.",
+        "en": "Contact the listed number to ask about registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal perlu dikonfirmasi kepada admin sebelum datang.",
+        "en": "Confirm hours with the team before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya sesuai kebutuhan Anda.",
+        "en": "Prices are unavailable. Ask about costs for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum tersedia; tanyakan kepada admin.",
+        "en": "Insurance information is unavailable; ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan yang saya butuhkan tersedia?",
+        "en": "Is the service I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda untuk dikonfirmasi. Daftar tindakan belum tersedia.",
+        "en": "Describe your needs for confirmation. A treatment list is unavailable."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal, pendaftaran, dan ketersediaan layanan untuk kebutuhan saya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Terapis Gigi dan Mulut Ade Kurniawan A.Md.Kes. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk praktik di Lampung Selatan: https://maxigrowthstudio.com/terapis-mulut. Mohon tinjau saat berkenan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi kunjungan Klinik Terapis Gigi dan Mulut Ade Kurniawan A.Md.Kes",
+    "email_isi": "Yth. Pengelola Klinik Terapis Gigi dan Mulut Ade Kurniawan A.Md.Kes,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website informasi kunjungan untuk praktik di Lampung Selatan, dengan alur pertanyaan jadwal dan pendaftaran: https://maxigrowthstudio.com/terapis-mulut. Proposal PDF terlampir untuk bahan tinjauan. Detail layanan dan jadwal perlu konfirmasi pengelola sebelum digunakan.\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

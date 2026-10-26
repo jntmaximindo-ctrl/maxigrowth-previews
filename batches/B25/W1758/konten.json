@@ -1,0 +1,132 @@
+{
+  "id": "W1758",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Silvi Olivia",
+      "en": "drg. Silvi Olivia Dental Practice"
+    },
+    "sub": {
+      "id": "Informasi lokasi praktik dan panduan menyiapkan pertanyaan di Cijoho, Kuningan.",
+      "en": "Practice location and guidance for planning your visit in Cijoho, Kuningan."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi Konsultasi",
+        "en": "Consultation Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan waktu konsultasi dan informasi pemeriksaan.",
+        "en": "Ask about consultation availability and examination details."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi sebelum menentukan langkah perawatan.",
+        "en": "The dentist assesses your oral health before planning care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan catatan keluhan dan pertanyaan sebelum datang.",
+        "en": "Bring notes about your concerns and questions."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Tindakan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis tindakan yang tersedia dan rincian biaya.",
+        "en": "Ask about available treatments and relevant fees."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Persiapan Konsultasi",
+      "en": "Consultation Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang keluhan gigi, jadwal, dan biaya sebelum datang. Panduan ini bukan diagnosis.",
+      "en": "Prepare questions about dental concerns, appointments, and costs. This is not a diagnosis."
+    },
+    "alasan_dipilih": "Jadwal direktori tidak konsisten; pasien dapat menggunakan panduan untuk menyiapkan pertanyaan sebelum membuat janji."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. RE Martadinata No.15, Cijoho, Kabupaten Kuningan.",
+        "en": "RE Martadinata Street No.15, Cijoho, Kuningan Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Jam pada direktori berbeda-beda. Mohon konfirmasi melalui nomor praktik.",
+        "en": "Directory hours vary. Please confirm with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What does a consultation cost?"
+      },
+      "a": {
+        "id": "Daftar tarif belum ditemukan. Tanyakan biaya terkini sebelum kunjungan.",
+        "en": "No verified price list was found. Ask about current fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Perlukah reservasi?",
+        "en": "Is an appointment needed?"
+      },
+      "a": {
+        "id": "Informasi persyaratan reservasi belum tersedia. Hubungi praktik sebelum datang.",
+        "en": "Appointment requirements are not confirmed. Please contact the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children seen?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan anak belum dapat dipastikan. Tanyakan kepada pihak praktik.",
+        "en": "Children's services could not be confirmed. Please check with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Konfirmasi",
+    "en": "Contact the Practice to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Silvi Olivia dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Ibu drg. Silvi Olivia atau Tim Praktik, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik di Jalan RE Martadinata, Cijoho, Kuningan. Kami sudah membuat konsep website untuk dilihat di https://maxigrowthstudio.com/drg-silvi. Silakan ditinjau bila berkenan. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep website praktik drg. Silvi Olivia",
+    "email_isi": "Yth. Ibu drg. Silvi Olivia atau Tim Praktik,\n\nPerkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Jalan RE Martadinata No.15, Cijoho, Kabupaten Kuningan.\n\nKami telah menyusun konsep website di https://maxigrowthstudio.com/drg-silvi sebagai bahan pertimbangan. Proposal PDF turut kami lampirkan untuk menjelaskan ruang lingkup yang ditawarkan.\n\nApabila berkenan, kami terbuka untuk menerima tanggapan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1033",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kabupaten Bandung",
+      "en": "Dental Care Information in Kabupaten Bandung"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan di Cileunyi Dental Care & Kids Dental Cileunyi. Konfirmasikan layanan dan jadwal sebelum datang.",
+      "en": "Explore visit information for Cileunyi Dental Care & Kids Dental Cileunyi. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan ketersediaan layanan sebelum berkunjung.",
+        "en": "Ask about hours and service availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan ketersediaan layanan sebelum berkunjung.",
+        "en": "Ask about hours and service availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan ketersediaan layanan sebelum berkunjung.",
+        "en": "Ask about hours and service availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Lanjutan",
+        "en": "Follow-up Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan ketersediaan layanan sebelum berkunjung.",
+        "en": "Ask about hours and service availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Persiapan Kunjungan",
+      "en": "Visit Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan dan konfirmasikan jadwal praktik sebelum berkunjung.",
+      "en": "Prepare questions and confirm hours before visiting."
+    },
+    "alasan_dipilih": "Panduan pertanyaan kunjungan gigi anak dan konfirmasi jadwal dokter spesialis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Raya Cileunyi No.253, RW.08, Cileunyi Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40622. Konfirmasikan sebelum datang.",
+        "en": "The listed address is Jl. Raya Cileunyi No.253, RW.08, Cileunyi Wetan, Kec. Cileunyi, Kabupaten Bandung, Jawa Barat 40622. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik yang tercantum dapat berubah. Konfirmasikan jadwal dan dokter yang bertugas.",
+        "en": "Listed hours may change. Please confirm the schedule and clinician."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan jadwal kepada praktik sebelum datang.",
+        "en": "Ask about appointment availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya.",
+        "en": "An official price list was not found. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Silakan tanyakan langsung.",
+        "en": "Insurance arrangements were not verified. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal, layanan, dan biaya.",
+    "en": "Contact the practice to ask about appointments, services, and costs."
+  },
+  "pesan_wa_default": "Halo Cileunyi Dental Care & Kids Dental Cileunyi, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola Cileunyi Dental Care & Kids Dental Cileunyi, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan panduan kunjungan berdasarkan informasi publik. Konsep dapat ditinjau di https://maxigrowthstudio.com/cileunyi-kids. Bila berkenan, mohon diteruskan kepada penanggung jawab praktik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Cileunyi Dental Care & Kids Dental Cileunyi",
+    "email_isi": "Yth. Pengelola Cileunyi Dental Care & Kids Dental Cileunyi,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien melihat lokasi, kontak, dan informasi kunjungan. Preview: https://maxigrowthstudio.com/cileunyi-kids.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Jika pesan ini diterima tim administrasi, mohon diteruskan kepada penanggung jawab.\n\nTerima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
