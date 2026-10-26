@@ -1,0 +1,39 @@
+{
+  "id": "W1195",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/cove.dentalclinic/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://indonesiaknowledge.com/directory/medical-clinics/dumai/cove-dental-clinic-dumai",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sultan Syarif Kasim No.305, Sukajadi, Dumai Kota, Kota Dumai, Riau 28826",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://indonesiaknowledge.com/directory/medical-clinics/dumai/cove-dental-clinic-dumai",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1FMyLkzAM7gnPDshkqBM-Mc0DIPy0Emck/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 996,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1FMyLkzAM7gnPDshkqBM-Mc0DIPy0Emck/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/cove.dentalclinic/",
+    "https://drive.google.com/file/d/1FMyLkzAM7gnPDshkqBM-Mc0DIPy0Emck/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}

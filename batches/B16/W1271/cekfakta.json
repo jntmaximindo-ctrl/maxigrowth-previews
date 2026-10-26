@@ -1,0 +1,33 @@
+{
+  "id": "W1271",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Arcadia, Lippo Cikarang, Jl. Mataram No.17 Blok B, Cibatu, Cikarang Selatan, Kabupaten Bekasi, Jawa Barat 17530",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://glints.com/id/companies/premiere-dental-care/2702d229-f0ca-4d38-951a-67a312e9defa",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285121102100",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/cikarang-selatan/klinik-gigi-cikarang-premiere--cika-imp1",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285121102100",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/cikarang-selatan/klinik-gigi-cikarang-premiere--cika-imp1",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/mypremieredentalcare/",
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-feb-2026.pdf",
+    "https://www.facebook.com/61566922061462/posts/keseruan-premiere-dental-care-di-living-plazaterima-kasih-buat-kakak-kakak-yang/122234347286564068/"
+  ],
+  "kritis_ok": false
+}

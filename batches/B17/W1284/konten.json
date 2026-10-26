@@ -1,0 +1,132 @@
+{
+  "id": "W1284",
+  "hero": {
+    "judul": {
+      "id": "Jenna Dental Smile",
+      "en": "Jenna Dental Smile"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Pekanbaru.",
+      "en": "Dental care information in Pekanbaru."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang jadwal, layanan dan biaya untuk menyusun pesan bagi admin.",
+      "en": "Explore appointment information and prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Kontak publik tersedia pada sumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik untuk menanyakan jadwal.",
+        "en": "Contact the clinic to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya kepada klinik sebelum menyetujui tindakan.",
+        "en": "Ask the clinic for a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Tanyakan langsung kepada klinik.",
+        "en": "Insurance information is unconfirmed. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I bring?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen dan informasi yang diperlukan saat membuat janji.",
+        "en": "Ask which documents and information are needed when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jadwal dapat berubah?",
+        "en": "Can appointment times change?"
+      },
+      "a": {
+        "id": "Konfirmasi jadwal dengan klinik sebelum berkunjung.",
+        "en": "Confirm your appointment with the clinic before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan informasi biaya perawatan.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Jenna Dental Smile. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Pekanbaru. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/pekanbaru-jenna. Bila berkenan, silakan melihat susunan informasi kunjungannya. Terima kasih.",
+    "email_subjek": "Konsep website Jenna Dental Smile",
+    "email_isi": "Yth. Pengelola Jenna Dental Smile,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website berdasarkan informasi praktik Anda di Pekanbaru: https://maxigrowthstudio.com/pekanbaru-jenna.\n\nKonsep ini menyusun informasi kunjungan agar mudah ditinjau. Draf email ini disiapkan untuk digunakan bersama proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau dan memberi koreksi pada informasi klinik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

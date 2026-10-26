@@ -1,0 +1,60 @@
+{
+  "id": "W1170",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "nama.v",
+      "tercatat": "Dental Place Cemara Asri / Praktek Dokter Gigi Angel",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/ngelwu/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/dentalplace.id/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/ngelwu/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Boulevard Raya No.8AL, Komplek Cemara Asri, Medan Estate, Percut Sei Tuan, Deli Serdang, Sumatera Utara 20221",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://idalamat.com/alamat/dental-place-cemara-asri-praktek-dokter-gigi-angel-2-1058830",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6281365862006",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/ngelwu/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6281365862006",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/ngelwu/",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 5,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1-1-UDW2wDdqDVigyoyfENN3_1vWA9tfA/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 153,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1-1-UDW2wDdqDVigyoyfENN3_1vWA9tfA/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/ngelwu/",
+    "https://drive.google.com/file/d/1-1-UDW2wDdqDVigyoyfENN3_1vWA9tfA/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "W1197",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/wonosaridental/",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.semuabis.com/wonosari-dental-care_1N-0878-3481-5535",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Cluster Taman Kusuma, Jl. Lingkar Utara, Selang V, Selang, Wonosari, Kabupaten Gunungkidul, DI Yogyakarta 55851",
+      "di_sumber": "Teks sumber tersedia; belum ditemukan kecocokan literal.",
+      "src": "https://www.semuabis.com/wonosari-dental-care_1N-0878-3481-5535",
+      "catatan": "Nilai lengkap tidak ditemukan secara literal dalam teks sumber yang berhasil dimuat; perlu tinjauan konteks. Bukan kesimpulan bahwa nilainya salah."
+    },
+    {
+      "path": "maps.rating.v",
+      "tercatat": 4.9,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1egiX0amb8pcDvj-1qSJ2EGNAliTucDoP/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    },
+    {
+      "path": "maps.ulasan.v",
+      "tercatat": 153,
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1egiX0amb8pcDvj-1qSJ2EGNAliTucDoP/view?usp=drivesdk",
+      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/wonosaridental/",
+    "https://drive.google.com/file/d/1egiX0amb8pcDvj-1qSJ2EGNAliTucDoP/view?usp=drivesdk"
+  ],
+  "kritis_ok": false
+}

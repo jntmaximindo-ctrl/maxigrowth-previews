@@ -90,5 +90,22 @@
     "https://caribisnis.id/dokter-gigi/bekasi/cikarang-selatan/klinik-gigi-cikarang-premiere--cika-imp1",
     "https://glints.com/id/companies/premiere-dental-care/2702d229-f0ca-4d38-951a-67a312e9defa",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-feb-2026.pdf?pid=id_bh_tr_chubb_provider_dental"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Ruko Arcadia, Lippo Cikarang, Jl. Mataram No.17 Blok B, Cibatu, Cikarang Selatan, Kabupaten Bekasi, Jawa Barat 17530",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285121102100",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285121102100",
+      "catatan": "Teks sumber tersedia; belum ditemukan kecocokan literal."
+    }
   ]
 }
