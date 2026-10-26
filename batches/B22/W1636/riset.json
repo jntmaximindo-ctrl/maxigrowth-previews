@@ -78,5 +78,17 @@
     "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-tegal/",
     "https://poltekkes.web.id/dokter-gigi-tegal/",
     "https://idalamat.com/alamat/hhdc-hh-family-dental-care-tegal-319501"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Gatot Subroto No.88, Debong Kulon, Kec. Tegal Selatan, Kota Tegal, Jawa Tengah 52133",
+      "catatan": "IDalamat mencantumkan JL. Ki Hajar Dewantara No. 95, Sumurpanggang, kec Margadana, Kota Tegal. Sementara MediaSehat dan Poltekkes mencantumkan Jl. Gatot Subroto No.88."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": null,
+      "catatan": "MediaSehat mencantumkan Minggu 10.00–16.00; Poltekkes mencantumkan Minggu tutup."
+    }
   ]
 }
