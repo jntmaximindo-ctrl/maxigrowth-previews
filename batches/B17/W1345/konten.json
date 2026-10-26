@@ -1,0 +1,132 @@
+{
+  "id": "W1345",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Jakarta Timur",
+      "en": "Dental Care Information in Jakarta Timur"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi gigi di Klinik Rafa, Cijantung, Pasar Rebo. Tanyakan jadwal dan jenis layanan sebelum berkunjung.",
+      "en": "Learn about dental consultations at Klinik Rafa, Cijantung, Pasar Rebo. Please confirm the schedule and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Umum",
+        "en": "General Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan kesehatan umum sesuai keluhan.",
+        "en": "Ask about general health consultations based on your concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Poli Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal poli gigi dan jenis pemeriksaan yang tersedia.",
+        "en": "Ask about dental clinic hours and available examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup Enquiry"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi untuk mengetahui ketersediaan pemeriksaan.",
+        "en": "Describe your dental concern to check examination availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan penanganan gigi berlubang dan kebutuhan pemeriksaan awal.",
+        "en": "Ask about cavity assessment and possible treatment options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Memilih Poli",
+      "en": "Clinic Department Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik kesehatan umum atau gigi untuk menyiapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "Choose general health or dental topics to prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Direktori mengaitkan Klinik Rafa dengan layanan umum dan gigi; jadwal masing-masing belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Klinik Rafa berada?",
+        "en": "Where is Klinik Rafa located?"
+      },
+      "a": {
+        "id": "Alamat berbeda antar direktori. Konfirmasikan lokasi praktik saat ini sebelum datang.",
+        "en": "Directory addresses differ. Confirm the current location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka setiap hari?",
+        "en": "Are you open every day?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal terbaru serta jadwal poli gigi sebelum datang.",
+        "en": "Ask about current opening hours and dental appointments before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan gigi?",
+        "en": "Are dental services available?"
+      },
+      "a": {
+        "id": "Klinik tercantum pada kategori dokter gigi di direktori, tetapi jenis layanan belum pasti. Mohon konfirmasi.",
+        "en": "The clinic appears in a dentist directory, but the services are not confirmed. Please check directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Silakan tanyakan rincian biaya kepada klinik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung kepada klinik.",
+        "en": "Insurance details were not found. Please check directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Klinik Rafa, saya ingin menanyakan jadwal poli gigi dan layanan pemeriksaan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Rafa, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi Klinik Rafa di Jl. Gongseng Raya yang mencantumkan layanan umum dan informasi gigi. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/rafa. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Klinik Rafa",
+    "email_isi": "Yth. Pengelola Klinik Rafa,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi Klinik Rafa di Jl. Gongseng Raya yang mencantumkan layanan umum dan informasi gigi melalui sumber publik.\n\nKami telah menyiapkan konsep website yang merangkum informasi lokasi, layanan, dan akses kontak secara jelas. Konsep dapat ditinjau di https://maxigrowthstudio.com/rafa. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila relevan, kami terbuka menerima masukan dari pihak klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
