@@ -1,0 +1,132 @@
+{
+  "id": "W1695",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan praktik drg. Sonya Astri",
+      "en": "Plan your visit to drg. Sonya Astri's practice"
+    },
+    "sub": {
+      "id": "Konfirmasikan jadwal dan lokasi praktik di Solok sebelum datang.",
+      "en": "Confirm opening hours and the practice location in Solok before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya pemeriksaan",
+        "en": "Examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin.",
+        "en": "Ask the practice for information and availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin.",
+        "en": "Ask the practice for information and availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya jadwal",
+        "en": "Appointment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin.",
+        "en": "Ask the practice for information and availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi dan ketersediaannya kepada admin.",
+        "en": "Ask the practice for information and availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan jadwal, biaya dan lokasi untuk menyusun pesan kepada admin.",
+      "en": "Choose questions about appointments, fees and location to prepare a message for staff."
+    },
+    "alasan_dipilih": "Informasi direktori memerlukan konfirmasi langsung sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan pendaftaran kepada admin.",
+        "en": "Ask staff about appointments and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Datuk Perpatih Nan Sebatang, Aro IV Korong, Solok. Mintalah pin lokasi.",
+        "en": "The directory lists Jl. Datuk Perpatih Nan Sebatang, Aro IV Korong, Solok. Request a location pin."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan buka?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Jadwal belum dipastikan. Konfirmasikan sebelum datang.",
+        "en": "Opening hours are unconfirmed. Please check before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What does it cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan estimasi kepada admin.",
+        "en": "Prices are not available yet. Ask staff for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi.",
+        "en": "Insurance arrangements are unconfirmed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi kunjungan",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin mengonfirmasi apakah ini praktik drg. Sonya Astri di Solok. Mohon informasi jadwal, lokasi dan biaya kunjungan.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik drg. Sonya Astri, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk praktik di Solok. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/drg-sonya. Mohon konfirmasi informasi sebelum digunakan. WA 082141004400.",
+    "email_subjek": "Konsep informasi kunjungan praktik gigi Solok",
+    "email_isi": "Yth. Pengelola, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Konsep informasi kunjungan praktik di Solok disiapkan untuk peninjauan. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/drg-sonya. Proposal PDF perlu dilampirkan sebelum draf ini dikirim. Mohon konfirmasi kontak, jadwal dan lokasi sebelum publikasi. WA 082141004400 | info@maxigrowthstudio.com"
+  }
+}
