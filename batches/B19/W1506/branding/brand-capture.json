@@ -1,0 +1,86 @@
+{
+  "url": "https://www.google.com/maps/place/?q=place_id:ChIJewXiZgDpaS4RwMF0dpRKiCI",
+  "captured": "2026-10-26T00:50:58.123Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.891,
+      "kinds": {
+        "bg": 2,
+        "text": 14
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.057,
+      "kinds": {
+        "bg": 7
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.035,
+      "kinds": {
+        "text": 15
+      }
+    },
+    {
+      "hex": "#ffbb29",
+      "share": 0.009,
+      "kinds": {
+        "text": 14
+      }
+    },
+    {
+      "hex": "#fbbc04",
+      "share": 0.005,
+      "kinds": {
+        "bg": 2
+      }
+    },
+    {
+      "hex": "#9f6108",
+      "share": 0.003,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=35.7224075%2C-78.4170755&zoom=7&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=BhM1895xR7OQRa4N6_4asmAWo2w",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Elyta Sari - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#000000",
+    "#f2f2f2"
+  ]
+}
