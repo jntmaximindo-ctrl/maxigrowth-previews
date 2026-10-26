@@ -1,0 +1,18 @@
+{
+  "id": "W1647",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Jati Permai No. 24, Kudus",
+      "di_sumber": "Unnamed Road, Getas, Getas Pejaten, Jati, Kudus Regency, Central Java 59343",
+      "src": "https://idalamat.com/alamat/1061439/drg-nancy-feronica-kudus-jawa-tengah",
+      "catatan": "Alamat berbeda muncul pada direktori lain untuk nama dokter sama. Dokumen Dinkes 2019 mendukung alamat Jati Permai dan nomor telepon historis, tetapi alamat aktif belum dapat dipastikan. PDF Dinkes 2021 yang dirujuk langsung oleh riset gagal dibuka."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+    "https://www.google.com/maps/search/?api=1&query=drg.%20Nancy%20Feronica%20Kudus&query_place_id=ChIJbyphWazFcC4RogdSAbQOqgo"
+  ],
+  "kritis_ok": false
+}
