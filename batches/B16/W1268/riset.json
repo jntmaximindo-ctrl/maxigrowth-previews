@@ -70,5 +70,22 @@
   "sumber": [
     "https://linktr.ee/kayakadental",
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/praktek-dokter-gigi-cikarang-kayaka-dental-care-klinik-gigi-cibitung?to=place.ChIJyQudDeGFaS4R4dp3CCwDKtE"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 256",
+      "catatan": "4.9 / 256 pada CariBisnis; tidak tercantum di Linktree maupun Waze"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "Waze: Sen–Jum 08.00–12.00 & 16.00–21.00; Sabtu 08.00–12.00 & 16.30–21.00; Minggu 10.00–18.00; CariBisnis berbeda"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285776677870",
+      "catatan": "0857-7667-7870 pada Waze; Linktree hanya menampilkan tombol WhatsApp"
+    }
   ]
 }

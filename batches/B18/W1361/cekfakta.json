@@ -1,0 +1,32 @@
+{
+  "id": "W1361",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5.0,
+      "di_sumber": null,
+      "src": "https://chicdentalclinic.com/location/",
+      "catatan": "Halaman resmi location yang terindeks memuat lokasi dan telepon, bukan rating Google Maps."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 562,
+      "di_sumber": null,
+      "src": "https://chicdentalclinic.com/location/",
+      "catatan": "Jumlah ulasan 562 tidak tercantum pada sumber yang ditulis; belum dapat diverifikasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285773189199",
+      "di_sumber": "0857-7318-9199 (nomor ponsel; status WhatsApp tidak dinyatakan)",
+      "src": "https://chicdentalclinic.com/location/",
+      "catatan": "Sesuai aturan 00a nomor ponsel publik boleh dianggap WA, tetapi status WA aktif belum dibuktikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://chicdentalclinic.com/location/",
+    "https://www.bcalife.co.id/storage/networks/Daftar%20Klinik%20Rekanan%20BCA%20Life%20Februari%202024.pdf"
+  ],
+  "kritis_ok": true
+}

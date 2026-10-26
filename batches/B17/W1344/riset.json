@@ -88,5 +88,35 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
     "https://drive.google.com/file/d/1wDaCW2ZtNPXhS9cLNicC2RyisA9mGqU7/view",
     "https://www.google.com/maps/place/?q=place_id:ChIJ64Dbn4H1aS4RfmOurbZV_ZU"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating",
+      "tercatat": 4.9,
+      "catatan": "4.9 (dalam file CARI; bukan hasil membuka Google Maps langsung)"
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 105,
+      "catatan": "105 (dalam file CARI; bukan hasil membuka Google Maps langsung)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": null,
+        "sel": null,
+        "rab": null,
+        "kam": null,
+        "jum": null,
+        "sab": null,
+        "min": null
+      },
+      "catatan": "Jam praktik tidak tercantum pada cuplikan tabel provider yang dapat diakses; null benar sebagai data belum diketahui, tetapi src tidak membuktikan jadwal."
+    },
+    {
+      "path": "catatan",
+      "tercatat": "Email tidak ditemukan setelah dicari ...",
+      "catatan": "dental.siddi@gmail.com"
+    }
   ]
 }

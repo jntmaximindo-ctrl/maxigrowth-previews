@@ -1,0 +1,47 @@
+{
+  "id": "W1344",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "maps.rating",
+      "tercatat": 4.9,
+      "di_sumber": "4.9 (dalam file CARI; bukan hasil membuka Google Maps langsung)",
+      "src": "https://drive.google.com/file/d/1wDaCW2ZtNPXhS9cLNicC2RyisA9mGqU7/view",
+      "catatan": "Nilai sesuai file CARI, tetapi belum ada verifikasi independen Google Maps."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 105,
+      "di_sumber": "105 (dalam file CARI; bukan hasil membuka Google Maps langsung)",
+      "src": "https://drive.google.com/file/d/1wDaCW2ZtNPXhS9cLNicC2RyisA9mGqU7/view",
+      "catatan": "Angka tercatat dalam file CARI, tidak dapat dianggap jumlah ulasan Google Maps terkini."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": null,
+        "sel": null,
+        "rab": null,
+        "kam": null,
+        "jum": null,
+        "sab": null,
+        "min": null
+      },
+      "di_sumber": null,
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "Jam praktik tidak tercantum pada cuplikan tabel provider yang dapat diakses; null benar sebagai data belum diketahui, tetapi src tidak membuktikan jadwal."
+    },
+    {
+      "path": "catatan",
+      "tercatat": "Email tidak ditemukan setelah dicari ...",
+      "di_sumber": "dental.siddi@gmail.com",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "Catatan riset bertentangan dengan field email dan tabel provider yang secara eksplisit mencantumkan email."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+    "https://www.google.com/maps/place/?q=place_id:ChIJ64Dbn4H1aS4RfmOurbZV_ZU"
+  ],
+  "kritis_ok": true
+}

@@ -1,0 +1,41 @@
+{
+  "id": "W1373",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "di_sumber": "drg. Luh Putu Sari Widyayanti Gunarta (praktik mandiri)",
+      "src": "https://localindonesia.net/usaha/beyond-smile-dental-care-badung",
+      "catatan": "Nama dan gelar dokter disebut eksplisit pada profil Local Indonesia, tetapi dokter kosong pada riset; perlu dimasukkan setelah verifikasi identitas."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "di_sumber": "4.9 / 123 (klaim rating Google pada Local Indonesia)",
+      "src": "https://localindonesia.net/usaha/beyond-smile-dental-care-badung",
+      "catatan": "Riset tidak memuat rating meski sumber alternatif menampilkan angka; Google Maps belum dibuka langsung."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Senin–Sabtu 17.00–21.00, Minggu tutup; praktik Minggu dengan perjanjian disebut dalam deskripsi",
+      "src": "https://localindonesia.net/usaha/beyond-smile-dental-care-badung",
+      "catatan": "Jadwal ditemukan, namun deskripsi dan tabel jadwal berbeda untuk Minggu; perlu konfirmasi sebelum dipublikasikan."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Tambal gigi",
+        "Cabut gigi",
+        "Perawatan kawat gigi"
+      ],
+      "di_sumber": "iDalamat menampilkan uraian generik; Local Indonesia menyebut praktik mandiri dan tidak membuktikan semua tindakan yang ditulis",
+      "src": "https://idalamat.com/alamat/beyond-smile-dental-care-1063179",
+      "catatan": "Jenis tindakan tidak terverifikasi dari sumber klinik; uraian direktori tampak templat."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

@@ -77,5 +77,22 @@
   "sumber": [
     "https://chicdentalclinic.com/location/",
     "https://www.bcalife.co.id/storage/networks/Daftar%20Klinik%20Rekanan%20BCA%20Life%20Februari%202024.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5.0,
+      "catatan": "Halaman resmi location yang terindeks memuat lokasi dan telepon, bukan rating Google Maps."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 562,
+      "catatan": "Jumlah ulasan 562 tidak tercantum pada sumber yang ditulis; belum dapat diverifikasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285773189199",
+      "catatan": "0857-7318-9199 (nomor ponsel; status WhatsApp tidak dinyatakan)"
+    }
   ]
 }

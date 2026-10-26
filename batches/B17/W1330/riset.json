@@ -88,5 +88,25 @@
     "https://bukutelepon.cybo.com/ID/tondano/dokter-gigi",
     "https://drive.google.com/file/d/1WjvqFJeSpcbFglBLr24A3gFUOynmXhfN/view",
     "https://www.google.com/maps/place/?q=place_id:ChIJxfwLagAPhzIRW5WORrb7HGs"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.ulasan",
+      "tercatat": 61,
+      "catatan": "61 pada indeks Cybo; 169 pada file CARI"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": null,
+        "sel": null,
+        "rab": null,
+        "kam": null,
+        "jum": null,
+        "sab": null,
+        "min": null
+      },
+      "catatan": "Tidak ada jam yang terbaca dalam cuplikan sumber; semua null belum terverifikasi."
+    }
   ]
 }

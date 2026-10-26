@@ -1,0 +1,29 @@
+{
+  "id": "W1359",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "maps.ulasan",
+      "tercatat": 422,
+      "di_sumber": "Halaman Top-Rated.Online yang ditautkan: 381; daftar Top-Rated Oktober 2026: 422; SmileJet: 148",
+      "src": "https://www.top-rated.online/cities/Surabaya/place/p/14009070/Best%2BDentist%2BPTC%2B%7C%2BDokter%2BGigi%2BSurabaya",
+      "catatan": "422 berasal dari daftar lain/snapshot baru; halaman URL src utama justru 381. Tidak boleh mengklaim 422 sudah dibuktikan oleh URL utama."
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "di_sumber": "Ulasan Top-Rated menyebut dr. Rici; SmileJet mengklaim 15 dokter, tanpa identitas dan gelar yang diverifikasi satu per satu",
+      "src": "https://www.top-rated.online/cities/Surabaya/place/p/14009070/Best%2BDentist%2BPTC%2B%7C%2BDokter%2BGigi%2BSurabaya",
+      "catatan": "Dokter tidak diisi dalam riset; nama dr. Rici dari ulasan pasien tidak cukup untuk memastikan identitas profesional."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282297986161",
+      "di_sumber": "+62 822-9798-6161 pada Top-Rated; WhatsApp aktif tidak dinyatakan",
+      "src": "https://www.top-rated.online/cities/Surabaya/place/p/14009070/Best%2BDentist%2BPTC%2B%7C%2BDokter%2BGigi%2BSurabaya",
+      "catatan": "Nomor ponsel benar setelah normalisasi, status WA asumsi sesuai aturan."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

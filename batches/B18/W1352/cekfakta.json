@@ -1,0 +1,38 @@
+{
+  "id": "W1352",
+  "diperiksa": 11,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285955235404",
+      "di_sumber": "0859-5523-5404 dan 0853-3546-5161",
+      "src": "https://www.semuabis.com/klinik-gigi-bara-senyum-drg-jeffry-0859-5523-5404",
+      "catatan": "Nomor utama benar, tetapi sumber yang sama juga memuat nomor ponsel kedua yang tidak dicatat."
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "di_sumber": "drg. Jeffry Anggriawan pada judul halaman SemuaBis dan nama klinik",
+      "src": "https://www.semuabis.com/klinik-gigi-bara-senyum-drg-jeffry-0859-5523-5404",
+      "catatan": "Nama dokter muncul di sumber dan nama klinik tetapi daftar dokter kosong; status dokter/gelar perlu dikonfirmasi lebih lanjut."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "SemuaBis: Sen–Sab 11.00–21.00, Min 13.00–20.00; CariBisnis: Sen–Sab 13.00–21.00, Min 13.00–20.00",
+      "src": "https://www.semuabis.com/klinik-gigi-bara-senyum-drg-jeffry-0859-5523-5404",
+      "catatan": "Perbedaan jam mulai antar direktori; null pada riset menghindari jadwal yang belum terkonfirmasi."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 201",
+      "di_sumber": "4.9 / 201 pada CariBisnis; tidak ada angka di SemuaBis",
+      "src": "https://caribisnis.id/dokter-gigi/surabaya/gubeng/klinik-gigi-bara-senyum-drg-je-gube-imp1",
+      "catatan": "Rating/ulasan didukung direktori lain, bukan URL src utama yang tidak ditetapkan dalam maps."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.waze.com/id/live-map/directions/id/jawa-timur/klinik-gigi-bara-senyum-%28drg.-jeffry-anggriawan%29?to=place.ChIJQbGGApT61y0RqUcz9Q9s7E8"
+  ],
+  "kritis_ok": false
+}

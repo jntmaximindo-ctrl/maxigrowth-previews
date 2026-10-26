@@ -1,0 +1,29 @@
+{
+  "id": "W1268",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 256",
+      "di_sumber": "4.9 / 256 pada CariBisnis; tidak tercantum di Linktree maupun Waze",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/cikarang-barat/praktek-dokter-gigi-cikarang-k-cika-imp1",
+      "catatan": "Rating dan jumlah ulasan dapat dicocokkan pada direktori alternatif, bukan Google Maps langsung."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Waze: Sen–Jum 08.00–12.00 & 16.00–21.00; Sabtu 08.00–12.00 & 16.30–21.00; Minggu 10.00–18.00; CariBisnis berbeda",
+      "src": "https://www.waze.com/id/live-map/directions/id/jawa-barat/praktek-dokter-gigi-cikarang-kayaka-dental-care-klinik-gigi-cibitung?to=place.ChIJyQudDeGFaS4R4dp3CCwDKtE",
+      "catatan": "Jam tersedia pada Waze tetapi berbeda dari CariBisnis; jangan menetapkan jadwal tanpa konfirmasi."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285776677870",
+      "di_sumber": "0857-7667-7870 pada Waze; Linktree hanya menampilkan tombol WhatsApp",
+      "src": "https://www.waze.com/id/live-map/directions/id/jawa-barat/praktek-dokter-gigi-cikarang-kayaka-dental-care-klinik-gigi-cibitung?to=place.ChIJyQudDeGFaS4R4dp3CCwDKtE",
+      "catatan": "Nomor cocok dengan Waze. Linktree tidak menuliskan digit nomor pada teks halaman."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

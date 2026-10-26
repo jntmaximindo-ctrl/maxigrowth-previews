@@ -1,0 +1,36 @@
+{
+  "id": "W1378",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "di_sumber": "5.0 / 171 pada direktori CariBisnis Oktober 2026; Poltekkes menyebut 5.0 / 142 pada snapshot lama",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/bekasi-barat",
+      "catatan": "Rating/ulasan tidak dicatat dalam riset meskipun tersedia pada sumber alternatif; sumber utama iDalamat tidak memuat rating Google."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Sen–Rab dan Jum 10.00–13.00, 17.00–20.00; Kamis tutup; Sabtu 10.00–14.00; Minggu tutup",
+      "src": "https://idalamat.com/alamat/1060742/dirayna-dentist-at-kalula-bintara-praktek-dokter-gigi-bekasi-jawa-barat",
+      "catatan": "Jam ada pada halaman iDalamat yang menjadi sumber utama tetapi tidak dicatat dalam riset."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Tambal gigi",
+        "Cabut gigi",
+        "Konsultasi gigi"
+      ],
+      "di_sumber": "Uraian iDalamat tampak templat umum untuk klinik gigi",
+      "src": "https://idalamat.com/alamat/1060742/dirayna-dentist-at-kalula-bintara-praktek-dokter-gigi-bekasi-jawa-barat",
+      "catatan": "Jenis tindakan tidak didukung bukti spesifik dari pengelola klinik."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://poltekkes.web.id/dokter-gigi-bekasi/"
+  ],
+  "kritis_ok": true
+}

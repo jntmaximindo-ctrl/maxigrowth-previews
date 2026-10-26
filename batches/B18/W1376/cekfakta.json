@@ -1,0 +1,43 @@
+{
+  "id": "W1376",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "di_sumber": "4.9 / 154 (Local Indonesia, klaim berbasis Google Maps)",
+      "src": "https://localindonesia.net/usaha/dentist-dokter-gigi-giqu-dental-canggu-badung",
+      "catatan": "Rating/ulasan tersedia pada sumber yang sama tetapi tidak dicatat dalam riset."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Senin–Sabtu 11.00–20.00, Minggu tutup",
+      "src": "https://localindonesia.net/usaha/dentist-dokter-gigi-giqu-dental-canggu-badung",
+      "catatan": "Jadwal tertera di direktori, riset membiarkan null; perlu verifikasi jika akan digunakan."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287758685933",
+      "di_sumber": "0877-5868-5933, tombol Chat WhatsApp pada Local Indonesia",
+      "src": "https://localindonesia.net/usaha/dentist-dokter-gigi-giqu-dental-canggu-badung",
+      "catatan": "Nomor dan tautan WA tertera; belum diuji dengan menghubungi klinik."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Pembersihan gigi",
+        "Tambal gigi",
+        "Mahkota gigi",
+        "Veneer",
+        "Pemutihan gigi"
+      ],
+      "di_sumber": "Sumber Local Indonesia menyebut routine check-ups, teeth cleaning, fillings, crowns, veneers, teeth whitening",
+      "src": "https://localindonesia.net/usaha/dentist-dokter-gigi-giqu-dental-canggu-badung",
+      "catatan": "Enam layanan sesuai uraian sumber, tetapi sumber berupa direktori pihak ketiga."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

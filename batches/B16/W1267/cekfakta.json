@@ -1,0 +1,31 @@
+{
+  "id": "W1267",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Senin–Minggu 10.00–20.00 dalam indeks SemuaBis",
+      "src": "https://www.semuabis.com/dia-dental-care-0818-0853-2070",
+      "catatan": "Jam tersedia dalam indeks sumber, tetapi halaman asli mengembalikan HTTP 429 saat dibuka ulang."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "5.0 / 161",
+      "di_sumber": null,
+      "src": "https://www.semuabis.com/dia-dental-care-0818-0853-2070",
+      "catatan": "Angka 5.0/161 tidak ditemukan pada indeks SemuaBis yang dapat dibaca; Google Maps belum dibuka langsung."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281808532070",
+      "di_sumber": "0818-0853-2070 dalam indeks SemuaBis",
+      "src": "https://www.semuabis.com/dia-dental-care-0818-0853-2070",
+      "catatan": "Nomor sesuai indeks URL yang sama, tetapi pembukaan ulang halaman langsung terkena 429."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dia-dental-care-0818-0853-2070"
+  ],
+  "kritis_ok": true
+}

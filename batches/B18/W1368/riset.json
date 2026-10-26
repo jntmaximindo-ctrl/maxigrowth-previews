@@ -75,5 +75,22 @@
   "sumber": [
     "https://www.sompo.co.id/files/live/sites/sompo-id/files/pdf/Admedika%20Juni.pdf",
     "https://www.instagram.com/32dental.id/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/32dental.id/",
+      "catatan": "Profil Instagram tidak dapat dibuka; identitas akun belum diverifikasi."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "catatan": "Daftar provider asuransi tidak memuat rating dan ulasan; nilai null belum ada bukti pengganti."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281317017020",
+      "catatan": "0813-1701-7020 pada indeks tabel Sompo"
+    }
   ]
 }

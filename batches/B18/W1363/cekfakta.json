@@ -1,0 +1,32 @@
+{
+  "id": "W1363",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Indonesia Knowledge: Sen-Kam 15.00–20.30, Jumat 14.00–20.30, Sabtu 10.00–16.00, Minggu tutup; iDalamat: Senin tutup, Selasa 10.00–14.00, Minggu 10.00–15.00",
+      "src": "https://indonesiaknowledge.com/directory/dental/tangerang/sistha-dental-care-tangerang-praktek-dokter-gigi-tangerang",
+      "catatan": "Dua direktori berbeda; null pada riset tepat untuk menghindari jadwal salah."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 211,
+      "di_sumber": "Indonesia Knowledge 211 (Google-based); iDalamat 0 ulasan internal",
+      "src": "https://idalamat.com/alamat/sistha-dental-care-tangerang-praktek-dokter-gigi-1062998",
+      "catatan": "Bukan bukti 211 salah, karena iDalamat menghitung ulasan pada platformnya sendiri; sumber angka harus diberi konteks."
+    },
+    {
+      "path": "nama",
+      "tercatat": "Sistha Dental Care Tangerang",
+      "di_sumber": "Indonesia Knowledge: Sistha Dental Care Tangerang; AIBIZ/SATUSEHAT: Sistha Dental Care Pabuaran - Praktek Mandiri drg. Renisistha Tedhak",
+      "src": "https://aibiz.id/sistha-dental-care-pabuaran-praktek-mandiri-drg-renisistha-tedhak",
+      "catatan": "Identitas merek dan nama praktik mandiri berbeda; lokasi/afiliasi perlu ditelusuri sebelum publikasi sebagai satu entitas."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://indonesiaknowledge.com/directory/dental/tangerang/sistha-dental-care-tangerang-praktek-dokter-gigi-tangerang",
+    "https://idalamat.com/alamat/sistha-dental-care-tangerang-praktek-dokter-gigi-1062998"
+  ],
+  "kritis_ok": false
+}

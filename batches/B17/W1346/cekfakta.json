@@ -1,0 +1,53 @@
+{
+  "id": "W1346",
+  "diperiksa": 16,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "08-21",
+        "sel": "08-21",
+        "rab": "08-21",
+        "kam": "08-21",
+        "jum": "08-21",
+        "sab": "08-21",
+        "min": "08-21"
+      },
+      "di_sumber": null,
+      "src": "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/klinik-azalea",
+      "catatan": "Halaman BCA Life memuat nama, alamat, dan dua nomor ponsel, tetapi TIDAK memuat jam 08.00–21.00; tujuh nilai jadwal tidak didukung URL src."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282111992636",
+      "di_sumber": "082111992636/081221112696",
+      "src": "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/klinik-azalea",
+      "catatan": "Nomor pertama benar setelah normalisasi, tetapi sumber juga memuat nomor ponsel kedua yang tidak dicatat; bukan penggantian nomor pertama."
+    },
+    {
+      "path": "nama",
+      "tercatat": "Klinik Azalea",
+      "di_sumber": "KLINIK AZALEA (BCA Life); Klinik Azalea Dental (HDmall)",
+      "src": "https://hdmall.id/klinik-gigi/scalling-full-rahang-atas-dan-bawah-klinik-azalea-dental",
+      "catatan": "Nama brand berbeda antar sumber; kesamaan entitas/cabang belum terbukti secara langsung."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 139",
+      "di_sumber": "4.9 / 139 dalam file CARI",
+      "src": "https://drive.google.com/file/d/1Xx1j5GI8Flmx4EWJWWFRpYU11VTx0VNE/view",
+      "catatan": "Rating/ulasan hanya diwarisi dari CARI, tidak diperiksa pada Google Maps."
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Penambalan estetik",
+      "di_sumber": null,
+      "src": "https://hdmall.id/klinik-gigi/penambalan-sinar-gigi-belakang-klinik-azalea-dental",
+      "catatan": "Halaman tindakan penambalan mengembalikan HTTP 403 sehingga layanan ini tidak dapat diverifikasi dari URL tersebut."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://hdmall.id/klinik-gigi/penambalan-sinar-gigi-belakang-klinik-azalea-dental"
+  ],
+  "kritis_ok": false
+}

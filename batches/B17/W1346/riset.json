@@ -92,5 +92,40 @@
     "https://hdmall.id/klinik-gigi/penambalan-sinar-gigi-belakang-klinik-azalea-dental",
     "https://hdmall.id/klinik-gigi/scalling-full-rahang-atas-dan-bawah-klinik-azalea-dental",
     "https://hdmall.id/klinik-gigi/bleaching-klinik-azalea-dental"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "08-21",
+        "sel": "08-21",
+        "rab": "08-21",
+        "kam": "08-21",
+        "jum": "08-21",
+        "sab": "08-21",
+        "min": "08-21"
+      },
+      "catatan": "Halaman BCA Life memuat nama, alamat, dan dua nomor ponsel, tetapi TIDAK memuat jam 08.00–21.00; tujuh nilai jadwal tidak didukung URL src."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282111992636",
+      "catatan": "082111992636/081221112696"
+    },
+    {
+      "path": "nama",
+      "tercatat": "Klinik Azalea",
+      "catatan": "KLINIK AZALEA (BCA Life); Klinik Azalea Dental (HDmall)"
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 139",
+      "catatan": "4.9 / 139 dalam file CARI"
+    },
+    {
+      "path": "layanan[3]",
+      "tercatat": "Penambalan estetik",
+      "catatan": "Halaman tindakan penambalan mengembalikan HTTP 403 sehingga layanan ini tidak dapat diverifikasi dari URL tersebut."
+    }
   ]
 }

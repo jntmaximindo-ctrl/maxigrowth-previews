@@ -76,5 +76,22 @@
     "https://yandex.com/maps/org/sunshine_clinic_banjar_wijaya_tangerang/5870771477/",
     "https://www.google.com/maps/search/?api=1&query=Sunshine+Clinic+Banjar+Wijaya+Tangerang",
     "https://static.sundayinsurance.co.id/pdf/Sunday-Hospital-List-Feb-2024.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Sunshine Clinic Banjar Wijaya Tangerang",
+      "catatan": "Sunshine Clinic Banjar Wijaya Tangerang (Sunday Insurance daftar provider no. 584)"
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "catatan": "Rating dan ulasan tidak dapat diperiksa dari Yandex; sumber PDF tidak mencantumkan rating."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287822272224",
+      "catatan": "087822272224 pada Sunday Insurance"
+    }
   ]
 }

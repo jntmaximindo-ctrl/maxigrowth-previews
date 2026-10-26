@@ -75,5 +75,17 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/tangerang/urban-smile-dental-care-poris-tangerang",
     "https://www.instagram.com/urbansmiledentalporis/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/urbansmiledentalporis/",
+      "catatan": "Direktori mencantumkan tautan Instagram dengan parameter igsh; profil Instagram langsung tidak dapat dibuka"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "Senin tutup; Selasa–Minggu 13.00–20.30"
+    }
   ]
 }

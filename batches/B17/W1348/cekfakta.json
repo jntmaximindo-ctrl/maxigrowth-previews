@@ -1,0 +1,33 @@
+{
+  "id": "W1348",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/yessydentcare/",
+      "di_sumber": "URL tercatat di file CARI, tetapi halaman Instagram tidak dapat dibuka",
+      "src": "https://drive.google.com/file/d/1iX-pV8u1UXghMrUirlbR7ay5mHJy_A26/view",
+      "catatan": "Keberadaan/identitas akun Instagram belum terverifikasi langsung."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "di_sumber": "Tidak disebut pada halaman Waze; direktori CariBisnis menyebut Minggu tutup",
+      "src": "https://www.waze.com/id/live-map/directions/id/daerah-khusus-ibukota-jakarta/yessy-dental-care?to=place.ChIJoQxGwk_1aS4R9GVTVNvbEF0",
+      "catatan": "Nilai mungkin benar tetapi tidak dibuktikan oleh URL src yang dipakai riset."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 225,
+      "di_sumber": "225 pada indeks CariBisnis",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/yessy-dental-care-pulo-imp1",
+      "catatan": "Cuplikan hasil pencarian mendukung angka, tetapi URL tidak bisa dibuka langsung dan Google Maps belum dicek."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/jakarta-timur/pulo-gadung/yessy-dental-care-pulo-imp1",
+    "https://www.instagram.com/yessydentcare/",
+    "https://www.google.com/maps/place/?q=place_id:ChIJoQxGwk_1aS4R9GVTVNvbEF0"
+  ],
+  "kritis_ok": true
+}

@@ -70,5 +70,22 @@
   "sumber": [
     "https://www.semuabis.com/dia-dental-care-0818-0853-2070",
     "https://www.google.com/maps/search/?api=1&query=DIA+Dental+Care+Cibitung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "Senin–Minggu 10.00–20.00 dalam indeks SemuaBis"
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "5.0 / 161",
+      "catatan": "Angka 5.0/161 tidak ditemukan pada indeks SemuaBis yang dapat dibaca; Google Maps belum dibuka langsung."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281808532070",
+      "catatan": "0818-0853-2070 dalam indeks SemuaBis"
+    }
   ]
 }

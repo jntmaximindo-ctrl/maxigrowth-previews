@@ -1,0 +1,32 @@
+{
+  "id": "W1368",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/32dental.id/",
+      "di_sumber": null,
+      "src": "https://www.instagram.com/32dental.id/",
+      "catatan": "Profil Instagram tidak dapat dibuka; identitas akun belum diverifikasi."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "di_sumber": null,
+      "src": "https://www.sompo.co.id/files/live/sites/sompo-id/files/pdf/Admedika%20Juni.pdf",
+      "catatan": "Daftar provider asuransi tidak memuat rating dan ulasan; nilai null belum ada bukti pengganti."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281317017020",
+      "di_sumber": "0813-1701-7020 pada indeks tabel Sompo",
+      "src": "https://www.sompo.co.id/files/live/sites/sompo-id/files/pdf/Admedika%20Juni.pdf",
+      "catatan": "Nomor ponsel didukung cuplikan indeks sumber yang sama, tetapi PDF asli mengembalikan 403; WhatsApp aktif tidak diuji."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.sompo.co.id/files/live/sites/sompo-id/files/pdf/Admedika%20Juni.pdf",
+    "https://www.instagram.com/32dental.id/"
+  ],
+  "kritis_ok": true
+}

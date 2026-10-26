@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.semuabis.com/klinik-gigi-bara-senyum-drg-jeffry-0859-5523-5404",
     "https://www.waze.com/id/live-map/directions/id/jawa-timur/klinik-gigi-bara-senyum-%28drg.-jeffry-anggriawan%29?to=place.ChIJQbGGApT61y0RqUcz9Q9s7E8"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285955235404",
+      "catatan": "0859-5523-5404 dan 0853-3546-5161"
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "catatan": "drg. Jeffry Anggriawan pada judul halaman SemuaBis dan nama klinik"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "SemuaBis: Sen–Sab 11.00–21.00, Min 13.00–20.00; CariBisnis: Sen–Sab 13.00–21.00, Min 13.00–20.00"
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "4.9 / 201",
+      "catatan": "4.9 / 201 pada CariBisnis; tidak ada angka di SemuaBis"
+    }
   ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "W1330",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "maps.ulasan",
+      "tercatat": 61,
+      "di_sumber": "61 pada indeks Cybo; 169 pada file CARI",
+      "src": "https://drive.google.com/file/d/1WjvqFJeSpcbFglBLr24A3gFUOynmXhfN/view",
+      "catatan": "Sumber Cybo yang dirujuk riset menyebut 61, sedangkan file CARI menyebut 169 dari listing bisnis lain. Perbedaan sumber/snapshot, jangan mengklaim jumlah ulasan mutakhir."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": null,
+        "sel": null,
+        "rab": null,
+        "kam": null,
+        "jum": null,
+        "sab": null,
+        "min": null
+      },
+      "di_sumber": null,
+      "src": "https://bukutelepon.cybo.com/ID/tondano/dokter-gigi",
+      "catatan": "Tidak ada jam yang terbaca dalam cuplikan sumber; semua null belum terverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/tondano/dokter-gigi",
+    "https://www.google.com/maps/place/?q=place_id:ChIJxfwLagAPhzIRW5WORrb7HGs"
+  ],
+  "kritis_ok": true
+}

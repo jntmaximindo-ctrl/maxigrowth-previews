@@ -86,5 +86,17 @@
   "sumber": [
     "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-surabaya/",
     "https://lv.cybo.com/ID/surabaja/teeth-whitening-service"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5.0,
+      "catatan": "Halaman langsung gagal dibuka; indeks sumber memuat ulasan/testimoni tetapi tidak memperlihatkan angka rating 5.0 yang terikat pada Dentalife."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 420,
+      "catatan": "Jumlah 420 tidak ditemukan pada bagian Dentalife yang berhasil dibaca dari indeks sumber; angka tidak boleh dianggap terverifikasi."
+    }
   ]
 }

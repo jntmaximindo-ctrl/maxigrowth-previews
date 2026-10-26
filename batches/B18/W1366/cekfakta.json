@@ -1,0 +1,32 @@
+{
+  "id": "W1366",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Sunshine Clinic Banjar Wijaya Tangerang",
+      "di_sumber": "Sunshine Clinic Banjar Wijaya Tangerang (Sunday Insurance daftar provider no. 584)",
+      "src": "https://static.sundayinsurance.co.id/pdf/Sunday-Hospital-List-Feb-2024.pdf",
+      "catatan": "Nama sesuai sumber PDF alternatif, walaupun halaman Yandex yang dicantumkan di src tidak dapat dibuka."
+    },
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "di_sumber": null,
+      "src": "https://yandex.com/maps/org/sunshine_clinic_banjar_wijaya_tangerang/5870771477/",
+      "catatan": "Rating dan ulasan tidak dapat diperiksa dari Yandex; sumber PDF tidak mencantumkan rating."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287822272224",
+      "di_sumber": "087822272224 pada Sunday Insurance",
+      "src": "https://static.sundayinsurance.co.id/pdf/Sunday-Hospital-List-Feb-2024.pdf",
+      "catatan": "Nomor ponsel benar setelah normalisasi, tetapi status WhatsApp belum diverifikasi; diperbolehkan oleh aturan 00a."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://yandex.com/maps/org/sunshine_clinic_banjar_wijaya_tangerang/5870771477/",
+    "https://www.google.com/maps/search/?api=1&query=Sunshine+Clinic+Banjar+Wijaya+Tangerang"
+  ],
+  "kritis_ok": true
+}

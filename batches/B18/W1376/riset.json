@@ -79,5 +79,34 @@
   "sumber": [
     "https://localindonesia.net/usaha/dentist-dokter-gigi-giqu-dental-canggu-badung",
     "https://linktr.ee/Giqu_Dental"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating / maps.ulasan",
+      "tercatat": "null / null",
+      "catatan": "4.9 / 154 (Local Indonesia, klaim berbasis Google Maps)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "Senin–Sabtu 11.00–20.00, Minggu tutup"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287758685933",
+      "catatan": "0877-5868-5933, tombol Chat WhatsApp pada Local Indonesia"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Pembersihan gigi",
+        "Tambal gigi",
+        "Mahkota gigi",
+        "Veneer",
+        "Pemutihan gigi"
+      ],
+      "catatan": "Sumber Local Indonesia menyebut routine check-ups, teeth cleaning, fillings, crowns, veneers, teeth whitening"
+    }
   ]
 }
