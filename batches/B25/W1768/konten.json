@@ -1,0 +1,132 @@
+{
+  "id": "W1768",
+  "hero": {
+    "judul": {
+      "id": "Drg. Syahdiana Waty, M.Si",
+      "en": "Drg. Syahdiana Waty, M.Si"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Medan. Konfirmasikan lokasi dan jadwal sebelum datang.",
+      "en": "Dental visit information in Medan. Confirm the location and appointment time before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Check-up questions"
+      },
+      "ringkas": {
+        "id": "Sampaikan tujuan kunjungan dan tanyakan ketersediaan pemeriksaan.",
+        "en": "Share the reason for your visit and ask whether an examination is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan kebersihan gigi",
+        "en": "Cleaning questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah perawatan kebersihan gigi tersedia dan bagaimana alur pemeriksaannya.",
+        "en": "Ask whether dental cleaning is available and how the assessment works."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan gigi berlubang",
+        "en": "Cavity-related questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk keluhan gigi berlubang. Tindakan ditentukan setelah penilaian dokter.",
+        "en": "Ask about an assessment for a cavity concern. Treatment depends on the dentist's evaluation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan kunjungan anak",
+        "en": "Children's visit questions"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan penerimaan pasien anak dan persiapan kunjungan kepada pengelola.",
+        "en": "Confirm whether children can be seen and ask how to prepare for a visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan kunjungan",
+      "en": "Build your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, lokasi, atau biaya untuk menyusun pesan kepada pengelola. Pesan dapat diperiksa sebelum Anda mengirimkannya.",
+      "en": "Choose appointment, location, or cost topics to draft a message to the clinic. Review the message before sending."
+    },
+    "alasan_dipilih": "Informasi operasional belum lengkap; pemilih pertanyaan membantu konfirmasi tanpa menyatakan layanan yang belum terbukti."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Daftar publik mencantumkan Jl. Bom, Helvetia Tengah, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20124. Konfirmasikan titik lokasi sebelum berangkat.",
+        "en": "A public listing gives the address as Jl. Bom, Helvetia Tengah, Kec. Medan Helvetia, Kota Medan, Sumatera Utara 20124. Confirm the exact location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jadwal terbaru belum tersedia. Tanyakan hari dan jam kunjungan sebelum datang.",
+        "en": "Current opening hours are unavailable. Ask about the day and time before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah penjelasan biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Prices are unavailable. Ask for examination fees and the cost of any recommended treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Konfirmasikan kepada pengelola dan penyedia asuransi Anda.",
+        "en": "Insurance arrangements have not been confirmed. Check with the clinic and your insurer."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan layanan yang saya perlukan?",
+        "en": "How can I ask about the care I need?"
+      },
+      "a": {
+        "id": "Sampaikan tujuan kunjungan secara singkat. Tanyakan ketersediaan layanan dan jadwal pemeriksaan; hindari mengirim data kesehatan rinci sebelum salurannya dipastikan.",
+        "en": "Briefly describe your reason for visiting. Ask about availability and an assessment appointment; confirm the contact channel before sharing detailed health information."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan lokasi dan jadwal kunjungan",
+    "en": "Confirm the location and appointment time"
+  },
+  "pesan_wa_default": "Halo Drg. Syahdiana Waty, M.Si, saya ingin menanyakan lokasi, jadwal pemeriksaan, dan biaya kunjungan. Apakah ini kontak pengelola klinik?",
+  "outreach": {
+    "wa": "Halo pengelola Drg. Syahdiana Waty, M.Si. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami menyiapkan konsep halaman untuk praktik di Medan, dengan fokus konfirmasi lokasi dan jadwal. Rencana alamatnya https://maxigrowthstudio.com/drg-syahdiana; tautan perlu diperiksa setelah perakitan selesai. Bila berkenan, konsepnya dapat ditinjau. Kontak 082141004400 atau info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep halaman Drg. Syahdiana Waty, M.Si",
+    "email_isi": "Halo pengelola Drg. Syahdiana Waty, M.Si,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan untuk praktik di Medan, dengan fokus lokasi, pertanyaan kunjungan, dan konfirmasi jadwal. Rencana alamatnya https://maxigrowthstudio.com/drg-syahdiana; tautan perlu diperiksa setelah perakitan selesai.\n\nProposal PDF perlu dilampirkan sebelum draf email ini digunakan. Informasi operasional akan mengikuti konfirmasi pengelola.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

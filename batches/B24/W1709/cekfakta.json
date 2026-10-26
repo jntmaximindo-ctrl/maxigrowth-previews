@@ -1,0 +1,25 @@
+{
+  "id": "W1709",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Konservasi gigi",
+      "di_sumber": "Halaman direktori menuliskan gelar Spkg, tidak menjelaskan spesialisasi dengan frasa 'Konservasi gigi'",
+      "src": "https://idalamat.com/alamat/1064668/praktek-drg-djubaeda-drakel-spkg-ternate-maluku-utara",
+      "catatan": "Istilah konservasi gigi merupakan penjabaran umum dari Sp.KG, bukan kutipan langsung sumber."
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Djubaeda Drakel, Sp.KG",
+      "di_sumber": "Drg. Djubaeda Drakel. Spkg",
+      "src": "https://idalamat.com/alamat/1064668/praktek-drg-djubaeda-drakel-spkg-ternate-maluku-utara",
+      "catatan": "Perbedaan hanya kapitalisasi dan tanda baca gelar Spkg/Sp.KG; identitas dokter tampaknya sama, tetapi aturan meminta salin gelar persis."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-drg-djubaeda-drakel-spkg-1064668"
+  ],
+  "kritis_ok": false,
+  "catatan": "Pemeriksaan 2026-10-27: URL sumber dicoba dibuka ulang secara langsung. Sebagian menghasilkan cache miss; informasi yang dapat diperiksa silang berasal dari indeks pencarian yang menampilkan isi halaman, bukan pembacaan langsung penuh. Nomor ponsel yang dinormalisasi ke WA tidak membuktikan akun WhatsApp aktif. Klaim layanan generik pada direktori tidak membuktikan layanan tersedia di klinik tertentu."
+}

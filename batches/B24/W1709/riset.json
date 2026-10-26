@@ -117,5 +117,17 @@
   "sumber": [
     "https://idalamat.com/alamat/1064668/praktek-drg-djubaeda-drakel-spkg-ternate-maluku-utara",
     "https://idalamat.com/alamat/praktek-drg-djubaeda-drakel-spkg-1064668"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Konservasi gigi",
+      "catatan": "Halaman direktori menuliskan gelar Spkg, tidak menjelaskan spesialisasi dengan frasa 'Konservasi gigi'"
+    },
+    {
+      "path": "dokter[0].nama.v",
+      "tercatat": "drg. Djubaeda Drakel, Sp.KG",
+      "catatan": "Drg. Djubaeda Drakel. Spkg"
+    }
   ]
 }

@@ -117,5 +117,12 @@
   "sumber": [
     "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-nur-riflianty-rivai-spperio-1064665",
     "https://id.scribd.com/document/348996102/Pdgi-Malut-template-Lpj-Bkgn-2016"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Periodonsia",
+      "catatan": "Gelar Sp.Perio tercantum, tetapi kata 'Periodonsia' tidak ditulis eksplisit pada halaman direktori"
+    }
   ]
 }

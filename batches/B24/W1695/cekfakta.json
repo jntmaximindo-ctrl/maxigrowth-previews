@@ -1,0 +1,19 @@
+{
+  "id": "W1695",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon / cabang[0].wa",
+      "tercatat": "6285363005880 (Cybo)",
+      "di_sumber": "0821-7058-2987 pada listing Sacho Dental (Praktek drg. Sonya Astri) di alamat sama",
+      "src": "https://idalamat.com/alamat/sacho-dental-praktek-drg-sonya-astri-1059077",
+      "catatan": "Cybo yang menjadi src asli memang mencantumkan 0853-6300-5880; direktori lain mencantumkan nomor berbeda untuk nama/alamat yang sama. Belum bisa memastikan nomor yang aktif. Status WA juga hanya asumsi dari nomor ponsel."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/kota-solok/dokter-gigi",
+    "https://idalamat.com/alamat/sacho-dental-praktek-drg-sonya-astri-1059077"
+  ],
+  "kritis_ok": false,
+  "catatan": "Pemeriksaan 2026-10-27: URL sumber dicoba dibuka ulang secara langsung. Sebagian menghasilkan cache miss; informasi yang dapat diperiksa silang berasal dari indeks pencarian yang menampilkan isi halaman, bukan pembacaan langsung penuh. Nomor ponsel yang dinormalisasi ke WA tidak membuktikan akun WhatsApp aktif. Klaim layanan generik pada direktori tidak membuktikan layanan tersedia di klinik tertentu."
+}

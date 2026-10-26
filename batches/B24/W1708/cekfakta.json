@@ -1,0 +1,19 @@
+{
+  "id": "W1708",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis.v",
+      "tercatat": "Periodonsia",
+      "di_sumber": "Gelar Sp.Perio tercantum, tetapi kata 'Periodonsia' tidak ditulis eksplisit pada halaman direktori",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-nur-riflianty-rivai-spperio-1064665",
+      "catatan": "Sp.Perio lazim merupakan gelar spesialis periodonsia; bukan bukti tambahan bahwa praktik menyediakan tindakan tertentu. Nilai ini merupakan penjabaran gelar, bukan kutipan literal."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-nur-riflianty-rivai-spperio-1064665",
+    "https://id.scribd.com/document/348996102/Pdgi-Malut-template-Lpj-Bkgn-2016"
+  ],
+  "kritis_ok": true,
+  "catatan": "Pemeriksaan 2026-10-27: URL sumber dicoba dibuka ulang secara langsung. Sebagian menghasilkan cache miss; informasi yang dapat diperiksa silang berasal dari indeks pencarian yang menampilkan isi halaman, bukan pembacaan langsung penuh. Nomor ponsel yang dinormalisasi ke WA tidak membuktikan akun WhatsApp aktif. Klaim layanan generik pada direktori tidak membuktikan layanan tersedia di klinik tertentu."
+}

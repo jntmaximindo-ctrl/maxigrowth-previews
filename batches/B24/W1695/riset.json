@@ -70,5 +70,12 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/kota-solok/dokter-gigi",
     "https://idalamat.com/alamat/sacho-dental-praktek-drg-sonya-astri-1059077"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon / cabang[0].wa",
+      "tercatat": "6285363005880 (Cybo)",
+      "catatan": "0821-7058-2987 pada listing Sacho Dental (Praktek drg. Sonya Astri) di alamat sama"
+    }
   ]
 }
