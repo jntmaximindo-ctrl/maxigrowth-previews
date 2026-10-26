@@ -1,0 +1,98 @@
+{
+  "id": "W1647",
+  "nama": {
+    "v": "drg. Nancy Feronica",
+    "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+    "tgl": "2026-10-27",
+    "yakin": "sedang"
+  },
+  "kota": "Kudus",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-27",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-27",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Praktik Jati Permai",
+      "alamat": {
+        "v": "Perumahan Jati Permai No. 24, Kudus",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": "628122888308",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": "628122888308",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg.%20Nancy%20Feronica%20Kudus&query_place_id=ChIJbyphWazFcC4RogdSAbQOqgo"
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Nancy Feronica",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+        "tgl": "2026-10-27",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-27",
+        "yakin": "rendah"
+      },
+      "cabang": "Praktik Jati Permai"
+    }
+  ],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-27"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Profil Google Maps tidak dapat dimuat saat pemeriksaan. Situs mandiri praktik belum ditemukan dalam penelusuran nama, nomor dan kanal sosial."
+  ],
+  "ide_fitur_khas": "Penyusun pertanyaan lokasi dan jadwal praktik Jati Permai.",
+  "catatan": "REVISI: cabang[0].maps_url sekarang string URL Maps dari surat tugas, bukan null; profil Maps belum dapat diakses. nomor ponsel publik dinormalisasi ke 62 dan dianggap WA. Sumber primer Buku Data Dasar FKTP2021 Dinkes Jateng halaman111 (indeks PDF) memuat drg. Nancy Feronica,08122888308,Perumahan Jati Permai No.24; buku2019 memuat nomor yang sama tanpa nol awal. Data kontak/alamat lama sehingga yakin rendah dan perlu konfirmasi sebelum digunakan. IDalamat menulis Unnamed Road,Getas,Getas Pejaten,Jati,Kudus59343 tanpa telepon; belum memastikan apakah deskripsi ini menunjuk alamat identik, tidak membuat cabang tambahan. Nomor rumah sakit pada artikel AlamatSehat tidak dipindahkan ke praktik mandiri. Jam IDalamat16.30–20.30 Senin–Jumat belum diperkuat kanal praktik, jamnull. email tidak ditemukan setelah dicari melalui nama/nomor dan dokumen Dinkes2019/2021 serta IDalamat yang dibuka; indeks Scribd memuat nancydrg@ dengan domain tidak terbaca sehingga tidak disalin atau ditebak. Akun Instagram resmi belum ditemukan. Status BPJS pada2021 bersifat historis, asuransi[] sampai status terkini dikonfirmasi. Layanan[] karena uraian direktori generik; empat kartu konten adalah pertanyaan bukan kepastian tindakan tersedia. harga belum tersedia. Rating/ulasan surat tugas tidak disalin sebagai hasil verifikasi Google Maps. Outreach hanya draf; konsep belum diverifikasi tayang dan PDF perlu dilampirkan sebelum digunakan.",
+  "sumber": [
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+    "https://dinkesjatengprov.go.id/v2018/storage/2020/10/Data-Dasar-FKTP-2019-upload.pdf",
+    "https://idalamat.com/alamat/1061439/drg-nancy-feronica-kudus-jawa-tengah",
+    "https://www.google.com/maps/search/?api=1&query=drg.%20Nancy%20Feronica%20Kudus&query_place_id=ChIJbyphWazFcC4RogdSAbQOqgo"
+  ]
+}

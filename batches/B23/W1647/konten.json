@@ -1,0 +1,132 @@
+{
+  "id": "W1647",
+  "hero": {
+    "judul": {
+      "id": "drg. Nancy Feronica",
+      "en": "drg. Nancy Feronica"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Kudus.",
+      "en": "Dental visit information in Kudus."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya pemeriksaan gigi",
+        "en": "Ask about a dental examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan waktu pemeriksaan yang tersedia.",
+        "en": "Describe your concerns and ask about examination times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya perawatan berkala",
+        "en": "Ask about routine care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan pilihan perawatan dan persiapan sebelum datang.",
+        "en": "Confirm care options and preparations before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya kebutuhan gigi anak",
+        "en": "Ask about dental care for children"
+      },
+      "ringkas": {
+        "id": "Sebutkan usia anak dan tanyakan ketersediaan pemeriksaan.",
+        "en": "Share your child's age and ask whether an appointment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Tanyakan tindakan yang sesuai setelah penilaian dokter.",
+        "en": "Ask about suitable treatment options after a dentist's assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang lokasi, jadwal, dan biaya untuk menyusun pesan konfirmasi.",
+      "en": "Choose questions about location, appointment times and costs to prepare a confirmation message."
+    },
+    "alasan_dipilih": "Membantu pasien meminta konfirmasi tanpa menganggap informasi yang belum ditemukan sebagai kepastian."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Gunakan kontak praktik untuk menanyakan ketersediaan jadwal. Tunggu konfirmasi sebelum datang.",
+        "en": "Use the practice contact to ask about availability and wait for confirmation before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan jadwal dokter untuk tanggal kunjungan Anda.",
+        "en": "Confirm opening hours and the dentist's schedule for your planned visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan perkiraan biaya dan rincian tindakan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask for an estimate and treatment details after examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Konfirmasikan status kepesertaan, cakupan tindakan dan dokumen yang diperlukan sebelum datang.",
+        "en": "Confirm accepted plans, coverage and required documents before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan persiapan saat membuat janji dan sampaikan kebutuhan kunjungan Anda.",
+        "en": "Ask about preparations when booking and describe your visit needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di drg. Nancy Feronica. Mohon konfirmasi lokasi, waktu yang tersedia, dan persiapan yang diperlukan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola drg. Nancy Feronica, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan untuk praktik di Kudus, dengan rencana alamat https://maxigrowthstudio.com/drg-nancy. Tautan dapat ditinjau setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat mengoreksi informasinya. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep halaman kunjungan drg. Nancy Feronica",
+    "email_isi": "Yth. Pengelola drg. Nancy Feronica,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan praktik di Kudus, dengan rencana alamat https://maxigrowthstudio.com/drg-nancy. Halaman dirancang untuk memudahkan pasien menanyakan jadwal, lokasi, dan biaya.\n\nProposal PDF perlu dilampirkan sebelum draf email ini digunakan. Tautan konsep juga perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat meninjau dan mengoreksi informasinya.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

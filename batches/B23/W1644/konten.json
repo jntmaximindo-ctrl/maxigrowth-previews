@@ -1,0 +1,132 @@
+{
+  "id": "W1644",
+  "hero": {
+    "judul": {
+      "id": "Praktek Bersama dr. Ervin & drg. Lintang",
+      "en": "Praktek Bersama dr. Ervin & drg. Lintang"
+    },
+    "sub": {
+      "id": "Informasi praktik di Loram Wetan, Jati, Kudus. Tanyakan jadwal sebelum berkunjung.",
+      "en": "Practice information for Loram Wetan, Jati, Kudus. Ask about appointments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori publik. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada praktik.",
+        "en": "Listed in a public directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori publik. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada praktik.",
+        "en": "Listed in a public directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori publik. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada praktik.",
+        "en": "Listed in a public directory. Ask the practice about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori publik. Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada praktik.",
+        "en": "Listed in a public directory. Ask the practice about availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang jadwal, biaya, atau layanan untuk disalin ke pesan Anda.",
+      "en": "Choose questions about appointments, fees or services to copy into your message."
+    },
+    "alasan_dipilih": "Membantu pasien meminta konfirmasi karena jadwal dan biaya belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Gang Bidan, Loram Wetan, RT.05/RW.06, Jati, Kudus. Konfirmasikan petunjuk lokasi sebelum datang.",
+        "en": "The directory lists Gang Bidan, Loram Wetan, RT.05/RW.06, Jati, Kudus. Confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal belum terverifikasi. Tanyakan waktu kunjungan kepada praktik.",
+        "en": "Opening hours have not been verified. Ask the practice about visit times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya setelah kebutuhan pemeriksaan dijelaskan.",
+        "en": "Prices are not available. Request a fee breakdown after discussing your assessment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum tersedia. Konfirmasikan langsung sebelum kunjungan.",
+        "en": "Insurance information is unavailable. Confirm directly before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan kawat gigi. Konfirmasikan layanan dan pemeriksaan yang diperlukan kepada praktik.",
+        "en": "The directory lists braces. Ask the practice to confirm availability and assessment requirements."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi kunjungan",
+    "en": "Contact the practice to confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik dr. Ervin & drg. Lintang, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Loram Wetan, Kudus, dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/bersama-dr. Jika berkenan, kami dapat menjelaskan susunan informasinya. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website praktik dr. Ervin & drg. Lintang",
+    "email_isi": "Yth. pengelola praktik dr. Ervin & drg. Lintang, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Loram Wetan, Kudus, dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/bersama-dr. Jika berkenan, kami dapat menjelaskan susunan informasinya. WA 082141004400; info@maxigrowthstudio.com.\n\nProposal PDF terlampir untuk peninjauan saat paket penawaran dikirim. Data layanan dan jadwal perlu dikonfirmasi sebelum publikasi.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
