@@ -1,0 +1,132 @@
+{
+  "id": "W1490",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Bogor",
+      "en": "Dental Care Information in Bogor"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Omy Dental Care. Konfirmasikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore consultation information for Omy Dental Care. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Umum",
+        "en": "General Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi sebelum memilih perawatan.",
+        "en": "Discuss your concerns before choosing treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Anak",
+        "en": "Children's Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan anak dan persiapan kunjungan.",
+        "en": "Ask about children's appointments and visit preparation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pilihan perawatan untuk gigi berlubang.",
+        "en": "Ask about examinations and options for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Susunan Gigi",
+        "en": "Tooth Alignment Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pertanyaan tentang susunan gigi dan pemeriksaan yang diperlukan.",
+        "en": "Discuss questions about tooth alignment and assessment needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Lokasi dan Kontak",
+      "en": "Location and Contact Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat dua alamat Omy yang ditemukan dan konfirmasikan apakah keduanya masih terhubung.",
+      "en": "Review two listed Omy locations and confirm whether they are still connected."
+    },
+    "alasan_dipilih": "Pemilih lokasi Omy Dental Care Bogor Barat atau Omy Dental Care 2 Bogor Tengah dengan penjelasan status kontak yang perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Mayor Jenderal Ishak Djuarsa No.274, RT.05/RW.04, Gunungbatu, Kec. Bogor Barat, Kota Bogor, Jawa Barat 16118.",
+        "en": "The listed address is Jl. Mayor Jenderal Ishak Djuarsa No.274, RT.05/RW.04, Gunungbatu, Kec. Bogor Barat, Kota Bogor, Jawa Barat 16118."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal pemeriksaan gigi?",
+        "en": "When can I get a dental examination?"
+      },
+      "a": {
+        "id": "Jam yang ditemukan adalah jam fasilitas, bukan jadwal dokter gigi individual. Konfirmasikan langsung.",
+        "en": "The listed hours refer to the facility, not individual dentists. Please confirm directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan jenis pemeriksaan anak yang tersedia kepada klinik.",
+        "en": "Ask the clinic about children's appointments and available examinations."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya langsung.",
+        "en": "An official price list was not found in the reviewed sources. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung.",
+        "en": "Insurance arrangements were not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Omy Dental Care, saya ingin menanyakan jadwal poli gigi dan layanan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Omy Dental Care, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan fitur panduan lokasi dan kontak agar informasi layanan lebih mudah ditinjau. Preview: https://maxigrowthstudio.com/omy. Bila Bapak/Ibu bukan penanggung jawab, boleh dibantu arahkan ke WA bisnis atau email manajemen yang dapat dihubungi terkait konsep ini? Terima kasih.",
+    "email_subjek": "Konsep website untuk Omy Dental Care",
+    "email_isi": "Yth. Pengelola Omy Dental Care,\n\nPerkenalkan, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website yang merangkum informasi layanan, lokasi, dan kontak untuk pasien. Preview konsep: https://maxigrowthstudio.com/omy.\n\nJika pesan ini diterima tim administrasi, boleh dibantu arahkan ke WhatsApp bisnis atau email manajemen yang berwenang meninjau konsep ini?\n\nTerima kasih atas waktunya.\n\nSalam,\nDika\nMaxi Growth Studio\nWA Business 0815-7303-3507\ncs@maxigrowthstudio.com"
+  }
+}

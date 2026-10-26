@@ -1,0 +1,132 @@
+{
+  "id": "W1492",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Bogor",
+      "en": "Dental Care Information in Bogor"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di NAT Dental Care. Konfirmasikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore consultation information for NAT Dental Care. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas kondisi gigi dan mulut.",
+        "en": "Ask about appointments to discuss your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi sebelum berkunjung.",
+        "en": "Ask about teeth cleaning availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pemeriksaan yang diperlukan.",
+        "en": "Discuss cavities and any examination that may be needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Lanjutan",
+        "en": "Further Treatment Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan tindak lanjut setelah dokter menilai kondisi gigi.",
+        "en": "Ask about next steps after a dentist's assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Siang",
+      "en": "Daytime Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Tinjau jam praktik siang dan siapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "Review daytime hours and prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Panduan kunjungan untuk pasien yang ingin memeriksa gigi pada jam praktik siang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Taman Sari Persada No.7 Blok H3, RT.06/RW.15, Cibadak, Tanah Sareal, Kota Bogor, Jawa Barat 16166.",
+        "en": "The listed address is Jl. Taman Sari Persada No.7 Blok H3, RT.06/RW.15, Cibadak, Tanah Sareal, Kota Bogor, Jawa Barat 16166."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam yang tercantum berasal dari direktori dan dapat berubah. Konfirmasikan sebelum datang.",
+        "en": "Listed hours come from directories and may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi?",
+        "en": "Are dental examinations available?"
+      },
+      "a": {
+        "id": "Hubungi klinik untuk menanyakan jadwal pemeriksaan dan dokter yang bertugas.",
+        "en": "Contact the clinic to ask about appointments and available clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan. Mintalah rincian biaya kepada klinik.",
+        "en": "An official price list was not found. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung.",
+        "en": "Insurance arrangements were not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo NAT Dental Care, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola NAT Dental Care, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan fitur panduan kunjungan siang untuk membantu pasien melihat informasi kunjungan. Preview: https://maxigrowthstudio.com/nat. Bila Bapak/Ibu bukan penanggung jawab, boleh dibantu arahkan ke WA bisnis atau email manajemen yang dapat dihubungi terkait konsep ini? Terima kasih.",
+    "email_subjek": "Konsep website untuk NAT Dental Care",
+    "email_isi": "Yth. Pengelola NAT Dental Care,\n\nSaya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi layanan, lokasi, dan panduan konsultasi pasien. Preview: https://maxigrowthstudio.com/nat.\n\nJika pesan ini diterima tim administrasi, boleh dibantu arahkan ke WhatsApp bisnis atau email manajemen yang berwenang meninjau konsep ini?\n\nTerima kasih.\n\nSalam,\nDika\nMaxi Growth Studio\nWA Business 0815-7303-3507\ncs@maxigrowthstudio.com"
+  }
+}

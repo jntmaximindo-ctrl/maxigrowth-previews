@@ -1,0 +1,132 @@
+{
+  "id": "W1486",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Bekasi",
+      "en": "Dental Care Information in Bekasi"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di drg. Deni Ramdhani. Konfirmasikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore consultation information for drg. Deni Ramdhani. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal untuk mendiskusikan keluhan dan kondisi gigi.",
+        "en": "Ask about appointments to discuss your dental concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi sebelum datang.",
+        "en": "Ask whether teeth cleaning is available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan setelah dokter memeriksa kondisi gigi.",
+        "en": "Discuss treatment options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Pencabutan",
+        "en": "Extraction Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan untuk keluhan gigi yang mungkin perlu dicabut.",
+        "en": "Ask what assessment is needed for a tooth that may require extraction."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pilihan Sesi",
+      "en": "Appointment Session Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih hari yang sesuai untuk menyiapkan pertanyaan sebelum meminta jadwal. Jam perlu dikonfirmasi.",
+      "en": "Choose a suitable day and prepare questions before booking. Please confirm the hours."
+    },
+    "alasan_dipilih": "Panduan pemilihan hari dan sesi pemeriksaan dengan catatan bahwa jadwal perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Taman Harapan Baru Selatan, Ruko Blok VI/8E, RT.007/RW.025, Pejuang, Medan Satria, Kota Bekasi, Jawa Barat 17132.",
+        "en": "The listed address is Jl. Taman Harapan Baru Selatan, Ruko Blok VI/8E, RT.007/RW.025, Pejuang, Medan Satria, Kota Bekasi, Jawa Barat 17132."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jadwal praktik, tetapi jam perlu dikonfirmasi sebelum datang.",
+        "en": "Directories list opening hours, but please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan ketersediaan jadwal dan dokter yang bertugas.",
+        "en": "Contact the practice to confirm availability and the clinician's schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya langsung kepada praktik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung.",
+        "en": "Insurance arrangements were not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the practice to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo drg. Deni Ramdhani, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan gigi. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Deni Ramdhani, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan fitur panduan pilihan sesi untuk memudahkan pasien memahami informasi kunjungan. Preview: https://maxigrowthstudio.com/drg-deni. Bila Bapak/Ibu bukan penanggung jawab, boleh dibantu arahkan ke WA bisnis atau email manajemen yang dapat dihubungi terkait konsep ini? Terima kasih.",
+    "email_subjek": "Konsep website untuk drg. Deni Ramdhani",
+    "email_isi": "Yth. Pengelola drg. Deni Ramdhani,\n\nPerkenalkan, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik Bapak/Ibu dengan panduan informasi konsultasi dan kontak pasien. Preview konsep: https://maxigrowthstudio.com/drg-deni.\n\nKonsep ini dapat ditinjau tanpa komitmen apa pun. Jika pesan ini diterima oleh tim administrasi, boleh dibantu arahkan ke alamat email atau WhatsApp bisnis manajemen yang berwenang meninjau penawaran ini?\n\nTerima kasih atas waktunya.\n\nSalam,\nDika\nMaxi Growth Studio\nWA Business 0815-7303-3507\ncs@maxigrowthstudio.com"
+  }
+}

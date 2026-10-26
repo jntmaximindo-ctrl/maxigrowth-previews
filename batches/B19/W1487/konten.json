@@ -1,0 +1,132 @@
+{
+  "id": "W1487",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Binjai",
+      "en": "Dental Care Information in Binjai"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Praktek drg. Teddy Choandry, Sp.KG. Konfirmasikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore consultation information for Praktek drg. Teddy Choandry, Sp.KG. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Konservasi Gigi",
+        "en": "Restorative Dentistry Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang atau rusak dan pilihan pemeriksaan.",
+        "en": "Discuss cavities or damaged teeth and assessment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan riwayat keluhan dan perawatan gigi saat konsultasi.",
+        "en": "Share your dental history and concerns during the consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Saluran Akar",
+        "en": "Root Canal Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah evaluasi saluran akar sesuai untuk kondisi Anda.",
+        "en": "Ask whether a root canal assessment may be relevant to your condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan setelah pemeriksaan klinis.",
+        "en": "Ask about care options after a clinical examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Keluhan Gigi Berlubang",
+      "en": "Cavity Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Pelajari pertanyaan yang dapat dibawa untuk konsultasi konservasi gigi. Panduan bukan diagnosis.",
+      "en": "Review questions to bring to a restorative dentistry consultation. This is not a diagnosis."
+    },
+    "alasan_dipilih": "Panduan keluhan gigi berlubang dan persiapan konsultasi konservasi gigi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Kapten Muslim No.31, Setia, Kec. Binjai Kota, Kota Binjai, Sumatera Utara 20735.",
+        "en": "The listed address is Jl. Kapten Muslim No.31, Setia, Kec. Binjai Kota, Kota Binjai, Sumatera Utara 20735."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jadwal praktik, tetapi jam perlu dikonfirmasi sebelum datang.",
+        "en": "Directories list opening hours, but please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan ketersediaan jadwal dan dokter yang bertugas.",
+        "en": "Contact the practice to confirm availability and the clinician's schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya langsung kepada praktik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Mohon konfirmasi langsung.",
+        "en": "Insurance arrangements were not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the practice to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Praktek drg. Teddy Choandry, Sp.KG, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan gigi. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek drg. Teddy Choandry, Sp.KG, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan fitur panduan keluhan gigi berlubang untuk memudahkan pasien memahami informasi kunjungan. Preview: https://maxigrowthstudio.com/drg-teddy. Bila Bapak/Ibu bukan penanggung jawab, boleh dibantu arahkan ke WA bisnis atau email manajemen yang dapat dihubungi terkait konsep ini? Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek drg. Teddy Choandry, Sp.KG",
+    "email_isi": "Yth. Pengelola Praktek drg. Teddy Choandry, Sp.KG,\n\nPerkenalkan, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk praktik Bapak/Ibu dengan panduan informasi konsultasi dan kontak pasien. Preview konsep: https://maxigrowthstudio.com/drg-teddy.\n\nKonsep ini dapat ditinjau tanpa komitmen apa pun. Jika pesan ini diterima oleh tim administrasi, boleh dibantu arahkan ke alamat email atau WhatsApp bisnis manajemen yang berwenang meninjau penawaran ini?\n\nTerima kasih atas waktunya.\n\nSalam,\nDika\nMaxi Growth Studio\nWA Business 0815-7303-3507\ncs@maxigrowthstudio.com"
+  }
+}

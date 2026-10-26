@@ -1,0 +1,132 @@
+{
+  "id": "W1074",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kabupaten Sleman",
+      "en": "Dental Care Information in Kabupaten Sleman"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Klinik RH Medika Kalasan (Poli Gigi). Konfirmasikan jadwal dan layanan sebelum berkunjung.",
+      "en": "Explore consultation information for Klinik RH Medika Kalasan (Poli Gigi). Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Poli Gigi",
+        "en": "Dental Department Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter gigi dan jenis pemeriksaan yang tersedia.",
+        "en": "Ask about dentist hours and available examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan riwayat kesehatan gigi saat berkonsultasi.",
+        "en": "Discuss your concerns and dental history at a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan untuk gigi berlubang sebelum menentukan tindakan.",
+        "en": "Ask about cavity assessment before considering treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Saluran Akar",
+        "en": "Root Canal Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi untuk gigi yang nyeri atau sensitif.",
+        "en": "Ask about consultations for painful or sensitive teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pemilihan Poli",
+      "en": "Department Selection Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih poli umum, gigi, atau KIA untuk menyiapkan pertanyaan. Jadwal poli perlu dikonfirmasi.",
+      "en": "Choose general, dental, or maternal-child care to prepare questions. Department hours require confirmation."
+    },
+    "alasan_dipilih": "Panduan pemilihan poli umum, gigi, atau KIA disertai catatan bahwa jam masing-masing poli perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum berada di Jalan Tulung Tamanmartani, Ringin Sari, Kalasan, Sleman.",
+        "en": "The listed address is on Jalan Tulung Tamanmartani, Ringin Sari, Kalasan, Sleman."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal pemeriksaan gigi?",
+        "en": "When can I get a dental examination?"
+      },
+      "a": {
+        "id": "Jam yang ditemukan adalah jam fasilitas, bukan jadwal dokter gigi individual. Konfirmasikan langsung.",
+        "en": "The listed hours refer to the facility, not individual dentists. Please confirm directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dan jenis pemeriksaan anak yang tersedia kepada klinik.",
+        "en": "Ask the clinic about children's appointments and available examinations."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya langsung.",
+        "en": "An official price list was not found in the reviewed sources. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Klinik mencantumkan layanan BPJS, tetapi manfaat poli gigi perlu dikonfirmasi.",
+        "en": "The clinic lists BPJS services, but dental benefits need confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the clinic to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Klinik RH Medika Kalasan (Poli Gigi), saya ingin menanyakan jadwal poli gigi dan layanan yang tersedia. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik RH Medika Kalasan (Poli Gigi), saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan fitur panduan pemilihan poli agar informasi layanan lebih mudah ditinjau. Preview: https://maxigrowthstudio.com/rh-medika. Bila Bapak/Ibu bukan penanggung jawab, boleh dibantu arahkan ke WA bisnis atau email manajemen yang dapat dihubungi terkait konsep ini? Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik RH Medika Kalasan (Poli Gigi)",
+    "email_isi": "Yth. Pengelola Klinik RH Medika Kalasan (Poli Gigi),\n\nPerkenalkan, saya Dika dari Maxi Growth Studio. Kami menyiapkan konsep website yang merangkum informasi layanan, lokasi, dan kontak untuk pasien. Preview konsep: https://maxigrowthstudio.com/rh-medika.\n\nJika pesan ini diterima tim administrasi, boleh dibantu arahkan ke WhatsApp bisnis atau email manajemen yang berwenang meninjau konsep ini?\n\nTerima kasih atas waktunya.\n\nSalam,\nDika\nMaxi Growth Studio\nWA Business 0815-7303-3507\ncs@maxigrowthstudio.com"
+  }
+}
