@@ -101,5 +101,20 @@
     "https://idalamat.com/alamat/dokter-gigi-drg-mira-hartanti-1061602",
     "https://poltekkes.web.id/dokter-gigi-pemalang/",
     "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-pemalang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "16-21",
+        "sel": "16-21",
+        "rab": "16-21",
+        "kam": "16-21",
+        "jum": "16-20",
+        "sab": "16-20",
+        "min": "tutup"
+      },
+      "catatan": "IDalamat mendukung jadwal tercatat; Poltekkes menyebut Senin–Sabtu 17–19."
+    }
   ]
 }

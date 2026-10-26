@@ -1,0 +1,96 @@
+{
+  "id": "W1156",
+  "nama": {
+    "v": "Praktik drg. Endang Sariningsih",
+    "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "kota": "Kabupaten Brebes",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-26",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-26",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Praktik drg. Endang Sariningsih",
+      "alamat": {
+        "v": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52212",
+        "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "62283671008",
+        "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktik%20drg.%20Endang%20Sariningsih%20Jl.%20Dr.%20Wahidin%20No.36%2C%20RT.03/RW.03%2C%20Saditan%2C%20Kec.%20Brebes%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah%2052212"
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Endang Sariningsih",
+        "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "rendah"
+      },
+      "cabang": "Praktik drg. Endang Sariningsih"
+    }
+  ],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Rincian jadwal dokter dan tarif resmi belum ditemukan pada sumber yang diperiksa."
+  ],
+  "ide_fitur_khas": "Konfirmasi jadwal lewat telepon: susun pertanyaan jadwal, lokasi dan kebutuhan kepada admin.",
+  "catatan": "Revisi: empat kartu konten berisi string ID/EN. Hanya telepon tetap ditemukan; WA null, tidak mengubah telepon tetap menjadi WA. Jadwal SemuaBis berbeda dengan MediaSehat sehingga null. Tidak mengambil kontak guru atau penulis bernama sama. Telepon tetap dinormalisasi ke 62; nomor ponsel belum ditemukan dan WA null. Harga [] karena tarif resmi dan tiga pembanding setempat per perawatan belum terverifikasi. Email tidak ditemukan pada sumber yang diperiksa. Rating dan ulasan tidak diambil dari surat tugas sebagai fakta terkini. Tidak ada janji hasil atau testimoni. Outreach adalah draf, cek kesiapan konsep pada URL dan lampiran proposal sebelum dipakai. Email tidak ditemukan setelah dicari pada https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/.",
+  "sumber": [
+    "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+    "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/"
+  ]
+}

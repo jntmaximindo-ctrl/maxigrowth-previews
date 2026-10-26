@@ -101,5 +101,20 @@
     "https://idalamat.com/alamat/praktek-dokter-gigi-drg-rahmah-hayati-1060364",
     "https://www.semuabis.com/praktek-dokter-gigi-drg-rahmah-hayati-0895-3861-16850",
     "https://www.instagram.com/rahmahhayati_drg/?hl=en"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "16-20",
+        "sel": "16-20",
+        "rab": "16-20",
+        "kam": "16-20",
+        "jum": "16-20",
+        "sab": "16-20",
+        "min": "tutup"
+      },
+      "catatan": "IDalamat mendukung Senin–Sabtu 16–20; SemuaBis menutup pada 18."
+    }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "W1571",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "16-21",
+        "sel": "16-21",
+        "rab": "16-21",
+        "kam": "16-21",
+        "jum": "16-20",
+        "sab": "16-20",
+        "min": "tutup"
+      },
+      "di_sumber": "IDalamat mendukung jadwal tercatat; Poltekkes menyebut Senin–Sabtu 17–19.",
+      "src": "https://poltekkes.web.id/dokter-gigi-pemalang/",
+      "catatan": "Perbedaan sudah dicatat pada riset. Untuk tampilan jam pasti, gunakan null sampai diperoleh penguat kanal resmi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

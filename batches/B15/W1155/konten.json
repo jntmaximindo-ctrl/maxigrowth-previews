@@ -1,0 +1,132 @@
+{
+  "id": "W1155",
+  "hero": {
+    "judul": {
+      "id": "Maxilla Dental Clinic Brebes",
+      "en": "Maxilla Dental Clinic Brebes"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan dan rencana kunjungan Anda di Kabupaten Brebes.",
+      "en": "Prepare your questions and plan your visit in Kabupaten Brebes."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi keluhan gigi",
+        "en": "Dental concerns"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment options"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan, kebutuhan pemeriksaan, dan ketentuannya kepada admin.",
+        "en": "Ask the clinic about availability, examination needs and requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemilih cabang Brebes",
+      "en": "Brebes branch selector"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan dan hari kunjungan untuk menyusun pertanyaan. Pastikan alamat serta jadwal dokter cocok sebelum datang.",
+      "en": "Choose your visit purpose and preferred day to prepare questions. Confirm the location and dentist’s schedule before travelling."
+    },
+    "alasan_dipilih": "Membantu mencocokkan lokasi dan jadwal yang belum terkonfirmasi penuh."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi admin dan sebutkan hari serta kebutuhan kunjungan. Tunggu konfirmasi jadwal.",
+        "en": "Contact the clinic with your preferred day and visit purpose, then wait for confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa dokter tersedia?",
+        "en": "When is a dentist available?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal dokter sebelum datang; jam fasilitas dapat berbeda dari jam praktik.",
+        "en": "Confirm the dentist’s schedule before visiting; facility hours may differ."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum terverifikasi. Minta perkiraan biaya dan ketentuan setelah pemeriksaan.",
+        "en": "Fees have not been verified. Ask for an estimate and terms after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Konfirmasikan asuransi, syarat rujukan, dan dokumen kepada admin.",
+        "en": "Check insurance arrangements, referral requirements and documents with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan tertentu tersedia?",
+        "en": "Is a particular treatment available?"
+      },
+      "a": {
+        "id": "Jelaskan kebutuhan Anda kepada admin. Jenis tindakan ditentukan setelah pemeriksaan dokter.",
+        "en": "Describe your needs to the clinic. Treatment is determined after a dental examination."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan untuk admin",
+    "en": "Prepare your questions"
+  },
+  "pesan_wa_default": "Halo Maxilla Dental Clinic Brebes, apakah nomor ini melayani lokasi Kabupaten Brebes? Saya ingin menanyakan jadwal dan persyaratan kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi Bapak/Ibu pengelola Maxilla Dental Clinic Brebes. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan di Kabupaten Brebes. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/maxilla-brebes. Kami berharap dapat menerima masukan pengelola mengenai lokasi, jadwal, dan kebutuhan pasien. Terima kasih.",
+    "email_subjek": "Konsep informasi digital Maxilla Dental Clinic Brebes",
+    "email_isi": "Yth. Pengelola Maxilla Dental Clinic Brebes,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi klinik di Kabupaten Brebes dan menyiapkan konsep penataan jadwal, kontak, serta pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/maxilla-brebes. Proposal PDF terlampir untuk bahan tinjauan. Kami menghargai masukan pengelola terkait data dan kebutuhan klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

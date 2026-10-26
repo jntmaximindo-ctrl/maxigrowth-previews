@@ -100,5 +100,25 @@
   "sumber": [
     "https://idalamat.com/alamat/drg-aldes-135899",
     "https://www.semuabis.com/drg-aldes-0821-2391-0011"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email.v",
+      "tercatat": "klinikdrg.Aldes@gmail.com",
+      "catatan": "Sumber gagal dibaca ulang; pencarian tambahan belum menguatkan email. Belum dapat diverifikasi, bukan dinyatakan salah. Gunakan null bila memerlukan fakta yang dapat dibuka pemeriksa."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "17-20",
+        "sel": "17-20",
+        "rab": "17-20",
+        "kam": "17-20",
+        "jum": "17-20",
+        "sab": "17-18:30",
+        "min": "tutup"
+      },
+      "catatan": "Sumber jadwal terkena 429; jam belum dapat dicocokkan ulang. Identitas, alamat dan nomor utama tetap cocok pada IDalamat."
+    }
   ]
 }
