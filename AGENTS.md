@@ -33,7 +33,7 @@ Setelah commit, WAJIB `git push origin HEAD:<branch PR tempat kamu dipanggil>`.
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 18 klinik)
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 18 klinik)
 - [riset-gpt] Ikuti skema di schemas/ persis: semua field wajib ada (boleh null), tipe data benar. (terjadi di 8 klinik)
-- [riset-gpt] Jalankan lint_permenkes.py sebelum push; hapus kata terlarang (terbaik, termurah, dijamin, promo, diskon, testimoni). (terjadi di 6 klinik)
+- [riset-gpt] Jalankan lint_permenkes.py sebelum push; hapus kata terlarang (terbaik, termurah, dijamin, promo, diskon, testimoni). (terjadi di 7 klinik)
 - [riset] Hindari:  (terjadi di 2 klinik)
 - [rakit] Hindari:  (terjadi di 2 klinik)
 <!-- BELAJAR:SELESAI -->
