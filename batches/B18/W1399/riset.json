@@ -75,5 +75,36 @@
     "https://www.instagram.com/fktpdrg.sitinurkhasanah/",
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-kabupaten-semarang/",
     "https://www.faskesbpjs.com/2023/07/faskes-semarang.html"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.6,
+        "ulasan": 86
+      },
+      "catatan": {
+        "rating": 4.5,
+        "ulasan": "lebih dari 70"
+      }
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://halomewah.com/klinik-kecantikan/kabupaten-semarang/dokter-gigi-siti-nurkhasanah-nur-iswandi/",
+      "catatan": "Kolom berisi URL direktori Halomewah, bukan Google Maps. Gunakan URL Maps valid yang sesuai lokasi atau string kosong."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi"
+      ],
+      "catatan": "Halaman tidak memuat daftar resmi tindakan tambal/cabut; sebagian informasi berasal dari ulasan. Jangan jadikan ulasan sebagai kepastian layanan klinis. Harga [] sesuai belum ditemukan."
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Siti Nurkhasanah",
+      "catatan": "drg. Siti Nurkhasanah, Jl. DR. Cipto No.12, 0298-596063"
+    }
   ]
 }

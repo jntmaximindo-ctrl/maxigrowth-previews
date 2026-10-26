@@ -97,5 +97,12 @@
     "https://www.alodokter.com/cari-rumah-sakit/rs-mitra-keluarga-pondok-tjandra/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Konservasi Gigi (Sp.KG)",
+      "catatan": "Gelar Sp.KG cocok dengan judul IDalamat dan Poltekkes.web.id; sumber Bukaminggu gagal dibuka"
+    }
   ]
 }

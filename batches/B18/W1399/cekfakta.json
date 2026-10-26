@@ -1,0 +1,45 @@
+{
+  "id": "W1399",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.6,
+        "ulasan": 86
+      },
+      "di_sumber": {
+        "rating": 4.5,
+        "ulasan": "lebih dari 70"
+      },
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-semarang/dokter-gigi-siti-nurkhasanah-nur-iswandi/",
+      "catatan": "Angka pada Halomewah sekarang berbeda dan merupakan agregasi, bukan pemeriksaan Google Maps langsung. Ubah rating/ulasan Maps menjadi null atau jelaskan sebagai nilai historis agregator, jangan beri tanggal verifikasi Maps terkini."
+    },
+    {
+      "path": "cabang[0].maps_url",
+      "tercatat": "https://halomewah.com/klinik-kecantikan/kabupaten-semarang/dokter-gigi-siti-nurkhasanah-nur-iswandi/",
+      "di_sumber": null,
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-semarang/dokter-gigi-siti-nurkhasanah-nur-iswandi/",
+      "catatan": "Kolom berisi URL direktori Halomewah, bukan Google Maps. Gunakan URL Maps valid yang sesuai lokasi atau string kosong."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Cabut gigi"
+      ],
+      "di_sumber": null,
+      "src": "https://halomewah.com/klinik-kecantikan/kabupaten-semarang/dokter-gigi-siti-nurkhasanah-nur-iswandi/",
+      "catatan": "Halaman tidak memuat daftar resmi tindakan tambal/cabut; sebagian informasi berasal dari ulasan. Jangan jadikan ulasan sebagai kepastian layanan klinis. Harga [] sesuai belum ditemukan."
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Siti Nurkhasanah",
+      "di_sumber": "drg. Siti Nurkhasanah, Jl. DR. Cipto No.12, 0298-596063",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2023/03/Buku-Data-Dasar-FKTP-Tahun-2021.pdf",
+      "catatan": "Nama cocok dengan tabel Dinkes keadaan Desember 2021 halaman PDF 115. Alamat lebih rinci dan telepon tetap historis tidak membatalkan ponsel publik direktori; jangan menganggap dokumen 2021 sebagai jadwal/izin terkini. Ponsel 081225438441 cocok direktori, WA diasumsikan sesuai instruksi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

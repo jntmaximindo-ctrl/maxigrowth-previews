@@ -105,5 +105,28 @@
     "https://www.alodokter.com/cari-rumah-sakit/rs-aisyiyah-siti-fatimah/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/mitra-keluarga-sidoarjo/scaling-gigi",
     "https://idalamat.com/alamat/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-1062226"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "07-11,12-16,17-21",
+        "sel": "07-11,12-16,17-21",
+        "rab": "07-11,12-16,17-21",
+        "kam": "07-11,12-16,17-21",
+        "jum": "07-11,12-16,17-21",
+        "sab": "07-11,17-21",
+        "min": "07-11,17-21"
+      },
+      "catatan": {
+        "sen": "07-11,12-16,17-21",
+        "sel": "07-11,12-16,17-21",
+        "rab": "07-11,12-16,17-21",
+        "kam": "07-11,12-16,17-21",
+        "jum": "07-11,12-16,17-21",
+        "sab": "07-11,17-21",
+        "min": "07-11,17-21"
+      }
+    }
   ]
 }

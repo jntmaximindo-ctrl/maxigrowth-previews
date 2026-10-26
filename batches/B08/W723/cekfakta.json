@@ -1,0 +1,19 @@
+{
+  "id": "W723",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "02518314853",
+      "di_sumber": "622518314853",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
+      "catatan": "Nomor tetap cocok dengan CariBisnis dan Cybo; normalisasi internasional bila skema kontak mewajibkan 62. IDalamat dan UlasTempat gagal dibuka ulang. Jadwal hanya dari agregator, bukan jadwal dokter yang dikonfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
+    "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/",
+    "https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ"
+  ],
+  "kritis_ok": true
+}
