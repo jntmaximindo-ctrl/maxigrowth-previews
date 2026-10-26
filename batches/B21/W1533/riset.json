@@ -195,5 +195,22 @@
     "https://bukutelepon.cybo.com/ID/genteng/dokter-gigi",
     "https://poltekkes.web.id/dokter-gigi-genteng/",
     "https://caribisnis.id/dokter-gigi/jakarta-selatan/kebayoran-baru/sunrise-dental-banyuwangi-keba-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "catatan": "Halaman IDalamat yang dibuka menampilkan Senin–Sabtu tanpa baris Minggu. Tidak ada bukti bahwa Minggu buka; untuk nilai tutup gunakan sumber lain yang eksplisit atau null. Jadwal kedua dokter serta delapan layanan cocok pada situs. Target tautan WA memakai nomor lokal 081233303397, normalisasi 62 sesuai instruksi."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 28,
+        "src": "https://bukutelepon.cybo.com/ID/genteng/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Cybo 4,9/28"
+    }
   ]
 }

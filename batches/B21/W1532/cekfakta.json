@@ -1,0 +1,35 @@
+{
+  "id": "W1532",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "maps.src",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 419,
+        "src": "https://bukutelepon.cybo.com/ID/bantul-bantul/dokter-gigi/",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": "Cybo menampilkan 4,9 dan 419 untuk listing dokter; bukan pembacaan Maps langsung",
+      "src": "https://bukutelepon.cybo.com/ID/bantul-bantul/dokter-gigi/",
+      "catatan": "Angka cocok sumber Cybo. Label dan tanggal harus menjelaskan asal agregator; jangan menyatakan verifikasi Google Maps langsung. Nilai Maps dapat dikosongkan bila skema mengharuskan Maps langsung."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "13-21",
+        "sel": "13-21",
+        "rab": "13-21",
+        "kam": "13-21",
+        "jum": "13-21",
+        "sab": "13-21",
+        "min": "tutup"
+      },
+      "di_sumber": "DokterTanya 13.00–21.00 Senin–Sabtu; IDalamat/MediaSehat 09.00–21.00",
+      "src": "https://doktertanya.com/dokter-gigi-bantul/",
+      "catatan": "Sesuai sumber yang dipilih dan perbedaan sudah dicatat. Jam praktik khusus dokter belum terkonfirmasi; tetap tampilkan perlu konfirmasi atau null, jangan menjamin dokter ada sepanjang jam fasilitas."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

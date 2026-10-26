@@ -1,0 +1,27 @@
+{
+  "id": "W1533",
+  "diperiksa": 24,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "di_sumber": null,
+      "src": "https://idalamat.com/alamat/sunrise-dental-banyuwangi-1062120",
+      "catatan": "Halaman IDalamat yang dibuka menampilkan Senin–Sabtu tanpa baris Minggu. Tidak ada bukti bahwa Minggu buka; untuk nilai tutup gunakan sumber lain yang eksplisit atau null. Jadwal kedua dokter serta delapan layanan cocok pada situs. Target tautan WA memakai nomor lokal 081233303397, normalisasi 62 sesuai instruksi."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 28,
+        "src": "https://bukutelepon.cybo.com/ID/genteng/dokter-gigi",
+        "tgl": "2026-10-26"
+      },
+      "di_sumber": "Cybo 4,9/28",
+      "src": "https://bukutelepon.cybo.com/ID/genteng/dokter-gigi",
+      "catatan": "Angka cocok agregator, bukan pembacaan Maps langsung. Jelaskan asal snapshot, jangan menyatakan tanggal verifikasi Maps terkini. Situs menampilkan nama dokter tanpa gelar pada tiga nama, sehingga tidak menambahkan gelar sudah tepat."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

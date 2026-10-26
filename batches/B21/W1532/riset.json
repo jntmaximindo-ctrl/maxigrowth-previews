@@ -116,5 +116,30 @@
     "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-bantul/",
     "https://caribisnis.id/dokter-gigi/yogyakarta/sewon/-sewo-imp1",
     "https://bpjs.ca/dokter-gigi-bantul/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.src",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 419,
+        "src": "https://bukutelepon.cybo.com/ID/bantul-bantul/dokter-gigi/",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Cybo menampilkan 4,9 dan 419 untuk listing dokter; bukan pembacaan Maps langsung"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "13-21",
+        "sel": "13-21",
+        "rab": "13-21",
+        "kam": "13-21",
+        "jum": "13-21",
+        "sab": "13-21",
+        "min": "tutup"
+      },
+      "catatan": "DokterTanya 13.00–21.00 Senin–Sabtu; IDalamat/MediaSehat 09.00–21.00"
+    }
   ]
 }
