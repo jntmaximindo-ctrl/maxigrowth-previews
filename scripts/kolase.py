@@ -26,7 +26,7 @@ def font(n, bold=False):
         return ImageFont.load_default()
 
 
-def antrean(batas, slug=None):
+def antrean(batas, slug=None, ulang=False):
     sudah = json.loads(CATAT.read_text()) if CATAT.exists() else {}
     hasil = []
     for st in sorted(ROOT.glob("batches/B*/W*/status.json")):
@@ -36,9 +36,12 @@ def antrean(batas, slug=None):
         except Exception:
             continue
         sl = j.get("slug")
-        if not sl or (slug and sl != slug):
+        if not sl or (slug and sl not in slug):
             continue
-        if not slug and (s not in ("Siap review", "Selesai") or sl in sudah):
+        if ulang:
+            if sl not in sudah or sudah[sl] == "v2":
+                continue
+        elif not slug and (s not in ("Siap review", "Selesai") or sl in sudah):
             continue
         nama = (j.get("nama") or sl).split(" — ")[0].split(" - ")[0].split(" | ")[0].strip()
         hasil.append((sl, nama, f"{j.get('batch')}/{j.get('id')}"))
@@ -52,14 +55,25 @@ def foto(page, sl):
       const y = id => { const e = document.getElementById(id); return e ? e.getBoundingClientRect().top + scrollY : null; };
       const peta = document.querySelector('#semak svg, #semak .arch, #semak [class*=gigi]');
       const bg = getComputedStyle(document.getElementById('top') || document.body).backgroundColor;
-      return {stage: y('stage'), semak: y('semak'), rawatan: y('rawatan'),
+      const r = document.getElementById('rawatan');
+      return {stage: y('stage'), semak: y('semak'), rawatan: y('rawatan'), lokasi: y('lokasi'),
+              rawatanTampil: !!(r && r.offsetHeight > 0),
               peta: peta ? peta.getBoundingClientRect().top + scrollY : null, bg};
     }""")
-    if pos["stage"] is None or pos["semak"] is None or pos["rawatan"] is None:
+    if pos["stage"] is None or pos["semak"] is None:
         raise RuntimeError(f"bagian tidak lengkap: {pos}")
+    label = list(LABEL)
+    if pos["rawatanTampil"]:
+        ketiga = pos["rawatan"] - 70
+    elif pos["lokasi"] is not None:
+        # daftar perawatan kosong (section disembunyikan) -> pakai lokasi & jam buka
+        ketiga = pos["lokasi"] - 70
+        label[2] = "Lokasi & jam buka"
+    else:
+        raise RuntimeError(f"perawatan & lokasi tidak tampil: {pos}")
     target = [pos["stage"] - 110,
               (pos["peta"] - 330) if pos["peta"] else pos["semak"] + 250,
-              pos["rawatan"] - 70]
+              ketiga]
     shots = []
     for i, y in enumerate(target):
         page.evaluate(f"window.scrollTo(0, {max(0, int(y))})")
@@ -67,7 +81,7 @@ def foto(page, sl):
         p = OUT / f"{sl}-{i + 1}.png"
         page.screenshot(path=str(p))
         shots.append(p)
-    return shots, pos["bg"]
+    return shots, pos["bg"], label
 
 
 def warna(bg):
@@ -80,7 +94,7 @@ def warna(bg):
         return (31, 90, 85)
 
 
-def susun(shots, out, nama, url, bg):
+def susun(shots, out, nama, url, bg, label=LABEL):
     # Format KOTAK 1080x1080 (disetujui pemilik; versi lebar terlihat lonjong di WA).
     W = H = 1080
     img = Image.new("RGB", (W, H), bg)
@@ -107,7 +121,7 @@ def susun(shots, out, nama, url, bg):
         m = Image.new("L", (pw, ph), 0)
         ImageDraw.Draw(m).rounded_rectangle((0, 0, pw - 1, ph - 1), 28, fill=255)
         img.paste(s, (x, top), m)
-        d.text((x + pw // 2, top + ph + 52), LABEL[i], font=font(27, True), fill="white", anchor="mm")
+        d.text((x + pw // 2, top + ph + 52), label[i], font=font(27, True), fill="white", anchor="mm")
     d.text((W // 2, top + ph + 125), url, font=font(30, True), fill="white", anchor="mm")
     d.text((W // 2, H - 40), "Pratinjau konsep oleh Maxi Growth Studio · bukan situs resmi klinik",
            font=font(20), fill=(200, 225, 220), anchor="mm")
@@ -117,10 +131,13 @@ def susun(shots, out, nama, url, bg):
 def main():
     a = argparse.ArgumentParser()
     a.add_argument("--batas", type=int, default=40)
-    a.add_argument("--slug")
+    a.add_argument("--slug", help="satu/lebih slug dipisah koma")
+    a.add_argument("--ulang", action="store_true",
+                   help="cek ulang kolase lama; buat ulang hanya yang perawatannya kosong")
     arg = a.parse_args()
+    arg.slug = set(arg.slug.split(",")) if arg.slug else None
     OUT.mkdir(parents=True, exist_ok=True)
-    daftar, sudah = antrean(arg.batas, arg.slug)
+    daftar, sudah = antrean(arg.batas, arg.slug, arg.ulang)
     print(f"antrean kolase: {len(daftar)}")
     if not daftar:
         return
@@ -134,11 +151,15 @@ def main():
         page = ctx.new_page()
         for sl, nama, job in daftar:
             try:
-                shots, bg = foto(page, sl)
-                susun(shots, OUT / f"{sl}.jpg", nama, f"maxigrowthstudio.com/{sl}/", warna(bg))
-                sudah[sl] = time.strftime("%Y-%m-%d")
+                shots, bg, label = foto(page, sl)
+                if arg.ulang and label == LABEL:
+                    sudah[sl] = "v2"  # kolase lama sudah benar
+                    print(f"= {job} {sl} sudah benar")
+                    continue
+                susun(shots, OUT / f"{sl}.jpg", nama, f"maxigrowthstudio.com/{sl}/", warna(bg), label)
+                sudah[sl] = "v2"
                 ok += 1
-                print(f"✓ {job} {sl}")
+                print(f"✓ {job} {sl} | {label[2]}", flush=True)
             except Exception as e:
                 gagal += 1
                 print(f"✗ {job} {sl}: {type(e).__name__}: {str(e)[:200]}")
