@@ -1,0 +1,45 @@
+# Kolase outreach WA: 3 screenshot HP asli (maskot, cek gigi, perawatan) -> 1 gambar per klinik.
+# Format disetujui pemilik 26 Okt 2026. Hasil diunggah ke Drive bus "11 Kolase WA/<slug>.jpg".
+# Tanpa AI; tidak menghubungi klinik.
+name: kolase-wa
+on:
+  workflow_dispatch:
+    inputs:
+      batas: { description: "Maks klinik per run", default: "60" }
+      slug: { description: "Satu slug saja (opsional, untuk tes)", default: "" }
+  schedule:
+    - cron: "17 */2 * * *"
+concurrency: { group: kolase-wa, cancel-in-progress: false }
+permissions: { contents: write }
+jobs:
+  kolase:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pasang Playwright + Pillow + font
+        run: |
+          pip install -q playwright pillow
+          python -m playwright install --with-deps chromium >/dev/null
+          sudo apt-get install -y -q fonts-dejavu-core >/dev/null || true
+      - name: Buat kolase
+        run: |
+          ARGS="--batas ${{ github.event.inputs.batas || '60' }}"
+          if [ -n "${{ github.event.inputs.slug }}" ]; then ARGS="$ARGS --slug ${{ github.event.inputs.slug }}"; fi
+          python scripts/kolase.py $ARGS | tee /tmp/kolase.log
+      - name: Unggah ke Drive "11 Kolase WA"
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: |
+          ls /tmp/kolase/*.jpg >/dev/null 2>&1 || { echo "tidak ada kolase baru"; exit 0; }
+          curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+          python3 scripts/bus.py rclone-conf
+          rclone copy /tmp/kolase "bus:11 Kolase WA" --include "*.jpg" --exclude "*-[123].png" -v
+      - name: Catat kolase selesai
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/kolase.json || true
+          git diff --cached --quiet && exit 0
+          git commit -m "kolase: $(grep -c '^✓' /tmp/kolase.log || echo 0) klinik"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
