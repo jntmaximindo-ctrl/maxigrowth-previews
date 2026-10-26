@@ -1,0 +1,142 @@
+{
+  "id": "W1257",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Kabupaten Bantul",
+      "en": "Dental Care Information in Kabupaten Bantul"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Dokter Gigi Cakradent, Kasongan, Tirtonirmolo. Konfirmasikan layanan dan jadwal sebelum berkunjung.",
+      "en": "Explore consultation information for Dokter Gigi Cakradent in Kasongan, Tirtonirmolo. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan pembersihan karang gigi sesuai kondisi Anda.",
+        "en": "Ask about an assessment and cleaning based on your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan gigi berlubang untuk mengetahui pilihan perawatan setelah pemeriksaan.",
+        "en": "Discuss a cavity to learn about options following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Pencabutan Gigi",
+        "en": "Tooth Extraction Consultation"
+      },
+      "ringkas": {
+        "id": "Dokter dapat menilai apakah pencabutan perlu dipertimbangkan setelah pemeriksaan.",
+        "en": "A dentist can assess whether extraction should be considered after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Saluran Akar",
+        "en": "Root Canal Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan bila gigi nyeri atau sensitif.",
+        "en": "Ask what assessment may be needed for a painful or sensitive tooth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Susunan Gigi",
+        "en": "Tooth Alignment Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pertanyaan tentang susunan gigi dan pilihan perawatan ortodonti.",
+        "en": "Discuss questions about tooth alignment and orthodontic care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Sore",
+      "en": "Afternoon Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Tinjau jam praktik sore yang tercantum dan pertanyaan seputar pemeriksaan. Konfirmasi jadwal sebelum datang.",
+      "en": "Review the listed afternoon hours and consultation questions. Confirm the schedule before visiting."
+    },
+    "alasan_dipilih": "Panduan pemilihan sesi praktik sore dan daftar pertanyaan sebelum konsultasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Dokter Gigi Cakradent?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum berada di Jl. Kasongan No.20, Karangpule, Tirtonirmolo, Kec. Kasihan, Kabupaten Bantul, DI Yogyakarta 55184.",
+        "en": "The listed address is Jl. Kasongan No.20, Karangpule, Tirtonirmolo, Kec. Kasihan, Kabupaten Bantul, DI Yogyakarta 55184."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal yang ditemukan bersumber dari direktori; konfirmasikan waktu praktik sebelum berkunjung.",
+        "en": "The listed hours come from directories; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi?",
+        "en": "Can I book a dental examination?"
+      },
+      "a": {
+        "id": "Silakan hubungi praktik untuk menanyakan jadwal pemeriksaan dan dokter yang bertugas.",
+        "en": "Please contact the practice to ask about examination times and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Mintalah rincian biaya kepada pihak praktik.",
+        "en": "An official price list was not available in the reviewed sources. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi kepada pihak praktik.",
+        "en": "Insurance information was not found. Please confirm directly with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan pilihan konsultasi.",
+    "en": "Contact the practice to ask about appointments and consultation options."
+  },
+  "pesan_wa_default": "Halo Dokter Gigi Cakradent, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dokter Gigi Cakradent, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Kasongan, Tirtonirmolo. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/cakradent. Bila berkenan, silakan dilihat. Terima kasih. WA saya 082141004400.",
+    "email_subjek": "Konsep website untuk Dokter Gigi Cakradent",
+    "email_isi": "Yth. Pengelola Dokter Gigi Cakradent,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai praktik di Kasongan, Tirtonirmolo, Kabupaten Bantul.\n\nKami telah menyiapkan konsep website yang merangkum lokasi, topik konsultasi, dan akses kontak. Konsep dapat ditinjau di https://maxigrowthstudio.com/cakradent. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nApabila berkenan, kami terbuka menerima tanggapan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
