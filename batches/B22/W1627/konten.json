@@ -1,0 +1,132 @@
+{
+  "id": "W1627",
+  "hero": {
+    "judul": {
+      "id": "Senyum Dental Care Bhayangkara",
+      "en": "Senyum Dental Care Bhayangkara"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Kota Sukabumi. Hubungi admin untuk mengonfirmasi jadwal dan kebutuhan Anda.",
+      "en": "Visit information for Kota Sukabumi. Contact staff to confirm appointments and discuss your needs."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal melalui WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya tambal gigi",
+        "en": "Ask about dental fillings"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya kawat gigi",
+        "en": "Ask about braces"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya perawatan saluran akar",
+        "en": "Ask about root canal treatment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pencabutan gigi",
+        "en": "Ask about tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, lokasi, biaya atau kebutuhan perawatan. Susun pesan pertanyaan untuk admin sebelum datang.",
+      "en": "Choose questions about appointments, location, fees or care needs. Prepare a message for staff before visiting."
+    },
+    "alasan_dipilih": "Nomor ponsel publik tersedia; penyusun pertanyaan membantu mengonfirmasi informasi yang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi 628971996161 untuk menanyakan jadwal dan prosedur pendaftaran.",
+        "en": "Contact 628971996161 to ask about appointments and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Bhayangkara No.142, Sriwidari, Kec. Gunungpuyuh, Kota Sukabumi, Jawa Barat43121 Konfirmasikan titik lokasi sebelum berangkat.",
+        "en": "Jl. Bhayangkara No.142, Sriwidari, Kec. Gunungpuyuh, Kota Sukabumi, Jawa Barat43121 Please confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal melalui admin sebelum datang. Jam dokter dapat berbeda dari jam operasional klinik.",
+        "en": "Confirm the schedule with staff before visiting. A doctor's schedule may differ from clinic opening hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya konsultasi dan perkiraan tindakan kepada admin; kebutuhan perawatan ditentukan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask staff about consultation fees and estimates. Treatment needs are determined after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terkonfirmasi. Tanyakan persyaratan dan dokumen kepada petugas.",
+        "en": "Insurance and BPJS arrangements have not been confirmed. Ask staff about eligibility and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan Anda",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya mengenai jadwal dan pendaftaran di Senyum Dental Care Bhayangkara. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Senyum Dental Care Bhayangkara. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi praktik Anda di Kota Sukabumi. Kami menyiapkan konsep informasi kunjungan; alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/senyum-bhayangkara. Saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com. Terima kasih.",
+    "email_subjek": "Konsep informasi kunjungan Senyum Dental Care Bhayangkara",
+    "email_isi": "Yth. Pengelola Senyum Dental Care Bhayangkara,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi praktik di Kota Sukabumi menjadi dasar konsep informasi kunjungan yang memuat kontak, lokasi dan pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/senyum-bhayangkara. Proposal PDF perlu dilampirkan bersama draf ini setelah konsep siap ditinjau. Informasi yang belum lengkap dapat dikonfirmasi sebelum publikasi.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
