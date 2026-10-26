@@ -1,0 +1,25 @@
+{
+  "id": "W1165",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116469191",
+      "di_sumber": "6285159770838",
+      "src": "https://upscale-dental-care-specialist.cilacapconnect.com/",
+      "catatan": "Kontak alternatif pada situs direktori berbeda; sumber asli telepon idalamat tidak bisa dibuka. Perlu verifikasi langsung, tidak otomatis berarti nomor lama tidak aktif."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116469191",
+      "di_sumber": "6285159770838",
+      "src": "https://upscale-dental-care-specialist.cilacapconnect.com/",
+      "catatan": "Nomor telepon yang ditampilkan berbeda, tetapi situs alternatif tidak menegaskan apakah nomor merupakan WhatsApp; WA belum bisa dipastikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/upscale-dental-care-specialist-1060870",
+    "https://www.carigi.id/blog/lowongan-kerja-carigi-indonesia-8/lowongan-kerja-dokter-gigi-cilacap-2026-1192"
+  ],
+  "kritis_ok": false
+}
