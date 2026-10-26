@@ -79,5 +79,22 @@
     "https://idalamat.com/alamat/dua-saudara-family-dental-care-1062633",
     "https://www.semuabis.com/dua-saudara-family-dental-care-0859-6431-1943",
     "https://www.instagram.com/duasaudara.dent/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6282131150300",
+      "catatan": "IDalamat mencantumkan 0821-3115-0300, tetapi Semuabis untuk alamat yang sama mencantumkan 0859-6431-1943."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6282131150300",
+      "catatan": "IDalamat hanya menunjukkan nomor telepon; tidak membuktikan nomor tersebut memiliki akun WhatsApp. Semuabis menampilkan nomor telepon berbeda."
+    },
+    {
+      "path": "instagram.src",
+      "tercatat": "https://drive.google.com/file/d/1UKOhXNDfjSXIcP1GP2pnd5Ya62Dt4NzP/view?usp=drivesdk",
+      "catatan": "File Drive adalah surat tugas internal B22/W1595 yang mencantumkan URL Instagram, bukan bukti independen bahwa profil Instagram aktif."
+    }
   ]
 }

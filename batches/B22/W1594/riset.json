@@ -95,5 +95,17 @@
     "https://wealdental.com/about/",
     "https://wealdental.com/lokasi/",
     "https://www.dentalclinics.care/dental-clinic/dokter-gigi-kediri-wdc-weal-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Penanggungan No.112, Bandar Kidul, Mojoroto, Kediri, Jawa Timur 64114",
+      "catatan": "Direktori DentalClinics menuliskan Jl. Penanggungan No.112, Bandar Kidul, Kec. Mojoroto, Kabupaten Kediri, Jawa Timur 64114."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "09-17",
+      "catatan": "Footer situs resmi dan direktori mencantumkan Minggu 09.00–17.00; halaman About resmi mencantumkan Minggu 09.00–16.00."
+    }
   ]
 }

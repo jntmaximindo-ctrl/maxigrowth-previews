@@ -1,0 +1,30 @@
+{
+  "id": "W1599",
+  "diperiksa": 17,
+  "beda": [
+    {
+      "path": "maps.ulasan",
+      "tercatat": 197,
+      "di_sumber": "Daftar Local Indonesia Kendari menunjukkan 5,0 dengan 197 ulasan; artikel Inisultra menunjukkan 5,0 dengan 120 ulasan untuk lokasi Pasar Baru.",
+      "src": "https://www.inisultra.com/amp/26030/9-klinik-gigi-terbaik-di-kendari-2026-rating-jam-buka-dan-kontak-lengkap",
+      "catatan": "Perbedaan jumlah ulasan antarsumber/snapshot; 197 terbaca di halaman kota Local Indonesia, tetapi URL src spesifik dan Google Maps asli belum dapat diperiksa langsung."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi gigi",
+        "Tambal gigi",
+        "Pencabutan gigi",
+        "Scaling",
+        "Perawatan gigi anak"
+      ],
+      "di_sumber": "Halaman indeks Local Indonesia Kendari menyebut konsultasi, perawatan gigi anak, cabut, tambal, scaling; URL detail yang dikutip gagal dibuka.",
+      "src": "https://localindonesia.net/lokasi/sulawesi-tenggara/kendari",
+      "catatan": "Layanan didukung cuplikan indeks, bukan pembacaan langsung halaman detail yang dijadikan src utama."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://localindonesia.net/usaha/kamila-dental-care-dokter-gigi-kendari-pasar-baru-kendari"
+  ],
+  "kritis_ok": true
+}

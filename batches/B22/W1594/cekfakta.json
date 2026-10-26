@@ -1,0 +1,22 @@
+{
+  "id": "W1594",
+  "diperiksa": 26,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Penanggungan No.112, Bandar Kidul, Mojoroto, Kediri, Jawa Timur 64114",
+      "di_sumber": "Direktori DentalClinics menuliskan Jl. Penanggungan No.112, Bandar Kidul, Kec. Mojoroto, Kabupaten Kediri, Jawa Timur 64114.",
+      "src": "https://www.dentalclinics.care/dental-clinic/dokter-gigi-kediri-wdc-weal-dental-care",
+      "catatan": "Perbedaan label administrasi Kabupaten/Kota; jalan dan nomor sama. Verifikasi administrasi wilayah sebelum publikasi."
+    },
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "09-17",
+      "di_sumber": "Footer situs resmi dan direktori mencantumkan Minggu 09.00–17.00; halaman About resmi mencantumkan Minggu 09.00–16.00.",
+      "src": "https://wealdental.com/about/",
+      "catatan": "Konflik internal situs resmi; nilai yang dicatat didukung footer, tetapi jadwal Minggu belum pasti."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
