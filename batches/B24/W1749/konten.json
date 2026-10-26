@@ -1,0 +1,132 @@
+{
+  "id": "W1749",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Kocipto, M.M.Kes.",
+      "en": "Practice information for drg. Kocipto, M.M.Kes."
+    },
+    "sub": {
+      "id": "Panduan kunjungan di Jl. Pertambangan, Karimun.",
+      "en": "Visit information for Jl. Pertambangan, Karimun."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pelayanan gigi",
+        "en": "Dental service information"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pelayanan yang sesuai dengan kebutuhan kunjungan Anda.",
+        "en": "Ask which services suit your reason for visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan riwayat perawatan saat mengatur kunjungan.",
+        "en": "Share your concerns and treatment history when arranging a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal",
+        "en": "Confirming a time"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan hari dan jam praktik sebelum datang.",
+        "en": "Confirm the practice hours before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rincian tindakan kepada praktik.",
+        "en": "Ask the practice about examination fees and treatment costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, biaya, dan kebutuhan kunjungan sebelum menghubungi praktik.",
+      "en": "Prepare questions about timing, costs and your visit before contacting the practice."
+    },
+    "alasan_dipilih": "Informasi rinci masih terbatas; fitur membantu mengklarifikasi kebutuhan tanpa menjanjikan tindakan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Pertambangan, Tanjung Balai Karimun. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The directory lists Jl. Pertambangan in Tanjung Balai Karimun. Confirm the location before your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Sumber jam berbeda. Silakan konfirmasikan jadwal langsung kepada praktik.",
+        "en": "Sources differ on opening hours. Please confirm directly with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Prices are not available. Ask about examination and treatment fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan ketentuan pembayaran kepada praktik.",
+        "en": "Insurance details have not been found. Ask the practice about payment arrangements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu janji dahulu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan jadwal sebelum datang melalui nomor kontak publik.",
+        "en": "Use the public contact number to ask about availability before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan Anda",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik, ketersediaan kunjungan, dan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik drg. Kocipto, M.M.Kes., saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk praktik di Jl. Pertambangan. Konsep ditujukan untuk https://maxigrowthstudio.com/drg-kocipto; ketersediaan tautan perlu diperiksa sebelum pesan ini dikirim. Apabila berkenan, konsep dapat ditinjau. WA 082141004400.",
+    "email_subjek": "Konsep informasi website praktik drg. Kocipto",
+    "email_isi": "Yth. pengelola praktik drg. Kocipto, M.M.Kes., saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Konsep website memuat informasi lokasi Jl. Pertambangan dan pertanyaan kunjungan. Alamat konsep: https://maxigrowthstudio.com/drg-kocipto. Tautan dan proposal PDF terlampir perlu disiapkan serta diperiksa sebelum draf ini dikirim. Informasi jadwal dan layanan dapat dikonfirmasi terlebih dahulu. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1748",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Gigi di Kabupaten Karimun",
+      "en": "Dental Practice Information in Kabupaten Karimun"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi di Praktik drg. Ita Wahyuni Tanjung Balai Karimun. Konfirmasikan jadwal dan layanan sebelum datang.",
+      "en": "Explore consultation information for Praktik drg. Ita Wahyuni Tanjung Balai Karimun. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan sampaikan keluhan Anda.",
+        "en": "Ask about an examination and discuss your concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan untuk gigi berlubang.",
+        "en": "Ask about examinations for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi",
+        "en": "Dental Care Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan setelah pemeriksaan dokter.",
+        "en": "Discuss care options following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan riwayat kesehatan gigi dan tanyakan ketersediaan layanan.",
+        "en": "Prepare your dental history and confirm service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Lokasi Ruko dan Janji Temu",
+      "en": "Clinic Location and Appointment Guide"
+    },
+    "penjelasan": {
+      "id": "Panduan menemukan lokasi ruko Coastal Area dan menyiapkan pertanyaan sebelum pemeriksaan.",
+      "en": "Prepare questions and confirm visit details before contacting the practice."
+    },
+    "alasan_dipilih": "Panduan menemukan lokasi ruko Coastal Area dan menyiapkan pertanyaan sebelum pemeriksaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat tercantum di Jl. Coastal Area Ruko No.5, sebelah Indo Coastal, Teluk Air, Kec. Karimun, Kabupaten Karimun, Kepulauan Riau.",
+        "en": "The listed address is Jl. Coastal Area Ruko No.5, sebelah Indo Coastal, Teluk Air, Kec. Karimun, Kabupaten Karimun, Kepulauan Riau."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal pemeriksaan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal dapat berubah dan perlu dikonfirmasi sebelum datang.",
+        "en": "Hours may change and should be confirmed before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu janji temu?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan jadwal kepada praktik.",
+        "en": "Ask the practice about appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan rincian biaya kepada praktik.",
+        "en": "An official price list was not found. Please request a quote."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Silakan tanyakan langsung.",
+        "en": "Insurance information was not verified. Please ask directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan layanan.",
+    "en": "Contact the practice to ask about appointments and services."
+  },
+  "pesan_wa_default": "Halo Praktik drg. Ita Wahyuni Tanjung Balai Karimun, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola Praktik drg. Ita Wahyuni Tanjung Balai Karimun, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website dengan panduan lokasi ruko dan janji temu berdasarkan informasi publik. Konsep dapat ditinjau di https://maxigrowthstudio.com/tanjung-balai. Bila berkenan, mohon diteruskan kepada penanggung jawab praktik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktik drg. Ita Wahyuni Tanjung Balai Karimun",
+    "email_isi": "Yth. Pengelola Praktik drg. Ita Wahyuni Tanjung Balai Karimun,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan informasi praktik, kontak, dan panduan konsultasi. Preview konsep: https://maxigrowthstudio.com/tanjung-balai.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Mohon diteruskan kepada pihak yang berwenang jika pesan ini diterima tim administrasi.\n\nTerima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

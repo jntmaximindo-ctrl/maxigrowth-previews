@@ -1,0 +1,132 @@
+{
+  "id": "W1759",
+  "hero": {
+    "judul": {
+      "id": "Smile Dental Care Kuningan",
+      "en": "Smile Dental Care Kuningan"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik drg. Shela Melyana di Awirarangan. Hubungi praktik untuk memastikan jadwal.",
+      "en": "Visit information for drg. Shela Melyana’s practice in Awirarangan. Contact the practice to confirm availability."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan sesi yang tersedia sebelum datang.",
+        "en": "Ask which sessions are available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan apakah dapat ditangani di praktik.",
+        "en": "Describe your needs and ask whether the practice can address them."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Minta penjelasan biaya setelah kebutuhan diperiksa.",
+        "en": "Ask about costs after your needs are assessed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing to visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen atau informasi yang perlu dibawa.",
+        "en": "Ask which documents or information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan sesi kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih pagi atau sore, lalu tanyakan ketersediaan melalui WhatsApp. Pilihan ini belum merupakan reservasi.",
+      "en": "Choose a morning or afternoon session, then ask about availability on WhatsApp. This does not confirm a booking."
+    },
+    "alasan_dipilih": "Dua sesi tercantum pada direktori publik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Jl. Eyang Weri 29, Awirarangan, Kuningan. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "At Jl. Eyang Weri 29, Awirarangan, Kuningan. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu, sesi 08.00–11.00 dan 14.00–18.00 WIB. Konfirmasikan jadwal terbaru.",
+        "en": "Directories list Monday–Saturday sessions from 08:00–11:00 and 14:00–18:00 WIB. Confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does care cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia. Tanyakan langsung sesuai kebutuhan pemeriksaan.",
+        "en": "A fee list is not available. Ask the practice about costs for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum terkonfirmasi. Tanyakan kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan tertentu tersedia?",
+        "en": "Is a particular procedure available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terkonfirmasi. Jelaskan kebutuhan Anda melalui WA sebelum datang.",
+        "en": "The procedure list has not been confirmed. Describe your needs on WhatsApp before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Contact the practice for visit information"
+  },
+  "pesan_wa_default": "Halo Smile Dental Care, saya ingin menanyakan jadwal drg. Shela Melyana dan ketersediaan kunjungan.",
+  "outreach": {
+    "wa": "Yth. pengelola Smile Dental Care Kuningan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Jadwal pagi dan sore praktik menjadi dasar konsep informasi kunjungan yang kami siapkan. Rencana tautan peninjauan: https://maxigrowthstudio.com/smile (perlu pemeriksaan kesiapan). Bila berkenan, konsep dapat dibahas setelah siap ditinjau. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi kunjungan Smile Dental Care",
+    "email_isi": "Yth. pengelola Smile Dental Care Kuningan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk praktik drg. Shela Melyana dengan pilihan sesi pagi dan sore. Rencana tautan: https://maxigrowthstudio.com/smile; kesiapan preview perlu diperiksa sebelum pengiriman. Proposal PDF terlampir pada pengiriman yang nantinya disiapkan pemilik. WA 082141004400, info@maxigrowthstudio.com."
+  }
+}
