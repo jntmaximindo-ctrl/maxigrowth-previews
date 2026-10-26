@@ -1,0 +1,132 @@
+{
+  "id": "W1649",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi drg. Bonita Amallia",
+      "en": "Praktek Dokter Gigi drg. Bonita Amallia"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Labuhanbatu.",
+      "en": "Dental visit information in Labuhanbatu."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya pemeriksaan gigi",
+        "en": "Ask about a dental examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan waktu pemeriksaan.",
+        "en": "Describe your concerns and ask about examination times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya perawatan berkala",
+        "en": "Ask about routine care"
+      },
+      "ringkas": {
+        "id": "Tanyakan perawatan yang tersedia dan persiapan kunjungan.",
+        "en": "Ask which care options are available and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya kebutuhan gigi anak",
+        "en": "Ask about dental care for children"
+      },
+      "ringkas": {
+        "id": "Sebutkan usia anak dan tanyakan ketersediaan pemeriksaan.",
+        "en": "Share your child's age and ask whether an appointment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan jenis perawatan dan biaya setelah penilaian dokter.",
+        "en": "Confirm suitable treatment options and costs after a dentist's assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, lokasi, atau biaya untuk menyusun pesan sebelum berkunjung.",
+      "en": "Choose questions about appointment times, location or costs to prepare a message before your visit."
+    },
+    "alasan_dipilih": "Membantu pasien meminta konfirmasi informasi tanpa menganggap layanan atau tarif yang belum ditemukan sebagai fakta."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Gunakan kontak praktik untuk menanyakan waktu yang tersedia. Tunggu konfirmasi sebelum datang.",
+        "en": "Use the practice contact to ask about availability and wait for confirmation before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jam dan jadwal dokter untuk tanggal kunjungan Anda melalui kontak praktik.",
+        "en": "Confirm opening hours and the dentist's schedule for your planned visit through the practice contact."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan perkiraan biaya dan rincian tindakan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask for an estimate and treatment details after examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum tersedia. Tanyakan jenis kepesertaan dan dokumen yang diperlukan.",
+        "en": "Insurance information is not yet available. Ask which plans and documents can be accepted."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen dan persiapan yang diperlukan saat membuat janji. Sampaikan keluhan serta kebutuhan kunjungan.",
+        "en": "Ask about required documents and preparations when booking, and describe your concerns and visit needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di Praktek Dokter Gigi drg. Bonita Amallia. Mohon informasi waktu yang tersedia dan persiapannya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu pengelola Praktek Dokter Gigi drg. Bonita Amallia. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Labuhanbatu. Kami menyiapkan konsep halaman informasi kunjungan dengan rencana alamat https://maxigrowthstudio.com/drg-bonita. Bila berkenan, konsep dapat ditinjau setelah tautannya siap. Terima kasih. WA 082141004400.",
+    "email_subjek": "Konsep informasi kunjungan Praktek Dokter Gigi drg. Bonita Amallia",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi drg. Bonita Amallia,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi praktik di Labuhanbatu menjadi dasar konsep halaman kunjungan yang kami siapkan, dengan rencana alamat https://maxigrowthstudio.com/drg-bonita. Konsep memudahkan pasien menanyakan jadwal, lokasi, dan biaya melalui kontak praktik.\n\nProposal PDF perlu dilampirkan sebelum draf email ini dikirim. Tautan konsep juga perlu diperiksa setelah perakitan selesai. Bila berkenan, Bapak/Ibu dapat meninjau dan mengoreksi informasinya.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
