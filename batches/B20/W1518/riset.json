@@ -75,5 +75,22 @@
   "sumber": [
     "https://www.semuabis.com/mutiara-dental-care-mdc-0812-7080-2117",
     "https://idalamat.com/alamat/mutiara-dental-care-mdc-1059416"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Tambal gigi",
+        "Pencabutan gigi",
+        "Gigi tiruan",
+        "Perawatan gigi anak"
+      ],
+      "catatan": "Uraian umum direktori, bukan daftar tindakan khusus yang dikonfirmasi klinik."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "catatan": "Semuabis: Sultan Hasanuddin No.38; Idalamat: Jl. Anggur."
+    }
   ]
 }

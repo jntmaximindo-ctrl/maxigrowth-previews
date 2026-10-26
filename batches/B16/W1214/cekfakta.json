@@ -1,0 +1,25 @@
+{
+  "id": "W1214",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://densia.id/klinik/banmed-dental-kota-banjarmasin-hiixssuu/",
+      "di_sumber": "Densia 410, tetapi Linktree Banmed menampilkan alamat The Residence A-10 yang sama.",
+      "src": "https://linktr.ee/BanuaMedika",
+      "catatan": "Gunakan bukti Linktree sebagai sumber alamat yang dapat dibaca. Nomor target WA cocok 628115000114."
+    },
+    {
+      "path": "dokter",
+      "tercatat": "Lima nama dan jadwal ditandai arsip 2024",
+      "di_sumber": "Nama Johay, Luthfi, Hariet, Evan dan Dinda serta seluruh jadwal cocok dengan gambar arsip.",
+      "src": "https://drive.google.com/file/d/1NkITSoJFYYmFsu8SwfAP_T8SeBz-ccoP/view",
+      "catatan": "Kecocokan arsip tidak membuktikan kelimanya masih praktik atau jadwal berlaku 2026. Jangan tampilkan sebagai jadwal terkini."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/banmed-dental-kota-banjarmasin-hiixssuu/",
+    "https://www.instagram.com/banmed.dental/?hl=en"
+  ],
+  "kritis_ok": true
+}

@@ -178,5 +178,17 @@
     "https://drive.google.com/file/d/1NkITSoJFYYmFsu8SwfAP_T8SeBz-ccoP/view",
     "https://densia.id/klinik/banmed-dental-kota-banjarmasin-hiixssuu/",
     "https://www.instagram.com/banmed.dental/?hl=en"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://densia.id/klinik/banmed-dental-kota-banjarmasin-hiixssuu/",
+      "catatan": "Densia 410, tetapi Linktree Banmed menampilkan alamat The Residence A-10 yang sama."
+    },
+    {
+      "path": "dokter",
+      "tercatat": "Lima nama dan jadwal ditandai arsip 2024",
+      "catatan": "Nama Johay, Luthfi, Hariet, Evan dan Dinda serta seluruh jadwal cocok dengan gambar arsip."
+    }
   ]
 }

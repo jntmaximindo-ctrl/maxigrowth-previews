@@ -78,5 +78,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/jember/my-dental-care-klinik-dokter-gigi-and-fisioterapi-jember-jember",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email.src",
+      "tercatat": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "URL Maret 2026 hanya menampilkan spinner. Indeks daftar provider Agustus 2025 memuat email yang sama, Karimata No.50B dan 085232594941."
+    }
   ]
 }

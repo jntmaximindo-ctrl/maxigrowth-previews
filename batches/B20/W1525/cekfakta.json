@@ -1,0 +1,17 @@
+{
+  "id": "W1525",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "email.src",
+      "tercatat": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "di_sumber": "URL Maret 2026 hanya menampilkan spinner. Indeks daftar provider Agustus 2025 memuat email yang sama, Karimata No.50B dan 085232594941.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf",
+      "catatan": "Bukti pengganti lebih lama; keaktifan email atau kerja sama asuransi saat ini tidak dipastikan. Nama, nomor dan jam cocok dengan Indonesia Knowledge."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true"
+  ],
+  "kritis_ok": true
+}

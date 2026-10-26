@@ -1,0 +1,132 @@
+{
+  "id": "W1355",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan El Dental",
+      "en": "Plan an El Dental visit"
+    },
+    "sub": {
+      "id": "Tanyakan jadwal dan kebutuhan pemeriksaan di Surabaya.",
+      "en": "Ask about appointments and assessment needs in Surabaya."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori. Konfirmasikan ketersediaan kepada klinik.",
+        "en": "Listed in a directory. Confirm availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori. Konfirmasikan ketersediaan kepada klinik.",
+        "en": "Listed in a directory. Confirm availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori. Konfirmasikan ketersediaan kepada klinik.",
+        "en": "Listed in a directory. Confirm availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori. Konfirmasikan ketersediaan kepada klinik.",
+        "en": "Listed in a directory. Confirm availability with the practice."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik untuk menyusun pertanyaan sebelum kunjungan.",
+      "en": "Choose a topic and prepare questions before your visit."
+    },
+    "alasan_dipilih": "Rincian perawatan dan jadwal membutuhkan konfirmasi; fitur usulan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Tanyakan waktu yang tersedia melalui kontak publik klinik.",
+        "en": "Ask the practice about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah perkiraan biaya setelah pemeriksaan.",
+        "en": "Prices are unavailable. Ask for an estimate after assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal terbaru sebelum datang.",
+        "en": "Confirm current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan anak?",
+        "en": "Are children seen?"
+      },
+      "a": {
+        "id": "Informasi usia pasien belum terverifikasi. Tanyakan kepada klinik.",
+        "en": "Accepted ages have not been verified. Ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama penjamin belum terverifikasi. Konfirmasikan dahulu.",
+        "en": "Coverage has not been verified. Please confirm first."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi",
+    "en": "Contact the practice for information"
+  },
+  "pesan_wa_default": "Halo El Dental, saya ingin menanyakan jadwal pemeriksaan dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola El Dental by drg. Lisa M. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat listing praktik di Jalan Sriwijaya, Surabaya. Kami menyiapkan konsep informasi kunjungan di https://maxigrowthstudio.com/el-by untuk ditinjau. Bila berkenan, kami dapat membahas penyesuaiannya. Terima kasih.",
+    "email_subjek": "Konsep website El Dental",
+    "email_isi": "Yth. Pengelola El Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Listing praktik di Jalan Sriwijaya, Surabaya menjadi dasar konsep informasi kunjungan di https://maxigrowthstudio.com/el-by.\n\nProposal PDF terlampir saat paket penawaran dikirim. Pastikan tautan konsep dan lampiran tersedia sebelum draf ini digunakan. Bila berkenan, kami dapat membahas penyesuaian informasi praktik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

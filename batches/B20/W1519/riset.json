@@ -79,5 +79,20 @@
     "https://indonesiaknowledge.com/directory/medical-clinics/dumai/klinik-dokter-kita-dumai",
     "https://www.findhealthclinics.org/ID/Dumai/427458924272378/Dokter-Kita-Dumai",
     "https://dokterkitadumai.com"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "Senin": "07.30–21.30",
+        "Selasa": "07.30–21.30",
+        "Rabu": "07.30–21.30",
+        "Kamis": "07.30–21.30",
+        "Jumat": "07.30–21.30",
+        "Sabtu": "07.30–21.30",
+        "Minggu": "08.00–21.30"
+      },
+      "catatan": "Indonesia Knowledge cocok, tetapi mirror FindHealthClinics menyebut Senin–Sabtu 08.00–21.30; Minggu 08.00–18.00."
+    }
   ]
 }
