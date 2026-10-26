@@ -93,5 +93,12 @@
     "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-majalengka/",
     "https://poltekkes.web.id/dokter-gigi-majalengka/",
     "https://bukutelepon.cybo.com/ID/majalengka-majalengka/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v; cabang[0].wa.v",
+      "tercatat": "6281586676161",
+      "catatan": "MediaSehat mendukung nomor utama; Cybo memuat 62895405641166 pada alamat Cigasong yang sama."
+    }
   ]
 }

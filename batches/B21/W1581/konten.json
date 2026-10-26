@@ -1,0 +1,132 @@
+{
+  "id": "W1581",
+  "hero": {
+    "judul": {
+      "id": "Informasi Dokter Gigi Awanto",
+      "en": "Dokter Gigi Awanto information"
+    },
+    "sub": {
+      "id": "Siapkan kunjungan perawatan gigi di Tulungagung. Konfirmasikan jadwal sebelum datang.",
+      "en": "Plan a dental visit in Tulungagung. Confirm availability before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori. Konsultasikan kebutuhan dan kesesuaian tindakan dengan dokter gigi.",
+        "en": "Listed in a directory. Discuss your needs and treatment suitability with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori. Konsultasikan kebutuhan dan kesesuaian tindakan dengan dokter gigi.",
+        "en": "Listed in a directory. Discuss your needs and treatment suitability with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori. Konsultasikan kebutuhan dan kesesuaian tindakan dengan dokter gigi.",
+        "en": "Listed in a directory. Discuss your needs and treatment suitability with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori. Konsultasikan kebutuhan dan kesesuaian tindakan dengan dokter gigi.",
+        "en": "Listed in a directory. Discuss your needs and treatment suitability with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan sore",
+      "en": "Plan an afternoon visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari dan susun pertanyaan jadwal untuk dikonfirmasi ke praktik.",
+      "en": "Choose a day and prepare appointment questions to confirm with the practice."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jadwal 16.00–22.00 Senin–Sabtu; jadwal aktual perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Mayor Sujadi, Jepun, Tulungagung. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The directory lists Jl. Mayor Sujadi, Jepun, Tulungagung. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.00–22.00, Minggu tutup. Konfirmasikan jadwal terbaru.",
+        "en": "The directory lists Monday–Saturday 16:00–22:00, Sunday closed. Confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan rincian tindakan.",
+        "en": "Prices are unavailable. Ask about examination fees and treatment costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat membuat janji?",
+        "en": "Can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik untuk menanyakan ketersediaan waktu.",
+        "en": "Contact the public number to ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum terverifikasi. Konfirmasikan langsung kepada praktik.",
+        "en": "Insurance arrangements are unverified. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal dan biaya pemeriksaan.",
+    "en": "Confirm appointment availability and examination fees."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik Dokter Gigi Awanto dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Pengelola Dokter Gigi Awanto, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan praktik sore di Tulungagung. Kami menyiapkan konsep website dengan pemilih hari kunjungan untuk ditinjau di https://maxigrowthstudio.com/awanto setelah tersedia. Silakan lihat bila berkenan.",
+    "email_subjek": "Konsep website Dokter Gigi Awanto",
+    "email_isi": "Yth. Pengelola Dokter Gigi Awanto, kami menyiapkan konsep website berisi informasi kunjungan sore di Tulungagung. Tautan konsep: https://maxigrowthstudio.com/awanto (ketersediaan perlu diperiksa). Proposal PDF terlampir saat pengiriman. Hormat kami, Muhammad Rizqi Tri Andika, Maxi Growth Studio, WA 082141004400, info@maxigrowthstudio.com."
+  }
+}

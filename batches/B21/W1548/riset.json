@@ -101,5 +101,12 @@
     "https://idalamat.com/alamat/gaguk-heri-siswanto-drg-mkes-praktek-dokter-gigi-1062236",
     "https://halaman-kuning.cybo.com/ID/jombang/doktor-gigi",
     "https://alamatsehat.com/dokter-gigi-drg-gaguk-heri-siswanto-kab-jombang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.v; cabang[0].wa.v",
+      "tercatat": "628123227002",
+      "catatan": "IDalamat dan Cybo cocok; Alamatsehat mencantumkan ponsel berbeda, 6281232274002, bersama telepon tetap."
+    }
   ]
 }

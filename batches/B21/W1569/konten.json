@@ -1,0 +1,132 @@
+{
+  "id": "W1569",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi drg. Ecin Kuraesin",
+      "en": "Praktek Dokter Gigi drg. Ecin Kuraesin"
+    },
+    "sub": {
+      "id": "Persiapkan kunjungan Anda di Kabupaten Pemalang",
+      "en": "Plan your visit in Kabupaten Pemalang"
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan: Pemeriksaan gigi",
+        "en": "Ask about dental assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Perawatan berkala",
+        "en": "Ask about routine care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Kebutuhan gigi anak",
+        "en": "Ask about children's dental needs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik yang ingin ditanyakan dan susun pesan untuk admin sebelum membuat janji.",
+      "en": "Choose your questions and prepare a message for the clinic before arranging a visit."
+    },
+    "alasan_dipilih": "Membantu pasien memeriksa jadwal dan informasi yang belum tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal melalui WhatsApp yang tercantum.",
+        "en": "Ask about availability using the listed WhatsApp number."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah estimasi kepada klinik.",
+        "en": "Prices are not available here. Ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal terbaru sebelum berkunjung.",
+        "en": "Confirm the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terkonfirmasi. Tanyakan syaratnya kepada admin.",
+        "en": "This has not been confirmed. Ask the clinic about requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan dan persiapan sesuai usia anak kepada klinik.",
+        "en": "Ask the clinic about availability and preparation for your child's age."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan informasi persiapannya.",
+  "outreach": {
+    "wa": "Yth. pengelola Praktek Dokter Gigi drg. Ecin Kuraesin, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Anda di Kabupaten Pemalang. Kami menyiapkan usulan konsep website dengan alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/drg-ecin. Bila berkenan, kami dapat membahas kebutuhan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Dokter Gigi drg. Ecin Kuraesin",
+    "email_isi": "Yth. pengelola Praktek Dokter Gigi drg. Ecin Kuraesin,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan konsep website untuk informasi klinik di Kabupaten Pemalang. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/drg-ecin. Proposal PDF disiapkan sebagai lampiran untuk ditinjau. Bila berkenan, kami dapat membahas kebutuhan informasi pasien.\n\nMuhammad Rizqi Tri Andika\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
