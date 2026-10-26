@@ -1,0 +1,132 @@
+{
+  "id": "W1729",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Aba Laksana, Bekasi",
+      "en": "Dokter Gigi Aba Laksana, Bekasi"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan Anda.",
+      "en": "Prepare your questions before your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu kunjungan yang tersedia.",
+        "en": "Ask which dates and times are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Minta penjelasan biaya pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Ask about examination and treatment costs before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Questions about care"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan layanan yang tersedia.",
+        "en": "Describe your needs and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan administrasi",
+        "en": "Preparing your paperwork"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen yang perlu dibawa saat kunjungan.",
+        "en": "Ask which documents to bring to your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Catatan sebelum kunjungan",
+      "en": "Your visit checklist"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang jadwal, biaya, perawatan, dan dokumen untuk disampaikan kepada klinik.",
+      "en": "Select questions about appointments, costs, care and paperwork to discuss with the clinic."
+    },
+    "alasan_dipilih": "Membantu pengunjung menyiapkan pertanyaan ketika informasi klinik yang tersedia masih terbatas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sentosa Raya No.10, RT.002/RW.016, Jatimakmur, Pondok Gede, Bekasi City, West Java 17413, Indonesia. Konfirmasikan rute sebelum datang.",
+        "en": "A directory lists Jl. Sentosa Raya No.10, RT.002/RW.016, Jatimakmur, Pondok Gede, Bekasi City, West Java 17413, Indonesia. Confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik belum terverifikasi. Tanyakan jadwal sebelum datang.",
+        "en": "Opening hours have not been verified. Ask about availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia. Mintalah penjelasan biaya sesuai pemeriksaan dan rencana perawatan.",
+        "en": "A price list is not available. Ask for costs based on the examination and proposed care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa saja perawatan yang tersedia?",
+        "en": "Which treatments are available?"
+      },
+      "a": {
+        "id": "Rincian layanan belum terverifikasi. Tanyakan ketersediaan perawatan yang Anda butuhkan.",
+        "en": "Specific services have not been verified. Ask whether the care you need is available."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Status penerimaan asuransi saat ini belum terverifikasi. Konfirmasikan polis, manfaat, dan prosedur dengan klinik serta penanggung.",
+        "en": "Current insurance acceptance has not been verified. Check your policy, benefits and procedures with the clinic and insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan untuk kunjungan Anda",
+    "en": "Prepare your questions for your visit"
+  },
+  "pesan_wa_default": "Halo Dokter Gigi Aba Laksana, saya ingin menanyakan jadwal, layanan, lokasi, dan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen Dokter Gigi Aba Laksana. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Bekasi dan sudah membuat konsep website di https://maxigrowthstudio.com/aba-laksana. Konsep membantu pasien menyiapkan pertanyaan kunjungan. Jika berkenan, silakan ditinjau. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Dokter Gigi Aba Laksana",
+    "email_isi": "Yth. Manajemen Dokter Gigi Aba Laksana,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Bekasi dan sudah membuat konsep website untuk membantu pasien menyiapkan pertanyaan kunjungan: https://maxigrowthstudio.com/aba-laksana.\n\nProposal PDF terlampir untuk ditinjau. Informasi klinik memerlukan konfirmasi manajemen sebelum digunakan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

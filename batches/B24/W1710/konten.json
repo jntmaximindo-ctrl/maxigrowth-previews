@@ -1,0 +1,132 @@
+{
+  "id": "W1710",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Gigi di Tomohon",
+      "en": "Dental Practice Information in Tomohon"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan di WINS Dental. Konfirmasikan jadwal dan layanan sebelum datang.",
+      "en": "Explore visit information for WINS Dental. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas kesehatan gigi dan mulut.",
+        "en": "Ask about appointments to discuss your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pemeriksaan yang mungkin diperlukan.",
+        "en": "Discuss cavity concerns and possible examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi",
+        "en": "Dental Care Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan yang sesuai setelah pemeriksaan dokter.",
+        "en": "Ask about care options following a dentist's examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan riwayat keluhan dan tanyakan ketersediaan layanan sebelum datang.",
+        "en": "Prepare your dental history and confirm services before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Sore",
+      "en": "Evening Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Panduan memilih hari kunjungan sore di Tomohon dan menyiapkan pertanyaan pemeriksaan.",
+      "en": "Review appointment options and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Panduan memilih hari kunjungan sore di Tomohon dan menyiapkan pertanyaan pemeriksaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Praktik tercantum di Jl. Zanosui, Kolongan Satu, Kec. Tomohon Tengah, Kota Tomohon, Sulawesi Utara 95441.",
+        "en": "The practice is listed at Jl. Zanosui, Kolongan Satu, Kec. Tomohon Tengah, Kota Tomohon, Sulawesi Utara 95441."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal pemeriksaan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal dari direktori dapat berubah. Mohon konfirmasi sebelum datang.",
+        "en": "Directory hours may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan ketersediaan jadwal dan dokter.",
+        "en": "Contact the practice to confirm appointments and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan biaya sebelum berkunjung.",
+        "en": "An official price list was not found. Please ask about fees before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi langsung.",
+        "en": "Insurance participation was not found. Please confirm directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan informasi layanan.",
+    "en": "Contact the practice to ask about hours and services."
+  },
+  "pesan_wa_default": "Halo WINS Dental, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola WINS Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website dengan panduan kunjungan sore berdasarkan informasi publik praktik. Konsep dapat ditinjau di https://maxigrowthstudio.com/wins. Bila berkenan, mohon diteruskan kepada penanggung jawab klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk WINS Dental",
+    "email_isi": "Yth. Pengelola WINS Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang menampilkan informasi praktik dan panduan kunjungan sore untuk pasien. Konsep dapat ditinjau di https://maxigrowthstudio.com/wins.\n\nProposal PDF kami lampirkan untuk pertimbangan manajemen. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Bila pesan ini diterima tim administrasi, mohon bantu diteruskan kepada pihak yang berwenang.\n\nTerima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

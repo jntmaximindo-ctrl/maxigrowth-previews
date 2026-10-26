@@ -1,0 +1,132 @@
+{
+  "id": "W1705",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Gigi di Tarakan",
+      "en": "Dental Practice Information in Tarakan"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan di drg. Rizky Adrian. Konfirmasikan jadwal dan layanan sebelum datang.",
+      "en": "Explore visit information for drg. Rizky Adrian. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas kesehatan gigi dan mulut.",
+        "en": "Ask about appointments to discuss your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pemeriksaan yang mungkin diperlukan.",
+        "en": "Discuss cavity concerns and possible examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi",
+        "en": "Dental Care Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan yang sesuai setelah pemeriksaan dokter.",
+        "en": "Ask about care options following a dentist's examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan riwayat keluhan dan tanyakan ketersediaan layanan sebelum datang.",
+        "en": "Prepare your dental history and confirm services before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sesi Praktik",
+      "en": "Practice Session Guide"
+    },
+    "penjelasan": {
+      "id": "Panduan pemilihan sesi pagi atau sore berdasarkan hari untuk memudahkan konfirmasi jadwal.",
+      "en": "Review appointment options and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Panduan pemilihan sesi pagi atau sore berdasarkan hari untuk memudahkan konfirmasi jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Praktik tercantum di RT.12 No.54, Karang Balik, Tarakan Barat, Kota Tarakan, Kalimantan Utara 77119.",
+        "en": "The practice is listed at RT.12 No.54, Karang Balik, Tarakan Barat, Kota Tarakan, Kalimantan Utara 77119."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal pemeriksaan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam antardirektori dapat berbeda. Mohon konfirmasi sebelum datang.",
+        "en": "Directory hours can differ. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan ketersediaan jadwal dan dokter.",
+        "en": "Contact the practice to confirm appointments and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan biaya sebelum berkunjung.",
+        "en": "An official price list was not found. Please ask about fees before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan untuk anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Ketersediaan pemeriksaan untuk anak belum dapat dipastikan. Silakan tanyakan langsung.",
+        "en": "Children's appointment availability has not been confirmed. Please ask directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan informasi layanan.",
+    "en": "Contact the practice to ask about hours and services."
+  },
+  "pesan_wa_default": "Halo drg. Rizky Adrian, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola drg. Rizky Adrian, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website dengan panduan sesi praktik berdasarkan informasi publik praktik. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-rizky. Bila berkenan, mohon diteruskan kepada penanggung jawab klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk drg. Rizky Adrian",
+    "email_isi": "Yth. Pengelola drg. Rizky Adrian,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang menampilkan informasi praktik dan panduan sesi praktik untuk pasien. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-rizky.\n\nProposal PDF kami lampirkan untuk pertimbangan manajemen. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Bila pesan ini diterima tim administrasi, mohon bantu diteruskan kepada pihak yang berwenang.\n\nTerima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

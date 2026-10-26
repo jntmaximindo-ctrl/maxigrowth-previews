@@ -1,0 +1,132 @@
+{
+  "id": "W1737",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Gigi di Bekasi",
+      "en": "Dental Practice Information in Bekasi"
+    },
+    "sub": {
+      "id": "Kenali informasi kunjungan di Klinik INDRIA MEDICARE. Konfirmasikan jadwal dan layanan sebelum datang.",
+      "en": "Explore visit information for Klinik INDRIA MEDICARE. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas kesehatan gigi dan mulut.",
+        "en": "Ask about appointments to discuss your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi Berlubang",
+        "en": "Cavity Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi berlubang dan pemeriksaan yang mungkin diperlukan.",
+        "en": "Discuss cavity concerns and possible examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi",
+        "en": "Dental Care Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan yang sesuai setelah pemeriksaan dokter.",
+        "en": "Ask about care options following a dentist's examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Siapkan riwayat keluhan dan tanyakan ketersediaan layanan sebelum datang.",
+        "en": "Prepare your dental history and confirm services before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pemilihan Layanan",
+      "en": "Service Selection Guide"
+    },
+    "penjelasan": {
+      "id": "Pemilih layanan gigi atau layanan medis umum dan panduan konfirmasi jadwal tiap layanan.",
+      "en": "Review appointment options and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Pemilih layanan gigi atau layanan medis umum dan panduan konfirmasi jadwal tiap layanan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Praktik tercantum di D Tamarine, Jl. Raya Kp. Sawah No.R2, RT.005/RW.004, Jatimelati, Pondok Melati, Kota Bekasi, Jawa Barat 17431.",
+        "en": "The practice is listed at D Tamarine, Jl. Raya Kp. Sawah No.R2, RT.005/RW.004, Jatimelati, Pondok Melati, Kota Bekasi, Jawa Barat 17431."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jadwal pemeriksaan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal dari direktori dapat berubah. Mohon konfirmasi sebelum datang.",
+        "en": "Directory hours may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Hubungi praktik untuk menanyakan ketersediaan jadwal dan dokter.",
+        "en": "Contact the practice to confirm appointments and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan biaya sebelum berkunjung.",
+        "en": "An official price list was not found. Please ask about fees before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Klinik tercantum pada daftar rekanan asuransi. Konfirmasikan manfaat dan status polis secara langsung.",
+        "en": "The clinic appears on an insurer's provider list. Confirm coverage and current participation directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk menanyakan jadwal dan informasi layanan.",
+    "en": "Contact the practice to ask about hours and services."
+  },
+  "pesan_wa_default": "Halo Klinik INDRIA MEDICARE, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Bapak/Ibu pengelola Klinik INDRIA MEDICARE, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website dengan panduan pemilihan layanan berdasarkan informasi publik praktik. Konsep dapat ditinjau di https://maxigrowthstudio.com/indria-medicare. Bila berkenan, mohon diteruskan kepada penanggung jawab klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik INDRIA MEDICARE",
+    "email_isi": "Yth. Pengelola Klinik INDRIA MEDICARE,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang menampilkan informasi praktik dan panduan pemilihan layanan untuk pasien. Konsep dapat ditinjau di https://maxigrowthstudio.com/indria-medicare.\n\nProposal PDF kami lampirkan untuk pertimbangan manajemen. Informasi yang belum terverifikasi dapat disesuaikan sebelum publikasi. Bila pesan ini diterima tim administrasi, mohon bantu diteruskan kepada pihak yang berwenang.\n\nTerima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

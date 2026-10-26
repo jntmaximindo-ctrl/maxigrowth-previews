@@ -1,0 +1,132 @@
+{
+  "id": "W1717",
+  "hero": {
+    "judul": {
+      "id": "drg. Sugiarto",
+      "en": "drg. Sugiarto"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Wonosobo.",
+      "en": "Dental care information in Wonosobo."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi dan pemeriksaan",
+        "en": "Consultation and examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan rencana perawatan saat konsultasi.",
+        "en": "Ask about availability and your care plan during consultation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan sebelum berkunjung",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan informasi untuk menyusun pesan kepada praktik. Jadwal dan ketersediaan tindakan perlu dikonfirmasi.",
+      "en": "Explore appointment information and prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Kontak dan lokasi praktik tercantum pada sumber publik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik untuk menanyakan jadwal.",
+        "en": "Contact the clinic to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya kepada klinik sebelum menyetujui tindakan.",
+        "en": "Ask the clinic for a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Tanyakan langsung kepada klinik.",
+        "en": "Insurance information is unconfirmed. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I bring?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen dan informasi yang diperlukan saat membuat janji.",
+        "en": "Ask which documents and information are needed when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jadwal dapat berubah?",
+        "en": "Can appointment times change?"
+      },
+      "a": {
+        "id": "Konfirmasi jadwal dengan klinik sebelum berkunjung.",
+        "en": "Confirm your appointment with the clinic before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan informasi biaya perawatan.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola drg. Sugiarto. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Wonosobo. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-sugiarto. Bila berkenan, silakan melihat susunan informasi kunjungannya. Terima kasih.",
+    "email_subjek": "Konsep website drg. Sugiarto",
+    "email_isi": "Yth. Pengelola drg. Sugiarto,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website berdasarkan informasi praktik Anda di Wonosobo: https://maxigrowthstudio.com/drg-sugiarto.\n\nKonsep ini menyusun informasi kunjungan agar mudah ditinjau. Draf email ini disiapkan untuk digunakan bersama proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau dan memberi koreksi pada informasi klinik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
