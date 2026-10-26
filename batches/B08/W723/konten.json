@@ -1,0 +1,132 @@
+{
+  "id": "W723",
+  "hero": {
+    "judul": {
+      "id": "drg. Jenny Andalia Sutyono",
+      "en": "drg. Jenny Andalia Sutyono"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Bogor.",
+      "en": "Dental care information in Bogor."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit times"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada pengelola sebelum berkunjung.",
+        "en": "Ask the practice about this before your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada pengelola sebelum berkunjung.",
+        "en": "Ask the practice about this before your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Care questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada pengelola sebelum berkunjung.",
+        "en": "Ask the practice about this before your visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi ini kepada pengelola sebelum berkunjung.",
+        "en": "Ask the practice about this before your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang lokasi, jadwal dan biaya sebelum berkunjung.",
+      "en": "Explore appointment information and prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Membantu menyusun pertanyaan dari informasi yang sudah tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik untuk menanyakan jadwal.",
+        "en": "Contact the clinic to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya kepada klinik sebelum menyetujui tindakan.",
+        "en": "Ask the clinic for a cost breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Tanyakan langsung kepada klinik.",
+        "en": "Insurance information is unconfirmed. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I bring?"
+      },
+      "a": {
+        "id": "Tanyakan dokumen dan informasi yang diperlukan saat membuat janji.",
+        "en": "Ask which documents and information are needed when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jadwal dapat berubah?",
+        "en": "Can appointment times change?"
+      },
+      "a": {
+        "id": "Konfirmasi jadwal dengan klinik sebelum berkunjung.",
+        "en": "Confirm your appointment with the clinic before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan informasi biaya perawatan.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola drg. Jenny Andalia Sutyono. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Bogor. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-jenny. Bila berkenan, silakan melihat susunan informasi kunjungannya. Terima kasih.",
+    "email_subjek": "Konsep website drg. Jenny Andalia Sutyono",
+    "email_isi": "Yth. Pengelola drg. Jenny Andalia Sutyono,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website berdasarkan informasi praktik Anda di Bogor: https://maxigrowthstudio.com/drg-jenny.\n\nKonsep ini menyusun informasi kunjungan agar mudah ditinjau. Draf email ini disiapkan untuk digunakan bersama proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau dan memberi koreksi pada informasi klinik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
