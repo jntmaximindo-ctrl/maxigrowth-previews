@@ -70,5 +70,22 @@
   "sumber": [
     "https://www.instagram.com/doktergigikeputih/",
     "https://www.google.com/maps/search/?api=1&query=Dokter+Gigi+Keputih+Surabaya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "catatan": "Perumahan ITS, Jl. Hidrodinamika IV No.71 Blok T, Keputih, Sukolilo, Surabaya, Jawa Timur 60111"
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 162,
+      "catatan": "147 ulasan pada CariBisnis (rating 5.0)"
+    },
+    {
+      "path": "instagram",
+      "tercatat": null,
+      "catatan": "instagram.com/doktergigikeputih"
+    }
   ]
 }

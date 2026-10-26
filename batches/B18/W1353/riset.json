@@ -70,5 +70,22 @@
   "sumber": [
     "https://www.instagram.com/doktergigisurabaya_r1/",
     "https://www.google.com/maps/search/?api=1&query=R1+Dental+Care+Surabaya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": null,
+      "catatan": "Jl. Keputih Makam No.14, Keputih, Sukolilo, Surabaya, Jawa Timur 60111"
+    },
+    {
+      "path": "dokter",
+      "tercatat": [],
+      "catatan": "drg. Isna Nur I.R (tercantum pada nama listing)"
+    },
+    {
+      "path": "maps.src",
+      "tercatat": null,
+      "catatan": "CariBisnis mencantumkan rating 4.9 dan 223 ulasan; URL Google Maps asli tidak dapat dibuka"
+    }
   ]
 }

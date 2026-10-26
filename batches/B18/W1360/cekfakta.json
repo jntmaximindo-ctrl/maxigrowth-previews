@@ -1,0 +1,22 @@
+{
+  "id": "W1360",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "email.src",
+      "tercatat": "https://www.waze.com/live-map/directions/id/jawa-timur/gigi-aesthetic-dental-family-or-dental-care-surabaya?to=place.ChIJX61oSfj81y0Rix06iwF3H9Q",
+      "di_sumber": "Email es301184@gmail.com tercantum pada halaman Contact Us di situs klinik, bukan pada Waze",
+      "src": "https://sites.google.com/getfound.id/gigiaesthetic/home",
+      "catatan": "Nilai email benar menurut website, tetapi URL src pada field email tidak membuktikannya."
+    },
+    {
+      "path": "maps.src",
+      "tercatat": null,
+      "di_sumber": "Rating 4.9 dan 128 ulasan tidak tercantum pada Waze maupun situs klinik yang dibuka",
+      "src": "https://www.waze.com/live-map/directions/id/jawa-timur/gigi-aesthetic-dental-family-or-dental-care-surabaya?to=place.ChIJX61oSfj81y0Rix06iwF3H9Q",
+      "catatan": "Angka rating/ulasan dari surat tugas belum punya sumber langsung."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}
