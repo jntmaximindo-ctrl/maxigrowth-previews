@@ -1,0 +1,132 @@
+{
+  "id": "W1589",
+  "hero": {
+    "judul": {
+      "id": "Homydent - drg. Indah Metrisia",
+      "en": "Homydent - drg. Indah Metrisia"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Labuhan Ratu, Bandar Lampung. Konfirmasikan jadwal dan kebutuhan Anda kepada admin.",
+      "en": "Visit information for Labuhan Ratu, Bandar Lampung. Contact staff to confirm appointments and discuss your needs."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal melalui WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultations"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan jadwal kepada admin. Kebutuhan tindakan ditentukan setelah pemeriksaan dokter.",
+        "en": "Ask staff about availability and scheduling. The dentist will assess your treatment needs during an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan jadwal kepada admin. Kebutuhan tindakan ditentukan setelah pemeriksaan dokter.",
+        "en": "Ask staff about availability and scheduling. The dentist will assess your treatment needs during an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan jadwal kepada admin. Kebutuhan tindakan ditentukan setelah pemeriksaan dokter.",
+        "en": "Ask staff about availability and scheduling. The dentist will assess your treatment needs during an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan jadwal kepada admin. Kebutuhan tindakan ditentukan setelah pemeriksaan dokter.",
+        "en": "Ask staff about availability and scheduling. The dentist will assess your treatment needs during an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, lokasi, biaya atau kebutuhan perawatan. Susun pesan untuk admin sebelum datang.",
+      "en": "Choose questions about appointments, location, fees or treatment needs. Prepare a message for staff before visiting."
+    },
+    "alasan_dipilih": "Kontak publik tersedia, sedangkan jadwal antar sumber berbeda; penyusun pertanyaan membantu konfirmasi sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi 6281386511515 untuk menanyakan jadwal dan pendaftaran di Homydent.",
+        "en": "Contact 6281386511515 to ask about appointments and registration at Homydent."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Pelita I Ujung No.34, Labuhan Ratu, Kec. Labuhan Ratu, Kota Bandar Lampung, Lampung 35142. Konfirmasikan titik lokasi sebelum berangkat.",
+        "en": "The practice is listed at Jalan Pelita I Ujung No.34, Labuhan Ratu, Bandar Lampung35142. Please confirm the map location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal per hari belum terkonfirmasi. Tanyakan jadwal dokter dan pendaftaran kepada admin sebelum datang.",
+        "en": "Daily opening hours have not been confirmed. Ask staff about doctor availability and registration before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya konsultasi dan perkiraan tindakan kepada admin; kebutuhan perawatan ditentukan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask staff about consultation fees and estimates. Treatment needs are determined after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terkonfirmasi. Tanyakan persyaratan dan dokumen kepada admin.",
+        "en": "Insurance and BPJS arrangements have not been confirmed. Ask staff about eligibility and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan Anda",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo admin Homydent, saya ingin menanyakan jadwal dan pendaftaran. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Homydent. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi praktik Anda di Jalan Pelita I, Bandar Lampung. Kami menyiapkan konsep informasi kunjungan dengan lokasi, kontak dan pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/homydent-drg. Saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com. Terima kasih.",
+    "email_subjek": "Konsep informasi kunjungan Homydent",
+    "email_isi": "Yth. Pengelola Homydent,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi praktik di Jalan Pelita I, Labuhan Ratu, menjadi dasar konsep informasi kunjungan yang memuat lokasi, kontak dan pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/homydent-drg. Proposal PDF perlu dilampirkan setelah konsep siap ditinjau. Informasi yang belum lengkap dapat dikonfirmasi sebelum publikasi.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
