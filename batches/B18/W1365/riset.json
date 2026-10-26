@@ -1,0 +1,80 @@
+{
+  "id": "W1365",
+  "nama": {
+    "v": "Klinik Sarang Medika Greenlakecity",
+    "src": "https://linktr.ee/sarangmedika",
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "kota": "Tangerang",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/sarangmedika/",
+    "src": "https://linktr.ee/sarangmedika",
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-26",
+    "yakin": "sedang"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik Sarang Medika Greenlakecity",
+      "alamat": {
+        "v": "Komplek Greenlakecity Rukan CBD Blok F No.1-2, RT.06/RW.08, Gondrong, Cipondoh, Tangerang, Banten 15148",
+        "src": "https://linktr.ee/sarangmedika",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "628118716826",
+        "src": "https://linktr.ee/sarangmedika",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "628118716826",
+        "src": "https://linktr.ee/sarangmedika",
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/place/Klinik%2BSarang%2BMedika%2BGreenlakecity%2B(Praktek%2BDokter,%2BDokter%2BGigi,%2BFarmasi,%2BLaboratorium)/@-6.1847347,106.6992129,15z/data=!4m5!3m4!1s0x0:0x131a0b217b923a92!8m2!3d-6.1847347!4d106.6992129"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Praktik dokter umum",
+    "Praktik dokter gigi",
+    "Farmasi",
+    "Laboratorium"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-26"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Situs mandiri resmi belum ditemukan dalam penelusuran."
+  ],
+  "ide_fitur_khas": "Pemilih pertanyaan kunjungan untuk menyusun pesan reservasi.",
+  "catatan": "Revisi maps_url agar bertipe string. WA diambil dari target tautan resmi Linktree. Email tidak ditemukan setelah pencarian nama/email dan pembukaan Linktree, Medicastore serta percobaan Instagram (throttled). Jadwal dan dokter belum ditemukan. Harga [] karena belum ditemukan tarif resmi terverifikasi. Rating/ulasan Maps belum diverifikasi langsung, sehingga null. Nama dokter/jadwal belum terverifikasi. Layanan tercantum pada Linktree klinik. Sumber layanan: https://linktr.ee/sarangmedika",
+  "sumber": [
+    "https://linktr.ee/sarangmedika",
+    "https://medicastore.com/faskes/detail?faskes=klinik-sarang-medika-3-MTY4NjU%3D",
+    "https://www.instagram.com/sarangmedika/"
+  ]
+}

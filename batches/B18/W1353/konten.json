@@ -1,0 +1,132 @@
+{
+  "id": "W1353",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi Surabaya R1 Dental Care (drg. Isna Nur I.R)",
+      "en": "Praktek Dokter Gigi Surabaya R1 Dental Care (drg. Isna Nur I.R)"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Surabaya",
+      "en": "Plan your visit in Surabaya"
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan: Pemeriksaan gigi",
+        "en": "Ask about dental assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Ask the clinic about availability and any assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Perawatan gigi anak",
+        "en": "Ask about children's dental care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Ask the clinic about availability and any assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Perawatan berkala",
+        "en": "Ask about routine dental care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Ask the clinic about availability and any assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan: Pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Ask the clinic about availability and any assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi yang ingin ditanyakan sebelum membuat janji.",
+      "en": "Choose what you would like to ask before arranging a visit."
+    },
+    "alasan_dipilih": "Membantu pasien menyusun pertanyaan tanpa menjanjikan tindakan yang belum dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal melalui WhatsApp yang tercantum.",
+        "en": "Ask about availability using the listed WhatsApp number."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah estimasi kepada klinik.",
+        "en": "Prices are not available here. Ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal terbaru sebelum berkunjung.",
+        "en": "Confirm the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terkonfirmasi. Tanyakan syaratnya kepada admin.",
+        "en": "This has not been confirmed. Ask the clinic about requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan untuk anak?",
+        "en": "Are children's appointments available?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan dan persiapan sesuai usia anak kepada klinik.",
+        "en": "Ask the clinic about availability and preparation for your child's age."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik",
+    "en": "Contact the clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan informasi persiapannya.",
+  "outreach": {
+    "wa": "Yth. pengelola Praktek Dokter Gigi Surabaya R1 Dental Care (drg. Isna Nur I.R), saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Anda di Surabaya. Kami mengusulkan konsep website dengan alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/surabaya-r1. Bila berkenan, kami dapat membahas kebutuhan informasi klinik. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Dokter Gigi Surabaya R1 Dental Care (drg. Isna Nur I.R)",
+    "email_isi": "Yth. pengelola Praktek Dokter Gigi Surabaya R1 Dental Care (drg. Isna Nur I.R),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan konsep website untuk informasi klinik di Surabaya. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/surabaya-r1. Proposal PDF disiapkan sebagai lampiran untuk ditinjau. Bila berkenan, kami dapat membahas kebutuhan informasi pasien.\n\nMuhammad Rizqi Tri Andika\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
