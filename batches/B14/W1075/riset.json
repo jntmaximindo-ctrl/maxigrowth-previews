@@ -89,5 +89,22 @@
     "https://lokari.id/apotek-pratama-cebongan-klinik-gigi-kanina-sleman_047eBQW0xz",
     "https://lynk.id/informasidanpendaftarankanina",
     "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Kanina%20Cebongan%20Kabupaten%20Sleman"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "catatan": "6285218581993"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Konsultasi kawat gigi (perlu konfirmasi)"
+      ],
+      "catatan": "Daftar agregator"
+    }
   ]
 }

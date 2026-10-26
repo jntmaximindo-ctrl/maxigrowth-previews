@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.instagram.com/healthymouthdentalcare/?hl=en",
     "https://dinkes.pekalongankota.go.id/berita/dinkes-kota-pekalongan-kawal-mutu-kelayakan-fasilitas-kesehatan-gigi.html"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.instagram.com/healthymouthdentalcare/?hl=en",
+      "catatan": "0877-5524-7343 cocok teks hasil pencarian profil Instagram"
+    },
+    {
+      "path": "nama.src",
+      "tercatat": "https://www.instagram.com/healthymouthdentalcare/?hl=en",
+      "catatan": "Nama HMDC dan alamat No.136A cocok berita Dinkes"
+    }
   ]
 }

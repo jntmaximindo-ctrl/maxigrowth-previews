@@ -1,0 +1,28 @@
+{
+  "id": "W1369",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Konsultasi gigi"
+      ],
+      "di_sumber": "Daftar provider memberi identitas dan kontak, tidak merinci dua layanan tersebut.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
+      "catatan": "Jangan memperlakukan layanan generik sebagai fakta terverifikasi hanya dari kategori dental. Nama, alamat dan ponsel cocok cuplikan provider September 2025; sumber lama, bukan bukti status kemitraan saat ini."
+    },
+    {
+      "path": "email",
+      "tercatat": null,
+      "di_sumber": "hitodental@gmail.com pada cuplikan provider September 2025.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-sept-2025.pdf?app=true",
+      "catatan": "Saran pengayaan dengan sumber dan umur data; PDF langsung hanya menampilkan Loading."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
+    "https://www.calina.id/jelajahi/kota-jakarta-barat/dental-clinic/"
+  ],
+  "kritis_ok": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": "W1498",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://www.semuabis.com/dentalife-%7C-dental-care-0823-4275-1014",
+      "di_sumber": "Semuabis 429; alamat Jalan Pahlawan No.4 cocok Cybo dan artikel Bali",
+      "src": "https://bukutelepon.cybo.com/ID/singaraja-%28kota%29/dokter-gigi",
+      "catatan": "Nilai didukung sumber alternatif, tetapi asal fakta yang tercatat tidak terbaca."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.semuabis.com/dentalife-%7C-dental-care-0823-4275-1014",
+      "di_sumber": "Nomor 6282342751014 cocok Cybo dan artikel Bali",
+      "src": "https://bpjs.ca/dokter-gigi-bali/",
+      "catatan": "Nomor publik dapat dipakai sesuai instruksi pemilik; src Semuabis tidak tersedia pada pemeriksaan ini."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "11-21",
+        "sel": null,
+        "rab": "11-21",
+        "kam": "11-21",
+        "jum": "11-21",
+        "sab": "11-21",
+        "min": "tutup"
+      },
+      "di_sumber": "Artikel Bali menyebut Senin-Selasa 16-21, Rabu-Sabtu 11-21",
+      "src": "https://bpjs.ca/dokter-gigi-bali/",
+      "catatan": "Sumber jam Semuabis 429; Senin 11-21 belum tersahkan dan berbeda dari artikel. Tidak mengubah riset."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Konsultasi gigi tiruan (perlu konfirmasi)"
+      ],
+      "di_sumber": "Daftar tindakan pada artikel Bali",
+      "src": "https://bpjs.ca/dokter-gigi-bali/",
+      "catatan": "Frasa tercantum pada sumber sekunder, bukan bukti dari kanal klinik; penanda perlu konfirmasi tetap diperlukan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dentalife-%7C-dental-care-0823-4275-1014"
+  ],
+  "kritis_ok": true
+}

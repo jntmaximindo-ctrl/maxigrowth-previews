@@ -82,5 +82,17 @@
     "https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-yadika-cibubur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/klinik-dental-theory/scaling-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "catatan": "Telepon tetap 0218500478"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0218500478",
+      "catatan": "0218500478"
+    }
   ]
 }

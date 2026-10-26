@@ -1,0 +1,132 @@
+{
+  "id": "W1518",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan Mutiara Dental Care",
+      "en": "Plan a Mutiara Dental Care visit"
+    },
+    "sub": {
+      "id": "Tanyakan lokasi dan jadwal praktik di Dumai sebelum datang.",
+      "en": "Confirm the Dumai practice location and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Konfirmasikan ketersediaan dan kebutuhan pemeriksaan.",
+        "en": "This service appears in a directory. Confirm availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Konfirmasikan ketersediaan dan kebutuhan pemeriksaan.",
+        "en": "This service appears in a directory. Confirm availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Konfirmasikan ketersediaan dan kebutuhan pemeriksaan.",
+        "en": "This service appears in a directory. Confirm availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan layanan ini. Konfirmasikan ketersediaan dan kebutuhan pemeriksaan.",
+        "en": "This service appears in a directory. Confirm availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan lokasi, waktu kunjungan, dan biaya sebelum membuat janji.",
+      "en": "Prepare questions about location, availability and fees before requesting an appointment."
+    },
+    "alasan_dipilih": "Perbedaan alamat dan jadwal antar direktori memerlukan konfirmasi; fitur ini usulan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat berbeda antar direktori. Tanyakan lokasi saat ini sebelum datang.",
+        "en": "Directory addresses differ. Ask for the current location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Jam belum dipastikan karena sumber berbeda. Tanyakan jadwal terbaru.",
+        "en": "Hours differ across sources. Ask for current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan perkiraan biaya setelah menyampaikan kebutuhan pemeriksaan.",
+        "en": "Prices are unavailable. Ask for an estimate based on your assessment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi penjamin belum ditemukan. Konfirmasikan kepada klinik.",
+        "en": "Coverage details are unavailable. Confirm with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah anak dapat diperiksa?",
+        "en": "Can children attend?"
+      },
+      "a": {
+        "id": "Direktori menyebut pasien anak. Tanyakan ketersediaan sesuai usia anak.",
+        "en": "A directory mentions children. Ask about availability for your child's age."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the practice to plan a visit"
+  },
+  "pesan_wa_default": "Halo Mutiara Dental Care Dumai, saya ingin menanyakan lokasi praktik saat ini, jadwal pemeriksaan dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Mutiara Dental Care Dumai. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda pada direktori Dumai dan menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/mutiara. Konsep berfokus pada informasi lokasi dan kunjungan. Bila berkenan, kami dapat membahas penyesuaiannya. Terima kasih.",
+    "email_subjek": "Konsep website Mutiara Dental Care Dumai",
+    "email_isi": "Yth. Pengelola Mutiara Dental Care Dumai,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi praktik Anda pada direktori Dumai menjadi dasar konsep halaman lokasi dan kunjungan di https://maxigrowthstudio.com/mutiara.\n\nProposal PDF terlampir saat paket penawaran dikirim. Tautan konsep dan lampiran perlu dipastikan tersedia sebelum draf ini digunakan. Bila berkenan, kami dapat membahas penyesuaian informasi praktik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

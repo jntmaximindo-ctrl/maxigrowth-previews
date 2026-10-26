@@ -1,0 +1,132 @@
+{
+  "id": "W1326",
+  "hero": {
+    "judul": {
+      "id": "Informasi Your Dental Care Lombok",
+      "en": "Your Dental Care Lombok information"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan perawatan dan rencana kunjungan Anda.",
+      "en": "Prepare your care questions and plan your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "Ask the clinic about availability and assessment requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari lalu susun pertanyaan untuk konfirmasi jadwal melalui WhatsApp.",
+      "en": "Choose a day and prepare a WhatsApp message to confirm availability."
+    },
+    "alasan_dipilih": "Usulan fitur berdasarkan variasi jam praktik yang tercantum di direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request a visit?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal melalui WhatsApp dan tunggu konfirmasi.",
+        "en": "Ask via WhatsApp and wait for confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka Sabtu?",
+        "en": "Is Saturday available?"
+      },
+      "a": {
+        "id": "Direktori mencatat Sabtu 10.00–19.00 WITA. Konfirmasikan sebelum datang.",
+        "en": "The directory lists Saturday 10 am–7 pm local time. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia; tanyakan perkiraan biaya kepada klinik.",
+        "en": "Prices are unavailable; ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Silakan tanyakan kepada klinik.",
+        "en": "Insurance arrangements are unverified. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan behel?",
+        "en": "How can I ask about braces?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan konsultasi dan jadwal pemeriksaan.",
+        "en": "Ask about consultation availability and assessment appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi",
+    "en": "Contact the clinic to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal, lokasi terkini, dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola Your Dental Care Lombok, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Anda di Mataram dan telah membuat konsep website untuk dilihat di https://maxigrowthstudio.com/your-lombok. Bila berkenan, kami dapat menjelaskan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website Your Dental Care Lombok",
+    "email_isi": "Yth. Pengelola Your Dental Care Lombok,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi praktik Anda di Mataram menjadi dasar konsep website yang kami susun. Silakan lihat https://maxigrowthstudio.com/your-lombok. Proposal PDF terlampir untuk ditinjau saat paket penawaran dikirim. Bila berkenan, kami dapat menjelaskan konsepnya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

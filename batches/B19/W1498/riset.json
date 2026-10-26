@@ -90,5 +90,40 @@
     "https://bukutelepon.cybo.com/ID/singaraja-%28kota%29/dokter-gigi",
     "https://bukutelepon.cybo.com/ID/singaraja-%28kota%29/dokter-gigi",
     "https://bpjs.ca/dokter-gigi-bali/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat.src",
+      "tercatat": "https://www.semuabis.com/dentalife-%7C-dental-care-0823-4275-1014",
+      "catatan": "Semuabis 429; alamat Jalan Pahlawan No.4 cocok Cybo dan artikel Bali"
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.semuabis.com/dentalife-%7C-dental-care-0823-4275-1014",
+      "catatan": "Nomor 6282342751014 cocok Cybo dan artikel Bali"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "11-21",
+        "sel": null,
+        "rab": "11-21",
+        "kam": "11-21",
+        "jum": "11-21",
+        "sab": "11-21",
+        "min": "tutup"
+      },
+      "catatan": "Artikel Bali menyebut Senin-Selasa 16-21, Rabu-Sabtu 11-21"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Scaling (perlu konfirmasi)",
+        "Penambalan gigi (perlu konfirmasi)",
+        "Konsultasi gigi tiruan (perlu konfirmasi)"
+      ],
+      "catatan": "Daftar tindakan pada artikel Bali"
+    }
   ]
 }

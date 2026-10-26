@@ -1,0 +1,24 @@
+{
+  "id": "W1448",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://www.instagram.com/healthymouthdentalcare/?hl=en",
+      "di_sumber": "0877-5524-7343 cocok teks hasil pencarian profil Instagram",
+      "src": "https://www.instagram.com/healthymouthdentalcare/?hl=en",
+      "catatan": "Buka langsung throttled, tetapi teks indeks akun yang sama menyebut nomor reservasi dan alamat No.136A. Nilai didukung indeks, bukan pembacaan profil langsung."
+    },
+    {
+      "path": "nama.src",
+      "tercatat": "https://www.instagram.com/healthymouthdentalcare/?hl=en",
+      "di_sumber": "Nama HMDC dan alamat No.136A cocok berita Dinkes",
+      "src": "https://dinkes.pekalongankota.go.id/berita/dinkes-kota-pekalongan-kawal-mutu-kelayakan-fasilitas-kesehatan-gigi.html",
+      "catatan": "Dinkes adalah sumber alternatif untuk identitas/alamat; tidak membuktikan perizinan akhir atau fasilitas telah lengkap."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/healthymouthdentalcare/?hl=en"
+  ],
+  "kritis_ok": true
+}

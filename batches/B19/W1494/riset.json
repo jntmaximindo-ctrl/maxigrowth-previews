@@ -71,5 +71,12 @@
     "https://caribisnis.id/dokter-gigi/bogor/tanah-sareal/praktek-mandiri-drg-damayanti--tana-imp1",
     "https://drive.google.com/file/d/1Z8rG0hNZ9wZbxTsLU895eOBTqWwAVTHd/view",
     "https://www.instagram.com/damayantisoenardi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.src / cabang[0].wa.src",
+      "tercatat": "62881025955901",
+      "catatan": "Nilai cocok hasil CARI internal; halaman direktori menampilkan tombol WA tetapi target nomor gagal dibuka pada pemeriksaan ini."
+    }
   ]
 }

@@ -75,5 +75,20 @@
   "sumber": [
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
     "https://www.calina.id/jelajahi/kota-jakarta-barat/dental-clinic/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Pemeriksaan gigi",
+        "Konsultasi gigi"
+      ],
+      "catatan": "Daftar provider memberi identitas dan kontak, tidak merinci dua layanan tersebut."
+    },
+    {
+      "path": "email",
+      "tercatat": null,
+      "catatan": "hitodental@gmail.com pada cuplikan provider September 2025."
+    }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "W950",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "di_sumber": "Hanya telepon tetap 0318950521 pada sumber terbaca",
+      "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
+      "catatan": "Nama, gelar, alamat dan jam cocok. Kontak WA belum tersedia; jangan mengubah telepon tetap menjadi WA."
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Konservasi Gigi (Sp.KG)",
+      "di_sumber": "Gelar Sp.KG terlihat di artikel/IDalamat; URL Bukaminggu timeout",
+      "src": "https://bukaminggu.com/dokter-gigi-sidoarjo/",
+      "catatan": "Asal fakta tidak terbaca. Gelar didukung sumber alternatif, tetapi uraian spesialis perlu rujukan yang dapat dibaca."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukaminggu.com/dokter-gigi-sidoarjo/"
+  ],
+  "kritis_ok": false
+}

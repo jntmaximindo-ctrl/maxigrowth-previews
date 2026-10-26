@@ -1,0 +1,15 @@
+{
+  "id": "W1485",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].telepon.src / cabang[0].wa.src",
+      "tercatat": "6287880628533",
+      "di_sumber": "Nilai cocok hasil CARI internal; halaman direktori menampilkan tombol WA tetapi target nomor gagal dibuka pada pemeriksaan ini.",
+      "src": "https://drive.google.com/file/d/1YScBQbt-Mm1eZurx0eWIItFBZZ5ibQ4V/view",
+      "catatan": "Belum ada pembuktian nomor independen dalam sumber yang berhasil dibaca. Bukan bukti nomor salah; nomor ponsel publik tetap boleh dianggap WA sesuai instruksi pengguna."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

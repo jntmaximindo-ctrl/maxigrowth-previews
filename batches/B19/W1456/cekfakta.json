@@ -1,0 +1,31 @@
+{
+  "id": "W1456",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "nama.src",
+      "tercatat": "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
+      "di_sumber": "Hasil CARI internal; profil cempakadental terindeks sebagai Pekalongan",
+      "src": "https://www.instagram.com/cempakadental/",
+      "catatan": "Sumber internal bukan bukti independen. Teks indeks profil cocok nama/kota dan nomor 085713491997, tetapi halaman langsung tidak terbaca."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cempaka No.78, Poncol, Pekalongan Timur, Kota Pekalongan, Jawa Tengah 51122",
+      "di_sumber": null,
+      "src": "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
+      "catatan": "Alamat lengkap No.78 hanya terbaca pada hasil CARI internal; hasil pencarian tambahan belum cukup untuk mengesahkan nomor bangunan. Tidak menyatakan alamat salah."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
+      "di_sumber": "085713491997 pada teks indeks profil cempakadental",
+      "src": "https://www.instagram.com/cempakadental/",
+      "catatan": "Ponsel publik cocok; gunakan bukti profil publik sebagai asal fakta saat revisi. Tidak ada pesan dikirim."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/cempakadental/"
+  ],
+  "kritis_ok": false
+}

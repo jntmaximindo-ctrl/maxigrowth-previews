@@ -107,32 +107,14 @@
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].jam.v",
-      "tercatat": {
-        "sen": "07-11,12-16,17-21",
-        "sel": "07-11,12-16,17-21",
-        "rab": "07-11,12-16,17-21",
-        "kam": "07-11,12-16,17-21",
-        "jum": "07-11,12-16,17-21",
-        "sab": "07-11,17-21",
-        "min": "07-11,17-21"
-      },
-      "catatan": "Sumber dapat dibaca; jadwal terstruktur belum disahkan."
-    },
-    {
-      "path": "layanan[0]",
-      "tercatat": "Praktik dokter umum (jenis praktik tercantum pada nama lokasi)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "layanan[1]",
-      "tercatat": "Praktik dokter gigi (jenis praktik tercantum pada nama lokasi)",
-      "catatan": "Frasa layanan tidak ditemukan secara literal pada sumber terbaca. Jangan menyimpulkan layanan tersedia hanya dari kategori praktik atau ulasan pasien; perlu sumber dan konfirmasi."
-    },
-    {
-      "path": "cabang[].wa",
+      "path": "cabang[0].wa",
       "tercatat": null,
-      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
+      "catatan": "Telepon tetap 03199710850"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Vera",
+      "catatan": "Nama singkat drg. Vera pada judul Waze"
     }
   ]
 }

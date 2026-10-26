@@ -89,5 +89,37 @@
     "https://linktr.ee/senyumdental",
     "https://drive.google.com/file/d/19hxXg8TwuMlv_SB35kQOQ1l_sDencNhy/view",
     "https://www.google.com/maps/search/?api=1&query=Senyum%20Dental%20Jatisampurna%20Bekasi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "092037352",
+      "catatan": "Sumber AlamatSehat 429. Nomor berformat tidak lazim belum dapat disahkan; jangan dipakai sebagai WA."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "catatan": "Linktree menautkan 6282299888677, tetapi Maps mengarah Sunter Jakarta Utara"
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": 4.9,
+        "ulasan": 156,
+        "src": "https://drive.google.com/file/d/19hxXg8TwuMlv_SB35kQOQ1l_sDencNhy/view",
+        "tgl": "2026-10-26"
+      },
+      "catatan": "Angka berasal surat tugas internal"
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Pemeriksaan gigi umum",
+        "Konsultasi gigi berlubang",
+        "Konsultasi perawatan gigi"
+      ],
+      "catatan": "Sumber tidak tersedia dan identitas Linktree tidak cocok lokasi. Belum ada bukti daftar tindakan untuk Jatisampurna."
+    }
   ]
 }

@@ -70,5 +70,12 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/jakarta-selatan/kebayoran-baru/nagata-dental-harapan-indah-keba-imp1",
     "https://drive.google.com/file/d/1YScBQbt-Mm1eZurx0eWIItFBZZ5ibQ4V/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon.src / cabang[0].wa.src",
+      "tercatat": "6281196003736",
+      "catatan": "Nilai cocok hasil CARI internal; halaman direktori menampilkan tombol WA tetapi target nomor gagal dibuka pada pemeriksaan ini."
+    }
   ]
 }

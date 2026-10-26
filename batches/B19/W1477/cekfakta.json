@@ -1,0 +1,15 @@
+{
+  "id": "W1477",
+  "diperiksa": 12,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Griya Karang Indah B2",
+      "di_sumber": "Halaman dontidenta menyebut B2; Cybo untuk nama dan nomor sama menyebut ruko B3.",
+      "src": "https://bukutelepon.cybo.com/ID/kabupaten-banyumas/dokter-gigi",
+      "catatan": "Perbedaan nomor unit belum terselesaikan, bukan bukti otomatis bahwa B2 salah. Dua dokter dan enam layanan cocok halaman yang dirujuk, namun kepemilikan subdomain perlu diperhatikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

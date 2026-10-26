@@ -70,5 +70,22 @@
   "sumber": [
     "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
     "https://www.instagram.com/cempakadental/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama.src",
+      "tercatat": "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
+      "catatan": "Hasil CARI internal; profil cempakadental terindeks sebagai Pekalongan"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cempaka No.78, Poncol, Pekalongan Timur, Kota Pekalongan, Jawa Tengah 51122",
+      "catatan": "Alamat lengkap No.78 hanya terbaca pada hasil CARI internal; hasil pencarian tambahan belum cukup untuk mengesahkan nomor bangunan. Tidak menyatakan alamat salah."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://drive.google.com/file/d/1kexflY3kwwk_LXQLzrR7-xqV6Tap1aUQ/view",
+      "catatan": "085713491997 pada teks indeks profil cempakadental"
+    }
   ]
 }

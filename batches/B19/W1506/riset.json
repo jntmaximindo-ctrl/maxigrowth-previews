@@ -71,5 +71,12 @@
     "https://caribisnis.id/dokter-gigi/depok/cipayung/praktek-drg-elyta-sari-m-biome-cipa-imp1",
     "https://drive.google.com/file/d/1ES-OkQMo-8OpEKMy8n0t850Ig0VmsOMb/view",
     "https://www.practo.com/depok/clinic/drg-elyta-sari"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon / cabang[0].wa",
+      "tercatat": "6281287795199",
+      "catatan": "Cocok hasil CARI internal; target WA direktori belum berhasil dibaca."
+    }
   ]
 }
