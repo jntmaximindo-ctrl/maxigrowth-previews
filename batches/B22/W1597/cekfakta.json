@@ -1,0 +1,25 @@
+{
+  "id": "W1597",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi",
+        "Ekstraksi gigi",
+        "Restorasi gigi",
+        "Perawatan syaraf gigi",
+        "Protesa",
+        "Crown/bridge",
+        "Bleaching gigi"
+      ],
+      "di_sumber": "Halaman Dental.id yang dijadikan rujukan layanan mengembalikan 502 Bad Gateway; Semuabis dan Cybo hanya mengonfirmasi identitas, alamat, telepon, dan jam, bukan tujuh layanan tersebut.",
+      "src": "https://dental.id/praktek-drg-hasri-haya/",
+      "catatan": "Layanan belum dapat diverifikasi langsung, bukan dinyatakan salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://dental.id/praktek-drg-hasri-haya/"
+  ],
+  "kritis_ok": true
+}

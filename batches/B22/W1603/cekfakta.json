@@ -1,0 +1,17 @@
+{
+  "id": "W1603",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": null,
+      "di_sumber": "Semuabis mencantumkan setiap hari 06.00–22.30, sedangkan Waze mencantumkan setiap hari 09.00–21.00.",
+      "src": "https://www.waze.com/id/live-map/directions/id/jawa-timur/dokter-gigi-tulus-purnomo-madiun?to=place.ChIJQ2Uqq_6-eS4R4U_gBhy25x8",
+      "catatan": "Konflik jadwal sudah ditandai dalam catatan riset; nilai null tepat hingga dikonfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://dokter-gigi-tulus-purnomo.business.site/"
+  ],
+  "kritis_ok": true
+}

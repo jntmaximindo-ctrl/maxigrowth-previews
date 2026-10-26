@@ -109,5 +109,20 @@
     "https://dental.id/praktek-drg-hasri-haya/",
     "https://www.semuabis.com/praktek-dokter-gigi-hasri-haya-0852-4263-6424",
     "https://bukutelepon.cybo.com/ID/kota-kendari/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi",
+        "Ekstraksi gigi",
+        "Restorasi gigi",
+        "Perawatan syaraf gigi",
+        "Protesa",
+        "Crown/bridge",
+        "Bleaching gigi"
+      ],
+      "catatan": "Halaman Dental.id yang dijadikan rujukan layanan mengembalikan 502 Bad Gateway; Semuabis dan Cybo hanya mengonfirmasi identitas, alamat, telepon, dan jam, bukan tujuh layanan tersebut."
+    }
   ]
 }

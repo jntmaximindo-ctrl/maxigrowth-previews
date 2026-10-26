@@ -72,5 +72,12 @@
     "https://www.semuabis.com/dokter-gigi-tulus-purnomo-madiun-0812-3407-160",
     "https://www.waze.com/id/live-map/directions/id/jawa-timur/dokter-gigi-tulus-purnomo-madiun?to=place.ChIJQ2Uqq_6-eS4R4U_gBhy25x8",
     "https://dokter-gigi-tulus-purnomo.business.site/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": null,
+      "catatan": "Semuabis mencantumkan setiap hari 06.00–22.30, sedangkan Waze mencantumkan setiap hari 09.00–21.00."
+    }
   ]
 }

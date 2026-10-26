@@ -92,5 +92,12 @@
   "sumber": [
     "https://idalamat.com/alamat/drg-rahmi-rahmita-1058549",
     "https://poltekkes.web.id/dokter-gigi-lhokseumawe/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": null,
+      "catatan": "IDalamat mencantumkan Senin–Sabtu 16.00–22.00 dan Minggu tutup; sumber Poltekkes yang disebut dalam catatan riset tidak dapat dibuka ulang untuk menguji konflik jam Minggu."
+    }
   ]
 }
