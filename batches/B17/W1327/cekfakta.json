@@ -1,0 +1,17 @@
+{
+  "id": "W1327",
+  "diperiksa": 17,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "tutup",
+      "di_sumber": "DokterTanya hanya menyebut Senin–Sabtu; tidak secara eksplisit menyebut Minggu tutup.",
+      "src": "https://doktertanya.com/dokter-gigi-mataram/",
+      "catatan": "Sebaiknya Minggu null sampai ada sumber eksplisit. Nama, alamat, nomor dan delapan layanan cocok dengan direktori yang disebut; bukan konfirmasi layanan langsung klinik."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/ninidentalcare/"
+  ],
+  "kritis_ok": true
+}

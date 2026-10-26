@@ -80,5 +80,12 @@
   "sumber": [
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-jambi/",
     "https://www.google.com/maps/search/?api=1&query=Praktik%20Dokter%20Gigi%20Duodenta%20Jambi&query_place_id=ChIJVwnRkJuJJS4Ro0eGJIL9LrM"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan[0]",
+      "tercatat": "Konsultasi dokter gigi",
+      "catatan": "Entri mendukung identitas, alamat, nomor dan jam; tidak memuat daftar layanan klinik. Jadikan konsultasi topik pertanyaan, bukan tindakan yang dipastikan tersedia. WA merupakan asumsi nomor ponsel publik sesuai instruksi."
+    }
   ]
 }
