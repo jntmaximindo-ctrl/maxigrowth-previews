@@ -1,12 +1,15 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
 {
-  "id": "W1365",
+  "id": "W1355",
   "nama": {
-    "v": "Klinik Sarang Medika Greenlakecity",
-    "src": "https://linktr.ee/sarangmedika",
+    "v": "El Dental by drg. Lisa M",
+    "src": "https://caribisnis.id/dokter-gigi/surabaya/tegalsari/el-dental-by-drg-lisa-m-tega-imp1",
     "tgl": "2026-10-26",
     "yakin": "sedang"
   },
-  "kota": "Tangerang",
+  "kota": "Surabaya",
   "zona_waktu": "WIB",
   "instagram": {
     "v": null,
@@ -22,10 +25,10 @@
   },
   "cabang": [
     {
-      "nama": "Klinik Sarang Medika Greenlakecity",
+      "nama": "El Dental by drg. Lisa M",
       "alamat": {
-        "v": "Komplek Greenlakecity Rukan CBD Blok F No.1-2, Gondrong, Cipondoh, Tangerang, Banten 15148",
-        "src": "https://linktr.ee/sarangmedika",
+        "v": "Jl. Sriwijaya No.28, Keputran, Tegalsari, Surabaya, Jawa Timur 60265",
+        "src": "https://caribisnis.id/dokter-gigi/surabaya/tegalsari/el-dental-by-drg-lisa-m-tega-imp1",
         "tgl": "2026-10-26",
         "yakin": "sedang"
       },
@@ -47,22 +50,22 @@
         "tgl": "2026-10-26",
         "yakin": "rendah"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik+Sarang+Medika+Greenlakecity"
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=El+Dental+by+drg.+Lisa+M"
     }
   ],
   "dokter": [],
   "layanan": [
-    "Praktik dokter umum",
-    "Praktik dokter gigi",
-    "Farmasi",
-    "Laboratorium"
+    "Scaling",
+    "Tambal gigi",
+    "Kawat gigi",
+    "Veneer"
   ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.9,
-    "ulasan": 132,
+    "rating": 5,
+    "ulasan": 102,
     "src": null,
     "tgl": "2026-10-26"
   },
@@ -73,19 +76,19 @@
   "ide_fitur_khas": "Panduan persiapan kunjungan dan permintaan informasi",
   "catatan": "Nama/rating/ulasan awal dari surat antrean, belum diverifikasi langsung pada Google Maps. Nomor publik dianggap WA asumsi dan tidak diverifikasi sebagai akun. Harga tidak tersedia dari sumber resmi. Email belum ditemukan setelah pemeriksaan sumber yang tercantum. Konfirmasi lokasi dan layanan sebelum publikasi.",
   "sumber": [
-    "https://linktr.ee/sarangmedika",
-    "https://medicastore.com/faskes/detail?faskes=klinik-sarang-medika-3-MTY4NjU%3D"
+    "https://caribisnis.id/dokter-gigi/surabaya/tegalsari/el-dental-by-drg-lisa-m-tega-imp1",
+    "https://www.google.com/maps/place/?q=place_id:ChIJLfNxC1D71y0RMO1Np86PUU8"
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].wa",
-      "tercatat": null,
-      "catatan": "628118716826 (tautan wa.me/628118716826 dari Linktree)"
+      "path": "maps.ulasan",
+      "tercatat": 102,
+      "catatan": "101 ulasan (rating 5.0) pada CariBisnis"
     },
     {
-      "path": "cabang[0].telepon",
+      "path": "maps.src",
       "tercatat": null,
-      "catatan": "0811-8716-826 (ditampilkan sebagai 811-871-682-6)"
+      "catatan": "URL Google Maps tidak dapat dibuka langsung; CariBisnis menampilkan rating 5.0 dari 101 ulasan"
     }
   ]
 }
