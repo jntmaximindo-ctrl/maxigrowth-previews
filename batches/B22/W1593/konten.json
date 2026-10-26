@@ -1,0 +1,132 @@
+{
+  "id": "W1593",
+  "hero": {
+    "judul": {
+      "id": "Drg. Virma D.P. Putra",
+      "en": "Drg. Virma D.P. Putra"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Junrejo, Kota Batu.",
+      "en": "Visit information for a dental practice in Junrejo, Batu."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Mentioned in a public directory. Confirm availability; treatment needs are assessed after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Mentioned in a public directory. Confirm availability; treatment needs are assessed after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Mentioned in a public directory. Confirm availability; treatment needs are assessed after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Disebut dalam direktori publik. Konfirmasikan ketersediaan; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Mentioned in a public directory. Confirm availability; treatment needs are assessed after an examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan untuk menanyakan jadwal dan persiapan kepada praktik.",
+      "en": "Choose a care topic to ask the practice about appointments and preparation."
+    },
+    "alasan_dipilih": "Jadwal publik berbeda; daftar pertanyaan membantu pasien mengonfirmasi informasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jln Rasemun No.8, Tlekung, Junrejo, Kota Batu.",
+        "en": "Directories list Jln Rasemun No.8, Tlekung, Junrejo, Batu."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal antarsumber berbeda. Konfirmasikan sebelum datang.",
+        "en": "Published hours differ. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya kepada praktik.",
+        "en": "Prices are unavailable. Request a cost breakdown from the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik untuk menanyakan ketersediaan waktu.",
+        "en": "Contact the public number to ask about availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum terverifikasi. Tanyakan kepada praktik.",
+        "en": "Insurance arrangements are unverified. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal kunjungan.",
+    "en": "Confirm appointment availability."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik Drg. Virma D.P. Putra dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Pengelola praktik Drg. Virma D.P. Putra, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan praktik Anda di Junrejo, Kota Batu. Kami menyiapkan konsep website dengan informasi kunjungan di https://maxigrowthstudio.com/drg-virma untuk ditinjau setelah tersedia. Silakan lihat bila berkenan.",
+    "email_subjek": "Konsep website praktik Drg. Virma",
+    "email_isi": "Yth. Pengelola praktik Drg. Virma D.P. Putra, kami menyiapkan konsep website untuk membantu pasien menemukan lokasi Junrejo dan menanyakan jadwal. Tautan konsep: https://maxigrowthstudio.com/drg-virma (ketersediaan perlu diperiksa). Proposal PDF terlampir pada pengiriman. Hormat kami, Muhammad Rizqi Tri Andika, Maxi Growth Studio, WA 082141004400, info@maxigrowthstudio.com."
+  }
+}

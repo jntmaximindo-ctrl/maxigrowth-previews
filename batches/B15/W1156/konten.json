@@ -1,0 +1,132 @@
+{
+  "id": "W1156",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Endang Sariningsih",
+      "en": "Praktik drg. Endang Sariningsih"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Brebes. Hubungi melalui telepon untuk mengonfirmasi jadwal.",
+      "en": "Visit information for Brebes. Call to confirm appointment times."
+    },
+    "cta": {
+      "id": "Telepon praktik",
+      "en": "Call the practice"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya pemeriksaan gigi",
+        "en": "Ask about dental examinations"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui telepon sebelum datang.",
+        "en": "Call before visiting to confirm availability and examination requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya perawatan berkala",
+        "en": "Ask about routine care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui telepon sebelum datang.",
+        "en": "Call before visiting to confirm availability and examination requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya kebutuhan gigi anak",
+        "en": "Ask about children's dental needs"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui telepon sebelum datang.",
+        "en": "Call before visiting to confirm availability and examination requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan melalui telepon sebelum datang.",
+        "en": "Call before visiting to confirm availability and examination requirements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, biaya dan kebutuhan perawatan, lalu catat pertanyaan untuk dibahas melalui telepon.",
+      "en": "Choose questions about scheduling, fees and care needs, then keep a list to discuss when you call."
+    },
+    "alasan_dipilih": "Kontak publik berupa telepon tetap; pemilih pertanyaan membantu menyiapkan konfirmasi kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Telepon 62283671008 untuk menanyakan prosedur pendaftaran dan ketersediaan jadwal.",
+        "en": "Call 62283671008 to ask about registration and available appointment times."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Brebes, Jawa Tengah 52212. Konfirmasikan lokasi melalui telepon sebelum berangkat.",
+        "en": "The practice is listed at Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Brebes, Central Java 52212. Call to confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin dan Kamis 08.00–11.00 serta Selasa dan Sabtu 15.00–17.00. Hari lain tutup. Konfirmasikan jadwal melalui telepon sebelum berkunjung.",
+        "en": "Directories list Monday and Thursday 08:00–11:00, and Tuesday and Saturday 15:00–17:00, with other days closed. Please call to confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaannya?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya konsultasi dan perkiraan tindakan kepada petugas; kebutuhan perawatan ditentukan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask staff about consultation fees and estimates. Treatment needs are determined after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terkonfirmasi. Tanyakan ketentuan dan dokumen yang diperlukan melalui telepon.",
+        "en": "Insurance and BPJS arrangements have not been confirmed. Call to ask about eligibility and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan melalui telepon",
+    "en": "Call to confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal dan pendaftaran di praktik drg. Endang Sariningsih. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola praktik drg. Endang Sariningsih. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi praktik di Jl. Dr. Wahidin No.36, Brebes. Kami menyiapkan konsep informasi kunjungan; alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/endang-sariningsih. Saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com. Terima kasih.",
+    "email_subjek": "Konsep informasi kunjungan praktik drg. Endang Sariningsih",
+    "email_isi": "Yth. Pengelola praktik drg. Endang Sariningsih,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi praktik di Jl. Dr. Wahidin No.36, Brebes menjadi dasar konsep informasi kunjungan yang memuat lokasi, jadwal dan pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/endang-sariningsih. Proposal PDF perlu dilampirkan bersama draf ini setelah konsep siap ditinjau. Informasi yang belum lengkap dapat dikonfirmasi sebelum publikasi.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
