@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
     inputs:
       batas: { description: "Maks klinik per run", default: "60" }
-      slug: { description: "Satu slug saja (opsional, untuk tes)", default: "" }
+      slug: { description: "Slug tertentu, pisah koma (opsional)", default: "" }
+      ulang: { description: "Cek ulang kolase lama yang perawatannya kosong (true/false)", default: "false" }
   schedule:
     - cron: "17 */2 * * *"
 concurrency: { group: kolase-wa, cancel-in-progress: false }
@@ -17,6 +18,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }  # ambil kolase.json terbaru, bukan commit saat dispatch
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Pasang Playwright + Pillow + font
@@ -28,7 +30,8 @@ jobs:
         run: |
           ARGS="--batas ${{ github.event.inputs.batas || '60' }}"
           if [ -n "${{ github.event.inputs.slug }}" ]; then ARGS="$ARGS --slug ${{ github.event.inputs.slug }}"; fi
-          python scripts/kolase.py $ARGS | tee /tmp/kolase.log
+          if [ "${{ github.event.inputs.ulang }}" = "true" ]; then ARGS="$ARGS --ulang"; fi
+          python -u scripts/kolase.py $ARGS | tee /tmp/kolase.log
       - name: Unggah ke Drive "11 Kolase WA"
         env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
         run: |
