@@ -1,0 +1,24 @@
+{
+  "id": "W1537",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon.v",
+      "tercatat": "6285878605871",
+      "di_sumber": "Direktori IDalamat dan MediaSehat mencantumkan 0878-3069-4868 untuk alamat Boyolali; Linktree resmi menampilkan tombol Boyolali tetapi nomor target tombol tidak terbaca saat dibuka ulang.",
+      "src": "https://idalamat.com/alamat/mutiara-dental-care-boyolali-1061074",
+      "catatan": "Nomor yang dicatat belum terbukti sebagai kontak khusus Boyolali. Nomor 0858-7860-5871 juga ditemukan pada direktori cabang Palur. Jangan menukar kontak antar cabang."
+    },
+    {
+      "path": "cabang[0].wa.v",
+      "tercatat": "6285878605871",
+      "di_sumber": "Linktree menampilkan tautan WhatsApp berlabel Boyolali, tetapi target nomor tidak dapat dibuka; sumber direktori Boyolali menampilkan 0878-3069-4868.",
+      "src": "https://linktr.ee/mdcdrgaftina",
+      "catatan": "Konflik kontak cabang kritis; perlu bukti target WA resmi sebelum nomor ini dipakai."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/mutiaradentalcare.id/"
+  ],
+  "kritis_ok": false
+}
