@@ -1,0 +1,132 @@
+{
+  "id": "W1609",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Dwi Suyatno H",
+      "en": "Dokter Gigi Dwi Suyatno H"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Kota Mojokerto. Hubungi admin untuk mengonfirmasi jadwal dan kebutuhan Anda.",
+      "en": "Visit information for Kota Mojokerto. Contact staff to confirm appointments and discuss your needs."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal melalui WhatsApp",
+      "en": "Ask about appointments on WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanya pemeriksaan gigi",
+        "en": "Ask about dental examinations"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya perawatan berkala",
+        "en": "Ask about routine care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya kebutuhan gigi anak",
+        "en": "Ask about children's dental needs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanya pilihan perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan, jadwal dan kebutuhan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Ask staff about availability, scheduling and examination requirements before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, lokasi, biaya atau kebutuhan perawatan. Susun pesan pertanyaan untuk admin sebelum datang.",
+      "en": "Choose questions about appointments, location, fees or care needs. Prepare a message for staff before visiting."
+    },
+    "alasan_dipilih": "Nomor ponsel publik tersedia; penyusun pertanyaan membantu mengonfirmasi informasi yang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi 6282244516644 untuk menanyakan jadwal dan prosedur pendaftaran.",
+        "en": "Contact 6282244516644 to ask about appointments and registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Pemuda No.20, Mergelo, Purwotengah, Magersari, Kota Mojokerto, Jawa Timur 61311 Konfirmasikan titik lokasi sebelum berangkat.",
+        "en": "Jl. Pemuda No.20, Mergelo, Purwotengah, Magersari, Kota Mojokerto, Jawa Timur 61311 Please confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal melalui admin sebelum datang. Jam dokter dapat berbeda dari jam operasional klinik.",
+        "en": "Confirm the schedule with staff before visiting. A doctor's schedule may differ from clinic opening hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya konsultasi dan perkiraan tindakan kepada admin; kebutuhan perawatan ditentukan setelah pemeriksaan.",
+        "en": "Prices are not yet available. Ask staff about consultation fees and estimates. Treatment needs are determined after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi dan BPJS belum terkonfirmasi. Tanyakan persyaratan dan dokumen kepada petugas.",
+        "en": "Insurance and BPJS arrangements have not been confirmed. Ask staff about eligibility and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan Anda",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya mengenai jadwal dan pendaftaran di Dokter Gigi Dwi Suyatno H. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Dokter Gigi Dwi Suyatno H. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat lokasi praktik Anda di Kota Mojokerto. Kami menyiapkan konsep informasi kunjungan; alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/dwi-suyatno. Saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com. Terima kasih.",
+    "email_subjek": "Konsep informasi kunjungan Dokter Gigi Dwi Suyatno H",
+    "email_isi": "Yth. Pengelola Dokter Gigi Dwi Suyatno H,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi praktik di Kota Mojokerto menjadi dasar konsep informasi kunjungan yang memuat kontak, lokasi dan pertanyaan pasien. Alamat pratinjau yang direncanakan: https://maxigrowthstudio.com/dwi-suyatno. Proposal PDF perlu dilampirkan bersama draf ini setelah konsep siap ditinjau. Informasi yang belum lengkap dapat dikonfirmasi sebelum publikasi.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
