@@ -1,0 +1,24 @@
+{
+  "id": "W1377",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. I Gede Deo Saputra",
+      "di_sumber": "Praktek Dokter Gigi Drg. I Gede Deo Saputra. S. Kg",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-i-gede-deo-saputra-s-kg-1063162",
+      "catatan": "Nama/gelar pada sumber mencantumkan S.Kg yang tidak disalin di riset; gelar harus disalin persis seperti sumber."
+    },
+    {
+      "path": "maps.src",
+      "tercatat": null,
+      "di_sumber": "Idalamat menampilkan 0.0 (0 ulasan) untuk situsnya sendiri, bukan bukti rating Google Maps 5.0 dari 35 ulasan",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-i-gede-deo-saputra-s-kg-1063162",
+      "catatan": "Rating dan jumlah ulasan pada riset berasal dari surat tugas dan belum punya URL sumber yang memverifikasinya."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/drgdeosaputra/"
+  ],
+  "kritis_ok": false
+}

@@ -1,0 +1,24 @@
+{
+  "id": "W1362",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "maps.rating",
+      "tercatat": 5,
+      "di_sumber": "Angka rating agregat tidak ditampilkan pada artikel MediaSehat; sumber lain CariBisnis menampilkan 5.0",
+      "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-tangerang/",
+      "catatan": "Nilai tampak benar menurut sumber lain, tetapi URL src pada field maps tidak membuktikan rating."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 281,
+      "di_sumber": "Jumlah ulasan 281 tidak ditampilkan pada artikel MediaSehat; CariBisnis menampilkan 281",
+      "src": "https://mediasehat.id/tempat/12-tempat-praktik-dokter-gigi-di-tangerang/",
+      "catatan": "Sumber field maps harus diganti dengan URL yang menampilkan angka, tanpa mengubah riset pada tahap cek fakta."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJww6wFS_zaS4RqIhm21Rs3x4"
+  ],
+  "kritis_ok": true
+}

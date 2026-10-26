@@ -1,0 +1,25 @@
+{
+  "id": "W1398",
+  "diperiksa": 19,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": null,
+      "di_sumber": "628135954942 (tautan wa.me/628135954942 pada tombol Hubungi WA)",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/ciao-dental-studio-amba-imp1",
+      "catatan": "Nomor WA publik tersedia pada tautan tombol tetapi riset mencatat null; kontak kritis perlu diperbaiki."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": null,
+      "di_sumber": "628135954942 (nomor pada tautan WA; belum diverifikasi sebagai nomor panggilan)",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/ciao-dental-studio-amba-imp1",
+      "catatan": "Nomor kontak tersedia di tautan WA; telepon umum belum dipastikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/ciaodentalstudio/",
+    "https://bukutelepon.cybo.com/ID/ambarawa-semarang/dokter-gigi"
+  ],
+  "kritis_ok": false
+}

@@ -94,5 +94,17 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-dokter-gigi-drg-i-gede-deo-saputra-s-kg-1063162",
     "https://www.instagram.com/drgdeosaputra/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. I Gede Deo Saputra",
+      "catatan": "Praktek Dokter Gigi Drg. I Gede Deo Saputra. S. Kg"
+    },
+    {
+      "path": "maps.src",
+      "tercatat": null,
+      "catatan": "Idalamat menampilkan 0.0 (0 ulasan) untuk situsnya sendiri, bukan bukti rating Google Maps 5.0 dari 35 ulasan"
+    }
   ]
 }
