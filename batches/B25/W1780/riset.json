@@ -87,5 +87,22 @@
   "sumber": [
     "https://www.google.com/maps/place/?q=place_id:ChIJX2qeUAeLcC4RvHYnZGGQeig",
     "https://www.google.com/search?q=%22Simply+Smiles+Dental%22+%22Indraprasta%22"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282311096765",
+      "catatan": "Nomor telepon 0823-1109-6765; status WhatsApp belum dibuktikan"
+    },
+    {
+      "path": "harga",
+      "tercatat": [],
+      "catatan": "Belum ada harga resmi atau kisaran pasar Semarang dari minimal tiga sumber; tujuh kategori harga belum terpenuhi."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 401,
+      "catatan": "Maps tidak dapat dibuka; angka 401 tidak terverifikasi. Direktori sekunder memuat 310/392/358 pada snapshot berbeda; tidak dinyatakan salah."
+    }
   ]
 }

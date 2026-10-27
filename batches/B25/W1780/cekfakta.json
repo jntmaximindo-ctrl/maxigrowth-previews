@@ -1,0 +1,32 @@
+{
+  "id": "W1780",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282311096765",
+      "di_sumber": "Nomor telepon 0823-1109-6765; status WhatsApp belum dibuktikan",
+      "src": "https://idalamat.com/alamat/simply-smiles-dental-1061759",
+      "catatan": "Nomor cocok setelah normalisasi, tetapi sumber telepon tidak membuktikan akun WA; bukan bukti nomor salah."
+    },
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": null,
+      "src": "https://densia.id/klinik/simply-smiles-dental-kota-semarang-nzggqeig/",
+      "catatan": "Belum ada harga resmi atau kisaran pasar Semarang dari minimal tiga sumber; tujuh kategori harga belum terpenuhi."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 401,
+      "di_sumber": null,
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJX2qeUAeLcC4RvHYnZGGQeig",
+      "catatan": "Maps tidak dapat dibuka; angka 401 tidak terverifikasi. Direktori sekunder memuat 310/392/358 pada snapshot berbeda; tidak dinyatakan salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJX2qeUAeLcC4RvHYnZGGQeig",
+    "https://www.google.com/search?q=%22Simply+Smiles+Dental%22+%22Indraprasta%22"
+  ],
+  "kritis_ok": false
+}

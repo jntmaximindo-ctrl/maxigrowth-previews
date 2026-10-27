@@ -1,0 +1,20 @@
+{
+  "id": "W1729",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Jl. Sentosa Raya No.10, RT.002/RW.016, Jatimakmur, Pondok Gede, Bekasi",
+      "di_sumber": "F10 Sentosa Raya, Bekasi",
+      "src": "https://www.waze.com/live-map/directions/dokter-gigi-aba-laksana-sentosa-raya-f10-bekasi?to=place.w.70059721.700793819.25846304",
+      "catatan": "Semuabis yang menjadi src utama mendukung No.10; Waze memakai F10. Tidak dapat memastikan apakah penanda lokasi sama atau unit berbeda. Jam Waze juga berbeda dari Semuabis; riset memilih jam null."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.waze.com/live-map/directions/dokter-gigi-aba-laksana-sentosa-raya-f10-bekasi?to=place.w.70059721.700793819.25846304",
+    "https://www.instagram.com/abalaksana/",
+    "https://praktek-drg-aba-laksana.business.site/"
+  ],
+  "kritis_ok": false,
+  "catatan": "Pemeriksaan 2026-10-27. URL sumber dicoba dibuka ulang; sebagian tidak dapat diakses langsung. Hasil indeks pencarian digunakan secara terbatas jika tersedia. Nomor ponsel yang dinormalisasi sebagai WA belum membuktikan akun aktif. Tidak ada kontak langsung dengan klinik."
+}

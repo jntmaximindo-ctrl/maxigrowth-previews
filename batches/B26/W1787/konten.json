@@ -1,0 +1,142 @@
+{
+  "id": "W1787",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Perawatan Gigi di Stabat",
+      "en": "Dental Care Practice Information in Stabat"
+    },
+    "sub": {
+      "id": "Lihat lokasi, jam praktik, dan kontak publik Praktik Perawatan Gigi M. Hafid Hutomo, AMKG.",
+      "en": "Find the location, listed hours, and public contact for Praktik Perawatan Gigi M. Hafid Hutomo, AMKG."
+    },
+    "cta": {
+      "id": "Tanyakan Ketersediaan",
+      "en": "Ask About Availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi Perawatan Gigi",
+        "en": "Dental Care Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis perawatan yang tersedia sebelum datang.",
+        "en": "Ask which dental services are available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jam Praktik",
+        "en": "Practice Hours"
+      },
+      "ringkas": {
+        "id": "Jam tercantum Senin–Sabtu sore hingga malam.",
+        "en": "Listed hours are Monday–Saturday, late afternoon to evening."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Lokasi",
+        "en": "Location Information"
+      },
+      "ringkas": {
+        "id": "Temukan praktik di Jalan Karya Bakti, Stabat.",
+        "en": "Find the practice on Jalan Karya Bakti, Stabat."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Kunjungan",
+        "en": "Visit Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan jadwal dan ketentuan kunjungan.",
+        "en": "Ask about appointment availability and visit arrangements."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Berkunjung",
+      "en": "Before-You-Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Periksa alamat dan jam praktik, lalu tanyakan tindakan yang tersedia melalui kontak publik.",
+      "en": "Check the address and opening hours, then ask about available treatments using the public contact."
+    },
+    "alasan_dipilih": "Tidak ditemukan daftar tindakan resmi; panduan menampilkan informasi yang terverifikasi tanpa mengarang layanan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Karya Bakti No.134, Sidomulyo, Stabat, Langkat.",
+        "en": "Jl. Karya Bakti No.134, Sidomulyo, Stabat, Langkat."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.30–20.30 WIB; Minggu tutup.",
+        "en": "A directory lists Monday–Saturday 4:30–8:30 PM WIB, closed Sunday."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor publik yang tercantum adalah 6285270531978.",
+        "en": "The listed public number is 6285270531978."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa tambal gigi?",
+        "en": "Are fillings available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terverifikasi. Mohon tanyakan langsung ke pengelola praktik.",
+        "en": "A verified treatment list is unavailable. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Ketentuan pendaftaran belum tersedia pada sumber yang diperiksa.",
+        "en": "Appointment arrangements were not available in the reviewed sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does care cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia. Tanyakan estimasi sebelum berkunjung.",
+        "en": "A price list was not available. Please ask for an estimate before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat Lokasi dan Kontak",
+    "en": "View Location and Contact"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jam praktik dan jenis perawatan gigi yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Praktik Perawatan Gigi M. Hafid Hutomo, AMKG, saya Rizqi dari Maxi Growth Studio. Saya melihat praktik Anda tercantum di Stabat dengan jam sore hingga malam. Kami telah menyiapkan konsep website informasi lokasi dan jadwal di https://maxigrowthstudio.com/perawatan-m. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website informasi praktik di Stabat",
+    "email_isi": "Halo pengelola Praktik Perawatan Gigi M. Hafid Hutomo, AMKG,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik di Jalan Karya Bakti, Stabat, dengan jam sore hingga malam.\n\nKami telah menyiapkan konsep website informasi lokasi, jam, dan kontak di https://maxigrowthstudio.com/perawatan-m. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika berkenan, kami terbuka untuk berdiskusi mengenai informasi praktik yang perlu ditampilkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

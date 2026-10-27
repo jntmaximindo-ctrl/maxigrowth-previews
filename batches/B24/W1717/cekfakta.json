@@ -1,0 +1,19 @@
+{
+  "id": "W1717",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].alamat.v",
+      "tercatat": "Komplek Pertokoan Matahari, Jl. A. Yani, Sumberan Selatan, Wonosobo Barat, Wonosobo",
+      "di_sumber": "Komplek Ruko Matahari (Jl. Sumbing), Wonosobo, Jawa Tengah",
+      "src": "https://idalamat.com/alamat/135977/drg-sugiarto-wonosobo-jawa-tengah",
+      "catatan": "DokterTanya sebagai sumber utama mencantumkan Jl. A. Yani, sedangkan IDalamat mencantumkan Jl. Sumbing pada kompleks pertokoan bernama mirip. Bisa merujuk area sama, tetapi akses/alamat jalan perlu konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-wonosobo/",
+    "https://bukutelepon.cybo.com/ID/wonosobo/dokter-gigi",
+    "https://dokter-gigi-sugiarto.business.site/"
+  ],
+  "kritis_ok": false
+}

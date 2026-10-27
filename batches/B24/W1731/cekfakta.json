@@ -1,0 +1,15 @@
+{
+  "id": "W1731",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "situs_lama[0]",
+      "tercatat": "Website resmi aktif dengan informasi layanan belum terverifikasi.",
+      "di_sumber": "Halaman SemuaBis merupakan direktori bisnis; tidak ada bukti website resmi aktif dalam sumber yang diperiksa.",
+      "src": "https://www.semuabis.com/klinik-gigi-dewi-jatiwarna-0811-8161-089",
+      "catatan": "Nama, alamat, telepon cocok. WA adalah nomor ponsel publik yang dinormalisasi sesuai 00a. Jam berbeda sudah dicatat dan sengaja null."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

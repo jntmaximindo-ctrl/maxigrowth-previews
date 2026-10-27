@@ -73,5 +73,12 @@
     "https://www.facebook.com/61576989731576/",
     "https://www.facebook.com/61576989731576/posts/mimin-bukan-dukun-ya-kacksooolangsung-aja-reservasikonsultasi-bareng-drg-berpeng/122139903458899657/",
     "https://www.google.com/maps/search/?api=1&query=Asta%20Dental%20Care%20Bekasi%20%7C%20Klinik%20Dokter%20Gigi%20Mustika%20Jaya%20Bekasi&query_place_id=ChIJZdRDGQCRaS4RJI9fnz9Fgug"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon / cabang[0].wa",
+      "tercatat": "6281324964736",
+      "catatan": "Direktori menampilkan tombol Hubungi WA, tetapi nomor tujuan tidak muncul dalam teks indeks yang berhasil dibaca"
+    }
   ]
 }
