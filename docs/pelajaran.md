@@ -48,3 +48,5 @@ Sebelum memperbaiki: cari gejala serupa di tabel ini. Kalau sudah pernah → atu
 - Pitch deck: label kota di sampul harus pakai {{kota}} dari job.json, bukan teks tetap (bug 'Bandung' pada klinik non-Bandung, ditemukan 27 Okt 2026).
 - Uji 27 Okt 2026 (10 klinik): rakit website GPT chat/Work (GPT B, model Terra) berhenti sendiri tiap ~2 menit, hasil ~19 KB, kerangka sama, kualitas di bawah robot template (~175 KB). PDF GPT chat tanpa Google Fonts tampil polos; robot lebih baik. Rekomendasi: robot untuk massal. Hasil banding: Drive "13 Uji Rakit/Banding" (workflow uji-rakit-banding).
 - Dorong GPT: perintah 'satu klinik per putaran, simpan begitu selesai, jangan lapor sebelum semua' lebih efektif daripada 'kerjakan 10 sekaligus'.
+
+- (27 Okt) GPT-B cek fakta "macet": ia menganggap klinik sudah punya cek fakta karena melihat berkas lama di arsip/hasil lama, padahal riset sudah direvisi. Dorong dengan daftar eksplisit kode "Menunggu cek fakta" (dari status.json), tegaskan cek fakta lama TIDAK berlaku, satu klinik per putaran.
