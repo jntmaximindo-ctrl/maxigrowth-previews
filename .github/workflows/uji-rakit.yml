@@ -1,0 +1,34 @@
+# Uji perbandingan rakit preview: robot (template) vs GPT chat, 10 klinik yang dirakit robot 27 Okt 2026.
+# Hanya menyalin bahan + hasil robot ke Drive bus "13 Uji Rakit". Tanpa AI; tidak menghubungi klinik.
+name: uji-rakit
+on: workflow_dispatch
+permissions: { contents: read }
+jobs:
+  salin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Susun bahan
+        run: |
+          mkdir -p /tmp/uji/_bahan /tmp/uji/Robot
+          for p in B27/W1846 B27/W1847 B27/W1848 B27/W1849 B27/W1850 B27/W1851 B27/W1852 B26/W1783 B26/W1784 B26/W1785; do
+            d=batches/$p
+            s=$(python3 -c "import json;print(json.load(open('$d/job.json'))['slug'])")
+            mkdir -p /tmp/uji/_bahan/$s
+            cp $d/job.json $d/riset.json $d/konten.json $d/cekfakta.json /tmp/uji/_bahan/$s/ 2>/dev/null || true
+            cp $d/branding/brand-capture.json $d/branding/lama-desktop-hero.png $d/branding/lama-mobile-hero.png $d/branding/logo-*.png /tmp/uji/_bahan/$s/ 2>/dev/null || true
+            cp $d/site/index.html /tmp/uji/Robot/$s.html
+          done
+          mkdir -p /tmp/uji/_acuan
+          cp library/referensi/atabara.html /tmp/uji/_acuan/atabara-contoh-baku.html
+          cp prompts/codex-rakit.md /tmp/uji/_acuan/aturan-rakit.md
+          find /tmp/uji | head -100
+      - name: Unggah ke Drive
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+          python3 scripts/bus.py rclone-conf
+          rclone mkdir "bus:13 Uji Rakit/GPT"
+          rclone copy /tmp/uji "bus:13 Uji Rakit" -v
