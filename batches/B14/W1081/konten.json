@@ -1,0 +1,142 @@
+{
+  "id": "W1081",
+  "hero": {
+    "judul": {
+      "id": "Klinik IMI — Kabupaten Tangerang",
+      "en": "Klinik IMI — Kabupaten Tangerang"
+    },
+    "sub": {
+      "id": "Siapkan kunjungan dengan informasi lokasi dan kontak praktik.",
+      "en": "Plan your visit with location details and practice contact information."
+    },
+    "cta": {
+      "id": "Lihat kontak praktik",
+      "en": "View practice contact"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konseling medik",
+        "en": "Medical counselling"
+      },
+      "ringkas": {
+        "id": "Profil Kemenkes mencantumkan layanan ini. Tanyakan jadwal dan ketersediaannya sebelum datang.",
+        "en": "This service is listed in the Ministry of Health profile. Check its schedule and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Deteksi dini dan skrining",
+        "en": "Early detection and screening"
+      },
+      "ringkas": {
+        "id": "Profil Kemenkes mencantumkan layanan ini. Tanyakan jadwal dan ketersediaannya sebelum datang.",
+        "en": "This service is listed in the Ministry of Health profile. Check its schedule and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Imunisasi",
+        "en": "Immunisation"
+      },
+      "ringkas": {
+        "id": "Profil Kemenkes mencantumkan layanan ini. Tanyakan jadwal dan ketersediaannya sebelum datang.",
+        "en": "This service is listed in the Ministry of Health profile. Check its schedule and availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan laboratorium",
+        "en": "Laboratory services"
+      },
+      "ringkas": {
+        "id": "Profil Kemenkes mencantumkan layanan ini. Tanyakan jadwal dan ketersediaannya sebelum datang.",
+        "en": "This service is listed in the Ministry of Health profile. Check its schedule and availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih informasi layanan",
+      "en": "Choose service information"
+    },
+    "penjelasan": {
+      "id": "Pilih layanan untuk menyusun pertanyaan jadwal, persiapan, dan biaya sebelum menelepon klinik.",
+      "en": "Choose a service and prepare questions about its schedule, visit arrangements and costs before calling the clinic."
+    },
+    "alasan_dipilih": "Daftar layanan tersedia pada Profil Kemenkes; pilihan membantu pasien menanyakan kebutuhan tanpa mengasumsikan semua layanan memiliki jadwal sama."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Raya PLP Curug No.3A, Kabupaten Tangerang. Periksa arah perjalanan sebelum datang.",
+        "en": "PLP Curug No.3A, Kabupaten Tangerang. Check your route before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "When can I visit?"
+      },
+      "a": {
+        "id": "Jadwal setiap layanan belum terverifikasi. Tanyakan jadwal layanan yang Anda perlukan melalui telepon.",
+        "en": "Individual service schedules have not been verified. Telephone to check the service you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Telepon praktik yang tercantum pada sumber publik: +62215986870.",
+        "en": "The practice telephone number listed in public sources is +62215986870."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "What does a visit cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada halaman ini. Tanyakan rincian biaya kepada praktik sebelum kunjungan.",
+        "en": "Official fees are not available on this page. Ask the practice for a cost breakdown before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Periksa ketentuan dengan praktik dan penyedia asuransi Anda.",
+        "en": "Insurance arrangements have not been verified. Check with the practice and your insurer."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan ketentuan pendaftaran dan ketersediaan dokter melalui telepon.",
+        "en": "Telephone the practice to check registration arrangements and doctor availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Call the practice for visiting information"
+  },
+  "pesan_wa_default": "Halo Klinik IMI, saya ingin menanyakan jadwal kunjungan dan ketersediaan perawatan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, manajemen Klinik IMI. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di Jl. Raya PLP Curug No.3A. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/imi. Jika berkenan, mohon masukan atas informasi klinik. Terima kasih. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Klinik IMI",
+    "email_isi": "Yth. Manajemen Klinik IMI,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Praktik di Jl. Raya PLP Curug No.3A tercantum pada sumber publik. Kami sudah membuat konsep website untuk memudahkan pengunjung menemukan lokasi dan informasi kunjungan: https://maxigrowthstudio.com/imi.\n\nProposal PDF terlampir untuk ditinjau. Informasi yang belum terverifikasi dapat dilengkapi berdasarkan keterangan manajemen. Kami terbuka atas masukan mengenai konsep tersebut.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
