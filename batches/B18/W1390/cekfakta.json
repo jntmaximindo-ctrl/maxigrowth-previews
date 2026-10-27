@@ -1,0 +1,24 @@
+{
+  "id": "W1390",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287778505610 (telepon Puji Dental)",
+      "di_sumber": "0877-7850-5610 tercantum untuk Hd Dental Palem, Apotik Puji Cengkareng, lantai 2, bukan secara eksplisit Puji Dental / Praktek drg. Dennavia",
+      "src": "https://yellowpages-tl.cybo.com/ID/south-tangerang/cosmetic-dentist?p=3",
+      "catatan": "Nomor sama, tetapi atribusi ke klinik yang diperiksa tidak terverifikasi; identitas entitas berbeda walaupun alamat blok sama."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287778505610 (WA Puji Dental)",
+      "di_sumber": "wa.me/087778505610 tercantum pada Hd Dental Palem, bukan secara eksplisit Puji Dental / Praktek drg. Dennavia",
+      "src": "https://yellowpages-tl.cybo.com/ID/south-tangerang/cosmetic-dentist?p=3",
+      "catatan": "Tautan WhatsApp ada, tetapi kepemilikan oleh Puji Dental belum terbukti. Jangan gunakan sebagai kontak pasien Puji Dental tanpa konfirmasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/puji_dental_jakarta/"
+  ],
+  "kritis_ok": false
+}
