@@ -45,18 +45,10 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "09-20:30",
-          "sel": "09-20:30",
-          "rab": "09-20:30",
-          "kam": "09-20:30",
-          "jum": "09-20:30",
-          "sab": "09-18",
-          "min": "tutup"
-        },
-        "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Lily%20Dental%20Care%20%2F%20drg.%20Lily%20Widjaja%20Medan"
     }
@@ -98,22 +90,22 @@ RISET LAMA:
     "tgl": "2026-10-28"
   },
   "keunggulan": [
-    "Direktori mencantumkan jam hingga 20.30 pada Senin–Jumat.",
-    "Direktori mencantumkan akses kursi roda."
+    "Direktori Indonesia Knowledge mencantumkan akses kursi roda."
   ],
   "situs_lama": [
     "Website mandiri resmi belum berhasil diverifikasi dalam pencarian ulang.",
     "Daftar perawatan dan harga resmi belum berhasil diverifikasi."
   ],
-  "ide_fitur_khas": "Pemilih hari kunjungan dengan jam dari direktori, pengingat konfirmasi lewat telepon, dan tautan arah lokasi.",
-  "catatan": "Revisi 2026-10-28 dari riset lama dalam surat tugas. Nomor publik yang berhasil dibaca adalah telepon tetap, dinormalisasi ke 62; bukan nomor ponsel dan tidak dianggap WA, sehingga wa null. Tetap dibuat hasil sesuai aturan agar verifikasi WA tidak menahan klinik. Tidak ada nomor ponsel publik yang berhasil ditemukan dalam pencarian dua mesin web. email tidak ditemukan setelah dicari di https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901, https://www.waze.com/live-map/directions/id/sumatera-utara/lily-dental-care-drg.lily-widjaja?to=place.ChIJY_FP1a8xMTAR4J9iSnP8AHg, https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan, https://indonesiaknowledge.com/directory/dental/medan, https://www.kitalulus.com/lowongan/detail/admin-5krp. harga belum tersedia. Daftar perawatan medis belum terverifikasi, sehingga layanan riset []; empat kartu layanan pada konten merupakan panduan administrasi kunjungan, bukan klaim ketersediaan perawatan. Rating dan ulasan berasal dari direktori sekunder, bukan pemeriksaan langsung Google Maps; direktori menyatakan data terakhir diperiksa 2026-08-06. Jam dan fasilitas berasal dari direktori dan perlu konfirmasi. Tidak menggunakan ulasan pasien sebagai bukti layanan atau gelar dokter. Semua tanggal fakta adalah tanggal halaman dibuka ulang, bukan tanggal pembaruan bisnis. Cybo mengembalikan HTTP 429; Facebook dibatasi sementara. Profil dokter lain bernama Lily Widjaja di Jakarta dan kontak klinik bernama Lily di Batam tidak digunakan karena identitas berbeda. Nama dokter disalin dari judul listing; gelar spesialis dan jadwal individual tidak diketahui. Jam kerja pada iklan lowongan tidak digunakan sebagai jam klinik.",
+  "ide_fitur_khas": "Penyusun pertanyaan kunjungan: lokasi, jadwal, kebutuhan dan biaya; hubungi praktik melalui telepon untuk konfirmasi.",
+  "catatan": "Revisi 28 Oktober 2026 setelah surat dikembalikan lagi karena WA null. Telepon tetap dibaca ulang dari direktori; belum ditemukan nomor ponsel publik yang dapat dikaitkan dengan praktik ini. WA null; tidak mengubah telepon tetap menjadi WhatsApp. Hasil tetap dibuat sesuai aturan pemilik: klinik tidak ditahan karena WA belum terverifikasi. harga belum tersedia. email tidak ditemukan setelah dicari di https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901, https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan, https://www.kitalulus.com/lowongan/detail/pembantu-perawat-dq4g, https://indonesia.worldplaces.me/view-place/80701257-klinik-drg-lily-widjaja.html, https://indonesia.worldplaces.me/review/189794272-drg-lily-widjaja-fisid.html, https://indonesia.worldplaces.me/review/96315807-drg-lily-widjaja.html, https://www.ipkgii-isid.com/member-list?city=Kota+Medan, https://www.facebook.com/pages/drg-Lily-Widjaja/104742209617896. Daftar perawatan belum terverifikasi; layanan []; empat kartu konten merupakan panduan administratif, bukan klaim tindakan tersedia. Rating dan ulasan merupakan angka yang tampil pada Indonesia Knowledge, bukan verifikasi langsung Google Maps; direktori menyebut pemeriksaan listing pada 6 Agustus 2026. Tanggal fakta adalah tanggal dibaca ulang, bukan tanggal pembaruan bisnis. Draf outreach belum dikirim; kesiapan konsep dan lampiran proposal perlu diperiksa sebelum dipakai. WorldPlaces pada alamat Banda Aceh 75 mencantumkan jadwal berbeda dari Semuabis dan Indonesia Knowledge; jam diubah null dan jadwal publik tidak dipastikan. Dokumen daftar anggota ISID tidak digunakan untuk menambahkan gelar atau layanan karena kaitan identitas praktik belum dipastikan; pencarian dalam halaman timeout. WorldPlaces tidak menyediakan nomor ponsel. Facebook gagal dibuka (DisabledError). Jam kerja dalam lowongan perawat 12 Desember 2022 bukan jadwal klinik. Daftar kontak bernama serupa yang muncul di pencarian bukan bukti nomor reservasi publik klinik, sehingga tidak digunakan.",
   "sumber": [
     "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-    "https://www.waze.com/live-map/directions/id/sumatera-utara/lily-dental-care-drg.lily-widjaja?to=place.ChIJY_FP1a8xMTAR4J9iSnP8AHg",
     "https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan",
-    "https://indonesiaknowledge.com/directory/dental/medan",
-    "https://www.kitalulus.com/lowongan/detail/admin-5krp",
-    "https://bukutelepon.cybo.com/ID-biz/lily-dental-care-drg-lily-widjaja",
+    "https://www.kitalulus.com/lowongan/detail/pembantu-perawat-dq4g",
+    "https://indonesia.worldplaces.me/view-place/80701257-klinik-drg-lily-widjaja.html",
+    "https://indonesia.worldplaces.me/review/189794272-drg-lily-widjaja-fisid.html",
+    "https://indonesia.worldplaces.me/review/96315807-drg-lily-widjaja.html",
+    "https://www.ipkgii-isid.com/member-list?city=Kota+Medan",
     "https://www.facebook.com/pages/drg-Lily-Widjaja/104742209617896"
   ]
 }
