@@ -1,0 +1,29 @@
+{
+  "id": "W699",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram.v",
+      "tercatat": "https://www.instagram.com/klinikgigicirendeu/",
+      "di_sumber": "@klinikgigicirendeu (artikel tidak menuliskan URL lengkap)",
+      "src": "https://www.faktaidn.com/loker/2667852290/klinik-gigi-cirendeu-tangerang-selatan-buka-loker-admin-perempuan-lulusan-sma-bisa-mendaftar",
+      "catatan": "Nama akun sesuai, tetapi URL lengkap tidak tercetak secara literal di sumber; alamat profil belum berhasil diverifikasi langsung."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281291818284 (WA klinik)",
+      "di_sumber": "081291818284 untuk mengirim CV/portofolio pada lowongan admin tertanggal 5 Maret 2023",
+      "src": "https://www.faktaidn.com/loker/2667852290/klinik-gigi-cirendeu-tangerang-selatan-buka-loker-admin-perempuan-lulusan-sma-bisa-mendaftar",
+      "catatan": "Digit nomor cocok setelah normalisasi 62, tetapi ini nomor rekrutmen tahun 2023; bukan bukti bahwa nomor tersebut adalah WhatsApp layanan pasien yang aktif. Kontak pasien perlu konfirmasi."
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281291818284",
+      "di_sumber": "081291818284 sebagai tujuan pengiriman lamaran pekerjaan, bukan nomor praktik yang dipublikasikan di direktori",
+      "src": "https://www.faktaidn.com/loker/2667852290/klinik-gigi-cirendeu-tangerang-selatan-buka-loker-admin-perempuan-lulusan-sma-bisa-mendaftar",
+      "catatan": "Direktori Indonesia Knowledge justru mencantumkan telepon praktik (021) 74718597; tidak boleh menyamakan nomor rekrutmen dengan kontak pasien tanpa verifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}

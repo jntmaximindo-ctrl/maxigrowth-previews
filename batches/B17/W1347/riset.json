@@ -79,5 +79,17 @@
     "https://id.scribd.com/document/444296157/KLAIM-BPJS-ANC-Januari-2019",
     "https://id.scribd.com/document/444295573/SK-Jenis-layanan-klinik",
     "https://www.semuabis.com/klinik-apotik-salamah-021-91031611"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281212281482",
+      "catatan": "081212281482 dalam dokumen Klinik Pratama Salamah 10 Februari 2019 dengan alamat Jl. Lapan Kalisari No.176, bukan alamat riset Jl. Kalisari No.179; sumber lokasi No.179 mencantumkan +62 21 91031611"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281212281482 (WA klinik di alamat No.179)",
+      "catatan": "081212281482 hanya tertulis sebagai Telp/Fax pada kepala surat klinik di alamat No.176 tahun 2019, tidak secara eksplisit dinyatakan sebagai WhatsApp pasien"
+    }
   ]
 }

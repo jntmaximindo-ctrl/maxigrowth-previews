@@ -1,0 +1,24 @@
+{
+  "id": "W1081",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628568488271",
+      "di_sumber": "08568488271, tercantum hanya sebagai kontak pengiriman lamaran dokter dalam pengumuman rekrutmen Klinik IMI 8 Agustus 2026",
+      "src": "https://en.tgchannels.org/channel/lokerdokter24jam?first=232244&lang=all&size=30&start=330275",
+      "catatan": "Nomor sama setelah normalisasi, tetapi bukan bukti telepon pelayanan pasien; profil resmi Kemenkes mencantumkan telepon 0215986870."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628568488271 (WA klinik)",
+      "di_sumber": "08568488271, 'Apabila berminat silahkan kirim WA ke' pada lowongan dokter tetap",
+      "src": "https://en.tgchannels.org/channel/lokerdokter24jam?first=232244&lang=all&size=30&start=330275",
+      "catatan": "Terbukti WhatsApp untuk rekrutmen, bukan WhatsApp reservasi pasien. Perlu verifikasi fungsi dan keaktifan sebelum dipublikasikan sebagai kontak pasien."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-imi_1M-021-5986870"
+  ],
+  "kritis_ok": false
+}

@@ -103,5 +103,20 @@
     "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
     "https://www.instagram.com/fransiska_andriani83/",
     "https://bukaminggu.com/dokter-gigi-sidoarjo/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "08-10,16-20",
+        "sel": "08-10,16-20",
+        "rab": "08-10,16-20",
+        "kam": "08-10,16-20",
+        "jum": "08-10,16-20",
+        "sab": "tutup",
+        "min": "tutup"
+      },
+      "catatan": "Deskripsi IDalamat mencantumkan jam yang sama, tetapi bagian 'Jam Operasional' di halaman yang sama menyatakan 'Jam operasional belum tersedia'; situs Poltekkes mencantumkan 'Jadwal Buka: –'."
+    }
   ]
 }

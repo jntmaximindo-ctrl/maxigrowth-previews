@@ -1,0 +1,22 @@
+{
+  "id": "W1347",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281212281482",
+      "di_sumber": "081212281482 dalam dokumen Klinik Pratama Salamah 10 Februari 2019 dengan alamat Jl. Lapan Kalisari No.176, bukan alamat riset Jl. Kalisari No.179; sumber lokasi No.179 mencantumkan +62 21 91031611",
+      "src": "https://id.scribd.com/document/444296157/KLAIM-BPJS-ANC-Januari-2019",
+      "catatan": "Nomor benar tercetak tetapi keterkaitannya dengan lokasi/cabang No.179 saat ini belum terbukti. Kontak alternatif pada Near-Place perlu dikonfirmasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281212281482 (WA klinik di alamat No.179)",
+      "di_sumber": "081212281482 hanya tertulis sebagai Telp/Fax pada kepala surat klinik di alamat No.176 tahun 2019, tidak secara eksplisit dinyatakan sebagai WhatsApp pasien",
+      "src": "https://id.scribd.com/document/444296157/KLAIM-BPJS-ANC-Januari-2019",
+      "catatan": "Tidak ada bukti bahwa nomor ini masih aktif, berfungsi sebagai WhatsApp pasien, atau berlaku untuk lokasi No.179. Risiko salah cabang dan kontak historis."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
