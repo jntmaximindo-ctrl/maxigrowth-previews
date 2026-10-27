@@ -90,5 +90,20 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/setara-dental-care-medan",
     "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/sumatera"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "10-19",
+        "sel": "10-19",
+        "rab": "10-19",
+        "kam": "10-19",
+        "jum": "10-19",
+        "sab": "10-19",
+        "min": "tutup"
+      },
+      "catatan": "Daftar mitra Rata mencantumkan Senin–Sabtu 10:00–16:00, berbeda dari Indonesia Knowledge 10:00–19:00. Jam SE Virtual Selasa, Kamis, Jumat 10:00–16:00."
+    }
   ]
 }
