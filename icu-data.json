@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-10-27T09:00:37+07:00",
+ "diperbarui": "2026-10-27T09:24:46+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
@@ -28,12 +28,6 @@
  },
  "pekerja": [],
  "peringatan": [
-  {
-   "tingkat": "kritis",
-   "judul": "Antrean review menumpuk",
-   "detail": "722 klinik menunggu di tahap review.",
-   "teks_perbaikan": "Periksa pekerja tahap review dan dorong sampai antrean turun."
-  },
   {
    "tingkat": "info",
    "judul": "Status pekerja belum tersambung",
