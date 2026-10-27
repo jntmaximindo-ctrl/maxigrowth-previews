@@ -1,0 +1,17 @@
+{
+  "id": "W1347",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281212281482",
+      "di_sumber": "081212281482 tercantum pada dokumen 2019 untuk Klinik Pratama Salamah, Jl. Lapan Kalisari No.176, bukan alamat Jl. Kalisari No.179 pada riset",
+      "src": "https://id.scribd.com/document/444296157/KLAIM-BPJS-ANC-Januari-2019",
+      "catatan": "Nomor memang tertulis tetapi asosiasinya dengan cabang beralamat No.179 dan validitasnya pada 2026 belum terbukti. Perbedaan alamat entitas kritis; jangan gunakan WA sebagai terverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-salamah-021-91031611"
+  ],
+  "kritis_ok": false
+}
