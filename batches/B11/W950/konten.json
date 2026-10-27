@@ -1,0 +1,132 @@
+{
+  "id": "W950",
+  "hero": {
+    "judul": {
+      "id": "drg. Fransiska Andriani, Sp.KG",
+      "en": "drg. Fransiska Andriani, Sp.KG"
+    },
+    "sub": {
+      "id": "Informasi untuk merencanakan kunjungan.",
+      "en": "Information to help plan your visit."
+    },
+    "cta": {
+      "id": "Hubungi melalui telepon",
+      "en": "Call the practice"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit times"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapkan pertanyaan Anda",
+      "en": "Prepare your questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, lokasi, dan biaya sebelum menghubungi klinik.",
+      "en": "Prepare questions about hours, location and fees before calling."
+    },
+    "alasan_dipilih": "Rincian layanan belum lengkap; membantu pasien melakukan konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Gunakan telepon yang tercantum.",
+        "en": "Use the listed phone number."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah WhatsApp tersedia?",
+        "en": "Is WhatsApp available?"
+      },
+      "a": {
+        "id": "Nomor WhatsApp belum ditemukan.",
+        "en": "A WhatsApp number has not been found."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan kepada klinik.",
+        "en": "Prices are unavailable. Ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan saya dapat berkunjung?",
+        "en": "When can I visit?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal sebelum datang.",
+        "en": "Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terkonfirmasi. Tanyakan kepada klinik.",
+        "en": "This is unconfirmed. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan melalui telepon",
+    "en": "Confirm by phone"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan biaya kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola drg. Fransiska Andriani, Sp.KG, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Praktik Anda tercantum dalam direktori Sidoarjo. Kami menyiapkan konsep halaman informasi kunjungan dengan rencana tautan https://maxigrowthstudio.com/drg-fransiska. Pratinjau perlu diaktifkan sebelum draf digunakan. Bila berkenan, konsep dapat ditinjau.",
+    "email_subjek": "Konsep informasi kunjungan",
+    "email_isi": "Yth. pengelola drg. Fransiska Andriani, Sp.KG, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman kontak dan panduan kunjungan. Proposal PDF perlu dilampirkan sebelum draf ini dikirim. Kontak: info@maxigrowthstudio.com, 082141004400. Terima kasih."
+  }
+}
