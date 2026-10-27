@@ -34,6 +34,7 @@ jobs:
           curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
           python3 scripts/bus.py rclone-conf
           rclone copy /tmp/pitch "bus:12 Pitch Deck PDF" --include "*.pdf" -v
+          [ -d /tmp/pitch_bahan ] && rclone copy /tmp/pitch_bahan "bus:12 Pitch Deck PDF/_bahan" -v || true
       - name: Catat selesai
         if: always()
         run: |

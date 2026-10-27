@@ -13,6 +13,7 @@ from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = pathlib.Path("/tmp/pitch")
+BAHAN = pathlib.Path("/tmp/pitch_bahan")
 CATAT = ROOT / "data" / "pitch.json"
 SITUS = "https://maxigrowthstudio.com"
 BULAN = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -176,6 +177,11 @@ def main():
         for k in q:
             try:
                 shots, aksen = foto(pw, k["slug"])
+                BAHAN.mkdir(parents=True, exist_ok=True)  # bahan untuk GPT: screenshot asli + warna aksen
+                for kode, nm_ in (("hd", "hero-komputer"), ("cd", "cek-komputer"), ("hp", "hero-ponsel"), ("cp", "cek-ponsel")):
+                    shots[kode].convert("RGB").save(BAHAN / f"{k['slug']}-{nm_}.jpg", quality=85)
+                (BAHAN / f"{k['slug']}-info.txt").write_text(
+                    f"nama: {k['nama']}\nkota: {k['kota']}\nrating: {k['rating']}\nulasan: {k['ulasan']}\ncabang: {k['cabang']}\nwarna_aksen: {aksen}\npreview: {SITUS}/{k['slug']}/\n")
                 for kual in (82, 70, 58):
                     html = susun(k, shots, aksen, kual)
                     br = pw.chromium.launch()
