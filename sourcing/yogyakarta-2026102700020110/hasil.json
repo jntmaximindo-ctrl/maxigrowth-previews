@@ -1,0 +1,80 @@
+{
+ "kota": "Yogyakarta",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "diperiksa": [
+  {
+   "nama": "Klinik Gigi Dentes Jl. Magelang",
+   "rating": 5,
+   "ulasan": 449,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/tegalrejo/klinik-gigi-dentes-jl-magelang-tega-imp1"
+  },
+  {
+   "nama": "Klinik Gigi Dentes HOS Cokroaminoto",
+   "rating": 5,
+   "ulasan": 437,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/tegalrejo/klinik-gigi-dentes-hos-cokroam-tega-imp1"
+  },
+  {
+   "nama": "Haigi Dental",
+   "rating": 5,
+   "ulasan": 293,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/tegalrejo/haigi-dental-tega-imp1"
+  },
+  {
+   "nama": "Pine Dental",
+   "rating": 5,
+   "ulasan": 53,
+   "sumber": "https://bukutelepon.cybo.com/ID-biz/pine-dental"
+  },
+  {
+   "nama": "Dolphin Orthodontics & Dental Care",
+   "rating": 4.9,
+   "ulasan": 29,
+   "sumber": "https://bukutelepon.cybo.com/ID-biz/dolphin-orthodontics-dental-care-klinik"
+  },
+  {
+   "nama": "Joy Dental Godean",
+   "rating": 4.9,
+   "ulasan": 727,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/tegalrejo/klinik-gigi-joy-dental-godean--tega-imp1"
+  }
+ ],
+ "klinik": [
+  {
+   "nama": "Pine Dental",
+   "url": null,
+   "punya_website": false,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Pine%20Dental%20Yogyakarta",
+   "rating": 5,
+   "ulasan": 53,
+   "telepon": "6283891915858",
+   "alamat": "Jl. R.W. Monginsidi No.26A, Karangwaru",
+   "skor_jadul": 100,
+   "masalah": [
+    "website resmi tidak tercantum di sumber publik yang diperiksa"
+   ],
+   "sumber": [
+    "https://bukutelepon.cybo.com/ID-biz/pine-dental"
+   ]
+  },
+  {
+   "nama": "Dolphin Orthodontics & Dental Care",
+   "url": "https://hilab.co.id/id/dolphin/index",
+   "punya_website": true,
+   "maps_url": "https://www.google.com/maps/search/?api=1&query=Dolphin%20Orthodontics%20%26%20Dental%20Care%20Yogyakarta",
+   "rating": 4.9,
+   "ulasan": 29,
+   "telepon": "6281224591119",
+   "alamat": "Jl. Magelang No.156, Karangwaru",
+   "skor_jadul": 0,
+   "masalah": [],
+   "sumber": [
+    "https://bukutelepon.cybo.com/ID-biz/dolphin-orthodontics-dental-care-klinik",
+    "https://hilab.co.id/id/dolphin/index"
+   ]
+  }
+ ],
+ "area": "yogyakarta-tegalrejo-r1"
+}

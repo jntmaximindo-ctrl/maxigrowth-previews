@@ -114,5 +114,12 @@
   "sumber": [
     "https://dental.id/praktek-drg-sg-mas-aritrisna-w-apotek-restu-farma/",
     "https://www.lovia.id/daftar-kode-faskes-bpjs-dan-alamat-rumah-sakit-di-kab-tabanan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": "Senin–Jumat 19.00–21.00",
+      "catatan": "Sumber daftar faskes historis mencantumkan 16.00–22.00 (kecuali hari libur); sumber Poltekkes mencantumkan 19.00–21.00"
+    }
   ]
 }
