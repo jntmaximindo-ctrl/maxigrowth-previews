@@ -93,7 +93,7 @@ peringatan = []
 nilai = [tahap[k] for k in URUT[:-1]]
 rata = sum(nilai) / len(nilai) if nilai else 0
 for k in URUT[:-1]:
-    if tahap[k] >= 20 and rata and tahap[k] > 1.5 * rata:
+    if k != "review" and tahap[k] >= 20 and rata and tahap[k] > 1.5 * rata:
         peringatan.append({
             "tingkat": "kritis",
             "judul": "Antrean " + k.replace("_", " ") + " menumpuk",
