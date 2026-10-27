@@ -148,7 +148,7 @@ def susun(k, shots, aksen, kualitas):
         t = int(w / rasio)
         return im.crop((0, 0, w, min(hh, t)))
     rep = {
-        "{{nama_klinik}}": nm, "{{rating}}": rating, "{{jumlah_ulasan}}": ulasan, "{{jumlah_cabang}}": cab,
+        "{{kota}}": (k["kota"] or "Indonesia"), "{{nama_klinik}}": nm, "{{rating}}": rating, "{{jumlah_ulasan}}": ulasan, "{{jumlah_cabang}}": cab,
         "{{url_preview}}": shown, "{{tanggal}}": tanggal,
         "{{gambar_hero}}": b64(pot(shots["hd"], 600 / 346), q=kualitas), "{{gambar_fitur}}": b64(pot(shots["cd"], 600 / 346), q=kualitas),
         "{{gambar_hero_hp}}": b64(shots["hp"].resize((390, 844)), q=kualitas), "{{gambar_fitur_hp}}": b64(shots["cp"].resize((390, 844)), q=kualitas),
