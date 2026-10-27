@@ -1,0 +1,132 @@
+{
+  "id": "W1735",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi Spesialis — Jatiwarna",
+      "en": "Praktek Dokter Gigi Spesialis — Jatiwarna"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Jalan Raya Kodau, Jatiwarna. Konfirmasikan jadwal sebelum datang.",
+      "en": "Plan your visit on Jalan Raya Kodau, Jatiwarna. Confirm your appointment before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan",
+        "en": "Check-up questions"
+      },
+      "ringkas": {
+        "id": "Sampaikan tujuan kunjungan dan tanyakan jadwal pemeriksaan.",
+        "en": "Share the reason for your visit and ask about an assessment appointment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment questions"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis perawatan yang tersedia serta kebutuhan pemeriksaan awal.",
+        "en": "Ask which treatments are available and whether an initial assessment is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Fee questions"
+      },
+      "ringkas": {
+        "id": "Mintalah penjelasan biaya pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Ask about examination and treatment fees before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan kunjungan anak",
+        "en": "Children's visit questions"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan penerimaan pasien anak dan persiapan kunjungannya.",
+        "en": "Confirm whether children can be seen and how to prepare for a visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan kunjungan",
+      "en": "Build your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik lokasi, jadwal atau biaya untuk menyusun pesan yang dapat Anda tinjau sebelum mengirim.",
+      "en": "Choose location, appointment or fee topics to draft a message you can review before sending."
+    },
+    "alasan_dipilih": "Informasi dokter, layanan dan jadwal belum lengkap; fitur membantu pasien meminta konfirmasi tanpa mengasumsikan layanan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Maps mencantumkan Jalan Raya Kodau nomor 19, Jatiwarna, Pondok Melati, Bekasi, di depan Masjid Al Islah. Periksa titik peta sebelum berangkat.",
+        "en": "Maps lists 19 Jalan Raya Kodau, Jatiwarna, Pondok Melati, Bekasi, opposite Al Islah Mosque. Check the map before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal mingguan belum tersedia di halaman ini. Konfirmasikan hari dan jam sebelum datang.",
+        "en": "Weekly hours are unavailable here. Confirm the day and time before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan serta tindakan yang disarankan.",
+        "en": "Prices are unavailable. Ask about examination fees and any recommended treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum dikonfirmasi. Tanyakan kepada pengelola dan penyedia asuransi Anda.",
+        "en": "Insurance arrangements have not been confirmed. Check with the practice and your insurer."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan layanan?",
+        "en": "How can I ask about treatment?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda secara singkat. Pengelola dapat membantu mengonfirmasi layanan serta jadwal pemeriksaan.",
+        "en": "Briefly explain what you need. The practice can confirm available services and assessment appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal kunjungan",
+    "en": "Confirm your appointment"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan di praktik Jalan Raya Kodau nomor 19, Jatiwarna, serta biaya kunjungannya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Praktek Dokter Gigi Spesialis di Jalan Raya Kodau, Jatiwarna. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman yang memudahkan konfirmasi lokasi dan jadwal. Rencana alamatnya https://maxigrowthstudio.com/spesialis-jatiwarna; tautan perlu diperiksa setelah perakitan. Bila berkenan, konsepnya dapat ditinjau. Kontak saya 082141004400 atau info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep halaman praktik Jatiwarna",
+    "email_isi": "Halo pengelola Praktek Dokter Gigi Spesialis di Jatiwarna,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman untuk praktik di Jalan Raya Kodau nomor 19, dengan fokus lokasi serta konfirmasi jadwal. Rencana alamatnya https://maxigrowthstudio.com/spesialis-jatiwarna; tautan perlu diperiksa setelah perakitan.\n\nDraf pengiriman ini menyiapkan penyebutan proposal PDF terlampir; PDF perlu dilampirkan sebelum email dikirim. Informasi operasional akan mengikuti konfirmasi pengelola.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
