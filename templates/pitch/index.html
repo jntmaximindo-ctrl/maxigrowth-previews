@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proposal Website — {{nama_klinik}} · Maxi Growth Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root {
+--aksen: #397e71;
+--aksen-gelap: #183f38;
+--kertas: #f6f4ee;
+--putih: #fffefa;
+--tinta: #202823;
+--sekunder: #5e655e;
+--garis: #dcded5;
+--lembut: #eceee6;
+--sans: "DM Sans", Arial, sans-serif;
+--serif: "Instrument Serif", Georgia, serif;
+--bayangan: 0 22px 60px rgba(32,40,35,.09);
+}
+* { box-sizing: border-box; }
+html { background: #d9dcd5; }
+body { margin: 0; color: var(--tinta); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+h1,h2,h3,p,figure { margin: 0; }
+h1,h2,h3 { font-weight: 500; }
+svg { display: block; }
+.page { width: 1920px; height: 1080px; padding: 66px 88px 94px; margin: 32px auto; position: relative; isolation: isolate; background: var(--kertas); page-break-after: always; break-after: page; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.topline { display: flex; justify-content: space-between; align-items: center; gap: 36px; font-size: 19px; line-height: 1.3; font-weight: 600; letter-spacing: .035em; }
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand-mark { width: 32px; height: 32px; color: var(--aksen-gelap); }
+.chapter { color: var(--sekunder); font-weight: 500; letter-spacing: .13em; text-transform: uppercase; font-size: 16px; }
+footer { position: absolute; left: 88px; right: 88px; bottom: 32px; padding-top: 17px; border-top: 1px solid var(--garis); display: flex; align-items: center; justify-content: space-between; color: var(--sekunder); font-size: 17px; line-height: 1.3; }
+.page-no { font-variant-numeric: tabular-nums; letter-spacing: .09em; }
+.eyebrow { font-size: 17px; font-weight: 650; letter-spacing: .15em; text-transform: uppercase; color: var(--aksen-gelap); }
+.title { font-size: 82px; line-height: 1.05; letter-spacing: -.055em; }
+.editorial { font-family: var(--serif); font-weight: 400; font-style: italic; letter-spacing: -.035em; }
+.lead { font-size: 29px; line-height: 1.45; letter-spacing: -.02em; color: var(--sekunder); }
+.icon { width: 32px; height: 32px; flex: 0 0 32px; color: var(--aksen-gelap); fill: none; stroke: currentColor; stroke-width: 1.65; stroke-linecap: round; stroke-linejoin: round; }
+.definitions { position: absolute; width: 0; height: 0; overflow: hidden; }
+.cover { background: var(--putih); }
+.cover-copy { position: relative; z-index: 2; width: 1060px; padding-top: 133px; }
+.cover h1 { margin-top: 30px; font-size: 103px; line-height: 1.05; letter-spacing: -.06em; }
+.clinic-name { display: block; max-width: 1060px; margin-top: 13px; font-family: var(--serif); font-size: 110px; line-height: 1.02; letter-spacing: -.035em; color: var(--aksen-gelap); overflow-wrap: anywhere; }
+.cover .lead { margin-top: 35px; max-width: 760px; }
+.cover-meta { display: flex; align-items: center; gap: 24px; margin-top: 57px; font-size: 22px; color: var(--sekunder); }
+.cover-meta .divider { width: 1px; height: 22px; background: var(--garis); }
+.sculpture { position: absolute; width: 680px; height: 760px; right: 40px; top: 170px; z-index: 0; color: var(--aksen); }
+.cover-caption { position: absolute; right: 105px; bottom: 151px; width: 410px; padding-left: 22px; border-left: 2px solid var(--aksen); font-size: 20px; line-height: 1.5; color: var(--sekunder); }
+.opportunity-header { display: grid; grid-template-columns: 1.15fr .85fr; gap: 110px; align-items: end; margin-top: 69px; }
+.opportunity-header .title { margin-top: 20px; }
+.opportunity-header .lead { padding-bottom: 6px; }
+.metrics { display: grid; grid-template-columns: 1fr 1.18fr 1fr; margin-top: 58px; padding: 40px 0 38px; border-top: 1px solid var(--garis); border-bottom: 1px solid var(--garis); }
+.metric { padding: 0 36px; min-width: 0; }
+.metric:first-child { padding-left: 0; }
+.metric + .metric { border-left: 1px solid var(--garis); }
+.metric-number { font-size: 116px; font-weight: 500; line-height: 1.1; letter-spacing: -.065em; color: var(--aksen-gelap); overflow-wrap: anywhere; }
+.metric-label { margin-top: 15px; color: var(--sekunder); font-size: 24px; }
+.rating-label { display: flex; align-items: center; gap: 12px; }
+.rating-label svg { width: 23px; height: 23px; color: var(--aksen); }
+.opportunity-note { margin-top: 43px; display: grid; grid-template-columns: 285px 1fr; gap: 48px; }
+.opportunity-note .eyebrow { padding-top: 9px; }
+.opportunity-note p { font-size: 31px; line-height: 1.4; max-width: 1160px; }
+.source { margin-top: 30px; font-size: 18px; color: var(--sekunder); }
+.concept-heading { display: flex; align-items: end; justify-content: space-between; gap: 60px; margin-top: 52px; }
+.concept-heading .title { margin-top: 15px; font-size: 73px; }
+.concept-heading .lead { max-width: 460px; font-size: 24px; }
+.screens { display: grid; grid-template-columns: 600px 600px 240px 240px; gap: 21px; margin-top: 34px; }
+.phone { height: 390px; border: 7px solid #1d2420; border-radius: 30px; overflow: hidden; background: #1d2420; box-shadow: var(--bayangan); }
+.phone img { display:block; width:100%; height:100%; object-fit: cover; object-position: top; border-radius: 22px; }
+.screen-caption { gap: 8px; }
+.browser { border-radius: 17px; border: 1px solid #d6d9d0; background: var(--putih); box-shadow: var(--bayangan); overflow: hidden; }
+.browser-toolbar { height: 44px; display: flex; align-items: center; gap: 7px; padding: 0 18px; background: #eeeee8; border-bottom: 1px solid var(--garis); }
+.browser-toolbar i { display: block; width: 8px; height: 8px; border: 1px solid #b7bdb3; border-radius: 50%; }
+.address { margin: 0 auto; width: 50%; height: 25px; border: 1px solid #e0e2da; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #656e64; background: #fafaf6; font-size: 12px; letter-spacing: .02em; }
+.screenshot { display: block; width: 100%; height: 346px; object-fit: contain; object-position: center; background: #e8ebe3; color: var(--sekunder); font-size: 22px; }
+.screen-caption { display: flex; align-items: baseline; justify-content: space-between; margin: 15px 2px 0; font-size: 23px; font-weight: 500; }
+.screen-caption span { font-size: 16px; color: var(--sekunder); font-weight: 400; }
+.preview-rail { margin-top: 31px; display: grid; grid-template-columns: 1fr 148px; align-items: center; gap: 40px; padding: 23px 29px 23px 33px; border: 1px solid var(--garis); border-radius: 18px; background: var(--putih); }
+.preview-rail h3 { font-size: 29px; letter-spacing: -.03em; }
+.preview-url { display: inline-block; margin-top: 9px; font-size: 23px; color: var(--aksen-gelap); overflow-wrap: anywhere; text-decoration: underline; text-underline-offset: 5px; }
+.qr { width: 148px; height: 148px; padding: 11px; display: block; object-fit: contain; background: white; border: 1px solid var(--garis); border-radius: 8px; }
+.scope-title { margin-top: 58px; }
+.scope-title .title { margin-top: 17px; }
+.scope-layout { display: grid; grid-template-columns: 1.26fr .74fr; gap: 72px; margin-top: 42px; }
+.feature-list { border-top: 1px solid var(--garis); }
+.feature { display: grid; grid-template-columns: 47px 1fr 36px; align-items: center; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--garis); }
+.feature-number { color: var(--sekunder); font-size: 17px; font-variant-numeric: tabular-nums; }
+.feature h3 { font-size: 31px; letter-spacing: -.025em; }
+.feature p { font-size: 20px; line-height: 1.4; color: var(--sekunder); margin-top: 5px; }
+.included { padding: 40px; border-radius: 24px; background: var(--aksen-gelap); color: var(--putih); position: relative; }
+.included .eyebrow { color: inherit; opacity: .75; }
+.included h3 { margin-top: 24px; font-family: var(--serif); font-size: 55px; line-height: 1.06; letter-spacing: -.03em; }
+.included ul { padding: 0; margin: 34px 0 0; list-style: none; }
+.included li { padding: 19px 0; border-top: 1px solid rgba(255,255,255,.22); font-size: 24px; line-height: 1.4; }
+.included small { display: block; margin-top: 24px; font-size: 18px; line-height: 1.45; color: rgba(255,255,255,.78); }
+.pricing-heading { margin-top: 43px; display: flex; align-items: end; justify-content: space-between; gap: 50px; }
+.pricing-heading .title { margin-top: 13px; font-size: 72px; }
+.pricing-heading .lead { max-width: 480px; font-size: 23px; }
+.pricing-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; margin-top: 35px; align-items: stretch; }
+.package { border: 1px solid var(--garis); border-radius: 22px; padding: 28px 31px; background: var(--putih); min-height: 548px; }
+.package.selected { border: 2px solid var(--aksen-gelap); padding: 27px 30px; background: radial-gradient(ellipse at 100% 0%, rgba(255,255,255,.12), transparent 75%), var(--aksen-gelap); color: var(--putih); box-shadow: 0 18px 40px rgba(32,40,35,.12); }
+.package-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 31px; }
+.package h3 { font-size: 30px; letter-spacing: -.03em; }
+.recommended { font-size: 13px; line-height: 1; letter-spacing: .07em; text-transform: uppercase; padding: 9px 10px; border: 1px solid rgba(255,255,255,.35); border-radius: 999px; white-space: nowrap; }
+.price { display: flex; align-items: baseline; gap: 10px; margin-top: 21px; font-size: 53px; line-height: 1.15; font-weight: 500; letter-spacing: -.05em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.price span { font-size: 23px; font-weight: 400; letter-spacing: 0; }
+.package-sub { margin-top: 17px; padding-bottom: 18px; border-bottom: 1px solid var(--garis); font-size: 19px; line-height: 1.4; color: var(--sekunder); }
+.selected .package-sub { border-color: rgba(255,255,255,.25); color: rgba(255,255,255,.8); }
+.package ul { list-style: none; padding: 0; margin: 19px 0 0; }
+.package li { position: relative; padding-left: 25px; margin: 11px 0; font-size: 22px; line-height: 1.32; }
+.package li::before { content: ""; position: absolute; top: .49em; left: 1px; width: 7px; height: 7px; border-radius: 50%; background: var(--aksen); }
+.selected li::before { background: var(--putih); }
+.terms { display: grid; grid-template-columns: .85fr 1.15fr; gap: 35px; margin-top: 26px; padding: 21px 0 0; border-top: 1px solid var(--garis); font-size: 21px; line-height: 1.4; }
+.terms p:last-child { text-align: right; color: var(--sekunder); }
+.terms strong { font-weight: 600; }
+.closing { background: radial-gradient(ellipse at 88% 0%, #e8ece2 0%, transparent 58%), var(--putih); }
+.closing-heading { margin-top: 64px; max-width: 1400px; }
+.closing-heading .title { margin-top: 21px; font-size: 94px; }
+.closing-heading .lead { margin-top: 23px; max-width: 1000px; }
+.steps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px; margin-top: 54px; }
+.step { border-top: 1px solid var(--garis); padding-top: 20px; }
+.step-number { font-family: var(--serif); font-size: 94px; line-height: 1; letter-spacing: -.05em; color: var(--aksen-gelap); }
+.step h3 { margin-top: 14px; font-size: 31px; letter-spacing: -.03em; }
+.step p { margin-top: 10px; color: var(--sekunder); font-size: 24px; line-height: 1.4; }
+.contact { margin-top: 54px; padding: 30px 35px; background: var(--aksen-gelap); color: var(--putih); border-radius: 18px; display: grid; grid-template-columns: .68fr 1fr 1.25fr; gap: 30px; align-items: center; }
+.contact-name { font-size: 36px; letter-spacing: -.035em; }
+.contact small { display: block; margin-bottom: 8px; color: rgba(255,255,255,.72); font-size: 16px; line-height: 1.3; }
+.contact a { display: inline-block; font-size: 27px; line-height: 1.4; letter-spacing: -.02em; }
+@page { size: 1920px 1080px; margin: 0; }
+@media print {
+html,body { margin: 0; padding: 0; background: white; }
+body { width: 1920px; }
+.page { margin: 0; box-shadow: none; }
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+@media screen { .page { box-shadow: 0 12px 50px rgba(0,0,0,.08); } }
+</style>
+</head>
+<body>
+<svg class="definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs>
+<symbol id="mark" viewBox="0 0 32 32"><path d="M4 23V9l12 14L28 9v14" fill="none" stroke="currentColor" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="chat" viewBox="0 0 32 32"><path d="M26 15a10 10 0 0 1-14 9L5 27l2-7A10 10 0 1 1 26 15Z"/><path d="M11 13h10M11 17h6"/></symbol>
+<symbol id="list" viewBox="0 0 32 32"><path d="M12 8h15M12 16h15M12 24h15M5 8h1M5 16h1M5 24h1"/></symbol>
+<symbol id="pin" viewBox="0 0 32 32"><path d="M26 13c0 8-10 15-10 15S6 21 6 13a10 10 0 0 1 20 0Z"/><circle cx="16" cy="13" r="3.5"/></symbol>
+<symbol id="phone" viewBox="0 0 32 32"><rect x="8" y="3" width="16" height="26" rx="4"/><path d="M13 7h6M14 25h4"/></symbol>
+<symbol id="spark" viewBox="0 0 32 32"><path d="m16 3 3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/></symbol>
+<symbol id="star" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2L5.8 21 7 14.2 2 9.3l6.9-1Z"/></symbol>
+</defs>
+</svg>
+
+<section class="page cover" aria-label="Sampul proposal">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">Bandung · Proposal website</span>
+</header>
+<div class="cover-copy">
+<div class="eyebrow">Proposal pribadi, bukan template</div>
+<h1>Proposal Website<br>untuk <span class="clinic-name">{{nama_klinik}}</span></h1>
+<p class="lead">Website baru Anda sudah kami buatkan. Silakan lihat dan coba sendiri.</p>
+<div class="cover-meta"><span>Maxi Growth Studio</span><span class="divider" aria-hidden="true"></span><span>{{tanggal}}</span></div>
+</div>
+<svg class="sculpture" viewBox="0 0 680 760" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<defs>
+<radialGradient id="ambient"><stop offset="0" stop-color="currentColor" stop-opacity=".17"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></radialGradient>
+<linearGradient id="enamel" x1="0" y1="0" x2=".95" y2="1"><stop stop-color="#fffefa"/><stop offset=".47" stop-color="#f5f4eb"/><stop offset=".82" stop-color="#dce3d6"/><stop offset="1" stop-color="#b9cbbd"/></linearGradient>
+<linearGradient id="enamel-edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#c1d1c1"/></linearGradient>
+<filter id="sculpture-shadow" x="-50%" y="-40%" width="200%" height="200%"><feDropShadow dx="12" dy="32" stdDeviation="21" flood-color="#203c31" flood-opacity=".12"/></filter>
+<filter id="ground-blur"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<ellipse cx="365" cy="360" rx="320" ry="330" fill="url(#ambient)"/>
+<ellipse cx="358" cy="623" rx="178" ry="22" fill="#284535" opacity=".12" filter="url(#ground-blur)"/>
+<g transform="rotate(12 350 340)" filter="url(#sculpture-shadow)">
+<path d="M178 181C199 123 263 126 308 151C335 167 354 167 387 149C445 119 510 145 518 209C529 279 482 312 466 378C450 439 441 551 401 562C369 571 369 461 345 435C324 410 304 440 292 484C278 539 266 579 238 553C207 523 210 436 194 380C173 306 148 257 178 181Z" fill="url(#enamel)" stroke="url(#enamel-edge)" stroke-width="2"/>
+<path d="M201 193C230 153 269 164 301 179" fill="none" stroke="white" stroke-width="11" opacity=".65" stroke-linecap="round"/>
+<path d="M374 184C418 165 455 174 471 202" fill="none" stroke="white" stroke-width="6" opacity=".4" stroke-linecap="round"/>
+<path d="M311 191C333 200 354 200 375 189" fill="none" stroke="#c6d3c3" stroke-width="2" opacity=".55"/>
+</g>
+<path d="M119 484C192 654 466 681 584 462" fill="none" stroke="currentColor" stroke-width="2" opacity=".45"/>
+<path d="M112 505C201 678 477 688 592 486" fill="none" stroke="currentColor" stroke-width="1" opacity=".17"/>
+<circle cx="584" cy="462" r="5" fill="currentColor"/>
+</svg>
+<p class="cover-caption">Reputasi Anda sudah terbukti.<br>Sekarang halaman resminya menyusul.</p>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">01 / 06</span></footer>
+</section>
+
+<section class="page" aria-label="Peluang website klinik">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">01 · Peluang</span>
+</header>
+<div class="opportunity-header">
+<div>
+<p class="eyebrow">Modal terbesar Anda sudah ada</p>
+<h2 class="title">Pasien sudah percaya.<br><span class="editorial">Beri mereka jalan masuk.</span></h2>
+</div>
+<p class="lead">Rating dan ulasan ini dibangun oleh pasien Anda sendiri. Website resmi membantu mengubah pencarian di Google menjadi janji temu.</p>
+</div>
+<div class="metrics">
+<div class="metric"><div class="metric-number">{{rating}}</div><div class="metric-label rating-label"><svg aria-hidden="true"><use href="#star"/></svg><span>Rating Google</span></div></div>
+<div class="metric"><div class="metric-number">{{jumlah_ulasan}}</div><p class="metric-label">Ulasan pasien di Google</p></div>
+<div class="metric"><div class="metric-number">{{jumlah_cabang}}</div><p class="metric-label">Cabang klinik</p></div>
+</div>
+<div class="opportunity-note">
+<span class="eyebrow">Celah yang bisa ditutup</span>
+<p>Calon pasien yang mencari klinik Anda di Google belum menemukan halaman resmi yang siap dipakai membuat janji. <span style="color:var(--aksen-gelap)">Itulah yang sudah kami siapkan.</span></p>
+</div>
+<p class="source">Sumber: halaman klinik di Google · {{tanggal}}</p>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">02 / 06</span></footer>
+</section>
+
+<section class="page" aria-label="Preview konsep website">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">02 · Konsep yang bisa dibuka</span>
+</header>
+<div class="concept-heading">
+<div>
+<p class="eyebrow">Bukan sekadar gambar rancangan. Sudah bisa dicoba.</p>
+<h2 class="title">Ini klinik Anda, <span class="editorial">versi online.</span></h2>
+</div>
+<p class="lead">Buka di komputer atau ponsel, rasakan seperti pasien Anda.</p>
+</div>
+<div class="screens"><figure><div class="browser"><div class="browser-toolbar" aria-hidden="true"><i></i><i></i><i></i><div class="address">PREVIEW WEBSITE · KOMPUTER</div></div><img class="screenshot" src="{{gambar_hero}}" alt="Beranda"></div><figcaption class="screen-caption">Beranda <span>Komputer</span></figcaption></figure><figure><div class="browser"><div class="browser-toolbar" aria-hidden="true"><i></i><i></i><i></i><div class="address">PREVIEW WEBSITE · KOMPUTER</div></div><img class="screenshot" src="{{gambar_fitur}}" alt="Cek keluhan gigi"></div><figcaption class="screen-caption">Cek keluhan gigi <span>Komputer</span></figcaption></figure><figure><div class="phone"><img src="{{gambar_hero_hp}}" alt="Beranda tampilan ponsel"></div><figcaption class="screen-caption">Beranda <span>Ponsel</span></figcaption></figure><figure><div class="phone"><img src="{{gambar_fitur_hp}}" alt="Cek keluhan tampilan ponsel"></div><figcaption class="screen-caption">Cek keluhan <span>Ponsel</span></figcaption></figure></div>
+<div class="preview-rail">
+<div><h3>Coba sekarang. Cukup 30 detik.</h3><a class="preview-url" href="{{url_preview}}" target="_blank" rel="noopener">{{url_preview}}</a></div>
+<a href="{{url_preview}}" aria-label="Buka preview website"><img class="qr" src="{{qr}}" alt="QR menuju preview website"></a>
+</div>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">03 / 06</span></footer>
+</section>
+
+<section class="page" aria-label="Lingkup website">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">03 · Yang didapat</span>
+</header>
+<div class="scope-title">
+<p class="eyebrow">Setiap bagian bekerja untuk satu tujuan: janji temu</p>
+<h2 class="title">Dirancang agar pasien <span class="editorial">langsung menghubungi.</span></h2>
+</div>
+<div class="scope-layout">
+<div class="feature-list">
+<div class="feature"><span class="feature-number">01</span><div><h3>Cek keluhan gigi</h3><p>Pasien menandai keluhan, lalu pesan siap terkirim ke WhatsApp klinik.</p></div><svg class="icon" aria-hidden="true"><use href="#spark"/></svg></div>
+<div class="feature"><span class="feature-number">02</span><div><h3>Daftar perawatan</h3><p>Layanan tertata jelas, pasien tahu apa yang ditawarkan sebelum bertanya.</p></div><svg class="icon" aria-hidden="true"><use href="#list"/></svg></div>
+<div class="feature"><span class="feature-number">03</span><div><h3>Lokasi dan jam praktik</h3><p>Alamat dan jam buka di satu tempat, mengurangi pertanyaan berulang.</p></div><svg class="icon" aria-hidden="true"><use href="#pin"/></svg></div>
+<div class="feature"><span class="feature-number">04</span><div><h3>Tombol WhatsApp</h3><p>Selalu terlihat di setiap halaman, satu ketukan menuju klinik.</p></div><svg class="icon" aria-hidden="true"><use href="#chat"/></svg></div>
+<div class="feature"><span class="feature-number">05</span><div><h3>Tampilan ponsel</h3><p>Dibuat ponsel-dulu, karena di sanalah pasien mencari.</p></div><svg class="icon" aria-hidden="true"><use href="#phone"/></svg></div>
+</div>
+<aside class="included">
+<p class="eyebrow">Sudah termasuk</p>
+<h3>Bukan sekadar dibuat.<br>Siap tayang<br>dan terawat.</h3>
+<ul><li>Domain dan hosting tahun pertama</li><li>Revisi dalam lingkup paket, hingga 14 hari setelah draft final</li><li>Domain dan seluruh kode jadi milik klinik setelah lunas</li></ul>
+<small>Fitur interaktif dan durasi perawatan mengikuti paket yang dipilih.</small>
+</aside>
+</div>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">04 / 06</span></footer>
+</section>
+
+<section class="page" aria-label="Pilihan paket dan investasi">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">04 · Investasi</span>
+</header>
+<div class="pricing-heading">
+<div>
+<p class="eyebrow">Investasi sekali, bekerja setiap hari</p>
+<h2 class="title">Pilih paket <span class="editorial">yang paling pas.</span></h2>
+</div>
+<p class="lead">Semua paket sudah termasuk domain dan hosting tahun pertama.</p>
+</div>
+<div class="pricing-grid">
+<article class="package"><div class="package-head"><h3>Mulai</h3></div><p class="price"><span>Rp</span>5.500.000</p><p class="package-sub">Hadir resmi di Google dengan biaya paling ringan.</p>
+<ul><li>Halaman inti: beranda, layanan, dokter, kontak</li><li>Tombol WhatsApp</li><li>Penyiapan Google Business</li><li>Perawatan 1 bulan</li></ul></article>
+<article class="package selected"><div class="package-head"><h3>Tumbuh</h3><span class="recommended">Pilihan kami</span></div><p class="price"><span>Rp</span>8.500.000</p><p class="package-sub">Semua isi Mulai, plus fitur yang membantu pasien memutuskan.</p>
+<ul><li>Halaman layanan lengkap</li><li>Galeri dan blog dasar</li><li>Sebagian fitur interaktif</li><li>Optimasi Google Business + SEO dasar</li><li>Perawatan 3 bulan</li></ul></article>
+<article class="package"><div class="package-head"><h3>Unggul</h3></div><p class="price"><span>Rp</span>12.500.000</p><p class="package-sub">Semua isi Tumbuh, plus fitur interaktif penuh dan laporan.</p>
+<ul><li>Fitur interaktif penuh: maskot, cek gigi, estimasi biaya</li><li>SEO lokal awal + laporan</li><li>Perawatan 6 bulan</li></ul></article>
+</div>
+<div class="terms">
+<p><strong>DP 50%</strong> untuk memulai, <strong>pelunasan 50%</strong> saat website selesai.</p>
+<p>Tahun berikutnya: perpanjangan domain dan hosting<br><strong>sekitar Rp 1,5-2 juta per tahun.</strong></p>
+</div>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">05 / 06</span></footer>
+</section>
+
+<section class="page closing" aria-label="Langkah mulai dan kontak">
+<header class="topline">
+<div class="brand"><svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>Maxi Growth Studio</div>
+<span class="chapter">05 · Langkah mulai</span>
+</header>
+<div class="closing-heading">
+<p class="eyebrow">Preview sudah jadi. Tinggal satu keputusan.</p>
+<h2 class="title">Balas satu pesan <span class="editorial">untuk memulai.</span></h2>
+<p class="lead">Sebutkan paket pilihan Anda lewat WhatsApp. Sisanya kami yang kerjakan.</p>
+</div>
+<div class="steps">
+<article class="step"><div class="step-number">1</div><h3>Pilih paket</h3><p>Balas pesan kami dengan<br>paket pilihan Anda.</p></article>
+<article class="step"><div class="step-number">2</div><h3>Kirim materi dan DP</h3><p>Logo, foto, data klinik. Pengerjaan<br>dimulai setelah DP 50%.</p></article>
+<article class="step"><div class="step-number">3</div><h3>Website tayang</h3><p>Sekitar 7 hari kerja setelah materi<br>dan DP kami terima.</p></article>
+</div>
+<div class="contact">
+<div><small>Tanya atau pilih paket</small><p class="contact-name">Dika</p></div>
+<div><small>WhatsApp bisnis</small><a href="https://wa.me/6281573033507">0815-7303-3507 ↗</a></div>
+<div><small>Email</small><a href="mailto:cs@maxigrowthstudio.com">cs@maxigrowthstudio.com ↗</a></div>
+</div>
+<footer><span>Konsep oleh Maxi Growth Studio · bukan situs resmi klinik</span><span class="page-no">06 / 06</span></footer>
+</section>
+</body>
+</html>
