@@ -1,0 +1,52 @@
+{
+ "kota": "Palembang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Klinik Pak Yos",
+   "rating": 4.0,
+   "ulasan": 20,
+   "sumber": "https://infopraktekdokter.com/cari-dokter/klinik-pak-yos",
+   "alasan": "Memiliki poli gigi, tetapi rating di halaman rincian 4.0 sehingga tidak memenuhi ambang"
+  },
+  {
+   "nama": "Klinik & Apotek Permata Medika",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://permatamedikaplg.com/",
+   "alasan": "Poli gigi terkonfirmasi, tetapi rating dan total ulasan tidak tercantum"
+  },
+  {
+   "nama": "Klinik Pusri Medika Sako",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rspusri.id/",
+   "alasan": "Poli gigi terkonfirmasi; rating dan jumlah ulasan tidak terverifikasi"
+  },
+  {
+   "nama": "Klinik Feramita Medika",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.lgi.co.id/uploads/2025/10/Penambahan-Provider-Penutupan-Provider-Pelayanan-Dengan-Ketentuan-Khusus-Pelayanan-yang-Dikecualikan-20-Oktober-2025.pdf",
+   "alasan": "Direktori provider menyebut drg di Sematang Borang; rating dan ulasan tidak ditemukan"
+  },
+  {
+   "nama": "Klinik First Medika",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rspusri.id/",
+   "alasan": "Memiliki poli gigi, namun terletak di kecamatan Kalidoni dan rating tidak ditemukan"
+  },
+  {
+   "nama": "DK Dental Care Palembang",
+   "rating": 5.0,
+   "ulasan": null,
+   "sumber": "https://infopraktekdokter.com/cari-dokter/dk-dental-care-palembang",
+   "alasan": "Kandidat kecamatan tetangga Ilir Timur II; jumlah ulasan tidak terverifikasi"
+  }
+ ],
+ "catatan": "Lima pencarian web area Sematang Borang dan lima pencarian tambahan situs direktori dilaksanakan. Tidak ditemukan klinik khusus gigi di area yang sekaligus terbukti memenuhi rating >=4.5 dan ulasan >=3. Klinik yang memiliki poli gigi tanpa angka rating tidak dimasukkan."
+}

@@ -1,0 +1,53 @@
+{
+ "kota": "Palembang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Asri Dental Clinic",
+   "rating": 4.9,
+   "ulasan": 592,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/asri-dental-clinic-dokter-gigi-palembang",
+   "status": "Sudah terdapat dalam KNOWN-KLINIK.txt"
+  },
+  {
+   "nama": "Enzo Dental KM.5",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://enzodental.id/lokasi/km5",
+   "status": "Website resmi terlihat; rating/ulasan publik belum dapat diverifikasi"
+  },
+  {
+   "nama": "Praktik Dokter Gigi drg. Nur.S & drg. Annisa, M.M",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/praktik-dokter-gigi-drg-nur-s-drg-annisa-0821-8228-9545",
+   "status": "Rating/ulasan belum terlihat"
+  },
+  {
+   "nama": "Praktek Drg Dedy H. Sinaga",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.semuabis.com/praktek-drg-dedy-h-sinaga-0711-9254295",
+   "status": "Rating/ulasan belum terlihat"
+  },
+  {
+   "nama": "Praktek Dokter Gigi Mutiara IPSI., MH. Kes",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://pdberger.com/jasa/dokter-gigi-palembang",
+   "status": "Rating/ulasan belum terlihat"
+  },
+  {
+   "nama": "Edental Sekip (kecamatan tetangga Kemuning)",
+   "rating": 4.9,
+   "ulasan": 347,
+   "sumber": "https://halopalembang.com/detail/46156/peta-lengkap-klinik-gigi-di-palembang-2026-dari-fdc-hingga-tree-dental-mana-yang-tepat-untuk-anda",
+   "status": "Kecamatan tetangga; perlu penyaringan daftar dikenal dan verifikasi kontak"
+  }
+ ],
+ "catatan": "Pencarian web sudah dilakukan setidaknya 5 kueri. Daftar klinik kosong bukan bukti tidak ada kandidat layak; Asri sudah dikenal, sementara kandidat lokal lain belum ada rating dan ulasan yang terlihat pada halaman yang diperiksa. Kandidat tetangga Edental Sekip belum dimasukkan sebelum validasi KNOWN-KLINIK dan nomor kontak.",
+ "area": "palembang-sukarami-r1"
+}
