@@ -1,0 +1,27 @@
+{
+  "id": "W1642",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628122896112",
+      "di_sumber": "0856-0086-3339 (direktori MediaSehat, 23 Agustus 2026); sumber PDF 2022 untuk nomor tercatat tidak dapat dibuka ulang",
+      "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-kudus/",
+      "catatan": "Kontak berbeda antara riset yang memakai dokumen keadaan Desember 2022 dan direktori Agustus 2026; nomor tercatat belum dapat divalidasi ulang. Karena WA diturunkan dari nomor yang sama, cabang[0].wa juga memerlukan verifikasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628122896112",
+      "di_sumber": "0856-0086-3339 (hanya tercantum sebagai nomor telepon, bukan WA terkonfirmasi)",
+      "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-kudus/",
+      "catatan": "Nomor WA dalam riset dinormalisasi dari nomor PDF lama; jangan menyatakan aktif/terverifikasi tanpa bukti."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-noor-any-parlina-1061441",
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2024/01/Buku-Dasar-FKTP-Tahun-2022-FIX.pdf",
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+    "https://bukaminggu.com/dokter-gigi-kudus/"
+  ],
+  "kritis_ok": false
+}

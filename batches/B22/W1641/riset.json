@@ -100,5 +100,20 @@
   "sumber": [
     "https://www.semuabis.com/drg-novita-rizka-yuniarti-0291-2911077",
     "https://dinkes.jatengprov.go.id/wp-content/uploads/2024/01/Buku-Dasar-FKTP-Tahun-2022-FIX.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "16.30-20",
+        "sel": "16.30-20",
+        "rab": "16.30-20",
+        "kam": "16.30-20",
+        "jum": "16.30-20",
+        "sab": "16.30-19",
+        "min": "tutup"
+      },
+      "catatan": "MediaSehat: Senin–Jumat 15.30–18.30, Sabtu 15.00–17.00, Minggu tutup"
+    }
   ]
 }

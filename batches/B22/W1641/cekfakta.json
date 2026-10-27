@@ -1,0 +1,26 @@
+{
+  "id": "W1641",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "16.30-20",
+        "sel": "16.30-20",
+        "rab": "16.30-20",
+        "kam": "16.30-20",
+        "jum": "16.30-20",
+        "sab": "16.30-19",
+        "min": "tutup"
+      },
+      "di_sumber": "MediaSehat: Senin–Jumat 15.30–18.30, Sabtu 15.00–17.00, Minggu tutup",
+      "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-kudus/",
+      "catatan": "Jam berbeda antar-direktori; sumber Semuabis yang dirujuk riset mengembalikan HTTP 429 saat dibuka ulang. Nama, alamat dan nomor ponsel cocok dengan sumber sekunder yang dapat dibuka."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-novita-rizka-yuniarti-0291-2911077",
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2024/01/Buku-Dasar-FKTP-Tahun-2022-FIX.pdf"
+  ],
+  "kritis_ok": true
+}
