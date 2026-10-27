@@ -1,0 +1,34 @@
+# Tarik hasil GPT dari Drive "13 Uji Rakit/GPT", render berdampingan dengan Robot (1440 & 390 px), unggah ke "13 Uji Rakit/Banding".
+name: uji-rakit-banding
+on: workflow_dispatch
+permissions: { contents: read }
+jobs:
+  banding:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pasang Playwright dan Pillow
+        run: |
+          pip install -q playwright pillow
+          python -m playwright install --with-deps chromium >/dev/null
+      - name: Tarik dari Drive
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: |
+          curl -fsSL https://rclone.org/install.sh | sudo bash >/dev/null
+          python3 scripts/bus.py rclone-conf
+          mkdir -p /tmp/uji
+          rclone copy "bus:13 Uji Rakit/GPT" /tmp/uji/GPT -v
+          rclone copy "bus:13 Uji Rakit/Robot" /tmp/uji/Robot -v
+          ls -la /tmp/uji/GPT /tmp/uji/Robot
+      - name: Render dan banding
+        run: python -u scripts/uji_rakit_banding.py
+      - name: Unggah ke Drive
+        if: always()
+        env: { RCLONE_DRIVE_TOKEN: "${{ secrets.RCLONE_DRIVE_TOKEN }}", RCLONE_CLIENT_ID: "${{ secrets.RCLONE_CLIENT_ID }}", RCLONE_CLIENT_SECRET: "${{ secrets.RCLONE_CLIENT_SECRET }}" }
+        run: |
+          python3 scripts/bus.py rclone-conf
+          rclone copy /tmp/uji/Banding "bus:13 Uji Rakit/Banding" -v
