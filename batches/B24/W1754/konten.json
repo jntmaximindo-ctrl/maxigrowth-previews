@@ -1,0 +1,142 @@
+{
+  "id": "W1754",
+  "hero": {
+    "judul": {
+      "id": "drg Pande Siregar — Karimun",
+      "en": "drg Pande Siregar — Karimun"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan jam praktik di Ruko Balai Garden. Tanyakan jadwal kunjungan serta kebutuhan perawatan melalui WhatsApp.",
+      "en": "Find location and opening hours for the practice at Ruko Balai Garden. Ask about appointments and your care needs on WhatsApp."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pertanyaan pemeriksaan gigi",
+        "en": "Questions about dental checkups"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan ketersediaan pemeriksaan sebelum datang.",
+        "en": "Describe your concern and ask whether an examination is available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan pembersihan gigi",
+        "en": "Questions about dental cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pembersihan gigi tersedia dan bagaimana proses pendaftarannya.",
+        "en": "Ask whether dental cleaning is available and how to arrange a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan gigi",
+        "en": "Questions about dental treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penanganan yang tersedia. Rencana perawatan perlu dibahas dengan dokter.",
+        "en": "Ask which treatment options are available. Discuss your care plan with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya kunjungan",
+        "en": "Questions about visit costs"
+      },
+      "ringkas": {
+        "id": "Minta informasi biaya pemeriksaan serta komponen biaya tindakan yang mungkin diperlukan.",
+        "en": "Ask about examination fees and the costs of any proposed treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih hari yang Anda inginkan, lalu susun pertanyaan tentang jadwal, biaya, dan kebutuhan informasi perawatan. Kirim pesan untuk meminta konfirmasi praktik.",
+      "en": "Choose a preferred day and prepare questions about appointments, fees, and treatment information. Send the message to request confirmation from the practice."
+    },
+    "alasan_dipilih": "Jam lokasi sudah tersedia dari Maps, sementara prosedur dan tarif belum terverifikasi; penyusun pertanyaan membantu pasien meminta informasi tanpa mengasumsikan layanan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Google Maps mencantumkan Komplek Ruko Balai Garden Blok A2 nomor 15, Kapling, Kecamatan Tebing, Karimun, Kepulauan Riau 29661. Konfirmasikan petunjuk lokasi sebelum berangkat.",
+        "en": "Google Maps lists the practice at Komplek Ruko Balai Garden, Block A2, number 15, Kapling, Tebing, Karimun, Riau Islands 29661. Confirm directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam lokasi di Google Maps: Senin–Sabtu pukul 13.00–20.00 WIB; Minggu tutup. Tanyakan kembali jadwal dokter dan perubahan pada hari libur.",
+        "en": "Google Maps lists Monday–Saturday, 1–8 pm WIB, with Sunday closed. Confirm the dentist's schedule and any holiday changes."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Ketentuan janji belum terkonfirmasi. Tanyakan melalui kontak praktik sebelum datang.",
+        "en": "The appointment policy has not been confirmed. Ask the practice before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan perkiraan tindakan; kebutuhan perawatan perlu dinilai dokter.",
+        "en": "Prices are not available yet. Ask about examination fees and estimated treatment costs; the dentist needs to assess your care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan anak atau behel?",
+        "en": "Are children's dental care or braces available?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan tersebut belum terverifikasi. Tanyakan jenis layanan dan dokter yang menangani melalui kontak praktik.",
+        "en": "These services have not been verified. Ask the practice which services are available and who provides them."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Is BPJS or private insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum ditemukan. Konfirmasikan kepesertaan dan dokumen yang diperlukan langsung kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Ask the practice about eligibility and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi kunjungan",
+    "en": "Contact the practice to confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di praktik drg Pande Siregar. Apakah tersedia pemeriksaan pada [hari/tanggal]? Mohon informasi pendaftaran dan biayanya. Terima kasih.",
+  "outreach": {
+    "wa": "Draf untuk pemilik, gunakan setelah tautan konsep diperiksa: Selamat siang, pengelola praktik drg Pande Siregar. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi praktik di Ruko Balai Garden dapat dirangkum bersama jam kunjungan dan kontak. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-pande. Bila berkenan, silakan melihatnya saat senggang. Terima kasih. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website praktik drg Pande Siregar",
+    "email_isi": "Draf internal: periksa tautan konsep dan lampirkan proposal PDF sebelum digunakan.\n\nYth. Pengelola praktik drg Pande Siregar,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang merangkum lokasi Ruko Balai Garden, jam praktik, serta pertanyaan kunjungan pasien. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-pande.\n\nProposal PDF terlampir sebagai bahan tinjauan. Informasi layanan dan biaya perlu dikonfirmasi kepada pengelola sebelum ditampilkan. Bila berkenan, silakan memberikan masukan saat senggang.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
