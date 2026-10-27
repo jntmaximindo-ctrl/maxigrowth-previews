@@ -45,18 +45,10 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "00-24",
-          "sel": "00-24",
-          "rab": "00-24",
-          "kam": "00-24",
-          "jum": "00-24",
-          "sab": "00-24",
-          "min": "00-24"
-        },
-        "src": "https://id.near-place.com/klinik-salamah-jl-kalisari-no-179-rt-131-pekayon-pasar-rebo-rt8rw8-pekayon",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-26",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Salamah%20Jakarta%20Timur"
     }
@@ -72,15 +64,13 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.5,
-    "ulasan": 497,
-    "src": "https://caribisnis.id/apotek/jakarta-timur/pasar-rebo/klinik-salamah-pasa-imp1",
+    "rating": null,
+    "ulasan": null,
+    "src": null,
     "tgl": "2026-10-26"
   },
   "keunggulan": [
-    "HelloSehat mencantumkan poli umum dan poli gigi.",
-    "HelloSehat juga mencantumkan layanan farmasi dan laboratorium.",
-    "Sumber HelloSehat mencantumkan layanan klinik 24 jam, tetapi jam poli gigi belum diketahui."
+    "HelloSehat mencantumkan poli umum, poli gigi, farmasi dan laboratorium."
   ],
   "situs_lama": [
     "Website resmi klinik tidak ditemukan dalam sumber yang diperiksa.",
@@ -88,27 +78,16 @@ RISET LAMA:
     "Tidak ditemukan nomor ponsel publik; hanya telepon tetap."
   ],
   "ide_fitur_khas": "Pemilih informasi poli umum, poli gigi, apotek, atau laboratorium dengan catatan jam poli perlu dikonfirmasi.",
-  "catatan": "Nomor 021-91031611 adalah telepon tetap dari Near-Place, bukan ponsel; wa=null. HelloSehat menyebut jam klinik 24 jam, tetapi bukan bukti dokter gigi tersedia 24 jam. CariBisnis mengklasifikasikan listing sebagai apotek. Rating 4,5/497 berasal dari CariBisnis, bukan Maps langsung. Harga belum tersedia. Nomor ponsel publik dinormalisasi ke 62 dan dianggap WA; aktivitas WhatsApp tidak diuji. Email tidak ditemukan setelah dicari di sumber https://id.near-place.com/klinik-salamah-jl-kalisari-no-179-rt-131-pekayon-pasar-rebo-rt8rw8-pekayon dan https://hellosehat.com/care/rumah-sakit/klinik-salamah-3626/. Harga belum tersedia. Nama dokter, layanan, dan jadwal harus ditinjau klinik sebelum publikasi jika bersumber dari direktori.",
+  "catatan": "Telepon tetap 622191031611 ditemukan; bukan ponsel dan tidak dianggap WA, wa=null. Pencarian nomor ponsel dan email melalui pencarian web, HelloSehat dan Near-Place belum menemukan kontak tersebut. harga belum tersedia. Jam direktori berbeda: HelloSehat 00-12 dan 13-23:59, Near-Place 24 jam; jam poli gigi belum terverifikasi. Layanan dari HelloSehat, konfirmasikan sebelum kunjungan.",
   "sumber": [
     "https://id.near-place.com/klinik-salamah-jl-kalisari-no-179-rt-131-pekayon-pasar-rebo-rt8rw8-pekayon",
-    "https://hellosehat.com/care/rumah-sakit/klinik-salamah-3626/",
-    "https://caribisnis.id/apotek/jakarta-timur/pasar-rebo/klinik-salamah-pasa-imp1"
+    "https://hellosehat.com/care/rumah-sakit/klinik-salamah-3626/"
   ],
   "verifikasi_manual": [
     {
-      "path": "cabang[0].jam",
-      "tercatat": "00-24 setiap hari",
-      "catatan": "Near-Place: open 24 hours setiap hari; CariBisnis: 05.00–23.59 setiap hari"
-    },
-    {
-      "path": "catatan",
-      "tercatat": "Nomor ponsel publik dinormalisasi ke 62 dan dianggap WA",
-      "catatan": "021-91031611 adalah telepon tetap; wa=null dalam riset"
-    },
-    {
-      "path": "layanan[1]",
-      "tercatat": "Konsultasi poli gigi",
-      "catatan": "Near-Place tidak menyebut poli gigi; HelloSehat tidak dapat dibuka ulang"
+      "path": "cabang[0].wa",
+      "tercatat": "6281212281482",
+      "catatan": "081212281482 tercantum pada dokumen 2019 untuk Klinik Pratama Salamah, Jl. Lapan Kalisari No.176, bukan alamat Jl. Kalisari No.179 pada riset"
     }
   ]
 }
