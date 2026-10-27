@@ -6,7 +6,7 @@ RISET LAMA:
   "nama": {
     "v": "drg. Jenny Andalia Sutyono",
     "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
-    "tgl": "2026-10-18",
+    "tgl": "2026-10-26",
     "yakin": "tinggi"
   },
   "kota": "Bogor",
@@ -20,7 +20,7 @@ RISET LAMA:
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-18",
+    "tgl": "2026-10-26",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,19 +29,19 @@ RISET LAMA:
       "alamat": {
         "v": "Jl. Suryakencana No.60, RT.01/RW.08, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16123",
         "src": "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "tinggi"
       },
       "telepon": {
-        "v": "02518314853",
+        "v": "622518314853",
         "src": "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
-        "tgl": "2026-10-18",
-        "yakin": "tinggi"
+        "tgl": "2026-10-26",
+        "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "rendah"
       },
       "jam": {
@@ -55,7 +55,7 @@ RISET LAMA:
           "min": "10-21"
         },
         "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "sedang"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ"
@@ -66,7 +66,7 @@ RISET LAMA:
       "nama": {
         "v": "drg. Jenny Andalia Sutyono",
         "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "tinggi"
       },
       "spesialis": {
@@ -99,22 +99,15 @@ RISET LAMA:
     "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Panel persiapan kunjungan Drg. Jenny Andalia Sutyono: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
-  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Nomor02518314853 pada Suryakencana60 adalah telepon tetap. Tidak mengambil nomor pribadi bernama sama pada dokumen survei sebagai kontak klinik. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1 , https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577 , https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/ , https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ. Layanan yang hanya ada di direktori belum dikonfirmasi sebagai daftar resmi; layanan belum ditemukan tidak dikarang dan kolom konten terkait diisi null. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik. Pemeriksaan ulang 26 Oktober 2026: sumber kontak dibaca ulang; pencarian tambahan tidak menemukan ponsel publik yang dapat dicocokkan dengan praktik ini. harga belum tersedia. Rincian tindakan direktori bersifat generik; daftar layanan dikosongkan dan empat kartu konten berupa topik pertanyaan, bukan klaim tindakan tersedia. Pemeriksaan tambahan 26 Oktober 2026: CariBisnis dibaca ulang; IDalamat dan Ulastempat gagal dimuat. Pencarian nama/WhatsApp tidak menemukan nomor ponsel klinik yang dapat dicocokkan. Nomor dalam daftar peserta berisi data pribadi tidak dipakai sebagai kontak klinik. Tidak menahan hasil: WA tetap null. Layanan direktori tampak generik, tidak dijadikan kepastian.",
+  "catatan": "Revisi kontak 26 Oktober 2026: data riset lama dipertahankan dan kontak diperiksa ulang. Telepon publik tetap ditemukan; ponsel publik yang cocok untuk pasien belum ditemukan. WA diisi null, bukan mengubah telepon tetap menjadi WhatsApp. Hasil tetap ditulis sesuai instruksi pemilik karena nomor telepon tersedia. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577, https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1. harga belum tersedia. Harga [] bukan tarif nol. Rincian layanan direktori yang generik tidak dipakai sebagai kepastian; fakta yang belum ditemukan tetap null/[] dengan keyakinan rendah. Rating/ulasan Maps belum diperiksa langsung sehingga null. Empat kartu konten bertanda Tanya adalah topik pertanyaan pasien, bukan klaim tindakan tersedia. Draf outreach belum dikirim; konsep website dan proposal PDF perlu benar-benar disiapkan sebelum draf digunakan. Tidak menghubungi klinik.",
   "sumber": [
-    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
     "https://idalamat.com/alamat/drg-jenny-andalia-sutyono-1060577",
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/drg-jenny-andalia-sutyono-bogo-imp1",
     "https://www.ulastempat.com/7-dokter-gigi-di-bogor-tengah-dengan-pelayanan-terbaik/",
     "https://www.google.com/maps/search/?api=1&query=drg%20Jenny%20Andalia%20Sutyono%20Bogor&query_place_id=ChIJA1NrlMPFaS4RPW1Z8okVagQ",
     "https://www.alodokter.com/cari-rumah-sakit/bogor-dental-center-tajur/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/rs-vania-bogor/scaling-gigi",
     "https://www.alodokter.com/cari-rumah-sakit/happy-dental-clinic-botani-square-mall/scaling-gigi",
     "https://bukutelepon.cybo.com/ID/pasar-bogor/dokter-gigi/"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "cabang[0].telepon.v",
-      "tercatat": "02518314853",
-      "catatan": "622518314853"
-    }
   ]
 }

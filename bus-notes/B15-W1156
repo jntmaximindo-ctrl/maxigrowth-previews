@@ -45,10 +45,18 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "08-11",
+          "sel": "15-17",
+          "rab": "tutup",
+          "kam": "08-11",
+          "jum": "tutup",
+          "sab": "15-17",
+          "min": "tutup"
+        },
+        "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
         "tgl": "2026-10-26",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktik%20drg.%20Endang%20Sariningsih%20Jl.%20Dr.%20Wahidin%20No.36%2C%20RT.03/RW.03%2C%20Saditan%2C%20Kec.%20Brebes%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah%2052212"
     }
@@ -91,46 +99,11 @@ RISET LAMA:
     "Rincian jadwal dokter dan tarif resmi belum ditemukan pada sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Konfirmasi jadwal lewat telepon: susun pertanyaan jadwal, lokasi dan kebutuhan kepada admin.",
-  "catatan": "Revisi: empat kartu konten berisi string ID/EN. Hanya telepon tetap ditemukan; WA null, tidak mengubah telepon tetap menjadi WA. Jadwal SemuaBis berbeda dengan MediaSehat sehingga null. Tidak mengambil kontak guru atau penulis bernama sama. Telepon tetap dinormalisasi ke 62; nomor ponsel belum ditemukan dan WA null. Harga [] karena tarif resmi dan tiga pembanding setempat per perawatan belum terverifikasi. Email tidak ditemukan pada sumber yang diperiksa. Rating dan ulasan tidak diambil dari surat tugas sebagai fakta terkini. Tidak ada janji hasil atau testimoni. Outreach adalah draf, cek kesiapan konsep pada URL dan lampiran proposal sebelum dipakai. Email tidak ditemukan setelah dicari pada https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/.",
+  "catatan": "Revisi kontak 26 Oktober 2026: riset lama dipertahankan dan nomor tetap 0283671008 dibaca ulang pada Semuabis, MediaSehat, IDalamat dan AlamatSehat; normalisasi telepon 62283671008. Tidak ditemukan nomor ponsel publik yang dapat dicocokkan dengan praktik ini; WA tetap null dan telepon tetap tidak diubah menjadi WhatsApp. Hasil tetap ditulis sesuai instruksi pemilik karena ada telepon publik. Jam Senin/Kamis 08–11 serta Selasa/Sabtu 15–17 cocok pada Semuabis, MediaSehat dan IDalamat. Hari lain tutup menurut direktori; konfirmasikan sebelum berkunjung. Data terbaru yang dibaca memperbaiki catatan lama tentang konflik jam. email tidak ditemukan setelah dicari di https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/, https://idalamat.com/alamat/1061622/drg-endang-sariningsih-brebes-jawa-tengah, https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/. harga belum tersedia. Layanan, spesialis, fasilitas dan asuransi belum ditemukan pada kanal resmi yang dapat dibaca, sehingga null/[]. Rating/ulasan Maps belum diperiksa langsung dan tetap null. AlamatSehat menyebut Kleben sedangkan Semuabis/MediaSehat/IDalamat menyebut Saditan pada jalan dan nomor yang sama; perbedaan lingkungan dicatat. Tidak memakai data guru atau penulis bernama sama. Empat kartu konten adalah topik pertanyaan, bukan kepastian layanan tersedia. Draf outreach belum dikirim; pratinjau konsep dan proposal PDF harus disiapkan sebelum digunakan. Tidak menghubungi klinik.",
   "sumber": [
     "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
-    "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "nama.v",
-      "tercatat": "Dokter Gigi Endang Sariningsih drg",
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "cabang[0].alamat.v",
-      "tercatat": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Brebes, Kabupaten Brebes, Jawa Tengah 52212",
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "cabang[0].telepon.v",
-      "tercatat": "62283671008",
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "dokter[0].nama.v",
-      "tercatat": "drg. Endang Sariningsih",
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "maps.rating.v",
-      "tercatat": 5,
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "maps.ulasan.v",
-      "tercatat": 162,
-      "catatan": "URL sumber dibuka ulang tetapi teks tidak tersedia/terhalang akses, atau src kosong. Belum dapat memastikan kecocokan; ini bukan bukti nilai salah."
-    },
-    {
-      "path": "cabang[].wa",
-      "tercatat": null,
-      "catatan": "WA belum diisi. Bila nomor ponsel publik tersedia, normalisasi 62 dan perlakukan sebagai WA sesuai instruksi pemilik; jangan mengubah telepon tetap menjadi WA."
-    }
+    "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/",
+    "https://idalamat.com/alamat/1061622/drg-endang-sariningsih-brebes-jawa-tengah",
+    "https://alamatsehat.com/klinik-gigi-di-brebes-dokter-gigi-di-brebes/"
   ]
 }

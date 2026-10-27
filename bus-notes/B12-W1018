@@ -20,7 +20,7 @@ RISET LAMA:
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-18",
+    "tgl": "2026-10-26",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,7 +29,7 @@ RISET LAMA:
       "alamat": {
         "v": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
         "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
-        "tgl": "2026-10-18",
+        "tgl": "2026-10-26",
         "yakin": "tinggi"
       },
       "telepon": {
@@ -45,18 +45,10 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "17:30-21:30",
-          "sel": "17:30-21:30",
-          "rab": "17:30-21:30",
-          "kam": "17:30-21:30",
-          "jum": "17:30-21:30",
-          "sab": "17:30-21:30",
-          "min": "tutup"
-        },
-        "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-26",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktek%20drg.Okky%20S%20Jl.%20Utan%20Kayu%20Raya%20No.100C%2C%20RT.2/RW.9%2C%20Utan%20Kayu%20Utara%2C%20Matraman%2C%20Jakarta%20Timur%2013120"
     }
@@ -77,7 +69,7 @@ RISET LAMA:
     "Kontak, rincian tindakan, jadwal dokter dan tarif belum tersedia lengkap pada sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Panel persiapan kunjungan Praktek drg.Okky S: pilih informasi yang ingin ditanyakan, lihat data yang tersedia, dan susun pertanyaan untuk admin. Jadwal, lokasi atau layanan yang belum pasti ditampilkan sebagai belum terkonfirmasi.",
-  "catatan": "KOREKSI PEMILIK 26 Oktober2026: nomor ponsel publik08xx/628xx dinormalisasi62 dan dianggap WhatsApp tanpa mengirim pesan atau menguji nomor. Telepon0218500478 ditemukan; tidak ada bukti WhatsApp. Tidak memakai praktik Okky di Bogor. harga belum tersedia. Harga=[] tidak berarti tarif nol. Fakta riset lama yang tetap dipakai mempertahankan tanggal dan sumber aslinya; fakta belum ditemukan tetap null. Email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133 , https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1 , https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA , https://www.alodokter.com/cari-rumah-sakit/rsia-bunda-aliyah-pondok-bambu/scaling-gigi. Layanan belum dikonfirmasi; konten memakai topik pertanyaan dengan teks lengkap. Jika hanya ada telepon tetap, wa tetap null: jangan mengubah PSTN menjadi WA. Outreach hanya draf, periksa konsep website tersedia dan proposalPDF benar terlampir sebelum digunakan. Tidak menghubungi klinik. Pemeriksaan ulang 26 Oktober 2026: sumber kontak dibaca ulang. maps_url memakai URL pencarian nama dan alamat bila place belum terverifikasi. harga belum tersedia. Tidak menghubungi klinik. Layanan belum disahkan dari kanal resmi yang dapat dibaca; empat kartu konten adalah topik pertanyaan pasien. harga belum tersedia. Hanya telepon tetap tersedia; tidak dianggap WhatsApp. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. Pemeriksaan ulang 26 Oktober 2026: dua direktori menyebut telepon tetap dan alamat Utan Kayu yang sama. Tidak mengambil nomor praktik Okky di Bogor. Daftar layanan, fasilitas, asuransi dan harga direktori yang generik tidak dijadikan fakta resmi klinik. Tidak menghubungi klinik. Alamat pratinjau dan lampiran proposal perlu diperiksa pemilik sebelum draft digunakan. Empat kartu konten adalah topik pertanyaan, bukan klaim tindakan tersedia.",
+  "catatan": "Revisi kontak 26 Oktober 2026: data riset lama dipertahankan dan kontak diperiksa ulang. Telepon publik tetap ditemukan; ponsel publik yang cocok untuk pasien belum ditemukan. WA diisi null, bukan mengubah telepon tetap menjadi WhatsApp. Hasil tetap ditulis sesuai instruksi pemilik karena nomor telepon tersedia. Waze pada alamat dan telepon yang sama memakai nama Klinik Gigi OQ dan jam Senin–Jumat 16–22, Sabtu 09–18, berbeda dengan IDalamat (Senin–Sabtu 17.30–21.30). Hubungan merek belum dipastikan; nama surat dipertahankan dan jam diisi null karena konflik. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1, https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA. harga belum tersedia. Harga [] bukan tarif nol. Rincian layanan direktori yang generik tidak dipakai sebagai kepastian; fakta yang belum ditemukan tetap null/[] dengan keyakinan rendah. Rating/ulasan Maps belum diperiksa langsung sehingga null. Empat kartu konten bertanda Tanya adalah topik pertanyaan pasien, bukan klaim tindakan tersedia. Draf outreach belum dikirim; konsep website dan proposal PDF perlu benar-benar disiapkan sebelum draf digunakan. Tidak menghubungi klinik.",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1",
