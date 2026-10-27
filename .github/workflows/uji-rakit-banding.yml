@@ -1,7 +1,7 @@
 # Tarik hasil GPT dari Drive "13 Uji Rakit/GPT", render berdampingan dengan Robot (1440 & 390 px), unggah ke "13 Uji Rakit/Banding".
 name: uji-rakit-banding
 on: workflow_dispatch
-permissions: { contents: read }
+permissions: { contents: write }
 jobs:
   banding:
     runs-on: ubuntu-latest
@@ -32,3 +32,13 @@ jobs:
         run: |
           python3 scripts/bus.py rclone-conf
           rclone copy /tmp/uji/Banding "bus:13 Uji Rakit/Banding" -v
+      - name: Simpan HTML GPT ke repo (untuk halaman perbandingan)
+        if: always()
+        run: |
+          mkdir -p data/uji-rakit/gpt
+          cp /tmp/uji/GPT/*.html data/uji-rakit/gpt/ 2>/dev/null || true
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add data/uji-rakit || true
+          git diff --cached --quiet && exit 0
+          git commit -m "uji-rakit: simpan HTML hasil GPT untuk halaman perbandingan"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q && break; sleep 5; done
