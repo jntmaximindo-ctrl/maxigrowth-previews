@@ -1,0 +1,44 @@
+{
+ "diperbarui": "2026-10-27T08:41:00+07:00",
+ "sumber": "repo-pabrik",
+ "target_harian": 600,
+ "target": {},
+ "akhir_hari": "2026-10-27T23:59:00+07:00",
+ "total_klinik_di_batch": 980,
+ "klinik_status_lain": 1,
+ "siap_reachout_hari_ini": 0,
+ "tahap": {
+  "cari": null,
+  "riset": 132,
+  "cek_fakta": 95,
+  "rakit": 28,
+  "qa": 2,
+  "deploy": 0,
+  "review": 722,
+  "siap_reachout": 0
+ },
+ "kecepatan_per_jam": {
+  "cari": null,
+  "riset": null,
+  "cek_fakta": null,
+  "rakit": null,
+  "qa": null,
+  "deploy": null,
+  "review": null
+ },
+ "pekerja": [],
+ "peringatan": [
+  {
+   "tingkat": "kritis",
+   "judul": "Antrean review menumpuk",
+   "detail": "722 klinik menunggu di tahap review.",
+   "teks_perbaikan": "Periksa pekerja tahap review dan dorong sampai antrean turun."
+  },
+  {
+   "tingkat": "info",
+   "judul": "Status pekerja belum tersambung",
+   "detail": "Data pekerja (mode, kuota, hasil terakhir) belum dikirim ke pabrik.",
+   "teks_perbaikan": "Minta Claude 1 mengisi data/icu-pekerja.json."
+  }
+ ]
+}
