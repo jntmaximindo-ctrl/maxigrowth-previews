@@ -42,12 +42,23 @@ def baca(path, default):
 
 
 tahap = {k: 0 for k in URUT}
+OUTREACH = baca(os.path.join(ROOT, "data", "outreach.json"), {})
+REVIEW = baca(os.path.join(ROOT, "data", "review.json"), {})
 lain = 0
 total = 0
 for p in glob.glob(os.path.join(ROOT, "batches", "*", "*", "status.json")):
     st = baca(p, {})
     total += 1
     t = tahap_dari(st.get("status"))
+    if (st.get("status") or "").lower() == "siap review":
+        kid = os.path.basename(os.path.dirname(p))
+        hasil = str(REVIEW.get(kid, "")).lower()
+        if kid in OUTREACH or hasil == "gagal":
+            t = None
+        elif hasil == "lolos":
+            t = "siap_reachout"
+        else:
+            t = "review"
     if t:
         tahap[t] += 1
     else:
