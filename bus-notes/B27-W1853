@@ -5,17 +5,17 @@ RISET LAMA:
   "id": "W1853",
   "nama": {
     "v": "Asia Dental Clinic",
-    "src": "https://indonesiaknowledge.com/directory/dental/medan",
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "tgl": "2026-10-27",
     "yakin": "sedang"
   },
   "kota": "Medan",
   "zona_waktu": "WIB",
   "instagram": {
-    "v": null,
-    "src": null,
+    "v": "https://www.instagram.com/asiadental_/",
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "tgl": "2026-10-27",
-    "yakin": "rendah"
+    "yakin": "sedang"
   },
   "email": {
     "v": null,
@@ -28,13 +28,13 @@ RISET LAMA:
       "nama": "Asia Dental Clinic",
       "alamat": {
         "v": "Jl. Menggala No.61, Sei Rengas I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20214",
-        "src": "https://indonesiaknowledge.com/directory/dental/medan",
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
         "tgl": "2026-10-27",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "0617348968",
-        "src": "https://indonesiaknowledge.com/directory/dental/medan",
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
         "tgl": "2026-10-27",
         "yakin": "sedang"
       },
@@ -54,7 +54,7 @@ RISET LAMA:
           "sab": "09-17",
           "min": "tutup"
         },
-        "src": "https://indonesiaknowledge.com/directory/dental/medan",
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
         "tgl": "2026-10-27",
         "yakin": "sedang"
       },
@@ -62,12 +62,7 @@ RISET LAMA:
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Pemeriksaan gigi (perlu konfirmasi)",
-    "Perawatan gigi rutin (perlu konfirmasi)",
-    "Penambalan gigi (perlu konfirmasi)",
-    "Konsultasi perawatan (perlu konfirmasi)"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -87,29 +82,9 @@ RISET LAMA:
     "Identitas dokter dan rincian layanan belum terverifikasi"
   ],
   "ide_fitur_khas": "Panduan kontak telepon dan persiapan kunjungan.",
-  "catatan": "Hanya nomor telepon kantor 061-7348968 yang terlihat dalam listing bisnis, bukan nomor ponsel; WA dibiarkan null. Harga belum tersedia. Email tidak ditemukan setelah meninjau direktori Medan dan pencarian web. Situs resmi belum ditemukan. Rating/ulasan 5,0/42 dari direktori; listing bisnis 5,0/44. Tidak mengasumsikan layanan spesifik atau nama dokter tanpa sumber resmi.",
+  "catatan": "Revisi 27 Oktober 2026: nomor publik yang ditemukan hanya telepon kantor; WA null karena nomor ponsel publik belum ditemukan. Email tidak ditemukan setelah pemeriksaan direktori dan pencarian web. harga belum tersedia. Jam dari direktori perlu dikonfirmasi. Layanan, fasilitas, dan spesialisasi tidak diasumsikan. Instagram Asia tidak dapat dibuka; Facebook Lily dibatasi sementara.",
   "sumber": [
-    "https://indonesiaknowledge.com/directory/dental/medan",
-    "https://www.google.com/maps/search/?api=1&query=Asia%20Dental%20Clinic%20Medan"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "0617348968",
-      "catatan": "Nomor +62 61 7348968 tercantum di halaman detail klinik, tetapi TIDAK di URL halaman daftar Medan yang dikutip sebagai src."
-    },
-    {
-      "path": "cabang[0].jam",
-      "tercatat": {
-        "sen": "09-19",
-        "sel": "09-19",
-        "rab": "09-19",
-        "kam": "09-19",
-        "jum": "09-19",
-        "sab": "09-17",
-        "min": "tutup"
-      },
-      "catatan": "Jam Senin–Jumat 09.00–19.00, Sabtu 09.00–17.00, Minggu tutup tercantum di halaman detail klinik, tetapi TIDAK di URL daftar Medan yang dikutip sebagai src."
-    }
+    "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
+    "https://indonesiaknowledge.com/directory/dental/medan"
   ]
 }

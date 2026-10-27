@@ -84,16 +84,9 @@ RISET LAMA:
       "cabang": "Lily Dental Care / drg. Lily Widjaja"
     }
   ],
-  "layanan": [
-    "Pemeriksaan gigi (perlu konfirmasi)",
-    "Pencabutan gigi (disebut dalam ulasan publik)",
-    "Perawatan ortodonti (disebut dalam ulasan publik)"
-  ],
+  "layanan": [],
   "harga": [],
-  "fasilitas": [
-    "Toilet (direktori)",
-    "Akses kursi roda (direktori)"
-  ],
+  "fasilitas": [],
   "asuransi": [],
   "maps": {
     "rating": 4.5,
@@ -111,10 +104,10 @@ RISET LAMA:
     "Kontak hanya nomor telepon kantor, bukan nomor ponsel"
   ],
   "ide_fitur_khas": "Panduan persiapan kunjungan dan informasi kontak telepon.",
-  "catatan": "Hanya nomor telepon kantor 061-4573901 ditemukan pada Waze, Semuabis dan Cybo; bukan nomor ponsel, sehingga WA null. Sesuai aturan, klinik tetap diproses karena memiliki nomor publik. Email tidak ditemukan setelah menelusuri Waze, Semuabis, Cybo dan direktori Medan. Harga belum tersedia. Website resmi belum terverifikasi. Nama drg. Lily Widjaja berasal dari nama listing, jadwal dokter individual belum terverifikasi. Rating 4,5/38 dari direktori; listing bisnis menunjukkan 39 dan Cybo 36 ulasan.",
+  "catatan": "Revisi 27 Oktober 2026: nomor publik yang ditemukan hanya telepon kantor; WA null karena nomor ponsel publik belum ditemukan. Email tidak ditemukan setelah pemeriksaan direktori dan pencarian web. harga belum tersedia. Jam dari direktori perlu dikonfirmasi. Layanan, fasilitas, dan spesialisasi tidak diasumsikan. Instagram Asia tidak dapat dibuka; Facebook Lily dibatasi sementara.",
   "sumber": [
     "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-    "https://bukutelepon.cybo.com/ID-biz/lily-dental-care-drg-lily-widjaja",
     "https://indonesiaknowledge.com/directory/dental/medan"
-  ]
+  ],
+  "verifikasi_manual": []
 }
