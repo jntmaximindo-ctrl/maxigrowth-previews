@@ -4,44 +4,44 @@ RISET LAMA:
 {
   "id": "W1854",
   "nama": {
-    "v": "Lily Dental Care / drg. Lily Widjaja",
+    "v": "Lily Dental Care / Drg.Lily Widjaja",
     "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-    "tgl": "2026-10-27",
-    "yakin": "tinggi"
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
   },
   "kota": "Medan",
   "zona_waktu": "WIB",
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-27",
+    "tgl": "2026-10-28",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-27",
+    "tgl": "2026-10-28",
     "yakin": "rendah"
   },
   "cabang": [
     {
-      "nama": "Lily Dental Care / drg. Lily Widjaja",
+      "nama": "Lily Dental Care / Drg.Lily Widjaja",
       "alamat": {
-        "v": "Jl. Banda Aceh No.75, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
+        "v": "Jl. Banda Aceh No.75, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211, Indonesia",
         "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-        "tgl": "2026-10-27",
-        "yakin": "tinggi"
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
       },
       "telepon": {
-        "v": "0614573901",
+        "v": "62614573901",
         "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-        "tgl": "2026-10-27",
-        "yakin": "tinggi"
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-27",
+        "tgl": "2026-10-28",
         "yakin": "rendah"
       },
       "jam": {
@@ -55,7 +55,7 @@ RISET LAMA:
           "min": "tutup"
         },
         "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-        "tgl": "2026-10-27",
+        "tgl": "2026-10-28",
         "yakin": "sedang"
       },
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Lily%20Dental%20Care%20%2F%20drg.%20Lily%20Widjaja%20Medan"
@@ -64,50 +64,56 @@ RISET LAMA:
   "dokter": [
     {
       "nama": {
-        "v": "drg. Lily Widjaja",
+        "v": "Drg.Lily Widjaja",
         "src": "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-        "tgl": "2026-10-27",
+        "tgl": "2026-10-28",
         "yakin": "sedang"
       },
       "spesialis": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-27",
+        "tgl": "2026-10-28",
         "yakin": "rendah"
       },
       "jadwal": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-27",
+        "tgl": "2026-10-28",
         "yakin": "rendah"
       },
-      "cabang": "Lily Dental Care / drg. Lily Widjaja"
+      "cabang": "Lily Dental Care / Drg.Lily Widjaja"
     }
   ],
   "layanan": [],
   "harga": [],
-  "fasilitas": [],
+  "fasilitas": [
+    "Akses kursi roda",
+    "Toilet"
+  ],
   "asuransi": [],
   "maps": {
     "rating": 4.5,
     "ulasan": 38,
-    "src": "https://indonesiaknowledge.com/directory/dental/medan",
-    "tgl": "2026-10-27"
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan",
+    "tgl": "2026-10-28"
   },
   "keunggulan": [
-    "Alamat, jam, dan nomor telepon tersedia pada beberapa direktori",
-    "Nama dokter gigi tercantum pada listing"
+    "Direktori mencantumkan jam hingga 20.30 pada Senin–Jumat.",
+    "Direktori mencantumkan akses kursi roda."
   ],
   "situs_lama": [
-    "Website resmi belum ditemukan",
-    "Tidak ada harga resmi dan rincian layanan yang terverifikasi",
-    "Kontak hanya nomor telepon kantor, bukan nomor ponsel"
+    "Website mandiri resmi belum berhasil diverifikasi dalam pencarian ulang.",
+    "Daftar perawatan dan harga resmi belum berhasil diverifikasi."
   ],
-  "ide_fitur_khas": "Panduan persiapan kunjungan dan informasi kontak telepon.",
-  "catatan": "Revisi 27 Oktober 2026: nomor publik yang ditemukan hanya telepon kantor; WA null karena nomor ponsel publik belum ditemukan. Email tidak ditemukan setelah pemeriksaan direktori dan pencarian web. harga belum tersedia. Jam dari direktori perlu dikonfirmasi. Layanan, fasilitas, dan spesialisasi tidak diasumsikan. Instagram Asia tidak dapat dibuka; Facebook Lily dibatasi sementara.",
+  "ide_fitur_khas": "Pemilih hari kunjungan dengan jam dari direktori, pengingat konfirmasi lewat telepon, dan tautan arah lokasi.",
+  "catatan": "Revisi 2026-10-28 dari riset lama dalam surat tugas. Nomor publik yang berhasil dibaca adalah telepon tetap, dinormalisasi ke 62; bukan nomor ponsel dan tidak dianggap WA, sehingga wa null. Tetap dibuat hasil sesuai aturan agar verifikasi WA tidak menahan klinik. Tidak ada nomor ponsel publik yang berhasil ditemukan dalam pencarian dua mesin web. email tidak ditemukan setelah dicari di https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901, https://www.waze.com/live-map/directions/id/sumatera-utara/lily-dental-care-drg.lily-widjaja?to=place.ChIJY_FP1a8xMTAR4J9iSnP8AHg, https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan, https://indonesiaknowledge.com/directory/dental/medan, https://www.kitalulus.com/lowongan/detail/admin-5krp. harga belum tersedia. Daftar perawatan medis belum terverifikasi, sehingga layanan riset []; empat kartu layanan pada konten merupakan panduan administrasi kunjungan, bukan klaim ketersediaan perawatan. Rating dan ulasan berasal dari direktori sekunder, bukan pemeriksaan langsung Google Maps; direktori menyatakan data terakhir diperiksa 2026-08-06. Jam dan fasilitas berasal dari direktori dan perlu konfirmasi. Tidak menggunakan ulasan pasien sebagai bukti layanan atau gelar dokter. Semua tanggal fakta adalah tanggal halaman dibuka ulang, bukan tanggal pembaruan bisnis. Cybo mengembalikan HTTP 429; Facebook dibatasi sementara. Profil dokter lain bernama Lily Widjaja di Jakarta dan kontak klinik bernama Lily di Batam tidak digunakan karena identitas berbeda. Nama dokter disalin dari judul listing; gelar spesialis dan jadwal individual tidak diketahui. Jam kerja pada iklan lowongan tidak digunakan sebagai jam klinik.",
   "sumber": [
     "https://www.semuabis.com/lily-dental-care-drg-lily-widjaja-061-4573901",
-    "https://indonesiaknowledge.com/directory/dental/medan"
-  ],
-  "verifikasi_manual": []
+    "https://www.waze.com/live-map/directions/id/sumatera-utara/lily-dental-care-drg.lily-widjaja?to=place.ChIJY_FP1a8xMTAR4J9iSnP8AHg",
+    "https://indonesiaknowledge.com/directory/dental/medan/lily-dental-care-drg-lily-widjaja-medan",
+    "https://indonesiaknowledge.com/directory/dental/medan",
+    "https://www.kitalulus.com/lowongan/detail/admin-5krp",
+    "https://bukutelepon.cybo.com/ID-biz/lily-dental-care-drg-lily-widjaja",
+    "https://www.facebook.com/pages/drg-Lily-Widjaja/104742209617896"
+  ]
 }
