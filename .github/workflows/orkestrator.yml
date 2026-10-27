@@ -9,7 +9,7 @@ concurrency: orkestrator
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
@@ -519,13 +519,13 @@ jobs:
           elif [ -n "$NUM" ]; then
             gh issue close "$NUM" --comment "Sudah normal kembali — ditutup otomatis."
           fi
-      - name: 10 · Rantai putaran — jadwal cron GitHub sering telat (3 jam); jalankan diri sendiri sampai batas (27 Okt 2026 00.00 UTC)
+      - name: 10 · Rantai putaran — jadwal cron GitHub sering telat (3 jam); jalankan diri sendiri sampai batas (3 Nov 2026 00.00 UTC; diperpanjang Claude 2 atas izin pemilik)
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           NOW=$(date -u +%Y%m%d%H%M)
-          if [ "$NOW" -lt 202610270000 ]; then
+          if [ "$NOW" -lt 202611030000 ]; then
             sleep 420
             gh workflow run orkestrator.yml || true
           fi
