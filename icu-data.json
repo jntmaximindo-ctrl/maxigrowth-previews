@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-10-27T15:00:06+07:00",
+ "diperbarui": "2026-10-27T15:12:56+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
@@ -19,26 +19,72 @@
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 3,
+  "riset": 1,
   "cek_fakta": 0,
   "rakit": 0,
   "qa": 0,
   "deploy": 0,
   "review": 0
  },
- "pekerja": [],
+ "pekerja": [
+  {
+   "nama": "GPT A",
+   "status": "kerja",
+   "tahap": "cari",
+   "tugas": "CARI klinik Palembang dan Denpasar (nomor 80 ke atas) di chat",
+   "mode": "Chat",
+   "hasil_terakhir": "2026-10-27T15:10:00+07:00",
+   "tugas_terjadwal_aktif": 5,
+   "aktivitas": [
+    {
+     "mulai": "2026-10-27T14:30:00+07:00",
+     "selesai": "2026-10-27T15:15:00+07:00"
+    }
+   ]
+  },
+  {
+   "nama": "GPT B",
+   "status": "diam",
+   "tahap": "riset",
+   "tugas": "Riset klinik; tersambung 13.20 WIB, antrean riset tidak ada yang bisa diambil",
+   "mode": "Work",
+   "hasil_terakhir": "2026-10-27T13:20:00+07:00"
+  },
+  {
+   "nama": "GPT C",
+   "status": "diam",
+   "tahap": "cek_fakta",
+   "tugas": "Cek fakta via tugas terjadwal; belum ada laporan terbaru",
+   "mode": "Chat"
+  },
+  {
+   "nama": "Claude 1",
+   "status": "kerja",
+   "tahap": "review",
+   "tugas": "Mandor: dorong CARI, review-auto, ICU",
+   "mode": "Work",
+   "hasil_terakhir": "2026-10-27T14:56:00+07:00",
+   "aktivitas": [
+    {
+     "mulai": "2026-10-27T13:00:00+07:00",
+     "selesai": "2026-10-27T15:15:00+07:00"
+    }
+   ]
+  },
+  {
+   "nama": "Claude 2",
+   "status": "diam",
+   "tahap": "qa",
+   "tugas": "Belum ada laporan terbaru",
+   "mode": "Work"
+  }
+ ],
  "peringatan": [
   {
    "tingkat": "kritis",
    "judul": "Antrean riset menumpuk",
    "detail": "130 klinik menunggu di tahap riset.",
    "teks_perbaikan": "Periksa pekerja tahap riset dan dorong sampai antrean turun."
-  },
-  {
-   "tingkat": "info",
-   "judul": "Status pekerja belum tersambung",
-   "detail": "Data pekerja (mode, kuota, hasil terakhir) belum dikirim ke pabrik.",
-   "teks_perbaikan": "Minta Claude 1 mengisi data/icu-pekerja.json."
   }
  ]
 }
