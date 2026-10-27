@@ -1,0 +1,34 @@
+name: icu-data
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+concurrency:
+  group: icu-data
+  cancel-in-progress: true
+permissions:
+  contents: write
+jobs:
+  icu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Siapkan cabang data
+        run: |
+          git config user.name icu-bot
+          git config user.email icu-bot@users.noreply.github.com
+          if git ls-remote --exit-code --heads origin icu-data >/dev/null 2>&1; then
+            git fetch origin icu-data
+            git worktree add /tmp/icu origin/icu-data
+          else
+            git worktree add --detach /tmp/icu
+            (cd /tmp/icu && git checkout --orphan icu-data && git rm -rf . >/dev/null 2>&1 || true)
+          fi
+      - name: Susun data
+        run: python3 scripts/icu_data.py /tmp/icu/icu-data.json /tmp/icu/icu-riwayat.json
+      - name: Terbitkan
+        run: |
+          cd /tmp/icu
+          git add -A
+          git commit -m 'icu data' || exit 0
+          git push --force origin HEAD:icu-data
