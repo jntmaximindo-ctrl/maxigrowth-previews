@@ -1,0 +1,132 @@
+{
+  "id": "W1390",
+  "hero": {
+    "judul": {
+      "id": "Informasi Puji Dental",
+      "en": "Puji Dental information"
+    },
+    "sub": {
+      "id": "Panduan kunjungan di Cengkareng, Jakarta Barat.",
+      "en": "Visit information for Cengkareng, West Jakarta."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan kebutuhan pemeriksaan.",
+        "en": "Ask about scaling availability and examination requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan pilihan penanganan setelah pemeriksaan.",
+        "en": "Discuss your concerns and treatment options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Kebutuhan pencabutan ditentukan melalui pemeriksaan dokter.",
+        "en": "The dentist assesses whether an extraction is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan pilihan perawatan yang tersedia.",
+        "en": "Ask about an initial assessment and available treatment options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan pertanyaan kunjungan",
+      "en": "Plan your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan dan susun pertanyaan tentang jadwal serta biaya untuk dikonfirmasi.",
+      "en": "Choose your needs and prepare questions about availability and costs."
+    },
+    "alasan_dipilih": "Informasi kontak dan jadwal masih perlu konfirmasi; fitur membantu menyusun kebutuhan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Taman Palem Mutiara Blok I1 No.20, Cengkareng Timur. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The directory lists Taman Palem Mutiara Block I1 No.20, Cengkareng Timur. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam antarsumber berbeda. Konfirmasikan jadwal sebelum datang.",
+        "en": "Sources differ on opening hours. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan rincian tindakan.",
+        "en": "Prices are unavailable. Ask about examination fees and treatment costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum tersedia. Konfirmasikan ketentuan pembayaran kepada praktik.",
+        "en": "Details are unavailable. Confirm payment arrangements with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan kawat gigi?",
+        "en": "How can I enquire about braces?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan konsultasi awal; pilihan perawatan mengikuti hasil pemeriksaan.",
+        "en": "Ask about an initial consultation; treatment options depend on the examination."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan lokasi, jadwal, dan identitas praktik",
+    "en": "Confirm the practice identity, location and availability"
+  },
+  "pesan_wa_default": "Halo, apakah nomor ini melayani Puji Dental/praktik drg. Dennavia di Taman Palem Mutiara Blok I1 No.20? Saya ingin menanyakan jadwal kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola Puji Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi website untuk praktik di Taman Palem Mutiara. Alamat konsep yang direncanakan: https://maxigrowthstudio.com/puji. Tautan perlu diperiksa sebelum draf ini dikirim. Jika berkenan, konsep dapat ditinjau. WA 082141004400.",
+    "email_subjek": "Konsep website Puji Dental",
+    "email_isi": "Yth. pengelola Puji Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Konsep informasi website memuat lokasi Cengkareng dan panduan pertanyaan kunjungan. Alamat konsep: https://maxigrowthstudio.com/puji. Tautan dan proposal PDF terlampir perlu disiapkan serta diperiksa sebelum draf ini dikirim. Identitas penerima dan informasi praktik perlu dikonfirmasi dahulu. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com"
+  }
+}
