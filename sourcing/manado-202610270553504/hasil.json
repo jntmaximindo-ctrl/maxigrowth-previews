@@ -1,0 +1,52 @@
+{
+ "kota": "Manado",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Puskesmas Bunaken Kepulauan",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.dinkeskotamanado.org/ragam-pelayanan-kota/",
+   "catatan": "Di kecamatan tujuan; rating/ulasan belum terlihat; ketersediaan layanan dokter gigi belum terverifikasi"
+  },
+  {
+   "nama": "Dokter Gigi Smile Dental Care+ cab. Singkil",
+   "rating": 4.3,
+   "ulasan": 9,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/manado",
+   "catatan": "Di luar kecamatan sasaran (singkil); kecamatan pembanding, status berbatasan langsung belum diverifikasi"
+  },
+  {
+   "nama": "drg. Chealsea Jessica Siwy",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID/kota-manado/dokter-gigi",
+   "catatan": "Di luar kecamatan sasaran (singkil); kecamatan pembanding, status berbatasan langsung belum diverifikasi; rating/ulasan belum terlihat"
+  },
+  {
+   "nama": "Puskesmas Singkil",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.dinkeskotamanado.org/ragam-pelayanan-kota/",
+   "catatan": "Di luar kecamatan sasaran (singkil); kecamatan pembanding, status berbatasan langsung belum diverifikasi; rating/ulasan belum terlihat; ketersediaan layanan dokter gigi belum terverifikasi"
+  },
+  {
+   "nama": "Puskesmas Wawonasa",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.dinkeskotamanado.org/ragam-pelayanan-kota/",
+   "catatan": "Di luar kecamatan sasaran (singkil); kecamatan pembanding, status berbatasan langsung belum diverifikasi; rating/ulasan belum terlihat; ketersediaan layanan dokter gigi belum terverifikasi"
+  },
+  {
+   "nama": "drg. Meske Octovianus Kimia Farma Hasanuddin",
+   "rating": 5.0,
+   "ulasan": 21,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/manado",
+   "catatan": "Di luar kecamatan sasaran (tuminting); kecamatan pembanding, status berbatasan langsung belum diverifikasi"
+  }
+ ],
+ "catatan": "KNOWN-KLINIK.txt diperiksa. Kandidat pembanding di luar kecamatan diberi label eksplisit, dan status kecamatan bersebelahan tidak diasumsikan. Hanya rating dan ulasan yang tampak dalam sumber yang dimasukkan. Kontak email tidak ditemukan."
+}

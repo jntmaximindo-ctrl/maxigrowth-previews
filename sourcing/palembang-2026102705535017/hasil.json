@@ -1,0 +1,53 @@
+{
+ "kota": "Palembang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Asri Dental Clinic",
+   "rating": 4.9,
+   "ulasan": 592,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/asri-dental-clinic-dokter-gigi-palembang",
+   "catatan": "Sukarami; sudah ada dalam KNOWN-KLINIK.txt"
+  },
+  {
+   "nama": "Enzo Dental KM.5",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://enzodental.id/lokasi/km5",
+   "catatan": "Sukarami; rating dan ulasan belum terverifikasi"
+  },
+  {
+   "nama": "E Dental Care Cabang Palembang 2",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf",
+   "catatan": "Sukarami; sudah dikenal di KNOWN-KLINIK.txt dan ulasan belum diverifikasi"
+  },
+  {
+   "nama": "Klinik Adisha",
+   "rating": 5.0,
+   "ulasan": 36,
+   "sumber": "https://caregiving.id/direktori/sumatera-selatan/klinik-kesehatan/",
+   "catatan": "Sukarami; tercantum klinik kesehatan, layanan dokter gigi belum dikonfirmasi dan perlu audit sebelum dianggap klinik gigi"
+  },
+  {
+   "nama": "Charitas Hospital KM 7",
+   "rating": 4.7,
+   "ulasan": 227,
+   "sumber": "https://www.alodokter.com/cari-rumah-sakit/gigi-dan-mulut/scaling-gigi/palembang",
+   "catatan": "Sukarami; rumah sakit dengan layanan scaling gigi, bukan klinik khusus gigi"
+  },
+  {
+   "nama": "Praktik drg. Rina Meiliyanawaty, SpPerio",
+   "rating": 4.9,
+   "ulasan": 1008,
+   "sumber": "https://halopalembang.com/detail/46156/peta-lengkap-klinik-gigi-di-palembang-2026-dari-fdc-hingga-tree-dental-mana-yang-tepat-untuk-anda",
+   "catatan": "Sukarami, kemungkinan praktik pada fasilitas Asri Dental Clinic yang sudah dikenal; jangan dianggap prospek terpisah"
+  }
+ ],
+ "catatan": "Klinik Adisha hanya terkonfirmasi sebagai klinik kesehatan, bukan klinik gigi; tidak dimasukkan ke klinik. Klinik Adisha terdaftar sebagai klinik kesehatan; klasifikasi klinik gigi perlu verifikasi lanjutan sebelum prospek digunakan. Kontak terverifikasi untuk Enzo Dental 082233046161, untuk Asri Dental 08818056161; E Dental Care telepon 0895372605550 dan email edentalpalembang2@gmail.com. KNOWN-KLINIK.txt diperiksa.",
+ "area": "palembang-sukarami-r1"
+}

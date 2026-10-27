@@ -1,0 +1,52 @@
+{
+ "kota": "Palembang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "DentMate Family Dental Health Care",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://dentmate.id/",
+   "catatan": "Situs resmi mengklaim Ilir Timur III di alamat Jl MP Mangkunegara; sudah di KNOWN-KLINIK.txt, jumlah ulasan belum dipastikan"
+  },
+  {
+   "nama": "Klinik Insan Mulia",
+   "rating": 4.7,
+   "ulasan": 79,
+   "sumber": "https://caregiving.id/direktori/sumatera-selatan/kota-palembang/klinik-kesehatan/",
+   "catatan": "Kuto Batu, Ilir Timur III; klinik umum, layanan dokter gigi belum dikonfirmasi"
+  },
+  {
+   "nama": "Klinik Dr. Aisyah Ghanie",
+   "rating": 4.8,
+   "ulasan": 17,
+   "sumber": "https://indonesiaknowledge.com/directory/medical-clinics/palembang",
+   "catatan": "Kuto Batu, bertanda Ilir Timur II di direktori, calon pembanding kecamatan sekitar; dental belum dipastikan"
+  },
+  {
+   "nama": "ORIS Dental Clinic",
+   "rating": 4.8,
+   "ulasan": 198,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/oris-dental-clinic",
+   "catatan": "2 Ilir, Ilir Timur II, kecamatan sekitar; sudah ada KNOWN-KLINIK.txt"
+  },
+  {
+   "nama": "LUMIN DENTAL",
+   "rating": 4.9,
+   "ulasan": 101,
+   "sumber": "https://inisumsel.com/amp/46239/10-klinik-gigi-palembang-dengan-rating-tertinggi-di-2026-panduan-lengkap-untuk-warga-bumi-sriwijaya",
+   "catatan": "9 Ilir, Ilir Timur II, kecamatan sekitar; sudah ada KNOWN-KLINIK.txt"
+  },
+  {
+   "nama": "Klinik Gigi DentMate",
+   "rating": 5.0,
+   "ulasan": 436,
+   "sumber": "https://infopraktekdokter.com/cari-dokter/klinik-gigi-dentmate",
+   "catatan": "Sumber pihak ketiga menempatkan di Ilir Timur II; situs resminya menyebut Ilir Timur III, entri yang sama dengan DentMate; tidak dihitung dua prospek"
+  }
+ ],
+ "catatan": "KNOWN-KLINIK.txt telah diperiksa; klinik tidak ditambahkan jika rating, ulasan, atau jenis layanan gigi belum terverifikasi. Bukti situs resmi DentMate dan direktori berbeda mengenai batas kecamatan; tidak mengasumsikan lokasi sebelum verifikasi. Klinik Insan Mulia nomor 087722739898 tercantum publik. Email tidak ditemukan."
+}

@@ -1,0 +1,52 @@
+{
+ "kota": "Palembang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Clover Dental Care cabang KM.7",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://cloverdental.co.id/",
+   "catatan": "Kecamatan Alang-Alang Lebar; sudah masuk KNOWN-KLINIK.txt; jumlah ulasan cabang belum diverifikasi"
+  },
+  {
+   "nama": "drg. Willy",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.faskesbpjs.com/2023/07/faskes-palembang.html",
+   "catatan": "Kecamatan Alang-Alang Lebar; praktik dokter gigi; ulasan belum diperoleh"
+  },
+  {
+   "nama": "Klinik Ummat",
+   "rating": 4.5,
+   "ulasan": 194,
+   "sumber": "https://indonesiaknowledge.com/directory/medical-clinics/palembang",
+   "catatan": "Alang-Alang Lebar; klinik umum, layanan gigi belum terverifikasi"
+  },
+  {
+   "nama": "Klinik Pratama Tirta Anugrah Medika",
+   "rating": 4.8,
+   "ulasan": 161,
+   "sumber": "https://indonesiaknowledge.com/directory/medical-clinics/palembang/klinik-pratama-tirta-anugrah-medika-palembang",
+   "catatan": "Alang-Alang Lebar; klinik umum dengan layanan THT, layanan gigi tidak terverifikasi"
+  },
+  {
+   "nama": "Klinik Al-Misykat",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.faskesbpjs.com/2023/07/faskes-palembang.html",
+   "catatan": "Alang-Alang Lebar; klinik umum, dental belum dikonfirmasi"
+  },
+  {
+   "nama": "Klinik Pratama Aisyiyah",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.faskesbpjs.com/2023/07/faskes-palembang.html",
+   "catatan": "Alang-Alang Lebar; klinik umum, dental belum dikonfirmasi"
+  }
+ ],
+ "catatan": "KNOWN-KLINIK.txt telah diperiksa; klinik tidak ditambahkan jika rating, ulasan, atau jenis layanan gigi belum terverifikasi. Nomor dari sumber publik: Clover 085832588623, Tirta Anugrah 085381889857. Email klinik tidak terverifikasi."
+}
