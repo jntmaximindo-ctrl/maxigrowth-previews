@@ -92,5 +92,17 @@
     "https://www.linkedin.com/company/harmony-smiles-dental-clinic",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-bekasi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282110769787",
+      "catatan": "URL daftar provider DBS/Chubb hanya menampilkan 'Spinner App Loading' dan tidak memperlihatkan nomor yang diklaim."
+    },
+    {
+      "path": "email",
+      "tercatat": "harmonysmilesdc@gmail.com",
+      "catatan": "Email tidak terlihat pada respons halaman DBS/Chubb yang hanya menampilkan pemuat halaman."
+    }
   ]
 }

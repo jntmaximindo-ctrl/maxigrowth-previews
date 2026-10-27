@@ -1,0 +1,25 @@
+{
+  "id": "W1787",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": null,
+      "src": "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-langkat/",
+      "catatan": "Tidak tersedia harga resmi numerik; kisaran pasar kota dari minimal tiga sumber untuk tujuh perawatan belum disediakan."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-langkat/",
+      "di_sumber": "No Telpon 0852-7053-1978",
+      "src": "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-langkat/",
+      "catatan": "Nomor cocok setelah normalisasi; sumber hanya menyebut telepon. Status WA belum terverifikasi, bukan bukti nomor salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/place/?q=place_id:ChIJqcUxV0krNzART8yGQrnevmE",
+    "https://maps.google.com/?cid=7043311754520480847"
+  ],
+  "kritis_ok": true
+}

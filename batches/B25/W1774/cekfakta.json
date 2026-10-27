@@ -1,0 +1,31 @@
+{
+  "id": "W1774",
+  "diperiksa": 14,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281329003243",
+      "di_sumber": "0896-9741-4188",
+      "src": "https://smg.lokanesia.com/klinik-gigi-dokter-gigi-di-banyumanik-semarang/",
+      "catatan": "MediaSehat 23 Agustus 2026 mendukung 0813-2900-3243; direktori Lokanesia yang lebih lama mencantumkan nomor berbeda. Belum dapat dipastikan nomor yang aktif."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281329003243",
+      "di_sumber": "0896-9741-4188 (nomor telepon publik, bukan WA terkonfirmasi)",
+      "src": "https://smg.lokanesia.com/klinik-gigi-dokter-gigi-di-banyumanik-semarang/",
+      "catatan": "WA riset diinferensikan dari nomor ponsel publik sesuai aturan 00a. Direktori lain memiliki nomor berbeda; status WA aktif tidak terkonfirmasi."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 18.00–20.00; Sabtu 13.00–15.00; Minggu tutup",
+      "di_sumber": "Senin–Jumat 17.00–20.00; Sabtu 13.00–15.00; Minggu tutup",
+      "src": "https://smg.lokanesia.com/klinik-gigi-dokter-gigi-di-banyumanik-semarang/",
+      "catatan": "Jadwal di MediaSehat 23 Agustus 2026 cocok dengan riset, tetapi berbeda dari Lokanesia yang lebih lama."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps?cid=14081066758050017157"
+  ],
+  "kritis_ok": false
+}

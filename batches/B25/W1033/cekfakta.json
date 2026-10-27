@@ -1,0 +1,22 @@
+{
+  "id": "W1033",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "09-18",
+      "di_sumber": "Waze 09-18; DokterTanya 10-18",
+      "src": "https://doktertanya.com/dokter-gigi-anak-bandung/",
+      "catatan": "Konflik Minggu belum dicatat pada riset; konfirmasi sebelum publikasi."
+    },
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": "Hubungi Admin",
+      "src": "https://doktertanya.com/dokter-gigi-anak-bandung/",
+      "catatan": "Tidak ada harga resmi numerik atau kisaran pasar kota minimal tiga sumber."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

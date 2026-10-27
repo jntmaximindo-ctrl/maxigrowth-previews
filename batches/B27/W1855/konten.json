@@ -1,0 +1,132 @@
+{
+  "id": "W1855",
+  "hero": {
+    "judul": {
+      "id": "SETARA Dental Care",
+      "en": "SETARA Dental Care"
+    },
+    "sub": {
+      "id": "Informasi layanan, alamat, dan jadwal praktik di Medan.",
+      "en": "Service, location, and opening-hour information in Medan."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi Pemeriksaan",
+        "en": "Assessment Information"
+      },
+      "ringkas": {
+        "id": "Silakan tanyakan ketersediaan jenis perawatan ini sebelum membuat janji.",
+        "en": "Please confirm whether this type of care is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Kebutuhan",
+        "en": "Treatment Enquiry"
+      },
+      "ringkas": {
+        "id": "Silakan tanyakan ketersediaan jenis perawatan ini sebelum membuat janji.",
+        "en": "Please confirm whether this type of care is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Perawatan",
+        "en": "Care Information"
+      },
+      "ringkas": {
+        "id": "Silakan tanyakan ketersediaan jenis perawatan ini sebelum membuat janji.",
+        "en": "Please confirm whether this type of care is available before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan Kunjungan",
+        "en": "Visit Preparation"
+      },
+      "ringkas": {
+        "id": "Silakan tanyakan ketersediaan jenis perawatan ini sebelum membuat janji.",
+        "en": "Please confirm whether this type of care is available before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal dan Kontak",
+      "en": "Hours and Contact Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi awal dan siapkan pertanyaan mengenai jam serta biaya sebelum kunjungan.",
+      "en": "Review initial details and prepare questions about hours and fees before visiting."
+    },
+    "alasan_dipilih": "Jadwal dan ketersediaan perawatan perlu dikonfirmasi; fitur membantu pasien mempersiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Wahidin No.8B-C/33A-AA, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20233",
+        "en": "Jl. Wahidin No.8B-C/33A-AA, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20233"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is it open?"
+      },
+      "a": {
+        "id": "Jam tercantum pada sumber publik; mohon konfirmasi sebelum berkunjung.",
+        "en": "Hours appear in public sources; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check fees?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan biaya sesuai kondisi Anda.",
+        "en": "A published price list was not found. Ask for fees based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa membuat janji?",
+        "en": "Can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the practice to check appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Silakan tanyakan kepada tim praktik.",
+        "en": "Insurance details were not verified. Please ask the team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik",
+    "en": "Contact the Practice"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi layanan dan jadwal di SETARA Dental Care. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya melihat informasi SETARA Dental Care di Medan. Kami telah menyiapkan konsep website yang menata informasi layanan dan kontak di https://maxigrowthstudio.com/setara. Silakan ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website SETARA Dental Care",
+    "email_isi": "Yth. Tim SETARA Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/setara. Konsep ini berfokus pada informasi layanan, jadwal, dan kontak. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika relevan, kami terbuka untuk berdiskusi lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

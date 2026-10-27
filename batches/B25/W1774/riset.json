@@ -113,5 +113,22 @@
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-semarang/",
     "https://caribisnis.id/dokter-gigi/semarang/banyumanik/praktik-mandiri-drg-prisca-ani-bany-imp1",
     "https://smg.lokanesia.com/klinik-gigi-dokter-gigi-di-banyumanik-semarang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281329003243",
+      "catatan": "0896-9741-4188"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281329003243",
+      "catatan": "0896-9741-4188 (nomor telepon publik, bukan WA terkonfirmasi)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 18.00–20.00; Sabtu 13.00–15.00; Minggu tutup",
+      "catatan": "Senin–Jumat 17.00–20.00; Sabtu 13.00–15.00; Minggu tutup"
+    }
   ]
 }

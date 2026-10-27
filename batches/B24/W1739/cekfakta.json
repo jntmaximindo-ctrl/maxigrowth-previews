@@ -1,0 +1,25 @@
+{
+  "id": "W1739",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282110769787",
+      "di_sumber": "URL daftar provider DBS/Chubb hanya menampilkan 'Spinner App Loading' dan tidak memperlihatkan nomor yang diklaim.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
+      "catatan": "Nomor belum dapat diverifikasi, bukan bukti nomor salah. Nama, lokasi dan layanan pada LinkedIn dapat dibaca."
+    },
+    {
+      "path": "email",
+      "tercatat": "harmonysmilesdc@gmail.com",
+      "di_sumber": "Email tidak terlihat pada respons halaman DBS/Chubb yang hanya menampilkan pemuat halaman.",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
+      "catatan": "Perlu pembuktian dokumen daftar provider asli sebelum email digunakan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?app=true",
+    "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-bekasi/"
+  ],
+  "kritis_ok": false
+}

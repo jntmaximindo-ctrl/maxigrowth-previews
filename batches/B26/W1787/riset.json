@@ -86,5 +86,17 @@
     "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-langkat/",
     "https://www.google.com/maps/place/?q=place_id:ChIJqcUxV0krNzART8yGQrnevmE",
     "https://maps.google.com/?cid=7043311754520480847"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "catatan": "Tidak tersedia harga resmi numerik; kisaran pasar kota dari minimal tiga sumber untuk tujuh perawatan belum disediakan."
+    },
+    {
+      "path": "cabang[0].wa.src",
+      "tercatat": "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-langkat/",
+      "catatan": "No Telpon 0852-7053-1978"
+    }
   ]
 }

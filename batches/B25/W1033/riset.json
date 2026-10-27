@@ -109,5 +109,17 @@
   "sumber": [
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/cileunyi-dental-care-and-kids-dental-cileunyi-or-dokter-gigi-spesialis-anak-and-keluargaor-drg.selvia-yunita-dhea%2C-sp.kga?to=place.ChIJvYipy1zDaC4RsrjX4opnFXA",
     "https://doktertanya.com/dokter-gigi-anak-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v.min",
+      "tercatat": "09-18",
+      "catatan": "Waze 09-18; DokterTanya 10-18"
+    },
+    {
+      "path": "harga",
+      "tercatat": [],
+      "catatan": "Hubungi Admin"
+    }
   ]
 }

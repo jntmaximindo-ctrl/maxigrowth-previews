@@ -1,0 +1,25 @@
+{
+  "id": "W1743",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281906777376",
+      "di_sumber": "(021) 8202857",
+      "src": "https://www.semuabis.com/klinik-gigi-mulut-andriani-021-8202857",
+      "catatan": "URL Semuabis yang dicantumkan untuk telepon hanya menampilkan nomor telepon tetap 021-8202857. Nomor seluler 0819-0677-7376 tercantum di Waze dan dokumen Scribd, sehingga nomor seluler bukan terbukti salah, tetapi atribusi src untuk fakta telepon tidak tepat."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281906777376",
+      "di_sumber": "(021) 8202857; tidak ada pernyataan bahwa nomor seluler merupakan akun WhatsApp",
+      "src": "https://www.semuabis.com/klinik-gigi-mulut-andriani-021-8202857",
+      "catatan": "Nomor seluler tercantum di Waze/Scribd, tetapi status akun WA belum dibuktikan; aturan 00a mengizinkan asumsi nomor ponsel sebagai WA. URL src yang ditulis tidak membuktikan WA."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/andriani.klinikgigi/",
+    "https://www.google.com/maps/search/?api=1&query=Klinik%20gigi%20mulut%20Andriani%20Bekasi"
+  ],
+  "kritis_ok": false
+}

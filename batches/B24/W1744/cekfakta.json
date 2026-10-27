@@ -1,0 +1,25 @@
+{
+  "id": "W1744",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Sri Dental Aesthetic by Libon Rawalumbu",
+      "di_sumber": "Tidak dapat diverifikasi: URL Google Maps yang dikutip adalah pencarian generik 'Praktek Dokter Gigi - Jl. Raya Taman Narogong Indah, Bekasi', bukan halaman identitas Sri Dental. Halaman Maps dan Ulastempat gagal dibuka.",
+      "src": "https://www.google.com/maps/search/Praktek%20Dokter%20Gigi%20-%20Jl.%20Raya%20Taman%20Narogong%20Indah%2C%20Bekasi/",
+      "catatan": "Ketidakcukupan bukti identitas kritis; bukan pembuktian nama salah."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285880124780",
+      "di_sumber": "Tidak dapat diverifikasi pada URL Maps yang gagal dibuka.",
+      "src": "https://www.google.com/maps/search/Praktek%20Dokter%20Gigi%20-%20Jl.%20Raya%20Taman%20Narogong%20Indah%2C%20Bekasi/",
+      "catatan": "Nomor tidak terbukti pada sumber yang berhasil dibaca."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/Praktek%20Dokter%20Gigi%20-%20Jl.%20Raya%20Taman%20Narogong%20Indah%2C%20Bekasi/",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-rawalumbu/"
+  ],
+  "kritis_ok": false
+}

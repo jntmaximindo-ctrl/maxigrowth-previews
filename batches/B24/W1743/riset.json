@@ -102,5 +102,17 @@
     "https://www.waze.com/live-map/directions/id/jawa-barat/klinik-gigi-and-mulut-andriani?to=place.ChIJz66fkt6NaS4R4W3oKJP6M3k",
     "https://www.instagram.com/andriani.klinikgigi/",
     "https://id.scribd.com/document/730476699/101-Kesehatan-Gigi-Dan-Mulut"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281906777376",
+      "catatan": "(021) 8202857"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281906777376",
+      "catatan": "(021) 8202857; tidak ada pernyataan bahwa nomor seluler merupakan akun WhatsApp"
+    }
   ]
 }

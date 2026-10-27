@@ -1,0 +1,88 @@
+{
+ "kota": "Batam",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [
+  {
+   "nama": "Agelsa Dental Care",
+   "url": null,
+   "punya_website": false,
+   "maps_url": null,
+   "rating": 4.9,
+   "ulasan": 67,
+   "telepon": "0812-7767-4164",
+   "email": null,
+   "alamat": "Jl. Buana Impian I No.8 Blok J, Tembesi, Sagulung, Batam",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website",
+    "email publik tidak ditemukan"
+   ],
+   "sumber": [
+    "https://www.dentalclinics.care/dental-clinic/agelsa-dental-care"
+   ]
+  },
+  {
+   "nama": "Ruby Dental Care Batu Aji",
+   "url": "https://linktr.ee/rubydentalcare",
+   "punya_website": false,
+   "maps_url": null,
+   "rating": 4.9,
+   "ulasan": 154,
+   "telepon": "0812-9904-5456",
+   "email": null,
+   "alamat": "Ruko ABC Blok B No.8, Sagulung Kota, Sagulung, Batam",
+   "skor_jadul": 100,
+   "masalah": [
+    "tidak punya website",
+    "email publik tidak ditemukan"
+   ],
+   "sumber": [
+    "https://indonesiaknowledge.com/directory/dental/batam/ruby-dental-care-batu-aji-batam"
+   ]
+  }
+ ],
+ "diperiksa": [
+  {
+   "nama": "Agelsa Dental Care",
+   "rating": 4.9,
+   "ulasan": 67,
+   "sumber": "https://www.dentalclinics.care/dental-clinic/agelsa-dental-care"
+  },
+  {
+   "nama": "Ruby Dental Care Batu Aji",
+   "rating": 4.9,
+   "ulasan": 154,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam/ruby-dental-care-batu-aji-batam"
+  },
+  {
+   "nama": "Etama Dental Clinic",
+   "rating": 4.8,
+   "ulasan": 116,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam/etama-dental-clinic-batam",
+   "catatan": "Sudah tercantum di KNOWN-KLINIK; tidak masuk klinik"
+  },
+  {
+   "nama": "KHALILA Batuaji (Praktek Dokter Gigi)",
+   "rating": 4.2,
+   "ulasan": 37,
+   "sumber": "https://indonesiaknowledge.com/directory/dental/batam",
+   "catatan": "Tidak lolos rating; alamat sumber campuran Batu Aji dan Tembesi Sagulung, perlu verifikasi"
+  },
+  {
+   "nama": "Puskesmas Sei Langkai",
+   "rating": 4.7,
+   "ulasan": 423,
+   "sumber": "https://caregiving.id/direktori/kepulauan-riau/kota-batam/klinik-kesehatan/",
+   "catatan": "Puskesmas umum, bukan klinik gigi khusus; tidak dimasukkan klinik"
+  },
+  {
+   "nama": "Klinik Sagulung Memorial",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://dinkes.batam.go.id/wp-content/uploads/sites/35/2019/07/DATA-KLINIK-2019-1.pdf",
+   "catatan": "Tercatat di daftar resmi Dinkes 2019; rating dan ulasan tidak tersedia, tidak lolos verifikasi"
+  }
+ ]
+}

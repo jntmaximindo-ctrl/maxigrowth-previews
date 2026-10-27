@@ -188,5 +188,17 @@
   "sumber": [
     "https://www.sdcdentalbali.com/",
     "https://www.sdcdentalbali.com/about-us/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282314745714",
+      "catatan": "Halaman about-us menampilkan +62 819-3309-9866 dan +62812-2524-0646; nomor 6282314745714 tidak ditemukan pada halaman tersebut."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282314745714",
+      "catatan": "Tautan WhatsApp pada halaman about-us mencantumkan +62812-2524-0646, sedangkan blok kontak lain mencantumkan +62 819-3309-9866."
+    }
   ]
 }

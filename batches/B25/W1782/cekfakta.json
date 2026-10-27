@@ -1,0 +1,28 @@
+{
+  "id": "W1782",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "sumber",
+      "tercatat": "https://indonesiaknowledge.com/directory/dental/semarang dipakai sebagai src untuk telepon dan jam",
+      "di_sumber": "Halaman indeks hanya menampilkan nama, alamat, rating, ulasan dan fasilitas. Telepon serta jam terdapat di halaman detail https://indonesiaknowledge.com/directory/dental/semarang/goodwill-dental-semarang",
+      "src": "https://indonesiaknowledge.com/directory/dental/semarang",
+      "catatan": "Nilai telepon dan jam cocok dengan halaman detail, tetapi atribusi URL src dalam riset kurang spesifik; bukan perbedaan nilai."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Konsultasi kesehatan gigi",
+        "Pemeriksaan gigi dan mulut"
+      ],
+      "di_sumber": "Halaman indeks/detail mengklasifikasikan usaha sebagai dental clinic tetapi tidak mencantumkan dua layanan sebagai daftar resmi.",
+      "src": "https://indonesiaknowledge.com/directory/dental/semarang/goodwill-dental-semarang",
+      "catatan": "Jangan menyajikan dua layanan ini sebagai daftar tindakan resmi yang telah diverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.instagram.com/goodwilldental/",
+    "https://id.linkedin.com/in/linda-maulana-5a849b332/in"
+  ],
+  "kritis_ok": true
+}

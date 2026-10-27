@@ -1,0 +1,17 @@
+{
+  "id": "W1760",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "layanan[0]",
+      "tercatat": "Pemeriksaan gigi",
+      "di_sumber": "Deskripsi generik menyebut pengobatan sakit gigi, tambal, cabut, kawat gigi, dan gigi palsu; tidak menyebut frasa pemeriksaan gigi secara eksplisit.",
+      "src": "https://idalamat.com/alamat/dokter-gigi-dewi-dental-care-1059632",
+      "catatan": "Layanan yang lain muncul dalam deskripsi templat direktori, bukan daftar layanan resmi klinik; verifikasi operasional masih diperlukan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Klinik+Gigi+Lahat&query_place_id=ChIJsXHU1zD9OS4R-E-q1z4C2L4"
+  ],
+  "kritis_ok": true
+}

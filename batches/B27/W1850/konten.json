@@ -1,0 +1,132 @@
+{
+  "id": "W1850",
+  "hero": {
+    "judul": {
+      "id": "Optima Dental Solutions",
+      "en": "Optima Dental Solutions"
+    },
+    "sub": {
+      "id": "Informasi layanan, alamat, dan jadwal praktik di Denpasar.",
+      "en": "Service, location, and opening-hour information in Denpasar."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada situs klinik; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "The clinic lists this service; treatment depends on an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada situs klinik; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "The clinic lists this service; treatment depends on an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada situs klinik; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "The clinic lists this service; treatment depends on an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer dan Bleaching",
+        "en": "Veneers and Whitening"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada situs klinik; kebutuhan tindakan ditentukan setelah pemeriksaan.",
+        "en": "The clinic lists this service; treatment depends on an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Reservasi dan Layanan",
+      "en": "Booking and Service Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi awal dan siapkan pertanyaan mengenai jam serta biaya sebelum kunjungan.",
+      "en": "Review initial details and prepare questions about hours and fees before visiting."
+    },
+    "alasan_dipilih": "Jadwal dan ketersediaan perawatan perlu dikonfirmasi; fitur membantu pasien mempersiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Bypass Ngurah Rai No.550, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80228",
+        "en": "Jl. Bypass Ngurah Rai No.550, Sanur, Denpasar Selatan, Kota Denpasar, Bali 80228"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is it open?"
+      },
+      "a": {
+        "id": "Jam tercantum pada sumber publik; mohon konfirmasi sebelum berkunjung.",
+        "en": "Hours appear in public sources; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check fees?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia pada sumber yang diperiksa. Tanyakan biaya sesuai kondisi Anda.",
+        "en": "A published price list was not found. Ask for fees based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa membuat janji?",
+        "en": "Can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the practice to check appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Silakan tanyakan kepada tim praktik.",
+        "en": "Insurance details were not verified. Please ask the team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik",
+    "en": "Contact the Practice"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi layanan dan jadwal di Optima Dental Solutions. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya melihat informasi Optima Dental Solutions di Denpasar. Kami telah menyiapkan konsep website yang menata informasi layanan dan kontak di https://maxigrowthstudio.com/optima-solutions. Silakan ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Optima Dental Solutions",
+    "email_isi": "Yth. Tim Optima Dental Solutions,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/optima-solutions. Konsep ini berfokus pada informasi layanan, jadwal, dan kontak. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika relevan, kami terbuka untuk berdiskusi lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

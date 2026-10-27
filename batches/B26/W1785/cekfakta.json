@@ -1,0 +1,32 @@
+{
+  "id": "W1785",
+  "diperiksa": 20,
+  "beda": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": null,
+      "src": "https://klinikgigidentes.com/cabang/",
+      "catatan": "Harga resmi numerik maupun kisaran pasar Badung dari minimal tiga sumber belum tersedia dalam riset; testimoni harga tidak dianggap tarif resmi."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin-Sabtu 09-20 WITA",
+      "di_sumber": "Findinbali 09-21; LocalIndonesia 09-20",
+      "src": "https://findinbali.com/dentistry/periodontists/klinik-gigi-dentes-jimbaran-klinik-gigi-terdekat-jimbaran-bali-dental-clinic-bali/",
+      "catatan": "Konflik antardirektori; nilai cocok sumber yang dirujuk riset, bukan bukti nilai salah. Perlu konfirmasi sebelum publikasi."
+    },
+    {
+      "path": "layanan",
+      "tercatat": "12 layanan jaringan",
+      "di_sumber": "Daftar layanan jaringan pada footer",
+      "src": "https://klinikgigidentes.com/cabang/",
+      "catatan": "Daftar cocok tingkat jaringan; ketersediaan seluruh tindakan khusus cabang Jimbaran belum dibuktikan."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://klinikgigidentes.com/",
+    "https://www.google.com/maps/place/?q=place_id:ChIJp1UFlp1E0i0RU5rxUMlRaV8"
+  ],
+  "kritis_ok": true
+}

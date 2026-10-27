@@ -1,0 +1,27 @@
+{
+  "id": "W1767",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628126094926 (telepon klinik)",
+      "di_sumber": "08126094926 — kontak drg. Petra Guinardi untuk pelamar kerja",
+      "src": "https://t.me/s/loker_perawat?after=2988",
+      "catatan": "Nomor sama secara digit, tetapi sumber menyebutnya kontak perekrutan perawat gigi, bukan nomor resmi layanan pasien. Peruntukan nomor pada riset belum terverifikasi."
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628126094926 (WA klinik)",
+      "di_sumber": "08126094926 — nomor kontak lowongan, tidak secara eksplisit disebut WhatsApp klinik",
+      "src": "https://t.me/s/loker_perawat?after=2988",
+      "catatan": "Normalisasi nomor ponsel menjadi WA diizinkan aturan 00a, tetapi sumber tidak membuktikan akun WA ini dipakai untuk reservasi pasien."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://t.me/s/loker_perawat/3014",
+    "https://www.instagram.com/petradentalcaremedan/",
+    "https://www.facebook.com/p/Petra-Dental-Care-100047220194098/",
+    "https://www.google.com/maps/search/?api=1&query=Petra%20Dental%20Care%20(Praktek%20drg.%20Petra%20Guinardi)%20Medan%20Helvetia&query_place_id=ChIJn0NkhFcvMTARIJltwjHHeCI"
+  ],
+  "kritis_ok": false
+}

@@ -87,5 +87,17 @@
   "sumber": [
     "https://www.google.com/maps/search/?api=1&query=Drg.%20Ruth%20Bekasi&query_place_id=ChIJSeeZJF2RaS4RiubpcBAYjus",
     "https://www.google.com/search?q=Drg+Ruth+Jl+Bayan+1+Bekasi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "maps.rating",
+      "tercatat": 4.9,
+      "catatan": 5
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 14,
+      "catatan": 9
+    }
   ]
 }

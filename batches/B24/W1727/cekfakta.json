@@ -1,0 +1,25 @@
+{
+  "id": "W1727",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "maps.rating",
+      "tercatat": 4.9,
+      "di_sumber": 5,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mustika-jaya/",
+      "catatan": "Direktori lama yang ditemukan melalui indeks pencarian memuat rating 5.0; nilai 4.9 dari Google Maps 27 Oktober 2026 tidak dapat dibaca langsung. Perbedaan waktu dapat menjelaskan perubahan."
+    },
+    {
+      "path": "maps.ulasan",
+      "tercatat": 14,
+      "di_sumber": 9,
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mustika-jaya/",
+      "catatan": "Direktori lama memuat 9 ulasan; riset memuat 14. Jumlah ulasan dapat berubah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Drg.%20Ruth%20Bekasi&query_place_id=ChIJSeeZJF2RaS4RiubpcBAYjus",
+    "https://www.google.com/search?q=Drg+Ruth+Jl+Bayan+1+Bekasi"
+  ],
+  "kritis_ok": false
+}

@@ -1,0 +1,18 @@
+{
+  "id": "W1779",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "Senin/Rabu/Jumat 14.30–19.00; Selasa/Kamis 08.30–13.00; Sabtu 09.00–13.00.",
+      "src": "https://www.waze.com/id/live-map/directions/id/jawa-tengah/praktek-drg.selly?to=place.ChIJ9YbjBiyNcC4RQGsfhbhpezs",
+      "catatan": "Riset mengosongkan jam, sedangkan Waze menampilkan jadwal. Perlu konfirmasi jam aktif; Linktree juga menyebut nama dokter lengkap drg Selly Amelia."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://fixpalembang.com/dokter-gigi-anak-semarang/",
+    "https://www.google.com/maps/search/?api=1&query=Praktek+drg.Selly&query_place_id=ChIJ9YbjBiyNcC4RQGsfhbhpezs"
+  ],
+  "kritis_ok": true
+}
