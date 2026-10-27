@@ -1,0 +1,24 @@
+{
+  "id": "W1846",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "Sesi Ultimate Whitening 45 menit (harga tertera saat pemeriksaan)",
+        "jenis": "resmi_klinik",
+        "min": 1400000,
+        "max": 1400000,
+        "src": "https://sosmile-teethwhitening.com/id/pesan-sekarang/"
+      },
+      "di_sumber": null,
+      "src": "https://sosmile-teethwhitening.com/id/pesan-sekarang/",
+      "catatan": "Halaman pemesanan sempat terbuka tetapi rincian harga tidak berhasil diekstrak; pembukaan lanjutan timeout. Harga Rp1.400.000 belum terverifikasi, bukan bukti salah."
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://sosmile-teethwhitening.com/",
+    "https://sosmile-teethwhitening.com/id/pesan-sekarang/"
+  ],
+  "kritis_ok": true
+}

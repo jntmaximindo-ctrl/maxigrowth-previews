@@ -100,5 +100,18 @@
     "https://sosmile-teethwhitening.com/",
     "https://sosmile-teethwhitening.com/id/pesan-sekarang/",
     "https://indonesiaknowledge.com/directory/dental/sanur/so-smile-sanur-sanur"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga[0]",
+      "tercatat": {
+        "perawatan": "Sesi Ultimate Whitening 45 menit (harga tertera saat pemeriksaan)",
+        "jenis": "resmi_klinik",
+        "min": 1400000,
+        "max": 1400000,
+        "src": "https://sosmile-teethwhitening.com/id/pesan-sekarang/"
+      },
+      "catatan": "Halaman pemesanan sempat terbuka tetapi rincian harga tidak berhasil diekstrak; pembukaan lanjutan timeout. Harga Rp1.400.000 belum terverifikasi, bukan bukti salah."
+    }
   ]
 }

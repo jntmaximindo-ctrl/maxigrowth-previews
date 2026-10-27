@@ -1,0 +1,52 @@
+{
+ "kota": "Batam",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Ria Dental Care (Batu Aji)",
+   "rating": 4.8,
+   "ulasan": 719,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/batam",
+   "catatan": "Kecamatan tujuan — sudah ada di KNOWN-KLINIK"
+  },
+  {
+   "nama": "Puskesmas Batu Aji",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://batam.go.id/uptd-puskesmas-daerah-kota-batam/",
+   "catatan": "Kecamatan tujuan"
+  },
+  {
+   "nama": "Klinik Syuhada Medika Batam",
+   "rating": 5,
+   "ulasan": 24,
+   "sumber": "https://batam.co.id/usaha/klinik/tiban/",
+   "catatan": "Pembanding luar kecamatan tujuan: Sekupang"
+  },
+  {
+   "nama": "Klinik Pratama Panacea",
+   "rating": 4.4,
+   "ulasan": 89,
+   "sumber": "https://batam.co.id/usaha/klinik/tiban/",
+   "catatan": "Pembanding luar kecamatan tujuan: Sekupang"
+  },
+  {
+   "nama": "RSBP Batam Poli Gigi",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rsbp.bpbatam.go.id/poliklinik/gigi/",
+   "catatan": "Pembanding luar kecamatan tujuan: Sekupang"
+  },
+  {
+   "nama": "Wnd Dental Care Batam",
+   "rating": 4.9,
+   "ulasan": 40,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/batam",
+   "catatan": "Pembanding luar kecamatan tujuan: Lubuk Baja"
+  }
+ ],
+ "catatan": "Area target Batu Aji. Kandidat luar kecamatan bukan prospek target; beberapa tidak berbatasan langsung dan perlu verifikasi geografi. Nilai null menunjukkan tidak ditemukan, tidak mengklaim survei telepon/email selesai. Rating berbeda antardirektori mungkin perlu audit ulang."
+}

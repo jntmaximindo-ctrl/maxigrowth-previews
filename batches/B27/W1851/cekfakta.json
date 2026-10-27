@@ -1,0 +1,30 @@
+{
+  "id": "W1851",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": null,
+      "src": "https://senyumdansenyum.com/",
+      "catatan": "Harga resmi numerik atau kisaran pasar kota minimal tiga sumber untuk tujuh kategori belum disediakan."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "di_sumber": "Senin-Minggu 07-22 WIB",
+      "src": "https://senyumdansenyum.com/klinik-gigi-medan/",
+      "catatan": "Halaman resmi cabang Juanda mencantumkan jam berbeda dari 09-21."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

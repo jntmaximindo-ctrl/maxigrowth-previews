@@ -1,0 +1,72 @@
+{
+  "id": "W1847",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "email.v",
+      "tercatat": null,
+      "di_sumber": "identistbalia@gmail.com",
+      "src": "https://www.identistbali.com/",
+      "catatan": "Email praktik tercantum pada footer resmi."
+    },
+    {
+      "path": "harga",
+      "tercatat": [
+        {
+          "perawatan": "Pembersihan gigi umum",
+          "jenis": "resmi_klinik",
+          "min": 500000,
+          "max": 500000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Behel metal",
+          "jenis": "resmi_klinik",
+          "min": 7500000,
+          "max": 7500000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Implan gigi",
+          "jenis": "resmi_klinik",
+          "min": 15000000,
+          "max": 15000000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Mahkota gigi PFM",
+          "jenis": "resmi_klinik",
+          "min": 3200000,
+          "max": 3200000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Gigi tiruan akrilik penuh per rahang",
+          "jenis": "resmi_klinik",
+          "min": 5200000,
+          "max": 5200000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Clear aligner",
+          "jenis": "resmi_klinik",
+          "min": 20000000,
+          "max": 20000000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Penanganan darurat gigi",
+          "jenis": "resmi_klinik",
+          "min": 500000,
+          "max": 500000,
+          "src": "https://www.identistbali.com/price-list"
+        }
+      ],
+      "di_sumber": "Tambal per gigi IDR500000; whitening IDR2500000",
+      "src": "https://www.identistbali.com/service-page/teeth-fillings-per-tooth",
+      "catatan": "Tujuh harga yang tercatat cocok daftar resmi. Tambal dan bleaching yang diminta standar belum dicakup, meski tersedia pada sumber resmi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

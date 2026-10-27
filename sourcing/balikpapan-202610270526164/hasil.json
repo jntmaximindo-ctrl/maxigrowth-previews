@@ -1,0 +1,52 @@
+{
+ "kota": "Balikpapan",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Klinik Medika Utama",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan",
+   "catatan": "Dalam kecamatan tujuan"
+  },
+  {
+   "nama": "Klinik Ibnu Sina Batakan",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan",
+   "catatan": "Dalam kecamatan tujuan"
+  },
+  {
+   "nama": "Like Dental Care Balikpapan Baru",
+   "rating": 5,
+   "ulasan": 795,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/balikpapan",
+   "catatan": "Pembanding kecamatan Selatan di luar kecamatan tujuan (belum tentu berbatasan langsung); tercantum KNOWN-KLINIK"
+  },
+  {
+   "nama": "Klinik Gigi Dentes Balikpapan",
+   "rating": 5,
+   "ulasan": 210,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/balikpapan",
+   "catatan": "Pembanding kecamatan Selatan di luar kecamatan tujuan (belum tentu berbatasan langsung)"
+  },
+  {
+   "nama": "Klinik Gigi Joy Dental Balikpapan",
+   "rating": 5,
+   "ulasan": 93,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/balikpapan",
+   "catatan": "Pembanding kecamatan Selatan di luar kecamatan tujuan (belum tentu berbatasan langsung)"
+  },
+  {
+   "nama": "Sycamore Dental Studio",
+   "rating": 5,
+   "ulasan": 55,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/balikpapan",
+   "catatan": "Pembanding kecamatan Kota di luar kecamatan tujuan (belum tentu berbatasan langsung)"
+  }
+ ],
+ "catatan": "Target Kecamatan Balikpapan Timur. Fasilitas dengan rating tidak diketahui tidak dimasukkan sebagai klinik lolos. Pembanding luar kecamatan dicatat eksplisit, tidak dihitung sebagai prospek target. Data email dan ponsel yang tidak diketahui null."
+}

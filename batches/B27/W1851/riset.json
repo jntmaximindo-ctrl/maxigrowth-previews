@@ -98,5 +98,25 @@
     "https://senyumdansenyum.com/",
     "https://senyumdansenyum.com/klinik-gigi-medan/",
     "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "catatan": "Harga resmi numerik atau kisaran pasar kota minimal tiga sumber untuk tujuh kategori belum disediakan."
+    },
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": {
+        "sen": "09-21",
+        "sel": "09-21",
+        "rab": "09-21",
+        "kam": "09-21",
+        "jum": "09-21",
+        "sab": "09-21",
+        "min": "09-21"
+      },
+      "catatan": "Senin-Minggu 07-22 WIB"
+    }
   ]
 }

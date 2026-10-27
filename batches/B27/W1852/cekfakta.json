@@ -1,0 +1,22 @@
+{
+  "id": "W1852",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "di_sumber": null,
+      "src": "https://www.dentalclinics.care/dental-clinics/medan",
+      "catatan": "Harga resmi numerik atau kisaran pasar kota dari minimal tiga sumber belum disediakan."
+    },
+    {
+      "path": "cabang[0].telepon.src",
+      "tercatat": "https://www.dentalclinics.care/dental-clinics/medan",
+      "di_sumber": "https://www.dentalclinics.care/dental-clinic/eu-dental-clinic",
+      "src": "https://www.dentalclinics.care/dental-clinics/medan",
+      "catatan": "Halaman daftar memuat nama/alamat, tetapi nomor dan jam ada di halaman detail yang dibuka; nomor 6285266945436 cocok."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

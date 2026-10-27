@@ -88,5 +88,25 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan",
     "https://www.google.com/maps/search/?api=1&query=Asia%20Dental%20Clinic%20Medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0617348968",
+      "catatan": "Nomor +62 61 7348968 tercantum di halaman detail klinik, tetapi TIDAK di URL halaman daftar Medan yang dikutip sebagai src."
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": {
+        "sen": "09-19",
+        "sel": "09-19",
+        "rab": "09-19",
+        "kam": "09-19",
+        "jum": "09-19",
+        "sab": "09-17",
+        "min": "tutup"
+      },
+      "catatan": "Jam Senin–Jumat 09.00–19.00, Sabtu 09.00–17.00, Minggu tutup tercantum di halaman detail klinik, tetapi TIDAK di URL daftar Medan yang dikutip sebagai src."
+    }
   ]
 }

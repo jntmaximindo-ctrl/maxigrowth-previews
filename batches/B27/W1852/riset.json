@@ -88,5 +88,17 @@
   "sumber": [
     "https://www.dentalclinics.care/dental-clinics/medan",
     "https://smilejet.app/clinic/eu-dental-clinic"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "harga",
+      "tercatat": [],
+      "catatan": "Harga resmi numerik atau kisaran pasar kota dari minimal tiga sumber belum disediakan."
+    },
+    {
+      "path": "cabang[0].telepon.src",
+      "tercatat": "https://www.dentalclinics.care/dental-clinics/medan",
+      "catatan": "https://www.dentalclinics.care/dental-clinic/eu-dental-clinic"
+    }
   ]
 }

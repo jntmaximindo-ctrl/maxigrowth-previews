@@ -1,0 +1,52 @@
+{
+ "kota": "Batam",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-27",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Dental Diary Indonesia",
+   "rating": 5,
+   "ulasan": 46,
+   "sumber": "https://smilejet.app/indonesia/batam",
+   "catatan": "Kecamatan tujuan — sudah ada di KNOWN-KLINIK"
+  },
+  {
+   "nama": "Ria Dental Care Bengkong",
+   "rating": 4.6,
+   "ulasan": 115,
+   "sumber": "https://smilejet.app/clinic/ria-dental-care-bengkong-batam",
+   "catatan": "Kecamatan tujuan — sudah ada di KNOWN-KLINIK"
+  },
+  {
+   "nama": "Puskesmas Tanjung Buntung",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://batam.go.id/uptd-puskesmas-daerah-kota-batam/",
+   "catatan": "Kecamatan tujuan"
+  },
+  {
+   "nama": "Klinik Gigi Joy Dental Batam",
+   "rating": 5,
+   "ulasan": 190,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/batam",
+   "catatan": "Pembanding luar kecamatan tujuan: Lubuk Baja"
+  },
+  {
+   "nama": "Wnd Dental Care Batam",
+   "rating": 4.9,
+   "ulasan": 40,
+   "sumber": "https://www.dentalclinics.care/dental-clinics/batam",
+   "catatan": "Pembanding luar kecamatan tujuan: Lubuk Baja"
+  },
+  {
+   "nama": "Puskesmas Tanjung Sengkuang",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://batam.go.id/uptd-puskesmas-daerah-kota-batam/",
+   "catatan": "Pembanding luar kecamatan tujuan: Batu Ampar"
+  }
+ ],
+ "catatan": "Area target Bengkong. Kandidat luar kecamatan bukan prospek target; beberapa tidak berbatasan langsung dan perlu verifikasi geografi. Nilai null menunjukkan tidak ditemukan, tidak mengklaim survei telepon/email selesai. Rating berbeda antardirektori mungkin perlu audit ulang."
+}

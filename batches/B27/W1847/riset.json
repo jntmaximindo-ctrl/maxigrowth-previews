@@ -159,5 +159,67 @@
     "https://www.identistbali.com/service-page/general-cleaning",
     "https://www.identistbali.com/service-page/teeth-fillings-per-tooth",
     "https://indonesiaknowledge.com/directory/dental/sanur/identist-sanur-sanur"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email.v",
+      "tercatat": null,
+      "catatan": "identistbalia@gmail.com"
+    },
+    {
+      "path": "harga",
+      "tercatat": [
+        {
+          "perawatan": "Pembersihan gigi umum",
+          "jenis": "resmi_klinik",
+          "min": 500000,
+          "max": 500000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Behel metal",
+          "jenis": "resmi_klinik",
+          "min": 7500000,
+          "max": 7500000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Implan gigi",
+          "jenis": "resmi_klinik",
+          "min": 15000000,
+          "max": 15000000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Mahkota gigi PFM",
+          "jenis": "resmi_klinik",
+          "min": 3200000,
+          "max": 3200000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Gigi tiruan akrilik penuh per rahang",
+          "jenis": "resmi_klinik",
+          "min": 5200000,
+          "max": 5200000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Clear aligner",
+          "jenis": "resmi_klinik",
+          "min": 20000000,
+          "max": 20000000,
+          "src": "https://www.identistbali.com/price-list"
+        },
+        {
+          "perawatan": "Penanganan darurat gigi",
+          "jenis": "resmi_klinik",
+          "min": 500000,
+          "max": 500000,
+          "src": "https://www.identistbali.com/price-list"
+        }
+      ],
+      "catatan": "Tambal per gigi IDR500000; whitening IDR2500000"
+    }
   ]
 }
