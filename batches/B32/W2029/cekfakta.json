@@ -1,0 +1,50 @@
+{
+  "id": "W2029",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "VA Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dupak Bangunsari No.42, Dupak, Kec. Krembangan, Surabaya, Jawa Timur 60179",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281131102020",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281131102020",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"10-21\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/ [cabang[0].alamat]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/ [cabang[0].telepon]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/ [cabang[0].wa]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

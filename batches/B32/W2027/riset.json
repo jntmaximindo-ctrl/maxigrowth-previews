@@ -103,5 +103,37 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-bulak/",
     "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/praktek-dokter-gigi-drg-firly--gube-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik dokter gigi drg. Firly Rakhmawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dukuh Bulak Banteng No.67, Sidotopo Wetan, Kec. Kenjeran, Surabaya, Jawa Timur 60128",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281234559655",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281234559655",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-12,18-21\", \"sel\": \"09-12,18-21\", \"rab\": \"09-12,18-21\", \"kam\": \"09-12,18-21\", \"jum\": \"09-11,18-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Firly Rakhmawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

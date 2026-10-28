@@ -82,5 +82,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/majida-dental-care-padang-padang",
     "https://www.dentalclinics.care/dental-clinics/padang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-19\", \"sel\": \"13-19\", \"rab\": \"13-19\", \"kam\": \"13-19\", \"jum\": \"13-19\", \"sab\": \"13-19\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

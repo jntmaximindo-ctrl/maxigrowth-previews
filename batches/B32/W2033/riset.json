@@ -131,5 +131,42 @@
     "https://fixpalembang.com/dokter-gigi-surabaya/",
     "https://bukaminggu.com/dokter-gigi-surabaya/",
     "https://www.ulastempat.com/7-dokter-gigi-di-pabean-cantian-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Surabaya – SNA Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Teluk Sarera Utara No.31, Perak Utara, Kec. Pabean Cantikan, Surabaya, Jawa Timur 60165",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628123012730",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628123012730",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"15-17,18-21\", \"sab\": \"08-12,18-21\", \"min\": \"18-21\"}",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Sinta Mayasari",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "drg. Agya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
