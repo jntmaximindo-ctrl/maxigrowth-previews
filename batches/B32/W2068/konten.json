@@ -1,0 +1,142 @@
+{
+  "id": "W2068",
+  "hero": {
+    "judul": {
+      "id": "Klinik drg. Ernawati Ratih Dewanti",
+      "en": "Klinik drg. Ernawati Ratih Dewanti"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Konfirmasikan titik praktik",
+      "en": "Confirm the practice location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan",
+        "en": "Ask about examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan alur pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask which examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal",
+        "en": "Ask about appointments"
+      },
+      "ringkas": {
+        "id": "Ajukan hari pilihan dan tunggu konfirmasi klinik sebelum berangkat.",
+        "en": "Share your preferred day and wait for confirmation before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Request a breakdown of examination and proposed treatment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan",
+        "en": "Ask how to prepare"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi riwayat kesehatan yang perlu dibawa.",
+        "en": "Ask which documents and medical history details to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pastikan titik praktik Patukan",
+      "en": "Confirm the Patukan practice location"
+    },
+    "penjelasan": {
+      "id": "Sumber publik menyebut titik Patukan dan nomor telepon pada daftar RB Amanda Patukan. Pastikan tempat praktik yang dituju sebelum menanyakan hari kunjungan.",
+      "en": "Public sources list a Patukan location and a telephone under RB Amanda Patukan. Confirm the intended practice location before asking about a visit day."
+    },
+    "alasan_dipilih": "Nama dokter sama tetapi rincian titik praktik dan nomor berasal dari sumber berbeda; konfirmasi lokasi menjadi kebutuhan utama."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Direktori menyebut Gg. Patukan 1, Ambarketawang, Gamping, Sleman. Pastikan titik praktik karena sumber lain mencantumkan RB Amanda Patukan.",
+        "en": "The directory lists Gg. Patukan 1, Ambarketawang, Gamping, Sleman. Confirm the practice location because another source lists RB Amanda Patukan."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.00–20.00 WIB dan Minggu tutup. Jadwal perlu dikonfirmasi sebelum datang.",
+        "en": "The directory lists Monday–Saturday 16:00–20:00 WIB and Sunday closed. Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar layanan belum terkonfirmasi. Sampaikan kebutuhan Anda dan tanyakan pilihan pemeriksaannya.",
+        "en": "The service list is unconfirmed. Describe your needs and ask about examination options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah kontak praktik sudah dipastikan?",
+        "en": "Is the practice contact confirmed?"
+      },
+      "a": {
+        "id": "Daftar dokter mencantumkan (0274)797085 pada RB Amanda Patukan; hubungan nomor dengan titik praktik saat ini belum dipastikan. Nomor WhatsApp belum tersedia.",
+        "en": "A doctor directory lists (0274)797085 under RB Amanda Patukan; its link to the current practice location is unconfirmed. A WhatsApp number is not available."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Klinik drg. Ernawati Ratih Dewanti, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Klinik drg. Ernawati Ratih Dewanti, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Patukan dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/drg-ernawati. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Klinik drg. Ernawati Ratih Dewanti",
+    "email_isi": "Yth. Manajemen Klinik drg. Ernawati Ratih Dewanti,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Patukan dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/drg-ernawati. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
