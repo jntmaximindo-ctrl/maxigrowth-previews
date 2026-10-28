@@ -1,0 +1,132 @@
+{
+  "id": "W2033",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi SNA Dental",
+      "en": "Dental Care at SNA Dental"
+    },
+    "sub": {
+      "id": "Temukan SNA Dental di Teluk Sarera Utara, Surabaya, serta informasi perawatan dan cara menanyakan jadwal.",
+      "en": "Find SNA Dental on Teluk Sarera Utara, Surabaya, and learn how to enquire about treatments and hours."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Enquire About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan untuk gigi berlubang dan pilihan penambalan sesuai penilaian dokter.",
+        "en": "Ask about examinations for cavities and filling options based on the dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Informasi pembersihan karang gigi dapat ditanyakan sebelum membuat janji.",
+        "en": "Enquire about professional teeth cleaning before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan perapian gigi dan kebutuhan pemeriksaan awal.",
+        "en": "Discuss teeth alignment options and the need for an initial assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer dan Bleaching",
+        "en": "Veneers and Whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian tindakan estetika setelah pemeriksaan kondisi gigi.",
+        "en": "Ask about cosmetic options after a dental assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Topik Konsultasi",
+      "en": "Consultation Topic Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik seperti tambal, scaling, behel, atau perawatan estetika untuk menyiapkan pertanyaan sebelum menghubungi praktik.",
+      "en": "Choose a topic such as fillings, scaling, braces, or cosmetic care to prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Beberapa jenis tindakan tercantum di sumber publik; panduan hanya membantu persiapan, bukan diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi SNA Dental?",
+        "en": "Where is SNA Dental?"
+      },
+      "a": {
+        "id": "Jl. Teluk Sarera Utara No.31, Perak Utara, Surabaya.",
+        "en": "Jl. Teluk Sarera Utara No.31, Perak Utara, Surabaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange a visit?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercantum adalah 0812-3012-730. Pastikan jadwal saat menghubungi.",
+        "en": "The publicly listed mobile number is 0812-3012-730. Confirm hours when contacting the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada jadwal malam?",
+        "en": "Are evening appointments available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan sesi malam. Jadwal terkini perlu dikonfirmasi sebelum berkunjung.",
+        "en": "Directories list evening sessions. Please confirm current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal?",
+        "en": "How much do scaling or fillings cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Mohon tanyakan estimasi kepada pengelola.",
+        "en": "No official fee list was found. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Tanyakan langsung kepada praktik.",
+        "en": "Insurance arrangements are unverified. Please enquire directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi SNA Dental",
+    "en": "Contact SNA Dental"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di SNA Dental Surabaya dan informasi perawatan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola SNA Dental. Saya Muhammad Rizqi dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pasien di Perak Utara menemukan informasi scaling, tambal, dan konsultasi perawatan gigi. Konsep dapat dilihat di https://maxigrowthstudio.com/surabaya-sna. Kami terbuka untuk masukan bila ada informasi yang perlu disesuaikan. Terima kasih.",
+    "email_subjek": "Konsep website SNA Dental Surabaya",
+    "email_isi": "Yth. Pengelola SNA Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website untuk SNA Dental di Teluk Sarera Utara, dengan informasi layanan dan cara menghubungi praktik.\n\nKonsep tersedia di https://maxigrowthstudio.com/surabaya-sna. Proposal PDF terlampir untuk dipertimbangkan. Informasi jadwal, dokter, dan layanan dapat disesuaikan dengan konfirmasi dari pihak klinik.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
