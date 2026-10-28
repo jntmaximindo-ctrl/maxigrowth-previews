@@ -71,5 +71,22 @@
   "sumber": [
     "https://www.semuabis.com/klinik-matahari_3M-0274-4461804",
     "https://linktr.ee/KlinikMatahari"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Matahari",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Utara Pasar Stan, Jl. Raya Tajem, Sefan, Maguwoharjo, Depok, Sleman, Daerah Istimewa Yogyakarta 55282",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622744461804",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
