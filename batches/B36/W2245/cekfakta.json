@@ -1,0 +1,15 @@
+{
+  "id": "W2245",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": "Senin–Sabtu 18.00–20.30, Minggu tutup",
+      "di_sumber": "Waze menampilkan Senin–Sabtu 18.00–20.30 tetapi tidak menampilkan Minggu. IDalamat menyebut Minggu tutup dalam teks jam.",
+      "src": "https://www.waze.com/id/live-map/directions/id/bali/praktik-dokter-gigi-%28dentist%29-drg.-made-widnya-swari?to=place.ChIJe4rF7XA_0i0RbPq6my_RAGI",
+      "catatan": "Bagian Minggu pada sumber jam yang ditunjuk tidak tertulis; sumber lain mendukung tutup tetapi status terkini belum terverifikasi."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "W2280",
+  "diperiksa": 8,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "di_sumber": "SemuaBis: Senin–Jumat 06.15–17.30, Sabtu 13.00–17.00, Minggu tutup; CariBisnis mencantumkan 09.00–21.00 pada hari kerja dan buka Minggu.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-selatan/tebet/klinik-gigi-suhanda-tebe-imp1",
+      "catatan": "Waze juga mencantumkan jam terpisah; sumber bertentangan sehingga riset tepat tidak menetapkan jam."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": null,
+        "ulasan": null
+      },
+      "di_sumber": "CariBisnis mencantumkan 4,5 dari 127 ulasan.",
+      "src": "https://caribisnis.id/dokter-gigi/jakarta-selatan/tebet/klinik-gigi-suhanda-tebe-imp1",
+      "catatan": "Angka berasal dari direktori, bukan pembacaan Google Maps langsung."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true
+}

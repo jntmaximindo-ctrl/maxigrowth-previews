@@ -1,0 +1,22 @@
+{
+  "id": "W2276",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 10.00–20.00; Minggu tidak tercantum",
+      "di_sumber": "URL Waze berbahasa Inggris yang dicantumkan sebagai sumber jam menampilkan Senin–Sabtu 10.00–18.00; versi Indonesia menampilkan 10.00–20.00.",
+      "src": "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/d.h.e-dental-clinic?to=place.ChIJVxiyLS_yaS4Rt3-01Cs7B7I",
+      "catatan": "Hasil versi Inggris berumur lebih lama; konflik versi atau cache tidak cukup untuk menentukan jam terkini."
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kemang Timur Raya, RT.7/RW.3, Bangka, Jakarta Selatan 12730",
+      "di_sumber": "AlamatSehat mencantumkan Jl. Kemang Timur Raya No.62 A; direktori lain pada situs sama menyebut No.62.",
+      "src": "https://alamatsehat.com/klinik-gigi-dokter-gigi-di-mampang-prapatan-jaksel/",
+      "catatan": "Riset tidak mencantumkan nomor bangunan; nomor pada direktori lain belum diverifikasi primer."
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false
+}
