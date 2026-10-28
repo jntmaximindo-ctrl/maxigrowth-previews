@@ -1,0 +1,132 @@
+{
+  "id": "W1999",
+  "hero": {
+    "judul": {
+      "id": "B3ST DENTAL Semarang",
+      "en": "B3ST DENTAL Semarang"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di Jalan Halmahera Raya. Tanyakan jadwal pemeriksaan sebelum datang.",
+      "en": "Dental care information on Jalan Halmahera Raya. Ask about examination appointments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan jadwal dan biaya sebelum kunjungan.",
+        "en": "Tartar cleaning. Ask about appointments and costs before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan setelah pemeriksaan kondisi gigi.",
+        "en": "Ask about filling options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan pencabutan dengan dokter saat pemeriksaan.",
+        "en": "Discuss whether extraction is needed during your examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda untuk menanyakan pemeriksaan yang sesuai.",
+        "en": "Share your needs and ask about an appropriate examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan sore",
+      "en": "Plan an evening visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari Senin–Sabtu dan kebutuhan kunjungan, lalu konfirmasikan ketersediaan dokter kepada admin.",
+      "en": "Choose a Monday–Saturday visit day, describe your needs, and confirm clinician availability."
+    },
+    "alasan_dipilih": "Situs mencatat jam hingga 21.00 WIB; pilihan waktu membantu menyusun permintaan reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Alamat pada situs adalah Jl. Halmahera Raya No.27, Karang Tempel, Semarang.",
+        "en": "The website lists Jl. Halmahera Raya No.27, Karang Tempel, Semarang."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs mencatat Senin–Sabtu 09.00–21.00 WIB dan Minggu tutup. Konfirmasikan jadwal dokter sebelum datang.",
+        "en": "The website lists Monday–Saturday, 9 am–9 pm WIB, and closed on Sunday. Confirm clinician appointments before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum tercantum di halaman ini. Mintalah rincian sesuai rencana pemeriksaan dan tindakan.",
+        "en": "Fees are not listed here. Ask for a breakdown for your examination and proposed care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa menanyakan scaling?",
+        "en": "Can I ask about scaling?"
+      },
+      "a": {
+        "id": "Situs mencantumkan pembersihan gigi. Tanyakan ketersediaan tindakan, jadwal, dan biaya kepada admin.",
+        "en": "The website lists teeth cleaning. Ask the clinic to confirm availability, appointments, and fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi saya diterima?",
+        "en": "Is my insurance accepted?"
+      },
+      "a": {
+        "id": "Sampaikan nama asuransi dan tanyakan cakupan serta prosedurnya kepada admin cabang.",
+        "en": "Tell the branch your insurer’s name and ask about coverage and procedures."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan rincian kunjungan Anda.",
+    "en": "Ask about appointment times and visit details."
+  },
+  "pesan_wa_default": "Halo B3ST DENTAL, saya ingin menanyakan jadwal pemeriksaan. Mohon informasi dokter, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola B3ST DENTAL. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs klinik mencatat lokasi Halmahera Raya dan jadwal hingga 21.00 WIB. Kami sudah membuat konsep website informasi kunjungan: https://maxigrowthstudio.com/best. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website B3ST DENTAL",
+    "email_isi": "Halo Bapak/Ibu pengelola B3ST DENTAL,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs klinik memuat lokasi Halmahera Raya dan jadwal Senin–Sabtu hingga 21.00 WIB. Kami sudah membuat konsep website dengan alur perencanaan kunjungan untuk ditinjau: https://maxigrowthstudio.com/best.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi klinik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1994",
+  "hero": {
+    "judul": {
+      "id": "ATDC — Aang Thuba Dental Care",
+      "en": "ATDC — Aang Thuba Dental Care"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik di Bangetayu Wetan, Semarang. Tanyakan jadwal sebelum berangkat.",
+      "en": "Visit information for the practice in Bangetayu Wetan, Semarang. Check appointment times before travelling."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Waktu kunjungan",
+        "en": "Visit time"
+      },
+      "ringkas": {
+        "id": "Sampaikan hari pilihan dan tanyakan jadwal dokter terbaru.",
+        "en": "Share your preferred day and ask for the latest clinician schedule."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Direktori mencatat Jalan Bayu Prasetya Selatan IV, D-7. Konfirmasikan nomor blok sebelum datang.",
+        "en": "The directory lists Jalan Bayu Prasetya Selatan IV, D-7. Confirm the block number before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan konsultasi",
+        "en": "Consultation needs"
+      },
+      "ringkas": {
+        "id": "Jelaskan kebutuhan Anda dan tanyakan pemeriksaan yang tersedia.",
+        "en": "Describe your needs and ask what assessments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rencana perawatan sebelum mengambil keputusan.",
+        "en": "Ask about examination and proposed care fees before deciding."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Temukan blok tujuan kunjungan",
+      "en": "Find the visit location"
+    },
+    "penjelasan": {
+      "id": "Catat lokasi D-7 dan tanyakan petunjuk serta jadwal terbaru kepada praktik.",
+      "en": "Note the D-7 location and ask the practice for directions and current appointment times."
+    },
+    "alasan_dipilih": "Alamat direktori berada di area perumahan; nomor blok membantu pasien menanyakan petunjuk yang spesifik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencatat Jalan Bayu Prasetya Selatan IV, D-7, Semarang. Konfirmasikan lokasi sebelum berangkat.",
+        "en": "A directory lists Jalan Bayu Prasetya Selatan IV, D-7, Semarang. Confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Hubungi nomor yang tercantum untuk menanyakan jadwal dokter terbaru.",
+        "en": "Use the listed contact number to ask for the latest clinician schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian sesuai kebutuhan Anda.",
+        "en": "Fees are not available here. Request a breakdown for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda agar praktik dapat mengonfirmasi tindakan dan jadwal.",
+        "en": "Describe your needs so the practice can confirm care options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan jenis asuransi dan ketentuan pembayaran sebelum kunjungan.",
+        "en": "Ask about accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Ask about appointment times and your visit needs."
+  },
+  "pesan_wa_default": "Halo ATDC, saya ingin menanyakan jadwal kunjungan. Mohon konfirmasi lokasi D-7, dokter, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola ATDC. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencatat lokasi praktik di Jalan Bayu Prasetya Selatan IV, D-7, Semarang. Kami sudah membuat konsep website dengan informasi kunjungan: https://maxigrowthstudio.com/atdc. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website ATDC",
+    "email_isi": "Halo Bapak/Ibu pengelola ATDC,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi D-7 di Jalan Bayu Prasetya Selatan IV memberi dasar petunjuk kunjungan yang spesifik. Kami sudah membuat konsep website untuk ditinjau: https://maxigrowthstudio.com/atdc.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

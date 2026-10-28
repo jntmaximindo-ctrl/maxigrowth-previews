@@ -1,0 +1,132 @@
+{
+  "id": "W2002",
+  "hero": {
+    "judul": {
+      "id": "Semarang Dental Center",
+      "en": "Semarang Dental Center"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan",
+        "en": "Ask about examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan alur pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask which examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal",
+        "en": "Ask about appointments"
+      },
+      "ringkas": {
+        "id": "Ajukan hari pilihan dan tunggu konfirmasi klinik sebelum berangkat.",
+        "en": "Share your preferred day and wait for confirmation before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Request a breakdown of examination and proposed treatment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan",
+        "en": "Ask how to prepare"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi riwayat kesehatan yang perlu dibawa.",
+        "en": "Ask which documents and medical history details to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan Anda",
+      "en": "Build your question list"
+    },
+    "penjelasan": {
+      "id": "Pilih topik dan hari pilihan untuk menyusun pesan pra-kunjungan. Formulir ini membantu bertanya; janji temu memerlukan konfirmasi klinik.",
+      "en": "Select topics and a preferred day to prepare a message. This form helps you ask questions; appointments require confirmation."
+    },
+    "alasan_dipilih": "Informasi publik terbatas; fitur berfokus pada konfirmasi tanpa mengarang layanan atau jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum: Jl. MT. Haryono No.716, Karangturi, Kec. Semarang Tim., Kota Semarang, Jawa Tengah50241. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Listed location: Jl. MT. Haryono No.716, Karangturi, Kec. Semarang Tim., Kota Semarang, Jawa Tengah50241. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin,Rabu,Kamis09.00-20.00; Selasa,Jumat09.30-20.00; Sabtu09.00-12.00 WIB; Minggu tutup. Konfirmasikan janji.",
+        "en": "Directories list Monday,Wednesday,Thursday9 am–8 pm; Tuesday,Friday9:30 am–8 pm; Saturday9 am–noon WIB; Sunday closed. Confirm your appointment."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar layanan belum terkonfirmasi. Sampaikan kebutuhan Anda dan tanyakan pilihan pemeriksaannya.",
+        "en": "The service list is unconfirmed. Describe your needs and ask about examination options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Semarang Dental Center, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Semarang Dental Center, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan MT.Haryono716 dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/semarang-center. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Semarang Dental Center",
+    "email_isi": "Yth. Manajemen Semarang Dental Center,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan MT.Haryono716 dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/semarang-center. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

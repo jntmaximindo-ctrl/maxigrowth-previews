@@ -1,0 +1,142 @@
+{
+  "id": "W1998",
+  "hero": {
+    "judul": {
+      "id": "MGW Dental Care",
+      "en": "MGW Dental Care"
+    },
+    "sub": {
+      "id": "Siapkan kunjungan perawatan gigi Anda di Semarang. Tanyakan jadwal dan kebutuhan perawatan sebelum datang.",
+      "en": "Plan your dental visit in Semarang. Ask about appointments and your care needs before arriving."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan jadwal pemeriksaan.",
+        "en": "Ask about scaling availability and an examination appointment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan setelah pemeriksaan dokter.",
+        "en": "Ask about filling options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan dan tahapan perawatan saluran akar.",
+        "en": "Ask about assessment and the steps involved in root canal care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pengganti gigi dan tahapan pemeriksaannya.",
+        "en": "Ask about tooth replacement options and assessment steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti/behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian kebutuhan perawatan kawat gigi.",
+        "en": "Ask about an assessment for braces."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare for your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik yang ingin ditanyakan. Susun pesan berisi cabang tujuan, waktu yang diinginkan, dan pertanyaan biaya untuk dikonfirmasi melalui WhatsApp.",
+      "en": "Choose the topics you want to ask about. Prepare a WhatsApp message with your preferred location, appointment time and fee questions."
+    },
+    "alasan_dipilih": "Membantu pasien mengonfirmasi informasi sebelum kunjungan tanpa menetapkan diagnosis atau menjanjikan hasil."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak yang tercantum dan sebutkan cabang tujuan serta waktu yang diinginkan. Tunggu konfirmasi sebelum datang.",
+        "en": "Contact the listed number with your preferred location and time. Wait for confirmation before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal cabang dan dokter sebelum berangkat, termasuk pada hari libur.",
+        "en": "Confirm the location and dentist’s availability before travelling, including on public holidays."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia di halaman ini. Tanyakan biaya pemeriksaan dan perkiraan tindakan; rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "A price list is not available here. Ask about examination fees and treatment estimates; a care plan follows an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia dan manfaat polis Anda untuk dikonfirmasi.",
+        "en": "Insurance arrangements have not been verified. Ask about your provider and policy benefits."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum datang?",
+        "en": "What should I prepare before visiting?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan, informasi obat yang sedang digunakan, dan catatan perawatan sebelumnya bila ada. Tanyakan persyaratan kunjungan melalui kontak klinik.",
+        "en": "Prepare your questions, current medication information and previous dental records if available. Ask the clinic about visit requirements."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan ketersediaan kunjungan melalui WhatsApp",
+    "en": "Ask about appointment availability on WhatsApp"
+  },
+  "pesan_wa_default": "Halo MGW Dental Care, saya ingin menanyakan jadwal kunjungan dan biaya pemeriksaan. Mohon informasi ketersediaan waktu dan hal yang perlu saya siapkan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola MGW Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Anda di Semarang. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/mgw. Konsep ini membantu menampilkan informasi kunjungan dan kontak secara jelas. Jika berkenan, silakan ditinjau. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website untuk MGW Dental Care",
+    "email_isi": "Yth. pengelola MGW Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Anda di Semarang menjadi dasar konsep website yang kami siapkan: https://maxigrowthstudio.com/mgw. Konsep ini menyajikan informasi kunjungan dan kontak agar mudah ditemukan calon pasien.\n\nDraf email ini disiapkan untuk digunakan bersama proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau konsep tersebut bila berkenan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
