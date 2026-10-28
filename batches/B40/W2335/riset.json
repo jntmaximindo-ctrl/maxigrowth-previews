@@ -74,5 +74,27 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-july-2025.pdf",
     "https://densia.id/klinik/catur-dental-care-kabupaten-badung-r2mbx-mg/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Catur Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Majapahit 15, Blahkiuh, Abiansemal, Kabupaten Badung, Bali 80352",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282114136161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282114136161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -71,5 +71,27 @@
   "sumber": [
     "https://idalamat.com/alamat/drg-stefanus-adrian-1064632",
     "https://bukutelepon.cybo.com/ID/kota-ambon/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Stefanus Adrian",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. DR. Setiabudi 15, Kel Ahusen, Sirimau, Kota Ambon, Maluku",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285103307171",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285103307171",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -72,5 +72,27 @@
     "https://www.semuabis.com/samuel-setiawan-drg-0821-3982-4756",
     "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-babakan-ciparay/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Samuel Setiawan, DRG",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Komplek Pasadena, Jl. Flamboyan B7/16, Margahayu Utara, Babakan Ciparay, Kota Bandung, Jawa Barat 40224",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282139824756",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282139824756",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

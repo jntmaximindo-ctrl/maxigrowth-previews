@@ -71,5 +71,27 @@
   "sumber": [
     "https://id.scribd.com/document/678314071/Sk-Kewajiban-Mengikuti-Orientasi-Bagi-Karyawan",
     "https://prohealth-ind.com/?page=provider_2"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Pratama Nayaka Husada 03 Sukaresmi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Cikarang–Cibarusah No.2, Sukaresmi, Cikarang Selatan, Kabupaten Bekasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287716060003",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287716060003",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

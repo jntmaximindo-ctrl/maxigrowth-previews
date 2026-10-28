@@ -1,0 +1,42 @@
+{
+  "id": "W2335",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Catur Dental",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Majapahit 15, Blahkiuh, Abiansemal, Kabupaten Badung, Bali 80352",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282114136161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282114136161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153 [nama]",
+    "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigi-catur-dental-1063153 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

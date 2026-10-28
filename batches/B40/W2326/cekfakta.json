@@ -1,0 +1,42 @@
+{
+  "id": "W2326",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi drg. Fitri Aprilya Marasabessy",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Kel Silale, Nusaniwe, Kota Ambon, Maluku",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281356277717",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281356277717",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fitri-aprilya-marasabessy-1064647 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

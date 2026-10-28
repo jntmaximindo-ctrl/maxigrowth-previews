@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121",
     "https://idalamat.com/alamat/drg-anita-yunita-dokter-gigi-balikpapan-1063830"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Anita Yunita (dokter gigi balikpapan)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Karang Rejo, Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282159741121",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282159741121",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

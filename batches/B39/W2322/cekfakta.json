@@ -1,0 +1,42 @@
+{
+  "id": "W2322",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Veronica",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Taman Aster A1 No.3, Telaga Asih, Cikarang Barat, Kabupaten Bekasi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628128833100",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628128833100",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100 [nama]",
+    "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100 [cabang[0].alamat]",
+    "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100 [cabang[0].telepon]",
+    "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

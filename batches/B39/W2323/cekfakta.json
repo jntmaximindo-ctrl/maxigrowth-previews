@@ -1,0 +1,37 @@
+{
+  "id": "W2323",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Pratama Nayaka Husada 03 Sukaresmi",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/678314071/Sk-Kewajiban-Mengikuti-Orientasi-Bagi-Karyawan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Cikarang–Cibarusah No.2, Sukaresmi, Cikarang Selatan, Kabupaten Bekasi",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/678314071/Sk-Kewajiban-Mengikuti-Orientasi-Bagi-Karyawan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287716060003",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/678314071/Sk-Kewajiban-Mengikuti-Orientasi-Bagi-Karyawan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287716060003",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/678314071/Sk-Kewajiban-Mengikuti-Orientasi-Bagi-Karyawan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

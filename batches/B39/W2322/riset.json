@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.semuabis.com/dokter-gigi-veronica-0812-8833-100",
     "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-veronica"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Veronica",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Taman Aster A1 No.3, Telaga Asih, Cikarang Barat, Kabupaten Bekasi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628128833100",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628128833100",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

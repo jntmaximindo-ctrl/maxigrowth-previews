@@ -1,0 +1,42 @@
+{
+  "id": "W2332",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Lenny Samalo",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Diponegoro 53, Kel Ahusen, Sirimau, Kota Ambon, Maluku 97127",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285331050841",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285331050841",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lenny-samalo-1064633 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "W2342",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Anita Yunita (dokter gigi balikpapan)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Karang Rejo, Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282159741121",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282159741121",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121 [nama]",
+    "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-anita-yunita-dokter-gigi-balikpapan-0821-5974-1121 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
