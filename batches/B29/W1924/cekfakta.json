@@ -1,0 +1,42 @@
+{
+  "id": "W1924",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Dandi Pratama",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dg. Ngadde Setapak 12 No.22, Parang Tambung, Kec. Tamalate, Kota Makassar, Sulawesi Selatan 90224",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285255920212",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285255920212",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/galesong/dokter-gigi [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

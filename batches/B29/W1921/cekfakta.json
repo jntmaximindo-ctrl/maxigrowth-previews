@@ -1,0 +1,23 @@
+{
+  "id": "W1921",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/rsigm.fkgumi/",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://rsigmfkg.umi.ac.id/index.php/kontak/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Padjonga Daeng Ngalle No.27, Makassar, Sulawesi Selatan",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://sirs.kemkes.go.id/fo/home/profile_rs/7371450",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
