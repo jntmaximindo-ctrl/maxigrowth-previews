@@ -435,6 +435,11 @@ def bangun(job_dir):
         except Exception as e:
             print(f"  desain: gagal ({type(e).__name__}: {e}) -> tampilan dasar")
     out = netralkan(out)
+    # pelajaran 41: QA mobile menolak >12 target sentuh <44px; template wajib menjamin target sentuh >=44px di layar kecil
+    css_sentuh = ("<style id=\"mg-sentuh\">@media(max-width:700px){a[href]:not(p a):not(li a):not(.inline),button,select,textarea,[role=button]"
+                  "{min-height:44px!important;min-width:44px!important;box-sizing:border-box}button,[role=button]{display:inline-flex;align-items:center;justify-content:center}}</style>")
+    if 'id="mg-sentuh"' not in out:
+        out = out.replace("</head>", css_sentuh + "</head>", 1)
     (d / "site").mkdir(exist_ok=True)
     (d / "site" / "index.html").write_text(out, encoding="utf-8")
     return out

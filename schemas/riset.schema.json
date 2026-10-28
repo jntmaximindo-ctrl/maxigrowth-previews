@@ -33,7 +33,7 @@
           "telepon": {"$ref": "#/$defs/fakta"},
           "wa": {"$ref": "#/$defs/fakta", "description": "format 62…"},
           "jam": {"$ref": "#/$defs/fakta", "description": "v = {sen:'09-20', sel:..., min:'tutup'}"},
-          "maps_url": {"type": "string"}
+          "maps_url": {"type": ["string", "null"]}
         }
       }
     },

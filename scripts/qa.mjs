@@ -24,7 +24,7 @@ for (const [tag, vp] of [['desktop', { width: 1366, height: 860 }], ['mobile', {
     for (const el of document.querySelectorAll('a[href],button,input,select,textarea,[role=button]')) {
       const b = el.getBoundingClientRect(); const cs = getComputedStyle(el);
       if (!b.width || cs.visibility === 'hidden' || cs.display === 'none') continue;
-      if (mobile && (b.width < 44 || b.height < 44) && !el.closest('p,li,td,.inline,svg,[data-qa-skip]')) kecil.push((el.innerText || el.getAttribute('aria-label') || el.tagName).trim().slice(0, 40) + ` (${Math.round(b.width)}×${Math.round(b.height)})`);
+      if (mobile && (b.width < 44 || b.height < 44) && !el.closest('p,li,td,.inline,svg,[data-qa-skip]') && !(el.tagName === 'INPUT' && el.closest('label') && el.closest('label').getBoundingClientRect().height >= 44)) kecil.push((el.innerText || el.getAttribute('aria-label') || el.tagName).trim().slice(0, 40) + ` (${Math.round(b.width)}×${Math.round(b.height)})`);
     }
     document.querySelectorAll('img:not([alt])').forEach((i) => noAlt.push(i.src.slice(0, 80)));
     document.querySelectorAll('a[target=_blank]').forEach((a) => { if (!/noopener/.test(a.rel)) noOpener.push(a.href.slice(0, 80)); });
