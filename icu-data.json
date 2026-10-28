@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-10-28T13:56:46+07:00",
+ "diperbarui": "2026-10-28T14:03:11+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
@@ -10,8 +10,8 @@
  "tahap": {
   "cari": null,
   "riset": 59,
-  "cek_fakta": 5,
-  "rakit": 3,
+  "cek_fakta": 0,
+  "rakit": 8,
   "qa": 1,
   "deploy": 0,
   "review": 12,
@@ -19,12 +19,12 @@
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 0,
-  "cek_fakta": 0,
-  "rakit": 0,
-  "qa": 0,
-  "deploy": 0,
-  "review": 4
+  "riset": 11,
+  "cek_fakta": 11,
+  "rakit": 4,
+  "qa": 5,
+  "deploy": 5,
+  "review": 5
  },
  "pekerja": [
   {
@@ -136,7 +136,7 @@
    "tanggal": "2026-10-28",
    "lulus_akhir": {
     "riset": 805,
-    "cek_fakta": 800,
+    "cek_fakta": 805,
     "rakit": 797,
     "qa": 796,
     "deploy": 796,
@@ -146,7 +146,7 @@
    "siap_reachout_akhir": 784,
    "tambahan_hari_itu": {
     "riset": 10,
-    "cek_fakta": 53,
+    "cek_fakta": 58,
     "rakit": 78,
     "qa": 79,
     "deploy": 79,
