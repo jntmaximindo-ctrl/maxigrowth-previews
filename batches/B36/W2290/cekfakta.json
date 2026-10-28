@@ -1,0 +1,42 @@
+{
+  "id": "W2290",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Erwan Rais Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Prof. HM. Yamin Sh No.416, Sei Kera Hulu, Medan Perjuangan, Medan, Sumatera Utara 20222",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116289191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116289191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191 [nama]",
+    "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-erwan-rais-dental-care-0811-6289-191 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

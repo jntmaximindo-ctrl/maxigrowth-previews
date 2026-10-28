@@ -72,5 +72,27 @@
     "https://www.findglocal.com/ID/Medan/121642-13/3",
     "https://www.findglocal.com/ID/Medan/1736334089762709/Rais-Dental-Care",
     "https://www.google.com/maps/?cid=6721355660136243467"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Erwan Rais Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Prof. HM. Yamin Sh No.416, Sei Kera Hulu, Medan Perjuangan, Medan, Sumatera Utara 20222",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116289191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116289191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

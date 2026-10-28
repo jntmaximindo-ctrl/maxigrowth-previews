@@ -1,0 +1,58 @@
+{
+  "id": "W2289",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Family Dental Clinic",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/family-dental-clinic-061-4513209",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "email",
+      "tercatat": "luthfianismd.dentist@gmail.com",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/family-dental-clinic-061-4513209",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Brigjend Katamso, Komplek Istana Prima No. C6, Sei Mati, Medan Maimun, Medan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/family-dental-clinic-061-4513209",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62614513209",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/family-dental-clinic-061-4513209",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282360991334",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/family-dental-clinic-061-4513209",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Nanda Iswa Maysfera, Sp.Pros",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findglocal.com/ID/Medan/1811502925589296/Family-Dental-Clinic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/family-dental-clinic-061-4513209 [nama]",
+    "https://www.semuabis.com/family-dental-clinic-061-4513209 [email]",
+    "https://www.semuabis.com/family-dental-clinic-061-4513209 [cabang[0].alamat]",
+    "https://www.semuabis.com/family-dental-clinic-061-4513209 [cabang[0].telepon]",
+    "https://www.semuabis.com/family-dental-clinic-061-4513209 [cabang[0].wa]",
+    "https://www.findglocal.com/ID/Medan/1811502925589296/Family-Dental-Clinic [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
