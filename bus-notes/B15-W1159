@@ -1,21 +1,83 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B15/W1159/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ konten.schema.json → layanan/0/nama/id: None is not of type 'string'
-✗ konten.schema.json → layanan/0/nama/en: None is not of type 'string'
-✗ konten.schema.json → layanan/0/ringkas/id: None is not of type 'string'
-✗ konten.schema.json → layanan/0/ringkas/en: None is not of type 'string'
-✗ konten.schema.json → layanan/1/nama/id: None is not of type 'string'
-✗ konten.schema.json → layanan/1/nama/en: None is not of type 'string'
-✗ konten.schema.json → layanan/1/ringkas/id: None is not of type 'string'
-✗ konten.schema.json → layanan/1/ringkas/en: None is not of type 'string'
-✗ konten.schema.json → layanan/2/nama/id: None is not of type 'string'
-✗ konten.schema.json → layanan/2/nama/en: None is not of type 'string'
-✗ konten.schema.json → layanan/2/ringkas/id: None is not of type 'string'
-✗ konten.schema.json → layanan/2/ringkas/en: None is not of type 'string'
-✗ konten.schema.json → layanan/3/nama/id: None is not of type 'string'
-✗ konten.schema.json → layanan/3/nama/en: None is not of type 'string'
-✗ konten.schema.json → layanan/3/ringkas/id: None is not of type 'string'
-✗ konten.schema.json → layanan/3/ringkas/en: None is not of type 'string'
-GAGAL (16 masalah)
-
+RISET LAMA:
+{
+  "id": "W1159",
+  "nama": {
+    "v": "Dental Ok | Klinik Dokter Gigi Bukittinggi",
+    "src": "https://yandex.com/maps/org/dental_ok_klinik_dokter_gigi_bukittinggi/231899823308/",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "kota": "Bukittinggi",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Dental Ok | Klinik Dokter Gigi Bukittinggi",
+      "alamat": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://yandex.com/maps/org/dental_ok_klinik_dokter_gigi_bukittinggi/231899823308/"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Pemeriksaan gigi (dari keterangan rekrutmen)",
+    "Bantuan tindakan dokter (deskripsi tugas asisten)",
+    "Sterilisasi instrumen (prosedur kerja yang dijelaskan)",
+    "Konfirmasi jadwal konsultasi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Situs klinik mandiri belum ditemukan."
+  ],
+  "ide_fitur_khas": "Panduan konfirmasi lokasi sebelum kunjungan, karena peta belum memuat alamat jalan lengkap.",
+  "catatan": "Yandex menunjukkan identitas klinik dental di Bukittinggi tetapi tidak memuat alamat jalan/telepon. Halokerja menyebut perusahaan Dental Ok Bukittinggi yang merekrut asisten dokter gigi, namun lowongan sudah kedaluwarsa, bukan bukti jadwal praktik terkini. Tidak ditemukan WA, harga, dokter atau jenis prosedur klinis spesifik yang terkonfirmasi. Empat butir layanan mengacu aktivitas dalam lowongan, bukan penawaran tindakan pasien.",
+  "sumber": [
+    "https://yandex.com/maps/org/dental_ok_klinik_dokter_gigi_bukittinggi/231899823308/",
+    "https://halokerja.id/perusahaan/loker/detail/asisten-dokter-gigi-profesional-dengan-pengalaman-klinis/",
+    "https://halokerja.id/perusahaan/company/dental-ok-bukittinggi/"
+  ]
+}
