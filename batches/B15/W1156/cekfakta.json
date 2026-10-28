@@ -1,0 +1,42 @@
+{
+  "id": "W1156",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Endang Sariningsih",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52212",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62283671008",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-11\", \"sel\": \"15-17\", \"rab\": \"tutup\", \"kam\": \"08-11\", \"jum\": \"tutup\", \"sab\": \"15-17\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-endang-sariningsih-0283-671008 [nama]",
+    "https://www.semuabis.com/drg-endang-sariningsih-0283-671008 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-endang-sariningsih-0283-671008 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-endang-sariningsih-0283-671008 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
