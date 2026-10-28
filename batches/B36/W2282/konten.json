@@ -1,0 +1,132 @@
+{
+  "id": "W2282",
+  "hero": {
+    "judul": {
+      "id": "Dental Art Karawaci Tangerang",
+      "en": "Dental Art Karawaci Tangerang"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi dan persiapan kunjungan anak.",
+      "en": "Dental care information and planning a child’s visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan pembersihan karang gigi setelah pemeriksaan.",
+        "en": "Discuss dental cleaning needs after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi sebelum menyusun rencana perawatan.",
+        "en": "A dentist assesses the tooth before planning care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Sampaikan usia anak dan tujuan kunjungannya saat membuat janji.",
+        "en": "Share your child’s age and reason for visiting when booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penggantian gigi sesuai hasil pemeriksaan.",
+        "en": "Ask about tooth replacement options following an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Checklist kunjungan anak",
+      "en": "Child visit checklist"
+    },
+    "penjelasan": {
+      "id": "Catat usia anak, kebutuhan kunjungan dan pertanyaan untuk dokter sebelum menghubungi klinik.",
+      "en": "Note your child’s age, reason for visiting and questions before contacting the practice."
+    },
+    "alasan_dipilih": "Website menyebut perawatan gigi anak dan ruang bermain."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Website mencantumkan Jalan Borobudur Raya No.92, Perumnas 2 Karawaci, Tangerang. Konfirmasikan titik masuk sebelum datang.",
+        "en": "The website lists Jalan Borobudur Raya No.92, Perumnas 2 Karawaci, Tangerang. Confirm the entrance before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik 0812-1234-4411 untuk meminta jadwal. Tunggu konfirmasi klinik.",
+        "en": "Request a visit at the public number 0812-1234-4411. Wait for confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jam website dan direktori berbeda. Tanyakan jam praktik dan jadwal dokter yang Anda butuhkan saat membuat janji.",
+        "en": "Website and directory hours differ. Confirm opening times and the dentist’s schedule when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "What are the examination and treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang dibaca. Tanyakan rincian biaya; kebutuhan tindakan perlu dinilai dokter.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown; treatment needs require a dentist’s assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Sebutkan penyedia dan jenis polis saat bertanya kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Provide your insurer and policy type when asking the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo Dental Art Karawaci, saya ingin menanyakan jadwal dan biaya pemeriksaan. Mohon informasi yang perlu disiapkan sebelum kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola Dental Art Karawaci. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Website Anda menyebut perawatan anak dan ruang bermain. Kami menyusun konsep naskah dengan checklist kunjungan anak. Rencana tautan https://maxigrowthstudio.com/art-karawaci perlu diaktifkan sebelum dibagikan. Jika berkenan, kami dapat menjelaskan konsepnya. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep checklist kunjungan Dental Art Karawaci",
+    "email_isi": "Halo pengelola Dental Art Karawaci, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep naskah website dengan checklist kunjungan anak sesuai informasi perawatan anak dan ruang bermain di website Anda. Rencana tautan https://maxigrowthstudio.com/art-karawaci perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Kontak 082141004400 atau info@maxigrowthstudio.com."
+  }
+}
