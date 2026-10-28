@@ -1,0 +1,132 @@
+{
+  "id": "W1872",
+  "hero": {
+    "judul": {
+      "id": "Alinea Dental Antapani",
+      "en": "Alinea Dental Antapani"
+    },
+    "sub": {
+      "id": "Siapkan kunjungan gigi Anda. Konfirmasikan lokasi, jadwal, dan kebutuhan perawatan terlebih dahulu.",
+      "en": "Plan your dental visit. Confirm the location, schedule, and care you need before coming."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini dan jadwal pemeriksaannya sebelum berkunjung.",
+        "en": "Ask whether this service is currently available and confirm an appointment before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini dan jadwal pemeriksaannya sebelum berkunjung.",
+        "en": "Ask whether this service is currently available and confirm an appointment before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini dan jadwal pemeriksaannya sebelum berkunjung.",
+        "en": "Ask whether this service is currently available and confirm an appointment before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini dan jadwal pemeriksaannya sebelum berkunjung.",
+        "en": "Ask whether this service is currently available and confirm an appointment before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit checklist"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang alamat cabang, waktu kunjungan, kebutuhan pasien, dan biaya untuk dikonfirmasikan kepada admin.",
+      "en": "Prepare questions about the branch address, appointment time, patient needs, and costs to confirm with the clinic."
+    },
+    "alasan_dipilih": "Sumber membedakan beberapa lokasi Antapani; konfirmasi cabang membantu persiapan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi kunjungan saya?",
+        "en": "Where should I go?"
+      },
+      "a": {
+        "id": "Konfirmasikan alamat cabang kepada admin sebelum berangkat.",
+        "en": "Confirm the branch address with the clinic before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal yang tersedia?",
+        "en": "How can I check available appointments?"
+      },
+      "a": {
+        "id": "Tanyakan hari dan jam yang tersedia melalui kontak klinik.",
+        "en": "Contact the clinic to ask about available dates and times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much will treatment cost?"
+      },
+      "a": {
+        "id": "Tarif terkini belum tersedia di halaman ini. Mintalah penjelasan biaya sesuai kebutuhan pemeriksaan Anda.",
+        "en": "Current fees are not listed here. Ask the clinic to explain the costs for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya menanyakan perawatan untuk anak?",
+        "en": "Can I ask about care for a child?"
+      },
+      "a": {
+        "id": "Ya, sampaikan usia dan kebutuhan anak untuk menanyakan layanan serta jadwal yang tersedia.",
+        "en": "Yes. Share the child’s age and needs when asking about available care and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Konfirmasikan jenis asuransi dan ketentuan pembayarannya langsung kepada admin.",
+        "en": "Confirm accepted insurance and payment arrangements directly with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo Alinea Dental, saya ingin menanyakan jadwal kunjungan di Antapani. Mohon informasi alamat cabang, layanan yang tersedia, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Alinea Dental Antapani. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik menyebut perawatan anak dan dewasa. Kami sudah membuat konsep website dengan alur konfirmasi cabang dan kunjungan: https://maxigrowthstudio.com/alinea-antapani. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Alinea Dental Antapani",
+    "email_isi": "Halo Bapak/Ibu pengelola Alinea Dental Antapani,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik menyebut perawatan anak dan dewasa. Kami sudah membuat konsep website yang membantu pasien menanyakan cabang, jadwal, dan kebutuhan kunjungan: https://maxigrowthstudio.com/alinea-antapani.\n\nProposal PDF terlampir untuk ditinjau saat berkenan. Kami terbuka terhadap koreksi informasi klinik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

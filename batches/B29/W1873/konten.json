@@ -1,0 +1,132 @@
+{
+  "id": "W1873",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Achmad Mauludin",
+      "en": "Practice information for drg. Achmad Mauludin"
+    },
+    "sub": {
+      "id": "Siapkan konsultasi bedah mulut di Antapani, Bandung.",
+      "en": "Prepare for an oral surgery consultation in Antapani, Bandung."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal konsultasi",
+      "en": "Ask about consultations"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi bedah mulut",
+        "en": "Oral surgery consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi dan jelaskan keluhan Anda.",
+        "en": "Ask about consultation availability and describe your concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan hasil pemeriksaan yang perlu dibawa.",
+        "en": "Ask which documents and existing examination results to bring."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan jam praktik sebelum berkunjung ke Antapani.",
+        "en": "Confirm practice hours before visiting Antapani."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan yang disarankan.",
+        "en": "Request details of consultation and proposed procedure fees."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Daftar persiapan kunjungan",
+      "en": "Visit preparation checklist"
+    },
+    "penjelasan": {
+      "id": "Catat keluhan dan tanyakan dokumen yang perlu dibawa saat mengonfirmasi janji.",
+      "en": "Note your concerns and ask which documents to bring when confirming your appointment."
+    },
+    "alasan_dipilih": "Membantu pasien menyiapkan pertanyaan tanpa menentukan diagnosis atau tindakan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Terusan Jakarta No.254, Antapani Tengah, Bandung. Konfirmasikan alamat sebelum datang.",
+        "en": "The directory lists Jl. Terusan Jakarta No.254, Antapani Tengah, Bandung. Confirm the address before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jam yang tercantum di direktori adalah Senin–Sabtu 18.00–21.30. Konfirmasikan jadwal dokter terbaru.",
+        "en": "The directory lists Monday–Saturday, 18:00–21:30. Confirm the dentist’s current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Gunakan kontak yang tercantum untuk meminta jadwal dan konfirmasi janji.",
+        "en": "Use the listed contact to request an appointment and confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya dan komponen pembayaran kepada admin.",
+        "en": "Prices are unavailable. Ask the administrator about fees and payment details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menggunakan BPJS atau asuransi?",
+        "en": "Can I use BPJS or insurance?"
+      },
+      "a": {
+        "id": "Belum ada informasi yang terverifikasi untuk praktik ini. Tanyakan cakupan sebelum kunjungan.",
+        "en": "Coverage at this practice has not been verified. Ask before your visit."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi alamat, jadwal, dan biaya",
+    "en": "Confirm address, availability and fees"
+  },
+  "pesan_wa_default": "Halo, apakah ini admin praktik drg. Achmad Mauludin di Jl. Terusan Jakarta No.254? Saya ingin menanyakan jadwal konsultasi, biaya, dan dokumen yang perlu dibawa. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen praktik drg. Achmad Mauludin, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan persiapan konsultasi untuk praktik di Antapani. Setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/spesialis-bedah. Mohon konfirmasi informasi praktik sebelum ditampilkan. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi praktik drg. Achmad Mauludin",
+    "email_isi": "Halo manajemen praktik drg. Achmad Mauludin, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website untuk informasi praktik di Antapani, dengan daftar persiapan konsultasi dan konfirmasi jadwal. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/spesialis-bedah. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Informasi alamat, jadwal, dan layanan perlu dikonfirmasi sebelum dipublikasikan. Kontak kami: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}

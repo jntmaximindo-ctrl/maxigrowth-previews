@@ -1,0 +1,132 @@
+{
+  "id": "W1871",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi gigi bersama drg. Arnold Kyoto",
+      "en": "Dental consultations with drg. Arnold Kyoto"
+    },
+    "sub": {
+      "id": "Informasi konservasi gigi dan persiapan kunjungan di Bandung.",
+      "en": "Information about conservative dentistry and preparing for a visit in Bandung."
+    },
+    "cta": {
+      "id": "Konfirmasi lokasi dan jadwal",
+      "en": "Confirm location and availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan tambalan sesuai hasil pemeriksaan.",
+        "en": "Discuss filling options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi dan rencana perawatannya.",
+        "en": "Discuss your tooth condition and treatment plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian perawatan untuk kondisi gigi Anda.",
+        "en": "Ask whether this treatment suits your teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer gigi",
+        "en": "Dental veneers"
+      },
+      "ringkas": {
+        "id": "Bahas pilihan, keterbatasan, dan kebutuhan pemeriksaan.",
+        "en": "Discuss options, limitations and examination needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan konsultasi Anda",
+      "en": "Prepare for your consultation"
+    },
+    "penjelasan": {
+      "id": "Pilih topik yang ingin dibahas, lalu konfirmasikan lokasi dan jadwal kepada admin.",
+      "en": "Choose a topic to discuss, then confirm the location and appointment time with the administrator."
+    },
+    "alasan_dipilih": "Dokter tercantum di beberapa fasilitas; konfirmasi lokasi membantu menghindari salah tujuan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi admin untuk memastikan lokasi dan jadwal drg. Arnold Kyoto.",
+        "en": "Contact the administrator to confirm the location and the dentist’s schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktiknya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "iCare Dental mencantumkan Jalan Saritem no 97, Bandung. Pastikan lokasi saat membuat janji.",
+        "en": "iCare Dental lists Jalan Saritem no 97, Bandung. Confirm the location when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal dokter?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Jadwal di iCare belum terkonfirmasi. Tanyakan tanggal dan jam yang tersedia.",
+        "en": "The iCare schedule is unconfirmed. Ask for available dates and times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya setelah konsultasi dan pemeriksaan.",
+        "en": "Prices are unavailable. Request an estimate after consultation and examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Konfirmasikan nama asuransi dan cakupan tindakan kepada admin.",
+        "en": "Confirm your insurer and treatment coverage with the administrator."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan biaya pemeriksaan",
+    "en": "Ask about appointments and examination fees"
+  },
+  "pesan_wa_default": "Halo admin iCare Dental, apakah saya dapat membuat janji dengan drg. Arnold Kyoto? Mohon konfirmasi lokasi, jadwal, dan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen praktik drg. Arnold Kyoto, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Profil dokter mencantumkan bidang konservasi gigi. Kami menyiapkan draf konsep informasi konsultasi; setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/drg-arnold. Mohon memastikan lokasi praktik yang hendak ditampilkan. Kontak kami 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep informasi praktik drg. Arnold Kyoto",
+    "email_isi": "Halo manajemen praktik drg. Arnold Kyoto, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan persiapan konsultasi konservasi gigi. Lokasi dan jadwal perlu dikonfirmasi sebelum ditampilkan. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/drg-arnold. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkasnya tersedia. Jika berkenan, konsep ini dapat menjadi bahan diskusi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}
