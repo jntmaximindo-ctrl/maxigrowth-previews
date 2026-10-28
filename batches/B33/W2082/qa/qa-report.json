@@ -1,0 +1,31 @@
+{
+  "file": "batches/B33/W2082/site/index.html",
+  "when": "2026-10-28T12:25:31.215Z",
+  "pass": true,
+  "desktop": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [],
+    "errors": [],
+    "hostLuarIzin": []
+  },
+  "mobile": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "DIV.rail-t",
+      "DIV.rail-g",
+      "BUTTON",
+      "svg.[object",
+      "path.[object"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  }
+}
