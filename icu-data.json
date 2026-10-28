@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-10-28T10:45:54+07:00",
+ "diperbarui": "2026-10-28T10:50:20+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
@@ -19,12 +19,12 @@
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 100,
-  "cek_fakta": 10,
+  "riset": 110,
+  "cek_fakta": 11,
   "rakit": 8,
   "qa": 8,
   "deploy": 8,
-  "review": 4
+  "review": 5
  },
  "pekerja": [
   {
