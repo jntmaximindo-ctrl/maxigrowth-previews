@@ -1,0 +1,132 @@
+{
+  "id": "W2026",
+  "hero": {
+    "judul": {
+      "id": "WH DENTAL Surabaya",
+      "en": "WH DENTAL Surabaya"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik dokter gigi di Sidotopo Wetan, Surabaya.",
+      "en": "Dental practice visit information in Sidotopo Wetan, Surabaya."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial check-up"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan pemeriksaan kepada admin sebelum berkunjung.",
+        "en": "Please confirm check-up availability with the team before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pembersihan gigi",
+        "en": "Ask about dental cleaning"
+      },
+      "ringkas": {
+        "id": "Jenis tindakan dan jadwal belum terverifikasi; tanyakan langsung kepada klinik.",
+        "en": "Treatment options and schedules have not been verified; please ask the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan perawatan gigi berlubang",
+        "en": "Ask about cavity treatment"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan Anda dan tanyakan apakah tindakan tersedia.",
+        "en": "Describe your concern and ask whether the treatment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan konsultasi dan biaya",
+        "en": "Ask about consultation and fees"
+      },
+      "ringkas": {
+        "id": "Minta penjelasan jadwal dan perkiraan biaya sebelum membuat janji.",
+        "en": "Request appointment information and estimated fees before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pertanyaan kunjungan",
+      "en": "Visit question guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan mengenai jadwal, keluhan, perawatan, dan biaya untuk admin klinik.",
+      "en": "Prepare questions about scheduling, concerns, treatment options, and fees for the clinic team."
+    },
+    "alasan_dipilih": "Informasi layanan dan biaya belum terverifikasi; fitur membantu pasien bertanya tanpa mengarang ketersediaan tindakan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi WH DENTAL?",
+        "en": "Where is WH DENTAL located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sidotopo Wetan Baru No.27, Kenjeran, Surabaya. Konfirmasikan lokasi sebelum datang.",
+        "en": "A directory lists Jl. Sidotopo Wetan Baru No.27, Kenjeran, Surabaya. Please confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercantum adalah 0821-4386-5733. Konfirmasikan bahwa nomor masih aktif.",
+        "en": "The publicly listed mobile number is +62 821-4386-5733. Please confirm it is still active."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal praktik belum terverifikasi. Tanyakan jam terbaru sebelum datang.",
+        "en": "Opening hours have not been verified. Please ask for the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia dari sumber yang diperiksa. Mintalah rincian biaya kepada klinik.",
+        "en": "A price list was not available from the sources checked. Please request a fee breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi anak atau behel?",
+        "en": "Are children's dental care or braces available?"
+      },
+      "a": {
+        "id": "Ketersediaan tindakan belum terverifikasi. Hubungi admin untuk menanyakan layanan yang sesuai.",
+        "en": "Treatment availability has not been verified. Please contact the team to ask about available services."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan untuk kunjungan Anda",
+    "en": "Prepare your questions before your visit"
+  },
+  "pesan_wa_default": "Halo WH DENTAL, saya ingin menanyakan jadwal praktik, layanan yang tersedia, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola WH DENTAL Surabaya. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan praktik di Sidotopo Wetan Baru No.27 melalui direktori publik. Kami sudah menyiapkan konsep website yang bisa dilihat di https://maxigrowthstudio.com/wh, dengan panduan pertanyaan sebelum kunjungan. Informasi dalam konsep dapat disesuaikan dengan data klinik. Salam, Muhammad Rizqi Tri Andika, WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website WH DENTAL Surabaya",
+    "email_isi": "Yth. Pengelola WH DENTAL Surabaya,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan lokasi praktik di Jl. Sidotopo Wetan Baru No.27 melalui direktori publik. Kami menyiapkan konsep website berisi informasi kunjungan dan panduan pertanyaan untuk calon pasien.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/wh. Proposal PDF terlampir untuk ditinjau. Informasi jadwal, dokter, layanan, dan biaya dapat disesuaikan dengan data resmi klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

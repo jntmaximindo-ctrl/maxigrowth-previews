@@ -1,0 +1,132 @@
+{
+  "id": "W2029",
+  "hero": {
+    "judul": {
+      "id": "VA Dental Care",
+      "en": "VA Dental Care"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik gigi di Dupak, Surabaya.",
+      "en": "Dental visit information in Dupak, Surabaya."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about an appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan apakah pemeriksaan tersedia dan kapan dokter praktik.",
+        "en": "Please confirm assessment availability and the dentist's schedule."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pembersihan gigi",
+        "en": "Ask about dental cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan biaya kepada admin.",
+        "en": "Ask the team about availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan penanganan gigi berlubang",
+        "en": "Ask about cavity treatment"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan tindakan yang tersedia.",
+        "en": "Describe your concern and ask which treatments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya dan asuransi",
+        "en": "Ask about fees and insurance"
+      },
+      "ringkas": {
+        "id": "Minta informasi biaya serta metode pembayaran sebelum kunjungan.",
+        "en": "Request fees and payment details before your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan persiapan kunjungan",
+      "en": "Visit preparation guide"
+    },
+    "penjelasan": {
+      "id": "Buat daftar pertanyaan tentang jadwal, layanan, biaya, dan hal yang perlu disiapkan.",
+      "en": "Build a checklist of questions about schedules, treatments, fees, and preparation."
+    },
+    "alasan_dipilih": "Klinik tercantum pada direktori publik, tetapi rincian layanan belum lengkap; fitur membantu persiapan tanpa membuat klaim medis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Dupak Bangunsari No.42, Dupak, Kec. Krembangan, Surabaya, Jawa Timur 60179. Konfirmasikan alamat sebelum datang.",
+        "en": "A directory lists Jl. Dupak Bangunsari No.42, Dupak, Kec. Krembangan, Surabaya, Jawa Timur 60179. Please confirm the address before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik tercatat +6281131102020. Pastikan nomor masih aktif sebelum membuat janji.",
+        "en": "A public mobile listing shows +6281131102020. Please confirm it is still active before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik dapat berubah. Tanyakan jadwal terkini kepada admin.",
+        "en": "Opening hours may change. Please ask the team for the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia dari sumber yang diperiksa. Mintalah rincian biaya kepada klinik.",
+        "en": "Official fees were not available in the sources checked. Please request a cost breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan untuk anak atau behel?",
+        "en": "Are children's dental care or braces available?"
+      },
+      "a": {
+        "id": "Ketersediaan tindakan tersebut belum terverifikasi. Silakan tanyakan langsung kepada klinik.",
+        "en": "Availability of those treatments has not been verified. Please ask the clinic directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo VA Dental Care, saya ingin menanyakan jadwal praktik, perawatan yang tersedia, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola VA Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan lokasi praktik di Dupak melalui direktori publik. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/va dengan panduan persiapan kunjungan pasien. Informasi dapat disesuaikan dengan data klinik. Salam, Muhammad Rizqi Tri Andika. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website VA Dental Care",
+    "email_isi": "Yth. Pengelola VA Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Dupak, Surabaya, melalui direktori publik. Kami menyiapkan konsep website dengan panduan persiapan kunjungan pasien.\n\nKonsep: https://maxigrowthstudio.com/va. Proposal PDF terlampir untuk ditinjau. Informasi layanan, jadwal, dan biaya dapat disesuaikan dengan data resmi klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
