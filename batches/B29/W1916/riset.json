@@ -75,5 +75,17 @@
   "sumber": [
     "https://www.researchgate.net/publication/405725934_OPTIMALISASI_PROMOSI_LAYANAN_KLINIK_DENTAL_GALLERY_MELALUI_MODEL_THE_FLOWER_OF_SERVICE",
     "https://indonesiaknowledge.com/directory/dental/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Gallery",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Andalas No.140, Parang Layang, Bontoala, Makassar, Sulawesi Selatan 90154",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
