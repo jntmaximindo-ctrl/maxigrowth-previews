@@ -1,0 +1,142 @@
+{
+  "id": "W1307",
+  "hero": {
+    "judul": {
+      "id": "Mesio Dental Solution",
+      "en": "Mesio Dental Solution"
+    },
+    "sub": {
+      "id": "Informasi Mesio Dental Solution di Palangka Raya berdasarkan sumber publik.",
+      "en": "Public-source information about Mesio Dental Solution in Palangka Raya."
+    },
+    "cta": {
+      "id": "Konfirmasi kunjungan",
+      "en": "Confirm your visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Alamat dan patokan",
+        "en": "Alamat dan patokan"
+      },
+      "ringkas": {
+        "id": "Klinik beralamat di Jl. G. Obos No.144, Menteng, Jekan Raya, Palangka Raya, Kalimantan Tengah 73112. Pastikan rute dan nomor lokasi sebelum berangkat.",
+        "en": "Klinik beralamat di Jl. G. Obos No.144, Menteng, Jekan Raya, Palangka Raya, Kalimantan Tengah 73112. Pastikan rute dan nomor lokasi sebelum berangkat."
+      }
+    },
+    {
+      "nama": {
+        "id": "Hubungi nomor praktik",
+        "en": "Hubungi nomor praktik"
+      },
+      "ringkas": {
+        "id": "Nomor telepon yang terdaftar +6285215519080; jangan mengasumsikan otomatis mendukung WhatsApp.",
+        "en": "Nomor telepon yang terdaftar +6285215519080; jangan mengasumsikan otomatis mendukung WhatsApp."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pengaturan jadwal",
+        "en": "Pengaturan jadwal"
+      },
+      "ringkas": {
+        "id": "Senin, Selasa, Kamis–Minggu 09.00–21.00; Rabu tutup (direktori)",
+        "en": "Senin, Selasa, Kamis–Minggu 09.00–21.00; Rabu tutup (direktori)"
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan pelayanan",
+        "en": "Pertanyaan pelayanan"
+      },
+      "ringkas": {
+        "id": "Informasi yang dapat ditanyakan: Konsultasi kesehatan gigi, Informasi jadwal janji, Akses parkir pasien, Pembayaran dengan kartu menurut direktori. Konfirmasi tindakan yang berlaku sebelum janji temu.",
+        "en": "Informasi yang dapat ditanyakan: Konsultasi kesehatan gigi, Informasi jadwal janji, Akses parkir pasien, Pembayaran dengan kartu menurut direktori. Konfirmasi tindakan yang berlaku sebelum janji temu."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan sesuai sumber",
+      "en": "Source-based visit guide"
+    },
+    "penjelasan": {
+      "id": "Alamat, kontak, dan jadwal dirangkum dengan catatan mana yang belum dapat diverifikasi.",
+      "en": "Address, contact and hours are summarized with uncertainty noted."
+    },
+    "alasan_dipilih": "REVISI robot menyebut maps_url:null tidak sesuai tipe string; diisi URL peta lokasi berdasar tautan Maps yang tercantum pada surat tugas. Kontak seluler tidak dinyatakan WhatsApp secara resmi, sehingga WA null."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Di mana lokasi klinik?"
+      },
+      "a": {
+        "id": "Jl. G. Obos No.144, Menteng, Jekan Raya, Palangka Raya, Kalimantan Tengah 73112",
+        "en": "Jl. G. Obos No.144, Menteng, Jekan Raya, Palangka Raya, Kalimantan Tengah 73112"
+      }
+    },
+    {
+      "q": {
+        "id": "Apa nomor telepon yang tercantum?",
+        "en": "Apa nomor telepon yang tercantum?"
+      },
+      "a": {
+        "id": "+6285215519080",
+        "en": "+6285215519080"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam kunjungannya?",
+        "en": "Bagaimana jam kunjungannya?"
+      },
+      "a": {
+        "id": "Senin, Selasa, Kamis–Minggu 09.00–21.00; Rabu tutup (direktori)",
+        "en": "Senin, Selasa, Kamis–Minggu 09.00–21.00; Rabu tutup (direktori)"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada nomor WhatsApp resmi?",
+        "en": "Apakah ada nomor WhatsApp resmi?"
+      },
+      "a": {
+        "id": "Nomor WhatsApp resmi tidak terverifikasi; nomor yang tercantum adalah nomor kontak publik.",
+        "en": "Nomor WhatsApp resmi tidak terverifikasi; nomor yang tercantum adalah nomor kontak publik."
+      }
+    },
+    {
+      "q": {
+        "id": "Informasi layanan apa yang tersedia?",
+        "en": "Informasi layanan apa yang tersedia?"
+      },
+      "a": {
+        "id": "Konsultasi kesehatan gigi, Informasi jadwal janji, Akses parkir pasien, Pembayaran dengan kartu menurut direktori.",
+        "en": "Konsultasi kesehatan gigi, Informasi jadwal janji, Akses parkir pasien, Pembayaran dengan kartu menurut direktori."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa tarif perawatan?",
+        "en": "Berapa tarif perawatan?"
+      },
+      "a": {
+        "id": "Tidak ditemukan daftar tarif resmi; minta estimasi biaya kepada klinik sebelum tindakan.",
+        "en": "Tidak ditemukan daftar tarif resmi; minta estimasi biaya kepada klinik sebelum tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi kunjungan",
+    "en": "Verify visit information"
+  },
+  "pesan_wa_default": "Halo Mesio Dental Solution, saya ingin menanyakan jadwal dan biaya konsultasi.",
+  "outreach": {
+    "wa": "Yth. pengelola Mesio Dental Solution, Maxi Growth Studio menyiapkan konsep website informasi pasien untuk ditinjau. Bolehkah kami kirimkan pratinjau?",
+    "email_subjek": "Konsep website Mesio Dental Solution",
+    "email_isi": "Yth. pengelola Mesio Dental Solution,\n\nKami dari Maxi Growth Studio ingin menawarkan contoh website informasi praktik untuk ditinjau. Jika berkenan kami dapat mengirimkan pratinjau dan proposal.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}

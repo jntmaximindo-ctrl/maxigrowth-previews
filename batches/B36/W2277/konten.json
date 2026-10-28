@@ -1,0 +1,132 @@
+{
+  "id": "W2277",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi Jakarta Deneira",
+      "en": "Klinik Gigi Jakarta Deneira"
+    },
+    "sub": {
+      "id": "Konfirmasikan lokasi dan jadwal kunjungan Anda.",
+      "en": "Confirm your visit location and time."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi",
+        "en": "Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi anak",
+        "en": "Children’s tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Catat kebutuhan kunjungan dan waktu yang Anda inginkan untuk dikonfirmasi admin.",
+      "en": "Note your reason for visiting and preferred time for the practice to confirm."
+    },
+    "alasan_dipilih": "Membantu pasien menyiapkan pertanyaan untuk layanan yang tercantum di website."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Gedung Raudha, Jl. Kuningan Barat II No.21, RT.3/RW.2, Mampang Prapatan, Jakarta Selatan 12710. Konfirmasikan alamat sebelum berangkat.",
+        "en": "The directory lists Gedung Raudha, Jl. Kuningan Barat II No.21, RT.3/RW.2, Mampang Prapatan, Jakarta Selatan 12710. Confirm the address before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How do I request a visit?"
+      },
+      "a": {
+        "id": "Gunakan nomor publik 6287827031969. Pastikan nomor masih dikelola praktik, lalu tunggu konfirmasi jadwal.",
+        "en": "Use the public number 6287827031969. Confirm it is still managed by the practice, then wait for appointment confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal belum terverifikasi atau berbeda antar sumber. Tanyakan jam layanan terbaru sebelum datang.",
+        "en": "Hours are unverified or differ across sources. Ask about current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber yang dibaca. Tanyakan rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama dan ketentuan asuransi belum terverifikasi. Sebutkan penyedia serta polis Anda saat bertanya.",
+        "en": "Insurance arrangements and terms have not been verified. Provide your insurer and policy details when enquiring."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, apakah ini kontak Klinik Gigi Jakarta Deneira? Saya ingin menanyakan lokasi dan jadwal kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola Klinik Gigi Jakarta Deneira. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Direktori mencantumkan lokasi Gedung Raudha Kuningan Barat. Kami menyusun konsep naskah informasi kunjungan. Rencana tautan https://maxigrowthstudio.com/jakarta-deneira perlu diaktifkan sebelum dibagikan. Jika berkenan, kami dapat menjelaskan konsepnya. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi Klinik Gigi Jakarta Deneira",
+    "email_isi": "Halo pengelola Klinik Gigi Jakarta Deneira, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep naskah website untuk informasi lokasi Gedung Raudha Kuningan Barat dan persiapan kunjungan. Rencana tautan https://maxigrowthstudio.com/jakarta-deneira perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Informasi praktik perlu dikonfirmasi sebelum publikasi. Kontak 082141004400 atau info@maxigrowthstudio.com."
+  }
+}

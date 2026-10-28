@@ -1,0 +1,132 @@
+{
+  "id": "W2274",
+  "hero": {
+    "judul": {
+      "id": "Gandaria Dental 7",
+      "en": "Gandaria Dental 7"
+    },
+    "sub": {
+      "id": "Konfirmasikan lokasi dan jadwal kunjungan Anda.",
+      "en": "Confirm your visit location and time."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Implan gigi",
+        "en": "Dental implants"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Dental veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan, tahapan dan jadwal untuk layanan ini. Rencana perawatan ditentukan dokter.",
+        "en": "Ask about assessment, treatment steps and availability. A dentist determines the care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Catat kebutuhan kunjungan dan waktu yang Anda inginkan untuk dikonfirmasi admin.",
+      "en": "Note your reason for visiting and preferred time for the practice to confirm."
+    },
+    "alasan_dipilih": "Membantu pasien menyiapkan pertanyaan untuk layanan yang tercantum di website."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sultan Iskandar Muda No.31A, Jakarta Selatan. Konfirmasikan alamat sebelum berangkat.",
+        "en": "The directory lists Jl. Sultan Iskandar Muda No.31A, Jakarta Selatan. Confirm the address before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How do I request a visit?"
+      },
+      "a": {
+        "id": "Gunakan nomor publik 6281213519191. Pastikan nomor masih dikelola praktik, lalu tunggu konfirmasi jadwal.",
+        "en": "Use the public number 6281213519191. Confirm it is still managed by the practice, then wait for appointment confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal belum terverifikasi atau berbeda antar sumber. Tanyakan jam layanan terbaru sebelum datang.",
+        "en": "Hours are unverified or differ across sources. Ask about current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber yang dibaca. Tanyakan rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama dan ketentuan asuransi belum terverifikasi. Sebutkan penyedia serta polis Anda saat bertanya.",
+        "en": "Insurance arrangements and terms have not been verified. Provide your insurer and policy details when enquiring."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, apakah ini kontak Gandaria Dental 7? Saya ingin menanyakan lokasi dan jadwal kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola Gandaria Dental 7. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Direktori mencantumkan lokasi Sultan Iskandar Muda No.31A. Kami menyusun konsep naskah informasi kunjungan. Rencana tautan https://maxigrowthstudio.com/gandaria-7 perlu diaktifkan sebelum dibagikan. Jika berkenan, kami dapat menjelaskan konsepnya. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi Gandaria Dental 7",
+    "email_isi": "Halo pengelola Gandaria Dental 7, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep naskah website untuk informasi lokasi Sultan Iskandar Muda No.31A dan persiapan kunjungan. Rencana tautan https://maxigrowthstudio.com/gandaria-7 perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Informasi praktik perlu dikonfirmasi sebelum publikasi. Kontak 082141004400 atau info@maxigrowthstudio.com."
+  }
+}
