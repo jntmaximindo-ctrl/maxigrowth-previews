@@ -1,0 +1,32 @@
+{
+  "id": "W2018",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jambangan No.55, Jambangan, Kec. Jambangan, Surabaya, Jawa Timur60232",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281234986636",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281234986636",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-klinik-di-jambangan/ [nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -79,5 +79,32 @@
   "sumber": [
     "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/alena-dental-surabaya-gube-imp1",
     "https://www.ulastempat.com/top-7-rekomendasi-klinik-di-jambangan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Alena Dental Surabaya",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jambangan No.51, Jambangan, Kec. Jambangan, Surabaya, Jawa Timur 60232",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285159599848",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285159599848",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

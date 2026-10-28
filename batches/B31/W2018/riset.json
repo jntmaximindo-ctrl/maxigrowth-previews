@@ -70,5 +70,22 @@
     "https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya",
     "https://www.ulastempat.com/top-7-rekomendasi-klinik-di-jambangan/"
   ],
-  "catatan": "nomor ponsel publik dinormalisasi ke 62 dan dianggap WA. harga belum tersedia. Email tidak ditemukan setelah dicari di https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya, https://www.ulastempat.com/top-7-rekomendasi-klinik-di-jambangan/ serta pencarian nama+email/gmail. Rating dan ulasan Maps tidak diverifikasi langsung sehingga null. Empat kartu konten merupakan topik pertanyaan, bukan klaim empat tindakan tersedia. Outreach hanya draf; pemilik perlu memeriksa publikasi konsep website dan lampiran PDF sebelum mengirim. Tidak ada klinik dihubungi. Nomor dari dokumenpublikScribd, barisPraktekDokterUmum&Gig dan alamatJambangan55: 081234986636. Dokumen sama juga memasangkan nomor dengan dr.IndraDiawan alamatJambangan55; belum membuktikan nama dokter gigi, jadi dokter[]. Sumberunggahanpihak ketiga tanpa tanggal pembaruan kontak; keyakinanrendah, tetap dibuat sesuai aturan pemilik. Email tidak ditemukan di dua sumber dan pencarian nama/alamat+email/gmail. Jadwal dan layanan tindakan belum ditemukan; jamnull, layanan[]. Tidak mengaitkan nomor warkopJambanganKebonAgung55 yang berbeda jalan."
+  "catatan": "nomor ponsel publik dinormalisasi ke 62 dan dianggap WA. harga belum tersedia. Email tidak ditemukan setelah dicari di https://id.scribd.com/document/886550536/Database-TESPOLA-Sidoarjo-Surabaya, https://www.ulastempat.com/top-7-rekomendasi-klinik-di-jambangan/ serta pencarian nama+email/gmail. Rating dan ulasan Maps tidak diverifikasi langsung sehingga null. Empat kartu konten merupakan topik pertanyaan, bukan klaim empat tindakan tersedia. Outreach hanya draf; pemilik perlu memeriksa publikasi konsep website dan lampiran PDF sebelum mengirim. Tidak ada klinik dihubungi. Nomor dari dokumenpublikScribd, barisPraktekDokterUmum&Gig dan alamatJambangan55: 081234986636. Dokumen sama juga memasangkan nomor dengan dr.IndraDiawan alamatJambangan55; belum membuktikan nama dokter gigi, jadi dokter[]. Sumberunggahanpihak ketiga tanpa tanggal pembaruan kontak; keyakinanrendah, tetap dibuat sesuai aturan pemilik. Email tidak ditemukan di dua sumber dan pencarian nama/alamat+email/gmail. Jadwal dan layanan tindakan belum ditemukan; jamnull, layanan[]. Tidak mengaitkan nomor warkopJambanganKebonAgung55 yang berbeda jalan.",
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jambangan No.55, Jambangan, Kec. Jambangan, Surabaya, Jawa Timur60232",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281234986636",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281234986636",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
+  ]
 }

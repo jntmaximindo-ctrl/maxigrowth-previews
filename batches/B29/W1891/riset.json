@@ -72,5 +72,27 @@
     "https://caribisnis.id/dokter-gigi/bandung/buah-batu/klinik-drg-anggraini-ferry-sp--buah-imp1",
     "https://poltekkes.web.id/klinik-pelita-bunda-buah-batu/",
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-bandung-kidul/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Drg. Anggraini Ferry Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Terusan Buah Batu No.207, Kujangsari, Kec. Bandung Kidul, Kota Bandung, Jawa Barat 40286",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289523359972",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289523359972",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

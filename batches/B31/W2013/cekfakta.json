@@ -1,0 +1,42 @@
+{
+  "id": "W2013",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Anna Riyani",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. I Gusti Ngurah Rai A2 No.9, Gunung Anyar, Surabaya, Jawa Timur60294",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287851073385",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287851073385",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1 [nama]",
+    "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/klinik-kecantikan/surabaya/gubeng/dokter-gigi-anna-riyani-gube-imp1 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
