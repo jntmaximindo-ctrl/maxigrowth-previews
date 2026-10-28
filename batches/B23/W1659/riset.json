@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/gs-dental-care-clinic-1058711",
     "https://www.google.com/maps/search/?api=1&query=GS%20Dental%20Care%20Stabat%20Langkat&query_place_id=ChIJDYszFADVNjARyM6grk4IKQQ"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "GS Dental Care Clinic",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pendawa, Karang Rejo, Kec. Stabat, Kabupaten Langkat, Sumatera Utara 20851",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285270566648",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285270566648",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

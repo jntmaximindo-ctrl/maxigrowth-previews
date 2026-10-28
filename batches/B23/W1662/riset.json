@@ -80,5 +80,32 @@
   "sumber": [
     "https://www.semuabis.com/dokter-gigi-viel-dental-care-0852-3150-5055",
     "https://idalamat.com/alamat/dokter-gigi-viel-dental-care-1059739"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Viel Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Yos Sudarso No.96, Cereme Taba, Kec. Lubuk Linggau Tim. II, Kota Lubuklinggau, Sumatera Selatan 31613",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285231505055",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285231505055",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-14,16-20\", \"sel\": \"10-14,16-20\", \"rab\": \"10-14,16-20\", \"kam\": \"10-14,16-20\", \"jum\": \"10-14,16-20\", \"sab\": \"10-14,16-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "W1841",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Annisa Rahma Chamima",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Karna No.7, Dauh Puri Kaja, Denpasar Utara, Bali 80232",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282143264090",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282143264090",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"16-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-annisa-rahma-chamima [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

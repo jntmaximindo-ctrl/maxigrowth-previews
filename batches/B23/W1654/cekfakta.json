@@ -1,0 +1,50 @@
+{
+  "id": "W1654",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Bedah Mulut drg. Kemala Dewi Harahap, Sp.BMM",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Perdamaian No.6, Siringo-Ringo, Rantauprapat, Kab. Labuhanbatu, Sumatera Utara 21413",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281288111669",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281288111669",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Kemala Dewi Harahap, Sp.BMM",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [nama]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].wa]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

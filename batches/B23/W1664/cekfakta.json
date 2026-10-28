@@ -1,0 +1,50 @@
+{
+  "id": "W1664",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dentismile Linggau (Drg. Sinta Ramadhani)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Junaidi, gang serasan, Kec. Lubuk Linggau Tim. I, Kota Lubuklinggau, Sumatera Selatan 31628",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285159595344",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285159595344",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Sinta Ramadhani",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742 [nama]",
+    "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742 [cabang[0].wa]",
+    "https://idalamat.com/alamat/dentismile-linggau-drg-sinta-ramadhani-1059742 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

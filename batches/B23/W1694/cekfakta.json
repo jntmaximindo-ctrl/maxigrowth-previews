@@ -1,0 +1,50 @@
+{
+  "id": "W1694",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Fita Kurniaty A",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lubuk Sikarah No.11, RT.01, Sinapa Piliang, Kec. Lubuk Sikarah, Kota Solok, Sumatera Barat 27317",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116659161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116659161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Fita Kurniaty A",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078 [cabang[0].wa]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

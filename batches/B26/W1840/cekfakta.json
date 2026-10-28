@@ -1,0 +1,58 @@
+{
+  "id": "W1840",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental clinic by drg cahyadi citrawan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arjuna No.44, Dangin Puri Kauh, Denpasar Utara, Bali 80232",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281999684594",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281999684594",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.30-14;17-21\", \"sel\": \"09.30-14;17-21\", \"rab\": \"09.30-14;17-21\", \"kam\": \"09.30-14;17-21\", \"jum\": \"09.30-14;17-21\", \"sab\": \"09.30-14;17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg cahyadi citrawan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [cabang[0].jam]",
+    "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

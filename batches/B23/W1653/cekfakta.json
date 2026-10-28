@@ -1,0 +1,50 @@
+{
+  "id": "W1653",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Rina Yuzani Siregar",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sempurna, Perumahan Taman Sempurna Indah No.88J, Rantauprapat, Kec. Rantau Selatan, Kab. Labuhanbatu, Sumatera Utara 21418",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285297776316",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285297776316",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Rina Yuzani Siregar",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [nama]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [cabang[0].wa]",
+    "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

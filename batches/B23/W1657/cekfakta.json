@@ -1,0 +1,42 @@
+{
+  "id": "W1657",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik Dokter Gigi Fitri Widiya Hadiati",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Perniagaan No.59, Stabat Baru, Kec. Stabat, Kabupaten Langkat, Sumatera Utara 20811",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281265119484",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281265119484",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/praktik-dokter-gigi-fitri-widiya [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -78,5 +78,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/dewata-dentist-dokter-gigi-bali",
     "https://safetywing.com/nomad-care-map/indonesia/denpasar_denpasar-city/dewata-dentist"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dewata Dentist / Dokter Gigi Bali",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Melati No.45, Dangin Puri Kangin, Denpasar Utara, Bali 80234",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285190076537",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285190076537",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-22\", \"sel\": \"09-22\", \"rab\": \"09-22\", \"kam\": \"09-22\", \"jum\": \"09-22\", \"sab\": \"09-22\", \"min\": \"09-22\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "W1818",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Aci Dental Care (Praktek Dokter Gigi)",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arya Mukti Timur III No.254, Pedurungan Lor, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50192",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628211788650",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628211788650",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20:30\", \"sel\": \"10-20:30\", \"rab\": \"10-20:30\", \"kam\": \"10-20:30\", \"jum\": \"10-20:30\", \"sab\": \"10-20:30\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1 [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/semarang/pedurungan/aci-dental-care-praktek-dokter-pedu-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

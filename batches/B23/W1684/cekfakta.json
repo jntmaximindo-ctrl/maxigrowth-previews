@@ -1,0 +1,42 @@
+{
+  "id": "W1684",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Praha",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Seth Adji No.10A, Panarung, Kec. Pahandut, Kota Palangka Raya, Kalimantan Tengah 74874",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285386898629",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285386898629",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha [nama]",
+    "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha [cabang[0].alamat]",
+    "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha [cabang[0].telepon]",
+    "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

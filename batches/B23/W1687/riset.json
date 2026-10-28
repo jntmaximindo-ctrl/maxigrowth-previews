@@ -79,5 +79,37 @@
     "https://idalamat.com/alamat/dental-clinic-heelo-873606",
     "https://bukutelepon.cybo.com/ID/kota-palopo/dokter-gigi",
     "https://instagram.com/heelodent?igshid=YmMyMTA2M2Y="
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Clinic Heelo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://instagram.com/heelodent?igshid=YmMyMTA2M2Y=",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. KH. Muh. Kasim No.83, Salobulo, Kec. Wara Utara, Kota Palopo, Sulawesi Selatan 91913",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285172077552",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285172077552",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-21\", \"sel\": \"16-21\", \"rab\": \"16-21\", \"kam\": \"16-21\", \"jum\": \"16-21\", \"sab\": \"16-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

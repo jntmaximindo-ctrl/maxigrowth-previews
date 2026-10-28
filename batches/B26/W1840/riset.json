@@ -100,5 +100,37 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/dental-clinic-by-drg-cahyadi-citrawan_10",
     "https://bukutelepon.cybo.com/ID/kota-denpasar/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dental clinic by drg cahyadi citrawan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arjuna No.44, Dangin Puri Kauh, Denpasar Utara, Bali 80232",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281999684594",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281999684594",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.30-14;17-21\", \"sel\": \"09.30-14;17-21\", \"rab\": \"09.30-14;17-21\", \"kam\": \"09.30-14;17-21\", \"jum\": \"09.30-14;17-21\", \"sab\": \"09.30-14;17-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg cahyadi citrawan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

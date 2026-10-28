@@ -1,0 +1,58 @@
+{
+  "id": "W1827",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Michael Eka Putra",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Apotek Kimia Farma, Jl. Tangkuban Perahu No.70, Padangsambian Klod, Denpasar Barat, Bali 80117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281236359767",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281236359767",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Michael Eka Putra",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [nama]",
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [cabang[0].alamat]",
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [cabang[0].telepon]",
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [cabang[0].wa]",
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [cabang[0].jam]",
+    "https://www.semuabis.com/praktek-dokter-gigi-drg-michael-eka-0812-3635-9767 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "W1690",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Irene Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/ireneroymond/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-pontianak/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Putri Dara Nante No.60c, Sungai Bangkong, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78116",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281358059191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281358059191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Irene Roymond",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526 [nama]",
+    "https://doktertanya.com/dokter-gigi-pontianak/ [instagram]",
+    "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526 [cabang[0].wa]",
+    "https://idalamat.com/alamat/irene-dental-care-by-drg-irene-roymond-1063526 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

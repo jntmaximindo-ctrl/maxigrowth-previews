@@ -1,0 +1,58 @@
+{
+  "id": "W1795",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Ceria Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/ceriadentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "No.11 A-H, Jl. Sisingamangaraja, Harjosari II, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20219",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282288667026",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282288667026",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10.30-20.30\", \"sel\": \"10.30-20.30\", \"rab\": \"10.30-20.30\", \"kam\": \"10.30-20.30\", \"jum\": \"10.30-20.30\", \"sab\": \"10.30-20.30\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [nama]",
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [instagram]",
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [cabang[0].alamat]",
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [cabang[0].telepon]",
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [cabang[0].wa]",
+    "https://www.semuabis.com/ceria-dental-care_6K-0822-8866-7026 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -109,5 +109,42 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-sept-2025.pdf?pid=id_en_tr_chubb_provider_dental",
     "https://www.instagram.com/homedental.pontianak/",
     "https://www.semuabis.com/home-dental-pontianak-drg-cindy-k-0877-0931-9313"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "HOME Dental Pontianak",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/homedental.pontianak/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Beringin No.85, Darat Sekip, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78243",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287709319313",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287709319313",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-20\", \"sel\": \"15-20\", \"rab\": \"15-20\", \"kam\": \"15-20\", \"jum\": \"15-20\", \"sab\": \"10-15\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg Cindy K. Chairumin",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "W1819",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Aesthetic Dental Clinic Semarang",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Fatmawati No.18A, Sendangmulyo, Kec. Tembalang, Kota Semarang, Jawa Tengah 50272",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282220696902",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282220696902",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1 [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/semarang/ambarawa/aesthetic-dental-clinic-semara-amba-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

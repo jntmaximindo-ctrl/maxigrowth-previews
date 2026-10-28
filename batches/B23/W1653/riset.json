@@ -92,5 +92,32 @@
   "sumber": [
     "https://drive.google.com/file/d/1Y2oFkORWdL5le6IAJNfgP9i7KcCWocgA/view",
     "https://carialamat.biz.id/dokter-praktek/praktek-drg-rina-yuzani-siregar-rantauprapat-kec-rantau-sel-rantauprapat/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Rina Yuzani Siregar",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sempurna, Perumahan Taman Sempurna Indah No.88J, Rantauprapat, Kec. Rantau Selatan, Kab. Labuhanbatu, Sumatera Utara 21418",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285297776316",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285297776316",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Rina Yuzani Siregar",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

@@ -95,5 +95,32 @@
     "https://www.google.com/maps/search/?api=1&query=Dokter%20Bedah%20Mulut%20drg.%20Kemala%20Dewi%20Harahap%2C%20Sp.BMM%20Rantauprapat&query_place_id=ChIJxbFDM02hLTARmR7LkVST5yE",
     "https://latersiahospital.com/",
     "https://sinta.kemdiktisaintek.go.id/departments/profile/430/0D1E63E9-CBFB-4546-A242-875C310083A5/6AA97BBD-93D4-47E2-955D-AEBB6C3E1538/?view=iprs"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Bedah Mulut drg. Kemala Dewi Harahap, Sp.BMM",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Perdamaian No.6, Siringo-Ringo, Rantauprapat, Kab. Labuhanbatu, Sumatera Utara 21413",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281288111669",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281288111669",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Kemala Dewi Harahap, Sp.BMM",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

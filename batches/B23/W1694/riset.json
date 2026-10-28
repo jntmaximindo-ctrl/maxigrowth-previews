@@ -93,5 +93,32 @@
     "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fita-kurniaty-a-1059078",
     "https://sinapapiliang.solokkota.go.id/post/view/prakter-dokter-gigi-fita-kurniaty",
     "https://sinapapiliang.solokkota.go.id/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Fita Kurniaty A",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lubuk Sikarah No.11, RT.01, Sinapa Piliang, Kec. Lubuk Sikarah, Kota Solok, Sumatera Barat 27317",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116659161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116659161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Fita Kurniaty A",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

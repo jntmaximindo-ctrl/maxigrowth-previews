@@ -1,0 +1,50 @@
+{
+  "id": "W1670",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Manado Dental Kingdom",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-manado/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/manado_dentalkingdom/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://beritamanado.com/klinik-gigi-dan-mulut-dental-kingdom-manado/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Walanda Maramis No.240, Komo Luar, Wenang, Kota Manado",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://beritamanado.com/klinik-gigi-dan-mulut-dental-kingdom-manado/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281364899388",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-manado/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281364899388",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-manado/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-manado/ [nama]",
+    "https://beritamanado.com/klinik-gigi-dan-mulut-dental-kingdom-manado/ [instagram]",
+    "https://beritamanado.com/klinik-gigi-dan-mulut-dental-kingdom-manado/ [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-manado/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-manado/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

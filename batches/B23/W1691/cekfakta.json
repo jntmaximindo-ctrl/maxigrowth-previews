@@ -1,0 +1,66 @@
+{
+  "id": "W1691",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Soegeng Tjokro & Drg. Hernawaty Halim / Dental Art Center Pontianak",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/dentalartcenterpontianak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentalartcenter.ptk/",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/dentalartcenterpontianak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cendana No.61C, Darat Sekip, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285956111158",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/dentalartcenterpontianak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285956111158",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/dentalartcenterpontianak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Soegeng Tjokro",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "Drg. Hernawaty Halim",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/dentalartcenterpontianak [nama]",
+    "https://linktr.ee/dentalartcenterpontianak [instagram]",
+    "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514 [cabang[0].alamat]",
+    "https://linktr.ee/dentalartcenterpontianak [cabang[0].telepon]",
+    "https://linktr.ee/dentalartcenterpontianak [cabang[0].wa]",
+    "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514 [dokter[0].nama]",
+    "https://idalamat.com/alamat/drg-soegeng-tjokro-drg-hernawaty-halim-1063514 [dokter[1].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

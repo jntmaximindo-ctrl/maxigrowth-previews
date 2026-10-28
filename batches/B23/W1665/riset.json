@@ -98,5 +98,32 @@
     "https://www.semuabis.com/klinik-pratama-arimbi-medical-center-0813-5354-6161",
     "https://linktr.ee/Arimbi_DentalCare",
     "https://linggaupos.bacakoran.co/read/22164/10-tahun-anniversary-dr-rio-dan-drg-dewi-arimbi-resmikan-klinik-pratama-arimbi-medical-centre"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Pratama Arimbi Medical Center",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sejahtera Kecmatan No.RT.001, Watervang, Kec. Lubuk Linggau Tim. I, Kota Lubuklinggau, Sumatera Selatan 31628",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281353546161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281353546161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Dewi Arimbi",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

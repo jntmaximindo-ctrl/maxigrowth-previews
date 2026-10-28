@@ -1,0 +1,66 @@
+{
+  "id": "W1692",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "HOME Dental Pontianak",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/homedental.pontianak/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-pontianak/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Beringin No.85, Darat Sekip, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78243",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287709319313",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287709319313",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-20\", \"sel\": \"15-20\", \"rab\": \"15-20\", \"kam\": \"15-20\", \"jum\": \"15-20\", \"sab\": \"10-15\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-pontianak/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg Cindy K. Chairumin",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532 [nama]",
+    "https://doktertanya.com/dokter-gigi-pontianak/ [instagram]",
+    "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532 [cabang[0].wa]",
+    "https://doktertanya.com/dokter-gigi-pontianak/ [cabang[0].jam]",
+    "https://idalamat.com/alamat/home-dental-pontianak-drg-cindy-k-chairumin-1063532 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "W1686",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Nuzul (Full Senyum Dental)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K. H. Ahmad Dahlan No.74, Amasangan, Kec. Wara, Kota Palopo, Sulawesi Selatan 91922",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282129023166",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282129023166",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11-21\", \"sel\": \"11-21\", \"rab\": \"11-21\", \"kam\": \"11-21\", \"jum\": \"13-21\", \"sab\": \"11-21\", \"min\": \"16-20\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448 [nama]",
+    "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448 [cabang[0].wa]",
+    "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

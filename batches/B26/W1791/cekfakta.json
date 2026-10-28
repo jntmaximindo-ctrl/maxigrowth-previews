@@ -1,0 +1,50 @@
+{
+  "id": "W1791",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Eriana Sutono, Sp.KG",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bacan No.98, Melayu Baru, Wajo, Makassar, Sulawesi Selatan 90173",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281340123975",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281340123975",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Eriana Sutono, Sp.Kg",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407 [nama]",
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407 [cabang[0].wa]",
+    "https://idalamat.com/alamat/dokter-gigi-spesialis-drg-eriana-sutono-spkg-1064407 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

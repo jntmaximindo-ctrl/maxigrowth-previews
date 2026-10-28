@@ -1,0 +1,58 @@
+{
+  "id": "W1797",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Bersama drg. Andriana Dachi dan dr. Indah Wineva",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. M. Nawi Harahap No.173, Sitirejo III, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20226",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281260557066",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281260557066",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Andriana Dachi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "dr. Indah Wineva",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [nama]",
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [dokter[0].nama]",
+    "https://bukutelepon.cybo.com/ID/deli-tua/dokter-gigi?p=4 [dokter[1].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

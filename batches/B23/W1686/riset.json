@@ -80,5 +80,32 @@
   "sumber": [
     "https://idalamat.com/alamat/dokter-gigi-nuzul-full-senyum-dental-1064448",
     "https://bukutelepon.cybo.com/ID/kota-palopo/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Nuzul (Full Senyum Dental)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K. H. Ahmad Dahlan No.74, Amasangan, Kec. Wara, Kota Palopo, Sulawesi Selatan 91922",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282129023166",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282129023166",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11-21\", \"sel\": \"11-21\", \"rab\": \"11-21\", \"kam\": \"11-21\", \"jum\": \"13-21\", \"sab\": \"11-21\", \"min\": \"16-20\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

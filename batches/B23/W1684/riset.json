@@ -70,5 +70,27 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-praha",
     "https://poltekkes.web.id/dokter-gigi-palangkaraya/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Praha",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Seth Adji No.10A, Panarung, Kec. Pahandut, Kota Palangka Raya, Kalimantan Tengah 74874",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285386898629",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285386898629",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
