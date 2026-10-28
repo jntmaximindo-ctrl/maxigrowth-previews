@@ -1,0 +1,132 @@
+{
+  "id": "W2015",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Satria Surabaya",
+      "en": "Dokter Gigi Satria Surabaya"
+    },
+    "sub": {
+      "id": "Informasi kunjungan praktik di Karah. Jadwal Senin–Jumat 18.00–21.00 WIB; akhir pekan dan tanggal merah melalui konfirmasi WA.",
+      "en": "Visit information for the Karah practice. Monday–Friday, 6–9 pm WIB; contact the practice about weekends and public holidays."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Waktu kunjungan",
+        "en": "Visit time"
+      },
+      "ringkas": {
+        "id": "Senin–Jumat 18.00–21.00 WIB menurut Linktree. Tanyakan ketersediaan sebelum datang.",
+        "en": "Linktree lists Monday–Friday, 6–9 pm WIB. Ask about availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Lokasi tercatat di Blok A-18, Karah, Jambangan. Konfirmasikan petunjuk sebelum datang.",
+        "en": "The listed location is Block A-18, Karah, Jambangan. Confirm directions before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan konsultasi",
+        "en": "Consultation needs"
+      },
+      "ringkas": {
+        "id": "Jelaskan kebutuhan Anda dan tanyakan pemeriksaan yang tersedia.",
+        "en": "Describe your needs and ask what assessments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rencana perawatan sebelum mengambil keputusan.",
+        "en": "Ask about examination and proposed care fees before deciding."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Atur kunjungan malam",
+      "en": "Plan an evening visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kerja atau ajukan pertanyaan akhir pekan dan tanggal merah, lalu minta konfirmasi jadwal.",
+      "en": "Choose a weekday or ask about a weekend or public holiday, then request appointment confirmation."
+    },
+    "alasan_dipilih": "Linktree memberi jam malam pada hari kerja dan mengarahkan akhir pekan/tanggal merah ke WA; alur ini mengikuti perbedaan tersebut."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencatat Jalan Komp. Perum PT Persada Kalpataru Tama Blok A-18, Karah, Jambangan, Surabaya.",
+        "en": "The directory lists Jalan Komp. Perum PT Persada Kalpataru Tama, Block A-18, Karah, Jambangan, Surabaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Linktree mencatat Senin–Jumat 18.00–21.00 WIB. Untuk Sabtu, Minggu, dan tanggal merah, tanyakan melalui WA.",
+        "en": "Linktree lists Monday–Friday, 6–9 pm WIB. Ask via WhatsApp about Saturdays, Sundays, and public holidays."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian sesuai kebutuhan Anda.",
+        "en": "Fees are not available here. Request a breakdown for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda agar praktik dapat mengonfirmasi tindakan dan jadwal.",
+        "en": "Describe your needs so the practice can confirm care options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan jenis asuransi dan ketentuan pembayaran sebelum kunjungan.",
+        "en": "Ask about accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Ask about appointment times and your visit needs."
+  },
+  "pesan_wa_default": "Halo Dokter Gigi Satria Surabaya, saya ingin menanyakan jadwal kunjungan. Mohon informasi lokasi, pemeriksaan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dokter Gigi Satria Surabaya. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Linktree Chubby Dental mencatat jadwal malam dan konfirmasi akhir pekan melalui WA. Kami sudah membuat konsep website informasi kunjungan: https://maxigrowthstudio.com/satria-surabaya. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Dokter Gigi Satria Surabaya",
+    "email_isi": "Halo Bapak/Ibu pengelola Dokter Gigi Satria Surabaya,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Jadwal malam hari kerja dan konfirmasi akhir pekan melalui WA pada Linktree Chubby Dental dapat disajikan dalam alur kunjungan yang jelas. Kami sudah membuat konsep website untuk ditinjau: https://maxigrowthstudio.com/satria-surabaya.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
