@@ -1,0 +1,81 @@
+{
+  "url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20Dentes%20Godean%20Sleman",
+  "captured": "2026-10-28T08:33:54.461Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.912,
+      "kinds": {
+        "bg": 1,
+        "text": 3
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.053,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.017,
+      "kinds": {
+        "text": 8
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.015,
+      "kinds": {
+        "bg": 4
+      }
+    },
+    {
+      "hex": "#2b7f3f",
+      "share": 0.003,
+      "kinds": {
+        "text": 2
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Google Symbols",
+    "Roboto",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=41.1269525%2C-104.808448&zoom=10&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=MpIbidimt2iqF2JjDRCpnd92Jsc",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Klinik Gigi Dentes Godean Sleman - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#f2f2f2",
+    "#000000"
+  ]
+}
