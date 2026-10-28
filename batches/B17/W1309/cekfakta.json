@@ -1,0 +1,42 @@
+{
+  "id": "W1309",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "MY DENTIST RAJAWALI",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/my-dentist-rajawali-1063625",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Rajawali Induk No.316, Palangka, Jekan Raya, Palangka Raya, Kalimantan Tengah 74874",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/my-dentist-rajawali-1063625",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62895711983000",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/my-dentist-rajawali-1063625",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 10.00–21.00, Minggu 14.00–18.00 (direktori)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/my-dentist-rajawali-1063625",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/my-dentist-rajawali-1063625 [nama]",
+    "https://idalamat.com/alamat/my-dentist-rajawali-1063625 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/my-dentist-rajawali-1063625 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/my-dentist-rajawali-1063625 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

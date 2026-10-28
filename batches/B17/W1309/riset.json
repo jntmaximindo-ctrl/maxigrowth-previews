@@ -76,5 +76,27 @@
     "https://idalamat.com/alamat/my-dentist-rajawali-1063625",
     "https://mediasehat.id/tempat/10-tempat-praktik-dokter-gigi-di-palangka-raya/",
     "https://linktr.ee/mydentistpalangkaraya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "MY DENTIST RAJAWALI",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Rajawali Induk No.316, Palangka, Jekan Raya, Palangka Raya, Kalimantan Tengah 74874",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62895711983000",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 10.00–21.00, Minggu 14.00–18.00 (direktori)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

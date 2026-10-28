@@ -68,5 +68,27 @@
   "sumber": [
     "https://idalamat.com/alamat/mitra-indonesia-dentist-1060094",
     "https://smilejet.app/clinic/mitra-indonesia-dentist"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Mitra Indonesia Dentist",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Gg. Murni No.24, RT.4/RW.7, Pondok Pinang, Kebayoran Lama, Jakarta Selatan 12310",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282138823000",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282138823000",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
