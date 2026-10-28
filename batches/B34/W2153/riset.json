@@ -68,5 +68,32 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
     "https://idalamat.com/alamat/bumijo-dental-clinic-drg-y-irawaty-wibowo-sp-kga-133913"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi drg. Y. Irawaty Wibowo SpKGA",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigibumijojogja/",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bumijo Indonesia No.2, Bumijo, Jetis, Yogyakarta, DI Yogyakarta 55232",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287738726565",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287738726565",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

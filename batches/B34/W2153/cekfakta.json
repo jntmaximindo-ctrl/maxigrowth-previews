@@ -1,0 +1,50 @@
+{
+  "id": "W2153",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi drg. Y. Irawaty Wibowo SpKGA",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigibumijojogja/",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bumijo Indonesia No.2, Bumijo, Jetis, Yogyakarta, DI Yogyakarta 55232",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287738726565",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287738726565",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1 [instagram]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/jetis/dokter-gigi-drg-y-irawaty-wibo-jeti-imp1 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
