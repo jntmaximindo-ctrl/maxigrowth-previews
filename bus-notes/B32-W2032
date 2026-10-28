@@ -1,0 +1,98 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W2032",
+  "nama": {
+    "v": "Agung Oembari Dokter Gigi",
+    "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/",
+    "tgl": "2026-10-28",
+    "yakin": "tinggi"
+  },
+  "kota": "Surabaya",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Agung Oembari Dokter Gigi — Dupak",
+      "alamat": {
+        "v": "Jl. Demak No.323, Dupak, Kec. Krembangan, Surabaya, Jawa Timur 60178, Indonesia",
+        "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/",
+        "tgl": "2026-10-28",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "0313538498",
+        "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/?cid=11721527772474088339"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Praktik dokter gigi umum; rincian tindakan belum terverifikasi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": 5,
+    "ulasan": 10,
+    "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/",
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [
+    "Lokasi praktik di Dupak, Krembangan, Surabaya tercantum di direktori dan dapat dihubungi melalui telepon tetap."
+  ],
+  "situs_lama": [
+    "Situs resmi praktik belum ditemukan pada sumber yang diperiksa; informasi lokasi dan kontak tersebar di direktori."
+  ],
+  "ide_fitur_khas": "Panduan lokasi dengan peta, tombol telepon tetap, dan daftar pertanyaan persiapan kunjungan.",
+  "catatan": "harga belum tersedia. Nomor 0313538498 merupakan telepon tetap, bukan ponsel; WA null. Email tidak ditemukan setelah pemeriksaan di Cybo dan Semuabis. Nama dokter, jam, layanan spesifik, fasilitas dan asuransi belum terverifikasi. Semuabis menampilkan praktik bernama Dokter Gigi Mochamad Hasan Bisri di alamat dan nomor yang sama; hubungan dengan Agung Oembari belum pasti. Surat tugas menyebut 7 ulasan, Cybo menampilkan 10; angka ulasan perlu cek ulang.",
+  "sumber": [
+    "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/",
+    "https://www.semuabis.com/dokter-gigi-mochamad-hasan-bisri-031-3538498"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Agung Oembari Dokter Gigi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Demak No.323, Dupak, Kec. Krembangan, Surabaya, Jawa Timur 60178, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0313538498",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
+  ]
+}
