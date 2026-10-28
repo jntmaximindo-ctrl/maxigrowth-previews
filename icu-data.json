@@ -1,30 +1,30 @@
 {
- "diperbarui": "2026-10-28T22:52:29+07:00",
+ "diperbarui": "2026-10-28T23:05:12+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
  "akhir_hari": "2026-10-28T23:59:00+07:00",
  "total_klinik_di_batch": 1409,
- "klinik_status_lain": 91,
- "siap_reachout_hari_ini": 451,
+ "klinik_status_lain": 75,
+ "siap_reachout_hari_ini": 482,
  "tahap": {
   "cari": null,
   "riset": 78,
-  "cek_fakta": 40,
-  "rakit": 4,
+  "cek_fakta": 0,
+  "rakit": 44,
   "qa": 1,
   "deploy": 0,
-  "review": 27,
-  "siap_reachout": 1168
+  "review": 12,
+  "siap_reachout": 1199
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 56,
-  "cek_fakta": 9,
-  "rakit": 27,
-  "qa": 27,
-  "deploy": 27,
-  "review": 12
+  "riset": 34,
+  "cek_fakta": 85,
+  "rakit": 39,
+  "qa": 39,
+  "deploy": 39,
+  "review": 48
  },
  "pekerja": [
   {
@@ -88,9 +88,9 @@
   },
   {
    "tingkat": "kritis",
-   "judul": "Antrean cek fakta menumpuk",
-   "detail": "40 klinik menunggu di tahap cek fakta.",
-   "teks_perbaikan": "Periksa pekerja tahap cek fakta dan dorong sampai antrean turun."
+   "judul": "Antrean rakit menumpuk",
+   "detail": "44 klinik menunggu di tahap rakit.",
+   "teks_perbaikan": "Periksa pekerja tahap rakit dan dorong sampai antrean turun."
   }
  ],
  "kemarin": {
@@ -141,23 +141,23 @@
   {
    "tanggal": "2026-10-28",
    "lulus_akhir": {
-    "riset": 1240,
-    "cek_fakta": 1200,
-    "rakit": 1196,
-    "qa": 1195,
-    "deploy": 1195,
-    "review": 1168,
+    "riset": 1256,
+    "cek_fakta": 1256,
+    "rakit": 1212,
+    "qa": 1211,
+    "deploy": 1211,
+    "review": 1199,
     "siap_reachout": 0
    },
-   "siap_reachout_akhir": 1168,
+   "siap_reachout_akhir": 1199,
    "tambahan_hari_itu": {
-    "riset": 445,
-    "cek_fakta": 453,
-    "rakit": 477,
-    "qa": 478,
-    "deploy": 478,
-    "review": 451,
-    "siap_reachout": 451
+    "riset": 461,
+    "cek_fakta": 509,
+    "rakit": 493,
+    "qa": 494,
+    "deploy": 494,
+    "review": 482,
+    "siap_reachout": 482
    }
   }
  ]
