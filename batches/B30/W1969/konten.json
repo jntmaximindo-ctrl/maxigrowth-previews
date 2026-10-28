@@ -1,0 +1,132 @@
+{
+  "id": "W1969",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi Gigi dan Ortodonti di Padang",
+      "en": "Dental and Orthodontic Consultations in Padang"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan jadwal praktik drg. Firdaus Anas Budjang, Sp.Ort di kawasan Jalan Damar. Konfirmasikan layanan serta jadwal sebelum berkunjung.",
+      "en": "Find location and listed hours for drg. Firdaus Anas Budjang, Sp.Ort on Jalan Damar. Please confirm services and availability before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Awal",
+        "en": "Initial Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi untuk keluhan gigi dan susunan gigi.",
+        "en": "Ask whether consultations are available for dental and alignment concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Evaluasi Susunan Gigi",
+        "en": "Teeth Alignment Assessment"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan pemeriksaan ortodonti dan tahapan yang mungkin diperlukan.",
+        "en": "Discuss orthodontic assessment needs and potential next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Perawatan",
+        "en": "Treatment Information"
+      },
+      "ringkas": {
+        "id": "Mintalah penjelasan pilihan tindakan, waktu kunjungan, dan perkiraan biaya.",
+        "en": "Request information about treatment options, visits, and estimated fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal Kontrol",
+        "en": "Follow-up Scheduling"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan jadwal kontrol melalui nomor kontak yang tercantum.",
+        "en": "Confirm follow-up availability using the listed contact number."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Hari Kunjungan",
+      "en": "Choose a Visit Day"
+    },
+    "penjelasan": {
+      "id": "Lihat jam praktik yang tercantum pada direktori untuk Senin sampai Sabtu, lalu hubungi praktik untuk memastikan jadwal.",
+      "en": "View directory-listed hours from Monday to Saturday, then contact the practice to confirm availability."
+    },
+    "alasan_dipilih": "Direktori publik mencantumkan jadwal Senin–Sabtu pukul 17.00–21.00; informasi perlu dikonfirmasi sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Menurut direktori, di Jl. Damar No.57 A, Olo, Padang Barat, Kota Padang.",
+        "en": "The directory lists Jl. Damar No.57 A, Olo, West Padang, Padang City."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 17.00–21.00 dan Minggu tutup. Konfirmasikan jadwal sebelum datang.",
+        "en": "The directory lists Monday–Saturday, 5–9 PM, and Sunday closed. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia dalam sumber publik yang diperiksa. Silakan tanyakan langsung.",
+        "en": "Fees were not published in the sources reviewed. Please ask the practice directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terkonfirmasi. Tanyakan kepada pihak praktik.",
+        "en": "Insurance acceptance has not been confirmed. Please check with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Are braces treatments available?"
+      },
+      "a": {
+        "id": "Praktik tercantum dalam kategori ortodonti, tetapi jenis tindakan yang tersedia perlu dikonfirmasi.",
+        "en": "The practice is listed under orthodontics, but specific treatments need confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Memastikan Jadwal",
+    "en": "Contact the Practice to Confirm Availability"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di praktik drg. Firdaus Anas Budjang, Sp.Ort. Apakah ada slot yang tersedia dan berapa perkiraan biaya konsultasinya?",
+  "outreach": {
+    "wa": "Halo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik drg. Firdaus Anas Budjang, Sp.Ort di Jalan Damar, Padang, dengan jadwal sore yang tercantum di direktori. Kami telah menyiapkan konsep website untuk memudahkan pasien menemukan lokasi dan informasi jadwal. Konsepnya dapat dilihat di https://maxigrowthstudio.com/drg-firdaus. Jika berkenan, saya siap menjelaskan lebih lanjut. Terima kasih.",
+    "email_subjek": "Konsep website untuk praktik drg. Firdaus Anas Budjang",
+    "email_isi": "Yth. Pengelola Praktik drg. Firdaus Anas Budjang, Sp.Ort,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Jalan Damar, Padang, termasuk jadwal sore yang tercantum pada direktori publik. Kami menyiapkan konsep website yang membantu pasien menemukan lokasi, jam praktik, dan jalur untuk menanyakan jadwal.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-firdaus. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Jika berkenan, kami dapat mendiskusikan penyesuaian informasi sesuai kebutuhan praktik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1972",
+  "hero": {
+    "judul": {
+      "id": "Informasi Xenon Dental House Padang",
+      "en": "Xenon Dental House Padang Information"
+    },
+    "sub": {
+      "id": "Temukan alamat, kontak, dan jadwal yang tercantum di direktori publik. Konfirmasikan informasi sebelum berkunjung.",
+      "en": "Find the address, contact details, and directory-listed hours. Please confirm details before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis konsultasi yang tersedia kepada pihak klinik.",
+        "en": "Ask the clinic which consultations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan scaling dan biaya sesuai kondisi gigi.",
+        "en": "Ask about scaling availability and fees for your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan jenis penambalan yang ditangani dan kebutuhan pemeriksaan.",
+        "en": "Confirm which fillings are offered and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana Perawatan",
+        "en": "Treatment Planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan, pilihan tindakan, serta perkiraan kunjungan.",
+        "en": "Discuss concerns, treatment options, and possible visits."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Jadwal Kunjungan",
+      "en": "Visit Schedule"
+    },
+    "penjelasan": {
+      "id": "Direktori mencantumkan jam Senin sampai Sabtu pukul 09.00–21.00. Hubungi klinik untuk memastikan ketersediaan.",
+      "en": "A public directory lists Monday to Saturday, 9 AM–9 PM. Contact the clinic to confirm availability."
+    },
+    "alasan_dipilih": "Jam praktik dari direktori publik membantu pasien memilih hari, tetapi harus dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Palembang No.11, Ulak Karang Selatan, Padang Utara, Kota Padang.",
+        "en": "The directory lists Jl. Palembang No.11, South Ulak Karang, North Padang."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam praktiknya kapan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Menurut direktori, Senin–Sabtu pukul 09.00–21.00 dan Minggu tutup. Jadwal dapat berubah.",
+        "en": "The directory lists Monday–Saturday, 9 AM–9 PM, and Sunday closed. Hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Silakan tanyakan langsung kepada klinik.",
+        "en": "An official price list was not found. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum tersedia dalam sumber yang diperiksa.",
+        "en": "Insurance acceptance was not confirmed in the reviewed sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasikan jadwal terlebih dahulu melalui nomor kontak yang tercantum.",
+        "en": "Please confirm availability using the listed contact number."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo Xenon Dental House, saya ingin menanyakan jadwal konsultasi, layanan yang tersedia, dan perkiraan biayanya. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi Xenon Dental House di Jalan Palembang No.11, Padang, serta jam praktik yang tercantum pada direktori publik. Kami menyiapkan konsep website yang memudahkan pasien menemukan lokasi, layanan, dan informasi jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/xenon-house. Jika berkenan, saya siap menjelaskan. Terima kasih.",
+    "email_subjek": "Konsep website Xenon Dental House",
+    "email_isi": "Yth. Pengelola Xenon Dental House,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi klinik di Jalan Palembang No.11, Padang, dan menyiapkan konsep website untuk membantu pasien menemukan alamat, informasi layanan, serta cara menanyakan jadwal.\n\nKonsepnya dapat dilihat di https://maxigrowthstudio.com/xenon-house. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Informasi klinik pada konsep dapat disesuaikan setelah dikonfirmasi dengan tim Anda.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
