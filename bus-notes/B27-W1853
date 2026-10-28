@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Asia Dental Clinic",
       "alamat": {
-        "v": "Jl. Menggala No.61, Sei Rengas I, Medan Kota, Medan City, North Sumatra 20214, Indonesia",
+        "v": "Jl. Menggala No.61, Sei Rengas I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20214",
         "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -58,7 +58,7 @@ RISET LAMA:
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJgbPyeLExMTARnHZhKSJ80Sc"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -78,14 +78,20 @@ RISET LAMA:
     "Direktori mencantumkan jam kunjungan pada hari Sabtu."
   ],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam pencarian ulang.",
-    "Daftar perawatan dan harga resmi belum berhasil diverifikasi."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Pemilih hari kunjungan dengan jam dari direktori, pengingat konfirmasi lewat telepon, dan tautan arah lokasi.",
-  "catatan": "Revisi 28 Oktober 2026 setelah surat dikembalikan lagi karena WA null. Telepon tetap dibaca ulang dari direktori; belum ditemukan nomor ponsel publik yang dapat dikaitkan dengan praktik ini. WA null; tidak mengubah telepon tetap menjadi WhatsApp. Hasil tetap dibuat sesuai aturan pemilik: klinik tidak ditahan karena WA belum terverifikasi. harga belum tersedia. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan, https://indonesiaknowledge.com/directory/dental/medan, https://www.instagram.com/asiadental_/. Daftar perawatan belum terverifikasi; layanan []; empat kartu konten merupakan panduan administratif, bukan klaim tindakan tersedia. Rating dan ulasan merupakan angka yang tampil pada Indonesia Knowledge, bukan verifikasi langsung Google Maps; direktori menyebut pemeriksaan listing pada 6 Agustus 2026. Tanggal fakta adalah tanggal dibaca ulang, bukan tanggal pembaruan bisnis. Draf outreach belum dikirim; kesiapan konsep dan lampiran proposal perlu diperiksa sebelum dipakai. Instagram gagal dibuka (DisabledError). Klinik bernama Asia di negara atau alamat lain tidak digunakan. Jam dan fasilitas dari direktori, perlu konfirmasi. Pembaruan slot riset 2, 28 Oktober 2026: alamat dan telepon dibaca ulang dari sumber di atas; tetap tidak ditemukan ponsel publik. Maps hanya mengembalikan kerangka halaman, sehingga rating/ulasan kini null, bukan menyalin angka direktori ke fakta Maps. Tidak menjadikan nomor tetap sebagai WA. Sumber aturan konten: https://jdih.kemkes.go.id/documents/peraturan-menteri-kesehatan-nomor-1787menkesperxii2010 (diakses 28 Oktober 2026). Pada publikasi wajib tampilkan nama, alamat, dan tanggal publikasi aktual; tanggal produksi draf 28 Oktober 2026. Draf tidak menyediakan konsultasi medis jarak jauh. pesan_wa_default dan outreach.wa hanya templat; jangan aktifkan tombol WA klinik selama wa.v null. Empat kartu layanan konten adalah informasi administrasi, bukan daftar tindakan. Fitur khas adalah usulan antarmuka, bukan fasilitas klinik yang telah tersedia. Konsep URL dan lampiran PDF belum diverifikasi tersedia; siapkan keduanya sebelum memakai draf outreach.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan, https://indonesiaknowledge.com/directory/dental/medan. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi melanjutkan riset lama dalam surat: alamat, telepon tetap, jam dan atribut toilet dibaca ulang, tidak mengubah nomor tetap menjadi WA. Hanya telepon tetap62617348968 ditemukan pada sumber yang dibaca; WA tetapnull sesuai instruksi pemilik agar hasil tidak ditahan. Dua URL berasal penerbit sama, independensi terbatas. Instagram tertaut pada direktori; profil tidak berhasil dimuat. Tanggal pemeriksaan listing6 Agustus2026 berbeda dari tanggal akses. Tidak mengisi dokter atau tindakan dari ulasan pasien. Jangan mengaktifkan tombol WA selamawa.vnull. Fitur khas adalah usulan antarmuka, bukan fasilitas yang telah tersedia. Wajib menampilkan nama, alamat dan tanggal publikasi aktual pada publikasi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
-    "https://indonesiaknowledge.com/directory/dental/medan",
-    "https://www.instagram.com/asiadental_/"
+    "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-19\", \"sel\": \"09-19\", \"rab\": \"09-19\", \"kam\": \"09-19\", \"jum\": \"09-19\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
