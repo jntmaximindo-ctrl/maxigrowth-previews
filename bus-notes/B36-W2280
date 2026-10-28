@@ -82,19 +82,17 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "nama",
-      "tercatat": "Klinik Gigi Suhanda",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+      "path": "cabang[0].jam",
+      "tercatat": null,
+      "catatan": "SemuaBis: Senin–Jumat 06.15–17.30, Sabtu 13.00–17.00, Minggu tutup; CariBisnis mencantumkan 09.00–21.00 pada hari kerja dan buka Minggu."
     },
     {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Bukit Duri Tanjakan No.56/1, Bukit Duri, Tebet, Jakarta Selatan 12840",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "62218303175",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+      "path": "maps",
+      "tercatat": {
+        "rating": null,
+        "ulasan": null
+      },
+      "catatan": "CariBisnis mencantumkan 4,5 dari 127 ulasan."
     }
   ]
 }

@@ -11,13 +11,13 @@ RISET LAMA:
   },
   "kota": "Medan",
   "zona_waktu": "WIB",
-  "instagram": {
-    "v": "https://www.instagram.com/asiadental_/",
-    "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
-    "tgl": "2026-10-28",
-    "yakin": "sedang"
-  },
   "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "instagram": {
     "v": null,
     "src": null,
     "tgl": "2026-10-28",
@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Asia Dental Clinic",
       "alamat": {
-        "v": "Jl. Menggala No.61, Sei Rengas I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20214",
+        "v": "Jl. Menggala No.61, Sei Rengas I, Medan Kota, Medan 20214",
         "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,28 +45,23 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "09-19",
-          "sel": "09-19",
-          "rab": "09-19",
-          "kam": "09-19",
-          "jum": "09-19",
-          "sab": "09-17",
-          "min": "tutup"
-        },
-        "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
-  "harga": [],
-  "fasilitas": [
-    "Toilet"
+  "layanan": [
+    "Informasi konsultasi dokter gigi",
+    "Pemeriksaan keluhan gigi (konfirmasi)",
+    "Konfirmasi jadwal perawatan",
+    "Permintaan rincian biaya"
   ],
+  "harga": [],
+  "fasilitas": [],
   "asuransi": [],
   "maps": {
     "rating": null,
@@ -74,24 +69,42 @@ RISET LAMA:
     "src": null,
     "tgl": "2026-10-28"
   },
-  "keunggulan": [
-    "Direktori mencantumkan jam kunjungan pada hari Sabtu."
-  ],
-  "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
-  ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan, https://indonesiaknowledge.com/directory/dental/medan. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi melanjutkan riset lama dalam surat: alamat, telepon tetap, jam dan atribut toilet dibaca ulang, tidak mengubah nomor tetap menjadi WA. Hanya telepon tetap62617348968 ditemukan pada sumber yang dibaca; WA tetapnull sesuai instruksi pemilik agar hasil tidak ditahan. Dua URL berasal penerbit sama, independensi terbatas. Instagram tertaut pada direktori; profil tidak berhasil dimuat. Tanggal pemeriksaan listing6 Agustus2026 berbeda dari tanggal akses. Tidak mengisi dokter atau tindakan dari ulasan pasien. Jangan mengaktifkan tombol WA selamawa.vnull. Fitur khas adalah usulan antarmuka, bukan fasilitas yang telah tersedia. Wajib menampilkan nama, alamat dan tanggal publikasi aktual pada publikasi. Pemeriksaan ulang antrean revisi: sumber telepon tetap berhasil dibuka, tetap tidak mengarang WA. Nomor rumah/HP tenaga medis tidak dijadikan kontak administrasi klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "keunggulan": [],
+  "situs_lama": [],
+  "ide_fitur_khas": "Petunjuk alamat dan konfirmasi kontak telepon sebelum berkunjung.",
+  "catatan": "REVISI WA: sumber publik mencantumkan telepon tetap. Telepon bukan bukti WhatsApp sehingga wa=null. Tidak ada tarif resmi, layanan khusus dan dokter aktif yang terverifikasi. Dua halaman sumber mencantumkan praktik; untuk Asia Dental kedua halaman berasal dari penerbit sama.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "https://indonesiaknowledge.com/directory/dental/medan"
   ],
   "verifikasi_manual": [
     {
+      "path": "instagram",
+      "tercatat": null,
+      "catatan": "Direktori menautkan instagram.com/asiadental_."
+    },
+    {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"09-19\", \"sel\": \"09-19\", \"rab\": \"09-19\", \"kam\": \"09-19\", \"jum\": \"09-19\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
-      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+      "tercatat": null,
+      "catatan": "Direktori menulis Senin–Jumat 09.00–19.00, Sabtu 09.00–17.00, Minggu tutup."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": null,
+        "ulasan": null
+      },
+      "catatan": "Direktori mencantumkan 5,0 dari 42 ulasan."
+    },
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Informasi konsultasi dokter gigi",
+        "Pemeriksaan keluhan gigi (konfirmasi)",
+        "Konfirmasi jadwal perawatan",
+        "Permintaan rincian biaya"
+      ],
+      "catatan": "Direktori menyebut klinik gigi, tetapi tidak memuat daftar layanan tersebut sebagai penawaran klinik."
     }
   ]
 }

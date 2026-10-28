@@ -74,5 +74,12 @@ RISET LAMA:
     "https://idalamat.com/alamat/1063327/praktik-dokter-gigi-dentist-drg-made-widnya-swari-denpasar-bali",
     "https://www.waze.com/id/live-map/directions/id/bali/praktik-dokter-gigi-%28dentist%29-drg.-made-widnya-swari?to=place.ChIJe4rF7XA_0i0RbPq6my_RAGI",
     "https://rsbm.baliprov.go.id/penyuluhan-mengenai-periks-dini-senyum-berseri/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam.v",
+      "tercatat": "Senin–Sabtu 18.00–20.30, Minggu tutup",
+      "catatan": "Waze menampilkan Senin–Sabtu 18.00–20.30 tetapi tidak menampilkan Minggu. IDalamat menyebut Minggu tutup dalam teks jam."
+    }
   ]
 }
