@@ -1,0 +1,43 @@
+{
+  "id": "W2293",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi SMILE Medan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gunung Krakatau No.152-B, Glugur Darat I, Medan Timur, Medan, Sumatera Utara 20239",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62616642504",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285362502579",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504 [nama]",
+    "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504 [cabang[0].telepon]",
+    "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504 [cabang[0].wa]",
+    "https://www.semuabis.com/klinik-gigi-smile-medan-061-6642504 [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

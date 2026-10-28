@@ -76,5 +76,32 @@
     "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic",
     "https://www.dentalclinics.care/dental-clinic/dee-dental-clinic",
     "https://www.instagram.com/dee_dentalclinic/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dee Dental Clinic",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dee_dentalclinic/",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. A. Yani No.93, Taman Sari, Pangkalpinang, Kepulauan Bangka Belitung 33126",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628117849191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 16.30–21.00; Minggu tutup (sumber klinik)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

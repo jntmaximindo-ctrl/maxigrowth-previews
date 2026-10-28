@@ -1,0 +1,50 @@
+{
+  "id": "W2292",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Antony Dental Office",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/antonydentaloffice_",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jemadi No.4b, Pulo Brayan Darat II, Medan Timur, Medan, Sumatera Utara 20239",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116229191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116229191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829 [nama]",
+    "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829 [instagram]",
+    "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/antony-drg-fisid-ficd-antony-dental-office-1058829 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "W2259",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Drg.Hendrik Asali",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Metro Permata Utama No.4 I.2, RT.008/RW.011, Karang Mulya, Karang Tengah, Tangerang, Banten 15157",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281310752080",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281310752080",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080 [nama]",
+    "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080 [cabang[0].telepon]",
+    "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

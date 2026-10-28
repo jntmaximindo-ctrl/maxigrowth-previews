@@ -69,5 +69,27 @@
     "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
     "https://sini.id/lokasi/parung-jaya",
     "https://sathora.or.id/docs/merasul/merasul34.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Drg.Hendrik Asali",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Metro Permata Utama No.4 I.2, RT.008/RW.011, Karang Mulya, Karang Tengah, Tangerang, Banten 15157",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281310752080",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281310752080",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -76,5 +76,32 @@
   "sumber": [
     "https://www.semuabis.com/up-dental-clinic-0852-5561-2188",
     "https://indonesiaknowledge.com/directory/dental/makassar/up-dental-clinic-makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "UP Dental Clinic",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pongtiku No.130, La’latang, Tallo, Makassar, Sulawesi Selatan 90211",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285255612188",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285255612188",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"14-22\", \"sel\": \"14-22\", \"rab\": \"14-22\", \"kam\": \"14-22\", \"jum\": \"14-22\", \"sab\": \"14-22\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -69,5 +69,27 @@
     "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1",
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-kota-tangerang/",
     "https://doktergigianitakd.com/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Anita KD",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sunan Giri No.10, RT.1/RW.002, Pondok Pucung, Karang Tengah, Tangerang, Banten 15157",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282114758618",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282114758618",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "id": "W2260",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Anita KD",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sunan Giri No.10, RT.1/RW.002, Pondok Pucung, Karang Tengah, Tangerang, Banten 15157",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282114758618",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282114758618",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1 [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/tangerang/karang-tengah/praktek-dokter-gigi-anita-kd-kara-imp1 [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

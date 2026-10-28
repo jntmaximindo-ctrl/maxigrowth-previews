@@ -1,0 +1,50 @@
+{
+  "id": "W1305",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dee Dental Clinic",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dee_dentalclinic/",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.instagram.com/dee_dentalclinic/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. A. Yani No.93, Taman Sari, Pangkalpinang, Kepulauan Bangka Belitung 33126",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628117849191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 16.30–21.00; Minggu tutup (sumber klinik)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic [nama]",
+    "https://www.instagram.com/dee_dentalclinic/ [instagram]",
+    "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic [cabang[0].alamat]",
+    "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic [cabang[0].telepon]",
+    "https://www.findhealthclinics.org/ID/Pangkalpinang/102989214829972/Dee-Dental-Clinic [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "W1301",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (Berlian Dental Care)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tanjung Satu No.69A, Tatura Utara, Palu Selatan, Palu, Sulawesi Tengah 94111",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285283538885",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 17.00–21.00; Minggu tutup (direktori)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

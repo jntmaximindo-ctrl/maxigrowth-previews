@@ -75,5 +75,27 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-dokter-gigi-berlian-dental-care-1064095",
     "https://maps.google.com/?cid=16403149305717973363"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (Berlian Dental Care)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tanjung Satu No.69A, Tatura Utara, Palu Selatan, Palu, Sulawesi Tengah 94111",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285283538885",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 17.00–21.00; Minggu tutup (direktori)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

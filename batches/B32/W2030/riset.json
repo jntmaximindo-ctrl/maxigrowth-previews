@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.ulastempat.com/7-dokter-gigi-di-krembangan-dengan-pelayanan-terbaik/",
     "https://www.ulastempat.com/7-dokter-gigi-di-pabean-cantian-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik Dokter Gigi Surabaya Utara",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Krembangan Bhakti No.32, Kemayoran, Krembangan, Surabaya, Jawa Timur 60176",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
