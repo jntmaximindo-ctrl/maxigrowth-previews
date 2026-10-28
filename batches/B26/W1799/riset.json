@@ -78,5 +78,27 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
     "https://indonesiaknowledge.com/directory/dental/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Pelita Dental Klinik",
+      "catatan": "sumber tidak bisa dibuka (ProxyError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sungai Saddang Baru, Komplek Timu Rama A10 No.9, Balla Parang, Makassar, Sulawesi Selatan 90232",
+      "catatan": "sumber tidak bisa dibuka (ProxyError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62411440428",
+      "catatan": "sumber tidak bisa dibuka (ProxyError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (ProxyError); belum terverifikasi"
+    }
   ]
 }

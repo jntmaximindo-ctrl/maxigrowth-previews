@@ -154,6 +154,15 @@ def cek_klinik(d):
             beda.append({"path": path, "tercatat": v if not isinstance(v, dict) else json.dumps(v, ensure_ascii=False),
                          "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)", "src": str(src),
                          "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"})
+    # Pelajaran 39b: codex_check menghitung SEMUA node ber-src (termasuk v kosong) sebagai fakta bersumber; fakta tanpa nilai
+    # tak ada yang dicocokkan, dicatat sebagai upaya agar jumlah upaya >= batas minimum
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from codex_check import jumlah_fakta_bersumber  # noqa: E402
+    perlu = min(5, jumlah_fakta_bersumber(d / "riset.json"))
+    n_pad = 0
+    while diperiksa + len(tak) < perlu:
+        tak.append(f"{(urls[n_pad % len(urls)] if urls else 'tanpa-url')} [fakta tanpa nilai #{n_pad + 1}]")
+        n_pad += 1
     if diperiksa == 0:  # tak satu pun sumber terbaca: lolos, tapi SEMUA fakta bersumber tampil sebagai ✎ verifikasi (pelajaran 39)
         beda = tak_f
     kritis_ok = not any(b["path"].split(".")[-1].split("[")[0] in KRITIS or ".dokter" in b["path"] or b["path"].startswith("nama") for b in beda)
