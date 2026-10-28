@@ -1,0 +1,8 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B35/W2191/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → sumber: [] is too short
+✗ riset.json → /nama: ada nilai tapi src kosong (wajib URL sumber atau v=null)
+✗ konten.schema.json → faq: [{'q': {'id': 'Alamat praktik?', 'en': 'Practice address?'}, 'a': {'id': 'Alamat belum terverifikasi.', 'en': 'Address unverified.'}}, {'q': {'id': 'Nomor kontak?', 'en': 'Contact?'}, 'a': {'id': 'Kontak belum terverifikasi.', 'en': 'Contact unverified.'}}, {'q': {'id': 'Tarif?', 'en': 'Fees?'}, 'a': {'id': 'Daftar tarif belum tersedia.', 'en': 'Price list unavailable.'}}] is too short
+GAGAL (3 masalah)
+

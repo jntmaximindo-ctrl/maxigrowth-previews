@@ -1,0 +1,7 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B35/W2187/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → sumber: ['https://caribisnis.id/dokter-gigi/depok/bojongsari/dokter-gigi-sawangan-doktergig-bojo-imp1'] is too short
+✗ konten.schema.json → faq: [{'q': {'id': 'Lokasi praktik?', 'en': 'Practice address?'}, 'a': {'id': 'Jl. Raya Muchtar No.53, Bojongsari Baru, Sawangan, Depok, Jawa Barat 16516', 'en': 'Jl. Raya Muchtar No.53, Bojongsari Baru, Sawangan, Depok, Jawa Barat 16516'}}, {'q': {'id': 'Kontak telepon?', 'en': 'Contact number?'}, 'a': {'id': 'Belum terverifikasi.', 'en': 'Not verified.'}}, {'q': {'id': 'Tarif?', 'en': 'Fees?'}, 'a': {'id': 'Belum tersedia daftar tarif resmi.', 'en': 'No official price list available.'}}] is too short
+GAGAL (2 masalah)
+
