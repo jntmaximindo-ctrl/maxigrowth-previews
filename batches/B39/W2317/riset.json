@@ -71,5 +71,27 @@
   "sumber": [
     "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view",
     "https://www.scribd.com/document/679207677/JADWAL-PEMBINAAN-JARINGAN-DAN-JEJARING-PKM-CIMAREME"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Wiwik Juliati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Terusan Agronomi No.3, Tanimulya, Ngamprah, Kabupaten Bandung Barat",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285722167571",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285722167571",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

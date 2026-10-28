@@ -1,0 +1,37 @@
+{
+  "id": "W2314",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Anto Wasono Priyanto",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/1066612928/Provider-Idm-Januari-2026-Ecc9bd04",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Cimareme No.312, Cimareme, Ngamprah, Kabupaten Bandung Barat 40552",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/1066612928/Provider-Idm-Januari-2026-Ecc9bd04",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282126373114",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/1066612928/Provider-Idm-Januari-2026-Ecc9bd04",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282126373114",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/1066612928/Provider-Idm-Januari-2026-Ecc9bd04",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

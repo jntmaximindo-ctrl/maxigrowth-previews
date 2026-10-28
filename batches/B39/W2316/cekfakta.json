@@ -1,0 +1,42 @@
+{
+  "id": "W2316",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Mirza Wahyu Arisiani",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Permata Cimahi Blok N19 No.12, Ngamprah, Kabupaten Bandung Barat",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281214389671",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281214389671",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view [nama]",
+    "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1UolnZWUDgumd6KDbJJriPKRE_fOMjnNX/view [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

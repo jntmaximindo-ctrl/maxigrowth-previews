@@ -1,0 +1,50 @@
+{
+  "id": "W2319",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "SWAN Dental Aesthetic (dahulu D Smiley Dental Care)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/swan.dental.aesthetic",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/swandentalaesthetic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Wangsa Niaga Kulon No.20, Kota Baru Parahyangan, Cipeundeuy, Padalarang, Kabupaten Bandung Barat",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62816633222",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282363216161",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/swandentalaesthetic",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care [nama]",
+    "https://linktr.ee/swandentalaesthetic [instagram]",
+    "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/d-smiley-dental-care [cabang[0].telepon]",
+    "https://linktr.ee/swandentalaesthetic [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

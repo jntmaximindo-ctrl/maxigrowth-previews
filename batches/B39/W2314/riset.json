@@ -71,5 +71,27 @@
   "sumber": [
     "https://id.scribd.com/document/1066612928/Provider-Idm-Januari-2026-Ecc9bd04",
     "https://idalamat.com/alamat/1060556/dokter-gigi-anto-wasono-priyanto-bandung-barat-jawa-barat"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Anto Wasono Priyanto",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Cimareme No.312, Cimareme, Ngamprah, Kabupaten Bandung Barat 40552",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282126373114",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282126373114",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

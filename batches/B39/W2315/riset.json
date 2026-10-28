@@ -71,5 +71,27 @@
   "sumber": [
     "https://idalamat.com/alamat/drg-riva-aradi-1060554",
     "https://www.avitaliahealth.com/2022/01/jadwal-praktek-dokter-rs-karisma.html"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Riva Aradi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Caringin No.235, Cimareme, Ngamprah, Kabupaten Bandung Barat 40552",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62811205552",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811205552",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
