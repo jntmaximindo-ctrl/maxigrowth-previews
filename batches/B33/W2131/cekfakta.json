@@ -1,0 +1,50 @@
+{
+  "id": "W2131",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Allux Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/alluxdentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mayjend Panjaitan 135, RW.02, Penanggungan, Klojen, Malang 65113",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288231840001",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288231840001",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709 [instagram]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-malang-allux-dental-care-1062709 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.cybo.com/ID-biz/rafah-orthodontics-dental-office-by-drg",
     "https://www.lokerjogja.id/lowongan/office-boy-di-rafah-orthodontics-and-dental-office/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Rafah Orthodontics & Dental Office by drg. Sarah Fitria, Sp. Ort",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Magelang KM 1, 67 Blok D, Kricak, Tegalrejo, Yogyakarta 55242",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287740902994",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287740902994",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -71,5 +71,27 @@
   "sumber": [
     "https://idalamat.com/alamat/el-dental-esthetic-manado-1063999",
     "https://indonesiaknowledge.com/directory/dental/manado"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "El Dental Esthetic Manado",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tikala Ares 43, Tikala Ares, Tikala, Manado, Sulawesi Utara",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285238999191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285238999191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

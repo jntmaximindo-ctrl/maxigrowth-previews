@@ -1,0 +1,50 @@
+{
+  "id": "W2159",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "DHC Plaju - Dental Health Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentalhealthcare.plg/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-palembang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jenderal Ahmad Yani, 9/10 Ulu, Seberang Ulu I, Palembang, Sumatera Selatan 30116",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287897878788",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287897878788",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694 [nama]",
+    "https://fixpalembang.com/dokter-gigi-palembang/ [instagram]",
+    "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dhc-plaju-dental-health-care-1059694 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

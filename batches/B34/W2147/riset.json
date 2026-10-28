@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.yellowpages.id/phone-62-8122970977-dokter-gigi-kosmetik-Kota-Surakarta-IDEN1903314.html",
     "https://id1075288-silwanus-jan-febrianto-drg.contact.page/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Silwanus Jan Febrianto, Sp. Pros",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Gatot Subroto 289, Surakarta 57153",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628122970977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628122970977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

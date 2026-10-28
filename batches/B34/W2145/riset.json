@@ -71,5 +71,32 @@
   "sumber": [
     "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
     "https://caribisnis.id/dokter-gigi/surakarta/laweyan/mojo-dentist-dokter-gigi-mojo-lawe-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "MoJo Dentist (Dokter Gigi Mojo)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigi.mojo/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mojo Ruko Emerald 8 8, Karangasem, Laweyan, Surakarta, Jawa Tengah 57145",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285333551909",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285333551909",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

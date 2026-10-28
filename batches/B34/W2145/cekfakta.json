@@ -1,0 +1,50 @@
+{
+  "id": "W2145",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "MoJo Dentist (Dokter Gigi Mojo)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigi.mojo/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mojo Ruko Emerald 8 8, Karangasem, Laweyan, Surakarta, Jawa Tengah 57145",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285333551909",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285333551909",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700 [nama]",
+    "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700 [instagram]",
+    "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/mojo-dentist-dokter-gigi-mojo-1061700 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

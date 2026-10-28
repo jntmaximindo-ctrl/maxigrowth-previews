@@ -1,0 +1,42 @@
+{
+  "id": "W2132",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Benny AW., SpBM.FICS.",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Nusakambangan 56, Kasin, Klojen, Malang, Jawa Timur 65117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628123303669",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628123303669",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669 [nama]",
+    "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-benny-aw-spbm-fics-0812-3303-669 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
