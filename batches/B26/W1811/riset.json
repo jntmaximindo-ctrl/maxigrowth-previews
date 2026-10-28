@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401",
     "https://indonesiaknowledge.com/directory/dental/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "YOUR DENTAL CARE MAKASSAR",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Borong Raya No.2 No.6A, Borong, Manggala, Makassar, Sulawesi Selatan 90233",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285222976161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285222976161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

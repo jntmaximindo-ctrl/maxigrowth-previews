@@ -76,5 +76,27 @@
     "https://bukutelepon.cybo.com/ID/seminyak-kuta-badung/dokter-gigi",
     "https://www.google.com/maps/search/?api=1&query=DS%20Dental%20Seminyak%20Badung",
     "https://www.google.com/maps/search/?api=1&query=DS%20Dental%20Seminyak%20Badung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "DS Dental Seminyak",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Plawa No.8B, Seminyak, Kec. Kuta, Kabupaten Badung, Bali 80361",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285808718977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285808718977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

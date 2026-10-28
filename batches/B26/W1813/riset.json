@@ -78,5 +78,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
     "https://www.dentalclinics.care/dental-clinic/molarize-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13.30-21\", \"sel\": \"13.30-21\", \"rab\": \"13.30-21\", \"kam\": \"13.30-21\", \"jum\": \"13.30-21\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

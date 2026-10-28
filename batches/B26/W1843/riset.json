@@ -70,5 +70,27 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan",
     "https://bukutelepon.cybo.com/ID/kota-denpasar/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter gigi agus Gunawan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Setia Budi No.62, Pemecutan Kaja, Denpasar Utara, Bali 80118",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281337117137",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281337117137",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

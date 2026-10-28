@@ -1,0 +1,43 @@
+{
+  "id": "W1843",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter gigi agus Gunawan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Setia Budi No.62, Pemecutan Kaja, Denpasar Utara, Bali 80118",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281337117137",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281337117137",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-agus-gunawan [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

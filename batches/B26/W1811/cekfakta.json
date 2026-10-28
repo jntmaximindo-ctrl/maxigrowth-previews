@@ -1,0 +1,43 @@
+{
+  "id": "W1811",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "YOUR DENTAL CARE MAKASSAR",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Borong Raya No.2 No.6A, Borong, Manggala, Makassar, Sulawesi Selatan 90233",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285222976161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285222976161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401 [nama]",
+    "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401 [cabang[0].wa]",
+    "https://idalamat.com/alamat/your-dental-care-makassar-praktek-dokter-gigi-1064401 [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
