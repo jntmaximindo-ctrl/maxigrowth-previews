@@ -79,22 +79,24 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "layanan",
-      "tercatat": [
-        "Informasi konsultasi dokter gigi",
-        "Pemeriksaan keluhan gigi (konfirmasi)",
-        "Konfirmasi jadwal perawatan",
-        "Permintaan rincian biaya"
-      ],
-      "catatan": "Cybo menyebut kategori klinik gigi tanpa daftar empat layanan tersebut."
+      "path": "nama",
+      "tercatat": "Lily Dental Care / drg. Lily Widjaja",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
-      "path": "maps",
-      "tercatat": {
-        "rating": null,
-        "ulasan": null
-      },
-      "catatan": "Direktori Indonesia Knowledge mencantumkan 4,5 dan 38 ulasan untuk nama dan alamat sama."
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan 20211",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62614573901",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–20.30; Sabtu 09.00–18.00; Minggu tutup",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]
 }

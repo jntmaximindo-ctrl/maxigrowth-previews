@@ -81,22 +81,9 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "layanan",
-      "tercatat": [
-        "Informasi lokasi praktik",
-        "Konfirmasi jadwal layanan",
-        "Pertanyaan tindakan kesehatan gigi",
-        "Permintaan rincian biaya sebelum kunjungan"
-      ],
-      "catatan": "Direktori menyebut klinik gigi tetapi tidak menetapkan empat item tersebut sebagai daftar layanan."
-    },
-    {
-      "path": "maps",
-      "tercatat": {
-        "rating": null,
-        "ulasan": null
-      },
-      "catatan": "Direktori menampilkan rating 5,0 dari 42 ulasan."
+      "path": "cabang[0].jam",
+      "tercatat": "Setiap hari 10.00–21.00 menurut direktori, konfirmasi jadwal dokter.",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]
 }
