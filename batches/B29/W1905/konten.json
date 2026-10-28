@@ -1,0 +1,132 @@
+{
+  "id": "W1905",
+  "hero": {
+    "judul": {
+      "id": "Malino Citra Medika",
+      "en": "Malino Citra Medika"
+    },
+    "sub": {
+      "id": "Layanan kesehatan keluarga di Cimanggis, Depok.",
+      "en": "Family healthcare in Cimanggis, Depok."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Dokter umum",
+        "en": "General practice"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan kesehatan dan kebutuhan pemeriksaan.",
+        "en": "Discuss health concerns and assessment needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Dokter gigi",
+        "en": "Dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan gigi, scaling, tambal, dan cabut gigi.",
+        "en": "Ask about dental assessments, scaling, fillings and extractions."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebidanan",
+        "en": "Midwifery"
+      },
+      "ringkas": {
+        "id": "Tanyakan layanan kehamilan, KB, dan laktasi.",
+        "en": "Ask about pregnancy care, family planning and lactation support."
+      }
+    },
+    {
+      "nama": {
+        "id": "Psikolog",
+        "en": "Psychology"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi dan asesmen psikologis.",
+        "en": "Ask about consultation and psychological assessment appointments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih kebutuhan keluarga",
+      "en": "Choose your family care needs"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis layanan untuk menyiapkan pertanyaan sebelum reservasi.",
+      "en": "Choose a service to prepare questions before booking."
+    },
+    "alasan_dipilih": "Situs resmi mencantumkan empat kelompok layanan keluarga."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Radar Auri No.2, Mekarsari, Cimanggis, Depok.",
+        "en": "Jl. Radar Auri No.2, Mekarsari, Cimanggis, Depok."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Situs mencantumkan setiap hari pukul 08.00-21.00. Jadwal tenaga medis perlu ditanyakan.",
+        "en": "The website lists daily hours of 08:00-21:00. Ask about individual practitioner schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya setelah kebutuhan pemeriksaan dibahas.",
+        "en": "Request a cost breakdown after discussing your assessment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan dokter gigi?",
+        "en": "Is dental care available?"
+      },
+      "a": {
+        "id": "Situs mencantumkan dokter gigi dengan scaling, tambal, dan cabut gigi. Tanyakan jadwal sebelum datang.",
+        "en": "The website lists dental care including scaling, fillings and extractions. Check appointment times before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada admin dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Sampaikan kebutuhan kunjungan Anda",
+    "en": "Tell us about your visit needs"
+  },
+  "pesan_wa_default": "Halo Malino Citra Medika, saya ingin menanyakan jadwal dan jenis layanan untuk kunjungan keluarga. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Malino Citra Medika. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs klinik mencantumkan dokter umum, dokter gigi, kebidanan, dan psikolog. Draf konsep website untuk ditinjau: https://maxigrowthstudio.com/pratama-malino. Kami mengusulkan pemilih topik kunjungan agar pasien dapat menyiapkan pertanyaan. Salam, Muhammad Rizqi Tri Andika, WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Malino Citra Medika",
+    "email_isi": "Yth. Pengelola Malino Citra Medika,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs klinik mencantumkan layanan kesehatan keluarga. Kami menyiapkan draf konsep website dengan pemilih topik kunjungan agar pasien dapat menyusun pertanyaan sebelum reservasi.\n\nTautan konsep: https://maxigrowthstudio.com/pratama-malino. Proposal PDF terlampir untuk ditinjau. Informasi jadwal dan biaya perlu disesuaikan dengan data klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

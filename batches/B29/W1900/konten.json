@@ -1,0 +1,132 @@
+{
+  "id": "W1900",
+  "hero": {
+    "judul": {
+      "id": "SB Dental Cimahi",
+      "en": "SB Dental Cimahi"
+    },
+    "sub": {
+      "id": "Rencanakan kunjungan ke cabang Cimahi. Tanyakan jadwal dan perawatan sesuai kebutuhan Anda.",
+      "en": "Plan a visit to the Cimahi branch. Ask about appointments and care for your needs."
+    },
+    "cta": {
+      "id": "Tanyakan reservasi Cimahi",
+      "en": "Ask about a Cimahi appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Konfirmasikan jadwal di cabang Cimahi.",
+        "en": "Tartar cleaning. Confirm an appointment at the Cimahi branch."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching",
+        "en": "Dental whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan kesesuaian dan pilihan perawatan warna gigi.",
+        "en": "Ask about an assessment and tooth whitening options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Ortodonti",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan susunan gigi setelah pemeriksaan.",
+        "en": "Ask about alignment care options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi dokter gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan pertanyaan tentang rencana perawatan.",
+        "en": "Discuss your concerns and questions about a care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan Cimahi",
+      "en": "Plan your Cimahi visit"
+    },
+    "penjelasan": {
+      "id": "Pilih lokasi Cimahi, tulis kebutuhan perawatan, lalu tanyakan jadwal dan biaya kepada admin.",
+      "en": "Select the Cimahi location, describe your care needs, and ask the team about appointments and fees."
+    },
+    "alasan_dipilih": "Jaringan memiliki beberapa cabang; pemilihan Cimahi membantu mengarahkan permintaan reservasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana cabang Cimahi?",
+        "en": "Where is the Cimahi branch?"
+      },
+      "a": {
+        "id": "Situs mencantumkan Jl. Kb. Cau No.56, Setiamanah, Cimahi Tengah, Kota Cimahi.",
+        "en": "The website lists Jl. Kb. Cau No.56, Setiamanah, Cimahi Tengah, Cimahi."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal cabang?",
+        "en": "How can I check branch hours?"
+      },
+      "a": {
+        "id": "Hubungi hotline dan sebutkan cabang Cimahi untuk konfirmasi jadwal terbaru.",
+        "en": "Contact the hotline and specify Cimahi to confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum tercantum di halaman ini. Mintalah rincian sesuai rencana pemeriksaan dan tindakan.",
+        "en": "Fees are not listed here. Ask for a breakdown for your examination and proposed care."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya menanyakan perawatan behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Ortodonti tercantum pada situs jaringan. Konfirmasikan ketersediaan pemeriksaan di Cimahi.",
+        "en": "Orthodontic care is listed on the network website. Confirm assessment availability in Cimahi."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi saya diterima?",
+        "en": "Is my insurance accepted?"
+      },
+      "a": {
+        "id": "Sampaikan nama asuransi dan tanyakan cakupan serta prosedurnya kepada admin cabang.",
+        "en": "Tell the branch your insurer’s name and ask about coverage and procedures."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo SB Dental, saya ingin menanyakan reservasi untuk cabang Cimahi. Mohon informasi jadwal dokter, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola SB Dental Cimahi. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs jaringan mencantumkan cabang Kb. Cau No.56 dan alur reservasi. Kami sudah membuat konsep website dengan pemilih lokasi Cimahi: https://maxigrowthstudio.com/sbdental-cimahi. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website SB Dental Cimahi",
+    "email_isi": "Halo Bapak/Ibu pengelola SB Dental Cimahi,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs jaringan mencantumkan cabang di Kb. Cau No.56. Kami sudah membuat konsep website yang mengarahkan pertanyaan jadwal dan kebutuhan kunjungan ke lokasi Cimahi: https://maxigrowthstudio.com/sbdental-cimahi.\n\nProposal PDF terlampir untuk ditinjau saat berkenan. Kami terbuka terhadap koreksi informasi cabang.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

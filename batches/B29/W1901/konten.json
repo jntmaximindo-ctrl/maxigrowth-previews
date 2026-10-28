@@ -1,0 +1,132 @@
+{
+  "id": "W1901",
+  "hero": {
+    "judul": {
+      "id": "Klinik Dokter Gigi Drg. Melinda",
+      "en": "Drg. Melinda Dental Clinic"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dokter gigi di Cimahi.",
+      "en": "Dental visit information in Cimahi."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan pemeriksaan sebelum tindakan.",
+        "en": "Discuss your needs and assessment before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan pemeriksaan sebelum tindakan.",
+        "en": "Discuss your needs and assessment before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan pemeriksaan sebelum tindakan.",
+        "en": "Discuss your needs and assessment before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan pemeriksaan sebelum tindakan.",
+        "en": "Discuss your needs and assessment before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan dan susun pertanyaan untuk admin sebelum membuat janji.",
+      "en": "Choose a treatment topic and prepare questions for the team before booking."
+    },
+    "alasan_dipilih": "Profil Gigi Sehat mencatat dokter gigi umum; daftar pertanyaan membantu persiapan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Sisingamangaraja No.9, Setiamanah, Cimahi Tengah.",
+        "en": "Jl. Sisingamangaraja No.9, Setiamanah, Central Cimahi."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal terbaru kepada admin sebelum datang.",
+        "en": "Ask the team for current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Minta rincian biaya setelah kebutuhan pemeriksaan dibahas.",
+        "en": "Request a cost breakdown after discussing your assessment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan layanan behel. Tanyakan ketersediaan dan pemeriksaan kepada klinik.",
+        "en": "A directory lists braces. Ask the clinic about availability and assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada admin dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Sampaikan kebutuhan kunjungan Anda",
+    "en": "Tell us about your visit needs"
+  },
+  "pesan_wa_default": "Halo Klinik Dokter Gigi Drg. Melinda, saya ingin menanyakan jadwal kunjungan dan informasi perawatan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Dokter Gigi Drg. Melinda. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat profil Drg. Melinda tercantum pada Gigi Sehat Indonesia. Draf konsep website untuk ditinjau: https://maxigrowthstudio.com/drg-melinda. Kami mengusulkan pemilih topik kunjungan agar pasien dapat menyiapkan pertanyaan. Salam, Muhammad Rizqi Tri Andika, WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Klinik Dokter Gigi Drg. Melinda",
+    "email_isi": "Yth. Pengelola Klinik Dokter Gigi Drg. Melinda,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Profil Drg. Melinda tercantum di Gigi Sehat Indonesia. Kami menyiapkan draf konsep website dengan pemilih topik kunjungan agar pasien dapat menyusun pertanyaan sebelum reservasi.\n\nTautan konsep: https://maxigrowthstudio.com/drg-melinda. Proposal PDF terlampir untuk ditinjau. Informasi jadwal dan biaya perlu disesuaikan dengan data klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
