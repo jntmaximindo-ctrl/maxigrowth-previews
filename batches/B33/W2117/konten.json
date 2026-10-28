@@ -1,0 +1,132 @@
+{
+  "id": "W2117",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Batam Centre",
+      "en": "Dokter Gigi Batam Centre"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Batam.",
+      "en": "Location and visit preparation information in Batam."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum berangkat.",
+        "en": "Ask which days and times are available before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Questions about fees"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan perawatan sebelum menyetujui tindakan.",
+        "en": "Request examination and treatment fees before agreeing to a procedure."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan layanan yang tersedia.",
+        "en": "Explain your needs and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa.",
+        "en": "Ask which documents and information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik jadwal, biaya, atau kebutuhan perawatan untuk menyusun draf pertanyaan. Pesan dikirim hanya setelah Anda meninjaunya.",
+      "en": "Choose scheduling, fees, or treatment enquiries to draft your questions. Send the message only after reviewing it."
+    },
+    "alasan_dipilih": "Membantu pasien menanyakan informasi yang belum lengkap tanpa menyajikannya sebagai fakta klinis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Ruko Botania 2 Blok B19 No. 07, Botania Road No.2, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464",
+        "en": "Ruko Botania 2 Blok B19 No. 07, Botania Road No.2, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor 6281277865614 untuk menanyakan ketersediaan. Jadwal perlu dikonfirmasi.",
+        "en": "Contact 6281277865614 to ask about availability. Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya dari praktik.",
+        "en": "Fees are not available here. Request an itemised estimate from the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terverifikasi. Tanyakan jenis penjaminan dan dokumen yang diperlukan.",
+        "en": "This has not been verified. Ask which coverage is accepted and which documents are required."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya menanyakan perawatan anak atau behel?",
+        "en": "Can I ask about care for children or braces?"
+      },
+      "a": {
+        "id": "Sampaikan usia dan kebutuhan saat menghubungi praktik; ketersediaan layanan perlu dikonfirmasi.",
+        "en": "Mention the patient’s age and needs when contacting the practice; service availability needs confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan, ketersediaan layanan, serta perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Dokter Gigi Batam Centre. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk lokasi Batam. Rencana tautan peninjauan: https://maxigrowthstudio.com/batam-centre (perlu diaktifkan sebelum pesan dikirim). Bila berkenan, konsep dapat ditinjau setelah tersedia. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Dokter Gigi Batam Centre",
+    "email_isi": "Yth. pengelola Dokter Gigi Batam Centre, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Batam dapat disajikan bersama alur pertanyaan jadwal dan biaya. Kami menyiapkan konsep dengan rencana tautan https://maxigrowthstudio.com/batam-centre. Tautan perlu diaktifkan sebelum pengiriman. Proposal PDF perlu dilampirkan sebelum draf email ini dikirim. Silakan meninjau konsep setelah tersedia. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}
