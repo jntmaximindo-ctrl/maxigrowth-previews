@@ -37,6 +37,9 @@ def cek(path: pathlib.Path) -> tuple[list, list]:
         hasil = []
         for p in pola:
             for m in re.finditer(p, t, flags=re.I):
+                # pelajaran 40: 'No.1' sebagai nomor alamat (Blok C No.1, Jl. Raya No.1) bukan klaim 'nomor 1'
+                if p == r"\bno\.?\s*1\b" and re.search(r"(?i)\b(jl|jalan|blok|ruko|gg|gang|kav|komplek|perum|lt|lantai|raya|rt|rw)\b.{0,30}$", t[max(0, m.start() - 40): m.start()]):
+                    continue
                 hasil.append((m.group(0), t[max(0, m.start() - 40): m.end() + 40].strip()))
         return hasil
     return cari(TERLARANG), cari(PERINGATAN)

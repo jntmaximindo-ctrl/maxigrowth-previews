@@ -475,8 +475,31 @@ def _():
     assert not err, f"harga dengan null ditolak: {err[:1]}"
 
 
+@uji("lint Permenkes: 'No.1' di alamat bukan klaim nomor 1; 'nomor 1' tetap terdeteksi (pelajaran 40)")
+def _():
+    import tempfile, pathlib, importlib.util
+    spec = importlib.util.spec_from_file_location("lp", str(ROOT / "scripts/lint_permenkes.py"))
+    lp = importlib.util.module_from_spec(spec); spec.loader.exec_module(lp)
+    f = pathlib.Path(tempfile.mkdtemp()) / "a.html"
+    f.write_text("<p>Jl. Bukit Dieng No.1 blok M, Malang</p>", encoding="utf-8")
+    assert not lp.cek(f)[0], "alamat No.1 tidak boleh dianggap pelanggaran"
+    f.write_text("<p>Klinik nomor 1 di kota ini</p>", encoding="utf-8")
+    assert lp.cek(f)[0], "klaim 'nomor 1' harus tetap terdeteksi"
+
+
+@uji("rakit template: netralkan() mengganti kata terlarang hanya di teks tampak, bukan atribut (pelajaran 40)")
+def _():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("rt", str(ROOT / "scripts/rakit_template.py"))
+    rt = importlib.util.module_from_spec(spec); spec.loader.exec_module(rt)
+    h = '<a href="https://x.com/klinik-terbaik">Tidak ada diskon</a>'
+    o = rt.netralkan(h)
+    assert "klinik-terbaik" in o and "diskon" not in o.lower(), o
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
 pathlib.Path("/tmp/jb/uji.txt").write_text("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in gagal))
 sys.exit(1 if gagal else 0)
+

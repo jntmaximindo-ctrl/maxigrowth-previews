@@ -151,9 +151,13 @@ def check(d, stage):
             if "atabara" not in nama.lower() and "atabara" in low:
                 errs.append("masih ada sisa teks 'Atabara' dari contoh baku")
             if "malaysia" not in str(job.get("kota", "")).lower():
+                # pelajaran 40: data URI/base64 (logo) bisa kebetulan memuat 'rm1…' → buang token base64 panjang sebelum cek
+                low_bersih = re.sub(r"[a-z0-9+/=_-]{60,}", " ", low)
                 for w in (r"temujanji", r"pergigian", r"\brm\s?\d"):
-                    if re.search(w, low):
+                    if re.search(w, low_bersih):
                         errs.append(f"masih ada istilah Melayu/Malaysia: '{w}'")
+            # pelajaran 40: awalan generik ('Praktek Dokter Gigi', 'Klinik Gigi', 'drg.') tidak dipakai sebagai nama di halaman
+            nama = re.sub(r"(?i)^(?:(?:praktek|praktik)\s+dokter\s+gigi|klinik\s+gigi|klinik|drg\.?)\s+", "", nama).strip() or nama
             if nama and nama.split()[0].lower() not in low:
                 errs.append(f"nama klinik '{nama}' tidak ditemukan di halaman")
             try:
