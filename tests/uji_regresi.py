@@ -475,6 +475,14 @@ def _():
     assert not err, f"harga dengan null ditolak: {err[:1]}"
 
 
+@uji("skema riset: cabang.maps_url null harus lolos; template menyisipkan CSS target sentuh 44px (pelajaran 41)")
+def _():
+    sk = json.loads((ROOT / "schemas/riset.schema.json").read_text(encoding="utf-8"))
+    assert "maps_url" in json.dumps(sk) and '"maps_url": {"type": ["string", "null"]}' in (ROOT / "schemas/riset.schema.json").read_text(encoding="utf-8")
+    src = (ROOT / "scripts/rakit_template.py").read_text(encoding="utf-8")
+    assert "mg-sentuh" in src and "min-height:44px" in src
+
+
 @uji("lint Permenkes: 'No.1' di alamat bukan klaim nomor 1; 'nomor 1' tetap terdeteksi (pelajaran 40)")
 def _():
     import tempfile, pathlib, importlib.util
