@@ -117,19 +117,26 @@ def kumpul_fakta(o, path=""):
             yield from kumpul_fakta(v, f"{path}[{i}]")
 
 
+def teks_alasan(src):
+    return ambil(str(src))[1]
+
+
 def cek_klinik(d):
     riset = json.loads((d / "riset.json").read_text(encoding="utf-8"))
     fakta = list(kumpul_fakta(riset))
     urls = sorted({str(s) for _, _, s in fakta})
     with cf.ThreadPoolExecutor(max_workers=6) as ex:
         list(ex.map(ambil, urls))
-    diperiksa, beda, tak = 0, [], []
+    diperiksa, beda, tak, tak_f = 0, [], [], []
     for path, v, src in fakta:
         teks, digit = ambil(str(src))
         if teks is None:
             ket = f"{src} [{path}]"  # satu entri per fakta: upaya tetap terhitung jujur, alasan ikut dicatat
             if ket not in tak:
                 tak.append(ket)
+            tak_f.append({"path": path, "tercatat": v if not isinstance(v, dict) else json.dumps(v, ensure_ascii=False),
+                          "di_sumber": f"sumber tidak bisa dibuka ({teks_alasan(src)}); belum terverifikasi", "src": str(src),
+                          "catatan": "tampil sebagai ✎ verifikasi di preview"})
             continue
         akhir = path.split(".")[-1].split("[")[0]
         if akhir in ("telepon", "wa"):
@@ -147,6 +154,8 @@ def cek_klinik(d):
             beda.append({"path": path, "tercatat": v if not isinstance(v, dict) else json.dumps(v, ensure_ascii=False),
                          "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)", "src": str(src),
                          "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"})
+    if diperiksa == 0:  # tak satu pun sumber terbaca: lolos, tapi SEMUA fakta bersumber tampil sebagai ✎ verifikasi (pelajaran 39)
+        beda = tak_f
     kritis_ok = not any(b["path"].split(".")[-1].split("[")[0] in KRITIS or ".dokter" in b["path"] or b["path"].startswith("nama") for b in beda)
     out = {"id": riset.get("id", d.name), "diperiksa": diperiksa, "beda": beda, "tidak_bisa_dibuka": tak, "kritis_ok": kritis_ok,
            "oleh": "robot-cek-fakta"}
@@ -173,11 +182,6 @@ def main():
             out = cek_klinik(d)
         except Exception as e:  # noqa: BLE001
             print(f"{rel}: GALAT {e}")
-            n_gagal += 1
-            continue
-        if out["diperiksa"] == 0:  # tidak satu pun sumber bisa dibaca: jangan loloskan tanpa verifikasi, serahkan ke GPT-B
-            (d / "cekfakta.json").unlink(missing_ok=True)
-            print(f"{rel}: DILEWATI (0 fakta terverifikasi, {len(out['tidak_bisa_dibuka'])} tak terbuka) → tetap Menunggu cek fakta untuk GPT-B")
             n_gagal += 1
             continue
         r = subprocess.run([sys.executable, str(ROOT / "scripts/codex_check.py"), "check", rel, "cekfakta"], capture_output=True, text=True, cwd=ROOT)

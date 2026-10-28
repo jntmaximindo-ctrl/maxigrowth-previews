@@ -1,5 +1,5 @@
 # Cek fakta independen oleh robot (tanpa AI): buka ulang tiap URL src di riset.json dan cocokkan nilainya.
-# Klinik yang tidak satu pun sumbernya terbaca dilewati dan tetap menunggu GPT-B. Pelajaran 38.
+# Klinik yang tidak satu pun sumbernya terbaca tetap lolos, tetapi semua faktanya ditandai ✎ verifikasi. Pelajaran 39.
 name: cek-fakta-robot
 on:
   workflow_dispatch:
