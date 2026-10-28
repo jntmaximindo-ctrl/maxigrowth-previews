@@ -1,0 +1,142 @@
+{
+  "id": "W2262",
+  "hero": {
+    "judul": {
+      "id": "Klinik Baskita Medika",
+      "en": "Klinik Baskita Medika"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan panduan konfirmasi layanan Klinik Baskita Medika di Larangan, Tangerang.",
+      "en": "Location and service-verification guide for Baskita Medika in Larangan, Tangerang."
+    },
+    "cta": {
+      "id": "Periksa informasi kunjungan",
+      "en": "Verify visiting information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Lokasi Klinik Baskita Medika",
+        "en": "Lokasi Klinik Baskita Medika"
+      },
+      "ringkas": {
+        "id": "Direktori menyebut alamat Jl. H. Muchtar Raya, Kreo, Larangan, Tangerang.",
+        "en": "Address listed at H. Muchtar Raya, Kreo, Larangan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jam kunjungan direktori",
+        "en": "Jam kunjungan direktori"
+      },
+      "ringkas": {
+        "id": "Jam tercantum 07.30–20.30 setiap hari, tetapi belum dikonfirmasi oleh pengelola.",
+        "en": "Directory lists daily 07:30–20:30; confirm with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi layanan gigi",
+        "en": "Konfirmasi layanan gigi"
+      },
+      "ringkas": {
+        "id": "Klinik masuk kategori dokter gigi di direktori, namun prosedur spesifik belum dapat dipastikan.",
+        "en": "Listed in a dental directory; specific treatments remain unverified."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan kesehatan umum",
+        "en": "Layanan kesehatan umum"
+      },
+      "ringkas": {
+        "id": "Ulasan pasien menyebut layanan kesehatan umum, termasuk nebulizer; tanyakan ketersediaan pada saat reservasi.",
+        "en": "Reviews mention general healthcare, including nebulizer services; confirm availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konfirmasi jenis layanan",
+      "en": "Service verification guide"
+    },
+    "penjelasan": {
+      "id": "Membedakan layanan yang disebut ulasan pasien dari jenis tindakan yang masih harus diverifikasi.",
+      "en": "Distinguishes review-reported services from procedures still requiring clinic confirmation."
+    },
+    "alasan_dipilih": "Direktori mengelompokkan klinik sebagai dokter gigi tetapi ulasan juga menggambarkan layanan kesehatan umum."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Baskita Medika?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. H. Muchtar Raya, RT.002/RW.013, Kreo, Larangan, Kota Tangerang, Banten 15156",
+        "en": "Jl. H. Muchtar Raya, RT.002/RW.013, Kreo, Larangan, Kota Tangerang, Banten 15156"
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa klinik buka?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Senin–Minggu 07.30–20.30 (direktori, belum dikonfirmasi klinik)",
+        "en": "Directory-listed daily hours: 07:30–20:30, subject to confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik juga melayani kesehatan umum?",
+        "en": "Does it offer general healthcare?"
+      },
+      "a": {
+        "id": "Ulasan menyebut layanan kesehatan umum. Konfirmasikan jenis layanan saat menghubungi klinik.",
+        "en": "Reviews mention general healthcare; confirm which services are currently available."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah scaling atau tambal gigi tersedia?",
+        "en": "Are scaling and fillings available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan tindakan, tetapi belum ada konfirmasi resmi bahwa tindakan tersebut tersedia di klinik ini.",
+        "en": "A directory lists procedures, but the clinic's actual treatment availability has not been independently confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah nomor WhatsApp tersedia?",
+        "en": "Is there an official WhatsApp contact?"
+      },
+      "a": {
+        "id": "Nomor telepon dan WhatsApp resmi belum ditemukan dalam dua sumber yang diperiksa.",
+        "en": "No verified official phone or WhatsApp number was found in the two sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa tarif pemeriksaan?",
+        "en": "What are the consultation fees?"
+      },
+      "a": {
+        "id": "Tidak ada daftar tarif resmi terverifikasi; tanyakan estimasi sebelum berkunjung.",
+        "en": "No verified official prices are available; request an estimate before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan pelayanan",
+    "en": "Confirm opening hours and services"
+  },
+  "pesan_wa_default": "Halo Klinik Baskita Medika, saya ingin memastikan jadwal dan layanan yang tersedia.",
+  "outreach": {
+    "wa": "Yth. pengelola Klinik Baskita Medika, Maxi Growth Studio ingin menawarkan pratinjau website informasi kunjungan untuk ditinjau. Bolehkah kami mengirimkan contohnya?",
+    "email_subjek": "Pratinjau website informasi Klinik Baskita Medika",
+    "email_isi": "Yth. Pengelola Klinik Baskita Medika,\n\nMaxi Growth Studio ingin menawarkan konsep website informasi klinik untuk ditinjau. Kami akan meminta verifikasi informasi sebelum publikasi.\n\nSalam,\nMaxi Growth Studio"
+  }
+}
