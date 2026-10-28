@@ -1,0 +1,142 @@
+{
+  "id": "W2231",
+  "hero": {
+    "judul": {
+      "id": "drg. Ch. Novita Indriani M.Kes",
+      "en": "drg. Ch. Novita Indriani M.Kes"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dari sumber publik. Konfirmasikan detail sebelum datang.",
+      "en": "Publicly listed visit information. Confirm details before attending."
+    },
+    "cta": {
+      "id": "Informasi kunjungan",
+      "en": "Visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi praktik drg. Novita Indriani",
+        "en": "Informasi praktik drg. Novita Indriani"
+      },
+      "ringkas": {
+        "id": "Informasi layanan ini berasal dari direktori atau kategori pertanyaan pasien; konfirmasi langsung ke praktik sebelum menjadwalkan tindakan.",
+        "en": "Check availability and appropriateness directly with the clinic before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan keluhan gigi",
+        "en": "Pemeriksaan keluhan gigi"
+      },
+      "ringkas": {
+        "id": "Informasi layanan ini berasal dari direktori atau kategori pertanyaan pasien; konfirmasi langsung ke praktik sebelum menjadwalkan tindakan.",
+        "en": "Check availability and appropriateness directly with the clinic before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi janji kunjungan",
+        "en": "Konfirmasi janji kunjungan"
+      },
+      "ringkas": {
+        "id": "Informasi layanan ini berasal dari direktori atau kategori pertanyaan pasien; konfirmasi langsung ke praktik sebelum menjadwalkan tindakan.",
+        "en": "Check availability and appropriateness directly with the clinic before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan estimasi biaya",
+        "en": "Pertanyaan estimasi biaya"
+      },
+      "ringkas": {
+        "id": "Informasi layanan ini berasal dari direktori atau kategori pertanyaan pasien; konfirmasi langsung ke praktik sebelum menjadwalkan tindakan.",
+        "en": "Check availability and appropriateness directly with the clinic before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Checklist kunjungan",
+      "en": "Pre-visit checklist"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan terkait jadwal, lokasi, perawatan dan biaya.",
+      "en": "Prepare questions about hours, location, treatments and fees."
+    },
+    "alasan_dipilih": "Tidak mengasumsikan tindakan atau biaya yang belum diverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Srimpi No.6, Kemlayan, Serengan, Surakarta, Jawa Tengah 57151",
+        "en": "Jl. Srimpi No.6, Kemlayan, Serengan, Surakarta, Jawa Tengah 57151"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor publik: +628122645246",
+        "en": "Public phone: +628122645246"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada WhatsApp resmi?",
+        "en": "Is there an official WhatsApp?"
+      },
+      "a": {
+        "id": "Status nomor WhatsApp belum dikonfirmasi.",
+        "en": "WhatsApp availability has not been confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus membuat janji dahulu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan sistem antrean dan jadwal kepada praktik sebelum berkunjung.",
+        "en": "Ask the practice about appointments and opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang dapat ditanyakan?",
+        "en": "What treatments can I ask about?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan Informasi praktik drg. Novita Indriani, Pemeriksaan keluhan gigi, Konfirmasi janji kunjungan, Pertanyaan estimasi biaya.",
+        "en": "Ask about: Informasi praktik drg. Novita Indriani, Pemeriksaan keluhan gigi, Konfirmasi janji kunjungan, Pertanyaan estimasi biaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga resmi belum terverifikasi. Mintalah estimasi yang sesuai kondisi dan tindakan sebelum pelayanan.",
+        "en": "No verified official fee list is available. Request an estimate before treatment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi kunjungan",
+    "en": "Confirm visit information"
+  },
+  "pesan_wa_default": "Halo drg. Ch. Novita Indriani M.Kes, saya ingin menanyakan jadwal kunjungan dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola drg. Ch. Novita Indriani M.Kes, kami dari Maxi Growth Studio menawarkan konsep website informasi pasien untuk ditinjau. Bolehkah kami mengirimkan contoh dan proposal?",
+    "email_subjek": "Konsep website untuk drg. Ch. Novita Indriani M.Kes",
+    "email_isi": "Yth. Pengelola drg. Ch. Novita Indriani M.Kes,\n\nKami dari Maxi Growth Studio ingin menawarkan contoh konsep website informasi praktik untuk ditinjau. Apabila berkenan kami dapat mengirim pratinjau dan proposal.\n\nSalam,\nMaxi Growth Studio"
+  }
+}
