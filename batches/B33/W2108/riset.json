@@ -84,5 +84,37 @@
     "https://www.instagram.com/joyfuldental_balikpapan/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-sept-2025.pdf?app=true",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-sept-2025.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Joyful Dental Care Balikpapan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/joyfuldental_balikpapan/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Soekarno Hatta No.17E RT.29, Batu Ampar, Balikpapan Utara, Balikpapan, Kalimantan Timur",
+      "catatan": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287716623500",
+      "catatan": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287716623500",
+      "catatan": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"10-14\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

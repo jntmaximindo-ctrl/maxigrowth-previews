@@ -1,0 +1,42 @@
+{
+  "id": "W2046",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Queen (Praktek Dokter Gigi Spesialis Surabaya)",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/DentalQueenClinicSurabaya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kupang Indah XX 8, Dukuh Kupang, Dukuhpakis, Surabaya 60189",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/DentalQueenClinicSurabaya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281770078000",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/DentalQueenClinicSurabaya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281770078000",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/DentalQueenClinicSurabaya",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/DentalQueenClinicSurabaya [nama]",
+    "https://linktr.ee/DentalQueenClinicSurabaya [cabang[0].alamat]",
+    "https://linktr.ee/DentalQueenClinicSurabaya [cabang[0].telepon]",
+    "https://linktr.ee/DentalQueenClinicSurabaya [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

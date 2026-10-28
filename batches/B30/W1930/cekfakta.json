@@ -1,0 +1,42 @@
+{
+  "id": "W1930",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Mega Mas Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/mega-mas-dental-care-061-42903853",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/megamasdentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mega-mas-dental-care-1058836",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Asia, Komp. Asia Mega Mas Blok N2, Sukaramai II, Kec. Medan Area, Kota Medan, Sumatera Utara 20224",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mega-mas-dental-care-1058836",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "626142903853",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/mega-mas-dental-care-061-42903853",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/mega-mas-dental-care-061-42903853 [nama]",
+    "https://idalamat.com/alamat/mega-mas-dental-care-1058836 [instagram]",
+    "https://idalamat.com/alamat/mega-mas-dental-care-1058836 [cabang[0].alamat]",
+    "https://www.semuabis.com/mega-mas-dental-care-061-42903853 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

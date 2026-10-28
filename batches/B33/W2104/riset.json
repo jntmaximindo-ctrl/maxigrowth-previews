@@ -146,5 +146,67 @@
     "https://klinikjoydental.com/cabang-balikpapan/",
     "https://klinikjoydental.com/joy-dental-balikpapan/",
     "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1686"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Joy Dental Balikpapan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/joydentalofficial",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "email",
+      "tercatat": "Joyfuldentalcare17@gmail.com",
+      "catatan": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Komplek Ruko Sentra Eropa II Blok AB 4 No.1, Damai, Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76114",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628170014357",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628170014357",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Tsarwah Az-Zahra",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "drg. Ridha Zharfan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[2].nama",
+      "tercatat": "drg. Anita Yunita H",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[2].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "id": "W2102",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"14:00-21:00\", \"sel\": \"14:00-21:00\", \"rab\": \"10:00-16:00\", \"kam\": \"14:00-21:00\", \"jum\": \"10:00-15:00\", \"sab\": \"tutup\", \"min\": \"14:00-21:00\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/sycamore-dental-studio",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/sycamore-dental-studio-1063827 [nama]",
+    "https://idalamat.com/alamat/sycamore-dental-studio-1063827 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/sycamore-dental-studio-1063827 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/sycamore-dental-studio-1063827 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

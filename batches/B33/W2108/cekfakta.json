@@ -1,0 +1,58 @@
+{
+  "id": "W2108",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Joyful Dental Care Balikpapan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/joyfuldental_balikpapan/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/joyful-dental-care-balikpapan-1063849",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Soekarno Hatta No.17E RT.29, Batu Ampar, Balikpapan Utara, Balikpapan, Kalimantan Timur",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287716623500",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287716623500",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"10-14\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/joyful-dental-care-balikpapan-1063849",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28 [nama]",
+    "https://idalamat.com/alamat/joyful-dental-care-balikpapan-1063849 [instagram]",
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28 [cabang[0].alamat]",
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28 [cabang[0].telepon]",
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan?page=28 [cabang[0].wa]",
+    "https://idalamat.com/alamat/joyful-dental-care-balikpapan-1063849 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

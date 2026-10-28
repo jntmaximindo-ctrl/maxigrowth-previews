@@ -1,0 +1,106 @@
+{
+  "id": "W2104",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Joy Dental Balikpapan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/joydentalofficial",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "email",
+      "tercatat": "Joyfuldentalcare17@gmail.com",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 404); belum terverifikasi",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1686",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Komplek Ruko Sentra Eropa II Blok AB 4 No.1, Damai, Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76114",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628170014357",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628170014357",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Tsarwah Az-Zahra",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "drg. Ridha Zharfan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[2].nama",
+      "tercatat": "drg. Anita Yunita H",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[2].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/cabang-balikpapan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://klinikjoydental.com/cabang-balikpapan/ [nama]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [instagram]",
+    "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1686 [email]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [cabang[0].alamat]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [cabang[0].telepon]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [cabang[0].wa]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[0].nama]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[0].spesialis]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[1].nama]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[1].spesialis]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[2].nama]",
+    "https://klinikjoydental.com/cabang-balikpapan/ [dokter[2].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

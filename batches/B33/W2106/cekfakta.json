@@ -1,0 +1,50 @@
+{
+  "id": "W2106",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Ismaya Dental Center",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ismaya-dental-center-1063833",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jendral Sudirman, Ruko Balikpapan Super Blok (BSB) Blok E No.6, Gunung Bahagia, Balikpapan Selatan, Kalimantan Timur 76114",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ismaya-dental-center-1063833",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287881238989",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ismaya-dental-center-1063833",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287881238989",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ismaya-dental-center-1063833",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-17\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ismaya-dental-center-1063833",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/ismaya-dental-center-1063833 [nama]",
+    "https://idalamat.com/alamat/ismaya-dental-center-1063833 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/ismaya-dental-center-1063833 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/ismaya-dental-center-1063833 [cabang[0].wa]",
+    "https://idalamat.com/alamat/ismaya-dental-center-1063833 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

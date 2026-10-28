@@ -110,5 +110,42 @@
     "https://www.dentico.id/network",
     "https://glints.com/id/companies/kindy-dental-care/0b397c40-6dec-4705-bec5-bd9f65ec2da0",
     "https://www.instagram.com/kindydental/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Kindy Dental Warungboto",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Veteran No.83, Warungboto, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289529400883",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289529400883",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-21\", \"sel\": \"08-21\", \"rab\": \"08-21\", \"kam\": \"08-21\", \"jum\": \"08-21\", \"sab\": \"08-21\", \"min\": \"08-17\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Ika Agustini N, MDSc, Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Spesialis Gigi Anak",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "id": "W2101",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Kindy Dental Warungboto",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Veteran No.83, Warungboto, Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55164",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289529400883",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289529400883",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-21\", \"sel\": \"08-21\", \"rab\": \"08-21\", \"kam\": \"08-21\", \"jum\": \"08-21\", \"sab\": \"08-21\", \"min\": \"08-17\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Ika Agustini N, MDSc, Sp.KGA",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drg.ikaagustinin",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Spesialis Gigi Anak",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drg.ikaagustinin",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental [nama]",
+    "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental [cabang[0].alamat]",
+    "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental [cabang[0].telepon]",
+    "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental [cabang[0].wa]",
+    "https://www.findhealthclinics.org/ID/Yogyakarta-City/110276078392948/Klinik-Gigi-Kindy-Dental [cabang[0].jam]",
+    "https://linktr.ee/drg.ikaagustinin [dokter[0].nama]",
+    "https://linktr.ee/drg.ikaagustinin [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

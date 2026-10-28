@@ -1,0 +1,34 @@
+{
+  "id": "W1897",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Q Medical n Dental Clinic",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16111",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622518332008",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

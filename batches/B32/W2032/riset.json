@@ -71,5 +71,22 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi",
     "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Agung Oembari Dokter Gigi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Demak 323, Dupak, Krembangan, Surabaya, Jawa Timur 60178",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62313538498",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

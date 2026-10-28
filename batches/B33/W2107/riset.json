@@ -259,5 +259,117 @@
     "https://vdentalcarespecialist.com/contact",
     "https://www.vdentalcarespecialist.com/facility-and-service",
     "https://vdentalcarespecialist.com/doctor"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "V Dental Care Specialist",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "email",
+      "tercatat": "official@vdentalcarespecialist.com",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Golden Boulevard AC 49, Grand City, Balikpapan",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628993339191",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628993339191",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-21\", \"sel\": \"13-21\", \"rab\": \"13-21\", \"kam\": \"13-21\", \"jum\": \"13-21\", \"sab\": \"10-18\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Aditya Hayu Nastiti, Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Spesialis Kedokteran Gigi Anak",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "drg. Dela Armilda",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[2].nama",
+      "tercatat": "drg. Dian Wulandari",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[2].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[3].nama",
+      "tercatat": "drg. Ervita Kholestyana, Sp.KG",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[3].spesialis",
+      "tercatat": "Spesialis Konservasi Gigi",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[4].nama",
+      "tercatat": "drg. Luluk Rahmawati Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[4].spesialis",
+      "tercatat": "Spesialis Kedokteran Gigi Anak",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[5].nama",
+      "tercatat": "drg. M. Riza Tofani, Sp. Perio",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[5].spesialis",
+      "tercatat": "Spesialis Periodonsia",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[6].nama",
+      "tercatat": "drg. Shalahuddin Al Amin",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[6].spesialis",
+      "tercatat": "Dokter Gigi Umum",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[7].nama",
+      "tercatat": "drg. Winadi Suryanata Woe, Sp.Pros",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    },
+    {
+      "path": "dokter[7].spesialis",
+      "tercatat": "Spesialis Prostodonsia",
+      "catatan": "sumber tidak bisa dibuka (SSLError); belum terverifikasi"
+    }
   ]
 }

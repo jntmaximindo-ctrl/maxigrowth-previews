@@ -1,0 +1,16 @@
+{
+  "id": "W2105",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11:00-21:00\", \"sel\": \"11:00-21:00\", \"rab\": \"11:00-21:00\", \"kam\": \"11:00-21:00\", \"jum\": \"11:00-21:00\", \"sab\": \"11:00-21:00\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/altitooth-family-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

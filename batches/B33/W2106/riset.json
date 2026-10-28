@@ -81,5 +81,32 @@
     "https://www.loker.id/profile/ismaya-dental-center",
     "https://www.ismayadentalcenter.com/",
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/ismaya-dental-center"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Ismaya Dental Center",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jendral Sudirman, Ruko Balikpapan Super Blok (BSB) Blok E No.6, Gunung Bahagia, Balikpapan Selatan, Kalimantan Timur 76114",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287881238989",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287881238989",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-17\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
