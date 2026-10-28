@@ -1,0 +1,50 @@
+{
+  "id": "W2222",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Madinah Malang",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://instagram.com/klinik_madinah",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Satsui Tubun IV/2B, Kebonsari, Sukun, Malang, Jawa Timur 65149",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281916283239",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281916283239",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1 [instagram]",
+    "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/malang/sukun/dokter-gigi-madinah-malang-suku-imp1 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

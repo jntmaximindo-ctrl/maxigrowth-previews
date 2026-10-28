@@ -72,5 +72,27 @@
     "https://caribisnis.id/dokter-gigi/malang/klojen/klinik-gigi-senyumqu-kloj-imp1",
     "https://lokercepat.id/customer-relation-officer-cro-senyumqu-dental-clinic/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-Jun-2024.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi SenyumQu",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jaksa Agung Suprapto Kav. B, Rampal Celaket, Klojen, Malang, Jawa Timur 65111",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282127202497",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282127202497",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
   ]
 }
