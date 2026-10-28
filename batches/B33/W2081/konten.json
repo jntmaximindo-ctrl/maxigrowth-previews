@@ -1,0 +1,132 @@
+{
+  "id": "W2081",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di kawasan Kraton, Yogyakarta",
+      "en": "Dental care in Kraton, Yogyakarta"
+    },
+    "sub": {
+      "id": "Kenali informasi praktik dan tanyakan ketersediaan jadwal sebelum berkunjung.",
+      "en": "Explore practice information and check appointment availability before your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan serta langkah awal sesuai kebutuhan Anda.",
+        "en": "Ask about examination availability and the next steps for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan pilihan tindakan setelah pemeriksaan dokter gigi.",
+        "en": "Discuss suitable treatment options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah tindakan diperlukan dan kapan pemeriksaan dapat dijadwalkan.",
+        "en": "Ask whether extraction is appropriate and when an assessment can be arranged."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan penggantian gigi dan pilihan yang tersedia di tempat praktik.",
+        "en": "Discuss tooth replacement needs and available options at the practice."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum berkunjung",
+      "en": "Before-your-visit guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan, siapkan pertanyaan, lalu konfirmasi jadwal dan tindakan langsung kepada pihak praktik.",
+      "en": "Select your visit purpose, prepare questions, and confirm schedules and treatments with the practice."
+    },
+    "alasan_dipilih": "Informasi publik saat ini tersebar di direktori dan belum tersedia situs resmi yang terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Mantrigawen Lor No. 30, Panembahan, Kraton, Yogyakarta. Konfirmasikan lokasi sebelum berangkat.",
+        "en": "Directories list Jl. Mantrigawen Lor No. 30, Panembahan, Kraton, Yogyakarta. Please confirm the location before traveling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Hubungi nomor yang tercantum pada direktori untuk menanyakan jadwal terkini.",
+        "en": "Contact the number listed in directories to ask about current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal gigi?",
+        "en": "Are dental fillings available?"
+      },
+      "a": {
+        "id": "Tambal gigi disebut pada direktori. Mohon konfirmasi ketersediaan tindakan kepada praktik.",
+        "en": "Fillings are mentioned in directory listings. Please confirm treatment availability with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Tanyakan perkiraan biaya setelah kebutuhan pemeriksaan dijelaskan.",
+        "en": "An official price list was not found. Ask for an estimate after discussing your examination needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum dapat diverifikasi. Tanyakan langsung kepada pihak praktik.",
+        "en": "Insurance arrangements have not been verified. Please check directly with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi dan jadwal kunjungan",
+    "en": "Confirm practice details and appointment times"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi dan alamat praktik yang berlaku. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Gigi drg. Marshakti Candraningtyas II. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di kawasan Kraton, Yogyakarta, dan telah menyiapkan konsep website untuk memudahkan pasien menemukan alamat serta menanyakan jadwal. Konsepnya dapat dilihat di https://maxigrowthstudio.com/drg-marshakti. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi drg. Marshakti Candraningtyas II",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Klinik Gigi drg. Marshakti Candraningtyas II,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di kawasan Kraton, Yogyakarta, yang saat ini tersebar pada beberapa direktori. Kami telah menyiapkan konsep website untuk membantu pasien melihat informasi lokasi dan menanyakan jadwal secara lebih mudah.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-marshakti. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Tidak ada kewajiban untuk menindaklanjuti.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
