@@ -1,0 +1,132 @@
+{
+  "id": "W2238",
+  "hero": {
+    "judul": {
+      "id": "Informasi ADE Smile Design Centre",
+      "en": "ADE Smile Design Centre Information"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi dan cara menanyakan layanan praktik gigi di Batam.",
+      "en": "Find location information and how to ask about dental services in Batam."
+    },
+    "cta": {
+      "id": "Tanyakan layanan klinik",
+      "en": "Ask about clinic services"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi awal",
+        "en": "Initial consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan gigi dan jadwal dokter kepada petugas.",
+        "en": "Ask staff about dental assessments and dentist availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan apakah layanan pembersihan gigi tersedia.",
+        "en": "Contact the clinic to check whether teeth cleaning is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Cavity care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pemeriksaan dan perawatan sesuai kondisi gigi.",
+        "en": "Ask about assessment and treatment options for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perencanaan perawatan",
+        "en": "Treatment planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan, tahapan, dan perkiraan biaya dengan pihak klinik.",
+        "en": "Discuss care needs, steps, and estimated costs with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan Pertanyaan Sebelum Berkunjung",
+      "en": "Prepare Questions Before Visiting"
+    },
+    "penjelasan": {
+      "id": "Daftar pertanyaan mengenai jadwal, layanan, dan biaya untuk membantu merencanakan kunjungan.",
+      "en": "A checklist about schedules, services, and costs to help plan a visit."
+    },
+    "alasan_dipilih": "Informasi layanan dan harga klinik belum tersedia dalam sumber publik yang diperiksa."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi ADE Smile Design Centre?",
+        "en": "Where is ADE Smile Design Centre?"
+      },
+      "a": {
+        "id": "Data peta menunjukkan kawasan Penuin Centre, Lubuk Baja, Batam. Pastikan alamat sebelum berangkat.",
+        "en": "Map data points to Penuin Centre, Lubuk Baja, Batam. Confirm the address before traveling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia konsultasi gigi?",
+        "en": "Are dental consultations available?"
+      },
+      "a": {
+        "id": "Silakan hubungi klinik untuk memastikan jenis konsultasi dan jadwal dokter.",
+        "en": "Please contact the clinic to confirm consultation types and dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is scaling offered?"
+      },
+      "a": {
+        "id": "Ketersediaannya belum dapat diverifikasi dari sumber yang diperiksa; tanyakan kepada petugas.",
+        "en": "Availability could not be verified from the sources reviewed; ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia; mintalah informasi biaya sesuai kebutuhan pemeriksaan.",
+        "en": "A price list was not available; request costs based on your care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengatur kunjungan?",
+        "en": "How do I arrange a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak publik dan konfirmasi jadwal sebelum datang.",
+        "en": "Contact the listed public number and confirm opening hours before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi informasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo ADE Smile Design Centre, saya ingin menanyakan jadwal praktik, layanan yang tersedia, dan informasi biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, tim ADE Smile Design Centre. Saya dari Maxi Growth Studio, Bandung. Saya melihat informasi lokasi klinik di kawasan Penuin Centre, Batam. Kami sudah menyiapkan konsep tampilan website untuk klinik Anda di https://maxigrowthstudio.com/ade-smile. Jika berkenan, silakan melihatnya. Kami terbuka untuk masukan dari pengelola klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk ADE Smile Design Centre",
+    "email_isi": "Yth. Pengelola ADE Smile Design Centre,\n\nPerkenalkan, saya dari Maxi Growth Studio, Bandung. Kami telah menyiapkan konsep website yang menampilkan informasi lokasi klinik di kawasan Penuin Centre, Batam agar calon pasien lebih mudah menemukan informasi dasar klinik. Konsep dapat dilihat di https://maxigrowthstudio.com/ade-smile.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka untuk tanggapan dan penyesuaian informasi.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

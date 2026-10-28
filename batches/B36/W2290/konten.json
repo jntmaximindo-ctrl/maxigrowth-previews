@@ -1,0 +1,132 @@
+{
+  "id": "W2290",
+  "hero": {
+    "judul": {
+      "id": "drg. Erwan Rais Dental Care — Medan",
+      "en": "drg. Erwan Rais Dental Care — Medan"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan dan konfirmasikan kunjungan Anda.",
+      "en": "Prepare your questions and confirm your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit scheduling"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum datang.",
+        "en": "Ask which dates and times are available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan estimasi biaya pemeriksaan.",
+        "en": "Describe your needs and ask about examination fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah perawatan yang Anda butuhkan tersedia saat ini.",
+        "en": "Ask whether the treatment you need is currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen atau riwayat perawatan yang perlu dibawa.",
+        "en": "Ask which documents or treatment records to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Pilih waktu yang diinginkan dan tulis pertanyaan untuk diteruskan melalui WhatsApp. Praktik perlu mengonfirmasi jadwal.",
+      "en": "Choose your preferred time and prepare questions for WhatsApp. The practice must confirm availability."
+    },
+    "alasan_dipilih": "Membantu konfirmasi jadwal karena jam Sabtu berbeda antar direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan Jalan Prof. HM. Yamin SH No.416, Medan. Konfirmasikan titik masuk sebelum berangkat.",
+        "en": "Public directories list Jalan Prof. HM. Yamin SH No.416, Medan. Confirm the entrance before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik 0811-6289-191 untuk menanyakan waktu kunjungan. Jadwal baru berlaku setelah dikonfirmasi praktik.",
+        "en": "Contact the public number 0811-6289-191 to request a visit. Your appointment is subject to confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Sabtu?",
+        "en": "Is the practice open on Saturday?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jam Sabtu yang berbeda. Tanyakan kembali waktu buka dan tutup sebelum datang.",
+        "en": "Directories show different Saturday hours. Confirm the opening and closing times before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "What are the examination and treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang dibaca. Tanyakan rincian biaya; kebutuhan tindakan perlu dinilai dokter.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown; treatment needs require a dentist’s assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Sebutkan penyedia dan jenis polis saat bertanya kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Provide your insurer and policy type when asking the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan di drg. Erwan Rais Dental Care Medan. Mohon informasi waktu dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Erwan Rais Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Alamat praktik di Jalan HM Yamin 416 dapat ditampilkan bersama formulir persiapan kunjungan. Konsep naskah website telah disusun; rencana tautannya https://maxigrowthstudio.com/drg-erwan perlu diaktifkan sebelum dibagikan. Jika berkenan, kami dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website drg. Erwan Rais Dental Care",
+    "email_isi": "Halo Bapak/Ibu pengelola drg. Erwan Rais Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep naskah website dengan informasi lokasi Jalan HM Yamin 416 dan persiapan kunjungan. Rencana tautan https://maxigrowthstudio.com/drg-erwan perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Jika berkenan, kami dapat membahas informasi yang perlu dikonfirmasi. Hubungi 082141004400 atau info@maxigrowthstudio.com."
+  }
+}

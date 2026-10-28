@@ -1,0 +1,132 @@
+{
+  "id": "W2246",
+  "hero": {
+    "judul": {
+      "id": "Informasi HOT DENTAL Manado",
+      "en": "HOT DENTAL Manado Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi, jam kunjungan, dan informasi perawatan gigi di kawasan Wanea.",
+      "en": "Find location, visit hours, and dental care information in Wanea, Manado."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal praktik",
+      "en": "Ask about clinic hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Layanan penambalan tercantum dalam direktori; tindakan disesuaikan dengan pemeriksaan.",
+        "en": "Fillings are listed in a directory; treatment depends on assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan kebutuhan tindakan pencabutan kepada dokter.",
+        "en": "Ask the dentist about assessment and whether extraction is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Dental braces"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan kawat gigi; konfirmasi ketersediaan dan jadwal konsultasi.",
+        "en": "A directory lists braces; confirm availability and consultation times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan gigi tiruan dan tahap pemeriksaannya kepada petugas.",
+        "en": "Ask staff about denture options and the assessment process."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan di Wanea",
+      "en": "Wanea Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik pertanyaan tentang perawatan dan lihat informasi lokasi serta jam praktik.",
+      "en": "Choose treatment questions and review location and opening information."
+    },
+    "alasan_dipilih": "Direktori mencantumkan beberapa tindakan dasar dan jam praktik hingga malam."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana HOT DENTAL Manado?",
+        "en": "Where is HOT DENTAL Manado?"
+      },
+      "a": {
+        "id": "Di Jl. Arnold Mononutu No.9-601, Wanea, Manado.",
+        "en": "At Jl. Arnold Mononutu No.9-601, Wanea, Manado."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 10.00–21.00 WITA, Minggu tutup. Konfirmasi sebelum datang.",
+        "en": "A directory lists Monday–Saturday 10 AM–9 PM WITA, closed Sunday. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal gigi?",
+        "en": "Are fillings available?"
+      },
+      "a": {
+        "id": "Penambalan tercantum di direktori; tanyakan jadwal dan kebutuhan pemeriksaan.",
+        "en": "Fillings are listed in a directory; ask about scheduling and assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani cabut gigi?",
+        "en": "Are extractions offered?"
+      },
+      "a": {
+        "id": "Pencabutan tercantum dalam informasi publik; keputusan tindakan bergantung pada dokter.",
+        "en": "Extractions are listed publicly; the dentist determines suitable care."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber yang diperiksa; tanyakan perkiraan setelah konsultasi.",
+        "en": "Pricing was unavailable from reviewed sources; ask for an estimate after consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi kunjungan",
+    "en": "Contact the clinic for visit information"
+  },
+  "pesan_wa_default": "Halo HOT DENTAL Manado, saya ingin menanyakan jadwal praktik dan biaya pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, tim HOT DENTAL Manado. Saya dari Maxi Growth Studio, Bandung. Kami melihat informasi lokasi di Wanea dan jam praktik hingga malam yang tersedia untuk calon pasien. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/hot-manado. Jika berkenan, silakan melihatnya dan menyampaikan masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk HOT DENTAL Manado",
+    "email_isi": "Yth. Pengelola HOT DENTAL Manado,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio, Bandung. Kami telah menyiapkan konsep website untuk membantu pengunjung menemukan informasi lokasi di Wanea dan jam praktik hingga malam dengan lebih jelas. Pratinjau tersedia di https://maxigrowthstudio.com/hot-manado.\n\nProposal PDF kami lampirkan untuk bahan pertimbangan. Jika berkenan, kami terbuka untuk koreksi informasi dan diskusi lebih lanjut.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

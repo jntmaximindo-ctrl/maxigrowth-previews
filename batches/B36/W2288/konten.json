@@ -1,0 +1,132 @@
+{
+  "id": "W2288",
+  "hero": {
+    "judul": {
+      "id": "drg. Heriyanty Dental Clinic — Medan",
+      "en": "drg. Heriyanty Dental Clinic — Medan"
+    },
+    "sub": {
+      "id": "Konfirmasikan lokasi dan jadwal praktik sebelum berkunjung.",
+      "en": "Confirm the current practice location and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit scheduling"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum datang.",
+        "en": "Ask which dates and times are available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan estimasi biaya pemeriksaan.",
+        "en": "Describe your needs and ask about examination fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah perawatan yang Anda butuhkan tersedia saat ini.",
+        "en": "Ask whether the treatment you need is currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen atau riwayat perawatan yang perlu dibawa.",
+        "en": "Ask which documents or treatment records to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Pilih waktu yang diinginkan dan tulis pertanyaan untuk diteruskan melalui WhatsApp. Praktik perlu mengonfirmasi jadwal.",
+      "en": "Choose your preferred time and prepare questions for WhatsApp. The practice must confirm availability."
+    },
+    "alasan_dipilih": "Status dan jam berbeda antar direktori sehingga konfirmasi kunjungan diperlukan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum di direktori adalah Jalan Sisingamangaraja No.186, Siti Rejo I, Medan. Tanyakan apakah lokasi ini masih digunakan.",
+        "en": "Directories list Jalan Sisingamangaraja No.186, Siti Rejo I, Medan. Ask whether this location is still in use."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "Tanyakan status praktik dan waktu kunjungan melalui nomor publik 0812-6076-069. Tunggu konfirmasi sebelum datang.",
+        "en": "Ask about practice status and visit times at the public number 0812-6076-069. Wait for confirmation before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal dan status operasional belum terkonfirmasi. Hubungi praktik untuk memastikan hari serta jam layanan saat ini.",
+        "en": "Current hours and operating status have not been confirmed. Contact the practice to check its current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "What are the examination and treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang dibaca. Tanyakan rincian biaya; kebutuhan tindakan perlu dinilai dokter.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown; treatment needs require a dentist’s assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Sebutkan penyedia dan jenis polis saat bertanya kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Provide your insurer and policy type when asking the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, apakah drg. Heriyanty Dental Clinic masih praktik di Jalan Sisingamangaraja No.186 Medan? Saya ingin menanyakan jadwal dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Halo pengelola drg. Heriyanty Dental Clinic. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Direktori mencantumkan praktik di Jalan Sisingamangaraja 186 Medan. Konsep naskah website telah disusun untuk memudahkan konfirmasi lokasi dan jadwal. Rencana tautan https://maxigrowthstudio.com/drg-heriyanty perlu diaktifkan sebelum dibagikan. Jika berkenan, kami ingin mengonfirmasi informasi praktik terlebih dahulu. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi praktik drg. Heriyanty",
+    "email_isi": "Halo pengelola drg. Heriyanty Dental Clinic, saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami menyusun konsep naskah website untuk informasi lokasi Jalan Sisingamangaraja 186 Medan dan konfirmasi jadwal. Status operasional serta rincian praktik perlu dikonfirmasi terlebih dahulu. Rencana tautan https://maxigrowthstudio.com/drg-heriyanty perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Hubungi 082141004400 atau info@maxigrowthstudio.com."
+  }
+}

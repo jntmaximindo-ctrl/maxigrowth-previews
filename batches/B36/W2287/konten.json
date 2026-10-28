@@ -1,0 +1,132 @@
+{
+  "id": "W2287",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Belawan — Medan",
+      "en": "Dokter Gigi Belawan — Medan"
+    },
+    "sub": {
+      "id": "Tanyakan lokasi dan jadwal praktik sebelum berkunjung.",
+      "en": "Ask about the current practice location and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit scheduling"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum datang.",
+        "en": "Ask which dates and times are available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan estimasi biaya pemeriksaan.",
+        "en": "Describe your needs and ask about examination fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah perawatan yang Anda butuhkan tersedia saat ini.",
+        "en": "Ask whether the treatment you need is currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for a visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen atau riwayat perawatan yang perlu dibawa.",
+        "en": "Ask which documents or treatment records to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Pilih waktu yang diinginkan dan tulis pertanyaan untuk diteruskan melalui WhatsApp. Praktik perlu mengonfirmasi jadwal.",
+      "en": "Choose your preferred time and prepare questions for WhatsApp. The practice must confirm availability."
+    },
+    "alasan_dipilih": "Informasi lokasi dan kontak hanya tersedia dari file CARI sehingga perlu konfirmasi awal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "File pencarian mencantumkan Jalan Sumatera, Belawan I, Medan. Alamat dan titik masuk perlu dikonfirmasi sebelum berangkat.",
+        "en": "The discovery record lists Jalan Sumatera, Belawan I, Medan. Confirm the address and entrance before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book a visit?"
+      },
+      "a": {
+        "id": "File pencarian mencantumkan nomor 0812-5754-3550. Pastikan nomor tersebut masih dikelola praktik sebelum menyampaikan informasi pribadi.",
+        "en": "The discovery record lists 0812-5754-3550. Confirm that the number is still managed by the practice before sharing personal information."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jam praktik belum terkonfirmasi. Tanyakan hari dan waktu kunjungan terlebih dahulu.",
+        "en": "Opening hours have not been confirmed. Ask about visit dates and times first."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan tindakan?",
+        "en": "What are the examination and treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang dibaca. Tanyakan rincian biaya; kebutuhan tindakan perlu dinilai dokter.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown; treatment needs require a dentist’s assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Sebutkan penyedia dan jenis polis saat bertanya kepada praktik.",
+        "en": "Insurance arrangements have not been confirmed. Provide your insurer and policy type when asking the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, apakah nomor ini masih untuk Dokter Gigi Belawan? Saya ingin mengonfirmasi lokasi dan jadwal kunjungan.",
+  "outreach": {
+    "wa": "Halo, apakah ini pengelola Dokter Gigi Belawan di Medan? Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. File pencarian kami mencantumkan lokasi Jalan Sumatera, Belawan I. Konsep naskah website telah disusun; rencana tautan https://maxigrowthstudio.com/belawan perlu diaktifkan sebelum dibagikan. Kami perlu mengonfirmasi identitas praktik terlebih dahulu. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konfirmasi informasi Dokter Gigi Belawan",
+    "email_isi": "Halo pengelola Dokter Gigi Belawan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. File pencarian mencantumkan lokasi Jalan Sumatera, Belawan I. Kami menyusun konsep naskah website untuk informasi kunjungan, tetapi identitas dan rincian praktik perlu dikonfirmasi dahulu. Rencana tautan https://maxigrowthstudio.com/belawan perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Kontak 082141004400 atau info@maxigrowthstudio.com."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2247",
+  "hero": {
+    "judul": {
+      "id": "Informasi AA DENTAL CARE MANADO",
+      "en": "AA DENTAL CARE MANADO Information"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi, jam, dan kunjungan praktik gigi di Sario Utara.",
+      "en": "Find location, hours, and dental visit information in Sario Utara."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi awal",
+        "en": "Initial consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter dan jenis pemeriksaan yang tersedia.",
+        "en": "Ask about dentist schedules and available assessments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Konfirmasi layanan pemeriksaan gigi sebelum membuat janji.",
+        "en": "Confirm dental examination availability before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi umum",
+        "en": "General dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan tindakan yang tersedia sesuai kebutuhan Anda.",
+        "en": "Ask which treatments are available for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Mintalah rincian biaya sebelum menyetujui tindakan.",
+        "en": "Request cost details before agreeing to treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Berkunjung",
+      "en": "Before-Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Temukan lokasi, informasi jam, dan daftar pertanyaan sebelum menghubungi klinik.",
+      "en": "Find directions, opening information, and questions to ask before contacting the clinic."
+    },
+    "alasan_dipilih": "Panduan kunjungan sore dengan formulir pertanyaan layanan"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice? "
+      },
+      "a": {
+        "id": "Berlokasi di Jl. Ahmad Yani No.18, Sario Utara, Sario, Kota Manado, Sulawesi Utara 95114.",
+        "en": "It is located at Jl. Ahmad Yani No.18, Sario Utara, Sario, Kota Manado, Sulawesi Utara 95114."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16:00–21:00 WITA; konfirmasi sebelum datang.",
+        "en": "A directory lists Monday–Saturday 16-21; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I make an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya hubungi kontak klinik terlebih dahulu untuk memastikan jadwal dokter.",
+        "en": "Contact the clinic in advance to confirm dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia dari sumber yang diperiksa; tanyakan biaya sesuai kebutuhan.",
+        "en": "A price list was not available from reviewed sources; ask for a care-specific estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan layanan?",
+        "en": "How can I ask about services?"
+      },
+      "a": {
+        "id": "Gunakan kontak publik yang tercantum dan jelaskan kebutuhan pemeriksaan Anda.",
+        "en": "Use the listed public contact and describe your dental care needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi terkini",
+    "en": "Contact the clinic for current details"
+  },
+  "pesan_wa_default": "Halo AA DENTAL CARE MANADO, saya ingin menanyakan jadwal praktik dan informasi biaya pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, tim AA DENTAL CARE MANADO. Saya dari Maxi Growth Studio, Bandung. Kami melihat informasi lokasi praktik di Sario Utara. Kami telah menyiapkan konsep website di https://maxigrowthstudio.com/aa-manado. Jika berkenan, silakan melihatnya dan memberikan masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk AA DENTAL CARE MANADO",
+    "email_isi": "Yth. Pengelola AA DENTAL CARE MANADO,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio, Bandung. Kami menyiapkan konsep website untuk membantu pengunjung menemukan lokasi, jam praktik, dan informasi layanan klinik. Pratinjau tersedia di https://maxigrowthstudio.com/aa-manado.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka untuk masukan dan koreksi data sebelum materi digunakan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

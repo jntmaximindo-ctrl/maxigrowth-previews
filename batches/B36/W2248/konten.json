@@ -1,0 +1,132 @@
+{
+  "id": "W2248",
+  "hero": {
+    "judul": {
+      "id": "Informasi Dokter Gigi Sherlyn Margareth",
+      "en": "Dokter Gigi Sherlyn Margareth Information"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi, jam, dan kunjungan praktik gigi di Paal Dua.",
+      "en": "Find location, hours, and dental visit information in Paal Dua."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan jadwal praktik sore.",
+        "en": "Ask about examinations and afternoon practice hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi apakah pembersihan gigi tersedia saat menghubungi praktik.",
+        "en": "Confirm whether dental cleaning is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penanganan gigi berlubang berdasarkan pemeriksaan.",
+        "en": "Ask about care for cavities based on an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana perawatan",
+        "en": "Care planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan estimasi biaya dengan dokter.",
+        "en": "Discuss care needs and estimated costs with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Berkunjung",
+      "en": "Before-Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Temukan lokasi, informasi jam, dan daftar pertanyaan sebelum menghubungi klinik.",
+      "en": "Find directions, opening information, and questions to ask before contacting the clinic."
+    },
+    "alasan_dipilih": "Penampil jadwal praktik sore dengan catatan konfirmasi sebelum berangkat"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice? "
+      },
+      "a": {
+        "id": "Berlokasi di Kompleks Pasar Segar Blok KL 7/8, Jl. Yos Sudarso, Paal Dua, Tikala, Kota Manado, Sulawesi Utara.",
+        "en": "It is located at Kompleks Pasar Segar Blok KL 7/8, Jl. Yos Sudarso, Paal Dua, Tikala, Kota Manado, Sulawesi Utara."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal praktik sore berbeda antardirektori; konfirmasi sebelum datang.",
+        "en": "Directories show different afternoon hours; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I make an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya hubungi kontak klinik terlebih dahulu untuk memastikan jadwal dokter.",
+        "en": "Contact the clinic in advance to confirm dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia dari sumber yang diperiksa; tanyakan biaya sesuai kebutuhan.",
+        "en": "A price list was not available from reviewed sources; ask for a care-specific estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan layanan?",
+        "en": "How can I ask about services?"
+      },
+      "a": {
+        "id": "Gunakan kontak publik yang tercantum dan jelaskan kebutuhan pemeriksaan Anda.",
+        "en": "Use the listed public contact and describe your dental care needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk informasi terkini",
+    "en": "Contact the clinic for current details"
+  },
+  "pesan_wa_default": "Halo Dokter Gigi Sherlyn Margareth, saya ingin menanyakan jadwal praktik dan informasi biaya pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, tim Dokter Gigi Sherlyn Margareth. Saya dari Maxi Growth Studio, Bandung. Kami melihat informasi lokasi praktik di Paal Dua. Kami telah menyiapkan konsep website di https://maxigrowthstudio.com/sherlyn-margareth. Jika berkenan, silakan melihatnya dan memberikan masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dokter Gigi Sherlyn Margareth",
+    "email_isi": "Yth. Pengelola Dokter Gigi Sherlyn Margareth,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio, Bandung. Kami menyiapkan konsep website untuk membantu pengunjung menemukan lokasi, jam praktik, dan informasi layanan klinik. Pratinjau tersedia di https://maxigrowthstudio.com/sherlyn-margareth.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka untuk masukan dan koreksi data sebelum materi digunakan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2237",
+  "hero": {
+    "judul": {
+      "id": "Informasi K-DENTIST Panbil",
+      "en": "K-DENTIST Panbil Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi dan informasi kunjungan praktik gigi di kawasan Panbil, Batam.",
+      "en": "Find location and visit information for the dental practice in Panbil, Batam."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan awal",
+        "en": "Initial dental assessment"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan ketersediaan pemeriksaan dan jadwal dokter.",
+        "en": "Contact the clinic to confirm examination availability and dentist schedules."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Scaling disebut dalam ulasan publik; konfirmasi jenis tindakan sebelum datang.",
+        "en": "Scaling is mentioned in public reviews; confirm the procedure before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penambalan disebut dalam ulasan publik; tindakan bergantung pada pemeriksaan.",
+        "en": "Fillings are mentioned in public reviews; treatment depends on assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana kunjungan",
+        "en": "Visit planning"
+      },
+      "ringkas": {
+        "id": "Tanyakan keluhan, kebutuhan perawatan, dan informasi biaya kepada petugas.",
+        "en": "Ask staff about symptoms, treatment needs, and cost information."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Panbil",
+      "en": "Panbil Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat petunjuk lokasi dan daftar hal yang perlu ditanyakan sebelum berkunjung.",
+      "en": "See directions and a checklist of questions before your visit."
+    },
+    "alasan_dipilih": "Alamat Panbil terverifikasi di dua direktori, sedangkan rincian reservasi dan harga belum tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi K-DENTIST?",
+        "en": "Where is K-DENTIST?"
+      },
+      "a": {
+        "id": "Di Ruko Panbil Blok C No.3, kawasan Kabil, Nongsa, Batam.",
+        "en": "At Ruko Panbil Block C No.3, Kabil, Nongsa, Batam."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan 11.00–20.00 WIB setiap hari; pastikan kembali sebelum berangkat.",
+        "en": "A directory lists 11 AM–8 PM daily; please confirm before traveling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Scaling disebut dalam ulasan publik; hubungi klinik untuk memastikan layanan terkini.",
+        "en": "Scaling appears in public reviews; contact the clinic to confirm current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya penambalan?",
+        "en": "How much does a filling cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dalam sumber yang diperiksa; tanyakan estimasi setelah pemeriksaan.",
+        "en": "Pricing was not available in the sources reviewed; request an estimate after assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak yang tercantum dan konfirmasi jadwal sebelum datang.",
+        "en": "Use the listed contact number and confirm the schedule before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi K-DENTIST untuk informasi kunjungan",
+    "en": "Contact K-DENTIST for visit information"
+  },
+  "pesan_wa_default": "Halo K-DENTIST, saya ingin menanyakan jadwal dan informasi pemeriksaan gigi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Selamat malam, tim K-DENTIST. Saya dari Maxi Growth Studio, Bandung. Saya melihat informasi lokasi praktik di Ruko Panbil. Kami sudah menyiapkan konsep tampilan website untuk klinik Anda di https://maxigrowthstudio.com/k-dentist. Jika berkenan, silakan melihatnya. Kami terbuka untuk masukan dari pengelola klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk K-DENTIST",
+    "email_isi": "Yth. Pengelola K-DENTIST,\n\nPerkenalkan, saya dari Maxi Growth Studio, Bandung. Kami telah menyiapkan konsep website yang menampilkan informasi lokasi praktik di Ruko Panbil agar calon pasien lebih mudah menemukan informasi dasar klinik. Konsep dapat dilihat di https://maxigrowthstudio.com/k-dentist.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka untuk tanggapan dan penyesuaian informasi.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
