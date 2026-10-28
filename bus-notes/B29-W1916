@@ -81,14 +81,9 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "nama",
-      "tercatat": "Dental Gallery",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
       "path": "cabang[0].alamat",
       "tercatat": "Jl. Andalas No.140, Parang Layang, Bontoala, Makassar, Sulawesi Selatan 90154",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+      "catatan": "Jalan Andalas No. 140, Kota Makassar, Sulawesi Selatan; artikel tidak menyebut Parang Layang, Bontoala atau kode pos pada bagian lokasi."
     }
   ]
 }

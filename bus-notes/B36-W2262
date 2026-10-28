@@ -73,22 +73,5 @@ RISET LAMA:
   "sumber": [
     "https://caribisnis.id/dokter-gigi/tangerang/larangan/klinik-baskita-medika-lara-imp1",
     "https://id.linkedin.com/in/nessaarya44"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "nama",
-      "tercatat": "Klinik Baskita Medika",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. H. Muchtar Raya, RT.002/RW.013, Kreo, Larangan, Kota Tangerang, Banten 15156",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].jam",
-      "tercatat": "Senin–Minggu 07.30–20.30 (direktori, belum dikonfirmasi klinik)",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    }
   ]
 }
