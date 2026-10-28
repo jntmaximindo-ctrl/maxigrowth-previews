@@ -1,0 +1,142 @@
+{
+  "id": "W2024",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi drg. Jefri Kiswanto",
+      "en": "Praktek Dokter Gigi drg. Jefri Kiswanto"
+    },
+    "sub": {
+      "id": "Informasi praktik di Jl. Raya Karangpilang No.35, Surabaya, dengan panduan konfirmasi jadwal.",
+      "en": "Practice location information and appointment-verification guidance in Surabaya."
+    },
+    "cta": {
+      "id": "Konfirmasi lokasi dan jadwal",
+      "en": "Confirm address and hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Alamat di kawasan Karangpilang",
+        "en": "Alamat di kawasan Karangpilang"
+      },
+      "ringkas": {
+        "id": "Alamat yang tercantum dalam direktori: Jl. Raya Karangpilang No.35, Karang Pilang, Surabaya, Jawa Timur 60221",
+        "en": "Alamat yang tercantum dalam direktori: Jl. Raya Karangpilang No.35, Karang Pilang, Surabaya, Jawa Timur 60221"
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan lokasi sebelum datang",
+        "en": "Pemeriksaan lokasi sebelum datang"
+      },
+      "ringkas": {
+        "id": "Pastikan nama jalan dan nomor tempat praktik pada aplikasi peta sebelum berangkat.",
+        "en": "Pastikan nama jalan dan nomor tempat praktik pada aplikasi peta sebelum berangkat."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi keberadaan dokter",
+        "en": "Konfirmasi keberadaan dokter"
+      },
+      "ringkas": {
+        "id": "Dokumen historis tidak menjamin jadwal atau afiliasi praktik saat ini; tanyakan kepada tempat praktik.",
+        "en": "Dokumen historis tidak menjamin jadwal atau afiliasi praktik saat ini; tanyakan kepada tempat praktik."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian tindakan dan biaya",
+        "en": "Rincian tindakan dan biaya"
+      },
+      "ringkas": {
+        "id": "Jenis tindakan serta tarif belum terverifikasi; konfirmasikan kebutuhan dan estimasi biaya sebelum perawatan.",
+        "en": "Jenis tindakan serta tarif belum terverifikasi; konfirmasikan kebutuhan dan estimasi biaya sebelum perawatan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemeriksaan lokasi dan jadwal dokter",
+      "en": "Verify location and dentist schedule"
+    },
+    "penjelasan": {
+      "id": "Panduan membedakan alamat direktori dengan informasi pekerjaan dokter yang berasal dari arsip lama.",
+      "en": "Guidance distinguishing a directory address from historical records of clinician affiliation."
+    },
+    "alasan_dipilih": "Dokumen publik yang tersedia diterbitkan pada waktu berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik beralamat?",
+        "en": "Di mana praktik beralamat?"
+      },
+      "a": {
+        "id": "Jl. Raya Karangpilang No.35, Karang Pilang, Surabaya, Jawa Timur 60221",
+        "en": "Jl. Raya Karangpilang No.35, Karang Pilang, Surabaya, Jawa Timur 60221"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dokter masih bekerja di sana?",
+        "en": "Apakah dokter masih bekerja di sana?"
+      },
+      "a": {
+        "id": "Lokasi praktik tercantum dalam direktori; status dan jadwal terkini belum dikonfirmasi langsung.",
+        "en": "Lokasi praktik tercantum dalam direktori; status dan jadwal terkini belum dikonfirmasi langsung."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "Bagaimana menghubungi praktik?"
+      },
+      "a": {
+        "id": "Tidak ada nomor telepon atau WhatsApp resmi yang dapat diverifikasi dari sumber yang diperiksa.",
+        "en": "Tidak ada nomor telepon atau WhatsApp resmi yang dapat diverifikasi dari sumber yang diperiksa."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "Kapan jam praktiknya?"
+      },
+      "a": {
+        "id": "Jam operasional dan jadwal dokter belum dapat diverifikasi.",
+        "en": "Jam operasional dan jadwal dokter belum dapat diverifikasi."
+      }
+    },
+    {
+      "q": {
+        "id": "Tindakan gigi apa yang tersedia?",
+        "en": "Tindakan gigi apa yang tersedia?"
+      },
+      "a": {
+        "id": "Daftar layanan spesifik belum tersedia secara terverifikasi; tanyakan sebelum datang.",
+        "en": "Daftar layanan spesifik belum tersedia secara terverifikasi; tanyakan sebelum datang."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "Berapa biaya pemeriksaan?"
+      },
+      "a": {
+        "id": "Tidak ada tarif resmi yang ditemukan; mintalah perkiraan biaya langsung.",
+        "en": "Tidak ada tarif resmi yang ditemukan; mintalah perkiraan biaya langsung."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Periksa informasi terbaru",
+    "en": "Verify current information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal Praktek Dokter Gigi drg. Jefri Kiswanto dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. Pengelola Praktek Dokter Gigi drg. Jefri Kiswanto, Maxi Growth Studio ingin menawarkan contoh website informasi praktik agar pasien dapat memeriksa lokasi dan jadwal. Apakah kami boleh mengirim pratinjau?",
+    "email_subjek": "Contoh website informasi Praktek Dokter Gigi drg. Jefri Kiswanto",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi drg. Jefri Kiswanto,\n\nKami dari Maxi Growth Studio ingin menawarkan konsep website praktik untuk ditinjau.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}
