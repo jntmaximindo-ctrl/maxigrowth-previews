@@ -1,0 +1,142 @@
+{
+  "id": "W2096",
+  "hero": {
+    "judul": {
+      "id": "Dental.YK: informasi perawatan gigi",
+      "en": "Dental.YK: dental care information"
+    },
+    "sub": {
+      "id": "Temukan lokasi, informasi perawatan, dan cara menanyakan jadwal di Yogyakarta.",
+      "en": "Find the clinic, explore care topics, and check appointment availability in Yogyakarta."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Check availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan sesuai kondisi gigi Anda.",
+        "en": "Discuss care options based on your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pembersihan karang gigi.",
+        "en": "Ask about dental examination and tartar removal."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Diskusikan perawatan susunan gigi dengan dokter.",
+        "en": "Discuss options for tooth alignment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Dental veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian perawatan setelah pemeriksaan dokter.",
+        "en": "Ask about suitability following a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan untuk gigi berlubang.",
+        "en": "Ask about options for treating tooth decay."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konsultasi perawatan gigi",
+      "en": "Dental consultation guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan perawatan dan siapkan pertanyaan tentang tahapan, jadwal, serta estimasi biaya.",
+      "en": "Choose a treatment topic and prepare questions about steps, scheduling, and estimated fees."
+    },
+    "alasan_dipilih": "Direktori memuat berbagai jenis perawatan, tetapi detail jadwal dokter dan harga resmi belum dapat dipastikan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Dental.YK?",
+        "en": "Where is Dental.YK?"
+      },
+      "a": {
+        "id": "Jl. Menteri Supeno No.122, Sorosutan, Umbulharjo, Kota Yogyakarta.",
+        "en": "Jl. Menteri Supeno No.122, Sorosutan, Umbulharjo, Yogyakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Waze mencantumkan Minggu 09.00–15.00. Mohon konfirmasi jam terbaru sebelum datang.",
+        "en": "Waze lists Sunday hours of 9 AM–3 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan kawat gigi?",
+        "en": "Is orthodontic care available?"
+      },
+      "a": {
+        "id": "Perawatan kawat gigi disebut pada direktori. Konfirmasikan jadwal konsultasi kepada klinik.",
+        "en": "Orthodontic care is mentioned in directories. Please confirm consultation availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya veneer?",
+        "en": "How much do veneers cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan pada sumber yang diperiksa. Tanyakan estimasi setelah konsultasi.",
+        "en": "An official price was not found in the reviewed sources. Ask for an estimate after consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor klinik yang tercantum pada informasi lokasi untuk menanyakan jadwal.",
+        "en": "Contact the clinic number listed with its location information to ask about appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal konsultasi Dental.YK",
+    "en": "Confirm a Dental.YK appointment"
+  },
+  "pesan_wa_default": "Halo Dental.YK, saya ingin menanyakan jadwal konsultasi, layanan perawatan gigi, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dental.YK. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi klinik di Jalan Menteri Supeno, Yogyakarta, serta profil @dental.yk. Kami telah menyiapkan konsep website yang membantu pasien memilih topik konsultasi dan menanyakan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/yk. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Gigi Dental.YK",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Dental.YK,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi klinik di Jalan Menteri Supeno dan profil @dental.yk. Kami telah menyiapkan konsep website yang membantu pasien mengenali pilihan konsultasi serta menanyakan jadwal dengan mudah.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/yk. Proposal PDF terlampir sebagai bahan pertimbangan. Silakan ditinjau bila berkenan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

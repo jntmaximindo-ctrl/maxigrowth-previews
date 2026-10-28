@@ -1,0 +1,132 @@
+{
+  "id": "W2095",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi kesehatan gusi",
+      "en": "Gum health consultation"
+    },
+    "sub": {
+      "id": "Informasi praktik drg. Ika Andriani, Sp.Perio, dan hal yang perlu disiapkan sebelum konsultasi.",
+      "en": "Practice information for drg. Ika Andriani, Sp.Perio, and how to prepare for a consultation."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi periodonsia",
+        "en": "Periodontal consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gusi dan jaringan penyangga gigi dengan dokter.",
+        "en": "Discuss concerns involving the gums and supporting tissues of the teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gusi",
+        "en": "Gum assessment"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang sesuai dengan kondisi gusi Anda.",
+        "en": "Ask which assessments may be suitable for your gum health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Edukasi kebersihan gusi",
+        "en": "Gum care education"
+      },
+      "ringkas": {
+        "id": "Siapkan pertanyaan tentang kebiasaan membersihkan gigi dan gusi.",
+        "en": "Prepare questions about everyday tooth and gum cleaning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana tindak lanjut",
+        "en": "Follow-up planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan langkah selanjutnya berdasarkan hasil konsultasi dokter.",
+        "en": "Discuss next steps based on the dentist's assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pertanyaan kesehatan gusi",
+      "en": "Gum health question guide"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan yang ingin dibahas dan siapkan daftar pertanyaan sebelum konsultasi.",
+      "en": "Select your concern and prepare questions for a consultation."
+    },
+    "alasan_dipilih": "Direktori mencantumkan fokus periodonsia; informasi praktik dan layanan terperinci belum tersedia dalam situs resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Masjid No.6, Purwokinanti, Pakualaman, Yogyakarta. Konfirmasikan sebelum datang.",
+        "en": "A directory lists Jl. Masjid No.6, Purwokinanti, Pakualaman, Yogyakarta. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa itu periodonsia?",
+        "en": "What is periodontics?"
+      },
+      "a": {
+        "id": "Periodonsia adalah bidang kedokteran gigi yang berfokus pada gusi dan jaringan penyangga gigi.",
+        "en": "Periodontics focuses on the gums and tissues supporting the teeth."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Selasa–Jumat pukul 18.00–20.00. Jadwal terbaru perlu dikonfirmasi.",
+        "en": "A directory lists Tuesday–Friday, 6–8 PM. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What is the consultation fee?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan. Tanyakan estimasi kepada pihak praktik.",
+        "en": "An official fee was not found. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan pada sumber yang diperiksa.",
+        "en": "Insurance arrangements were not found in the reviewed sources."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal konsultasi",
+    "en": "Confirm a consultation time"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Ika Andriani, Sp.Perio, dan biaya konsultasi kesehatan gusi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Ika Andriani, Sp.Perio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik periodonsia di kawasan Pakualaman, Yogyakarta. Kami telah menyiapkan konsep website untuk membantu pasien mengenali layanan dan menanyakan jadwal konsultasi. Konsepnya dapat dilihat di https://maxigrowthstudio.com/drg-ika. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Ika Andriani, Sp.Perio",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktik drg. Ika Andriani, Sp.Perio,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik periodonsia di kawasan Pakualaman, Yogyakarta. Kami telah menyiapkan konsep website yang membantu pasien memahami informasi konsultasi dan menghubungi praktik.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-ika. Proposal PDF terlampir untuk bahan pertimbangan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

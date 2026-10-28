@@ -1,0 +1,132 @@
+{
+  "id": "W1854",
+  "hero": {
+    "judul": {
+      "id": "Lily Dental Care / Drg.Lily Widjaja",
+      "en": "Lily Dental Care / Drg.Lily Widjaja"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Medan.",
+      "en": "Location and visit preparation information in Medan."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum berangkat.",
+        "en": "Ask which days and times are available before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Questions about fees"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan perawatan sebelum menyetujui tindakan.",
+        "en": "Request examination and treatment fees before agreeing to a procedure."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan layanan yang tersedia.",
+        "en": "Explain your needs and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa.",
+        "en": "Ask which documents and information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik kunjungan untuk menyusun daftar pertanyaan sebelum menelepon praktik.",
+      "en": "Choose visit topics to prepare questions before calling the practice."
+    },
+    "alasan_dipilih": "Nomor publik yang ditemukan merupakan telepon tetap; fitur menyusun pertanyaan tanpa menganggap nomor tersebut sebagai WhatsApp."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Banda Aceh No.75, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211",
+        "en": "Jl. Banda Aceh No.75, Pandau Hulu I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20211"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor 62614573901 untuk menanyakan ketersediaan. Jadwal perlu dikonfirmasi.",
+        "en": "Contact 62614573901 to ask about availability. Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya dari praktik.",
+        "en": "Fees are not available here. Request an itemised estimate from the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terverifikasi. Tanyakan jenis penjaminan dan dokumen yang diperlukan.",
+        "en": "This has not been verified. Ask which coverage is accepted and which documents are required."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya menanyakan perawatan anak atau behel?",
+        "en": "Can I ask about care for children or braces?"
+      },
+      "a": {
+        "id": "Sampaikan usia dan kebutuhan saat menghubungi praktik; ketersediaan layanan perlu dikonfirmasi.",
+        "en": "Mention the patient’s age and needs when contacting the practice; service availability needs confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan, ketersediaan layanan, serta perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Lily Dental Care / Drg.Lily Widjaja. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk lokasi Medan. Rencana tautan peninjauan: https://maxigrowthstudio.com/lily-drg (perlu diaktifkan sebelum pesan dikirim). Bila berkenan, konsep dapat ditinjau setelah tersedia. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Lily Dental Care / Drg.Lily Widjaja",
+    "email_isi": "Yth. pengelola Lily Dental Care / Drg.Lily Widjaja, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Medan dapat disajikan bersama alur pertanyaan jadwal dan biaya. Kami menyiapkan konsep dengan rencana tautan https://maxigrowthstudio.com/lily-drg. Tautan perlu diaktifkan sebelum pengiriman. Proposal PDF perlu dilampirkan sebelum draf email ini dikirim. Silakan meninjau konsep setelah tersedia. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}

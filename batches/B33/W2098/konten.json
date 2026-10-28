@@ -1,0 +1,132 @@
+{
+  "id": "W2098",
+  "hero": {
+    "judul": {
+      "id": "Informasi konsultasi konservasi gigi",
+      "en": "Restorative dental consultation"
+    },
+    "sub": {
+      "id": "Kenali informasi praktik drg. Christine Windayani Inan, Sp.KG, sebelum membuat janji.",
+      "en": "Explore practice details for drg. Christine Windayani Inan, Sp.KG, before arranging a visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi konservasi gigi",
+        "en": "Restorative dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan pada gigi yang rusak atau berlubang.",
+        "en": "Discuss concerns involving damaged or decayed teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan yang diperlukan sebelum menentukan tindakan.",
+        "en": "Ask which examinations may be needed before choosing treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Diskusi perawatan saluran akar",
+        "en": "Root canal care discussion"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pemeriksaan menunjukkan kebutuhan perawatan saluran akar.",
+        "en": "Ask whether an examination suggests a need for root canal treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana perawatan gigi",
+        "en": "Dental care planning"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan perawatan dan langkah tindak lanjut dengan dokter.",
+        "en": "Discuss care options and next steps with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konsultasi gigi",
+      "en": "Dental consultation guide"
+    },
+    "penjelasan": {
+      "id": "Pilih keluhan yang ingin dibahas dan siapkan pertanyaan untuk konsultasi.",
+      "en": "Select your concern and prepare questions for your appointment."
+    },
+    "alasan_dipilih": "Informasi praktik yang ditemukan terbatas pada direktori; fokus Sp.KG dapat dijelaskan melalui panduan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Menteri Supeno No.70A, Sorosutan, Umbulharjo, Yogyakarta. Konfirmasikan alamat sebelum datang.",
+        "en": "A directory lists Jl. Menteri Supeno No.70A, Sorosutan, Umbulharjo, Yogyakarta. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa arti Sp.KG?",
+        "en": "What does Sp.KG mean?"
+      },
+      "a": {
+        "id": "Sp.KG adalah gelar spesialis konservasi gigi yang berkaitan dengan perawatan untuk mempertahankan gigi.",
+        "en": "Sp.KG denotes a specialist in restorative and conservative dentistry."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori lama mencantumkan Senin–Jumat pukul 17.00–21.30. Konfirmasikan jadwal terkini.",
+        "en": "An older directory lists Monday–Friday, 5–9:30 PM. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What is the consultation fee?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan. Tanyakan estimasi langsung kepada praktik.",
+        "en": "An official fee was not found. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan saluran akar?",
+        "en": "Is root canal treatment available?"
+      },
+      "a": {
+        "id": "Tindakan spesifik di praktik ini belum dapat diverifikasi. Tanyakan ketersediaannya saat menghubungi klinik.",
+        "en": "Specific treatments at this practice have not been verified. Please ask about availability directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan kebutuhan konsultasi",
+    "en": "Confirm consultation availability"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Christine Windayani Inan, Sp.KG, dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Christine Windayani Inan, Sp.KG. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Jalan Menteri Supeno, Yogyakarta, dengan fokus konservasi gigi. Kami telah menyiapkan konsep website untuk memudahkan pasien memahami informasi konsultasi dan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/christine-windayani. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website drg. Christine Windayani Inan, Sp.KG",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktik drg. Christine Windayani Inan, Sp.KG,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Jalan Menteri Supeno, Yogyakarta. Kami telah menyiapkan konsep website yang membantu pasien memahami informasi konsultasi konservasi gigi dan menanyakan jadwal.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/christine-windayani. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

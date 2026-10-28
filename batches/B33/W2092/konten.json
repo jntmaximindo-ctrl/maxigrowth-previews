@@ -1,0 +1,132 @@
+{
+  "id": "W2092",
+  "hero": {
+    "judul": {
+      "id": "Informasi konsultasi kesehatan gigi anak",
+      "en": "Children's dental health consultation"
+    },
+    "sub": {
+      "id": "Kenali latar belakang dokter dan siapkan pertanyaan sebelum mengatur pemeriksaan anak.",
+      "en": "Learn about the dentist's background and prepare questions before arranging a child's visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal praktik",
+      "en": "Ask about practice availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi anak",
+        "en": "Children's dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan kebutuhan pemeriksaan gigi anak dengan dokter.",
+        "en": "Discuss a child's dental concerns and examination needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Edukasi menyikat gigi",
+        "en": "Toothbrushing education"
+      },
+      "ringkas": {
+        "id": "Kenali kebiasaan menjaga kebersihan gigi yang sesuai usia anak.",
+        "en": "Learn age-appropriate oral hygiene habits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi anak",
+        "en": "Children's dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan untuk menilai kondisi gigi anak.",
+        "en": "Ask about examination availability to assess a child's dental health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan pencegahan karies",
+        "en": "Cavity prevention guidance"
+      },
+      "ringkas": {
+        "id": "Siapkan pertanyaan tentang pola makan dan perawatan gigi sehari-hari.",
+        "en": "Prepare questions about diet and everyday dental care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan gigi anak",
+      "en": "Children's visit preparation guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kelompok usia anak dan lihat daftar pertanyaan yang bisa dibawa saat konsultasi.",
+      "en": "Choose a child's age group and review questions to bring to a consultation."
+    },
+    "alasan_dipilih": "Sumber universitas mengonfirmasi keahlian kedokteran gigi anak dan aktivitas edukasi kesehatan gigi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah dokter memiliki keahlian gigi anak?",
+        "en": "Does the dentist specialize in children's dentistry?"
+      },
+      "a": {
+        "id": "Dokumen universitas mencantumkan drg. Atiek Driana Rahmawati dengan gelar Sp.KGA.",
+        "en": "A university document lists drg. Atiek Driana Rahmawati with the Sp.KGA qualification."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik saat ini?",
+        "en": "Where is the current practice?"
+      },
+      "a": {
+        "id": "Alamat praktik yang ditemukan berasal dari dokumen lama dan belum dapat dipastikan masih berlaku.",
+        "en": "The available practice address comes from an older document and has not been reconfirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check availability?"
+      },
+      "a": {
+        "id": "Jadwal praktik terkini belum ditemukan. Pastikan kontak yang digunakan masih berlaku sebelum membuat janji.",
+        "en": "A current schedule was not found. Verify contact details before arranging an appointment."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What is the consultation fee?"
+      },
+      "a": {
+        "id": "Informasi harga resmi belum ditemukan pada sumber yang diperiksa.",
+        "en": "No official consultation fee was found in the reviewed sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang disiapkan untuk kunjungan anak?",
+        "en": "How should I prepare my child?"
+      },
+      "a": {
+        "id": "Catat keluhan, riwayat perawatan, dan pertanyaan yang ingin disampaikan saat konsultasi.",
+        "en": "Write down symptoms, dental history, and questions for the consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi praktik terlebih dahulu",
+    "en": "Verify current practice details first"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan apakah nomor ini masih digunakan untuk jadwal praktik drg. Atiek Driana Rahmawati, Sp.KGA. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai drg. Atiek Driana Rahmawati, Sp.KGA, dan kegiatan edukasi kesehatan gigi anak. Kami menyiapkan konsep website untuk menyajikan informasi praktik dan panduan bagi orang tua. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-atiek. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website informasi drg. Atiek Driana Rahmawati",
+    "email_isi": "Yth. Bapak/Ibu,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai keahlian kedokteran gigi anak dan kegiatan edukasi drg. Atiek Driana Rahmawati. Kami telah menyiapkan konsep website yang memudahkan keluarga memperoleh informasi dan menyiapkan pertanyaan sebelum konsultasi.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-atiek. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

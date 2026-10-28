@@ -1,0 +1,132 @@
+{
+  "id": "W2090",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktek Drg Any Astutie",
+      "en": "Drg Any Astutie dental practice"
+    },
+    "sub": {
+      "id": "Temukan lokasi praktik di Mlati dan tanyakan jadwal pemeriksaan gigi.",
+      "en": "Find the practice in Mlati and check dental appointment availability."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Check appointment times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi dan tanyakan pemeriksaan yang diperlukan.",
+        "en": "Discuss your dental concerns and possible examinations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan plak dan karang gigi.",
+        "en": "Ask about plaque and tartar removal availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan perawatan gigi berlubang setelah pemeriksaan.",
+        "en": "Discuss cavity treatment needs after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pemeriksaan menunjukkan perlunya tindakan pencabutan.",
+        "en": "Ask whether an examination indicates that extraction may be needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan sore",
+      "en": "Plan an evening visit"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi jam dari direktori, pilih waktu yang diinginkan, lalu konfirmasikan langsung sebelum berangkat.",
+      "en": "Review listed hours, choose a preferred time, and confirm directly before visiting."
+    },
+    "alasan_dipilih": "Dua direktori mencantumkan jam praktik sore hingga malam, sedangkan situs resmi dan sistem jadwal belum ditemukan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Cabakan, Sumberadi, Mlati, Sleman, Yogyakarta. Mohon konfirmasi lokasi tepat sebelum datang.",
+        "en": "Directories list Cabakan, Sumberadi, Mlati, Sleman, Yogyakarta. Please confirm the exact location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Dua direktori mencantumkan Senin–Sabtu 16.00–22.00 dan Minggu tutup. Konfirmasikan jam terbaru.",
+        "en": "Two directories list Monday–Saturday, 4–10 PM, and Sunday closed. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada scaling?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Scaling disebut pada direktori. Hubungi praktik untuk memastikan tindakan tersedia.",
+        "en": "Cleaning is mentioned in directory listings. Contact the practice to confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What is the consultation fee?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan. Tanyakan biaya kepada pihak praktik sebelum membuat janji.",
+        "en": "An official fee was not found. Please ask the practice before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Silakan tanyakan langsung.",
+        "en": "Insurance arrangements have not been verified. Please check directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi lokasi dan waktu kunjungan",
+    "en": "Confirm the location and visit time"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg Any Astutie di Mlati dan perkiraan biaya konsultasi gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek Drg Any Astutie. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Cabakan, Mlati, dengan jadwal sore pada direktori publik. Kami telah menyiapkan konsep website untuk memudahkan pasien melihat lokasi dan menanyakan jadwal. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-any. Silakan dilihat bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Praktek Drg Any Astutie",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktek Drg Any Astutie,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di kawasan Cabakan, Mlati, dan telah menyiapkan konsep website untuk membantu pasien menemukan lokasi serta menanyakan jadwal sore dengan mudah.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/drg-any. Proposal PDF terlampir sebagai bahan pertimbangan. Silakan ditinjau bila berkenan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

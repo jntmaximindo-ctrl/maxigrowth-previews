@@ -1,0 +1,142 @@
+{
+  "id": "W2084",
+  "hero": {
+    "judul": {
+      "id": "Informasi perawatan gigi RD Dental Center Parangtritis",
+      "en": "Dental care at RD Dental Center Parangtritis"
+    },
+    "sub": {
+      "id": "Temukan layanan, lokasi cabang, dan cara menanyakan jadwal pemeriksaan.",
+      "en": "Explore treatments, branch information, and how to check appointment availability."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan plak dan karang gigi berdasarkan hasil pemeriksaan.",
+        "en": "Removal of plaque and tartar following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi dan tahapan perawatan yang sesuai.",
+        "en": "Discuss your dental alignment and possible treatment steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan untuk menilai kebutuhan perawatan bagian dalam gigi.",
+        "en": "An examination to assess whether treatment inside a tooth is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Tooth replacement"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan untuk mengganti gigi yang hilang.",
+        "en": "Explore options for replacing missing teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemutihan gigi",
+        "en": "Teeth whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian tindakan setelah pemeriksaan kondisi gigi.",
+        "en": "Ask about suitability after an assessment of your teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih cabang dan siapkan kunjungan",
+      "en": "Choose a branch and plan your visit"
+    },
+    "penjelasan": {
+      "id": "Lihat lokasi RD Dental Center, pilih cabang yang dituju, lalu konfirmasikan jadwal dan kontak sebelum datang.",
+      "en": "Browse RD Dental Center locations, choose a branch, and confirm its contact details and appointment times."
+    },
+    "alasan_dipilih": "Situs resmi mencantumkan sejumlah cabang dan informasi kontak, tetapi belum menyediakan pemilihan cabang dan jadwal dokter terstruktur."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi cabang Parangtritis?",
+        "en": "Where is the Parangtritis branch?"
+      },
+      "a": {
+        "id": "Jl. Parangtritis No. 28, Mantrijeron, Yogyakarta, sebagaimana tercantum pada situs resmi RD Dental Center.",
+        "en": "The official RD Dental Center website lists Jl. Parangtritis No. 28, Mantrijeron, Yogyakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa membuat janji?",
+        "en": "Can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Silakan hubungi kontak cabang untuk menanyakan jadwal pemeriksaan yang tersedia.",
+        "en": "Please contact the branch to check available appointment times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan kawat gigi?",
+        "en": "Is orthodontic care available?"
+      },
+      "a": {
+        "id": "Situs resmi jaringan mencantumkan perawatan ortodonti. Konfirmasikan ketersediaan dokter dan jadwal di cabang Parangtritis.",
+        "en": "The network website lists orthodontic care. Please confirm dentist availability at the Parangtritis branch."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much is a cleaning?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan pada sumber yang diperiksa. Tanyakan estimasi biaya kepada cabang.",
+        "en": "An official price was not found in the reviewed sources. Please ask the branch for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the branch open on Sundays?"
+      },
+      "a": {
+        "id": "Informasi jam Minggu untuk cabang ini belum dapat dipastikan. Hubungi cabang sebelum berkunjung.",
+        "en": "Sunday hours for this branch have not been confirmed. Please contact the branch before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi cabang untuk konfirmasi jadwal",
+    "en": "Contact the branch to confirm appointment times"
+  },
+  "pesan_wa_default": "Halo RD Dental Center Parangtritis, saya ingin menanyakan jadwal konsultasi gigi, dokter yang tersedia, dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola RD Dental Center Jalan Parangtritis. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat RD Dental Center memiliki beberapa cabang dan informasi layanan di situs resminya. Kami telah menyiapkan konsep website dengan navigasi cabang serta informasi jadwal yang lebih mudah diakses pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/rd-center. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website RD Dental Center Parangtritis",
+    "email_isi": "Yth. Bapak/Ibu Pengelola RD Dental Center,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat RD Dental Center memiliki sejumlah cabang dan beragam layanan yang tercantum pada situs resmi. Kami telah menyiapkan konsep website dengan navigasi cabang serta jalur pertanyaan jadwal yang lebih mudah digunakan pasien.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/rd-center. Proposal PDF terlampir untuk bahan pertimbangan. Silakan ditinjau sesuai waktu Bapak/Ibu.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

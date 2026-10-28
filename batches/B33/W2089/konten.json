@@ -1,0 +1,142 @@
+{
+  "id": "W2089",
+  "hero": {
+    "judul": {
+      "id": "Dentes Monjali: layanan dan jadwal dokter",
+      "en": "Dentes Monjali: care and dentist schedules"
+    },
+    "sub": {
+      "id": "Temukan lokasi cabang Monjali, pilihan perawatan, dan informasi dokter untuk merencanakan kunjungan.",
+      "en": "Find the Monjali branch, explore care options, and check dentist information before your visit."
+    },
+    "cta": {
+      "id": "Cari jadwal dokter",
+      "en": "Find dentist schedules"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan plak dan karang gigi berdasarkan pemeriksaan dokter.",
+        "en": "Plaque and tartar removal following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai kebutuhan dan kondisi gigi.",
+        "en": "Treatment of tooth decay based on individual dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Perawatan bagian dalam gigi setelah pemeriksaan dan penilaian dokter.",
+        "en": "Care for the inside of a tooth following clinical assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan posisi gigi dan rencana perawatan bersama dokter.",
+        "en": "Discuss alignment concerns and possible treatment plans."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian gigi yang hilang.",
+        "en": "Discuss options for replacing missing teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Cari dokter berdasarkan hari",
+      "en": "Find a dentist by day"
+    },
+    "penjelasan": {
+      "id": "Pilih hari untuk melihat jadwal dokter yang tercantum pada situs resmi, lalu konfirmasikan jadwal terbaru dengan cabang.",
+      "en": "Choose a day to view schedules listed on the official website, then confirm current availability with the branch."
+    },
+    "alasan_dipilih": "Jadwal dokter cabang Monjali tersedia pada profil dokter resmi tetapi tersebar di beberapa halaman."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Dentes Monjali?",
+        "en": "Where is Dentes Monjali?"
+      },
+      "a": {
+        "id": "Jl. Monjali No.91A, Gemawang, Sinduadi, Mlati, Sleman, Yogyakarta.",
+        "en": "Jl. Monjali No.91A, Gemawang, Sinduadi, Mlati, Sleman, Yogyakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana melihat jadwal dokter?",
+        "en": "How can I check dentist schedules?"
+      },
+      "a": {
+        "id": "Situs resmi mencantumkan jadwal dokter. Hubungi cabang untuk memastikan ketersediaan terbaru.",
+        "en": "The official website lists dentist schedules. Contact the branch to confirm current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan saluran akar?",
+        "en": "Is root canal treatment available?"
+      },
+      "a": {
+        "id": "Perawatan saluran akar tercantum pada layanan jaringan Dentes. Konfirmasikan jadwal dokter yang menangani.",
+        "en": "Root canal treatment is listed among Dentes services. Confirm the appropriate dentist's availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does cleaning cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Tanyakan estimasi kepada cabang setelah menjelaskan kebutuhan Anda.",
+        "en": "An official price list was not found. Ask the branch for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Informasi jam Minggu berbeda antarsumber. Konfirmasikan langsung sebelum berkunjung.",
+        "en": "Sunday hours differ between sources. Please confirm directly before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal kunjungan Monjali",
+    "en": "Confirm your Monjali appointment"
+  },
+  "pesan_wa_default": "Halo Dentes Monjali, saya ingin menanyakan jadwal dokter dan ketersediaan konsultasi gigi di cabang Monjali No.91A. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dentes Monjali. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs resmi Dentes sudah memuat jadwal dokter, tetapi informasinya berada di beberapa halaman. Kami menyiapkan konsep website dengan pencarian jadwal dokter per hari untuk cabang Monjali. Konsep dapat ditinjau di https://maxigrowthstudio.com/dentes-monjali. Silakan dilihat bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website Dentes Monjali",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Dentes Monjali,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat situs resmi Dentes sudah menyediakan informasi cabang, layanan, dan jadwal dokter. Kami telah menyiapkan konsep website yang membantu pasien menemukan jadwal dokter Monjali berdasarkan hari.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/dentes-monjali. Proposal PDF terlampir untuk bahan pertimbangan. Silakan ditinjau sesuai waktu Bapak/Ibu.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
