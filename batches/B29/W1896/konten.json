@@ -1,0 +1,132 @@
+{
+  "id": "W1896",
+  "hero": {
+    "judul": {
+      "id": "Dental Abadi Batam",
+      "en": "Dental Abadi Batam"
+    },
+    "sub": {
+      "id": "Informasi lokasi di Bida Ayu dan persiapan kunjungan. Konfirmasikan jadwal serta kebutuhan Anda sebelum datang.",
+      "en": "Location information for Bida Ayu and visit planning. Confirm the schedule and your needs before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan informasi kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan jam yang tersedia sebelum berangkat.",
+        "en": "Ask about available days and times before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi Bida Ayu",
+        "en": "Bida Ayu location"
+      },
+      "ringkas": {
+        "id": "Direktori mencatat Perum Bida Ayu, Jalan S. Parman, Mangsang, Batam.",
+        "en": "The directory lists Perum Bida Ayu, Jalan S. Parman, Mangsang, Batam."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan pemeriksaan",
+        "en": "Your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda untuk menanyakan tindakan dan dokter yang tersedia.",
+        "en": "Describe your needs and ask which care and clinicians are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Mintalah penjelasan tarif sebelum menyetujui rencana perawatan.",
+        "en": "Ask for a fee explanation before agreeing to a care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan Bida Ayu",
+      "en": "Bida Ayu visit checklist"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang lokasi, waktu kunjungan, kebutuhan Anda, dan biaya untuk dikonfirmasikan kepada admin.",
+      "en": "Prepare questions about the location, visit time, your needs, and costs to confirm with the team."
+    },
+    "alasan_dipilih": "Alamat direktori tersedia, tetapi jadwal dan rincian layanan belum ditemukan; alur konfirmasi membantu persiapan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Dental Abadi?",
+        "en": "Where is Dental Abadi?"
+      },
+      "a": {
+        "id": "Direktori mencatat Perum Bida Ayu, Jl. S. Parman, Mangsang, Sei Beduk, Batam. Konfirmasikan petunjuk lokasi sebelum datang.",
+        "en": "The directory lists Perum Bida Ayu, Jl. S. Parman, Mangsang, Sei Beduk, Batam. Confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan tempat ini buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam belum tersedia di halaman ini. Tanyakan jadwal terbaru melalui kontak yang tercantum.",
+        "en": "Hours are not listed here. Ask for the latest schedule using the listed contact."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Tanyakan biaya sesuai kebutuhan kunjungan Anda.",
+        "en": "Fees are not available here. Ask about costs for your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda kepada admin untuk konfirmasi layanan dan dokter.",
+        "en": "Share your needs with the clinic to confirm available care and clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Konfirmasikan jenis asuransi dan ketentuan pembayaran sebelum datang.",
+        "en": "Confirm accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo Dental Abadi, saya ingin menanyakan informasi kunjungan di Bida Ayu, Batam. Mohon konfirmasi jadwal, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dental Abadi Batam. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan lokasi di Bida Ayu, Jalan S. Parman. Kami sudah membuat konsep website dengan alur informasi kunjungan: https://maxigrowthstudio.com/abadi. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Dental Abadi Batam",
+    "email_isi": "Halo Bapak/Ibu pengelola Dental Abadi Batam,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan lokasi di Bida Ayu, Jalan S. Parman. Kami sudah membuat konsep website yang membantu pengunjung menanyakan lokasi, jadwal, dan kebutuhan kunjungan: https://maxigrowthstudio.com/abadi.\n\nProposal PDF terlampir untuk ditinjau saat berkenan. Kami terbuka terhadap koreksi informasi.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

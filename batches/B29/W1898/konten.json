@@ -1,0 +1,132 @@
+{
+  "id": "W1898",
+  "hero": {
+    "judul": {
+      "id": "Happy Dental Clinic Botani Square",
+      "en": "Happy Dental Clinic Botani Square"
+    },
+    "sub": {
+      "id": "Perawatan gigi di Botani Square, Bogor. Rencanakan kunjungan dan konfirmasikan jadwal perawatan Anda.",
+      "en": "Dental care at Botani Square, Bogor. Plan your visit and confirm your care appointment."
+    },
+    "cta": {
+      "id": "Tanyakan reservasi",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan jadwal dan biaya sebelum kunjungan.",
+        "en": "Tartar cleaning. Ask about appointments and costs before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan setelah pemeriksaan kondisi gigi.",
+        "en": "Ask about filling options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan pencabutan dengan dokter saat pemeriksaan.",
+        "en": "Discuss whether extraction is needed during your examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Dental whitening",
+        "en": "Dental whitening"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian dan pilihan perawatan untuk warna gigi Anda.",
+        "en": "Ask about an assessment and options for your tooth colour."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan ke Botani Square",
+      "en": "Plan your Botani Square visit"
+    },
+    "penjelasan": {
+      "id": "Pilih hari kunjungan, lihat lokasi LG Unit 2A, lalu tanyakan jadwal perawatan kepada admin.",
+      "en": "Choose a visit day, check the LG Unit 2A location, and ask the clinic about appointments."
+    },
+    "alasan_dipilih": "Cabang berada di dalam mall dan situs mencatat jam harian; petunjuk lantai dan reservasi membantu perencanaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di lantai berapa klinik berada?",
+        "en": "Which floor is the clinic on?"
+      },
+      "a": {
+        "id": "Klinik tercatat di Botani Square Mall, lantai LG Unit 2A, Jl. Pajajaran No.40, Bogor.",
+        "en": "The clinic is listed at Botani Square Mall, LG Unit 2A, Jl. Pajajaran No.40, Bogor."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs cabang mencatat setiap hari 10.00–22.00 WIB. Konfirmasikan jadwal dokter sebelum datang.",
+        "en": "The branch website lists daily hours of 10 am–10 pm WIB. Confirm the clinician’s schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif belum tercantum di halaman ini. Mintalah rincian sesuai rencana pemeriksaan dan tindakan.",
+        "en": "Fees are not listed here. Ask for a breakdown for your examination and proposed care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya bisa menanyakan scaling?",
+        "en": "Can I ask about scaling?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada situs cabang. Tanyakan ketersediaan jadwal dan kebutuhan pemeriksaan.",
+        "en": "Scaling is listed on the branch website. Ask about appointments and the required assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi saya diterima?",
+        "en": "Is my insurance accepted?"
+      },
+      "a": {
+        "id": "Sampaikan nama asuransi dan tanyakan cakupan serta prosedurnya kepada admin cabang.",
+        "en": "Tell the branch your insurer’s name and ask about coverage and procedures."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo Happy Dental Clinic Botani Square, saya ingin menanyakan reservasi. Mohon informasi jadwal dokter, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Happy Dental Clinic Botani Square. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi LG Unit 2A dan jadwal setiap hari dapat membantu pasien merencanakan kunjungan. Kami sudah membuat konsep website: https://maxigrowthstudio.com/happy-botani. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Happy Dental Botani Square",
+    "email_isi": "Halo Bapak/Ibu pengelola Happy Dental Clinic Botani Square,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Cabang di LG Unit 2A dengan jadwal setiap hari memberi dasar untuk alur perencanaan kunjungan yang jelas. Kami sudah membuat konsep website untuk ditinjau: https://maxigrowthstudio.com/happy-botani.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi cabang.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

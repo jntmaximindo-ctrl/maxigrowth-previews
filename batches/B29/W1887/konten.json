@@ -1,0 +1,132 @@
+{
+  "id": "W1887",
+  "hero": {
+    "judul": {
+      "id": "Konsultasi bersama drg. Calvin Kurnia",
+      "en": "Consultations with drg. Calvin Kurnia"
+    },
+    "sub": {
+      "id": "Informasi periodonsia dan persiapan konsultasi di Astana Anyar, Bandung.",
+      "en": "Periodontal information and consultation preparation in Astana Anyar, Bandung."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal dokter",
+      "en": "Confirm the dentist’s availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi periodonsia",
+        "en": "Periodontal consultation"
+      },
+      "ringkas": {
+        "id": "Bahas keluhan gusi dan kebutuhan pemeriksaan dengan dokter.",
+        "en": "Discuss gum concerns and examination needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi implan",
+        "en": "Implant consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian kondisi dan tahapan yang mungkin diperlukan.",
+        "en": "Ask about assessment and possible treatment stages."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bedah periodontal",
+        "en": "Periodontal surgery"
+      },
+      "ringkas": {
+        "id": "Diskusikan kesesuaian dan pilihan perawatan setelah pemeriksaan.",
+        "en": "Discuss suitability and treatment options after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Regenerasi tulang",
+        "en": "Bone regeneration"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah topik ini relevan dengan rencana perawatan Anda.",
+        "en": "Ask whether this topic is relevant to your treatment plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih topik konsultasi",
+      "en": "Choose a consultation topic"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan seputar gusi atau implan, lalu tanyakan kebutuhan dokumen kepada admin.",
+      "en": "Prepare questions about gums or implants, then ask the administrator about documents to bring."
+    },
+    "alasan_dipilih": "Mengikuti bidang kepakaran yang tercantum pada profil resmi tanpa menentukan diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik Astana Anyar?",
+        "en": "Where is the Astana Anyar practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Astana Anyar No.30, Cibadak, Bandung. Konfirmasikan saat membuat janji.",
+        "en": "The directory lists Jl. Astana Anyar No.30, Cibadak, Bandung. Confirm when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi admin dan sebutkan ingin konsultasi dengan drg. Calvin Kurnia.",
+        "en": "Contact the administrator and request a consultation with drg. Calvin Kurnia."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter tersedia?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Jam lokasi tidak sama dengan jadwal pribadi dokter. Minta konfirmasi tanggal dan jam.",
+        "en": "Location hours are not the dentist’s personal schedule. Confirm the date and time."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi atau implan?",
+        "en": "What are consultation or implant fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian setelah pemeriksaan dan sebelum menyetujui tindakan.",
+        "en": "Prices are unavailable. Request a breakdown after examination and before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Penjamin belum terverifikasi untuk lokasi ini. Tanyakan cakupan kepada admin.",
+        "en": "Insurance arrangements at this location are unverified. Ask the administrator about coverage."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan persiapan konsultasi",
+    "en": "Ask about availability and consultation preparation"
+  },
+  "pesan_wa_default": "Halo admin Dentalhaus, saya ingin membuat janji dengan drg. Calvin Kurnia, Sp.Perio. Mohon konfirmasi lokasi Astana Anyar, jadwal, biaya pemeriksaan, dan dokumen yang perlu dibawa. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen praktik drg. Calvin Kurnia, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Profil resmi dokter mencantumkan periodonsia dan implantologi. Kami menyiapkan draf konsep panduan konsultasi; setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/drg-calvin. Mohon konfirmasi informasi lokasi dan jadwal. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep panduan konsultasi drg. Calvin Kurnia",
+    "email_isi": "Halo manajemen praktik drg. Calvin Kurnia, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan topik konsultasi periodonsia dan implan untuk lokasi Astana Anyar. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/drg-calvin. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Informasi lokasi, jadwal dokter, dan rincian layanan perlu dikonfirmasi sebelum publikasi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}

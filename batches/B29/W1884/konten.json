@@ -1,0 +1,132 @@
+{
+  "id": "W1884",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Kesuma Nasseri",
+      "en": "Practice information for drg. Kesuma Nasseri"
+    },
+    "sub": {
+      "id": "Persiapkan pertanyaan dan konfirmasikan kunjungan Anda di Bandung.",
+      "en": "Prepare your questions and confirm your visit in Bandung."
+    },
+    "cta": {
+      "id": "Konfirmasi melalui telepon",
+      "en": "Confirm by telephone"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan jelaskan keluhan Anda.",
+        "en": "Ask about examination availability and describe your concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan catatan perawatan yang perlu dibawa.",
+        "en": "Ask which documents and treatment records to bring."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi lokasi",
+        "en": "Location confirmation"
+      },
+      "ringkas": {
+        "id": "Pastikan nomor bangunan dan petunjuk lokasi melalui telepon.",
+        "en": "Confirm the building number and directions by phone."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan sebelum membuat janji.",
+        "en": "Request examination fee details before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan sebelum menelepon",
+      "en": "Prepare before calling"
+    },
+    "penjelasan": {
+      "id": "Catat kebutuhan konsultasi, lalu tanyakan alamat, jadwal, dan biaya melalui telepon.",
+      "en": "Note your consultation needs, then ask about the address, availability and fees by telephone."
+    },
+    "alasan_dipilih": "Nomor publik yang ditemukan berupa telepon tetap dan alamat masih berbeda antar sumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Telepon publik yang ditemukan adalah 0225201627. Nomor WhatsApp belum ditemukan.",
+        "en": "The listed public telephone is 0225201627. A WhatsApp number has not been found."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana alamatnya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan Jalan Otto Iskandar Dinata, Bandung, dengan perbedaan nomor bangunan. Pastikan alamat melalui telepon.",
+        "en": "Public sources list Jalan Otto Iskandar Dinata, Bandung, with different building numbers. Confirm by phone."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter praktik?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Jadwal terbaru belum terverifikasi. Tanyakan hari dan jam saat menelepon.",
+        "en": "The current schedule is unverified. Ask about days and times when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta informasi biaya sebelum mengonfirmasi kunjungan.",
+        "en": "Prices are unavailable. Ask about fees before confirming a visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Cakupan asuransi belum terverifikasi. Tanyakan kepada admin sebelum datang.",
+        "en": "Insurance arrangements are unverified. Ask the administrator before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan alamat dan jadwal terbaru",
+    "en": "Ask for the current address and schedule"
+  },
+  "pesan_wa_default": "Halo admin praktik drg. Kesuma Nasseri, saya ingin menanyakan alamat lengkap, jadwal pemeriksaan, dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen praktik drg. Kesuma Nasseri, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep informasi praktik di Bandung dengan panduan persiapan kunjungan melalui telepon. Setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/drg-kesuma. Informasi alamat dan jadwal perlu dikonfirmasi. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep informasi praktik drg. Kesuma Nasseri",
+    "email_isi": "Halo manajemen praktik drg. Kesuma Nasseri, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan persiapan kunjungan dan konfirmasi melalui telepon untuk praktik di Bandung. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/drg-kesuma. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Alamat lengkap, jadwal, dan layanan perlu dikonfirmasi sebelum publikasi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}

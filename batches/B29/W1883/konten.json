@@ -1,0 +1,132 @@
+{
+  "id": "W1883",
+  "hero": {
+    "judul": {
+      "id": "Provita Dental Care",
+      "en": "Provita Dental Care"
+    },
+    "sub": {
+      "id": "Siapkan kunjungan Anda ke Ciumbuleuit, Bandung. Konfirmasikan jadwal dan kebutuhan perawatan terlebih dahulu.",
+      "en": "Plan your visit to Ciumbuleuit, Bandung. Confirm the schedule and your care needs in advance."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan jam yang tersedia sebelum berangkat.",
+        "en": "Ask about available dates and times before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Direktori mencatat Jl. Ciumbuleuit No.40, Bandung. Konfirmasikan petunjuk lokasi kepada admin.",
+        "en": "The directory lists Jl. Ciumbuleuit No.40, Bandung. Confirm directions with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan pemeriksaan",
+        "en": "Your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda untuk menanyakan tindakan dan dokter yang tersedia.",
+        "en": "Describe your needs and ask which care and clinicians are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Mintalah penjelasan tarif sebelum menyetujui rencana perawatan.",
+        "en": "Ask for a fee explanation before agreeing to a care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit checklist"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, kebutuhan pemeriksaan, dan biaya untuk dikonfirmasikan kepada admin.",
+      "en": "Prepare questions about appointments, your care needs, and costs to confirm with the clinic."
+    },
+    "alasan_dipilih": "Sumber memiliki perbedaan jam dan nomor; alur konfirmasi membantu pasien memperoleh informasi terbaru."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Provita Dental Care?",
+        "en": "Where is Provita Dental Care?"
+      },
+      "a": {
+        "id": "Direktori mencatat Jl. Ciumbuleuit No.40, Hegarmanah, Bandung. Konfirmasikan alamat sebelum berkunjung.",
+        "en": "The directory lists Jl. Ciumbuleuit No.40, Hegarmanah, Bandung. Confirm the address before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Hubungi admin untuk jadwal terkini sebelum berangkat.",
+        "en": "Contact the clinic for current opening hours before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Tanyakan biaya sesuai kebutuhan kunjungan Anda.",
+        "en": "Fees are not available here. Ask about costs for your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda kepada admin untuk konfirmasi layanan dan dokter.",
+        "en": "Share your needs with the clinic to confirm available care and clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Konfirmasikan jenis asuransi dan ketentuan pembayaran sebelum datang.",
+        "en": "Confirm accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo Provita Dental Care, saya ingin menanyakan jadwal kunjungan di Ciumbuleuit. Mohon konfirmasi jadwal, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Provita Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencatat lokasi di Ciumbuleuit No.40. Kami sudah membuat konsep website dengan informasi kunjungan dan alur konfirmasi jadwal: https://maxigrowthstudio.com/provita. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Provita Dental Care",
+    "email_isi": "Halo Bapak/Ibu pengelola Provita Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencatat lokasi klinik di Ciumbuleuit No.40. Kami sudah membuat konsep website untuk membantu pasien meninjau lokasi dan menanyakan jadwal: https://maxigrowthstudio.com/provita.\n\nProposal PDF terlampir untuk ditinjau saat berkenan. Kami terbuka terhadap koreksi informasi klinik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

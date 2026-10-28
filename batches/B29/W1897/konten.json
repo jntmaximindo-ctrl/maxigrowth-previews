@@ -1,0 +1,132 @@
+{
+  "id": "W1897",
+  "hero": {
+    "judul": {
+      "id": "Klinik Q Medical n Dental Clinic",
+      "en": "Klinik Q Medical n Dental Clinic"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan konsultasi gigi di Bogor Tengah.",
+      "en": "Visit and dental consultation information in Bogor Tengah."
+    },
+    "cta": {
+      "id": "Konfirmasi melalui telepon",
+      "en": "Confirm by telephone"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan sampaikan kebutuhan kunjungan.",
+        "en": "Ask about examination times and explain your visit needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen yang perlu dibawa saat membuat janji.",
+        "en": "Ask which documents to bring when booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan ketersediaan dokter melalui telepon sebelum datang.",
+        "en": "Confirm dentist availability by telephone before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya konsultasi dan tindakan yang direncanakan.",
+        "en": "Request consultation fees and proposed procedure costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan janji konsultasi",
+      "en": "Prepare for your consultation"
+    },
+    "penjelasan": {
+      "id": "Catat kebutuhan kunjungan, lalu tanyakan jadwal, dokumen, dan biaya saat menelepon admin.",
+      "en": "Note your visit needs, then ask about appointments, documents and fees when calling the administrator."
+    },
+    "alasan_dipilih": "Kontak publik yang ditemukan berupa telepon tetap; panduan membantu menyiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Tentara Pelajar No.20G, Ciwaringin, Bogor Tengah. Konfirmasikan alamat sebelum datang.",
+        "en": "The directory lists Jl. Tentara Pelajar No.20G, Ciwaringin, Bogor Tengah. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Telepon publik yang ditemukan adalah 02518332008. Nomor WhatsApp belum tersedia.",
+        "en": "The listed public telephone is 02518332008. A WhatsApp number is unavailable."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter gigi tersedia?",
+        "en": "When is a dentist available?"
+      },
+      "a": {
+        "id": "Jam lokasi dari sumber lama belum memastikan jadwal dokter. Tanyakan jadwal terbaru saat menelepon.",
+        "en": "Older location hours do not establish dentist availability. Ask for the current schedule when calling."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya sebelum mengonfirmasi kunjungan.",
+        "en": "Prices are unavailable. Request fee details before confirming a visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Daftar penjamin belum terverifikasi. Tanyakan cakupan kepada admin.",
+        "en": "Insurance arrangements are unverified. Ask the administrator about coverage."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan biaya pemeriksaan",
+    "en": "Ask about appointments and examination fees"
+  },
+  "pesan_wa_default": "Halo admin Klinik Q Medical n Dental Clinic, saya ingin menanyakan jadwal dokter gigi, biaya pemeriksaan, dan konfirmasi lokasi di Tentara Pelajar No.20G. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen Klinik Q Medical n Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep informasi lokasi Tentara Pelajar dengan panduan persiapan konsultasi melalui telepon. Setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/q-medical. Mohon konfirmasi informasi sebelum ditampilkan. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Klinik Q Bogor",
+    "email_isi": "Halo manajemen Klinik Q Medical n Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website untuk informasi kunjungan di Tentara Pelajar, Bogor, dan panduan persiapan konsultasi. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/q-medical. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Informasi dokter, jadwal, dan layanan perlu dikonfirmasi sebelum publikasi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}
