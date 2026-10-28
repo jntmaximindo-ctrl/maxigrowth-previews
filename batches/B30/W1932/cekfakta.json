@@ -1,0 +1,23 @@
+{
+  "id": "W1932",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Singosari No.2D, Sei Rengas Permata, Kec. Medan Area, Kota Medan, Sumatera Utara 20211",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/van-dental-solution-vds-dokter-gigi-medan-drg-vandersun-lestari-sp-perio-and-drg-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–21.00; Sabtu 09.00–19.30; Minggu tutup WIB (direktori)",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/van-dental-solution-vds-dokter-gigi-medan-drg-vandersun-lestari-sp-perio-and-drg-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

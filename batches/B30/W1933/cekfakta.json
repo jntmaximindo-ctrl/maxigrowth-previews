@@ -1,0 +1,58 @@
+{
+  "id": "W1933",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Sheen Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/sheendentalcare",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://instagram.com/sheendentalcare",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/sheendentalcare",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Halat No.128 B, Pasar Merah Timur, Kec. Medan Area, Kota Medan, Sumatera Utara 20217",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/sheen-dental-care-1058839",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285219729191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/sheen-dental-care-1058839",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285219729191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/sheen-dental-care-1058839",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 10.00–19.00 WIB (direktori); Minggu belum ditemukan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/sheen-dental-care-1058839",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/sheendentalcare [nama]",
+    "https://linktr.ee/sheendentalcare [instagram]",
+    "https://idalamat.com/alamat/sheen-dental-care-1058839 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/sheen-dental-care-1058839 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/sheen-dental-care-1058839 [cabang[0].wa]",
+    "https://idalamat.com/alamat/sheen-dental-care-1058839 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
