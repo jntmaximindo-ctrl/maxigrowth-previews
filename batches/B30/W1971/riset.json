@@ -81,5 +81,12 @@
   "sumber": [
     "https://www.bcalife.co.id/layanan/jaringan-rs/klinik/dentika-klinik-gigi",
     "https://indonesiaknowledge.com/directory/dental/padang/dentika-klinik-gigi-padang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"10-20\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

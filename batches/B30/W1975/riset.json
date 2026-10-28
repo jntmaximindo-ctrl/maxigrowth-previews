@@ -79,5 +79,32 @@
   "sumber": [
     "https://idalamat.com/alamat/1059066/fadents-padang-sumatera-barat",
     "https://halaman-kuning.cybo.com/ID/kota-padang/orthodontists"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Fadents",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. S. Parman No.171, Ulak Karang Selatan, Kec. Padang Utara, Kota Padang, Sumatera Barat 25134",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281227100025",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281227100025",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11-21\", \"sel\": \"11-21\", \"rab\": \"11-21\", \"kam\": \"11-21\", \"jum\": \"11-21\", \"sab\": \"11-21\", \"min\": \"11-21\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
