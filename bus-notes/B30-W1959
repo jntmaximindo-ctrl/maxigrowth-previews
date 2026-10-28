@@ -79,16 +79,5 @@ RISET LAMA:
     "https://densia.id/kota/kota-padang/",
     "https://densia.id/kota/kota-padang/layanan/perawatan-umum/"
   ],
-  "verifikasi_manual": [
-    {
-      "path": "nama",
-      "tercatat": "Oxy Dental Care",
-      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Raya Kuranji, samping Makam Pahlawan, Kuranji, Padang 25176",
-      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
-    }
-  ]
+  "verifikasi_manual": []
 }
