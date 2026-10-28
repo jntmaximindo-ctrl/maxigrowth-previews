@@ -86,13 +86,15 @@ for h in sorted(hist, key=lambda x: x["t"]):  # tanam dari riwayat 48 jam (awal 
     harian.setdefault(tg, {"awal": h["lulus"], "akhir": h["lulus"], "siap": h.get("siap", 0)})
     if h["t"] >= harian[tg].get("t_akhir", ""):
         harian[tg].update(akhir=h["lulus"], siap=h.get("siap", 0), t_akhir=h["t"])
-daftar_harian, prev = [], None
+daftar_harian, prev, prev_siap = [], None, None
 for tg in sorted(harian):
     x = harian[tg]
     dasar = prev if prev is not None else x["awal"]
     daftar_harian.append({"tanggal": tg, "lulus_akhir": x["akhir"], "siap_reachout_akhir": x.get("siap", 0),
                           "tambahan_hari_itu": {k: max(x["akhir"].get(k, 0) - dasar.get(k, 0), 0) for k in x["akhir"]}})
+    daftar_harian[-1]["tambahan_hari_itu"]["siap_reachout"] = max(x.get("siap", 0) - prev_siap, 0) if prev_siap is not None else None
     prev = x["akhir"]
+    prev_siap = x.get("siap", 0)
 hari_ini_s, kemarin_s = NOW.strftime("%Y-%m-%d"), (NOW - dt.timedelta(days=1)).strftime("%Y-%m-%d")
 kemarin = next((d for d in daftar_harian if d["tanggal"] == kemarin_s), None)
 
