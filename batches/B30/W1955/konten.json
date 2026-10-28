@@ -1,0 +1,132 @@
+{
+  "id": "W1955",
+  "hero": {
+    "judul": {
+      "id": "Majida Dental Care Padang",
+      "en": "Majida Dental Care Padang"
+    },
+    "sub": {
+      "id": "Informasi kunjungan klinik gigi di Parupuk Tabing, Padang.",
+      "en": "Dental clinic visit information in Parupuk Tabing, Padang."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan jenis perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal dokter",
+        "en": "Ask about dentist availability"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Informasi tindakan belum terverifikasi; fitur membantu persiapan tanpa membuat klaim layanan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Profesor Doktor Hamka No.122, Parupuk Tabing, Padang.",
+        "en": "Jl. Profesor Doktor Hamka No.122, Parupuk Tabing, Padang."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin-Sabtu 13.00-19.00 dan Minggu tutup. Konfirmasikan jadwal terbaru.",
+        "en": "A directory lists Monday-Saturday 13:00-19:00 and Sunday closed. Confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terverifikasi. Sampaikan kebutuhan Anda kepada admin.",
+        "en": "The treatment list has not been verified. Tell the team what you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo Majida Dental Care Padang, saya ingin menanyakan jadwal dan informasi kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Majida Dental Care Padang. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi klinik di Jl. Profesor Doktor Hamka No.122 pada direktori publik. Draf konsep website: https://maxigrowthstudio.com/majida. Usulan fiturnya adalah penyusun pertanyaan sebelum kunjungan. Informasi dapat disesuaikan dengan data klinik. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Majida Dental Care",
+    "email_isi": "Yth. Pengelola Majida Dental Care Padang,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi klinik di Jl. Profesor Doktor Hamka No.122 tercantum dalam direktori publik. Kami menyiapkan draf konsep dengan penyusun pertanyaan sebelum kunjungan.\n\nTautan konsep: https://maxigrowthstudio.com/majida. Proposal PDF terlampir untuk ditinjau. Jadwal, tindakan, dan biaya perlu disesuaikan dengan data klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
