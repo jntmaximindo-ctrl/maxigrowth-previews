@@ -1,0 +1,42 @@
+{
+  "id": "W2206",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Stefen Widokho",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Brigjend Katamso 156 Blok C, Kampung Baru, Medan Maimun, Medan, Sumatera Utara 20158",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287868584275",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287868584275",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho [nama]",
+    "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho [cabang[0].alamat]",
+    "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho [cabang[0].telepon]",
+    "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

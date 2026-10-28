@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.cybo.com/ID-biz/praktek-drg-stefen-widokho",
     "https://alamatsehat.com/dokter-gigi-drg-stefen-widokho-medan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Stefen Widokho",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Brigjend Katamso 156 Blok C, Kampung Baru, Medan Maimun, Medan, Sumatera Utara 20158",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287868584275",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287868584275",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -72,5 +72,27 @@
     "https://bukutelepon.cybo.com/ID-kode-pos/65123_kota-malang/kesehatan-dan-medis/",
     "https://id.scribd.com/document/713469611/Daftar-FKTP-0124-Publik",
     "https://alamatsehat.com/dokter-gigi-drg-ismy-awaliyah-malang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Ismy A",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Warinoi 10, Bunulrejo, Blimbing, Malang, Jawa Timur 65123",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281235076801",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281235076801",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

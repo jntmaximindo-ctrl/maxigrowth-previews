@@ -1,0 +1,16 @@
+{
+  "id": "W2221",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Mega Sepatikha Niti",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.itsk-soepraoen.ac.id/1959/5/BAB%20IV.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

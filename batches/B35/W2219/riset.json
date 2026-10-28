@@ -71,5 +71,27 @@
   "sumber": [
     "https://id.scribd.com/document/713469611/Daftar-FKTP-0124-Publik",
     "https://tipssehatcantik.com/daftar-alamat-dokter-dan-faskes-bpjs-kesehatan-kota-malang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Mohamad Samsul Arifin",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Letjen S. Parman 26A, Purwantoro, Blimbing, Malang",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281330349501",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281330349501",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

@@ -99,5 +99,12 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/malang/kedungkandang/dokter-gigi-drg-mega-sepatikha-kedu-imp1",
     "https://repository.itsk-soepraoen.ac.id/1959/5/BAB%20IV.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Mega Sepatikha Niti",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
