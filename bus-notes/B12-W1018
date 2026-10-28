@@ -70,11 +70,26 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum berhasil diverifikasi."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya; tampilkan kontak telepon praktik untuk konfirmasi.",
-  "catatan": "Revisi 28 Oktober 2026 dari riset lama pada surat tugas. Fakta kontak dan alamat diperiksa ulang pada halaman yang tercantum; tanggal fakta adalah tanggal dibaca, bukan tanggal pembaruan bisnis. harga belum tersedia. Rating dan ulasan Google Maps tidak diperiksa langsung, sehingga null. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. Tidak menghubungi klinik. Outreach hanya draf: periksa kesiapan konsep website dan lampiran proposal sebelum dipakai. Telepon dan alamat dikonfirmasi IDalamat dan CariBisnis. Keduanya mencantumkan Senin–Sabtu 17.30–21.30, tetapi riset lama mencatat konflik dengan listing Klinik Gigi OQ; Waze kini tidak dapat diakses, hubungan merek belum dipastikan, sehingga jam tetap null. Okadoc hanya menampilkan loading dan nama panjang Okky tidak ditambahkan. Nomor yang berhasil dibaca hanya telepon tetap, bukan ponsel; WA null. Hasil tetap ditulis sesuai aturan pemilik. Rincian tindakan klinis belum terverifikasi pada kanal primer; uraian direktori yang generik tidak dipakai sebagai kepastian. Empat kartu konten adalah panduan administratif, bukan daftar tindakan yang diklaim tersedia. ",
+  "catatan": "Pemeriksaan ulang 28 Oktober 2026. URL sumber dibuka dan dibaca pada tanggal ini; tanggal akses bukan tanggal pembaruan usaha. Email dan ponsel publik dicari menggunakan nama praktik, lokasi, kontak, WhatsApp dan email, lalu isi halaman sumber diperiksa; email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. harga belum tersedia; harga [] tidak berarti tarif nol. Rating dan ulasan Maps belum diperiksa langsung sehingga null. Rincian tindakan, fasilitas dan asuransi belum terverifikasi pada kanal primer; uraian generik direktori tidak dipakai sebagai kepastian. Empat kartu konten adalah panduan administratif, bukan klaim tindakan klinis tersedia. Outreach hanya draf dan belum dikirim; konsep website dan lampiran proposal harus benar-benar disiapkan sebelum digunakan. Tidak menghubungi klinik. IDalamat dan CariBisnis mencantumkan alamat dan telepon yang sama, dengan jam Senin–Sabtu 17.30–21.30. IDalamat juga memiliki kotak jam belum tersedia. Riset lama dalam surat menyebut listing Klinik Gigi OQ di alamat dan telepon sama dengan jam berbeda; hubungan merek belum dapat dipastikan dalam run ini. Jam tetap null dan nama surat dipertahankan. Nama panjang dokter tidak disimpulkan. ",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
-    "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1",
-    "https://www.waze.com/live-map/directions/id/daerah-khusus-ibukota-jakarta/klinik-gigi-oq?to=place.ChIJfyuku4z0aS4RRutlSafkVnA",
-    "https://www.okadoc.com/en-id/clinic/kota-jakarta-timur/klinik-drg-okky-somawihardja"
+    "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg.Okky S",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62218500478",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
