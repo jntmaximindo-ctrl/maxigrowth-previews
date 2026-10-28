@@ -6,7 +6,7 @@ RISET LAMA:
   "nama": {
     "v": "Success Dental Care",
     "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "kota": "Makassar",
@@ -14,41 +14,49 @@ RISET LAMA:
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "cabang": [
     {
-      "nama": "Success Dental Care",
+      "nama": "Botolempangan",
       "alamat": {
         "v": "Jl. Botolempangan No.52, Sawerigading, Makassar, Sulawesi Selatan 90115",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "624113622129",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "v": {
+          "sen": "09-18",
+          "sel": "09-18",
+          "rab": "09-18",
+          "kam": "09-18",
+          "jum": "09-18",
+          "sab": "09-18",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
       },
       "maps_url": ""
     }
@@ -59,19 +67,26 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.9,
-    "ulasan": 45,
-    "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
-    "tgl": "2026-10-28"
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-29"
   },
   "keunggulan": [],
   "situs_lama": [
-    "https://www.successdentalcare.com/"
+    "Domain successdentalcare.com tertaut pada direktori, tetapi tidak dapat diakses saat pemeriksaan. Tampilan dan isi situs belum dapat dinilai."
   ],
-  "ide_fitur_khas": "Formulir persiapan kunjungan dengan konfirmasi lokasi dan waktu melalui kontak publik.",
-  "catatan": "REVISI: telepon tetap dibaca ulang, belum ditemukan nomor ponsel. WA null dan tidak disamakan dengan telepon tetap. Domain successdentalcare.com tertaut direktori namun gagal diakses. successdentalclinic.com adalah klinik berbeda di Jakarta, tidak dipakai. Dua sumber satu penerbit. Hasil tetap dibuat sesuai instruksi lewati hanya bila tanpa nomor sama sekali. harga belum tersedia. Email, website resmi, dokter, layanan dan asuransi belum terverifikasi setelah pencarian serta pembacaan sumber. Empat kartu konten merupakan topik pertanyaan administrasi, bukan klaim tindakan. Rating/ulasan berasal dari direktori, bukan pembacaan Google Maps langsung. Tidak menghubungi klinik. Outreach hanya draf; tautan konsep dan PDF perlu disiapkan sebelum dikirim.",
+  "ide_fitur_khas": "Penyusun rencana kunjungan Botolempangan dengan pilihan hari untuk meminta konfirmasi jam dokter dan biaya.",
+  "catatan": "Revisi mempertahankan data lama yang dibaca ulang29Oktober2026. Telepon tetap04113622129 dinormalisasi624113622129; WA null karena bukan nomor ponsel. Ponsel tidak ditemukan setelah pencarian nama+Makassar+WhatsApp/James/akun. Tetap menulis hasil karena telepon publik tersedia sesuai instruksi pemilik. Direktori menyebut jamSenin–Sabtu09–18,Minggu tutup; jadwal individu dokter belum terverifikasi. Portofolio Lecylia menyebut nama SuccessDentalCareMakassar sebagai pelanggan software, tetapi nomor087836854906 dan emailcustomer_service@lecylia.com milik pemasok, BUKAN klinik. email tidak ditemukan setelah dicari di IndonesiaKnowledge dan Lecylia yang dibuka serta pencarian nama+email; domain klinik gagal diakses. successdentalclinic.com milik klinikJakarta, tidak dicampur. NamaDrJamesMailoa hanya disebut ulasan, tidak ditetapkan sebagai daftar dokter; layanan[] dan empat kartu konten informasi kunjungan. harga belum tersedia. AngkaMaps lama dari direktori dihapus karena bukan pembacaanGoogleMaps langsung. Draf outreach perlu konsep pada tautan dan PDF diperiksa pemilik sebelum digunakan; tidak dikirim.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
-    "https://indonesiaknowledge.com/directory/dental/makassar"
+    "https://lecylia.com/portofolio/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-18\", \"sel\": \"09-18\", \"rab\": \"09-18\", \"kam\": \"09-18\", \"jum\": \"09-18\", \"sab\": \"09-18\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

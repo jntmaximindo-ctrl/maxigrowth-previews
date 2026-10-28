@@ -25,9 +25,9 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Dentista+ Family Dental Clinic",
+      "nama": "Bona Indah",
       "alamat": {
-        "v": "Ruko Bona Indah Bisnis Centre 8N, Jl. Karang Tengah Raya, Lebak Bulus, Cilandak, Jakarta Selatan",
+        "v": "Ruko Bona Indah Bisnis Centre No.8N, Jl. Karang Tengah Raya, Lebak Bulus, Cilandak, Jakarta Selatan",
         "src": "https://alamatsehat.com/klinik-gigi-dokter-gigi-di-cilandak-jaksel/",
         "tgl": "2026-10-29",
         "yakin": "sedang"
@@ -66,22 +66,12 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Website mandiri belum ditemukan dalam pencarian nama/alamat. Direktori mencantumkan alamat dan telepon tetap, tetapi jadwal dokter dan tarif tidak tersedia pada halaman yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://alamatsehat.com/klinik-gigi-dokter-gigi-di-cilandak-jaksel/, https://ykpojk.or.id/Home/ViewNews.aspx?id=146E91D8-C824-4436-9980-61781E493963, https://www.okadoc.com/id-id/dokter/dokter-gigi-umum/jakarta-selatan/melissa-delania, https://www.okadoc.com/id-id/dokter/dokter-gigi-umum/kota-jakarta-selatan/nabila-annisa-mayanda. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Alamat dan telepon tetap cocok pada AlamatSehat dan daftar YKP-OJK yang dibuka. Okadoc mengaitkan drg. Melissa Delania, Sp.Pros dan drg. Nabila Annisa Mayanda dengan klinik, tetapi jadwal terkini tidak tersedia; tindakan tidak disimpulkan dari spesialisasi maupun ulasan. Kemitraan asuransi aktif tidak disimpulkan dari satu daftar. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Penyusun permintaan kunjungan di Bona Indah yang menyiapkan pertanyaan dokter, hari pilihan, kebutuhan pemeriksaan, dan biaya.",
+  "catatan": "Revisi melanjutkan riset lama dan memperbarui pembacaan sumber29Oktober2026. Telepon tetap02129237063 dinormalisasi622129237063; tidak diubah menjadi WA karena bukan nomor ponsel. Pencarian Dentista+BonaIndah+WhatsApp/Instagram/email serta dua halaman terbaca belum menemukan ponsel. Tetap menulis hasil karena nomor telepon publik tersedia sesuai aturan pemilik. Alamat cocok pada AlamatSehat dan YKP-OJK27Oktober2026. Layanan[] karena tindakan spesifik belum terverifikasi; empat kartu konten informasi administratif. email tidak ditemukan setelah dicari di AlamatSehat dan YKP-OJK yang dibuka serta pencarian nama+email/akun. harga belum tersedia. Keanggotaan provider YKP-OJK tidak dianggap semua asuransi diterima. Dokter/jadwal tidak ditambahkan dari cuplikan. Rating/ulasanMaps null karena tidak dibaca langsung. Draf outreach perlu konsep pada tautan dan PDF yang diperiksa pemilik sebelum digunakan; tidak dikirim.",
   "sumber": [
     "https://alamatsehat.com/klinik-gigi-dokter-gigi-di-cilandak-jaksel/",
-    "https://ykpojk.or.id/Home/ViewNews.aspx?id=146E91D8-C824-4436-9980-61781E493963",
-    "https://www.okadoc.com/id-id/dokter/dokter-gigi-umum/jakarta-selatan/melissa-delania",
-    "https://www.okadoc.com/id-id/dokter/dokter-gigi-umum/kota-jakarta-selatan/nabila-annisa-mayanda"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Ruko Bona Indah Bisnis Centre 8N, Jl. Karang Tengah Raya, Lebak Bulus, Cilandak, Jakarta Selatan",
-      "catatan": "Ruko Bona Indah Bisnis Centre, Jl. Karang Tengah Raya No.8N, Lebak Bulus, Kec. Cilandak, Jakarta Selatan"
-    }
+    "https://ykpojk.or.id/Home/ViewNews.aspx?id=146E91D8-C824-4436-9980-61781E493963"
   ]
 }
