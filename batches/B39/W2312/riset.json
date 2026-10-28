@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824",
     "https://www.waze.com/id/live-map/directions/id/jawa-barat/praktek-dokter-gigi-rohenda?to=place.ChIJf_9zb1ThaC4RHji02H-DIn0"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Rohenda",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lapang No.5, Cikole, Lembang, Kabupaten Bandung Barat 40391",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289656566824",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289656566824",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

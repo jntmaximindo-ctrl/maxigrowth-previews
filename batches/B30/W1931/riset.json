@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.semuabis.com/disie-dental-care-061-4577619",
     "https://indonesiaknowledge.com/directory/dental/medan/disie-dental-care-medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Disie Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "email",
+      "tercatat": "disiedentalcare@gmail.com",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Wahidin No.85 C, Pandau Hulu II, Medan Area, Medan 20211",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62614577619",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

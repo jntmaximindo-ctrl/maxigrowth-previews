@@ -71,5 +71,27 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-helmi-budimansyah-1060553",
     "https://www.liputan6.com/health/read/2160894/4-dokter-berparas-ganteng-part-ii"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Helmi Budimansyah",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Apotek Terang, Jl. Grand Hotel No.29b, Lembang, Kabupaten Bandung Barat 40391",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628562171983",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628562171983",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

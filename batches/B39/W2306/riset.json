@@ -71,5 +71,27 @@
   "sumber": [
     "https://id.worldorgs.com/katalog/bandung/klinik-gigi/dental-klinik-37",
     "https://halomewah.com/klinik-kecantikan/kabupaten-bandung/dental-klinik-37/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "DENTAL KLINIK 37",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Bumi Panyawangan, Jl. Jati Kencana No.37, Cimekar, Cileunyi, Kabupaten Bandung 40623",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282262663737",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282262663737",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

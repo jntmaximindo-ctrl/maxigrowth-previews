@@ -1,0 +1,26 @@
+{
+  "id": "W1959",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Oxy Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/kota/kota-padang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Kuranji, samping Makam Pahlawan, Kuranji, Padang 25176",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/kota/kota-padang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/kota/kota-padang/ [nama]",
+    "https://densia.id/kota/kota-padang/ [cabang[0].alamat]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

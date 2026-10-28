@@ -1,0 +1,42 @@
+{
+  "id": "W2312",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Rohenda",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lapang No.5, Cikole, Lembang, Kabupaten Bandung Barat 40391",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289656566824",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289656566824",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824 [nama]",
+    "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824 [cabang[0].alamat]",
+    "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824 [cabang[0].telepon]",
+    "https://www.semuabis.com/praktek-dokter-gigi-rohenda-0896-5656-6824 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

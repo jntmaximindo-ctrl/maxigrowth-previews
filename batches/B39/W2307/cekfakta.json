@@ -1,0 +1,19 @@
+{
+  "id": "W2307",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cinunuk, Cileunyi, Kabupaten Bandung, Jawa Barat 40624",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://smilejet.app/clinic/jafar-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://technolife.co.id/dokter-gigi-di-jatinangor/ [cabang[0].telepon]",
+    "https://technolife.co.id/dokter-gigi-di-jatinangor/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

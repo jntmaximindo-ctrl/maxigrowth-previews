@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/praktik-drg-leni-tirtasari-0811-1250-033",
     "https://bukutelepon.cybo.com/ID-kode-pos/40394_kota-bandung/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Leni Tirtasari",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Jl. Cemp. Raya No.15, Rancaekek Wetan, Rancaekek, Kabupaten Bandung 40394",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628111250033",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628111250033",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-20\", \"sel\": \"08-20\", \"rab\": \"08-20\", \"kam\": \"08-20\", \"jum\": \"08-20\", \"sab\": \"08-14\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

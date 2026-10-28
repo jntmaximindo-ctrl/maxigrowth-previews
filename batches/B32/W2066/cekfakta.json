@@ -1,0 +1,32 @@
+{
+  "id": "W2066",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Matahari",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/450705437/KM-NO-15-EP-1-3-7-1-KEWAJIBAN-KEPALA-KLINIK-UNTUK-MEMBERIKAN-ARAHAN-DAN-DUKUNGAN",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Utara Pasar Stan, Jl. Raya Tajem, Maguwoharjo, Depok, Sleman, DI Yogyakarta",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/450705437/KM-NO-15-EP-1-3-7-1-KEWAJIBAN-KEPALA-KLINIK-UNTUK-MEMBERIKAN-ARAHAN-DAN-DUKUNGAN",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622744461804",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/450705437/KM-NO-15-EP-1-3-7-1-KEWAJIBAN-KEPALA-KLINIK-UNTUK-MEMBERIKAN-ARAHAN-DAN-DUKUNGAN",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/KlinikMatahari [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
