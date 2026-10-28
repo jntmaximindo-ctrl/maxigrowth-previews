@@ -545,6 +545,12 @@ def _():
     assert sk["properties"]["faq"]["minItems"] >= 5 and sk["properties"]["layanan"]["minItems"] >= 4
 
 
+@uji("worker-deploy: cek beranda memakai curl --retry-all-errors (kegagalan SSL sementara kode 35 tak boleh menggagalkan deploy) (pelajaran 46)")
+def _():
+    y = (ROOT / ".github/workflows/worker-deploy.yml").read_text(encoding="utf-8")
+    assert "--retry 6" in y and "--retry-all-errors" in y
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

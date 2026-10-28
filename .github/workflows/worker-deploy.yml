@@ -58,13 +58,13 @@ jobs:
           fail=0
           for p in "" atabara; do
             want=$(sha256sum "site-root/${p:+$p/}index.html" | cut -d' ' -f1)
-            got=$(curl -fsS "https://maxigrowthstudio.com/${p:+$p/}" | sha256sum | cut -d' ' -f1)
+            got=$(curl -fsS --retry 6 --retry-delay 5 --retry-all-errors "https://maxigrowthstudio.com/${p:+$p/}" | sha256sum | cut -d' ' -f1)
             [ "$want" = "$got" ] && echo "OK  /$p" || { echo "::error::BEDA /$p"; fail=1; }
           done
           for d in dist/*/; do
             s=$(basename "$d"); [ "$s" = "atabara" ] && continue; [ -f "$d/index.html" ] || continue
             # pelajaran #42: Cloudflare butuh waktu menyebarkan versi baru -> ulangi cek preview sampai 8x tiap 10 detik sebelum dinyatakan gagal
-            for i in 1 2 3 4 5 6 7 8; do c=$(curl -s -o /dev/null -w "%{http_code}" "https://maxigrowthstudio.com/$s/"); [ "$c" = "200" ] && break; sleep 10; done
+            for i in 1 2 3 4 5 6 7 8; do c=$(curl -s -o /dev/null -w "%{http_code}" --retry 3 --retry-all-errors "https://maxigrowthstudio.com/$s/" || true); [ "$c" = "200" ] && break; sleep 10; done
             [ "$c" = "200" ] && echo "OK  /$s/" || { echo "::error::GAGAL /$s/ ($c)"; gagal_prev=1; }
           done
           if [ $fail -ne 0 ]; then npx -y wrangler@4 rollback --name maxigrowth -y || true; exit 1; fi; [ "${gagal_prev:-0}" = 0 ] || exit 1
