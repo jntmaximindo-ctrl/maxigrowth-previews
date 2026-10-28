@@ -79,5 +79,27 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
     "https://indonesiaknowledge.com/directory/dental/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Success Dental Care",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "624113622129",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-18\", \"sel\": \"09-18\", \"rab\": \"09-18\", \"kam\": \"09-18\", \"jum\": \"09-18\", \"sab\": \"09-18\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+    }
   ]
 }
