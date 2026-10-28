@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-bojongloa-kaler/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-bojongloa-kidul/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Yuliyana",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Nyengseret No.128, Situsaeur, Kec. Bojongloa Kidul, Kota Bandung, Jawa Barat 40234, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628112386788",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628112386788",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
