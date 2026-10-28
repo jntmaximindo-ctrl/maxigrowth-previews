@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Klinik Matahari",
       "alamat": {
-        "v": "Utara Pasar Stan, Jl. Raya Tajem, Sefan, Maguwoharjo, Depok, Sleman, Daerah Istimewa Yogyakarta 55282",
+        "v": "Utara Pasar Stan, Jl. Raya Tajem, Sefan, Maguwoharjo, Depok, Sleman, Yogyakarta 55282",
         "src": "https://www.semuabis.com/klinik-matahari_3M-0274-4461804",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,16 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": "24 jam untuk fasilitas menurut direktori; jadwal poli/dokter belum terverifikasi.",
+        "src": "https://www.waze.com/id/live-map/directions/klinik-matahari-tajem-raya-depok-%28sleman%29?to=place.w.72353466.723731272.7197005",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Pemeriksaan umum (dokumen klinik historis)",
+    "Pelayanan kesehatan gigi dan mulut (dokumen historis)",
+    "Pelayanan KIA (dokumen historis)",
+    "Pelayanan kefarmasian (dokumen historis)"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -66,30 +71,20 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Keberadaan website mandiri resmi belum dapat dipastikan."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.semuabis.com/klinik-matahari_3M-0274-4461804, https://linktr.ee/KlinikMatahari. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nomor tetap khusus alamat Tajem dipakai. Linktree bernama sama memuat WA 6285868676278 tetapi tanpa alamat; hubungan dengan Tajem belum terbukti, sehingga tidak dimasukkan sebagai WA klinik ini. Direktori menyebut 24 jam, tetapi jam dokter/poli belum terverifikasi; jam null. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Panduan informasi kunjungan yang membedakan jam buka fasilitas dari jadwal dokter.",
+  "catatan": "REVISI: dokumen klinik tahun 2019 mencatat beberapa unit pelayanan, tetapi tidak membuktikan unit-unit tersebut beroperasi saat ini. Dua direktori dan arsip dokumen mendukung nama, alamat, dan nomor telepon tetap. Waze menampilkan jam 00.00–00.00 yang tidak memadai untuk menyimpulkan jadwal dokter. Linktree dengan nama serupa tidak diatribusikan ke cabang ini. WhatsApp tidak terverifikasi; harga=[].",
   "sumber": [
     "https://www.semuabis.com/klinik-matahari_3M-0274-4461804",
-    "https://linktr.ee/KlinikMatahari"
+    "https://www.waze.com/id/live-map/directions/klinik-matahari-tajem-raya-depok-%28sleman%29?to=place.w.72353466.723731272.7197005",
+    "https://id.scribd.com/document/450704433/KM-NO-2-EP-1-2-1-1-PENANGGUNG-JAWAB-KLINIK"
   ],
   "verifikasi_manual": [
     {
-      "path": "nama",
-      "tercatat": "Klinik Matahari",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Utara Pasar Stan, Jl. Raya Tajem, Sefan, Maguwoharjo, Depok, Sleman, Daerah Istimewa Yogyakarta 55282",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "622744461804",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+      "path": "cabang[0].jam",
+      "tercatat": "24 jam untuk fasilitas menurut direktori; jadwal poli/dokter belum terverifikasi.",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]
 }

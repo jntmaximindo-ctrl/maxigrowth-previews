@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W2068",
   "nama": {
     "v": "Klinik drg. Ernawati Ratih Dewanti",
-    "src": "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-drg-ernawati-ratih-dewa-gamp-imp1",
+    "src": "https://dpmptsp.slemankab.go.id/wp-content/uploads/2022/02/IZIN-TERBIT-JUNI.pdf",
     "tgl": "2026-10-28",
     "yakin": "sedang"
   },
@@ -33,10 +33,10 @@ RISET LAMA:
         "yakin": "sedang"
       },
       "telepon": {
-        "v": "62274797085",
-        "src": "https://bantuanbpjs.com/alamat-dan-kode-faskes-rumah-sakit-puskesmas-klinik-dokter-dan-apotek-di-kab-sleman-yogyakarta/",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
       "wa": {
         "v": null,
@@ -45,16 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": "Senin–Sabtu 16.00–20.00 menurut direktori; konfirmasi sebelum datang.",
+        "src": "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-drg-ernawati-ratih-dewa-gamp-imp1",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Konsultasi dan pemeriksaan gigi",
+    "Scaling gigi (direktori)",
+    "Penambalan gigi (direktori)",
+    "Pencabutan gigi (direktori)"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -66,13 +71,20 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Keberadaan website mandiri resmi belum dapat dipastikan."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-drg-ernawati-ratih-dewa-gamp-imp1, https://bantuanbpjs.com/alamat-dan-kode-faskes-rumah-sakit-puskesmas-klinik-dokter-dan-apotek-di-kab-sleman-yogyakarta/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Telepon tetap berasal dari direktori lama yang mencantumkan drg. Ernawati Ratih Dewanti di RB Amanda Patukan, bukan bukti nomor ponsel/WA. Keaktifan dan lokasi persis telepon perlu konfirmasi. Tidak menyimpulkan penerimaan BPJS saat ini dari daftar lama. Layanan otomatis CariBisnis tidak dipakai. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Panduan informasi kunjungan yang membedakan jam buka fasilitas dari jadwal dokter.",
+  "catatan": "Revisi: dokumen izin praktik Sleman Juni 2022 menyebut drg. Raden Roro Ernawati Ratih Dewanti di Kios Griya Ambarketawang Asri Patukan dan Puskesmas Gamping 2; ini izin historis, bukan jaminan lokasi/operasi terbaru. CariBisnis mencantumkan lokasi gang Patukan dan Senin-Sabtu 16.00–20.00. Direktori faskes lama memberi nomor telepon tetap 0274-797085 di RB Amanda Patukan, belum dapat dibuktikan sebagai nomor telepon aktif cabang ini, sehingga telepon dan WA null. Tidak mengarang harga. Layanan perawatan dari direktori belum dikonfirmasi pemilik.",
   "sumber": [
+    "https://dpmptsp.slemankab.go.id/wp-content/uploads/2022/02/IZIN-TERBIT-JUNI.pdf",
     "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-drg-ernawati-ratih-dewa-gamp-imp1",
     "https://bantuanbpjs.com/alamat-dan-kode-faskes-rumah-sakit-puskesmas-klinik-dokter-dan-apotek-di-kab-sleman-yogyakarta/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 16.00–20.00 menurut direktori; konfirmasi sebelum datang.",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

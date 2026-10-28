@@ -1,0 +1,89 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W2040",
+  "nama": {
+    "v": "Praktek drg. Citra Widya",
+    "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-benowo/",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "kota": "Surabaya",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Praktek drg. Citra Widya",
+      "alamat": {
+        "v": "Pondok Benowo Indah Blok AV, Babat Jerawat, Pakal, Surabaya 60197",
+        "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-benowo/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": null
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Website resmi belum ditemukan dalam sumber yang diperiksa."
+  ],
+  "ide_fitur_khas": "Halaman petunjuk menuju lokasi yang disebut dua direktori, disertai konfirmasi kunjungan.",
+  "catatan": "REVISI ke-1. Kedua artikel daftar dokter mencantumkan lokasi Pondok Benowo Indah. Nomor rumah lengkap belum ditemukan; tidak menambahkan angka. Tidak menganggap informasi dokter gigi umum sebagai daftar tindakan khusus praktik. Status operasional terbaru, WhatsApp, biaya, dan jam belum terverifikasi.",
+  "sumber": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-benowo/",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-pakal/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Citra Widya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Pondok Benowo Indah Blok AV, Babat Jerawat, Pakal, Surabaya 60197",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
+  ]
+}
