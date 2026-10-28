@@ -1,0 +1,132 @@
+{
+  "id": "W1881",
+  "hero": {
+    "judul": {
+      "id": "A'Dental Care Bandung",
+      "en": "A'Dental Care Bandung"
+    },
+    "sub": {
+      "id": "Informasi praktik dan persiapan konsultasi gigi di Cibiru.",
+      "en": "Practice information and preparation for a dental consultation in Cibiru."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal konsultasi",
+      "en": "Confirm a consultation"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan dan kebutuhan pemeriksaannya.",
+        "en": "Ask about filling options and examination requirements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi sebelum menentukan tindakan.",
+        "en": "Discuss your tooth condition before deciding on a procedure."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan jadwal pemeriksaan dan scaling.",
+        "en": "Ask about examination and scaling appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer gigi",
+        "en": "Dental veneers"
+      },
+      "ringkas": {
+        "id": "Diskusikan kesesuaian, pilihan, dan biaya dengan dokter.",
+        "en": "Discuss suitability, options and costs with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan sebelum datang",
+      "en": "Prepare questions before your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih topik konsultasi, catat pertanyaan biaya, lalu minta konfirmasi jadwal kepada admin.",
+      "en": "Choose a consultation topic, note fee questions, then ask the administrator to confirm availability."
+    },
+    "alasan_dipilih": "Membantu persiapan janji ketika rincian layanan dan jadwal masih perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi admin untuk memastikan lokasi, dokter, dan jadwal yang tersedia.",
+        "en": "Contact the administrator to confirm the location, dentist and appointment time."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana alamatnya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Artikel publik mencantumkan Jl. Cilengkrang II No.50, Palasari, Cibiru, Bandung. Konfirmasikan sebelum berangkat.",
+        "en": "Public articles list Jl. Cilengkrang II No.50, Palasari, Cibiru, Bandung. Confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jam dari sumber publik berbeda. Tanyakan jadwal terbaru kepada admin.",
+        "en": "Public sources show different hours. Ask the administrator for current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya setelah pemeriksaan dan sebelum tindakan.",
+        "en": "Prices are unavailable. Request a fee breakdown after examination and before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Cakupan asuransi belum terverifikasi. Konfirmasikan nama penjamin dan tindakan yang ditanggung.",
+        "en": "Insurance arrangements are unverified. Confirm your insurer and covered procedures."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal, lokasi, dan biaya",
+    "en": "Ask about appointments, location and fees"
+  },
+  "pesan_wa_default": "Halo admin A'Dental Care, saya ingin menanyakan jadwal drg. Adrian, biaya pemeriksaan, dan konfirmasi alamat di Jl. Cilengkrang II No.50. Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen A'Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep informasi praktik di Cibiru dengan panduan pertanyaan sebelum kunjungan. Setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/a. Mohon konfirmasi informasi praktik sebelum ditampilkan. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep informasi A'Dental Care",
+    "email_isi": "Halo manajemen A'Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan informasi lokasi Cibiru dan panduan persiapan konsultasi. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/a. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Informasi dokter, lokasi, jadwal, dan layanan perlu dikonfirmasi sebelum publikasi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}

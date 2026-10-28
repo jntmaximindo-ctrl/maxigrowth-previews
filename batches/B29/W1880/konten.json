@@ -1,0 +1,132 @@
+{
+  "id": "W1880",
+  "hero": {
+    "judul": {
+      "id": "Praktik Dokter Gigi Cikutra Bandung",
+      "en": "Praktik Dokter Gigi Cikutra Bandung"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Cikutra. Tanyakan jadwal sebelum berangkat.",
+      "en": "Location and visit planning in Cikutra. Confirm your appointment before travelling."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Direktori mencatat Senin–Sabtu, 09.00–21.00 WIB. Konfirmasikan jadwal terbaru.",
+        "en": "The directory lists Monday–Saturday, 9 am–9 pm WIB. Confirm the latest schedule."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Jl. Cikutra No.168c, Sukapada, Bandung. Konfirmasikan petunjuk lokasi kepada admin.",
+        "en": "Jl. Cikutra No.168c, Sukapada, Bandung. Ask the clinic to confirm directions."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan pemeriksaan",
+        "en": "Your care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda untuk menanyakan tindakan dan dokter yang tersedia.",
+        "en": "Describe your needs and ask which care and clinicians are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Mintalah penjelasan tarif sebelum menyetujui rencana perawatan.",
+        "en": "Ask for a fee explanation before agreeing to a care plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan waktu kunjungan",
+      "en": "Plan your visit time"
+    },
+    "penjelasan": {
+      "id": "Pilih hari yang Anda inginkan, lalu konfirmasikan jam dan ketersediaan dokter kepada admin.",
+      "en": "Choose a preferred day, then confirm the time and clinician availability with the clinic."
+    },
+    "alasan_dipilih": "Jadwal direktori mencakup jam sore hingga malam; konfirmasi membantu menyusun waktu kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencatat Jl. Cikutra No.168c, Sukapada, Bandung. Konfirmasikan alamat sebelum datang.",
+        "en": "The directory lists Jl. Cikutra No.168c, Sukapada, Bandung. Confirm the address before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal direktori Senin–Sabtu 09.00–21.00 WIB dan Minggu tutup. Tanyakan jadwal terbaru.",
+        "en": "The directory lists Monday–Saturday, 9 am–9 pm WIB, and closed on Sunday. Ask for the latest schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Tanyakan biaya sesuai kebutuhan kunjungan Anda.",
+        "en": "Fees are not available here. Ask about costs for your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda kepada admin untuk konfirmasi layanan dan dokter.",
+        "en": "Share your needs with the clinic to confirm available care and clinicians."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi dapat digunakan?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Konfirmasikan jenis asuransi dan ketentuan pembayaran sebelum datang.",
+        "en": "Confirm accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan rencana kunjungan Anda",
+    "en": "Confirm your visit plans"
+  },
+  "pesan_wa_default": "Halo Praktik Dokter Gigi Cikutra Bandung, saya ingin menanyakan jadwal kunjungan. Mohon konfirmasi lokasi, dokter, layanan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktik Dokter Gigi Cikutra Bandung. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencatat praktik di Cikutra No.168c dengan jadwal hingga malam. Kami sudah membuat konsep website untuk informasi kunjungan: https://maxigrowthstudio.com/cikutra-bandung. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Praktik Gigi Cikutra",
+    "email_isi": "Halo Bapak/Ibu pengelola Praktik Dokter Gigi Cikutra Bandung,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencatat lokasi Cikutra No.168c dan jadwal hingga malam. Kami sudah membuat konsep website agar informasi kunjungan mudah ditinjau: https://maxigrowthstudio.com/cikutra-bandung.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

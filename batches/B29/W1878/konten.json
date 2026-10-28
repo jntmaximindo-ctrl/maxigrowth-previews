@@ -1,0 +1,132 @@
+{
+  "id": "W1878",
+  "hero": {
+    "judul": {
+      "id": "Dentalfun Mekarwangi",
+      "en": "Dentalfun Mekarwangi"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan konsultasi gigi di Mekarwangi, Bandung.",
+      "en": "Visit and dental consultation information in Mekarwangi, Bandung."
+    },
+    "cta": {
+      "id": "Konfirmasi janji kunjungan",
+      "en": "Confirm an appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan konsultasi sesuai kebutuhan keluarga.",
+        "en": "Ask about consultations suited to your family’s needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan anak",
+        "en": "Preparing for a child’s visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter yang menerima pasien anak sebelum datang.",
+        "en": "Ask about appointments for children before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan hari, jam, dan dokter yang tersedia kepada admin.",
+        "en": "Confirm the day, time and available dentist with the administrator."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan rencana perawatan.",
+        "en": "Request details of examination fees and the proposed treatment plan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan kunjungan keluarga",
+      "en": "Prepare for a family visit"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kunjungan anak atau dewasa, lalu susun pertanyaan untuk admin.",
+      "en": "Choose a visit for a child or adult, then prepare questions for the administrator."
+    },
+    "alasan_dipilih": "Menata kebutuhan keluarga tanpa mengasumsikan layanan atau jadwal dokter yang belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jalan Mekar Utama no.1R, Komplek Istana Mekarwangi, Bandung. Konfirmasikan lokasi sebelum berangkat.",
+        "en": "The directory lists Jalan Mekar Utama no.1R, Komplek Istana Mekarwangi, Bandung. Confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Informasi jam dari sumber publik berbeda. Tanyakan jadwal terbaru kepada admin.",
+        "en": "Public sources show different hours. Ask the administrator for current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya membuat janji untuk anak?",
+        "en": "Can I book for a child?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan dokter, batas usia pasien, dan persiapan yang diperlukan.",
+        "en": "Ask about dentist availability, age requirements and preparation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya sebelum mengonfirmasi janji.",
+        "en": "Prices are unavailable. Request fee details before confirming an appointment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Daftar penjamin belum terverifikasi. Sebutkan nama asuransi saat menghubungi admin.",
+        "en": "Insurance arrangements are unverified. Mention your insurer when contacting the administrator."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan biaya kunjungan",
+    "en": "Ask about appointment times and fees"
+  },
+  "pesan_wa_default": "Halo admin Dentalfun Mekarwangi, saya ingin menanyakan jadwal pemeriksaan, dokter yang tersedia, dan biaya konsultasi. Apakah alamatnya di Jalan Mekar Utama no.1R? Terima kasih.",
+  "outreach": {
+    "wa": "Halo manajemen Dentalfun Mekarwangi, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan kunjungan keluarga untuk lokasi Mekarwangi. Setelah preview diterbitkan, tautan tinjauannya: https://maxigrowthstudio.com/dentalfun-mekarwangi. Mohon konfirmasi jadwal dan informasi klinik sebelum ditampilkan. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Dentalfun Mekarwangi",
+    "email_isi": "Halo manajemen Dentalfun Mekarwangi, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan draf konsep website dengan panduan persiapan kunjungan keluarga dan informasi lokasi Mekarwangi. Setelah preview diterbitkan, konsep dapat ditinjau di https://maxigrowthstudio.com/dentalfun-mekarwangi. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jadwal, layanan, dan rincian praktik perlu dikonfirmasi sebelum publikasi. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}
