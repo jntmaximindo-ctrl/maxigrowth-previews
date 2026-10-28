@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Success Dental Care",
       "alamat": {
-        "v": "Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115",
+        "v": "Jl. Botolempangan No.52, Sawerigading, Makassar, Sulawesi Selatan 90115",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,18 +45,10 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "09-18",
-          "sel": "09-18",
-          "rab": "09-18",
-          "kam": "09-18",
-          "jum": "09-18",
-          "sab": "09-18",
-          "min": "tutup"
-        },
-        "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "rendah"
       },
       "maps_url": ""
     }
@@ -67,27 +59,19 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": null,
-    "ulasan": null,
-    "src": null,
+    "rating": 4.9,
+    "ulasan": 45,
+    "src": "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
     "tgl": "2026-10-28"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Domain successdentalcare.com yang tertaut pada direktori tidak dapat dibuka.",
-    "Rincian tindakan dan tarif dari kanal resmi klinik Makassar belum berhasil diperiksa."
+    "https://www.successdentalcare.com/"
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Revisi melanjutkan riset lama dalam surat tugas. Sumber dibaca ulang 28 Oktober 2026. Hanya telepon tetap ditemukan, nomor ponsel publik belum ditemukan. WA tetap null; jangan mengaktifkan tombol WA berdasarkan nomor telepon tetap. Harga belum tersedia. Email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar, https://indonesiaknowledge.com/directory/dental/makassar. Informasi fasilitas dari direktori belum dikonfirmasi langsung; rating Google Maps tidak dibaca langsung. Tidak menghubungi klinik. Draf outreach membutuhkan konsep aktif dan proposal PDF sebelum digunakan. Domain successdentalcare.com gagal dimuat (502). successdentalclinic.com adalah klinik berbeda di Jakarta dan tidak dipakai. Dua sumber rincian berasal dari penerbit sama.",
+  "ide_fitur_khas": "Formulir persiapan kunjungan dengan konfirmasi lokasi dan waktu melalui kontak publik.",
+  "catatan": "REVISI: telepon tetap dibaca ulang, belum ditemukan nomor ponsel. WA null dan tidak disamakan dengan telepon tetap. Domain successdentalcare.com tertaut direktori namun gagal diakses. successdentalclinic.com adalah klinik berbeda di Jakarta, tidak dipakai. Dua sumber satu penerbit. Hasil tetap dibuat sesuai instruksi lewati hanya bila tanpa nomor sama sekali. harga belum tersedia. Email, website resmi, dokter, layanan dan asuransi belum terverifikasi setelah pencarian serta pembacaan sumber. Empat kartu konten merupakan topik pertanyaan administrasi, bukan klaim tindakan. Rating/ulasan berasal dari direktori, bukan pembacaan Google Maps langsung. Tidak menghubungi klinik. Outreach hanya draf; tautan konsep dan PDF perlu disiapkan sebelum dikirim.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/success-dental-care-makassar",
     "https://indonesiaknowledge.com/directory/dental/makassar"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"09-18\", \"sel\": \"09-18\", \"rab\": \"09-18\", \"kam\": \"09-18\", \"jum\": \"09-18\", \"sab\": \"09-18\", \"min\": \"tutup\"}",
-      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
-    }
   ]
 }
