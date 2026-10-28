@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Molarize Dental Care",
       "alamat": {
-        "v": "Jl. Gn. Merapi No.205, Pisang Selatan, Ujung Pandang, Makassar, Sulawesi Selatan 90141",
+        "v": "Jl. Gn. Merapi No.205, Pisang Selatan, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90141",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -46,19 +46,19 @@ RISET LAMA:
       },
       "jam": {
         "v": {
-          "sen": "13.30-21",
-          "sel": "13.30-21",
-          "rab": "13.30-21",
-          "kam": "13.30-21",
-          "jum": "13.30-21",
+          "sen": "13:30-21",
+          "sel": "13:30-21",
+          "rab": "13:30-21",
+          "kam": "13:30-21",
+          "jum": "13:30-21",
           "sab": "13-20",
           "min": "tutup"
         },
-        "src": "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
+        "src": "https://www.dentalclinics.care/dental-clinic/molarize-dental-care",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Molarize%20Dental%20Care%20Makassar"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -67,25 +67,27 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.8,
-    "ulasan": 47,
-    "src": "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
+    "rating": null,
+    "ulasan": null,
+    "src": null,
     "tgl": "2026-10-28"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website resmi belum ditemukan pada sumber yang diperiksa."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Penyusun pertanyaan sebelum kunjungan",
-  "catatan": "harga belum tersedia. Email dan nomor ponsel belum ditemukan pada sumber yang dibuka. Telepon tetap tersedia; WA null. Direktori lain mencatat 4,9/42 ulasan; angka bukan pembacaan langsung Maps. Tidak memakai nomor pribadi anggota PDGI sebagai nomor klinik. Rincian layanan belum terverifikasi; kartu konten hanya topik pertanyaan, bukan klaim ketersediaan tindakan.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar, https://www.dentalclinics.care/dental-clinic/molarize-dental-care, https://lokari.id/molarize-dental-care-makassar_p5xoBGAG7Z. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Riset lama dipertahankan untuk nama, lokasi dan telepon, lalu dibaca ulang. Jam kini didukung tabel DentalClinics.care. Angka ulasan berbeda antar direktori dan bukan pembacaan langsung Maps, sehingga maps null. Ulasan pasien tidak dipakai untuk nama dokter atau tindakan. Lokari tidak memuat email, ponsel atau website. Pencarian kontak/Instagram/WhatsApp belum menemukan kanal primer yang dapat dicocokkan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
-    "https://www.dentalclinics.care/dental-clinic/molarize-dental-care"
+    "https://www.dentalclinics.care/dental-clinic/molarize-dental-care",
+    "https://lokari.id/molarize-dental-care-makassar_p5xoBGAG7Z"
   ],
   "verifikasi_manual": [
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"13.30-21\", \"sel\": \"13.30-21\", \"rab\": \"13.30-21\", \"kam\": \"13.30-21\", \"jum\": \"13.30-21\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "tercatat": "{\"sen\": \"13:30-21\", \"sel\": \"13:30-21\", \"rab\": \"13:30-21\", \"kam\": \"13:30-21\", \"jum\": \"13:30-21\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
       "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]

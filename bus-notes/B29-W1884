@@ -1,0 +1,100 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W1884",
+  "nama": {
+    "v": "drg. Kesuma Nasseri",
+    "src": "https://medicastore.com/dokter/detail/15354/kesuma-nasseri",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "kota": "Bandung",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Praktik Bandung",
+      "alamat": {
+        "v": "Jl. Otto Iskandar Dinata No.524, Nyengseret, Astanaanyar, Bandung",
+        "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": "62225201627",
+        "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Kesuma Nasseri",
+        "src": "https://www.tzuchi.or.id/read-berita/lahirnya-saudara-seperjuangan-dari-bandung/798",
+        "tgl": "2026-10-28",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "cabang": "Praktik Bandung"
+    }
+  ],
+  "layanan": [
+    "Konsultasi gigi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [],
+  "situs_lama": [],
+  "ide_fitur_khas": "Daftar persiapan kunjungan dengan konfirmasi alamat dan jam melalui telepon.",
+  "catatan": "Kontak publik yang ditemukan hanya telepon tetap 0225201627, dinormalisasi menjadi 62225201627. Tidak ada nomor ponsel publik yang dapat diatribusikan ke dokter, sehingga wa null; jangan membentuk tautan WA dari telepon tetap. Alamat artikel No.524 berbeda dari indeks Yellow Pages 2019 No.526; alamat keyakinan rendah dan perlu konfirmasi. Jam artikel lama belum terkonfirmasi sehingga null. Medicastore tidak mencantumkan lokasi praktik. email tidak ditemukan setelah pencarian nama+telepon/WhatsApp/email dan nama+08, pembacaan Medicastore, Indoplasma, serta Tzu Chi; email/telepon footer Medicastore dan Indoplasma bukan kontak dokter. Instagram dan website praktik belum ditemukan. Tidak menyalin harga artikel karena bukan harga resmi klinik. harga belum tersedia. Riwayat relawan pada sumber lama tidak dijadikan klaim keadaan layanan sekarang. Maps tidak diverifikasi, rating/ulasan null. Empat kartu konten adalah informasi persiapan konsultasi, bukan empat klaim tindakan. Draf outreach disimpan sesuai skema, tidak dikirim; media WA klinik belum tersedia. URL preview dan PDF perlu disiapkan pemilik sebelum pengiriman.",
+  "sumber": [
+    "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
+    "https://medicastore.com/dokter/detail/15354/kesuma-nasseri",
+    "https://www.tzuchi.or.id/read-berita/lahirnya-saudara-seperjuangan-dari-bandung/798"
+  ]
+}

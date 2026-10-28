@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "ARJUNA DENTAL CLINIC",
       "alamat": {
-        "v": "Jl. Tukad Bilok No.79, Renon, Denpasar Selatan, Bali 80239",
+        "v": "Jl. Tukad Bilok No.79, Renon, Denpasar Selatan, Kota Denpasar, Bali 80239",
         "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,12 +45,20 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "13-17",
+          "sel": "13-17",
+          "rab": "13-17",
+          "kam": "tutup",
+          "jum": "13-17",
+          "sab": "13-17",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=ARJUNA%20DENTAL%20CLINIC%20Denpasar%20Selatan"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -59,19 +67,27 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.7,
-    "ulasan": 12,
-    "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
+    "rating": null,
+    "ulasan": null,
+    "src": null,
     "tgl": "2026-10-28"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website resmi belum ditemukan pada sumber yang diperiksa."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Penyusun pertanyaan sebelum kunjungan",
-  "catatan": "harga belum tersedia. Email dan nomor ponsel belum ditemukan pada sumber yang dibuka. Telepon tetap tersedia; WA null. Hanya telepon tetap ditemukan; WA null. Tidak mencampurkan dengan Arjuna Dental Clinic Natuna atau praktik Cahyadi di Jalan Arjuna. Jam per hari belum pasti. Harga pengalaman pasien tidak digunakan. Rincian layanan belum terverifikasi; kartu konten hanya topik pertanyaan, bukan klaim ketersediaan tindakan.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur, https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nama, lokasi dan telepon riset lama cocok saat dibaca ulang pada Waze dan Indonesia Knowledge. Jam yang sebelumnya null kini tersedia pada tabel Indonesia Knowledge; Waze mendukung rentang hari yang tercantum. Angka Maps lama diubah null karena tidak diperiksa langsung. Tidak mencampurkan dengan klinik Natuna, praktik di Jalan Arjuna, atau nomor alamat 69 dari direktori lain yang hanya muncul di indeks. Ponsel, Instagram dan email belum ditemukan setelah penelusuran nama, Tukad Bilok dan kontak. Harga dari pengalaman pasien tidak dianggap harga resmi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
     "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-17\", \"sel\": \"13-17\", \"rab\": \"13-17\", \"kam\": \"tutup\", \"jum\": \"13-17\", \"sab\": \"13-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
