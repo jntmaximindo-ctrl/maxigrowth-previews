@@ -115,7 +115,11 @@ for h in hist:
     if dt.datetime.fromisoformat(h["t"]).astimezone(WIB).date() == NOW.date():
         awal_hari = h
         break
-siap_hari_ini = tahap["siap_reachout"] - (awal_hari["siap"] if awal_hari else tahap["siap_reachout"])
+# Dasar = angka siap akhir hari sebelumnya (bukan snapshot pertama hari ini, yang bisa baru terekam pagi hari
+# setelah laptop/robot mati semalaman -> hasil malam hari ikut hilang; pelajaran 38)
+siap_kemarin = harian.get(kemarin_s, {}).get("siap") if kemarin_s in harian else None
+dasar_siap = siap_kemarin if siap_kemarin is not None else (awal_hari["siap"] if awal_hari else tahap["siap_reachout"])
+siap_hari_ini = max(tahap["siap_reachout"] - dasar_siap, 0)
 
 target = baca(os.path.join(ROOT, "data", "icu-target.json"), {})
 pekerja = baca(os.path.join(ROOT, "data", "icu-pekerja.json"), [])
