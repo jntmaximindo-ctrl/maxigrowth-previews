@@ -1,0 +1,142 @@
+{
+  "id": "W1299",
+  "hero": {
+    "judul": {
+      "id": "Maryam Dental Care",
+      "en": "Maryam Dental Care"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Maryam Dental Care, Padang.",
+      "en": "Visiting information for Maryam Dental Care, Padang."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal",
+      "en": "Confirm hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Alamat cabang di Padang",
+        "en": "Alamat cabang di Padang"
+      },
+      "ringkas": {
+        "id": "Maryam Dental Care beralamat di Jl. Dr. Moh. Hatta No.15, Kapalo Koto, Pauh, Padang, Sumatera Barat 25163.",
+        "en": "Maryam Dental Care beralamat di Jl. Dr. Moh. Hatta No.15, Kapalo Koto, Pauh, Padang, Sumatera Barat 25163."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontak pasien",
+        "en": "Kontak pasien"
+      },
+      "ringkas": {
+        "id": "Nomor yang tercatat: +6282169922300, konfirmasi keaktifan sebelum mengirim data pribadi.",
+        "en": "Nomor yang tercatat: +6282169922300, konfirmasi keaktifan sebelum mengirim data pribadi."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Jadwal kunjungan"
+      },
+      "ringkas": {
+        "id": "Setiap hari 10.00–22.00 menurut dua direktori. Jadwal dokter individual dapat berbeda.",
+        "en": "Setiap hari 10.00–22.00 menurut dua direktori. Jadwal dokter individual dapat berbeda."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan pilihan layanan",
+        "en": "Pertanyaan pilihan layanan"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian dan ketersediaan: Pemeriksaan gigi, Konfirmasi kunjungan malam, Informasi akses kursi roda, Metode pembayaran kartu.",
+        "en": "Tanyakan kesesuaian dan ketersediaan: Pemeriksaan gigi, Konfirmasi kunjungan malam, Informasi akses kursi roda, Metode pembayaran kartu."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan lokasi dan kontak",
+      "en": "Location and contact guide"
+    },
+    "penjelasan": {
+      "id": "Menyandingkan informasi jam, lokasi, dan kontak dari direktori agar pasien dapat mengonfirmasi detail kunjungan.",
+      "en": "Combines directory-listed hours, address and phone so visitors can confirm details."
+    },
+    "alasan_dipilih": "Klinik terdaftar di alamat Jl. Dr. Moh. Hatta No.15, Kapalo Koto, Pauh, Padang, Sumatera Barat 25163, tetapi tindakan dan tarif harus dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamatnya?",
+        "en": "Di mana alamatnya?"
+      },
+      "a": {
+        "id": "Jl. Dr. Moh. Hatta No.15, Kapalo Koto, Pauh, Padang, Sumatera Barat 25163",
+        "en": "Jl. Dr. Moh. Hatta No.15, Kapalo Koto, Pauh, Padang, Sumatera Barat 25163"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "Bagaimana menghubungi klinik?"
+      },
+      "a": {
+        "id": "Nomor publik: +6282169922300",
+        "en": "Nomor publik: +6282169922300"
+      }
+    },
+    {
+      "q": {
+        "id": "Jam buka yang tercantum?",
+        "en": "Jam buka yang tercantum?"
+      },
+      "a": {
+        "id": "Setiap hari 10.00–22.00 menurut dua direktori",
+        "en": "Setiap hari 10.00–22.00 menurut dua direktori"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia WhatsApp resmi?",
+        "en": "Apakah tersedia WhatsApp resmi?"
+      },
+      "a": {
+        "id": "Status layanan WhatsApp dari nomor publik belum dapat diverifikasi langsung.",
+        "en": "Status layanan WhatsApp dari nomor publik belum dapat diverifikasi langsung."
+      }
+    },
+    {
+      "q": {
+        "id": "Pilihan informasi layanan apa yang tersedia?",
+        "en": "Pilihan informasi layanan apa yang tersedia?"
+      },
+      "a": {
+        "id": "Pemeriksaan gigi, Konfirmasi kunjungan malam, Informasi akses kursi roda, Metode pembayaran kartu.",
+        "en": "Pemeriksaan gigi, Konfirmasi kunjungan malam, Informasi akses kursi roda, Metode pembayaran kartu."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "Berapa biaya pemeriksaan?"
+      },
+      "a": {
+        "id": "Belum ada tarif resmi terverifikasi; minta rincian harga sebelum tindakan.",
+        "en": "Belum ada tarif resmi terverifikasi; minta rincian harga sebelum tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Pastikan informasi kunjungan",
+    "en": "Confirm visit information"
+  },
+  "pesan_wa_default": "Halo Maryam Dental Care, saya ingin menanyakan jadwal dan biaya.",
+  "outreach": {
+    "wa": "Yth. pengelola Maryam Dental Care, Maxi Growth Studio ingin menawarkan konsep website informasi pasien untuk ditinjau. Bolehkah kami mengirim pratinjau?",
+    "email_subjek": "Website informasi Maryam Dental Care",
+    "email_isi": "Yth. pengelola Maryam Dental Care,\n\nMaxi Growth Studio menyiapkan contoh website informasi lokasi, jadwal dan layanan klinik. Jika berkenan kami dapat mengirimkan pratinjau dan proposal.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2296",
+  "hero": {
+    "judul": {
+      "id": "UP Dental Clinic",
+      "en": "UP Dental Clinic"
+    },
+    "sub": {
+      "id": "Konfirmasikan lokasi dan jadwal kunjungan Anda.",
+      "en": "Confirm your visit location and time."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit scheduling"
+      },
+      "ringkas": {
+        "id": "Tanyakan waktu kunjungan yang tersedia sebelum datang.",
+        "en": "Ask about available visit times before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rincian biaya yang mungkin diperlukan.",
+        "en": "Ask about examination fees and other costs that may apply."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah kebutuhan perawatan Anda dapat ditangani di praktik ini.",
+        "en": "Ask whether the practice can address your care needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan dokumen",
+        "en": "Preparing documents"
+      },
+      "ringkas": {
+        "id": "Tanyakan riwayat kesehatan atau dokumen yang perlu dibawa.",
+        "en": "Ask which medical records or documents to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit planner"
+    },
+    "penjelasan": {
+      "id": "Catat kebutuhan kunjungan dan waktu yang Anda inginkan untuk dikonfirmasi admin.",
+      "en": "Note your reason for visiting and preferred time for the practice to confirm."
+    },
+    "alasan_dipilih": "Rincian layanan dan jadwal memerlukan konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Pongtiku No.130, La’latang, Tallo, Makassar, Sulawesi Selatan 90211. Konfirmasikan alamat sebelum berangkat.",
+        "en": "The directory lists Jl. Pongtiku No.130, La’latang, Tallo, Makassar, Sulawesi Selatan 90211. Confirm the address before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How do I request a visit?"
+      },
+      "a": {
+        "id": "Gunakan nomor publik 6285255612188. Pastikan nomor masih dikelola praktik, lalu tunggu konfirmasi jadwal.",
+        "en": "Use the public number 6285255612188. Confirm it is still managed by the practice, then wait for appointment confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal belum terverifikasi atau berbeda antar sumber. Tanyakan jam layanan terbaru sebelum datang.",
+        "en": "Hours are unverified or differ across sources. Ask about current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber yang dibaca. Tanyakan rincian biaya sebelum menyetujui tindakan.",
+        "en": "Prices were unavailable in the sources reviewed. Ask for a fee breakdown before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama dan ketentuan asuransi belum terverifikasi. Sebutkan penyedia serta polis Anda saat bertanya.",
+        "en": "Insurance arrangements and terms have not been verified. Provide your insurer and policy details when enquiring."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, apakah ini kontak UP Dental Clinic? Saya ingin menanyakan lokasi dan jadwal kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola UP Dental Clinic. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Direktori mencantumkan lokasi Pongtiku No.130. Kami menyusun konsep naskah informasi kunjungan. Rencana tautan https://maxigrowthstudio.com/up perlu diaktifkan sebelum dibagikan. Jika berkenan, kami dapat menjelaskan konsepnya. Kontak 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi UP Dental Clinic",
+    "email_isi": "Halo pengelola UP Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep naskah website untuk informasi lokasi Pongtiku No.130 dan persiapan kunjungan. Rencana tautan https://maxigrowthstudio.com/up perlu diaktifkan sebelum digunakan. Draf ini perlu dilengkapi proposal PDF terlampir sebelum dikirim. Informasi praktik perlu dikonfirmasi sebelum publikasi. Kontak 082141004400 atau info@maxigrowthstudio.com."
+  }
+}

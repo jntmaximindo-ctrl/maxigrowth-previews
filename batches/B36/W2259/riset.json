@@ -1,0 +1,73 @@
+{
+  "id": "W2259",
+  "nama": {
+    "v": "Klinik Drg.Hendrik Asali",
+    "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "kota": "Tangerang",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Metro Permata",
+      "alamat": {
+        "v": "Jl. Metro Permata Utama No.4 I.2, RT.008/RW.011, Karang Mulya, Karang Tengah, Tangerang, Banten 15157",
+        "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "6281310752080",
+        "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": "6281310752080",
+        "src": "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [],
+  "situs_lama": [],
+  "ide_fitur_khas": "Formulir persiapan kunjungan dengan konfirmasi lokasi dan waktu melalui kontak publik.",
+  "catatan": "REVISI: field layanan memakai array string; tidak menyimpan objek layanan. SemuaBis sempat CAPTCHA lalu berhasil dibuka ulang; nomor ponsel dianggap WA. Email hanya tampak pada ekstraksi visual mesin pencarian iklan 2020 dan belum terbaca dari halaman PDF/screenshot sehingga null. Tidak menambah gelar spesialis berdasarkan iklan. harga belum tersedia. Email, website resmi, dokter, layanan dan asuransi belum terverifikasi setelah pencarian serta pembacaan sumber. Empat kartu konten merupakan topik pertanyaan administrasi, bukan klaim tindakan. Rating/ulasan berasal dari direktori, bukan pembacaan Google Maps langsung. Tidak menghubungi klinik. Outreach hanya draf; tautan konsep dan PDF perlu disiapkan sebelum dikirim.",
+  "sumber": [
+    "https://www.semuabis.com/klinik-drg-hendrik-asali-0813-1075-2080",
+    "https://sini.id/lokasi/parung-jaya",
+    "https://sathora.or.id/docs/merasul/merasul34.pdf"
+  ]
+}
