@@ -1,0 +1,44 @@
+{
+  "id": "W2086",
+  "diperiksa": 15,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "dentaspugeran@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-ardian/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "Senin 16:00–21:00; Kamis 16:00–21:00; jadwal tambahan Sabtu 09:00–17:00 tercantum tetapi penempatan hari perlu konfirmasi",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-ardian/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-hanif/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[2].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-febri/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

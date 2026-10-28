@@ -100,5 +100,42 @@
   "sumber": [
     "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
     "https://kumparan.com/umylpm/fkg-umy-ajak-kader-posyandu-aktif-edukasi-kesehatan-gigi-anak-sejak-dini-2552WSma5tj"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Atiek Driana Rahmawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "email",
+      "tercatat": "atikdriana@yahoo.com",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kaliurang km 6,8, Gg. Timor-Timur AK 35, Yogyakarta",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "08122736355",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628122736355",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Atiek Driana Rahmawati, MDSc., Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Kedokteran Gigi Anak",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

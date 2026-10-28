@@ -1,0 +1,66 @@
+{
+  "id": "W2095",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Ika Andriani, Sp.Perio",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Masjid No.6, Purwokinanti, Pakualaman, Kota Yogyakarta, DI Yogyakarta 55151",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0811-255-984",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811255984",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"tutup\", \"sel\": \"18-20\", \"rab\": \"18-20\", \"kam\": \"18-20\", \"jum\": \"18-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Ika Andriani, Sp.Perio",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Periodonsia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [nama]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [cabang[0].alamat]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [cabang[0].telepon]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [cabang[0].wa]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [cabang[0].jam]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [dokter[0].nama]",
+    "https://idalamat.com/alamat/705740/praktek-drg-ika-andriani-sp-perio-yogyakarta-yogyakarta [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

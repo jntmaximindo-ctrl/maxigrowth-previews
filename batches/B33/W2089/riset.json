@@ -145,5 +145,17 @@
     "https://klinikgigidentes.com/layanan/scaling/",
     "https://caribisnis.id/dokter-gigi/yogyakarta/mlati/dentes-dental-clinic-monjali-mlat-imp1",
     "https://indonesiadentalrating.com/clinics/dentes-dental-clinic-yogyakarta-monjali/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

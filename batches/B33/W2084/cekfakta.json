@@ -1,0 +1,18 @@
+{
+  "id": "W2084",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Parangtritis No. 28, Mantrijeron, Kota Yogyakarta, DI Yogyakarta",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://rddentalcenter.com/id/news/11-lokasi-dan-kontak-rddc-rully-dentist-dental-center",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/yogyakarta/mantrijeron/rd-dental-center-jl-parangtrit-mant-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

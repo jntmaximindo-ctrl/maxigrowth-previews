@@ -88,5 +88,32 @@
   "sumber": [
     "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
     "https://caribisnis.id/dokter-gigi/yogyakarta/mlati/praktek-drg-any-astutie-mlat-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Drg Any Astutie",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cabakan, Sumberadi, Kec. Mlati, Kabupaten Sleman, DI Yogyakarta 55288",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0878-3924-8880",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287839248880",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"16-22\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "W2090",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Drg Any Astutie",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cabakan, Sumberadi, Kec. Mlati, Kabupaten Sleman, DI Yogyakarta 55288",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0878-3924-8880",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287839248880",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"16-22\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880 [nama]",
+    "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880 [cabang[0].alamat]",
+    "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880 [cabang[0].telepon]",
+    "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880 [cabang[0].wa]",
+    "https://www.semuabis.com/praktek-drg-any-astutie-0878-3924-8880 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "W2089",
+  "diperiksa": 13,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-titiek/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikgigidentes.com/dokter/drg-bangkit-pratama-putra/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

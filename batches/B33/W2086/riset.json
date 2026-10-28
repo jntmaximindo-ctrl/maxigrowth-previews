@@ -167,5 +167,32 @@
     "https://klinikgigidentes.com/layanan/scaling/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-nov-2025.pdf?app=true",
     "https://indonesiaknowledge.com/directory/dental/yogyakarta/klinik-gigi-dentes-pugeran-klinik-dokter-gigi-terdekat-yogyakarta"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email",
+      "tercatat": "dentaspugeran@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "Senin 16:00–21:00; Kamis 16:00–21:00; jadwal tambahan Sabtu 09:00–17:00 tercantum tetapi penempatan hari perlu konfirmasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[2].spesialis",
+      "tercatat": "Dokter gigi umum",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

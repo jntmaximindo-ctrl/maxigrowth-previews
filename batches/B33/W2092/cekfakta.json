@@ -1,0 +1,66 @@
+{
+  "id": "W2092",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Atiek Driana Rahmawati",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "email",
+      "tercatat": "atikdriana@yahoo.com",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kaliurang km 6,8, Gg. Timor-Timur AK 35, Yogyakarta",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "08122736355",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628122736355",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Atiek Driana Rahmawati, MDSc., Sp.KGA",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Kedokteran Gigi Anak",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://kumparan.com/umylpm/fkg-umy-ajak-kader-posyandu-aktif-edukasi-kesehatan-gigi-anak-sejak-dini-2552WSma5tj",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [nama]",
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [email]",
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [cabang[0].alamat]",
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [cabang[0].telepon]",
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [cabang[0].wa]",
+    "https://repository.umy.ac.id/bitstream/handle/123456789/1293/EBUMY1960.pdf?sequence=1 [dokter[0].nama]",
+    "https://kumparan.com/umylpm/fkg-umy-ajak-kader-posyandu-aktif-edukasi-kesehatan-gigi-anak-sejak-dini-2552WSma5tj [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
