@@ -80,5 +80,27 @@
     "https://www.hanwhalife.co.id/wp-content/themes/hanwha/data/list-provider-admedika.pdf",
     "https://www.warta-iski.or.id/index.php/WartaISKI/article/view/444",
     "https://lokerrumahsakit.id/lowongan/asisten-dokter-gigi-klinik-utama-elon-abdulgani/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Utama Elon Abdulgani",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sultan Ageng Tirtayasa No. 44, Kel. Sudimara Pinang, Kec. Pinang, Kota Tangerang, Banten",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62811849991",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811849991",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "id": "W2267",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Utama Elon Abdulgani",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.warta-iski.or.id/index.php/WartaISKI/article/view/444",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sultan Ageng Tirtayasa No. 44, Kel. Sudimara Pinang, Kec. Pinang, Kota Tangerang, Banten",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.hanwhalife.co.id/wp-content/themes/hanwha/data/list-provider-admedika.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62811849991",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.hanwhalife.co.id/wp-content/themes/hanwha/data/list-provider-admedika.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811849991",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.hanwhalife.co.id/wp-content/themes/hanwha/data/list-provider-admedika.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

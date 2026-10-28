@@ -1,0 +1,50 @@
+{
+  "id": "W1990",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Syalwa Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/syalwadentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. HR. Soebrantas, Sialang Munggu, Tuah Madani, Pekanbaru, Riau 28293",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285376620075",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285376620075",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view [nama]",
+    "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view [instagram]",
+    "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

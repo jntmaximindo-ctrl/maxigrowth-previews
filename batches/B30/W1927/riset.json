@@ -68,5 +68,27 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1",
     "https://drive.google.com/file/d/1mWX5dsJFszh4bCImMT91yc_Mjgo3aBaM/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi drg. Anindya Widyawati",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Candi Mendut Barat No.C-21, Mojolangu, Lowokwaru, Malang, Jawa Timur 65142",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285129017742",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285129017742",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

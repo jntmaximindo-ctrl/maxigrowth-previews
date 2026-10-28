@@ -1,0 +1,34 @@
+{
+  "id": "W1278",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "EFKA Dental Tambun",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mekarsari Tengah No.1, Mekarsari, Tambun Selatan, Kabupaten Bekasi, Jawa Barat 17510",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–21.00, Sabtu–Minggu 16.00–21.00 (direktori)",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

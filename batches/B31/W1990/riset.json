@@ -69,5 +69,32 @@
     "https://indonesiaknowledge.com/directory/dental/pekanbaru/klinik-syalwa-dental-care-pekanbaru",
     "https://www.instagram.com/syalwadentalcare/",
     "https://drive.google.com/file/d/1yEl3EC4_gs3wP8galBhQ_H2leRjWEHHO/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Syalwa Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/syalwadentalcare/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. HR. Soebrantas, Sialang Munggu, Tuah Madani, Pekanbaru, Riau 28293",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285376620075",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285376620075",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

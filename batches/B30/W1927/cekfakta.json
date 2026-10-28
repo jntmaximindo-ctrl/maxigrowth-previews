@@ -1,0 +1,43 @@
+{
+  "id": "W1927",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi drg. Anindya Widyawati",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Candi Mendut Barat No.C-21, Mojolangu, Lowokwaru, Malang, Jawa Timur 65142",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285129017742",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285129017742",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1 [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/malang/lowokwaru/dokter-gigi-drg-anindya-widyaw-lowo-imp1 [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
