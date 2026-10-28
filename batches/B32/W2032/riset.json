@@ -74,5 +74,22 @@
     "https://www.ulastempat.com/7-dokter-gigi-di-krembangan-dengan-pelayanan-terbaik/",
     "https://www.semuabis.com/dokter-gigi-mochamad-hasan-bisri-031-3538498",
     "https://www.ulastempat.com/7-dokter-gigi-di-bubutan-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Agung Oembari Dokter Gigi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Demak 323, Dupak, Krembangan, Surabaya, Jawa Timur 60178",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62313538498",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
