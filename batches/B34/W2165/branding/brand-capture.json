@@ -1,0 +1,50 @@
+{
+  "url": "https://www.dentalclinics.care/dental-clinics/denpasar",
+  "captured": "2026-10-28T10:38:53.633Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#1f428e",
+      "share": 1,
+      "kinds": {
+        "bg": 17,
+        "cta": 17,
+        "text": 6
+      }
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Playfair Display"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.dentalclinics.care/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=48&q=75",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-3.ico",
+      "src": "https://www.dentalclinics.care/assets/images/favicon.ico",
+      "why": "icon"
+    },
+    {
+      "src": "https://www.dentalclinics.care/assets/images/opengraph-image.webp",
+      "why": "og:image",
+      "error": "HTTP 404"
+    }
+  ],
+  "errors": [],
+  "title": "Top 15 Dental Clinics & Dentists in Denpasar | Dental Clinics Directory",
+  "theme_color": "#2C84B4",
+  "neutrals": [
+    "#f9f8f5",
+    "#60666c",
+    "#000000",
+    "#22262a"
+  ]
+}
