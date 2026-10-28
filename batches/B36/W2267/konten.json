@@ -1,0 +1,132 @@
+{
+  "id": "W2267",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Klinik Utama Elon Abdulgani",
+      "en": "Explore Services at Klinik Utama Elon Abdulgani"
+    },
+    "sub": {
+      "id": "Kenali kategori layanan yang tercantum dalam direktori provider dan cara menanyakan jadwal kunjungan.",
+      "en": "Explore listed care categories and how to ask about appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Layanan",
+      "en": "Ask About Service Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Layanan Gigi",
+        "en": "Dental Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan dan tindakan gigi yang tersedia saat menghubungi klinik.",
+        "en": "Ask the clinic which dental assessments and treatments are currently offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan Dokter Umum",
+        "en": "General Medical Care"
+      },
+      "ringkas": {
+        "id": "Cari informasi ketersediaan konsultasi dokter umum dan jadwal kunjungan.",
+        "en": "Check the availability of general medical consultations and visiting hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Laboratorium",
+        "en": "Laboratory Services"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan laboratorium serta persiapan yang diperlukan.",
+        "en": "Ask which laboratory tests are offered and whether preparation is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan Spesialis",
+        "en": "Specialist Care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan pilihan poli spesialis dan jadwal tenaga medis sebelum datang.",
+        "en": "Confirm available specialist clinics and schedules before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pilih Poli",
+      "en": "Care Category Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kategori layanan untuk melihat daftar pertanyaan persiapan dan cara mengonfirmasi jadwal.",
+      "en": "Select a care category to see helpful questions and how to confirm availability."
+    },
+    "alasan_dipilih": "Daftar provider April 2026 mencantumkan kategori DENTAL, GP, LAB, dan SP, sehingga panduan membantu pasien menavigasi kategori tanpa menganggap semuanya tersedia setiap hari."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah ada layanan gigi?",
+        "en": "Is dental care listed?"
+      },
+      "a": {
+        "id": "Kategori DENTAL tercantum pada daftar provider April 2026. Jenis tindakan dan jadwal terbaru perlu dikonfirmasi kepada klinik.",
+        "en": "Dental care appears in an April 2026 provider list. Confirm current treatments and availability directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jam praktik?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional terbaru belum terverifikasi. Hubungi klinik sebelum berkunjung.",
+        "en": "Current opening hours have not been verified. Contact the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia dokter spesialis?",
+        "en": "Are specialists available?"
+      },
+      "a": {
+        "id": "Kategori spesialis tercantum dalam daftar provider, tetapi nama dan jadwal dokter belum dapat dipastikan.",
+        "en": "Specialist care is listed, but individual doctors and schedules have not been confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an appointment cost?"
+      },
+      "a": {
+        "id": "Biaya terbaru belum terverifikasi. Tanyakan estimasi serta komponen biaya kepada petugas.",
+        "en": "Current fees have not been verified. Ask staff for an estimate and cost breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Klinik tercantum dalam daftar provider AdMedika April 2026. Status kepesertaan dan manfaat polis perlu dikonfirmasi kepada pihak terkait.",
+        "en": "The clinic appears on an April 2026 AdMedika provider list. Check current eligibility and policy coverage."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk menanyakan kategori layanan, biaya, dan jadwal terbaru.",
+    "en": "Contact the clinic to confirm available care, fees, and opening hours."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan layanan gigi dan jadwal kunjungan di Klinik Utama Elon Abdulgani. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu manajemen Klinik Utama Elon Abdulgani. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat klinik tercantum dengan kategori layanan gigi, dokter umum, laboratorium, dan spesialis pada direktori provider. Kami sudah menyiapkan konsep website untuk Bapak/Ibu lihat di https://maxigrowthstudio.com/elon-abdulgani. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Utama Elon Abdulgani",
+    "email_isi": "Yth. Tim Manajemen Klinik Utama Elon Abdulgani,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik mengenai kategori layanan klinik, termasuk layanan gigi, dokter umum, laboratorium, dan spesialis.\n\nKami menyiapkan konsep website di https://maxigrowthstudio.com/elon-abdulgani untuk mempermudah penjelasan layanan dan akses informasi kunjungan. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKonsep ini masih dapat disesuaikan dengan data layanan dan jadwal terbaru dari manajemen. Tidak ada kewajiban untuk menindaklanjuti.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
