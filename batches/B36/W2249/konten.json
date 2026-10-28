@@ -1,0 +1,132 @@
+{
+  "id": "W2249",
+  "hero": {
+    "judul": {
+      "id": "Khomsah Suciati, drg.",
+      "en": "Khomsah Suciati, drg."
+    },
+    "sub": {
+      "id": "Siapkan informasi sebelum kunjungan ke Depok.",
+      "en": "Prepare for your visit in Depok."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Appointments"
+      },
+      "ringkas": {
+        "id": "Tanyakan waktu praktik dan ketersediaan dokter.",
+        "en": "Ask about opening hours and dentist availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan alamat sebelum berangkat.",
+        "en": "Confirm the address before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan layanan yang sesuai.",
+        "en": "Describe your concerns and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Minta penjelasan biaya sebelum menyetujui tindakan.",
+        "en": "Ask about costs before agreeing to treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit preparation"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan jadwal, lokasi, kebutuhan dan biaya untuk disampaikan kepada petugas.",
+      "en": "Choose questions about appointments, location, care needs and costs to ask the team."
+    },
+    "alasan_dipilih": "Informasi publik belum lengkap; fitur ini merupakan usulan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal kepada petugas.",
+        "en": "Confirm opening hours with the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik dan tanyakan slot yang tersedia.",
+        "en": "Contact the public number and ask about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya terlebih dahulu.",
+        "en": "Prices are not available. Ask for a cost breakdown first."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum dipastikan; tanyakan kepada petugas.",
+        "en": "This has not been confirmed; ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan tertentu tersedia?",
+        "en": "Is a specific treatment available?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan tindakan dan kebutuhan pemeriksaan.",
+        "en": "Ask about treatment availability and assessment requirements."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal, lokasi dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Khomsah Suciati, drg. di Depok. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio, ingin memperkenalkan rancangan informasi kunjungan. Konsep dan tautan perlu disiapkan sebelum pesan digunakan. WA 082141004400.",
+    "email_subjek": "Rancangan informasi kunjungan Khomsah Suciati, drg.",
+    "email_isi": "Draf untuk pengelola Khomsah Suciati, drg.. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami mengusulkan halaman informasi kunjungan di Depok. Siapkan konsep dan proposal PDF terlampir sebelum pengiriman. Kontak: info@maxigrowthstudio.com, 082141004400."
+  }
+}

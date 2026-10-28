@@ -75,5 +75,25 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/ng-dental-house-padang",
     "https://indonesiaknowledge.com/directory/dental/padang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "layanan",
+      "tercatat": [
+        "Informasi lokasi praktik",
+        "Konfirmasi jadwal layanan",
+        "Pertanyaan tindakan kesehatan gigi",
+        "Permintaan rincian biaya sebelum kunjungan"
+      ],
+      "catatan": "Direktori menyebut klinik gigi dan ulasan pengunjung, tetapi tidak menetapkan empat item sebagai layanan klinik."
+    },
+    {
+      "path": "maps",
+      "tercatat": {
+        "rating": null,
+        "ulasan": null
+      },
+      "catatan": "Direktori mencantumkan rating 4,7 dari 23 ulasan."
+    }
   ]
 }
