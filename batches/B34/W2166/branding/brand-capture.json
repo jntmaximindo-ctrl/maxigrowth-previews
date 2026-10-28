@@ -1,0 +1,50 @@
+{
+  "url": "https://www.dentalclinics.care/dental-clinic/dewata-dental-care-and-lab",
+  "captured": "2026-10-28T10:38:56.945Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#1f428e",
+      "share": 1,
+      "kinds": {
+        "bg": 2,
+        "cta": 2,
+        "text": 7,
+        "svg": 2
+      }
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Playfair Display"
+  ],
+  "logos": [
+    {
+      "src": "https://www.dentalclinics.care/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=48&q=75",
+      "why": "img[logo]",
+      "error": "apiRequestContext.get: Timeout 20000ms exceeded.\nCall log:\n  - → GET https://www.dentalclinics.care/_next/image?url=%2Fassets%2Fimages%2Flogo.png&w=48&q=75\n    - user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36\n    - accept: */*\n    - accept-encoding: gzip,deflate,br\n    - cookie: _ga_HJ342SDX1T=GS2.1.s1793183939$o1$g0$t1793183939$j60$l0$h0; _ga=GA1.1.1660322415.1793183939; FCCDCF=%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%229719bef5-15d8-406c-9ce1-28f495ee0e54%5C%22%2C%5B1793183939%2C188000000%5D%5D%22%5D%5D%5D; __gads=ID=19d6393bedca60db:T=1793183939:RT=1793183939:S=ALNI_MaeOjCtISK3Di1BGRTccDYFLhiUzQ; __gpi=UID=00001613ee984102:T=1793183939:RT=1793183939:S=ALNI_Mbzs8A6ZIfzo5o1f3kyr4pQA487BQ; __eoi=ID=32381565783a7f8a:T=1793183939:RT=1793183939:S=AA-AfjZhTtxqugtNWm8zjN-iYlVa; FCNEC=%5B%5B%22AKsRol-68oDOpJi42wrY_ADE3hQZtCtBlasLMUafnRONGpKzTy_boNQHDH_kkc7h7ktD8VZ0aVCO74PRyqrPAJyUuMaA-dzlEA%3D%3D%22%5D%5D\n  - ← 200 OK\n    - date: Wed, 28 Oct 2026 10:39:03 GMT\n    - content-type: image/png\n    - content-length: 18712\n    - connection: keep-alive\n    - content-disposition: attachment\n    - vary: Accept\n    - content-security-policy: script-src 'none'; frame-src 'none'; sandbox;\n    - report-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=o2o3HuSIn2jlGF0tdHAirwDNrYWG7CkjWUSf0l9%2BPW09IVK13Jhyu8A%2FDu84iBAEIidZC%2BhfPLBKzjAXo4EEurtNpwzZQoi54s0V45U3%2FphcyeR8oQOFBAM15pA3jsL1kk2YqKndD3U7\"}]}\n    - nel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\n    - server: cloudflare\n    - cf-ray: a519507a4b87efe7-IAD\n    - alt-svc: h3=\":443\"; ma=86400\n"
+    },
+    {
+      "file": "logo-2.svg",
+      "why": "header svg"
+    },
+    {
+      "file": "logo-3.ico",
+      "src": "https://www.dentalclinics.care/assets/images/favicon.ico",
+      "why": "icon"
+    },
+    {
+      "src": "https://www.dentalclinics.care/assets/images/opengraph-image.webp",
+      "why": "og:image",
+      "error": "HTTP 404"
+    }
+  ],
+  "errors": [],
+  "title": "Dewata Dental Care and Lab | Dental Clinic in Denpasar",
+  "theme_color": "#2C84B4",
+  "neutrals": [
+    "#f9f8f5",
+    "#22262a",
+    "#60666c"
+  ]
+}
