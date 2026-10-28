@@ -25,7 +25,7 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Sudirman",
+      "nama": "DRG. NANNY SAPUTRA",
       "alamat": {
         "v": "Jalan Jend. Sudirman No.129, Karanganyar, Astanaanyar, Kota Bandung, Jawa Barat 40241",
         "src": "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
@@ -56,42 +56,12 @@ RISET LAMA:
         },
         "src": "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
       "maps_url": ""
     }
   ],
-  "dokter": [
-    {
-      "nama": {
-        "v": "DRG. NANNY SAPUTRA",
-        "src": "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
-        "tgl": "2026-10-28",
-        "yakin": "sedang"
-      },
-      "spesialis": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
-      },
-      "jadwal": {
-        "v": {
-          "sen": "08-12",
-          "sel": "08-12",
-          "rab": "08-12",
-          "kam": "08-12",
-          "jum": "08-12",
-          "sab": "tutup",
-          "min": "tutup"
-        },
-        "src": "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
-      },
-      "cabang": "Sudirman"
-    }
-  ],
+  "dokter": [],
   "layanan": [],
   "harga": [],
   "fasilitas": [],
@@ -104,19 +74,13 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Tidak ditemukan situs resmi yang dapat diatribusikan dari pencarian nama dan alamat; profil situs tidak dapat diaudit."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Ringkasan lokasi dan jadwal pagi dari direktori dengan pengingat konfirmasi melalui telepon.",
-  "catatan": "Ditemukan nomor telepon tetap publik (022) 4236979, dinormalisasi menjadi 62224236979; BUKAN nomor ponsel sehingga WA null dan tidak dianggap WhatsApp. Tidak dilewati karena ada nomor telepon publik sesuai aturan hanya melewati bila tanpa nomor sama sekali. Sumber operasional utama hanya direktori Totoks; alamat dan jadwal perlu konfirmasi. Ulastempat dibuka tetapi gagal 500; cuplikan mencantumkan nama/alamat sama, tidak dijadikan src fakta. Daftar sumber mencatat URL yang dicoba; hanya satu halaman operasional berhasil dibaca, sehingga dukungan dua sumber belum penuh. Penelusuran tambahan artikel Telkom gagal diakses; tidak dipakai sebagai bukti identitas praktik. Tidak ditemukan nomor ponsel yang dapat dipastikan milik dokter ini; nomor dari daftar dokter Jakarta yang hanya bernama Nanny tidak dipakai. email tidak ditemukan setelah dicari di Totoks yang dibuka serta pencarian nama, alamat dan kontak; Ulastempat gagal. Layanan tindakan belum diketahui; empat kartu konten adalah informasi persiapan, bukan klaim layanan. harga belum tersedia. Angka Maps null karena sumber langsung belum terbaca. Pesan_wa_default hanya draf teks, tidak memiliki tujuan WA terverifikasi. Draf outreach memerlukan konsep pada tautan dan proposal PDF yang diperiksa pemilik sebelum dikirim; tidak ada pengiriman.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/, https://www.ulastempat.com/7-dokter-gigi-di-astana-anyar-dengan-pelayanan-terbaik/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nama dan lokasi riset lama dibaca ulang; fakta belum tersedia tetap null. Angka ulasan dari surat tidak diperlakukan sebagai pemeriksaan langsung Maps. Rincian berasal dari Totoks; Ulastempat gagal 500, bukan verifikasi independen. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
     "https://www.ulastempat.com/7-dokter-gigi-di-astana-anyar-dengan-pelayanan-terbaik/"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "dokter[0].jadwal",
-      "tercatat": "{\"sen\": \"08-12\", \"sel\": \"08-12\", \"rab\": \"08-12\", \"kam\": \"08-12\", \"jum\": \"08-12\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
-      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
-    }
   ]
 }

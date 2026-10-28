@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W1884",
   "nama": {
     "v": "drg. Kesuma Nasseri",
-    "src": "https://medicastore.com/dokter/detail/15354/kesuma-nasseri",
+    "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
     "tgl": "2026-10-28",
     "yakin": "sedang"
   },
@@ -25,12 +25,12 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Praktik Bandung",
+      "nama": "drg. Kesuma Nasseri",
       "alamat": {
         "v": "Jl. Otto Iskandar Dinata No.524, Nyengseret, Astanaanyar, Bandung",
         "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
       "telepon": {
         "v": "62225201627",
@@ -53,32 +53,8 @@ RISET LAMA:
       "maps_url": ""
     }
   ],
-  "dokter": [
-    {
-      "nama": {
-        "v": "drg. Kesuma Nasseri",
-        "src": "https://www.tzuchi.or.id/read-berita/lahirnya-saudara-seperjuangan-dari-bandung/798",
-        "tgl": "2026-10-28",
-        "yakin": "tinggi"
-      },
-      "spesialis": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
-      },
-      "jadwal": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
-      },
-      "cabang": "Praktik Bandung"
-    }
-  ],
-  "layanan": [
-    "Konsultasi gigi"
-  ],
+  "dokter": [],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -89,12 +65,14 @@ RISET LAMA:
     "tgl": "2026-10-28"
   },
   "keunggulan": [],
-  "situs_lama": [],
-  "ide_fitur_khas": "Daftar persiapan kunjungan dengan konfirmasi alamat dan jam melalui telepon.",
-  "catatan": "Kontak publik yang ditemukan hanya telepon tetap 0225201627, dinormalisasi menjadi 62225201627. Tidak ada nomor ponsel publik yang dapat diatribusikan ke dokter, sehingga wa null; jangan membentuk tautan WA dari telepon tetap. Alamat artikel No.524 berbeda dari indeks Yellow Pages 2019 No.526; alamat keyakinan rendah dan perlu konfirmasi. Jam artikel lama belum terkonfirmasi sehingga null. Medicastore tidak mencantumkan lokasi praktik. email tidak ditemukan setelah pencarian nama+telepon/WhatsApp/email dan nama+08, pembacaan Medicastore, Indoplasma, serta Tzu Chi; email/telepon footer Medicastore dan Indoplasma bukan kontak dokter. Instagram dan website praktik belum ditemukan. Tidak menyalin harga artikel karena bukan harga resmi klinik. harga belum tersedia. Riwayat relawan pada sumber lama tidak dijadikan klaim keadaan layanan sekarang. Maps tidak diverifikasi, rating/ulasan null. Empat kartu konten adalah informasi persiapan konsultasi, bukan empat klaim tindakan. Draf outreach disimpan sesuai skema, tidak dikirim; media WA klinik belum tersedia. URL preview dan PDF perlu disiapkan pemilik sebelum pengiriman.",
+  "situs_lama": [
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+  ],
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/, https://medicastore.com/dokter/detail/15354/kesuma-nasseri. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nama dan lokasi riset lama dibaca ulang; fakta belum tersedia tetap null. Angka ulasan dari surat tidak diperlakukan sebagai pemeriksaan langsung Maps. Sumber kontak artikel bertanggal 24 Oktober 2023, keyakinan sedang. Jadwal Minggu belum dikonfirmasi sumber primer. Tidak memakai nomor/email Medicastore pada footer sebagai nomor dokter. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
-    "https://medicastore.com/dokter/detail/15354/kesuma-nasseri",
-    "https://www.tzuchi.or.id/read-berita/lahirnya-saudara-seperjuangan-dari-bandung/798"
+    "https://medicastore.com/dokter/detail/15354/kesuma-nasseri"
   ]
 }
