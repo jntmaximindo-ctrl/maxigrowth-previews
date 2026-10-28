@@ -57,13 +57,21 @@ links = baca("data/preview-links.json", {})
 outreach = baca("data/outreach.json", {})
 review = baca("data/review.json", {})
 catatan = baca("data/review-catatan.json", {})
+def kesementara(alasan):
+    """Pelajaran 42: gagal karena belum terdeploy (404/tanpa tautan/HTTP 0/5xx) bersifat sementara -> diperiksa ulang."""
+    a = str(alasan)
+    return a.startswith("tanpa tautan") or a in ("HTTP 404", "HTTP 0") or re.match(r"HTTP 5\d\d", a) is not None
+
+
 todo = []
 for p in glob.glob(os.path.join(ROOT, "batches", "*", "*", "status.json")):
     st = baca(os.path.relpath(p, ROOT), {})
     if (st.get("status") or "").lower() != "siap review":
         continue
     kid = os.path.basename(os.path.dirname(p))
-    if kid in outreach or kid in review:
+    if kid in outreach:
+        continue
+    if kid in review and not (review[kid] == "gagal" and kesementara(catatan.get(kid, ""))):
         continue
     slug = links.get(kid)
     if isinstance(slug, list):
@@ -76,6 +84,8 @@ with cf.ThreadPoolExecutor(max_workers=12) as ex:
         review[kid] = hasil
         if alasan:
             catatan[kid] = alasan
+        else:
+            catatan.pop(kid, None)
 
 with open(os.path.join(ROOT, "data", "review.json"), "w", encoding="utf-8") as f:
     json.dump(review, f, ensure_ascii=False, indent=1, sort_keys=True)

@@ -505,6 +505,17 @@ def _():
     assert "klinik-terbaik" in o and "diskon" not in o.lower(), o
 
 
+@uji("review_auto: gagal sementara (404/tanpa tautan) diperiksa ulang, gagal definitif tidak (pelajaran 42)")
+def _():
+    src = (ROOT / "scripts/review_auto.py").read_text(encoding="utf-8")
+    i = src.index("def kesementara"); j = src.index("todo = []")
+    ns = {"re": __import__("re")}
+    exec(src[i:j], ns)
+    k = ns["kesementara"]
+    assert k("HTTP 404") and k("tanpa tautan preview") and k("HTTP 503")
+    assert not k("teks placeholder") and not k("tanpa noindex") and not k("tanpa kontak")
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
