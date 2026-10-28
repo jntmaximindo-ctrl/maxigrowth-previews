@@ -31,9 +31,9 @@
       "type": "object",
       "required": ["wa", "email_subjek", "email_isi"],
       "properties": {
-        "wa": {"type": "string", "description": "≤ 90 kata, sebut 1 hal spesifik klinik, link https://maxigrowthstudio.com/<slug>"},
+        "wa": {"type": ["string", "null"], "description": "≤ 90 kata, sebut 1 hal spesifik klinik, link https://maxigrowthstudio.com/<slug>"},
         "email_subjek": {"type": "string"},
-        "email_isi": {"type": "string", "description": "≤ 170 kata, menyebut lampiran proposal PDF"}
+        "email_isi": {"type": ["string", "null"], "description": "≤ 170 kata, menyebut lampiran proposal PDF"}
       }
     }
   }

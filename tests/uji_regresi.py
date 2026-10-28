@@ -516,6 +516,14 @@ def _():
     assert not k("teks placeholder") and not k("tanpa noindex") and not k("tanpa kontak")
 
 
+@uji("skema konten: outreach.wa dan email_isi boleh null (klinik tanpa kontak) (pelajaran 43)")
+def _():
+    import json as _j
+    sk = _j.loads((ROOT / "schemas/konten.schema.json").read_text(encoding="utf-8"))
+    o = sk["properties"]["outreach"]["properties"]
+    assert "null" in o["wa"]["type"] and "null" in o["email_isi"]["type"]
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
