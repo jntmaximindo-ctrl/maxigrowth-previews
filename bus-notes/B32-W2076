@@ -1,0 +1,7 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B32/W2076/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → sumber: ['https://caribisnis.id/dokter-gigi/yogyakarta/kotagede/dokter-gigi-spesialis-konserva-kota-imp1'] is too short
+✗ konten.schema.json → faq: [{'q': {'id': 'Di mana alamat klinik?', 'en': 'Where is the clinic?'}, 'a': {'id': 'Jl. Gedongkuning No.154 Selatan KG 1, Rejowinangun, Kotagede, Yogyakarta 55171', 'en': 'Jl. Gedongkuning No.154 Selatan KG 1, Rejowinangun, Kotagede, Yogyakarta 55171'}}, {'q': {'id': 'Bagaimana cara menghubungi?', 'en': 'How can I get in touch?'}, 'a': {'id': 'Nomor publik: +6282131061631', 'en': 'Public contact: +6282131061631'}}, {'q': {'id': 'Apakah biaya sudah tersedia?', 'en': 'Are prices available?'}, 'a': {'id': 'Tarif belum terverifikasi; tanyakan sebelum perawatan.', 'en': 'Fees are unverified; ask before treatment.'}}] is too short
+GAGAL (2 masalah)
+

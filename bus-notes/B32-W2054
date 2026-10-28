@@ -1,0 +1,7 @@
+REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
+== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B32/W2054/konten.json: 0 pelanggaran, 0 peringatan
+
+✗ riset.schema.json → sumber: ['https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/'] is too short
+✗ konten.schema.json → faq: [{'q': {'id': 'Di mana alamatnya?', 'en': 'Where is the address?'}, 'a': {'id': 'Jl. Ketintang Baru Selatan I No.51-53, Ketintang, Gayungan, Surabaya 60235', 'en': 'Jl. Ketintang Baru Selatan I No.51-53, Ketintang, Gayungan, Surabaya 60235'}}, {'q': {'id': 'Bagaimana menghubungi?', 'en': 'How to contact?'}, 'a': {'id': 'Kontak belum dapat dipastikan.', 'en': 'Contact not verified.'}}, {'q': {'id': 'Berapa biayanya?', 'en': 'What does it cost?'}, 'a': {'id': 'Tarif belum tersedia, konfirmasi kepada pengelola.', 'en': 'Fees are unavailable; confirm with the practice.'}}] is too short
+GAGAL (2 masalah)
+
