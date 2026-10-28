@@ -9,7 +9,7 @@ RISET LAMA:
     "tgl": "2026-10-28",
     "yakin": "sedang"
   },
-  "kota": "Kabupaten Sidoarjo",
+  "kota": "Sidoarjo",
   "zona_waktu": "WIB",
   "instagram": {
     "v": "https://www.instagram.com/fransiska_andriani83/",
@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "drg. Fransiska Andriani, Sp.KG",
       "alamat": {
-        "v": "Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo, Jawa Timur 61213",
+        "v": "Taman Pinang Indah D3 No.2, Lemah Putro, Lemahputro, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61213",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,21 +45,24 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
+        "v": {
+          "sen": "08-10,16-20",
+          "sel": "08-10,16-20",
+          "rab": "08-10,16-20",
+          "kam": "08-10,16-20",
+          "jum": "08-10,16-20",
+          "sab": "tutup",
+          "min": "tutup"
+        },
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg.%20Fransiska%20Andriani,%20Sp.KG"
+      "maps_url": ""
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Konsultasi konservasi gigi",
-    "Pemeriksaan gigi",
-    "Informasi perawatan saluran akar",
-    "Janji temu dokter spesialis"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -71,13 +74,14 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Belum ada situs resmi mandiri yang dapat dikonfirmasi."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Informasi jam dan alamat dengan penjelasan sumber direktori.",
-  "catatan": "Revisi kontak: nomor yang dapat ditemukan hanya telepon tetap, tidak ada bukti nomor WhatsApp aktif sehingga wa null. Tarif tidak dipublikasikan secara resmi sehingga harga=[]. Layanan spesifik dari direktori umum perlu dikonfirmasi langsung; daftar layanan merupakan pertanyaan yang relevan, bukan jaminan tindakan. Dokumen historis tidak membuktikan status praktik terkini.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220, https://poltekkes.web.id/dokter-gigi-sidoarjo/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Instagram tercantum di direktori, halaman IG sendiri dibatasi. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "https://pjm.poltekkes-surabaya.ac.id/wp-content/uploads/2021/01/5.-LAPORAN-TRACER-STUDI-2023_LULUSAN-2022.pdf"
+    "https://poltekkes.web.id/dokter-gigi-sidoarjo/"
   ],
   "verifikasi_manual": [
     {
@@ -92,7 +96,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo, Jawa Timur 61213",
+      "tercatat": "Taman Pinang Indah D3 No.2, Lemah Putro, Lemahputro, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61213",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
@@ -102,7 +106,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].jam",
-      "tercatat": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
+      "tercatat": "{\"sen\": \"08-10,16-20\", \"sel\": \"08-10,16-20\", \"rab\": \"08-10,16-20\", \"kam\": \"08-10,16-20\", \"jum\": \"08-10,16-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

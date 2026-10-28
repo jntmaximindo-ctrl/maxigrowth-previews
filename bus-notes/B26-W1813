@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Molarize Dental Care",
       "alamat": {
-        "v": "Jl. Gn. Merapi No.205, Pisang Selatan, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90141",
+        "v": "Jl. Gunung Merapi No.205, Pisang Selatan, Ujung Pandang, Makassar, Sulawesi Selatan 90141",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,24 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "13:30-21",
-          "sel": "13:30-21",
-          "rab": "13:30-21",
-          "kam": "13:30-21",
-          "jum": "13:30-21",
-          "sab": "13-20",
-          "min": "tutup"
-        },
+        "v": "Senin–Jumat 13.30–21.00, Sabtu 13.00–20.00, Minggu tutup (direktori)",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Konsultasi kesehatan gigi",
+    "Pembersihan karang gigi menurut ulasan",
+    "Pencabutan gigi menurut ulasan",
+    "Informasi pembayaran dengan kartu"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -74,20 +71,18 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Situs resmi mandiri belum dapat dibuktikan."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar, https://www.dentalclinics.care/dental-clinic/molarize-dental-care, https://pdgimakassar.org/anggota-pdgi-cabang-makassar/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Riset lama dipertahankan untuk nama, lokasi dan telepon, lalu dibaca ulang. Jam kini didukung tabel DentalClinics.care. Angka ulasan berbeda antar direktori dan bukan pembacaan langsung Maps, sehingga maps null. Ulasan pasien tidak dipakai untuk nama dokter atau tindakan. Lokari tidak memuat email, ponsel atau website. Pencarian kontak/Instagram/WhatsApp belum menemukan kanal primer yang dapat dicocokkan. Pemeriksaan ulang antrean revisi: sumber telepon tetap berhasil dibuka, tetap tidak mengarang WA. Nomor rumah/HP tenaga medis tidak dijadikan kontak administrasi klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Informasi lokasi dan jam dari sumber spesifik serta pertanyaan kunjungan sesuai kondisi klinik.",
+  "catatan": "Dua direktori menyebut alamat dan nomor yang sama. Ulasan pasien menyebut scaling dan cabut gigi, bukan daftar layanan resmi. WhatsApp tidak terverifikasi. Harga resmi tidak ditemukan. Data yang tidak terverifikasi dibiarkan null; maps_url untuk B17 menggunakan URL peta dan bukan nilai null demi tipe schema.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
-    "https://www.dentalclinics.care/dental-clinic/molarize-dental-care",
-    "https://pdgimakassar.org/anggota-pdgi-cabang-makassar/"
+    "https://www.dentalclinics.care/dental-clinic/molarize-dental-care"
   ],
   "verifikasi_manual": [
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"13:30-21\", \"sel\": \"13:30-21\", \"rab\": \"13:30-21\", \"kam\": \"13:30-21\", \"jum\": \"13:30-21\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "tercatat": "Senin–Jumat 13.30–21.00, Sabtu 13.00–20.00, Minggu tutup (direktori)",
       "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]

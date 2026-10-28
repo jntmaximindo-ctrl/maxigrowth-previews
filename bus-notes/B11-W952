@@ -4,7 +4,7 @@ RISET LAMA:
 {
   "id": "W952",
   "nama": {
-    "v": "Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera",
+    "v": "Praktek Dokter Bersama Umum Dan Gigi — dr. Baladika & drg. Vera",
     "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
     "tgl": "2026-10-28",
     "yakin": "sedang"
@@ -25,9 +25,9 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Praktek Dokter Bersama Umum Dan Gigi - dr. Baladika & drg. Vera",
+      "nama": "Praktek Dokter Bersama Umum Dan Gigi — dr. Baladika & drg. Vera",
       "alamat": {
-        "v": "Jl. Pd. Sidokare Indah No.BT/09, Cangkring, Sidokare, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61214",
+        "v": "Pondok Sidokare Indah BT/09, Cangkring, Sidokare, Sidoarjo, Jawa Timur 61214",
         "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,24 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "07-11,12-16,17-21",
-          "sel": "07-11,12-16,17-21",
-          "rab": "07-11,12-16,17-21",
-          "kam": "07-11,12-16,17-21",
-          "jum": "07-11,12-16,17-21",
-          "sab": "07-11,17-21",
-          "min": "07-11,17-21"
-        },
-        "src": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/",
+        "v": "Senin–Jumat 07.00–11.00, 12.00–16.00, 17.00–21.00; Sabtu–Minggu 07.00–11.00 dan 17.00–21.00",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec"
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Konsultasi dokter umum",
+    "Konsultasi dokter gigi",
+    "Konfirmasi jadwal tiga sesi",
+    "Pemeriksaan anak (disebut ulasan pasien)"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -74,13 +71,13 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Situs mandiri tidak dapat diverifikasi."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec, https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Panduan tiga sesi jam praktik dan pemisahan layanan dokter umum serta dokter gigi.",
+  "catatan": "Dua direktori dan Waze mengonfirmasi lokasi, nomor tetap, dan jadwal tiga sesi pada hari kerja. Status WhatsApp belum ditemukan, disimpan null; jangan menganggap telepon tetap sebagai WA. Praktik memiliki dokter umum dan dokter gigi, tetapi layanan masing-masing harus ditanyakan secara terpisah. Tarif resmi tidak ditemukan.",
   "sumber": [
     "https://www.waze.com/live-map/directions/id/jawa-timur/praktek-dokter-bersama-umum-dan-gigi-dr.-baladika-and-drg.-vera?to=place.ChIJpVp06tnh1y0RsIrB-ZpOFec",
-    "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/"
+    "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-sidoarjo/",
+    "https://idalamat.com/alamat/1062226/praktek-dokter-bersama-umum-dan-gigi-dr-baladika-drg-vera-sidoarjo-jawa-timur"
   ]
 }

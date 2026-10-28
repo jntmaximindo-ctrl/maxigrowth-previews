@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Forte Medical, Dental & Aesthetic Clinic",
       "alamat": {
-        "v": "Jl. Botolempangan No.68, Sawerigading, Ujung Pandang, Makassar, Sulawesi Selatan 90113",
+        "v": "Jl. Botolempangan No.68, RT.001/RW.02, Sawerigading, Kec. Ujung Pandang, Kota Makassar, Sulawesi Selatan 90113",
         "src": "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,12 +45,20 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "10-19",
+          "sel": "10-19",
+          "rab": "10-19",
+          "kam": "10-19",
+          "jum": "10-19",
+          "sab": "10-19",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": null
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -66,13 +74,20 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Situs resmi mandiri belum dikonfirmasi."
+    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
+    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
-  "ide_fitur_khas": "Panduan pemeriksaan lokasi dan konfirmasi jam pada sumber yang tersedia.",
-  "catatan": "REVISI karena nomor WA belum ditemukan; kontak telepon tidak sama dengan nomor WhatsApp yang terverifikasi. Indonesiaknowledge dan direktori PinkBazaar mencantumkan usaha tersebut di alamat sama. Layanan medis, dental, estetika tercantum pada nama klinik, tetapi tindakan individual tidak terverifikasi. WA tidak ditemukan dan harga tidak tersedia.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar, https://indonesiaknowledge.com/directory/medical-clinics/makassar. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Profil dan indeks penerbit yang sama bukan verifikasi independen. Pemeriksaan ulang antrean revisi: sumber telepon tetap berhasil dibuka, tetap tidak mengarang WA. Nomor rumah/HP tenaga medis tidak dijadikan kontak administrasi klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
-    "https://pinkbazaar.in/services/makassar/healthcare-medical/",
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-19\", \"sel\": \"10-19\", \"rab\": \"10-19\", \"kam\": \"10-19\", \"jum\": \"10-19\", \"sab\": \"10-19\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

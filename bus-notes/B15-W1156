@@ -4,7 +4,7 @@ RISET LAMA:
 {
   "id": "W1156",
   "nama": {
-    "v": "Praktik drg. Endang Sariningsih",
+    "v": "Drg. Endang Sariningsih",
     "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
     "tgl": "2026-10-28",
     "yakin": "sedang"
@@ -25,9 +25,9 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Praktik drg. Endang Sariningsih",
+      "nama": "Drg. Endang Sariningsih",
       "alamat": {
-        "v": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52212",
+        "v": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Brebes, Jawa Tengah 52212",
         "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,24 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "08-11",
-          "sel": "15-17",
-          "rab": "tutup",
-          "kam": "08-11",
-          "jum": "tutup",
-          "sab": "15-17",
-          "min": "tutup"
-        },
+        "v": "Senin/Kamis 08.00–11.00; Selasa/Sabtu 15.00–17.00; Rabu/Jumat/Minggu tutup",
         "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Drg.%20Endang%20Sariningsih"
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Pemeriksaan gigi",
+    "Konsultasi pencabutan gigi",
+    "Penambalan gigi",
+    "Pemeriksaan kebutuhan gigi tiruan"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -74,24 +71,24 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Belum ada situs resmi mandiri yang dapat dikonfirmasi."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Informasi jam dan alamat dengan penjelasan sumber direktori.",
+  "catatan": "Revisi kontak: nomor yang dapat ditemukan hanya telepon tetap, tidak ada bukti nomor WhatsApp aktif sehingga wa null. Tarif tidak dipublikasikan secara resmi sehingga harga=[]. Layanan spesifik dari direktori umum perlu dikonfirmasi langsung; daftar layanan merupakan pertanyaan yang relevan, bukan jaminan tindakan. Dokumen historis tidak membuktikan status praktik terkini.",
   "sumber": [
     "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
+    "https://idalamat.com/alamat/drg-endang-sariningsih-1061622",
     "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/"
   ],
   "verifikasi_manual": [
     {
       "path": "nama",
-      "tercatat": "Praktik drg. Endang Sariningsih",
+      "tercatat": "Drg. Endang Sariningsih",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Kec. Brebes, Kabupaten Brebes, Jawa Tengah 52212",
+      "tercatat": "Jl. Dr. Wahidin No.36, RT.03/RW.03, Saditan, Brebes, Jawa Tengah 52212",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
@@ -101,7 +98,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"08-11\", \"sel\": \"15-17\", \"rab\": \"tutup\", \"kam\": \"08-11\", \"jum\": \"tutup\", \"sab\": \"15-17\", \"min\": \"tutup\"}",
+      "tercatat": "Senin/Kamis 08.00–11.00; Selasa/Sabtu 15.00–17.00; Rabu/Jumat/Minggu tutup",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]
