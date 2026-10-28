@@ -1,0 +1,132 @@
+{
+  "id": "W2032",
+  "hero": {
+    "judul": {
+      "id": "Agung Oembari Dokter Gigi",
+      "en": "Agung Oembari Dokter Gigi"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Surabaya. Konfirmasikan lokasi dan jadwal dokter sebelum datang.",
+      "en": "Visit information in Surabaya. Confirm the location and clinician schedule before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Sampaikan hari pilihan dan tanyakan jadwal dokter terbaru.",
+        "en": "Share your preferred day and ask for the latest clinician schedule."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi konsultasi",
+        "en": "Consultation location"
+      },
+      "ringkas": {
+        "id": "Lokasi tercatat: Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Konfirmasikan petunjuk sebelum berangkat.",
+        "en": "Listed location: Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Confirm directions before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan pemeriksaan",
+        "en": "Assessment needs"
+      },
+      "ringkas": {
+        "id": "Jelaskan kebutuhan Anda dan tanyakan pemeriksaan yang tersedia.",
+        "en": "Describe your needs and ask what assessments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Mintalah rincian biaya sesuai pemeriksaan dan rencana perawatan.",
+        "en": "Request a fee breakdown for assessment and proposed care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare visit questions"
+    },
+    "penjelasan": {
+      "id": "Catat pilihan hari, kebutuhan pemeriksaan, dan pertanyaan biaya untuk dikonfirmasikan.",
+      "en": "Note a preferred day, assessment needs, and fee questions to confirm."
+    },
+    "alasan_dipilih": "Kontak yang ditemukan berupa telepon tetap; daftar pertanyaan memudahkan konfirmasi informasi sebelum datang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi konsultasinya?",
+        "en": "Where is the consultation location?"
+      },
+      "a": {
+        "id": "Sumber publik mencatat Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Konfirmasikan lokasi sebelum datang.",
+        "en": "A public source lists Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How do I check appointment times?"
+      },
+      "a": {
+        "id": "Hubungi nomor yang tercantum untuk menanyakan jadwal dokter terbaru.",
+        "en": "Use the listed contact number to ask for the latest clinician schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian sesuai kebutuhan pemeriksaan Anda.",
+        "en": "Fees are not available here. Request a breakdown for your assessment needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda agar pengelola dapat mengonfirmasi pemeriksaan dan jadwal yang sesuai.",
+        "en": "Describe your needs so the practice can confirm assessment options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi saya diterima?",
+        "en": "Is my insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan jenis asuransi dan ketentuan pembayaran sebelum kunjungan.",
+        "en": "Ask about your insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Ask about appointments and your visit needs."
+  },
+  "pesan_wa_default": "Halo Agung Oembari Dokter Gigi, saya ingin menanyakan jadwal kunjungan di Surabaya. Mohon konfirmasi lokasi, pemeriksaan, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Agung Oembari Dokter Gigi. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Informasi jadwal dapat disusun untuk memudahkan konfirmasi. Kami sudah membuat konsep website informasi kunjungan: https://maxigrowthstudio.com/agung-oembari. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Agung Oembari Dokter Gigi",
+    "email_isi": "Halo Bapak/Ibu pengelola Agung Oembari Dokter Gigi,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178. Informasi jadwal dapat disusun untuk memudahkan konfirmasi. Kami sudah membuat konsep website informasi kunjungan untuk ditinjau: https://maxigrowthstudio.com/agung-oembari.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

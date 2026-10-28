@@ -1,0 +1,132 @@
+{
+  "id": "W1886",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Nanny — Art Denta Care",
+      "en": "drg. Nanny — Art Denta Care"
+    },
+    "sub": {
+      "id": "Informasi perawatan dan konsultasi di Sudirman, Bandung. Tanyakan jadwal dokter sebelum datang.",
+      "en": "Care and consultation information in Sudirman, Bandung. Confirm clinician appointments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan konsultasi",
+      "en": "Ask about a consultation"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perencanaan senyum digital",
+        "en": "Digital smile planning"
+      },
+      "ringkas": {
+        "id": "Tanyakan proses konsultasi untuk perencanaan perawatan digital.",
+        "en": "Ask about a consultation for digital treatment planning."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan dengan EMS Airflow",
+        "en": "EMS Airflow cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan ketersediaan perawatan pembersihan.",
+        "en": "Ask about assessment and cleaning appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan dengan laser",
+        "en": "Laser dentistry"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan tindakan yang sesuai setelah pemeriksaan.",
+        "en": "Discuss appropriate options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Aligner transparan",
+        "en": "Clear aligners"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian dokter untuk perencanaan aligner.",
+        "en": "Ask for a clinician’s assessment for aligner planning."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan konsultasi",
+      "en": "Prepare consultation questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik layanan dan hari pilihan, lalu susun pertanyaan untuk meminta konfirmasi jadwal.",
+      "en": "Choose a care topic and preferred day, then prepare questions to confirm an appointment."
+    },
+    "alasan_dipilih": "Situs memuat beberapa teknologi perawatan; pemilih topik membantu menyiapkan pertanyaan tanpa menjanjikan hasil."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Art Denta Care tercatat di Jenderal Sudirman No.129, Bandung.",
+        "en": "Art Denta Care is listed at Jenderal Sudirman No.129, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs mencatat Senin–Sabtu 08.00–12.00 dan 15.00–18.00 WIB; Minggu tutup. Konfirmasikan jadwal dokter.",
+        "en": "The website lists Monday–Saturday, 8 am–noon and 3–6 pm WIB; closed Sunday. Confirm clinician appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian biaya kepada admin.",
+        "en": "Fees are not available here. Ask the team for a cost breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah aligner cocok untuk saya?",
+        "en": "Are aligners suitable for me?"
+      },
+      "a": {
+        "id": "Kesesuaian perawatan perlu dibahas melalui pemeriksaan dan konsultasi dokter.",
+        "en": "Suitability should be discussed through a clinician’s examination and consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan penjamin dan ketentuan pembayaran sebelum datang.",
+        "en": "Ask about accepted insurers and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal konsultasi Anda.",
+    "en": "Ask about your consultation appointment."
+  },
+  "pesan_wa_default": "Halo Art Denta Care, saya ingin menanyakan jadwal konsultasi drg. Nanny di Sudirman No.129. Mohon informasi jadwal dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Nanny di Art Denta Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Situs klinik mencantumkan layanan perencanaan digital dan lokasi Sudirman No.129. Kami sudah membuat konsep website: https://maxigrowthstudio.com/drg-nanny. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website praktik drg. Nanny",
+    "email_isi": "Halo Bapak/Ibu pengelola praktik drg. Nanny di Art Denta Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Layanan perencanaan digital pada situs dan lokasi Sudirman No.129 memberi dasar untuk alur informasi konsultasi. Kami sudah membuat konsep website untuk ditinjau: https://maxigrowthstudio.com/drg-nanny.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

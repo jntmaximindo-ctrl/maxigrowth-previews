@@ -1,0 +1,132 @@
+{
+  "id": "W2320",
+  "hero": {
+    "judul": {
+      "id": "drg. Rita R. Laila",
+      "en": "drg. Rita R. Laila"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi keluarga",
+        "en": "Family dental examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan pemeriksaan gigi keluarga dan tanyakan alur kunjungan.",
+        "en": "Share your family dental examination needs and ask about the visit process."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penyuluhan kesehatan gigi",
+        "en": "Dental health education"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi pemeliharaan kesehatan gigi yang sesuai kebutuhan pemeriksaan Anda.",
+        "en": "Ask for dental health information relevant to your examination needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tindakan dokter gigi umum",
+        "en": "General dental care"
+      },
+      "ringkas": {
+        "id": "Pilihan tindakan dibahas setelah pemeriksaan; tanyakan rincian dan biaya sebelum menyetujui perawatan.",
+        "en": "Discuss treatment options after examination; ask for details and costs before agreeing to care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal kunjungan",
+        "en": "Visit scheduling information"
+      },
+      "ringkas": {
+        "id": "Tanyakan sesi hari kerja atau permintaan Sabtu dengan perjanjian.",
+        "en": "Ask about weekday sessions or Saturday visits by arrangement."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih sesi dan tanyakan patokan lokasi",
+      "en": "Choose a session and ask for landmarks"
+    },
+    "penjelasan": {
+      "id": "Siapkan pilihan sesi hari kerja atau permintaan Sabtu, lalu tanyakan petunjuk lokasi Cihanjuang. Tunggu konfirmasi sebelum datang.",
+      "en": "Prepare your preferred weekday session or Saturday request, then ask for directions in Cihanjuang. Wait for confirmation before visiting."
+    },
+    "alasan_dipilih": "Situs memuat dua sesi hari kerja dan Sabtu dengan perjanjian, tetapi alamat belum mencantumkan nomor bangunan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum: Cihanjuang, Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Listed location: Cihanjuang, Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Tanyakan sesi hari kerja atau Sabtu dengan perjanjian. Jadwal pada beberapa sumber berbeda, sehingga perlu dikonfirmasi sebelum datang.",
+        "en": "Ask about weekday sessions or Saturday by arrangement. Sources list different hours, so confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Sampaikan keluhan dan tanyakan tindakan spesifik yang Anda perlukan. Rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "Describe your concern and ask about the specific treatment you need. A treatment plan follows an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo drg. Rita R. Laila, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen drg. Rita R. Laila, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Cihanjuang dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/drg-rita. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website drg. Rita R. Laila",
+    "email_isi": "Yth. Manajemen drg. Rita R. Laila,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Cihanjuang dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/drg-rita. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
