@@ -1,0 +1,132 @@
+{
+  "id": "W1666",
+  "hero": {
+    "judul": {
+      "id": "GIA Dental Care",
+      "en": "GIA Dental Care"
+    },
+    "sub": {
+      "id": "Tanyakan lokasi Pelita Raya, kebutuhan perawatan dan jadwal kunjungan sebelum datang.",
+      "en": "Ask about the Pelita Raya location, treatment options and appointment times before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan implan gigi",
+        "en": "Ask about dental implants"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kebutuhan pemeriksaan, ketersediaan dan biaya kepada klinik.",
+        "en": "Confirm assessment requirements, availability and costs with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pembersihan karang gigi",
+        "en": "Ask about scaling"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kebutuhan pemeriksaan, ketersediaan dan biaya kepada klinik.",
+        "en": "Confirm assessment requirements, availability and costs with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan behel",
+        "en": "Ask about braces"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kebutuhan pemeriksaan, ketersediaan dan biaya kepada klinik.",
+        "en": "Confirm assessment requirements, availability and costs with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan tambal gigi",
+        "en": "Ask about fillings"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kebutuhan pemeriksaan, ketersediaan dan biaya kepada klinik.",
+        "en": "Confirm assessment requirements, availability and costs with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pastikan tujuan kunjungan",
+      "en": "Confirm where to visit"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan dan susun pesan untuk memastikan lokasi, jadwal umum atau konsultasi mitra Rata. Tunggu konfirmasi klinik.",
+      "en": "Select your needs and prepare a message to confirm the location, general appointments or Rata partner consultations. Wait for the clinic to confirm."
+    },
+    "alasan_dipilih": "Ada alamat baru dan jadwal mitra yang berbeda cakupan; fitur membantu pasien mengonfirmasi tujuan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Mitra Rata mencantumkan alamat baru Jl. Pelita Raya No.4 per 22 Juni 2026. Informasi lama menyebut Toddopuli Raya No.45. Konfirmasikan lokasi tujuan Anda.",
+        "en": "Rata lists a new address at Jl. Pelita Raya No.4 from 22 June 2026. Older information lists Toddopuli Raya No.45. Confirm your destination."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam praktik belum terkonfirmasi. Tanyakan jadwal hari pilihan kepada admin.",
+        "en": "Opening hours are unconfirmed. Ask the team about your preferred day."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Sumber berita menyebut beberapa perawatan gigi. Konfirmasikan tindakan dan jadwal dokter yang sesuai kebutuhan Anda.",
+        "en": "News sources mention several dental treatments. Confirm the available treatments and dentist appointments for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo GIA Dental Care, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen GIA Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Pelita Raya, Makassar dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/gia. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website GIA Dental Care",
+    "email_isi": "Yth. Manajemen GIA Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Pelita Raya, Makassar dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/gia. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

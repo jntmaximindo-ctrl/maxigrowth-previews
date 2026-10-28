@@ -1,0 +1,132 @@
+{
+  "id": "W1814",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Success Dental Care",
+      "en": "Explore Success Dental Care"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi dan kunjungan di Makassar.",
+      "en": "Find consultation and visit information in Makassar."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk membahas kondisi gigi Anda.",
+        "en": "Ask about an appointment to discuss your dental concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Concerns"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan kepada dokter agar kebutuhan pemeriksaan dapat ditentukan.",
+        "en": "Describe your concerns so the dentist can assess your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Night Guard",
+        "en": "Night Guard Enquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan kemungkinan penggunaan pelindung gigi sesuai pemeriksaan dokter.",
+        "en": "Ask whether a dental guard may be appropriate after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perencanaan Kunjungan",
+        "en": "Visit Planning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi layanan dan jadwal melalui nomor telepon klinik sebelum datang.",
+        "en": "Confirm services and hours by calling the clinic before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Night Guard",
+      "en": "Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik yang ingin ditanyakan, lalu konfirmasi kebutuhan dan jadwal bersama klinik.",
+      "en": "Choose a topic and confirm your needs and appointment schedule with the clinic."
+    },
+    "alasan_dipilih": "Panduan konsultasi night guard untuk pasien yang ingin bertanya tentang kebiasaan menggemeretakkan gigi"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Silakan telepon klinik untuk memastikan jadwal kunjungan.",
+        "en": "Contact the clinic to confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115",
+        "en": "The listed address is Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah biaya perawatan sudah tersedia?",
+        "en": "Are treatment prices available?"
+      },
+      "a": {
+        "id": "Tarif resmi belum terverifikasi. Mohon tanyakan estimasi sesuai pemeriksaan.",
+        "en": "Official prices could not be verified. Ask for an estimate after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu konfirmasi jadwal?",
+        "en": "Should I confirm opening hours?"
+      },
+      "a": {
+        "id": "Ya. Informasi jam praktik dapat berubah, jadi konfirmasi sebelum datang.",
+        "en": "Yes. Hours can change, so please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum konsultasi?",
+        "en": "What should I prepare for a consultation?"
+      },
+      "a": {
+        "id": "Catat keluhan, riwayat perawatan, dan pertanyaan untuk dokter.",
+        "en": "Note your concerns, treatment history, and questions for the dentist."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Success Dental Care",
+    "en": "Contact Success Dental Care"
+  },
+  "pesan_wa_default": "Halo Success Dental Care, saya ingin menanyakan jadwal pemeriksaan dan ketersediaan konsultasi. Mohon informasinya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Success Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi klinik terkait night guard dapat membantu pasien saat merencanakan konsultasi. Kami sudah menyiapkan konsep website yang merangkum layanan dan informasi kunjungan di https://maxigrowthstudio.com/success. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Success Dental Care",
+    "email_isi": "Yth. Tim Success Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien mengenali informasi konsultasi dan merencanakan kunjungan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/success. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Jika relevan dengan kebutuhan klinik, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

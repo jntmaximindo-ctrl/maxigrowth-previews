@@ -1,0 +1,132 @@
+{
+  "id": "W1809",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan drg. Febriani, Sp.Pros.",
+      "en": "Explore drg. Febriani, Sp.Pros."
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi dan kunjungan di Palembang.",
+      "en": "Find consultation and visit information in Palembang."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Prostodonsia",
+        "en": "Prosthodontic Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian atau pemulihan fungsi gigi sesuai pemeriksaan.",
+        "en": "Discuss tooth replacement or restoration options after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan Lepasan",
+        "en": "Removable Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan pilihan gigi tiruan lepasan.",
+        "en": "Ask about assessment and removable denture options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Mahkota Gigi",
+        "en": "Dental Crowns"
+      },
+      "ringkas": {
+        "id": "Pelajari pertimbangan penggunaan mahkota gigi sesuai kondisi gigi.",
+        "en": "Learn when a dental crown may be considered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jembatan Gigi",
+        "en": "Dental Bridges"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan jembatan gigi dan proses konsultasinya.",
+        "en": "Ask about dental bridge options and the consultation process."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Gigi Tiruan",
+      "en": "Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik yang ingin ditanyakan, lalu konfirmasi kebutuhan dan jadwal bersama klinik.",
+      "en": "Choose a topic and confirm your needs and appointment schedule with the clinic."
+    },
+    "alasan_dipilih": "Pemandu pilihan konsultasi gigi tiruan untuk membedakan pertanyaan mengenai gigi tiruan sebagian, penuh, mahkota, dan jembatan"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Silakan hubungi nomor ponsel klinik untuk memastikan jadwal kunjungan.",
+        "en": "Contact the clinic to confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Mayor Salim Batubara No.287C, 20 Ilir D. II, Kec. Kemuning, Kota Palembang, Sumatera Selatan 30164",
+        "en": "The listed address is Jl. Mayor Salim Batubara No.287C, 20 Ilir D. II, Kec. Kemuning, Kota Palembang, Sumatera Selatan 30164."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah biaya perawatan sudah tersedia?",
+        "en": "Are treatment prices available?"
+      },
+      "a": {
+        "id": "Tarif resmi belum terverifikasi. Mohon tanyakan estimasi sesuai pemeriksaan.",
+        "en": "Official prices could not be verified. Ask for an estimate after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah saya perlu konfirmasi jadwal?",
+        "en": "Should I confirm opening hours?"
+      },
+      "a": {
+        "id": "Ya. Informasi jam praktik dapat berubah, jadi konfirmasi sebelum datang.",
+        "en": "Yes. Hours can change, so please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan sebelum konsultasi?",
+        "en": "What should I prepare for a consultation?"
+      },
+      "a": {
+        "id": "Catat keluhan, riwayat perawatan, dan pertanyaan untuk dokter.",
+        "en": "Note your concerns, treatment history, and questions for the dentist."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi drg. Febriani, Sp.Pros.",
+    "en": "Contact drg. Febriani, Sp.Pros."
+  },
+  "pesan_wa_default": "Halo drg. Febriani, Sp.Pros., saya ingin menanyakan jadwal pemeriksaan dan ketersediaan konsultasi. Mohon informasinya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola drg. Febriani, Sp.Pros., saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi klinik terkait gigi tiruan dapat membantu pasien saat merencanakan konsultasi. Kami sudah menyiapkan konsep website yang merangkum layanan dan informasi kunjungan di https://maxigrowthstudio.com/drg-febriani. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk drg. Febriani, Sp.Pros.",
+    "email_isi": "Yth. Tim drg. Febriani, Sp.Pros.,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien mengenali informasi konsultasi dan merencanakan kunjungan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-febriani. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Jika relevan dengan kebutuhan klinik, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

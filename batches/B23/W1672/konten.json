@@ -1,0 +1,132 @@
+{
+  "id": "W1672",
+  "hero": {
+    "judul": {
+      "id": "Dr. SMILE Dental Care",
+      "en": "Dr. SMILE Dental Care"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi ortodonti",
+        "en": "Orthodontic consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi untuk kebutuhan susunan gigi.",
+        "en": "Ask about consultation appointments for tooth alignment concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan perawatan behel",
+        "en": "Ask about braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan alur pemeriksaan, perawatan dan kontrol.",
+        "en": "Ask about assessment, treatment and follow-up visits."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan",
+        "en": "Ask about examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan alur pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask which examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Request a breakdown of examination and proposed treatment costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih konsultasi Anda",
+      "en": "Choose your consultation"
+    },
+    "penjelasan": {
+      "id": "Pilih topik dan hari pilihan untuk menyusun pesan pra-kunjungan. Formulir ini membantu bertanya; janji temu memerlukan konfirmasi klinik.",
+      "en": "Select topics and a preferred day to prepare a message. This form helps you ask questions; appointments require confirmation."
+    },
+    "alasan_dipilih": "Direktori menyebut dokter umum gigi dan spesialis ortodonti; pemilih membantu menyusun pertanyaan tanpa menetapkan tindakan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan Jl. Sei Batang Kuis No.3, Babura, Kec. Medan Baru, Kota Medan, Sumatera Utara 20152. Konfirmasikan lokasi sebelum datang.",
+        "en": "Public sources list Jl. Sei Batang Kuis No.3, Babura, Kec. Medan Baru, Kota Medan, Sumatera Utara 20152. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam praktik belum terkonfirmasi. Tanyakan jadwal hari pilihan kepada admin.",
+        "en": "Opening hours are unconfirmed. Ask the team about your preferred day."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Sumber menyebut layanan umum gigi dan ortodonti. Tanyakan ketersediaan tindakan serta jadwal dokter.",
+        "en": "Sources mention general dentistry and orthodontics. Ask about treatment availability and dentist schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Dr. SMILE Dental Care, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Dr. SMILE Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Sei Batang Kuis dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/dr-smile. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Dr. SMILE Dental Care",
+    "email_isi": "Yth. Manajemen Dr. SMILE Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Sei Batang Kuis dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/dr-smile. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

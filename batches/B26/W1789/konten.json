@@ -1,0 +1,132 @@
+{
+  "id": "W1789",
+  "hero": {
+    "judul": {
+      "id": "Lūx Dental Care (drg. William A. Bisono)",
+      "en": "Lūx Dental Care (drg. William A. Bisono)"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan, ketersediaan dan rincian biaya.",
+        "en": "Ask about assessment appointments, availability and costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan, ketersediaan dan rincian biaya.",
+        "en": "Ask about assessment appointments, availability and costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan, ketersediaan dan rincian biaya.",
+        "en": "Ask about assessment appointments, availability and costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi palsu",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan, ketersediaan dan rincian biaya.",
+        "en": "Ask about assessment appointments, availability and costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan Anda",
+      "en": "Build your question list"
+    },
+    "penjelasan": {
+      "id": "Pilih topik dan hari pilihan untuk menyusun pesan pra-kunjungan. Formulir ini membantu bertanya; janji temu memerlukan konfirmasi klinik.",
+      "en": "Select topics and a preferred day to prepare a message. This form helps you ask questions; appointments require confirmation."
+    },
+    "alasan_dipilih": "Informasi publik terbatas; fitur berfokus pada konfirmasi tanpa mengarang layanan atau jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Alamat publik: Jl. Tentara Pelajar No.54M, Melayu, Wajo, Makassar City, South Sulawesi 90171. Konfirmasikan sebelum datang.",
+        "en": "Listed address: Jl. Tentara Pelajar No.54M, Melayu, Wajo, Makassar City, South Sulawesi 90171. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Situs mencantumkan Senin-Jumat 11.00-21.00, Sabtu 11.00-17.00 WITA; Minggu tutup. Konfirmasikan sebelum datang.",
+        "en": "The site lists Monday to Friday, 11 am to 9 pm, and Saturday, 11 am to 5 pm WITA; Sunday closed. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Situs memuat beberapa jenis perawatan gigi. Konfirmasikan tindakan dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "The site lists several dental treatments. Confirm availability and assessment requirements with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Lūx Dental Care (drg. William A. Bisono), saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Lūx Dental Care (drg. William A. Bisono), saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Tentara Pelajar dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/l-x. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Lūx Dental Care (drg. William A. Bisono)",
+    "email_isi": "Yth. Manajemen Lūx Dental Care (drg. William A. Bisono),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Tentara Pelajar dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/l-x. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

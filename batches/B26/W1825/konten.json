@@ -1,0 +1,132 @@
+{
+  "id": "W1825",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi MY Dentist Bali",
+      "en": "Dental Care Information at MY Dentist Bali"
+    },
+    "sub": {
+      "id": "Kenali layanan dan informasi kunjungan di Denpasar.",
+      "en": "Explore dental services and visiting information in Denpasar."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk mengetahui kondisi gigi dan mulut.",
+        "en": "Ask about a checkup to understand your oral health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Umum",
+        "en": "General Dental Care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan gigi untuk menentukan langkah selanjutnya.",
+        "en": "Discuss your dental concerns to plan the next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal",
+        "en": "Opening Hours"
+      },
+      "ringkas": {
+        "id": "Periksa jam praktik dan tanyakan ketersediaan kunjungan.",
+        "en": "Review opening hours and confirm appointment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Lokasi",
+        "en": "Clinic Location"
+      },
+      "ringkas": {
+        "id": "Lihat alamat dan petunjuk menuju tempat praktik.",
+        "en": "Find the clinic address and directions."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Info Lokasi dan Jam Kunjungan",
+      "en": "Location and Visiting Hours"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi yang tersedia dan konfirmasi detail layanan atau jadwal sebelum datang.",
+      "en": "Explore available information and confirm treatment details or hours before visiting."
+    },
+    "alasan_dipilih": "Direktori memuat alamat serta jam praktik, sementara rincian layanan perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Alamat yang tercatat: Jl. Teuku Umar Barat No.341A, Padangsambian, Denpasar Barat, Bali.",
+        "en": "The listed address is Jl. Teuku Umar Barat No.341A, Padangsambian, Denpasar Barat, Bali."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Senin–Sabtu 09.00–20.00 WITA menurut direktori.",
+        "en": "Listed as Monday–Saturday 9 AM–8 PM Bali time."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi terkini belum tersedia dalam sumber yang diperiksa. Silakan tanyakan perkiraan biaya sebelum tindakan.",
+        "en": "Current official fees were not available in the reviewed sources. Ask for an estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik untuk memastikan ketersediaan jadwal.",
+        "en": "Contact the clinic to confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui perawatan yang sesuai?",
+        "en": "How do I know which treatment is suitable?"
+      },
+      "a": {
+        "id": "Sampaikan keluhan dan riwayat gigi kepada dokter. Pilihan tindakan ditentukan setelah pemeriksaan.",
+        "en": "Tell the dentist about your concerns and dental history. Treatment options are discussed after an examination."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Kunjungan",
+    "en": "Ask About Your Visit"
+  },
+  "pesan_wa_default": "Halo MY Dentist Bali, saya ingin menanyakan jadwal pemeriksaan gigi dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola MY Dentist Bali, saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi mengenai lokasi praktik di Jalan Teuku Umar Barat dan informasi jam kunjungan. Kami telah menyiapkan konsep website untuk klinik Anda di https://maxigrowthstudio.com/my-dentist. Jika berkenan, silakan dilihat. Kami terbuka menerima koreksi data sebelum digunakan. Terima kasih.",
+    "email_subjek": "Konsep Website MY Dentist Bali",
+    "email_isi": "Yth. Tim Manajemen MY Dentist Bali,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah meninjau informasi publik mengenai lokasi praktik di Jalan Teuku Umar Barat dan informasi jam kunjungan.\n\nKami menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/my-dentist. Konsep ini dirancang untuk membantu pasien menemukan informasi layanan, lokasi, dan cara menanyakan jadwal.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Informasi yang belum terkonfirmasi dapat disesuaikan sebelum digunakan.\n\nTerima kasih atas waktu Bapak/Ibu.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

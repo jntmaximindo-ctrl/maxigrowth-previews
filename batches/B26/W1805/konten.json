@@ -1,0 +1,132 @@
+{
+  "id": "W1805",
+  "hero": {
+    "judul": {
+      "id": "Informasi PCC Dental Pakjo",
+      "en": "PCC Dental Pakjo"
+    },
+    "sub": {
+      "id": "Kenali informasi konsultasi dan jadwal kunjungan di Pakjo, Palembang.",
+      "en": "Explore consultation and visit information in Pakjo, Palembang."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan konsultasi awal.",
+        "en": "Ask about availability for an initial dental checkup."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontrol Perawatan",
+        "en": "Follow-up Visit"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jadwal kontrol sesuai arahan dokter.",
+        "en": "Confirm a follow-up visit based on your dentist's advice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Aligner",
+        "en": "Aligner Enquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi layanan mitra aligner.",
+        "en": "Ask whether partner aligner consultations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Kunjungan",
+        "en": "Visit Information"
+      },
+      "ringkas": {
+        "id": "Pastikan alamat dan jam praktik sebelum datang.",
+        "en": "Confirm the address and opening hours before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Aligner",
+      "en": "Aligner Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan pemeriksaan atau aligner, lalu konfirmasi ketersediaan layanan dan jadwal dokter.",
+      "en": "Choose a checkup or aligner enquiry, then confirm service and dentist availability."
+    },
+    "alasan_dipilih": "PCC Dental Pakjo tercantum dalam daftar mitra Rata, dengan jam mitra yang berbeda dari jadwal umum."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor klinik untuk menanyakan jadwal yang tersedia.",
+        "en": "Contact the clinic to ask about available appointment times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada konsultasi aligner?",
+        "en": "Can I ask about aligners?"
+      },
+      "a": {
+        "id": "Klinik tercantum sebagai mitra Rata. Konfirmasi jenis layanan yang tersedia saat menghubungi klinik.",
+        "en": "The clinic appears in Rata's partner directory. Confirm available services directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum terverifikasi. Mintalah informasi biaya berdasarkan kebutuhan pemeriksaan.",
+        "en": "Official fees could not be verified. Ask for pricing based on your assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori umum mencantumkan hari Minggu, tetapi jadwal layanan mitra berbeda. Konfirmasi sebelum datang.",
+        "en": "A general directory lists Sunday hours, but partner service hours differ. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum?",
+        "en": "Which dentist is listed?"
+      },
+      "a": {
+        "id": "Daftar mitra Rata mencantumkan drg. Novita Hendra. Jadwal praktik terkini perlu dikonfirmasi.",
+        "en": "Rata's partner list names drg. Novita Hendra. Confirm the current schedule."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi PCC Dental Pakjo",
+    "en": "Contact PCC Dental Pakjo"
+  },
+  "pesan_wa_default": "Halo PCC Dental Pakjo, saya ingin menanyakan jadwal konsultasi dan ketersediaan layanan. Mohon informasinya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola PCC Dental Pakjo, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat PCC Dental Pakjo tercantum sebagai mitra Rata untuk layanan aligner. Kami telah menyiapkan konsep website yang menyatukan informasi konsultasi dan jadwal di https://maxigrowthstudio.com/pcc-pakjo. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk PCC Dental Pakjo",
+    "email_isi": "Yth. Tim PCC Dental Pakjo,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan informasi konsultasi, layanan mitra aligner, dan jadwal kunjungan.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/pcc-pakjo. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila sesuai kebutuhan, kami siap berdiskusi lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
