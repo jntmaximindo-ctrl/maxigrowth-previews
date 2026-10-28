@@ -1,0 +1,132 @@
+{
+  "id": "W1662",
+  "hero": {
+    "judul": {
+      "id": "Viel Dental Care Lubuklinggau",
+      "en": "Viel Dental Care Lubuklinggau"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan",
+        "en": "Ask about examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan alur pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask which examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal",
+        "en": "Ask about appointments"
+      },
+      "ringkas": {
+        "id": "Ajukan hari pilihan dan tunggu konfirmasi klinik sebelum berangkat.",
+        "en": "Share your preferred day and wait for confirmation before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Request a breakdown of examination and proposed treatment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan",
+        "en": "Ask how to prepare"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi riwayat kesehatan yang perlu dibawa.",
+        "en": "Ask which documents and medical history details to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih sesi kunjungan",
+      "en": "Choose a visit session"
+    },
+    "penjelasan": {
+      "id": "Pilih sesi pagi atau sore berdasarkan jam direktori, lalu susun pesan permintaan jadwal. Ketersediaan dikonfirmasi oleh admin.",
+      "en": "Choose a morning or afternoon session using the directory hours, then prepare an appointment request. The team confirms availability."
+    },
+    "alasan_dipilih": "Dua sesi publik membantu pemilihan waktu; fitur tetap meminta konfirmasi tanpa menjanjikan slot."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Yos Sudarso No.96, Cereme Taba, Lubuklinggau. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The directory lists Jl. Yos Sudarso No.96, Cereme Taba, Lubuklinggau. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin-Sabtu pukul 10.00-14.00 dan 16.00-20.00 WIB, Minggu tutup. Konfirmasikan sebelum datang.",
+        "en": "The directory lists Monday to Saturday, 10 am to 2 pm and 4 pm to 8 pm WIB, with Sunday closed. Reconfirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar layanan belum terkonfirmasi. Sampaikan kebutuhan Anda dan tanyakan pilihan pemeriksaannya.",
+        "en": "The service list is unconfirmed. Describe your needs and ask about examination options."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Viel Dental Care Lubuklinggau, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Viel Dental Care Lubuklinggau, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Yos Sudarso dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/viel. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Viel Dental Care Lubuklinggau",
+    "email_isi": "Yth. Manajemen Viel Dental Care Lubuklinggau,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Yos Sudarso dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/viel. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
