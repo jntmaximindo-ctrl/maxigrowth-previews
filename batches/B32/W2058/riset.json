@@ -71,5 +71,27 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/kota-surabaya/dokter-gigi",
     "https://idalamat.com/alamat/136800/dentist-stefanus-setiabudi-drg-sport-surabaya-jawa-timur"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik Dokter Gigi Stefanus Setiabudi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ambengan 57, Ketabang, Genteng, Surabaya, Jawa Timur 60272",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628883222771",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628883222771",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
