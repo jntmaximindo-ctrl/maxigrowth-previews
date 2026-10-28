@@ -1,5 +1,5 @@
 {
- "diperbarui": "2026-10-28T14:53:30+07:00",
+ "diperbarui": "2026-10-28T14:59:40+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
@@ -10,8 +10,8 @@
  "tahap": {
   "cari": null,
   "riset": 52,
-  "cek_fakta": 13,
-  "rakit": 47,
+  "cek_fakta": 0,
+  "rakit": 60,
   "qa": 1,
   "deploy": 0,
   "review": 12,
@@ -20,7 +20,7 @@
  "kecepatan_per_jam": {
   "cari": null,
   "riset": 62,
-  "cek_fakta": 47,
+  "cek_fakta": 62,
   "rakit": 0,
   "qa": 0,
   "deploy": 0,
@@ -89,7 +89,7 @@
   {
    "tingkat": "kritis",
    "judul": "Antrean rakit menumpuk",
-   "detail": "47 klinik menunggu di tahap rakit.",
+   "detail": "60 klinik menunggu di tahap rakit.",
    "teks_perbaikan": "Periksa pekerja tahap rakit dan dorong sampai antrean turun."
   }
  ],
@@ -142,7 +142,7 @@
    "tanggal": "2026-10-28",
    "lulus_akhir": {
     "riset": 857,
-    "cek_fakta": 844,
+    "cek_fakta": 857,
     "rakit": 797,
     "qa": 796,
     "deploy": 796,
@@ -152,7 +152,7 @@
    "siap_reachout_akhir": 784,
    "tambahan_hari_itu": {
     "riset": 62,
-    "cek_fakta": 97,
+    "cek_fakta": 110,
     "rakit": 78,
     "qa": 79,
     "deploy": 79,
