@@ -318,7 +318,7 @@ jobs:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           SHEET_ID: ${{ vars.SHEET_ID }}
         run: |
-          N=$(INTAKE_AKTIF_MAKS=60 python3 scripts/auto_intake.py || echo 0)
+          N=$(INTAKE_AKTIF_MAKS=200 python3 scripts/auto_intake.py || echo 0)
           if [ "${N:-0}" -gt 0 ]; then gh workflow run intake.yml -f size="$N"; echo "intake $N klinik"; fi
       - name: 4c · Failover GPT → Codex (klinik tertahan di jalur GPT)
         if: vars.RISET_ENGINE == 'bus'
