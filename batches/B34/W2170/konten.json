@@ -1,0 +1,132 @@
+{
+  "id": "W2170",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Family Dentist Denpasar",
+      "en": "Family Dentist Denpasar Practice Information"
+    },
+    "sub": {
+      "id": "Kenali perawatan gigi umum dan pembersihan karang gigi. Lokasi serta jam praktik perlu dikonfirmasi sebelum kunjungan.",
+      "en": "Explore general dental care and scaling. Please confirm the location and opening hours before visiting."
+    },
+    "cta": {
+      "id": "Konfirmasi Lokasi Praktik",
+      "en": "Confirm Practice Location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Perawatan Gigi Umum",
+        "en": "General Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan kepada petugas dan tanyakan jenis pemeriksaan yang tersedia.",
+        "en": "Describe your concerns and ask what examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal yang termasuk dalam layanan perawatan gigi umum.",
+        "en": "Ask about initial examinations included in general dental care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan pembersihan karang gigi sebagai layanan yang tersedia.",
+        "en": "A public directory lists dental scaling as an available service."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembahasan Rencana Perawatan",
+        "en": "Treatment Planning Discussion"
+      },
+      "ringkas": {
+        "id": "Setelah pemeriksaan, tanyakan langkah lanjutan dan perkiraan biayanya.",
+        "en": "After an examination, ask about next steps and expected costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasi Lokasi dan Jadwal",
+      "en": "Location and Hours Confirmation"
+    },
+    "penjelasan": {
+      "id": "Tampilkan informasi alamat yang perlu dikonfirmasi, lalu arahkan pasien untuk bertanya langsung kepada petugas sebelum datang.",
+      "en": "Highlight location details requiring confirmation and help patients contact the practice before visiting."
+    },
+    "alasan_dipilih": "Dua direktori memuat alamat dan jadwal berbeda untuk nama praktik serta nomor ponsel yang sama."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Family Dentist?",
+        "en": "Where is Family Dentist located?"
+      },
+      "a": {
+        "id": "Densia mencantumkan Jl. Cekomaria, Denpasar Utara, sedangkan sumber lain menyebut Jagapati, Badung. Konfirmasi lokasi terlebih dahulu.",
+        "en": "Densia lists Jl. Cekomaria in North Denpasar, while another directory lists Jagapati in Badung. Please confirm the location."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jam yang tercantum pada dua direktori berbeda. Hubungi praktik untuk jadwal terbaru.",
+        "en": "Two directories list different hours. Contact the practice for current opening times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental scaling available?"
+      },
+      "a": {
+        "id": "Densia mencantumkan pembersihan karang gigi. Tanyakan ketersediaan layanan sebelum membuat janji.",
+        "en": "Densia lists dental scaling. Please confirm availability before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan pada sumber yang diperiksa. Mohon minta rincian biaya.",
+        "en": "Official fees were not found in the reviewed sources. Please ask for pricing."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada dokter spesialis?",
+        "en": "Are specialist dentists available?"
+      },
+      "a": {
+        "id": "Nama dan kualifikasi dokter belum terverifikasi. Silakan tanyakan kepada pengelola praktik.",
+        "en": "Dentist names and qualifications have not been verified. Please ask the practice directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Memastikan Informasi",
+    "en": "Contact the Practice to Confirm Details"
+  },
+  "pesan_wa_default": "Halo Family Dentist, saya ingin memastikan alamat praktik, jadwal, dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Family Dentist. Saya Muhammad Rizqi dari Maxi Growth Studio. Kami menemukan informasi praktik di Denpasar, tetapi alamatnya berbeda antardirektori. Kami sudah membuat konsep website untuk membantu memperjelas lokasi, jadwal, dan kontak di https://maxigrowthstudio.com/family-dentist. Bila berkenan, kami siap menerima koreksi informasi. Terima kasih.",
+    "email_subjek": "Konsep website untuk Family Dentist",
+    "email_isi": "Yth. Pengelola Family Dentist,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang membantu pasien menemukan informasi layanan, lokasi, dan kontak praktik.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/family-dentist. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami menemukan perbedaan alamat dan jadwal pada sumber publik sehingga memerlukan konfirmasi sebelum publikasi.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

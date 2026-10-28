@@ -1,0 +1,142 @@
+{
+  "id": "W2185",
+  "hero": {
+    "judul": {
+      "id": "Layanan Kesehatan Keluarga di Sawangan",
+      "en": "Family Healthcare in Sawangan"
+    },
+    "sub": {
+      "id": "Klinik Medisina melayani konsultasi dokter umum, spesialis sesuai jadwal, dan pemeriksaan penunjang.",
+      "en": "Medisina offers general practice, scheduled specialist care, and diagnostic services."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Dokter Umum",
+        "en": "General Practice"
+      },
+      "ringkas": {
+        "id": "Konsultasi keluhan kesehatan umum sesuai pemeriksaan dokter.",
+        "en": "Consult a general practitioner about your health concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Dokter Spesialis Anak",
+        "en": "Pediatrics"
+      },
+      "ringkas": {
+        "id": "Layanan dokter anak pada jadwal praktik tertentu.",
+        "en": "Pediatric consultations on selected schedules."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Laboratorium",
+        "en": "Laboratory Tests"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan penunjang sesuai kebutuhan dan anjuran dokter.",
+        "en": "Diagnostic tests when recommended by a clinician."
+      }
+    },
+    {
+      "nama": {
+        "id": "Medical Check Up",
+        "en": "Health Checkups"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kesehatan untuk individu, siswa, dan karyawan.",
+        "en": "Health checks for individuals, students, and employees."
+      }
+    },
+    {
+      "nama": {
+        "id": "USG dan EKG",
+        "en": "Ultrasound and ECG"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan penunjang dengan janji temu.",
+        "en": "Diagnostic imaging and heart tracing by appointment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Layanan dan Jadwal",
+      "en": "Services and Schedule Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan pemeriksaan untuk melihat layanan dan menanyakan jadwal dokter.",
+      "en": "Choose a service and ask about the clinician's schedule."
+    },
+    "alasan_dipilih": "Pemilih layanan dan jadwal dokter umum atau spesialis"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah tersedia dokter spesialis?",
+        "en": "Are specialists available?"
+      },
+      "a": {
+        "id": "Ya, dokter anak dan saraf tersedia pada jadwal tertentu. Konfirmasi jadwal sebelum datang.",
+        "en": "Yes. Pediatrics and neurology are available on selected schedules. Confirm ahead."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Umumnya 07.00–21.00 setiap hari, dengan jeda Jumat 11.30–15.00.",
+        "en": "Generally 7 AM–9 PM daily, with a Friday break from 11:30 AM to 3 PM."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada pemeriksaan laboratorium?",
+        "en": "Are lab tests available?"
+      },
+      "a": {
+        "id": "Ya, tersedia laboratorium. Jam layanan laboratorium berbeda dari jam klinik.",
+        "en": "Yes. Laboratory hours differ from general clinic hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif terkini belum tersedia dalam sumber yang diperiksa. Silakan tanyakan sebelum kunjungan.",
+        "en": "Current fees were not found in the sources reviewed. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Situs klinik menyebut kerja sama AdMedika. Cakupan polis perlu dikonfirmasi.",
+        "en": "The clinic lists AdMedika. Confirm coverage for your policy."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Jadwal",
+    "en": "Contact the Clinic About Appointments"
+  },
+  "pesan_wa_default": "Halo Klinik Utama Rawat Jalan Medisina (dahulu Klinik Pratama Medisina), saya ingin menanyakan jadwal dan informasi biaya layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Klinik Utama Rawat Jalan Medisina (dahulu Klinik Pratama Medisina), saya Rizqi dari Maxi Growth Studio. Saya melihat informasi layanan dokter umum dan spesialis serta pemeriksaan laboratorium di Sawangan. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/pratama-medisina. Konsep ini berfokus pada informasi layanan dan akses jadwal. Bila berkenan, silakan dilihat kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Utama Rawat Jalan Medisina (dahulu Klinik Pratama Medisina)",
+    "email_isi": "Yth. Manajemen Klinik Utama Rawat Jalan Medisina (dahulu Klinik Pratama Medisina),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang menyajikan informasi layanan, lokasi, dan alur pertanyaan jadwal bagi calon pasien Klinik Utama Rawat Jalan Medisina (dahulu Klinik Pratama Medisina).\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/pratama-medisina. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nBila ada pertanyaan, saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

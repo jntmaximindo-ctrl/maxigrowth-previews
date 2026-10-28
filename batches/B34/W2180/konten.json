@@ -1,0 +1,142 @@
+{
+  "id": "W2180",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Bogor Utara",
+      "en": "Dental Care Information in North Bogor"
+    },
+    "sub": {
+      "id": "Centris Dental Care berada di Jalan Raya Pajajaran, Bantarjati. Temukan layanan dan cara menanyakan jadwal.",
+      "en": "Centris Dental Care is on Jalan Raya Pajajaran, Bantarjati. Explore services and appointment information."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan dan pilihan perawatan setelah pemeriksaan.",
+        "en": "Discuss concerns and care options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai kondisi mulut.",
+        "en": "Tartar removal based on oral health needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai penilaian dokter.",
+        "en": "Care for cavities as assessed by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Konsultasikan pilihan penggantian gigi yang hilang.",
+        "en": "Discuss options for replacing missing teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tindakan pencabutan bila ada indikasi medis.",
+        "en": "Extraction when clinically indicated."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan dan Jadwal",
+      "en": "Visit and Schedule Guide"
+    },
+    "penjelasan": {
+      "id": "Baca gambaran layanan dan tanyakan ketersediaan dokter sebelum datang.",
+      "en": "Read service overviews and confirm dentist availability before visiting."
+    },
+    "alasan_dipilih": "Informasi jam klinik dan jadwal dokter tersebar di beberapa direktori publik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Centris Dental Care?",
+        "en": "Where is Centris Dental Care?"
+      },
+      "a": {
+        "id": "Jl. Raya Pajajaran No.262, Bantarjati, Bogor Utara.",
+        "en": "Jl. Raya Pajajaran No.262, Bantarjati, North Bogor."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book ahead?"
+      },
+      "a": {
+        "id": "Hubungi klinik terlebih dahulu untuk memastikan jadwal dokter.",
+        "en": "Contact the clinic ahead of time to confirm the dentist's schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum dalam informasi layanan publik.",
+        "en": "Dental cleaning is listed in public service information."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya tambal gigi?",
+        "en": "How much do fillings cost?"
+      },
+      "a": {
+        "id": "Harga resmi terkini belum ditemukan. Mintalah estimasi setelah konsultasi.",
+        "en": "Current official fees were not found. Request an estimate after consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Sumber jadwal yang diperiksa menyebut Minggu tutup. Jam hari lain berbeda antar direktori, jadi sebaiknya dikonfirmasi.",
+        "en": "Sources list Sunday as closed. Weekday hours vary across directories, so please confirm."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Perawatan",
+    "en": "Contact the Clinic for Care Information"
+  },
+  "pesan_wa_default": "Halo Centris Dental Care, saya ingin menanyakan jadwal dokter dan informasi biaya perawatan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Centris Dental Care, saya Rizqi dari Maxi Growth Studio. Saya melihat Centris berada di Jalan Raya Pajajaran dan memiliki informasi jadwal di beberapa direktori. Kami menyiapkan konsep website dengan panduan layanan dan jadwal untuk ditinjau di https://maxigrowthstudio.com/centris. Jika berkenan, silakan dilihat kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website Centris Dental Care",
+    "email_isi": "Yth. Manajemen Centris Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang menyatukan informasi layanan, alamat, dan alur pertanyaan jadwal bagi calon pasien.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/centris. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika ada pertanyaan, saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

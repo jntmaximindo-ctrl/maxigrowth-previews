@@ -1,0 +1,132 @@
+{
+  "id": "W2178",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Klinik Gigi MDc Bogor",
+      "en": "Dental Care at MDc Bogor"
+    },
+    "sub": {
+      "id": "Kenali layanan tambal, scaling, gigi tiruan, dan perawatan saluran akar. Tanyakan jadwal dokter sebelum datang.",
+      "en": "Explore fillings, scaling, dentures, and root canal care. Confirm dentist availability before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Konsultasi",
+      "en": "Ask About Consultations"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Tooth Fillings"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kondisi gigi untuk menentukan kebutuhan penambalan.",
+        "en": "An assessment to determine whether a filling is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Perawatan kebersihan gigi dan gusi berdasarkan hasil pemeriksaan.",
+        "en": "Cleaning based on your teeth and gum health assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Care"
+      },
+      "ringkas": {
+        "id": "Konsultasi untuk menilai keluhan dan kemungkinan perawatan bagian dalam gigi.",
+        "en": "A consultation to assess symptoms and possible treatment inside the tooth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan penggantian gigi dan pilihan yang sesuai.",
+        "en": "Discuss options for replacing missing teeth."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Dokter dan Layanan",
+      "en": "Dentist and Service Finder"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis keluhan untuk membaca gambaran layanan dan menyiapkan pertanyaan bagi dokter.",
+      "en": "Choose a concern to review available services and prepare questions for your dentist."
+    },
+    "alasan_dipilih": "Situs resmi Klinik Gigi MDc menampilkan daftar dokter dan beragam jenis perawatan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Gigi MDc?",
+        "en": "Where is MDc located?"
+      },
+      "a": {
+        "id": "Waze mencantumkan Jl. Achmad Adnawijaya No.49, Bogor Utara; sumber lain menulis No.48. Konfirmasi alamat sebelum datang.",
+        "en": "Waze lists Jl. Achmad Adnawijaya No.49, North Bogor; another source lists No.48. Please confirm the address."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs resmi dan Waze memuat jam yang berbeda. Tanyakan jadwal terbaru kepada petugas.",
+        "en": "The official site and Waze show different hours. Please ask the clinic for current opening times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan saluran akar?",
+        "en": "Is root canal care available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum pada situs klinik. Konfirmasi ketersediaan dokter sebelum membuat janji.",
+        "en": "This service is listed on the clinic website. Confirm dentist availability before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik melayani gigi tiruan?",
+        "en": "Does the clinic offer dentures?"
+      },
+      "a": {
+        "id": "Situs resmi mencantumkan pembuatan gigi tiruan. Dokter akan menilai pilihan setelah pemeriksaan.",
+        "en": "The official site lists dentures. A dentist will assess suitable options after an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi terkini belum ditemukan. Silakan meminta rincian biaya kepada klinik.",
+        "en": "Current official fees were not found. Please ask the clinic for a price estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik Gigi MDc",
+    "en": "Contact MDc Dental Clinic"
+  },
+  "pesan_wa_default": "Halo Klinik Gigi MDc, saya ingin menanyakan jadwal dokter dan biaya konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Klinik Gigi MDc Bogor. Saya Muhammad Rizqi dari Maxi Growth Studio. Kami melihat situs klinik mencantumkan berbagai layanan, termasuk gigi tiruan dan perawatan saluran akar. Kami telah membuat konsep website dengan navigasi layanan dan dokter di https://maxigrowthstudio.com/mdc. Jika berkenan, kami siap menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi MDc Bogor",
+    "email_isi": "Yth. Pengelola Klinik Gigi MDc Bogor,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien melihat informasi layanan, dokter, dan kontak klinik secara jelas.\n\nKonsep awal dapat ditinjau di https://maxigrowthstudio.com/mdc. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami juga mencatat beberapa informasi lokasi dan jam yang perlu dikonfirmasi sebelum dipublikasikan.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W2179",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Bantarjati",
+      "en": "Dental Care in Bantarjati"
+    },
+    "sub": {
+      "id": "Cera Dental Care tercatat sebagai klinik pelayanan gigi dan mulut di Bogor Utara.",
+      "en": "Cera Dental Care is listed as a dental and oral healthcare clinic in North Bogor."
+    },
+    "cta": {
+      "id": "Tanyakan Informasi Kunjungan",
+      "en": "Ask About a Visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kondisi gigi dan diskusi pilihan perawatan.",
+        "en": "An oral examination and discussion of care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi berdasarkan pemeriksaan.",
+        "en": "Tartar removal based on an oral assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai indikasi.",
+        "en": "Care for cavities when indicated."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Pencabutan gigi bila diperlukan menurut dokter.",
+        "en": "Extraction when clinically needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Behel",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusi mengenai susunan gigi dan perawatan bertahap.",
+        "en": "Discussion of alignment and staged care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Pertama",
+      "en": "First Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan pemeriksaan untuk melihat gambaran perawatan dan menyiapkan pertanyaan kepada klinik.",
+      "en": "Choose a concern to read a care overview and prepare questions for the clinic."
+    },
+    "alasan_dipilih": "Klinik terdaftar di direktori Kemenkes tetapi informasi layanan spesifik masih tersebar."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Cera Dental Care?",
+        "en": "Where is Cera Dental Care?"
+      },
+      "a": {
+        "id": "Jl. Bangbarung Raya No.6, Bantarjati, Bogor Utara.",
+        "en": "Jl. Bangbarung Raya No.6, Bantarjati, North Bogor."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik terdaftar?",
+        "en": "Is the clinic registered?"
+      },
+      "a": {
+        "id": "Cera Dental Care tercantum sebagai Klinik Pratama Non Rawat Inap pada direktori Kementerian Kesehatan.",
+        "en": "Cera Dental Care is listed as a non-inpatient primary clinic in the Ministry of Health directory."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa layanan yang tersedia?",
+        "en": "What services are available?"
+      },
+      "a": {
+        "id": "Direktori pemerintah mencantumkan pelayanan kesehatan gigi dan mulut. Tanyakan jenis tindakan tertentu kepada admin.",
+        "en": "The government directory lists dental and oral healthcare. Ask the team about specific procedures."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Tarif resmi terkini belum ditemukan pada sumber yang diperiksa.",
+        "en": "Current official fees were not found in the sources reviewed."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam operasional berbeda antar direktori, sehingga sebaiknya dikonfirmasi melalui kontak klinik.",
+        "en": "Opening hours differ across directories, so please confirm with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Jadwal",
+    "en": "Contact the Clinic About Appointments"
+  },
+  "pesan_wa_default": "Halo Cera Dental Care, saya ingin menanyakan jadwal praktik dan informasi biaya perawatan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo tim Cera Dental Care, saya Rizqi dari Maxi Growth Studio. Saya melihat Cera Dental Care tercatat sebagai klinik pelayanan gigi di Bantarjati, Bogor. Kami menyiapkan konsep website berisi informasi kunjungan dan layanan untuk ditinjau di https://maxigrowthstudio.com/cera. Bila berkenan, silakan dilihat kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Cera Dental Care",
+    "email_isi": "Yth. Manajemen Cera Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu calon pasien menemukan informasi lokasi, layanan, dan cara menanyakan jadwal.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/cera. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika ada pertanyaan, saya dapat dihubungi melalui 082141004400 atau info@maxigrowthstudio.com.\n\nHormat saya,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}

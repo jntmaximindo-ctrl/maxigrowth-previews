@@ -1,0 +1,131 @@
+{
+  "id": "W2178",
+  "nama": {
+    "v": "Klinik Gigi MDc",
+    "src": "https://klinikgigimdc.com/",
+    "tgl": "2026-10-28",
+    "yakin": "tinggi"
+  },
+  "kota": "Bogor",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/klinikgigimdc/",
+    "src": "https://doktertanya.com/dokter-gigi-bogor/",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Klinik Gigi MDc Bogor",
+      "alamat": {
+        "v": "Jl. Achmad Adnawijaya No.49, RT.06/RW.14, Tegal Gundil, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16152",
+        "src": "https://www.waze.com/live-map/directions/id/jawa-barat/klinik-gigi-mdc?to=place.ChIJFacMp4HHaS4RTXVRQFgwVH0",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "6287776999799",
+        "src": "https://klinikgigimdc.com/",
+        "tgl": "2026-10-28",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": "6287776999799",
+        "src": "https://klinikgigimdc.com/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20Gigi%20MDC%20Bogor"
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "Drg. Desideria Suchandra",
+        "src": "https://klinikgigimdc.com/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Gigi MDc Bogor"
+    },
+    {
+      "nama": {
+        "v": "Drg. Jonathan Hostiadi",
+        "src": "https://klinikgigimdc.com/",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "cabang": "Klinik Gigi MDc Bogor"
+    }
+  ],
+  "layanan": [
+    "Tambal gigi",
+    "Pembersihan karang gigi",
+    "Cabut gigi",
+    "Perawatan saluran akar",
+    "Gigi tiruan",
+    "Bedah minor",
+    "Behel gigi",
+    "Veneer gigi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [
+    "Situs klinik memuat daftar dokter dan jenis layanan gigi",
+    "Layanan termasuk bedah minor, gigi tiruan, dan perawatan saluran akar"
+  ],
+  "situs_lama": [
+    "Alamat berbeda antara Waze No.49 dan direktori DokterTanya No.48",
+    "Jam praktik pada situs resmi 10.00–20.00, sedangkan Waze mencantumkan 09.00–21.00; perlu konfirmasi"
+  ],
+  "ide_fitur_khas": "Pemilih dokter dan layanan berdasarkan keluhan gigi dengan permintaan jadwal",
+  "catatan": "harga belum tersedia. Nomor 08777-6999-799 tercantum di situs resmi dan dinormalisasi sebagai WA sesuai instruksi pemilik, belum diuji. Perbedaan alamat No.49 (Waze) vs No.48 (direktori) perlu konfirmasi sebelum publikasi. Jam null karena konflik sumber. Daftar dokter di situs resmi mencantumkan nomor SIP tahun 2017–2018 sehingga status praktik terkini belum dapat dipastikan. Email belum ditemukan.",
+  "sumber": [
+    "https://klinikgigimdc.com/",
+    "https://www.waze.com/live-map/directions/id/jawa-barat/klinik-gigi-mdc?to=place.ChIJFacMp4HHaS4RTXVRQFgwVH0",
+    "https://doktertanya.com/dokter-gigi-bogor/"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1814",
+  "hero": {
+    "judul": {
+      "id": "Success Dental Care",
+      "en": "Success Dental Care"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Makassar.",
+      "en": "Location and visit preparation information in Makassar."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit schedule"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu yang masih tersedia sebelum berangkat.",
+        "en": "Ask which days and times are available before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Questions about fees"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan perawatan sebelum menyetujui tindakan.",
+        "en": "Request examination and treatment fees before agreeing to a procedure."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan layanan yang tersedia.",
+        "en": "Explain your needs and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Preparing for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi yang perlu dibawa.",
+        "en": "Ask which documents and information to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik kunjungan untuk menyusun daftar pertanyaan sebelum menelepon praktik.",
+      "en": "Choose visit topics to prepare questions before calling the practice."
+    },
+    "alasan_dipilih": "Nomor publik yang ditemukan merupakan telepon tetap; fitur menyusun pertanyaan tanpa menganggap nomor tersebut sebagai WhatsApp."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115",
+        "en": "Jl. Botolempangan No.52, Sawerigading, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90115"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana meminta jadwal?",
+        "en": "How can I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor 624113622129 untuk menanyakan ketersediaan. Jadwal perlu dikonfirmasi.",
+        "en": "Contact 624113622129 to ask about availability. Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Minta rincian biaya dari praktik.",
+        "en": "Fees are not available here. Request an itemised estimate from the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Informasi belum terverifikasi. Tanyakan jenis penjaminan dan dokumen yang diperlukan.",
+        "en": "This has not been verified. Ask which coverage is accepted and which documents are required."
+      }
+    },
+    {
+      "q": {
+        "id": "Bisakah saya menanyakan perawatan anak atau behel?",
+        "en": "Can I ask about care for children or braces?"
+      },
+      "a": {
+        "id": "Sampaikan usia dan kebutuhan saat menghubungi praktik; ketersediaan layanan perlu dikonfirmasi.",
+        "en": "Mention the patient’s age and needs when contacting the practice; service availability needs confirmation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan, ketersediaan layanan, serta perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Success Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi kunjungan untuk lokasi Makassar. Rencana tautan peninjauan: https://maxigrowthstudio.com/success (perlu diaktifkan sebelum pesan dikirim). Bila berkenan, konsep dapat ditinjau setelah tersedia. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Success Dental Care",
+    "email_isi": "Yth. pengelola Success Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Makassar dapat disajikan bersama alur pertanyaan jadwal dan biaya. Kami menyiapkan konsep dengan rencana tautan https://maxigrowthstudio.com/success. Tautan perlu diaktifkan sebelum pengiriman. Proposal PDF perlu dilampirkan sebelum draf email ini dikirim. Silakan meninjau konsep setelah tersedia. Kontak: 082141004400 atau info@maxigrowthstudio.com. Terima kasih."
+  }
+}
