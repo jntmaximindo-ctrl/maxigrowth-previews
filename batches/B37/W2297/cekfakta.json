@@ -1,0 +1,42 @@
+{
+  "id": "W2297",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Pratama Mardi Saras (Poli Gigi)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tambak Dalam Raya No.57, Sawah Besar, Gayamsari, Semarang, Jawa Tengah 50166",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288225492087",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288225492087",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087 [nama]",
+    "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087 [cabang[0].telepon]",
+    "https://www.semuabis.com/klinik-mardi-saras_2W-0882-2549-2087 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

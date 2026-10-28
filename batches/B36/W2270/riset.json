@@ -72,5 +72,17 @@
     "https://linktr.ee/temandental.official",
     "https://www.temandental.co.id/info-kontak-cabang-klinik-gigi-terbaik-teman-dental/",
     "https://caribisnis.id/dokter-gigi/tangerang/cipondoh/klinik-gigi-teman-dental-poris-cipo-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628221183684",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628221183684",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

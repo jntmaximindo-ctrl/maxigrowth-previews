@@ -1,0 +1,43 @@
+{
+  "id": "W2299",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Esem Dental Studio",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Ivy Arcadia D1.24, Citraland BSB City, Pesantren, Mijen, Semarang 50212",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62895390482345",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62895390482345",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/ [cabang[0].alamat]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/ [cabang[0].telepon]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/ [cabang[0].wa]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/ [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

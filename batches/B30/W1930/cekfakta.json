@@ -1,0 +1,28 @@
+{
+  "id": "W1930",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "drgjacky@yahoo.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288708459696",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/mega-mas-dental-care-061-42903853 [nama]",
+    "https://idalamat.com/alamat/mega-mas-dental-care-1058836 [instagram]",
+    "https://idalamat.com/alamat/mega-mas-dental-care-1058836 [cabang[0].alamat]",
+    "https://www.semuabis.com/mega-mas-dental-care-061-42903853 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

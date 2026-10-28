@@ -68,5 +68,27 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/cahaya-dental",
     "https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-semarang/3/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Cahaya Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Akasia III, Jatisari, Mijen, Semarang, Jawa Tengah 50275",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282133716400",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282133716400",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

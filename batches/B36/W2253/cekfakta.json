@@ -1,0 +1,22 @@
+{
+  "id": "W2253",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Natanael Krones",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.unhas.ac.id/38075/3/P102221039_tesis_01-08-2024%20dp.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1064003/drg-natanael-krones-rumah-praktik-manado-sulawesi-utara [nama]",
+    "https://idalamat.com/alamat/1064003/drg-natanael-krones-rumah-praktik-manado-sulawesi-utara [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1064003/drg-natanael-krones-rumah-praktik-manado-sulawesi-utara [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1064003/drg-natanael-krones-rumah-praktik-manado-sulawesi-utara [cabang[0].wa]",
+    "https://idalamat.com/alamat/1064003/drg-natanael-krones-rumah-praktik-manado-sulawesi-utara [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
