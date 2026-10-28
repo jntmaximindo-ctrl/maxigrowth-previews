@@ -1,6 +1,99 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B17/W1278/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ riset.schema.json → cabang/0/maps_url: None is not of type 'string'
-GAGAL (1 masalah)
-
+RISET LAMA:
+{
+  "id": "W1278",
+  "nama": {
+    "v": "EFKA Dental Tambun",
+    "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+    "tgl": "2026-10-28",
+    "yakin": "sedang"
+  },
+  "kota": "Kabupaten Bekasi",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-28",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "EFKA Dental Tambun",
+      "alamat": {
+        "v": "Jl. Mekarsari Tengah No.1, Mekarsari, Tambun Selatan, Kabupaten Bekasi, Jawa Barat 17510",
+        "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-28",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": "Senin–Jumat 09.00–21.00, Sabtu–Minggu 16.00–21.00 (direktori)",
+        "src": "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=EFKA%20Dental%20Tambun%20Mekarsari"
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Scaling gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Konsultasi kawat gigi"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-28"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Website cabang Tambun belum terverifikasi."
+  ],
+  "ide_fitur_khas": "Jadwal khusus akhir pekan berbeda dari hari kerja.",
+  "catatan": "REVISI skema maps_url semula null. Dua halaman dari satu situs direktori membahas EFKA Dental Tambun. Informasi provider asuransi CHUBB memuat EFKA Dental Clinic pada alamat Jatiasih yang BERBEDA; tidak digabungkan sebagai cabang Tambun tanpa bukti. Tidak menemukan nomor WA maupun daftar tarif resmi.",
+  "sumber": [
+    "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan/efka-dental-tambun-tamb-imp1",
+    "https://caribisnis.id/dokter-gigi/bekasi/tambun-selatan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "EFKA Dental Tambun",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mekarsari Tengah No.1, Mekarsari, Tambun Selatan, Kabupaten Bekasi, Jawa Barat 17510",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–21.00, Sabtu–Minggu 16.00–21.00 (direktori)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
+  ]
+}

@@ -4,7 +4,7 @@ RISET LAMA:
 {
   "id": "W1018",
   "nama": {
-    "v": "Praktek drg.Okky S",
+    "v": "Praktek drg. Okky S",
     "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "tgl": "2026-10-28",
     "yakin": "sedang"
@@ -25,7 +25,7 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Praktek drg.Okky S",
+      "nama": "Praktek drg. Okky S",
       "alamat": {
         "v": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
         "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
@@ -45,24 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "17:30-21:30",
-          "sel": "17:30-21:30",
-          "rab": "17:30-21:30",
-          "kam": "17:30-21:30",
-          "jum": "17:30-21:30",
-          "sab": "17:30-21:30",
-          "min": "tutup"
-        },
+        "v": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori)",
         "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktek%20drg.%20Okky%20S"
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Pemeriksaan gigi",
+    "Konsultasi tambal gigi",
+    "Konsultasi pencabutan",
+    "Penjadwalan perawatan malam"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -74,11 +71,10 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Belum ada situs resmi mandiri yang dapat dikonfirmasi."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Informasi jam dan alamat dengan penjelasan sumber direktori.",
+  "catatan": "Revisi kontak: nomor yang dapat ditemukan hanya telepon tetap, tidak ada bukti nomor WhatsApp aktif sehingga wa null. Tarif tidak dipublikasikan secara resmi sehingga harga=[]. Layanan spesifik dari direktori umum perlu dikonfirmasi langsung; daftar layanan merupakan pertanyaan yang relevan, bukan jaminan tindakan. Dokumen historis tidak membuktikan status praktik terkini.",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1"
@@ -86,7 +82,7 @@ RISET LAMA:
   "verifikasi_manual": [
     {
       "path": "nama",
-      "tercatat": "Praktek drg.Okky S",
+      "tercatat": "Praktek drg. Okky S",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
@@ -101,7 +97,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"17:30-21:30\", \"sel\": \"17:30-21:30\", \"rab\": \"17:30-21:30\", \"kam\": \"17:30-21:30\", \"jum\": \"17:30-21:30\", \"sab\": \"17:30-21:30\", \"min\": \"tutup\"}",
+      "tercatat": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori)",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

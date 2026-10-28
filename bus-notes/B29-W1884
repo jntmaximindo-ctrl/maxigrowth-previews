@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "drg. Kesuma Nasseri",
       "alamat": {
-        "v": "Jl. Otto Iskandar Dinata No.524, Nyengseret, Astanaanyar, Bandung",
+        "v": "Jl. Otto Iskandar Dinata No.524, Nyengseret, Astanaanyar, Bandung 40242",
         "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -45,16 +45,21 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": "Senin–Jumat dan Minggu 08.00–11.00 & 16.00–20.30; Sabtu 08.00–11.00 & 16.00–18.00 (artikel, konfirmasi)",
+        "src": "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Penambalan gigi",
+    "Pencabutan gigi",
+    "Pembersihan karang gigi",
+    "Pemeriksaan keluhan gigi"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -66,13 +71,13 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Situs resmi praktik tidak ditemukan dalam sumber yang diperiksa."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/, https://medicastore.com/dokter/detail/15354/kesuma-nasseri. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nama dan lokasi riset lama dibaca ulang; fakta belum tersedia tetap null. Angka ulasan dari surat tidak diperlakukan sebagai pemeriksaan langsung Maps. Sumber kontak artikel bertanggal 24 Oktober 2023, keyakinan sedang. Jadwal Minggu belum dikonfirmasi sumber primer. Tidak memakai nomor/email Medicastore pada footer sebagai nomor dokter. Pemeriksaan ulang antrean: telepon tetap masih tertulis pada halaman yang berhasil dibuka. Pencarian ponsel tidak memberikan nomor yang bisa dicocokkan ke praktik. WA tetap null sesuai bukti; hasil tidak ditahan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Penjelasan jadwal praktik dua sesi dan pengecekan nomor jalan sebelum kedatangan.",
+  "catatan": "REVISI: kontak yang tertera berupa telepon 022-5201627; tidak ada bukti nomornya WhatsApp. Sumber Indoplasma menulis nomor 524, tetapi Yellow Pages Bandung 2019 mencantumkan nomor 526 untuk drg Kesuma Nasseri dengan telepon yang sama. Alamat perlu dikonfirmasi karena konflik historis. Medicastore mengonfirmasi nama dokter tetapi tidak memiliki tempat praktik terdaftar. Harga blog tidak digunakan sebagai tarif resmi.",
   "sumber": [
     "https://indoplasma.or.id/praktek-dokter-gigi-hari-minggu-di-bandung/",
-    "https://medicastore.com/dokter/detail/15354/kesuma-nasseri"
+    "https://medicastore.com/dokter/detail/15354/kesuma-nasseri",
+    "https://fliphtml5.com/rbocw/ifei/Yellow_Pages_Bandung_2019/"
   ]
 }
