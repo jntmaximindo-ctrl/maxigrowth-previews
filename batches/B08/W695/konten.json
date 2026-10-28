@@ -1,0 +1,132 @@
+{
+  "id": "W695",
+  "hero": {
+    "judul": {
+      "id": "A8 Dental Poris",
+      "en": "A8 Dental Poris"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi di kawasan Cipondoh, Tangerang. Hubungi klinik untuk memastikan jadwal dan kebutuhan kunjungan.",
+      "en": "Dental care information for Cipondoh, Tangerang. Contact the clinic to confirm appointments and your visit requirements."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling dan polishing",
+        "en": "Scaling and polishing"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi dan pemolesan tercantum dalam paket A8 Dental. Tanyakan ketersediaan di Poris.",
+        "en": "Scaling and polishing are listed in A8 Dental packages. Ask about availability at Poris."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan dengan kamera intraoral",
+        "en": "Intraoral camera examination"
+      },
+      "ringkas": {
+        "id": "Paket mencantumkan pemeriksaan menggunakan kamera di dalam mulut. Tanyakan alur pemeriksaan kepada klinik.",
+        "en": "Listed packages include an examination with an intraoral camera. Ask the clinic about the examination process."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer komposit langsung",
+        "en": "Direct composite veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan layanan veneer komposit dan kebutuhan pemeriksaan sebelum tindakan. Rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "Ask about composite veneers and the examination required beforehand. A treatment plan follows an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching dengan LED",
+        "en": "LED whitening"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum dalam paket A8 Dental. Konfirmasikan ketersediaan dan kesesuaian perawatan dengan dokter.",
+        "en": "This treatment is listed in A8 Dental packages. Confirm availability and suitability with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan dan hari kunjungan untuk menyusun pesan kepada admin Poris. Jadwal tersedia setelah dikonfirmasi klinik.",
+      "en": "Choose your needs and preferred day to prepare a message for the Poris team. The clinic must confirm appointment availability."
+    },
+    "alasan_dipilih": "Konfirmasi jadwal diperlukan karena sumber publik berbeda; fitur membantu pasien menyusun pertanyaan tanpa menjanjikan slot."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi A8 Dental Poris?",
+        "en": "Where is A8 Dental Poris?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Poris Paradise 2, RT.002/RW.005, Cipondoh Indah, Kecamatan Cipondoh, Kota Tangerang, Banten.",
+        "en": "The listed address is Jl. Poris Paradise 2, RT.002/RW.005, Cipondoh Indah, Cipondoh, Tangerang, Banten."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana memastikan jam praktik?",
+        "en": "How do I confirm opening hours?"
+      },
+      "a": {
+        "id": "Hubungi admin sebelum berangkat. Informasi jam di sumber publik berbeda, sehingga jadwal belum ditampilkan sebagai kepastian.",
+        "en": "Contact the team before travelling. Public sources list different hours, so opening times need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif langsung cabang belum tersedia. Mintalah rincian biaya pemeriksaan, tindakan, dan kunjungan lanjutan sebelum membuat keputusan.",
+        "en": "Direct branch fees are not available. Ask for examination, treatment and follow-up costs before making a decision."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan yang saya cari tersedia di Poris?",
+        "en": "Is my preferred treatment available at Poris?"
+      },
+      "a": {
+        "id": "Paket publik mencantumkan scaling, pemeriksaan kamera intraoral, veneer komposit, dan bleaching. Konfirmasikan ketersediaan layanan serta dokter untuk hari pilihan.",
+        "en": "Public packages list scaling, intraoral examinations, composite veneers and whitening. Confirm treatment and dentist availability for your preferred day."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat menggunakan asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi cabang belum terkonfirmasi. Tanyakan nama penjamin, dokumen, dan mekanisme pembayaran kepada admin.",
+        "en": "Insurance arrangements for this branch are unconfirmed. Ask the team about insurers, documents and payment procedures."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin Poris untuk konfirmasi kunjungan",
+    "en": "Contact the Poris team to confirm your visit"
+  },
+  "pesan_wa_default": "Halo A8 Dental Poris, saya ingin menanyakan ketersediaan layanan dan jadwal kunjungan. Mohon informasi biaya pemeriksaan dan alamat cabang. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen A8 Dental Poris, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pasien menemukan lokasi Poris Paradise 2 dan menyusun pertanyaan jadwal. Konsep untuk ditinjau: https://maxigrowthstudio.com/a8-poris. Jika berkenan, kami dapat membahas penyesuaian informasi cabang. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website A8 Dental Poris",
+    "email_isi": "Yth. Manajemen A8 Dental Poris,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Poris Paradise 2, ringkasan layanan, dan penyusun pertanyaan kunjungan. Pasien dapat meminta konfirmasi jadwal kepada admin.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/a8-poris. Proposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk menyesuaikan data cabang berdasarkan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
