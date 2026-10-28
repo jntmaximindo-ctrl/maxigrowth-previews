@@ -1,0 +1,23 @@
+{
+  "id": "W2002",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. MT. Haryono No.716, Karangturi, Kec. Semarang Tim., Kota Semarang, Jawa Tengah50241",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/semarang/semarang-dental-center-semarang",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09.30-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09.30-20\", \"sab\": \"09-12\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/semarang-dental-center",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

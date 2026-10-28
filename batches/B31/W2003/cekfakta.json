@@ -1,0 +1,50 @@
+{
+  "id": "W2003",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Surabaya - KAMA Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Barata Jaya XX No.37, Baratajaya, Kec. Gubeng, Surabaya, Jawa Timur60284",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281358263767",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281358263767",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-15\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/ [nama]",
+    "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/ [cabang[0].alamat]",
+    "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/ [cabang[0].telepon]",
+    "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/ [cabang[0].wa]",
+    "https://www.ulastempat.com/7-dokter-gigi-di-gubeng-dengan-pelayanan-terbaik/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

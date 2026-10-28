@@ -1,0 +1,50 @@
+{
+  "id": "W1994",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Dokter Gigi ATDC (Aang Thuba Dental Care)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Bayu Prasetya Selatan IV, D-7, Semarang 50115",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281235042088",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281235042088",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Thuba Fithriana",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan [nama]",
+    "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan [cabang[0].alamat]",
+    "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan [cabang[0].telepon]",
+    "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan [cabang[0].wa]",
+    "https://jalan-indonesia.openalfa.com/jalan-jalan/jalan-bayu-prasetya-selatan-iv-rw-09-bangetayu-wetan [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

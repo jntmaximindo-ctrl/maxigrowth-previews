@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/semarang/klinik-gigi-dental-loft-semarang",
     "https://indonesiaknowledge.com/directory/dental/semarang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09:30-20\", \"sel\": \"09:30-20\", \"rab\": \"09:30-20\", \"kam\": \"09:30-20\", \"jum\": \"09:30-20\", \"sab\": \"09:30-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

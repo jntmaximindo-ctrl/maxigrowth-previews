@@ -1,0 +1,50 @@
+{
+  "id": "W1991",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Joy Dental Majapahit Semarang",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/klinik-dokter-gigi-semarang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Majapahit No.91D, Pandean Lamper, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50249",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/klinik-dokter-gigi-semarang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281907579191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/klinik-dokter-gigi-semarang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281907579191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/klinik-dokter-gigi-semarang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"15-21\", \"rab\": \"15-21\", \"kam\": \"15-21\", \"jum\": \"15-21\", \"sab\": \"15-21\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://klinikjoydental.com/klinik-dokter-gigi-semarang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://klinikjoydental.com/klinik-dokter-gigi-semarang/ [nama]",
+    "https://klinikjoydental.com/klinik-dokter-gigi-semarang/ [cabang[0].alamat]",
+    "https://klinikjoydental.com/klinik-dokter-gigi-semarang/ [cabang[0].telepon]",
+    "https://klinikjoydental.com/klinik-dokter-gigi-semarang/ [cabang[0].wa]",
+    "https://klinikjoydental.com/klinik-dokter-gigi-semarang/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "W2004",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dentist Drg. Darjanki, Sp.Ort.",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/darjanki_lee/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bali No.7, Gubeng, Kec. Gubeng, Surabaya, Jawa Timur 60281",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62315032040",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040 [nama]",
+    "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040 [instagram]",
+    "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040 [cabang[0].alamat]",
+    "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040 [cabang[0].telepon]",
+    "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

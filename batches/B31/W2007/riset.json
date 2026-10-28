@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
     "https://bukutelepon.cybo.com/ID-biz/drg-eric-yuwana-wijaya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Eric Yuwana Wijaya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ngagel Jaya No.100, Pucang Sewu, Kec. Gubeng, Surabaya, Jawa Timur 60283",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281939435055",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281939435055",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

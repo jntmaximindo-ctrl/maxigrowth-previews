@@ -1,0 +1,50 @@
+{
+  "id": "W2007",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Eric Yuwana Wijaya",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ngagel Jaya No.100, Pucang Sewu, Kec. Gubeng, Surabaya, Jawa Timur 60283",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281939435055",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281939435055",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055 [nama]",
+    "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055 [cabang[0].wa]",
+    "https://www.semuabis.com/drg-eric-yuwana-wijaya-0819-3943-5055 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

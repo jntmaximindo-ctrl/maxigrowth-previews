@@ -1,0 +1,16 @@
+{
+  "id": "W1993",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dental-house-semarang.localo.site/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

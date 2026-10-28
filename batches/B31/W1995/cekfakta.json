@@ -1,0 +1,39 @@
+{
+  "id": "W1995",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Fefta Hestin F.",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281390398681",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281390398681",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Fefta Hestin F.",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-2-rekomendasi-dokter-gigi-di-gunung-pati/ [cabang[0].alamat]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

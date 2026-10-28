@@ -1,0 +1,58 @@
+{
+  "id": "W2008",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Yonatan C. Suisan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Gn. Anyar Sawah No.11, Gn. Anyar, Kec. Gn. Anyar, Surabaya, Jawa Timur60294",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281330323903",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281330323903",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-21\", \"sel\": \"16-21\", \"rab\": \"16-21\", \"kam\": \"16-21\", \"jum\": \"16-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Yonatan C. Suisan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [cabang[0].alamat]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [cabang[0].telepon]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [cabang[0].wa]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [cabang[0].jam]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gununganyar/ [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -109,5 +109,37 @@
     "https://angelaligner.id/find-doctor",
     "https://hdmall.id/klinik-gigi/bleaching%2Bscaling%2Bwhitening-di-teeth-tooth-dental",
     "https://www.instagram.com/teethtoothdental/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Teeth Tooth Dental Merr",
+      "catatan": "sumber tidak bisa dibuka (HTTP 530); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. I Gusti Ngurah Rai No.43, Gn. Anyar, Kec. Gn. Anyar, Surabaya, Jawa Timur 60293",
+      "catatan": "sumber tidak bisa dibuka (HTTP 530); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285234706559",
+      "catatan": "sumber tidak bisa dibuka (HTTP 530); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285234706559",
+      "catatan": "sumber tidak bisa dibuka (HTTP 530); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": \"09-16\", \"min\": \"09-12\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg.Immilia E Pertiwi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 530); belum terverifikasi"
+    }
   ]
 }

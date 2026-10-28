@@ -92,5 +92,12 @@
     "https://dental-house-semarang.localo.site/",
     "https://dental-house-semarang.localo.site/contact",
     "https://caribisnis.id/dokter-gigi/semarang/ambarawa/dental-house-semarang-klinik-d-amba-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

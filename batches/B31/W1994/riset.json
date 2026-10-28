@@ -94,5 +94,32 @@
     "https://indonesia-streets.openalfa.com/streets/jalan-masjid-baitu-muttaqin-bangetayu-wetan-genuk",
     "https://atdc-aangthubadentalcare.business.site/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-genuk/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Dokter Gigi ATDC (Aang Thuba Dental Care)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Bayu Prasetya Selatan IV, D-7, Semarang 50115",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281235042088",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281235042088",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Thuba Fithriana",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
