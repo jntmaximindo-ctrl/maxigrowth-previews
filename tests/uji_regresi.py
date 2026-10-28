@@ -536,6 +536,15 @@ def _():
     assert "riset" in r.get("B34-W2171", {}) and "konten" in r.get("B34-W2172", {}), r
 
 
+@uji("skema: paket placeholder kosong GPT (sumber=[], faq 3 item) ditolak oleh skema (pelajaran 45)")
+def _():
+    import json as _j
+    sr = _j.loads((ROOT / "schemas/riset.schema.json").read_text(encoding="utf-8"))
+    sk = _j.loads((ROOT / "schemas/konten.schema.json").read_text(encoding="utf-8"))
+    assert sr["properties"]["sumber"]["minItems"] >= 2
+    assert sk["properties"]["faq"]["minItems"] >= 5 and sk["properties"]["layanan"]["minItems"] >= 4
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)
