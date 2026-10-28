@@ -1,0 +1,132 @@
+{
+  "id": "W1304",
+  "hero": {
+    "judul": {
+      "id": "Sleek Smile Care",
+      "en": "Sleek Smile Care"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Pamekasan. Draf 29 Oktober 2026.",
+      "en": "Location and visit preparation in Pamekasan. Draft dated 29 October 2026."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan jenis perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal dokter",
+        "en": "Ask about dentist availability"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Membantu menyiapkan pertanyaan karena daftar tindakan, dokter, dan tarif belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Trunojoyo No.71, Rw.01, Barurambat Kota, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur 69317 (menurut direktori).",
+        "en": "Jl. Trunojoyo No.71, Rw.01, Barurambat Kota, Kec. Pamekasan, Kabupaten Pamekasan, Jawa Timur 69317 (according to a directory)."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Jadwal berbeda antar sumber. Tanyakan jadwal terbaru sebelum berkunjung.",
+        "en": "Sources give different hours. Ask for the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terverifikasi. Sampaikan kebutuhan Anda kepada admin.",
+        "en": "The treatment list has not been verified. Tell the team what you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo Sleek Smile Care, saya ingin menanyakan jadwal dan informasi kunjungan di Pamekasan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Sleek Smile Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori publik mencantumkan lokasi di Jl. Trunojoyo No.71, Pamekasan. Usulan website berisi informasi lokasi dan penyusun pertanyaan kunjungan. Tautan konsep: https://maxigrowthstudio.com/sleek-smile. Mohon tinjau data sebelum digunakan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Sleek Smile Care",
+    "email_isi": "Yth. Pengelola Sleek Smile Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori publik mencantumkan lokasi di Jl. Trunojoyo No.71, Pamekasan. Kami mengusulkan halaman informasi kunjungan dengan penyusun pertanyaan jadwal dan biaya. Data klinik perlu ditinjau sebelum digunakan.\n\nTautan konsep: https://maxigrowthstudio.com/sleek-smile. Proposal PDF terlampir untuk ditinjau.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

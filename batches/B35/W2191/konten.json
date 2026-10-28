@@ -1,0 +1,132 @@
+{
+  "id": "W2191",
+  "hero": {
+    "judul": {
+      "id": "Urban Smile Dental Care Sawangan",
+      "en": "Urban Smile Dental Care Sawangan"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Depok. Draf 29 Oktober 2026.",
+      "en": "Location and visit preparation in Depok. Draft dated 29 October 2026."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan jenis perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal dokter",
+        "en": "Ask about dentist availability"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Membantu menyiapkan pertanyaan karena daftar tindakan, dokter, dan tarif belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Caringin, Rangkapan Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16435 (menurut direktori; konfirmasikan sebelum datang).",
+        "en": "Jl. Caringin, Rangkapan Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16435 (according to a directory; confirm before visiting)."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Jadwal tercantum pada direktori dan dapat berubah. Tanyakan jadwal terbaru sebelum datang.",
+        "en": "Directory hours may change. Ask for the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terverifikasi. Sampaikan kebutuhan Anda kepada admin.",
+        "en": "The treatment list has not been verified. Tell the team what you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo Urban Smile Dental Care Sawangan, saya ingin menanyakan lokasi, jadwal, dan informasi kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola Urban Smile Dental Care Sawangan. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori publik mencantumkan lokasi di Jl. Caringin, Depok. Usulan website berisi informasi lokasi dan penyusun pertanyaan kunjungan. Tautan konsep: https://maxigrowthstudio.com/urban-smile. Mohon tinjau data sebelum digunakan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website Urban Smile Dental Care Sawangan",
+    "email_isi": "Yth. Pengelola Urban Smile Dental Care Sawangan,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori publik mencantumkan lokasi di Jl. Caringin, Depok. Kami mengusulkan halaman informasi kunjungan dengan penyusun pertanyaan jadwal dan biaya. Data klinik perlu ditinjau sebelum digunakan.\n\nTautan konsep: https://maxigrowthstudio.com/urban-smile. Proposal PDF terlampir untuk ditinjau.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
