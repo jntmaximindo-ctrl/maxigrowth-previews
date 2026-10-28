@@ -1,30 +1,30 @@
 {
- "diperbarui": "2026-10-28T21:51:25+07:00",
+ "diperbarui": "2026-10-28T21:56:54+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
  "akhir_hari": "2026-10-28T23:59:00+07:00",
  "total_klinik_di_batch": 1409,
- "klinik_status_lain": 75,
+ "klinik_status_lain": 91,
  "siap_reachout_hari_ini": 425,
  "tahap": {
   "cari": null,
   "riset": 142,
-  "cek_fakta": 15,
-  "rakit": 6,
+  "cek_fakta": 0,
+  "rakit": 21,
   "qa": 1,
   "deploy": 0,
-  "review": 28,
+  "review": 12,
   "siap_reachout": 1142
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 51,
-  "cek_fakta": 53,
-  "rakit": 81,
-  "qa": 81,
-  "deploy": 81,
-  "review": 85
+  "riset": 31,
+  "cek_fakta": 48,
+  "rakit": 59,
+  "qa": 59,
+  "deploy": 59,
+  "review": 78
  },
  "pekerja": [
   {
@@ -135,21 +135,21 @@
   {
    "tanggal": "2026-10-28",
    "lulus_akhir": {
-    "riset": 1192,
-    "cek_fakta": 1177,
-    "rakit": 1171,
-    "qa": 1170,
-    "deploy": 1170,
+    "riset": 1176,
+    "cek_fakta": 1176,
+    "rakit": 1155,
+    "qa": 1154,
+    "deploy": 1154,
     "review": 1142,
     "siap_reachout": 0
    },
    "siap_reachout_akhir": 1142,
    "tambahan_hari_itu": {
-    "riset": 397,
-    "cek_fakta": 430,
-    "rakit": 452,
-    "qa": 453,
-    "deploy": 453,
+    "riset": 381,
+    "cek_fakta": 429,
+    "rakit": 436,
+    "qa": 437,
+    "deploy": 437,
     "review": 425,
     "siap_reachout": 425
    }
