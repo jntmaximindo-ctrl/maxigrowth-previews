@@ -1,30 +1,30 @@
 {
- "diperbarui": "2026-10-29T05:22:19+07:00",
+ "diperbarui": "2026-10-29T05:57:10+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
  "akhir_hari": "2026-10-29T23:59:00+07:00",
- "total_klinik_di_batch": 1413,
+ "total_klinik_di_batch": 1430,
  "klinik_status_lain": 75,
- "siap_reachout_hari_ini": 9,
+ "siap_reachout_hari_ini": 12,
  "tahap": {
   "cari": null,
-  "riset": 73,
-  "cek_fakta": 34,
+  "riset": 117,
+  "cek_fakta": 3,
   "rakit": 4,
   "qa": 1,
   "deploy": 0,
-  "review": 15,
-  "siap_reachout": 1211
+  "review": 16,
+  "siap_reachout": 1214
  },
  "kecepatan_per_jam": {
   "cari": null,
   "riset": 0,
-  "cek_fakta": 4,
-  "rakit": 4,
-  "qa": 4,
-  "deploy": 4,
-  "review": 3
+  "cek_fakta": 8,
+  "rakit": 8,
+  "qa": 8,
+  "deploy": 8,
+  "review": 9
  },
  "pekerja": [
   {
@@ -83,14 +83,8 @@
   {
    "tingkat": "kritis",
    "judul": "Antrean riset menumpuk",
-   "detail": "73 klinik menunggu di tahap riset.",
+   "detail": "117 klinik menunggu di tahap riset.",
    "teks_perbaikan": "Periksa pekerja tahap riset dan dorong sampai antrean turun."
-  },
-  {
-   "tingkat": "kritis",
-   "judul": "Antrean cek fakta menumpuk",
-   "detail": "34 klinik menunggu di tahap cek fakta.",
-   "teks_perbaikan": "Periksa pekerja tahap cek fakta dan dorong sampai antrean turun."
   }
  ],
  "kemarin": {
@@ -163,23 +157,23 @@
   {
    "tanggal": "2026-10-29",
    "lulus_akhir": {
-    "riset": 1265,
-    "cek_fakta": 1231,
-    "rakit": 1227,
-    "qa": 1226,
-    "deploy": 1226,
-    "review": 1211,
+    "riset": 1238,
+    "cek_fakta": 1235,
+    "rakit": 1231,
+    "qa": 1230,
+    "deploy": 1230,
+    "review": 1214,
     "siap_reachout": 0
    },
-   "siap_reachout_akhir": 1211,
+   "siap_reachout_akhir": 1214,
    "tambahan_hari_itu": {
-    "riset": 46,
-    "cek_fakta": 12,
-    "rakit": 12,
-    "qa": 12,
-    "deploy": 12,
-    "review": 9,
-    "siap_reachout": 9
+    "riset": 19,
+    "cek_fakta": 16,
+    "rakit": 16,
+    "qa": 16,
+    "deploy": 16,
+    "review": 12,
+    "siap_reachout": 12
    }
   }
  ]
