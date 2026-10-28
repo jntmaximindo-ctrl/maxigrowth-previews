@@ -1,0 +1,132 @@
+{
+  "id": "W2162",
+  "hero": {
+    "judul": {
+      "id": "drg. Maya Wulan Sari",
+      "en": "drg. Maya Wulan Sari"
+    },
+    "sub": {
+      "id": "Informasi konsultasi dan persiapan kunjungan. Konfirmasikan dokter, lokasi praktik, serta jadwal sebelum datang.",
+      "en": "Consultation information and visit planning. Confirm the clinician, practice location, and appointment before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan informasi kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Waktu kunjungan",
+        "en": "Visit time"
+      },
+      "ringkas": {
+        "id": "Sampaikan hari pilihan dan tanyakan jadwal dokter terbaru.",
+        "en": "Share your preferred day and ask for the latest clinician schedule."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Pastikan tempat konsultasi yang dimaksud. Kontak rumah sakit berbeda dari praktik mandiri.",
+        "en": "Confirm the intended consultation location. The hospital contact is separate from the private practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan konsultasi",
+        "en": "Consultation needs"
+      },
+      "ringkas": {
+        "id": "Jelaskan kebutuhan Anda dan tanyakan pemeriksaan yang tersedia.",
+        "en": "Describe your needs and ask what assessments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rencana perawatan sebelum mengambil keputusan.",
+        "en": "Ask about examination and proposed care fees before deciding."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pastikan tempat konsultasi",
+      "en": "Confirm the consultation location"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi praktik mandiri atau rumah sakit yang mencantumkan dokter, lalu siapkan pertanyaan lokasi, jadwal, dan biaya.",
+      "en": "Choose information about the private practice or the hospital listing the clinician, then prepare questions about location, appointments, and fees."
+    },
+    "alasan_dipilih": "Halaman rumah sakit mencantumkan dokter dan kontak administrasi; pemisahan tempat membantu mencegah penggunaan kontak fasilitas sebagai nomor pribadi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat praktik mandiri belum terverifikasi. RS Bunda Medika Jakabaring mencantumkan nama dokter; tanyakan lokasi konsultasi yang dimaksud.",
+        "en": "The private practice address has not been verified. RS Bunda Medika Jakabaring lists the clinician; ask which consultation location is intended."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal individual dokter terlebih dahulu. Jam IGD rumah sakit tidak menunjukkan jadwal konsultasi gigi.",
+        "en": "Ask for the clinician’s individual appointment schedule. Hospital emergency hours do not indicate dental consultation times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian sesuai kebutuhan Anda.",
+        "en": "Fees are not available here. Request a breakdown for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda agar praktik dapat mengonfirmasi tindakan dan jadwal.",
+        "en": "Describe your needs so the practice can confirm care options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan jenis asuransi dan ketentuan pembayaran sebelum kunjungan.",
+        "en": "Ask about accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Ask about appointment times and your visit needs."
+  },
+  "pesan_wa_default": "Halo administrasi RS Bunda Medika Jakabaring, apakah drg. Maya Wulan Sari masih melayani konsultasi di fasilitas ini? Mohon informasi lokasi, jadwal dokter, serta biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Maya Wulan Sari. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Nama dokter tercantum pada halaman resmi RS Bunda Medika Jakabaring. Kami sudah membuat konsep website untuk memperjelas informasi tempat dan jadwal konsultasi: https://maxigrowthstudio.com/drg-maya. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website drg. Maya Wulan Sari",
+    "email_isi": "Halo Bapak/Ibu pengelola praktik drg. Maya Wulan Sari,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Nama dokter tercantum pada halaman resmi RS Bunda Medika Jakabaring. Kami sudah membuat konsep website informasi tempat konsultasi dan jadwal untuk ditinjau: https://maxigrowthstudio.com/drg-maya. Informasi praktik mandiri serta fasilitas rumah sakit dapat dibedakan sesuai koreksi pengelola.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
