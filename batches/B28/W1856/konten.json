@@ -1,0 +1,132 @@
+{
+  "id": "W1856",
+  "hero": {
+    "judul": {
+      "id": "Klinik Yuda Medika",
+      "en": "Klinik Yuda Medika"
+    },
+    "sub": {
+      "id": "Informasi poli dan jadwal dokter gigi Klinik Yuda Medika.",
+      "en": "Explore dental services and clinician schedules at Klinik Yuda Medika."
+    },
+    "cta": {
+      "id": "Lihat informasi layanan",
+      "en": "Explore services"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi dokter gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan jadwal kepada tim sebelum berkunjung.",
+        "en": "Ask the team about details and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan kesehatan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan jadwal kepada tim sebelum berkunjung.",
+        "en": "Ask the team about details and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan jadwal kepada tim sebelum berkunjung.",
+        "en": "Ask the team about details and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemasangan behel",
+        "en": "Orthodontic braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan detail layanan dan jadwal kepada tim sebelum berkunjung.",
+        "en": "Ask the team about details and appointment times."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan jadwal poli dan dokter gigi",
+      "en": "Clinic and dentist schedule guide"
+    },
+    "penjelasan": {
+      "id": "Tampilkan informasi terstruktur agar pasien dapat menanyakan layanan dan jadwal dengan jelas.",
+      "en": "Review available information and ask the team for current details."
+    },
+    "alasan_dipilih": "Situs resmi memublikasikan jadwal dokter gigi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Alamat tercatat: Jl. Ratan Cilik, Banjardowo, Genuk, Semarang.",
+        "en": "The listed address is Jl. Ratan Cilik, Banjardowo, Genuk, Semarang."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam layanan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal dokter gigi berbeda menurut hari; lihat jadwal resmi dan konfirmasi sebelum datang.",
+        "en": "Dentist schedules vary by day. Check the published schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check prices?"
+      },
+      "a": {
+        "id": "Tanyakan biaya terkini dan pilihan layanan kepada tim sebelum membuat janji.",
+        "en": "Ask the team for current fees and available options before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi jadwal dan cara pendaftaran melalui kontak yang tercantum.",
+        "en": "Please check availability and registration with the listed contact."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan yang saya butuhkan tersedia?",
+        "en": "Is my preferred treatment available?"
+      },
+      "a": {
+        "id": "Jelaskan kebutuhan Anda agar tim dapat mengonfirmasi jenis layanan dan jadwal.",
+        "en": "Describe your needs so the team can confirm services and schedules."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi tim untuk informasi lebih lanjut",
+    "en": "Contact the team for details"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi Klinik Yuda Medika, termasuk jadwal dan ketersediaan layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Klinik Yuda Medika. Perkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat jadwal dokter gigi yang tercantum di situs Klinik Yuda Medika. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/yuda-medika. Ini hanya bahan pertimbangan dan dapat disesuaikan dengan kebutuhan klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Yuda Medika",
+    "email_isi": "Yth. Tim Pengelola Klinik Yuda Medika,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat jadwal dokter gigi yang tercantum di situs Klinik Yuda Medika. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/yuda-medika. Proposal PDF kami lampirkan sebagai pengantar. Konsep ini dapat disesuaikan setelah data dan kebutuhan klinik dikonfirmasi.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1867",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi 2000 Tiga Sagan",
+      "en": "Klinik Gigi 2000 Tiga Sagan"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi dan jadwal praktik di Sagan, Yogyakarta.",
+      "en": "Dental care and opening-hour information in Sagan, Yogyakarta."
+    },
+    "cta": {
+      "id": "Lihat informasi layanan",
+      "en": "Explore services"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal kepada tim sebelum datang.",
+        "en": "Please check treatment availability and appointment times before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal kepada tim sebelum datang.",
+        "en": "Please check treatment availability and appointment times before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal kepada tim sebelum datang.",
+        "en": "Please check treatment availability and appointment times before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kesehatan gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan dan jadwal kepada tim sebelum datang.",
+        "en": "Please check treatment availability and appointment times before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih hari untuk melihat jadwal praktik",
+      "en": "Choose a day to view opening hours"
+    },
+    "penjelasan": {
+      "id": "Jadwal Jumat dan Minggu berbeda dari hari lainnya; pilih hari sebelum merencanakan kunjungan.",
+      "en": "Friday and Sunday hours differ from other days. Choose your preferred day before visiting."
+    },
+    "alasan_dipilih": "Jadwal praktik berbeda menurut hari berdasarkan direktori publik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Di Jl. Prof. Dr. Ir. Herman Johannes No.1215, Terban, Yogyakarta.",
+        "en": "At Jl. Prof. Dr. Ir. Herman Johannes No.1215, Terban, Yogyakarta."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka hari Minggu?",
+        "en": "Is the clinic open on Sunday?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 10.00–17.00. Konfirmasi jadwal sebelum datang.",
+        "en": "The directory lists Sunday hours of 10 AM–5 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam hari Jumat?",
+        "en": "What are Friday opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jumat 15.00–20.00.",
+        "en": "The directory lists Friday hours of 3–8 PM."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Mintalah rincian biaya kepada tim sebelum menentukan tindakan.",
+        "en": "Ask the team for current fees before deciding on treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan prosedur pendaftaran dan ketersediaan jadwal kepada klinik.",
+        "en": "Check registration requirements and available appointment times with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi tim untuk memastikan jadwal",
+    "en": "Contact the team to confirm hours"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan ketersediaan layanan Klinik Gigi 2000 Tiga Sagan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Klinik Gigi 2000 Tiga Sagan. Perkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jam praktik klinik di kawasan Sagan, termasuk hari Minggu. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/2000-tiga. Ini hanya bahan pertimbangan dan dapat disesuaikan dengan kebutuhan klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi 2000 Tiga Sagan",
+    "email_isi": "Yth. Tim Pengelola Klinik Gigi 2000 Tiga Sagan,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jadwal praktik klinik di kawasan Sagan. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/2000-tiga. Proposal PDF kami lampirkan sebagai pengantar. Data dan tampilan konsep dapat disesuaikan setelah dikonfirmasi bersama pihak klinik.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

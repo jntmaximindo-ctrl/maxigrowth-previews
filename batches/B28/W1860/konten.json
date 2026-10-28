@@ -1,0 +1,132 @@
+{
+  "id": "W1860",
+  "hero": {
+    "judul": {
+      "id": "DS Dental Seminyak",
+      "en": "DS Dental Seminyak"
+    },
+    "sub": {
+      "id": "Status operasional DS Dental Seminyak memerlukan verifikasi.",
+      "en": "DS Dental Seminyak operating status needs verification."
+    },
+    "cta": {
+      "id": "Periksa status operasional",
+      "en": "Check operating status"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi konsultasi gigi",
+        "en": "Dental consultation enquiries"
+      },
+      "ringkas": {
+        "id": "Status operasional perlu dipastikan sebelum merencanakan kunjungan.",
+        "en": "Confirm the clinic's operating status before planning a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan awal",
+        "en": "Initial examination enquiries"
+      },
+      "ringkas": {
+        "id": "Status operasional perlu dipastikan sebelum merencanakan kunjungan.",
+        "en": "Confirm the clinic's operating status before planning a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jenis tindakan",
+        "en": "Treatment availability enquiries"
+      },
+      "ringkas": {
+        "id": "Status operasional perlu dipastikan sebelum merencanakan kunjungan.",
+        "en": "Confirm the clinic's operating status before planning a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi status klinik",
+        "en": "Clinic status enquiries"
+      },
+      "ringkas": {
+        "id": "Status operasional perlu dipastikan sebelum merencanakan kunjungan.",
+        "en": "Confirm the clinic's operating status before planning a visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Informasi status operasional dan kontak",
+      "en": "Clinic status and contact"
+    },
+    "penjelasan": {
+      "id": "Informasi status dan kontak membantu pengunjung menghindari perjalanan yang belum terkonfirmasi.",
+      "en": "Check the current status before making travel plans."
+    },
+    "alasan_dipilih": "Profil bisnis menandai lokasi tutup permanen, sehingga status perlu dijelaskan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Alamat tercatat: Jl. Plawa No.8B, Seminyak, Badung.",
+        "en": "The listed address is Jl. Plawa No.8B, Seminyak, Badung."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam layanan?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Profil bisnis menandai tempat ini tutup permanen; periksa kembali melalui sumber resmi.",
+        "en": "The business profile indicates permanent closure; verify with official sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check prices?"
+      },
+      "a": {
+        "id": "Tanyakan biaya terkini dan pilihan layanan kepada tim sebelum membuat janji.",
+        "en": "Ask the team for current fees and available options before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi jadwal dan cara pendaftaran melalui kontak yang tercantum.",
+        "en": "Please check availability and registration with the listed contact."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah layanan yang saya butuhkan tersedia?",
+        "en": "Is my preferred treatment available?"
+      },
+      "a": {
+        "id": "Jelaskan kebutuhan Anda agar tim dapat mengonfirmasi jenis layanan dan jadwal.",
+        "en": "Describe your needs so the team can confirm services and schedules."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Pastikan status klinik sebelum berkunjung",
+    "en": "Confirm clinic status before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan informasi DS Dental Seminyak, termasuk jadwal dan ketersediaan layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola DS Dental Seminyak. Perkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan alamat DS Dental di Jl. Plawa, tetapi status operasionalnya perlu dipastikan. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/ds-seminyak. Ini hanya bahan pertimbangan dan dapat disesuaikan dengan kebutuhan klinik. Terima kasih.",
+    "email_subjek": "Konsep website untuk DS Dental Seminyak",
+    "email_isi": "Yth. Tim Pengelola DS Dental Seminyak,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan alamat DS Dental di Jl. Plawa, tetapi status operasionalnya perlu dipastikan. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/ds-seminyak. Proposal PDF kami lampirkan sebagai pengantar. Konsep ini dapat disesuaikan setelah data dan kebutuhan klinik dikonfirmasi.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

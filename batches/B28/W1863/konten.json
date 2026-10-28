@@ -1,0 +1,132 @@
+{
+  "id": "W1863",
+  "hero": {
+    "judul": {
+      "id": "Pine Dental",
+      "en": "Pine Dental"
+    },
+    "sub": {
+      "id": "Informasi untuk merencanakan kunjungan di Yogyakarta.",
+      "en": "Information to help plan your visit in Yogyakarta."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit times"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan ketentuannya kepada klinik sebelum datang.",
+        "en": "Ask the practice about availability and requirements before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapkan pertanyaan Anda",
+      "en": "Prepare your questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, lokasi dan biaya sebelum menghubungi admin.",
+      "en": "Prepare questions about hours, location and fees before contacting the team."
+    },
+    "alasan_dipilih": "Kontak publik tersedia; rincian kunjungan perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal melalui kontak yang tercantum.",
+        "en": "Ask about availability using the listed contact."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan tindakan.",
+        "en": "Prices are unavailable. Ask about examination and treatment fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal sebelum datang.",
+        "en": "Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Dokter siapa yang bertugas?",
+        "en": "Which dentist is available?"
+      },
+      "a": {
+        "id": "Jadwal dokter belum terkonfirmasi. Tanyakan kepada admin.",
+        "en": "Dentist schedules are unconfirmed. Ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Konfirmasikan ketentuan kepesertaan dan layanan kepada admin.",
+        "en": "Confirm eligibility and service requirements with the team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kunjungan",
+    "en": "Confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal, lokasi dan biaya kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola Pine Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Alamat praktik Anda di Yogyakarta tercantum pada kanal publik. Kami menyiapkan konsep informasi kunjungan untuk ditinjau, dengan rencana tautan https://maxigrowthstudio.com/pine. Pratinjau perlu diaktifkan sebelum draf digunakan. Bila berkenan, konsep dapat ditinjau.",
+    "email_subjek": "Konsep informasi kunjungan klinik",
+    "email_isi": "Yth. pengelola Pine Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman kontak dan persiapan kunjungan di Yogyakarta. Proposal PDF perlu dilampirkan sebelum draf ini dikirim. Kontak: info@maxigrowthstudio.com, 082141004400. Terima kasih."
+  }
+}
