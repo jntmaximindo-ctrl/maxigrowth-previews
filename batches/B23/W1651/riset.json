@@ -92,5 +92,32 @@
   "sumber": [
     "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
     "https://bukutelepon.cybo.com/ID-biz/drg-kiki-malau"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Kiki Malau",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "3RXC+GRF, Jl. Urip Sumodiharjo, Rantauprapat, Kec. Rantau Utara, Kab. Labuhanbatu, Sumatera Utara 21411",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281264004288",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281264004288",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Kiki Malau",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

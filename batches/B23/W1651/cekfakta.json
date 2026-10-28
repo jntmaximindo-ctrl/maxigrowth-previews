@@ -1,0 +1,50 @@
+{
+  "id": "W1651",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Kiki Malau",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "3RXC+GRF, Jl. Urip Sumodiharjo, Rantauprapat, Kec. Rantau Utara, Kab. Labuhanbatu, Sumatera Utara 21411",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281264004288",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281264004288",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Kiki Malau",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288 [nama]",
+    "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288 [cabang[0].wa]",
+    "https://www.semuabis.com/drg-kiki-malau-0812-6400-4288 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
