@@ -1,0 +1,19 @@
+{
+  "id": "W1902",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "16:00 - 18:00; hari tidak dicantumkan",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://gigisehat.id/dokterpdgi/404/drg-muchtar-hidayat-sp-ort",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-gigi-ortodonti-dr-muchtar-hidayat-0812-1408-901 [nama]",
+    "https://www.semuabis.com/klinik-gigi-ortodonti-dr-muchtar-hidayat-0812-1408-901 [cabang[0].jam]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}
