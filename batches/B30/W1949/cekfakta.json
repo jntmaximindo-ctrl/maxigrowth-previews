@@ -1,0 +1,50 @@
+{
+  "id": "W1949",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "MAXX Clinic THT & GIGI",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tuasan No.108, Sidorejo Hilir, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20222",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116227666",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116227666",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"11-21\", \"rab\": \"09-20\", \"kam\": \"11-21\", \"jum\": \"11-21\", \"sab\": \"11-21\", \"min\": null}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.findglocal.com/ID/Medan/114196126688040/MAXX-Clinic-THT-&-GIGI",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666 [nama]",
+    "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666 [cabang[0].wa]",
+    "https://www.findglocal.com/ID/Medan/114196126688040/MAXX-Clinic-THT-&-GIGI [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

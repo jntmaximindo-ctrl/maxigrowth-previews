@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/drg-lukman-hermanto-fm-maxx-clinic-0811-6227-666",
     "https://www.findglocal.com/ID/Medan/114196126688040/MAXX-Clinic-THT-&-GIGI"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "MAXX Clinic THT & GIGI",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tuasan No.108, Sidorejo Hilir, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20222",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628116227666",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628116227666",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"11-21\", \"rab\": \"09-20\", \"kam\": \"11-21\", \"jum\": \"11-21\", \"sab\": \"11-21\", \"min\": null}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
