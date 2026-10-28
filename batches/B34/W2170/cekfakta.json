@@ -1,0 +1,43 @@
+{
+  "id": "W2170",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (Family Dentist)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cekomaria, Peguyangan Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80238",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281239549133",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281239549133",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/ [nama]",
+    "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/ [cabang[0].alamat]",
+    "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/ [cabang[0].telepon]",
+    "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/ [cabang[0].wa]",
+    "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/ [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

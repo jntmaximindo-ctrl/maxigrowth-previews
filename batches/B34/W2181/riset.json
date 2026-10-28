@@ -137,5 +137,12 @@
     "https://www.panfic.com/partner/hospital-provider/swipe-card/",
     "https://www.audydental.com/locations/area/depok/",
     "https://caribisnis.id/dokter-gigi/depok/bojongsari/audy-dental-sawangan-klinik-do-bojo-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Kedokteran gigi anak",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

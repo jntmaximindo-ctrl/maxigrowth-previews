@@ -92,5 +92,12 @@
     "https://keslan.kemkes.go.id/klinik/profile/Sys1VWJzNG0ySzRHUkNzS0tFaERXUT09",
     "https://www.dentalclinics.care/dental-clinic/cera-dental-care",
     "https://keslan.kemkes.go.id/klinik/cari/index/2092"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"10-21\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

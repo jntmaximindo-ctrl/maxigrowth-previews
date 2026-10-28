@@ -1,0 +1,20 @@
+{
+  "id": "W2180",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "centrisdental@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-Jun-2024.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/centris-dental-care-0811-1120-800 [nama]",
+    "https://www.semuabis.com/centris-dental-care-0811-1120-800 [cabang[0].telepon]",
+    "https://www.semuabis.com/centris-dental-care-0811-1120-800 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

@@ -77,5 +77,27 @@
   "sumber": [
     "https://densia.id/klinik/praktek-dokter-gigi-family-dentist-kota-denpasar--dvifabq/",
     "https://idalamat.com/alamat/praktek-dokter-gigi-family-dentist-1063180"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (Family Dentist)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cekomaria, Peguyangan Kangin, Kec. Denpasar Utara, Kota Denpasar, Bali 80238",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281239549133",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281239549133",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    }
   ]
 }

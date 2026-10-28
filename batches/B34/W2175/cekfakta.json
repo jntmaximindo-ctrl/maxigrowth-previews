@@ -1,0 +1,18 @@
+{
+  "id": "W2175",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pandu Raya No.145, Tegal Gundil, Bogor Utara, Kota Bogor, Jawa Barat 16152",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.audydental.com/locations/audy-dental-bogor/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://clinic.audydental.com/wp-content/uploads/2017/07/Pricelist-Umum-Audy-Dental-2019.pdf [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

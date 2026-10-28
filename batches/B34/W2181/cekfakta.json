@@ -1,0 +1,16 @@
+{
+  "id": "W2181",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Kedokteran gigi anak",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.audydental.com/locations/audy-dental-sawangan/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

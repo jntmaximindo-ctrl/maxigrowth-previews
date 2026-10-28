@@ -111,5 +111,12 @@
     "https://halomewah.com/klinik-kecantikan/kota-depok/damessa-sawangan-klinik-gigi-keluarga-dengan-dokter-gigi-spesialis/",
     "https://damessa.id/dokter/drg-frisky-amanda-putri/",
     "https://damessa.id/lokasi-cabang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"15-21\", \"jum\": \"09-15\", \"min\": \"09-21\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

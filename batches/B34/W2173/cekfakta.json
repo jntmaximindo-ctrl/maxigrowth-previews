@@ -1,0 +1,50 @@
+{
+  "id": "W2173",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Family Dental Care Jilid 2",
+      "di_sumber": "sumber tidak bisa dibuka (SSLError); belum terverifikasi",
+      "src": "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Seberang Polrestabes, Jl. Gub H Bastari, 8 Ulu, Jakabaring, Kota Palembang, Sumatera Selatan 30251",
+      "di_sumber": "sumber tidak bisa dibuka (SSLError); belum terverifikasi",
+      "src": "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281278961561",
+      "di_sumber": "sumber tidak bisa dibuka (SSLError); belum terverifikasi",
+      "src": "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281278961561",
+      "di_sumber": "sumber tidak bisa dibuka (SSLError); belum terverifikasi",
+      "src": "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-20\", \"sel\": \"08-20\", \"rab\": \"08-20\", \"kam\": \"08-20\", \"jum\": \"08-20\", \"sab\": \"08-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (SSLError); belum terverifikasi",
+      "src": "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2 [nama]",
+    "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2 [cabang[0].alamat]",
+    "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2 [cabang[0].telepon]",
+    "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2 [cabang[0].wa]",
+    "https://infopraktekdokter.com/cari-dokter/family-dental-care-jilid-2 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
