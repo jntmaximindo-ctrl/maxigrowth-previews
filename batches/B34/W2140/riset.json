@@ -75,5 +75,27 @@
     "https://klinikdrsura.weebly.com/",
     "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
     "https://www.instagram.com/klinikdrsura/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik dr. Sura",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/klinikdrsura/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. RE Martadinata No.194, RT.01/RW.06, Gandekan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57122",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622712933421",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

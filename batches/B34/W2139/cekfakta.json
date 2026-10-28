@@ -1,0 +1,19 @@
+{
+  "id": "W2139",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"09-15\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/surakarta/sherly-indratno-and-associates-dental-clinic-surakarta",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/sherly-indratno-and-associates-dental-clinic-1061711 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/sherly-indratno-and-associates-dental-clinic-1061711 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

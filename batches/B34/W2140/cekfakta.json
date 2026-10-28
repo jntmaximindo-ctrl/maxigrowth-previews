@@ -1,0 +1,42 @@
+{
+  "id": "W2140",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik dr. Sura",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/klinikdrsura/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. RE Martadinata No.194, RT.01/RW.06, Gandekan, Kec. Jebres, Kota Surakarta, Jawa Tengah 57122",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622712933421",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-dr-sura-0271-2933421 [nama]",
+    "https://www.semuabis.com/klinik-dr-sura-0271-2933421 [instagram]",
+    "https://www.semuabis.com/klinik-dr-sura-0271-2933421 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-dr-sura-0271-2933421 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

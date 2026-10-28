@@ -1,0 +1,23 @@
+{
+  "id": "W2141",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Antariksa No.3, Jebres, Kecamatan Jebres, Kota Surakarta, Jawa Tengah 57126",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/surakarta/rints-dental-care-surakarta",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08:00-20:00\", \"sel\": \"08:00-20:00\", \"rab\": \"08:00-20:00\", \"kam\": \"08:00-20:00\", \"jum\": \"08:00-20:00\", \"sab\": \"08:00-20:00\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/surakarta/rints-dental-care-surakarta",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
