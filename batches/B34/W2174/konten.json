@@ -1,0 +1,132 @@
+{
+  "id": "W2174",
+  "hero": {
+    "judul": {
+      "id": "Folia Dental Studio",
+      "en": "Folia Dental Studio"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan perawatan gigi di Bogor. Konfirmasi layanan dan jadwal sebelum datang.",
+      "en": "Find practical visit information and dental care options in Bogor. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about dental cleaning availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tambal gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about dental fillings availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pencabutan gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about tooth extraction availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi kawat gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about braces consultation availability and whether an examination is needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan keluarga",
+      "en": "Family visit guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal publik yang tercatat: setiap hari pukul 09.00–21.00. Pilih waktu yang sesuai dan konfirmasi sebelum berkunjung.",
+      "en": "Published hours currently indicate daily from 9 a.m. to 9 p.m. Choose a suitable time and confirm it before your visit."
+    },
+    "alasan_dipilih": "Informasi jadwal praktik Folia Dental Studio tersedia dalam direktori publik; fitur membantu pasien merencanakan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori publik mencatat setiap hari pukul 09.00–21.00. Jadwal dapat berubah; silakan konfirmasi.",
+        "en": "The public listing indicates daily from 9 a.m. to 9 p.m. Hours may change, so please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Mintalah estimasi biaya setelah menjelaskan kebutuhan Anda.",
+        "en": "A verified fee schedule is not currently available. Ask for an estimate based on your dental needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum dalam direktori, tetapi ketersediaannya perlu dikonfirmasi kepada praktik.",
+        "en": "Dental cleaning appears in a public directory, but availability should be confirmed with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik untuk menanyakan prosedur kunjungan dan ketersediaan jadwal.",
+        "en": "Contact the practice to ask about its appointment process and available times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi penjaminan belum terverifikasi. Tanyakan kepada admin sebelum kunjungan.",
+        "en": "Insurance arrangements have not been verified. Please check with the practice before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Rencanakan Kunjungan Anda",
+    "en": "Plan Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan layanan di Folia Dental Studio. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Folia Dental Studio, saya Muhammad Rizqi dari Maxi Growth Studio. Saya melihat informasi jadwal kunjungan setiap hari dan membuat konsep website untuk memudahkan pasien melihat informasi praktik. Konsepnya dapat dilihat di https://maxigrowthstudio.com/folia-studio. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Folia Dental Studio",
+    "email_isi": "Yth. pengelola Folia Dental Studio,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi jadwal kunjungan setiap hari dan menyiapkan konsep website yang memudahkan pasien menemukan informasi kunjungan, layanan, dan kontak praktik.\n\nKonsep dapat ditinjau melalui https://maxigrowthstudio.com/folia-studio. Proposal PDF kami lampirkan untuk bahan pertimbangan. Tidak ada kewajiban untuk menindaklanjuti.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

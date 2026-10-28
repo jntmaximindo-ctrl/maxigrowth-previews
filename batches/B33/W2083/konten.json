@@ -1,0 +1,132 @@
+{
+  "id": "W2083",
+  "hero": {
+    "judul": {
+      "id": "Praktik Dokter Gigi Egi & Metta",
+      "en": "Praktik Dokter Gigi Egi & Metta"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dan perawatan gigi di Yogyakarta. Konfirmasi layanan dan jadwal sebelum datang.",
+      "en": "Find practical visit information and dental care options in Yogyakarta. Please confirm services and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about dental cleaning availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tambal gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about dental fillings availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pencabutan gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about tooth extraction availability and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kawat gigi",
+        "en": "Braces consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi kawat gigi dan kebutuhan pemeriksaan kepada tim praktik.",
+        "en": "Ask the practice about braces consultation availability and whether an examination is needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencana kunjungan sore",
+      "en": "Evening visit guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal publik yang tercatat: Senin–Jumat 16.00–20.00. Pilih waktu yang sesuai dan konfirmasi sebelum berkunjung.",
+      "en": "Published hours currently indicate Monday to Friday, 4–8 p.m. Choose a suitable time and confirm it before your visit."
+    },
+    "alasan_dipilih": "Informasi jadwal praktik Praktik Dokter Gigi Egi & Metta tersedia dalam direktori publik; fitur membantu pasien merencanakan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori publik mencatat Senin–Jumat 16.00–20.00. Jadwal dapat berubah; silakan konfirmasi.",
+        "en": "The public listing indicates Monday to Friday, 4–8 p.m. Hours may change, so please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Mintalah estimasi biaya setelah menjelaskan kebutuhan Anda.",
+        "en": "A verified fee schedule is not currently available. Ask for an estimate based on your dental needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum dalam direktori, tetapi ketersediaannya perlu dikonfirmasi kepada praktik.",
+        "en": "Dental cleaning appears in a public directory, but availability should be confirmed with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik untuk menanyakan prosedur kunjungan dan ketersediaan jadwal.",
+        "en": "Contact the practice to ask about its appointment process and available times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Informasi penjaminan belum terverifikasi. Tanyakan kepada admin sebelum kunjungan.",
+        "en": "Insurance arrangements have not been verified. Please check with the practice before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Rencanakan Kunjungan Anda",
+    "en": "Plan Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan layanan di Praktik Dokter Gigi Egi & Metta. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktik Dokter Gigi Egi & Metta, saya Muhammad Rizqi dari Maxi Growth Studio. Saya melihat informasi lokasi praktik di Jalan Nagan Kidul dan membuat konsep website untuk memudahkan pasien melihat informasi praktik. Konsepnya dapat dilihat di https://maxigrowthstudio.com/egi-metta. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktik Dokter Gigi Egi & Metta",
+    "email_isi": "Yth. pengelola Praktik Dokter Gigi Egi & Metta,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami memperhatikan informasi lokasi praktik di Jalan Nagan Kidul dan menyiapkan konsep website yang memudahkan pasien menemukan informasi kunjungan, layanan, dan kontak praktik.\n\nKonsep dapat ditinjau melalui https://maxigrowthstudio.com/egi-metta. Proposal PDF kami lampirkan untuk bahan pertimbangan. Tidak ada kewajiban untuk menindaklanjuti.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
