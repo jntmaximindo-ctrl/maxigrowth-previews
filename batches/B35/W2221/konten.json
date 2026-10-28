@@ -1,0 +1,132 @@
+{
+  "id": "W2221",
+  "hero": {
+    "judul": {
+      "id": "drg. Mega Sepatikha N",
+      "en": "drg. Mega Sepatikha N"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dokter gigi di Arjowinangun, Malang.",
+      "en": "Dental visit information in Arjowinangun, Malang."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori; tanyakan ketersediaan dan pemeriksaan kepada praktik.",
+        "en": "Listed in a directory; ask the practice about availability and assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Fillings"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori; tanyakan ketersediaan dan pemeriksaan kepada praktik.",
+        "en": "Listed in a directory; ask the practice about availability and assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori; tanyakan ketersediaan dan pemeriksaan kepada praktik.",
+        "en": "Listed in a directory; ask the practice about availability and assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tercantum pada direktori; tanyakan ketersediaan dan pemeriksaan kepada praktik.",
+        "en": "Listed in a directory; ask the practice about availability and assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Membantu menyiapkan pertanyaan karena jadwal berbeda antar sumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Raya Sempalwadak No.50, Arjowinangun, Malang, menurut direktori.",
+        "en": "Jl. Raya Sempalwadak No.50, Arjowinangun, Malang, according to a directory."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Jadwal berbeda antar sumber. Tanyakan jadwal terbaru sebelum datang.",
+        "en": "Sources give different hours. Ask for the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan scaling, tambal, behel, dan veneer. Konfirmasikan ketersediaan kepada praktik.",
+        "en": "A directory lists scaling, fillings, braces and veneers. Confirm availability with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan drg. Mega Sepatikha N dan informasi pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo pengelola praktik drg. Mega Sepatikha N. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi klinik di Jl. Raya Sempalwadak No.50 pada direktori publik. Draf konsep website: https://maxigrowthstudio.com/drg-mega. Usulan fiturnya adalah penyusun pertanyaan sebelum kunjungan. Informasi dapat disesuaikan dengan data klinik. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Draf konsep website drg. Mega Sepatikha N",
+    "email_isi": "Yth. Pengelola praktik drg. Mega Sepatikha N,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Lokasi klinik di Jl. Raya Sempalwadak No.50 tercantum dalam direktori publik. Kami menyiapkan draf konsep dengan penyusun pertanyaan sebelum kunjungan.\n\nTautan konsep: https://maxigrowthstudio.com/drg-mega. Proposal PDF terlampir untuk ditinjau. Jadwal, tindakan, dan biaya perlu disesuaikan dengan data klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
