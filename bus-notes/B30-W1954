@@ -1,8 +1,11 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
 {
-  "id": "W1959",
+  "id": "W1954",
   "nama": {
-    "v": "Oxy Dental Care",
-    "src": "https://densia.id/kota/kota-padang/",
+    "v": "MARYAM DENTAL CARE TABING",
+    "src": "https://indonesiaknowledge.com/directory/dental/padang",
     "tgl": "2026-10-28",
     "yakin": "sedang"
   },
@@ -22,10 +25,10 @@
   },
   "cabang": [
     {
-      "nama": "Oxy Dental Care",
+      "nama": "MARYAM DENTAL CARE TABING",
       "alamat": {
-        "v": "Jl. Raya Kuranji, samping Makam Pahlawan, Kuranji, Padang 25176",
-        "src": "https://densia.id/kota/kota-padang/",
+        "v": "4932+VV8, Jl. Doktor Hamka, Parupuk Tabing, Koto Tangah, Padang, Sumatera Barat",
+        "src": "https://indonesiaknowledge.com/directory/dental/padang",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
@@ -71,21 +74,9 @@
     "Website resmi mandiri belum dapat dibuktikan oleh sumber yang diperiksa."
   ],
   "ide_fitur_khas": "Panduan kunjungan sesuai patokan lokasi pada halaman direktori.",
-  "catatan": "REVISI ke-1. Densia mencantumkan Oxy Dental Care dalam kategori perawatan umum dan pembersihan karang gigi. Perlu konfirmasi apakah keduanya tersedia pada hari kunjungan. Dua halaman digunakan sebagai sumber, dan bila berasal dari direktori yang sama dicatat bukan bukti independen. Nomor WA/telepon tidak terverifikasi dalam sumber yang dipakai; harga tetap kosong.",
+  "catatan": "REVISI ke-1. Praktik Tabing dibedakan dari Maryam Dental Care di Jalan Dr. Moh. Hatta; kedua tempat tidak boleh digabungkan. Dua halaman digunakan sebagai sumber, dan bila berasal dari direktori yang sama dicatat bukan bukti independen. Nomor WA/telepon tidak terverifikasi dalam sumber yang dipakai; harga tetap kosong.",
   "sumber": [
-    "https://densia.id/kota/kota-padang/",
-    "https://densia.id/kota/kota-padang/layanan/perawatan-umum/"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "nama",
-      "tercatat": "Oxy Dental Care",
-      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Raya Kuranji, samping Makam Pahlawan, Kuranji, Padang 25176",
-      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
-    }
+    "https://indonesiaknowledge.com/directory/dental/padang",
+    "https://indonesiaknowledge.com/directory/dental/padang/maryam-dental-care-tabing-padang"
   ]
 }
