@@ -465,6 +465,16 @@ def _():
     assert "percobaan_cek" in src and "Review manual" in src, "pengulangan cek fakta harus punya batas → Review manual"
 
 
+@uji("skema riset: harga min/max/src null (tidak ditemukan) harus lolos")
+def _():
+    import jsonschema
+    s = json.loads((ROOT / "schemas/riset.schema.json").read_text())
+    item = s["properties"]["harga"]["items"]
+    err = list(jsonschema.Draft202012Validator(item).iter_errors(
+        {"perawatan": "scaling", "jenis": "kisaran_pasar", "min": None, "max": None, "src": None}))
+    assert not err, f"harga dengan null ditolak: {err[:1]}"
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

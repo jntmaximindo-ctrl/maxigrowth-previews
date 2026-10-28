@@ -50,3 +50,4 @@ Sebelum memperbaiki: cari gejala serupa di tabel ini. Kalau sudah pernah → atu
 - Dorong GPT: perintah 'satu klinik per putaran, simpan begitu selesai, jangan lapor sebelum semua' lebih efektif daripada 'kerjakan 10 sekaligus'.
 
 - (27 Okt) GPT-B cek fakta "macet": ia menganggap klinik sudah punya cek fakta karena melihat berkas lama di arsip/hasil lama, padahal riset sudah direvisi. Dorong dengan daftar eksplisit kode "Menunggu cek fakta" (dari status.json), tegaskan cek fakta lama TIDAK berlaku, satu klinik per putaran.
+| 37 | 2026-10-28 | riset-gpt 0 lulus / 152 gagal: harga.src null ditolak (src hanya string/array) | pelajaran #36 hanya melonggarkan min/max; src tetap tidak menerima null | field fakta opsional (src, tgl, v) di SEMUA bagian skema harus menerima null; tes skema harga null lengkap ditambah di uji_regresi | uji_regresi: skema riset harga null lolos |

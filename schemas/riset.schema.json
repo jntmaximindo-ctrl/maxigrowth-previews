@@ -60,7 +60,7 @@
           "perawatan": {"type": "string"},
           "jenis": {"enum": ["resmi_klinik", "kisaran_pasar"]},
           "min": {"type": ["number", "null"]}, "max": {"type": ["number", "null"]},
-          "src": {"type": ["string", "array"]}
+          "src": {"type": ["string", "array", "null"]}
         }
       }
     },
