@@ -1,0 +1,132 @@
+{
+  "id": "W1828",
+  "hero": {
+    "judul": {
+      "id": "Informasi Dentist Ben Artha",
+      "en": "Dentist Ben Artha"
+    },
+    "sub": {
+      "id": "Jadwal kunjungan dan informasi konsultasi gigi di Denpasar.",
+      "en": "Visit schedules and dental consultation information in Denpasar."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan sesuai hari praktik.",
+        "en": "Ask about checkup availability on the scheduled practice days."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan",
+        "en": "Dental Concerns"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan agar dokter dapat menentukan kebutuhan pemeriksaan.",
+        "en": "Share your concerns so the dentist can assess your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan Kunjungan",
+        "en": "Visit Guide"
+      },
+      "ringkas": {
+        "id": "Periksa jam praktik yang berbeda untuk setiap hari.",
+        "en": "Check the opening hours, which vary by day."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan Perawatan",
+        "en": "Treatment Enquiry"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan tindakan yang Anda perlukan sebelum datang.",
+        "en": "Confirm whether the treatment you need is available before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Hari Kunjungan",
+      "en": "Choose a Visit Day"
+    },
+    "penjelasan": {
+      "id": "Lihat jam praktik setiap hari dan konfirmasi ketersediaan melalui kontak praktik.",
+      "en": "View daily practice hours and confirm availability with the practice."
+    },
+    "alasan_dipilih": "Jadwal praktik berbeda setiap hari, dengan sesi pagi dan sore yang bergantian."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Hubungi nomor praktik untuk memastikan jadwal kunjungan.",
+        "en": "Contact the practice to confirm appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Nakula No.7 B, Pemecutan Klod, Denpasar Barat.",
+        "en": "Jl. Nakula No.7 B, Pemecutan Klod, West Denpasar."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Dua direktori mencatat tutup hari Minggu. Konfirmasi sebelum datang.",
+        "en": "Two directories list Sunday as closed. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does a checkup cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Mohon tanyakan estimasi kepada praktik.",
+        "en": "Official prices could not be found. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jam praktik sama setiap hari?",
+        "en": "Are the hours the same every day?"
+      },
+      "a": {
+        "id": "Tidak. Jadwal pagi dan sore berbeda menurut hari, jadi periksa sebelum berkunjung.",
+        "en": "No. Morning and evening sessions vary by day, so check before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Dentist Ben Artha",
+    "en": "Contact Dentist Ben Artha"
+  },
+  "pesan_wa_default": "Halo Dentist Ben Artha, saya ingin menanyakan jadwal pemeriksaan gigi dan ketersediaan kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Dentist Ben Artha, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat jam praktik berbeda setiap hari, sehingga panduan jadwal bisa membantu calon pasien. Kami sudah menyiapkan konsep website di https://maxigrowthstudio.com/dentist-ben. Silakan ditinjau bila berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dentist Ben Artha",
+    "email_isi": "Yth. Tim Dentist Ben Artha,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi jadwal praktik per hari dan panduan awal kunjungan pasien.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/dentist-ben. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila relevan, kami siap berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W1794",
+  "hero": {
+    "judul": {
+      "id": "Maari Dental Care (Praktik Dokter Gigi)",
+      "en": "Maari Dental Care (Praktik Dokter Gigi)"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan gigi",
+        "en": "Ask about dental examinations"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal, ketersediaan dan rincian biaya pemeriksaan.",
+        "en": "Ask about appointment times, availability and assessment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan ortodonti",
+        "en": "Ask about orthodontics"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal, ketersediaan dan rincian biaya pemeriksaan.",
+        "en": "Ask about appointment times, availability and assessment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan perawatan estetik",
+        "en": "Ask about aesthetic dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal, ketersediaan dan rincian biaya pemeriksaan.",
+        "en": "Ask about appointment times, availability and assessment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan kunjungan",
+        "en": "Ask how to prepare for your visit"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal, ketersediaan dan rincian biaya pemeriksaan.",
+        "en": "Ask about appointment times, availability and assessment costs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Susun pertanyaan Anda",
+      "en": "Build your question list"
+    },
+    "penjelasan": {
+      "id": "Pilih topik dan hari pilihan untuk menyusun pesan pra-kunjungan. Formulir ini membantu bertanya; janji temu memerlukan konfirmasi klinik.",
+      "en": "Select topics and a preferred day to prepare a message. This form helps you ask questions; appointments require confirmation."
+    },
+    "alasan_dipilih": "Informasi publik terbatas; fitur berfokus pada konfirmasi tanpa mengarang layanan atau jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Alamat sumber publik: Jl. Seksama No.158, Binjai, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20028. Konfirmasikan sebelum datang.",
+        "en": "Publicly listed address: Jl. Seksama No.158, Binjai, Kec. Medan Amplas, Kota Medan, Sumatera Utara 20028. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Waze mencantumkan Senin-Sabtu 10.00-14.00 dan 16.00-21.00 WIB; Minggu 09.00-15.00 WIB. Konfirmasikan sebelum datang.",
+        "en": "Waze lists Monday to Saturday, 10 am to 2 pm and 4 pm to 9 pm WIB; Sunday, 9 am to 3 pm WIB. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Sumber sekunder menyebut layanan umum, ortodonti dan estetik. Tanyakan tindakan sesuai kebutuhan Anda.",
+        "en": "A secondary source lists general, orthodontic and aesthetic dentistry. Ask which treatments suit your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Maari Dental Care (Praktik Dokter Gigi), saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Maari Dental Care (Praktik Dokter Gigi), saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Seksama158 dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/maari. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Maari Dental Care (Praktik Dokter Gigi)",
+    "email_isi": "Yth. Manajemen Maari Dental Care (Praktik Dokter Gigi),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Seksama158 dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/maari. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

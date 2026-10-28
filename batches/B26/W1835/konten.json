@@ -1,0 +1,132 @@
+{
+  "id": "W1835",
+  "hero": {
+    "judul": {
+      "id": "Rahayu Dental Center",
+      "en": "Rahayu Dental Center"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Denpasar. Diperbarui 28 Oktober 2026. Jl. Plawa No.71, Sumerta Kauh, Denpasar Timur, Bali 80236",
+      "en": "Visit information in Denpasar. Updated 28 October 2026. Jl. Plawa No.71, Sumerta Kauh, Denpasar Timur, Bali 80236"
+    },
+    "cta": {
+      "id": "Informasi kunjungan",
+      "en": "Visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visit times"
+      },
+      "ringkas": {
+        "id": "Tanyakan waktu pemeriksaan yang tersedia sebelum datang.",
+        "en": "Ask about available examination times before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rincian tindakan kepada praktik.",
+        "en": "Ask the practice about examination fees and treatment charges."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda dan tanyakan layanan yang dapat diperiksa lebih lanjut.",
+        "en": "Describe your needs and ask which services are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan kunjungan",
+        "en": "Visit preparation"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen serta persiapan yang diperlukan untuk kunjungan.",
+        "en": "Ask which documents and preparations are needed for your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Penyusun pertanyaan sebelum kunjungan",
+      "en": "Prepare your visit"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, biaya dan lokasi untuk ditanyakan kepada praktik.",
+      "en": "Prepare questions about hours, fees and location for the practice."
+    },
+    "alasan_dipilih": "Kontak dan alamat publik tersedia; rincian kunjungan perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Plawa No.71, Sumerta Kauh, Denpasar Timur, Bali 80236",
+        "en": "Jl. Plawa No.71, Sumerta Kauh, Denpasar Timur, Bali 80236"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check availability?"
+      },
+      "a": {
+        "id": "Gunakan kontak praktik yang tercantum untuk mengonfirmasi jadwal.",
+        "en": "Use the listed practice contact to confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan biaya pemeriksaan dan rincian tindakan.",
+        "en": "Prices are unavailable. Ask about examination and treatment charges."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kepesertaan belum terkonfirmasi. Tanyakan kepada praktik.",
+        "en": "Insurance eligibility is unconfirmed. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu janji terlebih dahulu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Konfirmasikan ketentuan kunjungan dan dokter yang tersedia sebelum datang.",
+        "en": "Confirm appointment requirements and the available practitioner before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Lihat kontak praktik",
+    "en": "View practice contact"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan, lokasi dan biaya kunjungan.",
+  "outreach": {
+    "wa": "Halo pengelola Rahayu Dental Center, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Alamat praktik Anda di Denpasar tercantum pada kanal publik. Kami menyiapkan konsep halaman informasi kunjungan untuk ditinjau, dengan rencana tautan https://maxigrowthstudio.com/rahayu-center. Pratinjau perlu diaktifkan sebelum draf digunakan. Bila berkenan, konsep dapat ditinjau.",
+    "email_subjek": "Konsep halaman informasi kunjungan",
+    "email_isi": "Yth. pengelola Rahayu Dental Center, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi lokasi dan persiapan kunjungan di Denpasar. Proposal PDF perlu dilampirkan sebelum draf ini dikirim. Kontak: info@maxigrowthstudio.com, 082141004400. Terima kasih."
+  }
+}
