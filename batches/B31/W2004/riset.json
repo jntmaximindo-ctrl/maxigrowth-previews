@@ -79,5 +79,27 @@
   "sumber": [
     "https://idalamat.com/alamat/dentist-drg-darjanki-sport-705597",
     "https://matob.web.id/bisnis/10-dokter-gigi-di-surabaya-ada-yang-siap-melayani-bpjs/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Darjanki, Sp.Ort.",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bali No.7, Gubeng, Surabaya 60281",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62315032040",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
