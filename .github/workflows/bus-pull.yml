@@ -22,8 +22,8 @@ jobs:
       - name: Pindahkan hasil GPT dari root My Drive ke folder bus
         run: |
           F="--max-depth 1 --drive-server-side-across-configs -v"
-          rclone move root: "bus:02 Hasil Riset" $F --include "B*-W*_riset.json*" --include "B*-W*_konten.json*" || true
-          rclone move root: "bus:03 Hasil Cek Fakta" $F --include "B*-W*_cekfakta.json*" || true
+          rclone move root: "bus:02 Hasil Riset" $F --include "B*-W*_riset.json*" --include "B*-W*_konten.json*" --include "[0-9]*-[0-9]*_B*-W*_riset.json*" --include "[0-9]*-[0-9]*_B*-W*_konten.json*" || true
+          rclone move root: "bus:03 Hasil Cek Fakta" $F --include "B*-W*_cekfakta.json*" --include "[0-9]*-[0-9]*_B*-W*_cekfakta.json*" || true
       - name: Unduh hasil GPT
         run: |
           rclone copy "bus:02 Hasil Riset" /tmp/bus/riset --drive-export-formats txt -v || true
@@ -39,7 +39,7 @@ jobs:
             if [ "$act" = "ARSIP" ]; then
               for pola in $a $b $c; do
                 for src in "02 Hasil Riset" "03 Hasil Cek Fakta" "01 Antrean Riset"; do
-                  rclone lsf "bus:$src" --drive-export-formats txt --include "$pola" | while read -r f; do
+                  rclone lsf "bus:$src" --drive-export-formats txt --include "$pola" --include "*_$pola" | while read -r f; do
                     rclone moveto "bus:$src/$f" "bus:99 Arsip/${TS}_$f" --drive-export-formats txt -v || true
                   done
                 done

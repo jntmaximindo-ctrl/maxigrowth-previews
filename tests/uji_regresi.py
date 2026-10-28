@@ -524,6 +524,18 @@ def _():
     assert "null" in o["wa"]["type"] and "null" in o["email_isi"]["type"]
 
 
+@uji("bus.py: nama berkas berawalan tanggal dari GPT chat ('20261028-1056_B34-W2171_riset.json.md') tetap dikenali (pelajaran 44)")
+def _():
+    import importlib.util, tempfile, pathlib as _p
+    spec = importlib.util.spec_from_file_location("busmod", str(ROOT / "scripts/bus.py"))
+    bm = importlib.util.module_from_spec(spec); spec.loader.exec_module(bm)
+    with tempfile.TemporaryDirectory() as td:
+        for n in ("20261028-1056_B34-W2171_riset.json.md", "B34-W2172_konten.json.md"):
+            (_p.Path(td) / n).write_text("{}")
+        r = bm.files_by_key(td)
+    assert "riset" in r.get("B34-W2171", {}) and "konten" in r.get("B34-W2172", {}), r
+
+
 print("\n".join(f"{a} {b}" + (f" — {c}" if c else "") for a, b, c in hasil))
 gagal = [h for h in hasil if h[0] == "❌"]
 pathlib.Path("/tmp/jb").mkdir(exist_ok=True)

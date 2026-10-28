@@ -48,7 +48,7 @@ def parse(text):
 def files_by_key(folder):
     out = {}
     for f in pathlib.Path(folder).glob("*"):
-        m = re.match(r"^(B\d+-W[^_]+)_(riset|konten|cekfakta)", f.name)
+        m = re.match(r"^(?:\d{8}-\d{4}_)?(B\d+-W[^_]+)_(riset|konten|cekfakta)", f.name)
         if m:
             out.setdefault(m.group(1), {})[m.group(2)] = f
     return out
