@@ -84,5 +84,37 @@
     "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-dentist-sherlyn-margareth",
     "https://idalamat.com/alamat/dokter-gigi-dentist-sherlyn-margareth-1064008",
     "https://alamatsehat.com/dokter-gigi-terbaik-dan-murah-di-manado/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Sherlyn Margareth",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "email",
+      "tercatat": "sherlynrayodrg@yahoo.com",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Kompleks Pasar Segar Blok KL 7/8, Jl. Yos Sudarso, Paal Dua, Tikala, Kota Manado, Sulawesi Utara",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "085241995977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285241995977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"15-17\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

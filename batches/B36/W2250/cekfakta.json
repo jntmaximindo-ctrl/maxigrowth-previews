@@ -1,0 +1,50 @@
+{
+  "id": "W2250",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Mandiri Dokter Gigi drg. Mega Prawita Sari",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Rafika Village No.34, Jl. Raya Pasir Putih RT 05/RW 03, Pasir Putih, Sawangan, Kota Depok, Jawa Barat 16519",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087722241349",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287722241349",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-14\", \"sel\": \"09-14\", \"rab\": \"09-14\", \"kam\": \"09-14\", \"jum\": \"09-14\", \"sab\": \"09-14\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778 [nama]",
+    "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778 [cabang[0].wa]",
+    "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

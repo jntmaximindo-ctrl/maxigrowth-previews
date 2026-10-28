@@ -88,5 +88,32 @@
     "https://idalamat.com/alamat/hot-dental-manado-1063991",
     "https://www.kabarsulut.id/detail/26127/10-klinik-gigi-manado-rating-tertinggi-2026-dari-sozo-dental-hingga-drg-herry-johannis",
     "https://halomanado.com/detail/26117/10-rekomendasi-klinik-gigi-di-manado-dengan-rating-tertinggi-dan-jam-buka-lengkap-2026"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "HOT DENTAL Manado",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arnold Mononutu No.9-601, Wanea, Kota Manado, Sulawesi Utara 95115",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082351326161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282351326161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

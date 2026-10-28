@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-benowo/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-pakal/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Citra Widya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Pondok Benowo Indah Blok AV, Babat Jerawat, Pakal, Surabaya 60197",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

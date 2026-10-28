@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-19\", \"sel\": \"10-19\", \"rab\": \"10-19\", \"kam\": \"10-19\", \"jum\": \"10-19\", \"sab\": \"10-19\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

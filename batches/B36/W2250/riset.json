@@ -82,5 +82,32 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-mandiri-dokter-gigi-drg-mega-prawita-sari-1060778",
     "https://www.semuabis.com/praktek-dokter-gigi-pribadi-drg-mega-0877-2224-1349"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Mandiri Dokter Gigi drg. Mega Prawita Sari",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Rafika Village No.34, Jl. Raya Pasir Putih RT 05/RW 03, Pasir Putih, Sawangan, Kota Depok, Jawa Barat 16519",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "087722241349",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287722241349",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-14\", \"sel\": \"09-14\", \"rab\": \"09-14\", \"kam\": \"09-14\", \"jum\": \"09-14\", \"sab\": \"09-14\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

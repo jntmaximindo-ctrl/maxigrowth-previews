@@ -1,0 +1,34 @@
+{
+  "id": "W2050",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "MI dental clinic",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Menanggal Indah VI No.49, Dukuh Menanggal, Gayungan, Surabaya, Jawa Timur 60234",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287780559191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2 [nama]",
+    "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2 [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

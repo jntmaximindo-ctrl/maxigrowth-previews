@@ -75,5 +75,22 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/kutisari/dokter-gigi/?p=2",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "MI dental clinic",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Menanggal Indah VI No.49, Dukuh Menanggal, Gayungan, Surabaya, Jawa Timur 60234",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287780559191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

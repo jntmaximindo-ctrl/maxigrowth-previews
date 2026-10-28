@@ -1,0 +1,16 @@
+{
+  "id": "W2282",
+  "diperiksa": 10,
+  "beda": [
+    {
+      "path": "dokter[3].spesialis",
+      "tercatat": "Periodontik",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dentalartkarawacitangerang.com/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

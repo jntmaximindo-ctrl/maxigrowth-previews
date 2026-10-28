@@ -79,5 +79,32 @@
     "https://drive.google.com/file/d/1kp-Eqby8IhQMt7dJAkuY-p9IIICoqz8V/view",
     "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-belawan",
     "https://bukutelepon.cybo.com/ID/pelabuhan-belawan/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Belawan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sumatera, Belawan I, Medan Kota Belawan, Medan, Sumatera Utara 20411",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281257543550",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281257543550",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-21\", \"sel\": \"16-21\", \"rab\": \"16-21\", \"kam\": \"16-21\", \"jum\": \"16-21\", \"sab\": \"16-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
