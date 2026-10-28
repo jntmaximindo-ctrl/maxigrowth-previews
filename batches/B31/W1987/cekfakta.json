@@ -1,0 +1,50 @@
+{
+  "id": "W1987",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "OIA Dental House",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/oia-dental-house-0821-6966-9939",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/oiadentalhouse/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/oia-dental-house-0821-6966-9939",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dr. Samratulangi No.39, Limbungan Baru, Kec. Rumbai Pesisir, Kota Pekanbaru, Riau 28266",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/oia-dental-house-0821-6966-9939",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282169669939",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/oia-dental-house-0821-6966-9939",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282169669939",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/oia-dental-house-0821-6966-9939",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/oia-dental-house-0821-6966-9939 [nama]",
+    "https://www.semuabis.com/oia-dental-house-0821-6966-9939 [instagram]",
+    "https://www.semuabis.com/oia-dental-house-0821-6966-9939 [cabang[0].alamat]",
+    "https://www.semuabis.com/oia-dental-house-0821-6966-9939 [cabang[0].telepon]",
+    "https://www.semuabis.com/oia-dental-house-0821-6966-9939 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -99,5 +99,42 @@
     "https://www.starofservice.co.id/profesional/perawatan-gigi/pekanbaru/218497186/dyatri-dental-care",
     "https://dyatridentalcare.com/",
     "https://www.instagram.com/dyatridentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dyatri Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dyatridentalcare/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Mega Asri - C17, Jl. Arifin Ahmad, Tengkerang Tengah, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28125",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285219569191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285219569191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Poetry Testya, Sp.Ort",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Sp.Ort",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

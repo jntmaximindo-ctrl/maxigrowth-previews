@@ -1,0 +1,23 @@
+{
+  "id": "W1983",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-21\", \"sel\": \"08-21\", \"rab\": \"08-21\", \"kam\": \"08-21\", \"jum\": \"08-21\", \"sab\": \"08-21\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/rania-dental-care-rambutan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://raniadentalcare.com/ [nama]",
+    "https://raniadentalcare.com/ [instagram]",
+    "https://raniadentalcare.com/ [cabang[0].alamat]",
+    "https://raniadentalcare.com/ [cabang[0].telepon]",
+    "https://raniadentalcare.com/ [cabang[0].wa]",
+    "https://raniadentalcare.com/ [dokter[0].nama]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

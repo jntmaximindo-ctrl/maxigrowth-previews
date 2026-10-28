@@ -1,0 +1,50 @@
+{
+  "id": "W1978",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Amanda Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/amanda-dental-care-1059384",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/amandadentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-pekanbaru/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lumba-Lumba No.10 B-C, Tengkerang Selatan, Kec. Bukit Raya, Kota Pekanbaru, Riau 28126",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/amanda-dental-care-1059384",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285271559323",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/amanda-dental-care-1059384",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285271559323",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/amanda-dental-care-1059384",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/amanda-dental-care-1059384 [nama]",
+    "https://doktertanya.com/dokter-gigi-pekanbaru/ [instagram]",
+    "https://idalamat.com/alamat/amanda-dental-care-1059384 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/amanda-dental-care-1059384 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/amanda-dental-care-1059384 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "W1984",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dyatri Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dyatridentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Mega Asri - C17, Jl. Arifin Ahmad, Tengkerang Tengah, Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28125",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285219569191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285219569191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Poetry Testya, Sp.Ort",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Sp.Ort",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [nama]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [instagram]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [cabang[0].alamat]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [cabang[0].telepon]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [cabang[0].wa]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [dokter[0].nama]",
+    "https://www.semuabis.com/dyatri-dental-care-drg-poetry-testya-sp-0852-1956-9191 [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "W1979",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"16-21\", \"rab\": \"09-21\", \"kam\": \"16-21\", \"jum\": \"09-21\", \"sab\": \"16-21\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/zayana-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/zayana-dental-care-1059391 [nama]",
+    "https://idalamat.com/alamat/zayana-dental-care-1059391 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/zayana-dental-care-1059391 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/zayana-dental-care-1059391 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

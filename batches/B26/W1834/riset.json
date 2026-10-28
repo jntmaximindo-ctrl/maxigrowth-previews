@@ -81,5 +81,12 @@
     "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
     "https://www.yellowpages.id/phone-62-361229890-klinik-gigi-Kota-Denpasar-IDEN1730401.html",
     "http://arjunadental.net/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-17\", \"sel\": \"13-17\", \"rab\": \"13-17\", \"kam\": \"tutup\", \"jum\": \"13-17\", \"sab\": \"13-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

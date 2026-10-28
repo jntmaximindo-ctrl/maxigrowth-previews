@@ -1,0 +1,50 @@
+{
+  "id": "W1977",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Tone",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentaltonepekanbaru/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Imam Munandar No.67, Tengkerang Utara, Kec. Bukit Raya, Kota Pekanbaru, Riau 28282",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281258452020",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281258452020",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373 [nama]",
+    "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373 [instagram]",
+    "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigi-pekanbaru-dental-tone-1059373 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "W1813",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13:30-21\", \"sel\": \"13:30-21\", \"rab\": \"13:30-21\", \"kam\": \"13:30-21\", \"jum\": \"13:30-21\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/molarize-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}
