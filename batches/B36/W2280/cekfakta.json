@@ -1,0 +1,34 @@
+{
+  "id": "W2280",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Suhanda",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bukit Duri Tanjakan No.56/1, Bukit Duri, Tebet, Jakarta Selatan 12840",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62218303175",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175 [nama]",
+    "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175 [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

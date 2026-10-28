@@ -1,0 +1,16 @@
+{
+  "id": "W1957",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Setiap hari 10.00–21.00 menurut direktori, konfirmasi jadwal dokter.",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/padang/rh-clinic-dental-care-by-drg-heni-padang",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

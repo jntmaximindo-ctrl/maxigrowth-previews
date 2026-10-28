@@ -110,5 +110,37 @@
     "https://idalamat.com/alamat/dokter-gigi-drg-rima-1060540",
     "https://www.ulastempat.com/7-dokter-gigi-di-kab-bandung-barat-dengan-pelayanan-terbaik/",
     "https://kabarpriangan.pikiran-rakyat.com/kiprah/pr-1486769986/demi-mendampingi-tumbuh-kembang-anak-seorang-ibu-bisa-menjalankan-profesi-dokter-gigi-di-rumah-ini-kisahnya?page=all"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "praktek dokter gigi drg.Rima",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Puspa Regency Blok B166, Batujajar Timur, Kec. Batujajar, Kabupaten Bandung Barat, Jawa Barat 40561",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285219559191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285219559191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"16-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Rima",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

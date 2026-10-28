@@ -1,0 +1,58 @@
+{
+  "id": "W2301",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "praktek dokter gigi drg.Rima",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Puspa Regency Blok B166, Batujajar Timur, Kec. Batujajar, Kabupaten Bandung Barat, Jawa Barat 40561",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285219559191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285219559191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"16-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Rima",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [nama]",
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [cabang[0].alamat]",
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [cabang[0].telepon]",
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [cabang[0].wa]",
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [cabang[0].jam]",
+    "https://www.semuabis.com/dokter-gigi-drg-rima-0852-1955-9191 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

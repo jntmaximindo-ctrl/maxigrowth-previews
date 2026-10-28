@@ -95,5 +95,32 @@
   "sumber": [
     "https://id.worldorgs.com/katalog/bandung/dokter-gigi/dokter-gigi-drg-rody-l",
     "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Drg. Rody. L",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Batujajar, Batujajar Barat, Kec. Batujajar, Kabupaten Bandung Barat, Jawa Barat 40561",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282136690871",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282136690871",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Rody. L",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
