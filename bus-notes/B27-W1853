@@ -89,29 +89,9 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "nama",
-      "tercatat": "Asia Dental Clinic",
-      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
-    },
-    {
-      "path": "instagram",
-      "tercatat": "https://www.instagram.com/asiadental_/",
-      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Menggala No.61, Sei Rengas I, Kec. Medan Kota, Kota Medan, Sumatera Utara 20214",
-      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "62617348968",
-      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
-    },
-    {
       "path": "cabang[0].jam",
       "tercatat": "{\"sen\": \"09-19\", \"sel\": \"09-19\", \"rab\": \"09-19\", \"kam\": \"09-19\", \"jum\": \"09-19\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
-      "catatan": "sumber tidak bisa dibuka (ConnectionError); belum terverifikasi"
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]
 }
