@@ -1,0 +1,23 @@
+{
+  "id": "W1972",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Palembang No.11, Ulak Karang Selatan, Padang Utara, Kota Padang, Sumatera Barat",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/padang/xenon-dental-house-padang",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/padang/xenon-dental-house-padang",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

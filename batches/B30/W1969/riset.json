@@ -116,5 +116,47 @@
   "sumber": [
     "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
     "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Firdaus Anas Budjang, Sp.Ort (Madina Medical Centre)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Damar No.57 A, Olo, Kec. Padang Bar., Kota Padang, Sumatera Barat, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285374477170",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285374477170",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Firdaus Anas Budjang, Sp.Ort",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Ortodonti",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

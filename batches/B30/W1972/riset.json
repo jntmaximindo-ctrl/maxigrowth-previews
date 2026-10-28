@@ -89,5 +89,17 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/xenon-dental-house-padang",
     "https://www.kitalulus.com/company/xenon-dental-house-ojik"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Palembang No.11, Ulak Karang Selatan, Padang Utara, Kota Padang, Sumatera Barat",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

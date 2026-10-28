@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/nh-dental-care-new-hope-dental-care-dokter-gigi-padang-padang",
     "https://rentechdigital.com/smartscraper/business-report-details/indonesia/west-sumatra/list-of-dental-clinics-in-padang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11-21\", \"sel\": \"11-21\", \"rab\": \"11-21\", \"kam\": \"11-21\", \"jum\": \"11-21\", \"sab\": \"13-20\", \"min\": \"13-20\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

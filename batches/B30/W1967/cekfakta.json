@@ -1,0 +1,20 @@
+{
+  "id": "W1967",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/padang/geha-dental-clinic-orthodontics-specialist-and-general-dental-practice-padang",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/geha.dental [nama]",
+    "https://linktr.ee/geha.dental [instagram]",
+    "https://linktr.ee/geha.dental [cabang[0].alamat]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

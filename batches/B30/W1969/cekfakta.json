@@ -1,0 +1,74 @@
+{
+  "id": "W1969",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Firdaus Anas Budjang, Sp.Ort (Madina Medical Centre)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Damar No.57 A, Olo, Kec. Padang Bar., Kota Padang, Sumatera Barat, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285374477170",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285374477170",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Firdaus Anas Budjang, Sp.Ort",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Ortodonti",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina [nama]",
+    "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170 [cabang[0].wa]",
+    "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170 [cabang[0].jam]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina [dokter[0].nama]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-firdaus-anas-budjang-sp-ort-madina [dokter[0].spesialis]",
+    "https://www.semuabis.com/drg-firdaus-anas-budjang-sp-ort-madina_1C-0853-7447-7170 [dokter[0].jadwal]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

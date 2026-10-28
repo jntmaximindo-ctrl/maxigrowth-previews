@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/padang/c-dental-home-padang",
     "https://rentechdigital.com/smartscraper/business-report-details/indonesia/west-sumatra/list-of-dental-clinics-in-padang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"12-20\", \"sel\": \"12-20\", \"rab\": \"12-20\", \"kam\": \"12-20\", \"jum\": \"12-20\", \"sab\": \"12-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
