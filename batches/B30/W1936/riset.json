@@ -79,5 +79,17 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/dentaire-dental-clinic-medan",
     "https://www.dentalclinics.care/dental-clinic/dentaire-dental-clinic"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Amaliun No.28i, Kota Matsum IV, Kec. Medan Area, Kota Medan, Sumatera Utara 20211",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-16\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

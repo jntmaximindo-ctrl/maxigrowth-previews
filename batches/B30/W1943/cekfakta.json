@@ -1,0 +1,50 @@
+{
+  "id": "W1943",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Cipta Sehat",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Marelan Raya Ps. IV No.99A, Rengas Pulau, Kec. Medan Marelan, Kota Medan, Sumatera Utara 20255",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285360129978",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285360129978",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-21\", \"sel\": \"16-21\", \"rab\": \"16-21\", \"kam\": \"16-21\", \"jum\": \"16-21\", \"sab\": \"16-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978 [nama]",
+    "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978 [cabang[0].telepon]",
+    "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978 [cabang[0].wa]",
+    "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

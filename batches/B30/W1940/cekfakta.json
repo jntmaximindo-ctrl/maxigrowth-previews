@@ -1,0 +1,42 @@
+{
+  "id": "W1940",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Intan Dental Care Medan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jaring Raya, Besar, Medan Labuhan, Kota Medan, Sumatera Utara 20251",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281370952211",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281370952211",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/ [nama]",
+    "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/ [cabang[0].alamat]",
+    "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/ [cabang[0].telepon]",
+    "https://vymaps.com/ID/Intan-Dental-Care-Medan-1934181/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "W1941",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Sozo Dental Medan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.sozodental.com/lokasi/medan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/sozo.dental",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.sozodental.com/lokasi/medan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ir. H. Juanda No.3G, Sukaraja, Kec. Medan Maimun, Kota Medan, Sumatera Utara 20159",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.sozodental.com/lokasi/medan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285182016877",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.sozodental.com/lokasi/medan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285182016877",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.sozodental.com/lokasi/medan/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.sozodental.com/lokasi/medan/ [nama]",
+    "https://www.sozodental.com/lokasi/medan/ [instagram]",
+    "https://www.sozodental.com/lokasi/medan/ [cabang[0].alamat]",
+    "https://www.sozodental.com/lokasi/medan/ [cabang[0].telepon]",
+    "https://www.sozodental.com/lokasi/medan/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

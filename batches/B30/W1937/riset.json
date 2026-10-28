@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/royal-dental-centre-medan",
     "https://idalamat.com/alamat/royal-dental-centre-1058811"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

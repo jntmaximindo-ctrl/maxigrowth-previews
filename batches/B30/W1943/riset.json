@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/klinik-cipta-sehat-0853-6012-9978",
     "https://www.waze.com/live-map/directions/id/sumatera-utara/klinik-cipta-sehat?to=place.ChIJlWsMHKrSNjARs1N7LC0ugl4"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Cipta Sehat",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Marelan Raya Ps. IV No.99A, Rengas Pulau, Kec. Medan Marelan, Kota Medan, Sumatera Utara 20255",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285360129978",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285360129978",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-21\", \"sel\": \"16-21\", \"rab\": \"16-21\", \"kam\": \"16-21\", \"jum\": \"16-21\", \"sab\": \"16-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -79,5 +79,17 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/lh-dental-and-orthodontic-care-medan",
     "https://bukutelepon.cybo.com/ID-biz/lh-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sulang Saling No.52, Pahlawan, Kec. Medan Perjuangan, Kota Medan, Sumatera Utara 20233",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-19\", \"sel\": \"09-19\", \"rab\": \"09-19\", \"kam\": \"09-19\", \"jum\": \"09-19\", \"sab\": \"09-15\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

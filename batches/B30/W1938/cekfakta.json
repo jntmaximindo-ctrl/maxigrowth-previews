@@ -1,0 +1,37 @@
+{
+  "id": "W1938",
+  "diperiksa": 9,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. T. Amir Hamzah No.6/37, Sei Agul, Kec. Medan Barat, Kota Medan, Sumatera Utara 20117",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/tawa-dental-care-by-drg-wilson-sp-perio-and-drg-wennie-fransisca-sp-pros-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-19\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/tawa-dental-care-by-drg-wilson-sp-perio-and-drg-wennie-fransisca-sp-pros-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Periodonsia",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.kreloses.com/news/article/tawa-dental-care-893",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Prostodonsia",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.kreloses.com/news/article/tawa-dental-care-893",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

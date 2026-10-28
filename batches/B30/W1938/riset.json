@@ -123,5 +123,27 @@
     "https://indonesiaknowledge.com/directory/dental/medan/tawa-dental-care-by-drg-wilson-sp-perio-and-drg-wennie-fransisca-sp-pros-medan",
     "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/sumatera",
     "https://www.kreloses.com/news/article/tawa-dental-care-893"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. T. Amir Hamzah No.6/37, Sei Agul, Kec. Medan Barat, Kota Medan, Sumatera Utara 20117",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-19\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Periodonsia",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[1].spesialis",
+      "tercatat": "Prostodonsia",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

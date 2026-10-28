@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/eu-dental-clinic-medan-2",
     "https://smilejet.app/clinic/eu-dental-clinic"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"12-20\", \"sel\": \"12-20\", \"rab\": \"12-20\", \"kam\": \"12-20\", \"jum\": \"12-20\", \"sab\": \"12-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
