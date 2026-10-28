@@ -1,0 +1,27 @@
+# Cek fakta independen oleh robot (tanpa AI): buka ulang tiap URL src di riset.json dan cocokkan nilainya.
+# Klinik yang tidak satu pun sumbernya terbaca dilewati dan tetap menunggu GPT-B. Pelajaran 38.
+name: cek-fakta-robot
+on:
+  workflow_dispatch:
+    inputs:
+      maks: { description: "Maks klinik per run", required: false, default: "40" }
+permissions: { contents: write }
+concurrency: { group: cek-fakta-robot, cancel-in-progress: false }
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests beautifulsoup4 jsonschema
+      - name: Cek fakta
+        run: python3 scripts/cek_fakta_robot.py "${{ github.event.inputs.maks || '40' }}" | tee cek.out
+      - name: Commit
+        run: |
+          git config user.name "maxigrowth-bot"; git config user.email "bot@maxigrowthstudio.com"
+          git add batches
+          git diff --cached --quiet && exit 0
+          git commit -q -m "cek-fakta-robot: $(grep -c LULUS cek.out) klinik lolos cek fakta otomatis"
+          for i in 1 2 3 4 5 6; do git pull -q --rebase origin main && git push -q origin main && break; sleep 6; done
