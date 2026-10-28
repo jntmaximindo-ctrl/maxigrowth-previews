@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W1834",
   "nama": {
     "v": "ARJUNA DENTAL CLINIC",
-    "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
+    "src": "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
     "tgl": "2026-10-28",
     "yakin": "sedang"
   },
@@ -27,14 +27,14 @@ RISET LAMA:
     {
       "nama": "ARJUNA DENTAL CLINIC",
       "alamat": {
-        "v": "Jl. Tukad Bilok No.79, Renon, Denpasar Selatan, Kota Denpasar, Bali 80239",
-        "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
+        "v": "Jl. Tukad Bilok No.79, Renon, Denpasar Selatan, Denpasar, Bali 80239",
+        "src": "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62361229890",
-        "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
+        "src": "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
@@ -45,20 +45,12 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "13-17",
-          "sel": "13-17",
-          "rab": "13-17",
-          "kam": "tutup",
-          "jum": "13-17",
-          "sab": "13-17",
-          "min": "tutup"
-        },
-        "src": "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
+        "v": "Senin, Selasa, Rabu, Jumat, Sabtu 13.00–17.00; Kamis dan Minggu tutup (Waze/direktori)",
+        "src": "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
         "tgl": "2026-10-28",
         "yakin": "sedang"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
@@ -74,19 +66,19 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi.",
-    "Informasi kontak terkini bergantung direktori; jadwal individual dokter dan tarif belum ditemukan."
+    "Situs resmi mandiri belum dikonfirmasi."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur, https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Alamat 79 dan nomor 0361229890 cocok pada Indonesia Knowledge dan Waze yang dibuka ulang. Penelusuran ponsel, email dan situs tidak memberikan kontak lain yang dapat dicocokkan. Tidak mengubah telepon tetap menjadi WA; hasil tetap ditulis sesuai instruksi pemilik. Tidak menyimpulkan tarif dari ulasan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Panduan pemeriksaan lokasi dan konfirmasi jam pada sumber yang tersedia.",
+  "catatan": "REVISI karena nomor WA belum ditemukan; kontak telepon tidak sama dengan nomor WhatsApp yang terverifikasi. Waze dan IndonesiaKnowledge menyebut No.79. YellowPages lama menyebut No.69 namun telepon sama, jadi konflik alamat dicatat. WhatsApp belum terverifikasi; jangan menyamakan telepon dengan WA. Tidak ada daftar harga resmi.\nRevisi kontak tahap 9: nomor telepon yang punya URL asal dipertahankan sebagai TELEPON, bukan bukti nomor WhatsApp; jika bukti kontak tidak memadai, nilai null. Sumber memakai URL asli hasil riset sebelumnya, tidak diklaim verifikasi langsung baru.",
   "sumber": [
+    "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM",
     "https://indonesiaknowledge.com/directory/dental/sanur/arjuna-dental-clinic-sanur",
-    "https://www.waze.com/live-map/directions/id/bali/arjuna-dental-clinic?to=place.ChIJQ2zcAlFA0i0ReFUlGo6crdM"
+    "https://www.yellowpages.id/phone-62-361229890-klinik-gigi-Kota-Denpasar-IDEN1730401.html"
   ],
   "verifikasi_manual": [
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"13-17\", \"sel\": \"13-17\", \"rab\": \"13-17\", \"kam\": \"tutup\", \"jum\": \"13-17\", \"sab\": \"13-17\", \"min\": \"tutup\"}",
+      "tercatat": "Senin, Selasa, Rabu, Jumat, Sabtu 13.00–17.00; Kamis dan Minggu tutup (Waze/direktori)",
       "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]

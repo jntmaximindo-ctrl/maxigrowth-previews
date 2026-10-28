@@ -74,7 +74,7 @@ RISET LAMA:
     "Website milik klinik tidak terverifikasi sebagai situs mandiri aktif."
   ],
   "ide_fitur_khas": "Panduan layanan dan kunjungan berdasarkan sumber yang dapat ditelusuri.",
-  "catatan": "REVISI. Kajian ilmiah tentang klinik menyebut mulai beroperasi 17 Juli 2022 dan empat kategori pelayanan. Direktori bisnis menguatkan alamat. Jam dan nomor kontak yang terkini belum terverifikasi. Tidak mengadopsi harga agregator sebagai tarif resmi. Pastikan informasi sebelum publikasi.",
+  "catatan": "REVISI. Kajian ilmiah tentang klinik menyebut mulai beroperasi 17 Juli 2022 dan empat kategori pelayanan. Direktori bisnis menguatkan alamat. Jam dan nomor kontak yang terkini belum terverifikasi. Tidak mengadopsi harga agregator sebagai tarif resmi. Pastikan informasi sebelum publikasi.\nRevisi kontak tahap 9: nomor telepon yang punya URL asal dipertahankan sebagai TELEPON, bukan bukti nomor WhatsApp; jika bukti kontak tidak memadai, nilai null. Sumber memakai URL asli hasil riset sebelumnya, tidak diklaim verifikasi langsung baru.",
   "sumber": [
     "https://www.researchgate.net/publication/405725934_OPTIMALISASI_PROMOSI_LAYANAN_KLINIK_DENTAL_GALLERY_MELALUI_MODEL_THE_FLOWER_OF_SERVICE",
     "https://indonesiaknowledge.com/directory/dental/makassar"

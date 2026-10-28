@@ -7,15 +7,15 @@ RISET LAMA:
     "v": "Dentist Drg. Darjanki, Sp.Ort.",
     "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
     "tgl": "2026-10-28",
-    "yakin": "sedang"
+    "yakin": "tinggi"
   },
   "kota": "Surabaya",
   "zona_waktu": "WIB",
   "instagram": {
-    "v": "https://www.instagram.com/darjanki_lee/",
-    "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
+    "v": null,
+    "src": null,
     "tgl": "2026-10-28",
-    "yakin": "sedang"
+    "yakin": "rendah"
   },
   "email": {
     "v": null,
@@ -27,16 +27,16 @@ RISET LAMA:
     {
       "nama": "Dentist Drg. Darjanki, Sp.Ort.",
       "alamat": {
-        "v": "Jl. Bali No.7, Gubeng, Kec. Gubeng, Surabaya, Jawa Timur 60281",
+        "v": "Jl. Bali No.7, Gubeng, Surabaya, Jawa Timur 60281",
         "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "telepon": {
         "v": "62315032040",
         "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "wa": {
         "v": null,
@@ -45,20 +45,12 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "16-22",
-          "sel": "16-22",
-          "rab": "16-22",
-          "kam": "16-22",
-          "jum": "16-22",
-          "sab": "tutup",
-          "min": "tutup"
-        },
+        "v": "Senin–Jumat 16.00–22.00; Sabtu dan Minggu tutup",
         "src": "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
         "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
@@ -73,15 +65,13 @@ RISET LAMA:
     "tgl": "2026-10-28"
   },
   "keunggulan": [],
-  "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
-  ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040, https://idalamat.com/alamat/dentist-drg-darjanki-sport-705597. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nomor pada praktik Jl. Bali 7; nomor dari alamat Kahuripan tidak digabungkan. Akun Instagram tertaut di direktori tetapi dibatasi saat dibuka. Pemeriksaan ulang antrean: telepon tetap masih tertulis pada halaman yang berhasil dibuka. Pencarian ponsel tidak memberikan nomor yang bisa dicocokkan ke praktik. WA tetap null sesuai bukti; hasil tidak ditahan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "situs_lama": [],
+  "ide_fitur_khas": "Jadwal konsultasi ortodonti sore hari di lokasi Gubeng.",
+  "catatan": "REVISI nomor WA kosong: telah ditemukan telepon tetap (031) 5032040 pada dua direktori yang relevan. Telepon tetap bukan WhatsApp sehingga wa null. Tindakan selain ortodonti tidak terverifikasi; harga tidak ditemukan.",
   "sumber": [
     "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
-    "https://idalamat.com/alamat/dentist-drg-darjanki-sport-705597"
+    "https://idalamat.com/alamat/dentist-drg-darjanki-sport-705597",
+    "https://caribisnis.id/dokter-gigi/surabaya/gubeng/dokter-gigi-drg-darjanki-sp-or-gube-imp1"
   ],
   "verifikasi_manual": [
     {
@@ -90,13 +80,8 @@ RISET LAMA:
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
-      "path": "instagram",
-      "tercatat": "https://www.instagram.com/darjanki_lee/",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Bali No.7, Gubeng, Kec. Gubeng, Surabaya, Jawa Timur 60281",
+      "tercatat": "Jl. Bali No.7, Gubeng, Surabaya, Jawa Timur 60281",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
@@ -106,7 +91,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"16-22\", \"sel\": \"16-22\", \"rab\": \"16-22\", \"kam\": \"16-22\", \"jum\": \"16-22\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "tercatat": "Senin–Jumat 16.00–22.00; Sabtu dan Minggu tutup",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

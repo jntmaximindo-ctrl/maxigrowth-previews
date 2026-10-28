@@ -74,7 +74,7 @@ RISET LAMA:
     "Situs resmi mandiri belum dapat dibuktikan."
   ],
   "ide_fitur_khas": "Informasi lokasi dan jam dari sumber spesifik serta pertanyaan kunjungan sesuai kondisi klinik.",
-  "catatan": "Dua direktori menyebut alamat dan nomor yang sama. Ulasan pasien menyebut scaling dan cabut gigi, bukan daftar layanan resmi. WhatsApp tidak terverifikasi. Harga resmi tidak ditemukan. Data yang tidak terverifikasi dibiarkan null; maps_url untuk B17 menggunakan URL peta dan bukan nilai null demi tipe schema.",
+  "catatan": "Dua direktori menyebut alamat dan nomor yang sama. Ulasan pasien menyebut scaling dan cabut gigi, bukan daftar layanan resmi. WhatsApp tidak terverifikasi. Harga resmi tidak ditemukan. Data yang tidak terverifikasi dibiarkan null; maps_url untuk B17 menggunakan URL peta dan bukan nilai null demi tipe schema.\nRevisi kontak tahap 9: nomor telepon yang punya URL asal dipertahankan sebagai TELEPON, bukan bukti nomor WhatsApp; jika bukti kontak tidak memadai, nilai null. Sumber memakai URL asli hasil riset sebelumnya, tidak diklaim verifikasi langsung baru.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
     "https://www.dentalclinics.care/dental-clinic/molarize-dental-care"

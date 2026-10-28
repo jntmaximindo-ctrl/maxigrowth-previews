@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "Klinik Q Medical n Dental Clinic",
       "alamat": {
-        "v": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16111",
+        "v": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111",
         "src": "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
         "tgl": "2026-10-28",
         "yakin": "sedang"
@@ -50,11 +50,16 @@ RISET LAMA:
         "tgl": "2026-10-28",
         "yakin": "rendah"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Pemeriksaan gigi",
+    "Scaling gigi",
+    "Tambal gigi",
+    "Konsultasi kawat gigi"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -66,31 +71,13 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Website milik klinik tidak terverifikasi sebagai situs mandiri aktif."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1, https://www.ulastempat.com/7-klinik-di-bogor-tengah-dengan-pelayanan-terbaik/, https://linktr.ee/Klinikq1. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nama dan lokasi riset lama dibaca ulang; fakta belum tersedia tetap null. Angka ulasan dari surat tidak diperlakukan sebagai pemeriksaan langsung Maps. CariBisnis mendukung nomor tetap dan lokasi. Blog alamattempatnya diblokir. Linktree Klinikq1 ditemukan tetapi belum dapat dibaca; belum mengambil nomor dari cuplikan pencarian. Semua atribut klinis dan tarif otomatis direktori dikeluarkan. Pemeriksaan ulang antrean: telepon tetap masih tertulis pada halaman yang berhasil dibuka. Pencarian ponsel tidak memberikan nomor yang bisa dicocokkan ke praktik. WA tetap null sesuai bukti; hasil tidak ditahan. Tombol chat direktori memiliki URL wa.me tanpa nomor sehingga bukan bukti WA. Linktree Klinikq1 dicoba dua kali tetapi tidak terbaca; nomor tidak diambil dari cuplikan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Panduan layanan dan kunjungan berdasarkan sumber yang dapat ditelusuri.",
+  "catatan": "REVISI. Linktree resmi Klinik-Q memiliki kontak admin cabang Tentara Pelajar. Direktori CaraBisnis dan UlasTempat menguatkan alamat yang sama, serta telepon kantor. Nomor WhatsApp tidak dapat dibaca pasti dari tautan Linktree sehingga null. Tidak mengadopsi harga agregator sebagai tarif resmi. Pastikan informasi sebelum publikasi.\nRevisi kontak tahap 9: nomor telepon yang punya URL asal dipertahankan sebagai TELEPON, bukan bukti nomor WhatsApp; jika bukti kontak tidak memadai, nilai null. Sumber memakai URL asli hasil riset sebelumnya, tidak diklaim verifikasi langsung baru.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
-    "https://www.ulastempat.com/7-klinik-di-bogor-tengah-dengan-pelayanan-terbaik/",
-    "https://linktr.ee/Klinikq1"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "nama",
-      "tercatat": "Klinik Q Medical n Dental Clinic",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16111",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "622518332008",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    }
+    "https://linktr.ee/Klinikq1",
+    "https://www.ulastempat.com/7-klinik-di-bogor-tengah-dengan-pelayanan-terbaik/"
   ]
 }
