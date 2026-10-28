@@ -1,0 +1,132 @@
+{
+  "id": "W2241",
+  "hero": {
+    "judul": {
+      "id": "Informasi Klinik Ummat Palembang",
+      "en": "Klinik Ummat Palembang Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi, kontak, dan informasi layanan yang perlu dikonfirmasi sebelum berkunjung.",
+      "en": "Find the location, contact details, and services to confirm before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal layanan",
+      "en": "Ask about service hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Poli Umum",
+        "en": "General Clinic"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum dalam pemberitaan tahun 2022. Hubungi klinik untuk memastikan jadwal terkini.",
+        "en": "This service was reported in 2022. Contact the clinic to confirm current availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Poli Gigi",
+        "en": "Dental Clinic"
+      },
+      "ringkas": {
+        "id": "Poli gigi pernah disebut sebagai layanan klinik. Konfirmasikan jadwal dokter sebelum datang.",
+        "en": "Dental care was previously listed. Please confirm the dentist's schedule before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan USG",
+        "en": "Ultrasound Examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan USG disebut dalam informasi tahun 2022. Tanyakan apakah layanan masih tersedia.",
+        "en": "Ultrasound examinations were mentioned in a 2022 report. Ask whether they are currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan Persalinan",
+        "en": "Maternity Services"
+      },
+      "ringkas": {
+        "id": "Layanan persalinan pernah diberitakan pada 2022. Pastikan fasilitas dan jadwal layanan secara langsung.",
+        "en": "Maternity care was reported in 2022. Confirm the current facilities and schedule directly."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Layanan dan Jadwal",
+      "en": "Service and Schedule Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis layanan yang ingin ditanyakan, lalu siapkan pesan untuk mengonfirmasi jadwal dengan klinik.",
+      "en": "Choose a service and prepare a message to confirm the schedule with the clinic."
+    },
+    "alasan_dipilih": "Informasi layanan historis dan perbedaan jadwal membuat konfirmasi sebelum kunjungan penting."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Ummat?",
+        "en": "Where is Klinik Ummat located?"
+      },
+      "a": {
+        "id": "Di Komplek Pondok Palm Indah Blok E1 No.12A, Talang Kelapa, Palembang.",
+        "en": "At Pondok Palm Indah Complex, Block E1 No.12A, Talang Kelapa, Palembang."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Waze menampilkan Senin–Sabtu 08.30–19.30 dan Minggu tutup. Konfirmasikan jadwal sebelum datang.",
+        "en": "Waze lists Monday–Saturday, 8:30 AM–7:30 PM, and Sunday closed. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada poli gigi?",
+        "en": "Is dental care available?"
+      },
+      "a": {
+        "id": "Poli gigi tercantum dalam pemberitaan tahun 2022. Tanyakan ketersediaan layanan saat ini.",
+        "en": "Dental care was reported in 2022. Ask the clinic about current availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya layanan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Rincian biaya terbaru belum ditemukan dalam sumber yang diperiksa. Tanyakan langsung kepada pihak klinik.",
+        "en": "Current fees were not found in the reviewed sources. Please contact the clinic for details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Mohon konfirmasi sebelum kunjungan.",
+        "en": "Insurance participation has not been verified. Please check before your visit."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan jadwal",
+    "en": "Contact the clinic to confirm availability"
+  },
+  "pesan_wa_default": "Halo Klinik Ummat, saya ingin menanyakan jadwal layanan dan informasi pendaftaran. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi Klinik Ummat di Talang Kelapa, Palembang, termasuk layanan poli umum dan poli gigi yang pernah diberitakan. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/ummat. Jika berkenan, silakan dilihat. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Ummat",
+    "email_isi": "Yth. Tim Manajemen Klinik Ummat,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi Klinik Ummat di Talang Kelapa serta pemberitaan tentang poli umum dan poli gigi. Kami menyiapkan konsep website yang dapat dilihat melalui https://maxigrowthstudio.com/ummat.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Konsep ini dapat disesuaikan setelah informasi layanan dan jadwal dikonfirmasi oleh tim klinik.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

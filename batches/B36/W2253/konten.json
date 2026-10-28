@@ -1,0 +1,132 @@
+{
+  "id": "W2253",
+  "hero": {
+    "judul": {
+      "id": "Rumah Praktik drg. Natanael Krones",
+      "en": "drg. Natanael Krones Dental Practice"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan jadwal praktik gigi di kawasan Mapanget Barat.",
+      "en": "Location and dental appointment information in West Mapanget."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal",
+      "en": "Confirm an appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan awal kepada pihak praktik.",
+        "en": "Ask the practice about availability and the need for an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan awal kepada pihak praktik.",
+        "en": "Ask the practice about availability and the need for an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan awal kepada pihak praktik.",
+        "en": "Ask the practice about availability and the need for an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan awal kepada pihak praktik.",
+        "en": "Ask the practice about availability and the need for an initial examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Sore",
+      "en": "Evening Appointment Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jam praktik yang tercantum dan siapkan pesan untuk mengonfirmasi kunjungan.",
+      "en": "Review listed hours and prepare a message to confirm your visit."
+    },
+    "alasan_dipilih": "Jam praktik tertera pada sore hari kerja, dengan jadwal Rabu berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di kawasan Mapanget Barat, Kota Manado, Sulawesi Utara.",
+        "en": "In West Mapanget, Manado, North Sulawesi."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin, Selasa, Kamis, Jumat 16.00–19.00 dan Rabu 16.00–18.00. Konfirmasikan sebelum datang.",
+        "en": "A directory lists Monday, Tuesday, Thursday and Friday 4–7 PM, and Wednesday 4–6 PM. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia penambalan?",
+        "en": "Are fillings available?"
+      },
+      "a": {
+        "id": "Penambalan disebut dalam direktori. Tanyakan ketersediaan tindakan.",
+        "en": "Fillings are mentioned in a directory. Please check availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children seen here?"
+      },
+      "a": {
+        "id": "Tanyakan kepada praktik mengenai pemeriksaan gigi anak dan jadwalnya.",
+        "en": "Ask the practice about children's examinations and appointment times."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check fees?"
+      },
+      "a": {
+        "id": "Daftar biaya terbaru belum ditemukan. Mohon tanyakan estimasi.",
+        "en": "Current fees were not found. Please ask for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi",
+    "en": "Contact the practice to confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Natanael Krones dan informasi pemeriksaan gigi. Mohon bantuannya.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi rumah praktik drg. Natanael Krones di Mapanget Barat, Manado, dengan jadwal sore pada direktori. Kami menyiapkan konsep website di https://maxigrowthstudio.com/drg-natanael untuk ditinjau. Jika berkenan, silakan dilihat. Terima kasih.",
+    "email_subjek": "Konsep website rumah praktik drg. Natanael Krones",
+    "email_isi": "Yth. Pengelola Rumah Praktik drg. Natanael Krones,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi rumah praktik di Mapanget Barat dan menyiapkan konsep website di https://maxigrowthstudio.com/drg-natanael.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Informasi kontak dan jadwal dapat disesuaikan setelah dikonfirmasi oleh pihak praktik.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

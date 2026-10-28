@@ -1,0 +1,132 @@
+{
+  "id": "W2254",
+  "hero": {
+    "judul": {
+      "id": "Teman Dental Poris Indah",
+      "en": "Teman Dental Poris Indah"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kontak klinik gigi di kawasan Cipondoh, Tangerang.",
+      "en": "Dental services and contact information in Cipondoh, Tangerang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal perawatan",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan awal untuk membahas kondisi gigi dan rencana perawatan.",
+        "en": "An initial examination to discuss your dental health and care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan dokter.",
+        "en": "Tartar removal based on the dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan gigi berlubang dengan pilihan tindakan sesuai kondisi gigi.",
+        "en": "Care for cavities, with treatment options based on tooth condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Ortodontik",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Konsultasi pilihan perawatan untuk susunan gigi dan jadwal kontrol.",
+        "en": "Discuss options for tooth alignment and follow-up appointments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Cabang dan Kontak",
+      "en": "Branch and Contact Finder"
+    },
+    "penjelasan": {
+      "id": "Lihat lokasi cabang dan gunakan kontak yang sesuai untuk menanyakan jadwal.",
+      "en": "Find the branch location and use its contact details to ask about appointments."
+    },
+    "alasan_dipilih": "Jaringan memiliki beberapa cabang dan informasi alamat pada halaman kontak perlu diperjelas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Teman Dental Poris Indah?",
+        "en": "Where is Teman Dental Poris Indah?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Ruko Poris Indah Blok D, Jalan Gerbang Poris Indah, Cipondoh, Tangerang. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "A directory lists Ruko Poris Indah Block D, Gerbang Poris Indah Street, Cipondoh, Tangerang. Please confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan pukul 08.00–22.00 setiap hari. Jadwal dapat berubah.",
+        "en": "A directory lists 8 AM–10 PM daily. Hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada situs resmi Teman Dental. Tanyakan jadwal tindakan di cabang Poris Indah.",
+        "en": "Dental cleaning is listed on the Teman Dental website. Ask about availability at the Poris Indah branch."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa konsultasi behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Layanan ortodontik tercantum pada situs resmi jaringan. Dokter akan menilai kebutuhan perawatan.",
+        "en": "Orthodontic care is listed on the network's website. A dentist can assess your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Rincian biaya cabang belum ditemukan pada sumber yang diperiksa. Hubungi klinik untuk estimasi.",
+        "en": "Branch-specific fees were not found in the reviewed sources. Contact the clinic for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Teman Dental Poris Indah",
+    "en": "Contact Teman Dental Poris Indah"
+  },
+  "pesan_wa_default": "Halo Teman Dental Poris Indah, saya ingin menanyakan jadwal konsultasi dan estimasi biaya perawatan gigi. Mohon informasinya.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya melihat Teman Dental memiliki beberapa cabang, termasuk Poris Indah di Tangerang. Kami menyiapkan konsep website dengan panduan lokasi cabang di https://maxigrowthstudio.com/teman-poris. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website Teman Dental Poris Indah",
+    "email_isi": "Yth. Tim Manajemen Teman Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat jaringan Teman Dental memiliki cabang Poris Indah di Tangerang. Kami menyiapkan konsep website yang membantu pengunjung memilih lokasi dan kontak cabang.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/teman-poris. Proposal PDF terlampir sebagai bahan pertimbangan. Data alamat dan jadwal dapat disesuaikan setelah dikonfirmasi oleh tim Teman Dental.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
