@@ -1,0 +1,132 @@
+{
+  "id": "W2301",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di praktek dokter gigi drg.Rima",
+      "en": "Dental Care Information at praktek dokter gigi drg.Rima"
+    },
+    "sub": {
+      "id": "Kenali lokasi, layanan yang tercatat, dan cara menghubungi tempat praktik sebelum berkunjung.",
+      "en": "Find the location, reported services, and contact details before your visit."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan dan kondisi gigi sebelum menentukan langkah perawatan.",
+        "en": "Discuss dental concerns before deciding on care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan pembersihan karang gigi dan jadwal praktik.",
+        "en": "Ask about cleaning availability and appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan penanganan gigi berlubang sesuai pemeriksaan dokter.",
+        "en": "Ask about care for cavities following a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan sebelum tindakan pencabutan.",
+        "en": "Ask about assessment before an extraction."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Janji Praktik Sore",
+      "en": "Evening Appointment Guide"
+    },
+    "penjelasan": {
+      "id": "Panduan interaktif untuk membantu pasien menyiapkan pertanyaan sebelum menghubungi tempat praktik.",
+      "en": "An interactive guide to help patients prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Jam praktik sore tercatat pada direktori, sehingga pasien dapat menyiapkan pertanyaan dan konfirmasi slot sebelum datang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I make an appointment?"
+      },
+      "a": {
+        "id": "Hubungi praktek dokter gigi drg.Rima melalui nomor yang tertera untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the practice using its listed number to ask about appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan atau perawatan?",
+        "en": "How much does a visit or treatment cost?"
+      },
+      "a": {
+        "id": "Informasi tarif belum tersedia pada sumber yang diperiksa. Tanyakan perkiraan biaya sebelum tindakan.",
+        "en": "Published fees were not found in the sources reviewed. Ask for an estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pasien anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan pemeriksaan anak dan dokter yang bertugas sebelum berkunjung.",
+        "en": "Please ask about children’s appointments and the dentist on duty before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Konfirmasikan langsung ke tempat praktik.",
+        "en": "Insurance arrangements have not been verified. Please check with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu datang sesuai jadwal?",
+        "en": "Should I visit during listed hours?"
+      },
+      "a": {
+        "id": "Sebaiknya konfirmasi jam praktik terbaru dan ketersediaan slot terlebih dahulu.",
+        "en": "Please confirm current opening hours and appointment availability in advance."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk Informasi Jadwal",
+    "en": "Contact for Appointment Information"
+  },
+  "pesan_wa_default": "Halo praktek dokter gigi drg.Rima, saya ingin menanyakan jadwal praktik dan informasi pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktek dokter gigi drg.Rima. Kami dari Maxi Growth Studio. Direktori mencantumkan jadwal sore di Batujajar. Kami telah menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/drg-rima. Bila berkenan, kami siap menerima masukan dari pihak praktik. Salam, Muhammad Rizqi Tri Andika.",
+    "email_subjek": "Konsep website untuk praktek dokter gigi drg.Rima",
+    "email_isi": "Yth. Bapak/Ibu pengelola praktek dokter gigi drg.Rima,\n\nPerkenalkan, Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan jadwal sore di Batujajar. Kami menyiapkan konsep website informatif yang dapat ditinjau melalui https://maxigrowthstudio.com/drg-rima. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Bila ada informasi yang perlu disesuaikan, kami terbuka menerima koreksi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

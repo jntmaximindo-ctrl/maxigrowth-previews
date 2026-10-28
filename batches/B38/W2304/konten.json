@@ -1,0 +1,132 @@
+{
+  "id": "W2304",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Gigi MDC Lamongan",
+      "en": "Dental Care at MDC Lamongan"
+    },
+    "sub": {
+      "id": "Temukan alamat, informasi layanan, dan cara menanyakan jadwal kunjungan.",
+      "en": "Find the location, service information, and how to ask about appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan gigi dan mulut bersama dokter sebelum menentukan tindakan.",
+        "en": "Discuss dental concerns with a dentist before choosing treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Scaling tercantum dalam sumber publik; tanyakan ketersediaan jadwal dan biaya terkini.",
+        "en": "Scaling is mentioned in public sources; ask about current availability and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan gigi berlubang dan pilihan tindakan sesuai kebutuhan.",
+        "en": "Ask about assessment and treatment options for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Braces Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan ortodonti, dokter yang bertugas, dan tahapan konsultasi.",
+        "en": "Ask about orthodontic options, the available dentist, and consultation steps."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Keluarga",
+      "en": "Family Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan pemeriksaan dan siapkan pertanyaan tentang jadwal, layanan, dan fasilitas anak.",
+      "en": "Select your dental concern and prepare questions about appointments, treatments, and family facilities."
+    },
+    "alasan_dipilih": "Direktori menyebut area bermain anak dan jam pelayanan setiap hari, sehingga panduan kunjungan keluarga relevan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi MDC Lamongan?",
+        "en": "Where is MDC Lamongan located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sunan Drajat No.51, Kauman, Sidoharjo, Lamongan.",
+        "en": "Directories list Jl. Sunan Drajat No.51, Kauman, Sidoharjo, Lamongan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka pada hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 08.00–21.00; mohon konfirmasi jam terbaru.",
+        "en": "Directories list Sunday hours of 08:00–21:00; please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Scaling disebut pada sumber publik. Tanyakan ketersediaan dan kebutuhan pemeriksaan terlebih dahulu.",
+        "en": "Scaling is mentioned in public sources. Please confirm availability and whether an examination is needed."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi terkini belum terverifikasi. Mintalah informasi biaya langsung ke klinik.",
+        "en": "Current official fees have not been verified. Ask the clinic for a cost estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Do you accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum dapat dipastikan dari sumber yang diperiksa.",
+        "en": "Insurance arrangements could not be confirmed from the sources reviewed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi MDC untuk Informasi Lanjutan",
+    "en": "Contact MDC for More Information"
+  },
+  "pesan_wa_default": "Halo MDC My Dental Center Lamongan, saya ingin menanyakan jadwal pemeriksaan gigi dan biaya yang berlaku. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola MDC My Dental Center Lamongan. Saya dari Maxi Growth Studio. Kami melihat informasi klinik di Jl. Sunan Drajat dan jam layanan yang tercantum hingga malam. Kami menyiapkan konsep website informatif di https://maxigrowthstudio.com/mdc-my. Bila berkenan, kami siap menerima koreksi dan masukan. Salam, Muhammad Rizqi Tri Andika.",
+    "email_subjek": "Konsep website untuk MDC My Dental Center Lamongan",
+    "email_isi": "Yth. Bapak/Ibu pengelola MDC My Dental Center Lamongan,\n\nPerkenalkan, Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik mencantumkan lokasi klinik di Jl. Sunan Drajat dan jadwal layanan setiap hari. Kami menyiapkan konsep website untuk membantu pasien menemukan informasi dasar dan menanyakan jadwal. Konsep dapat ditinjau di https://maxigrowthstudio.com/mdc-my. Proposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk koreksi atas informasi yang belum terverifikasi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2302",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Rody. L",
+      "en": "Drg. Rody. L Practice Information"
+    },
+    "sub": {
+      "id": "Alamat dan nomor publik tersedia; jadwal praktik masih perlu dikonfirmasi.",
+      "en": "A public address and phone number are listed; opening hours need confirmation."
+    },
+    "cta": {
+      "id": "Konfirmasi Jadwal",
+      "en": "Confirm Opening Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan gigi dan jadwal dokter.",
+        "en": "Ask whether dental examinations are currently available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan",
+        "en": "Dental Concern Consultation"
+      },
+      "ringkas": {
+        "id": "Jelaskan keluhan kepada petugas agar diarahkan ke jadwal yang sesuai.",
+        "en": "Describe your concern when asking about appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Tindakan",
+        "en": "Treatment Information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan jenis tindakan yang tersedia sebelum datang.",
+        "en": "Confirm which treatments are currently provided before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perencanaan Kunjungan",
+        "en": "Visit Planning"
+      },
+      "ringkas": {
+        "id": "Pastikan alamat, jam, dan perkiraan biaya sebelum berkunjung.",
+        "en": "Confirm the location, hours, and likely fees before your visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemeriksa Jadwal Sebelum Berkunjung",
+      "en": "Check Hours Before Visiting"
+    },
+    "penjelasan": {
+      "id": "Dua direktori mencantumkan jadwal yang berbeda. Fitur ini membantu pasien menyiapkan pertanyaan konfirmasi.",
+      "en": "Two directories show different schedules. This guide helps patients ask the right questions."
+    },
+    "alasan_dipilih": "Terdapat perbedaan jadwal dan komentar lama yang mempertanyakan status buka praktik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana menghubungi tempat praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Gunakan nomor telepon publik yang tercantum; konfirmasikan apakah masih aktif.",
+        "en": "Use the listed public phone number and check whether it is still active."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik dokter?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Dua direktori memuat jadwal berbeda. Konfirmasikan jadwal terkini sebelum datang.",
+        "en": "Two directories list conflicting hours. Confirm the current schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan; tanyakan biaya sebelum membuat janji.",
+        "en": "Published fees were not found; ask about charges before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Jenis tindakan ini belum terverifikasi; tanyakan kepada pihak praktik.",
+        "en": "This specific treatment has not been verified; please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama belum ditemukan pada sumber yang diperiksa.",
+        "en": "Insurance acceptance could not be verified from the sources reviewed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Ketersediaan Praktik",
+    "en": "Ask Whether the Practice Is Open"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan apakah praktik drg. Rody. L masih menerima pasien di Batujajar dan menanyakan jadwal terbaru. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik drg. Rody. L. Saya dari Maxi Growth Studio. Kami menemukan informasi jadwal praktik di Batujajar yang berbeda antar direktori. Kami menyiapkan konsep website informasi praktik di https://maxigrowthstudio.com/drg-rody. Bila berkenan, mohon masukan agar informasinya tepat. Salam, Muhammad Rizqi Tri Andika.",
+    "email_subjek": "Konsep website informasi praktik drg. Rody. L",
+    "email_isi": "Yth. Bapak/Ibu pengelola praktik drg. Rody. L,\n\nPerkenalkan, Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi jadwal praktik di Batujajar yang kami temukan berbeda antara dua direktori. Kami menyiapkan konsep website informatif untuk ditinjau di https://maxigrowthstudio.com/drg-rody. Proposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka menerima koreksi sebelum informasi dipublikasikan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
