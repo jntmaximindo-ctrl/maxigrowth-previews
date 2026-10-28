@@ -83,5 +83,27 @@
   "sumber": [
     "https://primed.id/services/",
     "https://indonesiaknowledge.com/directory/dental/yogyakarta/prima-medika-sagan-yogyakarta"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Prima Medika Sagan",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "email",
+      "tercatat": "feedbackprimed@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Prof Yohanes No 1062 Blok A Yogyakarta",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62274584993",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

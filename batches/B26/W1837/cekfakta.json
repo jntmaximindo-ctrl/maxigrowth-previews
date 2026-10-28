@@ -1,0 +1,16 @@
+{
+  "id": "W1837",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-20\", \"sel\": \"13-20\", \"rab\": \"13-20\", \"kam\": \"13-20\", \"jum\": \"13-20\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/ease-dental-bali-klinik-dokter-gigi-denpasar-bali",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

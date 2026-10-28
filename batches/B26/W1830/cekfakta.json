@@ -1,0 +1,16 @@
+{
+  "id": "W1830",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-23\", \"sel\": \"08-23\", \"rab\": \"08-23\", \"kam\": \"08-23\", \"jum\": \"08-23\", \"sab\": \"08-23\", \"min\": \"08-23\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/dentist-practice-215",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

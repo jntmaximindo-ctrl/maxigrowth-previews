@@ -1,0 +1,22 @@
+{
+  "id": "W1809",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Prostodonsia",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://rsudpbari.palembang.go.id/informasi/dokter_poli/450",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan [nama]",
+    "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan [cabang[0].alamat]",
+    "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan [cabang[0].telepon]",
+    "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan [cabang[0].wa]",
+    "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan [cabang[0].jam]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

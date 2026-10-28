@@ -111,5 +111,12 @@
     "https://easedentist.com/en-us/main/",
     "https://easedentist.com/en-us/contact-us-3/",
     "https://www.dentalclinics.care/dental-clinic/ease-dental-bali-klinik-dokter-gigi-denpasar-bali"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-20\", \"sel\": \"13-20\", \"rab\": \"13-20\", \"kam\": \"13-20\", \"jum\": \"13-20\", \"sab\": \"13-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

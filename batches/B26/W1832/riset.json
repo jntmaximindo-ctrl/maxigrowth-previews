@@ -90,5 +90,12 @@
   "sumber": [
     "https://klinikgigidentes.com/cabang/5505/",
     "https://indonesiaknowledge.com/directory/dental/sanur/klinik-gigi-dentes-sidakarya-klinik-dokter-gigi-terdekat-denpasar-sanur"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"15.30-21\", \"rab\": \"10-21\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"16-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

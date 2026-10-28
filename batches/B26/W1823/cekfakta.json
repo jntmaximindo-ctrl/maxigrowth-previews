@@ -1,0 +1,18 @@
+{
+  "id": "W1823",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "SuryaWicaksana@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.doktergigibali.com/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/praktek-dokter-gigi-dentist-drg-surya-0898-3123-889 [cabang[0].jam]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

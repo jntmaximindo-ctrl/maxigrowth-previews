@@ -1,0 +1,30 @@
+{
+  "id": "W1812",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0822 1029 1501",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/622393443/surat-rekomendasi-klinik",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282210291501",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/622393443/surat-rekomendasi-klinik",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:30-22\", \"sel\": \"10:30-22\", \"rab\": \"10:30-22\", \"kam\": \"10:30-22\", \"jum\": \"10:30-22\", \"sab\": \"10:30-22\", \"min\": \"10:30-22\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/makassar/gimu-dental-care-makassar",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

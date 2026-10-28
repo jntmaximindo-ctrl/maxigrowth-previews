@@ -111,5 +111,12 @@
     "https://infopraktekdokter.com/cari-dokter/drg-febriani-sp-pros-spesialis-gigi-tiruan",
     "https://rsudpbari.palembang.go.id/informasi/dokter_poli/450",
     "https://rsudpbari.palembang.go.id/informasi/profil_dokter/1421/1420/5"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Prostodonsia",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
