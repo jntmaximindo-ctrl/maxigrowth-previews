@@ -100,5 +100,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/metro-dental-care-drg-erwin-wisana-and-drg-sherly-wijaya-makassar",
     "https://indonesiaknowledge.com/directory/dental/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"12-21\", \"sel\": \"12-21\", \"rab\": \"12-21\", \"kam\": \"12-21\", \"jum\": \"12-21\", \"sab\": \"12-21\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

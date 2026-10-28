@@ -1,0 +1,23 @@
+{
+  "id": "W1677",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Orthodontist & Endodontist / Setiabudi Dental Care",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/orthodontist-and-endodontist-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-19\", \"sel\": \"10-19\", \"rab\": \"10-19\", \"kam\": \"10-19\", \"jum\": \"10-19\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/medan/orthodontist-and-endodontist-medan",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

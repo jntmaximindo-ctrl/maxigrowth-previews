@@ -78,5 +78,12 @@
   "sumber": [
     "https://www.dentalclinics.care/dental-clinic/klinik-gigi-zam-zam-dental-care-tallasa",
     "https://linktr.ee/zamzamdental"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-22\", \"sel\": \"10-22\", \"rab\": \"10-22\", \"kam\": \"10-22\", \"jum\": \"10-22\", \"sab\": \"10-22\", \"min\": \"13-21\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

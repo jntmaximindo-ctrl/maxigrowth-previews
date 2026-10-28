@@ -1,0 +1,16 @@
+{
+  "id": "W1802",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-22\", \"sel\": \"10-22\", \"rab\": \"10-22\", \"kam\": \"10-22\", \"jum\": \"10-22\", \"sab\": \"10-22\", \"min\": \"13-21\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/klinik-gigi-zam-zam-dental-care-tallasa",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

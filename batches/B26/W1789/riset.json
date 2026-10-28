@@ -111,5 +111,12 @@
   "sumber": [
     "https://lux-dental-care.localo.site/",
     "https://indonesiaknowledge.com/directory/dental/makassar/lux-dental-care-drg-william-a-bisono-makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"11-21\", \"sel\": \"11-21\", \"rab\": \"11-21\", \"kam\": \"11-21\", \"jum\": \"11-21\", \"sab\": \"11-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

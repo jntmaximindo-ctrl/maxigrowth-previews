@@ -169,5 +169,27 @@
     "https://mhdc.co.id/cabang-mhdc-group/medikids-makassar/",
     "https://medikids.co.id/contact/",
     "https://medikids.co.id/pricelist/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "Selasa dan Jumat 15-21; label zona waktu situs perlu konfirmasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[1].jadwal",
+      "tercatat": "Selasa dan Sabtu 09-15; zona waktu perlu konfirmasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[2].jadwal",
+      "tercatat": "Selasa dan Sabtu 15-21; zona waktu perlu konfirmasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "dokter[3].jadwal",
+      "tercatat": "Senin dan Sabtu 09-15; zona waktu perlu konfirmasi",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

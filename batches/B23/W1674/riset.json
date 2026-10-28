@@ -110,5 +110,12 @@
     "https://lynk.id/apdental.medan",
     "https://www.instagram.com/apdental.medan/",
     "https://wa.me/6282162476454"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-15\", \"sel\": \"12-20\", \"rab\": \"10-15\", \"kam\": \"12-20\", \"jum\": \"10-15\", \"sab\": \"12-20\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
