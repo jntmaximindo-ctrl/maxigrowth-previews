@@ -1,0 +1,74 @@
+{
+  "url": "https://www.google.com/maps/?cid=259047111667317555",
+  "captured": "2026-10-28T22:37:50.111Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.913,
+      "kinds": {
+        "bg": 2,
+        "text": 2
+      }
+    },
+    {
+      "hex": "#0b57d0",
+      "share": 0.053,
+      "kinds": {
+        "bg": 1,
+        "cta": 1
+      }
+    },
+    {
+      "hex": "#014f5a",
+      "share": 0.02,
+      "kinds": {
+        "text": 9
+      }
+    },
+    {
+      "hex": "#d3f7ff",
+      "share": 0.014,
+      "kinds": {
+        "bg": 4
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Roboto",
+    "Google Symbols",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=41.5342809%2C-93.6083456&zoom=7&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=PKbeHwA3woaPHdl3-5_IiYG2xRo",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#ffffff",
+    "#f4fbfc",
+    "#f2f2f2",
+    "#000000"
+  ]
+}
