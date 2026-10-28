@@ -1,0 +1,16 @@
+{
+  "id": "W2162",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[1].alamat",
+      "tercatat": "Jl. Gubernur H.A. Bastari, Kabupaten Banyuasin, Sumatera Selatan",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://rsbundamedika.co.id/epasien/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
