@@ -1,0 +1,22 @@
+{
+  "id": "W1873",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Bedah Mulut",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://sipro.unisba.ac.id/dosen/D221164/cetak-cv",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/klinik-dokter-gigi-spesialis-bedah-mulut-achmad-mauludin-drg-spbm-k-705226 [nama]",
+    "https://idalamat.com/alamat/klinik-dokter-gigi-spesialis-bedah-mulut-achmad-mauludin-drg-spbm-k-705226 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/klinik-dokter-gigi-spesialis-bedah-mulut-achmad-mauludin-drg-spbm-k-705226 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/klinik-dokter-gigi-spesialis-bedah-mulut-achmad-mauludin-drg-spbm-k-705226 [cabang[0].wa]",
+    "https://idalamat.com/alamat/klinik-dokter-gigi-spesialis-bedah-mulut-achmad-mauludin-drg-spbm-k-705226 [cabang[0].jam]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

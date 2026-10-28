@@ -112,5 +112,12 @@
     "https://drgargamantra.digman.co.id/",
     "https://www.semuabis.com/dokter-gigi-ida-bagus-argamantra-0815-5876-0026",
     "https://www.instagram.com/doktergigi.arga/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"15-21\", \"rab\": \"15-21\", \"kam\": \"15-21\", \"jum\": \"15-21\", \"sab\": \"10-14\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

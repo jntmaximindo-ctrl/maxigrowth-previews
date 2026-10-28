@@ -1,0 +1,19 @@
+{
+  "id": "W1838",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"15-21\", \"rab\": \"15-21\", \"kam\": \"15-21\", \"jum\": \"15-21\", \"sab\": \"10-14\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://drgargamantra.digman.co.id/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dokter-gigi-ida-bagus-argamantra-0815-5876-0026 [instagram]",
+    "https://www.semuabis.com/dokter-gigi-ida-bagus-argamantra-0815-5876-0026 [cabang[0].alamat]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

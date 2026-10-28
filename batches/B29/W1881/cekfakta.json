@@ -1,0 +1,58 @@
+{
+  "id": "W1881",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "A'Dental Care (Praktik Dokter Gigi Adrian)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/adental_care/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cilengkrang II No.50, Palasari, Cibiru, Kota Bandung, Jawa Barat 40294",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281282175757",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281282175757",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Adrian Permadi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-bandung/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://fixpalembang.com/dokter-gigi-bandung/ [nama]",
+    "https://hargapromosi.id/dokter-gigi-bandung/ [instagram]",
+    "https://hargapromosi.id/dokter-gigi-bandung/ [cabang[0].alamat]",
+    "https://hargapromosi.id/dokter-gigi-bandung/ [cabang[0].telepon]",
+    "https://hargapromosi.id/dokter-gigi-bandung/ [cabang[0].wa]",
+    "https://fixpalembang.com/dokter-gigi-bandung/ [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -104,5 +104,12 @@
     "https://bukutelepon.cybo.com/ID/cibiru-bandung/dokter-gigi/?p=3",
     "https://sipro.unisba.ac.id/dosen/D221164/cetak-cv",
     "https://caribisnis.id/dokter-gigi/bandung/antapani/klinik-dokter-gigi-spesialis-b-anta-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Bedah Mulut",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
