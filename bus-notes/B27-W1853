@@ -6,21 +6,21 @@ RISET LAMA:
   "nama": {
     "v": "Asia Dental Clinic",
     "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "kota": "Medan",
   "zona_waktu": "WIB",
+  "instagram": {
+    "v": "https://www.instagram.com/asiadental_/",
+    "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
-    "yakin": "rendah"
-  },
-  "instagram": {
-    "v": null,
-    "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,37 +29,40 @@ RISET LAMA:
       "alamat": {
         "v": "Jl. Menggala No.61, Sei Rengas I, Medan Kota, Medan 20214",
         "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62617348968",
         "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "v": {
+          "sen": "09-19",
+          "sel": "09-19",
+          "rab": "09-19",
+          "kam": "09-19",
+          "jum": "09-19",
+          "sab": "09-17",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
       },
-      "maps_url": null
+      "maps_url": ""
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Informasi konsultasi dokter gigi",
-    "Pemeriksaan keluhan gigi (konfirmasi)",
-    "Konfirmasi jadwal perawatan",
-    "Permintaan rincian biaya"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -67,14 +70,24 @@ RISET LAMA:
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-28"
+    "tgl": "2026-10-29"
   },
   "keunggulan": [],
-  "situs_lama": [],
-  "ide_fitur_khas": "Petunjuk alamat dan konfirmasi kontak telepon sebelum berkunjung.",
-  "catatan": "REVISI WA: sumber publik mencantumkan telepon tetap. Telepon bukan bukti WhatsApp sehingga wa=null. Tidak ada tarif resmi, layanan khusus dan dokter aktif yang terverifikasi. Dua halaman sumber mencantumkan praktik; untuk Asia Dental kedua halaman berasal dari penerbit sama.",
+  "situs_lama": [
+    "Website mandiri resmi belum terverifikasi.",
+    "Tarif resmi dan jadwal dokter individual belum ditemukan."
+  ],
+  "ide_fitur_khas": "Penyusun pertanyaan jadwal dan lokasi kunjungan.",
+  "catatan": "Dibaca29Oktober2026, melanjutkan surat revisi. Nomor yang ditemukan hanya telepon tetap. Listing menautkanInstagramasiadental_; profil dicoba tetapi tidak dapat diambil. Pencarian nama+Menggala+WA/email tidak menemukan ponsel. AsiaDentalPadangsidimpuan danRoyalDentalCenterAsia berbeda, tidak dipakai. Hanya telepon tetap yang dapat dicocokkan; WA null dan hasil tetap ditulis sesuai instruksi pemilik. Pencarian email sungguh-sungguh pada nama dan sumber yang dibaca tidak menemukan email praktik; emailnull. harga belum tersedia. Empat kartu konten administratif, bukan pernyataan tindakan tersedia. RatingMaps belum diperiksa langsung. Tidak menghubungi klinik. Outreach hanya draf; konsep dan lampiranPDF perlu tersedia dan diperiksa pemilik sebelum digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-19\", \"sel\": \"09-19\", \"rab\": \"09-19\", \"kam\": \"09-19\", \"jum\": \"09-19\", \"sab\": \"09-17\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

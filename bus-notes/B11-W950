@@ -6,21 +6,21 @@ RISET LAMA:
   "nama": {
     "v": "drg. Fransiska Andriani, Sp.KG",
     "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
-  "kota": "Kabupaten Sidoarjo",
+  "kota": "Sidoarjo",
   "zona_waktu": "WIB",
   "instagram": {
     "v": "https://www.instagram.com/fransiska_andriani83/",
     "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,37 +29,54 @@ RISET LAMA:
       "alamat": {
         "v": "Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo, Jawa Timur 61213",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62318950521",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "rendah"
       },
       "jam": {
-        "v": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
+        "v": "Senin–Jumat 08.00–10.00 dan 16.00–20.00 WIB; Sabtu–Minggu tutup (direktori; perlu konfirmasi)",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg.%20Fransiska%20Andriani,%20Sp.KG"
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg.%20Fransiska%20Andriani%2C%20Sp.KG%20Sidoarjo"
     }
   ],
-  "dokter": [],
-  "layanan": [
-    "Konsultasi konservasi gigi",
-    "Pemeriksaan gigi",
-    "Informasi perawatan saluran akar",
-    "Janji temu dokter spesialis"
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Fransiska Andriani, Sp.KG",
+        "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "cabang": "drg. Fransiska Andriani, Sp.KG"
+    }
   ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -67,18 +84,18 @@ RISET LAMA:
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-28"
+    "tgl": "2026-10-29"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Belum ada situs resmi mandiri yang dapat dikonfirmasi."
+    "Instagram ditautkan di dua direktori; profil tidak dapat dibaca karena throttling. Website mandiri belum ditemukan."
   ],
-  "ide_fitur_khas": "Informasi jam dan alamat dengan penjelasan sumber direktori.",
-  "catatan": "Revisi kontak: nomor yang dapat ditemukan hanya telepon tetap, tidak ada bukti nomor WhatsApp aktif sehingga wa null. Tarif tidak dipublikasikan secara resmi sehingga harga=[]. Layanan spesifik dari direktori umum perlu dikonfirmasi langsung; daftar layanan merupakan pertanyaan yang relevan, bukan jaminan tindakan. Dokumen historis tidak membuktikan status praktik terkini.",
+  "ide_fitur_khas": "Pemilih sesi pagi atau sore untuk menyusun pertanyaan janji melalui telepon, tanpa mengasumsikan sesi tersedia.",
   "sumber": [
     "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "https://pjm.poltekkes-surabaya.ac.id/wp-content/uploads/2021/01/5.-LAPORAN-TRACER-STUDI-2023_LULUSAN-2022.pdf"
+    "https://poltekkes.web.id/dokter-gigi-sidoarjo/"
   ],
+  "catatan": "Mempertahankan alamat dan telepon riset lama sesudah IDalamat dan poltekkes.web.id dibaca ulang 29 Oktober 2026. poltekkes.web.id adalah situs informasi pihak ketiga, bukan diasumsikan instansi resmi. Telepon tetap 0318950521 dinormalisasi 62318950521; tidak ada nomor ponsel 08xx yang ditemukan sehingga WA null. Instagram ditautkan di kedua direktori tetapi pembukaan profil terkena throttling; tidak menganggap bio sudah dibaca. Email dicari dengan nama+email, nama+Sidoarjo+WhatsApp dan nama akun; tidak ditemukan. harga belum tersedia. Jam dari badan halaman IDalamat bertentangan dengan label jam belum tersedia di bagian bawah; belum dikonfirmasi ke praktik. Daftar tindakan dari artikel/direktori tidak diadopsi sebagai layanan aktual; empat kartu adalah topik pertanyaan. Gelar Sp.KG dipertahankan sesuai nama direktori, tanpa menambah identitas dokter atau jadwal pribadi yang tidak ditemukan. Rating dan ulasan Maps null karena tidak diperiksa langsung. Tidak ada klinik dihubungi; outreach hanya draf, proposal PDF harus benar-benar dilampirkan sebelum pengiriman.",
   "verifikasi_manual": [
     {
       "path": "nama",
@@ -102,7 +119,12 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].jam",
-      "tercatat": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
+      "tercatat": "Senin–Jumat 08.00–10.00 dan 16.00–20.00 WIB; Sabtu–Minggu tutup (direktori; perlu konfirmasi)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Fransiska Andriani, Sp.KG",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

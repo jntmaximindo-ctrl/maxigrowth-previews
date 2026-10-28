@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W2032",
   "nama": {
     "v": "Agung Oembari Dokter Gigi",
-    "src": "https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi",
+    "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi",
     "tgl": "2026-10-29",
     "yakin": "sedang"
   },
@@ -25,16 +25,16 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Agung Oembari Dokter Gigi",
+      "nama": "Surabaya",
       "alamat": {
-        "v": "Jl. Demak 323, Dupak, Krembangan, Surabaya, Jawa Timur 60178",
-        "src": "https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi",
+        "v": "Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178",
+        "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi",
         "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62313538498",
-        "src": "https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi",
+        "src": "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi",
         "tgl": "2026-10-29",
         "yakin": "sedang"
       },
@@ -66,17 +66,14 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Website mandiri resmi belum terverifikasi.",
+    "Layanan, jam dan tarif resmi belum ditemukan."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi, https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi, https://www.ulastempat.com/7-dokter-gigi-di-krembangan-dengan-pelayanan-terbaik/, https://www.semuabis.com/dokter-gigi-mochamad-hasan-bisri-031-3538498, https://www.ulastempat.com/7-dokter-gigi-di-bubutan-dengan-pelayanan-terbaik/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi dari riset lama. Halaman detail dan indeks Cybo berhasil dibaca ulang 29 Oktober 2026: nama, alamat dan telepon tetap cocok. Dua halaman Cybo merupakan satu penerbit, bukan verifikasi independen. Ulastempat Krembangan/Bubutan gagal 500 dan SemuaBis gagal 429; URL gagal hanya jejak upaya, bukan dasar fakta. Nomor tetap tidak dijadikan WhatsApp. Ponsel resmi, email dan akun sosial belum ditemukan melalui dua mesin pencari serta pembacaan detail direktori. Mochamad Hasan Bisri juga tercantum di alamat dan telepon sama; identitas kedua dokter tidak disamakan. Daftar dokter, tindakan, jadwal dan asuransi belum terkonfirmasi sehingga kosong. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Penyusun pertanyaan lokasi dan jadwal konsultasi.",
+  "catatan": "Dibaca 29 Oktober 2026. Melanjutkan surat revisi. Cybo daftar kode pos menampilkan nama, alamat Demak323 dan0313538498; Totoks menampilkan nama dan telepon sama. Halaman khusus Cybo tidak dapat diakses; daftar kode pos berhasil dibaca. SemuaBis mencantumkan dokter lain Mochamad Hasan Bisri di alamat dan nomor sama; tidak menyamakan identitas dokter. Pencarian nama+WA/email tidak menemukan ponsel atau email publik. Tidak memakai nomor Malika dari entri tetangga. Hanya telepon tetap tersedia; WA null. Hasil tetap ditulis sesuai instruksi pemilik. harga belum tersedia. Email, layanan, jam dan dokter belum terverifikasi sehingga null atau array kosong. Empat kartu konten adalah informasi administratif. Rating Google Maps tidak diperiksa langsung. Tidak menghubungi klinik. Outreach hanya draf; konsep dan lampiran PDF perlu disiapkan serta diperiksa pemilik sebelum digunakan.",
   "sumber": [
-    "https://bukutelepon.cybo.com/ID-biz/agung-oembari-dokter-gigi",
     "https://bukutelepon.cybo.com/ID-kode-pos/60178_kota-surabaya/dokter-gigi",
-    "https://www.ulastempat.com/7-dokter-gigi-di-krembangan-dengan-pelayanan-terbaik/",
-    "https://www.semuabis.com/dokter-gigi-mochamad-hasan-bisri-031-3538498",
-    "https://www.ulastempat.com/7-dokter-gigi-di-bubutan-dengan-pelayanan-terbaik/"
+    "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-surabaya/"
   ],
   "verifikasi_manual": [
     {
@@ -86,7 +83,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Demak 323, Dupak, Krembangan, Surabaya, Jawa Timur 60178",
+      "tercatat": "Jl. Demak No.323, Dupak, Krembangan, Surabaya 60178",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
