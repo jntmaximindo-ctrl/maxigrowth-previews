@@ -1,0 +1,53 @@
+{
+  "file": "batches/B08/W778/site/index.html",
+  "when": "2026-10-28T05:57:09.910Z",
+  "pass": false,
+  "desktop": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "DIV.rail-t",
+      "DIV.rail-g",
+      "BUTTON",
+      "SPAN",
+      "svg.[object"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  },
+  "mobile": {
+    "overflowX": 0,
+    "kecil": [
+      "Info tentang pratinjau ini (32×32)",
+      "Buka sekarang · tutup 21.00\n— lihat jam  (324×36)",
+      "Periksa gigi (106×38)",
+      "Sakit gigi (91×38)",
+      "Scaling (79×38)",
+      "Behel (67×38)",
+      "INPUT (20×20)",
+      "INPUT (20×20)",
+      "INPUT (20×20)",
+      "Atas (54×34)",
+      "Bawah (67×34)",
+      "Semua (67×34)",
+      "Lewati — saya tidak yakin (150×36)",
+      "Dokter 1 dari 3 (30×30)",
+      "Dokter 2 dari 3 (30×30)"
+    ],
+    "jumlahKecil": 21,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "BUTTON",
+      "DIV.rail-t",
+      "DIV.rail-g",
+      "BUTTON",
+      "SPAN"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  }
+}
