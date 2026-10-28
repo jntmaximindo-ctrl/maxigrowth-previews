@@ -108,5 +108,12 @@
   "sumber": [
     "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/",
     "https://www.ulastempat.com/7-dokter-gigi-di-astana-anyar-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"08-12\", \"sel\": \"08-12\", \"rab\": \"08-12\", \"kam\": \"08-12\", \"jum\": \"08-12\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

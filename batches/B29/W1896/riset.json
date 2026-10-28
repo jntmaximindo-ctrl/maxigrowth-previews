@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.semuabis.com/dental-abadi_1D-0853-3337-6687",
     "https://indonesiaknowledge.com/directory/dental/batam"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Abadi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Bida Ayu, Jl. S. Parman, Mangsang, Kec. Sei Beduk, Kota Batam, Kepulauan Riau 29444, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285333376687",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285333376687",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

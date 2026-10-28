@@ -79,5 +79,32 @@
   "sumber": [
     "https://idalamat.com/alamat/agelsa-dental-care-1060055",
     "https://www.dentalclinics.care/dental-clinic/agelsa-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Agelsa Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Buana Impian I No.8 blok J, Tembesi, Kec. Sagulung, Kota Batam, Kepulauan Riau 29439",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281277674164",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281277674164",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-22\", \"sel\": \"10-22\", \"rab\": \"10-22\", \"kam\": \"10-22\", \"jum\": \"10-22\", \"sab\": \"10-22\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

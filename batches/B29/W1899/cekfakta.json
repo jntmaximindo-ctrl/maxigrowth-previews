@@ -1,0 +1,29 @@
+{
+  "id": "W1899",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/tamidentalcare/",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://tamidentalcare.com/company_profile_TDC_WO.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "email",
+      "tercatat": "kontak@tamidentalcare.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://tamidentalcare.com/company_profile_TDC_WO.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/tami-dental-care-cimahi-1060798 [nama]",
+    "https://idalamat.com/alamat/tami-dental-care-cimahi-1060798 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/tami-dental-care-cimahi-1060798 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/tami-dental-care-cimahi-1060798 [cabang[0].wa]",
+    "https://idalamat.com/alamat/tami-dental-care-cimahi-1060798 [cabang[0].jam]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}
