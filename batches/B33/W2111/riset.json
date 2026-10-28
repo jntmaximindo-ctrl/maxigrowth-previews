@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.semuabis.com/wnd-dental-care-batam-0819-9390-5825",
     "https://alamat.co.id/kesehatan/dokter-gigi/wnd-dental-care-batam-22977.html"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Wnd Dental Care Batam",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Komp. Business Centre No.3-4, Lubuk Baja Kota, Kecamatan Lubuk, Kota Batam, Kepulauan Riau 29444",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281993905825",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281993905825",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

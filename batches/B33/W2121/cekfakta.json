@@ -1,0 +1,42 @@
+{
+  "id": "W2121",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "MDC Dental Center",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gatot Subroto No.31, Jodipan, Kec. Blimbing, Kota Malang, Jawa Timur 65137, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285806548470",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285806548470",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704 [nama]",
+    "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/mdc-dental-center-praktek-dokter-gigi-1062704 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

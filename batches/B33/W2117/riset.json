@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/dokter-gigi-batam-centre-1060030",
     "https://indonesiaknowledge.com/directory/dental/batam/dokter-gigi-batam-centre-batam"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Batam Centre",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Botania 2 Blok B19 No. 07, Botania Road No.2, Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29464",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281277865614",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281277865614",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

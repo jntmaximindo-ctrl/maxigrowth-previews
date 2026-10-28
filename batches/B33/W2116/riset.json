@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.semuabis.com/apotek-kimia-farma-kda-uniba-0811-1067-8373",
     "https://batam.co.id/usaha/klinik/batam-centre/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Kimia Farma KDA Uniba Batam",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Komplek Ruko Kda Blok B No 33-34 Batam Center, Belian, Batam Kota, Batam City, Riau Islands 29462",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281110678373",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281110678373",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
