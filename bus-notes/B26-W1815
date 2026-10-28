@@ -45,10 +45,18 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "10-19",
+          "sel": "10-19",
+          "rab": "10-19",
+          "kam": "10-19",
+          "jum": "10-19",
+          "sab": "10-19",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
       "maps_url": ""
     }
@@ -70,9 +78,16 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Melanjutkan riset lama pada surat revisi. Pemeriksaan ulang 28 Oktober 2026: hanya telepon tetap ditemukan. Ponsel publik belum ditemukan, WA tetap null; jangan mengaktifkan tombol WA berdasarkan telepon tetap. Harga belum tersedia. Email tidak ditemukan setelah dicari pada https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar, https://indonesiaknowledge.com/directory/medical-clinics/makassar. Dokter, tindakan, asuransi dan jadwal individual belum terverifikasi. Dua URL berasal satu penerbit. Tidak menghubungi klinik. Outreach hanya draf; konsep aktif dan proposal PDF diperlukan sebelum pengiriman.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar, https://indonesiaknowledge.com/directory/medical-clinics/makassar. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Profil dan indeks penerbit yang sama bukan verifikasi independen. Pemeriksaan ulang antrean revisi: sumber telepon tetap berhasil dibuka, tetap tidak mengarang WA. Nomor rumah/HP tenaga medis tidak dijadikan kontak administrasi klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar/forte-medical-dental-and-aesthetic-clinic-makassar",
     "https://indonesiaknowledge.com/directory/medical-clinics/makassar"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-19\", \"sel\": \"10-19\", \"rab\": \"10-19\", \"kam\": \"10-19\", \"jum\": \"10-19\", \"sab\": \"10-19\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

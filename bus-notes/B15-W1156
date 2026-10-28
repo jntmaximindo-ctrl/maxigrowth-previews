@@ -45,12 +45,20 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "08-11",
+          "sel": "15-17",
+          "rab": "tutup",
+          "kam": "08-11",
+          "jum": "tutup",
+          "sab": "15-17",
+          "min": "tutup"
+        },
+        "src": "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktik%20drg.%20Endang%20Sariningsih%20Jl.%20Dr.%20Wahidin%20No.36%2C%20RT.03/RW.03%2C%20Saditan%2C%20Kec.%20Brebes%2C%20Kabupaten%20Brebes%2C%20Jawa%20Tengah%2052212"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -70,7 +78,7 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan. Pemeriksaan ulang pada 28 Oktober 2026: telepon tetap masih tercantum pada sumber yang dibaca; tidak ada nomor ponsel baru ditemukan. WA tetap null. Tidak mengubah telepon tetap menjadi WhatsApp. Nilai yang tidak dapat diperiksa ulang dikosongkan. Hasil ditulis karena instruksi pemilik hanya melewati klinik yang sama sekali tidak memiliki nomor.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://www.semuabis.com/drg-endang-sariningsih-0283-671008, https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://www.semuabis.com/drg-endang-sariningsih-0283-671008",
     "https://mediasehat.id/tempat/7-tempat-praktik-dokter-gigi-di-kabupaten-brebes/"
@@ -89,6 +97,11 @@ RISET LAMA:
     {
       "path": "cabang[0].telepon",
       "tercatat": "62283671008",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-11\", \"sel\": \"15-17\", \"rab\": \"tutup\", \"kam\": \"08-11\", \"jum\": \"tutup\", \"sab\": \"15-17\", \"min\": \"tutup\"}",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

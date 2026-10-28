@@ -45,12 +45,20 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "17:30-21:30",
+          "sel": "17:30-21:30",
+          "rab": "17:30-21:30",
+          "kam": "17:30-21:30",
+          "jum": "17:30-21:30",
+          "sab": "17:30-21:30",
+          "min": "tutup"
+        },
+        "src": "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Praktek%20drg.Okky%20S%20Jl.%20Utan%20Kayu%20Raya%20No.100C%2C%20RT.2/RW.9%2C%20Utan%20Kayu%20Utara%2C%20Matraman%2C%20Jakarta%20Timur%2013120"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -70,7 +78,7 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan. Pemeriksaan ulang pada 28 Oktober 2026: telepon tetap masih tercantum pada sumber yang dibaca; tidak ada nomor ponsel baru ditemukan. WA tetap null. Tidak mengubah telepon tetap menjadi WhatsApp. Nilai yang tidak dapat diperiksa ulang dikosongkan. Hasil ditulis karena instruksi pemilik hanya melewati klinik yang sama sekali tidak memiliki nomor.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://idalamat.com/alamat/praktek-drg-okky-s-1060133, https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://idalamat.com/alamat/praktek-drg-okky-s-1060133",
     "https://caribisnis.id/dokter-gigi/jakarta-timur/matraman/praktek-drg-okky-s-matr-imp1"
@@ -89,6 +97,11 @@ RISET LAMA:
     {
       "path": "cabang[0].telepon",
       "tercatat": "62218500478",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17:30-21:30\", \"sel\": \"17:30-21:30\", \"rab\": \"17:30-21:30\", \"kam\": \"17:30-21:30\", \"jum\": \"17:30-21:30\", \"sab\": \"17:30-21:30\", \"min\": \"tutup\"}",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]

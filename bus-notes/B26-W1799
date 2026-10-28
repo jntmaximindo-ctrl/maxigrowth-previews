@@ -45,12 +45,20 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "10-21",
+          "sel": "10-21",
+          "rab": "10-21",
+          "kam": "10-21",
+          "jum": "10-21",
+          "sab": "10-21",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
         "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pelita%20Dental%20Klinik%20Makassar"
+      "maps_url": ""
     }
   ],
   "dokter": [],
@@ -70,9 +78,17 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar, https://indonesiaknowledge.com/directory/dental/makassar. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Profil dan indeks penerbit yang sama bukan verifikasi independen. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan. Pemeriksaan ulang pada 28 Oktober 2026: telepon tetap masih tercantum pada sumber yang dibaca; tidak ada nomor ponsel baru ditemukan. WA tetap null. Tidak mengubah telepon tetap menjadi WhatsApp. Nilai yang tidak dapat diperiksa ulang dikosongkan. Hasil ditulis karena instruksi pemilik hanya melewati klinik yang sama sekali tidak memiliki nomor.",
+  "catatan": "Dibaca 28 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar, https://indonesiaknowledge.com/directory/dental/makassar. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas dan lokasi dari riset lama diperiksa ulang di sumber yang berhasil dibuka pada run ini. Pencarian nomor ponsel dan email belum menemukan kontak yang dapat dicocokkan. Tindakan klinis, fasilitas dan asuransi belum dikonfirmasi; paragraf deskripsi umum direktori tidak dianggap bukti layanan klinik. Profil dan indeks penerbit yang sama bukan verifikasi independen. Pemeriksaan ulang saat antrean kembali: telepon tetap masih tercantum pada halaman yang berhasil dibuka; tidak menebak WA. Hasil melengkapi riset lama sesuai surat revisi. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan. Halaman PDGI mengaitkan drg. Siti Sarah Auliah Amrullah dengan Pelita pada alamat yang sama, tetapi nomor di kolom rumah/HP dokter tidak dianggap nomor administrasi klinik.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
-    "https://indonesiaknowledge.com/directory/dental/makassar"
+    "https://indonesiaknowledge.com/directory/dental/makassar",
+    "https://pdgimakassar.org/anggota-pdgi-cabang-makassar/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
