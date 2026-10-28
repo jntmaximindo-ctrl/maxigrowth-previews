@@ -1,0 +1,142 @@
+{
+  "id": "W2234",
+  "hero": {
+    "judul": {
+      "id": "Siro Dental Clinic Batam",
+      "en": "Siro Dental Clinic Batam"
+    },
+    "sub": {
+      "id": "Informasi kunjungan dari sumber publik. Konfirmasikan detail sebelum datang.",
+      "en": "Publicly listed visit information. Confirm details before attending."
+    },
+    "cta": {
+      "id": "Informasi kunjungan",
+      "en": "Visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi lokasi klinik",
+        "en": "Informasi lokasi klinik"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi pilihan layanan ini kepada klinik sebelum membuat janji.",
+        "en": "Confirm this service's availability before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi pemeriksaan",
+        "en": "Konsultasi pemeriksaan"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi pilihan layanan ini kepada klinik sebelum membuat janji.",
+        "en": "Confirm this service's availability before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan tentang perawatan kosmetik",
+        "en": "Pertanyaan tentang perawatan kosmetik"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi pilihan layanan ini kepada klinik sebelum membuat janji.",
+        "en": "Confirm this service's availability before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi perawatan ortodonti",
+        "en": "Konsultasi perawatan ortodonti"
+      },
+      "ringkas": {
+        "id": "Silakan konfirmasi pilihan layanan ini kepada klinik sebelum membuat janji.",
+        "en": "Confirm this service's availability before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Checklist kunjungan",
+      "en": "Pre-visit checklist"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan terkait jadwal, lokasi, perawatan dan biaya.",
+      "en": "Prepare questions about hours, location, treatments and fees."
+    },
+    "alasan_dipilih": "Tidak mengasumsikan tindakan atau biaya yang belum diverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Ruko Mega Legenda 2 Blok D1 No.001, Batam",
+        "en": "Ruko Mega Legenda 2 Blok D1 No.001, Batam"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor telepon yang dapat diverifikasi belum tersedia.",
+        "en": "No verified public telephone is available."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka klinik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional belum terverifikasi; konfirmasi sebelum datang.",
+        "en": "Opening hours have not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menyediakan WhatsApp?",
+        "en": "Does the clinic offer WhatsApp?"
+      },
+      "a": {
+        "id": "Nomor WhatsApp resmi belum diverifikasi.",
+        "en": "An official WhatsApp number has not been verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa layanan yang dapat ditanyakan?",
+        "en": "Which treatments can I enquire about?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan: Informasi lokasi klinik, Konsultasi pemeriksaan, Pertanyaan tentang perawatan kosmetik, Konsultasi perawatan ortodonti.",
+        "en": "Ask about: Informasi lokasi klinik, Konsultasi pemeriksaan, Pertanyaan tentang perawatan kosmetik, Konsultasi perawatan ortodonti."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan dan perawatan?",
+        "en": "How much do examinations and treatments cost?"
+      },
+      "a": {
+        "id": "Tidak ditemukan daftar harga resmi. Tanyakan biaya sesuai tindakan dan kondisi pasien sebelum perawatan.",
+        "en": "No verified official price list was found. Request a treatment-specific quote before care."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi kunjungan",
+    "en": "Confirm visit information"
+  },
+  "pesan_wa_default": "Halo Siro Dental Clinic Batam, saya ingin menanyakan jadwal kunjungan dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola Siro Dental Clinic Batam, kami dari Maxi Growth Studio menawarkan konsep website informasi pasien untuk ditinjau. Bolehkah kami mengirimkan contoh dan proposal?",
+    "email_subjek": "Konsep website untuk Siro Dental Clinic Batam",
+    "email_isi": "Yth. Pengelola Siro Dental Clinic Batam,\n\nKami dari Maxi Growth Studio ingin menawarkan contoh konsep website informasi praktik untuk ditinjau. Apabila berkenan kami dapat mengirim pratinjau dan proposal.\n\nSalam,\nMaxi Growth Studio"
+  }
+}
