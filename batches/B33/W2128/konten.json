@@ -1,0 +1,132 @@
+{
+  "id": "W2128",
+  "hero": {
+    "judul": {
+      "id": "drg. Michael H, Sp.KG",
+      "en": "drg. Michael H, Sp.KG"
+    },
+    "sub": {
+      "id": "Informasi praktik konservasi gigi di Bromo, Malang. Tanyakan jadwal sebelum datang.",
+      "en": "Information about a conservative dentistry practice on Bromo, Malang. Ask about appointments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi saluran akar",
+        "en": "Root canal consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan rencana perawatan sesuai hasil konsultasi dokter.",
+        "en": "Ask about assessment and a care plan based on the clinician consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Practice location"
+      },
+      "ringkas": {
+        "id": "Direktori mencatat Jalan Bromo No.70, Oro-oro Dowo, Malang.",
+        "en": "A directory lists Jalan Bromo No.70, Oro-oro Dowo, Malang."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan konsultasi",
+        "en": "Consultation needs"
+      },
+      "ringkas": {
+        "id": "Jelaskan kebutuhan Anda dan tanyakan pemeriksaan yang tersedia.",
+        "en": "Describe your needs and ask what assessments are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Tanyakan biaya pemeriksaan dan rencana perawatan sebelum mengambil keputusan.",
+        "en": "Ask about examination and proposed care fees before deciding."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan konsultasi konservasi gigi",
+      "en": "Prepare for a conservative dentistry consultation"
+    },
+    "penjelasan": {
+      "id": "Tuliskan kebutuhan konsultasi dan waktu pilihan untuk meminta konfirmasi jadwal, pemeriksaan, serta biaya.",
+      "en": "Describe your consultation needs and preferred time to request confirmation of appointments, assessment, and fees."
+    },
+    "alasan_dipilih": "Spesialisasi konservasi gigi tercantum pada direktori, sedangkan jadwal antarsumber berbeda sehingga perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik berada?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencatat Jalan Bromo No.70, Oro-oro Dowo, Klojen, Malang. Konfirmasikan lokasi sebelum datang.",
+        "en": "A directory lists Jalan Bromo No.70, Oro-oro Dowo, Klojen, Malang. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Hubungi nomor yang tercantum untuk menanyakan jadwal dokter terbaru.",
+        "en": "Use the listed contact number to ask for the latest clinician schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia di sini. Mintalah rincian sesuai kebutuhan Anda.",
+        "en": "Fees are not available here. Request a breakdown for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya perlukan tersedia?",
+        "en": "Is the care I need available?"
+      },
+      "a": {
+        "id": "Sampaikan kebutuhan Anda agar praktik dapat mengonfirmasi tindakan dan jadwal.",
+        "en": "Describe your needs so the practice can confirm care options and appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Tanyakan jenis asuransi dan ketentuan pembayaran sebelum kunjungan.",
+        "en": "Ask about accepted insurance and payment arrangements before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Ask about appointment times and your visit needs."
+  },
+  "pesan_wa_default": "Halo praktik drg. Michael H, saya ingin menanyakan konsultasi di Bromo No.70, Malang. Mohon konfirmasi jadwal dokter, pemeriksaan yang tersedia, dan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola praktik drg. Michael H. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Direktori mencantumkan spesialisasi konservasi gigi dan lokasi Bromo No.70. Kami sudah membuat konsep website informasi kunjungan: https://maxigrowthstudio.com/drg-michael. Silakan ditinjau saat berkenan. WA 082141004400; info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website praktik drg. Michael H",
+    "email_isi": "Halo Bapak/Ibu pengelola praktik drg. Michael H,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Spesialisasi konservasi gigi dan lokasi Bromo No.70 yang tercantum di direktori menjadi dasar konsep informasi kunjungan. Kami sudah membuat konsep website untuk ditinjau: https://maxigrowthstudio.com/drg-michael.\n\nProposal PDF terlampir. Silakan ditinjau saat berkenan; kami terbuka terhadap koreksi informasi praktik.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

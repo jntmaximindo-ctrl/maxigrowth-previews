@@ -1,0 +1,132 @@
+{
+  "id": "W2135",
+  "hero": {
+    "judul": {
+      "id": "Drg Christianie Sp Perio",
+      "en": "Drg Christianie Sp Perio"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan untuk kunjungan perawatan gigi Anda di Solo.",
+      "en": "Prepare your questions for a dental visit in Solo."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan gusi",
+        "en": "Gum care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan kondisi gusi dan pilihan penanganannya.",
+        "en": "Ask about a gum assessment and care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan jadwal pemeriksaan.",
+        "en": "Ask about scaling availability and an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan setelah pemeriksaan.",
+        "en": "Ask about filling options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan periodontal lanjutan",
+        "en": "Further periodontal care"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan jaringan penyangga gigi sebelum merencanakan perawatan.",
+        "en": "Ask about an assessment of the tissues supporting your teeth before planning care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare for your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih lokasi, waktu dan topik pertanyaan. Susun pesan WhatsApp untuk meminta konfirmasi petugas sebelum datang.",
+      "en": "Choose a location, time and questions. Prepare a WhatsApp message to request confirmation before visiting."
+    },
+    "alasan_dipilih": "Membantu mengonfirmasi lokasi, jadwal dan biaya tanpa menetapkan diagnosis atau menjanjikan hasil."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak yang tercantum dengan menyebutkan lokasi tujuan dan waktu yang diinginkan. Tunggu konfirmasi sebelum datang.",
+        "en": "Contact the listed number with your intended location and preferred time. Wait for confirmation before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal dokter dan lokasi sebelum berangkat, termasuk pada hari libur.",
+        "en": "Confirm the dentist’s availability and location before travelling, including on public holidays."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia di halaman ini. Tanyakan biaya pemeriksaan dan perkiraan tindakan; rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "A price list is not available here. Ask about examination fees and treatment estimates; a care plan follows an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia dan manfaat polis Anda untuk dikonfirmasi.",
+        "en": "Insurance arrangements have not been verified. Ask about your provider and policy benefits."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan dan catatan perawatan sebelumnya bila ada. Tanyakan persyaratan kunjungan melalui kontak yang tercantum.",
+        "en": "Prepare your questions and any previous dental records. Ask the listed contact about visit requirements."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan ketersediaan kunjungan melalui WhatsApp",
+    "en": "Ask about appointment availability on WhatsApp"
+  },
+  "pesan_wa_default": "Halo Drg Christianie Sp Perio, saya ingin menanyakan lokasi, jadwal kunjungan dan biaya pemeriksaan. Mohon informasi ketersediaan waktu dan persiapan sebelum datang. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola Drg Christianie Sp Perio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Anda di Solo. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-christianie. Konsep ini membantu menyajikan informasi kunjungan dan kontak. Silakan ditinjau bila berkenan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website Drg Christianie Sp Perio",
+    "email_isi": "Yth. pengelola Drg Christianie Sp Perio,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Anda di Solo menjadi dasar konsep website yang kami siapkan: https://maxigrowthstudio.com/drg-christianie. Konsep ini menyajikan informasi kunjungan dan kontak.\n\nDraf ini menyebut proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau konsep tersebut bila berkenan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

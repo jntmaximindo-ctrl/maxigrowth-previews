@@ -1,0 +1,132 @@
+{
+  "id": "W2124",
+  "hero": {
+    "judul": {
+      "id": "B Dental Malang",
+      "en": "B Dental Malang"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan untuk kunjungan perawatan gigi Anda di Malang.",
+      "en": "Prepare your questions for a dental visit in Malang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan ortodonti",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian kebutuhan perawatan kawat gigi.",
+        "en": "Ask about an orthodontic assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Fissure sealant",
+        "en": "Fissure sealant"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian dan ketersediaan perawatan penutup celah gigi setelah pemeriksaan.",
+        "en": "Ask about suitability and availability of fissure sealants after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Mahkota gigi",
+        "en": "Dental crowns"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan mahkota gigi dan tahapan pemeriksaannya.",
+        "en": "Ask about crown options and assessment steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi reservasi",
+        "en": "Appointment enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan jadwal dan persiapan kunjungan.",
+        "en": "Ask about appointment availability and visit preparation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare for your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih lokasi, waktu dan topik pertanyaan. Susun pesan WhatsApp untuk meminta konfirmasi petugas sebelum datang.",
+      "en": "Choose a location, time and questions. Prepare a WhatsApp message to request confirmation before visiting."
+    },
+    "alasan_dipilih": "Membantu mengonfirmasi lokasi, jadwal dan biaya tanpa menetapkan diagnosis atau menjanjikan hasil."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I request an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak yang tercantum dengan menyebutkan lokasi tujuan dan waktu yang diinginkan. Tunggu konfirmasi sebelum datang.",
+        "en": "Contact the listed number with your intended location and preferred time. Wait for confirmation before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Konfirmasikan jadwal dokter dan lokasi sebelum berangkat, termasuk pada hari libur.",
+        "en": "Confirm the dentist’s availability and location before travelling, including on public holidays."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya kunjungan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Daftar harga belum tersedia di halaman ini. Tanyakan biaya pemeriksaan dan perkiraan tindakan; rencana perawatan ditentukan setelah pemeriksaan.",
+        "en": "A price list is not available here. Ask about examination fees and treatment estimates; a care plan follows an examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Sebutkan penyedia dan manfaat polis Anda untuk dikonfirmasi.",
+        "en": "Insurance arrangements have not been verified. Ask about your provider and policy benefits."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Siapkan pertanyaan dan catatan perawatan sebelumnya bila ada. Tanyakan persyaratan kunjungan melalui kontak yang tercantum.",
+        "en": "Prepare your questions and any previous dental records. Ask the listed contact about visit requirements."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan ketersediaan kunjungan melalui WhatsApp",
+    "en": "Ask about appointment availability on WhatsApp"
+  },
+  "pesan_wa_default": "Halo B Dental Malang, saya ingin menanyakan lokasi, jadwal kunjungan dan biaya pemeriksaan. Mohon informasi ketersediaan waktu dan persiapan sebelum datang. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, pengelola B Dental Malang. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi Anda di Malang. Kami sudah membuat konsep website untuk ditinjau di https://maxigrowthstudio.com/b-malang. Konsep ini membantu menyajikan informasi kunjungan dan kontak. Silakan ditinjau bila berkenan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website B Dental Malang",
+    "email_isi": "Yth. pengelola B Dental Malang,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi lokasi Anda di Malang menjadi dasar konsep website yang kami siapkan: https://maxigrowthstudio.com/b-malang. Konsep ini menyajikan informasi kunjungan dan kontak.\n\nDraf ini menyebut proposal PDF terlampir; lampiran perlu disiapkan sebelum pengiriman. Silakan meninjau konsep tersebut bila berkenan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

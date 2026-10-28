@@ -1,0 +1,132 @@
+{
+  "id": "W2129",
+  "hero": {
+    "judul": {
+      "id": "HK Dentist",
+      "en": "HK Dentist"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan",
+        "en": "Ask about examinations"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan alur pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask which examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal",
+        "en": "Ask about appointments"
+      },
+      "ringkas": {
+        "id": "Ajukan hari pilihan dan tunggu konfirmasi klinik sebelum berangkat.",
+        "en": "Share your preferred day and wait for confirmation before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya pemeriksaan dan tindakan yang disarankan.",
+        "en": "Request a breakdown of examination and proposed treatment costs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan persiapan",
+        "en": "Ask how to prepare"
+      },
+      "ringkas": {
+        "id": "Tanyakan dokumen dan informasi riwayat kesehatan yang perlu dibawa.",
+        "en": "Ask which documents and medical history details to bring."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasi kunjungan Minggu di Nusakambangan",
+      "en": "Confirm a Sunday visit on Nusakambangan"
+    },
+    "penjelasan": {
+      "id": "Susun pesan untuk menanyakan ketersediaan kunjungan Minggu, nama dokter dan biaya pemeriksaan. Jam direktori bukan kepastian slot; tunggu konfirmasi klinik.",
+      "en": "Draft a message asking about Sunday availability, the dentist and examination costs. Directory hours do not confirm an appointment; wait for the clinic’s response."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam Minggu lebih pendek daripada hari lain; konfirmasi hari dan petugas membantu perencanaan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum: Jl. Nusakambangan No.21 B, Kasin, Kecamatan Klojen, Kota Malang, Jawa Timur 65117. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Listed location: Jl. Nusakambangan No.21 B, Kasin, Kecamatan Klojen, Kota Malang, Jawa Timur 65117. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–21.00 dan Minggu 09.00–15.00 WIB. Pastikan waktu kunjungan dan dokter yang tersedia.",
+        "en": "A directory lists Monday–Saturday 9 am–9 pm and Sunday 9 am–3 pm WIB. Confirm your visiting time and dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar dokter dan jadwal terkini di lokasi Nusakambangan belum terkonfirmasi. Tanyakan nama dokter yang bertugas sebelum membuat janji.",
+        "en": "The current dentist roster and schedules at Nusakambangan are unconfirmed. Ask who is on duty before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo HK Dentist, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen HK Dentist, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Nusakambangan, Kasin dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/hk-dentist. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website HK Dentist",
+    "email_isi": "Yth. Manajemen HK Dentist,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Nusakambangan, Kasin dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/hk-dentist. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

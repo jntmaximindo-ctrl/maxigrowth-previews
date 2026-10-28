@@ -1,0 +1,132 @@
+{
+  "id": "W2130",
+  "hero": {
+    "judul": {
+      "id": "Dent Artistry",
+      "en": "Dent Artistry"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan sebelum kunjungan. Konfirmasikan alamat, jadwal dan kebutuhan pemeriksaan kepada klinik.",
+      "en": "Prepare your questions before visiting. Confirm the location, appointment time and examination needs with the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan ketersediaan pembersihan karang gigi.",
+        "en": "Ask about assessment and scaling availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan penambalan setelah kondisi gigi diperiksa.",
+        "en": "Discuss filling needs after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan gigi tiruan lepasan atau cekat sesuai penilaian dokter.",
+        "en": "Ask about removable or fixed tooth replacement options after assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan ortodontik",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan pilihan alat yang sesuai kebutuhan.",
+        "en": "Ask about an initial assessment and suitable appliance options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih sesi kunjungan Suropati",
+      "en": "Choose a Suropati visiting session"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan untuk sesi pagi atau sore dan konfirmasikan waktu melalui kontak klinik. Permintaan bukan janji yang sudah disetujui.",
+      "en": "Prepare questions for a morning or afternoon visit and confirm the time with the clinic. A request is not an approved appointment."
+    },
+    "alasan_dipilih": "Sumber mencantumkan jeda antarsesi dan kontak berbeda; fitur membantu konfirmasi penerima serta waktu datang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum: Jl. Suropati No.28, Klojen, Kecamatan Klojen, Kota Malang, Jawa Timur 65111. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Listed location: Jl. Suropati No.28, Klojen, Kecamatan Klojen, Kota Malang, Jawa Timur 65111. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Dua sumber mencantumkan Senin–Sabtu 08.00–13.00 dan 15.00–20.00, Minggu 08.00–13.00 WIB. Pastikan jadwal terkini sebelum datang.",
+        "en": "Two sources list Monday–Saturday 8 am–1 pm and 3–8 pm, Sunday 8 am–1 pm WIB. Confirm current hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tindakan yang saya butuhkan tersedia?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Liputan tahun 2023 menyebut drg. Olivia Budianto dan drg. Albert Budianto. Tanyakan nama dokter serta jadwal terkini kepada klinik.",
+        "en": "A 2023 report names drg. Olivia Budianto and drg. Albert Budianto. Ask the clinic for its current dentist roster and schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Dent Artistry, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Dent Artistry, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Jalan Suropati dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/dent-artistry. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Dent Artistry",
+    "email_isi": "Yth. Manajemen Dent Artistry,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Jalan Suropati dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/dent-artistry. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
