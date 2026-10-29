@@ -96,5 +96,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
     "https://bukutelepon.cybo.com/ID-biz/drg-boudy"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Boudy",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Magelang - Yogyakarta, Krapyak, Triharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55514 (plus code 883W+P7M)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289952578818",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289952578818",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Boudy",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

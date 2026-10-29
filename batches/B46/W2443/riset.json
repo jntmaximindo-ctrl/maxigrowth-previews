@@ -90,5 +90,37 @@
     "https://doktertanya.com/dokter-gigi-tegal/",
     "https://fixpalembang.com/dokter-gigi-tegal/",
     "https://lynk.id/klinikgigidentes"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Dentes Tegal",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/klinikgigidentes/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kompol Suprapto No.9, Gang Janoko, Kemandungan, Tegal Barat, Kota Tegal, Jawa Tengah 52133",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285900017878",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285900017878",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

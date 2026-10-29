@@ -1,0 +1,50 @@
+{
+  "id": "W2456",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Boudy",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Magelang - Yogyakarta, Krapyak, Triharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55514 (plus code 883W+P7M)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289952578818",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289952578818",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Boudy",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

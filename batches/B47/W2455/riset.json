@@ -106,5 +106,12 @@
     "https://andinidental.com/kontak/",
     "https://andinidental.com/layanan-kami/",
     "https://andinidental.com/estimasi-biaya-gigi-palsu/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Griya Taman Asri No.103, Pandowoharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

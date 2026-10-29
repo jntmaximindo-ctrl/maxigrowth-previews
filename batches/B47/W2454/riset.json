@@ -96,5 +96,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
     "https://bukutelepon.cybo.com/ID-biz/praktik-drg-dewi-wijayanti"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Dewi Wijayanti",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pandowoharjo No.9, Niron, Pandowoharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55512",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281328652006",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281328652006",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Dewi Wijayanti",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

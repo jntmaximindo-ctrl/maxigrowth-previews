@@ -1,0 +1,50 @@
+{
+  "id": "W2453",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Pramestya Dental",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Tlacap, Grojogan, Pandowoharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55512",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281225437852",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Pramestya-Dental-829207/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281225437852",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Pramestya-Dental-829207/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16:30-20\", \"sel\": \"16:30-20\", \"rab\": \"16:30-20\", \"kam\": \"16:30-20\", \"jum\": \"16:30-20\", \"sab\": \"16:30-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://vymaps.com/ID/Pramestya-Dental-829207/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi [cabang[0].alamat]",
+    "https://vymaps.com/ID/Pramestya-Dental-829207/ [cabang[0].telepon]",
+    "https://vymaps.com/ID/Pramestya-Dental-829207/ [cabang[0].wa]",
+    "https://vymaps.com/ID/Pramestya-Dental-829207/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

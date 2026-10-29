@@ -96,5 +96,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
     "https://www.kemkes.go.id/id/rumah-sakit-boleh-beriklan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi drg. Dewi Widowati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Magelang Km 5, RT.04/RW.17, Kutu Asem, Sinduadi, Kec. Mlati, Kabupaten Sleman, DI Yogyakarta 55284",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285801015899",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285801015899",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Dewi Widowati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
