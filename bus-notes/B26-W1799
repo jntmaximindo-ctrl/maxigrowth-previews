@@ -6,7 +6,7 @@ RISET LAMA:
   "nama": {
     "v": "Pelita Dental Klinik",
     "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "kota": "Makassar",
@@ -14,13 +14,13 @@ RISET LAMA:
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "cabang": [
@@ -29,37 +29,40 @@ RISET LAMA:
       "alamat": {
         "v": "Jl. Sungai Saddang Baru, Komplek Timu Rama A10 No.9, Balla Parang, Makassar, Sulawesi Selatan 90232",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62411440428",
         "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-28",
-        "yakin": "rendah"
+        "v": {
+          "sen": "10:00-21:00",
+          "sel": "10:00-21:00",
+          "rab": "10:00-21:00",
+          "kam": "10:00-21:00",
+          "jum": "10:00-21:00",
+          "sab": "10:00-21:00",
+          "min": "tutup"
+        },
+        "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
       },
-      "maps_url": null
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pelita%20Dental%20Klinik%20Makassar"
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Konsultasi dokter gigi",
-    "Informasi jadwal drg. Siti Sarah Auliah Amrullah (daftar PDGI historis)",
-    "Pertanyaan jenis perawatan gigi",
-    "Konfirmasi lokasi dan pendaftaran"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -67,16 +70,23 @@ RISET LAMA:
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-28"
+    "tgl": "2026-10-29"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Situs resmi mandiri belum dapat dibuktikan."
+    "Website khusus klinik belum ditemukan melalui pencarian nama dan kontak."
   ],
-  "ide_fitur_khas": "Informasi lokasi dan jam dari sumber spesifik serta pertanyaan kunjungan sesuai kondisi klinik.",
-  "catatan": "Daftar anggota PDGI Makassar memuat Pelita Dental Clinic di kompleks Timu Rama A10 No.9 dan afiliasi drg. Siti Sarah Auliah Amrullah, tetapi afiliasi mungkin historis. Kontak telepon pada direktori tidak dibuktikan WhatsApp. Harga resmi tidak ditemukan. Data yang tidak terverifikasi dibiarkan null; maps_url untuk B17 menggunakan URL peta dan bukan nilai null demi tipe schema.\nRevisi kontak tahap 9: nomor telepon yang punya URL asal dipertahankan sebagai TELEPON, bukan bukti nomor WhatsApp; jika bukti kontak tidak memadai, nilai null. Sumber memakai URL asli hasil riset sebelumnya, tidak diklaim verifikasi langsung baru.",
+  "ide_fitur_khas": "Ringkasan lokasi kompleks dan jam WITA dengan tombol telepon untuk konfirmasi, tanpa mengandalkan daftar dokter historis.",
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
     "https://pdgimakassar.org/anggota-pdgi-cabang-makassar/"
+  ],
+  "catatan": "Revisi 29 Oktober 2026 mempertahankan alamat dan telepon tetap 0411440428 (normalisasi 62411440428) setelah Indonesia Knowledge dibaca ulang. Halaman menyatakan data terakhir diperiksa 6 Agustus 2026; jam ditambahkan berdasarkan halaman itu, bukan konfirmasi langsung. PDGI Makassar dibuka dan mencantumkan drg. Siti Sarah Auliah Amrullah terkait alamat Pelita yang sama pada daftar lama. Nomor HP di kolom rumah dokter tidak dianggap nomor admin klinik; hasil pencarian profil profesional memberi indikasi afiliasi Pelita berakhir Maret2022, sementara profil tidak dapat dibuka karena robots. Karena itu dokter dan nomor pribadi historis tidak dijadikan roster/kontak klinik aktif. Pencarian dua mesin nama+Makassar+WhatsApp/email/08 tidak menemukan ponsel klinik; WA dan email null. Pelita Dental Care Cikarang dan Pelita Dental Clinic Sulawesi Tengah adalah entitas berbeda. harga belum tersedia. Layanan, fasilitas, asuransi dan rating Maps belum dikonfirmasi langsung; empat kartu adalah pertanyaan administratif. Tidak ada klinik dihubungi; outreach hanya draf, PDF harus dilampirkan nyata sebelum pengiriman. Pembacaan ulang 29 Oktober 2026 sore: nomor tetap 0411440428 masih tercantum. Email tidak ditemukan setelah dicari di kedua halaman sumber yang dibuka dan pencarian nama+Makassar+email/Instagram/WhatsApp. Paket tetap dibuat karena telepon publik tersedia; WA tidak ditebak.",
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:00-21:00\", \"sel\": \"10:00-21:00\", \"rab\": \"10:00-21:00\", \"kam\": \"10:00-21:00\", \"jum\": \"10:00-21:00\", \"sab\": \"10:00-21:00\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

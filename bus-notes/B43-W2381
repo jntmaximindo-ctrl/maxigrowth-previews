@@ -25,9 +25,9 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Dentist Ernawati — listing Jl. Tuparev",
+      "nama": "Dentist Ernawati",
       "alamat": {
-        "v": "Jl. Tuparev, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312",
+        "v": "Jl. Tuparev, Nagasari, Karawang Barat, Karawang 41312",
         "src": "https://bukutelepon.cybo.com/ID/karawang-(kota)/dokter-gigi",
         "tgl": "2026-10-29",
         "yakin": "sedang"
@@ -59,18 +59,18 @@ RISET LAMA:
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 4.6,
-    "ulasan": 9,
-    "src": "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
+    "rating": null,
+    "ulasan": null,
+    "src": null,
     "tgl": "2026-10-29"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Situs resmi untuk listing Jl. Tuparev belum ditemukan.",
-    "Nomor pada direktori bertabrakan dengan nomor bisnis lain sehingga kontak perlu pembaruan."
+    "Situs resmi untuk entri Tuparev belum ditemukan.",
+    "Nomor publik yang dilaporkan direktori juga muncul pada Toko Cilik; identitas pemilik kontak belum dapat dipastikan."
   ],
-  "ide_fitur_khas": "Halaman verifikasi alamat dan kontak dengan status informasi perlu dikonfirmasi sebelum kunjungan.",
-  "catatan": "harga belum tersedia. Revisi: Cybo masih mencantumkan telepon tetap 0267407814 untuk listing Tuparev, tetapi nomor identik juga dipakai listing Toko Cilik. Disimpan hanya sebagai nomor yang dilaporkan direktori dengan keyakinan rendah, bukan kontak klinik yang terverifikasi. WA null, tidak mengubah telepon tetap menjadi WA. Jangan memakai nomor ini untuk outreach sebelum konfirmasi pemilik. Nomor 081316536256 adalah listing Emawati Palumbonsari berbeda dan tidak digabung. email tidak ditemukan setelah penelusuran Cybo dan Semuabis. Jam, dokter dan layanan tidak diasumsikan. Konten administratif, tanpa nomor yang meragukan ditampilkan sebagai kepastian. Tidak ada klinik dihubungi.",
+  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
+  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://bukutelepon.cybo.com/ID/karawang-(kota)/dokter-gigi, https://www.semuabis.com/toko-cilik_17Z-0267-407814. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Nomor0267407814 dicantumkan Cybo untuk Dentist Ernawati, tetapi SemuaBis juga mengaitkannya dengan TokoCilik Tuparev274. Simpan sebagai laporan direktori berkeyakinan rendah; bukan kepastian kontak klinik. Nomor tidak ditampilkan sebagai kontak pasti pada konten. Jangan gunakan untuk outreach sebelum pemilik memastikan identitas. Nomor081316536256 adalah Emawati/Darussalam9Palumbonsari berbeda entri dan tidak digabung. Jam dan dokter tidak diasumsikan. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://bukutelepon.cybo.com/ID/karawang-(kota)/dokter-gigi",
     "https://www.semuabis.com/toko-cilik_17Z-0267-407814"
@@ -83,7 +83,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Tuparev, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312",
+      "tercatat": "Jl. Tuparev, Nagasari, Karawang Barat, Karawang 41312",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
