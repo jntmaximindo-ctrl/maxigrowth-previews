@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W2414",
   "nama": {
     "v": "Kandou Roy Drg",
-    "src": "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
+    "src": "https://bukutelepon.cybo.com/ID-biz/kandou-roy-drg",
     "tgl": "2026-10-29",
     "yakin": "sedang"
   },
@@ -27,16 +27,16 @@ RISET LAMA:
     {
       "nama": "Kandou Roy Drg",
       "alamat": {
-        "v": "Jl. Manyar Kertoarjo 106, Surabaya",
-        "src": "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
+        "v": "Jl. Manyar Kertoarjo 106, Surabaya, Jawa Timur",
+        "src": "https://bukutelepon.cybo.com/ID-biz/kandou-roy-drg",
         "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62315923416",
-        "src": "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
+        "src": "https://bukutelepon.cybo.com/ID-biz/kandou-roy-drg",
         "tgl": "2026-10-29",
-        "yakin": "sedang"
+        "yakin": "tinggi"
       },
       "wa": {
         "v": null,
@@ -66,14 +66,31 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Situs resmi mandiri tidak berhasil diverifikasi pada penelusuran 29 Oktober 2026.",
+    "Informasi tarif dan reservasi daring resmi belum ditemukan pada sumber yang dibaca."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "harga belum tersedia. Revisi dibaca ulang 29 Oktober 2026: hanya telepon tetap ditemukan; WA null. Email tidak ditemukan setelah penelusuran sumber yang dicantumkan. Nama dokter, jenis tindakan dan jam individual tidak diasumsikan. Konten adalah panduan administratif. Tidak menghubungi klinik. Outreach hanya draf, konsep dan lampiran perlu disiapkan sebelum digunakan.",
+  "ide_fitur_khas": "Halaman petunjuk lokasi dan konfirmasi jadwal praktik melalui telepon",
+  "catatan": "Cybo dan Tetanggamu menulis nomor 106, sedangkan AlamatSehat menulis nomor 104 pada jalan yang sama. Alamat dipilih dari dua sumber yang konsisten, tetapi nomor bangunan harus dikonfirmasi. Telepon (031) 5923416 adalah nomor tetap, bukan ponsel; wa null. Email tidak ditemukan setelah dicari pada Cybo, Tetanggamu, AlamatSehat. Harga belum tersedia. Jadwal, nama dokter lengkap dan tindakan spesifik belum terverifikasi. Kontak telepon tetap dipertahankan sebagai telepon; tidak dikonversi menjadi WhatsApp. Sumber diakses 2026-10-29. Tidak ada klinik dihubungi.",
   "sumber": [
-    "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
     "https://bukutelepon.cybo.com/ID-biz/kandou-roy-drg",
-    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/"
+    "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
+    "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-surabaya/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Kandou Roy Drg",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Manyar Kertoarjo 106, Surabaya, Jawa Timur",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62315923416",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
