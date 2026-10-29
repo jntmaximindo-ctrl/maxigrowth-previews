@@ -25,9 +25,9 @@ RISET LAMA:
   },
   "cabang": [
     {
-      "nama": "Disie Dental Care",
+      "nama": "Wahidin",
       "alamat": {
-        "v": "Jl. Wahidin No.85 C, Pandau Hulu II, Kec. Medan Area, Kota Medan, Sumatera Utara 20211",
+        "v": "Jl. Wahidin No.85 C, Pandau Hulu II, Kecamatan Medan Area, Kota Medan, Sumatera Utara 20211",
         "src": "https://www.semuabis.com/disie-dental-care-061-4577619",
         "tgl": "2026-10-29",
         "yakin": "sedang"
@@ -50,7 +50,7 @@ RISET LAMA:
         "tgl": "2026-10-29",
         "yakin": "rendah"
       },
-      "maps_url": ""
+      "maps_url": null
     }
   ],
   "dokter": [],
@@ -66,11 +66,11 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Situs mandiri belum ditemukan; direktori mengarahkan ke Facebook yang tidak dapat dibaca karena throttling.",
+    "Jadwal operasional direktori saling berbeda dan mengandung jam Selasa yang tidak wajar."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi dibaca ulang 29 Oktober 2026. Nama, alamat, telepon tetap dan email terbaca pada SemuaBis; nomor dan alamat juga cocok Indonesia Knowledge. Jam null karena SemuaBis memuat Selasa09.00–08.30 yang tidak wajar dan berbeda dengan Indonesia Knowledge09.30–20.00. Ponsel belum ditemukan pada sumber yang dibaca dan pencarian nama+WhatsApp. Cabang Cemara Asri tidak ditambahkan tanpa status operasional jelas. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Daftar pertanyaan sebelum menghubungi praktik Wahidin melalui telepon atau email.",
+  "catatan": "REVISI melanjutkan riset lama. SemuaBis dan Indonesia Knowledge dibuka ulang 29 Oktober 2026, nama/alamat/telepon tetap cocok. Email disiedentalcare@gmail.com tertulis jelas di SemuaBis. Nomor ponsel belum ditemukan pada dua sumber, pencarian nama+WA/ponsel melalui dua mesin dan Facebook yang mengalami throttling. Telepon tetap 0614577619 dinormalisasi 62614577619, bukan nomor ponsel sehingga wa null; paket tetap ditulis sesuai aturan hanya melewati klinik tanpa nomor sama sekali. Jam null: SemuaBis mencantumkan Selasa 09.00–08.30 yang tidak wajar dan berbeda dengan direktori kedua. Dokter dan tindakan tidak disimpulkan dari testimoni. Empat kartu konten berupa informasi administratif, bukan klaim empat prosedur tersedia. Cabang lain tidak ditambahkan tanpa bukti operasional. harga belum tersedia. Rating/ulasan Maps belum terlihat langsung sehingga null. Tidak menghubungi klinik. Konsep dan PDF harus tersedia sebelum penggunaan draf outreach.",
   "sumber": [
     "https://www.semuabis.com/disie-dental-care-061-4577619",
     "https://indonesiaknowledge.com/directory/dental/medan/disie-dental-care-medan"
@@ -88,7 +88,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Wahidin No.85 C, Pandau Hulu II, Kec. Medan Area, Kota Medan, Sumatera Utara 20211",
+      "tercatat": "Jl. Wahidin No.85 C, Pandau Hulu II, Kecamatan Medan Area, Kota Medan, Sumatera Utara 20211",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
