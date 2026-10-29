@@ -1,16 +1,16 @@
 {
- "diperbarui": "2026-10-29T23:59:45+07:00",
+ "diperbarui": "2026-10-30T00:14:42+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
- "akhir_hari": "2026-10-29T23:59:00+07:00",
+ "akhir_hari": "2026-10-30T23:59:00+07:00",
  "total_klinik_di_batch": 1718,
  "klinik_status_lain": 76,
- "siap_reachout_hari_ini": 308,
+ "siap_reachout_hari_ini": 0,
  "tahap": {
   "cari": null,
-  "riset": 115,
-  "cek_fakta": 0,
+  "riset": 96,
+  "cek_fakta": 19,
   "rakit": 4,
   "qa": 1,
   "deploy": 0,
@@ -19,12 +19,12 @@
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 2,
-  "cek_fakta": 3,
-  "rakit": 3,
-  "qa": 3,
-  "deploy": 3,
-  "review": 13
+  "riset": 18,
+  "cek_fakta": 13,
+  "rakit": 13,
+  "qa": 13,
+  "deploy": 13,
+  "review": 14
  },
  "pekerja": [
   {
@@ -83,30 +83,30 @@
   {
    "tingkat": "kritis",
    "judul": "Antrean riset menumpuk",
-   "detail": "115 klinik menunggu di tahap riset.",
+   "detail": "96 klinik menunggu di tahap riset.",
    "teks_perbaikan": "Periksa pekerja tahap riset dan dorong sampai antrean turun."
   }
  ],
  "kemarin": {
-  "tanggal": "2026-10-28",
+  "tanggal": "2026-10-29",
   "lulus_akhir": {
-   "riset": 1219,
-   "cek_fakta": 1219,
-   "rakit": 1215,
-   "qa": 1214,
-   "deploy": 1214,
-   "review": 1202,
+   "riset": 1527,
+   "cek_fakta": 1527,
+   "rakit": 1523,
+   "qa": 1522,
+   "deploy": 1522,
+   "review": 1510,
    "siap_reachout": 0
   },
-  "siap_reachout_akhir": 1202,
+  "siap_reachout_akhir": 1510,
   "tambahan_hari_itu": {
-   "riset": 424,
-   "cek_fakta": 472,
-   "rakit": 496,
-   "qa": 497,
-   "deploy": 497,
-   "review": 485,
-   "siap_reachout": 485
+   "riset": 308,
+   "cek_fakta": 308,
+   "rakit": 308,
+   "qa": 308,
+   "deploy": 308,
+   "review": 308,
+   "siap_reachout": 308
   }
  },
  "harian": [
@@ -174,6 +174,28 @@
     "deploy": 308,
     "review": 308,
     "siap_reachout": 308
+   }
+  },
+  {
+   "tanggal": "2026-10-30",
+   "lulus_akhir": {
+    "riset": 1546,
+    "cek_fakta": 1527,
+    "rakit": 1523,
+    "qa": 1522,
+    "deploy": 1522,
+    "review": 1510,
+    "siap_reachout": 0
+   },
+   "siap_reachout_akhir": 1510,
+   "tambahan_hari_itu": {
+    "riset": 19,
+    "cek_fakta": 0,
+    "rakit": 0,
+    "qa": 0,
+    "deploy": 0,
+    "review": 0,
+    "siap_reachout": 0
    }
   }
  ]
