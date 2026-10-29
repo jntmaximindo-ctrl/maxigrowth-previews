@@ -1,0 +1,51 @@
+{
+  "id": "W2557",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Care drg. Dewi Restuani",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-Aug24.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentalcaredrg.dewirestuani/",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://bpjs.ca/dokter-gigi-banyuwangi/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "email",
+      "tercatat": "dewi.dentist08@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-Aug24.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Brawijaya Residence Blok Anggrek No.03, Kebalenan, Kecamatan Banyuwangi, Kabupaten Banyuwangi, Jawa Timur",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-Aug24.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281335454526",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-Aug24.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Dewi Restuani",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-Aug24.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

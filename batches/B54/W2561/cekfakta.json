@@ -1,0 +1,19 @@
+{
+  "id": "W2561",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/javasdentalcare/",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://bpjs.ca/dokter-gigi-bojonegoro/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/javas-dental-clinic-1062367 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/javas-dental-clinic-1062367 [cabang[0].telepon]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "W2558",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/osingdental/",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://bpjs.ca/dokter-gigi-banyuwangi/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/osing-dental-praktik-dokter-gigi-0853-3636-7367 [nama]",
+    "https://www.semuabis.com/osing-dental-praktik-dokter-gigi-0853-3636-7367 [cabang[0].alamat]",
+    "https://www.semuabis.com/osing-dental-praktik-dokter-gigi-0853-3636-7367 [cabang[0].telepon]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

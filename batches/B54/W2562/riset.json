@@ -100,5 +100,32 @@
     "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi",
     "https://idalamat.com/alamat/1062377/praktek-dokter-gigi-hs-dental-care-by-drg-hedylia-sydharta-bojonegoro-jawa-timur",
     "https://id.scribd.com/document/537921198/surat-keterangan-praktek-2021-drg-hedylia-b"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "HS Dental Care — drg. Hedylia Sydharta",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Setya Budi No.92, Klangon, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62113, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285117026161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285117026161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Hedylia Sydharta",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "id": "W2562",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "HS Dental Care — drg. Hedylia Sydharta",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Setya Budi No.92, Klangon, Kec. Bojonegoro, Kabupaten Bojonegoro, Jawa Timur 62113, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062377/praktek-dokter-gigi-hs-dental-care-by-drg-hedylia-sydharta-bojonegoro-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285117026161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285117026161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Hedylia Sydharta",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi [nama]",
+    "https://idalamat.com/alamat/1062377/praktek-dokter-gigi-hs-dental-care-by-drg-hedylia-sydharta-bojonegoro-jawa-timur [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID/kabupaten-bojonegoro/dokter-gigi [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

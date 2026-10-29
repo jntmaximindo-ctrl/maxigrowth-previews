@@ -1,0 +1,66 @@
+{
+  "id": "W2563",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Petra Dental Care (drg. Heri Budhiyono)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/petradentalcare_boyolali/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-boyolali/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Boyolali-Semarang, Dusun I, Randusari, Kec. Teras, Kabupaten Boyolali, Jawa Tengah 57372, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "0276320467",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62817440433",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-boyolali/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08:00-20:30\", \"sel\": \"08:00-20:30\", \"rab\": \"08:00-20:30\", \"kam\": \"08:00-20:30\", \"jum\": \"08:00-20:30\", \"sab\": \"08:00-20:30\", \"min\": \"14:00-20:00\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Heri Budhiyono",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467 [nama]",
+    "https://hargapromosi.id/dokter-gigi-boyolali/ [instagram]",
+    "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467 [cabang[0].alamat]",
+    "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467 [cabang[0].telepon]",
+    "https://hargapromosi.id/dokter-gigi-boyolali/ [cabang[0].wa]",
+    "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467 [cabang[0].jam]",
+    "https://www.semuabis.com/petra-dental-care-drg-heri-budhiyono-0276-320467 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
