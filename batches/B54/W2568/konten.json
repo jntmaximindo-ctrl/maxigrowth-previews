@@ -1,0 +1,132 @@
+{
+  "id": "W2568",
+  "hero": {
+    "judul": {
+      "id": "Praktek drg. Betty Fatmawati",
+      "en": "Praktek drg. Betty Fatmawati"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Jepara.",
+      "en": "Visit information for Jepara."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal",
+        "en": "Appointments"
+      },
+      "ringkas": {
+        "id": "Tanyakan slot dokter sebelum datang.",
+        "en": "Ask about dentist availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi",
+        "en": "Location"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Confirm the location before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan layanan yang tersedia.",
+        "en": "Describe your concerns and ask about available care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Biaya",
+        "en": "Fees"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya sebelum tindakan.",
+        "en": "Request a fee breakdown before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan kunjungan Anda",
+      "en": "Prepare your visit"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan lokasi, jadwal, kebutuhan perawatan, dan biaya.",
+      "en": "Prepare questions about location, appointments, care needs, and fees."
+    },
+    "alasan_dipilih": "Usulan untuk membantu konfirmasi informasi yang belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Sumber publik mencantumkan Jalan Soekarno-Hatta, Bok Biru, Jl. Wonosari, RT.02/RW.08, Wonosari, Tahunan, Jepara. Konfirmasikan lokasi sebelum datang.",
+        "en": "Public information lists Jalan Soekarno-Hatta, Bok Biru, Jl. Wonosari, RT.02/RW.08, Wonosari, Tahunan, Jepara. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter tersedia?",
+        "en": "When is a dentist available?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal dokter sebelum datang; jam operasional tidak memastikan slot dokter.",
+        "en": "Ask about dentist availability before visiting; opening hours do not confirm appointment slots."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi WhatsApp publik 6285162536161 untuk menanyakan jadwal.",
+        "en": "Contact the public WhatsApp 6285162536161 to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya setelah kebutuhan pemeriksaan diketahui.",
+        "en": "Prices are unavailable. Request a fee breakdown once assessment needs are known."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum ditemukan. Tanyakan cakupan dan dokumen yang diperlukan.",
+        "en": "This information is unavailable. Ask about coverage and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan informasi kunjungan",
+    "en": "Ask about your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter, lokasi, dan biaya pemeriksaan di Praktek drg. Betty Fatmawati.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Praktek drg. Betty Fatmawati. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan informasi kunjungan Jepara. Konsep direncanakan di https://maxigrowthstudio.com/drg-betty. Pastikan konsep tersedia sebelum draf digunakan. Kontak 082141004400.",
+    "email_subjek": "Konsep informasi kunjungan Praktek drg. Betty Fatmawati",
+    "email_isi": "Draf: Yth. pengelola Praktek drg. Betty Fatmawati. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan halaman lokasi dan pertanyaan kunjungan Jepara. Konsep direncanakan di https://maxigrowthstudio.com/drg-betty. Pastikan konsep tersedia dan proposal PDF terlampir sebelum draf digunakan. Kontak: 082141004400, info@maxigrowthstudio.com."
+  }
+}
