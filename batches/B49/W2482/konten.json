@@ -1,0 +1,132 @@
+{
+  "id": "W2482",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Astuti Murni",
+      "en": "drg. Astuti Murni Practice Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi praktik di Sepinggan, Balikpapan Selatan, dan tanyakan jadwal sebelum datang.",
+      "en": "Find the practice in Sepinggan, South Balikpapan, and confirm appointment hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Praktik",
+      "en": "Ask About Practice Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan gigi dan tanyakan pemeriksaan yang diperlukan.",
+        "en": "Describe your dental concerns and ask what examination may be needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan membantu dokter menilai kondisi gigi dan mulut sebelum membahas pilihan tindakan.",
+        "en": "An examination helps the dentist assess your teeth and mouth before discussing treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pembersihan karang gigi dan jadwal yang sesuai.",
+        "en": "Ask whether tartar removal is available and when it can be scheduled."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Kebutuhan pencabutan diputuskan berdasarkan pemeriksaan dokter.",
+        "en": "The need for extraction is determined after a clinical assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Praktik Sore",
+      "en": "Evening Practice Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat lokasi dan informasi jam indikatif, lalu siapkan pertanyaan sebelum meminta janji.",
+      "en": "See the location and indicative hours, then prepare questions before requesting an appointment."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jam sore dan informasi kontak yang perlu dikonfirmasi; panduan membantu menghindari kunjungan tanpa kepastian jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana praktik drg. Astuti Murni?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di kawasan Jl. Sepinggan Baru RT 15, Sepinggan, Balikpapan Selatan.",
+        "en": "In the Jl. Sepinggan Baru RT 15 area, Sepinggan, South Balikpapan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah praktik buka sore hari?",
+        "en": "Is the practice open in the evening?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jam sore, tetapi jadwal belum konsisten. Pastikan terlebih dahulu.",
+        "en": "Directories list evening hours, but schedules differ. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya tanyakan ketersediaan dokter dan konfirmasi janji sebelum datang.",
+        "en": "Please check clinician availability and confirm an appointment before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "What is the cleaning fee?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan pada sumber yang diperiksa. Tanyakan estimasi kepada praktik.",
+        "en": "A verified fee was not found. Please request an estimate from the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum terverifikasi. Tanyakan kepada pengelola praktik.",
+        "en": "Insurance details have not been verified. Please ask the practice manager."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Sebelum Berkunjung",
+    "en": "Confirm Before Visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Astuti Murni, apakah perlu membuat janji, dan perkiraan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik drg. Astuti Murni di Sepinggan, Balikpapan Selatan, melalui direktori publik. Kami sudah menyiapkan konsep website untuk membantu pasien menemukan lokasi, jadwal, dan cara menghubungi praktik. Konsepnya dapat dilihat di https://maxigrowthstudio.com/drg-astuti. Jika berkenan, kami siap menjelaskan rancangan kepada pengelola. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Astuti Murni",
+    "email_isi": "Yth. Pengelola Praktik drg. Astuti Murni,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Sepinggan, Balikpapan Selatan, pada direktori publik. Kami telah menyiapkan konsep website agar pasien dapat menemukan lokasi, informasi jadwal, dan kontak praktik. Konsepnya tersedia di https://maxigrowthstudio.com/drg-astuti.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Kami siap menyesuaikan informasi setelah dikonfirmasi oleh pengelola.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

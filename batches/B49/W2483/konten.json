@@ -1,0 +1,132 @@
+{
+  "id": "W2483",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Dyah Mutiara Sari, Sp.KGA",
+      "en": "About drg. Dyah Mutiara Sari, Pediatric Dentist"
+    },
+    "sub": {
+      "id": "Informasi kontak publik dan panduan persiapan kunjungan gigi anak. Konfirmasikan lokasi dan jadwal terlebih dahulu.",
+      "en": "Public contact details and guidance for a child's dental visit. Confirm location and hours first."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Panduan pemeriksaan gigi anak",
+        "en": "Children's dental checkup guidance"
+      },
+      "ringkas": {
+        "id": "Topik informasi untuk membantu orang tua mempersiapkan kunjungan. Ketersediaan pemeriksaan atau tindakan perlu dikonfirmasi.",
+        "en": "Information to help parents prepare for a visit. Examination and treatment availability must be confirmed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Edukasi kebersihan gigi anak",
+        "en": "Children's oral hygiene education"
+      },
+      "ringkas": {
+        "id": "Topik informasi untuk membantu orang tua mempersiapkan kunjungan. Ketersediaan pemeriksaan atau tindakan perlu dikonfirmasi.",
+        "en": "Information to help parents prepare for a visit. Examination and treatment availability must be confirmed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi keluhan gigi berlubang pada anak",
+        "en": "Information about children's cavities"
+      },
+      "ringkas": {
+        "id": "Topik informasi untuk membantu orang tua mempersiapkan kunjungan. Ketersediaan pemeriksaan atau tindakan perlu dikonfirmasi.",
+        "en": "Information to help parents prepare for a visit. Examination and treatment availability must be confirmed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan konsultasi dokter gigi anak",
+        "en": "Preparing for a pediatric dental consultation"
+      },
+      "ringkas": {
+        "id": "Topik informasi untuk membantu orang tua mempersiapkan kunjungan. Ketersediaan pemeriksaan atau tindakan perlu dikonfirmasi.",
+        "en": "Information to help parents prepare for a visit. Examination and treatment availability must be confirmed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan anak",
+      "en": "Children's visit guide"
+    },
+    "penjelasan": {
+      "id": "Daftar pertanyaan tentang usia anak, keluhan, jadwal, dan persiapan sebelum konsultasi.",
+      "en": "Questions about the child's age, symptoms, appointment times and preparation."
+    },
+    "alasan_dipilih": "Identitas Sp.KGA tercantum dalam daftar publik, tetapi layanan dan jadwal praktik belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Daftar publik mencantumkan Jl. Bukit Damai Indah No.39 Blok B, Balikpapan. Alamat perlu dikonfirmasi.",
+        "en": "A public directory lists Jl. Bukit Damai Indah No.39 Blok B, Balikpapan. Please confirm the address."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan untuk anak?",
+        "en": "Are children's examinations available?"
+      },
+      "a": {
+        "id": "Dokter tercantum dengan gelar Sp.KGA, namun ketersediaan layanan pada lokasi ini perlu ditanyakan.",
+        "en": "The dentist is listed as Sp.KGA, but service availability at this location should be checked."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam praktiknya?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jadwal praktik belum ditemukan dalam sumber yang diperiksa. Tanyakan sebelum berkunjung.",
+        "en": "Practice hours were not found in the sources reviewed. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "What does a consultation cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Tanyakan estimasi biaya kepada pengelola praktik.",
+        "en": "Fees are not available. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan untuk kunjungan anak?",
+        "en": "How should I prepare my child?"
+      },
+      "a": {
+        "id": "Siapkan informasi usia, keluhan, riwayat perawatan, dan obat yang sedang digunakan; tanyakan kebutuhan lain saat membuat janji.",
+        "en": "Prepare the child's age, symptoms, treatment history and current medicines; ask about any additional requirements when booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan lokasi",
+    "en": "Confirm hours and location"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Dyah Mutiara Sari, Sp.KGA, alamat dan ketersediaan pemeriksaan gigi anak. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola praktik drg. Dyah Mutiara Sari. Saya Rizqi dari Maxi Growth Studio. Kami menemukan informasi praktik dokter gigi anak di Balikpapan dan menyiapkan konsep website dengan panduan kunjungan anak. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-dyah. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Dyah Mutiara Sari, Sp.KGA",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktik drg. Dyah Mutiara Sari,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik praktik dan menyiapkan konsep website dengan panduan kunjungan gigi anak, informasi lokasi, serta pertanyaan awal sebelum reservasi.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-dyah. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka untuk masukan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

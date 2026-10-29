@@ -1,0 +1,132 @@
+{
+  "id": "W2490",
+  "hero": {
+    "judul": {
+      "id": "Informasi Masykur Denta Medika",
+      "en": "About Masykur Denta Medika"
+    },
+    "sub": {
+      "id": "Informasi lokasi, jadwal dan perawatan gigi untuk merencanakan kunjungan. Konfirmasikan detail kepada klinik.",
+      "en": "Location, hours and dental care information to help plan your visit. Confirm details with the clinic."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan pembersihan karang gigi. Tanyakan ketersediaan dan biaya sebelum membuat janji.",
+        "en": "The directory lists dental cleaning. Ask about availability and fees before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan penambalan gigi. Tanyakan ketersediaan dan biaya sebelum membuat janji.",
+        "en": "The directory lists dental fillings. Ask about availability and fees before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan pencabutan gigi. Tanyakan ketersediaan dan biaya sebelum membuat janji.",
+        "en": "The directory lists tooth extraction. Ask about availability and fees before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan perawatan kawat gigi. Tanyakan ketersediaan dan biaya sebelum membuat janji.",
+        "en": "The directory lists orthodontic care. Ask about availability and fees before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pilihan perawatan dan jadwal sore",
+      "en": "Treatment options and afternoon schedule"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi layanan dan jam yang tersedia, lalu konfirmasi jadwal dokter melalui kontak klinik.",
+      "en": "Explore the available service and opening-hour information, then confirm the dentist's schedule with the clinic."
+    },
+    "alasan_dipilih": "Terdaftar sebagai mitra layanan RATA untuk jadwal tertentu, dan direktori umum mencantumkan jam praktik sore."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Alamat yang tercatat: Jl. Raya Gamping No.157, Patukan, Ambarketawang, Kec. Gamping, Kabupaten Sleman, DI Yogyakarta 55294. Mohon periksa kembali rute sebelum berangkat.",
+        "en": "Listed address: Jl. Raya Gamping No.157, Patukan, Ambarketawang, Kec. Gamping, Kabupaten Sleman, DI Yogyakarta 55294. Please check directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin–Kamis dan Sabtu 15.00–20.00, Jumat 15.00–21.00 WIB; Minggu tutup.",
+        "en": "The directory lists Monday–Thursday and Saturday 3–8 PM, Friday 3–9 PM WIB, closed Sunday."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus reservasi?",
+        "en": "Is booking required?"
+      },
+      "a": {
+        "id": "Tersedia informasi kontak untuk menanyakan jadwal. Menghubungi klinik sebelum datang dapat membantu memastikan ketersediaan.",
+        "en": "Contact information is available for appointment enquiries. Checking ahead helps confirm availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan pada sumber yang diperiksa. Tanyakan rincian biaya langsung kepada klinik.",
+        "en": "Official fees were not found in the reviewed sources. Please ask the clinic for a cost breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Ketentuan asuransi dan cakupan perawatan belum dapat dipastikan. Mohon konfirmasi kepada pihak klinik.",
+        "en": "Insurance arrangements and treatment coverage have not been confirmed. Please check with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi layanan dan waktu kunjungan",
+    "en": "Confirm services and appointment times"
+  },
+  "pesan_wa_default": "Halo Masykur Denta Medika, saya ingin menanyakan jadwal dokter, layanan yang tersedia dan estimasi biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Masykur Denta Medika. Saya Rizqi dari Maxi Growth Studio. Saya melihat informasi lokasi dan layanan klinik di Sleman. Kami menyiapkan konsep website yang membantu pasien melihat jadwal dan pilihan layanan di https://maxigrowthstudio.com/masykur-denta. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Masykur Denta Medika",
+    "email_isi": "Yth. Manajemen Masykur Denta Medika,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah meninjau informasi publik klinik dan menyiapkan konsep website yang memudahkan pasien menemukan lokasi, jadwal, serta informasi perawatan.\n\nKonsep dapat ditinjau melalui https://maxigrowthstudio.com/masykur-denta. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Jika berkenan, kami terbuka untuk masukan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
