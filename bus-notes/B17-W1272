@@ -78,5 +78,22 @@ RISET LAMA:
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bekasi/cikarang-selatan/praktek-dokter-gigi-podium-lip-cika-imp1",
     "https://caribisnis.id/dokter-gigi/bekasi/cikarang-selatan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Podium Lippo Cikarang",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Podium Blok B, Jl. Mataram No.18, Cibatu, Cikarang Selatan, Kabupaten Bekasi 17530",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–21.00; Sabtu 09.00–22.00; Minggu 10.00–21.00",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }
