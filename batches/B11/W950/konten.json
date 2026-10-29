@@ -1,0 +1,142 @@
+{
+  "id": "W950",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik drg. Fransiska Andriani, Sp.KG",
+      "en": "Practice information for drg. Fransiska Andriani, Sp.KG"
+    },
+    "sub": {
+      "id": "Rencanakan pemeriksaan gigi di Taman Pinang Indah, Sidoarjo. Konfirmasikan jadwal dan kebutuhan kunjungan melalui telepon.",
+      "en": "Plan a dental examination in Taman Pinang Indah, Sidoarjo. Confirm schedules and visit arrangements by telephone."
+    },
+    "cta": {
+      "id": "Telepon untuk informasi kunjungan",
+      "en": "Call for visit information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Schedule information"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari praktik dan ketersediaan dokter sebelum datang.",
+        "en": "Ask about practice days and dentist availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Persiapan pemeriksaan",
+        "en": "Examination arrangements"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan pemeriksaan dan tanyakan alur kunjungan.",
+        "en": "Explain your examination needs and ask about visit arrangements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan estimasi pemeriksaan dan komponen biaya sebelum tindakan.",
+        "en": "Ask about examination estimates and fee components before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Petunjuk lokasi",
+        "en": "Location information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan alamat dan petunjuk menuju praktik di Taman Pinang Indah.",
+        "en": "Confirm the address and directions to the Taman Pinang Indah practice."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan sebelum menelepon",
+      "en": "Prepare questions before calling"
+    },
+    "penjelasan": {
+      "id": "Catat pilihan waktu, kebutuhan pemeriksaan, dan pertanyaan biaya. Nomor telepon yang tercantum di direktori adalah 031-8950521.",
+      "en": "Note your preferred time, examination needs, and fee questions. The directory lists telephone number 031-8950521."
+    },
+    "alasan_dipilih": "Mengarahkan pengunjung ke telepon publik yang tersedia ketika nomor WhatsApp belum ditemukan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo. Konfirmasikan petunjuk lokasi sebelum datang.",
+        "en": "The directory lists Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo. Confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor telepon publik yang ditemukan adalah 031-8950521. Nomor WhatsApp belum tersedia dari sumber yang diperiksa.",
+        "en": "The public telephone number found is 031-8950521. A WhatsApp number was not available from the sources checked."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal dokternya?",
+        "en": "When is the dentist available?"
+      },
+      "a": {
+        "id": "Jadwal dokter terbaru belum terverifikasi. Telepon untuk menanyakan hari dan waktu kunjungan.",
+        "en": "The current dentist schedule has not been verified. Call to ask about visit dates and times."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan estimasi pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "Prices are not available. Ask about estimated examination and treatment fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Tanyakan syarat administrasi dan pembayaran kepada pengelola.",
+        "en": "Insurance arrangements have not been verified. Ask the practice about administrative and payment requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Ketentuan janji belum ditemukan. Konfirmasikan ketersediaan dokter sebelum berkunjung.",
+        "en": "Appointment requirements were not found. Confirm dentist availability before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal melalui telepon",
+    "en": "Confirm schedules by telephone"
+  },
+  "pesan_wa_default": "Halo pengelola praktik drg. Fransiska Andriani, Sp.KG, saya ingin menanyakan jadwal dan estimasi biaya pemeriksaan. Mohon konfirmasi identitas praktik. Pesan ini hanya digunakan bila nomor WhatsApp resmi telah tersedia.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik drg. Fransiska Andriani, Sp.KG, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi praktik Taman Pinang Indah dan panduan kunjungan melalui telepon. Setelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/drg-fransiska. Informasi dapat dikoreksi pihak praktik. Jika berkenan, saya dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep informasi praktik drg. Fransiska Andriani",
+    "email_isi": "Yth. pengelola praktik drg. Fransiska Andriani, Sp.KG,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi praktik Taman Pinang Indah yang memudahkan pengunjung menyiapkan pertanyaan jadwal, pemeriksaan, biaya, serta lokasi sebelum menelepon.\n\nSetelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/drg-fransiska. Data publik masih perlu ditinjau pihak praktik. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jika berkenan, kami dapat membahas koreksi informasi dan kebutuhan halaman.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
