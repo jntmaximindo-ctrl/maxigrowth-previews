@@ -1,0 +1,132 @@
+{
+  "id": "W2351",
+  "hero": {
+    "judul": {
+      "id": "Praktek Dokter Gigi Smile Dental Studio",
+      "en": "Praktek Dokter Gigi Smile Dental Studio"
+    },
+    "sub": {
+      "id": "Informasi kunjungan Bojongsoang.",
+      "en": "Visit information for Bojongsoang."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal",
+        "en": "Appointments"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter sebelum datang.",
+        "en": "Ask about dentist availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi",
+        "en": "Location"
+      },
+      "ringkas": {
+        "id": "Pilih lokasi dan konfirmasikan alamat.",
+        "en": "Choose a location and confirm its address."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan layanan yang tersedia.",
+        "en": "Describe your concerns and ask about available care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Biaya",
+        "en": "Costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya sebelum tindakan.",
+        "en": "Ask for a cost breakdown before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi kunjungan",
+      "en": "Choose your location"
+    },
+    "penjelasan": {
+      "id": "Pilih lokasi sebelum menyusun pertanyaan untuk petugas.",
+      "en": "Select a location before preparing questions for the team."
+    },
+    "alasan_dipilih": "Linktree mencantumkan tiga lokasi; fitur adalah usulan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan buka?",
+        "en": "When is it open?"
+      },
+      "a": {
+        "id": "Waze mencantumkan setiap hari 09.00–20.00; konfirmasikan jadwal dokter.",
+        "en": "Waze lists daily hours of 09:00–20:00; confirm dentist availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi Bojongsoang?",
+        "en": "Where is the Bojongsoang location?"
+      },
+      "a": {
+        "id": "Jl. Raya Bojongsoang No.79, Kabupaten Bandung.",
+        "en": "Jl. Raya Bojongsoang No.79, Bandung Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi WhatsApp publik dan tanyakan slot kunjungan.",
+        "en": "Use the public WhatsApp contact to ask about appointment slots."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan rincian biaya kepada petugas.",
+        "en": "Prices are unavailable. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum dipastikan; konfirmasikan sebelum kunjungan.",
+        "en": "This has not been confirmed; check before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi",
+    "en": "Contact for information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter di Bojongsoang dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Smile Dental Studio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Linktree Anda mencantumkan tiga lokasi; kami mengusulkan pemilih lokasi untuk memudahkan kunjungan. Siapkan konsep di https://maxigrowthstudio.com/smile-studio sebelum mengirim pesan ini. Kontak 082141004400.",
+    "email_subjek": "Konsep informasi lokasi Smile Dental Studio",
+    "email_isi": "Draf: Yth. pengelola Smile Dental Studio. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan pemilih lokasi untuk Bojongsoang, Antapani dan Cinunuk. Konsep direncanakan di https://maxigrowthstudio.com/smile-studio. Pastikan konsep aktif dan proposal PDF terlampir sebelum draf ini dikirim. info@maxigrowthstudio.com, 082141004400."
+  }
+}
