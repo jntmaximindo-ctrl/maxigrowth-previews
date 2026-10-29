@@ -1,0 +1,37 @@
+{
+  "file": "batches/B43/W2397/site/index.html",
+  "when": "2026-10-29T04:44:15.281Z",
+  "pass": true,
+  "desktop": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "DIV.rail-t",
+      "DIV.rail-g",
+      "BUTTON",
+      "BUTTON",
+      "SPAN"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  },
+  "mobile": {
+    "overflowX": 0,
+    "kecil": [],
+    "jumlahKecil": 0,
+    "noAlt": [],
+    "noOpener": [],
+    "penyebabOverflow": [
+      "DIV.rail-t",
+      "DIV.rail-g",
+      "BUTTON",
+      "svg.[object",
+      "path.[object"
+    ],
+    "errors": [],
+    "hostLuarIzin": []
+  }
+}
