@@ -1,0 +1,132 @@
+{
+  "id": "W2489",
+  "hero": {
+    "judul": {
+      "id": "Informasi Safir Dental Clinic",
+      "en": "About Safir Dental Clinic"
+    },
+    "sub": {
+      "id": "Panduan lokasi, jadwal dan pilihan perawatan di wilayah Sleman. Konfirmasikan detail sebelum datang.",
+      "en": "Location, hours and treatment information in Sleman. Please confirm details before visiting."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Informasi pembersihan karang gigi tersedia dalam direktori. Hubungi klinik untuk memastikan indikasi, jadwal dan biaya.",
+        "en": "The directory lists dental cleaning. Contact the clinic to confirm suitability, scheduling and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Informasi penambalan gigi tersedia dalam direktori. Hubungi klinik untuk memastikan indikasi, jadwal dan biaya.",
+        "en": "The directory lists dental fillings. Contact the clinic to confirm suitability, scheduling and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Informasi pencabutan gigi tersedia dalam direktori. Hubungi klinik untuk memastikan indikasi, jadwal dan biaya.",
+        "en": "The directory lists tooth extraction. Contact the clinic to confirm suitability, scheduling and fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Informasi perawatan kawat gigi tersedia dalam direktori. Hubungi klinik untuk memastikan indikasi, jadwal dan biaya.",
+        "en": "The directory lists orthodontic care. Contact the clinic to confirm suitability, scheduling and fees."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pilihan perawatan dan reservasi",
+      "en": "Treatment and appointment guide"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi yang dibutuhkan lalu tanyakan ketersediaan layanan dan waktu kunjungan kepada klinik.",
+      "en": "Explore the information you need, then confirm service availability and appointment times with the clinic."
+    },
+    "alasan_dipilih": "Informasi layanan scaling dan perawatan restoratif tercantum pada direktori serta profil pengalaman staf sebelumnya."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Gamping - Bantulan, Kramat, Sidoarum, Kec. Godean, Kabupaten Sleman, DI Yogyakarta 55264. Periksa lokasi sebelum berangkat.",
+        "en": "The directory lists Jl. Gamping - Bantulan, Kramat, Sidoarum, Kec. Godean, Kabupaten Sleman, DI Yogyakarta 55264. Please verify the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencatat Senin–Sabtu pukul 10.00–20.00 WIB; Minggu tutup.",
+        "en": "The directory lists Monday–Saturday, 10 AM–8 PM WIB, closed Sunday."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Direktori menyediakan jalur kontak untuk menanyakan jadwal. Konfirmasi sebelum berkunjung.",
+        "en": "The directory provides a contact option for appointment enquiries. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat diverifikasi. Tanyakan estimasi biaya langsung sebelum tindakan.",
+        "en": "Official fees could not be verified. Please request a cost estimate before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pasien anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan pasien anak dan jadwal dokter perlu dikonfirmasi kepada klinik.",
+        "en": "Please confirm children's care availability and dentist schedules with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi layanan dan jadwal kunjungan",
+    "en": "Confirm services and appointment times"
+  },
+  "pesan_wa_default": "Halo Safir Dental Clinic, saya ingin menanyakan jadwal pemeriksaan gigi, layanan yang tersedia, serta estimasi biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola Safir Dental Clinic. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi lokasi dan layanan klinik di Sleman. Kami menyiapkan konsep website dengan panduan jadwal dan layanan yang dapat dilihat di https://maxigrowthstudio.com/safir. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Safir Dental Clinic",
+    "email_isi": "Yth. Manajemen Safir Dental Clinic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik klinik di wilayah Sleman dan menyiapkan konsep website untuk memudahkan pasien menemukan jadwal, lokasi, serta informasi layanan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/safir. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Apabila berkenan, kami terbuka untuk menerima masukan.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

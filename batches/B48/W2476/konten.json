@@ -1,0 +1,142 @@
+{
+  "id": "W2476",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan Zena Dental Care",
+      "en": "Zena Dental Care visit information"
+    },
+    "sub": {
+      "id": "Siapkan pertanyaan tentang pemeriksaan gigi, jadwal, dan lokasi sebelum berkunjung.",
+      "en": "Prepare questions about dental examinations, schedules, and location before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan informasi kunjungan",
+      "en": "Ask about visiting"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Schedule information"
+      },
+      "ringkas": {
+        "id": "Tanyakan hari dan waktu kunjungan serta ketersediaan dokter kepada admin.",
+        "en": "Ask the administrator about visit dates, times, and dentist availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination information"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan pemeriksaan dan tanyakan alur kunjungan. Rincian layanan dikonfirmasi oleh klinik.",
+        "en": "Explain your examination needs and ask about visit arrangements. The clinic confirms service details."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan biaya",
+        "en": "Fee enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan estimasi pemeriksaan dan komponen biaya sebelum menyetujui tindakan.",
+        "en": "Ask about examination estimates and fee components before agreeing to treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Petunjuk lokasi",
+        "en": "Location enquiries"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan alamat The Mozia L1/3 dan petunjuk masuk sebelum datang.",
+        "en": "Confirm The Mozia L1/3 address and access directions before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Daftar pertanyaan sebelum datang",
+      "en": "Questions before your visit"
+    },
+    "penjelasan": {
+      "id": "Pilih pertanyaan tentang jadwal, pemeriksaan, biaya, atau lokasi untuk disampaikan kepada admin. Informasi yang belum tersedia dapat dikonfirmasi sebelum kunjungan.",
+      "en": "Choose questions about schedules, examinations, fees, or location to send to the administrator. Confirm missing information before your visit."
+    },
+    "alasan_dipilih": "Sesuai kelengkapan sumber saat ini dan membantu pengguna memperoleh rincian langsung tanpa mengasumsikan tindakan klinis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Zena at The Mozia L1/3, Kabupaten Tangerang. Konfirmasikan alamat dan petunjuk masuk kepada admin.",
+        "en": "The directory lists Zena at The Mozia L1/3, Tangerang Regency. Confirm the address and access directions with the administrator."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How do I ask about schedules?"
+      },
+      "a": {
+        "id": "Hubungi admin untuk mengonfirmasi jam buka dan jadwal dokter pada hari pilihan Anda.",
+        "en": "Contact the administrator to confirm opening hours and dentist schedules for your preferred day."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa nomor kontaknya?",
+        "en": "What is the contact number?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang ditemukan adalah +62 817-200-024. Pastikan identitas Zena Dental Care saat memulai percakapan.",
+        "en": "The public mobile number found is +62 817-200-024. Confirm Zena Dental Care's identity when starting a conversation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa saja layanan yang tersedia?",
+        "en": "Which services are available?"
+      },
+      "a": {
+        "id": "Rincian tindakan belum terverifikasi dari sumber resmi yang ditemukan. Tanyakan kebutuhan pemeriksaan Anda kepada admin.",
+        "en": "Specific procedures have not been verified from the official sources located. Ask the administrator about your examination needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber resmi yang ditemukan. Tanyakan estimasi biaya, pemeriksaan, dan komponen tindakan kepada admin.",
+        "en": "Prices were not available from the official sources located. Ask the administrator about estimated fees, examinations, and treatment components."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Konfirmasikan jenis pembayaran serta dokumen yang diperlukan kepada admin.",
+        "en": "Insurance arrangements have not been verified. Confirm payment methods and required documents with the administrator."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi jadwal dan biaya",
+    "en": "Contact the administrator for schedule and fee information"
+  },
+  "pesan_wa_default": "Halo admin Zena Dental Care, apakah nomor ini merupakan kontak klinik di The Mozia L1/3? Saya ingin menanyakan jadwal, layanan pemeriksaan, dan estimasi biaya.",
+  "outreach": {
+    "wa": "Halo admin Zena Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan dan panduan pertanyaan kepada admin. Setelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/zena. Pihak klinik dapat meninjau dan mengoreksi informasi. Jika berkenan, saya dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep halaman informasi kunjungan Zena Dental Care",
+    "email_isi": "Yth. pengelola Zena Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi kunjungan dan panduan pertanyaan tentang jadwal, pemeriksaan, biaya, serta lokasi. Data dari direktori publik masih memerlukan peninjauan pihak klinik.\n\nSetelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/zena. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jika berkenan, kami dapat membahas kebutuhan halaman dan koreksi informasi klinik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

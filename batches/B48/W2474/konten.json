@@ -1,0 +1,142 @@
+{
+  "id": "W2474",
+  "hero": {
+    "judul": {
+      "id": "Informasi AM Dental Care Gading Serpong",
+      "en": "AM Dental Care Gading Serpong information"
+    },
+    "sub": {
+      "id": "Rencanakan kunjungan di kawasan Medang, Pagedangan. Tanyakan jadwal dokter dan layanan kepada admin.",
+      "en": "Plan a visit in Medang, Pagedangan. Ask the administrator about dentist schedules and services."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about visit times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Removal of dental calculus. Ask the administrator about availability and examination arrangements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Informasi penambalan gigi dapat ditanyakan saat membuat janji. Kebutuhan tindakan ditentukan melalui pemeriksaan dokter gigi.",
+        "en": "Ask about dental fillings when arranging a visit. Treatment needs are determined through a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi terkait kawat gigi. Pilihan perawatan dibahas bersama dokter setelah pemeriksaan.",
+        "en": "Ask about consultation times for braces. Treatment options are discussed with the dentist after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Bleaching gigi",
+        "en": "Teeth bleaching"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan bleaching. Kesesuaian tindakan dan rencana perawatan dibahas setelah pemeriksaan dokter.",
+        "en": "Ask about bleaching availability. Suitability and care planning are discussed after a dental examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare visit questions"
+    },
+    "penjelasan": {
+      "id": "Catat pilihan waktu, kebutuhan pemeriksaan, dan pertanyaan tentang rincian biaya. Admin dapat membantu mengonfirmasi jadwal sebelum Anda datang.",
+      "en": "Note your preferred time, examination needs, and questions about fee details. The administrator can help confirm schedules before you visit."
+    },
+    "alasan_dipilih": "Mendukung persiapan kunjungan ketika jadwal dokter dan daftar biaya resmi belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Ruko Jl. Darwin Timur No.30, Medang, Pagedangan, Kabupaten Tangerang. Konfirmasikan petunjuk lokasi sebelum datang.",
+        "en": "The directory lists Ruko Jl. Darwin Timur No.30, Medang, Pagedangan, Tangerang Regency. Confirm directions before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Dua direktori mencantumkan Senin–Minggu pukul 09.00–21.00 WIB. Jadwal dokter perlu dikonfirmasi kepada admin.",
+        "en": "Two directories list Monday–Sunday, 09:00–21:00 Western Indonesian Time. Confirm dentist schedules with the administrator."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercantum adalah +62 818-859-191. Pastikan identitas AM Dental Care Gading Serpong saat menghubungi.",
+        "en": "The listed public mobile number is +62 818-859-191. Confirm the identity of AM Dental Care Gading Serpong when contacting it."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber resmi yang ditemukan. Tanyakan estimasi biaya, pemeriksaan, dan komponen tindakan kepada admin.",
+        "en": "Prices were not available from the official sources located. Ask the administrator about estimated fees, examinations, and treatment components."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Ketentuan janji dan antrean belum ditemukan. Hubungi admin untuk mengonfirmasi waktu kunjungan dan jadwal dokter.",
+        "en": "Appointment and queue arrangements were not found. Contact the administrator to confirm visit times and dentist schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Konfirmasikan jenis pembayaran serta dokumen yang diperlukan kepada admin.",
+        "en": "Insurance arrangements have not been verified. Confirm payment methods and required documents with the administrator."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi jadwal dan biaya",
+    "en": "Contact the administrator for schedule and fee information"
+  },
+  "pesan_wa_default": "Halo admin AM Dental Care Gading Serpong, apakah nomor ini merupakan kontak cabang Ruko Darwin Timur No.30? Saya ingin menanyakan jadwal pemeriksaan dan estimasi biaya.",
+  "outreach": {
+    "wa": "Halo admin AM Dental Care Gading Serpong, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi cabang dan persiapan kunjungan. Setelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/am-gading. Pihak klinik dapat meninjau dan mengoreksi datanya. Jika berkenan, saya dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep halaman informasi AM Dental Care Gading Serpong",
+    "email_isi": "Yth. pengelola AM Dental Care Gading Serpong,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi lokasi, layanan, dan persiapan kunjungan. Pihak klinik dapat meninjau dan mengoreksi informasi, terutama jadwal dokter dan rincian layanan.\n\nSetelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/am-gading. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jika berkenan, kami dapat membahas kebutuhan halaman cabang.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

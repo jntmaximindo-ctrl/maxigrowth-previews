@@ -1,0 +1,132 @@
+{
+  "id": "W2481",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Andi Ainun Mardiyah",
+      "en": "Practice Information for drg. Andi Ainun Mardiyah"
+    },
+    "sub": {
+      "id": "Lihat lokasi dan jadwal yang tercatat di portal kesehatan Kota Balikpapan. Konfirmasi kembali sebelum datang.",
+      "en": "View the location and schedule listed by Balikpapan's health directory. Please confirm details before visiting."
+    },
+    "cta": {
+      "id": "Lihat jadwal praktik",
+      "en": "View practice hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan cara membuat janji sebelum berkunjung.",
+        "en": "Ask whether dental examinations are available and how to arrange a visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan gusi dan karang gigi",
+        "en": "Gum and tartar care information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan apakah pembersihan karang gigi tersedia di lokasi praktik.",
+        "en": "Please confirm whether professional cleaning is offered at this location."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi kesehatan gigi anak",
+        "en": "Children's dental health information"
+      },
+      "ringkas": {
+        "id": "Tanyakan layanan untuk anak dan kebutuhan pemeriksaan berdasarkan usia.",
+        "en": "Ask about care for children and age-appropriate dental checkups."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi konsultasi gigi bungsu",
+        "en": "Wisdom tooth consultation information"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah konsultasi terkait keluhan gigi bungsu tersedia sebelum membuat jadwal.",
+        "en": "Check whether wisdom tooth consultations are available before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Praktik Pagi",
+      "en": "Morning Practice Schedule Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal yang dipublikasikan Pemerintah Kota Balikpapan, lalu konfirmasikan alamat dan layanan sebelum datang.",
+      "en": "Review the schedule published by Balikpapan's health directory, then confirm the address and services before your visit."
+    },
+    "alasan_dipilih": "Portal pemerintah memuat jadwal pagi, sedangkan direktori lain menampilkan alamat berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Portal kesehatan Kota Balikpapan mencantumkan Jl. Mayjend Sutoyo RT.42 No.51. Direktori lama memuat nomor bangunan berbeda; mohon konfirmasi sebelum berangkat.",
+        "en": "Balikpapan's health directory lists Jl. Mayjend Sutoyo RT.42 No.51. Older directories show a different building number, so please confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jadwal yang dipublikasikan: Senin–Kamis 08.00–12.00, Jumat 08.00–10.30, Sabtu 08.00–11.30 WITA. Jadwal terbaru perlu dikonfirmasi.",
+        "en": "Published hours are Monday–Thursday 8 AM–noon, Friday 8–10:30 AM, and Saturday 8–11:30 AM WITA. Please confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif belum dipublikasikan pada sumber yang kami periksa. Silakan tanyakan biaya sebelum membuat janji.",
+        "en": "Fees were not published in the sources reviewed. Please ask about pricing before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS?",
+        "en": "Is BPJS accepted?"
+      },
+      "a": {
+        "id": "Nama praktik tercantum pada daftar faskes BPJS lama, tetapi status kerja sama saat ini belum terkonfirmasi.",
+        "en": "The practice appears in an older BPJS provider list, but its current participation has not been confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children seen here?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan pasien anak di lokasi praktik belum dipastikan. Silakan tanyakan terlebih dahulu.",
+        "en": "Children's services at this practice have not been confirmed. Please check in advance."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan lokasi sebelum berkunjung",
+    "en": "Confirm the hours and location before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Andi Ainun Mardiyah, alamat yang berlaku, serta ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat siang, Bapak/Ibu pengelola praktik drg. Andi Ainun Mardiyah. Saya Rizqi dari Maxi Growth Studio. Saya melihat jadwal praktik pagi yang tercantum pada direktori kesehatan Balikpapan. Kami menyiapkan konsep website dengan panduan jadwal dan lokasi yang dapat dilihat di https://maxigrowthstudio.com/drg-andi. Jika berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk praktik drg. Andi Ainun Mardiyah",
+    "email_isi": "Yth. Bapak/Ibu Pengelola Praktik drg. Andi Ainun Mardiyah,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi jadwal praktik pada direktori kesehatan Kota Balikpapan, dengan perbedaan alamat pada beberapa sumber lama.\n\nKami telah menyiapkan konsep website yang menonjolkan panduan jadwal, lokasi, dan cara konfirmasi sebelum pasien berkunjung. Konsep dapat ditinjau melalui https://maxigrowthstudio.com/drg-andi. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nApabila berkenan, kami terbuka untuk menerima masukan. Terima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

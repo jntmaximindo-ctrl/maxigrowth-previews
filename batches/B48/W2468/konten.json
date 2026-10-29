@@ -1,0 +1,142 @@
+{
+  "id": "W2468",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi di Gading Serpong",
+      "en": "Dental care in Gading Serpong"
+    },
+    "sub": {
+      "id": "Informasi lokasi, layanan, dan reservasi Cling Dental Clinic Gading Serpong.",
+      "en": "Location, service, and appointment information for Cling Dental Clinic Gading Serpong."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal dokter",
+      "en": "Ask about dentist schedules"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Removal of dental calculus. Ask the administrator about availability and examination arrangements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Informasi penambalan gigi dapat ditanyakan saat membuat janji. Kebutuhan tindakan ditentukan melalui pemeriksaan dokter gigi.",
+        "en": "Ask about dental fillings when arranging a visit. Treatment needs are determined through a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi terkait kawat gigi. Pilihan perawatan dibahas bersama dokter setelah pemeriksaan.",
+        "en": "Ask about consultation times for braces. Treatment options are discussed with the dentist after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan gigi anak. Rencana perawatan sesuai hasil pemeriksaan.",
+        "en": "Ask about children's dental examination times. Care is planned according to examination findings."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih jalur reservasi",
+      "en": "Choose an appointment channel"
+    },
+    "penjelasan": {
+      "id": "Pasien baru dapat menanyakan reservasi kepada admin pusat di +62 811-1660-6902. Kanal pasien lama Gading Serpong tercantum pada +62 812-8264-4486.",
+      "en": "New patients can ask the central administrator about appointments at +62 811-1660-6902. The listed channel for returning Gading Serpong patients is +62 812-8264-4486."
+    },
+    "alasan_dipilih": "Kanal reservasi publik membedakan pasien baru dan pasien lama per cabang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi cabang?",
+        "en": "Where is the branch?"
+      },
+      "a": {
+        "id": "Cabang berada di Jl. CBD Ruko Paramount Dotcom Blok Orange 1, Pakulonan Barat, Kelapa Dua, Kabupaten Tangerang.",
+        "en": "The branch is at Jl. CBD Ruko Paramount Dotcom Blok Orange 1, Pakulonan Barat, Kelapa Dua, Tangerang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Situs mencantumkan Senin–Minggu pukul 09.00–21.00 WIB. Konfirmasikan jadwal dokter sebelum datang.",
+        "en": "The website lists Monday–Sunday, 09:00–21:00 Western Indonesian Time. Confirm dentist schedules before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I arrange an appointment?"
+      },
+      "a": {
+        "id": "Gunakan jalur admin pusat untuk pasien baru atau kontak cabang untuk pasien lama. Sampaikan cabang Gading Serpong dan pilihan waktu.",
+        "en": "Use the central administrator for new patients or the branch contact for returning patients. State Gading Serpong as the branch and your preferred time."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif khusus cabang yang lengkap belum tersedia. Tanyakan estimasi pemeriksaan dan tindakan sebelum menyetujui perawatan.",
+        "en": "A complete branch fee schedule is not available. Ask about estimated examination and treatment fees before agreeing to care."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat menggunakan BCA Life?",
+        "en": "Can I use BCA Life insurance?"
+      },
+      "a": {
+        "id": "Cabang tercantum di direktori jaringan BCA Life. Konfirmasikan status kerja sama, manfaat polis, dan prosedur administrasi sebelum kunjungan.",
+        "en": "The branch appears in BCA Life's provider directory. Confirm current participation, policy benefits, and administrative requirements before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah jadwal dokter tersedia?",
+        "en": "Are dentist schedules available?"
+      },
+      "a": {
+        "id": "Nama dokter tersedia pada situs cabang, tetapi jadwal masing-masing belum ditemukan. Tanyakan ketersediaan dokter kepada admin.",
+        "en": "Dentist names are listed on the branch website, but individual schedules were not found. Ask the administrator about availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi jadwal dan biaya",
+    "en": "Contact the administrator for schedule and fee information"
+  },
+  "pesan_wa_default": "Halo admin Cling Dental Clinic Gading Serpong, saya ingin menanyakan jadwal dokter dan estimasi biaya pemeriksaan. Mohon informasi jalur reservasi yang sesuai untuk saya.",
+  "outreach": {
+    "wa": "Halo admin Cling Dental Clinic Gading Serpong, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman cabang dengan pilihan jalur reservasi pasien baru dan lama. Setelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/cling-gading. Informasi dapat ditinjau pihak klinik. Jika berkenan, saya dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep panduan reservasi Cling Dental Gading Serpong",
+    "email_isi": "Yth. pengelola Cling Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman Gading Serpong berisi informasi cabang serta pilihan kontak reservasi pasien baru dan lama. Konsep ini memerlukan peninjauan oleh pihak klinik.\n\nSetelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/cling-gading. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jika berkenan, kami dapat membahas kebutuhan halaman serta koreksi jadwal dan layanan.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
