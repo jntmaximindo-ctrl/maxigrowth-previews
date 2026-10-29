@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-benowo/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-pakal/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Erni Kurnia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sememi Jaya Utara Gg. III Blok A No.31, Sememi, Benowo, Surabaya 60198",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

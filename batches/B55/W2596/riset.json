@@ -121,5 +121,12 @@
     "https://hargapromosi.id/dokter-gigi-kudus/",
     "https://fixpalembang.com/dokter-gigi-kudus/",
     "https://idalamat.com/alamat/drg-sabdayana-1061419"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
