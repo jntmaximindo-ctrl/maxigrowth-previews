@@ -1,0 +1,132 @@
+{
+  "id": "W2347",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Dwiyatno di Bandung",
+      "en": "Drg. Dwiyatno dental practice in Bandung"
+    },
+    "sub": {
+      "id": "Alamat terdaftar di Jl. Pagarsih No.263, Jamika. Konfirmasikan jadwal dan jenis perawatan sebelum berkunjung.",
+      "en": "Listed at Jl. Pagarsih No.263, Jamika. Confirm opening hours and available treatments before visiting."
+    },
+    "cta": {
+      "id": "Lihat informasi lokasi",
+      "en": "View location details"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan awal melalui kontak praktik.",
+        "en": "Ask the practice about initial examination availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi tindakan",
+        "en": "Treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Jenis tindakan belum tercantum secara rinci di sumber publik; tanyakan kebutuhan Anda sebelum datang.",
+        "en": "Specific procedures are not detailed in public sources; check your needs before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Opening hours enquiries"
+      },
+      "ringkas": {
+        "id": "Jadwal resmi belum terkonfirmasi; periksa jam praktik sebelum berangkat.",
+        "en": "Official hours are unverified; check before travelling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Daftar biaya belum tersedia pada sumber yang diperiksa.",
+        "en": "No public price list was found in the sources reviewed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Berkunjung",
+      "en": "Before-You-Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Halaman ringkas yang menampilkan alamat, status verifikasi jadwal, dan pertanyaan untuk kunjungan awal.",
+      "en": "A concise page showing the address, hours-verification status, and questions to prepare for a first visit."
+    },
+    "alasan_dipilih": "Alamat tersedia tetapi rincian tindakan, biaya, dan jadwal belum terverifikasi secara resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Pagarsih No.263, Jamika, Babakan Ciparay, Bandung.",
+        "en": "Jl. Pagarsih No.263, Jamika, Babakan Ciparay, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Is an appointment needed?"
+      },
+      "a": {
+        "id": "Sistem janji temu belum terverifikasi. Hubungi praktik untuk informasi terbaru.",
+        "en": "The appointment process is unverified. Contact the practice for current details."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal resmi belum dapat dipastikan. Mohon konfirmasi sebelum datang.",
+        "en": "Official hours have not been confirmed. Please check before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "Which treatments are available?"
+      },
+      "a": {
+        "id": "Rincian tindakan belum tersedia dari sumber resmi yang diperiksa.",
+        "en": "Specific treatments were not confirmed from the sources reviewed."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Biaya belum ditemukan dalam sumber publik yang diperiksa.",
+        "en": "No examination fee was found in the reviewed public sources."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi sebelum datang",
+    "en": "Confirm details before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Dwiyatno di Jl. Pagarsih No.263 dan cara membuat janji pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik drg. Dwiyatno. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Jl. Pagarsih, Jamika, tetapi rincian jadwal dan layanan belum banyak tersedia secara daring. Kami menyiapkan konsep website untuk dilihat di https://maxigrowthstudio.com/drg-dwiyatno. Jika berkenan, kami terbuka untuk koreksi informasi. Terima kasih.",
+    "email_subjek": "Konsep website informasi praktik drg. Dwiyatno",
+    "email_isi": "Yth. Pengelola Praktik drg. Dwiyatno,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Jl. Pagarsih No.263, Bandung. Rincian jadwal, tindakan, dan biaya belum terlihat jelas di direktori yang kami tinjau.\n\nKami menyiapkan konsep website informatif di https://maxigrowthstudio.com/drg-dwiyatno. Proposal PDF terlampir sebagai pengantar. Konsep dapat disesuaikan dengan data resmi sebelum digunakan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

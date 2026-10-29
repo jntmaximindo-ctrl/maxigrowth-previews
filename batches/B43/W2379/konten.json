@@ -1,0 +1,132 @@
+{
+  "id": "W2379",
+  "hero": {
+    "judul": {
+      "id": "Tukang Gigi Rudi",
+      "en": "Tukang Gigi Rudi"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kunjungan di Karawang. Konfirmasikan jadwal dan layanan melalui kontak publik.",
+      "en": "Service and visiting information in Karawang. Confirm hours and services using the public contact."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi gigi tiruan",
+        "en": "Denture information"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis gigi tiruan yang tersedia sesuai lingkup layanan.",
+        "en": "Ask about denture options within the permitted scope."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan kebutuhan",
+        "en": "Needs inquiry"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan sebelum menjadwalkan kunjungan.",
+        "en": "Describe your needs before scheduling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemasangan",
+        "en": "Fitting information"
+      },
+      "ringkas": {
+        "id": "Tanyakan prosedur pemasangan yang dapat dilakukan penyedia.",
+        "en": "Ask about the fitting process offered by the provider."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan perawatan",
+        "en": "Care guidance"
+      },
+      "ringkas": {
+        "id": "Tanyakan perawatan gigi tiruan dan kapan perlu menemui dokter gigi.",
+        "en": "Ask about denture care and when to see a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan gigi tiruan dan batas kewenangan tukang gigi",
+      "en": "Visit information guide"
+    },
+    "penjelasan": {
+      "id": "Panduan singkat untuk menyiapkan pertanyaan dan mencari informasi kunjungan.",
+      "en": "A short guide to preparing questions and finding visiting information."
+    },
+    "alasan_dipilih": "Layanan tukang gigi di Nagasari, Karawang Barat"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Apakah ini klinik dokter gigi?",
+        "en": "Is this a dentist clinic?"
+      },
+      "a": {
+        "id": "Tidak. Sumber publik menyebutnya tukang gigi. Untuk tindakan medis, temui dokter gigi.",
+        "en": "No. Public listings identify a dental technician. See a dentist for medical care."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it?"
+      },
+      "a": {
+        "id": "Di Jalan Arif Rahman Hakim, Nagasari, Karawang Barat.",
+        "en": "On Arif Rahman Hakim Street, Nagasari, Karawang Barat."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengatur kunjungan?",
+        "en": "How do I arrange a visit?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal melalui nomor yang tercantum.",
+        "en": "Ask about visiting hours using the listed number."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada daftar biaya?",
+        "en": "Is there a fee list?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan.",
+        "en": "No official price list was found."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat mengobati sakit gigi?",
+        "en": "Can you treat tooth pain?"
+      },
+      "a": {
+        "id": "Sakit gigi memerlukan pemeriksaan dokter gigi.",
+        "en": "Tooth pain requires assessment by a dentist."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi lebih lanjut",
+    "en": "Contact for more information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan informasi layanan di Tukang Gigi Rudi. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo tim Tukang Gigi Rudi, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi layanan tukang gigi di nagasari, karawang barat. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/tukang-rudi. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Tukang Gigi Rudi",
+    "email_isi": "Yth. Manajemen Tukang Gigi Rudi,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pengunjung melihat informasi lokasi, layanan, dan cara menghubungi Tukang Gigi Rudi. Konsep tersedia di https://maxigrowthstudio.com/tukang-rudi. Proposal PDF terlampir untuk ditinjau.\n\nKami terbuka terhadap masukan tanpa kewajiban melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2391",
+  "hero": {
+    "judul": {
+      "id": "Bené Dental Clinic",
+      "en": "Bené Dental Clinic"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kunjungan di Karawang. Konfirmasikan jadwal melalui kontak publik.",
+      "en": "Service and visiting information in Karawang. Confirm hours through the public contact."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi anak",
+        "en": "Children’s check-ups"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan gigi anak terdokumentasi pada kunjungan sekolah.",
+        "en": "Children’s dental check-ups were documented during a school visit."
+      }
+    },
+    {
+      "nama": {
+        "id": "Edukasi menyikat gigi",
+        "en": "Brushing education"
+      },
+      "ringkas": {
+        "id": "Pengenalan kebiasaan menyikat gigi bagi anak.",
+        "en": "Guidance on toothbrushing habits for children."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter dan ketersediaan kunjungan.",
+        "en": "Ask about dentist schedules and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tindak lanjut pemeriksaan",
+        "en": "Follow-up information"
+      },
+      "ringkas": {
+        "id": "Tanyakan langkah lanjutan berdasarkan pemeriksaan dokter.",
+        "en": "Ask about follow-up steps after a dentist’s assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan gigi anak",
+      "en": "Children’s dental visit guide"
+    },
+    "penjelasan": {
+      "id": "Panduan singkat untuk menyiapkan pertanyaan sebelum kunjungan.",
+      "en": "A short guide to preparing questions before a visit."
+    },
+    "alasan_dipilih": "Kegiatan edukasi gigi anak dan area bermain terdokumentasi dalam artikel sekolah."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it?"
+      },
+      "a": {
+        "id": "Di City View, belakang Bank BTN, Galuh Mas, Karawang.",
+        "en": "At City View, behind Bank BTN, Galuh Mas, Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani pemeriksaan anak?",
+        "en": "Are children’s check-ups available?"
+      },
+      "a": {
+        "id": "Artikel sekolah mencatat pemeriksaan gigi anak saat kegiatan edukasi.",
+        "en": "A school article documents children’s check-ups during an educational visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada area bermain?",
+        "en": "Is there a play area?"
+      },
+      "a": {
+        "id": "Artikel sekolah menyebut area bermain anak dan kafe.",
+        "en": "A school article mentions a children’s play area and café."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan; tanyakan kepada admin.",
+        "en": "No official price list was found; ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 15.00–19.00; konfirmasikan jadwal.",
+        "en": "A directory lists Sunday 3–7 PM; confirm hours."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi lebih lanjut",
+    "en": "Contact for more information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan informasi layanan di Bené Dental Clinic. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo tim Bené Dental Clinic, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi kegiatan edukasi gigi anak dan area bermain terdokumentasi dalam artikel sekolah. Kami menyiapkan konsep website di https://maxigrowthstudio.com/ben untuk ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Bené Dental Clinic",
+    "email_isi": "Yth. Manajemen Bené Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website yang memudahkan pengunjung menemukan informasi lokasi, layanan, dan kontak. Konsep tersedia di https://maxigrowthstudio.com/ben. Proposal PDF terlampir untuk ditinjau.\n\nKami terbuka terhadap masukan tanpa kewajiban melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "W2393",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigi Asyraf",
+      "en": "Dokter Gigi Asyraf"
+    },
+    "sub": {
+      "id": "Informasi perawatan dan kunjungan di Karawang. Konfirmasikan jadwal melalui kontak publik.",
+      "en": "Dental care and visiting information in Karawang. Confirm hours through the public contact."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai pemeriksaan.",
+        "en": "Dental cleaning following an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Care for cavities following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pencabutan jika dinilai perlu oleh dokter.",
+        "en": "Extraction when indicated by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Perawatan jaringan dalam gigi sesuai diagnosis.",
+        "en": "Treatment inside the tooth when indicated."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Konsultasi susunan gigi dan jadwal kontrol.",
+        "en": "Consultation about tooth alignment and follow-up."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pilihan layanan gigi",
+      "en": "Dental care guide"
+    },
+    "penjelasan": {
+      "id": "Panduan singkat tentang layanan dan persiapan pertanyaan sebelum konsultasi.",
+      "en": "A short guide to services and questions to prepare before consultation."
+    },
+    "alasan_dipilih": "Direktori menyebut layanan scaling, tambal, dan behel."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Jl. Bharata Raya, Sukaluyu, Telukjambe Timur, Karawang.",
+        "en": "On Bharata Raya Street in Sukaluyu, Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Waze mencantumkan tutup Minggu; konfirmasikan jadwal.",
+        "en": "Waze lists Sunday as closed; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning available?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada direktori layanan praktik.",
+        "en": "Dental cleaning is listed in a practice directory."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan behel?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Behel tercantum pada sumber publik; tanyakan jadwal konsultasi.",
+        "en": "Braces are publicly listed; ask about consultation times."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I find out fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan; minta estimasi setelah konsultasi.",
+        "en": "No official price list was found; request an estimate after consultation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi lebih lanjut",
+    "en": "Contact for more information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan informasi layanan di Dokter Gigi Asyraf. Apakah bisa dibantu?",
+  "outreach": {
+    "wa": "Halo tim Dokter Gigi Asyraf, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat praktik ini melayani scaling, tambal, dan behel. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/asyraf. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dokter Gigi Asyraf",
+    "email_isi": "Yth. Manajemen Dokter Gigi Asyraf,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pengunjung melihat informasi layanan, lokasi, dan jadwal praktik. Konsep tersedia di https://maxigrowthstudio.com/asyraf. Proposal PDF terlampir untuk ditinjau.\n\nKami terbuka terhadap masukan tanpa kewajiban melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

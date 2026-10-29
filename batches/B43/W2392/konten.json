@@ -1,0 +1,132 @@
+{
+  "id": "W2392",
+  "hero": {
+    "judul": {
+      "id": "De Luna Dental Care",
+      "en": "De Luna Dental Care"
+    },
+    "sub": {
+      "id": "Informasi layanan gigi dan kunjungan di Karawang.",
+      "en": "Dental care and visiting information in Karawang."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Dental assessment"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan sesuai kebutuhan.",
+        "en": "Ask about assessment appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pencabutan",
+        "en": "Extraction inquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan penilaian dokter sebelum tindakan.",
+        "en": "Ask about a dentist’s assessment before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Visiting hours"
+      },
+      "ringkas": {
+        "id": "Lihat jam direktori dan konfirmasikan sebelum datang.",
+        "en": "Review directory hours and confirm before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rincian biaya",
+        "en": "Fee information"
+      },
+      "ringkas": {
+        "id": "Minta estimasi biaya berdasarkan pemeriksaan.",
+        "en": "Request a fee estimate after assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan keluarga",
+      "en": "Dental visit guide"
+    },
+    "penjelasan": {
+      "id": "Panduan untuk menyiapkan pertanyaan dan memahami tahapan kunjungan.",
+      "en": "A guide to preparing questions and understanding visit steps."
+    },
+    "alasan_dipilih": "Direktori menunjukkan lokasi di Mahkota Regency dan layanan gigi keluarga disebut dalam ulasan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Perumahan Mahkota Regency, Blok K11 No.44, Sirnabaya, Telukjambe Timur, Karawang, Jawa Barat 41361, Indonesia",
+        "en": "The practice is in Karawang, Indonesia."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal?",
+        "en": "How can I check hours?"
+      },
+      "a": {
+        "id": "Jadwal tercantum pada direktori; konfirmasikan sebelum datang.",
+        "en": "Hours are listed in directories; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan biaya?",
+        "en": "How can I ask about fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan; tanyakan rincian setelah konsultasi.",
+        "en": "No official fee list was found; ask for details after consultation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak yang tercantum untuk menanyakan slot kunjungan.",
+        "en": "Contact the listed number to ask about appointment slots."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa yang perlu disiapkan?",
+        "en": "What should I prepare?"
+      },
+      "a": {
+        "id": "Sampaikan keluhan, riwayat perawatan, dan pertanyaan kepada petugas.",
+        "en": "Share your concerns, treatment history, and questions with the team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi lebih lanjut",
+    "en": "Contact for more information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan informasi layanan di De Luna Dental Care.",
+  "outreach": {
+    "wa": "Halo tim De Luna Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi direktori menunjukkan lokasi di mahkota regency dan layanan gigi keluarga disebut dalam ulasan. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/de-luna. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk De Luna Dental Care",
+    "email_isi": "Yth. Manajemen De Luna Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pengunjung menemukan informasi layanan, lokasi, dan kontak. Konsep tersedia di https://maxigrowthstudio.com/de-luna. Proposal PDF terlampir untuk ditinjau.\n\nKami terbuka terhadap masukan tanpa kewajiban melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2402",
+  "hero": {
+    "judul": {
+      "id": "Informasi drg. Irmaya Sariayu",
+      "en": "About drg. Irmaya Sariayu"
+    },
+    "sub": {
+      "id": "Lokasi tercatat di Jl. Raya Waringin Kurung, Harjatani, Kec. Kramatwatu, Kabupaten Serang, Banten 42161. Konfirmasikan jadwal dan kebutuhan perawatan sebelum berkunjung.",
+      "en": "Listed at Jl. Raya Waringin Kurung, Harjatani, Kec. Kramatwatu, Kabupaten Serang, Banten 42161. Confirm hours and treatment needs before visiting."
+    },
+    "cta": {
+      "id": "Lihat lokasi dan kontak",
+      "en": "View location and contact"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi umum",
+        "en": "General dental examinations"
+      },
+      "ringkas": {
+        "id": "Informasi jenis perawatan ini tercantum pada direktori. Pastikan ketersediaan dan kebutuhan melalui pemeriksaan dokter.",
+        "en": "This treatment category appears in a directory. Confirm availability and suitability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Informasi jenis perawatan ini tercantum pada direktori. Pastikan ketersediaan dan kebutuhan melalui pemeriksaan dokter.",
+        "en": "This treatment category appears in a directory. Confirm availability and suitability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi konsultasi awal",
+        "en": "Initial consultation information"
+      },
+      "ringkas": {
+        "id": "Detail tindakan atau alur layanan belum terkonfirmasi; tanyakan ketersediaan melalui kontak praktik.",
+        "en": "Specific procedures or processes are unverified; ask the practice about availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan jadwal praktik",
+        "en": "Opening-hours guide"
+      },
+      "ringkas": {
+        "id": "Detail tindakan atau alur layanan belum terkonfirmasi; tanyakan ketersediaan melalui kontak praktik.",
+        "en": "Specific procedures or processes are unverified; ask the practice about availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan sore dengan konfirmasi jadwal dan pertanyaan perawatan",
+      "en": "Evening-visit guide with hours confirmation and treatment questions"
+    },
+    "penjelasan": {
+      "id": "Panduan interaktif yang membantu pengunjung menyiapkan pertanyaan, mengecek lokasi, dan mengonfirmasi jadwal sebelum datang.",
+      "en": "An interactive guide to prepare questions, check the location and confirm opening hours before visiting."
+    },
+    "alasan_dipilih": "Informasi kontak tersedia, sedangkan detail tindakan dan jadwal perlu diperiksa melalui kanal resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat pada direktori: Jl. Raya Waringin Kurung, Harjatani, Kec. Kramatwatu, Kabupaten Serang, Banten 42161.",
+        "en": "The directory lists: Jl. Raya Waringin Kurung, Harjatani, Kec. Kramatwatu, Kabupaten Serang, Banten 42161."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercantum adalah +6287809850622. Konfirmasikan identitas penerima saat menghubungi.",
+        "en": "The public listing gives +6287809850622. Please confirm the recipient's identity when contacting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam resmi belum terkonfirmasi. Periksa jadwal terbaru sebelum berangkat.",
+        "en": "Official hours are unverified. Check the latest schedule before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "Which treatments are available?"
+      },
+      "a": {
+        "id": "Sebagian kategori perawatan tercantum di direktori. Ketersediaan tindakan perlu dikonfirmasi.",
+        "en": "Some treatment categories appear in directories. Confirm actual availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia pada sumber yang diperiksa. Mohon tanyakan estimasi sesuai kebutuhan.",
+        "en": "No official price list was found in the sources reviewed. Ask for an estimate based on your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan informasi perawatan",
+    "en": "Confirm hours and treatment information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Irmaya Sariayu serta ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola drg. Irmaya Sariayu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Kabupaten Serang dan menyadari rincian layanan serta jadwal masih perlu diperjelas secara daring. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/drg-irmaya. Jika berkenan, kami terbuka menerima koreksi data. Terima kasih.",
+    "email_subjek": "Konsep website untuk drg. Irmaya Sariayu",
+    "email_isi": "Yth. Pengelola drg. Irmaya Sariayu,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Kabupaten Serang, tetapi sejumlah detail jadwal dan perawatan belum dapat dipastikan melalui sumber publik.\n\nKami menyiapkan konsep website di https://maxigrowthstudio.com/drg-irmaya. Proposal PDF terlampir sebagai pengantar. Informasi dapat diperbarui sesuai data resmi praktik sebelum digunakan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

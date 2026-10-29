@@ -1,0 +1,132 @@
+{
+  "id": "W2397",
+  "hero": {
+    "judul": {
+      "id": "Dokter Gigimu by Drg. Guntur Yudha",
+      "en": "Dokter Gigimu by Drg. Guntur Yudha"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kunjungan dokter gigi di Kota Serang.",
+      "en": "Dental care and visiting information in Serang."
+    },
+    "cta": {
+      "id": "Tanya jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental assessment"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan gigi sesuai keluhan dan kebutuhan.",
+        "en": "Dental assessment based on your concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai pemeriksaan.",
+        "en": "Dental cleaning after assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang setelah diagnosis.",
+        "en": "Care for cavities following diagnosis."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan dan jadwal kontrol.",
+        "en": "Ask about treatment options and follow-up appointments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan persiapan konsultasi gigi keluarga",
+      "en": "Family dental visit guide"
+    },
+    "penjelasan": {
+      "id": "Bantu pengunjung menyiapkan keluhan dan pertanyaan sebelum berkonsultasi.",
+      "en": "Help visitors prepare concerns and questions before consultation."
+    },
+    "alasan_dipilih": "Praktik berlokasi di Citraland Puri Serang dengan layanan perawatan gigi umum yang tercantum di direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Ruko Grazie Citraland Puri Serang B.06, Sepang, Taktakan.",
+        "en": "At Grazie Citraland Puri Serang shophouse B.06, Sepang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan tutup Minggu; konfirmasikan jadwal.",
+        "en": "A directory lists Sunday as closed; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam praktik hari kerja?",
+        "en": "What are weekday hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan 15.00–21.00 Senin–Sabtu.",
+        "en": "A directory lists 3–9 PM Monday through Saturday."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan; tanyakan estimasi setelah pemeriksaan.",
+        "en": "No official price list was found; ask for an estimate after assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How do I arrange a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor yang tercantum untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the listed number to ask about availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi lebih lanjut",
+    "en": "Contact for more information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di Dokter Gigimu by Drg. Guntur Yudha.",
+  "outreach": {
+    "wa": "Halo tim Dokter Gigimu by Drg. Guntur Yudha, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat praktik berada di Citraland Puri Serang. Kami menyiapkan konsep website di https://maxigrowthstudio.com/gigimu-by untuk ditinjau jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dokter Gigimu by Drg. Guntur Yudha",
+    "email_isi": "Yth. Manajemen Dokter Gigimu by Drg. Guntur Yudha,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pengunjung melihat layanan, lokasi, dan kontak. Konsep tersedia di https://maxigrowthstudio.com/gigimu-by. Proposal PDF terlampir untuk ditinjau.\n\nKami terbuka terhadap masukan tanpa kewajiban melanjutkan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

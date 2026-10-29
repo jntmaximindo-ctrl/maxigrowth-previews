@@ -1,0 +1,132 @@
+{
+  "id": "W2404",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Samiikhah di Karanganyar",
+      "en": "Drg. Samiikhah dental practice in Karanganyar"
+    },
+    "sub": {
+      "id": "Praktik tercatat di kawasan Tegalasri, Bejen. Detail jalan dan jadwal perlu dikonfirmasi sebelum datang.",
+      "en": "The practice is listed in Tegalasri, Bejen. Please confirm the street address and hours before visiting."
+    },
+    "cta": {
+      "id": "Lihat kontak praktik",
+      "en": "View practice contact"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi umum",
+        "en": "General dental examinations"
+      },
+      "ringkas": {
+        "id": "Jenis layanan ini disebut pada direktori; konfirmasikan ketersediaan sesuai kebutuhan.",
+        "en": "This service category appears in directories; confirm availability for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pencabutan gigi",
+        "en": "Tooth extraction enquiries"
+      },
+      "ringkas": {
+        "id": "Jenis layanan ini disebut pada direktori; konfirmasikan ketersediaan sesuai kebutuhan.",
+        "en": "This service category appears in directories; confirm availability for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan kawat gigi",
+        "en": "Braces enquiries"
+      },
+      "ringkas": {
+        "id": "Jenis layanan ini disebut pada direktori; konfirmasikan ketersediaan sesuai kebutuhan.",
+        "en": "This service category appears in directories; confirm availability for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Panduan pendaftaran",
+        "en": "Registration guidance"
+      },
+      "ringkas": {
+        "id": "Tanyakan cara mendaftar dan jadwal yang berlaku sebelum datang.",
+        "en": "Ask about registration and current opening hours before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pendaftaran dan Jadwal",
+      "en": "Registration and Hours Guide"
+    },
+    "penjelasan": {
+      "id": "Halaman untuk mengecek lokasi, persiapan kunjungan, dan informasi jadwal yang masih perlu konfirmasi.",
+      "en": "A page to check the location, prepare for a visit and confirm hours that remain uncertain."
+    },
+    "alasan_dipilih": "Dua versi alamat jalan dan jadwal praktik muncul pada direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan kawasan Tegalasri, Bejen, Karanganyar. Nama jalan berbeda antarsumber; konfirmasikan sebelum berangkat.",
+        "en": "Directories list Tegalasri, Bejen, Karanganyar, but street names differ; confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor yang tercantum adalah +6285867531583.",
+        "en": "The listed phone number is +6285867531583."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan pencabutan?",
+        "en": "Is tooth extraction available?"
+      },
+      "a": {
+        "id": "Direktori menyebut pencabutan gigi, tetapi ketersediaan tindakan perlu dikonfirmasi.",
+        "en": "Directories mention extractions, but current availability needs confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Jadwal berbeda antardirektori; silakan konfirmasi jam terbaru melalui kontak praktik.",
+        "en": "Hours differ between directories; please check the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan pada sumber yang diperiksa.",
+        "en": "No official price list was found in the reviewed sources."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan lokasi sebelum datang",
+    "en": "Confirm hours and location before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan alamat dan jadwal terbaru praktik drg. Samiikhah serta cara mendaftar pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik drg. Samiikhah. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Tegalasri, Karanganyar, tetapi alamat jalan dan jadwal belum konsisten antardirektori. Kami menyiapkan konsep website untuk dilihat di https://maxigrowthstudio.com/samiikhah. Jika berkenan, kami terbuka menerima koreksi informasi. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Samiikhah",
+    "email_isi": "Yth. Pengelola Praktik drg. Samiikhah,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Tegalasri, Karanganyar, dengan perbedaan rincian alamat dan jadwal di beberapa direktori.\n\nKami menyiapkan konsep website di https://maxigrowthstudio.com/samiikhah. Proposal PDF terlampir sebagai pengantar. Konsep dapat diperbarui sesuai data resmi praktik sebelum digunakan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
