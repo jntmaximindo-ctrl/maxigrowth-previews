@@ -1,0 +1,142 @@
+{
+  "id": "W1854",
+  "hero": {
+    "judul": {
+      "id": "Lily Dental Care / drg. Lily Widjaja",
+      "en": "Lily Dental Care / drg. Lily Widjaja"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan telepon praktik gigi di Medan.",
+      "en": "Informasi lokasi dan telepon praktik gigi di Medan."
+    },
+    "cta": {
+      "id": "Konfirmasi kunjungan",
+      "en": "Konfirmasi kunjungan"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Alamat praktik",
+        "en": "Alamat praktik"
+      },
+      "ringkas": {
+        "id": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan 20211",
+        "en": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan 20211"
+      }
+    },
+    {
+      "nama": {
+        "id": "Nomor telepon tercantum",
+        "en": "Nomor telepon tercantum"
+      },
+      "ringkas": {
+        "id": "+62614573901",
+        "en": "+62614573901"
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kunjungan",
+        "en": "Jadwal kunjungan"
+      },
+      "ringkas": {
+        "id": "Senin–Jumat 09.00–20.30; Sabtu 09.00–18.00; Minggu tutup",
+        "en": "Senin–Jumat 09.00–20.30; Sabtu 09.00–18.00; Minggu tutup"
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi tindakan dan biaya",
+        "en": "Informasi tindakan dan biaya"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis tindakan yang tersedia dan estimasi biaya sebelum kunjungan.",
+        "en": "Tanyakan jenis tindakan yang tersedia dan estimasi biaya sebelum kunjungan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan terverifikasi",
+      "en": "Panduan kunjungan terverifikasi"
+    },
+    "penjelasan": {
+      "id": "Periksa alamat dan telepon yang tercantum, kemudian pastikan jadwal langsung.",
+      "en": "Periksa alamat dan telepon yang tercantum, kemudian pastikan jadwal langsung."
+    },
+    "alasan_dipilih": "Alamat dan telepon tertera pada sumber publik, sementara WA belum dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Di mana lokasi klinik?"
+      },
+      "a": {
+        "id": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan 20211",
+        "en": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan 20211"
+      }
+    },
+    {
+      "q": {
+        "id": "Apa nomor teleponnya?",
+        "en": "Apa nomor teleponnya?"
+      },
+      "a": {
+        "id": "+62614573901",
+        "en": "+62614573901"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima WhatsApp?",
+        "en": "Apakah menerima WhatsApp?"
+      },
+      "a": {
+        "id": "Nomor WhatsApp resmi belum dapat diverifikasi.",
+        "en": "Nomor WhatsApp resmi belum dapat diverifikasi."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam praktik?",
+        "en": "Bagaimana jam praktik?"
+      },
+      "a": {
+        "id": "Senin–Jumat 09.00–20.30; Sabtu 09.00–18.00; Minggu tutup",
+        "en": "Senin–Jumat 09.00–20.30; Sabtu 09.00–18.00; Minggu tutup"
+      }
+    },
+    {
+      "q": {
+        "id": "Apa pilihan perawatan?",
+        "en": "Apa pilihan perawatan?"
+      },
+      "a": {
+        "id": "Daftar tindakan spesifik belum dikonfirmasi oleh klinik.",
+        "en": "Daftar tindakan spesifik belum dikonfirmasi oleh klinik."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa tarifnya?",
+        "en": "Berapa tarifnya?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan; mintalah rincian biaya sebelum tindakan.",
+        "en": "Tarif resmi belum ditemukan; mintalah rincian biaya sebelum tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal",
+    "en": "Konfirmasi jadwal"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. pengelola klinik, Maxi Growth Studio ingin mengirim pratinjau konsep website untuk ditinjau. Apakah berkenan?",
+    "email_subjek": "Konsep website klinik",
+    "email_isi": "Yth. pengelola klinik,\n\nKami menawarkan pratinjau website informasi kunjungan pasien.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}
