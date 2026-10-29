@@ -1,0 +1,60 @@
+{
+ "kota": "Karawang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Praktik Dokter Gigi drg. Mustika Rengasdengklok",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kabupaten-karawang/",
+   "catatan": "Rengasdengklok"
+  },
+  {
+   "nama": "Klinik Kimia Farma Rengas Dengklok",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://tokiomarine.com/content/dam/tokiomarine/indonesia/life/resources/healthcare-locators/ad-medika-providers/documents/202306%20Temukan%20Daftar%20Rumah%20Sakit%20dan%20Klinik%20AdMedika.pdf",
+   "catatan": "Rengasdengklok, poli dental"
+  },
+  {
+   "nama": "Ahli Pasang Gigi Sanadin",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID/rengasdengklok/dokter-gigi",
+   "catatan": "Jayakerta tetangga; bukan dokter gigi terverifikasi"
+  },
+  {
+   "nama": "Ahli Gigi Jatimulya",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID/rengasdengklok/dokter-gigi",
+   "catatan": "Pedes tetangga; bukan dokter gigi terverifikasi"
+  },
+  {
+   "nama": "Alfika Dental",
+   "rating": 5,
+   "ulasan": 1,
+   "sumber": "https://bukutelepon.cybo.com/ID/rengasdengklok/dokter-gigi",
+   "catatan": "Kedungwaringin tetangga; ulasan kurang"
+  },
+  {
+   "nama": "Dental Center RS Bayukarta",
+   "rating": 5,
+   "ulasan": 2,
+   "sumber": "https://bukutelepon.cybo.com/ID/rengasdengklok/dokter-gigi",
+   "catatan": "Karawang Barat tetangga; ulasan kurang"
+  },
+  {
+   "nama": "Klinik Gigi dan Umum Karangpawitan",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID/rengasdengklok/dokter-gigi",
+   "catatan": "Karawang Barat tetangga"
+  }
+ ],
+ "catatan": "Data kandidat bersumber direktori web. KNOWN-KLINIK.txt diperiksa untuk sebagian nama, tetapi audit alias/domain belum tuntas. Hanya klinik di target atau tetangga yang dicantumkan; terapis/ahli gigi bukan otomatis dokter gigi, rating tidak memenuhi syarat dipisahkan. Tidak memasukkan lead ke klinik tanpa pemeriksaan penuh.",
+ "area": "karawang-rengasdengklok-r1"
+}

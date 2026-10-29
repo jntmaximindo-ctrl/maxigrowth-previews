@@ -1,0 +1,60 @@
+{
+ "kota": "Ketapang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Praktek drg. Romy Fernando",
+   "rating": 5,
+   "ulasan": 46,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Delta Pawan / pusat kota"
+  },
+  {
+   "nama": "Elra Dental Care",
+   "rating": 4.9,
+   "ulasan": 59,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Delta Pawan / pusat kota"
+  },
+  {
+   "nama": "Klink gigi ~ Ardhy Dental Care",
+   "rating": 5,
+   "ulasan": 3,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Singkup, kabupaten tetangga kecamatan"
+  },
+  {
+   "nama": "Praktek Dokter Gigi drg. Achwan Ardianto",
+   "rating": 5,
+   "ulasan": 7,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Kendawangan, tetangga kecamatan"
+  },
+  {
+   "nama": "Ahli Gigi Budi Dental",
+   "rating": 5,
+   "ulasan": 4,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Delta Pawan; ahli gigi bukan dokter gigi"
+  },
+  {
+   "nama": "Sepadu",
+   "rating": 5,
+   "ulasan": 1,
+   "sumber": "https://bukutelepon.cybo.com/ID/ketapang-ketapang/dokter-gigi",
+   "catatan": "Benua Kayong; belum terkonfirmasi klinik"
+  },
+  {
+   "nama": "RSUD dr Agoesdjam - poli gigi",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rsudagoesdjam.ketapangkab.go.id/",
+   "catatan": "Rumah sakit; bukan praktik mandiri"
+  }
+ ],
+ "catatan": "Pencarian web baru. Nama dicek exact-fragment terhadap KNOWN-KLINIK.txt; perlu audit alias/domain tambahan. Catatan tetangga tidak dianggap klinik di kecamatan sasaran. Klinik dengan ulasan tidak terverifikasi, rating di bawah 4.5, atau bukan dokter gigi tidak diloloskan. Enam entri diperiksa bukan berarti enam kandidat yang memenuhi syarat.",
+ "area": "ketapang-pusat-kabupaten"
+}

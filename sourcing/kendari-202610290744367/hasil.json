@@ -1,0 +1,60 @@
+{
+ "kota": "Kendari",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "drg. Nurmaya Dewi",
+   "rating": 5,
+   "ulasan": null,
+   "sumber": "https://bukutelepon.cybo.com/ID/kota-kendari/dokter-gigi/?p=3",
+   "catatan": "Wua-Wua"
+  },
+  {
+   "nama": "Klinik Wua-Wua",
+   "rating": 4.2,
+   "ulasan": 35,
+   "sumber": "https://localindonesia.net/kategori/klinik/sulawesi-tenggara/kendari",
+   "catatan": "nama Wua-Wua tetapi alamat Bende Kambu; rating tidak lolos"
+  },
+  {
+   "nama": "Klinik dan Apotek Budi Mulia",
+   "rating": 4.9,
+   "ulasan": 11,
+   "sumber": "https://localindonesia.net/kategori/klinik/sulawesi-tenggara/kendari",
+   "catatan": "Kadia, tetangga"
+  },
+  {
+   "nama": "Royal Dental Care Kendari",
+   "rating": 5,
+   "ulasan": 3,
+   "sumber": "https://bukutelepon.cybo.com/ID/kota-kendari/dokter-gigi",
+   "catatan": "Mandonga, tetangga"
+  },
+  {
+   "nama": "Ultra Dental Care Kendari",
+   "rating": 5,
+   "ulasan": 159,
+   "sumber": "https://localindonesia.net/kategori/dokter-gigi/sulawesi-tenggara/kendari",
+   "catatan": "Kadia, tetangga"
+  },
+  {
+   "nama": "Koni Dental",
+   "rating": 4.9,
+   "ulasan": 209,
+   "sumber": "https://localindonesia.net/kategori/dokter-gigi/sulawesi-tenggara/kendari",
+   "catatan": "Kadia, tetangga"
+  },
+  {
+   "nama": "Klinik Gigi Odonto Care",
+   "rating": 5,
+   "ulasan": 13,
+   "sumber": "https://localindonesia.net/kategori/dokter-gigi/sulawesi-tenggara/kendari",
+   "catatan": "Kadia, tetangga"
+  }
+ ],
+ "catatan": "Pencarian web baru. Nama dicek exact-fragment terhadap KNOWN-KLINIK.txt; perlu audit alias/domain tambahan. Catatan tetangga tidak dianggap klinik di kecamatan sasaran. Klinik dengan ulasan tidak terverifikasi, rating di bawah 4.5, atau bukan dokter gigi tidak diloloskan. Enam entri diperiksa bukan berarti enam kandidat yang memenuhi syarat.",
+ "area": "kendari-wua-wua"
+}
