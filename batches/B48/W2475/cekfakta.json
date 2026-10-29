@@ -1,0 +1,30 @@
+{
+  "id": "W2475",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "fxdentalclinic@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.chubb.com/content/dam/chubb-sites/chubb-com/id-id/lei-new-assets/rumah-sakit-rekanan/chubb-kumpulan-provider-admedika-list-july-2024.1.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282219959191",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://aibiz.id/klinik-utama-fx-dental-clinic-klinik",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282219959191",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://aibiz.id/klinik-utama-fx-dental-clinic-klinik",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -70,5 +70,17 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-asemrowo/",
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-simokerto/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik Dokter Gigi Surabaya Utara",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Krembangan Bhakti No.32, Kemayoran, Krembangan, Surabaya, Jawa Timur 60176",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

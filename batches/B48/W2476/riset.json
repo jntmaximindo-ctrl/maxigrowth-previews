@@ -81,5 +81,17 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?pid=id_en_tr_chubb_provider_dental",
     "https://drive.google.com/file/d/1rJGINlHrlr9R-uSWE4j-L53CITZwoYdD/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email",
+      "tercatat": "zenadentalcare@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-20.00\", \"sel\": \"09.00-20.00\", \"rab\": \"09.00-20.00\", \"kam\": \"09.00-20.00\", \"jum\": \"09.00-20.00\", \"sab\": \"08.00-18.00\", \"min\": \"08.00-13.00\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

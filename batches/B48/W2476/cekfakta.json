@@ -1,0 +1,23 @@
+{
+  "id": "W2476",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "zenadentalcare@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-20.00\", \"sel\": \"09.00-20.00\", \"rab\": \"09.00-20.00\", \"kam\": \"09.00-20.00\", \"jum\": \"09.00-20.00\", \"sab\": \"08.00-18.00\", \"min\": \"08.00-13.00\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://weboworld.com/listing/banten/kabupaten-tangerang/Dental-Health/zena-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

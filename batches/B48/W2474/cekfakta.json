@@ -1,0 +1,21 @@
+{
+  "id": "W2474",
+  "diperiksa": 2,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "melindalimiyanthi@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/am-dental-care-gading-serpong-0818-859-191 [nama]",
+    "https://www.semuabis.com/am-dental-care-gading-serpong-0818-859-191 [cabang[0].alamat]",
+    "https://www.semuabis.com/am-dental-care-gading-serpong-0818-859-191 [cabang[0].telepon]",
+    "https://www.semuabis.com/am-dental-care-gading-serpong-0818-859-191 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}
