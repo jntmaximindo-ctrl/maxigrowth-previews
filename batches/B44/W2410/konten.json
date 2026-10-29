@@ -1,0 +1,132 @@
+{
+  "id": "W2410",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Widyawati Sutedjo",
+      "en": "Drg. Widyawati Sutedjo practice information"
+    },
+    "sub": {
+      "id": "Praktik terdaftar di Dharmahusada Indah III, Surabaya. Pastikan jadwal dan kontak sebelum berkunjung.",
+      "en": "The practice is listed on Dharmahusada Indah III, Surabaya. Confirm hours and contact details before visiting."
+    },
+    "cta": {
+      "id": "Lihat lokasi praktik",
+      "en": "View practice location"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi periodonsia",
+        "en": "Periodontal consultation"
+      },
+      "ringkas": {
+        "id": "Spesialisasi periodonsia tercantum di direktori. Ketersediaan konsultasi dan tindakan perlu dikonfirmasi.",
+        "en": "Periodontics appears in directory listings. Confirm consultation and procedure availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination information"
+      },
+      "ringkas": {
+        "id": "Tanyakan alur pemeriksaan awal dan rujukan jika diperlukan.",
+        "en": "Ask about initial examinations and referrals if needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi jadwal",
+        "en": "Opening hours verification"
+      },
+      "ringkas": {
+        "id": "Jam praktik berbeda antardirektori, sehingga perlu konfirmasi sebelum datang.",
+        "en": "Hours differ between directories and should be confirmed before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Tarif resmi belum terverifikasi. Tanyakan estimasi sesuai kondisi setelah konsultasi.",
+        "en": "Official fees are unverified. Ask for an estimate based on clinical needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Periodonsia",
+      "en": "Periodontal Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Halaman untuk menyiapkan pertanyaan tentang kesehatan gusi, jadwal konsultasi, dan informasi kunjungan.",
+      "en": "A page to prepare gum-health questions, consultation scheduling, and visit information."
+    },
+    "alasan_dipilih": "Spesialisasi tercantum pada direktori, tetapi nomor telepon dan jadwal berbeda antarsumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. Dharmahusada Indah III No.228 Blok M-1A, Mulyorejo, Surabaya, Jawa Timur 60115",
+        "en": "Jl. Dharmahusada Indah III No.228 Blok M-1A, Mulyorejo, Surabaya, Jawa Timur 60115"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah praktik menangani masalah gusi?",
+        "en": "Does the practice address gum conditions?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan gelar Sp.Perio. Jenis pemeriksaan dan tindakan perlu dikonfirmasi dengan dokter.",
+        "en": "Directories list Sp.Perio. Confirm the available examinations and procedures with the dentist."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa nomor kontak yang tercantum?",
+        "en": "What phone number is listed?"
+      },
+      "a": {
+        "id": "Beberapa direktori menampilkan +6283830149393, sementara sumber lain menampilkan nomor berbeda. Pastikan identitas penerima.",
+        "en": "Several directories list +6283830149393, while another source lists a different number. Verify the recipient."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal berbeda pada beberapa direktori. Konfirmasikan sebelum datang.",
+        "en": "Hours differ across directories. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan pada sumber yang diperiksa.",
+        "en": "No official fee list was found in the reviewed sources."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi kontak dan jadwal konsultasi",
+    "en": "Confirm contact and consultation hours"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan jadwal praktik drg. Widyawati Sutedjo di Dharmahusada Indah III dan informasi konsultasi periodonsia. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik drg. Widyawati Sutedjo. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Dharmahusada Indah III, Surabaya, tetapi nomor dan jam praktik berbeda antardirektori. Kami menyiapkan konsep website di https://maxigrowthstudio.com/drg-widyawati untuk ditinjau. Jika berkenan, kami terbuka menerima koreksi data. Terima kasih.",
+    "email_subjek": "Konsep website praktik drg. Widyawati Sutedjo",
+    "email_isi": "Yth. Pengelola Praktik drg. Widyawati Sutedjo,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website di https://maxigrowthstudio.com/drg-widyawati untuk memperjelas lokasi, kontak, dan informasi konsultasi. Proposal PDF terlampir sebagai pengantar. Data dapat diperbarui berdasarkan informasi resmi sebelum digunakan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
