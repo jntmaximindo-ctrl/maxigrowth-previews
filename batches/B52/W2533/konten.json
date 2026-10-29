@@ -1,0 +1,132 @@
+{
+  "id": "W2533",
+  "hero": {
+    "judul": {
+      "id": "Informasi Arindy Dental Care",
+      "en": "Arindy Dental Care Information"
+    },
+    "sub": {
+      "id": "Lokasi, jadwal yang tercantum, dan panduan pertanyaan sebelum kunjungan.",
+      "en": "Listed location, hours, and questions to ask before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan konsultasi",
+        "en": "Check-up and consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan serta konsultasi yang tersedia.",
+        "en": "Ask about available check-ups and consultations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan pembersihan karang gigi sebelum datang.",
+        "en": "Confirm whether dental cleaning is offered before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Tooth fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal untuk keluhan gigi berlubang.",
+        "en": "Ask about an initial assessment for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi lanjutan",
+        "en": "Further dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis perawatan lanjutan yang dapat dilakukan setelah pemeriksaan.",
+        "en": "Ask which further treatments may be available after an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan memilih jadwal dokter",
+      "en": "Dentist scheduling guide"
+    },
+    "penjelasan": {
+      "id": "Periksa informasi jadwal dari direktori dan siapkan pertanyaan sebelum menghubungi praktik.",
+      "en": "Review directory hours and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Nama dua dokter tercantum pada direktori; jadwal masing-masing belum tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Raya Panglima Sudirman No.555, Wiroborang, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67216. Mohon konfirmasi sebelum datang.",
+        "en": "A directory lists Jl. Raya Panglima Sudirman No.555, Wiroborang, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67216. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal direktori: sen:09-20, sel:09-20, rab:09-20, kam:09-20, jum:09-20, sab:09-20, min:tutup. Mohon konfirmasi jika ada perubahan.",
+        "en": "Directory hours: sen:09-20, sel:09-20, rab:09-20, kam:09-20, jum:09-20, sab:09-20, min:tutup. Please check for updates."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a check-up?"
+      },
+      "a": {
+        "id": "Tarif klinik belum ditemukan pada sumber yang diperiksa. Tanyakan rincian kepada praktik.",
+        "en": "Clinic fees were not found in the checked sources. Ask the practice for details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning offered?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan belum dapat dipastikan dari sumber publik. Silakan konfirmasi.",
+        "en": "Availability is not confirmed by public sources. Please check directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Nomor ponsel yang tercantum pada direktori adalah 6281216779055. Pastikan kontak masih berlaku.",
+        "en": "A public directory lists 6281216779055. Please verify that the contact is current."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan layanan sebelum berkunjung",
+    "en": "Confirm hours and services before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal Arindy Dental Care dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Arindy Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi dan jadwal praktik di Probolinggo melalui direktori publik. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/arindy. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Arindy Dental Care",
+    "email_isi": "Yth. Tim Arindy Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi dan jadwal praktik melalui direktori publik. Kami menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/arindy. Proposal PDF terlampir untuk bahan pertimbangan. Jika sesuai kebutuhan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

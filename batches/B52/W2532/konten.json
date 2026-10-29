@@ -1,0 +1,132 @@
+{
+  "id": "W2532",
+  "hero": {
+    "judul": {
+      "id": "Informasi WD Dental Care",
+      "en": "WD Dental Care Information"
+    },
+    "sub": {
+      "id": "Lokasi, jadwal yang tercantum, dan panduan pertanyaan sebelum kunjungan.",
+      "en": "Listed location, hours, and questions to ask before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan konsultasi",
+        "en": "Check-up and consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan serta konsultasi yang tersedia.",
+        "en": "Ask about available check-ups and consultations."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan pembersihan karang gigi sebelum datang.",
+        "en": "Confirm whether dental cleaning is offered before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Tooth fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal untuk keluhan gigi berlubang.",
+        "en": "Ask about an initial assessment for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi lanjutan",
+        "en": "Further dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis perawatan lanjutan yang dapat dilakukan setelah pemeriksaan.",
+        "en": "Ask which further treatments may be available after an assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan reservasi sore dan malam",
+      "en": "Afternoon and evening appointment guide"
+    },
+    "penjelasan": {
+      "id": "Periksa informasi jadwal dari direktori dan siapkan pertanyaan sebelum menghubungi praktik.",
+      "en": "Review directory hours and prepare questions before contacting the practice."
+    },
+    "alasan_dipilih": "Dua direktori mencantumkan jadwal praktik pukul 15.00–22.00 setiap hari."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Hayam Wuruk No.28, Jati, Mangunharjo, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67217. Mohon konfirmasi sebelum datang.",
+        "en": "A directory lists Jl. Hayam Wuruk No.28, Jati, Mangunharjo, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67217. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal direktori: sen:15-22, sel:15-22, rab:15-22, kam:15-22, jum:15-22, sab:15-22, min:15-22. Mohon konfirmasi jika ada perubahan.",
+        "en": "Directory hours: sen:15-22, sel:15-22, rab:15-22, kam:15-22, jum:15-22, sab:15-22, min:15-22. Please check for updates."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a check-up?"
+      },
+      "a": {
+        "id": "Tarif klinik belum ditemukan pada sumber yang diperiksa. Tanyakan rincian kepada praktik.",
+        "en": "Clinic fees were not found in the checked sources. Ask the practice for details."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is dental cleaning offered?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan belum dapat dipastikan dari sumber publik. Silakan konfirmasi.",
+        "en": "Availability is not confirmed by public sources. Please check directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Nomor ponsel yang tercantum pada direktori adalah 6287755519291. Pastikan kontak masih berlaku.",
+        "en": "A public directory lists 6287755519291. Please verify that the contact is current."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan layanan sebelum berkunjung",
+    "en": "Confirm hours and services before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal WD Dental Care dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola WD Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi dan jadwal praktik di Probolinggo melalui direktori publik. Kami sudah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/wd-drg. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk WD Dental Care",
+    "email_isi": "Yth. Tim WD Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi dan jadwal praktik melalui direktori publik. Kami menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/wd-drg. Proposal PDF terlampir untuk bahan pertimbangan. Jika sesuai kebutuhan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
