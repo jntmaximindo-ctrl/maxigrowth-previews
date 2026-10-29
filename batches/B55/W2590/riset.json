@@ -113,5 +113,42 @@
     "https://www.instagram.com/doktergigi_magelang/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-Jun-2024.pdf",
     "https://doktergigimagelang.wordpress.com/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "H Smile Dental Care — drg. Martin W. Handoko",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigi_magelang/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tentara Pelajar No.45, Kemirirejo, Magelang Tengah, Kota Magelang, Jawa Tengah 56122",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281805823233",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281805823233",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-18.00\", \"sel\": \"09.00-18.00\", \"rab\": \"09.00-18.00\", \"kam\": \"09.00-18.00\", \"jum\": \"09.00-18.00\", \"sab\": \"09.00-18.00\", \"min\": null}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg Martin Handoko",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

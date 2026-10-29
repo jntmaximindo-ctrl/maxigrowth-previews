@@ -1,0 +1,66 @@
+{
+  "id": "W2590",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "H Smile Dental Care — drg. Martin W. Handoko",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/133863/h-smile-dental-care-dokter-gigi-martin-w-handoko-dokter-gigi-magelang-magelang-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/doktergigi_magelang/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tentara Pelajar No.45, Kemirirejo, Magelang Tengah, Kota Magelang, Jawa Tengah 56122",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281805823233",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281805823233",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-18.00\", \"sel\": \"09.00-18.00\", \"rab\": \"09.00-18.00\", \"kam\": \"09.00-18.00\", \"jum\": \"09.00-18.00\", \"sab\": \"09.00-18.00\", \"min\": null}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg Martin Handoko",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-magelang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/133863/h-smile-dental-care-dokter-gigi-martin-w-handoko-dokter-gigi-magelang-magelang-jawa-tengah [nama]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [instagram]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [cabang[0].wa]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [cabang[0].jam]",
+    "https://doktertanya.com/dokter-gigi-magelang/ [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
