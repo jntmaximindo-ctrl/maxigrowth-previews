@@ -83,5 +83,32 @@
   "sumber": [
     "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
     "https://id.scribd.com/document/907437697/4-3-1-b-ruk-Imunisasi-2024"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Puskesmas Naibonat",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "email",
+      "tercatat": "naibonatpuskesmas@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Timor Raya Km.32, Kelurahan Naibonat, Kabupaten Kupang, Nusa Tenggara Timur 85361",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281238978618",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281238978618",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

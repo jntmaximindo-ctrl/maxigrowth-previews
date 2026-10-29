@@ -1,0 +1,50 @@
+{
+  "id": "W2365",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "RUMAH GIGI ABIL DENTAL",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Pasirgombong, Kecamatan Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287888231990",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287888231990",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-21\", \"sel\": \"08-21\", \"rab\": \"08-21\", \"kam\": \"08-21\", \"jum\": \"08-21\", \"sab\": \"08-21\", \"min\": \"08-21\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental [nama]",
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental [cabang[0].alamat]",
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental [cabang[0].telepon]",
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental [cabang[0].wa]",
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/rumah-gigi-abil-dental [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

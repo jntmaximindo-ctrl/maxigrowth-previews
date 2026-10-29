@@ -1,0 +1,44 @@
+{
+  "id": "W2366",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Puskesmas Naibonat",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "email",
+      "tercatat": "naibonatpuskesmas@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Timor Raya Km.32, Kelurahan Naibonat, Kabupaten Kupang, Nusa Tenggara Timur 85361",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281238978618",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281238978618",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://repository.poltekkes-denpasar.ac.id/14292/6/BAB%20V%20Hasil%20Penelitian%20dan%20Pembahasan.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

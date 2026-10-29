@@ -79,5 +79,37 @@
   "sumber": [
     "https://caribisnis.id/dokter-gigi/semarang/ambarawa/rasa-dental-ungaran-amba-imp1",
     "https://www.instagram.com/rasadentalofficial/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "RASA Dental Ungaran",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/rasadentalofficial/",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kartini No.3, Sembungan, Ungaran, Kecamatan Ungaran Barat, Kabupaten Semarang, Jawa Tengah 50511",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282190000483",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282190000483",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"16-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

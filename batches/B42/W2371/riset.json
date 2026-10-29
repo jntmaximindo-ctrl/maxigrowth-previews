@@ -72,5 +72,27 @@
     "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k",
     "https://id.worldorgs.com/katalog/tangerang/dokter-gigi/dokter-gigi-errika-k",
     "https://biashara.cybo.com/ID/pasarkemis/madaktari-wa-meno"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Errika K",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Pasar Kemis, RT.2/RW.4, Sukamantri, Kecamatan Pasar Kemis, Kabupaten Tangerang, Banten 15560",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6283895604641",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6283895604641",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

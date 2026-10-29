@@ -71,5 +71,27 @@
   "sumber": [
     "https://www.semuabis.com/drg-novensius_1q-0857-2779-2303",
     "https://caribisnis.id/dokter-gigi/semarang/genuk/drg-novensius-genu-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Novensius",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Diponegoro No.228A, Ungaran, Genuk, Kecamatan Ungaran Barat, Kabupaten Semarang, Jawa Tengah 50512",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285727792303",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285727792303",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

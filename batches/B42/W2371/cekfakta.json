@@ -1,0 +1,42 @@
+{
+  "id": "W2371",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Errika K",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Pasar Kemis, RT.2/RW.4, Sukamantri, Kecamatan Pasar Kemis, Kabupaten Tangerang, Banten 15560",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6283895604641",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6283895604641",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k [nama]",
+    "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k [cabang[0].alamat]",
+    "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k [cabang[0].telepon]",
+    "https://biashara.cybo.com/ID-biz/dokter-gigi-errika-k [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

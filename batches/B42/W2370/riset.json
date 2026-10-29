@@ -79,5 +79,32 @@
   "sumber": [
     "https://biashara.cybo.com/ID-biz/kalani-dental-%7C-praktek-dokter-gigi",
     "https://biashara.cybo.com/ID/pasarkemis/madaktari-wa-meno"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Kalani Dental | Praktek Dokter Gigi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pasir Awi No.63, RT.006/RW.002, Suka Asih, Kecamatan Pasar Kemis, Kabupaten Tangerang, Banten 15560",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285159030096",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285159030096",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"15-21\", \"sab\": \"10-18\", \"min\": \"10-18\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
