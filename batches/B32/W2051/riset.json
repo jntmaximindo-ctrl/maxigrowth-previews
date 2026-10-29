@@ -71,5 +71,17 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/",
     "https://www.google.com/maps/search/?api=1&query=ADISHA+DENTISTS+Family+Dental+Care+Surabaya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "ADISHA DENTISTS Family Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gayung Kebonsari Timur No.43, Ketintang, Gayungan, Surabaya, Jawa Timur 60231",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
