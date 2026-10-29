@@ -1,0 +1,58 @@
+{
+  "id": "W2564",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi drg. Noraniza Fadhila",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "dukuh No.O, RT.3/RW.4, Sepet, Manggis, Kec. Mojosongo, Kabupaten Boyolali, Jawa Tengah 57322, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285211206179",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285211206179",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Noraniza Fadhila",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [cabang[0].jam]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

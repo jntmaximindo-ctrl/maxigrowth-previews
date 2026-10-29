@@ -1,0 +1,74 @@
+{
+  "id": "W2567",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Yunita Karolina, Sp.KGA",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/drgyunitakarolinamdsc.sp/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dr. Sutomo No.13, Kauman, Kec. Jepara, Kabupaten Jepara, Jawa Tengah 59417, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285244411770",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285244411770",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"07-13,17-20\", \"sel\": \"07-13,17-20\", \"rab\": \"07-13,17-20\", \"kam\": \"07-13,17-20\", \"jum\": \"07-13,17-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Yunita Karolina, MDSc, Sp.KGA",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://suarabaru.id/2024/11/13/spesialis-gigi-anak-layanan-terbaru-rsud-r-a-kartini-jepara",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Spesialis Kedokteran Gigi Anak (Sp.KGA)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://suarabaru.id/2024/11/13/spesialis-gigi-anak-layanan-terbaru-rsud-r-a-kartini-jepara",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [instagram]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-yunita-karolina-spkga [cabang[0].jam]",
+    "https://suarabaru.id/2024/11/13/spesialis-gigi-anak-layanan-terbaru-rsud-r-a-kartini-jepara [dokter[0].nama]",
+    "https://suarabaru.id/2024/11/13/spesialis-gigi-anak-layanan-terbaru-rsud-r-a-kartini-jepara [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

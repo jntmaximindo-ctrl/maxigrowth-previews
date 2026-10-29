@@ -1,0 +1,66 @@
+{
+  "id": "W2566",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Caca Dental Care — drg. Cahyaning Hannisa",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/cacadental/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K. S. Tubun No.5, Demaan VIII, Demaan, Kec. Jepara, Kabupaten Jepara, Jawa Tengah 59419, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289520783411",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289520783411",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-12\", \"sel\": \"08-12\", \"rab\": \"08-12\", \"kam\": \"08-12,16:30-20\", \"jum\": \"08-11,16:30-20\", \"sab\": \"08-12,16:30-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Cahyaning Hannisa",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [instagram]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [cabang[0].jam]",
+    "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-cahyaning-hannisa [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

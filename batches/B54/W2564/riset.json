@@ -109,5 +109,37 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-dokter-gigi-drg-noraniza-fadhila-1061085",
     "https://bukutelepon.cybo.com/ID-biz/praktek-dokter-gigi-drg-noraniza"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi drg. Noraniza Fadhila",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "dukuh No.O, RT.3/RW.4, Sepet, Manggis, Kec. Mojosongo, Kabupaten Boyolali, Jawa Tengah 57322, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285211206179",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285211206179",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Noraniza Fadhila",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
