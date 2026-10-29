@@ -1,0 +1,142 @@
+{
+  "id": "W1897",
+  "hero": {
+    "judul": {
+      "id": "Klinik Q Medical n Dental Clinic",
+      "en": "Klinik Q Medical n Dental Clinic"
+    },
+    "sub": {
+      "id": "Panduan lokasi dan informasi perawatan gigi di Bogor.",
+      "en": "Location and treatment information in Bogor."
+    },
+    "cta": {
+      "id": "Periksa jadwal dan lokasi",
+      "en": "Check hours and directions"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Lokasi praktik di Bogor",
+        "en": "Lokasi praktik di Bogor"
+      },
+      "ringkas": {
+        "id": "Klinik Q Medical n Dental Clinic tercantum pada Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111; periksa peta sebelum datang.",
+        "en": "Klinik Q Medical n Dental Clinic tercantum pada Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111; periksa peta sebelum datang."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pilihan perawatan yang disebut sumber",
+        "en": "Pilihan perawatan yang disebut sumber"
+      },
+      "ringkas": {
+        "id": "Sumber mencantumkan pemeriksaan gigi, scaling gigi, tambal gigi; konfirmasikan jadwal serta kesesuaian tindakan.",
+        "en": "Sumber mencantumkan pemeriksaan gigi, scaling gigi, tambal gigi; konfirmasikan jadwal serta kesesuaian tindakan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jalur konfirmasi kunjungan",
+        "en": "Jalur konfirmasi kunjungan"
+      },
+      "ringkas": {
+        "id": "Nomor kantor yang tercantum: +622518332008; konfirmasikan apakah masih aktif.",
+        "en": "Nomor kantor yang tercantum: +622518332008; konfirmasikan apakah masih aktif."
+      }
+    },
+    {
+      "nama": {
+        "id": "Permintaan estimasi biaya",
+        "en": "Permintaan estimasi biaya"
+      },
+      "ringkas": {
+        "id": "Daftar tarif resmi belum tersedia di dua sumber; minta rincian biaya sesuai kondisi dan tindakan.",
+        "en": "Daftar tarif resmi belum tersedia di dua sumber; minta rincian biaya sesuai kondisi dan tindakan."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konfirmasi sebelum perawatan",
+      "en": "Before-treatment verification guide"
+    },
+    "penjelasan": {
+      "id": "Gabungkan alamat Bogor serta layanan yang dinyatakan pada sumber dan catatan hal yang perlu dikonfirmasi.",
+      "en": "Combine source-listed services and location with clear pre-visit confirmation points."
+    },
+    "alasan_dipilih": "Sumber menyediakan identitas dan beberapa layanan tetapi tidak cukup untuk memastikan tarif resmi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana klinik berada?",
+        "en": "Di mana klinik berada?"
+      },
+      "a": {
+        "id": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111",
+        "en": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111"
+      }
+    },
+    {
+      "q": {
+        "id": "Apa perawatan yang dicantumkan pada sumber?",
+        "en": "Apa perawatan yang dicantumkan pada sumber?"
+      },
+      "a": {
+        "id": "Pemeriksaan gigi, Scaling gigi, Tambal gigi, Konsultasi kawat gigi.",
+        "en": "Pemeriksaan gigi, Scaling gigi, Tambal gigi, Konsultasi kawat gigi."
+      }
+    },
+    {
+      "q": {
+        "id": "Adakah nomor telepon yang dapat dicoba?",
+        "en": "Adakah nomor telepon yang dapat dicoba?"
+      },
+      "a": {
+        "id": "Nomor yang tercantum: +622518332008.",
+        "en": "Nomor yang tercantum: +622518332008."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana dengan WhatsApp?",
+        "en": "Bagaimana dengan WhatsApp?"
+      },
+      "a": {
+        "id": "Status nomor WhatsApp resmi belum dapat diverifikasi dari halaman yang diperiksa.",
+        "en": "Status nomor WhatsApp resmi belum dapat diverifikasi dari halaman yang diperiksa."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam pelayanan terbaru?",
+        "en": "Kapan jam pelayanan terbaru?"
+      },
+      "a": {
+        "id": "Jam praktik terkini belum diverifikasi; pastikan langsung sebelum membuat janji.",
+        "en": "Jam praktik terkini belum diverifikasi; pastikan langsung sebelum membuat janji."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa estimasi biaya?",
+        "en": "Berapa estimasi biaya?"
+      },
+      "a": {
+        "id": "Tidak ada daftar tarif resmi yang diverifikasi. Mintalah penjelasan biaya sebelum tindakan.",
+        "en": "Tidak ada daftar tarif resmi yang diverifikasi. Mintalah penjelasan biaya sebelum tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan biaya",
+    "en": "Confirm appointments and fees"
+  },
+  "pesan_wa_default": "Halo Klinik Q Medical n Dental Clinic, saya ingin menanyakan jadwal serta biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Yth. pengelola Klinik Q Medical n Dental Clinic, kami dari Maxi Growth Studio ingin menawarkan contoh website informasi layanan untuk ditinjau. Apakah kami boleh mengirimkan pratinjau?",
+    "email_subjek": "Pratinjau website Klinik Q Medical n Dental Clinic",
+    "email_isi": "Yth. pengelola Klinik Q Medical n Dental Clinic,\n\nMaxi Growth Studio menawarkan konsep website informasi praktik untuk ditinjau. Bila berkenan kami dapat mengirimkan pratinjau dan proposal.\n\nSalam,\nMaxi Growth Studio"
+  }
+}

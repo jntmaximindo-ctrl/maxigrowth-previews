@@ -1,0 +1,142 @@
+{
+  "id": "W2068",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Ernawati Ratih Dewanti — Gamping",
+      "en": "Drg. Ernawati Ratih Dewanti — Gamping"
+    },
+    "sub": {
+      "id": "Informasi praktik di Patukan dan jam sore yang perlu dikonfirmasi sebelum kunjungan.",
+      "en": "Information on the Patukan practice and its directory-listed evening hours."
+    },
+    "cta": {
+      "id": "Periksa informasi kunjungan",
+      "en": "Check visiting information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Alamat praktik di Patukan",
+        "en": "Alamat praktik di Patukan"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan Gg. Patukan 1, Ambarketawang, Gamping, Sleman.",
+        "en": "Direktori mencantumkan Gg. Patukan 1, Ambarketawang, Gamping, Sleman."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jam kunjungan sore",
+        "en": "Jam kunjungan sore"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.00–20.00; konfirmasi sebelum datang.",
+        "en": "Direktori mencantumkan Senin–Sabtu 16.00–20.00; konfirmasi sebelum datang."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Pemeriksaan gigi"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dokter, jadwal, dan pemeriksaan yang dibutuhkan.",
+        "en": "Tanyakan ketersediaan dokter, jadwal, dan pemeriksaan yang dibutuhkan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi layanan gigi",
+        "en": "Konfirmasi layanan gigi"
+      },
+      "ringkas": {
+        "id": "Scaling, tambal dan cabut gigi disebutkan direktori tetapi memerlukan konfirmasi praktik.",
+        "en": "Scaling, tambal dan cabut gigi disebutkan direktori tetapi memerlukan konfirmasi praktik."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan sore di Patukan",
+      "en": "Patukan evening visit guide"
+    },
+    "penjelasan": {
+      "id": "Menjelaskan lokasi, rentang jam sore dan informasi kontak yang masih membutuhkan konfirmasi.",
+      "en": "Shows location, evening hours and contact details still requiring confirmation."
+    },
+    "alasan_dipilih": "Jam praktik direktori hanya empat jam sore hari dan nomor kontak lama tidak cocok pasti dengan cabang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana klinik berada?",
+        "en": "Di mana klinik berada?"
+      },
+      "a": {
+        "id": "Gg. Patukan 1, Patukan, Ambarketawang, Gamping, Sleman, Daerah Istimewa Yogyakarta 55294",
+        "en": "Gg. Patukan 1, Patukan, Ambarketawang, Gamping, Sleman, Daerah Istimewa Yogyakarta 55294"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "Kapan jam praktik?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 16.00–20.00; Minggu tutup. Konfirmasi sebelum berkunjung.",
+        "en": "Direktori mencantumkan Senin–Sabtu 16.00–20.00; Minggu tutup. Konfirmasi sebelum berkunjung."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah nomor telepon aktif tersedia?",
+        "en": "Apakah nomor telepon aktif tersedia?"
+      },
+      "a": {
+        "id": "Nomor telepon tetap lama tertera pada direktori faskes, tetapi keaktifannya untuk alamat ini belum terverifikasi.",
+        "en": "Nomor telepon tetap lama tertera pada direktori faskes, tetapi keaktifannya untuk alamat ini belum terverifikasi."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia WhatsApp?",
+        "en": "Apakah tersedia WhatsApp?"
+      },
+      "a": {
+        "id": "Tidak ditemukan nomor WhatsApp resmi yang dapat dipastikan terkait lokasi Patukan.",
+        "en": "Tidak ditemukan nomor WhatsApp resmi yang dapat dipastikan terkait lokasi Patukan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa layanan yang tercatat?",
+        "en": "Apa layanan yang tercatat?"
+      },
+      "a": {
+        "id": "Direktori menyebut pemeriksaan, scaling, tambal dan cabut gigi; ketersediaan spesifik perlu dikonfirmasi.",
+        "en": "Direktori menyebut pemeriksaan, scaling, tambal dan cabut gigi; ketersediaan spesifik perlu dikonfirmasi."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "Berapa biaya perawatan?"
+      },
+      "a": {
+        "id": "Tidak ditemukan daftar harga resmi. Mintalah estimasi sebelum memulai tindakan.",
+        "en": "Tidak ditemukan daftar harga resmi. Mintalah estimasi sebelum memulai tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi",
+    "en": "Contact the clinic to confirm"
+  },
+  "pesan_wa_default": "Halo Klinik Matahari, saya ingin memastikan jadwal pemeriksaan dan biaya.",
+  "outreach": {
+    "wa": "Yth. pengelola Klinik Matahari, Maxi Growth Studio ingin mengirimkan pratinjau konsep website informasi klinik untuk ditinjau. Apakah berkenan?",
+    "email_subjek": "Pratinjau website Klinik Matahari",
+    "email_isi": "Yth. Pengelola Klinik Matahari,\n\nMaxi Growth Studio menyiapkan konsep website informasi klinik. Jika berkenan, kami dapat mengirim pratinjau dan proposal untuk ditinjau.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}

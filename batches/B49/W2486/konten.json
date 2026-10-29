@@ -1,0 +1,152 @@
+{
+  "id": "W2486",
+  "hero": {
+    "judul": {
+      "id": "Mulia Dental Gamping",
+      "en": "Mulia Dental Gamping"
+    },
+    "sub": {
+      "id": "Informasi lokasi, jadwal, dan pilihan perawatan gigi untuk membantu Anda merencanakan kunjungan.",
+      "en": "Location, opening hours and dental care information to help plan your visit."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi tersedia menurut direktori; jenis tindakan ditentukan setelah pemeriksaan.",
+        "en": "Dental cleaning is listed by a local directory; the appropriate treatment follows an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang dapat ditanyakan saat membuat janji.",
+        "en": "Ask about fillings when arranging an appointment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan dan kebutuhan pemeriksaan sebelum tindakan pencabutan.",
+        "en": "Discuss symptoms and the required assessment before extraction."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan rencana kontrol sebelum memulai perawatan.",
+        "en": "Ask about the initial assessment and follow-up schedule before starting braces."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Ketersediaan dan kesesuaian veneer perlu dibahas bersama dokter.",
+        "en": "Veneer availability and suitability should be discussed with a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Waktu Kunjungan",
+      "en": "Visit Time Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal yang tercantum per hari dan konfirmasikan ketersediaan melalui WhatsApp sebelum datang.",
+      "en": "View the listed daily hours and confirm availability via WhatsApp before visiting."
+    },
+    "alasan_dipilih": "Jam pada Senin dan Sabtu berbeda dari Selasa sampai Jumat menurut direktori."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Mulia Dental?",
+        "en": "Where is Mulia Dental located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Jl. Jambon Trihanggo, Baturan, Trihanggo, Gamping, Sleman. Pastikan titik lokasi sebelum berangkat.",
+        "en": "The listed address is Jl. Jambon Trihanggo, Baturan, Trihanggo, Gamping, Sleman. Confirm the map location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Menurut direktori, Senin dan Sabtu pukul 11.00–18.00, Selasa–Jumat 16.00–20.00, dan Minggu tutup. Konfirmasi kembali karena jadwal dapat berubah.",
+        "en": "The directory lists Monday and Saturday 11:00–18:00, Tuesday–Friday 16:00–20:00, and Sunday closed. Please confirm, as schedules may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara bertanya tentang jadwal?",
+        "en": "How can I ask about appointments?"
+      },
+      "a": {
+        "id": "Nomor WhatsApp yang tercantum adalah 0857-2067-1101. Kirim pertanyaan mengenai jadwal dan ketersediaan dokter sebelum berkunjung.",
+        "en": "The listed WhatsApp number is +62 857-2067-1101. Ask about appointments and dentist availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau tambal gigi?",
+        "en": "How much do cleaning or fillings cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Silakan tanyakan estimasi biaya dan kebutuhan pemeriksaan kepada klinik.",
+        "en": "An official price list was not found. Please ask the clinic about estimated costs and any examination required."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Is insurance or BPJS accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi atau BPJS belum terverifikasi. Tanyakan langsung sebelum membuat janji.",
+        "en": "Insurance and BPJS arrangements have not been verified. Please check before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani perawatan gigi anak?",
+        "en": "Does the clinic treat children?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan anak belum dapat dipastikan dari sumber yang dibaca. Konfirmasi usia pasien dan jenis keluhan saat menghubungi klinik.",
+        "en": "Children's services could not be confirmed from the reviewed sources. Ask about the patient's age and concern when contacting the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Mulia Dental untuk memastikan jadwal dan kebutuhan kunjungan Anda.",
+    "en": "Contact Mulia Dental to confirm opening hours and discuss your visit."
+  },
+  "pesan_wa_default": "Halo Mulia Dental, saya ingin bertanya tentang jadwal praktik dan konsultasi gigi. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Muhammad Rizqi dari Maxi Growth Studio. Saya melihat Mulia Dental melayani pasien di Gamping dengan jadwal praktik yang berbeda menurut hari. Kami menyiapkan konsep website yang merangkum lokasi, jadwal, dan kontak klinik agar informasi mudah ditemukan. Konsepnya dapat dilihat di https://maxigrowthstudio.com/mulia. Bila berkenan, kami terbuka untuk menerima masukan dari pihak manajemen. Terima kasih.",
+    "email_subjek": "Konsep website untuk Mulia Dental Gamping",
+    "email_isi": "Yth. Tim Manajemen Mulia Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyusun konsep website untuk Mulia Dental Gamping dengan informasi lokasi, jadwal per hari, serta pilihan perawatan yang mudah dibaca melalui ponsel.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/mulia. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka untuk masukan apabila ada informasi yang perlu disesuaikan dengan kondisi praktik saat ini.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
