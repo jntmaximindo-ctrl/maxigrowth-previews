@@ -72,5 +72,22 @@
     "https://bukutelepon.cybo.com/ID-biz/kandou-roy-drg",
     "https://tetanggamu.com/id/business/kandou-roy-drg-256241/",
     "https://alamatsehat.com/daftar-praktek-dokter-gigi-di-surabaya/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Kandou Roy Drg",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Manyar Kertoarjo 106, Surabaya, Jawa Timur",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62315923416",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

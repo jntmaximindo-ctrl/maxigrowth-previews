@@ -81,5 +81,27 @@
   "sumber": [
     "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
     "https://pergimulu.com/dokter-gigi-karawang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Hengky & Nanny Ganda, Drg",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K. H. Dewantara No.98, Nagasari, Karawang Barat, Karawang, Jawa Barat 41312",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62267403015",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-11,16-20\", \"sel\": \"08-11,16-20\", \"rab\": \"08-11,16-20\", \"kam\": \"08-11,16-20\", \"jum\": \"08-11,16-20\", \"sab\": \"08-11,16-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
