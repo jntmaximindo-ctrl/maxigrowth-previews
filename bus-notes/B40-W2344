@@ -66,12 +66,24 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website resmi belum ditemukan dalam penelusuran."
+    "Website mandiri atau status praktik terkini belum terverifikasi."
   ],
-  "ide_fitur_khas": "Daftar konfirmasi lokasi dan jadwal sebelum berkunjung.",
-  "catatan": " Penelusuran ulang 29 Oktober 2026: nomor WA/telepon dan email belum ditemukan. Harga [] karena tarif resmi dan kisaran pasar dari tiga sumber belum terverifikasi. Layanan klinis tidak diasumsikan. Empat kartu konten adalah informasi administratif, bukan daftar tindakan praktik. Outreach hanya draf; pastikan URL konsep dan lampiran PDF tersedia sebelum digunakan. Tanggal publikasi aktual harus diperbarui saat penerbitan; tidak ada klinik dihubungi. Direktori memuat atribut layanan, asuransi, jam, dan harga yang tidak dikonfirmasi sumber resmi; data tersebut tidak diangkat sebagai fakta klinik. Google Maps berhasil dipanggil tetapi tidak memberikan teks detail. Kesamaan nama dokter di TPKK Buahbatu tidak membuktikan identitas atau hubungan dengan praktik ini.",
+  "ide_fitur_khas": "Daftar konfirmasi informasi kunjungan, lokasi, jadwal dan biaya.",
+  "catatan": "Penelusuran29Oktober2026. Nama dan alamat dari direktori; data layanan, harga dan asuransi yang bersifat atribut gabungan belum dikonfirmasi klinik. Nomor ponsel tetap belum ditemukan. Tidak menyamakan nama ini dengan dokter di fasilitas lain. Email dan Instagram belum ditemukan setelah mencari nama dan kontak serta membaca sumber tercantum. Harga[] karena tarif resmi dan kisaran pasar tiga sumber belum terverifikasi. Empat kartu konten administratif, bukan tindakan klinis yang diklaim tersedia. Tidak mengambil layanan atau gelar dari ulasan. Outreach draf internal; URL konsep dan proposal PDF perlu disiapkan sebelum digunakan. Tanggal publikasi aktual harus diperbarui saat diterbitkan. Tidak menghubungi klinik.",
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bandung/antapani/klinik-drg-novi-anita-anta-imp1",
     "https://www.google.com/maps/search/?api=1&query=Klinik%20drg.%20Novi%20Anita%20Bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik drg. Novi Anita",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Asoka D No.4, Antapani Wetan, Antapani, Kota Bandung, Jawa Barat 40291",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

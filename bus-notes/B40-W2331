@@ -27,7 +27,7 @@ RISET LAMA:
     {
       "nama": "drg. Murphy Kaihatu",
       "alamat": {
-        "v": "Jl. Tulukabessy 4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123",
+        "v": "Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123",
         "src": "https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali",
         "tgl": "2026-10-29",
         "yakin": "sedang"
@@ -74,14 +74,13 @@ RISET LAMA:
   },
   "keunggulan": [],
   "situs_lama": [
-    "Website mandiri resmi belum berhasil diverifikasi dalam penelusuran ini.",
-    "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
+    "Website mandiri atau status praktik terkini belum terverifikasi."
   ],
-  "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali, https://alamattempatnya.blogspot.com/2019/03/dokter-gigi-ambon.html. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi dibaca ulang 29 Oktober 2026 pada Near-place dan blog Ambon. Keduanya memuat nomor tetap dan alamat sama. Jam bersumber Near-place. Data blog 2019 dan komentar 2016/2017 bisa usang; konfirmasi sebelum berkunjung. Pencarian nama+WhatsApp/email tidak menemukan ponsel atau email praktik. Tidak memakai nomor dokter lain dalam daftar. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "ide_fitur_khas": "Daftar konfirmasi informasi kunjungan, lokasi, jadwal dan biaya.",
+  "catatan": "Penelusuran29Oktober2026. Alamat dan nomor tetap cocok di dua direktori; sumber bisa usang. Ponsel dan WA belum ditemukan, nomor dokter lain tidak dipakai. Email dan Instagram belum ditemukan setelah mencari nama dan kontak serta membaca sumber tercantum. Harga[] karena tarif resmi dan kisaran pasar tiga sumber belum terverifikasi. Empat kartu konten administratif, bukan tindakan klinis yang diklaim tersedia. Tidak mengambil layanan atau gelar dari ulasan. Outreach draf internal; URL konsep dan proposal PDF perlu disiapkan sebelum digunakan. Tanggal publikasi aktual harus diperbarui saat diterbitkan. Tidak menghubungi klinik.",
   "sumber": [
     "https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali",
-    "https://alamattempatnya.blogspot.com/2019/03/dokter-gigi-ambon.html"
+    "https://alamatsehat.com/dokter-gigi-terbaik-dan-murah-di-ambon/"
   ],
   "verifikasi_manual": [
     {
@@ -91,7 +90,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].alamat",
-      "tercatat": "Jl. Tulukabessy 4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123",
+      "tercatat": "Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {

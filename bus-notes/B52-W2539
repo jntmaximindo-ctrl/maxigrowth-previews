@@ -1,0 +1,116 @@
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
+
+RISET LAMA:
+{
+  "id": "W2539",
+  "nama": {
+    "v": "Nadia Dental Care",
+    "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+    "tgl": "2026-10-29",
+    "yakin": "sedang"
+  },
+  "kota": "Salatiga",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Nadia Dental Care",
+      "alamat": {
+        "v": "Jl. Kartini, Sidorejo Lor, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50714",
+        "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
+      },
+      "telepon": {
+        "v": "(0298) 329898",
+        "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": {
+          "sen": "16:30-20:30",
+          "sel": "16:30-20:30",
+          "rab": "16:30-20:30",
+          "kam": "16:30-20:30",
+          "jum": "15:30-20:30",
+          "sab": "15:30-19:30",
+          "min": "tutup"
+        },
+        "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "maps_url": null
+    }
+  ],
+  "dokter": [],
+  "layanan": [
+    "Pemeriksaan dan konsultasi (ketersediaan perlu konfirmasi)",
+    "Pembersihan gigi (ketersediaan perlu konfirmasi)",
+    "Perawatan gigi (ketersediaan perlu konfirmasi)",
+    "Jadwal kontrol (ketersediaan perlu konfirmasi)"
+  ],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": 3.6,
+    "ulasan": 16,
+    "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+    "tgl": "2026-10-29"
+  },
+  "keunggulan": [
+    "Panduan jam praktik sore — konsep fitur berbasis informasi lokasi/jadwal publik"
+  ],
+  "situs_lama": [
+    "Situs web resmi mandiri belum terverifikasi dalam penelusuran",
+    "Informasi lokasi, jadwal dan kontak tersebar di direktori"
+  ],
+  "ide_fitur_khas": "Panduan jam praktik sore",
+  "catatan": "harga belum tersedia. Nomor ponsel/WA tidak ditemukan; tersedia nomor telepon tetap. Email tidak ditemukan setelah menelusuri https://idalamat.com/alamat/nadia-dental-care-1061750, https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/, https://www.dentalclinics.care/dental-clinics/salatiga. Daftar layanan berupa topik untuk konfirmasi, bukan kepastian tersedia. Hanya nomor telepon tetap yang ditemukan; WA tidak diisi. Jadwal direktori berbeda antara sesi pagi/sore dan sore saja, perlu konfirmasi.",
+  "sumber": [
+    "https://idalamat.com/alamat/nadia-dental-care-1061750",
+    "https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/",
+    "https://www.dentalclinics.care/dental-clinics/salatiga"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Nadia Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kartini, Sidorejo Lor, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50714",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "(0298) 329898",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16:30-20:30\", \"sel\": \"16:30-20:30\", \"rab\": \"16:30-20:30\", \"kam\": \"16:30-20:30\", \"jum\": \"15:30-20:30\", \"sab\": \"15:30-19:30\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
+  ]
+}
