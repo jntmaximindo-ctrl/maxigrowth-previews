@@ -1,0 +1,58 @@
+{
+  "id": "W2264",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Anindyajati",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cipadu Residence No. 26, RT.003/RW.004, Cipadu Jaya, Larangan, Kota Tangerang, Banten 15155",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287775912895",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287775912895",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09:00-21:00\", \"sel\": \"09:00-21:00\", \"rab\": \"09:00-21:00\", \"kam\": \"09:00-21:00\", \"jum\": \"09:00-21:00\", \"sab\": \"09:00-22:00\", \"min\": \"10:00-21:00\"}",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Anindyajati",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1 [cabang[0].alamat]",
+    "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl [cabang[0].telepon]",
+    "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1 [cabang[0].jam]",
+    "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

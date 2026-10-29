@@ -102,5 +102,37 @@
     "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1",
     "https://id.near-place.com/drg-anindyajati-cipadu-residence-no-26-cipadu-jaya/pl",
     "https://id.near-place.com/dentist-nearby-family-dental-care-jalan-muchtar-raya-petukangan-utara/pl"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Anindyajati",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cipadu Residence No. 26, RT.003/RW.004, Cipadu Jaya, Larangan, Kota Tangerang, Banten 15155",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287775912895",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287775912895",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09:00-21:00\", \"sel\": \"09:00-21:00\", \"rab\": \"09:00-21:00\", \"kam\": \"09:00-21:00\", \"jum\": \"09:00-21:00\", \"sab\": \"09:00-22:00\", \"min\": \"10:00-21:00\"}",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg. Anindyajati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
