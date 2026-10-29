@@ -1,0 +1,50 @@
+{
+  "id": "W2396",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Rumah Gigi Ozy Dental",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Jakarta No.2, Panancangan, Kecamatan Cipocok Jaya, Kota Serang, Banten 42124, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281293385687",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281293385687",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-22\", \"sel\": \"08-22\", \"rab\": \"08-22\", \"kam\": \"08-22\", \"jum\": \"08-22\", \"sab\": \"08-22\", \"min\": \"08-22\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/ [nama]",
+    "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/ [cabang[0].alamat]",
+    "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/ [cabang[0].telepon]",
+    "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/ [cabang[0].wa]",
+    "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

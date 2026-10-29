@@ -75,5 +75,27 @@
   "sumber": [
     "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226",
     "https://bukutelepon.cybo.com/ID/sidareja/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Karanganyar (R Smile Dental Clinic)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lawu No.157, Bejen, Kec. Karanganyar, Kabupaten Karanganyar, Jawa Tengah 57714",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282261252466",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282261252466",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

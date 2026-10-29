@@ -99,5 +99,32 @@
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-babakan-ciparay/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-bandung-kulon/",
     "https://www.google.com/maps/search/?api=1&query=Drg%20Dwiyatno%20Bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Dwiyatno",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pagarsih No.263, Jamika, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40221, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6283119733097",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6283119733097",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Dwiyatno",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

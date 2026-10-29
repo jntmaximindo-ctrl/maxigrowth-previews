@@ -1,0 +1,43 @@
+{
+  "id": "W2379",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Tukang Gigi Rudi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Arif Rahman Hakim, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6283850066663",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6283850066663",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

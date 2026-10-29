@@ -85,5 +85,32 @@
     "https://densia.id/klinik/rumah-gigi-ozy-dental-kota-serang-jvwrcdzg/",
     "https://bukutelepon.cybo.com/ID/kota-serang/dokter-gigi",
     "https://densia.id/kota/kota-serang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Rumah Gigi Ozy Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Jakarta No.2, Panancangan, Kecamatan Cipocok Jaya, Kota Serang, Banten 42124, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281293385687",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281293385687",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-22\", \"sel\": \"08-22\", \"rab\": \"08-22\", \"kam\": \"08-22\", \"jum\": \"08-22\", \"sab\": \"08-22\", \"min\": \"08-22\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    }
   ]
 }

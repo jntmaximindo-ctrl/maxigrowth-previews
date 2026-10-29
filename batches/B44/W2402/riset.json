@@ -98,5 +98,32 @@
   "sumber": [
     "https://densia.id/klinik/drg-irmaya-sariayu-kabupaten-serang-2khqvpym/",
     "https://www.google.com/maps/search/?api=1&query=drg.%20Irmaya%20Sariayu%20Serang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Irmaya Sariayu",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Waringin Kurung, Harjatani, Kec. Kramatwatu, Kabupaten Serang, Banten 42161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287809850622",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287809850622",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Irmaya Sariayu",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    }
   ]
 }

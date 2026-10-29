@@ -1,0 +1,66 @@
+{
+  "id": "W2397",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigimu by Drg. Guntur Yudha",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "@doktergigimu_serang",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Grazie Citraland Puri Serang B.06, Sepang, Kecamatan Taktakan, Kota Serang, Banten 42162, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287854446161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287854446161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-21\", \"sel\": \"15-21\", \"rab\": \"15-21\", \"kam\": \"15-21\", \"jum\": \"15-21\", \"sab\": \"15-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Guntur Yudha",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [nama]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [instagram]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [cabang[0].wa]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [cabang[0].jam]",
+    "https://idalamat.com/alamat/dokter-gigimu-by-drg-guntur-yudha-1063074 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

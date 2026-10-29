@@ -1,0 +1,43 @@
+{
+  "id": "W2405",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Karanganyar (R Smile Dental Clinic)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lawu No.157, Bejen, Kec. Karanganyar, Kabupaten Karanganyar, Jawa Tengah 57714",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282261252466",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282261252466",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226 [nama]",
+    "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226 [cabang[0].wa]",
+    "https://idalamat.com/alamat/dokter-gigi-karanganyar-r-smile-dental-clinic-1061226 [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

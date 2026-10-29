@@ -1,0 +1,66 @@
+{
+  "id": "W2395",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. M Elfa Zulfian P / El Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "@el_dentalcare",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.instagram.com/el_dentalcare/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pahlawan 2, Kempil, Langenharjo, Kecamatan Kendal, Kabupaten Kendal, Jawa Tengah 51314, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285777999191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285777999191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20:30\", \"sel\": \"09-20:30\", \"rab\": \"09-20:30\", \"kam\": \"09-20:30\", \"jum\": \"09-20:30\", \"sab\": \"09-20:30\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. M Elfa Zulfian P",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://fixpalembang.com/dokter-gigi-kendal/ [nama]",
+    "https://www.instagram.com/el_dentalcare/ [instagram]",
+    "https://fixpalembang.com/dokter-gigi-kendal/ [cabang[0].alamat]",
+    "https://fixpalembang.com/dokter-gigi-kendal/ [cabang[0].telepon]",
+    "https://fixpalembang.com/dokter-gigi-kendal/ [cabang[0].wa]",
+    "https://fixpalembang.com/dokter-gigi-kendal/ [cabang[0].jam]",
+    "https://fixpalembang.com/dokter-gigi-kendal/ [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
