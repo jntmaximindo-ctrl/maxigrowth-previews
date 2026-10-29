@@ -1,0 +1,132 @@
+{
+  "id": "W2471",
+  "hero": {
+    "judul": {
+      "id": "Informasi CJ Clinic and Dental",
+      "en": "CJ Clinic and Dental dental information"
+    },
+    "sub": {
+      "id": "Temukan informasi kunjungan di Dadap, Kosambi dan hubungi tim klinik untuk memastikan layanan.",
+      "en": "Find visit information in Dadap, Kosambi and contact the clinic to confirm available care."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan",
+        "en": "Examination information"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan gigi yang tersedia kepada klinik.",
+        "en": "Ask the clinic which dental examinations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi konsultasi",
+        "en": "Consultation information"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda untuk mengetahui opsi kunjungan.",
+        "en": "Share your needs to learn about visit options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Appointment information"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan jam layanan terbaru sebelum berkunjung.",
+        "en": "Confirm current opening hours before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi tindak lanjut",
+        "en": "Follow-up information"
+      },
+      "ringkas": {
+        "id": "Tanyakan langkah kontrol kepada tim klinik bila diperlukan.",
+        "en": "Ask the clinic about follow-up steps if needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan Dadap",
+      "en": "Dadap visit guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang lokasi, jadwal, dan kebutuhan perawatan sebelum menghubungi klinik.",
+      "en": "Prepare questions about location, schedules, and care needs before contacting the clinic."
+    },
+    "alasan_dipilih": "Memudahkan pengunjung Dadap, Kosambi mencari informasi tanpa mengasumsikan tindakan yang belum diverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Listing tempat mencantumkan Edelweis 2 No.C.-2, Dadap, Kosambi.",
+        "en": "A place listing shows Edelweis 2 No.C.-2, Dadap, Kosambi."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik sedang menerima pasien?",
+        "en": "Is the clinic accepting patients?"
+      },
+      "a": {
+        "id": "Status operasional belum terverifikasi. Hubungi klinik sebelum berkunjung.",
+        "en": "Operating status is not verified. Contact the clinic before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan prosedur reservasi langsung kepada klinik.",
+        "en": "Please ask the clinic about its appointment process."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "Which treatments are available?"
+      },
+      "a": {
+        "id": "Daftar tindakan resmi belum dapat diverifikasi. Mohon tanyakan langsung.",
+        "en": "An official treatment list is not verified. Please ask directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Mintalah estimasi sebelum berkunjung.",
+        "en": "An official fee list was not found. Request an estimate before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan jadwal dan layanan yang tersedia.",
+    "en": "Contact the clinic to confirm appointments and available care."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan layanan yang tersedia di CJ Clinic and Dental. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, tim CJ Clinic and Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi klinik di Dadap, Kosambi dan telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/cj-and. Konsep berfokus pada kemudahan informasi kunjungan. Silakan melihatnya jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk CJ Clinic and Dental",
+    "email_isi": "Yth. Tim Manajemen CJ Clinic and Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk CJ Clinic and Dental agar pengunjung dapat mencari informasi lokasi, layanan, dan cara menanyakan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/cj-and.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Informasi yang belum terverifikasi dapat disesuaikan berdasarkan masukan tim klinik. Tidak ada kewajiban menindaklanjuti.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

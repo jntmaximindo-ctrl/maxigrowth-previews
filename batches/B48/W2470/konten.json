@@ -1,0 +1,132 @@
+{
+  "id": "W2470",
+  "hero": {
+    "judul": {
+      "id": "Informasi Lega Dental Clinic",
+      "en": "Lega Dental Clinic dental information"
+    },
+    "sub": {
+      "id": "Temukan informasi kunjungan di PIK 2, Kosambi dan hubungi tim klinik untuk memastikan layanan.",
+      "en": "Find visit information in PIK 2, Kosambi and contact the clinic to confirm available care."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi kepada tim klinik.",
+        "en": "Ask the clinic about consultation availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan scaling; konfirmasikan ketersediaan sebelum berkunjung.",
+        "en": "A directory lists scaling; please confirm availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan pilihan penanganan yang tersedia.",
+        "en": "Ask about an initial assessment and available treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Ketersediaan dokter dan tindakan perlu dikonfirmasi kepada klinik.",
+        "en": "Please confirm clinician and service availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan PIK 2",
+      "en": "PIK 2 visit guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang lokasi, jadwal, dan kebutuhan perawatan sebelum menghubungi klinik.",
+      "en": "Prepare questions about location, schedules, and care needs before contacting the clinic."
+    },
+    "alasan_dipilih": "Memudahkan pengunjung PIK 2, Kosambi mencari informasi tanpa mengasumsikan tindakan yang belum diverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Ruko Euroasia OSRE 02, Boulevard Osaka, Salembaran, Kosambi.",
+        "en": "A directory lists Ruko Euroasia OSRE 02, Boulevard Osaka, Salembaran, Kosambi."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 09.00–21.00, Minggu tutup. Konfirmasikan sebelum datang.",
+        "en": "The directory lists Monday–Saturday 9 am–9 pm, Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Hubungi klinik untuk memastikan prosedur dan jadwal kunjungan.",
+        "en": "Contact the clinic to confirm appointments and availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much is scaling?"
+      },
+      "a": {
+        "id": "Tarif resmi belum terverifikasi. Tanyakan estimasi kepada klinik.",
+        "en": "Official fees are not verified. Please ask the clinic for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan kawat gigi?",
+        "en": "Is orthodontic care available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan perawatan tersebut. Pastikan layanan dan jadwal dokter secara langsung.",
+        "en": "A directory lists this service. Please confirm clinician and service availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan jadwal dan layanan yang tersedia.",
+    "en": "Contact the clinic to confirm appointments and available care."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal kunjungan dan layanan yang tersedia di Lega Dental Clinic. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, tim Lega Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi klinik di PIK 2, Kosambi dan telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/lega. Konsep berfokus pada kemudahan informasi kunjungan. Silakan melihatnya jika berkenan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Lega Dental Clinic",
+    "email_isi": "Yth. Tim Manajemen Lega Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Lega Dental Clinic agar pengunjung dapat mencari informasi lokasi, layanan, dan cara menanyakan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/lega.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Informasi yang belum terverifikasi dapat disesuaikan berdasarkan masukan tim klinik. Tidak ada kewajiban menindaklanjuti.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
