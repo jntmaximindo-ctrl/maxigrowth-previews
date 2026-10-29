@@ -71,5 +71,22 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-poskod/40171_bandung/doktor-gigi",
     "https://totoks.com/daftar-alamat-dan-jadwal-praktek-dokter-gigi-terbaik-di-bandung/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Jenny Wibowo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jalan Arjuna, Pasirkaliki, Cicendo, Bandung 40171",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62226015851",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
