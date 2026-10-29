@@ -1,7 +1,90 @@
-REVISI ke-1: hasil sebelumnya ditolak cek otomatis. Perbaiki hal berikut lalu kerjakan ulang dari awal:
-== /home/runner/work/maxigrowth-previews/maxigrowth-previews/batches/B32/W2051/konten.json: 0 pelanggaran, 0 peringatan
+REVISI: riset sebelumnya TIDAK punya nomor WhatsApp pada cabang mana pun, sehingga website tidak bisa dirakit. Cari nomor WA/telepon resmi klinik (situs, Google Maps, Instagram, Linktree, Halodoc/Alodokter) dan alamat bila masih kosong. Tidak ketemu = v null, src null (JANGAN menebak). Perbaiki riset lama berikut, jangan mulai dari nol; tulis ulang riset dan konten lengkap.
 
-✗ riset.schema.json → sumber: ['https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/'] is too short
-✗ konten.schema.json → faq: [{'q': {'id': 'Di mana alamatnya?', 'en': 'Where is the address?'}, 'a': {'id': 'Jl. Gayung Kebonsari Timur No.43, Ketintang, Gayungan, Surabaya 60231', 'en': 'Jl. Gayung Kebonsari Timur No.43, Ketintang, Gayungan, Surabaya 60231'}}, {'q': {'id': 'Bagaimana menghubungi?', 'en': 'How to contact?'}, 'a': {'id': 'Kontak belum dapat dipastikan.', 'en': 'Contact not verified.'}}, {'q': {'id': 'Berapa biayanya?', 'en': 'What does it cost?'}, 'a': {'id': 'Tarif belum tersedia, konfirmasi kepada pengelola.', 'en': 'Fees are unavailable; confirm with the practice.'}}] is too short
-GAGAL (2 masalah)
-
+RISET LAMA:
+{
+  "id": "W2051",
+  "nama": {
+    "v": "ADISHA DENTISTS Family Dental Care",
+    "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/",
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "kota": "Surabaya",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "ADISHA DENTISTS Family Dental Care",
+      "alamat": {
+        "v": "Jl. Gayung Kebonsari Timur No.43, Ketintang, Gayungan, Surabaya, Jawa Timur 60231",
+        "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/",
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "telepon": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "wa": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jam": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "maps_url": ""
+    }
+  ],
+  "dokter": [],
+  "layanan": [],
+  "harga": [],
+  "fasilitas": [],
+  "asuransi": [],
+  "maps": {
+    "rating": null,
+    "ulasan": null,
+    "src": null,
+    "tgl": "2026-10-29"
+  },
+  "keunggulan": [],
+  "situs_lama": [
+    "Website mandiri aktif belum terverifikasi dari sumber yang diperiksa.",
+    "Tarif resmi dan daftar tindakan belum terverifikasi."
+  ],
+  "ide_fitur_khas": "Daftar informasi sebelum kunjungan untuk memastikan lokasi, jadwal, biaya, dan cara pendaftaran.",
+  "catatan": "Diperiksa29Oktober2026. Nama dan alamat tercantum dalam indeks pencarian artikel Ulastempat, tetapi pengambilan halaman penuh gagal; keyakinan rendah. Google Maps tidak memberi detail. Nomor Apotek K24 dan praktik lain tidak dianggap nomor ADISHA. Ponsel publik, bila ada, dinormalisasi ke62 dan dianggap WA sesuai instruksi pemilik; tidak mengirim pesan atau menguji akun. Harga[] karena tidak menemukan tarif resmi atau kisaran pasar dari tiga sumber. Email dan akun Instagram yang tidak ditemukan pada sumber yang dibuka serta penelusuran nama diisi null. Layanan dan dokter tidak disimpulkan dari ulasan. Empat kartu konten administratif, bukan daftar tindakan yang diklaim tersedia. Rating Maps null karena tidak diperiksa langsung. Outreach draf internal; konsep URL dan PDF harus tersedia sebelum digunakan; tanggal publikasi aktual perlu diisi saat penerbitan.",
+  "sumber": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/",
+    "https://www.google.com/maps/search/?api=1&query=ADISHA+DENTISTS+Family+Dental+Care+Surabaya"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "ADISHA DENTISTS Family Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gayung Kebonsari Timur No.43, Ketintang, Gayungan, Surabaya, Jawa Timur 60231",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
+  ]
+}
