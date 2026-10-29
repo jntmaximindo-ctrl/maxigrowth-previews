@@ -1,0 +1,59 @@
+{
+  "url": "https://goo.gl/maps/aJb919E3UJ7HZvVB8",
+  "captured": "2026-10-29T12:23:37.870Z",
+  "ok": true,
+  "colors": [
+    {
+      "hex": "#007b8b",
+      "share": 0.996,
+      "kinds": {
+        "bg": 1,
+        "text": 1
+      }
+    },
+    {
+      "hex": "#75d4e6",
+      "share": 0.004,
+      "kinds": {
+        "text": 1
+      }
+    }
+  ],
+  "fonts": [
+    "Google Sans Text",
+    "Roboto",
+    "Google Symbols",
+    "Google Sans"
+  ],
+  "logos": [
+    {
+      "file": "logo-1.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithLightOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-2.png",
+      "src": "https://www.google.com/images/branding/mapslogo/1x/GoogleMaps_Logo_WithDarkOutline.png",
+      "why": "img[logo]"
+    },
+    {
+      "file": "logo-3.png",
+      "src": "https://maps.google.com/maps/api/staticmap?center=-8.0915347%2C112.1781524&zoom=26&size=900x900&language=en&sensor=false&key=AIzaSyBoYjeRtfVI0Jd8Q_9mnflo9i4sOYpShB0&signature=bVZ2WCEwL7qAeT1InyGQUIrI1Z8",
+      "why": "og:image"
+    },
+    {
+      "file": "logo-4.ico",
+      "src": "https://www.google.com/images/branding/product/ico/web_maps_icon_32dp.ico",
+      "why": "icon"
+    }
+  ],
+  "errors": [],
+  "title": "5 Jl. Halir - Google Maps",
+  "theme_color": null,
+  "neutrals": [
+    "#000000",
+    "#ffffff",
+    "#f2f2f2",
+    "#f2f0e8"
+  ]
+}
