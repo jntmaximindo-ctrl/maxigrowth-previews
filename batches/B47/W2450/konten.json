@@ -1,0 +1,132 @@
+{
+  "id": "W2450",
+  "hero": {
+    "judul": {
+      "id": "Informasi Klinik RH Medika di Kalasan",
+      "en": "RH Medika Clinic Information in Kalasan"
+    },
+    "sub": {
+      "id": "Informasi layanan umum, gigi, dan khitan dengan kontak untuk memastikan lokasi serta jadwal.",
+      "en": "Information on general care, dental care, and circumcision services, with contact details to confirm location and hours."
+    },
+    "cta": {
+      "id": "Tanyakan informasi layanan",
+      "en": "Ask about services"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pelayanan gigi",
+        "en": "Dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal poli gigi dan jenis tindakan yang tersedia di lokasi tujuan.",
+        "en": "Ask about dental clinic hours and treatments available at your intended location."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan dokter umum",
+        "en": "General medical care"
+      },
+      "ringkas": {
+        "id": "Informasi layanan umum tercantum pada profil publik klinik.",
+        "en": "General medical services appear in the clinic's public profile."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pelayanan kesehatan ibu dan anak",
+        "en": "Maternal and child care"
+      },
+      "ringkas": {
+        "id": "Poli KIA tercantum pada kanal informasi klinik; jadwal perlu dikonfirmasi.",
+        "en": "Maternal and child care is listed on the clinic's information page; please confirm hours."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan khitan",
+        "en": "Circumcision services"
+      },
+      "ringkas": {
+        "id": "Informasi layanan khitan tersedia pada situs yang terkait dengan RH Medika.",
+        "en": "Circumcision service information appears on a website associated with RH Medika."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pilih poli dan lokasi",
+      "en": "Service and location guide"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis layanan untuk membaca informasi dasar, lalu konfirmasi lokasi praktik dan jadwal melalui kontak klinik.",
+      "en": "Choose a service to read basic information, then confirm the location and schedule with the clinic."
+    },
+    "alasan_dipilih": "Profil publik menyebut beberapa poli dan lebih dari satu variasi alamat sehingga pengunjung memerlukan informasi cabang yang jelas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Klinik Utama RH Medika?",
+        "en": "Where is Klinik Utama RH Medika located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jalan Raya LPMP, Duri, Tirtomartani, Kalasan. Sumber lain menyebut lokasi Tulung-Tamanmartani. Pastikan cabang sebelum datang.",
+        "en": "A directory lists Jalan Raya LPMP, Duri, Tirtomartani, Kalasan. Other sources mention Tulung-Tamanmartani. Please confirm the branch before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan gigi?",
+        "en": "Is dental care available?"
+      },
+      "a": {
+        "id": "Pelayanan gigi tercantum pada profil publik RH Medika. Tanyakan jadwal poli dan layanan di lokasi tujuan.",
+        "en": "Dental care appears in RH Medika's public profile. Please ask about clinic hours and services at your intended location."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Jadwal direktori belum dikonfirmasi langsung. Hubungi CS RH Medika untuk memastikan.",
+        "en": "Directory hours have not been confirmed by the clinic. Please contact RH Medika's service team."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani BPJS?",
+        "en": "Is BPJS available?"
+      },
+      "a": {
+        "id": "Sumber publik menyebut pelayanan BPJS, tetapi cakupan dan cabang perlu dikonfirmasi.",
+        "en": "Public sources mention BPJS services, but coverage and branch availability should be confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I find out about fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan pada sumber yang diperiksa. Tanyakan kepada pihak klinik.",
+        "en": "Official fees were not found in the reviewed sources. Please ask the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk memastikan layanan, cabang, dan jadwal.",
+    "en": "Contact the clinic to confirm services, branch, and hours."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan lokasi cabang, jadwal poli gigi, dan layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola RH Medika, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi poli umum, poli gigi, dan layanan khitan pada kanal RH Medika. Kami menyiapkan konsep website untuk membantu pengunjung memilih layanan dan lokasi di https://maxigrowthstudio.com/rh-medika. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website layanan dan lokasi RH Medika",
+    "email_isi": "Yth. Pengelola RH Medika,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk memudahkan pengunjung menemukan informasi poli, lokasi, dan kontak. Konsep dapat dilihat di https://maxigrowthstudio.com/rh-medika. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan jika berkenan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

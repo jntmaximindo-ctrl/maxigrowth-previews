@@ -1,0 +1,132 @@
+{
+  "id": "W2453",
+  "hero": {
+    "judul": {
+      "id": "Pramestya Dental di Sleman",
+      "en": "Pramestya Dental in Sleman"
+    },
+    "sub": {
+      "id": "Informasi lokasi, kontak, dan jadwal praktik sore yang perlu dikonfirmasi.",
+      "en": "Location, contact, and listed afternoon hours that need confirmation."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada praktik; rincian belum terverifikasi.",
+        "en": "Please ask the practice whether this service is offered; details are unverified."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kesehatan gigi",
+        "en": "Dental health consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada praktik; rincian belum terverifikasi.",
+        "en": "Please ask the practice whether this service is offered; details are unverified."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada praktik; rincian belum terverifikasi.",
+        "en": "Please ask the practice whether this service is offered; details are unverified."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penanganan gigi berlubang",
+        "en": "Cavity care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan kepada praktik; rincian belum terverifikasi.",
+        "en": "Please ask the practice whether this service is offered; details are unverified."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan jadwal sore",
+      "en": "Afternoon-hours guide"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi jam dari direktori, lalu konfirmasi melalui kontak praktik sebelum datang.",
+      "en": "Review directory-listed hours and confirm with the practice before visiting."
+    },
+    "alasan_dipilih": "Jadwal yang tersedia berasal dari direktori lama, sehingga perlu penanda konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Tlacap, Grojogan, Pandowoharjo, Sleman.",
+        "en": "Tlacap, Grojogan, Pandowoharjo, Sleman."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori lama mencantumkan Senin–Sabtu 16.30–20.00, Minggu tutup. Konfirmasi sebelum datang.",
+        "en": "An older directory lists Monday–Saturday 16:30–20:00, Sunday closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Biaya belum ditemukan dalam sumber yang diperiksa. Tanyakan kepada praktik.",
+        "en": "Fees were not found in the reviewed sources. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan ini belum dipastikan. Mohon tanyakan kepada praktik.",
+        "en": "This service has not been confirmed. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Mohon konfirmasi kepada praktik.",
+        "en": "Insurance information was not found. Please confirm with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan layanan dan jadwal.",
+    "en": "Contact the practice to confirm services and hours."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan informasi pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Pramestya Dental, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Pandowoharjo, Sleman. Kami menyiapkan konsep website untuk menampilkan lokasi, jadwal, dan kontak di https://maxigrowthstudio.com/pramestya. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Pramestya Dental",
+    "email_isi": "Yth. Pengelola Pramestya Dental,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pengunjung menemukan lokasi, kontak, dan informasi jadwal praktik. Konsep dapat dilihat di https://maxigrowthstudio.com/pramestya. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

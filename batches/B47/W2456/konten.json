@@ -1,0 +1,132 @@
+{
+  "id": "W2456",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Boudy",
+      "en": "Drg. Boudy Practice Information"
+    },
+    "sub": {
+      "id": "Lokasi dan kontak praktik gigi di kawasan Triharjo, Sleman.",
+      "en": "Location and contact details for a dental practice in Triharjo, Sleman."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Ketersediaan layanan perlu dikonfirmasi kepada pihak praktik.",
+        "en": "Please confirm service availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi keluhan gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Ketersediaan layanan perlu dikonfirmasi kepada pihak praktik.",
+        "en": "Please confirm service availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Ketersediaan layanan perlu dikonfirmasi kepada pihak praktik.",
+        "en": "Please confirm service availability with the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Cavity care"
+      },
+      "ringkas": {
+        "id": "Ketersediaan layanan perlu dikonfirmasi kepada pihak praktik.",
+        "en": "Please confirm service availability with the practice."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan sebelum kunjungan",
+      "en": "Before-visit guide"
+    },
+    "penjelasan": {
+      "id": "Lihat alamat yang tercantum dan siapkan pertanyaan tentang jadwal serta layanan.",
+      "en": "Review the listed address and prepare questions about hours and services."
+    },
+    "alasan_dipilih": "Direktori mencantumkan lokasi dan nomor kontak, tetapi belum merinci layanan atau jadwal."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Jl. Magelang - Yogyakarta, Krapyak, Triharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55514 (plus code 883W+P7M)",
+        "en": "The listed address is Jl. Magelang - Yogyakarta, Krapyak, Triharjo, Kec. Sleman, Kabupaten Sleman, DI Yogyakarta 55514 (plus code 883W+P7M)."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jam buka?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik belum ditemukan. Tanyakan kepada pihak praktik.",
+        "en": "Opening hours were not found. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What is the examination fee?"
+      },
+      "a": {
+        "id": "Biaya belum ditemukan pada sumber yang diperiksa.",
+        "en": "Fees were not found in the reviewed sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada pembersihan karang gigi?",
+        "en": "Is teeth cleaning offered?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan belum dipastikan. Tanyakan sebelum berkunjung.",
+        "en": "Availability is unconfirmed. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum tersedia. Tanyakan kepada praktik.",
+        "en": "Insurance information is unavailable. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan informasi kunjungan.",
+    "en": "Contact the practice to confirm visit information."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan layanan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktik drg. Boudy, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi praktik di Triharjo, Sleman. Kami menyiapkan konsep website untuk menampilkan lokasi dan kontak di https://maxigrowthstudio.com/drg-boudy. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktik drg. Boudy",
+    "email_isi": "Yth. Pengelola Praktik drg. Boudy,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk memudahkan informasi lokasi, kontak, dan panduan kunjungan. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-boudy. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

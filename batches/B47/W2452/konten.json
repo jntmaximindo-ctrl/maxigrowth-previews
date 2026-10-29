@@ -1,0 +1,132 @@
+{
+  "id": "W2452",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktek drg. Dewi Widowati",
+      "en": "Drg. Dewi Widowati Practice Information"
+    },
+    "sub": {
+      "id": "Lokasi dan kontak praktik gigi di kawasan Mlati, Sleman.",
+      "en": "Location and contact details for a dental practice in Mlati, Sleman."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada pihak praktik sebelum membuat janji.",
+        "en": "Please confirm whether this service is offered before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi keluhan gigi",
+        "en": "Dental concern consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada pihak praktik sebelum membuat janji.",
+        "en": "Please confirm whether this service is offered before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada pihak praktik sebelum membuat janji.",
+        "en": "Please confirm whether this service is offered before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi berlubang",
+        "en": "Cavity treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini kepada pihak praktik sebelum membuat janji.",
+        "en": "Please confirm whether this service is offered before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pertanyaan sebelum berkunjung",
+      "en": "Before-visit question guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan mengenai jadwal, jenis layanan, dan biaya sebelum menghubungi praktik.",
+      "en": "Prepare questions about hours, available services, and fees before contacting the practice."
+    },
+    "alasan_dipilih": "Informasi layanan dan jam belum tersedia di sumber publik yang diperiksa."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Di Jalan Magelang Km 5, Kutu Asem, Sinduadi, Mlati, Sleman.",
+        "en": "On Jalan Magelang Km 5, Kutu Asem, Sinduadi, Mlati, Sleman."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui jadwal?",
+        "en": "How can I check opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik belum terverifikasi. Silakan tanyakan melalui nomor publik praktik.",
+        "en": "Opening hours have not been verified. Please ask using the listed practice number."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Informasi biaya belum tersedia. Tanyakan sebelum membuat janji.",
+        "en": "Fee information is not available. Please ask before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan pembersihan gigi?",
+        "en": "Is teeth cleaning offered?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan ini belum terverifikasi. Mohon konfirmasi.",
+        "en": "This service has not been verified. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Silakan tanyakan kepada praktik.",
+        "en": "Insurance information was not found. Please ask the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan informasi kunjungan.",
+    "en": "Contact the practice to confirm visit details."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi dan informasi layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek drg. Dewi Widowati, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi lokasi praktik di Jalan Magelang, Mlati, Sleman. Kami menyiapkan konsep website untuk menyajikan lokasi, kontak, dan informasi kunjungan di https://maxigrowthstudio.com/drg-dewi. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek drg. Dewi Widowati",
+    "email_isi": "Yth. Pengelola Praktek drg. Dewi Widowati,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk menampilkan informasi lokasi, kontak, dan pertanyaan umum pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-dewi. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
