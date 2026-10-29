@@ -71,5 +71,22 @@
   "sumber": [
     "https://idalamat.com/alamat/nadia-dental-care-1061750",
     "https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Nadia Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kartini, Sidorejo Lor, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50714",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62298329898",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
