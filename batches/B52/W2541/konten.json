@@ -1,0 +1,132 @@
+{
+  "id": "W2541",
+  "hero": {
+    "judul": {
+      "id": "Informasi Puri Dhenta",
+      "en": "Puri Dhenta Information"
+    },
+    "sub": {
+      "id": "Lokasi, kontak, dan panduan pertanyaan sebelum kunjungan.",
+      "en": "Location, contact details, and questions to ask before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental check-up"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan yang tersedia.",
+        "en": "Ask about check-up availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi apakah pembersihan gigi tersedia.",
+        "en": "Confirm whether dental cleaning is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi",
+        "en": "Dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan setelah pemeriksaan.",
+        "en": "Ask about treatment options after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontrol lanjutan",
+        "en": "Follow-up visits"
+      },
+      "ringkas": {
+        "id": "Tanyakan cara menjadwalkan kunjungan kontrol.",
+        "en": "Ask how to schedule a follow-up visit."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan dokter dan jadwal kunjungan",
+      "en": "Practitioner and visit guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang dokter, jadwal, dan layanan sebelum berkunjung.",
+      "en": "Prepare questions about practitioners, hours, and services before visiting."
+    },
+    "alasan_dipilih": "Informasi jadwal dan dokter belum terverifikasi dalam direktori publik."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Puri Dhenta berada?",
+        "en": "Where is Puri Dhenta located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan kawasan Kalicacing, Sidomukti, Salatiga. Konfirmasi alamat lengkap sebelum berangkat.",
+        "en": "Directories list Kalicacing, Sidomukti, Salatiga. Confirm the full address before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jadwal resmi belum ditemukan pada sumber yang diperiksa. Silakan tanyakan sebelum berkunjung.",
+        "en": "Official hours were not found in the sources checked. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a check-up?"
+      },
+      "a": {
+        "id": "Biaya belum ditemukan di sumber publik yang diperiksa. Tanyakan rincian langsung kepada praktik.",
+        "en": "Fees were not found in the sources checked. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Dokter siapa yang sedang praktik?",
+        "en": "Which dentist is available?"
+      },
+      "a": {
+        "id": "Jadwal dan identitas dokter belum dapat diverifikasi. Tanyakan kepada pengelola.",
+        "en": "Dentist names and schedules could not be verified. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan anak?",
+        "en": "Are children's services available?"
+      },
+      "a": {
+        "id": "Ketersediaan layanan anak belum terverifikasi. Silakan konfirmasi sebelum membuat janji.",
+        "en": "Children's services have not been verified. Please confirm before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi sebelum datang",
+    "en": "Confirm details before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal Puri Dhenta dan ketersediaan konsultasi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Puri Dhenta. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Kalicacing, Salatiga. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/puri-dhenta. Silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website Puri Dhenta",
+    "email_isi": "Yth. Tim Puri Dhenta,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Kalicacing, Salatiga, melalui direktori publik. Kami menyiapkan konsep website yang dapat dilihat di https://maxigrowthstudio.com/puri-dhenta. Proposal PDF terlampir sebagai bahan pertimbangan.\n\nJika relevan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

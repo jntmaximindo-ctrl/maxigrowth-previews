@@ -1,0 +1,132 @@
+{
+  "id": "W2526",
+  "hero": {
+    "judul": {
+      "id": "Informasi XYZ Dental Clinic",
+      "en": "XYZ Dental Clinic Information"
+    },
+    "sub": {
+      "id": "Informasi lokasi, jadwal, dan cara menanyakan layanan.",
+      "en": "Location, hours, and how to ask about services."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental check-up"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi dan pemeriksaan.",
+        "en": "Ask about consultations and check-ups."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan scaling sebelum berkunjung.",
+        "en": "Confirm whether scaling is available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penanganan gigi berlubang setelah pemeriksaan.",
+        "en": "Ask about options for cavities following an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan lanjutan",
+        "en": "Further dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan jenis tindakan lanjutan yang tersedia.",
+        "en": "Ask about schedules and available follow-up care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan identifikasi lokasi praktik",
+      "en": "Practice location guide"
+    },
+    "penjelasan": {
+      "id": "Panduan berdasarkan sumber publik untuk menyiapkan pertanyaan sebelum kunjungan.",
+      "en": "A public-source guide to help prepare questions before visiting."
+    },
+    "alasan_dipilih": "Informasi jadwal, lokasi dan layanan perlu disatukan dengan catatan verifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Raya Bromo No.33, Karang Sentul, Kec. Gondang Wetan, Pasuruan, Jawa Timur 67174. Konfirmasi sebelum berkunjung.",
+        "en": "A directory lists Jl. Raya Bromo No.33, Karang Sentul, Kec. Gondang Wetan, Pasuruan, Jawa Timur 67174. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal praktik?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Jadwal tercantum: sen:08-12,16-20, sel:16-20, rab:16-20, kam:16-20, jum:16-20, sab:08-12,16-20, min:08-12. Mohon konfirmasi perubahan jadwal.",
+        "en": "Listed hours: sen:08-12,16-20, sel:16-20, rab:16-20, kam:16-20, jum:16-20, sab:08-12,16-20, min:08-12. Please confirm changes."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia pada sumber yang diperiksa. Tanyakan rincian sebelum tindakan.",
+        "en": "Fees were not found in the sources checked. Ask before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is scaling offered?"
+      },
+      "a": {
+        "id": "Ketersediaan belum diverifikasi. Silakan tanyakan langsung.",
+        "en": "Availability is not verified. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Layanan anak belum dapat dipastikan dari sumber yang diperiksa.",
+        "en": "Children's services were not confirmed in the sources checked."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi sebelum datang",
+    "en": "Confirm details before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal XYZ Dental Clinic dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola XYZ Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Pasuruan melalui sumber publik. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/xyz-drg. Silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website XYZ Dental Clinic",
+    "email_isi": "Yth. Tim XYZ Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Pasuruan melalui sumber publik. Kami menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/xyz-drg. Proposal PDF terlampir sebagai bahan pertimbangan. Apabila relevan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

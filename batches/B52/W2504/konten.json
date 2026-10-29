@@ -1,0 +1,132 @@
+{
+  "id": "W2504",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktek Dokter Gigi (drg. Yovie Paramita)",
+      "en": "Information about Praktek Dokter Gigi (drg. Yovie Paramita)"
+    },
+    "sub": {
+      "id": "Lihat lokasi, informasi yang tersedia, dan cara mengonfirmasi pemeriksaan gigi di Bandung.",
+      "en": "Find the location, available information, and how to confirm dental appointments in Bandung."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal pemeriksaan sebelum datang. Tidak semua tindakan dapat dipastikan dari direktori.",
+        "en": "Please confirm service availability and appointment times. Not every procedure is verified by public listings."
+      }
+    },
+    {
+      "nama": {
+        "id": "Diskusi keluhan",
+        "en": "Discussing Dental Concerns"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal pemeriksaan sebelum datang. Tidak semua tindakan dapat dipastikan dari direktori.",
+        "en": "Please confirm service availability and appointment times. Not every procedure is verified by public listings."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi tindakan",
+        "en": "Treatment Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal pemeriksaan sebelum datang. Tidak semua tindakan dapat dipastikan dari direktori.",
+        "en": "Please confirm service availability and appointment times. Not every procedure is verified by public listings."
+      }
+    },
+    {
+      "nama": {
+        "id": "Rencana kunjungan",
+        "en": "Visit Planning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal pemeriksaan sebelum datang. Tidak semua tindakan dapat dipastikan dari direktori.",
+        "en": "Please confirm service availability and appointment times. Not every procedure is verified by public listings."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan menyiapkan pertanyaan sebelum konsultasi",
+      "en": "Visit Information Guide"
+    },
+    "penjelasan": {
+      "id": "Panduan untuk menyiapkan pertanyaan dan mengonfirmasi jadwal kepada tim praktik sebelum datang.",
+      "en": "A guide to prepare questions and confirm appointment details with the practice."
+    },
+    "alasan_dipilih": "Disesuaikan dengan informasi publik yang tersedia; tidak menggantikan konsultasi atau diagnosis dokter."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum: Jl. Cikoang No.50, Cigending, Kec. Ujung Berung, Kota Bandung, Jawa Barat 40611.",
+        "en": "The listed address is Jl. Cikoang No.50, Cigending, Kec. Ujung Berung, Kota Bandung, Jawa Barat 40611."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik 6287821118858 untuk mengonfirmasi jadwal dan ketersediaan dokter.",
+        "en": "Contact the publicly listed number 6287821118858 to confirm hours and clinician availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat dipastikan dari sumber yang diperiksa. Mohon tanyakan perkiraan biaya kepada admin.",
+        "en": "Official prices could not be confirmed from the sources reviewed. Please ask the team for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa berkonsultasi sebelum tindakan?",
+        "en": "Can I discuss care before treatment?"
+      },
+      "a": {
+        "id": "Sampaikan keluhan kepada tim praktik dan tanyakan prosedur konsultasi yang tersedia.",
+        "en": "Tell the practice about your concern and ask about its consultation process."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah semua layanan tercantum di website?",
+        "en": "Are all services listed online?"
+      },
+      "a": {
+        "id": "Daftar layanan yang tersedia secara publik masih terbatas. Konfirmasi jenis perawatan langsung kepada admin.",
+        "en": "Public service information is limited. Please confirm treatment availability with the team."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Contact the practice for visit information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Praktek Dokter Gigi (drg. Yovie Paramita). Apakah bisa dibantu informasi waktu praktik dan estimasi biaya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Praktek Dokter Gigi (drg. Yovie Paramita). Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Bandung dan melihat peluang untuk merapikan informasi layanan serta cara membuat janji. Kami telah menyiapkan konsep website di https://maxigrowthstudio.com/praktek-dokter untuk ditinjau. Jika berkenan, Bapak/Ibu dapat melihatnya kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek Dokter Gigi (drg. Yovie Paramita)",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi (drg. Yovie Paramita),\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik praktik Bapak/Ibu dan menyiapkan konsep website untuk memudahkan pasien melihat lokasi, menanyakan jadwal, dan memahami alur kunjungan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/praktek-dokter. Proposal PDF juga kami lampirkan sebagai bahan pertimbangan.\n\nDetail layanan, jadwal, dan biaya yang belum terverifikasi akan memerlukan konfirmasi sebelum publikasi.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

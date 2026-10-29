@@ -1,0 +1,132 @@
+{
+  "id": "W2505",
+  "hero": {
+    "judul": {
+      "id": "Informasi perawatan gigi di Natama Medika",
+      "en": "Dental care information at Natama Medika"
+    },
+    "sub": {
+      "id": "Temukan lokasi, jenis perawatan yang tercantum, dan cara menanyakan jadwal kunjungan di Panyileukan, Bandung.",
+      "en": "Find the location, listed care options, and how to ask about appointments in Panyileukan, Bandung."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan pembersihan karang gigi kepada admin sebelum datang.",
+        "en": "Ask the team about availability for dental checks and cleaning before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi dan pilihan penanganannya saat pemeriksaan.",
+        "en": "Discuss the tooth's condition and suitable care options during an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Dokter perlu memeriksa kondisi gigi terlebih dahulu sebelum menentukan tindakan.",
+        "en": "A dentist will need to assess your tooth before deciding on treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi untuk membahas kebutuhan perawatan susunan gigi.",
+        "en": "Ask about a consultation to discuss tooth alignment care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan rencana kunjungan",
+      "en": "Visit Planning Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan pemeriksaan dan lihat informasi sesi praktik yang tercatat. Konfirmasi waktu kepada admin sebelum datang.",
+      "en": "Choose your care topic and review the listed practice sessions. Confirm the time with the team before visiting."
+    },
+    "alasan_dipilih": "Direktori Cybo mencatat sesi praktik siang dan sore Senin–Sabtu; panduan membantu pasien menyiapkan pertanyaan tanpa memberi diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Natama Medika?",
+        "en": "Where is Natama Medika located?"
+      },
+      "a": {
+        "id": "Di Komp. Bumi Panyileukan Blok G9 Kav.15, Cipadung Kidul, Panyileukan, Kota Bandung.",
+        "en": "At Bumi Panyileukan Complex, Block G9 Kav.15, Cipadung Kidul, Panyileukan, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Direktori Cybo mencatat sesi 10.00–13.00 dan 17.00–20.00 pada Senin–Sabtu. Jadwal Minggu berbeda antarsumber; mohon konfirmasi kepada admin.",
+        "en": "Cybo lists 10 AM–1 PM and 5 PM–8 PM sessions Monday through Saturday. Sunday listings differ, so please confirm with the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Tanyakan estimasi biaya setelah menjelaskan kebutuhan pemeriksaan.",
+        "en": "Official fees were not available in the sources reviewed. Ask for an estimate based on your care needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan kawat gigi?",
+        "en": "Are braces consultations available?"
+      },
+      "a": {
+        "id": "Kawat gigi tercantum pada direktori bisnis. Silakan konfirmasi ketersediaan dokter dan jadwal konsultasinya.",
+        "en": "Braces are listed in a business directory. Please confirm clinician availability and consultation times."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercantum adalah 0896-2615-3549. Konfirmasi layanan dan jadwal sebelum berkunjung.",
+        "en": "The publicly listed mobile number is 0896-2615-3549. Please confirm services and hours before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi kunjungan",
+    "en": "Contact the team for visit information"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal pemeriksaan gigi di Natama Medika. Apakah bisa dibantu informasi waktu praktik dan perkiraan biayanya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Klinik Gigi Natama Medika. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik Natama Medika di kawasan Panyileukan, termasuk sesi layanan siang dan sore. Kami sudah menyiapkan konsep website yang merapikan informasi lokasi, layanan, dan jadwal untuk ditinjau di https://maxigrowthstudio.com/natama-medika. Jika berkenan, Bapak/Ibu dapat melihatnya kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Natama Medika",
+    "email_isi": "Yth. Tim Pengelola Klinik Gigi Natama Medika,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik Natama Medika di Panyileukan, termasuk lokasi dan sesi praktik yang tercantum pada direktori.\n\nKami telah menyiapkan konsep website untuk memudahkan pasien menemukan informasi lokasi, jenis layanan, serta cara menanyakan jadwal kunjungan. Konsepnya dapat dilihat di https://maxigrowthstudio.com/natama-medika.\n\nSebagai bahan pertimbangan, kami juga melampirkan proposal PDF. Kami memahami bahwa detail layanan dan jadwal perlu dikonfirmasi oleh tim klinik sebelum ditampilkan sebagai informasi resmi.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

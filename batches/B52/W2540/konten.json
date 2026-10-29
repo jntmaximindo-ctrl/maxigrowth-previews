@@ -1,0 +1,132 @@
+{
+  "id": "W2540",
+  "hero": {
+    "judul": {
+      "id": "Informasi Lovely Behel Salatiga",
+      "en": "Lovely Behel Salatiga Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi, jadwal yang tercantum, dan cara menanyakan layanan.",
+      "en": "Find listed location, hours, and how to ask about services."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan dan konsultasi",
+        "en": "Check-up and consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis pemeriksaan atau konsultasi yang tersedia.",
+        "en": "Ask which check-ups or consultations are available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan pembersihan karang gigi sebelum datang.",
+        "en": "Check whether dental cleaning is available before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi",
+        "en": "Dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan perawatan yang sesuai setelah pemeriksaan.",
+        "en": "Ask about care options after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jadwal kontrol",
+        "en": "Follow-up visits"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah tersedia jadwal kontrol lanjutan.",
+        "en": "Ask whether follow-up appointments are available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kontrol behel",
+      "en": "Braces follow-up guide"
+    },
+    "penjelasan": {
+      "id": "Panduan ringkas berdasarkan informasi publik untuk menyiapkan pertanyaan sebelum kunjungan.",
+      "en": "A short guide based on public listings to help prepare questions before a visit."
+    },
+    "alasan_dipilih": "Informasi praktik yang tersedia di direktori memerlukan penjelasan jadwal dan kontak yang lebih mudah diakses."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is it located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Kemiri II No.41, RT.2, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50711. Pastikan alamat sebelum berkunjung.",
+        "en": "A directory lists Jl. Kemiri II No.41, RT.2, Kec. Sidorejo, Kota Salatiga, Jawa Tengah 50711. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Informasi jadwal: sen 10-20, sel 10-20, rab 10-20, kam 12-20, jum 12-20, sab 10-20, min 10-20. Jadwal dapat berubah, silakan konfirmasi.",
+        "en": "Listed hours: sen 10-20, sel 10-20, rab 10-20, kam 12-20, jum 12-20, sab 10-20, min 10-20. Hours may change; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan pada sumber yang diperiksa. Tanyakan rincian sebelum tindakan.",
+        "en": "Official fees were not found in the sources checked. Ask for details beforehand."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Tanyakan ketersediaan jadwal kepada pengelola melalui kontak yang tercantum.",
+        "en": "Please ask the practice about available appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan untuk anak?",
+        "en": "Are children's services offered?"
+      },
+      "a": {
+        "id": "Ketersediaan dan batas usia pasien belum dapat dipastikan. Konfirmasi langsung.",
+        "en": "Children's services and age limits are not confirmed. Please check directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi informasi sebelum datang",
+    "en": "Confirm details before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal Lovely Behel Salatiga dan ketersediaan layanan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Lovely Behel Salatiga. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Salatiga melalui direktori publik. Kami menyiapkan konsep website untuk dilihat di https://maxigrowthstudio.com/lovely-behel. Silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website Lovely Behel Salatiga",
+    "email_isi": "Yth. Tim Lovely Behel Salatiga,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Salatiga melalui direktori publik. Kami telah menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/lovely-behel. Proposal PDF terlampir sebagai bahan pertimbangan. Apabila relevan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

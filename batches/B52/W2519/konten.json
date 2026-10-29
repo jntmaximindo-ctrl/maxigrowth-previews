@@ -1,0 +1,132 @@
+{
+  "id": "W2519",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktek Dokter Gigi drg. Denty Maretasari",
+      "en": "Information about Praktek Dokter Gigi drg. Denty Maretasari"
+    },
+    "sub": {
+      "id": "Lokasi dan panduan untuk menanyakan pemeriksaan gigi di Tasikmalaya.",
+      "en": "Location and guidance for asking about dental appointments in Tasikmalaya."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal kepada pengelola praktik sebelum datang.",
+        "en": "Please confirm service availability and appointments with the practice before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal kepada pengelola praktik sebelum datang.",
+        "en": "Please confirm service availability and appointments with the practice before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal kepada pengelola praktik sebelum datang.",
+        "en": "Please confirm service availability and appointments with the practice before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal kepada pengelola praktik sebelum datang.",
+        "en": "Please confirm service availability and appointments with the practice before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Petunjuk lokasi praktik di kawasan Kahuripan",
+      "en": "Visit Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang keluhan, jadwal, dan biaya sebelum menghubungi pengelola praktik.",
+      "en": "Prepare questions about concerns, appointment times, and fees before contacting the practice."
+    },
+    "alasan_dipilih": "Informasi daring praktik masih terbatas; fitur membantu menyiapkan kunjungan tanpa memberikan diagnosis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Alamat yang tercatat: Apotek Medika Farma, Jl. BKR No.11D, Kahuripan, Tawang, Tasikmalaya.",
+        "en": "The listed location is Apotek Medika Farma, Jl. BKR No.11D, Kahuripan, Tawang, Tasikmalaya."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor ponsel publik yang tercatat adalah 6282226839232. Mohon konfirmasi jadwal sebelum datang.",
+        "en": "The publicly listed mobile number is 6282226839232. Please confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi?",
+        "en": "Are dental check-ups available?"
+      },
+      "a": {
+        "id": "Tanyakan jenis pemeriksaan yang tersedia kepada tim praktik. Daftar tindakan belum diverifikasi secara independen.",
+        "en": "Please ask the practice about available examinations. The treatment list has not been independently verified."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Mohon tanyakan estimasi biaya kepada pengelola.",
+        "en": "Official prices were not available. Please ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu reservasi?",
+        "en": "Is an appointment needed?"
+      },
+      "a": {
+        "id": "Cara pendaftaran belum terverifikasi. Sebaiknya konfirmasi terlebih dahulu melalui kontak publik.",
+        "en": "Registration arrangements have not been verified. Please confirm before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Contact the Practice About a Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Praktek Dokter Gigi drg. Denty Maretasari. Apakah bisa dibantu informasi pendaftaran dan estimasi biaya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Praktek Dokter Gigi drg. Denty Maretasari. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Tasikmalaya dan menyiapkan konsep website untuk membantu pasien menemukan lokasi serta menanyakan jadwal kunjungan. Konsepnya dapat ditinjau di https://maxigrowthstudio.com/drg-denty. Jika berkenan, silakan melihatnya kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek Dokter Gigi drg. Denty Maretasari",
+    "email_isi": "Yth. Pengelola Praktek Dokter Gigi drg. Denty Maretasari,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik praktik dan menyiapkan konsep website yang membantu pasien melihat lokasi, menyiapkan pertanyaan, serta menghubungi pengelola untuk jadwal.\n\nKonsep tersedia di https://maxigrowthstudio.com/drg-denty. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nDetail layanan, jadwal, dan biaya memerlukan konfirmasi sebelum publikasi.\n\nTerima kasih.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

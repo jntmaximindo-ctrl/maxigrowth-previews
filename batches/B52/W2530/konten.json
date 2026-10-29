@@ -1,0 +1,132 @@
+{
+  "id": "W2530",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kilaw Dental Clinic",
+      "en": "Kilaw Dental Clinic Information"
+    },
+    "sub": {
+      "id": "Lokasi dan jadwal dari direktori publik; konfirmasi sebelum datang.",
+      "en": "Directory-listed location and hours; confirm before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental check-up"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan yang tersedia.",
+        "en": "Ask about available check-ups."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan gigi",
+        "en": "Dental cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan pembersihan karang gigi.",
+        "en": "Check whether cleaning is offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal untuk gigi berlubang.",
+        "en": "Ask about an assessment for cavities."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontrol lanjutan",
+        "en": "Follow-up visits"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal kontrol setelah tindakan.",
+        "en": "Ask about follow-up schedules."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan lokasi dan jadwal kunjungan",
+      "en": "Location and visit guide"
+    },
+    "penjelasan": {
+      "id": "Lihat informasi publik dan siapkan pertanyaan sebelum berkunjung.",
+      "en": "Review public information and prepare questions before visiting."
+    },
+    "alasan_dipilih": "Lokasi klinik berada di Pakukerto, Sukorejo, dan jam Minggu belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Taman Safari II, Pakukerto, Sukorejo, Pasuruan. Konfirmasi lokasi sebelum datang.",
+        "en": "A directory lists Jl. Taman Safari II, Pakukerto, Sukorejo, Pasuruan. Confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 09.00–21.00. Jadwal Minggu belum diketahui.",
+        "en": "A directory lists Monday–Saturday, 9 AM–9 PM. Sunday hours are unknown."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya belum tersedia dalam sumber yang diperiksa. Tanyakan rincian kepada praktik.",
+        "en": "Fees were not found in the sources checked. Ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is cleaning available?"
+      },
+      "a": {
+        "id": "Ketersediaannya belum terverifikasi. Silakan konfirmasi sebelum berkunjung.",
+        "en": "Availability has not been verified. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu reservasi?",
+        "en": "Is booking required?"
+      },
+      "a": {
+        "id": "Sistem janji temu belum ditemukan. Tanyakan melalui nomor praktik yang tercantum.",
+        "en": "Booking arrangements were not found. Ask the practice using the listed number."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal sebelum berkunjung",
+    "en": "Confirm hours before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal Kilaw Dental Clinic dan ketersediaan konsultasi gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Kilaw Dental Clinic. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Sukorejo, Pasuruan, melalui direktori publik. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/kilaw. Silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website Kilaw Dental Clinic",
+    "email_isi": "Yth. Tim Kilaw Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Sukorejo, Pasuruan. Kami menyiapkan konsep website yang dapat ditinjau di https://maxigrowthstudio.com/kilaw. Proposal PDF terlampir untuk bahan pertimbangan.\n\nJika relevan, kami terbuka untuk berdiskusi.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

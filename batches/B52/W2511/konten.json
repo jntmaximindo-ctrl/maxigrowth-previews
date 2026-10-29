@@ -1,0 +1,132 @@
+{
+  "id": "W2511",
+  "hero": {
+    "judul": {
+      "id": "Informasi kunjungan Alinea Dental Pajajaran",
+      "en": "Visit Information — Alinea Dental Pajajaran"
+    },
+    "sub": {
+      "id": "Lokasi dan panduan pertanyaan sebelum pemeriksaan gigi anak maupun dewasa di Cicendo, Bandung.",
+      "en": "Location and questions to prepare for children's and adults' dental appointments in Cicendo, Bandung."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum pada direktori publik. Konfirmasi jadwal dan jenis pemeriksaan kepada tim klinik.",
+        "en": "This service appears in a public directory. Please confirm availability and assessment details with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum pada direktori publik. Konfirmasi jadwal dan jenis pemeriksaan kepada tim klinik.",
+        "en": "This service appears in a public directory. Please confirm availability and assessment details with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum pada direktori publik. Konfirmasi jadwal dan jenis pemeriksaan kepada tim klinik.",
+        "en": "This service appears in a public directory. Please confirm availability and assessment details with the clinic."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut gigi",
+        "en": "Tooth Extractions"
+      },
+      "ringkas": {
+        "id": "Layanan ini tercantum pada direktori publik. Konfirmasi jadwal dan jenis pemeriksaan kepada tim klinik.",
+        "en": "This service appears in a public directory. Please confirm availability and assessment details with the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan keluarga",
+      "en": "Family Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih informasi pemeriksaan anak atau dewasa, lalu siapkan pertanyaan untuk tim klinik sebelum membuat janji.",
+      "en": "Choose children's or adults' visit information, then prepare questions for the team before booking."
+    },
+    "alasan_dipilih": "Nama listing menyebut layanan anak dan dewasa; panduan membantu menyiapkan kunjungan tanpa menggantikan konsultasi medis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Alinea Dental Pajajaran?",
+        "en": "Where is Alinea Dental Pajajaran?"
+      },
+      "a": {
+        "id": "Jl. Pajajaran No.149, Arjuna, Kecamatan Cicendo, Kota Bandung.",
+        "en": "Jl. Pajajaran No.149, Arjuna, Cicendo, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan gigi anak?",
+        "en": "Is children's dental care listed?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum pada direktori; konfirmasi dokter dan jadwal sebelum datang.",
+        "en": "Children's dental care appears in a directory; confirm the clinician and schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam operasional?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Waze mencantumkan Senin–Rabu 09.00–20.00 serta Kamis–Sabtu 09.00–13.00. Sumber lain berbeda; mohon konfirmasi kepada admin.",
+        "en": "Waze lists Monday–Wednesday 9 AM–8 PM and Thursday–Saturday 9 AM–1 PM. Other sources differ; please confirm with the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya tindakan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia dari sumber yang diperiksa. Tanyakan perkiraan biaya saat mengatur kunjungan.",
+        "en": "Official fees were not available in the sources reviewed. Ask for an estimate when arranging your visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I arrange an appointment?"
+      },
+      "a": {
+        "id": "Nomor publik yang tercantum adalah 0811-860-555. Konfirmasi jadwal sebelum berkunjung.",
+        "en": "The publicly listed number is 0811-860-555. Please confirm availability before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi tim untuk informasi kunjungan",
+    "en": "Contact the Team About a Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan di Alinea Dental Pajajaran. Apakah bisa dibantu informasi ketersediaan dokter dan estimasi biaya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Alinea Dental Pajajaran. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi layanan gigi anak dan dewasa serta lokasi praktik di Jalan Pajajaran. Kami telah menyiapkan konsep website untuk merapikan informasi layanan, lokasi, dan alur janji temu. Konsepnya dapat dilihat di https://maxigrowthstudio.com/alinea-pajajaran. Jika berkenan, silakan meninjaunya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Alinea Dental Pajajaran",
+    "email_isi": "Yth. Tim Pengelola Alinea Dental Pajajaran,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik klinik di Jalan Pajajaran dan menyiapkan konsep website yang menampilkan lokasi, informasi perawatan gigi anak dan dewasa, serta panduan membuat janji.\n\nKonsep tersedia di https://maxigrowthstudio.com/alinea-pajajaran. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami memahami bahwa jadwal dan tarif harus dikonfirmasi oleh tim klinik sebelum dipublikasikan.\n\nTerima kasih.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
