@@ -77,9 +77,19 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Ratih Prasetyowati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Menganti 32, Surabaya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi"
+    },
+    {
       "path": "cabang[0].telepon",
       "tercatat": "62317666742",
-      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+      "catatan": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi"
     }
   ]
 }
