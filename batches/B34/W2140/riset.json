@@ -76,5 +76,22 @@
     "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
     "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
     "https://caribisnis.id/dokter-gigi/surakarta/jebres/klinik-dr-sura-jebr-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik dr. Sura",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. RE Martadinata No.194, Gandekan, Jebres, Surakarta, Jawa Tengah 57122",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622712933421",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

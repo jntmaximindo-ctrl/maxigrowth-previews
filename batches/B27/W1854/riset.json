@@ -100,5 +100,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/lily-dental-care-drg-lily-widjaja",
     "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Lily Dental Care / Drg.Lily Widjaja",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Banda Aceh No.75, Pandau Hulu I, Medan Kota, Medan, Sumatera Utara 20211",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62614573901",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-20.30\", \"sel\": \"09.00-20.30\", \"rab\": \"09.00-20.30\", \"kam\": \"09.00-20.30\", \"jum\": \"09.00-20.30\", \"sab\": \"09.00-18.00\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Drg.Lily Widjaja",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
