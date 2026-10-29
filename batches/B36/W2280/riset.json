@@ -71,5 +71,22 @@
   "sumber": [
     "https://www.semuabis.com/klinik-gigi-suhanda-021-8303175",
     "https://cekdoktergigi.com/dokter-gigi-tebet-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Suhanda",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bukit Duri Tanjakan No.56/1, RT.1/RW.9, Bukit Duri, Tebet, Jakarta Selatan 12840",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62218303175",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

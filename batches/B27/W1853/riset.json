@@ -78,5 +78,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09.00-19.00\", \"sel\": \"09.00-19.00\", \"rab\": \"09.00-19.00\", \"kam\": \"09.00-19.00\", \"jum\": \"09.00-19.00\", \"sab\": \"09.00-17.00\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
