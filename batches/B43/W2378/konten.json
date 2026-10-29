@@ -1,0 +1,132 @@
+{
+  "id": "W2378",
+  "hero": {
+    "judul": {
+      "id": "Informasi praktik gigi di Nagasari",
+      "en": "Dental practice information in Nagasari"
+    },
+    "sub": {
+      "id": "Hengky & Nanny Ganda, Drg tercantum di Jl. K. H. Dewantara No.98. Jadwal publik memuat sesi pagi dan sore.",
+      "en": "Hengky & Nanny Ganda, Drg is listed at Jl. K. H. Dewantara No.98, with morning and afternoon sessions."
+    },
+    "cta": {
+      "id": "Lihat jadwal",
+      "en": "View opening hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examinations"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan ketersediaan dokter melalui telepon.",
+        "en": "Call to confirm examination hours and clinician availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi tambal gigi",
+        "en": "Fillings information"
+      },
+      "ringkas": {
+        "id": "Direktori menyebut penambalan; konfirmasi ketersediaan dan biaya sebelum datang.",
+        "en": "Directories mention fillings; confirm availability and cost before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi cabut gigi",
+        "en": "Tooth extraction enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah tindakan sesuai kondisi Anda tersedia pada jadwal yang dipilih.",
+        "en": "Ask whether the required procedure is available during your preferred session."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Teeth cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan layanan pembersihan karang gigi dan kebutuhan pemeriksaan awal.",
+        "en": "Ask about scaling and any examination needed beforehand."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Jadwal dua sesi",
+      "en": "Two daily sessions"
+    },
+    "penjelasan": {
+      "id": "Lihat sesi pagi dan sore Senin–Sabtu serta nomor telepon untuk konfirmasi.",
+      "en": "View morning and afternoon sessions from Monday to Saturday, with a number to confirm hours."
+    },
+    "alasan_dipilih": "Dua sumber mencantumkan pola jam 08.00–11.00 dan 16.00–20.00."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Jl. K. H. Dewantara No.98, Nagasari, Karawang Barat.",
+        "en": "Jl. K. H. Dewantara No.98, Nagasari, West Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu 08.00–11.00 dan 16.00–20.00, Minggu tutup. Konfirmasi jadwal terbaru.",
+        "en": "Directories list Monday–Saturday 08:00–11:00 and 16:00–20:00, closed Sunday. Confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal gigi?",
+        "en": "Are fillings available?"
+      },
+      "a": {
+        "id": "Penambalan disebut pada direktori, tetapi jadwal tindakan perlu ditanyakan langsung.",
+        "en": "Fillings are mentioned in directories, but procedure availability should be confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya tindakan?",
+        "en": "What does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia secara publik. Tanyakan estimasi dan komponen biaya.",
+        "en": "Official public prices are unavailable. Ask for an estimate and cost breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia WhatsApp?",
+        "en": "Is WhatsApp available?"
+      },
+      "a": {
+        "id": "Hanya nomor telepon tetap yang dapat diverifikasi; kanal WhatsApp belum ditemukan.",
+        "en": "Only a landline could be verified; no WhatsApp channel was found."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Telepon untuk konfirmasi jadwal dan biaya",
+    "en": "Call to confirm hours and costs"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan layanan praktik Hengky & Nanny Ganda di Karawang. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola praktik Hengky & Nanny Ganda. Saya dari Maxi Growth Studio. Kami melihat jadwal praktik tercantum dalam dua sesi, pagi dan sore. Kami sudah menyiapkan konsep website yang membantu pasien melihat jadwal dan alamat dengan jelas. Konsep dapat dilihat di https://maxigrowthstudio.com/hengky-nanny. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website praktik Hengky & Nanny Ganda",
+    "email_isi": "Yth. Pengelola Praktik Hengky & Nanny Ganda,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik mencantumkan jadwal dua sesi untuk praktik di Jl. K. H. Dewantara, Karawang Barat. Kami menyiapkan konsep website untuk memudahkan pasien melihat jadwal, lokasi, dan nomor kontak.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/hengky-nanny. Proposal PDF kami lampirkan sebagai pengantar. Kami terbuka untuk menerima koreksi data dan masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

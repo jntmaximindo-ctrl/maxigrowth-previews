@@ -1,0 +1,142 @@
+{
+  "id": "W2465",
+  "hero": {
+    "judul": {
+      "id": "Informasi perawatan gigi di Kelapa Dua",
+      "en": "Dental care information in Kelapa Dua"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi dan rencanakan kunjungan ke Klinik Nayra Dental Care. Konfirmasikan jadwal serta layanan kepada admin.",
+      "en": "Find location information and plan a visit to Klinik Nayra Dental Care. Confirm schedules and service availability with the administrator."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal kunjungan",
+      "en": "Ask about visit times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi. Tanyakan ketersediaan layanan dan kebutuhan pemeriksaan kepada admin.",
+        "en": "Removal of dental calculus. Ask the administrator about availability and examination arrangements."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Informasi penambalan gigi dapat ditanyakan saat membuat janji. Kebutuhan tindakan ditentukan melalui pemeriksaan dokter gigi.",
+        "en": "Ask about dental fillings when arranging a visit. Treatment needs are determined through a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi terkait kawat gigi. Pilihan perawatan dibahas bersama dokter setelah pemeriksaan.",
+        "en": "Ask about consultation times for braces. Treatment options are discussed with the dentist after examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Veneer",
+        "en": "Veneers"
+      },
+      "ringkas": {
+        "id": "Tanyakan informasi layanan veneer kepada admin. Kesesuaian tindakan memerlukan pemeriksaan dokter gigi.",
+        "en": "Ask the administrator about veneer services. Suitability requires a dental examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Rencanakan kunjungan",
+      "en": "Plan your visit"
+    },
+    "penjelasan": {
+      "id": "Siapkan pilihan hari, kebutuhan konsultasi, dan pertanyaan biaya sebelum menghubungi admin. Jadwal direktori perlu dikonfirmasi kembali.",
+      "en": "Prepare your preferred day, consultation needs, and fee questions before contacting the administrator. Directory opening hours need confirmation."
+    },
+    "alasan_dipilih": "Membantu pengunjung menyiapkan pertanyaan administratif tanpa menjanjikan hasil perawatan atau mengasumsikan jadwal dokter."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Mission Drive No.1, Ruko Solvang Grande, Kelapa Dua, Kabupaten Tangerang. Konfirmasikan alamat dan petunjuk lokasi kepada admin.",
+        "en": "The directory lists Jl. Mission Drive No.1, Ruko Solvang Grande, Kelapa Dua, Tangerang Regency. Confirm the address and directions with the administrator."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasionalnya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan setiap hari pukul 08.30–21.30 WIB. Jam operasional dan jadwal dokter dapat berubah; konfirmasikan sebelum datang.",
+        "en": "The directory lists daily opening hours of 08:30–21:30 Western Indonesian Time. Opening hours and dentist schedules may change; confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi admin?",
+        "en": "How can I contact the administrator?"
+      },
+      "a": {
+        "id": "Nomor pada tautan WhatsApp publik direktori adalah +62 812-9200-9220. Pastikan identitas klinik saat memulai percakapan.",
+        "en": "The directory's public WhatsApp link lists +62 812-9200-9220. Confirm the clinic's identity when starting a conversation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia dari sumber resmi yang ditemukan. Tanyakan estimasi biaya, pemeriksaan, dan komponen tindakan kepada admin.",
+        "en": "Prices were not available from the official sources located. Ask the administrator about estimated fees, examinations, and treatment components."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Ketentuan janji dan antrean belum ditemukan. Hubungi admin untuk mengonfirmasi waktu kunjungan dan jadwal dokter.",
+        "en": "Appointment and queue arrangements were not found. Contact the administrator to confirm visit times and dentist schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum terverifikasi. Konfirmasikan jenis pembayaran serta dokumen yang diperlukan kepada admin.",
+        "en": "Insurance arrangements have not been verified. Confirm payment methods and required documents with the administrator."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi admin untuk informasi jadwal dan biaya",
+    "en": "Contact the administrator for schedule and fee information"
+  },
+  "pesan_wa_default": "Halo admin Klinik Nayra Dental Care, saya ingin menanyakan jadwal kunjungan, layanan yang tersedia, dan estimasi biaya. Apakah nomor ini merupakan kontak Klinik Nayra Dental Care di Kelapa Dua?",
+  "outreach": {
+    "wa": "Halo admin Klinik Nayra Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep informasi klinik dan panduan kunjungan. Setelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/nayra. Data dapat dikoreksi oleh pihak klinik. Jika berkenan, saya dapat menjelaskan konsepnya. Kontak: 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep halaman informasi Klinik Nayra Dental Care",
+    "email_isi": "Yth. pengelola Klinik Nayra Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep halaman informasi lokasi, layanan, dan panduan kunjungan. Data dari sumber publik masih perlu ditinjau pihak klinik, khususnya jadwal, layanan, dan biaya.\n\nSetelah preview diterbitkan, tautan tinjauannya https://maxigrowthstudio.com/nayra. Proposal PDF terlampir pada pengiriman oleh pemilik setelah berkas tersedia. Jika berkenan, kami dapat membahas koreksi informasi dan kebutuhan halaman klinik.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2469",
+  "hero": {
+    "judul": {
+      "id": "Bliss Dental Care",
+      "en": "Bliss Dental Care"
+    },
+    "sub": {
+      "id": "Informasi konsultasi gigi dan ortodonti di Ruko Bolsena, Kelapa Dua.",
+      "en": "Dental and orthodontic consultation information in Ruko Bolsena, Kelapa Dua."
+    },
+    "cta": {
+      "id": "Tanyakan kunjungan",
+      "en": "Ask about a visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Perawatan ortodonti",
+        "en": "Orthodontic care"
+      },
+      "ringkas": {
+        "id": "Diskusikan susunan gigi dan rencana perawatan setelah pemeriksaan.",
+        "en": "Discuss tooth alignment and a treatment plan after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Invisalign",
+        "en": "Invisalign"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian aligner dengan kondisi gigi Anda.",
+        "en": "Ask whether aligners suit your dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Dokter menilai kondisi gigi sebelum menentukan tindakan.",
+        "en": "A dentist assesses the tooth before recommending a procedure."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemasangan kawat gigi",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan kawat gigi, pemeriksaan awal, serta jadwal kontrol.",
+        "en": "Ask about braces, the initial assessment and follow-up visits."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan ortodonti",
+      "en": "Prepare orthodontic questions"
+    },
+    "penjelasan": {
+      "id": "Pilih topik kawat gigi atau aligner untuk menyusun daftar pertanyaan sebelum konsultasi. Fitur ini tidak menentukan diagnosis.",
+      "en": "Choose braces or aligners to prepare questions for a consultation. This tool does not provide a diagnosis."
+    },
+    "alasan_dipilih": "Halaman layanan mencantumkan ortodonti, Invisalign dan pemasangan kawat gigi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat yang tercantum?",
+        "en": "What is the listed address?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum: Ruko Bolsena Blok B. 51, Curug Sangereng, Kelapa Dua, Kabupaten Tangerang, Banten 15810. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "Listed location: Ruko Bolsena Blok B. 51, Curug Sangereng, Kelapa Dua, Kabupaten Tangerang, Banten 15810. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Jam praktik belum terkonfirmasi. Tanyakan jadwal hari pilihan kepada admin.",
+        "en": "Opening hours are unconfirmed. Ask the team about your preferred day."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya kepada klinik.",
+        "en": "Prices are not available. Request a cost breakdown from the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan kawat gigi?",
+        "en": "Are braces available?"
+      },
+      "a": {
+        "id": "Website mencantumkan pemasangan kawat gigi dan Invisalign. Kesesuaian ditentukan melalui pemeriksaan dokter.",
+        "en": "The website lists braces and Invisalign. A dentist determines suitability after an assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah dapat memakai asuransi?",
+        "en": "Can I use insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terkonfirmasi. Tanyakan penjamin dan dokumen yang diperlukan.",
+        "en": "Insurance arrangements are unconfirmed. Ask about insurers and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan kebutuhan kunjungan",
+    "en": "Confirm your visit requirements"
+  },
+  "pesan_wa_default": "Halo Bliss Dental Care, saya ingin menanyakan jadwal, alamat dan biaya pemeriksaan. Apakah dapat membuat janji kunjungan? Terima kasih.",
+  "outreach": {
+    "wa": "Halo Manajemen Bliss Dental Care, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk informasi lokasi Ruko Bolsena Blok B 51 dan pertanyaan pra-kunjungan: https://maxigrowthstudio.com/bliss. Informasi jadwal dan layanan dapat disesuaikan berdasarkan data manajemen. Jika berkenan, silakan ditinjau. Terima kasih. WA 082141004400 | info@maxigrowthstudio.com",
+    "email_subjek": "Konsep website Bliss Dental Care",
+    "email_isi": "Yth. Manajemen Bliss Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website dengan informasi lokasi Ruko Bolsena Blok B 51 dan penyusun pertanyaan pra-kunjungan. Rancangan ini membantu pasien menanyakan jadwal, biaya dan persiapan kepada klinik.\n\nKonsep untuk ditinjau: https://maxigrowthstudio.com/bliss. Proposal PDF terlampir sebagai bahan pertimbangan. Data layanan dan jadwal dapat disesuaikan dengan informasi manajemen.\n\nTerima kasih,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
