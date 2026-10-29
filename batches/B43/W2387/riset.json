@@ -75,5 +75,17 @@
   "sumber": [
     "https://pjpksintcarolus.com/provider",
     "https://kemkes.go.id/id/%20rumah-sakit-boleh-beriklan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287879020468",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287879020468",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

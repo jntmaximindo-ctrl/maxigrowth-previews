@@ -87,5 +87,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/karawang/plaza-dental-clinic-karawang-karawang",
     "https://kemkes.go.id/id/%20rumah-sakit-boleh-beriklan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"10-18\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

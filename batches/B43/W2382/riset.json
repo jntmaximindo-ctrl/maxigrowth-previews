@@ -84,5 +84,32 @@
     "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
     "https://idalamat.com/alamat/dokter-gigi-emawati-1060536",
     "https://www.ulastempat.com/7-dokter-gigi-di-kab-karawang-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Emawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Darussalam No.9, Palumbonsari, Kec. Karawang Timur, Karawang, Jawa Barat 41314",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281316536256",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281316536256",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-17\", \"sel\": \"16-17\", \"rab\": \"16-17\", \"kam\": \"16-17\", \"jum\": \"16-17\", \"sab\": \"16-17\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

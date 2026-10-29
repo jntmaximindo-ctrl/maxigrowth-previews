@@ -71,5 +71,27 @@
     "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
     "https://companiesfacts.id/samita-global-medik",
     "https://www.google.com/maps/search/?api=1&query=Klinik+Samita+Dental+Care+Bojongsoang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Samita Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cikoneng, Ruko Akita 2 Blok O8, Lengkong, Bojongsoang, Kabupaten Bandung",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282116513335",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282116513335",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

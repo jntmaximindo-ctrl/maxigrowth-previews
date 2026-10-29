@@ -75,5 +75,27 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/cikampek/dokter-gigi",
     "https://kemkes.go.id/id/%20rumah-sakit-boleh-beriklan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Kasih Dental Praktek",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Kp., Gg. Sukamanah Barat, RT.002/RW.004, Cikampek Barat, Kec. Cikampek, Karawang, Jawa Barat 41373",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281287968812",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281287968812",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

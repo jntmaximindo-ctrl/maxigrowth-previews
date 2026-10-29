@@ -1,0 +1,50 @@
+{
+  "id": "W2382",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Emawati",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Darussalam No.9, Palumbonsari, Kec. Karawang Timur, Karawang, Jawa Barat 41314",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281316536256",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281316536256",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-17\", \"sel\": \"16-17\", \"rab\": \"16-17\", \"kam\": \"16-17\", \"jum\": \"16-17\", \"sab\": \"16-17\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256 [nama]",
+    "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256 [cabang[0].alamat]",
+    "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256 [cabang[0].telepon]",
+    "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256 [cabang[0].wa]",
+    "https://www.semuabis.com/dokter-gigi-emawati-0813-1653-6256 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "W2349",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Samita Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Cikoneng, Ruko Akita 2 Blok O8, Lengkong, Bojongsoang, Kabupaten Bandung",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282116513335",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282116513335",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [nama]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
