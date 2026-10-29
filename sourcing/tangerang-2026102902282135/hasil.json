@@ -1,0 +1,52 @@
+{
+ "kota": "Tangerang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Puskesmas Benda",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://puskesmas.tangerangkota.go.id/upt/benda/layanan_menu_jadwal",
+   "catatan": "Poli Gigi terkonfirmasi"
+  },
+  {
+   "nama": "Puskesmas Jurumudi Baru",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://puskesmas.tangerangkota.go.id/upt/jurumudibaru/layanan_menu_jadwal",
+   "catatan": "Poli gigi terkonfirmasi"
+  },
+  {
+   "nama": "RSUD Benda",
+   "rating": 4.8,
+   "ulasan": 479,
+   "sumber": "https://caregiving.id/direktori/banten/kota-tangerang/klinik-kesehatan/",
+   "catatan": "Poli Konservasi Gigi terkonfirmasi secara terpisah di sumber pemerintah; rumah sakit, bukan klinik gigi mandiri"
+  },
+  {
+   "nama": "Ahli Gigi Citra8 Adi",
+   "rating": 4.9,
+   "ulasan": 79,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/benda/ahli-gigi-citra8-adi-bend-imp1",
+   "catatan": "Ahli gigi tidak otomatis dokter gigi berizin; dikecualikan"
+  },
+  {
+   "nama": "drg. Rindang Yuasari Sp.BMMf",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://rsudbenda.tangerangkota.go.id/dokter/drg-rindang-yuasari-spbmmf",
+   "catatan": "Dokter RSUD Benda, bukan entitas praktik terpisah"
+  },
+  {
+   "nama": "Poli Konservasi Gigi RSUD Benda",
+   "rating": null,
+   "ulasan": null,
+   "sumber": "https://www.tangerangkota.go.id/berita/detail/48943/rsud-benda-kota-tangerang-beroperasi-tiga-poli-mulai-layani-masyarakat",
+   "catatan": "Departemen RSUD yang sama, tidak dihitung klinik mandiri"
+  }
+ ],
+ "catatan": "Lima pencarian area terpisah. Enam entri berupa fasilitas, penyedia dan unit pelayanan yang benar-benar ditelusuri, tidak menggambarkan enam klinik mandiri berbeda. Tidak memasukkan RSUD sebagai target klinik komersial maupun ahli gigi yang izinnya tidak jelas. Filter rating hanya diterapkan jika rating dan jumlah ulasan terlihat; target lolos kosong."
+}

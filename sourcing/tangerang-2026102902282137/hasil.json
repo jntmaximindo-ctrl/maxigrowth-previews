@@ -1,0 +1,67 @@
+{
+ "kota": "Tangerang",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Klinik Gigi Tangerang - FDC Ciledug",
+   "rating": 5,
+   "ulasan": 233,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/klinik-gigi-tangerang-fdc-cile-cile-imp1",
+   "catatan": "Situs resmi menyebut Larangan/Cipadu, bukan Kecamatan Ciledug"
+  },
+  {
+   "nama": "Satu Dental Ciledug",
+   "rating": 5,
+   "ulasan": 248,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/satu-dental-ciledug-cile-imp1",
+   "catatan": "Lokasi Larangan Utara, luar kecamatan"
+  },
+  {
+   "nama": "Cling Dental Clinic Ciledug",
+   "rating": 4.9,
+   "ulasan": 239,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/cling-dental-clinic-ciledug-cile-imp1",
+   "catatan": "Parung Serab, Ciledug; jaringan klinik berwebsite"
+  },
+  {
+   "nama": "Urban Smile Dental Care Kreo",
+   "rating": 4.9,
+   "ulasan": 593,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/klinik-urban-smile-dental-care-cile-imp1",
+   "catatan": "Kreo, perlu pemeriksaan status dalam daftar known"
+  },
+  {
+   "nama": "Orange Dental Ciledug",
+   "rating": 4.9,
+   "ulasan": 321,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/orange-dental-ciledug-cile-imp1",
+   "catatan": "Perlu konfirmasi alamat dan status known"
+  },
+  {
+   "nama": "Family Dental House drg. Pranaria Kartikaningsatya",
+   "rating": 4.9,
+   "ulasan": 60,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/praktek-dokter-gigi-drg-pranar-cile-imp1",
+   "catatan": "Sudimara Barat Ciledug"
+  },
+  {
+   "nama": "Moridental Clinic Ciledug",
+   "rating": 5,
+   "ulasan": 194,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/moridental-clinic-ciledug-cile-imp1",
+   "catatan": "Perlu konfirmasi alamat rinci"
+  },
+  {
+   "nama": "Praktik Dokter Gigi Endang Isti Rahayu",
+   "rating": 4.6,
+   "ulasan": 82,
+   "sumber": "https://caribisnis.id/dokter-gigi/tangerang/ciledug/praktik-dokter-gigi-endang-ist-cile-imp1",
+   "catatan": "Ciledug, belum verifikasi alamat rinci"
+  }
+ ],
+ "catatan": "Lima kueri area ditelusuri dengan data rating dan jumlah ulasan bersumber; hasil lolos sementara tidak dimasukkan karena filter KNOWN-KLINIK dan lokasi kecamatan memerlukan pemeriksaan silang. FDC dan Satu Dental terbukti di kecamatan Larangan dan dikecualikan. Jangan menganggap semua kandidat diperiksa sebagai klinik yang lolos.",
+ "area": "tangerang-ciledug-r1"
+}
