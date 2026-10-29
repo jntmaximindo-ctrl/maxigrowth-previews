@@ -1,0 +1,43 @@
+{
+  "id": "W2409",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "El Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pahlawan 2 No.57, Kempil, Langenharjo, Kec. Kendal, Kabupaten Kendal, Jawa Tengah 51314",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285777999191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285777999191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-kendal/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-kendal/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-kendal/ [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

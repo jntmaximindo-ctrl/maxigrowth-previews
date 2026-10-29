@@ -85,5 +85,32 @@
     "https://hdmall.id/klinik-gigi/scaling-di-umma-dental",
     "https://www.ummadentalcare.com/reservasi",
     "https://www.instagram.com/ummadentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Umma Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko AIRO Lantai 2, sebelah Indomart Perumahan Pearl Garden, Jl. H. Sulaiman, Bedahan, Sawangan, Kota Depok, Jawa Barat 16519",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281381609027",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281381609027",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:00-20:00\", \"sel\": \"10:00-20:00\", \"rab\": \"10:00-20:00\", \"kam\": \"10:00-20:00\", \"jum\": \"10:00-20:00\", \"sab\": \"10:00-20:00\", \"min\": \"10:00-20:00\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

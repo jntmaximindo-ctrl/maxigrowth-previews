@@ -1,0 +1,50 @@
+{
+  "id": "W2416",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Umma Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/umma-dental-care-1060773",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko AIRO Lantai 2, sebelah Indomart Perumahan Pearl Garden, Jl. H. Sulaiman, Bedahan, Sawangan, Kota Depok, Jawa Barat 16519",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/umma-dental-care-1060773",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281381609027",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/umma-dental-care-1060773",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281381609027",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/umma-dental-care-1060773",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:00-20:00\", \"sel\": \"10:00-20:00\", \"rab\": \"10:00-20:00\", \"kam\": \"10:00-20:00\", \"jum\": \"10:00-20:00\", \"sab\": \"10:00-20:00\", \"min\": \"10:00-20:00\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/umma-dental-care-1060773",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/umma-dental-care-1060773 [nama]",
+    "https://idalamat.com/alamat/umma-dental-care-1060773 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/umma-dental-care-1060773 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/umma-dental-care-1060773 [cabang[0].wa]",
+    "https://idalamat.com/alamat/umma-dental-care-1060773 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

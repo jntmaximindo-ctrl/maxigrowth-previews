@@ -1,0 +1,58 @@
+{
+  "id": "W2410",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi drg. Widyawati Sutedjo, Sp.Perio",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dharmahusada Indah III No.228 Blok M-1A, Mulyorejo, Surabaya, Jawa Timur 60115",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6283830149393",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-widyawati-sutedjo-sp-0838-3014-9393",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6283830149393",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dokter-gigi-drg-widyawati-sutedjo-sp-0838-3014-9393",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Widyawati Sutedjo",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705757/dokter-gigi-drg-widyawati-sutedjo-sp-perio-surabaya-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Periodonsia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/705757/dokter-gigi-drg-widyawati-sutedjo-sp-perio-surabaya-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/ [cabang[0].alamat]",
+    "https://www.semuabis.com/dokter-gigi-drg-widyawati-sutedjo-sp-0838-3014-9393 [cabang[0].telepon]",
+    "https://www.semuabis.com/dokter-gigi-drg-widyawati-sutedjo-sp-0838-3014-9393 [cabang[0].wa]",
+    "https://idalamat.com/alamat/705757/dokter-gigi-drg-widyawati-sutedjo-sp-perio-surabaya-jawa-timur [dokter[0].nama]",
+    "https://idalamat.com/alamat/705757/dokter-gigi-drg-widyawati-sutedjo-sp-perio-surabaya-jawa-timur [dokter[0].spesialis]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

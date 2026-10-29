@@ -73,5 +73,32 @@
   "sumber": [
     "https://idalamat.com/alamat/praktik-dokter-gigi-hesty-pradini-1061561",
     "https://bukutelepon.cybo.com/ID/weleri/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik dokter gigi Hesty Pradini",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gama Gg Gama IV No.Raya, Mannggisan, Langenharjo, Kec. Kendal, Kabupaten Kendal, Jawa Tengah 51314",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285775155400",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285775155400",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 16.30–20.00; Sabtu–Minggu tutup (direktori, perlu konfirmasi)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

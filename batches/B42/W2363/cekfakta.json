@@ -1,0 +1,33 @@
+{
+  "id": "W2363",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "Lisyeortis@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-feb-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285802891189",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-feb-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285802891189",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-feb-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://fliphtml5.com/Koolabozine/cayi/ [nama]",
+    "https://fliphtml5.com/Koolabozine/cayi/ [cabang[0].alamat]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
