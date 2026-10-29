@@ -1,0 +1,142 @@
+{
+  "id": "W2445",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Nousha Dental & Aesthetic",
+      "en": "Dental Care at Nousha Dental & Aesthetic"
+    },
+    "sub": {
+      "id": "Kenali pilihan perawatan gigi di Kudus dan tanyakan jadwal kunjungan sesuai kebutuhan Anda.",
+      "en": "Explore dental care options in Kudus and ask about an appointment that suits your schedule."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling dan Polishing",
+        "en": "Scaling and Polishing"
+      },
+      "ringkas": {
+        "id": "Perawatan untuk membantu membersihkan karang dan plak gigi setelah pemeriksaan.",
+        "en": "Professional cleaning to help remove tartar and plaque after an assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Pilihan penanganan gigi berlubang berdasarkan pemeriksaan dokter gigi.",
+        "en": "Options for treating cavities based on a dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Tindakan pencabutan dilakukan bila dinilai sesuai setelah pemeriksaan.",
+        "en": "Extraction may be considered when appropriate following an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan perawatan gigi anak sesuai kondisi dan kebutuhan.",
+        "en": "Dental checkups and care tailored to a child's needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian gigi yang hilang bersama dokter gigi.",
+        "en": "Discuss options for replacing missing teeth with a dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Perawatan, Tanyakan Jadwal",
+      "en": "Choose a Service, Ask About Availability"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis perawatan yang ingin ditanyakan, lalu kirim permintaan jadwal ke kontak klinik. Jam operasional perlu dikonfirmasi langsung sebelum berkunjung.",
+      "en": "Choose a treatment to ask about and send an appointment enquiry. Please confirm opening hours before visiting."
+    },
+    "alasan_dipilih": "Direktori publik mencantumkan berbagai layanan dan buka pada hari Minggu, tetapi jam Minggu berbeda antarsumber. Fitur membantu mengarahkan pertanyaan pasien tanpa menampilkan jam yang belum pasti."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Nousha Dental & Aesthetic?",
+        "en": "Where is Nousha Dental & Aesthetic located?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan Jl. KH Moh. Arwani, Singocandi, Kudus. Pastikan lokasi sebelum berangkat.",
+        "en": "Public directories list Jl. KH Moh. Arwani, Singocandi, Kudus. Please confirm the location before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka pada hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Beberapa direktori menyebut layanan hari Minggu, tetapi jamnya berbeda. Tanyakan jadwal terkini kepada klinik.",
+        "en": "Several directories mention Sunday opening, but the hours differ. Please ask the clinic for the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling gigi?",
+        "en": "Is dental scaling available?"
+      },
+      "a": {
+        "id": "Scaling dan polishing tercantum dalam informasi layanan publik. Tanyakan ketersediaan jadwal terlebih dahulu.",
+        "en": "Scaling and polishing are listed in public service information. Please check appointment availability first."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya penambalan atau scaling?",
+        "en": "How much do fillings or scaling cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi yang mutakhir belum ditemukan. Mintalah estimasi sesuai kondisi gigi sebelum tindakan.",
+        "en": "A current official price list was not found. Please request an estimate based on your dental needs before treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa membuat janji untuk anak?",
+        "en": "Can I arrange a visit for my child?"
+      },
+      "a": {
+        "id": "Perawatan gigi anak tercantum dalam direktori. Hubungi klinik untuk memastikan jadwal dan jenis pemeriksaan yang sesuai.",
+        "en": "Children's dental care is listed in directories. Contact the clinic to check availability and suitable appointments."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Jadwal",
+    "en": "Contact the Clinic About Appointments"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Nousha Dental & Aesthetic. Apakah ada slot kunjungan yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Nousha Dental & Aesthetic. Saya Rizqi dari Maxi Growth Studio. Saya melihat Nousha melayani beberapa jenis perawatan gigi di Singocandi, Kudus. Kami menyiapkan konsep website dengan pilihan layanan dan alur pertanyaan jadwal, agar pasien lebih mudah menemukan informasi. Konsepnya bisa dilihat di https://maxigrowthstudio.com/nousha-aesthetic. Jika berkenan, saya terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Nousha Dental & Aesthetic",
+    "email_isi": "Yth. Tim Nousha Dental & Aesthetic,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi publik tentang layanan gigi Nousha di Singocandi, Kudus, termasuk perawatan gigi anak dan scaling.\n\nKami telah menyiapkan konsep website yang membantu pasien melihat jenis layanan dan mengirim pertanyaan jadwal dengan lebih terarah. Konsep dapat ditinjau di https://maxigrowthstudio.com/nousha-aesthetic.\n\nProposal PDF kami lampirkan sebagai bahan pertimbangan. Kami senang menerima masukan bila ada informasi yang perlu disesuaikan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2446",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik Dokter Gigi di Barongan, Kudus",
+      "en": "Dental Practice Information in Barongan, Kudus"
+    },
+    "sub": {
+      "id": "Temukan alamat praktik bersama dan cara menanyakan jadwal pemeriksaan gigi.",
+      "en": "Find the shared practice address and ask about dental appointment times."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk mengetahui kondisi gigi dan mulut Anda.",
+        "en": "Ask about an examination to understand your oral health needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan kepada dokter agar pilihan penanganan dapat dijelaskan.",
+        "en": "Discuss your concerns with a dentist to understand possible next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jenis Perawatan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan langsung jenis tindakan yang tersedia; daftar lengkapnya belum dipublikasikan secara terverifikasi.",
+        "en": "Ask which treatments are available; a verified full service list has not been found."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal Dokter",
+        "en": "Dentist Schedule Enquiries"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan dokter yang bertugas dan jam praktik sebelum datang.",
+        "en": "Check which dentist is available and confirm opening hours before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pertanyaan Sebelum Kunjungan",
+      "en": "Before-Visit Enquiry Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik pertanyaan—jadwal, jenis perawatan, atau perkiraan biaya—untuk menyiapkan pesan kepada praktik.",
+      "en": "Choose a question topic—appointments, treatment availability, or estimated costs—to prepare a message to the practice."
+    },
+    "alasan_dipilih": "Listing praktik bersama mencantumkan dua nama dokter, tetapi jadwal individual dan daftar tindakan belum tersedia secara terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Ruko No. 37 D, Jl. Jend. Sudirman, Barongan, Kudus.",
+        "en": "Directories list Ruko No. 37 D, Jl. Jend. Sudirman, Barongan, Kudus."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal?",
+        "en": "How can I ask about appointments?"
+      },
+      "a": {
+        "id": "Gunakan nomor kontak publik dan pastikan jam praktik terbaru sebelum datang.",
+        "en": "Use the public contact number and confirm the current opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum?",
+        "en": "Which dentists are listed?"
+      },
+      "a": {
+        "id": "Listing publik menyebut Septa Afifin dan Destari Amelia. Jadwal masing-masing perlu dikonfirmasi.",
+        "en": "Public listings mention Septa Afifin and Destari Amelia. Their individual schedules need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling atau tambal gigi?",
+        "en": "Are scaling and fillings available?"
+      },
+      "a": {
+        "id": "Daftar tindakan yang terverifikasi belum ditemukan. Tanyakan ketersediaan perawatan langsung kepada praktik.",
+        "en": "A verified treatment list was not found. Please ask the practice about available care."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much does a consultation cost?"
+      },
+      "a": {
+        "id": "Biaya resmi yang mutakhir belum ditemukan. Mohon tanyakan estimasi kepada praktik.",
+        "en": "A current official fee list was not found. Please ask the practice for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Kunjungan",
+    "en": "Ask About Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di praktik drg. Septa Afifin dan Dokter Gigi Destari Amelia, Ruko 37 D Kudus. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola praktik drg. Septa Afifin dan Dokter Gigi Destari Amelia. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi praktik bersama di Ruko 37 D, Barongan, Kudus. Kami menyiapkan konsep website untuk membantu pasien menemukan alamat dan menanyakan jadwal serta jenis perawatan. Konsepnya bisa dilihat di https://maxigrowthstudio.com/septa-afifin. Jika berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk praktik dokter gigi di Ruko 37 D",
+    "email_isi": "Yth. Tim Praktik Dokter Gigi Septa Afifin dan Destari Amelia,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik, praktik bersama berlokasi di Ruko 37 D, Barongan, Kudus.\n\nKami menyiapkan konsep website yang memudahkan pasien menemukan lokasi dan mengajukan pertanyaan tentang jadwal maupun jenis perawatan. Konsep dapat dilihat di https://maxigrowthstudio.com/septa-afifin.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk koreksi data atau masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

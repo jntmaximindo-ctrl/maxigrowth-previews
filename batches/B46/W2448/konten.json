@@ -1,0 +1,132 @@
+{
+  "id": "W2448",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Klinik Rizky Sidoarjo",
+      "en": "Dental Care Information at Klinik Rizky Sidoarjo"
+    },
+    "sub": {
+      "id": "Cari informasi scaling, lokasi praktik, dan jadwal kunjungan malam maupun Minggu pagi.",
+      "en": "Find information about scaling, the clinic location, and evening or Sunday morning appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi yang dapat didiskusikan setelah pemeriksaan kondisi mulut.",
+        "en": "Tartar removal that can be discussed after an oral assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan untuk memahami kondisi gigi Anda.",
+        "en": "Ask about a checkup to better understand your dental health."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Concerns Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan penanganan yang sesuai.",
+        "en": "Describe your concerns and ask about suitable care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pertanyaan Jenis Perawatan",
+        "en": "Treatment Availability Enquiries"
+      },
+      "ringkas": {
+        "id": "Daftar tindakan lengkap belum terverifikasi. Hubungi klinik untuk menanyakan layanan yang tersedia.",
+        "en": "A complete verified treatment list is not available. Please contact the clinic to check its services."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Malam dan Minggu",
+      "en": "Evening and Sunday Appointment Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih waktu kunjungan yang ingin ditanyakan, lalu kirim pertanyaan ke kontak klinik. Jadwal yang tercantum perlu dikonfirmasi.",
+      "en": "Choose a preferred visit time and send an enquiry to the clinic. Listed hours should be confirmed."
+    },
+    "alasan_dipilih": "Artikel media mencantumkan praktik malam pada Senin–Sabtu dan Minggu pagi, sehingga alur tanya jadwal dapat membantu pasien."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Klinik Rizky berada?",
+        "en": "Where is Klinik Rizky?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Taman Pondok Jati Blok AC No. 2, Geluran, Sidoarjo.",
+        "en": "Directories list Jl. Taman Pondok Jati Block AC No. 2, Geluran, Sidoarjo."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia jadwal malam?",
+        "en": "Are evening appointments available?"
+      },
+      "a": {
+        "id": "Artikel publik mencantumkan pukul 19.00–21.00 pada Senin–Sabtu. Mohon konfirmasi jadwal terkini.",
+        "en": "A public article lists 7–9 PM Monday to Saturday. Please confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is it open on Sundays?"
+      },
+      "a": {
+        "id": "Artikel publik mencantumkan Minggu pukul 09.00–12.00. Tanyakan kembali sebelum datang.",
+        "en": "A public article lists Sunday hours as 9 AM–noon. Please check before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada scaling gigi?",
+        "en": "Is dental scaling available?"
+      },
+      "a": {
+        "id": "Scaling tercantum dalam informasi publik klinik. Tanyakan jadwal dan pemeriksaan yang diperlukan.",
+        "en": "Scaling is listed in public information. Ask about availability and any required assessment."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan atau scaling?",
+        "en": "What do checkups or scaling cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum ditemukan. Hubungi klinik untuk meminta estimasi sesuai kebutuhan.",
+        "en": "An official fee list was not found. Contact the clinic for an estimate based on your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal Kunjungan",
+    "en": "Ask About Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan atau scaling di Klinik Rizky Sidoarjo. Apakah ada jadwal yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Dokter Gigi Klinik Rizky. Saya Rizqi dari Maxi Growth Studio. Saya melihat informasi praktik di Taman Pondok Jati, Sidoarjo, dengan jadwal malam dan Minggu pagi yang tercantum di direktori. Kami menyiapkan konsep website agar pasien mudah menemukan lokasi dan menanyakan jadwal kunjungan. Konsepnya dapat dilihat di https://maxigrowthstudio.com/rizky. Jika berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Rizky Sidoarjo",
+    "email_isi": "Yth. Tim Klinik Rizky Sidoarjo,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik tentang praktik Klinik Rizky di Taman Pondok Jati, termasuk jadwal malam dan Minggu pagi.\n\nKami menyiapkan konsep website untuk memudahkan pasien melihat lokasi dan mengirim pertanyaan jadwal. Konsep dapat ditinjau di https://maxigrowthstudio.com/rizky.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk masukan dan koreksi data.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
