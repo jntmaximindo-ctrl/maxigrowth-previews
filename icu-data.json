@@ -1,30 +1,30 @@
 {
- "diperbarui": "2026-10-29T12:10:15+07:00",
+ "diperbarui": "2026-10-29T12:24:14+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
  "akhir_hari": "2026-10-29T23:59:00+07:00",
  "total_klinik_di_batch": 1566,
- "klinik_status_lain": 83,
- "siap_reachout_hari_ini": 110,
+ "klinik_status_lain": 75,
+ "siap_reachout_hari_ini": 134,
  "tahap": {
   "cari": null,
-  "riset": 132,
-  "cek_fakta": 6,
+  "riset": 92,
+  "cek_fakta": 42,
   "rakit": 4,
   "qa": 1,
   "deploy": 0,
-  "review": 28,
-  "siap_reachout": 1312
+  "review": 16,
+  "siap_reachout": 1336
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 41,
-  "cek_fakta": 34,
-  "rakit": 34,
-  "qa": 34,
-  "deploy": 34,
-  "review": 17
+  "riset": 74,
+  "cek_fakta": 47,
+  "rakit": 47,
+  "qa": 47,
+  "deploy": 47,
+  "review": 42
  },
  "pekerja": [
   {
@@ -83,8 +83,14 @@
   {
    "tingkat": "kritis",
    "judul": "Antrean riset menumpuk",
-   "detail": "132 klinik menunggu di tahap riset.",
+   "detail": "92 klinik menunggu di tahap riset.",
    "teks_perbaikan": "Periksa pekerja tahap riset dan dorong sampai antrean turun."
+  },
+  {
+   "tingkat": "kritis",
+   "judul": "Antrean cek fakta menumpuk",
+   "detail": "42 klinik menunggu di tahap cek fakta.",
+   "teks_perbaikan": "Periksa pekerja tahap cek fakta dan dorong sampai antrean turun."
   }
  ],
  "kemarin": {
@@ -157,23 +163,23 @@
   {
    "tanggal": "2026-10-29",
    "lulus_akhir": {
-    "riset": 1351,
-    "cek_fakta": 1345,
-    "rakit": 1341,
-    "qa": 1340,
-    "deploy": 1340,
-    "review": 1312,
+    "riset": 1399,
+    "cek_fakta": 1357,
+    "rakit": 1353,
+    "qa": 1352,
+    "deploy": 1352,
+    "review": 1336,
     "siap_reachout": 0
    },
-   "siap_reachout_akhir": 1312,
+   "siap_reachout_akhir": 1336,
    "tambahan_hari_itu": {
-    "riset": 132,
-    "cek_fakta": 126,
-    "rakit": 126,
-    "qa": 126,
-    "deploy": 126,
-    "review": 110,
-    "siap_reachout": 110
+    "riset": 180,
+    "cek_fakta": 138,
+    "rakit": 138,
+    "qa": 138,
+    "deploy": 138,
+    "review": 134,
+    "siap_reachout": 134
    }
   }
  ]
