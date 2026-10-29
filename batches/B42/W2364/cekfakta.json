@@ -1,0 +1,26 @@
+{
+  "id": "W2364",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi FARAH",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/klinik-gigi-farah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Urip Sumoharjo Blok Lemah Abang No.56, Jl. Nasional 1, RW.3, Waluya, Cikarang Utara, Bekasi, Jawa Barat 17530",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/klinik-gigi-farah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/klinik-gigi-farah [nama]",
+    "https://id.worldorgs.com/katalog/bekasi/klinik-gigi/klinik-gigi-farah [cabang[0].alamat]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
