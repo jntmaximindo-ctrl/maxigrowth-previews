@@ -1,0 +1,142 @@
+{
+  "id": "W1018",
+  "hero": {
+    "judul": {
+      "id": "Praktek drg. Okky S",
+      "en": "Praktek drg. Okky S"
+    },
+    "sub": {
+      "id": "Informasi alamat, jam dan kontak praktik dari sumber publik.",
+      "en": "Informasi alamat, jam dan kontak praktik dari sumber publik."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal",
+      "en": "Konfirmasi jadwal"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Lokasi praktik",
+        "en": "Lokasi praktik"
+      },
+      "ringkas": {
+        "id": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
+        "en": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120"
+      }
+    },
+    {
+      "nama": {
+        "id": "Kontak telepon",
+        "en": "Kontak telepon"
+      },
+      "ringkas": {
+        "id": "Nomor yang tercantum pada direktori: +62218500478",
+        "en": "Nomor yang tercantum pada direktori: +62218500478"
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Informasi jadwal"
+      },
+      "ringkas": {
+        "id": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori); konfirmasi perubahan sebelum datang",
+        "en": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori); konfirmasi perubahan sebelum datang"
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kebutuhan perawatan",
+        "en": "Konsultasi kebutuhan perawatan"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan gigi, Konsultasi tambal gigi, Konsultasi pencabutan, Penjadwalan perawatan malam; konfirmasi tindakan sesuai penilaian dokter",
+        "en": "Pemeriksaan gigi, Konsultasi tambal gigi, Konsultasi pencabutan, Penjadwalan perawatan malam; konfirmasi tindakan sesuai penilaian dokter"
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan jadwal praktik",
+      "en": "Panduan jadwal praktik"
+    },
+    "penjelasan": {
+      "id": "Menunjukkan sesi jam pelayanan yang disebut direktori dan menganjurkan konfirmasi.",
+      "en": "Menunjukkan sesi jam pelayanan yang disebut direktori dan menganjurkan konfirmasi."
+    },
+    "alasan_dipilih": "Jam praktik memiliki rentang khusus dan perlu dikonfirmasi sebelum kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Di mana alamat praktik?"
+      },
+      "a": {
+        "id": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120",
+        "en": "Jl. Utan Kayu Raya No.100C, RT.2/RW.9, Utan Kayu Utara, Matraman, Jakarta Timur 13120"
+      }
+    },
+    {
+      "q": {
+        "id": "Apa nomor teleponnya?",
+        "en": "Apa nomor teleponnya?"
+      },
+      "a": {
+        "id": "+62218500478",
+        "en": "+62218500478"
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam buka?",
+        "en": "Bagaimana jam buka?"
+      },
+      "a": {
+        "id": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori)",
+        "en": "Senin–Sabtu 17.30–21.30, Minggu tutup (direktori)"
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah nomor tersebut WhatsApp?",
+        "en": "Apakah nomor tersebut WhatsApp?"
+      },
+      "a": {
+        "id": "Status WhatsApp belum diverifikasi; nomor yang tersedia hanya telepon publik.",
+        "en": "Status WhatsApp belum diverifikasi; nomor yang tersedia hanya telepon publik."
+      }
+    },
+    {
+      "q": {
+        "id": "Jenis perawatan apa yang bisa ditanyakan?",
+        "en": "Jenis perawatan apa yang bisa ditanyakan?"
+      },
+      "a": {
+        "id": "Pemeriksaan gigi, Konsultasi tambal gigi, Konsultasi pencabutan, Penjadwalan perawatan malam.",
+        "en": "Pemeriksaan gigi, Konsultasi tambal gigi, Konsultasi pencabutan, Penjadwalan perawatan malam."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harga sudah tersedia?",
+        "en": "Apakah harga sudah tersedia?"
+      },
+      "a": {
+        "id": "Harga resmi belum ditemukan; mintalah estimasi sesuai tindakan.",
+        "en": "Harga resmi belum ditemukan; mintalah estimasi sesuai tindakan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi ke praktik",
+    "en": "Konfirmasi ke praktik"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan dan biaya.",
+  "outreach": {
+    "wa": "Yth. pengelola praktik, Maxi Growth Studio ingin menawarkan konsep website informasi pasien untuk ditinjau. Bolehkah kami mengirim pratinjau?",
+    "email_subjek": "Konsep website informasi praktik",
+    "email_isi": "Yth. Pengelola Praktik,\n\nKami ingin menawarkan konsep website informasi praktik untuk ditinjau.\n\nSalam,\nMaxi Growth Studio"
+  }
+}
