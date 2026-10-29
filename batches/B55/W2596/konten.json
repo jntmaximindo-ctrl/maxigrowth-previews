@@ -1,0 +1,142 @@
+{
+  "id": "W2596",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Sabdayana di Kudus",
+      "en": "drg. Sabdayana Dental Practice in Kudus"
+    },
+    "sub": {
+      "id": "Temukan lokasi di Kedungdowo dan informasi jadwal praktik sore. Mohon konfirmasi sebelum berkunjung.",
+      "en": "Find the practice in Kedungdowo and check its listed evening hours. Please confirm before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal praktik",
+      "en": "Ask About Practice Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Hubungi praktik untuk menanyakan pemeriksaan dan langkah konsultasi sesuai keluhan Anda.",
+        "en": "Contact the practice to ask about check-ups and consultation options for your concerns."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penambalan disebut dalam direktori. Tanyakan ketersediaan tindakan dan pemeriksaan awal.",
+        "en": "Fillings appear in a public directory. Please confirm availability and any initial assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Informasi pencabutan tercantum di direktori; keputusan tindakan memerlukan pemeriksaan dokter.",
+        "en": "Extraction is listed in a directory; the dentist will need to assess whether it is appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Gigi tiruan disebut pada direktori. Hubungi praktik untuk menanyakan pilihan dan jadwal.",
+        "en": "Dentures are mentioned in a directory. Contact the practice to ask about options and appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan kawat gigi",
+        "en": "Orthodontic Braces"
+      },
+      "ringkas": {
+        "id": "Layanan kawat gigi tercantum di direktori; pastikan ketersediaan dan tenaga yang menangani.",
+        "en": "Braces are listed in a directory; please confirm availability and the treating clinician."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Jadwal Sore",
+      "en": "Evening Hours Guide"
+    },
+    "penjelasan": {
+      "id": "Direktori mencantumkan jadwal Senin–Jumat sore. Pilih hari lalu konfirmasi jam sebelum datang, karena informasi antardirektori berbeda.",
+      "en": "Directories list weekday evening hours. Select a day, then confirm the hours before visiting because listings differ."
+    },
+    "alasan_dipilih": "Jadwal sore pada hari kerja disebut oleh tiga direktori, tetapi ada perbedaan jam dengan direktori lain."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Alamat yang tercantum adalah Area Sawah, Kedungdowo, Kecamatan Kaliwungu, Kabupaten Kudus, Jawa Tengah 59332.",
+        "en": "The listed address is Area Sawah, Kedungdowo, Kaliwungu District, Kudus Regency, Central Java 59332."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Beberapa direktori mencantumkan Senin–Jumat pukul 16.00–20.00, sementara direktori lain berbeda. Mohon konfirmasi jadwal sebelum datang.",
+        "en": "Several directories list Monday to Friday, 4–8 PM, while another lists different hours. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan biaya?",
+        "en": "How can I ask about fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Silakan hubungi praktik dan jelaskan jenis pemeriksaan atau perawatan yang dibutuhkan.",
+        "en": "An official fee list was not found. Please contact the practice and describe the check-up or treatment you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan tanyakan langsung kepada pihak praktik.",
+        "en": "Insurance participation has not been confirmed. Please ask the practice directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal, cabut, dan gigi tiruan?",
+        "en": "Are fillings, extractions and dentures available?"
+      },
+      "a": {
+        "id": "Layanan tersebut disebut dalam direktori umum, tetapi belum diverifikasi oleh praktik. Tanyakan ketersediaan dan kebutuhan pemeriksaan terlebih dahulu.",
+        "en": "These services appear in a general directory but have not been confirmed by the practice. Please ask about availability and any assessment needed."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi jadwal dan layanan sebelum berkunjung",
+    "en": "Confirm Hours and Services Before Visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik drg. Sabdayana di Kedungdowo, Kudus, serta ketersediaan konsultasi gigi. Apakah bisa dibantu informasinya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, Bapak/Ibu pengelola Praktik drg. Sabdayana. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi jadwal praktik sore di Kedungdowo, Kudus, pada beberapa direktori. Kami sudah menyiapkan konsep website agar informasi lokasi, jadwal, dan kontak lebih mudah ditemukan: https://maxigrowthstudio.com/drg-sabdayana. Jika berkenan, silakan dilihat. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktik drg. Sabdayana",
+    "email_isi": "Yth. Bapak/Ibu pengelola Praktik drg. Sabdayana,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Kedungdowo, Kudus, termasuk jadwal sore pada beberapa direktori. Ada perbedaan informasi kontak dan jam praktik di sumber publik.\n\nKami telah menyiapkan konsep website yang menata informasi lokasi, jadwal, dan cara menghubungi praktik agar mudah dibaca pasien. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-sabdayana. Proposal PDF kami lampirkan untuk bahan pertimbangan.\n\nTidak ada kewajiban untuk menindaklanjuti. Jika ingin memberi koreksi atas informasi praktik, kami akan menyesuaikannya.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
