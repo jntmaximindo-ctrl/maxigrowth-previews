@@ -1,0 +1,42 @@
+{
+  "id": "W2378",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Hengky & Nanny Ganda, Drg",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K. H. Dewantara No.98, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62267403015",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-11,16-20\", \"sel\": \"08-11,16-20\", \"rab\": \"08-11,16-20\", \"kam\": \"08-11,16-20\", \"jum\": \"08-11,16-20\", \"sab\": \"08-11,16-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529 [nama]",
+    "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
