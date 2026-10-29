@@ -113,5 +113,42 @@
     "https://www.cybo.com/ID-biz/praktek-drg-fitriyani-batavia-%7C-dokter_1L",
     "https://caribisnis.id/dokter-gigi/tangerang/tangerang/praktek-drg-fitriyani-batavia--tang-imp1",
     "https://wa.me/6282260530212"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Fitriyani Batavia",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/drgfitriyani",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Arcade, Jl. Raya Grand Batavia No.07 Blok E1, Sindangsari, Pasar Kemis, Kabupaten Tangerang, Banten 15560",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282260530212",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282260530212",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"09-21\"}",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Fitriyani",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "id": "W2372",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Fitriyani Batavia",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drgfitriyani",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/drgfitriyani",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drgfitriyani",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ruko Arcade, Jl. Raya Grand Batavia No.07 Blok E1, Sindangsari, Pasar Kemis, Kabupaten Tangerang, Banten 15560",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/tangerang/praktek-drg-fitriyani-batavia--tang-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282260530212",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://wa.me/6282260530212",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282260530212",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://wa.me/6282260530212",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"09-21\"}",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drgfitriyani",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Fitriyani",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/drgfitriyani",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/drgfitriyani [nama]",
+    "https://linktr.ee/drgfitriyani [instagram]",
+    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/praktek-drg-fitriyani-batavia--tang-imp1 [cabang[0].alamat]",
+    "https://wa.me/6282260530212 [cabang[0].telepon]",
+    "https://wa.me/6282260530212 [cabang[0].wa]",
+    "https://linktr.ee/drgfitriyani [cabang[0].jam]",
+    "https://linktr.ee/drgfitriyani [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

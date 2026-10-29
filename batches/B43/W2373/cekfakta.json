@@ -1,0 +1,50 @@
+{
+  "id": "W2373",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Dewi Medika",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Kyai H. Mushonif, Kp. Besar, Kec. Teluknaga, Kabupaten Tangerang, Banten 15510",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281318119099",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/bidan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281318119099",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/bidan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"00-24\", \"sel\": \"00-24\", \"rab\": \"00-24\", \"kam\": \"00-24\", \"jum\": \"00-24\", \"sab\": \"00-24\", \"min\": \"00-24\"}",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1 [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/bidan [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/bidan [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

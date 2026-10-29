@@ -88,5 +88,32 @@
     "https://caribisnis.id/dokter-gigi/tangerang/tangerang/klinik-dewi-medika-tang-imp1",
     "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/bidan",
     "https://bukutelepon.cybo.com/ID-kode-pos/15510_kota-tangerang/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Dewi Medika",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Kyai H. Mushonif, Kp. Besar, Kec. Teluknaga, Kabupaten Tangerang, Banten 15510",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281318119099",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281318119099",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"00-24\", \"sel\": \"00-24\", \"rab\": \"00-24\", \"kam\": \"00-24\", \"jum\": \"00-24\", \"sab\": \"00-24\", \"min\": \"00-24\"}",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }
