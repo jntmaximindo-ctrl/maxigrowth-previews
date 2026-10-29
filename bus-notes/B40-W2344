@@ -73,5 +73,17 @@ RISET LAMA:
   "sumber": [
     "https://caribisnis.id/dokter-gigi/bandung/antapani/klinik-drg-novi-anita-anta-imp1",
     "https://www.google.com/maps/search/?api=1&query=Klinik%20drg.%20Novi%20Anita%20Bandung"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik drg. Novi Anita",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Asoka D No.4, Antapani Wetan, Antapani, Kota Bandung, Jawa Barat 40291",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
   ]
 }

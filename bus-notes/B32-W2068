@@ -82,19 +82,9 @@ RISET LAMA:
   ],
   "verifikasi_manual": [
     {
-      "path": "nama",
-      "tercatat": "Klinik drg. Ernawati Ratih Dewanti",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Gg. Patukan 1, Patukan, Ambarketawang, Gamping, Sleman, Daerah Istimewa Yogyakarta 55294",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
-    },
-    {
       "path": "cabang[0].jam",
       "tercatat": "Senin–Sabtu 16.00–20.00 menurut direktori; konfirmasi sebelum datang.",
-      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
     }
   ]
 }
