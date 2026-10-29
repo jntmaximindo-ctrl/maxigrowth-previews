@@ -1,0 +1,132 @@
+{
+  "id": "W2349",
+  "hero": {
+    "judul": {
+      "id": "Klinik Samita Dental Care",
+      "en": "Klinik Samita Dental Care"
+    },
+    "sub": {
+      "id": "Siapkan informasi sebelum kunjungan.",
+      "en": "Prepare for your visit."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal",
+        "en": "Appointments"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dokter sebelum datang.",
+        "en": "Ask about dentist availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi",
+        "en": "Location"
+      },
+      "ringkas": {
+        "id": "Pilih lokasi dan konfirmasikan alamat.",
+        "en": "Choose a location and confirm its address."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan layanan yang tersedia.",
+        "en": "Describe your concerns and ask about available care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Biaya",
+        "en": "Costs"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya sebelum tindakan.",
+        "en": "Ask for a cost breakdown before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Persiapan kunjungan",
+      "en": "Visit preparation"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan jadwal, lokasi dan biaya sebelum menghubungi petugas.",
+      "en": "Prepare questions about appointments, location and costs before contacting the team."
+    },
+    "alasan_dipilih": "Informasi publik belum lengkap."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan buka?",
+        "en": "When is it open?"
+      },
+      "a": {
+        "id": "Jadwal belum dipastikan; tanyakan kepada petugas.",
+        "en": "Opening hours are unconfirmed; ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi Bojongsoang?",
+        "en": "Where is the Bojongsoang location?"
+      },
+      "a": {
+        "id": "File pencarian mencantumkan Ruko Akita 2 Blok O8, Jalan Cikoneng. Konfirmasikan sebelum berangkat.",
+        "en": "The research file lists Ruko Akita 2 Block O8, Jalan Cikoneng. Confirm before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi WhatsApp publik dan tanyakan slot kunjungan.",
+        "en": "Use the public WhatsApp contact to ask about appointment slots."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Tanyakan rincian biaya kepada petugas.",
+        "en": "Prices are unavailable. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum dipastikan; konfirmasikan sebelum kunjungan.",
+        "en": "This has not been confirmed; check before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi untuk informasi",
+    "en": "Contact for information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter di Bojongsoang dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Klinik Samita Dental Care. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami mengusulkan informasi kunjungan untuk lokasi Cikoneng. Siapkan konsep di https://maxigrowthstudio.com/samita sebelum draf digunakan. Kontak 082141004400.",
+    "email_subjek": "Konsep informasi lokasi Klinik Samita Dental Care",
+    "email_isi": "Draf: Yth. pengelola Klinik Samita Dental Care. Saya Muhammad Rizqi Tri Andika, Maxi Growth Studio. Kami mengusulkan informasi kunjungan untuk lokasi Cikoneng. Siapkan konsep di https://maxigrowthstudio.com/samita sebelum draf digunakan. Kontak 082141004400. Siapkan proposal PDF terlampir sebelum pengiriman."
+  }
+}

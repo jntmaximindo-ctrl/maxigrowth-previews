@@ -1,0 +1,132 @@
+{
+  "id": "W2383",
+  "hero": {
+    "judul": {
+      "id": "H&R Dental di Palumbonsari Karawang",
+      "en": "H&R Dental in Palumbonsari Karawang"
+    },
+    "sub": {
+      "id": "Informasi lokasi praktik di Perum Sari Indah Permai, Blok A No.01. Konfirmasi jam sebelum berkunjung.",
+      "en": "Find the practice at Perum Sari Indah Permai, Block A No.01. Confirm opening hours before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about opening hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan jenis perawatan yang tersedia.",
+        "en": "Ask about examination times and available treatments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan",
+        "en": "Treatment information"
+      },
+      "ringkas": {
+        "id": "Rincian tindakan belum dapat diverifikasi dari situs resmi; silakan tanyakan kepada pengelola.",
+        "en": "Specific treatments have not been verified from an official site; please ask the practice."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Opening hours information"
+      },
+      "ringkas": {
+        "id": "Jadwal pada direktori berbeda. Konfirmasi waktu praktik melalui nomor publik.",
+        "en": "Directories list conflicting hours. Confirm times using the public number."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost enquiries"
+      },
+      "ringkas": {
+        "id": "Daftar biaya belum tersedia secara publik. Tanyakan rincian sebelum kunjungan.",
+        "en": "Public prices are unavailable. Ask for a breakdown before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasi jam praktik",
+      "en": "Opening hours confirmation"
+    },
+    "penjelasan": {
+      "id": "Tampilkan alamat dan kanal WhatsApp dengan catatan jadwal perlu diperiksa ulang.",
+      "en": "Show the address and WhatsApp contact with a reminder to reconfirm hours."
+    },
+    "alasan_dipilih": "Dua direktori publik mencantumkan jam berbeda, sehingga konfirmasi jadwal menjadi prioritas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat H&R Dental?",
+        "en": "Where is H&R Dental?"
+      },
+      "a": {
+        "id": "Perum Sari Indah Permai, Blok A No.01, Palumbonsari, Karawang Timur.",
+        "en": "Perum Sari Indah Permai, Block A No.01, Palumbonsari, East Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa praktik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Sumber publik berbeda mengenai jam buka. Tanyakan jadwal terbaru sebelum datang.",
+        "en": "Public sources disagree about opening hours. Confirm the latest schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada WhatsApp?",
+        "en": "Is WhatsApp available?"
+      },
+      "a": {
+        "id": "Nomor seluler tercantum sebagai WhatsApp di direktori, tetapi penerimaan pesan belum diuji.",
+        "en": "A directory lists the mobile number as WhatsApp, but messaging has not been tested."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa saja layanan tersedia?",
+        "en": "Which treatments are offered?"
+      },
+      "a": {
+        "id": "Jenis tindakan belum dapat dipastikan dari sumber resmi yang ditemukan.",
+        "en": "The treatment list could not be confirmed from an official source."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya layanan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga belum tersedia secara publik. Minta rincian sesuai kebutuhan.",
+        "en": "Public prices are unavailable. Request a quote for your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi H&R Dental untuk informasi terbaru",
+    "en": "Contact H&R Dental for current information"
+  },
+  "pesan_wa_default": "Halo H&R Dental, saya ingin memastikan jam praktik dan jenis layanan yang tersedia di Palumbonsari. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola H&R Dental. Saya dari Maxi Growth Studio. Kami menemukan informasi praktik di Perum Sari Indah Permai, Palumbonsari, dan melihat jadwal yang berbeda di beberapa direktori. Kami menyiapkan konsep website untuk menampilkan alamat, kontak, serta jadwal yang dapat diperbarui. Konsep dapat dilihat di https://maxigrowthstudio.com/h-r-dental. Jika berkenan, kami terbuka menerima koreksi data dan masukan. Terima kasih.",
+    "email_subjek": "Konsep website H&R Dental Karawang",
+    "email_isi": "Yth. Pengelola H&R Dental,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik, H&R Dental berada di Perum Sari Indah Permai, Palumbonsari. Kami menyiapkan konsep website untuk menampilkan lokasi, kontak, dan jadwal praktik secara jelas, mengingat terdapat perbedaan jadwal pada beberapa direktori.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/h-r-dental. Proposal PDF kami lampirkan sebagai pengantar. Kami terbuka menerima koreksi data dan masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

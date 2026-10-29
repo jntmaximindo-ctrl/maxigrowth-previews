@@ -1,0 +1,132 @@
+{
+  "id": "W2390",
+  "hero": {
+    "judul": {
+      "id": "Cheerup Dental Clinic Karawang",
+      "en": "Cheerup Dental Clinic Karawang"
+    },
+    "sub": {
+      "id": "Informasi lokasi di Ruko Grand Plaza, Jl. Galuh Mas Raya, Telukjambe Timur.",
+      "en": "Find the clinic at Ruko Grand Plaza on Jl. Galuh Mas Raya, Telukjambe Timur."
+    },
+    "cta": {
+      "id": "Tanyakan informasi kunjungan",
+      "en": "Ask about visiting"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan ketersediaan tenaga medis sebelum datang.",
+        "en": "Ask about examination hours and clinician availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan gigi",
+        "en": "Dental treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Jenis tindakan belum terverifikasi. Tanyakan layanan yang sesuai dengan kebutuhan Anda.",
+        "en": "Specific treatments are unverified. Ask which services are available for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal",
+        "en": "Opening hours information"
+      },
+      "ringkas": {
+        "id": "Jam terbaru belum dapat dipastikan. Hubungi kontak publik sebelum berkunjung.",
+        "en": "Current hours are unverified. Use the public contact before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi biaya",
+        "en": "Cost information"
+      },
+      "ringkas": {
+        "id": "Daftar biaya belum tersedia secara publik. Tanyakan rincian sebelum membuat janji.",
+        "en": "Public prices are unavailable. Ask for details before scheduling."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Ruko Grand Plaza",
+      "en": "Grand Plaza directions"
+    },
+    "penjelasan": {
+      "id": "Alamat ruko dan informasi kontak ditampilkan bersama catatan konfirmasi jadwal.",
+      "en": "Show the shopfront address and contact details with a reminder to confirm opening hours."
+    },
+    "alasan_dipilih": "Alamat berada di kawasan ruko Galuh Mas dan belum ada situs resmi yang terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Cheerup Dental Clinic?",
+        "en": "Where is Cheerup Dental Clinic?"
+      },
+      "a": {
+        "id": "Ruko Grand Plaza, Jl. Galuh Mas Raya No.23, Sukaharja, Telukjambe Timur, Karawang.",
+        "en": "Ruko Grand Plaza, Jl. Galuh Mas Raya No.23, Sukaharja, Telukjambe Timur, Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Jam berapa klinik buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional belum terverifikasi dari sumber yang diperiksa.",
+        "en": "Opening hours have not been verified from the reviewed sources."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa saja layanan yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Rincian tindakan belum terverifikasi. Tanyakan kepada pengelola.",
+        "en": "Specific treatments are unverified. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada nomor seluler?",
+        "en": "Is there a mobile contact?"
+      },
+      "a": {
+        "id": "Nomor ponsel tercantum dalam data publik, tetapi penerimaan pesan belum diuji.",
+        "en": "A mobile number is publicly listed, but messaging has not been tested."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya belum tersedia secara publik. Minta estimasi sesuai kebutuhan.",
+        "en": "Public prices are unavailable. Request an estimate for your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi",
+    "en": "Contact the clinic to confirm details"
+  },
+  "pesan_wa_default": "Halo Cheerup Dental Clinic, saya ingin menanyakan jadwal dan jenis layanan di Ruko Grand Plaza Galuh Mas. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Cheerup Dental Clinic. Saya dari Maxi Growth Studio. Kami menemukan informasi klinik di Ruko Grand Plaza, Galuh Mas, dan menyiapkan konsep website untuk membantu pengunjung melihat alamat, kontak, dan informasi jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/cheerup. Jika berkenan, kami terbuka menerima koreksi data dan masukan. Terima kasih.",
+    "email_subjek": "Konsep website Cheerup Dental Clinic Karawang",
+    "email_isi": "Yth. Pengelola Cheerup Dental Clinic,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik, klinik berlokasi di Ruko Grand Plaza, kawasan Galuh Mas, Karawang. Kami menyiapkan konsep website informatif untuk menampilkan alamat, kontak, dan jadwal kunjungan secara jelas.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/cheerup. Proposal PDF kami lampirkan sebagai pengantar. Kami terbuka menerima koreksi data dan masukan sebelum konsep digunakan lebih lanjut.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

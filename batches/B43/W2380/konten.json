@@ -1,0 +1,132 @@
+{
+  "id": "W2380",
+  "hero": {
+    "judul": {
+      "id": "Grandis Dental Care Karawang Barat",
+      "en": "Grandis Dental Care in West Karawang"
+    },
+    "sub": {
+      "id": "Informasi lokasi di Nagasari, Karawang Barat. Konfirmasi jadwal dan jenis perawatan sebelum berkunjung.",
+      "en": "Find the Nagasari location in West Karawang. Please confirm hours and available treatments before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about availability"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination enquiries"
+      },
+      "ringkas": {
+        "id": "Hubungi cabang untuk menanyakan jadwal dan ketersediaan pemeriksaan.",
+        "en": "Contact the branch to ask about examination availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan gigi",
+        "en": "Teeth cleaning enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah pembersihan karang gigi tersedia di cabang ini.",
+        "en": "Ask whether scaling is offered at this branch."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi perawatan gigi",
+        "en": "Dental treatment enquiries"
+      },
+      "ringkas": {
+        "id": "Sampaikan kebutuhan Anda agar petugas dapat menjelaskan pilihan yang tersedia.",
+        "en": "Describe your needs so the team can explain available options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi kunjungan",
+        "en": "Visit information"
+      },
+      "ringkas": {
+        "id": "Pastikan alamat Jl. Ir. H. Juanda dan jam operasional sebelum datang.",
+        "en": "Confirm the Jl. Ir. H. Juanda address and current opening hours before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih lokasi Grandis",
+      "en": "Choose a Grandis location"
+    },
+    "penjelasan": {
+      "id": "Bandingkan alamat Karawang Barat dan Klari, lalu pilih kontak cabang yang ingin dituju.",
+      "en": "Compare the West Karawang and Klari addresses, then choose the appropriate branch contact."
+    },
+    "alasan_dipilih": "Daftar penyedia mencantumkan dua lokasi Grandis berbeda di Karawang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana cabang Karawang Barat?",
+        "en": "Where is the West Karawang branch?"
+      },
+      "a": {
+        "id": "Jl. Ir. H. Juanda, Nagasari, Karawang Barat, sesuai daftar penyedia.",
+        "en": "It is listed on Jl. Ir. H. Juanda, Nagasari, West Karawang."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu janji temu?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Silakan tanyakan ketersediaan jadwal melalui kontak publik sebelum datang.",
+        "en": "Please check appointment availability using the public contact number."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Daftar tindakan cabang ini belum terverifikasi. Silakan tanyakan kepada petugas.",
+        "en": "The branch's treatment list is unverified. Please ask the team."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Biaya cabang belum tersedia secara publik. Minta rincian sesuai kebutuhan.",
+        "en": "Public branch-specific prices are unavailable. Request a quote for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the clinic open on Sundays?"
+      },
+      "a": {
+        "id": "Jam hari Minggu belum terverifikasi. Konfirmasi dahulu sebelum berkunjung.",
+        "en": "Sunday hours are unverified. Please confirm before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi cabang untuk informasi jadwal dan layanan",
+    "en": "Contact the branch for hours and treatment information"
+  },
+  "pesan_wa_default": "Halo Grandis Dental Care Karawang Barat, saya ingin menanyakan jadwal dan jenis layanan yang tersedia di cabang Jl. Ir. H. Juanda. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat pagi, Bapak/Ibu pengelola Grandis Dental Care. Saya dari Maxi Growth Studio. Kami melihat Grandis tercantum dengan lokasi di Karawang Barat dan Klari. Kami sudah menyiapkan konsep website dengan pemilih lokasi agar pengunjung lebih mudah menemukan cabang. Konsep dapat dilihat di https://maxigrowthstudio.com/grandis. Jika berkenan, kami terbuka untuk menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website Grandis Dental Care Karawang",
+    "email_isi": "Yth. Tim Manajemen Grandis Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Informasi publik mencantumkan lokasi Grandis di Karawang Barat dan Klari. Kami menyiapkan konsep website yang membantu pengunjung membedakan alamat dan menemukan kontak cabang.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/grandis. Proposal PDF kami lampirkan sebagai pengantar. Jika berkenan, kami terbuka menerima masukan.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
