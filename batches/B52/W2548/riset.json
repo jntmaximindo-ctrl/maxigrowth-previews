@@ -79,5 +79,12 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/sukabumi/klinik-gigi-care-dw-sukabumi",
     "https://caribisnis.id/dokter-gigi/sukabumi/cikole/klinik-gigi-care-dw-ciko-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15.00-20.00\", \"sel\": \"15.00-20.00\", \"rab\": \"15.00-20.00\", \"kam\": \"15.00-20.00\", \"jum\": \"15.00-20.00\", \"sab\": \"15.00-20.00\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
     "https://www.waze.com/live-map/directions/id/jawa-barat/klinik-gigi-drg.-edi-suanto,-sp.kga?to=place.ChIJEe-fzRjdaC4Rj0yE9vg9SBc"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi drg. Edi Suanto, Sp.KGA",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. AH. Nasution No.321A, Cipadung Kulon, Ujung Berung, Bandung 40617",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285793751134",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285793751134",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16.30-19.00\", \"sel\": \"16.30-19.00\", \"rab\": \"16.30-19.00\", \"kam\": \"16.30-19.00\", \"jum\": \"16.30-19.00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

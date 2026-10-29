@@ -1,0 +1,42 @@
+{
+  "id": "W2546",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg lily Mustapa Sp.K.G",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gudang No.23, Kebonjati, Cikole, Kota Sukabumi 43113",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281293461648",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281293461648",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

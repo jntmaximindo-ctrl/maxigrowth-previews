@@ -72,5 +72,27 @@
     "https://bukutelepon.cybo.com/ID-biz/drg-lily-mustapa-sp-k-g_1r",
     "https://primayahospital.com/doctor/drg-lily-mustapa-sp-kg/",
     "https://www.semuabis.com/drg-lily-mustapa-sp-k-g"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg lily Mustapa Sp.K.G",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gudang No.23, Kebonjati, Cikole, Kota Sukabumi 43113",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281293461648",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281293461648",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

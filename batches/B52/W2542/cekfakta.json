@@ -1,0 +1,50 @@
+{
+  "id": "W2542",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Arniza Dental Care (Klinik Gigi)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/arnizadentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Yusuf Martadilaga Serang No.44B, Cipare, Serang, Banten 42117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282130492787",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282130492787",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070 [nama]",
+    "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070 [instagram]",
+    "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/arniza-dental-care-klinik-gigi-1063070 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "W2515",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Utama Dentalocus",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ayobandung.com/gaya-hidup/7911630612/kamu-mahasiswa-yang-cari-klinik-gigi-bandung-cek-daftar-ini?page=3",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentalocus/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentalocus-0811-2220-558",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Dr. Setiabudi No.192, Hegarmanah, Cidadap, Bandung 40153",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ayobandung.com/gaya-hidup/7911630612/kamu-mahasiswa-yang-cari-klinik-gigi-bandung-cek-daftar-ini?page=3",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628112220558",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentalocus-0811-2220-558",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628112220558",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/dentalocus-0811-2220-558",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ayobandung.com/gaya-hidup/7911630612/kamu-mahasiswa-yang-cari-klinik-gigi-bandung-cek-daftar-ini?page=3 [nama]",
+    "https://www.semuabis.com/dentalocus-0811-2220-558 [instagram]",
+    "https://www.ayobandung.com/gaya-hidup/7911630612/kamu-mahasiswa-yang-cari-klinik-gigi-bandung-cek-daftar-ini?page=3 [cabang[0].alamat]",
+    "https://www.semuabis.com/dentalocus-0811-2220-558 [cabang[0].telepon]",
+    "https://www.semuabis.com/dentalocus-0811-2220-558 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

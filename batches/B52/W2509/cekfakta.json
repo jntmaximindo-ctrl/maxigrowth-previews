@@ -1,0 +1,50 @@
+{
+  "id": "W2509",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi drg. Edi Suanto, Sp.KGA",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. AH. Nasution No.321A, Cipadung Kulon, Ujung Berung, Bandung 40617",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285793751134",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285793751134",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16.30-19.00\", \"sel\": \"16.30-19.00\", \"rab\": \"16.30-19.00\", \"kam\": \"16.30-19.00\", \"jum\": \"16.30-19.00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134 [nama]",
+    "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134 [cabang[0].alamat]",
+    "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134 [cabang[0].telepon]",
+    "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134 [cabang[0].wa]",
+    "https://www.semuabis.com/klinik-gigi-drg-edi-suanto-sp-kga-0857-9375-1134 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

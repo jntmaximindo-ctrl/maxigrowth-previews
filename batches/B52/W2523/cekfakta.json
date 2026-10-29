@@ -1,0 +1,50 @@
+{
+  "id": "W2523",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Miko Dental (drg. Miko; drg. Arsa)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/mikodental.id/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Bumi Lestari Blok B-1, Sambongjaya, Mangkubumi, Tasikmalaya",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281323663366",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281323663366",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2 [nama]",
+    "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2 [instagram]",
+    "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2 [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2 [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

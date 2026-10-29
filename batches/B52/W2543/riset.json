@@ -79,5 +79,32 @@
   "sumber": [
     "https://www.semuabis.com/adi-hamzah-dental-0877-5056-5963",
     "https://www.dentalclinics.care/dental-clinics/serang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Adi Hamzah Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jln A Yani, lingkungan Cipete, RT.01/RW.04, Sumurpecung, Serang, Banten 42117",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287750565963",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287750565963",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08.00-22.00\", \"sel\": \"08.00-22.00\", \"rab\": \"08.00-22.00\", \"kam\": \"08.00-22.00\", \"jum\": \"08.00-22.00\", \"sab\": \"08.00-22.00\", \"min\": \"08.00-22.00\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

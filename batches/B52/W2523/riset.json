@@ -78,5 +78,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID/kota-tasikmalaya/dokter-gigi?p=2",
     "https://idalamat.com/alamat/1060838/miko-dental-drg-miko-drg-arsa-tasikmalaya-jawa-barat"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Miko Dental (drg. Miko; drg. Arsa)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/mikodental.id/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Bumi Lestari Blok B-1, Sambongjaya, Mangkubumi, Tasikmalaya",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281323663366",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281323663366",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
