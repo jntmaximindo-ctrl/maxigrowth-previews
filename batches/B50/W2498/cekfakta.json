@@ -1,0 +1,18 @@
+{
+  "id": "W2498",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": \"09-20\", \"min\": \"tutup\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/batam/house-of-dental-care-batam",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://indonesiaknowledge.com/directory/dental/batam/house-of-dental-care-batam [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "W2496",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-21\", \"sel\": \"10-21\", \"rab\": \"10-21\", \"kam\": \"10-21\", \"jum\": \"10-21\", \"sab\": \"10-21\", \"min\": \"10-18\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://indonesiaknowledge.com/directory/dental/batam/aivory-aesthetic-dental-care-batam",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/aivorydentalcare [nama]",
+    "https://linktr.ee/aivorydentalcare [instagram]",
+    "https://linktr.ee/aivorydentalcare [cabang[0].alamat]",
+    "https://linktr.ee/aivorydentalcare [cabang[0].telepon]",
+    "https://linktr.ee/aivorydentalcare [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}
