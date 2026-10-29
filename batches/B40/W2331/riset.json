@@ -79,5 +79,27 @@
   "sumber": [
     "https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali",
     "https://alamatsehat.com/dokter-gigi-terbaik-dan-murah-di-ambon/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Murphy Kaihatu",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62911341444",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"18-21\", \"sab\": \"18-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

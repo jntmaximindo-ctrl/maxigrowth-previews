@@ -1,0 +1,42 @@
+{
+  "id": "W2521",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi SDC Premiere Tasikmalaya",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-sdc-premiere-tasikmalaya-0265-5409661",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. KHZ. Mustofa No.325B, Kahuripan, Tawang, Kota Tasikmalaya 46115",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/klinik-gigi-sdc-premiere-tasikmalaya-0265-5409661",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285161367967",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-tasikmalaya/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285161367967",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-tasikmalaya/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/klinik-gigi-sdc-premiere-tasikmalaya-0265-5409661 [nama]",
+    "https://www.semuabis.com/klinik-gigi-sdc-premiere-tasikmalaya-0265-5409661 [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-tasikmalaya/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-tasikmalaya/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
