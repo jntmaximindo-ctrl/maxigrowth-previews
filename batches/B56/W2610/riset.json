@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-dokter-gigi-drg-fazlur-r-1062574",
     "https://wa.me/message/7R4OFEYQ5CGRO1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Fazlur R.",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ds. Akkor Larangan Badung, samping Kedai Makan Anisa, Dusun Kereng, Larangan Badung, Kecamatan Palengaan, Kabupaten Pamekasan, Jawa Timur 69362",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "085932245690",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285932245690",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

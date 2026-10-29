@@ -1,0 +1,42 @@
+{
+  "id": "W2614",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Ecky Dental Center",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ecky-dental-center-1062592",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Adirasa, Kothe, Kolor, Kecamatan Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69417",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ecky-dental-center-1062592",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "08170616161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ecky-dental-center-1062592",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628170616161",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/ecky-dental-center-1062592",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/ecky-dental-center-1062592 [nama]",
+    "https://idalamat.com/alamat/ecky-dental-center-1062592 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/ecky-dental-center-1062592 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/ecky-dental-center-1062592 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

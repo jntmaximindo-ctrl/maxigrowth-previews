@@ -93,5 +93,32 @@
     "https://idalamat.com/alamat/drg-indra-purnomo-1062566",
     "https://aibiz.id/praktik-dokter-gigi-indra-purnomo",
     "https://drg-indra-purnomo.business.site"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Indra Purnomo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Veteran No.30, Rw.04, Barurambat Kota, Kecamatan Pamekasan, Kabupaten Pamekasan, Jawa Timur 69313",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "085536777089",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285536777089",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Indra Purnomo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

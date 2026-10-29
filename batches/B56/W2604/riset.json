@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/praktik-dokter-gigi-emi-hidayati-1062444",
     "https://www.waze.com/live-map/directions/id/jawa-timur/praktik-dokter-gigi-emi-hidayati?to=place.ChIJ_20ay033dy4R2i2PxgbwWdw"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Emi Hidayati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sunan Drajat No.111, Kauman, Sidoharjo, Kecamatan Lamongan, Kabupaten Lamongan, Jawa Timur 62217",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "085231651799",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285231651799",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

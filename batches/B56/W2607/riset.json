@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/dokter-gigi-yoke-l-santoso-1062272",
     "https://poltekkes.web.id/dokter-gigi-nganjuk/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Yoke L. Santoso",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ahmad Yani No.400, Ploso, Kecamatan Nganjuk, Kabupaten Nganjuk, Jawa Timur 64417",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "081249344699",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281249344699",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

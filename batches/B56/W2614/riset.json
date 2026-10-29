@@ -71,5 +71,27 @@
     "https://idalamat.com/alamat/ecky-dental-center-1062592",
     "https://bukutelepon.cybo.com/ID/kabupaten-sumenep/dokter-gigi",
     "https://paudelfath.sch.id/paud-h-i-el-fath-gelar-pemeriksaan-kesehatan-anak-bersama-ecky-dental-center-dan-puskesmas-pamolokan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Ecky Dental Center",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Adirasa, Kothe, Kolor, Kecamatan Kota Sumenep, Kabupaten Sumenep, Jawa Timur 69417",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "08170616161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628170616161",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

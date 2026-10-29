@@ -71,5 +71,27 @@
     "https://idalamat.com/alamat/dokter-gigi-pamekasan-erlita-dental-care-1062562",
     "https://poltekkes.web.id/dokter-gigi-pamekasan/",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-aug-2025.pdf?app=true"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Erlita Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Desa Buddagan No.16, Lombang, Buddagan, Kecamatan Pademawu, Kabupaten Pamekasan, Jawa Timur 69323",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "081235951919",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281235951919",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
