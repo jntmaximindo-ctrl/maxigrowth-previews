@@ -1,0 +1,50 @@
+{
+  "id": "W2479",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Priority Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. MT Haryono, Damai, Balikpapan Kota, Balikpapan, Kalimantan Timur 76115",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628115991910",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628115991910",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-21\", \"sel\": \"08-21\", \"rab\": \"08-21\", \"kam\": \"08-21\", \"jum\": \"08-21\", \"sab\": \"08-21\", \"min\": \"10-13\"}",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan [nama]",
+    "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan [cabang[0].alamat]",
+    "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan [cabang[0].telepon]",
+    "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan [cabang[0].wa]",
+    "https://www.google.com/maps/search/?api=1&query=Priority+Dental+Care+Balikpapan [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

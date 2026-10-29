@@ -1,0 +1,50 @@
+{
+  "id": "W2489",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Safir Dental Clinic",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/safir-dental-clinic-gamp-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gamping - Bantulan, Kramat, Sidoarum, Kec. Godean, Kabupaten Sleman, DI Yogyakarta 55264",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281934702005",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281934702005",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/safir-dental-clinic-gamp-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/safir-dental-clinic-gamp-imp1 [nama]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s [cabang[0].alamat]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s [cabang[0].telepon]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/safir-dental-clinic-gamp-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

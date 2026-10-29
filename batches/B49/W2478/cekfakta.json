@@ -1,0 +1,19 @@
+{
+  "id": "W2478",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jenderal Sudirman No. 8 RT 06, Damai, Balikpapan Kota, Balikpapan, Kalimantan Timur 76114",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.kitalulus.com/company/pepi-dental-care-wgwi",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-balikpapan/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-balikpapan/ [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

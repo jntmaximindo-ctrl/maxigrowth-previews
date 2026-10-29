@@ -87,5 +87,32 @@
     "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/safir-dental-clinic-gamp-imp1",
     "https://www.google.com/maps/place/?q=place_id:ChIJJecPWAD3ei4RuzWzqzdfk8s",
     "https://id.linkedin.com/in/hafid-taftazani-932ba5389"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Safir Dental Clinic",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gamping - Bantulan, Kramat, Sidoarum, Kec. Godean, Kabupaten Sleman, DI Yogyakarta 55264",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281934702005",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281934702005",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
   ]
 }

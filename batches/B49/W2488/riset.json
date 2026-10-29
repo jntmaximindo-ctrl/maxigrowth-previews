@@ -87,5 +87,32 @@
     "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/nyaman-dental-gamp-imp1",
     "https://www.google.com/maps/place/?q=place_id:ChIJJdaR0m75ei4RZ3x2o9wSi5c",
     "https://wa.link/wfs81j"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Nyaman Dental",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Brawijaya No.121 A, Gamping Kidul, Ambarketawang, Kec. Gamping, Yogyakarta, DI Yogyakarta 55294",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289678180840",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289678180840",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"tutup\", \"sel\": \"tutup\", \"rab\": \"tutup\", \"kam\": \"tutup\", \"jum\": \"tutup\", \"sab\": \"10-13\", \"min\": \"16-20\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "id": "W2481",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62811548961",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/356891558/Faskes-Untuk-Peserta-Bpjs-Per-Kc-fix",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811548961",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://id.scribd.com/document/356891558/Faskes-Untuk-Peserta-Bpjs-Per-Kc-fix",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"08-12\", \"sel\": \"08-12\", \"rab\": \"08-12\", \"kam\": \"08-12\", \"jum\": \"08-10:30\", \"sab\": \"08-11:30\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://siyankes.balikpapan.go.id/fasilitas-kesehatan/1705",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -103,5 +103,32 @@
     "https://rentechdigital.com/smartscraper/business-report-details/indonesia/east-kalimantan/list-of-dentists-in-balikpapan",
     "https://lokari.id/dokter-gigi-tejo-utomo-s-balikpapan_rnRgNM3e2X",
     "https://www.google.com/maps/search/?api=1&query=Drg+Tejo+Utomo+Balikpapan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Tejo Utomo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pandan Sari No. RT 16 No. 24, Marga Sari, Balikpapan Barat, Balikpapan, Kalimantan Timur 76131",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62811598375",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62811598375",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Tejo Utomo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

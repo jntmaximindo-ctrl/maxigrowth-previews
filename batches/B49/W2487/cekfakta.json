@@ -1,0 +1,33 @@
+{
+  "id": "W2487",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "hi@katadental.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBBDentalProviderListSep.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288222528288",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://aibiz.id/en/clinics/kata-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288222528288",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://aibiz.id/en/clinics/kata-dental-care",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-gigi-kata-dental-care-d-gamp-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-gigi-kata-dental-care-d-gamp-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -88,5 +88,22 @@
     "https://www.google.com/maps/place/?q=place_id:ChIJD6s6rGT5ei4Rl8gYaazsZdA",
     "https://aibiz.id/en/clinics/kata-dental-care",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBBDentalProviderListSep.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email",
+      "tercatat": "hi@katadental.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288222528288",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288222528288",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

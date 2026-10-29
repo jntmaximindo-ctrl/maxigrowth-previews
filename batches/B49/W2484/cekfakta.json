@@ -1,0 +1,58 @@
+{
+  "id": "W2484",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Care 86 Yogyakarta",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/dentalcare86yk/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Berjo Kulon, Sidoluhur, Kec. Godean, Kabupaten Sleman, DI Yogyakarta 55264",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285866514386",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJ83mDCFb3ei4RrQ-kY_ryxak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285866514386",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJ83mDCFb3ei4RrQ-kY_ryxak",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-20\", \"sel\": \"10-20\", \"rab\": \"10-20\", \"kam\": \"10-20\", \"jum\": \"10-20\", \"sab\": \"10-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 502); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1 [instagram]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1 [cabang[0].alamat]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJ83mDCFb3ei4RrQ-kY_ryxak [cabang[0].telepon]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJ83mDCFb3ei4RrQ-kY_ryxak [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/dental-care-86-yogyakarta-slem-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
