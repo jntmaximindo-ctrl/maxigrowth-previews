@@ -1,0 +1,132 @@
+{
+  "id": "W2562",
+  "hero": {
+    "judul": {
+      "id": "HS Dental Care Bojonegoro",
+      "en": "HS Dental Care Bojonegoro"
+    },
+    "sub": {
+      "id": "Temukan informasi lokasi praktik drg. Hedylia Sydharta dan cara menanyakan jadwal kunjungan.",
+      "en": "Find drg. Hedylia Sydharta's practice location and how to ask about visiting hours."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Pemeriksaan",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Hubungi praktik untuk menanyakan pemeriksaan awal sesuai keluhan.",
+        "en": "Contact the practice to ask about an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Concerns Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan jenis pemeriksaan yang diperlukan.",
+        "en": "Describe your concern and ask about suitable assessments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Pilihan Perawatan",
+        "en": "Treatment Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan tindakan yang tersedia sebelum menjadwalkan kunjungan.",
+        "en": "Ask which treatments are available before scheduling."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Pendaftaran",
+        "en": "Registration Information"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jam praktik, prosedur pendaftaran, dan biaya melalui kontak publik.",
+        "en": "Confirm hours, registration procedures, and fees using the public contact."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Persiapan Pemeriksaan",
+      "en": "Examination Preparation Guide"
+    },
+    "penjelasan": {
+      "id": "Daftar pertanyaan singkat untuk membantu pasien menyiapkan keluhan, menanyakan jadwal, dan memahami prosedur pendaftaran.",
+      "en": "A short question guide to help patients describe concerns, ask about hours, and understand registration."
+    },
+    "alasan_dipilih": "Informasi layanan dan jam resmi terbatas; fitur membantu pasien bertanya tanpa mengklaim tindakan tersedia."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Jl. Setya Budi No.92, Klangon, Bojonegoro.",
+        "en": "At Jl. Setya Budi No.92, Klangon, Bojonegoro."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi praktik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor publik yang tercantum di Cybo adalah 0851-1702-6161.",
+        "en": "Cybo lists the public number 0851-1702-6161."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jam terkini belum dapat dipastikan. Hubungi praktik sebelum datang.",
+        "en": "Current hours could not be confirmed. Please contact the practice before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan tertentu?",
+        "en": "Are specific treatments available?"
+      },
+      "a": {
+        "id": "Daftar layanan resmi belum ditemukan. Tanyakan tindakan sesuai kebutuhan Anda.",
+        "en": "No official service list was found. Ask about care for your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "What does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia pada sumber yang diperiksa. Tanyakan estimasi biaya kepada praktik.",
+        "en": "No official fee was found in the sources reviewed. Ask the practice for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Praktik untuk Informasi",
+    "en": "Contact the Practice for Information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan prosedur pendaftaran pemeriksaan gigi di HS Dental Care Bojonegoro. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola HS Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik drg. Hedylia Sydharta di Jl. Setya Budi, Bojonegoro. Kami menyiapkan konsep website untuk memudahkan pasien menemukan lokasi, informasi jadwal, dan kontak: https://maxigrowthstudio.com/hs-drg. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk HS Dental Care",
+    "email_isi": "Yth. Bapak/Ibu pengelola HS Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan lokasi praktik, informasi pemeriksaan, dan jalur kontak.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/hs-drg. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka terhadap koreksi data agar sesuai dengan praktik saat ini.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

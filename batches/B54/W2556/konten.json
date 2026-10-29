@@ -1,0 +1,132 @@
+{
+  "id": "W2556",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kunjungan Eskadentalcare Bangkalan",
+      "en": "Visit Information for Eskadentalcare Bangkalan"
+    },
+    "sub": {
+      "id": "Kenali lokasi praktik, informasi dokter, dan cara menanyakan jadwal pemeriksaan gigi.",
+      "en": "Find the practice location, dentist information, and how to ask about appointment times."
+    },
+    "cta": {
+      "id": "Tanya Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk menanyakan pemeriksaan awal sesuai keluhan.",
+        "en": "Contact the clinic to ask about an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan pemeriksaan yang tersedia.",
+        "en": "Describe your concern and ask about available assessments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Perawatan Gigi Anak",
+        "en": "Children's Dental Care Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan kunjungan anak dan persiapan sebelum datang.",
+        "en": "Ask whether children's visits are available and how to prepare."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal Dokter",
+        "en": "Dentist Schedule Information"
+      },
+      "ringkas": {
+        "id": "Pastikan jadwal dokter dan cara pendaftaran melalui kontak klinik.",
+        "en": "Confirm dentist schedules and registration through the clinic."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Keluarga",
+      "en": "Family Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pertanyaan praktis untuk menyiapkan pemeriksaan gigi anak dan dewasa, termasuk jadwal, pendaftaran, dan biaya.",
+      "en": "Practical questions for preparing children's and adults' dental visits, including schedules, registration, and fees."
+    },
+    "alasan_dipilih": "Artikel menyebut praktik drg. Soniya dan drg. Anam serta kunjungan anak; rincian layanan perlu dikonfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Eskadentalcare?",
+        "en": "Where is Eskadentalcare?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Jl. Sidingkap No.36a, Kemayoran, Bangkalan.",
+        "en": "Directories list Jl. Sidingkap No.36a, Kemayoran, Bangkalan."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang disebut pada artikel?",
+        "en": "Which dentists are mentioned in the article?"
+      },
+      "a": {
+        "id": "Artikel IDN Times menyebut drg. Soniya dan drg. Anam. Jadwal terkini perlu dikonfirmasi.",
+        "en": "An IDN Times article mentions drg. Soniya and drg. Anam. Please confirm current schedules."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima pasien anak?",
+        "en": "Are children's visits available?"
+      },
+      "a": {
+        "id": "Artikel menyebut perawatan gigi anak, tetapi ketersediaan terkini perlu ditanyakan.",
+        "en": "An article mentions children's dental care, but current availability should be confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menanyakan biaya?",
+        "en": "How can I ask about fees?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Hubungi klinik untuk rincian biaya.",
+        "en": "No official fee list was found. Contact the clinic for pricing details."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara mendaftar?",
+        "en": "How do I register?"
+      },
+      "a": {
+        "id": "Tanyakan prosedur pendaftaran dan jadwal melalui nomor kontak yang tercantum pada artikel.",
+        "en": "Ask about registration and appointments using the contact number listed in the article."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Kunjungan",
+    "en": "Contact the Clinic for Visit Information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter dan cara pendaftaran pemeriksaan gigi di Eskadentalcare Bangkalan. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Eskadentalcare. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik drg. Soniya dan drg. Anam di kawasan Sidingkap, Bangkalan. Kami menyiapkan konsep website untuk membantu pasien mencari lokasi, informasi dokter, dan cara menghubungi klinik: https://maxigrowthstudio.com/eskadentalcare-drg. Jika berkenan, silakan dilihat saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Eskadentalcare",
+    "email_isi": "Yth. Bapak/Ibu pengelola Eskadentalcare,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memuat informasi lokasi, dokter, dan jalur komunikasi bagi pasien yang ingin menanyakan jadwal pemeriksaan.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/eskadentalcare-drg. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka apabila ada informasi yang perlu diperbarui.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

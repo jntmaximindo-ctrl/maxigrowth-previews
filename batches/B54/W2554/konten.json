@@ -1,0 +1,132 @@
+{
+  "id": "W2554",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi dan Mulut di Bangkalan",
+      "en": "Dental and Oral Care in Bangkalan"
+    },
+    "sub": {
+      "id": "Kenali lokasi praktik drg. Wiwi, lihat informasi kunjungan, dan hubungi klinik untuk memastikan jadwal serta layanan.",
+      "en": "Find drg. Wiwi's practice, review visit information, and contact the clinic to confirm hours and services."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About Visiting Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi dan Mulut",
+        "en": "Dental and Oral Examination"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk menanyakan pemeriksaan yang sesuai dengan kebutuhan Anda.",
+        "en": "Contact the clinic to ask about an examination suitable for your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Concerns Consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan saat menghubungi klinik agar mendapatkan informasi langkah berikutnya.",
+        "en": "Describe your concern when contacting the clinic to learn about next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Pilihan Perawatan",
+        "en": "Treatment Information"
+      },
+      "ringkas": {
+        "id": "Jenis tindakan yang tersedia dan kebutuhan pemeriksaan dapat dikonfirmasi kepada pihak klinik.",
+        "en": "The clinic can confirm which treatments are available and whether an examination is needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal dan Kunjungan",
+        "en": "Appointments and Visiting Information"
+      },
+      "ringkas": {
+        "id": "Periksa sesi pagi atau sore dan pastikan jadwal sebelum berangkat.",
+        "en": "Review morning or afternoon sessions and confirm the schedule before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sesi Kunjungan",
+      "en": "Visit Session Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat perkiraan sesi pagi dan sore dari direktori, lalu tanyakan ketersediaan jadwal terkini melalui nomor klinik.",
+      "en": "Review morning and afternoon sessions listed in directories, then confirm current availability with the clinic."
+    },
+    "alasan_dipilih": "Direktori menunjukkan sesi pagi dan sore, tetapi jam berbeda antarsumber sehingga fitur perlu menyertakan pengingat konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik drg. Wiwi?",
+        "en": "Where is drg. Wiwi's practice?"
+      },
+      "a": {
+        "id": "Di Jl. KH Abd. Muin No.42, Lebak, Pejagan, Bangkalan.",
+        "en": "At Jl. KH Abd. Muin No.42, Lebak, Pejagan, Bangkalan."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah praktik buka hari Minggu?",
+        "en": "Is the practice open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan sesi Minggu, tetapi jadwal dapat berubah. Silakan konfirmasi terlebih dahulu.",
+        "en": "Directory listings show Sunday sessions, but hours may change. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan biaya?",
+        "en": "How can I ask about fees?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Hubungi klinik untuk menanyakan biaya sesuai kebutuhan pemeriksaan.",
+        "en": "An official fee list was not found. Contact the clinic for fees related to your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi atau BPJS?",
+        "en": "Does the clinic accept insurance or BPJS?"
+      },
+      "a": {
+        "id": "Informasi asuransi dan BPJS belum terkonfirmasi. Tanyakan langsung kepada pihak klinik.",
+        "en": "Insurance and BPJS acceptance have not been confirmed. Please ask the clinic directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book a visit?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik 0812-3488-6679 untuk menanyakan prosedur pendaftaran dan jadwal.",
+        "en": "Contact the public number 0812-3488-6679 to ask about registration and scheduling."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Kunjungan",
+    "en": "Contact the Clinic for Visit Information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan cara pendaftaran di Klinik Gigi & Mulut drg. Wiwi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Klinik Gigi & Mulut drg. Wiwi. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Jl. KH Abd. Muin, Bangkalan, dengan sesi kunjungan pagi dan sore. Kami telah menyiapkan konsep website agar informasi lokasi, jadwal, dan kontak mudah ditemukan: https://maxigrowthstudio.com/mulut-drg. Jika berkenan, silakan melihatnya saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi & Mulut drg. Wiwi",
+    "email_isi": "Yth. Bapak/Ibu pengelola Klinik Gigi & Mulut drg. Wiwi,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan informasi lokasi, jadwal kunjungan, dan kontak praktik di Bangkalan.\n\nKonsep dapat dilihat melalui https://maxigrowthstudio.com/mulut-drg. Kami juga melampirkan proposal PDF sebagai bahan pertimbangan.\n\nJika berkenan, kami terbuka untuk menerima masukan mengenai informasi yang perlu ditampilkan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

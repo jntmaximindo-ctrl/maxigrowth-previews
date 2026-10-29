@@ -1,0 +1,132 @@
+{
+  "id": "W2561",
+  "hero": {
+    "judul": {
+      "id": "Javas Dental Care Bojonegoro",
+      "en": "Javas Dental Care Bojonegoro"
+    },
+    "sub": {
+      "id": "Informasi pemeriksaan, perawatan gigi, dan kontak reservasi di Ruko Adipura.",
+      "en": "Dental examination, care information, and booking contact at Ruko Adipura."
+    },
+    "cta": {
+      "id": "Tanya Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Konsultasikan keluhan untuk menanyakan pemeriksaan awal.",
+        "en": "Discuss your concern to ask about an initial examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan sesuai kondisi gigi.",
+        "en": "Ask about filling options for your tooth condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jadwal scaling dan biaya sebelum berkunjung.",
+        "en": "Confirm scaling appointments and fees before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi dan pilihan perawatan.",
+        "en": "Ask about consultation times and treatment options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Reservasi dan Asuransi",
+      "en": "Booking and Insurance Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan mengenai jadwal, biaya, dan status kepesertaan asuransi sebelum menghubungi klinik.",
+      "en": "Prepare questions about appointments, fees, and insurance participation before contacting the clinic."
+    },
+    "alasan_dipilih": "Klinik tercantum pada daftar provider asuransi, tetapi kontak dan status kerja sama perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Javas Dental Care?",
+        "en": "Where is Javas Dental Care?"
+      },
+      "a": {
+        "id": "Di Ruko Adipura Blok A No.10, Jl. Untung Suropati, Sumbang, Bojonegoro.",
+        "en": "At Ruko Adipura Block A No.10, Jl. Untung Suropati, Sumbang, Bojonegoro."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor reservasi publik yang tercantum adalah 0822-6483-4660.",
+        "en": "The listed public booking number is 0822-6483-4660."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jam berbeda antardirektori. Silakan konfirmasi sebelum datang.",
+        "en": "Hours differ across directories. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Klinik tercantum pada daftar provider AdMedika/Chubb sebelumnya. Status kerja sama saat ini perlu dikonfirmasi.",
+        "en": "The clinic appeared on earlier AdMedika/Chubb provider lists. Please confirm current participation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Tanyakan estimasi biaya sesuai kebutuhan.",
+        "en": "No official fee list was found. Ask for an estimate based on your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik, biaya, dan cara pendaftaran di Javas Dental Care Bojonegoro. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Javas Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik Javas Dental Care di Ruko Adipura, Bojonegoro, serta jalur reservasi yang tercantum pada direktori. Kami menyiapkan konsep website untuk memudahkan pasien menemukan lokasi, jadwal, dan informasi layanan: https://maxigrowthstudio.com/javas. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Javas Dental Care",
+    "email_isi": "Yth. Bapak/Ibu pengelola Javas Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien menemukan lokasi klinik, informasi perawatan, dan kontak reservasi.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/javas. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka terhadap koreksi informasi agar sesuai dengan layanan klinik.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

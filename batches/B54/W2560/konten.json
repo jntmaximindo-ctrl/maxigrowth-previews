@@ -1,0 +1,132 @@
+{
+  "id": "W2560",
+  "hero": {
+    "judul": {
+      "id": "Greys Dental Bojonegoro",
+      "en": "Greys Dental Bojonegoro"
+    },
+    "sub": {
+      "id": "Informasi perawatan gigi dan panduan mengonfirmasi lokasi serta jadwal sebelum berkunjung.",
+      "en": "Dental care information and guidance for confirming the location and hours before visiting."
+    },
+    "cta": {
+      "id": "Tanya Lokasi dan Jadwal",
+      "en": "Confirm Location and Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal sesuai keluhan Anda.",
+        "en": "Ask about an initial examination for your concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan scaling dan jadwal konsultasi.",
+        "en": "Confirm scaling availability and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan penambalan setelah pemeriksaan gigi.",
+        "en": "Ask about filling options after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan konsultasi awal dan jadwal dokter yang tersedia.",
+        "en": "Ask about initial consultations and available dentist schedules."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Lokasi dan Reservasi",
+      "en": "Location and Booking Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat alamat yang tercantum di direktori dan hubungi admin untuk memastikan lokasi praktik terkini sebelum berangkat.",
+      "en": "Review the directory-listed address and contact the clinic to confirm its current location before traveling."
+    },
+    "alasan_dipilih": "Alamat Greys Dental berbeda antardirektori sehingga konfirmasi lokasi penting."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Greys Dental?",
+        "en": "Where is Greys Dental?"
+      },
+      "a": {
+        "id": "Direktori terbaru mencantumkan Astuti Indah Residence, Jl. KH. Mansyur, Bojonegoro. Sumber lain mencantumkan Gang Balong; mohon konfirmasi lokasi.",
+        "en": "Recent directories list Astuti Indah Residence, Jl. KH. Mansyur, Bojonegoro. Others list Gang Balong; please confirm the address."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik yang tercantum adalah 0852-2222-6277.",
+        "en": "The listed public number is 0852-2222-6277."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the practice hours?"
+      },
+      "a": {
+        "id": "Jam berbeda antardirektori. Hubungi klinik untuk memastikan jadwal terkini.",
+        "en": "Hours differ across directories. Contact the clinic to confirm current times."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan scaling. Konfirmasi ketersediaan sebelum datang.",
+        "en": "Directories mention scaling. Please confirm availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Tanyakan estimasi sesuai kebutuhan.",
+        "en": "No official fee list was found. Ask for an estimate based on your needs."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Greys Dental",
+    "en": "Contact Greys Dental"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan alamat praktik terbaru, jadwal, dan cara pendaftaran di Greys Dental Bojonegoro. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Greys Dental. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat Greys Dental memiliki tautan reservasi dan informasi praktik di Bojonegoro. Kami menyiapkan konsep website untuk memudahkan pasien menemukan alamat terbaru, jadwal, dan kontak: https://maxigrowthstudio.com/greys. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Greys Dental",
+    "email_isi": "Yth. Bapak/Ibu pengelola Greys Dental,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang membantu pasien menemukan informasi lokasi, jam praktik, dan jalur reservasi Greys Dental di Bojonegoro.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/greys. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami juga terbuka untuk mengoreksi informasi alamat dan jadwal agar sesuai dengan kondisi terbaru.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

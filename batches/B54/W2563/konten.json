@@ -1,0 +1,132 @@
+{
+  "id": "W2563",
+  "hero": {
+    "judul": {
+      "id": "Petra Dental Care Boyolali",
+      "en": "Petra Dental Care Boyolali"
+    },
+    "sub": {
+      "id": "Informasi lokasi praktik drg. Heri Budhiyono, jam kunjungan, dan cara menghubungi klinik.",
+      "en": "Location, visiting hours, and contact information for drg. Heri Budhiyono's practice."
+    },
+    "cta": {
+      "id": "Tanya Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal sesuai keluhan gigi dan mulut.",
+        "en": "Ask about an initial examination for your dental concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Konfirmasi jadwal scaling dan estimasi biaya.",
+        "en": "Confirm scaling appointments and estimated fees."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi untuk mengetahui pilihan penambalan.",
+        "en": "Discuss your tooth condition to learn about filling options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Kawat Gigi",
+        "en": "Braces Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi dan pilihan perawatan.",
+        "en": "Ask about consultation availability and treatment options."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Akhir Pekan",
+      "en": "Weekend Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jadwal yang tercantum di direktori, termasuk Minggu, lalu konfirmasi ketersediaan sebelum datang.",
+      "en": "Review directory-listed hours, including Sundays, then confirm availability before visiting."
+    },
+    "alasan_dipilih": "Direktori konsisten mencantumkan sesi Minggu; jadwal terkini tetap perlu konfirmasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Petra Dental Care?",
+        "en": "Where is Petra Dental Care?"
+      },
+      "a": {
+        "id": "Di Jl. Raya Boyolali-Semarang, Dusun I, Randusari, Kecamatan Teras, Boyolali.",
+        "en": "On Jl. Raya Boyolali-Semarang, Dusun I, Randusari, Teras, Boyolali."
+      }
+    },
+    {
+      "q": {
+        "id": "Siapa dokter yang tercantum?",
+        "en": "Which dentist is listed?"
+      },
+      "a": {
+        "id": "Direktori menyebut drg. Heri Budhiyono.",
+        "en": "Directories list drg. Heri Budhiyono."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah buka hari Minggu?",
+        "en": "Is the practice open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Minggu 14.00–20.00. Konfirmasi sebelum berkunjung.",
+        "en": "Directories list Sundays 2–8 PM. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menghubungi klinik?",
+        "en": "How can I contact the practice?"
+      },
+      "a": {
+        "id": "Nomor telepon yang tercantum adalah (0276) 320467. Tanyakan prosedur pendaftaran.",
+        "en": "The listed phone number is (0276) 320467. Ask about registration."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Hubungi klinik untuk estimasi biaya.",
+        "en": "No official fee list was found. Contact the practice for an estimate."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi",
+    "en": "Contact the Practice for Information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan pendaftaran di Petra Dental Care Boyolali. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Petra Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik drg. Heri Budhiyono di Randusari, Teras, Boyolali. Kami menyiapkan konsep website yang memudahkan pasien menemukan lokasi, jadwal, dan informasi kunjungan: https://maxigrowthstudio.com/petra. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Petra Dental Care",
+    "email_isi": "Yth. Bapak/Ibu pengelola Petra Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan lokasi praktik, jam kunjungan, dan jalur komunikasi klinik.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/petra. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka apabila ada informasi yang perlu disesuaikan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

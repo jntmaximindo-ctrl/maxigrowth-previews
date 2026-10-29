@@ -1,0 +1,132 @@
+{
+  "id": "W2555",
+  "hero": {
+    "judul": {
+      "id": "Informasi Unicare Health Clinic Telang",
+      "en": "Unicare Health Clinic Telang"
+    },
+    "sub": {
+      "id": "Temukan lokasi, informasi jam praktik, dan cara menghubungi klinik untuk menanyakan layanan.",
+      "en": "Find the location, listed hours, and how to contact the clinic about services."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Kunjungan",
+      "en": "Ask About Visiting Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal sesuai keluhan Anda.",
+        "en": "Ask about an initial examination for your concern."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Tambal Gigi",
+        "en": "Dental Filling Information"
+      },
+      "ringkas": {
+        "id": "Konfirmasi ketersediaan perawatan tambal sebelum datang.",
+        "en": "Confirm filling availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Kawat Gigi",
+        "en": "Braces Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal konsultasi dan pilihan perawatan kepada klinik.",
+        "en": "Ask the clinic about consultations and treatment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Gigi Palsu",
+        "en": "Dentures Information"
+      },
+      "ringkas": {
+        "id": "Hubungi klinik untuk memastikan jenis perawatan pengganti gigi.",
+        "en": "Contact the clinic to confirm available tooth replacement care."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Konsultasi Kawat Gigi",
+      "en": "Braces Consultation Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan tentang jadwal dokter, tahapan pemeriksaan, dan biaya sebelum menghubungi klinik.",
+      "en": "Prepare questions about dentist schedules, examinations, and fees before contacting the clinic."
+    },
+    "alasan_dipilih": "Direktori menyebut perawatan kawat gigi, tetapi rincian resmi belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi cabang Telang?",
+        "en": "Where is the Telang location?"
+      },
+      "a": {
+        "id": "Di Jl. Telang Indah Barat, Gang Masjid Baitul Amal, Perumahan Telang Indah, Kamal, Bangkalan.",
+        "en": "On Jl. Telang Indah Barat, near Masjid Baitul Amal, Telang Indah, Kamal, Bangkalan."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the clinic hours?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat 13.00–21.00 dan akhir pekan tutup. Konfirmasi jadwal sebelum datang.",
+        "en": "Directories list Monday–Friday 1–9 PM and closed weekends. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada perawatan kawat gigi?",
+        "en": "Is braces care available?"
+      },
+      "a": {
+        "id": "Direktori menyebut layanan ini, tetapi ketersediaan dan jadwal dokter perlu dikonfirmasi.",
+        "en": "Directories mention it, but availability and dentist schedules need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Hubungi klinik untuk menanyakan biaya sesuai kebutuhan.",
+        "en": "No official fee list was found. Contact the clinic for a suitable estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS?",
+        "en": "Does the clinic accept BPJS?"
+      },
+      "a": {
+        "id": "Status BPJS untuk cabang Telang belum terkonfirmasi. Silakan tanyakan langsung.",
+        "en": "BPJS acceptance at the Telang location has not been confirmed. Please ask directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Konfirmasi",
+    "en": "Contact the Clinic to Confirm"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik, layanan, dan cara pendaftaran di Unicare Health Clinic Telang. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Unicare Health Clinic Telang. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi lokasi praktik di Telang dan jadwal sore pada beberapa direktori. Kami telah menyiapkan konsep website agar pasien mudah menemukan lokasi, jadwal, dan kontak: https://maxigrowthstudio.com/unicare-health. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Unicare Health Clinic Telang",
+    "email_isi": "Yth. Bapak/Ibu pengelola Unicare Health Clinic Telang,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website yang memudahkan pasien menemukan lokasi cabang Telang, jadwal kunjungan, dan kontak untuk bertanya sebelum datang.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/unicare-health. Proposal PDF juga kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka terhadap koreksi informasi cabang.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

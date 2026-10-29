@@ -1,0 +1,132 @@
+{
+  "id": "W2557",
+  "hero": {
+    "judul": {
+      "id": "Dental Care drg. Dewi Restuani Banyuwangi",
+      "en": "Dental Care drg. Dewi Restuani in Banyuwangi"
+    },
+    "sub": {
+      "id": "Informasi pemeriksaan dan perawatan gigi untuk membantu Anda menyiapkan kunjungan.",
+      "en": "Dental examination and care information to help you prepare for a visit."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Pemeriksaan",
+      "en": "Ask About an Appointment"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan untuk menanyakan pemeriksaan yang sesuai.",
+        "en": "Describe your concern to ask about a suitable examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Teeth Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan scaling dan kebutuhan pemeriksaan awal.",
+        "en": "Ask about scaling availability and any initial assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi untuk mengetahui pilihan tindakan.",
+        "en": "Discuss your tooth condition to understand possible care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Anak",
+        "en": "Children's Dental Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal dan persiapan kunjungan untuk anak.",
+        "en": "Ask about appointments and preparation for children's visits."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Keluhan Gigi",
+      "en": "Dental Concern Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik pemeriksaan, scaling, penambalan, atau kunjungan anak untuk menyiapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "Choose examination, cleaning, fillings, or children's visits to prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Direktori menyebut berbagai layanan gigi anak dan dewasa; fitur membantu pasien menyiapkan pertanyaan tanpa menjanjikan tindakan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Perumahan Brawijaya Residence Blok Anggrek No.03, Banyuwangi.",
+        "en": "At Brawijaya Residence, Anggrek Block No.03, Banyuwangi."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana menghubungi klinik?",
+        "en": "How can I contact the clinic?"
+      },
+      "a": {
+        "id": "Nomor publik yang tercantum adalah 0813-3545-4526. Pastikan jadwal sebelum datang.",
+        "en": "The listed public number is 0813-3545-4526. Please confirm hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Direktori menyebut scaling sebagai layanan; konfirmasi ketersediaannya kepada klinik.",
+        "en": "Directories mention scaling; please confirm availability with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Tanyakan estimasi biaya sesuai kebutuhan.",
+        "en": "No official fee list was found. Ask for an estimate based on your needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the practice accept insurance?"
+      },
+      "a": {
+        "id": "Praktik tercantum dalam daftar Chubb Dental tahun 2024. Status kerja sama saat ini perlu dikonfirmasi.",
+        "en": "The practice appeared on a 2024 Chubb Dental provider list. Please confirm current participation."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Kunjungan",
+    "en": "Contact the Practice for Visit Information"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan informasi pemeriksaan gigi di Dental Care drg. Dewi Restuani. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Ibu drg. Dewi Restuani atau pengelola Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik di Brawijaya Residence, Banyuwangi, dengan layanan pemeriksaan dan perawatan gigi. Kami menyiapkan konsep website yang membantu pasien mencari lokasi, informasi layanan, dan kontak: https://maxigrowthstudio.com/drg-dewi. Jika berkenan, silakan ditinjau saat ada waktu. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dental Care drg. Dewi Restuani",
+    "email_isi": "Yth. Ibu drg. Dewi Restuani atau pengelola Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu pasien menemukan lokasi praktik, informasi perawatan gigi, dan cara menghubungi klinik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-dewi. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nKami terbuka terhadap masukan mengenai informasi yang perlu disesuaikan.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
