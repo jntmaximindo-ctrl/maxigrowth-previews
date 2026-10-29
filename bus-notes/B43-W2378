@@ -5,7 +5,7 @@ RISET LAMA:
   "id": "W2378",
   "nama": {
     "v": "Hengky & Nanny Ganda, Drg",
-    "src": "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015",
+    "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
     "tgl": "2026-10-29",
     "yakin": "tinggi"
   },
@@ -28,13 +28,13 @@ RISET LAMA:
       "nama": "Praktik Hengky & Nanny Ganda — Nagasari",
       "alamat": {
         "v": "Jl. K. H. Dewantara No.98, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312",
-        "src": "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015",
+        "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
         "tgl": "2026-10-29",
         "yakin": "tinggi"
       },
       "telepon": {
-        "v": "0267403015",
-        "src": "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015",
+        "v": "62267403015",
+        "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
         "tgl": "2026-10-29",
         "yakin": "tinggi"
       },
@@ -54,7 +54,7 @@ RISET LAMA:
           "sab": "08-11,16-20",
           "min": "tutup"
         },
-        "src": "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015",
+        "src": "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
         "tgl": "2026-10-29",
         "yakin": "sedang"
       },
@@ -62,12 +62,7 @@ RISET LAMA:
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Pemeriksaan gigi umum (jenis tindakan perlu dikonfirmasi)",
-    "Penambalan gigi (disebut direktori, perlu konfirmasi)",
-    "Pencabutan gigi (disebut direktori, perlu konfirmasi)",
-    "Pembersihan karang gigi (disebut direktori, perlu konfirmasi)"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -85,11 +80,10 @@ RISET LAMA:
     "Informasi biaya dan reservasi daring resmi belum ditemukan."
   ],
   "ide_fitur_khas": "Tampilan jadwal dua sesi pagi dan sore dengan informasi kontak telepon serta pengingat konfirmasi sebelum datang.",
-  "catatan": "Nomor publik yang ditemukan adalah telepon tetap 0267-403015; TIDAK dinyatakan sebagai WA. Email tidak ditemukan setelah penelusuran Semuabis, Idalamat, dan Yazcorp. harga belum tersedia. Nama dokter pada direktori memiliki variasi ejaan Nanny/Nani; tidak menebak identitas/gelar individu. Jam dan layanan dari direktori, bukan situs resmi. Rating/ulasan dari surat tugas tidak dianggap verifikasi Maps. Tidak ada klinik dihubungi.",
+  "catatan": "harga belum tersedia. Revisi dibaca ulang 29 Oktober 2026: hanya telepon tetap ditemukan; WA null. Email tidak ditemukan setelah penelusuran sumber yang dicantumkan. Nama dokter, jenis tindakan dan jam individual tidak diasumsikan. Konten adalah panduan administratif. Tidak menghubungi klinik. Outreach hanya draf, konsep dan lampiran perlu disiapkan sebelum digunakan. Semuabis gagal 429; Idalamat berhasil dibaca.",
   "sumber": [
-    "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015",
     "https://idalamat.com/alamat/hengky-nanny-ganda-drg-1060529",
-    "https://yazcorp.id/ini-dia-10-daftar-pilihan-dokter-gigi-yang-bagus-dan-terkenal-di-daerah-karawang"
+    "https://www.semuabis.com/hengky-nanny-ganda-drg-0267-403015"
   ],
   "verifikasi_manual": [
     {
@@ -104,7 +98,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].telepon",
-      "tercatat": "0267403015",
+      "tercatat": "62267403015",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     },
     {
