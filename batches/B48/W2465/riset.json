@@ -84,5 +84,32 @@
     "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
     "https://drive.google.com/file/d/1SSIrsIOd6ISNOJBn6nWgGiudAPIaNL0j/view",
     "https://drive.google.com/file/d/1LhKQ_1SbbrsK0FHf9buIm3y7qfltiHsx/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Nayra Dental Care",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mission Drive No.1, Ruko Solvang Grande, Kelapa Dua, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281292009220",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281292009220",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08.30-21.30\", \"sel\": \"08.30-21.30\", \"rab\": \"08.30-21.30\", \"kam\": \"08.30-21.30\", \"jum\": \"08.30-21.30\", \"sab\": \"08.30-21.30\", \"min\": \"08.30-21.30\"}",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

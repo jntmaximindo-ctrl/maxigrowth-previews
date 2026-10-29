@@ -74,5 +74,17 @@
     "https://bukutelepon.cybo.com/ID/karawang-%28kota%29/dokter-gigi",
     "https://www.semuabis.com/toko-cilik_17Z-0267-407814",
     "https://kemkes.go.id/id/%20rumah-sakit-boleh-beriklan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dentist Ernawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tuparev, Nagasari, Kec. Karawang Barat, Karawang, Jawa Barat 41312",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

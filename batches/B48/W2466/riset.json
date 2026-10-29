@@ -70,5 +70,22 @@
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-oct-2025.pdf?pid=id_en_tr_chubb_provider_dental",
     "https://glints.com/id/companies/klinik-utama-3rat-dental-care/99e9acc6-cc7b-4da8-bb5a-b2c947734be4"
   ],
-  "catatan": "nomor ponsel publik dinormalisasi ke 62 dan dianggap WA. harga belum tersedia. Kontak 0813-1613-0977, telepon tetap 021-3983-4051 dan email berasal dari baris 3RAT dalam indeks publik PDF daftar provider Chubb Oktober 2025 di DBS. URL PDF dibuka dan sempat terbaca sebagai PDF 153 halaman, tetapi pembukaan ulang hanya menampilkan Spinner App; pembacaan baris kontak bergantung ekstrak indeks pencarian, sehingga keyakinan rendah dan perlu pemeriksaan lanjutan. Alamat dan identitas dicocokkan dengan profil Glints yang dibaca. Sumber daftar provider lama tidak membuktikan kepesertaan asuransi saat ini, sehingga asuransi []. Nama dokter belum dapat diverifikasi; jadwal Glints 09-21 berbeda dari indeks direktori 08-21 sehingga jam null. Kartu layanan berupa topik pertanyaan, bukan daftar tindakan yang dipastikan tersedia. maps_url adalah pencarian lokasi. Outreach hanya draf; pemilik perlu memeriksa publikasi konsep dan lampiran PDF sebelum dipakai. Tidak ada klinik dihubungi."
+  "catatan": "nomor ponsel publik dinormalisasi ke 62 dan dianggap WA. harga belum tersedia. Kontak 0813-1613-0977, telepon tetap 021-3983-4051 dan email berasal dari baris 3RAT dalam indeks publik PDF daftar provider Chubb Oktober 2025 di DBS. URL PDF dibuka dan sempat terbaca sebagai PDF 153 halaman, tetapi pembukaan ulang hanya menampilkan Spinner App; pembacaan baris kontak bergantung ekstrak indeks pencarian, sehingga keyakinan rendah dan perlu pemeriksaan lanjutan. Alamat dan identitas dicocokkan dengan profil Glints yang dibaca. Sumber daftar provider lama tidak membuktikan kepesertaan asuransi saat ini, sehingga asuransi []. Nama dokter belum dapat diverifikasi; jadwal Glints 09-21 berbeda dari indeks direktori 08-21 sehingga jam null. Kartu layanan berupa topik pertanyaan, bukan daftar tindakan yang dipastikan tersedia. maps_url adalah pencarian lokasi. Outreach hanya draf; pemilik perlu memeriksa publikasi konsep dan lampiran PDF sebelum dipakai. Tidak ada klinik dihubungi.",
+  "verifikasi_manual": [
+    {
+      "path": "email",
+      "tercatat": "3ratdentalcare@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281316130977",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281316130977",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
+  ]
 }

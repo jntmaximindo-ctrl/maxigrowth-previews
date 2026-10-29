@@ -1,0 +1,50 @@
+{
+  "id": "W2465",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Nayra Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mission Drive No.1, Ruko Solvang Grande, Kelapa Dua, Kecamatan Kelapa Dua, Kabupaten Tangerang, Banten 15810, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281292009220",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281292009220",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08.30-21.30\", \"sel\": \"08.30-21.30\", \"rab\": \"08.30-21.30\", \"kam\": \"08.30-21.30\", \"jum\": \"08.30-21.30\", \"sab\": \"08.30-21.30\", \"min\": \"08.30-21.30\"}",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1 [nama]",
+    "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1 [cabang[0].alamat]",
+    "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1 [cabang[0].telepon]",
+    "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1 [cabang[0].wa]",
+    "https://caribisnis.id/dokter-gigi/tangerang/kelapa-dua/klinik-nayra-dental-care-dokte-kela-imp1 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
