@@ -1,17 +1,17 @@
 {
- "diperbarui": "2026-10-29T08:37:05+07:00",
+ "diperbarui": "2026-10-29T08:51:32+07:00",
  "sumber": "repo-pabrik",
  "target_harian": 600,
  "target": {},
  "akhir_hari": "2026-10-29T23:59:00+07:00",
- "total_klinik_di_batch": 1454,
+ "total_klinik_di_batch": 1467,
  "klinik_status_lain": 75,
  "siap_reachout_hari_ini": 58,
  "tahap": {
   "cari": null,
-  "riset": 96,
-  "cek_fakta": 0,
-  "rakit": 10,
+  "riset": 92,
+  "cek_fakta": 23,
+  "rakit": 4,
   "qa": 1,
   "deploy": 0,
   "review": 12,
@@ -19,8 +19,8 @@
  },
  "kecepatan_per_jam": {
   "cari": null,
-  "riset": 0,
-  "cek_fakta": 6,
+  "riset": 22,
+  "cek_fakta": 0,
   "rakit": 0,
   "qa": 0,
   "deploy": 0,
@@ -83,7 +83,7 @@
   {
    "tingkat": "kritis",
    "judul": "Antrean riset menumpuk",
-   "detail": "96 klinik menunggu di tahap riset.",
+   "detail": "92 klinik menunggu di tahap riset.",
    "teks_perbaikan": "Periksa pekerja tahap riset dan dorong sampai antrean turun."
   }
  ],
@@ -157,8 +157,8 @@
   {
    "tanggal": "2026-10-29",
    "lulus_akhir": {
-    "riset": 1283,
-    "cek_fakta": 1283,
+    "riset": 1300,
+    "cek_fakta": 1277,
     "rakit": 1273,
     "qa": 1272,
     "deploy": 1272,
@@ -167,8 +167,8 @@
    },
    "siap_reachout_akhir": 1260,
    "tambahan_hari_itu": {
-    "riset": 64,
-    "cek_fakta": 64,
+    "riset": 81,
+    "cek_fakta": 58,
     "rakit": 58,
     "qa": 58,
     "deploy": 58,
