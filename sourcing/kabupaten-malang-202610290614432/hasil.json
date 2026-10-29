@@ -1,0 +1,59 @@
+{
+ "kota": "Kabupaten Malang",
+ "area": "kabupaten-malang-karangploso-r1",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "PRAKTEK DOKTER GIGI DRG. IZZAH EL MAILA DRG. LALITA EL MILLA",
+   "rating": 4.2,
+   "ulasan": 6,
+   "area_ditemukan": "Karangploso",
+   "sumber": "https://id.worldorgs.com/katalog/malang/dokter-gigi/praktek-dokter-gigi-drg-izzah-el-maila-drg-lalita-el-milla",
+   "status": "perlu_audit"
+  },
+  {
+   "nama": "ConfiDental Kepanjen",
+   "rating": 4.9,
+   "ulasan": 460,
+   "area_ditemukan": "Kepanjen, luar Karangploso",
+   "sumber": "https://densia.id/kota/kabupaten-malang/layanan/perawatan-umum/",
+   "status": "perlu_audit"
+  },
+  {
+   "nama": "Dokter Gigi Rizqi PP",
+   "rating": 5,
+   "ulasan": 876,
+   "area_ditemukan": "Dau, sekitar Karangploso",
+   "sumber": "https://densia.id/kota/kabupaten-malang/",
+   "status": "perlu_audit"
+  },
+  {
+   "nama": "drg. Puspita Sari",
+   "rating": null,
+   "ulasan": null,
+   "area_ditemukan": "Malang sekitar Karangploso",
+   "sumber": "https://densia.id/kota/kabupaten-malang/",
+   "status": "perlu_audit"
+  },
+  {
+   "nama": "Klinik Gigi Izzah El Maila",
+   "rating": 4.2,
+   "ulasan": 6,
+   "area_ditemukan": "Karangploso, mungkin duplikat praktik pertama",
+   "sumber": "https://id.worldorgs.com/katalog/malang/dokter-gigi/praktek-dokter-gigi-drg-izzah-el-maila-drg-lalita-el-milla",
+   "status": "perlu_audit"
+  },
+  {
+   "nama": "Klinik Gigi Sahabat Gigimu",
+   "rating": 5,
+   "ulasan": 708,
+   "area_ditemukan": "Karangploso tetapi sudah KNOWN — dikecualikan dari lead",
+   "sumber": "https://densia.id/klinik/sahabat-gigimu-kabupaten-malang-wmej24wu",
+   "status": "ditolak_known"
+  }
+ ],
+ "catatan": "Riset pendahuluan. Kandidat sekitar wilayah ditandai; belum ada klaim 6 klinik baru lolos tanpa pengecekan rating, deduplikasi final, dan situs. Jangan menghitung entri duplikat sebagai klinik berbeda."
+}
