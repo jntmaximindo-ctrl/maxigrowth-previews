@@ -1,0 +1,132 @@
+{
+  "id": "W2457",
+  "hero": {
+    "judul": {
+      "id": "drg. Andri Sidharta",
+      "en": "drg. Andri Sidharta"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Malang.",
+      "en": "Location and visit preparation in Malang."
+    },
+    "cta": {
+      "id": "Tanyakan melalui WhatsApp",
+      "en": "Ask via WhatsApp"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling & Dental Spa",
+        "en": "Scaling and dental spa"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan dan ketersediaan jadwal kepada klinik.",
+        "en": "Ask the clinic about assessment requirements and appointment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan dan ketersediaan jadwal kepada klinik.",
+        "en": "Ask the clinic about assessment requirements and appointment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan Gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan dan ketersediaan jadwal kepada klinik.",
+        "en": "Ask the clinic about assessment requirements and appointment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Tanyakan kebutuhan pemeriksaan dan ketersediaan jadwal kepada klinik.",
+        "en": "Ask the clinic about assessment requirements and appointment availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Membantu menyiapkan pertanyaan karena daftar tindakan, dokter, dan tarif belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Dieng No.14, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65115; konfirmasikan sebelum datang.",
+        "en": "Jl. Dieng No.14, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65115; confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Hubungi klinik di 6281930999901 untuk jadwal terbaru.",
+        "en": "Contact 6281930999901 to confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Situs resmi mencantumkan scaling, penambalan, pencabutan dan perawatan saluran akar. Tanyakan pemeriksaan yang diperlukan kepada klinik.",
+        "en": "The official website lists scaling, fillings, extractions and root canal treatment. Ask the clinic about the assessment you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo drg. Andri Sidharta, saya ingin menanyakan jadwal, lokasi dan biaya kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola drg. Andri Sidharta. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan praktik di Malang. Kami mengusulkan halaman lokasi dan panduan kunjungan: https://maxigrowthstudio.com/drg-andri. Mohon tinjau informasi sebelum digunakan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website drg. Andri Sidharta",
+    "email_isi": "Yth. Pengelola drg. Andri Sidharta,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi di Jl. Dieng No.14, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65115. Kami mengusulkan halaman lokasi dan panduan pertanyaan kunjungan. Tautan konsep: https://maxigrowthstudio.com/drg-andri. Data perlu ditinjau pengelola sebelum digunakan. Proposal PDF terlampir untuk ditinjau.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
