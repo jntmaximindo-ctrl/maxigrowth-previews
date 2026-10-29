@@ -1,0 +1,58 @@
+{
+  "id": "W2532",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "WD Dental Care / drg. Widya Dina Fitriani",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Hayam Wuruk No.28, Jati, Mangunharjo, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67217",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287755519291",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287755519291",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-22\", \"sel\": \"15-22\", \"rab\": \"15-22\", \"kam\": \"15-22\", \"jum\": \"15-22\", \"sab\": \"15-22\", \"min\": \"15-22\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Widya Dina Fitriani",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-probolinggo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [nama]",
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [cabang[0].wa]",
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [cabang[0].jam]",
+    "https://doktertanya.com/dokter-gigi-probolinggo/ [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

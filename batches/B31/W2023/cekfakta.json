@@ -1,0 +1,34 @@
+{
+  "id": "W2023",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Ratih Prasetyowati",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi",
+      "src": "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Menganti 32, Surabaya",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi",
+      "src": "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62317666742",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 429); belum terverifikasi",
+      "src": "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html [nama]",
+    "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html [cabang[0].alamat]",
+    "https://infosurabaya99.blogspot.com/2017/05/alamat-praktek-telepon-dokter-gigi-surabaya-barat.html [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

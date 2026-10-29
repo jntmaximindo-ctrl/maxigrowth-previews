@@ -108,5 +108,37 @@
   "sumber": [
     "https://doktertanya.com/dokter-gigi-probolinggo/",
     "https://bpjs.ca/dokter-gigi-probolinggo/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "WD Dental Care / drg. Widya Dina Fitriani",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Hayam Wuruk No.28, Jati, Mangunharjo, Kec. Mayangan, Kota Probolinggo, Jawa Timur 67217",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287755519291",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287755519291",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"15-22\", \"sel\": \"15-22\", \"rab\": \"15-22\", \"kam\": \"15-22\", \"jum\": \"15-22\", \"sab\": \"15-22\", \"min\": \"15-22\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Widya Dina Fitriani",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

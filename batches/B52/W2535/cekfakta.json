@@ -1,0 +1,58 @@
+{
+  "id": "W2535",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Citarum Dental Care / drg. Ahmad Dimyathi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Citarum, Curahgrinting, Kec. Kanigaran, Kota Probolinggo, Jawa Timur 67212",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285859460150",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285859460150",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"18-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Ahmad Dimyathi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [nama]",
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [cabang[0].wa]",
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [cabang[0].jam]",
+    "https://idalamat.com/alamat/1062735/drg-ahmad-dimyathi-citarum-dental-care-probolinggo-jawa-timur [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
