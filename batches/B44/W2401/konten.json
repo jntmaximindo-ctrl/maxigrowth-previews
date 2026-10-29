@@ -1,0 +1,132 @@
+{
+  "id": "W2401",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi D.E.F Dental Care",
+      "en": "D.E.F Dental Care Ungaran"
+    },
+    "sub": {
+      "id": "Layanan gigi di Ungaran Barat dengan jadwal praktik pagi dan sore. Konfirmasikan sesi yang tersedia sebelum datang.",
+      "en": "Dental care in West Ungaran with morning and afternoon sessions. Confirm availability before visiting."
+    },
+    "cta": {
+      "id": "Pilih Sesi Kunjungan",
+      "en": "Choose a Visit Session"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan keluhan gigi dan mulut untuk memahami kondisi serta kebutuhan perawatan.",
+        "en": "Assessment of oral health concerns and discussion of appropriate care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan dokter gigi.",
+        "en": "Tartar removal based on a dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai kondisi gigi dan rencana tindakan.",
+        "en": "Care for cavities based on the tooth's condition and treatment plan."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Umum",
+        "en": "General Dental Care"
+      },
+      "ringkas": {
+        "id": "Konsultasi mengenai kesehatan gigi sehari-hari dan langkah perawatan lanjutan jika diperlukan.",
+        "en": "Consultation about routine oral health and follow-up care when needed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Sesi Pagi atau Sore",
+      "en": "Morning or Afternoon Sessions"
+    },
+    "penjelasan": {
+      "id": "Lihat dua rentang jam praktik yang tercantum dan tanyakan slot yang tersedia sebelum berkunjung.",
+      "en": "Review the two listed appointment windows and check available slots before visiting."
+    },
+    "alasan_dipilih": "Direktori mencantumkan dua sesi praktik Senin–Sabtu, yaitu pagi dan sore."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 07.30–11.30 dan 16.30–20.30, Minggu tutup. Konfirmasikan jadwal terbaru.",
+        "en": "Directories list Monday–Saturday 7:30–11:30 AM and 4:30–8:30 PM, closed Sunday. Confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Jl. Gelatik Raya No.33, Kuncen, Ungaran Barat, Kabupaten Semarang.",
+        "en": "Jl. Gelatik Raya No.33, Kuncen, West Ungaran, Semarang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Scaling tercantum pada informasi publik. Tanyakan ketersediaan jadwal sebelum berkunjung.",
+        "en": "Scaling is listed publicly. Please check appointment availability before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah bisa menambal gigi?",
+        "en": "Are dental fillings available?"
+      },
+      "a": {
+        "id": "Tambal gigi tercantum dalam direktori layanan. Pemeriksaan diperlukan untuk menentukan tindakan yang sesuai.",
+        "en": "Fillings are listed in service directories. An examination is needed to determine appropriate care."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Tarif resmi per tindakan belum ditemukan. Mintalah estimasi biaya sebelum kunjungan.",
+        "en": "An official procedure-specific fee list was not found. Request an estimate before visiting."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Sesi dan Ketersediaan Layanan",
+    "en": "Confirm a Session and Service Availability"
+  },
+  "pesan_wa_default": "Halo D.E.F Dental Care Ungaran, saya ingin menanyakan ketersediaan jadwal pemeriksaan gigi untuk sesi pagi atau sore. Mohon informasi jadwal dan perkiraan biaya. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, pengelola D.E.F Dental Care Ungaran. Saya Rizqi dari Maxi Growth Studio. Saya melihat jadwal praktik pagi dan sore tercantum pada beberapa direktori. Kami menyiapkan konsep website yang memudahkan pasien memilih sesi kunjungan dan melihat informasi layanan gigi. Konsep dapat ditinjau di https://maxigrowthstudio.com/d-e. Bila berkenan, silakan dilihat. Terima kasih.",
+    "email_subjek": "Konsep website D.E.F Dental Care Ungaran",
+    "email_isi": "Yth. Tim D.E.F Dental Care Ungaran,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik mengenai jadwal praktik pagi dan sore di Ungaran Barat, kami menyiapkan konsep website yang membantu pasien memilih sesi kunjungan dan memahami layanan gigi yang tersedia.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/d-e. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nBila ada informasi yang perlu diperbarui atau kebutuhan lain, kami terbuka untuk berdiskusi. Terima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

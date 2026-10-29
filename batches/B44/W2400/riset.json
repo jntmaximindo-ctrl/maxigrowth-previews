@@ -1,0 +1,174 @@
+{
+  "id": "W2400",
+  "nama": {
+    "v": "Orange Dental Cikarang",
+    "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+    "tgl": "2026-10-29",
+    "yakin": "tinggi"
+  },
+  "kota": "Kabupaten Bekasi",
+  "zona_waktu": "WIB",
+  "instagram": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "email": {
+    "v": null,
+    "src": null,
+    "tgl": "2026-10-29",
+    "yakin": "rendah"
+  },
+  "cabang": [
+    {
+      "nama": "Cikarang",
+      "alamat": {
+        "v": "Komplek Ruko Metro Boulevard Blok A No.3, Pasirsari, Cikarang Selatan, Kabupaten Bekasi, Jawa Barat 17530",
+        "src": "https://jujur.orangedentalhouse.com/location/",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "telepon": {
+        "v": "6285285544862",
+        "src": "https://jujur.orangedentalhouse.com/location/",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "wa": {
+        "v": "6285285544862",
+        "src": "https://jujur.orangedentalhouse.com/location/",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "jam": {
+        "v": {
+          "sen": "10-20",
+          "sel": "10-20",
+          "rab": "10-20",
+          "kam": "10-20",
+          "jum": "10-20",
+          "sab": "10-20",
+          "min": "10-20"
+        },
+        "src": "https://orangedentalhouse.com/bekasi",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Orange+Dental+Cikarang+Metro+Boulevard"
+    }
+  ],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Deandra",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": "Senin–Kamis 10.00–18.00",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "cabang": "Cikarang"
+    },
+    {
+      "nama": {
+        "v": "drg. Donny",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": "Selasa–Kamis 13.00–20.00; Sabtu 08.00–14.00",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "cabang": "Cikarang"
+    },
+    {
+      "nama": {
+        "v": "drg. Paramitha",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": "Selasa–Sabtu 11.00–19.00",
+        "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+        "tgl": "2026-10-29",
+        "yakin": "tinggi"
+      },
+      "cabang": "Cikarang"
+    }
+  ],
+  "layanan": [
+    "Konsultasi dan pemeriksaan gigi",
+    "Scaling / pembersihan karang gigi",
+    "Tambal gigi",
+    "Cabut gigi",
+    "Kawat gigi / behel",
+    "Whitening / bleaching",
+    "Perawatan saluran akar"
+  ],
+  "harga": [
+    {
+      "perawatan": "Scaling gigi",
+      "jenis": "resmi_klinik",
+      "min": 249000,
+      "max": 249000,
+      "src": "https://orangedentalhouse.com/bekasi"
+    }
+  ],
+  "fasilitas": [
+    "Area tunggu",
+    "Ruang tindakan",
+    "Area parkir"
+  ],
+  "asuransi": [],
+  "maps": {
+    "rating": 4.9,
+    "ulasan": null,
+    "src": "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+    "tgl": "2026-10-29"
+  },
+  "keunggulan": [
+    "Terdaftar sebagai Klinik Pratama Orange Dental Cikarang di portal Kementerian Kesehatan",
+    "Jadwal praktik dokter ditampilkan per dokter pada situs resmi",
+    "Bagian dari jaringan tujuh cabang Orange Dental di Bekasi",
+    "Situs resmi mencantumkan harga scaling Rp249.000 untuk cabang Bekasi"
+  ],
+  "situs_lama": [
+    "Halaman cabang menampilkan galeri hasil perawatan pasien/before-after, yang perlu ditinjau untuk kepatuhan Permenkes 1787/2010",
+    "Halaman cabang menggunakan klaim pemasaran seperti 'hasil nyata' dan menampilkan foto perawatan; sebaiknya diganti edukasi prosedur tanpa hasil pasien"
+  ],
+  "ide_fitur_khas": "Pemilih dokter dan jadwal praktik per hari yang terhubung ke reservasi Cikarang",
+  "catatan": "Nomor ponsel publik 085285544862 dinormalisasi ke 6285285544862 dan dianggap WA; tercantum pada halaman lokasi resmi. Portal Kemenkes menampilkan nomor administratif berbeda 083804200764; keduanya tidak digabung. Harga scaling Rp249000 diambil dari halaman resmi Bekasi, perlu konfirmasi sebelum penggunaan. Rating 4.9 berasal dari klaim halaman resmi, sedangkan jumlah ulasan tidak terverifikasi sehingga null. Foto hasil perawatan/before-after dan klaim promosi pada situs perlu audit Permenkes 1787/2010; konten baru tidak menirunya. Email kontak cabang tidak ditemukan setelah memeriksa halaman resmi cabang, lokasi, dan Kemenkes. Jadwal dokter bersumber situs resmi dan dapat berubah.",
+  "sumber": [
+    "https://orangedentalhouse.com/clinics/bekasi-cikarang",
+    "https://orangedentalhouse.com/bekasi",
+    "https://jujur.orangedentalhouse.com/location/",
+    "https://keslan.kemkes.go.id/klinik/profile/UkQvaHdkU0VaUjMrdGF1Umh4MTk1QT09"
+  ]
+}

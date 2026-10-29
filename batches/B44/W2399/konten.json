@@ -1,0 +1,142 @@
+{
+  "id": "W2399",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Gigi Assyifa Salinar",
+      "en": "Assyifa Salinar Dental Care"
+    },
+    "sub": {
+      "id": "Temukan informasi perawatan gigi di Cikarang Barat dan jadwal layanan yang tercantum untuk membantu merencanakan kunjungan.",
+      "en": "Explore dental care information in West Cikarang and the listed schedule to help plan a visit."
+    },
+    "cta": {
+      "id": "Periksa Jadwal Layanan Gigi",
+      "en": "Check Dental Clinic Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan awal untuk memahami keluhan dan membahas pilihan penanganan.",
+        "en": "An initial examination to understand concerns and discuss care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan dokter gigi.",
+        "en": "Tartar removal following a dentist's assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Perawatan gigi berlubang sesuai kondisi dan evaluasi klinis.",
+        "en": "Treatment for cavities based on clinical assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction"
+      },
+      "ringkas": {
+        "id": "Penilaian kebutuhan pencabutan berdasarkan indikasi dokter gigi.",
+        "en": "Evaluation and extraction when clinically indicated."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi Tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Konsultasi mengenai pilihan penggantian gigi sesuai kebutuhan pasien.",
+        "en": "Consultation about tooth replacement options suited to individual needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Jadwal Khusus Layanan Gigi",
+      "en": "Dental Service Schedule"
+    },
+    "penjelasan": {
+      "id": "Lihat hari dan jam praktik gigi yang tercantum, lalu konfirmasikan ketersediaan sebelum berkunjung.",
+      "en": "View the listed dental clinic hours and confirm availability before visiting."
+    },
+    "alasan_dipilih": "Direktori membedakan jam layanan gigi tertentu dari informasi klinik umum yang lebih luas."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan layanan gigi tersedia?",
+        "en": "When is dental care available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Rabu, Kamis, dan Sabtu pukul 17.00–21.00 serta Minggu 10.00–14.00. Jadwal dapat berubah.",
+        "en": "A directory lists Wednesday, Thursday, and Saturday 5–9 PM, plus Sunday 10 AM–2 PM. Hours may change."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Lokasi tercatat di Jalan H. Mad. Boich Idris, Gandamekar, Cikarang Barat, Kabupaten Bekasi.",
+        "en": "The listed location is on Jl. H. Mad. Boich Idris, Gandamekar, West Cikarang, Bekasi Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia scaling dan tambal gigi?",
+        "en": "Are scaling and fillings available?"
+      },
+      "a": {
+        "id": "Kedua tindakan tersebut tercantum dalam informasi publik. Konfirmasikan ketersediaan saat membuat janji.",
+        "en": "Both are listed in public information. Please confirm availability when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan gigi tiruan?",
+        "en": "Are dentures available?"
+      },
+      "a": {
+        "id": "Informasi publik menyebut layanan gigi tiruan. Dokter perlu menilai kebutuhan sebelum menentukan pilihan.",
+        "en": "Public information mentions dentures. A dentist needs to assess individual needs before recommending options."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I find out treatment costs?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Mintalah perkiraan biaya dan rincian tindakan sebelum perawatan.",
+        "en": "An official fee schedule was not found. Ask for a cost estimate and treatment details beforehand."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Jadwal dan Kebutuhan Perawatan",
+    "en": "Confirm Hours and Treatment Needs"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dokter gigi di Assyifa Salinar Cikarang Barat serta ketersediaan pemeriksaan dan perawatan gigi. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, pengelola Assyifa Salinar Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi publik mengenai layanan gigi di Gandamekar dengan jadwal praktik pada hari tertentu. Kami menyiapkan konsep website yang menampilkan jadwal layanan dan panduan perawatan gigi secara terstruktur. Konsepnya dapat dilihat di https://maxigrowthstudio.com/assyifa-salinar. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website Assyifa Salinar Dental Care",
+    "email_isi": "Yth. Tim Assyifa Salinar Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Berdasarkan informasi publik mengenai layanan gigi di Gandamekar, Cikarang Barat, kami menyusun konsep website yang memudahkan pasien memahami jenis perawatan dan jadwal khusus layanan gigi.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/assyifa-salinar. Proposal PDF kami lampirkan untuk bahan pertimbangan.\n\nJika ada kebutuhan atau koreksi informasi, kami terbuka untuk berdiskusi. Terima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

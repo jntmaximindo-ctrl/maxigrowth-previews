@@ -1,0 +1,142 @@
+{
+  "id": "W2377",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi Zavirs Dental Care",
+      "en": "Zavirs Dental Care Information"
+    },
+    "sub": {
+      "id": "Pelajari jenis pemeriksaan dan perawatan gigi yang tercantum untuk lokasi Karawang. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Explore listed dental consultations and treatments in Karawang. Please confirm appointment times before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Konsultasi",
+      "en": "Check Consultation Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan awal untuk memahami keluhan dan membahas kebutuhan perawatan.",
+        "en": "An initial examination to understand concerns and discuss treatment needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan dokter gigi.",
+        "en": "Tartar removal following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai kondisi dan rencana perawatan.",
+        "en": "Treatment for cavities according to individual dental needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Treatment"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan dan penanganan masalah pada jaringan bagian dalam gigi bila diperlukan.",
+        "en": "Assessment and treatment of issues involving inner tooth tissues when indicated."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Behel",
+        "en": "Orthodontic Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusi pilihan perawatan untuk susunan gigi dan kebutuhan kontrol.",
+        "en": "Discussion of tooth alignment care and follow-up needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Tahapan Perawatan",
+      "en": "Treatment Journey Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat alur dari konsultasi awal, pemeriksaan, penjelasan tindakan, hingga jadwal kontrol sesuai kebutuhan.",
+      "en": "Understand the steps from consultation and assessment to treatment planning and follow-up."
+    },
+    "alasan_dipilih": "Informasi publik mencantumkan perawatan dasar, saluran akar, dan behel; panduan tahapan membantu pasien mempersiapkan pertanyaan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat dan Minggu pukul 10.00–21.00, Sabtu tutup. Konfirmasikan jam terbaru.",
+        "en": "Directories list Monday–Friday and Sunday 10 AM–9 PM, closed Saturday. Please confirm current hours."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Lokasi tercantum di Sukaluyu, Karawang Barat. Mintalah titik lokasi lengkap saat membuat janji.",
+        "en": "The listed area is Sukaluyu, West Karawang. Ask for the exact map location when booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia tambal gigi?",
+        "en": "Are dental fillings available?"
+      },
+      "a": {
+        "id": "Tambal gigi tercantum dalam informasi layanan publik. Konfirmasikan jadwal pemeriksaan sebelum datang.",
+        "en": "Fillings are listed in public service information. Please confirm examination availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia konsultasi behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Konsultasi behel tercantum dalam informasi layanan. Dokter perlu menilai kondisi gigi sebelum memberi rencana perawatan.",
+        "en": "Orthodontic consultations are listed. A dentist needs to assess your teeth before planning care."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I find out the fees?"
+      },
+      "a": {
+        "id": "Tarif resmi yang dapat diverifikasi belum ditemukan. Mintalah estimasi biaya dan rincian kontrol sebelum tindakan.",
+        "en": "A verifiable official price list was not found. Ask for an estimate and follow-up details before treatment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Jadwal dan Jenis Perawatan",
+    "en": "Confirm Hours and Treatment Options"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di Zavirs Dental Care Karawang serta ketersediaan layanan gigi. Mohon informasi perkiraan biaya dan lokasi praktik. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, pengelola Zavirs Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya melihat informasi publik klinik mencantumkan layanan seperti tambal gigi dan perawatan saluran akar. Kami menyiapkan konsep website dengan panduan tahapan perawatan serta informasi jadwal yang mudah ditemukan. Konsep dapat dilihat di https://maxigrowthstudio.com/zavirs. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website Zavirs Dental Care",
+    "email_isi": "Yth. Manajemen Zavirs Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai layanan perawatan gigi Zavirs Dental Care di Karawang. Berdasarkan hal tersebut, kami menyiapkan konsep website dengan panduan tahapan perawatan, informasi jadwal, dan akses konsultasi yang lebih terstruktur.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/zavirs. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nJika berkenan, kami terbuka untuk masukan mengenai informasi dan kebutuhan klinik. Terima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

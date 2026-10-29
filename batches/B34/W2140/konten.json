@@ -1,0 +1,142 @@
+{
+  "id": "W2140",
+  "hero": {
+    "judul": {
+      "id": "Klinik dr. Sura — Jebres, Surakarta",
+      "en": "Klinik dr. Sura — Jebres, Surakarta"
+    },
+    "sub": {
+      "id": "Informasi lokasi, jam pelayanan dua sesi, dan cara menghubungi fasilitas kesehatan di Jalan RE Martadinata.",
+      "en": "Location, split opening hours and contact information for the clinic on RE Martadinata Street."
+    },
+    "cta": {
+      "id": "Konfirmasi jadwal",
+      "en": "Confirm hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Lokasi klinik pratama",
+        "en": "Lokasi klinik pratama"
+      },
+      "ringkas": {
+        "id": "Klinik dr. Sura terdata sebagai faskes di Jl. RE Martadinata No.194, Jebres.",
+        "en": "Klinik dr. Sura terdata sebagai faskes di Jl. RE Martadinata No.194, Jebres."
+      }
+    },
+    {
+      "nama": {
+        "id": "Jam pelayanan dua sesi",
+        "en": "Jam pelayanan dua sesi"
+      },
+      "ringkas": {
+        "id": "Direktori mencantumkan pelayanan pagi 07.00–14.00 dan sore 17.00–21.00 Senin–Sabtu; konfirmasi sebelum datang.",
+        "en": "Direktori mencantumkan pelayanan pagi 07.00–14.00 dan sore 17.00–21.00 Senin–Sabtu; konfirmasi sebelum datang."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi layanan medis",
+        "en": "Informasi layanan medis"
+      },
+      "ringkas": {
+        "id": "Klinik tercatat sebagai fasilitas medis umum. Tanyakan jenis pemeriksaan yang dibutuhkan sebelum berkunjung.",
+        "en": "Klinik tercatat sebagai fasilitas medis umum. Tanyakan jenis pemeriksaan yang dibutuhkan sebelum berkunjung."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konfirmasi layanan gigi",
+        "en": "Konfirmasi layanan gigi"
+      },
+      "ringkas": {
+        "id": "Direktori kategori dokter gigi menyebut layanan gigi, tetapi ketersediaannya perlu dipastikan langsung dengan pengelola.",
+        "en": "Direktori kategori dokter gigi menyebut layanan gigi, tetapi ketersediaannya perlu dipastikan langsung dengan pengelola."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan dua sesi",
+      "en": "Split-shift visit guide"
+    },
+    "penjelasan": {
+      "id": "Periksa sesi pagi dan sore sebelum datang, serta siapkan pertanyaan mengenai jenis layanan yang tersedia.",
+      "en": "Check morning and evening sessions and ask whether the needed service is available."
+    },
+    "alasan_dipilih": "Direktori menampilkan jeda layanan di tengah hari."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Klinik dr. Sura?",
+        "en": "Di mana alamat Klinik dr. Sura?"
+      },
+      "a": {
+        "id": "Jl. RE Martadinata No.194, Gandekan, Jebres, Surakarta, Jawa Tengah 57122",
+        "en": "Jl. RE Martadinata No.194, Gandekan, Jebres, Surakarta, Jawa Tengah 57122"
+      }
+    },
+    {
+      "q": {
+        "id": "Nomor telepon klinik?",
+        "en": "Nomor telepon klinik?"
+      },
+      "a": {
+        "id": "(0271) 2933421, tercatat pada dokumen Dinkes Jawa Tengah dan direktori.",
+        "en": "(0271) 2933421, tercatat pada dokumen Dinkes Jawa Tengah dan direktori."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana jam buka?",
+        "en": "Bagaimana jam buka?"
+      },
+      "a": {
+        "id": "Senin–Sabtu pukul 07.00–14.00 dan 17.00–21.00 menurut direktori; Minggu tutup.",
+        "en": "Senin–Sabtu pukul 07.00–14.00 dan 17.00–21.00 menurut direktori; Minggu tutup."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah termasuk faskes?",
+        "en": "Apakah termasuk faskes?"
+      },
+      "a": {
+        "id": "Terdaftar sebagai Klinik dr. Sura, kode faskes 0171B028 pada dokumen FKTP pemerintah.",
+        "en": "Terdaftar sebagai Klinik dr. Sura, kode faskes 0171B028 pada dokumen FKTP pemerintah."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah melayani tindakan gigi?",
+        "en": "Apakah melayani tindakan gigi?"
+      },
+      "a": {
+        "id": "Direktori mengelompokkannya dalam kategori dokter gigi, tetapi layanan spesifik dan dokter yang bertugas belum dikonfirmasi.",
+        "en": "Direktori mengelompokkannya dalam kategori dokter gigi, tetapi layanan spesifik dan dokter yang bertugas belum dikonfirmasi."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "Berapa biaya pemeriksaan?"
+      },
+      "a": {
+        "id": "Tarif resmi tidak ditemukan; tanyakan biaya tindakan dan skema pembayaran sebelum kunjungan.",
+        "en": "Tarif resmi tidak ditemukan; tanyakan biaya tindakan dan skema pembayaran sebelum kunjungan."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi dengan klinik",
+    "en": "Confirm with the practice"
+  },
+  "pesan_wa_default": "Halo Klinik dr Sura, saya ingin menanyakan jadwal dan tarif. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. pengelola Klinik dr Sura, kami dari Maxi Growth Studio. Bolehkah kami mengirimkan pratinjau konsep website dan proposal untuk ditinjau?",
+    "email_subjek": "Konsep website Klinik dr Sura",
+    "email_isi": "Yth. Pengelola Klinik dr Sura,\n\nKami dari Maxi Growth Studio ingin menawarkan konsep website informatif untuk ditinjau. Bila berkenan, kami dapat mengirim pratinjau dan proposal.\n\nHormat kami,\nMaxi Growth Studio"
+  }
+}

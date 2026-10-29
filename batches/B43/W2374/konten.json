@@ -1,0 +1,132 @@
+{
+  "id": "W2374",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Klinik Kencana Medika Tigaraksa",
+      "en": "Kencana Medika Tigaraksa Clinic"
+    },
+    "sub": {
+      "id": "Temukan informasi layanan kesehatan dan pemeriksaan gigi di Tigaraksa, serta cara menanyakan jadwal kunjungan.",
+      "en": "Explore healthcare and dental service information in Tigaraksa and learn how to check appointment availability."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi Kesehatan Umum",
+        "en": "General Health Consultation"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan awal keluhan kesehatan sesuai jadwal tenaga medis yang tersedia.",
+        "en": "Initial assessment of health concerns, subject to clinician availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan kondisi gigi dan mulut sebelum menentukan tindakan yang diperlukan.",
+        "en": "An oral health examination before discussing possible treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Pembersihan karang gigi sesuai hasil pemeriksaan dokter gigi.",
+        "en": "Tartar removal following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Penanganan gigi berlubang sesuai kondisi dan evaluasi dokter gigi.",
+        "en": "Cavity treatment based on the dentist's examination."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan Klinik",
+      "en": "Clinic Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan konsultasi umum atau gigi, lalu lihat pertanyaan persiapan dan akses konfirmasi jadwal.",
+      "en": "Choose general or dental care, review visit preparation, and check appointment details."
+    },
+    "alasan_dipilih": "Direktori publik mencantumkan klinik umum dan layanan gigi; panduan membantu pasien memahami jalur kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Kapan klinik buka?",
+        "en": "When is the clinic open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Sabtu pukul 09.00–20.00 dan Minggu tutup. Jadwal dokter dapat berbeda.",
+        "en": "A directory lists Monday–Saturday 9 AM–8 PM, closed Sunday. Clinician hours may vary."
+      }
+    },
+    {
+      "q": {
+        "id": "Di mana alamat klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Klinik tercatat di Jl. Aria Wangsakara No.02, kawasan Sukamulya, Tigaraksa.",
+        "en": "The listed address is Jl. Aria Wangsakara No.02, Sukamulya, Tigaraksa."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada pembersihan karang gigi?",
+        "en": "Is dental scaling available?"
+      },
+      "a": {
+        "id": "Scaling tercantum dalam informasi publik. Tanyakan jadwal dan persyaratan sebelum datang.",
+        "en": "Scaling appears in public information. Please check appointment times and requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS?",
+        "en": "Does the clinic accept BPJS?"
+      },
+      "a": {
+        "id": "Status kepesertaan dan layanan yang ditanggung perlu dikonfirmasi melalui klinik atau aplikasi JKN.",
+        "en": "Please verify eligibility and covered services with the clinic or the JKN app."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya tindakan?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Mintalah rincian perkiraan biaya sebelum menyetujui tindakan.",
+        "en": "An official fee schedule was not found. Ask for an estimate before agreeing to treatment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Layanan dan Jadwal",
+    "en": "Confirm Services and Hours"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan dan ketersediaan layanan di Klinik Kencana Medika Tigaraksa. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, pengelola Klinik Kencana Medika Tigaraksa. Saya Rizqi dari Maxi Growth Studio. Saya menemukan klinik ini tercantum dalam daftar koordinasi fasilitas kesehatan Tigaraksa dan informasi layanan gigi di direktori publik. Kami menyiapkan konsep website yang merangkum layanan, lokasi, dan cara menanyakan jadwal. Silakan melihatnya di https://maxigrowthstudio.com/kencana-medika. Bila berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website Klinik Kencana Medika Tigaraksa",
+    "email_isi": "Yth. Manajemen Klinik Kencana Medika Tigaraksa,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi publik mengenai layanan klinik dan pemeriksaan gigi di Tigaraksa. Berdasarkan informasi tersebut, kami menyiapkan konsep website dengan panduan layanan, informasi lokasi, dan akses konfirmasi jadwal.\n\nKonsep dapat ditinjau melalui https://maxigrowthstudio.com/kencana-medika. Proposal PDF kami lampirkan untuk bahan pertimbangan.\n\nBila ada kebutuhan atau koreksi informasi, kami siap mendengarkan. Terima kasih atas waktunya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2373",
+  "hero": {
+    "judul": {
+      "id": "Informasi Layanan Klinik Dewi Medika",
+      "en": "Klinik Dewi Medika Services"
+    },
+    "sub": {
+      "id": "Temukan informasi awal mengenai layanan kesehatan di kawasan Teluknaga. Konfirmasikan jadwal tenaga medis sebelum berkunjung.",
+      "en": "Find initial information about healthcare services in Teluknaga. Please confirm clinician availability before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Layanan",
+      "en": "Ask About Service Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Kesehatan Umum",
+        "en": "General Health Consultation"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan awal keluhan kesehatan dan arahan tindak lanjut sesuai penilaian tenaga medis.",
+        "en": "An initial assessment of health concerns and guidance on possible next steps."
+      }
+    },
+    {
+      "nama": {
+        "id": "Layanan Kebidanan",
+        "en": "Midwifery Services"
+      },
+      "ringkas": {
+        "id": "Informasi layanan kebidanan dan jadwal pemeriksaan yang perlu dikonfirmasi sebelum datang.",
+        "en": "Information on midwifery services and appointments, subject to confirmation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemeriksaan Kehamilan",
+        "en": "Pregnancy Check-up"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan terkait kehamilan sesuai ketersediaan tenaga medis dan fasilitas.",
+        "en": "Pregnancy-related assessments subject to clinician and equipment availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Pemeriksaan keluhan gigi dan penjelasan pilihan penanganan berdasarkan evaluasi dokter gigi.",
+        "en": "Dental assessment and discussion of care options following a dentist's evaluation."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Jenis Layanan",
+      "en": "Find the Right Service"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan kesehatan umum, kebidanan, atau gigi untuk melihat informasi persiapan kunjungan dan cara menanyakan jadwal.",
+      "en": "Choose general care, midwifery, or dental care to see visit preparation information and how to check schedules."
+    },
+    "alasan_dipilih": "Direktori publik mengaitkan lokasi Teluknaga dengan beberapa kategori layanan kesehatan; jadwal per layanan belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic located?"
+      },
+      "a": {
+        "id": "Alamat yang tercatat adalah Jl. Raya Kyai H. Mushonif, Kampung Besar, Teluknaga, Kabupaten Tangerang.",
+        "en": "The listed address is Jl. Raya Kyai H. Mushonif, Kampung Besar, Teluknaga, Tangerang Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik buka sepanjang hari?",
+        "en": "Is the clinic open around the clock?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan fasilitas buka 24 jam, tetapi jam dokter dan layanan tertentu perlu dikonfirmasi.",
+        "en": "A directory lists 24-hour facility operations, but clinician and service schedules need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan kehamilan?",
+        "en": "Are pregnancy check-ups available?"
+      },
+      "a": {
+        "id": "Informasi publik menyebut layanan kebidanan dan pemeriksaan kehamilan. Tanyakan jenis pemeriksaan serta jadwal yang tersedia.",
+        "en": "Public information mentions midwifery and pregnancy assessments. Please check the available examination types and schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan dokter gigi?",
+        "en": "Is dental care available?"
+      },
+      "a": {
+        "id": "Layanan gigi tercantum pada direktori. Konfirmasikan jadwal dokter gigi sebelum berkunjung.",
+        "en": "Dental care appears in a directory. Please confirm the dentist's schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does a visit cost?"
+      },
+      "a": {
+        "id": "Daftar tarif resmi belum ditemukan. Mintalah perkiraan biaya sesuai layanan yang dibutuhkan sebelum tindakan.",
+        "en": "An official fee schedule was not found. Ask for an estimate based on the service you need."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasi Ketersediaan Tenaga Medis",
+    "en": "Confirm Clinician Availability"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal dan jenis layanan Klinik Dewi Medika di Teluknaga. Mohon informasi ketersediaan tenaga medis dan perkiraan biaya pemeriksaan. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, pengelola Klinik Dewi Medika. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi publik mengenai layanan kesehatan umum dan kebidanan di Teluknaga. Kami menyusun konsep website untuk memudahkan pasien memahami jenis layanan dan mengecek jadwal kunjungan. Konsep dapat dilihat di https://maxigrowthstudio.com/dewi-medika. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Dewi Medika",
+    "email_isi": "Yth. Manajemen Klinik Dewi Medika,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Dari informasi publik, kami melihat lokasi Teluknaga tercantum memiliki beberapa jenis layanan kesehatan. Kami menyusun konsep website yang membantu pasien memilih jenis layanan, memahami persiapan kunjungan, dan menanyakan jadwal tenaga medis.\n\nKonsepnya dapat dilihat di https://maxigrowthstudio.com/dewi-medika. Proposal PDF kami lampirkan sebagai bahan pertimbangan.\n\nApabila relevan, kami terbuka untuk mendengar kebutuhan klinik. Terima kasih.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
