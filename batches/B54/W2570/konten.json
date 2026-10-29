@@ -1,0 +1,132 @@
+{
+  "id": "W2570",
+  "hero": {
+    "judul": {
+      "id": "Informasi Kesehatan Gigi di rumahgigi.ku Klaten",
+      "en": "Dental Care Information at rumahgigi.ku Klaten"
+    },
+    "sub": {
+      "id": "Informasi praktik, topik perawatan, dan cara menghubungi klinik.",
+      "en": "Practice information, care topics, and ways to contact the clinic."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan keluhan sebelum menentukan tindakan.",
+        "en": "Discuss your concerns before choosing care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan untuk anak.",
+        "en": "Ask about children's appointment options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Tanyakan opsi penggantian gigi setelah pemeriksaan.",
+        "en": "Ask about tooth replacement options after an examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan kesesuaian perawatan dengan kebutuhan Anda.",
+        "en": "Ask whether scaling is appropriate for you."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Sebelum Konsultasi",
+      "en": "Before-Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik keluhan dan siapkan pertanyaan sebelum menghubungi klinik.",
+      "en": "Choose a concern and prepare questions before contacting the clinic."
+    },
+    "alasan_dipilih": "Membantu pasien mempersiapkan konsultasi tanpa memberikan diagnosis otomatis."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi kontak klinik untuk menanyakan ketersediaan jadwal.",
+        "en": "Contact the clinic to ask about appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik pada direktori berbeda. Konfirmasi langsung dengan klinik.",
+        "en": "Directory hours differ. Please confirm with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is an examination?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Tanyakan biaya kepada admin klinik.",
+        "en": "A verified price list is not available. Ask the clinic about fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan anak?",
+        "en": "Do you see children?"
+      },
+      "a": {
+        "id": "Konfirmasi jenis layanan dan usia pasien yang diterima sebelum membuat janji.",
+        "en": "Please confirm available services and accepted ages before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Do you accept insurance?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Silakan tanyakan langsung.",
+        "en": "Insurance arrangements have not been verified. Please ask directly."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik",
+    "en": "Contact the Clinic"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya jadwal konsultasi di rumahgigi.ku Klaten. Apakah ada slot yang tersedia?",
+  "outreach": {
+    "wa": "Yth. pengelola rumahgigi.ku Klaten, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi publik mengenai lokasi praktik di Sendono, Ceper. Kami telah menyiapkan konsep website untuk klinik di https://maxigrowthstudio.com/rumahgigi-ku. Jika berkenan, silakan ditinjau sebagai bahan pertimbangan. Terima kasih.",
+    "email_subjek": "Konsep website untuk rumahgigi.ku Klaten",
+    "email_isi": "Yth. pengelola rumahgigi.ku Klaten,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mempelajari informasi publik mengenai lokasi praktik di Sendono, Ceper dan menyiapkan konsep website agar pasien lebih mudah menemukan informasi praktik dan kontak. Konsep dapat ditinjau di https://maxigrowthstudio.com/rumahgigi-ku.\n\nProposal PDF terlampir untuk bahan pertimbangan. Kami dapat dihubungi melalui WhatsApp 082141004400 atau info@maxigrowthstudio.com.\n\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio"
+  }
+}
