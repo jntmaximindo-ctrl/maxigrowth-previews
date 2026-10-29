@@ -76,5 +76,22 @@
     "https://caribisnis.id/dokter-gigi/bogor/bogor-tengah/klinik-q-medical-n-dental-clin-bogo-imp1",
     "https://linktr.ee/Klinikq1",
     "https://www.ulastempat.com/7-klinik-di-bogor-tengah-dengan-pelayanan-terbaik/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Q Medical n Dental Clinic",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Tentara Pelajar No.20G, RT.05/RW.11, Ciwaringin, Bogor Tengah, Kota Bogor, Jawa Barat 16111",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622518332008",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }
