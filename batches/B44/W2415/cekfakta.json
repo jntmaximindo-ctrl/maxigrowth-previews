@@ -1,0 +1,43 @@
+{
+  "id": "W2415",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dr. Gigi Markus Tigreal Mo",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kalijudan Taruna V No.2, Kalijudan, Mulyorejo, Surabaya, Jawa Timur 60114",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281239871234",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281239871234",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/ [cabang[0].alamat]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE [cabang[0].telepon]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE [cabang[0].wa]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

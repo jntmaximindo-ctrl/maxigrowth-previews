@@ -84,5 +84,32 @@
     "https://www.ulastempat.com/7-klinik-di-mijen-dengan-pelayanan-terbaik/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/",
     "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "PRATAMA DENTAL CARE (Dokter Gigi Mijen Semarang)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Rm. Hadisoebeno Sosro Wardoyo No.60, Mijen, Kota Semarang, Jawa Tengah 50213",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285600576943",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285600576943",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": \"09-20\", \"min\": \"09-16\"}",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

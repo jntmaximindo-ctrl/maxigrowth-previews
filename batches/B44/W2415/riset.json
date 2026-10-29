@@ -75,5 +75,27 @@
   "sumber": [
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mulyorejo/",
     "https://www.google.com/maps/place/?q=place_id:ChIJc-n0QY751y0RGZPCRIPMeuE"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dr. Gigi Markus Tigreal Mo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kalijudan Taruna V No.2, Kalijudan, Mulyorejo, Surabaya, Jawa Timur 60114",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281239871234",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281239871234",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

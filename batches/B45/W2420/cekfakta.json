@@ -1,0 +1,50 @@
+{
+  "id": "W2420",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "PRATAMA DENTAL CARE (Dokter Gigi Mijen Semarang)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-klinik-di-mijen-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Rm. Hadisoebeno Sosro Wardoyo No.60, Mijen, Kota Semarang, Jawa Tengah 50213",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/7-klinik-di-mijen-dengan-pelayanan-terbaik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285600576943",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285600576943",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": \"09-20\", \"min\": \"09-16\"}",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/7-klinik-di-mijen-dengan-pelayanan-terbaik/ [nama]",
+    "https://www.ulastempat.com/7-klinik-di-mijen-dengan-pelayanan-terbaik/ [cabang[0].alamat]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek [cabang[0].telepon]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek [cabang[0].wa]",
+    "https://www.google.com/maps/place/?q=place_id:ChIJN-pBt6dhcC4RWUXpYWID9ek [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
