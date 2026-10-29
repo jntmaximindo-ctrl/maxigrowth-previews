@@ -129,5 +129,42 @@
     "https://fixpalembang.com/dokter-gigi-kudus/",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/",
     "https://hargapromosi.id/dokter-gigi-kudus/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Septa Afifin & Dokter Gigi Destari Amelia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jend. Sudirman, Ruko No. 37 D, Barongan, Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59312",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281229200071",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281229200071",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-14\", \"sel\": \"09-14\", \"rab\": \"09-14\", \"kam\": \"09-14\", \"jum\": \"09-14\", \"sab\": \"09-14\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Septa Afifin",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "Dokter Gigi Destari Amelia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

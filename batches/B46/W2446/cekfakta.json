@@ -1,0 +1,66 @@
+{
+  "id": "W2446",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Septa Afifin & Dokter Gigi Destari Amelia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Jend. Sudirman, Ruko No. 37 D, Barongan, Kec. Kota Kudus, Kabupaten Kudus, Jawa Tengah 59312",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281229200071",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281229200071",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-14\", \"sel\": \"09-14\", \"rab\": \"09-14\", \"kam\": \"09-14\", \"jum\": \"09-14\", \"sab\": \"09-14\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Septa Afifin",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://fixpalembang.com/dokter-gigi-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "Dokter Gigi Destari Amelia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/ [nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/ [cabang[0].alamat]",
+    "https://fixpalembang.com/dokter-gigi-kudus/ [cabang[0].telepon]",
+    "https://fixpalembang.com/dokter-gigi-kudus/ [cabang[0].wa]",
+    "https://fixpalembang.com/dokter-gigi-kudus/ [cabang[0].jam]",
+    "https://fixpalembang.com/dokter-gigi-kudus/ [dokter[0].nama]",
+    "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-kab-kudus/ [dokter[1].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

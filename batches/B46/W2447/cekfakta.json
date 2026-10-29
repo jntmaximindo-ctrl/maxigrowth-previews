@@ -1,0 +1,19 @@
+{
+  "id": "W2447",
+  "diperiksa": 5,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287855460399",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.waze.com/live-map/directions/id/jawa-timur/dokter-gigi-malang-or-klinik-gigi-b-dental?to=place.ChIJr8hYIVwo1i0R56Ky3a5hF_I",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/bdentalclinic [instagram]",
+    "https://linktr.ee/bdentalclinic [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
