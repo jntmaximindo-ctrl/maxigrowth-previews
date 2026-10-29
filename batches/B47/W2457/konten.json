@@ -1,0 +1,152 @@
+{
+  "id": "W2457",
+  "hero": {
+    "judul": {
+      "id": "Perawatan gigi keluarga di Sidharta Dental Studio",
+      "en": "Family dental care at Sidharta Dental Studio"
+    },
+    "sub": {
+      "id": "Informasi layanan, lokasi praktik di Klojen, dan cara mengatur kunjungan.",
+      "en": "Explore dental services, the Klojen location, and how to arrange a visit."
+    },
+    "cta": {
+      "id": "Lihat informasi kunjungan",
+      "en": "Plan your visit"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Scaling"
+      },
+      "ringkas": {
+        "id": "Informasi mengenai scaling dan dental spa. Konsultasikan kebutuhan perawatan dengan tim klinik.",
+        "en": "Learn about scaling and dental spa. Discuss suitable care with the clinic team."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Kenali layanan penambalan dan tanyakan pemeriksaan yang diperlukan sebelum tindakan.",
+        "en": "Explore filling services and ask about the examination needed before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal care"
+      },
+      "ringkas": {
+        "id": "Pelajari tujuan perawatan saluran akar dan langkah konsultasi awal.",
+        "en": "Understand root canal care and how to arrange an initial consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children's dental care"
+      },
+      "ringkas": {
+        "id": "Informasi layanan pemeriksaan gigi anak serta cara menanyakan jadwal kunjungan.",
+        "en": "Information about children's dental checkups and how to confirm appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pemindaian gigi digital",
+        "en": "Digital dental scanning"
+      },
+      "ringkas": {
+        "id": "Situs klinik mencantumkan pemindaian intraoral. Tanyakan apakah pemeriksaan ini diperlukan untuk kebutuhan Anda.",
+        "en": "The clinic lists intraoral scanning. Ask whether it is appropriate for your needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan kunjungan",
+      "en": "Visit planning guide"
+    },
+    "penjelasan": {
+      "id": "Pilih jenis layanan, lihat alamat dan jam yang dipublikasikan, lalu hubungi klinik untuk memastikan jadwal dan biaya.",
+      "en": "Choose a service, review the published location and hours, then contact the clinic to confirm availability and fees."
+    },
+    "alasan_dipilih": "Situs resmi mencantumkan layanan beragam, alamat dan jam Senin–Jumat, tetapi tidak menampilkan nomor WhatsApp terbuka atau jam akhir pekan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi Sidharta Dental Studio?",
+        "en": "Where is Sidharta Dental Studio located?"
+      },
+      "a": {
+        "id": "Jl. Dieng No.14, Gading Kasri, Klojen, Kota Malang. Konfirmasikan petunjuk arah sebelum berangkat.",
+        "en": "At Jl. Dieng No.14, Gading Kasri, Klojen, Malang. Check directions before travelling."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam operasional yang tercantum?",
+        "en": "What opening hours are listed?"
+      },
+      "a": {
+        "id": "Halaman kontak mencantumkan Senin–Jumat pukul 09.00–21.00 WIB. Jadwal akhir pekan perlu dikonfirmasi.",
+        "en": "The contact page lists Monday–Friday, 9 AM–9 PM WIB. Weekend hours need confirmation."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Gunakan formulir reservasi pada situs klinik atau hubungi telepon (0341) 562987.",
+        "en": "Use the appointment form on the clinic website or call (0341) 562987."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan untuk anak?",
+        "en": "Is children's dental care available?"
+      },
+      "a": {
+        "id": "Situs klinik mencantumkan layanan gigi anak. Tanyakan jadwal dan kebutuhan kunjungan saat menghubungi klinik.",
+        "en": "The clinic lists children's dental services. Contact the team to confirm schedules and visit requirements."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau penambalan?",
+        "en": "How much do scaling and fillings cost?"
+      },
+      "a": {
+        "id": "Harga belum ditemukan pada sumber resmi yang diperiksa. Hubungi klinik untuk informasi biaya sesuai pemeriksaan.",
+        "en": "Published fees were not found in the official sources reviewed. Contact the clinic for treatment-specific pricing."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah klinik menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum dapat dipastikan dari sumber yang diperiksa. Mohon konfirmasi langsung.",
+        "en": "Insurance acceptance could not be confirmed from the reviewed sources. Please check with the clinic."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi klinik untuk konfirmasi kunjungan",
+    "en": "Contact the clinic to confirm your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin bertanya tentang jadwal dan biaya perawatan di Sidharta Dental Studio. Apakah bisa dibantu informasinya? Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, tim Sidharta Dental Studio. Saya Rizqi dari Maxi Growth Studio. Saya melihat situs klinik sudah memuat layanan pemindaian intraoral dan informasi reservasi. Kami menyusun konsep tampilan website yang menonjolkan panduan kunjungan dan informasi layanan, untuk ditinjau di https://maxigrowthstudio.com/drg-andri. Jika berkenan, saya dapat mengirim ringkasan konsepnya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Sidharta Dental Studio",
+    "email_isi": "Yth. Tim Sidharta Dental Studio,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau situs resmi klinik dan melihat informasi mengenai layanan gigi keluarga, pemindaian intraoral, serta formulir reservasi.\n\nKami menyusun konsep tampilan website yang berfokus pada panduan kunjungan, penjelasan layanan, dan akses informasi jadwal. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-andri.\n\nProposal PDF terlampir untuk pertimbangan tim. Apabila sesuai kebutuhan, kami terbuka untuk mendiskusikannya.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\ninfo@maxigrowthstudio.com\n082141004400"
+  }
+}
