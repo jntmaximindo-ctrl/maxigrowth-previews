@@ -1,0 +1,132 @@
+{
+  "id": "W2331",
+  "hero": {
+    "judul": {
+      "id": "drg. Murphy Kaihatu",
+      "en": "drg. Murphy Kaihatu"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan persiapan kunjungan di Ambon.",
+      "en": "Location and visit preparation in Ambon."
+    },
+    "cta": {
+      "id": "Hubungi klinik melalui telepon",
+      "en": "Call the clinic"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Tanyakan jenis perawatan",
+        "en": "Ask about treatment options"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan pemeriksaan awal",
+        "en": "Ask about an initial assessment"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan jadwal dokter",
+        "en": "Ask about dentist availability"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tanyakan rincian biaya",
+        "en": "Ask about costs"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan kepada admin sebelum membuat janji.",
+        "en": "Confirm with the team before booking."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang jadwal, pemeriksaan, dan biaya untuk admin.",
+      "en": "Prepare questions about appointments, assessments and costs for the team."
+    },
+    "alasan_dipilih": "Membantu menyiapkan pertanyaan karena daftar tindakan, dokter, dan tarif belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana kliniknya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123; konfirmasikan sebelum datang.",
+        "en": "Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123; confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam kunjungan?",
+        "en": "What are the visiting hours?"
+      },
+      "a": {
+        "id": "Hubungi klinik di 62911341444 untuk jadwal terbaru.",
+        "en": "Contact 62911341444 to confirm the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biayanya?",
+        "en": "How much does it cost?"
+      },
+      "a": {
+        "id": "Tarif belum tersedia. Minta rincian biaya kepada admin.",
+        "en": "Rates are not available. Ask the team for a breakdown."
+      }
+    },
+    {
+      "q": {
+        "id": "Perawatan apa yang tersedia?",
+        "en": "What treatments are available?"
+      },
+      "a": {
+        "id": "Daftar tindakan belum terverifikasi. Sampaikan kebutuhan Anda kepada admin.",
+        "en": "The treatment list has not been verified. Tell the team what you need."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah asuransi diterima?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Kerja sama asuransi belum terverifikasi. Tanyakan kepada klinik dan penyedia asuransi.",
+        "en": "Insurance arrangements have not been verified. Check with the clinic and your insurer."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Siapkan pertanyaan sebelum berkunjung",
+    "en": "Prepare your questions before visiting"
+  },
+  "pesan_wa_default": "Halo drg. Murphy Kaihatu, saya ingin menanyakan jadwal, lokasi dan biaya kunjungan. Terima kasih.",
+  "outreach": {
+    "wa": "Yth. Pengelola drg. Murphy Kaihatu. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan praktik di Ambon. Kami mengusulkan halaman lokasi dan panduan kunjungan: https://maxigrowthstudio.com/drg-murphy. Mohon tinjau informasi sebelum digunakan. WA 082141004400, info@maxigrowthstudio.com.",
+    "email_subjek": "Konsep website drg. Murphy Kaihatu",
+    "email_isi": "Yth. Pengelola drg. Murphy Kaihatu,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Sumber publik mencantumkan lokasi di Jl. Tulukabessy No.4, Kel Rijali, Sirimau, Kota Ambon, Maluku 97123. Kami mengusulkan halaman lokasi dan panduan pertanyaan kunjungan. Tautan konsep: https://maxigrowthstudio.com/drg-murphy. Data perlu ditinjau pengelola sebelum digunakan. Proposal PDF terlampir untuk ditinjau.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
