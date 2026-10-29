@@ -45,10 +45,18 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
+        "v": {
+          "sen": "18-21",
+          "sel": "18-21",
+          "rab": "18-21",
+          "kam": "18-21",
+          "jum": "18-21",
+          "sab": "18-21",
+          "min": "tutup"
+        },
+        "src": "https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali",
         "tgl": "2026-10-29",
-        "yakin": "rendah"
+        "yakin": "sedang"
       },
       "maps_url": ""
     }
@@ -70,7 +78,7 @@ RISET LAMA:
     "Tarif resmi dan jadwal individual dokter belum ditemukan pada halaman yang dibaca."
   ],
   "ide_fitur_khas": "Pemilih informasi kunjungan: lokasi, jadwal, kebutuhan dan biaya, disertai kontak untuk konfirmasi.",
-  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali, https://alamattempatnya.blogspot.com/2019/03/dokter-gigi-ambon.html. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Identitas, lokasi dan kontak dibaca pada sumber publik; status operasional hari ini belum dikonfirmasi. Tidak memakai ulasan sebagai klaim hasil atau bukti layanan. Akun sosial, email resmi, jenis tindakan dan dokter individual belum terverifikasi. Sumber Near-place dan blog lama memuat nomor telepon tetap sama. Tidak mengubahnya menjadi ponsel/WA. Blog 2019 dan komentar Near-place 2016/2017 menandakan data bisa usang. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
+  "catatan": "Dibaca 29 Oktober 2026; tanggal akses bukan tanggal pembaruan usaha. Nomor yang ditemukan hanya telepon tetap; WA null. Hasil tetap ditulis sesuai instruksi pemilik. email tidak ditemukan setelah dicari di https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali, https://alamattempatnya.blogspot.com/2019/03/dokter-gigi-ambon.html. harga belum tersedia. Rating/ulasan Google Maps tidak diperiksa langsung sehingga null; angka dari surat tidak dianggap terverifikasi. Revisi dibaca ulang 29 Oktober 2026 pada Near-place dan blog Ambon. Keduanya memuat nomor tetap dan alamat sama. Jam bersumber Near-place. Data blog 2019 dan komentar 2016/2017 bisa usang; konfirmasi sebelum berkunjung. Pencarian nama+WhatsApp/email tidak menemukan ponsel atau email praktik. Tidak memakai nomor dokter lain dalam daftar. Empat kartu konten adalah panduan administratif, bukan klaim tindakan medis yang tersedia. Tidak menghubungi klinik. Outreach hanya draf; konsep website dan lampiran proposal harus tersedia sebelum draf digunakan.",
   "sumber": [
     "https://id.near-place.com/drg-murphy-kaihatu-jalan-tulukabessy-no4-kel-rijali",
     "https://alamattempatnya.blogspot.com/2019/03/dokter-gigi-ambon.html"
@@ -89,6 +97,11 @@ RISET LAMA:
     {
       "path": "cabang[0].telepon",
       "tercatat": "62911341444",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"18-21\", \"sab\": \"18-21\", \"min\": \"tutup\"}",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]
