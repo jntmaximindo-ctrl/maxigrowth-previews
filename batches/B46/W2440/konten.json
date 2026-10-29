@@ -1,0 +1,132 @@
+{
+  "id": "W2440",
+  "hero": {
+    "judul": {
+      "id": "Praktek Drg. Putri Asri Prima di Serang",
+      "en": "Drg. Putri Asri Prima Dental Practice in Serang"
+    },
+    "sub": {
+      "id": "Informasi praktik gigi di Jalan Sayabulu dengan jadwal sore yang perlu dikonfirmasi.",
+      "en": "Dental practice information on Jalan Sayabulu, with afternoon hours to confirm."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal praktik",
+      "en": "Ask about practice hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan gigi kepada pihak praktik.",
+        "en": "Ask the practice about dental examination appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi umum",
+        "en": "General dental care"
+      },
+      "ringkas": {
+        "id": "Direktori publik mencantumkan perawatan gigi umum.",
+        "en": "General dental care appears in public directory listings."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori; konfirmasi sebelum datang.",
+        "en": "This service is listed in a directory; confirm before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan cabut gigi",
+        "en": "Fillings and extractions"
+      },
+      "ringkas": {
+        "id": "Deskripsi direktori menyebut tindakan ini, namun ketersediaannya perlu dipastikan.",
+        "en": "A directory description mentions these treatments, but availability should be confirmed."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan jadwal sore",
+      "en": "Afternoon-hours guide"
+    },
+    "penjelasan": {
+      "id": "Pilih hari untuk melihat waktu praktik yang tercantum pada direktori, lalu pastikan melalui nomor praktik.",
+      "en": "Choose a day to view directory-listed hours, then confirm them using the practice's public number."
+    },
+    "alasan_dipilih": "Jam praktik sore berbeda menurut hari sehingga panduan membantu perencanaan kunjungan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Jalan Sayabulu, Serang, Kecamatan Serang, Kota Serang, Banten 42116.",
+        "en": "Jalan Sayabulu, Serang District, Serang City, Banten 42116."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin, Selasa, Jumat 17.00–20.00; Rabu dan Kamis 15.00–20.00; akhir pekan tutup. Konfirmasi sebelum datang.",
+        "en": "Directories list Monday, Tuesday and Friday 17:00–20:00; Wednesday and Thursday 15:00–20:00; weekends closed. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya perawatan?",
+        "en": "How can I find out about treatment fees?"
+      },
+      "a": {
+        "id": "Biaya belum tercantum dalam sumber yang diperiksa. Silakan tanyakan kepada pihak praktik.",
+        "en": "Fees were not published in the reviewed sources. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pembersihan karang gigi?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum pada direktori publik. Pastikan ketersediaannya saat menghubungi praktik.",
+        "en": "This service appears in a public directory. Please confirm availability with the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Tanyakan kepada pihak praktik.",
+        "en": "Insurance arrangements were not found in the reviewed sources. Please check with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan jadwal dan layanan.",
+    "en": "Contact the practice to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan ketersediaan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktek Drg. Putri Asri Prima, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di Jalan Sayabulu dengan jadwal sore pada hari kerja. Kami menyiapkan konsep website yang menampilkan jadwal dan kontak secara jelas di https://maxigrowthstudio.com/drg-putri. Jika berkenan, kami terbuka menerima tanggapan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktek Drg. Putri Asri Prima",
+    "email_isi": "Yth. Pengelola Praktek Drg. Putri Asri Prima,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk memudahkan penyampaian informasi lokasi, jam praktik sore, dan kontak. Konsep dapat dilihat di https://maxigrowthstudio.com/drg-putri. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan jika berkenan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}

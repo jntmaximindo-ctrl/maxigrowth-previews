@@ -1,0 +1,132 @@
+{
+  "id": "W2441",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Klinik Puri Dental Care",
+      "en": "Dental Care Information at Klinik Puri Dental Care"
+    },
+    "sub": {
+      "id": "Kenali lokasi praktik dan tanyakan jadwal kunjungan sesuai kebutuhan.",
+      "en": "Find the practice location and ask about suitable appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian perawatan setelah pemeriksaan dokter gigi.",
+        "en": "Ask about treatment availability and suitability following a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kesehatan gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kesesuaian perawatan setelah pemeriksaan dokter gigi.",
+        "en": "Ask about treatment availability and suitability following a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jenis Perawatan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis layanan dan jadwal yang tersedia sebelum datang.",
+        "en": "Ask about available services and appointments before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal Kunjungan",
+        "en": "Appointment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan jenis layanan dan jadwal yang tersedia sebelum datang.",
+        "en": "Ask about available services and appointments before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Formulir permintaan lokasi lengkap dan jadwal kunjungan",
+      "en": "Dental Appointment and Care Enquiry Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan atau jadwal yang ingin ditanyakan, lalu kirim pertanyaan ke kontak klinik.",
+      "en": "Choose a treatment or appointment question and send an enquiry to the clinic."
+    },
+    "alasan_dipilih": "Alamat jalan belum tersedia dalam direktori, sehingga calon pasien perlu konfirmasi lokasi"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan Serang, Kota Serang, Banten 42116 (alamat jalan belum ditemukan).",
+        "en": "Public directories list Serang, Kota Serang, Banten 42116 (alamat jalan belum ditemukan)."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal?",
+        "en": "How can I ask about appointments?"
+      },
+      "a": {
+        "id": "Gunakan nomor kontak publik dan konfirmasikan jam praktik sebelum datang.",
+        "en": "Use the public contact number and confirm current opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi?",
+        "en": "Are dental checkups available?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal pemeriksaan dan kebutuhan konsultasi kepada praktik.",
+        "en": "Ask the practice about examination appointments and consultation needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan yang saya butuhkan?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar layanan publik mungkin belum lengkap. Tanyakan tindakan yang tersedia langsung kepada klinik.",
+        "en": "Public service lists may be incomplete. Please check availability directly with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi yang mutakhir belum tersedia. Mintalah estimasi sebelum tindakan.",
+        "en": "A current official fee list was not found. Please request an estimate before treatment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Kunjungan",
+    "en": "Ask About Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di Klinik Puri Dental Care. Apakah ada waktu kunjungan yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola Klinik Puri Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi praktik di Kota Serang melalui sumber publik. Kami menyiapkan konsep website agar pasien lebih mudah menemukan lokasi, memahami informasi layanan, dan menanyakan jadwal. Konsepnya bisa dilihat di https://maxigrowthstudio.com/puri. Jika berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Puri Dental Care",
+    "email_isi": "Yth. Tim Klinik Puri Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik tentang praktik Anda di Kota Serang.\n\nKami menyiapkan konsep website untuk membantu pasien menemukan lokasi, melihat informasi layanan, dan menanyakan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/puri.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk masukan dan koreksi data.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

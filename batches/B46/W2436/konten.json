@@ -1,0 +1,132 @@
+{
+  "id": "W2436",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di RJH Dental Care",
+      "en": "Dental Care Information at RJH Dental Care"
+    },
+    "sub": {
+      "id": "Kenali lokasi praktik dan tanyakan jadwal kunjungan sesuai kebutuhan.",
+      "en": "Find the practice location and ask about suitable appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental Examination"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan ketersediaan layanan ini dengan dokter gigi.",
+        "en": "Discuss your needs and treatment availability with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi kesehatan gigi",
+        "en": "Dental Consultation"
+      },
+      "ringkas": {
+        "id": "Diskusikan kebutuhan dan ketersediaan layanan ini dengan dokter gigi.",
+        "en": "Discuss your needs and treatment availability with a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jenis Perawatan",
+        "en": "Treatment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal terkini sebelum datang.",
+        "en": "Ask about available services and current appointments before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi Jadwal Kunjungan",
+        "en": "Appointment Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan dan jadwal terkini sebelum datang.",
+        "en": "Ask about available services and current appointments before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan pertanyaan jadwal praktik sore dan malam di Abepura",
+      "en": "Dental Appointment and Care Enquiry Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik perawatan atau jadwal yang ingin ditanyakan, lalu kirim pertanyaan ke kontak klinik.",
+      "en": "Choose a treatment or appointment question and send an enquiry to the clinic."
+    },
+    "alasan_dipilih": "Direktori mencantumkan jadwal 13.00–21.00; situs web mandiri belum ditemukan"
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Direktori publik mencantumkan Jl. Raya Kotaraja - Abepura, Lantai 2 Apotek K, Depan GOR Waringin No.24, Kotaraja, Abepura, Kota Jayapura, Papua 99225.",
+        "en": "Public directories list Jl. Raya Kotaraja - Abepura, Lantai 2 Apotek K, Depan GOR Waringin No.24, Kotaraja, Abepura, Kota Jayapura, Papua 99225."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara menanyakan jadwal?",
+        "en": "How can I ask about appointments?"
+      },
+      "a": {
+        "id": "Gunakan nomor kontak publik dan konfirmasikan jam praktik sebelum datang.",
+        "en": "Use the public contact number and confirm current opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia pemeriksaan gigi?",
+        "en": "Are dental checkups available?"
+      },
+      "a": {
+        "id": "Tanyakan jadwal pemeriksaan dan kebutuhan konsultasi kepada praktik.",
+        "en": "Ask the practice about examination appointments and consultation needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan yang saya butuhkan?",
+        "en": "Is the treatment I need available?"
+      },
+      "a": {
+        "id": "Daftar layanan publik mungkin belum lengkap. Tanyakan tindakan yang tersedia langsung kepada klinik.",
+        "en": "Public service lists may be incomplete. Please check availability directly with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi yang mutakhir belum tersedia. Mintalah estimasi sebelum tindakan.",
+        "en": "A current official fee list was not found. Please request an estimate before treatment."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Kunjungan",
+    "en": "Ask About Your Visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal pemeriksaan gigi di RJH Dental Care. Apakah ada waktu kunjungan yang tersedia? Terima kasih.",
+  "outreach": {
+    "wa": "Halo, Bapak/Ibu pengelola RJH Dental Care. Saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi praktik di Jayapura melalui direktori publik. Kami menyiapkan konsep website agar pasien lebih mudah menemukan lokasi, memahami informasi layanan, dan menanyakan jadwal. Konsepnya bisa dilihat di https://maxigrowthstudio.com/rjh. Jika berkenan, kami terbuka untuk masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk RJH Dental Care",
+    "email_isi": "Yth. Tim RJH Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami meninjau informasi publik tentang praktik Anda di Jayapura.\n\nKami menyiapkan konsep website untuk membantu pasien menemukan lokasi, melihat informasi layanan, dan menanyakan jadwal. Konsep dapat dilihat di https://maxigrowthstudio.com/rjh.\n\nProposal PDF terlampir sebagai bahan pertimbangan. Kami terbuka untuk masukan dan koreksi data.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

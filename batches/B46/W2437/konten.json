@@ -1,0 +1,132 @@
+{
+  "id": "W2437",
+  "hero": {
+    "judul": {
+      "id": "Klinik Gigi Widjaja di Serang",
+      "en": "Widjaja Dental Clinic in Serang"
+    },
+    "sub": {
+      "id": "Informasi lokasi, layanan gigi, dan jadwal praktik yang perlu dikonfirmasi sebelum kunjungan.",
+      "en": "Location, dental care information, and practice hours to confirm before visiting."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal praktik",
+      "en": "Ask about practice hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan gigi",
+        "en": "Dental examination"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan dan konsultasi kepada pihak praktik.",
+        "en": "Ask the practice about examination and consultation appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi umum",
+        "en": "General dental care"
+      },
+      "ringkas": {
+        "id": "Informasi perawatan gigi umum tercantum pada direktori publik.",
+        "en": "General dental care appears in public directory listings."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Layanan tercantum pada direktori; pastikan ketersediaannya.",
+        "en": "This service appears in a directory; please confirm availability."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal dan cabut gigi",
+        "en": "Fillings and extractions"
+      },
+      "ringkas": {
+        "id": "Deskripsi direktori menyebut tindakan ini; konfirmasi ketersediaan dan kebutuhan pemeriksaan.",
+        "en": "These treatments appear in a directory description; please confirm availability and assessment needs."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan jam kunjungan",
+      "en": "Visit-hours guide"
+    },
+    "penjelasan": {
+      "id": "Lihat jam yang tercantum pada direktori dan konfirmasi melalui kontak praktik sebelum datang.",
+      "en": "Review directory-listed hours and confirm them with the practice before visiting."
+    },
+    "alasan_dipilih": "Jam mulai berbeda antarsumber, sehingga panduan harus menampilkan catatan verifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Ruko Subur Jaya, Jalan Jenderal Ahmad Yani Serang, Cimuncang, Kota Serang.",
+        "en": "Ruko Subur Jaya, Jalan Jenderal Ahmad Yani Serang, Cimuncang, Serang City."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan praktik buka?",
+        "en": "When is the practice open?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Senin–Jumat hingga pukul 20.00 dan tutup akhir pekan. Jam mulai berbeda antarsumber; mohon konfirmasi.",
+        "en": "Directories list weekday hours until 20:00 and weekend closure. Opening times differ between sources; please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I find out about fees?"
+      },
+      "a": {
+        "id": "Biaya belum ditemukan dalam sumber yang diperiksa. Tanyakan langsung kepada praktik.",
+        "en": "Fees were not found in the reviewed sources. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada pembersihan karang gigi?",
+        "en": "Is teeth cleaning available?"
+      },
+      "a": {
+        "id": "Layanan ini tercantum pada direktori publik. Mohon konfirmasi saat membuat janji.",
+        "en": "This service appears in a public directory. Please confirm when arranging a visit."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Tanyakan kepada pihak praktik.",
+        "en": "Insurance information was not found. Please check with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan jadwal dan layanan.",
+    "en": "Contact the practice to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik dan layanan pemeriksaan gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Klinik Gigi Widjaja, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat informasi praktik di Ruko Subur Jaya, Serang. Kami menyiapkan konsep website untuk menampilkan lokasi, jadwal, dan kontak secara jelas. Konsep dapat dilihat di https://maxigrowthstudio.com/widjaja. Jika berkenan, kami terbuka menerima masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Gigi Widjaja",
+    "email_isi": "Yth. Pengelola Klinik Gigi Widjaja,\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk membantu penyajian informasi lokasi, jam praktik, dan kontak. Konsep dapat dilihat di https://maxigrowthstudio.com/widjaja. Proposal PDF kami lampirkan sebagai bahan pertimbangan. Kami terbuka menerima masukan jika berkenan.\nHormat kami,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
