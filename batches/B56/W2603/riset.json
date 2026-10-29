@@ -71,5 +71,27 @@
     "https://idalamat.com/alamat/klinik-gigi-drg-ernita-dwiatmawati-1062442",
     "https://poltekkes.web.id/dokter-gigi-lamongan/",
     "https://aibiz.id/praktek-mandiri-drg-ernita-dwiatmawati"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi drg. Ernita Dwiatmawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Mastrip No.47, Mademadya, Made, Kecamatan Lamongan, Kabupaten Lamongan, Jawa Timur 62218",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "085748025820",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285748025820",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

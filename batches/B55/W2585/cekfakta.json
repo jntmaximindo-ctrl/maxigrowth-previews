@@ -1,0 +1,22 @@
+{
+  "id": "W2585",
+  "diperiksa": 1,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "janemariana@yahoo.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/Chubb-Dental-Provider-jun25.pdf?pid=id_bh_digibank_pweb_link_digiCC_dental-insurance-plan%5C",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://doktertanya.com/dokter-gigi-blitar/ [nama]",
+    "https://doktertanya.com/dokter-gigi-blitar/ [cabang[0].alamat]",
+    "https://doktertanya.com/dokter-gigi-blitar/ [cabang[0].telepon]",
+    "https://doktertanya.com/dokter-gigi-blitar/ [cabang[0].wa]",
+    "https://doktertanya.com/dokter-gigi-blitar/ [dokter[0].nama]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

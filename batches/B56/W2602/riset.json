@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440",
     "https://poltekkes.web.id/dokter-gigi-lamongan/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Rina Sawitri",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lamongrejo No.123, Dapur Barat, Sidokumpul, Lamongan; sumber lain menyebut Jl. Basuki Rahmat No.57, Rangge, Sukomulyo",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082245820914",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282245820914",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

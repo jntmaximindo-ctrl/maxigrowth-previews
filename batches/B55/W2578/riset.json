@@ -78,5 +78,27 @@
   "sumber": [
     "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240",
     "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-jombang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "AHA Dental Care Jombang",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K.H. Wahab Hasbullah No.104, Tambak Rejo, Tambak Beras, Kec. Jombang, Kabupaten Jombang, Jawa Timur 61419",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282229346312",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282229346312",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -113,5 +113,42 @@
     "https://doktertanya.com/dokter-gigi-madiun/",
     "https://bpjs.ca/dokter-gigi-madiun/",
     "https://bukaminggu.com/dokter-gigi-madiun/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Regunawati Cahyaningsih",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/praktek_drg.regunawati/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Solo No.158, Kincang Wetan, Jiwan, Kabupaten Madiun, Jawa Timur",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281252400635",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281252400635",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"14:00-15:00\", \"sel\": \"14:00-15:00\", \"rab\": \"14:00-15:00\", \"kam\": \"14:00-15:00\", \"jum\": \"13:00-15:00\", \"sab\": \"13:00-18:00\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Regunawati Cahyaningsih",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "W2602",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Rina Sawitri",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lamongrejo No.123, Dapur Barat, Sidokumpul, Lamongan; sumber lain menyebut Jl. Basuki Rahmat No.57, Rangge, Sukomulyo",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082245820914",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282245820914",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440 [nama]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/praktek-dokter-gigi-lamongan-drg-rina-sawitri-1062440 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

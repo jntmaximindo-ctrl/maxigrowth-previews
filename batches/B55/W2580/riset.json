@@ -120,5 +120,52 @@
     "https://idalamat.com/alamat/jasmine-dental-office-praktik-dokter-gigi-1062237",
     "https://mediasehat.id/tempat/8-tempat-praktik-dokter-gigi-di-kabupaten-jombang/",
     "https://doktertanya.com/dokter-gigi-jombang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Jasmine Dental Office",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://instagram.com/jasmine.dentaloffice",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Jaya Abadi, Jl. Gubernur Suryo A No.3-2, Jombatan, Jombang, Jawa Timur 61419",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281399129865",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281399129865",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09:00-20:30\", \"sel\": \"09:00-20:30\", \"rab\": \"09:00-20:30\", \"kam\": \"09:00-20:30\", \"jum\": \"09:00-20:30\", \"sab\": \"09:00-20:30\", \"min\": \"09:00-20:30\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[1].alamat",
+      "tercatat": "Ruko Wijaya Kusuma, Jl. Wijaya Kusuma No.16, Mergelo, Sooko, Kabupaten Mojokerto",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[1].telepon",
+      "tercatat": "6282336425124",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6282336425124",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

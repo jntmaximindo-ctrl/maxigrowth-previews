@@ -100,5 +100,32 @@
     "https://doktertanya.com/dokter-gigi-blitar/",
     "https://bukutelepon.cybo.com/ID/kota-blitar/dokter-gigi",
     "https://idalamat.com/alamat/1062672/drg-feby-christanty-widyaja-blitar-jawa-timur"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Feby Christanty Widyaja",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kelud, Kepanjen Lor, Kec. Kepanjenkidul, Kota Blitar, Jawa Timur 66117",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282143139888",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282143139888",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Feby Christanty Widyaja",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

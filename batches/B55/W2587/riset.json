@@ -93,5 +93,32 @@
     "https://idalamat.com/alamat/iriana-dental-studio-praktek-dokter-gigi-iriana-1062826",
     "https://doktertanya.com/dokter-gigi-madiun/",
     "https://dinkes.madiunkota.go.id/wp-content/uploads/2025/02/rev-FINAL-PROFIL-KESEHATAN-KOTA-MADIUN-TAHUN-2022-2-1.pdf"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Iriana Dental Studio",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ring Road Barat, Patihan, Kecamatan Manguharjo, Kota Madiun, Jawa Timur 63123",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281335812691",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281335812691",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16:30-20:00\", \"sel\": \"16:30-20:00\", \"rab\": \"16:30-20:00\", \"kam\": \"16:30-20:00\", \"jum\": \"16:30-20:00\", \"sab\": \"08:00-12:00,16:30-20:00\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

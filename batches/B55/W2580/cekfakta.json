@@ -1,0 +1,82 @@
+{
+  "id": "W2580",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Jasmine Dental Office",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://instagram.com/jasmine.dentaloffice",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://doktertanya.com/dokter-gigi-jombang/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perum Jaya Abadi, Jl. Gubernur Suryo A No.3-2, Jombatan, Jombang, Jawa Timur 61419",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/jasmine-dental-office-praktik-dokter-gigi-1062237",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281399129865",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281399129865",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09:00-20:30\", \"sel\": \"09:00-20:30\", \"rab\": \"09:00-20:30\", \"kam\": \"09:00-20:30\", \"jum\": \"09:00-20:30\", \"sab\": \"09:00-20:30\", \"min\": \"09:00-20:30\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/jasmine-dental-office-praktik-dokter-gigi-1062237",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[1].alamat",
+      "tercatat": "Ruko Wijaya Kusuma, Jl. Wijaya Kusuma No.16, Mergelo, Sooko, Kabupaten Mojokerto",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[1].telepon",
+      "tercatat": "6282336425124",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[1].wa",
+      "tercatat": "6282336425124",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://linktr.ee/jsmn2022",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://linktr.ee/jsmn2022 [nama]",
+    "https://doktertanya.com/dokter-gigi-jombang/ [instagram]",
+    "https://idalamat.com/alamat/jasmine-dental-office-praktik-dokter-gigi-1062237 [cabang[0].alamat]",
+    "https://linktr.ee/jsmn2022 [cabang[0].telepon]",
+    "https://linktr.ee/jsmn2022 [cabang[0].wa]",
+    "https://idalamat.com/alamat/jasmine-dental-office-praktik-dokter-gigi-1062237 [cabang[0].jam]",
+    "https://linktr.ee/jsmn2022 [cabang[1].alamat]",
+    "https://linktr.ee/jsmn2022 [cabang[1].telepon]",
+    "https://linktr.ee/jsmn2022 [cabang[1].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "W2578",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "AHA Dental Care Jombang",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K.H. Wahab Hasbullah No.104, Tambak Rejo, Tambak Beras, Kec. Jombang, Kabupaten Jombang, Jawa Timur 61419",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282229346312",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282229346312",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240 [nama]",
+    "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/aha-dental-care-dokter-gigi-jombang-1062240 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

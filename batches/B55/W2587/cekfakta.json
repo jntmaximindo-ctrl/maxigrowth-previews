@@ -1,0 +1,50 @@
+{
+  "id": "W2587",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Iriana Dental Studio",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ring Road Barat, Patihan, Kecamatan Manguharjo, Kota Madiun, Jawa Timur 63123",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281335812691",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281335812691",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/iriana-dental-studio-praktek-dokter-gigi-iriana-1062826",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16:30-20:00\", \"sel\": \"16:30-20:00\", \"rab\": \"16:30-20:00\", \"kam\": \"16:30-20:00\", \"jum\": \"16:30-20:00\", \"sab\": \"08:00-12:00,16:30-20:00\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691 [nama]",
+    "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691 [cabang[0].alamat]",
+    "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/iriana-dental-studio-praktek-dokter-gigi-iriana-1062826 [cabang[0].wa]",
+    "https://www.semuabis.com/iriana-dental-studio-0813-3581-2691 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
