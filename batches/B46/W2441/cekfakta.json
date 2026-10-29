@@ -1,0 +1,50 @@
+{
+  "id": "W2441",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Puri Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Serang, Kota Serang, Banten 42116 (alamat jalan belum ditemukan)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281390088898",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281390088898",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": null, \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten [nama]",
+    "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten [cabang[0].wa]",
+    "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

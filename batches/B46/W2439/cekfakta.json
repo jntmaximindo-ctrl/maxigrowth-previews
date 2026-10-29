@@ -1,0 +1,23 @@
+{
+  "id": "W2439",
+  "diperiksa": 6,
+  "beda": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285959790999",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jabodetabek",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285959790999",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://sites.google.com/rata.id/wiki/UMUM/klinik-rata/klinik-mitra-rata/jabodetabek",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

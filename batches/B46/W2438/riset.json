@@ -88,5 +88,37 @@
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kota-serang/",
     "https://doktertanya.com/dokter-gigi-serang/",
     "https://idalamat.com/alamat/n-dental-solution-1063065"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "N_Dental Solution",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/n__dentalsolution/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K.H. Abdul Hadi No.47, Cipare, Kec. Serang, Kota Serang, Banten 42117",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285216919650",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285216919650",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi"
+    }
   ]
 }

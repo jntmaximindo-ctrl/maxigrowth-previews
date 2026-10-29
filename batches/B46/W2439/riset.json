@@ -112,5 +112,17 @@
     "https://idalamat.com/alamat/dentalife-clinic-drg-eries-sejahtera-1063059",
     "https://poltekkes.web.id/dokter-gigi-serang/",
     "https://mediasehat.id/tempat/9-tempat-praktik-dokter-gigi-di-kota-serang/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285959790999",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285959790999",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

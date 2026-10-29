@@ -1,0 +1,58 @@
+{
+  "id": "W2438",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "N_Dental Solution",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/n__dentalsolution/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. K.H. Abdul Hadi No.47, Cipare, Kec. Serang, Kota Serang, Banten 42117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285216919650",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285216919650",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [nama]",
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [instagram]",
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [cabang[0].alamat]",
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [cabang[0].telepon]",
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [cabang[0].wa]",
+    "https://densia.id/klinik/ndental-solution-kota-serang-esenm6du/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

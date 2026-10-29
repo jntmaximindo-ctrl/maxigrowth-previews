@@ -1,0 +1,58 @@
+{
+  "id": "W2440",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Drg. Putri Asri Prima",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sayabulu, Serang, Kec. Serang, Kota Serang, Banten 42116",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281318110807",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281318110807",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-drg-putri-asri-prima-kota-serang-g9bh0era/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-20\", \"sel\": \"17-20\", \"rab\": \"15-20\", \"kam\": \"15-20\", \"jum\": \"17-20\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 410); belum terverifikasi",
+      "src": "https://densia.id/klinik/praktek-drg-putri-asri-prima-kota-serang-g9bh0era/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Putri Asri Prima",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063 [nama]",
+    "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063 [cabang[0].telepon]",
+    "https://densia.id/klinik/praktek-drg-putri-asri-prima-kota-serang-g9bh0era/ [cabang[0].wa]",
+    "https://densia.id/klinik/praktek-drg-putri-asri-prima-kota-serang-g9bh0era/ [cabang[0].jam]",
+    "https://idalamat.com/alamat/praktek-drg-putri-asri-prima-1063063 [dokter[0].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "W2436",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "RJH Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/rjhdentcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Kotaraja - Abepura, Lantai 2 Apotek K, Depan GOR Waringin No.24, Kotaraja, Abepura, Kota Jayapura, Papua 99225",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281346749965",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281346749965",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"13-21\", \"sel\": \"13-21\", \"rab\": \"13-21\", \"kam\": \"13-21\", \"jum\": \"13-21\", \"sab\": \"13-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/rjh-dental-care-0813-4674-9965",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [nama]",
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [instagram]",
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [cabang[0].alamat]",
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [cabang[0].telepon]",
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [cabang[0].wa]",
+    "https://www.semuabis.com/rjh-dental-care-0813-4674-9965 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

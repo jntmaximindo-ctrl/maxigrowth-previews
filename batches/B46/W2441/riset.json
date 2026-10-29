@@ -84,5 +84,32 @@
   "sumber": [
     "https://idalamat.com/alamat/1063067/klinik-puri-dental-care-serang-banten",
     "https://rentechdigital.com/smartscraper/business-report-details/indonesia/banten/list-of-dental-clinics-in-serang"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Puri Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Serang, Kota Serang, Banten 42116 (alamat jalan belum ditemukan)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281390088898",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281390088898",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-20\", \"sel\": \"09-20\", \"rab\": \"09-20\", \"kam\": \"09-20\", \"jum\": \"09-20\", \"sab\": null, \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
