@@ -1,0 +1,132 @@
+{
+  "id": "W2513",
+  "hero": {
+    "judul": {
+      "id": "Informasi Dentist Katina Bandung",
+      "en": "Dentist Katina Bandung Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi praktik di Cicendo dan informasi yang perlu dikonfirmasi sebelum kunjungan.",
+      "en": "Find the practice in Cicendo and learn what to confirm before your visit."
+    },
+    "cta": {
+      "id": "Lihat Panduan Kunjungan",
+      "en": "View Visit Guide"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Checkup"
+      },
+      "ringkas": {
+        "id": "Tanyakan jadwal pemeriksaan gigi sebelum datang.",
+        "en": "Ask the practice about dental checkup appointments."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Berlubang",
+        "en": "Cavity Care"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan apakah layanan penambalan tersedia dan bagaimana pemeriksaannya.",
+        "en": "Confirm whether fillings are available and how the assessment works."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan Gigi",
+        "en": "Dental Cleaning"
+      },
+      "ringkas": {
+        "id": "Tanyakan apakah layanan pembersihan karang gigi tersedia.",
+        "en": "Ask whether scaling appointments are offered."
+      }
+    },
+    {
+      "nama": {
+        "id": "Konsultasi Keluhan Gigi",
+        "en": "Dental Concerns"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan pemeriksaan yang sesuai.",
+        "en": "Describe your concern and ask about available assessments."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Kunjungan",
+      "en": "Visit Guide"
+    },
+    "penjelasan": {
+      "id": "Periksa lokasi dan siapkan pertanyaan tentang jadwal, biaya, serta jenis perawatan.",
+      "en": "Check the location and prepare questions about hours, fees, and treatment availability."
+    },
+    "alasan_dipilih": "Lokasi publik tersedia, sementara jadwal dan daftar layanan belum dapat dipastikan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Direktori menempatkan Dentist Katina di Jl. Abdul Rahman Saleh No.6, Cicendo, Bandung.",
+        "en": "A directory lists Dentist Katina at Jl. Abdul Rahman Saleh No.6, Cicendo, Bandung."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Informasi reservasi belum terverifikasi. Konfirmasikan sebelum datang.",
+        "en": "Booking arrangements are not yet verified. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik terkini belum dapat dipastikan. Silakan tanyakan melalui kontak publik.",
+        "en": "Current opening hours have not been confirmed. Please ask through the public contact channel."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatan?",
+        "en": "What are the fees?"
+      },
+      "a": {
+        "id": "Tarif resmi belum tersedia dalam sumber yang diperiksa. Biaya perlu ditanyakan kepada praktik.",
+        "en": "An official fee schedule was not found. Please ask the practice for current costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia penambalan dan pembersihan gigi?",
+        "en": "Are fillings and cleaning available?"
+      },
+      "a": {
+        "id": "Daftar layanan resmi belum ditemukan. Tanyakan ketersediaan tindakan sebelum membuat janji.",
+        "en": "An official service list was not found. Please confirm availability before booking."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Konfirmasikan jadwal sebelum berkunjung",
+    "en": "Confirm the schedule before visiting"
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal praktik Dentist Katina, jenis layanan, dan cara membuat janji. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi lokasi Dentist Katina di Jl. Abdul Rahman Saleh, Bandung. Kami telah menyiapkan konsep website berisi panduan lokasi dan informasi kunjungan untuk pasien. Konsepnya dapat dilihat di https://maxigrowthstudio.com/katina. Bila berkenan, silakan ditinjau. Terima kasih.",
+    "email_subjek": "Konsep website untuk Dentist Katina",
+    "email_isi": "Yth. Pengelola Dentist Katina,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat lokasi praktik di kawasan Cicendo, Bandung, dan menyiapkan konsep website yang membantu pasien menemukan informasi lokasi serta panduan kunjungan.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/katina. Proposal PDF terlampir untuk pertimbangan. Kami terbuka bila ada informasi yang perlu dikoreksi.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA: 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
