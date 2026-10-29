@@ -1,0 +1,142 @@
+{
+  "id": "W2579",
+  "hero": {
+    "judul": {
+      "id": "HL Dental Care",
+      "en": "HL Dental Care — Dental care in Jombang"
+    },
+    "sub": {
+      "id": "Informasi praktik, konsultasi, dan kontak untuk konfirmasi jadwal.",
+      "en": "Practice details, consultation options, and a contact for appointment enquiries."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dan kebutuhan pemeriksaan dibahas bersama dokter.",
+        "en": "Discuss treatment options and assessment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dan kebutuhan pemeriksaan dibahas bersama dokter.",
+        "en": "Discuss treatment options and assessment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan saluran akar",
+        "en": "Root canal treatment"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dan kebutuhan pemeriksaan dibahas bersama dokter.",
+        "en": "Discuss treatment options and assessment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan ortodonti atau behel",
+        "en": "Orthodontic treatment"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dan kebutuhan pemeriksaan dibahas bersama dokter.",
+        "en": "Discuss treatment options and assessment needs with the dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembuatan gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Pilihan perawatan dan kebutuhan pemeriksaan dibahas bersama dokter.",
+        "en": "Discuss treatment options and assessment needs with the dentist."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pemilih jadwal pagi atau sore",
+      "en": "Morning or afternoon appointment planner"
+    },
+    "penjelasan": {
+      "id": "Panduan informasi sebelum kunjungan dan diskusi perawatan dengan dokter.",
+      "en": "A practical guide to preparing for a visit and discussing care options."
+    },
+    "alasan_dipilih": "Konsep fitur disesuaikan dengan informasi praktik yang ditemukan; belum tersedia sebagai fitur operasional."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How can I book an appointment?"
+      },
+      "a": {
+        "id": "Hubungi kontak praktik untuk memastikan jadwal dan pendaftaran.",
+        "en": "Contact the practice to check appointment times and booking steps."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Silakan konfirmasi jadwal terbaru sebelum berangkat.",
+        "en": "Please confirm the latest opening hours before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Daftar biaya terkini belum terverifikasi. Tanyakan estimasi kepada praktik.",
+        "en": "We could not verify a current price list. Ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Status kerja sama belum terverifikasi. Silakan tanyakan langsung.",
+        "en": "Insurance arrangements have not been verified. Please ask directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu pemeriksaan sebelum tindakan?",
+        "en": "Is an examination needed before treatment?"
+      },
+      "a": {
+        "id": "Dokter perlu menilai kondisi gigi dan mulut untuk membahas pilihan perawatan.",
+        "en": "A dentist needs to assess your oral health before discussing care options."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk konfirmasi jadwal dan layanan.",
+    "en": "Contact the practice to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi dan layanan di HL Dental Care. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola HL Dental Care, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat dua sesi jam praktik pada sumber publik. Kami menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/hl. Bila berkenan, silakan lihat sebagai bahan pertimbangan. Terima kasih.",
+    "email_subjek": "Konsep website untuk HL Dental Care",
+    "email_isi": "Yth. Pengelola HL Dental Care,\n\nPerkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya mempelajari informasi publik tentang HL Dental Care di Jombang, termasuk dua sesi jam praktik. Kami menyiapkan konsep website yang memudahkan pengunjung menemukan informasi lokasi, layanan, dan kontak praktik.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/hl. Proposal PDF kami lampirkan untuk bahan pertimbangan. Kami terbuka terhadap koreksi informasi.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

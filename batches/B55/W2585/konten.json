@@ -1,0 +1,142 @@
+{
+  "id": "W2585",
+  "hero": {
+    "judul": {
+      "id": "Praktik drg. Jane Mariana, MM",
+      "en": "Praktik drg. Jane Mariana, MM — Dental care in Kota Blitar"
+    },
+    "sub": {
+      "id": "Informasi praktik dan kontak untuk menanyakan jadwal serta layanan.",
+      "en": "Practice information and contact details for appointment and service enquiries."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Teeth cleaning"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan ketersediaan tindakan kepada praktik.",
+        "en": "Ask the practice about the assessment and whether this treatment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan ketersediaan tindakan kepada praktik.",
+        "en": "Ask the practice about the assessment and whether this treatment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan ketersediaan tindakan kepada praktik.",
+        "en": "Ask the practice about the assessment and whether this treatment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan ortodonti atau behel",
+        "en": "Orthodontic treatment"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan ketersediaan tindakan kepada praktik.",
+        "en": "Ask the practice about the assessment and whether this treatment is available."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan gigi anak",
+        "en": "Children’s dental care"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kebutuhan pemeriksaan dan ketersediaan tindakan kepada praktik.",
+        "en": "Ask the practice about the assessment and whether this treatment is available."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan konsultasi gigi anak",
+      "en": "Children’s dental consultation guide"
+    },
+    "penjelasan": {
+      "id": "Panduan untuk menyiapkan pertanyaan dan rencana kunjungan.",
+      "en": "A guide to preparing questions and planning a visit."
+    },
+    "alasan_dipilih": "Konsep disesuaikan dengan informasi praktik yang dapat ditelusuri; fitur belum tersedia secara operasional."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor kontak praktik untuk menanyakan jadwal.",
+        "en": "Contact the practice to check appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam dapat berubah. Konfirmasi jadwal sebelum berangkat.",
+        "en": "Hours may change. Confirm the schedule before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya tindakan?",
+        "en": "How much does treatment cost?"
+      },
+      "a": {
+        "id": "Harga terkini belum terverifikasi. Mintalah estimasi langsung kepada praktik.",
+        "en": "Current prices have not been verified. Ask the practice for an estimate."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima BPJS atau asuransi?",
+        "en": "Do you accept BPJS or insurance?"
+      },
+      "a": {
+        "id": "Cakupan penjaminan belum terverifikasi. Tanyakan langsung kepada praktik.",
+        "en": "Coverage has not been verified. Please ask the practice directly."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah harus diperiksa dahulu?",
+        "en": "Do I need an examination first?"
+      },
+      "a": {
+        "id": "Dokter perlu memeriksa kondisi gigi sebelum membahas pilihan perawatan.",
+        "en": "A dentist needs to examine your teeth before discussing treatment options."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk memastikan jadwal dan layanan.",
+    "en": "Contact the practice to confirm hours and services."
+  },
+  "pesan_wa_default": "Halo, saya ingin menanyakan jadwal konsultasi di Praktik drg. Jane Mariana, MM. Terima kasih.",
+  "outreach": {
+    "wa": "Halo Bapak/Ibu pengelola Praktik drg. Jane Mariana, MM, perkenalkan saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya menemukan informasi praktik di Jalan Halir melalui sumber publik. Kami menyiapkan konsep website yang bisa ditinjau di https://maxigrowthstudio.com/drg-jane. Bila berkenan, silakan lihat sebagai bahan pertimbangan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Praktik drg. Jane Mariana, MM",
+    "email_isi": "Yth. Pengelola Praktik drg. Jane Mariana, MM,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Setelah mempelajari informasi publik mengenai Praktik drg. Jane Mariana, MM di Kota Blitar, kami menyiapkan konsep website untuk memudahkan pengunjung menemukan informasi praktik, layanan, lokasi, dan kontak.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/drg-jane. Proposal PDF kami lampirkan untuk bahan pertimbangan. Kami terbuka terhadap koreksi informasi.\n\nTerima kasih.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400 | info@maxigrowthstudio.com"
+  }
+}

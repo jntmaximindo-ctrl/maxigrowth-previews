@@ -1,0 +1,142 @@
+{
+  "id": "W2588",
+  "hero": {
+    "judul": {
+      "id": "Kenali Layanan Gigi Pelangi Dental Madiun",
+      "en": "Explore Dental Care at Pelangi Dental Madiun"
+    },
+    "sub": {
+      "id": "Informasi awal pemeriksaan dan perawatan gigi di kawasan Bagi, Kabupaten Madiun.",
+      "en": "An introduction to dental examinations and care in Bagi, Madiun Regency."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Konsultasi",
+      "en": "Ask About Appointment Times"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pembersihan karang gigi dan pemeriksaan yang diperlukan.",
+        "en": "Ask about tartar removal and the examination that may be needed."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Estetis",
+        "en": "Tooth-Coloured Fillings"
+      },
+      "ringkas": {
+        "id": "Kenali pilihan penanganan gigi berlubang berdasarkan pemeriksaan dokter.",
+        "en": "Explore options for cavities following a dental assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Saluran Akar",
+        "en": "Root Canal Care"
+      },
+      "ringkas": {
+        "id": "Pelajari kapan masalah pada bagian dalam gigi memerlukan pemeriksaan lanjutan.",
+        "en": "Learn when concerns inside a tooth may require further assessment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Behel",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Tanyakan pilihan pemeriksaan dan perawatan susunan gigi kepada klinik.",
+        "en": "Ask about alignment assessments and orthodontic care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Gigi Tiruan",
+        "en": "Dental Prosthetics"
+      },
+      "ringkas": {
+        "id": "Cari informasi tentang pilihan penggantian gigi setelah penilaian kondisi mulut.",
+        "en": "Explore tooth replacement options after an oral assessment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pertanyaan Perawatan",
+      "en": "Dental Care Question Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih topik kebutuhan gigi, baca penjelasan ringkas, lalu siapkan pertanyaan untuk dokter. Konfirmasi layanan dan jadwal sebelum berkunjung.",
+      "en": "Select a dental concern, read a short explanation and prepare questions for the dentist. Confirm services and hours before visiting."
+    },
+    "alasan_dipilih": "Direktori mencantumkan beragam jenis perawatan, sementara informasi jadwal dan nomor kontak antarsumber belum konsisten."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana Pelangi Dental Madiun?",
+        "en": "Where is Pelangi Dental Madiun?"
+      },
+      "a": {
+        "id": "Lokasi yang tercantum berada di Candi, Bagi, Kecamatan Madiun, Kabupaten Madiun. Pastikan titik peta sebelum datang.",
+        "en": "The listed location is in Candi, Bagi, Madiun Regency. Confirm the map pin before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara bertanya jadwal?",
+        "en": "How can I check appointment times?"
+      },
+      "a": {
+        "id": "Nomor publik tercantum di direktori, tetapi beberapa sumber berbeda. Pastikan kontak terkini melalui kanal klinik sebelum membuat janji.",
+        "en": "Public directories list contact numbers, but they differ. Verify the current contact through the practice’s channels before booking."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah praktik buka hari Jumat?",
+        "en": "Is the practice open on Fridays?"
+      },
+      "a": {
+        "id": "Informasi jam Jumat berbeda antardirektori. Hubungi klinik untuk jadwal yang berlaku.",
+        "en": "Friday hours differ between directories. Contact the practice for the current schedule."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling?",
+        "en": "How much does scaling cost?"
+      },
+      "a": {
+        "id": "Tarif resmi belum dapat dipastikan. Tanyakan rincian biaya sebelum menyetujui tindakan.",
+        "en": "Official fees could not be confirmed. Ask for a cost estimate before agreeing to treatment."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia perawatan behel?",
+        "en": "Is orthodontic treatment available?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan ortodonti. Konfirmasikan jenis layanan dan ketersediaan dokter dengan praktik.",
+        "en": "Directories list orthodontic care. Confirm treatment options and clinician availability with the practice."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Pelangi Dental",
+    "en": "Ask Pelangi Dental"
+  },
+  "pesan_wa_default": "Halo Pelangi Dental Madiun, saya ingin menanyakan jadwal praktik dan informasi konsultasi gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, izin menghubungi manajemen Pelangi Dental Madiun. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik di kawasan Bagi, Kabupaten Madiun, dengan sejumlah layanan gigi yang tercantum di direktori. Kami menyiapkan konsep website untuk memudahkan pasien mengenal layanan dan menanyakan jadwal, di https://maxigrowthstudio.com/pelangi-madiun. Jika berkenan, kami siap menjelaskan rancangannya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Pelangi Dental Madiun",
+    "email_isi": "Yth. Manajemen Pelangi Dental Madiun,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website untuk Pelangi Dental yang menyajikan informasi layanan gigi, lokasi, serta pertanyaan pasien sebelum berkonsultasi.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/pelangi-madiun. Proposal PDF kami lampirkan untuk bahan pertimbangan. Kami terbuka untuk menyesuaikan informasi kontak, jadwal, dan layanan berdasarkan data resmi dari tim klinik.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

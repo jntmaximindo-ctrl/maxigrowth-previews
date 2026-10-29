@@ -1,0 +1,142 @@
+{
+  "id": "W2580",
+  "hero": {
+    "judul": {
+      "id": "Perawatan Gigi di Jasmine Dental Office",
+      "en": "Dental Care at Jasmine Dental Office"
+    },
+    "sub": {
+      "id": "Informasi layanan dan kontak cabang Jombang serta Mojokerto untuk membantu Anda merencanakan kunjungan.",
+      "en": "Explore dental services and branch contacts in Jombang and Mojokerto to help plan your visit."
+    },
+    "cta": {
+      "id": "Pilih Cabang dan Tanya Jadwal",
+      "en": "Choose a Branch and Ask About Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pembersihan Karang Gigi",
+        "en": "Dental Scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan dan tindakan pembersihan karang gigi yang sesuai kebutuhan Anda.",
+        "en": "Ask about an assessment and dental scaling based on your needs."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan Gigi",
+        "en": "Dental Fillings"
+      },
+      "ringkas": {
+        "id": "Ketahui pilihan pemeriksaan dan penanganan gigi berlubang setelah evaluasi dokter.",
+        "en": "Learn about assessments and options for treating cavities after a dental examination."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Ortodonti",
+        "en": "Orthodontic Care"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan kawat gigi serta pemeriksaan yang diperlukan sebelum perawatan.",
+        "en": "Discuss braces and the assessments needed before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan dan Gigi Bungsu",
+        "en": "Tooth Removal and Wisdom Teeth"
+      },
+      "ringkas": {
+        "id": "Tanyakan penanganan gigi yang perlu dicabut atau dievaluasi lebih lanjut oleh dokter.",
+        "en": "Ask about teeth that may need removal or further assessment by a dentist."
+      }
+    },
+    {
+      "nama": {
+        "id": "Perawatan Estetik",
+        "en": "Cosmetic Dental Care"
+      },
+      "ringkas": {
+        "id": "Cari informasi mengenai bleaching dan penyesuaian perawatan menurut kondisi gigi.",
+        "en": "Learn about whitening and how care options depend on your dental condition."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Pilih Cabang Jasmine",
+      "en": "Choose Your Jasmine Branch"
+    },
+    "penjelasan": {
+      "id": "Pilih Jombang atau Mojokerto untuk melihat kontak admin yang sesuai dan informasi lokasi. Konfirmasikan jadwal sebelum berkunjung.",
+      "en": "Select Jombang or Mojokerto for the relevant admin contact and location details. Please confirm opening hours before visiting."
+    },
+    "alasan_dipilih": "Linktree resmi menampilkan dua cabang dan dua nomor admin WhatsApp yang berbeda."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana cabang Jombang?",
+        "en": "Where is the Jombang branch?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Perum Jaya Abadi, Jl. Gubernur Suryo A No.3-2, Jombatan. Gunakan peta resmi dan konfirmasi alamat.",
+        "en": "A directory lists Perum Jaya Abadi, Gubernur Suryo Road A No.3-2, Jombatan. Check the official map and confirm the address."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada cabang Mojokerto?",
+        "en": "Is there a Mojokerto branch?"
+      },
+      "a": {
+        "id": "Ya. Linktree Jasmine mencantumkan Ruko Wijaya Kusuma, Jl. Wijaya Kusuma No.16, Sooko, Kabupaten Mojokerto.",
+        "en": "Yes. Jasmine’s Linktree lists Ruko Wijaya Kusuma, Wijaya Kusuma Road No.16, Sooko, Mojokerto Regency."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana cara membuat janji?",
+        "en": "How do I book an appointment?"
+      },
+      "a": {
+        "id": "Pilih cabang dan hubungi admin WhatsApp yang tercantum untuk menanyakan jadwal.",
+        "en": "Choose a branch and message its listed WhatsApp admin to ask about appointment availability."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya scaling atau behel?",
+        "en": "How much do scaling or braces cost?"
+      },
+      "a": {
+        "id": "Daftar biaya resmi belum ditemukan. Tanyakan estimasi melalui admin sesuai jenis pemeriksaan dan perawatan.",
+        "en": "A published fee list was not found. Ask the branch admin for an estimate based on the examination and treatment needed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah cabang Jombang buka hari Minggu?",
+        "en": "Is the Jombang branch open on Sundays?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan jam Minggu 09.00–20.30, tetapi konfirmasikan jadwal terkini dengan admin.",
+        "en": "A directory lists Sunday hours as 9 AM–8:30 PM, but please confirm current hours with the branch admin."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Jadwal dan Layanan",
+    "en": "Ask About Appointments and Services"
+  },
+  "pesan_wa_default": "Halo Jasmine Dental Office, saya ingin menanyakan jadwal pemeriksaan dan informasi layanan di cabang ini. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat malam, izin menghubungi manajemen Jasmine Dental Office. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami melihat Jasmine memiliki cabang Jombang dan Mojokerto dengan kontak admin berbeda. Kami menyiapkan konsep website yang memudahkan pasien memilih cabang dan menemukan informasi layanan, dapat dilihat di https://maxigrowthstudio.com/jasmine-office. Jika berkenan, kami siap menjelaskan rancangannya. Terima kasih.",
+    "email_subjek": "Konsep website untuk Jasmine Dental Office",
+    "email_isi": "Yth. Manajemen Jasmine Dental Office,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami telah menyiapkan konsep website untuk Jasmine Dental Office, dengan navigasi cabang Jombang dan Mojokerto, informasi layanan, serta akses ke admin masing-masing.\n\nKonsep dapat ditinjau di https://maxigrowthstudio.com/jasmine-office. Proposal PDF kami lampirkan untuk bahan pertimbangan. Kami terbuka untuk menyesuaikan rincian cabang dan jadwal sesuai informasi resmi dari tim Jasmine.\n\nSalam,\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
