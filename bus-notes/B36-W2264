@@ -73,5 +73,22 @@ RISET LAMA:
   "sumber": [
     "https://caribisnis.id/dokter-gigi/tangerang/larangan/drg-anindyajati-lara-imp1",
     "https://id.near-place.com/dentist/south-tangerang/pl"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. Anindyajati",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Cipadu Residence No.26, Cipadu Jaya, Larangan, Kota Tangerang, Banten 15155",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 09.00–21.00, Sabtu 09.00–22.00, Minggu 10.00–21.00",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }
