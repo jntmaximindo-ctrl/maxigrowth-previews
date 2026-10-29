@@ -74,5 +74,27 @@
     "https://alamatsehat.com/klinik-gigi-di-jepara-dokter-gigi-di-jepara/",
     "https://www.instagram.com/klinik.gigi.daffa.denta/",
     "https://daffa-denta.business.site/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Daffa Denta",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Jepara - Kudus, RT.1/RW.1, Rw. I, Kriyan, Kalinyamatan, Kabupaten Jepara, Jawa Tengah 59462",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62882005338195",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62882005338195",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

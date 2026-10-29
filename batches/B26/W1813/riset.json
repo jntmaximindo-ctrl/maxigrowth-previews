@@ -75,5 +75,27 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/makassar/molarize-dental-care-makassar",
     "https://www.dentalclinics.care/dental-clinic/molarize-dental-care"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Molarize Dental Care",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gunung Merapi No.205, Pisang Selatan, Ujung Pandang, Makassar, Sulawesi Selatan 90141",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "624113624325",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 13.30–21.00, Sabtu 13.00–20.00, Minggu tutup (direktori)",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

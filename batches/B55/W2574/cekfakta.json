@@ -1,0 +1,58 @@
+{
+  "id": "W2574",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Ahla Denta Klinik Gigi",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/ahladenta/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Margoyoso, Purwogondo II, Purwogondo, Kalinyamatan, Kabupaten Jepara, Jawa Tengah 59462",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289661616191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289661616191",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-13,17-21\", \"sel\": \"09-13,17-21\", \"rab\": \"09-13,17-21\", \"kam\": \"09-13,17-21\", \"jum\": \"09-13,17-21\", \"sab\": \"09-13,17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [nama]",
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [instagram]",
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [cabang[0].wa]",
+    "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

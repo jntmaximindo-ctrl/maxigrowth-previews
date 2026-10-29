@@ -80,5 +80,37 @@
     "https://idalamat.com/alamat/1061479/ahla-denta-klinik-gigi-jepara-jawa-tengah",
     "https://www.semuabis.com/ahla-denta-klinik-gigi-0896-6161-6191",
     "https://www.instagram.com/ahladenta/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Ahla Denta Klinik Gigi",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/ahladenta/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Margoyoso, Purwogondo II, Purwogondo, Kalinyamatan, Kabupaten Jepara, Jawa Tengah 59462",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289661616191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289661616191",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-13,17-21\", \"sel\": \"09-13,17-21\", \"rab\": \"09-13,17-21\", \"kam\": \"09-13,17-21\", \"jum\": \"09-13,17-21\", \"sab\": \"09-13,17-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

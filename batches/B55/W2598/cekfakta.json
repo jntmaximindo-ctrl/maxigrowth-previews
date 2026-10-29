@@ -1,0 +1,42 @@
+{
+  "id": "W2598",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Prambatan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "RT.1/RW.2, Krajan, Prambatan Kidul, Kaliwungu, Kudus59331",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "082327240574",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282327240574",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425 [nama]",
+    "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/klinik-gigi-prambatan-tambal-gigi-karang-gigi-cabut-gigi-1061425 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

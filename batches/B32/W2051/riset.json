@@ -87,5 +87,32 @@
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-gayungan/",
     "https://www.google.com/maps/search/?api=1&query=ADISHA%20DENTISTS%20Surabaya&query_place_id=ChIJR9Txa8371y0R3cZrpiT1kHU",
     "https://drive.google.com/file/d/1xv39yJ1lWVIvV3tDaVAfwmgntxZV6AH0/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "ADISHA DENTISTS Family Dental Care",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Gayung Kebonsari Timur No.43, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287759911387",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287759911387",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16-20\", \"sel\": \"16-20\", \"rab\": \"16-20\", \"kam\": \"16-20\", \"jum\": \"16-20\", \"sab\": \"09-12\"}",
+      "catatan": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi"
+    }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "W2573",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Daffa Denta",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/daffa-denta-1061470",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Jepara - Kudus, RT.1/RW.1, Rw. I, Kriyan, Kalinyamatan, Kabupaten Jepara, Jawa Tengah 59462",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/daffa-denta-1061470",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62882005338195",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/daffa-denta-1061470",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62882005338195",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/daffa-denta-1061470",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/daffa-denta-1061470 [nama]",
+    "https://idalamat.com/alamat/daffa-denta-1061470 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/daffa-denta-1061470 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/daffa-denta-1061470 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

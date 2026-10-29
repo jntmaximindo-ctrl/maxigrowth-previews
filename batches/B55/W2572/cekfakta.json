@@ -1,0 +1,42 @@
+{
+  "id": "W2572",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Olvia Dental Care (drg. Olvia)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Rw. 03, Krasak, Pecangaan, Kabupaten Jepara, Jawa Tengah 59462",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288806036826",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288806036826",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi [nama]",
+    "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID/pecangaan/dokter-gigi [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

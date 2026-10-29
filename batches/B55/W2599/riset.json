@@ -70,5 +70,27 @@
   "sumber": [
     "https://idalamat.com/alamat/drg-rudy-santoso-3-1061427",
     "https://poltekkes.web.id/dokter-gigi-kudus/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik drg. Rudy Santoso",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Diponegoro No.45, Barongan, Kota Kudus, Kudus59313",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "081805801222",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281805801222",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

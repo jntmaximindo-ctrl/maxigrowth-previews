@@ -1,0 +1,34 @@
+{
+  "id": "W1799",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Pelita Dental Klinik",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Sungai Saddang Baru, Komplek Timu Rama A10 No.9, Balla Parang, Makassar, Sulawesi Selatan 90232",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62411440428",
+      "di_sumber": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi",
+      "src": "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar [nama]",
+    "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar [cabang[0].alamat]",
+    "https://indonesiaknowledge.com/directory/dental/makassar/pelita-dental-klinik-makassar [cabang[0].telepon]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -73,5 +73,27 @@
     "https://doktertanya.com/dokter-gigi-jepara/",
     "https://alamatsehat.com/klinik-gigi-di-jepara-dokter-gigi-di-jepara/",
     "https://www.instagram.com/olvia.dentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Olvia Dental Care (drg. Olvia)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Rw. 03, Krasak, Pecangaan, Kabupaten Jepara, Jawa Tengah 59462",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288806036826",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288806036826",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

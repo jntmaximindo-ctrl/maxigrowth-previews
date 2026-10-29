@@ -73,5 +73,22 @@
   "sumber": [
     "https://indonesiaknowledge.com/directory/dental/medan/asia-dental-clinic-medan",
     "https://indonesiaknowledge.com/directory/dental/medan"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Asia Dental Clinic",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Menggala No.61, Sei Rengas I, Medan Kota, Medan 20214",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62617348968",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }
