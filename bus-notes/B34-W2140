@@ -5,8 +5,8 @@ RISET LAMA:
   "id": "W2140",
   "nama": {
     "v": "Klinik dr. Sura",
-    "src": "https://caregiving.id/direktori/jawa-tengah/kota-surakarta/klinik-kesehatan/",
-    "tgl": "2026-10-29",
+    "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+    "tgl": "2026-10-28",
     "yakin": "sedang"
   },
   "kota": "Surakarta",
@@ -14,47 +14,52 @@ RISET LAMA:
   "instagram": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-29",
+    "tgl": "2026-10-28",
     "yakin": "rendah"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-29",
+    "tgl": "2026-10-28",
     "yakin": "rendah"
   },
   "cabang": [
     {
       "nama": "Klinik dr. Sura",
       "alamat": {
-        "v": "Jl. RE. Martadinata 194, RT.01/RW.06, Gandekan, Jebres, Surakarta, Jawa Tengah57122",
-        "src": "https://caregiving.id/direktori/jawa-tengah/kota-surakarta/klinik-kesehatan/",
-        "tgl": "2026-10-29",
+        "v": "Jl. RE Martadinata No.194, Gandekan, Jebres, Surakarta, Jawa Tengah 57122",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+        "tgl": "2026-10-28",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "622712933421",
-        "src": "https://caregiving.id/direktori/jawa-tengah/kota-surakarta/klinik-kesehatan/",
-        "tgl": "2026-10-29",
+        "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+        "tgl": "2026-10-28",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-29",
+        "tgl": "2026-10-28",
         "yakin": "rendah"
       },
       "jam": {
-        "v": null,
-        "src": null,
-        "tgl": "2026-10-29",
-        "yakin": "rendah"
+        "v": "Senin–Sabtu 07.00–14.00 dan 17.00–21.00; Minggu tutup (direktori)",
+        "src": "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
+        "tgl": "2026-10-28",
+        "yakin": "sedang"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=Klinik%20dr.%20Sura%20Surakarta"
+      "maps_url": null
     }
   ],
   "dokter": [],
-  "layanan": [],
+  "layanan": [
+    "Layanan klinik pratama",
+    "Informasi kunjungan pasien umum",
+    "Pertanyaan ketersediaan layanan gigi",
+    "Informasi faskes BPJS"
+  ],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
@@ -62,16 +67,34 @@ RISET LAMA:
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-29"
+    "tgl": "2026-10-28"
   },
   "keunggulan": [],
   "situs_lama": [
-    "https://klinikdrsura.weebly.com/ — ditautkan oleh direktori; akses gagal dan status aktif/kepemilikan belum diverifikasi."
+    "Status website belum diverifikasi"
   ],
-  "ide_fitur_khas": "Penyusun pertanyaan pra-kunjungan untuk Jalan RE. Martadinata194.",
+  "ide_fitur_khas": "Panduan informasi kunjungan dan pertanyaan pasien",
+  "catatan": "REVISI ke-1. Nama, alamat, telepon dan identitas fasilitas klinik pratama diverifikasi silang di buku dasar FKTP 2024 Dinkes Jawa Tengah serta direktori SemiBis. Situs CariBisnis memasukkan klinik ke kategori dokter gigi, tetapi fasilitas ini juga dikategorikan sebagai praktik medis umum; prosedur gigi tertentu tidak boleh dianggap tersedia tanpa konfirmasi langsung. Nomor WhatsApp tidak ditemukan secara terverifikasi, harga tidak ditemukan.",
   "sumber": [
-    "https://caregiving.id/direktori/jawa-tengah/kota-surakarta/klinik-kesehatan/",
+    "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+    "https://www.semuabis.com/klinik-dr-sura-0271-2933421",
     "https://caribisnis.id/dokter-gigi/surakarta/jebres/klinik-dr-sura-jebr-imp1"
   ],
-  "catatan": "REVISI 29 Oktober2026. Telepon tetap02712933421 dibaca di Caregiving dan CariBisnis, normalisasi622712933421. Tidak ditemukan nomor ponsel publik; WA null, bukan menganggap nomor kantor sebagai WA. Sumber utama PDF Dinkes Data Dasar FKTP2024 dari riset lama dibuka tetapi pencarian baris spesifik gagal/timeout; tidak diklaim verifikasi ulang fakta dari PDF. Nama/alamat/telepon sekarang bersumber dua halaman HTML yang benar-benar dibaca. Caregiving menyebut klinik kesehatan umum; kategori dokter gigi serta daftar tindakan gigi generik CariBisnis belum cukup untuk mengklaim layanan dental tertentu. Layanan[], dokter[], fasilitas[], asuransi[] sampai ada bukti spesifik. Harga belum tersedia. Caregiving mencantumkan Senin–Sabtu07–14 dan17–21, Minggu tutup; CariBisnis mencantumkan Senin–Jumat09–21,Sabtu09–22,Minggu10–21. Jam null karena bertentangan. Email dicari di dua halaman sumber, pencarian kedua Klinik dr Sura whatsapp email dan mesin pertama klinikdrsura email gmail whatsapp; situs Weebly ditautkan kedua direktori tetapi akses tidak tersedia, email null. Tidak meminjam kontak klinik bernama mirip di Malaysia atau RS Dustira. Instagram null. Rating/ulasan Maps tidak diverifikasi langsung, null. Empat kartu konten merupakan topik pertanyaan, bukan empat tindakan tersedia. Maps URL hanya pencarian nama. Outreach hanya draf; periksa preview dan lampiran PDF sebelum penggunaan. Tidak ada klinik dihubungi."
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik dr. Sura",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. RE Martadinata No.194, Gandekan, Jebres, Surakarta, Jawa Tengah 57122",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "622712933421",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
+  ]
 }
