@@ -1,0 +1,50 @@
+{
+  "id": "W2424",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Diana Laily",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ds, RT.16/RW.04, Bedugbaru, Durungbedug, Candi, Kabupaten Sidoarjo, Jawa Timur 61271",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282139958231",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282139958231",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"19:00-21:00\", \"sel\": \"19:00-21:00\", \"rab\": \"19:00-21:00\", \"kam\": \"19:00-21:00\", \"jum\": \"19:00-21:00\", \"sab\": \"19:00-21:00\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

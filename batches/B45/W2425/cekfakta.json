@@ -1,0 +1,50 @@
+{
+  "id": "W2425",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Nurcahyo Harisman, drg",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Surabaya - Malang No.217, Megersari, Gedangan, Kabupaten Sidoarjo, Jawa Timur 61254",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282132186320",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282132186320",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-12,16-22\", \"sel\": \"10-12,16-22\", \"rab\": \"10-12,16-22\", \"kam\": \"10-12,16-22\", \"jum\": \"09-11.30,16-22\", \"sab\": \"tutup\", \"min\": \"09-14\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320 [nama]",
+    "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320 [cabang[0].alamat]",
+    "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320 [cabang[0].telepon]",
+    "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320 [cabang[0].wa]",
+    "https://www.semuabis.com/praktek-dokter-gigi-nurcahyo-harisman-0821-3218-6320 [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

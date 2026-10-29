@@ -79,5 +79,32 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/praktek-dokter-gigi-dwi-triviyani",
     "https://halaman-kuning.cybo.com/ID/sidoarjo/doktor-gigi?p=2"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi Dwi Triviyani",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Banjarpoh, RT.09/RW.05, Banjarbendo, Sidoarjo, Jawa Timur 61225",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628981641100",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628981641100",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"18-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

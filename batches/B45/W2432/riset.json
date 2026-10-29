@@ -79,5 +79,32 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
     "https://halaman-kuning.cybo.com/ID/sidoarjo/doktor-gigi?p=2"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Aesthetics (drg. Salmah Nina Shahab)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Bumi Citra Fajar, Jl. Sekawan Elok 2 Blok B2 No.28, Bulusidokare, Sidoarjo, Jawa Timur 61234",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281234987676",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281234987676",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-12,18-21\", \"sel\": \"09-12,18-21\", \"rab\": \"09-12,18-21\", \"kam\": \"09-12,18-21\", \"jum\": \"09-12\", \"sab\": \"09-12\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

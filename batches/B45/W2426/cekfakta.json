@@ -1,0 +1,42 @@
+{
+  "id": "W2426",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Sidoarjo (KLU Dental) - Dokter Gigi Kendy",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Lilium Bar. V No.5, Sidomukti, Kraton, Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628113336844",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628113336844",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225 [nama]",
+    "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/klinik-gigi-sidoarjo-klu-dental-dokter-gigi-kendy-1062225 [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

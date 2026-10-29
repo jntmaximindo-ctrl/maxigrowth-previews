@@ -81,5 +81,32 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
     "https://halaman-kuning.cybo.com/ID/sidoarjo/doktor-gigi?p=2"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Nurlik K Wicaksono",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "GPR5+8X6, Jl. Kutuk Barat, Cangkring, Sidokare, Sidoarjo, Jawa Timur 61214",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281230596614",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281230596614",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

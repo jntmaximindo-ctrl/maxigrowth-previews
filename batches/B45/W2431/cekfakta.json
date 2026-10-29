@@ -1,0 +1,50 @@
+{
+  "id": "W2431",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg Nurlik K Wicaksono",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "GPR5+8X6, Jl. Kutuk Barat, Cangkring, Sidokare, Sidoarjo, Jawa Timur 61214",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281230596614",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281230596614",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"17-21\", \"sel\": \"17-21\", \"rab\": \"17-21\", \"kam\": \"17-21\", \"jum\": \"17-21\", \"sab\": \"17-21\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono [nama]",
+    "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono [cabang[0].alamat]",
+    "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono [cabang[0].telepon]",
+    "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono [cabang[0].wa]",
+    "https://halaman-kuning.cybo.com/ID-biz/drg-nurlik-k-wicaksono [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

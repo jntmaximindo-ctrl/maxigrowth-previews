@@ -79,5 +79,22 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/praktek-drg-indria",
     "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek DRG Indria",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "793J+F68, Jl. Mulia, Purwosari, Sinduadi, Mlati, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55284",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18-21\", \"sel\": \"18-21\", \"rab\": \"18-21\", \"kam\": \"18-21\", \"jum\": \"18-21\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

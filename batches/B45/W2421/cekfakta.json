@@ -1,0 +1,37 @@
+{
+  "id": "W2421",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg RR. Yuliani Ari Swandari",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jatisari Permai BB1 No 12 BSB, Mijen, Kota Semarang",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62815775676",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62815775676",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

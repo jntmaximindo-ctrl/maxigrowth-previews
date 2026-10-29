@@ -1,0 +1,50 @@
+{
+  "id": "W2432",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dental Aesthetics (drg. Salmah Nina Shahab)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Perumahan Bumi Citra Fajar, Jl. Sekawan Elok 2 Blok B2 No.28, Bulusidokare, Sidoarjo, Jawa Timur 61234",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281234987676",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281234987676",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-12,18-21\", \"sel\": \"09-12,18-21\", \"rab\": \"09-12,18-21\", \"kam\": \"09-12,18-21\", \"jum\": \"09-12\", \"sab\": \"09-12\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z [nama]",
+    "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z [cabang[0].alamat]",
+    "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z [cabang[0].telepon]",
+    "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z [cabang[0].wa]",
+    "https://halaman-kuning.cybo.com/ID-biz/dental-aesthetics-drg-salmah-nina-shahab_1z [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

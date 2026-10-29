@@ -71,5 +71,27 @@
   "sumber": [
     "https://dinkes.jatengprov.go.id/wp-content/uploads/2025/07/Buku-Dasar-FKTP-2024-TTD.pdf",
     "https://www.ulastempat.com/top-7-rekomendasi-dokter-gigi-di-mijen/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg RR. Yuliani Ari Swandari",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jatisari Permai BB1 No 12 BSB, Mijen, Kota Semarang",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62815775676",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "62815775676",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

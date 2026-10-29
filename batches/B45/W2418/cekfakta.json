@@ -1,0 +1,50 @@
+{
+  "id": "W2418",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. M. Fahmi Ua",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/fahmidentalcare/",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://hargapromosi.id/dokter-gigi-gresik/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Opal I Pondok Permata No.7, Suci, PPS, Kabupaten Gresik, Jawa Timur 61151",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288230602346",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288230602346",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur [nama]",
+    "https://hargapromosi.id/dokter-gigi-gresik/ [instagram]",
+    "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

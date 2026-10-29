@@ -71,5 +71,27 @@
   "sumber": [
     "https://halaman-kuning.cybo.com/ID-biz/dokter-gigi-imam-a-bahri",
     "https://datadoktergigi.blogspot.com/2019/07/daftar-dokter-gigi-sidoarjo-alamat-dan.html"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Imam A Bahri",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "GPR6+8FG, Jl. Kutuk Barat, Cangkring, Sidokare, Sidoarjo, Jawa Timur 61214",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62318967217",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285646248184",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

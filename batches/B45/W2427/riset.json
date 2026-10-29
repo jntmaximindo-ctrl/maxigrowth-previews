@@ -80,5 +80,32 @@
     "https://fr.cybo.com/ID-biz/praktik-dokter-gigi-ika-dista-rosidah",
     "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
     "https://bukutelepon.cybo.com/ID/kabupaten-sidoarjo/dokter-gigi/?p=7"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktik Dokter Gigi Ika Dista Rosidah & Lucky Indrawati",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Kraton, Sidomukti, Kraton, Krian, Kabupaten Sidoarjo, Jawa Timur 61262",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281334438555",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281334438555",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"18:00-20:00\", \"sel\": \"18:00-20:00\", \"rab\": \"18:00-20:00\", \"kam\": \"18:00-20:00\", \"jum\": \"18:00-20:00\", \"sab\": \"18:00-20:00\", \"min\": \"18:00-20:00\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

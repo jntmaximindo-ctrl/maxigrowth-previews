@@ -72,5 +72,32 @@
     "https://idalamat.com/alamat/1062491/drg-m-fahmi-ua-gresik-jawa-timur",
     "https://hargapromosi.id/dokter-gigi-gresik/",
     "https://www.instagram.com/fahmidentalcare/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Drg. M. Fahmi Ua",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "instagram",
+      "tercatat": "https://www.instagram.com/fahmidentalcare/",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Opal I Pondok Permata No.7, Suci, PPS, Kabupaten Gresik, Jawa Timur 61151",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6288230602346",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6288230602346",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -79,5 +79,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/praktek-drg-diana-laily",
     "https://bukutelepon.cybo.com/ID-kode-pos/61271_kabupaten-sidoarjo/dokter-gigi/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek drg. Diana Laily",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Ds, RT.16/RW.04, Bedugbaru, Durungbedug, Candi, Kabupaten Sidoarjo, Jawa Timur 61271",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282139958231",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282139958231",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"19:00-21:00\", \"sel\": \"19:00-21:00\", \"rab\": \"19:00-21:00\", \"kam\": \"19:00-21:00\", \"jum\": \"19:00-21:00\", \"sab\": \"19:00-21:00\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

@@ -79,5 +79,12 @@
   "sumber": [
     "https://www.top-rated.online/cities/Candi/place/p/15003077/Faza%2BDental%2BCare",
     "https://id.scribd.com/document/868209541/Undangan-Workshop-Mutu-KP-bagi-TPMD-TPMDG"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"16.30-20\", \"sel\": \"08.30-12\", \"rab\": \"16.30-20\", \"kam\": \"08.30-12\", \"jum\": \"16.30-20\", \"sab\": \"08.30-12\", \"min\": \"tutup\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }
