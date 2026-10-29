@@ -5,60 +5,90 @@ RISET LAMA:
   "id": "W950",
   "nama": {
     "v": "drg. Fransiska Andriani, Sp.KG",
-    "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "tgl": "2026-10-28",
+    "src": "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "kota": "Kabupaten Sidoarjo",
   "zona_waktu": "WIB",
   "instagram": {
     "v": "https://www.instagram.com/fransiska_andriani83/",
-    "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "tgl": "2026-10-28",
+    "src": "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
+    "tgl": "2026-10-29",
     "yakin": "sedang"
   },
   "email": {
     "v": null,
     "src": null,
-    "tgl": "2026-10-28",
+    "tgl": "2026-10-29",
     "yakin": "rendah"
   },
   "cabang": [
     {
-      "nama": "drg. Fransiska Andriani, Sp.KG",
+      "nama": "Taman Pinang Indah",
       "alamat": {
-        "v": "Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo, Jawa Timur 61213",
+        "v": "Taman Pinang Indah D3 No.2, Lemah Putro, Lemahputro, Kecamatan Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61213",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "telepon": {
         "v": "62318950521",
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "sedang"
       },
       "wa": {
         "v": null,
         "src": null,
-        "tgl": "2026-10-28",
+        "tgl": "2026-10-29",
         "yakin": "rendah"
       },
       "jam": {
-        "v": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
+        "v": {
+          "sen": "08.00-10.00,16.00-20.00",
+          "sel": "08.00-10.00,16.00-20.00",
+          "rab": "08.00-10.00,16.00-20.00",
+          "kam": "08.00-10.00,16.00-20.00",
+          "jum": "08.00-10.00,16.00-20.00",
+          "sab": "tutup",
+          "min": "tutup"
+        },
         "src": "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-        "tgl": "2026-10-28",
-        "yakin": "sedang"
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
       },
-      "maps_url": "https://www.google.com/maps/search/?api=1&query=drg.%20Fransiska%20Andriani,%20Sp.KG"
+      "maps_url": null
     }
   ],
-  "dokter": [],
+  "dokter": [
+    {
+      "nama": {
+        "v": "drg. Fransiska Andriani, Sp.KG",
+        "src": "https://poltekkes.web.id/dokter-gigi-sidoarjo/",
+        "tgl": "2026-10-29",
+        "yakin": "sedang"
+      },
+      "spesialis": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "jadwal": {
+        "v": null,
+        "src": null,
+        "tgl": "2026-10-29",
+        "yakin": "rendah"
+      },
+      "cabang": "Taman Pinang Indah"
+    }
+  ],
   "layanan": [
-    "Konsultasi konservasi gigi",
-    "Pemeriksaan gigi",
-    "Informasi perawatan saluran akar",
-    "Janji temu dokter spesialis"
+    "Pemeriksaan gigi — konfirmasikan ketersediaan",
+    "Tambal gigi — disebut direktori, konfirmasikan ketersediaan",
+    "Cabut gigi — disebut direktori, konfirmasikan ketersediaan",
+    "Kawat gigi — disebut direktori, konfirmasikan ketersediaan"
   ],
   "harga": [],
   "fasilitas": [],
@@ -67,43 +97,16 @@ RISET LAMA:
     "rating": null,
     "ulasan": null,
     "src": null,
-    "tgl": "2026-10-28"
+    "tgl": "2026-10-29"
   },
   "keunggulan": [],
   "situs_lama": [
-    "Belum ada situs resmi mandiri yang dapat dikonfirmasi."
+    "Situs mandiri belum ditemukan; kanal Instagram dirujuk direktori. Profil Instagram tidak dapat dibaca karena throttling."
   ],
-  "ide_fitur_khas": "Informasi jam dan alamat dengan penjelasan sumber direktori.",
-  "catatan": "Revisi kontak: nomor yang dapat ditemukan hanya telepon tetap, tidak ada bukti nomor WhatsApp aktif sehingga wa null. Tarif tidak dipublikasikan secara resmi sehingga harga=[]. Layanan spesifik dari direktori umum perlu dikonfirmasi langsung; daftar layanan merupakan pertanyaan yang relevan, bukan jaminan tindakan. Dokumen historis tidak membuktikan status praktik terkini.",
+  "ide_fitur_khas": "Daftar pertanyaan sebelum menelepon praktik: waktu, biaya dan lokasi.",
+  "catatan": "REVISI dilanjutkan dari riset lama, dua sumber dibuka ulang 29 Oktober 2026. Telepon tetap 0318950521 tersedia dan dinormalisasi 62318950521. Nomor ponsel publik belum ditemukan sehingga wa null; paket tetap ditulis sesuai aturan hanya melewati klinik tanpa nomor sama sekali. Email tidak ditemukan setelah dicari di idalamat.com dan poltekkes.web.id yang dibuka, serta pencarian nama/akun+kontak/email/WhatsApp melalui dua mesin. Instagram langsung mengalami throttling. Angka 0818328305 pada artikel merupakan milik COMFYDENT, bukan Fransiska, sehingga tidak dipakai. Jam direktori belum dikonfirmasi praktik dan tidak dianggap jadwal dokter. Poltekkes.web.id adalah direktori nonresmi. Layanan merupakan keterangan direktori, belum diverifikasi melalui kanal praktik; kartu konten administratif tidak menambah klaim tindakan. harga belum tersedia. Rating/ulasan Maps tidak terlihat langsung sehingga null. Tidak menghubungi klinik. Draf outreach hanya digunakan setelah konsep diterbitkan dan PDF tersedia.",
   "sumber": [
     "https://idalamat.com/alamat/drg-fransiska-andriani-spkg-1062220",
-    "https://pjm.poltekkes-surabaya.ac.id/wp-content/uploads/2021/01/5.-LAPORAN-TRACER-STUDI-2023_LULUSAN-2022.pdf"
-  ],
-  "verifikasi_manual": [
-    {
-      "path": "nama",
-      "tercatat": "drg. Fransiska Andriani, Sp.KG",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "instagram",
-      "tercatat": "https://www.instagram.com/fransiska_andriani83/",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].alamat",
-      "tercatat": "Taman Pinang Indah D3 No.2, Lemahputro, Sidoarjo, Jawa Timur 61213",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].telepon",
-      "tercatat": "62318950521",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].jam",
-      "tercatat": "Senin–Jumat 08.00–10.00 dan 16.00–20.00; Sabtu–Minggu tutup (direktori)",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    }
+    "https://poltekkes.web.id/dokter-gigi-sidoarjo/"
   ]
 }
