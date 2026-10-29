@@ -1,0 +1,142 @@
+{
+  "id": "W2355",
+  "hero": {
+    "judul": {
+      "id": "Informasi Praktik drg. Supratman",
+      "en": "Drg. Supratman Practice Information"
+    },
+    "sub": {
+      "id": "Temukan lokasi praktik di Cikarang Selatan dan informasi untuk menanyakan jadwal perawatan.",
+      "en": "Find the practice in South Cikarang and information for checking care appointments."
+    },
+    "cta": {
+      "id": "Konfirmasi Jadwal Praktik",
+      "en": "Confirm Practice Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan pilihan pemeriksaan yang sesuai.",
+        "en": "Discuss dental concerns and appropriate examination options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Konsultasikan kondisi gigi sebelum menentukan perlunya pencabutan.",
+        "en": "Discuss your tooth condition before considering extraction."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan gigi berlubang dan pilihan penambalan.",
+        "en": "Ask about cavity assessment and filling options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Gigi tiruan",
+        "en": "Dentures"
+      },
+      "ringkas": {
+        "id": "Diskusikan pilihan penggantian gigi yang hilang sesuai kondisi.",
+        "en": "Discuss replacement options for missing teeth."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan tindakan pembersihan karang gigi.",
+        "en": "Ask about examination and scaling availability."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Dua Sesi Praktik",
+      "en": "Two-Session Practice Guide"
+    },
+    "penjelasan": {
+      "id": "Lihat sesi praktik yang tercantum dan konfirmasikan jadwal melalui kontak sebelum berkunjung.",
+      "en": "View the listed sessions and confirm hours by contacting the practice before visiting."
+    },
+    "alasan_dipilih": "Terdapat perbedaan jadwal antar direktori sehingga konfirmasi jadwal penting."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice?"
+      },
+      "a": {
+        "id": "Di Jl. Raya Serang–Cibarusah No.168, Sukadami, Cikarang Selatan.",
+        "en": "At Jl. Raya Serang–Cibarusah No.168, Sukadami, South Cikarang."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Salah satu direktori mencantumkan dua sesi Senin–Jumat, 09.00–11.00 dan 15.00–18.00. Karena sumber lain berbeda, konfirmasikan jadwal.",
+        "en": "One directory lists two sessions Monday–Friday, 9–11 AM and 3–6 PM. Other listings differ, so please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum tersedia. Silakan tanyakan biaya setelah menyampaikan kebutuhan pemeriksaan.",
+        "en": "An official fee list is not available. Ask for fees based on your examination needs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Praktik tercantum dalam daftar penyedia dental tertentu, tetapi cakupan polis harus dikonfirmasi langsung.",
+        "en": "The practice appears in a dental provider list, but policy coverage must be confirmed."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu membuat janji?",
+        "en": "Should I book an appointment?"
+      },
+      "a": {
+        "id": "Sebaiknya hubungi kontak praktik untuk memastikan jam dan ketersediaan pemeriksaan.",
+        "en": "Contact the practice to confirm hours and appointment availability."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Praktik",
+    "en": "Ask About the Practice"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan jadwal praktik drg. Supratman dan menanyakan ketersediaan konsultasi gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi praktik drg. Supratman di Cikarang Selatan, termasuk jadwal dua sesi pada hari kerja. Kami menyiapkan konsep website untuk memudahkan pasien melihat lokasi, informasi perawatan, dan mengonfirmasi jadwal. Konsepnya dapat dilihat di https://maxigrowthstudio.com/drg-supratman. Jika berkenan, kami menerima masukan dari pihak praktik. Terima kasih.",
+    "email_subjek": "Konsep website untuk praktik drg. Supratman",
+    "email_isi": "Yth. Pengelola Praktik drg. Supratman,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi lokasi praktik di Cikarang Selatan dan jadwal dua sesi yang tercantum pada direktori publik.\n\nKami telah menyiapkan konsep website untuk memudahkan pasien menemukan informasi lokasi, jadwal, dan kontak praktik. Konsep dapat ditinjau di https://maxigrowthstudio.com/drg-supratman. Proposal PDF terlampir untuk pertimbangan pihak praktik.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

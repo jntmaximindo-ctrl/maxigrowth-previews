@@ -1,0 +1,132 @@
+{
+  "id": "W2352",
+  "hero": {
+    "judul": {
+      "id": "Informasi Klinik Nadhifa Al Ghiffari",
+      "en": "Klinik Nadhifa Al Ghiffari Information"
+    },
+    "sub": {
+      "id": "Lokasi Bojongsoang dan panduan menanyakan layanan serta jadwal.",
+      "en": "Bojongsoang location and a guide to asking about services and hours."
+    },
+    "cta": {
+      "id": "Konfirmasi Informasi Klinik",
+      "en": "Confirm Clinic Information"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi konsultasi kesehatan",
+        "en": "Health consultation inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan sebelum berkunjung.",
+        "en": "Ask about availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan gigi",
+        "en": "Dental examination inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan sebelum berkunjung.",
+        "en": "Ask about availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pemeriksaan keluarga",
+        "en": "Family check-up inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan sebelum berkunjung.",
+        "en": "Ask about availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi jadwal dokter",
+        "en": "Doctor schedule inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan sebelum berkunjung.",
+        "en": "Ask about availability before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pertanyaan Klinik",
+      "en": "Clinic Questions Guide"
+    },
+    "penjelasan": {
+      "id": "Siapkan pertanyaan layanan, jadwal, dan biaya untuk klinik.",
+      "en": "Prepare questions about services, hours, and fees."
+    },
+    "alasan_dipilih": "Jenis layanan dan jadwal belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Data CARI mencantumkan Jl. GBA 2 No.30 Blok C4, Cipagalo, Bojongsoang. Mohon konfirmasi.",
+        "en": "The research file lists Jl. GBA 2 No.30 Blok C4, Cipagalo, Bojongsoang. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apa layanan yang tersedia?",
+        "en": "Which services are available?"
+      },
+      "a": {
+        "id": "Jenis layanan belum diverifikasi. Tanyakan langsung kepada klinik.",
+        "en": "Services have not been verified. Please ask the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jadwal dokter?",
+        "en": "What are the doctors' hours?"
+      },
+      "a": {
+        "id": "Jadwal belum ditemukan. Silakan hubungi kontak klinik.",
+        "en": "Hours have not been found. Please contact the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much does an examination cost?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia. Tanyakan biaya sesuai kebutuhan.",
+        "en": "An official fee list is not available. Ask about costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi.",
+        "en": "Insurance arrangements have not been found. Please confirm."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Ketersediaan Layanan",
+    "en": "Ask About Service Availability"
+  },
+  "pesan_wa_default": "Halo, apakah ini kontak Klinik Nadhifa Al Ghiffari? Saya ingin menanyakan jadwal dan layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Kami menemukan informasi Klinik Nadhifa Al Ghiffari di Bojongsoang dan menyiapkan konsep website untuk memudahkan pasien menemukan lokasi dan kontak. Konsepnya ada di https://maxigrowthstudio.com/nadhifa-al. Kami terbuka menerima koreksi informasi. Terima kasih.",
+    "email_subjek": "Konsep website untuk Klinik Nadhifa Al Ghiffari",
+    "email_isi": "Yth. Pengelola Klinik Nadhifa Al Ghiffari,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website informasi klinik yang dapat ditinjau di https://maxigrowthstudio.com/nadhifa-al. Proposal PDF terlampir untuk pertimbangan dan koreksi informasi.\n\nTerima kasih.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "W2359",
+  "hero": {
+    "judul": {
+      "id": "Informasi Perawatan Gigi di Sumedang",
+      "en": "Dental Care Information in Sumedang"
+    },
+    "sub": {
+      "id": "Kenali lokasi Sumedang Dental Care dan cara menanyakan jadwal pemeriksaan.",
+      "en": "Find Sumedang Dental Care's location and how to ask about appointments."
+    },
+    "cta": {
+      "id": "Tanyakan Jadwal Kunjungan",
+      "en": "Ask About Appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Konsultasi gigi",
+        "en": "Dental consultation"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan untuk keluhan gigi dan langkah perawatan yang sesuai.",
+        "en": "Ask about an examination for dental concerns and suitable care options."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pembersihan karang gigi",
+        "en": "Teeth scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan tindakan pembersihan karang gigi dan jadwalnya.",
+        "en": "Ask about scaling availability and appointment times."
+      }
+    },
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Diskusikan kondisi gigi berlubang dan apakah penambalan diperlukan.",
+        "en": "Discuss cavities and whether a filling may be appropriate."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan sebelum menentukan kebutuhan pencabutan.",
+        "en": "Ask about an assessment before deciding whether extraction is necessary."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Reservasi Perawatan",
+      "en": "Care Appointment Guide"
+    },
+    "penjelasan": {
+      "id": "Pilih kebutuhan konsultasi dan siapkan pertanyaan sebelum menghubungi klinik untuk jadwal.",
+      "en": "Select a consultation topic and prepare questions before contacting the clinic about availability."
+    },
+    "alasan_dipilih": "Direktori menyarankan reservasi lebih dahulu, sedangkan jam praktik belum dipastikan."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi klinik?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Di Jl. Mayor Abdurahman No.194, Kotakaler, Sumedang Utara.",
+        "en": "At Jl. Mayor Abdurahman No.194, Kotakaler, Sumedang Utara."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah perlu reservasi?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "id": "Direktori menyarankan membuat janji terlebih dahulu. Silakan konfirmasi prosedur pendaftaran melalui kontak klinik.",
+        "en": "A directory recommends booking ahead. Please confirm the booking process with the clinic."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam buka?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam operasional terkini belum dapat dipastikan. Tanyakan jadwal sebelum datang.",
+        "en": "Current opening hours have not been verified. Please ask before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana mengetahui biaya?",
+        "en": "How can I check treatment fees?"
+      },
+      "a": {
+        "id": "Daftar harga resmi belum ditemukan. Hubungi klinik untuk menanyakan biaya sesuai pemeriksaan.",
+        "en": "An official fee list was not found. Contact the clinic for fees relevant to your examination."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Does the clinic accept insurance?"
+      },
+      "a": {
+        "id": "Informasi kerja sama asuransi belum ditemukan. Silakan konfirmasi terlebih dahulu.",
+        "en": "Insurance arrangements were not found. Please confirm in advance."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi Klinik untuk Informasi Layanan",
+    "en": "Contact the Clinic About Services"
+  },
+  "pesan_wa_default": "Halo Sumedang Dental Care, saya ingin menanyakan jadwal konsultasi gigi dan ketersediaan layanan. Mohon informasinya, terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Saya menemukan informasi Sumedang Dental Care di Jl. Mayor Abdurahman No.194, termasuk anjuran reservasi sebelum datang. Kami menyiapkan konsep website yang membantu pasien melihat informasi lokasi, layanan, dan cara menghubungi klinik. Konsepnya ada di https://maxigrowthstudio.com/sumedang. Jika berkenan, kami terbuka untuk masukan dari manajemen. Terima kasih.",
+    "email_subjek": "Konsep website untuk Sumedang Dental Care",
+    "email_isi": "Yth. Manajemen Sumedang Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi klinik di Jl. Mayor Abdurahman No.194 dan anjuran untuk melakukan reservasi sebelum kunjungan.\n\nKami telah menyiapkan konsep website yang memudahkan pasien melihat lokasi, informasi perawatan, dan akses kontak. Konsep dapat ditinjau di https://maxigrowthstudio.com/sumedang. Proposal PDF terlampir untuk pertimbangan pihak manajemen.\n\nTerima kasih atas waktunya.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}

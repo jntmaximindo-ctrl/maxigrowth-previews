@@ -1,0 +1,132 @@
+{
+  "id": "W2353",
+  "hero": {
+    "judul": {
+      "id": "Informasi Ranum Dental Care",
+      "en": "Ranum Dental Care Information"
+    },
+    "sub": {
+      "id": "Lokasi Padalarang dan panduan konfirmasi jadwal serta layanan.",
+      "en": "Padalarang location and a guide to confirming hours and services."
+    },
+    "cta": {
+      "id": "Konfirmasi Jadwal",
+      "en": "Confirm Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Informasi konsultasi gigi",
+        "en": "Dental consultation inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini sebelum berkunjung.",
+        "en": "Ask about this service before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pembersihan karang gigi",
+        "en": "Teeth scaling inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini sebelum berkunjung.",
+        "en": "Ask about this service before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi penambalan gigi",
+        "en": "Dental fillings inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini sebelum berkunjung.",
+        "en": "Ask about this service before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Informasi pencabutan gigi",
+        "en": "Tooth extraction inquiry"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan layanan ini sebelum berkunjung.",
+        "en": "Ask about this service before visiting."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Panduan Pertanyaan",
+      "en": "Questions Guide"
+    },
+    "penjelasan": {
+      "id": "Tanyakan layanan, jadwal, dan biaya melalui kontak yang tersedia.",
+      "en": "Ask about services, hours, and fees using the listed contact."
+    },
+    "alasan_dipilih": "Detail layanan belum terverifikasi."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana alamat Ranum Dental Care?",
+        "en": "Where is Ranum Dental Care?"
+      },
+      "a": {
+        "id": "Data CARI mencantumkan Jl. Letkol G.A. Manulang No.66A, Padalarang. Konfirmasikan sebelum datang.",
+        "en": "The research file lists Jl. Letkol G.A. Manulang No.66A, Padalarang. Please confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktik?",
+        "en": "What are the hours?"
+      },
+      "a": {
+        "id": "Jadwal belum ditemukan. Hubungi praktik untuk konfirmasi.",
+        "en": "Hours have not been found. Contact the practice to confirm."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah ada layanan scaling?",
+        "en": "Is scaling available?"
+      },
+      "a": {
+        "id": "Ketersediaan belum diverifikasi. Tanyakan kepada praktik.",
+        "en": "Availability has not been verified. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya konsultasi?",
+        "en": "How much is a consultation?"
+      },
+      "a": {
+        "id": "Harga resmi belum tersedia. Tanyakan biaya sesuai kebutuhan.",
+        "en": "An official fee list is not available. Please ask about costs."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi asuransi belum ditemukan. Silakan konfirmasi.",
+        "en": "Insurance information has not been found. Please confirm."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan Informasi Praktik",
+    "en": "Ask About Practice Information"
+  },
+  "pesan_wa_default": "Halo, apakah ini kontak Ranum Dental Care? Saya ingin menanyakan jadwal dan layanan yang tersedia. Terima kasih.",
+  "outreach": {
+    "wa": "Halo, saya Rizqi dari Maxi Growth Studio. Kami menemukan informasi Ranum Dental Care di Padalarang dan menyiapkan konsep website untuk memudahkan pasien menemukan lokasi dan kontak. Konsepnya ada di https://maxigrowthstudio.com/ranum. Kami terbuka untuk koreksi informasi dan masukan. Terima kasih.",
+    "email_subjek": "Konsep website untuk Ranum Dental Care",
+    "email_isi": "Yth. Pengelola Ranum Dental Care,\n\nSaya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menyiapkan konsep website informasi praktik yang dapat ditinjau di https://maxigrowthstudio.com/ranum. Proposal PDF terlampir untuk pertimbangan dan koreksi informasi.\n\nTerima kasih.\n\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\nWA 082141004400\ninfo@maxigrowthstudio.com"
+  }
+}
