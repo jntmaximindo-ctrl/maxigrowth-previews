@@ -1,0 +1,50 @@
+{
+  "id": "W1161",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Octa Dental Smile | Praktik Dokter Gigi Bukittinggi",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bypass Aur Kuning, Simpang, Tabek Gadang, Aur Birugo Tigo Baleh, Bukittinggi, Sumatera Barat 26181",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282310008484",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1msnawiRiadT28LHRIieCNwOeMLoSOIug/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282310008484",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1msnawiRiadT28LHRIieCNwOeMLoSOIug/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"09-21\", \"sel\": \"09-21\", \"rab\": \"09-21\", \"kam\": \"09-21\", \"jum\": \"09-21\", \"sab\": \"09-21\", \"min\": \"09-17\"}",
+      "di_sumber": "sumber tidak bisa dibuka (halaman dinamis/medsos, tidak bisa dibaca statis); belum terverifikasi",
+      "src": "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU [nama]",
+    "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1msnawiRiadT28LHRIieCNwOeMLoSOIug/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1msnawiRiadT28LHRIieCNwOeMLoSOIug/view [cabang[0].wa]",
+    "https://www.google.com/maps/search/?api=1&query=Octa%20Dental%20Smile%20Bukittinggi&query_place_id=ChIJ230sL8A51S8Rnv418ZabtqU [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
