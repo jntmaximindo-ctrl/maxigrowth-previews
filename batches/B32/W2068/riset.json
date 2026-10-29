@@ -76,5 +76,22 @@
     "https://dpmptsp.slemankab.go.id/wp-content/uploads/2022/02/IZIN-TERBIT-JUNI.pdf",
     "https://caribisnis.id/dokter-gigi/yogyakarta/gamping/klinik-drg-ernawati-ratih-dewa-gamp-imp1",
     "https://bantuanbpjs.com/alamat-dan-kode-faskes-rumah-sakit-puskesmas-klinik-dokter-dan-apotek-di-kab-sleman-yogyakarta/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik drg. Ernawati Ratih Dewanti",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Gg. Patukan 1, Patukan, Ambarketawang, Gamping, Sleman, Daerah Istimewa Yogyakarta 55294",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Sabtu 16.00–20.00 menurut direktori; konfirmasi sebelum datang.",
+      "catatan": "sumber tidak bisa dibuka (ReadTimeout); belum terverifikasi"
+    }
   ]
 }

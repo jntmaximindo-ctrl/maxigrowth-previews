@@ -69,5 +69,27 @@
     "https://www.semuabis.com/dentist-drg-darjanki-sp-ort-031-5032040",
     "https://idalamat.com/alamat/dentist-drg-darjanki-sport-705597",
     "https://caribisnis.id/dokter-gigi/surabaya/gubeng/dokter-gigi-drg-darjanki-sp-or-gube-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dentist Drg. Darjanki, Sp.Ort.",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Bali No.7, Gubeng, Surabaya, Jawa Timur 60281",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "62315032040",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "Senin–Jumat 16.00–22.00; Sabtu dan Minggu tutup",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
