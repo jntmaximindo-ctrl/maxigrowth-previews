@@ -90,5 +90,32 @@
   "sumber": [
     "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
     "https://caribisnis.id/dokter-gigi/bandung/cihampelas/natama-medika-praktik-mandiri--ciha-imp1"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Natama Medika",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Blok G9 Kav.15, Jl. Raya Panyileukan, Komp. Bumi Panyileukan, Cipadung Kidul, Kec. Panyileukan, Kota Bandung, Jawa Barat 40614",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289626153549",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289626153549",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-13,17-20\", \"sel\": \"10-13,17-20\", \"rab\": \"10-13,17-20\", \"kam\": \"10-13,17-20\", \"jum\": \"10-13,17-20\", \"sab\": \"10-13,17-20\", \"min\": null}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

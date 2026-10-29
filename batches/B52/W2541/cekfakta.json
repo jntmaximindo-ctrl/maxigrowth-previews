@@ -1,0 +1,18 @@
+{
+  "id": "W2541",
+  "diperiksa": 4,
+  "beda": [
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Kalicacing, Kec. Sidomukti, Kota Salatiga, Jawa Tengah 50724",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dentalclinics.care/dental-clinic/puri-dhenta",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.dentalclinics.care/dental-clinic/puri-dhenta [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

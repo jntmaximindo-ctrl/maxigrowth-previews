@@ -1,0 +1,30 @@
+{
+  "id": "W2528",
+  "diperiksa": 7,
+  "beda": [
+    {
+      "path": "email",
+      "tercatat": "naysdentalclinic@gmail.com",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pegadaian No.86, Purwosari, Kec. Purwosari, Pasuruan, Jawa Timur 67162",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://naysdental.digman.co.id/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-12,16-20\", \"sel\": \"08-12,16-20\", \"rab\": \"08-12,16-20\", \"kam\": \"08-12,16-20\", \"jum\": \"08-12,16-20\", \"sab\": \"08-12,16-20\", \"min\": \"09-13\"}",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://naysdental.digman.co.id/",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

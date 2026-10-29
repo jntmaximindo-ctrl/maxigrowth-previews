@@ -108,5 +108,22 @@
     "https://naysdental.digman.co.id/",
     "https://idalamat.com/alamat/nays-dental-clinic-1062779",
     "https://www.dbs.id/id/iwov-resources/pdf/CHUBB-Dental-Provider-List-mar-2026.pdf?app=true"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "email",
+      "tercatat": "naysdentalclinic@gmail.com",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pegadaian No.86, Purwosari, Kec. Purwosari, Pasuruan, Jawa Timur 67162",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-12,16-20\", \"sel\": \"08-12,16-20\", \"rab\": \"08-12,16-20\", \"kam\": \"08-12,16-20\", \"jum\": \"08-12,16-20\", \"sab\": \"08-12,16-20\", \"min\": \"09-13\"}",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

@@ -130,5 +130,42 @@
     "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
     "https://bukutelepon.cybo.com/ID-biz/dokter-gigi-chandra-winata-dokter-gigi",
     "https://poltekkes.web.id/dokter-gigi-probolinggo/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Chandra Winata & Dokter Gigi Christian Putra",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Panglima Sudirman No.74, Tisnonegaran, Kec. Kanigaran, Kota Probolinggo, Jawa Timur 67211",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285289538940",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285289538940",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"07-21\", \"sel\": \"07-21\", \"rab\": \"07-21\", \"kam\": \"07-21\", \"jum\": \"07-21\", \"sab\": \"07-21\", \"min\": \"07-21\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Dokter Gigi Chandra Winata",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "Dokter Gigi Christian Putra",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

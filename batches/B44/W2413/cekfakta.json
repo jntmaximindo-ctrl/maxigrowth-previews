@@ -1,0 +1,34 @@
+{
+  "id": "W2413",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Gani Indrawan",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282122409756",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282122409756",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html [nama]",
+    "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html [cabang[0].telepon]",
+    "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html [cabang[0].wa]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

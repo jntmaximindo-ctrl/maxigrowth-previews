@@ -1,0 +1,20 @@
+{
+  "id": "W2507",
+  "diperiksa": 3,
+  "beda": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Ortodonti",
+      "di_sumber": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)",
+      "src": "https://klinikedelweiss.id/dental-oral-center",
+      "catatan": "perlu verifikasi manual; bisa juga karena halaman memuat data via JavaScript"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/drg-nawira-taufik-syamlan-sport-705455 [cabang[0].alamat]",
+    "https://idalamat.com/alamat/drg-nawira-taufik-syamlan-sport-705455 [cabang[0].telepon]",
+    "https://idalamat.com/alamat/drg-nawira-taufik-syamlan-sport-705455 [cabang[0].wa]"
+  ],
+  "kritis_ok": true,
+  "oleh": "robot-cek-fakta"
+}

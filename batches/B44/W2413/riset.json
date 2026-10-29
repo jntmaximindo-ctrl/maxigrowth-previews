@@ -71,5 +71,22 @@
     "https://www.yellowpages.net/phone-62-82122409756-dentist-Kota-SBY-IDEN2571681.html",
     "https://www.dentaland.id/location",
     "https://www.dentaland.id/about-us"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Gani Indrawan",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282122409756",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282122409756",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

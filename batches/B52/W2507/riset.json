@@ -98,5 +98,12 @@
     "https://klinikedelweiss.id/dental-oral-center",
     "https://www.alodokter.com/cari-dokter/drg-nawira-taufik-syamlan-sport",
     "https://idalamat.com/alamat/drg-nawira-taufik-syamlan-sport-705455"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "dokter[0].spesialis",
+      "tercatat": "Ortodonti",
+      "catatan": "nilai tidak ditemukan pada teks halaman (pemeriksa otomatis)"
+    }
   ]
 }

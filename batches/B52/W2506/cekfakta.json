@@ -1,0 +1,50 @@
+{
+  "id": "W2506",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (JDC - Jatiendah Dental Care)",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pasirjati Utama No.F1 No.3, Jatiendah, Kec. Cilengkrang, Kabupaten Bandung, Jawa Barat 40616",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287781584562",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287781584562",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-12,16-20\", \"sel\": \"08-12,16-20\", \"rab\": \"08-12,16-20\", \"kam\": \"08-12,16-20\", \"jum\": \"08-12,16-20\", \"sab\": \"08-12,16-20\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/ [nama]",
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/ [cabang[0].alamat]",
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/ [cabang[0].telepon]",
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/ [cabang[0].wa]",
+    "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/ [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

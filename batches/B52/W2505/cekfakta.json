@@ -1,0 +1,50 @@
+{
+  "id": "W2505",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Gigi Natama Medika",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Blok G9 Kav.15, Jl. Raya Panyileukan, Komp. Bumi Panyileukan, Cipadung Kidul, Kec. Panyileukan, Kota Bandung, Jawa Barat 40614",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6289626153549",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6289626153549",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10-13,17-20\", \"sel\": \"10-13,17-20\", \"rab\": \"10-13,17-20\", \"kam\": \"10-13,17-20\", \"jum\": \"10-13,17-20\", \"sab\": \"10-13,17-20\", \"min\": null}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika [nama]",
+    "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika [cabang[0].alamat]",
+    "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika [cabang[0].telepon]",
+    "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika [cabang[0].wa]",
+    "https://bukutelepon.cybo.com/ID-biz/klinik-gigi-natama-medika [cabang[0].jam]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

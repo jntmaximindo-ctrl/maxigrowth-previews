@@ -1,0 +1,66 @@
+{
+  "id": "W2537",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Dokter Gigi Chandra Winata & Dokter Gigi Christian Putra",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Raya Panglima Sudirman No.74, Tisnonegaran, Kec. Kanigaran, Kota Probolinggo, Jawa Timur 67211",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6285289538940",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6285289538940",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"07-21\", \"sel\": \"07-21\", \"rab\": \"07-21\", \"kam\": \"07-21\", \"jum\": \"07-21\", \"sab\": \"07-21\", \"min\": \"07-21\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "Dokter Gigi Chandra Winata",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[1].nama",
+      "tercatat": "Dokter Gigi Christian Putra",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [nama]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [cabang[0].alamat]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [cabang[0].telepon]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [cabang[0].wa]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [cabang[0].jam]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [dokter[0].nama]",
+    "https://idalamat.com/alamat/1062731/dokter-gigi-chandra-winata-dokter-gigi-christian-putra-probolinggo-jawa-timur [dokter[1].nama]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

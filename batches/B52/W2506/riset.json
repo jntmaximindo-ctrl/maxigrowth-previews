@@ -87,5 +87,32 @@
     "https://www.ulastempat.com/daftar-dokter-gigi-unggulan-di-mandalajati/",
     "https://caribisnis.id/dokter-gigi/bandung/cihampelas/praktek-dokter-gigi-jdc-jatien-ciha-imp1",
     "https://www.waze.com/live-map/directions/id/jawa-barat/praktek-dokter-gigi-%28jdc-jatiendah-dental-care%29?to=place.ChIJu7i6PrHdaC4Rlx7ujz5d_n0"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Praktek Dokter Gigi (JDC - Jatiendah Dental Care)",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Pasirjati Utama No.F1 No.3, Jatiendah, Kec. Cilengkrang, Kabupaten Bandung, Jawa Barat 40616",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6287781584562",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6287781584562",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"08-12,16-20\", \"sel\": \"08-12,16-20\", \"rab\": \"08-12,16-20\", \"kam\": \"08-12,16-20\", \"jum\": \"08-12,16-20\", \"sab\": \"08-12,16-20\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }
