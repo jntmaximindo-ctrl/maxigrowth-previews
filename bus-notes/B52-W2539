@@ -33,7 +33,7 @@ RISET LAMA:
         "yakin": "sedang"
       },
       "telepon": {
-        "v": "(0298) 329898",
+        "v": "62298329898",
         "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
         "tgl": "2026-10-29",
         "yakin": "sedang"
@@ -45,51 +45,35 @@ RISET LAMA:
         "yakin": "rendah"
       },
       "jam": {
-        "v": {
-          "sen": "16:30-20:30",
-          "sel": "16:30-20:30",
-          "rab": "16:30-20:30",
-          "kam": "16:30-20:30",
-          "jum": "15:30-20:30",
-          "sab": "15:30-19:30",
-          "min": "tutup"
-        },
-        "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+        "v": null,
+        "src": null,
         "tgl": "2026-10-29",
         "yakin": "rendah"
       },
-      "maps_url": null
+      "maps_url": ""
     }
   ],
   "dokter": [],
-  "layanan": [
-    "Pemeriksaan dan konsultasi (ketersediaan perlu konfirmasi)",
-    "Pembersihan gigi (ketersediaan perlu konfirmasi)",
-    "Perawatan gigi (ketersediaan perlu konfirmasi)",
-    "Jadwal kontrol (ketersediaan perlu konfirmasi)"
-  ],
+  "layanan": [],
   "harga": [],
   "fasilitas": [],
   "asuransi": [],
   "maps": {
-    "rating": 3.6,
-    "ulasan": 16,
-    "src": "https://idalamat.com/alamat/nadia-dental-care-1061750",
+    "rating": null,
+    "ulasan": null,
+    "src": null,
     "tgl": "2026-10-29"
   },
-  "keunggulan": [
-    "Panduan jam praktik sore — konsep fitur berbasis informasi lokasi/jadwal publik"
-  ],
+  "keunggulan": [],
   "situs_lama": [
     "Situs web resmi mandiri belum terverifikasi dalam penelusuran",
     "Informasi lokasi, jadwal dan kontak tersebar di direktori"
   ],
   "ide_fitur_khas": "Panduan jam praktik sore",
-  "catatan": "harga belum tersedia. Nomor ponsel/WA tidak ditemukan; tersedia nomor telepon tetap. Email tidak ditemukan setelah menelusuri https://idalamat.com/alamat/nadia-dental-care-1061750, https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/, https://www.dentalclinics.care/dental-clinics/salatiga. Daftar layanan berupa topik untuk konfirmasi, bukan kepastian tersedia. Hanya nomor telepon tetap yang ditemukan; WA tidak diisi. Jadwal direktori berbeda antara sesi pagi/sore dan sore saja, perlu konfirmasi.",
+  "catatan": "harga belum tersedia. Revisi: hanya telepon tetap ditemukan pada Idalamat dan AlamatSehat; tidak dianggap WA. email tidak ditemukan setelah pencarian dan pembacaan dua direktori tersebut. Jam sumber berbeda sehingga null. Rating lama tidak dipakai karena Idalamat menampilkan rating lokal, bukan verifikasi Google Maps. Konten empat kategori administratif, bukan klaim tindakan tersedia. Tidak menghubungi klinik. Outreach hanya draf.",
   "sumber": [
     "https://idalamat.com/alamat/nadia-dental-care-1061750",
-    "https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/",
-    "https://www.dentalclinics.care/dental-clinics/salatiga"
+    "https://alamatsehat.com/klinik-gigi-praktek-dokter-gigi-di-salatiga/"
   ],
   "verifikasi_manual": [
     {
@@ -104,12 +88,7 @@ RISET LAMA:
     },
     {
       "path": "cabang[0].telepon",
-      "tercatat": "(0298) 329898",
-      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
-    },
-    {
-      "path": "cabang[0].jam",
-      "tercatat": "{\"sen\": \"16:30-20:30\", \"sel\": \"16:30-20:30\", \"rab\": \"16:30-20:30\", \"kam\": \"16:30-20:30\", \"jum\": \"15:30-20:30\", \"sab\": \"15:30-19:30\", \"min\": \"tutup\"}",
+      "tercatat": "62298329898",
       "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
     }
   ]
