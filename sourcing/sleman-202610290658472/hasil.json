@@ -1,0 +1,58 @@
+{
+ "kota": "Sleman",
+ "negara": "Indonesia",
+ "tanggal": "2026-10-29",
+ "habis": false,
+ "klinik": [],
+ "diperiksa": [
+  {
+   "nama": "Ommi Dental Clinic Kentungan",
+   "rating": 4.9,
+   "ulasan": 219,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/mlati/ommi-dental-clinic-kentungan-mlat-imp1",
+   "lokasi_pemeriksaan": "Mlati",
+   "duplikat_known": false
+  },
+  {
+   "nama": "SURDENT Aesthetic Dental Sleman",
+   "rating": 4.9,
+   "ulasan": 218,
+   "sumber": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+   "lokasi_pemeriksaan": "Ngaglik (tetangga)",
+   "duplikat_known": false
+  },
+  {
+   "nama": "Dental Clinic drg. Purnami Apriati H",
+   "rating": 5,
+   "ulasan": 4,
+   "sumber": "https://bukutelepon.cybo.com/ID/sleman-sleman/dokter-gigi",
+   "lokasi_pemeriksaan": "Ngaglik (tetangga)",
+   "duplikat_known": false
+  },
+  {
+   "nama": "Klinik Gigi drg. Dhani",
+   "rating": 4.8,
+   "ulasan": 32,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/ngaglik/klinik-gigi-drg-dhani-ngag-imp1",
+   "lokasi_pemeriksaan": "Ngaglik (tetangga)",
+   "duplikat_known": false
+  },
+  {
+   "nama": "Praktek Dokter Gigi Eka Ratna Sari",
+   "rating": 4.7,
+   "ulasan": 3,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/ngaglik/praktek-dokter-gigi-eka-ratna--ngag-imp1",
+   "lokasi_pemeriksaan": "Ngaglik (tetangga)",
+   "duplikat_known": false
+  },
+  {
+   "nama": "ODO Dental Clinic",
+   "rating": 5,
+   "ulasan": 168,
+   "sumber": "https://caribisnis.id/dokter-gigi/yogyakarta/sleman/odo-dental-clinic-slem-imp1",
+   "lokasi_pemeriksaan": "Sleman (tetangga)",
+   "duplikat_known": false
+  }
+ ],
+ "catatan": "Enam praktik gigi nyata bersumber dari direktori daring dengan nilai rating/ulasan tercantum. Nama kandidat diperiksa terhadap KNOWN-KLINIK.txt secara exact-substring (bukan audit alias/domain menyeluruh); nama yang cocok dikeluarkan. Klinik di kecamatan tetangga ditandai secara eksplisit. Belum audit website, kontak WA, dan skor_jadul sehingga kandidat belum dipindahkan ke klinik."
+}
