@@ -1,0 +1,43 @@
+{
+  "id": "W2350",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Yellow Dental Care Bojongsoang",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Indah Residence, Jl. Ciganitri, Cipagalo, Bojongsoang, Kabupaten Bandung, Jawa Barat, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628112091910",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628112091910",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [nama]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [cabang[0].wa]",
+    "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.google.com/maps/search/?api=1&query=Yellow+Dental+Care+Bojongsoang",
     "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Yellow Dental Care Bojongsoang",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Indah Residence, Jl. Ciganitri, Cipagalo, Bojongsoang, Kabupaten Bandung, Jawa Barat, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "628112091910",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "628112091910",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

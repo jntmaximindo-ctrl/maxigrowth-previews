@@ -1,0 +1,43 @@
+{
+  "id": "W2353",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "Ranum Dental Care",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Letkol G.A. Manulang No.66A, Padalarang, Kabupaten Bandung Barat",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6282120700117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6282120700117",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi",
+      "src": "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view [nama]",
+    "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view [cabang[0].alamat]",
+    "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view [cabang[0].telepon]",
+    "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view [cabang[0].wa]",
+    "https://drive.google.com/file/d/1ARrljzYa5r0q3ZMmkZaECQGptVMV_reu/view [fakta tanpa nilai #1]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}

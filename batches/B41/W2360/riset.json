@@ -120,5 +120,42 @@
     "https://idalamat.com/alamat/drg-iting-mursyidah-hanum-1060411",
     "https://bukutelepon.cybo.com/ID/kabupaten-sumedang/dokter-gigi",
     "https://jatinangorekspres.com/2026/02/06/3-rekomendasi-dokter-gigi-terbaik-jatinangor-cek-gigimu-di-sini-aja/"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Iting Mursyidah Hanum",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ir. Soekarno No.161A, RT.03/RW.02, Cikeruh, Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281221988977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281221988977",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:00-12:00,16:30-19:00\", \"sel\": \"10:00-12:00,16:30-19:00\", \"rab\": \"10:00-12:00,16:30-19:00\", \"kam\": \"10:00-12:00,16:30-19:00\", \"jum\": \"10:00-12:00,16:30-19:00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Iting Mursyidah Hanum",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"10:00-12:00,16:30-19:00\", \"sel\": \"10:00-12:00,16:30-19:00\", \"rab\": \"10:00-12:00,16:30-19:00\", \"kam\": \"10:00-12:00,16:30-19:00\", \"jum\": \"10:00-12:00,16:30-19:00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "catatan": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi"
+    }
   ]
 }

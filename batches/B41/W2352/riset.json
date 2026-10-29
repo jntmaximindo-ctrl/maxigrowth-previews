@@ -70,5 +70,27 @@
   "sumber": [
     "https://www.semuabis.com/klinik-nadhifa-al-ghiffari-0813-2145-1164",
     "https://drive.google.com/file/d/1UaMhPXLIzldu8h9erexDr9Ay2hNE7jWC/view"
+  ],
+  "verifikasi_manual": [
+    {
+      "path": "nama",
+      "tercatat": "Klinik Nadhifa Al Ghiffari",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. GBA 2 No.30 Blok C4, Cipagalo, Bojongsoang, Kabupaten Bandung, Jawa Barat, Indonesia",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281321451164",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281321451164",
+      "catatan": "sumber tidak bisa dibuka (HTTP 401); belum terverifikasi"
+    }
   ]
 }

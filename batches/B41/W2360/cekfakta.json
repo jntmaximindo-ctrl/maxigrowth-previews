@@ -1,0 +1,66 @@
+{
+  "id": "W2360",
+  "diperiksa": 0,
+  "beda": [
+    {
+      "path": "nama",
+      "tercatat": "drg. Iting Mursyidah Hanum",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].alamat",
+      "tercatat": "Jl. Ir. Soekarno No.161A, RT.03/RW.02, Cikeruh, Jatinangor, Kabupaten Sumedang, Jawa Barat 45363, Indonesia",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].telepon",
+      "tercatat": "6281221988977",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].wa",
+      "tercatat": "6281221988977",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "cabang[0].jam",
+      "tercatat": "{\"sen\": \"10:00-12:00,16:30-19:00\", \"sel\": \"10:00-12:00,16:30-19:00\", \"rab\": \"10:00-12:00,16:30-19:00\", \"kam\": \"10:00-12:00,16:30-19:00\", \"jum\": \"10:00-12:00,16:30-19:00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].nama",
+      "tercatat": "drg. Iting Mursyidah Hanum",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    },
+    {
+      "path": "dokter[0].jadwal",
+      "tercatat": "{\"sen\": \"10:00-12:00,16:30-19:00\", \"sel\": \"10:00-12:00,16:30-19:00\", \"rab\": \"10:00-12:00,16:30-19:00\", \"kam\": \"10:00-12:00,16:30-19:00\", \"jum\": \"10:00-12:00,16:30-19:00\", \"sab\": \"tutup\", \"min\": \"tutup\"}",
+      "di_sumber": "sumber tidak bisa dibuka (HTTP 403); belum terverifikasi",
+      "src": "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977",
+      "catatan": "tampil sebagai ✎ verifikasi di preview"
+    }
+  ],
+  "tidak_bisa_dibuka": [
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [nama]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [cabang[0].alamat]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [cabang[0].telepon]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [cabang[0].wa]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [cabang[0].jam]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [dokter[0].nama]",
+    "https://www.semuabis.com/drg-iting-mursyidah-hanum_1h-0812-2198-8977 [dokter[0].jadwal]"
+  ],
+  "kritis_ok": false,
+  "oleh": "robot-cek-fakta"
+}
