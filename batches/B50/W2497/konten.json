@@ -1,0 +1,132 @@
+{
+  "id": "W2497",
+  "hero": {
+    "judul": {
+      "id": "Ria Dental Care (Nagoya)",
+      "en": "Ria Dental Care (Nagoya)"
+    },
+    "sub": {
+      "id": "Informasi kunjungan cabang Nagoya, Batam.",
+      "en": "Visit information for the Nagoya branch, Batam."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Jadwal",
+        "en": "Appointments"
+      },
+      "ringkas": {
+        "id": "Tanyakan slot dokter sebelum datang.",
+        "en": "Ask about dentist availability before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Lokasi",
+        "en": "Location"
+      },
+      "ringkas": {
+        "id": "Konfirmasikan titik cabang Nagoya sebelum datang.",
+        "en": "Confirm the Nagoya branch location before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kebutuhan perawatan",
+        "en": "Care needs"
+      },
+      "ringkas": {
+        "id": "Sampaikan keluhan dan tanyakan layanan yang tersedia.",
+        "en": "Describe your concerns and ask about available care."
+      }
+    },
+    {
+      "nama": {
+        "id": "Biaya",
+        "en": "Fees"
+      },
+      "ringkas": {
+        "id": "Minta rincian biaya sebelum tindakan.",
+        "en": "Request a fee breakdown before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasi kunjungan Nagoya",
+      "en": "Confirm your Nagoya visit"
+    },
+    "penjelasan": {
+      "id": "Periksa cabang, tanggal, dan pertanyaan biaya sebelum melanjutkan reservasi.",
+      "en": "Check the branch, date, and fee questions before proceeding with a reservation."
+    },
+    "alasan_dipilih": "Website sudah memiliki reservasi; usulan melengkapi konfirmasi cabang."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Website menulis Ruko Inti Sakti Blok I No.8; direktori menulis Blok H. Minta titik lokasi dari petugas.",
+        "en": "The website lists Ruko Inti Sakti Block I No.8; a directory lists Block H. Ask the team for the location pin."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter tersedia?",
+        "en": "When is a dentist available?"
+      },
+      "a": {
+        "id": "Lihat jadwal pada website dan konfirmasikan ketersediaan dengan resepsionis.",
+        "en": "Check the website schedule and confirm availability with reception."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Gunakan reservasi website atau hubungi WhatsApp Nagoya 628117011800.",
+        "en": "Use the website reservation form or contact Nagoya on WhatsApp at 628117011800."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya setelah kebutuhan pemeriksaan diketahui.",
+        "en": "Prices are unavailable. Request a fee breakdown once assessment needs are known."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum ditemukan. Tanyakan cakupan dan dokumen yang diperlukan.",
+        "en": "This information is unavailable. Ask about coverage and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan informasi kunjungan",
+    "en": "Ask about your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan titik cabang Nagoya, jadwal dokter, dan biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Ria Dental Care Nagoya. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Website Anda sudah menyediakan reservasi; kami mengusulkan daftar periksa cabang Nagoya. Konsep direncanakan di https://maxigrowthstudio.com/ria. Pastikan tersedia sebelum draf digunakan. Kontak 082141004400.",
+    "email_subjek": "Konsep informasi cabang Nagoya",
+    "email_isi": "Draf: Yth. pengelola Ria Dental Care Nagoya. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan daftar periksa lokasi dan jadwal untuk melengkapi reservasi website Anda. Konsep direncanakan di https://maxigrowthstudio.com/ria. Pastikan konsep tersedia dan proposal PDF terlampir sebelum draf digunakan. Kontak: 082141004400, info@maxigrowthstudio.com."
+  }
+}

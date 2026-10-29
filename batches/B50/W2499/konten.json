@@ -1,0 +1,132 @@
+{
+  "id": "W2499",
+  "hero": {
+    "judul": {
+      "id": "Family Dental Care (drg. Helni RY dan drg. Tito R)",
+      "en": "Family Dental Care (drg. Helni RY dan drg. Tito R)"
+    },
+    "sub": {
+      "id": "Informasi kunjungan di Baloi Permai, Batam.",
+      "en": "Visit information for Baloi Permai, Batam."
+    },
+    "cta": {
+      "id": "Tanyakan jadwal",
+      "en": "Ask about appointments"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Penambalan gigi",
+        "en": "Dental fillings"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan sebelum tindakan.",
+        "en": "Ask about availability and assessment requirements before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Pencabutan gigi",
+        "en": "Tooth extraction"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan sebelum tindakan.",
+        "en": "Ask about availability and assessment requirements before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Scaling",
+        "en": "Dental scaling"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan sebelum tindakan.",
+        "en": "Ask about availability and assessment requirements before treatment."
+      }
+    },
+    {
+      "nama": {
+        "id": "Behel",
+        "en": "Braces"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan dan kebutuhan pemeriksaan sebelum tindakan.",
+        "en": "Ask about availability and assessment requirements before treatment."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Siapkan pertanyaan kunjungan",
+      "en": "Prepare your visit questions"
+    },
+    "penjelasan": {
+      "id": "Susun pertanyaan tentang lokasi, jadwal, perawatan, dan biaya untuk petugas.",
+      "en": "Prepare questions about location, appointments, care, and fees for the team."
+    },
+    "alasan_dipilih": "Usulan untuk mengonfirmasi jadwal yang berbeda antar sumber."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasinya?",
+        "en": "Where is the clinic?"
+      },
+      "a": {
+        "id": "Direktori mencantumkan Mega Legenda 2 Blok D3 No.19, Baloi Permai, Batam. Konfirmasikan titik lokasi sebelum datang.",
+        "en": "The directory lists Mega Legenda 2 Block D3 No.19, Baloi Permai, Batam. Confirm the location before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan dokter tersedia?",
+        "en": "When is a dentist available?"
+      },
+      "a": {
+        "id": "Jam antar sumber berbeda. Tanyakan jadwal dan waktu istirahat sebelum datang.",
+        "en": "Published hours differ. Ask about appointment times and breaks before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Bagaimana membuat janji?",
+        "en": "How can I book?"
+      },
+      "a": {
+        "id": "Hubungi nomor publik 6281372024321 untuk menanyakan jadwal.",
+        "en": "Contact the public number 6281372024321 to ask about appointments."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya perawatannya?",
+        "en": "What are the treatment fees?"
+      },
+      "a": {
+        "id": "Harga belum tersedia. Mintalah rincian biaya setelah kebutuhan pemeriksaan diketahui.",
+        "en": "Prices are unavailable. Request a fee breakdown once assessment needs are known."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah menerima asuransi?",
+        "en": "Is insurance accepted?"
+      },
+      "a": {
+        "id": "Informasi belum ditemukan. Tanyakan cakupan dan dokumen yang diperlukan.",
+        "en": "This information is unavailable. Ask about coverage and required documents."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Tanyakan informasi kunjungan",
+    "en": "Ask about your visit"
+  },
+  "pesan_wa_default": "Halo, saya ingin memastikan lokasi Mega Legenda 2, jadwal dokter, serta biaya pemeriksaan.",
+  "outreach": {
+    "wa": "Draf: Yth. pengelola Family Dental Care Baloi Permai. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan halaman konfirmasi lokasi Mega Legenda 2 dan jadwal. Konsep direncanakan di https://maxigrowthstudio.com/family; pastikan sudah tersedia sebelum pesan digunakan. Kontak 082141004400.",
+    "email_subjek": "Konsep informasi Family Dental Care Batam",
+    "email_isi": "Draf: Yth. pengelola Family Dental Care Baloi Permai. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami mengusulkan informasi lokasi Mega Legenda 2 serta penyusun pertanyaan kunjungan. Konsep direncanakan di https://maxigrowthstudio.com/family. Pastikan konsep tersedia dan proposal PDF terlampir sebelum draf digunakan. Kontak: 082141004400, info@maxigrowthstudio.com."
+  }
+}
