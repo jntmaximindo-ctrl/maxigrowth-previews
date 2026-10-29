@@ -1,0 +1,132 @@
+{
+  "id": "W2565",
+  "hero": {
+    "judul": {
+      "id": "Bam Zen Dental Care",
+      "en": "Bam Zen Dental Care"
+    },
+    "sub": {
+      "id": "Informasi lokasi dan cara menghubungi praktik gigi di Boyolali. Konfirmasi jadwal serta layanan sebelum datang.",
+      "en": "Location and contact information for a dental practice in Boyolali. Please confirm hours and services before visiting."
+    },
+    "cta": {
+      "id": "Tanya Jadwal Praktik",
+      "en": "Ask About Opening Hours"
+    }
+  },
+  "layanan": [
+    {
+      "nama": {
+        "id": "Pemeriksaan Gigi",
+        "en": "Dental Check-up Information"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan pemeriksaan dan jadwal kunjungan sebelum datang.",
+        "en": "Ask about check-up availability and appointment times before visiting."
+      }
+    },
+    {
+      "nama": {
+        "id": "Tambal Gigi",
+        "en": "Dental Filling Enquiries"
+      },
+      "ringkas": {
+        "id": "Konfirmasi apakah penambalan tersedia dan bagaimana proses konsultasinya.",
+        "en": "Confirm whether fillings are offered and how to arrange a consultation."
+      }
+    },
+    {
+      "nama": {
+        "id": "Cabut Gigi",
+        "en": "Tooth Extraction Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan pemeriksaan awal dan penanganan yang sesuai dengan kondisi gigi.",
+        "en": "Ask about an initial assessment and care options for your dental condition."
+      }
+    },
+    {
+      "nama": {
+        "id": "Kawat Gigi",
+        "en": "Braces Enquiries"
+      },
+      "ringkas": {
+        "id": "Tanyakan ketersediaan konsultasi ortodonti serta jadwal dokter yang menangani.",
+        "en": "Ask whether orthodontic consultations are available and which clinician provides them."
+      }
+    }
+  ],
+  "fitur_khas": {
+    "judul": {
+      "id": "Konfirmasi Jam Praktik",
+      "en": "Hours Confirmation Guide"
+    },
+    "penjelasan": {
+      "id": "Jadwal dari dua direktori berbeda; tampilkan tombol tanya jam kunjungan sebelum datang.",
+      "en": "Two directories disagree on hours; offer a quick way to confirm before visiting."
+    },
+    "alasan_dipilih": "Informasi jam praktik dan layanan masih memerlukan konfirmasi; fitur ini membantu pasien mengajukan pertanyaan sebelum berkunjung."
+  },
+  "faq": [
+    {
+      "q": {
+        "id": "Di mana lokasi praktik?",
+        "en": "Where is the practice located?"
+      },
+      "a": {
+        "id": "Jl. Candi, Karangnongko, Urutsewu, Kec. Ampel, Kabupaten Boyolali, Jawa Tengah 57352, Indonesia",
+        "en": "Jl. Candi, Karangnongko, Urutsewu, Kec. Ampel, Kabupaten Boyolali, Jawa Tengah 57352, Indonesia"
+      }
+    },
+    {
+      "q": {
+        "id": "Kapan jam praktiknya?",
+        "en": "What are the opening hours?"
+      },
+      "a": {
+        "id": "Jam praktik perlu dikonfirmasi karena dua direktori mencantumkan jadwal berbeda. Mohon konfirmasi sebelum datang.",
+        "en": "Please confirm opening hours; two directories show different schedules. Please confirm before visiting."
+      }
+    },
+    {
+      "q": {
+        "id": "Berapa biaya pemeriksaan?",
+        "en": "How much is a check-up?"
+      },
+      "a": {
+        "id": "Tarif resmi belum ditemukan. Hubungi praktik untuk informasi biaya terkini.",
+        "en": "Published prices were not found. Contact the practice for current fees."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia layanan tambal dan cabut gigi?",
+        "en": "Are fillings and extractions available?"
+      },
+      "a": {
+        "id": "Ketersediaan tindakan belum terkonfirmasi langsung. Silakan tanyakan saat menghubungi praktik.",
+        "en": "These treatments have not been confirmed directly. Please ask the practice."
+      }
+    },
+    {
+      "q": {
+        "id": "Apakah tersedia konsultasi behel?",
+        "en": "Can I ask about braces?"
+      },
+      "a": {
+        "id": "Silakan konfirmasi ketersediaan konsultasi behel serta dokter yang bertugas.",
+        "en": "Please confirm braces consultation availability and the clinician on duty."
+      }
+    }
+  ],
+  "cta": {
+    "id": "Hubungi praktik untuk informasi kunjungan",
+    "en": "Contact the practice to plan a visit"
+  },
+  "pesan_wa_default": "Halo Bam Zen Dental Care, saya ingin menanyakan jam praktik dan ketersediaan konsultasi gigi. Terima kasih.",
+  "outreach": {
+    "wa": "Selamat sore, Bapak/Ibu pengelola Bam Zen Dental Care. Saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Saya melihat informasi praktik di Jl. Candi, Ampel. Kami telah menyiapkan konsep website untuk ditinjau di https://maxigrowthstudio.com/bam-zen. Jika berkenan, silakan melihatnya kapan saja. Terima kasih.",
+    "email_subjek": "Konsep website untuk Bam Zen Dental Care",
+    "email_isi": "Yth. Pengelola Bam Zen Dental Care,\n\nPerkenalkan, saya Muhammad Rizqi Tri Andika dari Maxi Growth Studio. Kami menemukan informasi praktik Anda di direktori publik Boyolali dan menyiapkan konsep website yang membantu pasien melihat alamat, mengonfirmasi jam praktik, dan mengajukan pertanyaan sebelum kunjungan.\n\nKonsep dapat dilihat di https://maxigrowthstudio.com/bam-zen. Proposal PDF terlampir untuk ditinjau apabila berkenan. Informasi pada konsep masih perlu konfirmasi dari pihak praktik.\n\nTerima kasih atas waktunya.\nMuhammad Rizqi Tri Andika\nMaxi Growth Studio\n082141004400 | info@maxigrowthstudio.com"
+  }
+}
